@@ -1,25 +1,23 @@
 'use client'
-import { useTranslations } from 'next-intl'
+import { useTranslations, useMessages } from 'next-intl'
 import { useParams } from 'next/navigation'
-import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
-// Since this is a dynamic page with next-intl, metadata is handled via generateMetadata
-// This component is marked as 'use client' for proper i18n hook usage
-
 export default function BlogLectureTranscribePage() {
   const t = useTranslations('blog.lecture')
+  const messages = useMessages() as any
   const params = useParams()
   const locale = params.locale as string
 
-  // Calculate base path for canonical URL
+  const sections = messages?.blog?.lecture?.sections || []
+  const faqItems = messages?.blog?.lecture?.faq?.items || []
+
   const base = locale === 'en' ? '' : `/${locale}`
   const canonicalUrl = `https://lessonscriptor.com${base}/blog/how-to-transcribe-lecture-videos`
 
   return (
     <>
-      {/* Structured Data: JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
@@ -28,7 +26,7 @@ export default function BlogLectureTranscribePage() {
             '@type': 'HowTo',
             name: t('h1'),
             description: t('intro'),
-            step: JSON.parse(t('sections'))[2]?.steps?.map((step: string, idx: number) => ({
+            step: sections[2]?.steps?.map((step: string, idx: number) => ({
               '@type': 'HowToStep',
               position: idx + 1,
               name: `Step ${idx + 1}`,
@@ -44,14 +42,14 @@ export default function BlogLectureTranscribePage() {
           __html: JSON.stringify({
             '@context': 'https://schema.org',
             '@type': 'FAQPage',
-            mainEntity: JSON.parse(t('faq.items', {}))?.map((item: any) => ({
+            mainEntity: faqItems.map((item: any) => ({
               '@type': 'Question',
               name: item.q,
               acceptedAnswer: {
                 '@type': 'Answer',
                 text: item.a,
               },
-            })) || [],
+            })),
           }),
         }}
       />
@@ -86,7 +84,6 @@ export default function BlogLectureTranscribePage() {
         }}
       />
 
-      {/* Article Header */}
       <article className="max-w-3xl mx-auto px-4 py-12">
         <header className="mb-10">
           <div className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">
@@ -102,22 +99,19 @@ export default function BlogLectureTranscribePage() {
           </div>
         </header>
 
-        {/* AIO Answer Box */}
         <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg mb-10">
           <p className="text-gray-800 leading-relaxed">
             {t('intro')}
           </p>
         </div>
 
-        {/* Content Sections */}
         <div className="prose prose-lg max-w-none mb-12">
-          {JSON.parse(t('sections', '[]'))?.map((section: any, idx: number) => (
+          {sections.map((section: any, idx: number) => (
             <div key={idx} className="mb-12">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
                 {section.h2}
               </h2>
 
-              {/* Render steps as numbered list if present */}
               {section.steps ? (
                 <ol className="list-decimal list-inside space-y-4 mb-6">
                   {section.steps.map((step: string, stepIdx: number) => (
@@ -136,10 +130,7 @@ export default function BlogLectureTranscribePage() {
         </div>
       </article>
 
-      {/* FAQ Section */}
-      <FAQSection title={t('faq.title')} items={JSON.parse(t('faq.items', '[]'))} />
-
-      {/* CTA Section */}
+      <FAQSection title={t('faq.title')} items={faqItems} />
       <CTASection />
     </>
   )

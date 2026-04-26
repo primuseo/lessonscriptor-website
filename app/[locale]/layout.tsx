@@ -1,5 +1,5 @@
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages } from 'next-intl/server'
+import { getMessages, unstable_setRequestLocale } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import Navbar from '@/components/Navbar'
@@ -58,6 +58,7 @@ export default async function LocaleLayout({
   params: { locale: string }
 }) {
   if (!locales.includes(locale)) notFound()
+  unstable_setRequestLocale(locale)
   const messages = await getMessages()
 
   return (

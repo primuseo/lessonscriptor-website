@@ -1,6 +1,4 @@
-'use server'
-
-import { getTranslations, getLocale } from 'next-intl/server'
+import { getTranslations, getLocale, unstable_setRequestLocale } from 'next-intl/server'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import FAQSection from '@/components/FAQSection'
@@ -22,11 +20,11 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default async function HomePage() {
+export default async function HomePage({ params: { locale } }: { params: { locale: string } }) {
+  unstable_setRequestLocale(locale)
   const t = await getTranslations('home')
   const site = await getTranslations('site')
   const nav = await getTranslations('nav')
-  const locale = await getLocale()
   const base = locale === 'en' ? '' : `/${locale}`
 
   const structuredData = {
@@ -53,7 +51,7 @@ export default async function HomePage() {
   const faqData = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: t('faq.items').map((item: { q: string; a: string }) => ({
+    mainEntity: t.raw('faq.items').map((item: { q: string; a: string }) => ({
       '@type': 'Question',
       name: item.q,
       acceptedAnswer: {
@@ -118,7 +116,7 @@ export default async function HomePage() {
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
-            {t('pain.items').map((item: { icon: string; text: string }, i: number) => (
+            {t.raw('pain.items').map((item: { icon: string; text: string }, i: number) => (
               <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-md transition-shadow">
                 <div className="text-4xl mb-4">{item.icon}</div>
                 <p className="text-lg text-gray-700 font-medium">{item.text}</p>
@@ -136,7 +134,7 @@ export default async function HomePage() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {t('features.items').map(
+            {t.raw('features.items').map(
               (item: { icon: string; title: string; desc: string }, i: number) => (
                 <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-lg transition-shadow">
                   <div className="text-5xl mb-4">{item.icon}</div>
@@ -157,7 +155,7 @@ export default async function HomePage() {
           </h2>
 
           <div className="grid md:grid-cols-4 gap-6">
-            {t('howItWorks.steps').map(
+            {t.raw('howItWorks.steps').map(
               (step: { n: string; title: string; desc: string }, i: number) => (
                 <div key={i} className="relative">
                   <div className="card p-8 bg-white rounded-xl border border-gray-200 h-full">
@@ -202,7 +200,7 @@ export default async function HomePage() {
               </div>
 
               <ul className="space-y-3 mb-8">
-                {t('modes.free.items').map((item: string, i: number) => (
+                {t.raw('modes.free.items').map((item: string, i: number) => (
                   <li key={i} className="flex items-start gap-3 text-gray-700">
                     <svg className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -239,7 +237,7 @@ export default async function HomePage() {
                 </div>
 
                 <ul className="space-y-3 mb-8">
-                  {t('modes.premium.items').map((item: string, i: number) => (
+                  {t.raw('modes.premium.items').map((item: string, i: number) => (
                     <li key={i} className="flex items-start gap-3 text-gray-700">
                       <svg className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
@@ -266,7 +264,7 @@ export default async function HomePage() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {t('useCases.items').map(
+            {t.raw('useCases.items').map(
               (item: { icon: string; title: string; desc: string }, i: number) => (
                 <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-md transition-shadow">
                   <div className="text-5xl mb-4">{item.icon}</div>
@@ -280,7 +278,7 @@ export default async function HomePage() {
       </section>
 
       {/* FAQ */}
-      <FAQSection title={t('faq.title')} items={t('faq.items')} />
+      <FAQSection title={t('faq.title')} items={t.raw('faq.items')} />
 
       {/* CTA SECTION */}
       <CTASection />

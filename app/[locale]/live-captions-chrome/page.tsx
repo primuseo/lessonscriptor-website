@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
@@ -24,7 +24,8 @@ export default async function LiveCaptionsChromeP
 ({
 
  params: { locale } }: { params: { locale: string } }) {
-  const t = getTranslations('liveCaptions')
+  unstable_setRequestLocale(locale)
+  const t = await getTranslations('liveCaptions')
   const base = locale === 'en' ? '' : `/${locale}`
 
   const schemaSoftwareApp = {

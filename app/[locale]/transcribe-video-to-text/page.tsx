@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
@@ -20,8 +20,9 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 }
 
 export default async function TranscribeVideoToTextPage({ params: { locale } }: { params: { locale: string } }) {
-  const t = getTranslations('transcribeVideo')
-  const tHome = getTranslations('home')
+  unstable_setRequestLocale(locale)
+  const t = await getTranslations('transcribeVideo')
+  const tHome = await getTranslations('home')
   const base = locale === 'en' ? '' : `/${locale}`
 
   const schemaHowTo = {
