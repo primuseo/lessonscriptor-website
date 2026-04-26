@@ -1,0 +1,122 @@
+{
+  "site": {
+    "name": "Lessonscriptor",
+    "domain": "lessonscriptor.com",
+    "tagline": "KI-Live-Transkription für jedes Video in Chrome",
+    "description": "Transkribieren Sie jedes Video in Echtzeit in Chrome. Kostenloser Modus ohne Limits. Bearbeiten, markieren und exportieren Sie Ihre Notizen. Ideal für Studierende, Vorlesungen und Fernstudium.",
+    "installCTA": "Kostenlos installieren — Chrome-Erweiterung",
+    "learnMore": "Mehr erfahren",
+    "free": "Kostenlos",
+    "premium": "Premium",
+    "tryFree": "Kostenlos testen"
+  },
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "youtube": "YouTube",
+    "liveCaptions": "Live-Untertitel",
+    "transcribeVideo": "Video transkribieren",
+    "blog": "Blog",
+    "compare": "vs. Otter.ai"
+  },
+  "footer": {
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "languages": "Sprachen",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "github": "GitHub",
+    "support": "Support",
+    "copyright": "© 2026 Lessonscriptor. Kostenlos für Studierende, für immer.",
+    "tagline": "Hör auf zu schreiben. Fang an zu lernen."
+  },
+  "home": {
+    "hero": {
+      "badge": "Kostenlose Chrome-Erweiterung",
+      "h1": "KI-Live-Transkription für jedes Video in Chrome",
+      "subtitle": "Schaue Vorlesungen, Tutorials oder Meetings — und lass die KI alles in Echtzeit schreiben, direkt in deinem Browser. Bearbeiten, markieren und exportieren. Kein Abonnement.",
+      "cta1": "Kostenlos installieren",
+      "cta2": "So funktioniert es",
+      "socialProof": "Genutzt von Studierenden an über 50 Universitäten"
+    },
+    "pain": {
+      "title": "Hör auf, eine menschliche Transkriptionsmaschine zu sein",
+      "items": [
+        { "icon": "✋", "text": "Handkrämpfe vom stundenlangen Schreiben" },
+        { "icon": "🔁", "text": "Zurückspulen, um Gesagtes nachzuholen" },
+        { "icon": "📝", "text": "Unleserliche Notizen, die du nicht mehr lesen kannst" },
+        { "icon": "⏱️", "text": "Verschwendete Zeit mit Transkribieren statt Lernen" }
+      ]
+    },
+    "features": {
+      "title": "Alles, was du zum echten Lernen brauchst",
+      "items": [
+        { "icon": "🎙️", "title": "Echtzeit-Transkription", "desc": "Text erscheint, während das Video läuft — automatisch, ohne Einrichtung. Funktioniert mit YouTube, Coursera, Zoom, Udemy und jeder Videoplattform." },
+        { "icon": "✏️", "title": "Beim Zuschauen bearbeiten", "desc": "Klicke irgendwo, um Notizen hinzuzufügen, markiere in 5 Farben, fette Schlüsselkonzepte, lösche Abschweifungen." },
+        { "icon": "⏱️", "title": "Zeitstempel-Synchronisation", "desc": "Klicke auf einen Zeitstempel, um zu genau diesem Moment im Video zu springen." },
+        { "icon": "📤", "title": "Markdown-Export", "desc": "Exportiere mit deiner gesamten Formatierung direkt nach Notion, Obsidian oder Google Docs." },
+        { "icon": "🔒", "title": "Vollständig privat", "desc": "Kostenloser Modus: Audio verlässt dein Gerät nie. Premium-Modus: An die Grok-API gesendet und sofort gelöscht." },
+        { "icon": "🌍", "title": "14+ Sprachen", "desc": "Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Chinesisch, Japanisch, Koreanisch, Russisch, Arabisch, Hindi und mehr." }
+      ]
+    },
+    "modes": {
+      "title": "Zwei Modi — wähle, was für dich passt",
+      "free": {
+        "title": "Kostenloser Modus",
+        "badge": "Für immer kostenlos",
+        "price": "0 €",
+        "desc": "Nutzt dein Mikrofon, um Audio von deinen Lautsprechern aufzunehmen. Kein API-Schlüssel, keine Anmeldung, keine Kreditkarte.",
+        "items": ["100% kostenlos, für immer", "Kein Konto erforderlich", "14+ Sprachen", "Funktioniert offline nach Installation"]
+      },
+      "premium": {
+        "title": "Premium-Modus",
+        "badge": "Kein Abonnement",
+        "price": "~1 €/Std.",
+        "desc": "Erfasst Audio direkt vom Browser-Tab. Funktioniert mit Kopfhörern. Betrieben von Grok (xAI).",
+        "items": ["Funktioniert mit Kopfhörern", "Direkte Tab-Audio-Erfassung", "Video- und Transkript-Synchronisation", "Ganzes Semester ≈ 12 €"]
+      }
+    },
+    "howItWorks": {
+      "title": "In 60 Sekunden einsatzbereit",
+      "steps": [
+        { "n": "1", "title": "Erweiterung installieren", "desc": "Ein Klick im Chrome Web Store. Kein Konto erforderlich." },
+        { "n": "2", "title": "Beliebiges Video öffnen", "desc": "Gehe zu YouTube, Coursera, Zoom-Aufzeichnungen — jede Seite mit einem Video." },
+        { "n": "3", "title": "Abspielen drücken", "desc": "Lessonscriptor öffnet sich im Seitenbereich und beginnt automatisch zu transkribieren." },
+        { "n": "4", "title": "Bearbeiten und exportieren", "desc": "Markieren, fetten, löschen, eigene Notizen hinzufügen — dann als Markdown exportieren." }
+      ]
+    },
+    "useCases": {
+      "title": "Entwickelt für Lernende",
+      "items": [
+        { "icon": "🎓", "title": "Fernstudium", "desc": "Verpasse keine Details in aufgezeichneten Vorlesungen." },
+        { "icon": "🧠", "title": "ADHS und Fokus", "desc": "Ein schriftliches Protokoll, um sich neu zu fokussieren, wenn die Aufmerksamkeit nachlässt." },
+        { "icon": "♿", "title": "Barrierefreiheit", "desc": "Für Studierende mit Hör- oder Schreibschwierigkeiten." },
+        { "icon": "🌍", "title": "Internationale Studierende", "desc": "Auf Englisch transkribieren, in deiner Sprache lernen." },
+        { "icon": "🔬", "title": "Forschende", "desc": "Interviews, Dokumentationen und Präsentationen transkribieren." },
+        { "icon": "💼", "title": "Berufstätige", "desc": "Aufgezeichnete Meetings und Webinare mühelos erfassen." }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        { "q": "Funktioniert Lessonscriptor mit jedem Video?", "a": "Ja. Es funktioniert mit jedem Video, das in Chrome abgespielt wird: YouTube, Coursera, Udemy, Zoom-Aufzeichnungen, Uni-Portale und alle HTML5-Videos." },
+        { "q": "Gibt es eine kostenlose Version?", "a": "Ja, und sie ist für immer kostenlos ohne Limits. Der kostenlose Modus nutzt dein Mikrofon — kein API-Schlüssel, keine Anmeldung, keine Kreditkarte." },
+        { "q": "Ist es privat? Verlässt mein Audio mein Gerät?", "a": "Im kostenlosen Modus läuft die gesamte Audioverarbeitung lokal in deinem Browser — nichts verlässt je dein Gerät. Im Premium-Modus wird Audio zur Transkription an die Grok-API (xAI) gesendet und sofort gelöscht. Zero Tracking, Zero Analytics." },
+        { "q": "Was kostet der Premium-Modus?", "a": "Der Premium-Modus ist nutzungsabhängig — ca. 1 € pro Stunde. Credits sind in Paketen von 10 €, 20 € und 30 € erhältlich. Ein ganzes Semester mit 12 Stunden Vorlesungen kostet ca. 12 € — weniger als ein Lehrbuch." }
+      ]
+    }
+  },
+  "contact": {
+    "h1": "Kontakt",
+    "subtitle": "Hast du eine Frage, ein Feedback oder einen Fehler zu melden? Schreib uns.",
+    "name": "Dein Name",
+    "email": "Deine E-Mail-Adresse",
+    "subject": "Betreff",
+    "message": "Deine Nachricht",
+    "send": "Senden",
+    "success": "Nachricht gesendet. Wir antworten innerhalb von 48 Stunden.",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuche es erneut oder schreibe uns direkt an contact@lessonscriptor.com."
+  },
+  "privacy": { "h1": "Datenschutzerklärung", "lastUpdated": "Zuletzt aktualisiert: April 2026" },
+  "terms": { "h1": "Nutzungsbedingungen", "lastUpdated": "Zuletzt aktualisiert: April 2026" }
+}

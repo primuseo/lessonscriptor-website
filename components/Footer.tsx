@@ -1,0 +1,73 @@
+import { useTranslations } from 'next-intl'
+import Link from 'next/link'
+
+export default function Footer({ locale }: { locale: string }) {
+  const t = useTranslations('footer')
+  const base = locale === 'en' ? '' : `/${locale}`
+
+  return (
+    <footer className="bg-gray-950 text-gray-400 py-16 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+          {/* Brand */}
+          <div className="col-span-2 md:col-span-1">
+            <div className="text-white font-bold text-lg mb-2">Lessonscriptor</div>
+            <p className="text-sm leading-relaxed mb-4">{t('tagline')}</p>
+            <a
+              href="https://chrome.google.com/webstore"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block text-xs bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              Install Free
+            </a>
+          </div>
+
+          {/* Product */}
+          <div>
+            <div className="text-white font-semibold text-sm mb-4">{t('product')}</div>
+            <ul className="space-y-2 text-sm">
+              <li><Link href={`${base}/transcribe-youtube-video`} className="hover:text-white transition-colors">YouTube</Link></li>
+              <li><Link href={`${base}/live-captions-chrome`} className="hover:text-white transition-colors">Live Captions</Link></li>
+              <li><Link href={`${base}/transcribe-video-to-text`} className="hover:text-white transition-colors">Video to Text</Link></li>
+              <li><Link href={`${base}/compare/otter-ai-alternative`} className="hover:text-white transition-colors">vs Otter.ai</Link></li>
+            </ul>
+          </div>
+
+          {/* Resources */}
+          <div>
+            <div className="text-white font-semibold text-sm mb-4">{t('resources')}</div>
+            <ul className="space-y-2 text-sm">
+              <li><Link href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-white transition-colors">Blog</Link></li>
+              <li>
+                <a href="https://github.com/primuseo/chrome-video-live-transcription" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  {t('github')}
+                </a>
+              </li>
+              <li><Link href={`${base}/contact`} className="hover:text-white transition-colors">{t('support')}</Link></li>
+              <li><Link href={`${base}/privacy`} className="hover:text-white transition-colors">{t('privacy')}</Link></li>
+              <li><Link href={`${base}/terms`} className="hover:text-white transition-colors">{t('terms')}</Link></li>
+            </ul>
+          </div>
+
+          {/* Languages */}
+          <div>
+            <div className="text-white font-semibold text-sm mb-4">{t('languages')}</div>
+            <ul className="space-y-2 text-sm">
+              <li><Link href="/" className="hover:text-white transition-colors">English</Link></li>
+              <li><Link href="/fr" className="hover:text-white transition-colors">Français</Link></li>
+              <li><Link href="/es" className="hover:text-white transition-colors">Español</Link></li>
+              <li><Link href="/pt" className="hover:text-white transition-colors">Português</Link></li>
+              <li><Link href="/de" className="hover:text-white transition-colors">Deutsch</Link></li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="border-t border-gray-800 pt-8 text-xs text-gray-600 flex flex-col md:flex-row justify-between gap-4">
+          <p>{t('copyright')}</p>
+          <p>MIT License · Open source · No tracking · No cookies</p>
+        </div>
+      </div>
+    </footer>
+  )
+}

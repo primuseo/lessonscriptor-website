@@ -1,0 +1,122 @@
+{
+  "site": {
+    "name": "Lessonscriptor",
+    "domain": "lessonscriptor.com",
+    "tagline": "Transcrição IA ao vivo para qualquer vídeo no Chrome",
+    "description": "Transcreva qualquer vídeo em tempo real no Chrome. Modo gratuito sem limites. Edite, destaque e exporte suas anotações. Ideal para estudantes, aulas e ensino a distância.",
+    "installCTA": "Instalar grátis — Extensão do Chrome",
+    "learnMore": "Saiba mais",
+    "free": "Grátis",
+    "premium": "Premium",
+    "tryFree": "Experimentar grátis"
+  },
+  "nav": {
+    "features": "Funcionalidades",
+    "pricing": "Preços",
+    "youtube": "YouTube",
+    "liveCaptions": "Legendas ao vivo",
+    "transcribeVideo": "Transcrever vídeo",
+    "blog": "Blog",
+    "compare": "vs Otter.ai"
+  },
+  "footer": {
+    "product": "Produto",
+    "resources": "Recursos",
+    "languages": "Idiomas",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "github": "GitHub",
+    "support": "Suporte",
+    "copyright": "© 2026 Lessonscriptor. Grátis para estudantes, para sempre.",
+    "tagline": "Pare de escrever. Comece a aprender."
+  },
+  "home": {
+    "hero": {
+      "badge": "Extensão gratuita para Chrome",
+      "h1": "Transcrição IA ao vivo para qualquer vídeo no Chrome",
+      "subtitle": "Assista aulas, tutoriais ou reuniões — e deixe a IA escrever tudo em tempo real, diretamente no seu navegador. Edite, destaque e exporte. Sem assinaturas.",
+      "cta1": "Instalar grátis",
+      "cta2": "Ver como funciona",
+      "socialProof": "Usado por estudantes em mais de 50 universidades"
+    },
+    "pain": {
+      "title": "Pare de ser uma máquina de transcrição",
+      "items": [
+        { "icon": "✋", "text": "Cãibras na mão de escrever por horas" },
+        { "icon": "🔁", "text": "Rebobinar para recuperar o que foi dito" },
+        { "icon": "📝", "text": "Anotações ilegíveis que não consegue reler" },
+        { "icon": "⏱️", "text": "Tempo perdido transcrevendo em vez de aprendendo" }
+      ]
+    },
+    "features": {
+      "title": "Tudo o que precisa para aprender de verdade",
+      "items": [
+        { "icon": "🎙️", "title": "Transcrição em tempo real", "desc": "O texto aparece enquanto o vídeo toca — automaticamente, sem configuração. Funciona com YouTube, Coursera, Zoom, Udemy e qualquer plataforma de vídeo." },
+        { "icon": "✏️", "title": "Editar enquanto assiste", "desc": "Clique em qualquer lugar para adicionar notas, destaque em 5 cores, negrite conceitos-chave, elimine tangentes." },
+        { "icon": "⏱️", "title": "Sincronização de timestamps", "desc": "Clique em qualquer timestamp para saltar para esse momento exato no vídeo." },
+        { "icon": "📤", "title": "Exportar para Markdown", "desc": "Exporte com toda a sua formatação diretamente para o Notion, Obsidian ou Google Docs." },
+        { "icon": "🔒", "title": "Totalmente privado", "desc": "Modo gratuito: o áudio nunca sai do seu dispositivo. Modo premium: enviado para a API Grok e imediatamente eliminado." },
+        { "icon": "🌍", "title": "Mais de 14 idiomas", "desc": "Português, inglês, espanhol, francês, alemão, italiano, chinês, japonês, coreano, russo, árabe, hindi e mais." }
+      ]
+    },
+    "modes": {
+      "title": "Dois modos — escolha o que funciona para si",
+      "free": {
+        "title": "Modo gratuito",
+        "badge": "Grátis para sempre",
+        "price": "0 €",
+        "desc": "Usa o seu microfone para captar o áudio dos seus altifalantes. Sem chave API, sem registo, sem cartão de crédito.",
+        "items": ["100% grátis, para sempre", "Sem conta necessária", "Mais de 14 idiomas", "Funciona offline após instalação"]
+      },
+      "premium": {
+        "title": "Modo premium",
+        "badge": "Sem assinatura",
+        "price": "~1 €/h",
+        "desc": "Captura o áudio diretamente do separador do navegador. Funciona com auscultadores. Baseado em Grok (xAI).",
+        "items": ["Funciona com auscultadores", "Captura de áudio direta do separador", "Sincronização vídeo e transcrição", "Semestre completo ≈ 12 €"]
+      }
+    },
+    "howItWorks": {
+      "title": "Pronto em 60 segundos",
+      "steps": [
+        { "n": "1", "title": "Instale a extensão", "desc": "Um clique na Chrome Web Store. Sem conta necessária." },
+        { "n": "2", "title": "Abra qualquer vídeo", "desc": "Aceda ao YouTube, Coursera, gravações do Zoom — qualquer página com vídeo." },
+        { "n": "3", "title": "Clique em play", "desc": "O Lessonscriptor abre no painel lateral e começa a transcrever automaticamente." },
+        { "n": "4", "title": "Edite e exporte", "desc": "Destaque, negrite, elimine, adicione as suas notas — depois exporte para Markdown." }
+      ]
+    },
+    "useCases": {
+      "title": "Feito para quem aprende",
+      "items": [
+        { "icon": "🎓", "title": "Ensino a distância", "desc": "Não perca nenhum detalhe nas aulas gravadas." },
+        { "icon": "🧠", "title": "TDAH e concentração", "desc": "Um registo escrito para se reconcentrar quando a atenção falha." },
+        { "icon": "♿", "title": "Acessibilidade", "desc": "Para estudantes com dificuldades auditivas ou de escrita." },
+        { "icon": "🌍", "title": "Estudantes internacionais", "desc": "Transcreva em inglês, estude no seu idioma." },
+        { "icon": "🔬", "title": "Investigadores", "desc": "Transcreva entrevistas, documentários e apresentações." },
+        { "icon": "💼", "title": "Profissionais", "desc": "Capture reuniões e webinares gravados sem esforço." }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas frequentes",
+      "items": [
+        { "q": "O Lessonscriptor funciona com qualquer vídeo?", "a": "Sim. Funciona com qualquer vídeo reproduzido no Chrome: YouTube, Coursera, Udemy, gravações do Zoom, portais universitários e qualquer vídeo HTML5." },
+        { "q": "Existe uma versão gratuita?", "a": "Sim, e é gratuita para sempre sem limites. O modo gratuito usa o microfone para captar o áudio dos altifalantes — sem chave API, sem registo, sem cartão de crédito." },
+        { "q": "É privado? O meu áudio sai do meu dispositivo?", "a": "No modo gratuito, todo o processamento de áudio ocorre localmente no navegador. No modo premium, o áudio é enviado para a API Grok (xAI) para transcrição e imediatamente eliminado. Zero rastreamento, zero analytics." },
+        { "q": "Quanto custa o modo premium?", "a": "O modo premium é por consumo — aproximadamente 1 € por hora. Os créditos estão disponíveis em pacotes de 10 €, 20 € e 30 €. Um semestre completo de 12 horas de aulas custa cerca de 12 €." }
+      ]
+    }
+  },
+  "contact": {
+    "h1": "Contacto",
+    "subtitle": "Tem uma pergunta, comentário ou erro a reportar? Envie-nos uma mensagem.",
+    "name": "O seu nome",
+    "email": "O seu e-mail",
+    "subject": "Assunto",
+    "message": "A sua mensagem",
+    "send": "Enviar",
+    "success": "Mensagem enviada. Responderemos em 48 horas.",
+    "error": "Ocorreu um erro. Tente novamente ou contacte contact@lessonscriptor.com."
+  },
+  "privacy": { "h1": "Política de Privacidade", "lastUpdated": "Última atualização: abril de 2026" },
+  "terms": { "h1": "Termos de Utilização", "lastUpdated": "Última atualização: abril de 2026" }
+}

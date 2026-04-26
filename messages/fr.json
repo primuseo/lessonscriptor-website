@@ -1,0 +1,237 @@
+{
+  "site": {
+    "name": "Lessonscriptor",
+    "domain": "lessonscriptor.com",
+    "tagline": "Transcription IA en direct pour toute vidéo dans Chrome",
+    "description": "Transcrivez n'importe quelle vidéo en temps réel dans Chrome. Mode gratuit illimité. Modifiez, surlignez et exportez vos notes. Idéal pour les étudiants, les cours et l'enseignement à distance.",
+    "installCTA": "Installer gratuitement — Extension Chrome",
+    "learnMore": "En savoir plus",
+    "free": "Gratuit",
+    "premium": "Premium",
+    "tryFree": "Essayer gratuitement"
+  },
+  "nav": {
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "youtube": "YouTube",
+    "liveCaptions": "Sous-titres en direct",
+    "transcribeVideo": "Transcrire une vidéo",
+    "blog": "Blog",
+    "compare": "vs Otter.ai"
+  },
+  "footer": {
+    "product": "Produit",
+    "resources": "Ressources",
+    "languages": "Langues",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "github": "GitHub",
+    "support": "Assistance",
+    "copyright": "© 2026 Lessonscriptor. Gratuit pour les étudiants, pour toujours.",
+    "tagline": "Arrêtez d'écrire. Commencez à apprendre."
+  },
+  "home": {
+    "hero": {
+      "badge": "Extension Chrome gratuite",
+      "h1": "Transcription IA en direct pour toute vidéo dans Chrome",
+      "subtitle": "Regardez vos cours, tutoriels ou réunions — et laissez l'IA tout écrire en temps réel, directement dans votre navigateur. Modifiez, surlignez et exportez. Sans abonnement.",
+      "cta1": "Installer gratuitement",
+      "cta2": "Voir comment ça marche",
+      "socialProof": "Utilisé par des étudiants dans plus de 50 universités"
+    },
+    "pain": {
+      "title": "Arrêtez d'être une machine à transcrire",
+      "items": [
+        { "icon": "✋", "text": "Crampes dans la main à force d'écrire" },
+        { "icon": "🔁", "text": "Revenir en arrière pour rattraper ce qui a été dit" },
+        { "icon": "📝", "text": "Notes illisibles que vous ne pouvez pas relire" },
+        { "icon": "⏱️", "text": "Temps perdu à transcrire plutôt qu'à apprendre" }
+      ]
+    },
+    "features": {
+      "title": "Tout ce dont vous avez besoin pour vraiment apprendre",
+      "items": [
+        {
+          "icon": "🎙️",
+          "title": "Transcription en temps réel",
+          "desc": "Le texte apparaît au fil de la vidéo — automatiquement, sans configuration. Compatible YouTube, Coursera, Zoom, Udemy et toute plateforme vidéo."
+        },
+        {
+          "icon": "✏️",
+          "title": "Modifier en regardant",
+          "desc": "Cliquez n'importe où pour ajouter des notes, surlignez en 5 couleurs, mettez en gras les concepts clés, supprimez les digressions. Un document vivant, pas un flux figé."
+        },
+        {
+          "icon": "⏱️",
+          "title": "Synchronisation des horodatages",
+          "desc": "Cliquez sur un horodatage pour revenir exactement à ce moment dans la vidéo. Mettez en pause la vidéo, la transcription s'arrête. Reprenez, elle reprend."
+        },
+        {
+          "icon": "📤",
+          "title": "Export en Markdown",
+          "desc": "Exportez avec tout votre formatage — gras, surlignages, titres, listes — directement vers Notion, Obsidian ou Google Docs."
+        },
+        {
+          "icon": "🔒",
+          "title": "Entièrement privé",
+          "desc": "Mode gratuit : l'audio ne quitte jamais votre appareil. Mode premium : envoyé à l'API Grok, puis immédiatement supprimé. Zéro tracking."
+        },
+        {
+          "icon": "🌍",
+          "title": "14+ langues",
+          "desc": "Français, anglais, espagnol, allemand, italien, portugais, chinois, japonais, coréen, russe, arabe, hindi, et plus encore."
+        }
+      ]
+    },
+    "modes": {
+      "title": "Deux modes — choisissez celui qui vous convient",
+      "free": {
+        "title": "Mode gratuit",
+        "badge": "Gratuit pour toujours",
+        "price": "0 €",
+        "desc": "Utilise votre microphone pour capter l'audio de vos haut-parleurs. Aucune clé API, aucune inscription, aucune carte bancaire. Installez et c'est parti.",
+        "items": ["100% gratuit, pour toujours", "Aucun compte requis", "14+ langues", "Fonctionne hors ligne après installation"]
+      },
+      "premium": {
+        "title": "Mode premium",
+        "badge": "Sans abonnement",
+        "price": "~1 €/h",
+        "desc": "Capture l'audio directement depuis l'onglet du navigateur. Compatible avec les casques. Propulsé par Grok (xAI) — précision de pointe.",
+        "items": ["Compatible casque", "Capture audio directe depuis l'onglet", "Synchronisation vidéo et transcription", "Semestre complet ≈ 12 €"]
+      }
+    },
+    "howItWorks": {
+      "title": "Prêt en 60 secondes",
+      "steps": [
+        { "n": "1", "title": "Installez l'extension", "desc": "Un clic depuis le Chrome Web Store. Aucun compte requis." },
+        { "n": "2", "title": "Ouvrez n'importe quelle vidéo", "desc": "Allez sur YouTube, Coursera, des enregistrements Zoom — n'importe quelle page avec une vidéo." },
+        { "n": "3", "title": "Appuyez sur lecture", "desc": "Lessonscriptor s'ouvre dans le panneau latéral et commence à transcrire automatiquement." },
+        { "n": "4", "title": "Modifiez et exportez", "desc": "Surlignez, mettez en gras, supprimez, ajoutez vos propres notes — puis exportez en Markdown." }
+      ]
+    },
+    "useCases": {
+      "title": "Conçu pour les apprenants",
+      "items": [
+        { "icon": "🎓", "title": "Enseignement à distance", "desc": "Ne manquez plus aucun détail dans vos cours enregistrés." },
+        { "icon": "🧠", "title": "TDAH et concentration", "desc": "Un support écrit pour se recentrer quand l'attention décroche." },
+        { "icon": "♿", "title": "Accessibilité", "desc": "Pour les étudiants ayant des difficultés auditives ou d'écriture." },
+        { "icon": "🌍", "title": "Étudiants internationaux", "desc": "Transcrivez en anglais, étudiez dans votre langue." },
+        { "icon": "🔬", "title": "Chercheurs", "desc": "Transcrivez des entretiens, des documentaires, des présentations." },
+        { "icon": "💼", "title": "Professionnels", "desc": "Capturez effortlessly les réunions et webinaires enregistrés." }
+      ]
+    },
+    "faq": {
+      "title": "Questions fréquentes",
+      "items": [
+        {
+          "q": "Lessonscriptor fonctionne-t-il avec n'importe quelle vidéo ?",
+          "a": "Oui. Lessonscriptor fonctionne avec toute vidéo lue dans Chrome — YouTube, Coursera, Udemy, enregistrements Zoom, portails universitaires, fichiers vidéo locaux et toute vidéo HTML5."
+        },
+        {
+          "q": "Existe-t-il une version gratuite ?",
+          "a": "Oui, et elle est gratuite pour toujours sans limite. Le mode gratuit utilise votre microphone pour capter l'audio de vos haut-parleurs — aucune clé API, aucune inscription, aucune carte bancaire."
+        },
+        {
+          "q": "Quelle est la différence avec Otter.ai ?",
+          "a": "Otter.ai est une application par abonnement axée sur les réunions. Lessonscriptor est une extension Chrome qui fonctionne sur n'importe quelle vidéo dans votre navigateur, sans abonnement — le mode gratuit est gratuit pour toujours, et le premium est à la demande à environ 1 €/heure."
+        },
+        {
+          "q": "Puis-je l'utiliser avec un casque ?",
+          "a": "Oui, en mode premium. Le mode premium utilise la capture audio de l'onglet, ce qui capte l'audio directement depuis l'onglet du navigateur plutôt que via un microphone — les casques fonctionnent donc parfaitement."
+        },
+        {
+          "q": "Quelle est la précision de la transcription ?",
+          "a": "Le mode gratuit utilise l'API Web Speech, qui convient à l'usage courant. Le mode premium est propulsé par Grok (xAI) et offre une précision de pointe, avec une excellente gestion des accents et du vocabulaire technique."
+        },
+        {
+          "q": "Est-ce privé ? Mon audio quitte-t-il mon appareil ?",
+          "a": "En mode gratuit, tout le traitement audio se fait localement dans votre navigateur — rien ne quitte jamais votre appareil. En mode premium, l'audio est envoyé à l'API Grok (xAI) pour la transcription et immédiatement supprimé. Zéro tracking, zéro analytics."
+        },
+        {
+          "q": "Quelles langues sont prises en charge ?",
+          "a": "Lessonscriptor prend en charge 14+ langues : français, anglais (US et UK), espagnol, allemand, italien, portugais (Portugal et Brésil), chinois, japonais, coréen, russe, arabe et hindi."
+        },
+        {
+          "q": "Combien coûte le mode premium ?",
+          "a": "Le mode premium est sans abonnement — environ 1 € par heure. Des crédits sont disponibles par packs de 10 €, 20 € et 30 €. Un semestre complet de 12 heures de cours coûte environ 12 € — moins qu'un manuel."
+        }
+      ]
+    }
+  },
+  "youtube": {
+    "h1": "Transcrire une vidéo YouTube en temps réel",
+    "subtitle": "Obtenez une transcription en direct et modifiable de n'importe quelle vidéo YouTube directement dans Chrome — sans copier-coller ni changer d'onglet. Mode gratuit inclus.",
+    "answer": "Pour transcrire une vidéo YouTube dans Chrome : installez l'extension Lessonscriptor, ouvrez votre vidéo YouTube, cliquez sur l'icône du panneau latéral et appuyez sur lecture. La transcription démarre automatiquement et apparaît en temps réel à côté de la vidéo.",
+    "faq": {
+      "items": [
+        { "q": "Puis-je télécharger la transcription d'une vidéo YouTube ?", "a": "Oui. Avec Lessonscriptor, vous pouvez exporter la transcription en Markdown (.md) ou la copier dans le presse-papiers pour la coller dans Notion, Google Docs ou Obsidian. L'export préserve tout votre formatage." },
+        { "q": "Fonctionne-t-il sur les vidéos YouTube sans sous-titres ?", "a": "Oui. Lessonscriptor ne dépend pas des sous-titres de YouTube — il transcrit l'audio réel en temps réel, que YouTube ait ou non généré des sous-titres automatiques." },
+        { "q": "Peut-on transcrire une vidéo YouTube en français ?", "a": "Oui. Sélectionnez le français dans les paramètres de l'extension et la transcription apparaîtra en français." }
+      ]
+    }
+  },
+  "liveCaptions": {
+    "h1": "Sous-titres en direct pour toute vidéo dans Chrome",
+    "subtitle": "Ajoutez des sous-titres IA en temps réel et modifiables à toute vidéo dans Chrome. Gratuit, privé, compatible avec toutes les plateformes.",
+    "answer": "Lessonscriptor ajoute des sous-titres IA en direct à toute vidéo dans Chrome via un panneau latéral. Contrairement aux sous-titres en direct intégrés à Chrome, ceux-ci sont entièrement modifiables, exportables et prennent en charge 14+ langues.",
+    "faq": {
+      "items": [
+        { "q": "Comment ajouter des sous-titres en direct dans Chrome ?", "a": "Installez Lessonscriptor depuis le Chrome Web Store. Ouvrez n'importe quelle vidéo, cliquez sur l'icône de l'extension pour ouvrir le panneau latéral, et appuyez sur lecture. Les sous-titres en direct apparaissent automatiquement." },
+        { "q": "Chrome dispose-t-il de sous-titres en direct intégrés ?", "a": "Oui, Chrome propose une fonctionnalité de sous-titres de base (Paramètres → Accessibilité → Sous-titres en direct). Cependant, elle ne supporte que l'anglais, produit un flux en lecture seule non modifiable et ne gère pas bien le vocabulaire technique. Lessonscriptor supporte 14+ langues et offre une transcription entièrement modifiable et exportable." }
+      ]
+    }
+  },
+  "transcribeVideo": {
+    "h1": "Transcrire une vidéo en texte — gratuitement, dans votre navigateur",
+    "subtitle": "Convertissez n'importe quelle vidéo en texte en temps réel avec l'IA. Sans upload, sans attente, sans abonnement. Fonctionne directement dans Chrome.",
+    "answer": "Pour transcrire gratuitement une vidéo en texte dans Chrome : installez Lessonscriptor, ouvrez n'importe quelle vidéo et appuyez sur lecture. L'IA transcrit l'audio en temps réel dans un panneau latéral. Le mode gratuit est illimité.",
+    "faq": {
+      "items": [
+        { "q": "Comment transcrire gratuitement une vidéo en texte ?", "a": "Installez Lessonscriptor (extension Chrome gratuite). Ouvrez n'importe quelle vidéo dans Chrome. Cliquez sur l'icône de l'extension pour ouvrir le panneau latéral. Appuyez sur lecture — la transcription démarre automatiquement. Le mode gratuit est gratuit pour toujours." },
+        { "q": "Puis-je convertir un fichier MP4 en texte ?", "a": "Oui. Ouvrez le fichier MP4 dans Chrome (glissez-déposez dans un onglet Chrome) puis utilisez Lessonscriptor pour le transcrire en temps réel." }
+      ]
+    }
+  },
+  "otterAlt": {
+    "h1": "La meilleure alternative à Otter.ai pour les étudiants",
+    "subtitle": "Vous cherchez une alternative à Otter.ai qui fonctionne dans votre navigateur, sans abonnement, et gratuite au quotidien ? C'est Lessonscriptor.",
+    "answer": "Lessonscriptor est la meilleure alternative à Otter.ai pour les étudiants car il fonctionne dans Chrome sur toute plateforme vidéo (pas seulement les réunions), dispose d'un mode gratuit illimité, et facture environ 1 €/heure pour le premium — sans abonnement mensuel.",
+    "faq": {
+      "items": [
+        { "q": "Quelle est la meilleure alternative gratuite à Otter.ai ?", "a": "Lessonscriptor est la meilleure alternative gratuite à Otter.ai pour les étudiants. Son mode gratuit est illimité et sans restriction mensuelle." },
+        { "q": "Existe-t-il une alternative à Otter.ai qui fonctionne sur YouTube ?", "a": "Oui — Lessonscriptor. Contrairement à Otter.ai, conçu pour les réunions, Lessonscriptor fonctionne sur toute vidéo dans Chrome, y compris YouTube, Coursera, Udemy et les portails universitaires." }
+      ]
+    }
+  },
+  "blog": {
+    "lecture": {
+      "h1": "Comment transcrire automatiquement des vidéos de cours",
+      "intro": "La façon la plus rapide de transcrire automatiquement une vidéo de cours est d'utiliser Lessonscriptor — une extension Chrome gratuite qui transcrit n'importe quelle vidéo en temps réel, directement dans votre navigateur. Sans upload, sans attente, sans abonnement.",
+      "faq": {
+        "items": [
+          { "q": "Puis-je transcrire automatiquement un enregistrement Zoom ?", "a": "Oui. Ouvrez l'enregistrement Zoom dans Chrome et utilisez Lessonscriptor pour le transcrire. Il fonctionne sur toute vidéo lue dans Chrome." },
+          { "q": "Quel est le meilleur outil de transcription pour les étudiants ?", "a": "Lessonscriptor est le meilleur outil de transcription pour les étudiants car il fonctionne directement dans Chrome sur toute plateforme vidéo, offre un mode gratuit illimité et permet de modifier la transcription en direct pendant le visionnage." }
+        ]
+      }
+    }
+  },
+  "contact": {
+    "h1": "Nous contacter",
+    "subtitle": "Une question, un retour ou un bug à signaler ? Envoyez-nous un message.",
+    "name": "Votre nom",
+    "email": "Votre adresse e-mail",
+    "subject": "Sujet",
+    "message": "Votre message",
+    "send": "Envoyer",
+    "success": "Message envoyé. Nous vous répondrons dans les 48 heures.",
+    "error": "Une erreur s'est produite. Veuillez réessayer ou contacter directement contact@lessonscriptor.com."
+  },
+  "privacy": {
+    "h1": "Politique de confidentialité",
+    "lastUpdated": "Dernière mise à jour : avril 2026"
+  },
+  "terms": {
+    "h1": "Conditions d'utilisation",
+    "lastUpdated": "Dernière mise à jour : avril 2026"
+  }
+}
