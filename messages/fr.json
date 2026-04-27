@@ -31,341 +31,365 @@
     "tagline": "Arrêtez d'écrire. Commencez à apprendre."
   },
   "home": {
+    "meta": {
+      "title": "transcription précise de vos cours en ligne",
+      "ogTitle": "ne perdez plus un mot de vos cours"
+    },
+    "editing": {
+      "eyebrow": "Édition en direct",
+      "title": "Éditez en",
+      "titleEm": "regardant.",
+      "desc": "Surlignez en 5 couleurs, mettez en gras les termes clés, ajoutez des titres et des puces — transformez une transcription brute en notes prêtes à réviser sans quitter la vidéo."
+    },
     "hero": {
-      "badge": "Free Chrome Extension",
-      "h1_line1": "Never miss a word",
-      "h1_line2": "from your",
-      "h1_em": "lectures",
-      "h1_line3": "again.",
-      "subtitle": "LessonScriptor transcribes your lectures automatically — so you can focus on understanding, not writing. Built for students, ADHD learners, and anyone who learns better by reading along.",
-      "waitlistNote": "Free · No spam · Launch alert only",
-      "githubCTA": "View on GitHub"
+      "badge": "Extension Chrome gratuite",
+      "h1_line1": "Ne perdez plus un mot",
+      "h1_line2": "de vos",
+      "h1_em": "cours",
+      "h1_line3": "jamais.",
+      "subtitle": "LessonScriptor transcrit vos cours automatiquement — pour que vous puissiez vous concentrer sur la compréhension, pas sur la prise de notes. Conçu pour les étudiants, les personnes TDAH et tous ceux qui apprennent mieux en lisant en même temps.",
+      "waitlistNote": "Gratuit · Pas de spam · Alerte de lancement uniquement",
+      "githubCTA": "Voir sur GitHub"
     },
     "problem": {
-      "eyebrow": "The problem",
-      "title_line1": "Your brain struggles to write and",
-      "title_line2": "listen at the",
-      "title_em": "same time.",
-      "subtitle": "Lectures move fast. Notes fall behind. You end up choosing between understanding and capturing — and either way, something gets lost.",
+      "eyebrow": "Le problème",
+      "title_line1": "Votre cerveau peine à écrire et",
+      "title_line2": "écouter en",
+      "title_em": "même temps.",
+      "subtitle": "Les cours avancent vite. Les notes prennent du retard. Vous finissez par choisir entre comprendre et noter — et dans les deux cas, quelque chose vous échappe.",
       "items": [
         {
-          "title": "Hand cramps, missed words",
-          "desc": "Writing fast enough to keep up means your notes are incomplete — or illegible."
+          "title": "Crampes aux mains, mots manqués",
+          "desc": "Écrire assez vite pour suivre signifie que vos notes sont incomplètes — ou illisibles."
         },
         {
-          "title": "ADHD makes it harder",
-          "desc": "Splitting focus between listening and writing is exhausting. Something always slips."
+          "title": "Le TDAH complique tout",
+          "desc": "Partager son attention entre écouter et écrire est épuisant. Quelque chose finit toujours par échapper."
         },
         {
-          "title": "Non-native language",
-          "desc": "Following a fast lecture in your second language is double the cognitive load."
+          "title": "Langue non maternelle",
+          "desc": "Suivre un cours rapide dans une langue étrangère double la charge cognitive."
         },
         {
-          "title": "No notes = no studying",
-          "desc": "Without written notes, reviewing means watching the whole lecture again."
+          "title": "Pas de notes = pas de révisions",
+          "desc": "Sans notes écrites, réviser signifie regarder l'intégralité du cours à nouveau."
         }
       ]
     },
     "origin": {
-      "eyebrow": "Our story",
-      "title_line1": "Built at the",
-      "title_em": "kitchen table.",
-      "lede": "We're Victoria and Pierre — a couple from the south of France. Victoria is studying anthropology online — every lecture, every seminar, every workshop streamed from home. Pierre loves building things with code. This started as a side project to see if a little Chrome extension could help — and turned into something we think everyone deserves.",
-      "p1": "Victoria's days are hours of video lectures back to back. Taking notes while watching meant losing the thread. Rewinding, rewriting, rewatching. Notes too sparse to study from, or too rushed to read. On top of that, she has ADHD — which makes splitting focus between listening and writing not just hard, but exhausting.",
-      "p2": "So Pierre started building, and Victoria tested every version — broke things, gave feedback, explained what was actually missing. Evening after evening, laptop to laptop.",
-      "close": "This is the result. We're making it available to everyone because no student should have to choose between listening and writing. If it helps you even once, it was worth it.",
-      "sig": "Victoria & Pierre · South of France · 2026"
+      "eyebrow": "Notre histoire",
+      "title_line1": "Né sur la",
+      "title_em": "table de la cuisine.",
+      "lede": "Nous sommes Victoria et Pierre — un couple du sud de la France. Victoria étudie l'anthropologie en ligne — chaque cours, chaque séminaire, chaque atelier diffusé depuis la maison. Pierre adore créer des choses avec du code. Tout a commencé comme un projet annexe pour voir si une petite extension Chrome pouvait aider — et c'est devenu quelque chose que tout le monde mérite, selon nous.",
+      "p1": "Les journées de Victoria, ce sont des heures de cours vidéo à la suite. Prendre des notes en regardant, c'était perdre le fil. Rembobiner, réécrire, re-regarder. Des notes trop maigres pour réviser, ou trop brouillonnes pour être relues. En plus, elle a un TDAH — ce qui rend le partage de l'attention entre écouter et écrire non seulement difficile, mais épuisant.",
+      "p2": "Alors Pierre s'est mis à coder, et Victoria a testé chaque version — cassé des trucs, donné son avis, expliqué ce qui manquait vraiment. Soir après soir, portable contre portable.",
+      "close": "Voici le résultat. Nous le rendons accessible à tous parce qu'aucun étudiant ne devrait avoir à choisir entre écouter et écrire. Si cela vous aide ne serait-ce qu'une fois, ça en valait la peine.",
+      "sig": "Victoria & Pierre · Sud de la France · 2026"
     },
     "who": {
-      "eyebrow": "Who it's for",
-      "title": "Built for people who learn by reading along",
+      "eyebrow": "Pour qui",
+      "title": "Conçu pour ceux qui apprennent en lisant en même temps",
       "items": [
         {
-          "title": "Students",
-          "desc": "University lectures, online courses, MOOCs — capture everything without losing the thread of what's being said.",
-          "tag": "Free mode works great"
+          "title": "Étudiants",
+          "desc": "Cours magistraux, formations en ligne, MOOCs — capturez tout sans perdre le fil de ce qui est dit.",
+          "tag": "Le mode gratuit suffit"
         },
         {
-          "title": "ADHD Learners",
-          "desc": "Reading along while listening dramatically reduces cognitive load. Stop losing focus mid-lecture.",
-          "tag": "Accessibility first"
+          "title": "Apprenants TDAH",
+          "desc": "Lire en même temps qu'on écoute réduit considérablement la charge cognitive. Fini les décrochages en plein cours.",
+          "tag": "Accessibilité avant tout"
         },
         {
-          "title": "Non-native speakers",
-          "desc": "Watching lectures in a second language? Having the transcript appear in real-time lets you follow along without missing a word.",
-          "tag": "Any language"
+          "title": "Non-francophones",
+          "desc": "Vous suivez des cours dans une autre langue ? La transcription en temps réel vous permet de suivre sans perdre un mot.",
+          "tag": "Toutes les langues"
         },
         {
-          "title": "Online Course Takers",
-          "desc": "Udemy, Coursera, YouTube tutorials — turn any video into searchable, editable notes automatically.",
-          "tag": "Any video site"
+          "title": "Apprenants en ligne",
+          "desc": "Udemy, Coursera, tutoriels YouTube — transformez n'importe quelle vidéo en notes consultables et modifiables automatiquement.",
+          "tag": "Tout site vidéo"
         }
       ]
     },
     "features": {
-      "eyebrow": "What it does",
-      "title_line1": "Everything you need.",
-      "title_line2": "Nothing you don't.",
+      "eyebrow": "Ce que ça fait",
+      "title_line1": "Tout ce qu'il vous faut.",
+      "title_line2": "Rien de superflu.",
       "items": [
         {
-          "title": "Accuracy you can trust",
-          "desc": "Audio is sent in chunks — 10 seconds in Normal mode, 30 seconds in Optimal for even better accuracy. A short delay, but far more accurate text than any real-time alternative.",
+          "title": "Une précision fiable",
+          "desc": "L'audio est envoyé par segments — 10 secondes en mode Normal, 30 secondes en mode Optimal pour une précision encore meilleure. Un léger délai, mais un texte bien plus précis que toute alternative en temps réel.",
           "chips": [
-            "Normal mode",
-            "Optimal mode",
-            "High accuracy"
+            "Mode Normal",
+            "Mode Optimal",
+            "Haute précision"
           ]
         },
         {
-          "title": "A real note editor",
-          "desc": "Don't just read — work directly in the transcript. Highlight key phrases, bold terms, add headers and bullets, remove the parts you don't need. Most students finish their notes before the lecture ends.",
+          "title": "Un vrai éditeur de notes",
+          "desc": "Ne vous contentez pas de lire — travaillez directement dans la transcription. Surlignez les passages clés, mettez en gras les termes importants, ajoutez des titres et des puces, supprimez ce qui ne sert pas. La plupart des étudiants finissent leurs notes avant la fin du cours.",
           "chips": [
-            "Highlights",
-            "Bold",
-            "Headers",
-            "• Bullets",
-            "Auto-save"
+            "Surlignage",
+            "Gras",
+            "Titres",
+            "• Puces",
+            "Sauvegarde auto"
           ]
         },
         {
-          "title": "Export anywhere",
-          "desc": "Download as .txt or .md, or copy to clipboard. Your notes, your format.",
+          "title": "Exportez partout",
+          "desc": "Téléchargez en .txt ou .md, ou copiez dans le presse-papiers. Vos notes, votre format.",
           "chips": [
             ".txt",
             ".md",
-            "Clipboard"
+            "Presse-papiers"
           ]
         },
         {
-          "title": "14 languages",
-          "desc": "English, French, Spanish, Arabic, Hindi and more. Transcribe in the language of your lecture — great for non-native speakers following along.",
+          "title": "14 langues",
+          "desc": "Anglais, français, espagnol, arabe, hindi et plus encore. Transcrivez dans la langue de votre cours — idéal pour les non-francophones qui suivent en lisant.",
           "chips": [
-            "incl. Arabic",
-            "incl. Hindi"
+            "dont arabe",
+            "dont hindi"
           ]
         },
         {
-          "title": "Privacy first",
-          "desc": "Everything stays local by default — no account, no cloud processing in free mode. Your audio, your data.",
+          "title": "Confidentialité d'abord",
+          "desc": "Tout reste en local par défaut — pas de compte, pas de traitement cloud en mode gratuit. Votre audio, vos données.",
           "chips": [
-            "Local by default",
-            "No signup"
+            "Local par défaut",
+            "Sans inscription"
           ]
         },
         {
-          "title": "Session history",
-          "desc": "All your past transcriptions are saved automatically. Pick up where you left off — nothing is ever lost.",
+          "title": "Historique des sessions",
+          "desc": "Toutes vos transcriptions passées sont sauvegardées automatiquement. Reprenez là où vous vous étiez arrêté — rien n'est jamais perdu.",
           "chips": [
-            "Auto-save",
-            "Session history"
+            "Sauvegarde auto",
+            "Historique des sessions"
           ]
         }
       ]
     },
     "worksEverywhere": {
-      "eyebrow": "Compatibility",
-      "title_line1": "Works everywhere",
-      "title_line2": "audio plays.",
-      "subtitle": "University internal platforms, protected videos, public sites — if audio comes out of your computer, we can transcribe it.",
+      "eyebrow": "Compatibilité",
+      "title_line1": "Fonctionne partout où",
+      "title_line2": "l'audio est diffusé.",
+      "subtitle": "Plateformes internes universitaires, vidéos protégées, sites publics — si le son sort de votre ordinateur, nous pouvons le transcrire.",
       "platforms": [
         {
-          "title": "University platforms",
-          "desc": "Moodle, Canvas, Blackboard, Panopto — the ones with no download, no subtitles, and no help. If the video plays in your browser, we transcribe it."
+          "title": "Plateformes universitaires",
+          "desc": "Moodle, Canvas, Blackboard, Panopto — celles sans téléchargement, sans sous-titres et sans aide. Si la vidéo se lit dans votre navigateur, nous la transcrivons."
         },
         {
-          "title": "Public video sites",
-          "desc": "YouTube, Coursera, Udemy — all the classics. But also any embedded player on any site, no matter how obscure or non-standard."
+          "title": "Sites vidéo publics",
+          "desc": "YouTube, Coursera, Udemy — tous les classiques. Mais aussi n'importe quel lecteur intégré sur n'importe quel site, aussi obscur ou atypique soit-il."
         },
         {
-          "title": "Works with headphones",
-          "desc": "AI mode captures tab audio directly from the browser — no microphone, no speakers needed. Study at 2am without disturbing anyone."
+          "title": "Fonctionne avec un casque",
+          "desc": "Le mode IA capture l'audio de l'onglet directement depuis le navigateur — pas besoin de micro ni de haut-parleurs. Étudiez à 2h du matin sans déranger personne."
         }
       ],
-      "explainerEyebrow": "How the two modes capture audio",
-      "explainerFree": "Free mode uses your microphone to pick up audio through your speakers. Works on every platform — but volume matters. Turn system volume up for best accuracy.",
-      "explainerAI": "AI mode captures the browser tab audio directly, bypassing your mic entirely. Clean capture with headphones on, at any volume, on any protected platform."
+      "explainerEyebrow": "Comment les deux modes capturent l'audio",
+      "explainerFree": "Le mode gratuit utilise votre microphone pour capter l'audio par vos haut-parleurs. Fonctionne sur toutes les plateformes — mais le volume compte. Montez le volume système pour une meilleure précision.",
+      "explainerAI": "Le mode IA capture l'audio de l'onglet directement, sans passer par votre micro. Capture nette avec un casque, à n'importe quel volume, sur toute plateforme protégée."
     },
     "pricing": {
-      "eyebrow": "Pricing",
-      "title_line1": "Free forever. Pay only",
-      "title_line2": "for what you transcribe.",
-      "subtitle": "Start for free with your microphone. Top up when you need AI-powered transcription — no subscription, no expiry.",
-      "whyPay": "Why does AI mode cost money?",
-      "whyPayDesc": "Free mode uses your browser's built-in speech recognition — local, instant, free. AI mode sends your audio to a state-of-the-art cloud AI model. That processing has a real cost. We pass it on transparently: credits are consumed second-by-second from your pack, they never expire, and you choose how fast you burn them based on the transcription mode you use.",
-      "freeLabel": "Free",
-      "freeEngine": "Browser speech recognition",
-      "freePrice": "$0",
-      "freePriceSuffix": "forever",
-      "freeDesc": "Uses your browser's built-in speech engine and your microphone. Fully local — no audio sent anywhere.",
+      "eyebrow": "Tarifs",
+      "title_line1": "Gratuit pour toujours. Payez uniquement",
+      "title_line2": "ce que vous transcrivez.",
+      "subtitle": "Commencez gratuitement avec votre microphone. Rechargez quand vous avez besoin de la transcription IA — sans abonnement, sans expiration.",
+      "whyPay": "Pourquoi le mode IA est-il payant ?",
+      "whyPayDesc": "Le mode gratuit utilise la reconnaissance vocale intégrée à votre navigateur — locale, instantanée, gratuite. Le mode IA envoie votre audio à un modèle d'IA cloud de pointe. Ce traitement a un coût réel. Nous le répercutons en toute transparence : les crédits sont consommés seconde par seconde depuis votre pack, ils n'expirent jamais, et vous choisissez la vitesse de consommation selon le mode de transcription utilisé.",
+      "freeLabel": "Gratuit",
+      "freeEngine": "Reconnaissance vocale du navigateur",
+      "freePrice": "0 $",
+      "freePriceSuffix": "pour toujours",
+      "freeDesc": "Utilise le moteur vocal intégré à votre navigateur et votre microphone. Entièrement local — aucun audio envoyé nulle part.",
       "freeFeatures": [
         "Transcription via microphone",
-        "Full editing — highlights, bold, headers, bullets",
-        "Export .txt, .md, clipboard",
-        "14 languages",
-        "Session history & auto-save"
+        "Édition complète — surlignage, gras, titres, puces",
+        "Export .txt, .md, presse-papiers",
+        "14 langues",
+        "Historique des sessions et sauvegarde auto"
       ],
       "freeMuted": [
-        "Works with headphones",
-        "Cloud AI accuracy"
+        "Fonctionne avec un casque",
+        "Précision IA cloud"
       ],
-      "freeCaveat": "Audio must play through your speakers — the mic needs to hear it.",
-      "premiumLabel": "AI Mode — Pay as you go",
-      "premiumEngine": "AI-powered transcription",
-      "noSubCallout": "No subscription. No \"I forgot to cancel\" tax. Credits never expire.",
-      "costCallout": "Buy a pack once. Your hours are consumed second-by-second as you transcribe, so nothing is wasted when you stop. The bigger the pack, the lower the price per hour.",
-      "headphonesCallout": "Works with headphones on. Tab audio is captured directly — no microphone, no speakers needed.",
+      "freeCaveat": "L'audio doit passer par vos haut-parleurs — le micro a besoin de l'entendre.",
+      "premiumLabel": "Mode IA — Paiement à l'usage",
+      "premiumEngine": "Transcription par IA",
+      "noSubCallout": "Pas d'abonnement. Pas de « j'ai oublié de résilier ». Les crédits n'expirent jamais.",
+      "costCallout": "Achetez un pack une fois. Vos heures sont consommées seconde par seconde pendant la transcription, rien n'est gaspillé quand vous arrêtez. Plus le pack est gros, plus le prix à l'heure est bas.",
+      "headphonesCallout": "Fonctionne avec un casque. L'audio de l'onglet est capturé directement — pas besoin de micro ni de haut-parleurs.",
       "packs": [
-        { "hours": "5h", "basePrice": 5, "basePer": 1.00, "per": "one-time · no expiry" },
-        { "hours": "15h", "basePrice": 12, "basePer": 0.80, "per": "one-time · no expiry", "save": 3 },
-        { "hours": "30h", "basePrice": 21, "basePer": 0.70, "per": "one-time · no expiry", "badge": "Most popular", "save": 9 }
+        { "hours": "5h", "basePrice": 5, "basePer": 1.00, "per": "paiement unique · sans expiration" },
+        { "hours": "15h", "basePrice": 12, "basePer": 0.80, "per": "paiement unique · sans expiration", "save": 3 },
+        { "hours": "30h", "basePrice": 21, "basePer": 0.70, "per": "paiement unique · sans expiration", "badge": "Le plus populaire", "save": 9 }
       ],
       "premiumFeatures": [
-        "Everything in Free, including full editing",
-        "Cloud AI engine — far better accuracy than browser speech",
-        "Direct tab audio — works with any headphones",
-        "Higher accuracy across accents & background noise",
-        "Hours consumed second-by-second — nothing wasted when you stop",
-        "Credits never expire — top up whenever you want",
-        "10-min grace period if credits run out mid-lecture"
+        "Tout le mode Gratuit, y compris l'édition complète",
+        "Moteur IA cloud — bien plus précis que la reconnaissance vocale du navigateur",
+        "Audio direct de l'onglet — fonctionne avec n'importe quel casque",
+        "Meilleure précision sur les accents et le bruit de fond",
+        "Heures consommées seconde par seconde — rien de gaspillé quand vous arrêtez",
+        "Les crédits n'expirent jamais — rechargez quand vous voulez",
+        "10 min de grâce si vos crédits s'épuisent en plein cours"
       ],
-      "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Lemon Squeezy at checkout.",
-      "paymentProcessor": "Payments processed securely by Lemon Squeezy.",
-      "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters."
+      "currencyDisclaimer": "Les prix affichés sont des estimations. Le montant final est converti au taux de change en vigueur par Lemon Squeezy lors du paiement.",
+      "paymentProcessor": "Paiements traités de manière sécurisée par Lemon Squeezy.",
+      "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 3h/semaine coûte environ 21 $ — moins que deux chapitres de manuel.",
+      "installFreeBtn": "Installer gratuitement",
+      "getAIBtn": "Obtenir des heures IA →"
     },
     "quickstart": {
-      "eyebrow": "Get started",
-      "title_line1": "Up and running",
-      "title_line2": "in 60 seconds",
-      "subtitle": "No account. No configuration. Just install and go.",
+      "eyebrow": "Démarrage rapide",
+      "title_line1": "Opérationnel",
+      "title_line2": "en 60 secondes",
+      "subtitle": "Pas de compte. Pas de configuration. Installez et c'est parti.",
+      "schemaName": "Comment commencer à transcrire vos cours avec LessonScriptor",
       "steps": [
         {
           "n": "1",
-          "title": "Install the extension",
-          "desc": "Add it to Chrome from the Web Store. No sign-up required.",
+          "title": "Installez l'extension",
+          "desc": "Ajoutez-la à Chrome depuis le Web Store. Aucune inscription requise.",
           "tag": "Chrome Web Store"
         },
         {
           "n": "2",
-          "title": "Open any video",
-          "desc": "Go to YouTube, Coursera, Udemy — any site with a video lecture.",
-          "tag": "Any video site"
+          "title": "Ouvrez n'importe quelle vidéo",
+          "desc": "Allez sur YouTube, Coursera, Udemy — n'importe quel site avec un cours en vidéo.",
+          "tag": "Tout site vidéo"
         },
         {
           "n": "3",
-          "title": "Hit Record",
-          "desc": "Click the extension icon, open the side panel, press Record. That's it.",
-          "tag": "Side panel opens"
+          "title": "Appuyez sur Enregistrer",
+          "desc": "Cliquez sur l'icône de l'extension, ouvrez le panneau latéral, appuyez sur Enregistrer. C'est tout.",
+          "tag": "Le panneau latéral s'ouvre"
         }
       ]
     },
     "faq": {
-      "eyebrow": "FAQ & Troubleshooting",
-      "title_line1": "Common questions",
-      "title_em": "answered.",
+      "eyebrow": "FAQ et dépannage",
+      "title_line1": "Questions fréquentes,",
+      "title_em": "réponses claires.",
       "items": [
         {
-          "q": "How do credits work?",
-          "a": "Buy a credit pack and you'll receive a license key by email. Open the extension settings, enter the key, and your credits activate immediately. They're consumed second-by-second as you transcribe — nothing is wasted when you stop."
+          "q": "Comment fonctionnent les crédits ?",
+          "a": "Achetez un pack de crédits et vous recevrez une clé de licence par e-mail. Ouvrez les paramètres de l'extension, entrez la clé, et vos crédits s'activent immédiatement. Ils sont consommés seconde par seconde pendant la transcription — rien n'est gaspillé quand vous arrêtez."
         },
         {
-          "q": "I lost my activation code. What do I do?",
-          "a": "Check your inbox — the key was sent when you purchased. Your key is portable: it works on any computer, survives reinstalls, and your remaining credits are always preserved. Think of it as a prepaid balance, not a device licence."
+          "q": "J'ai perdu mon code d'activation. Que faire ?",
+          "a": "Vérifiez votre boîte de réception — la clé vous a été envoyée lors de l'achat. Votre clé est portable : elle fonctionne sur n'importe quel ordinateur, survit aux réinstallations, et vos crédits restants sont toujours préservés. Considérez-la comme un solde prépayé, pas une licence liée à un appareil."
         },
         {
-          "q": "My transcription is in the wrong language.",
-          "a": "Make sure you've selected the correct language in the extension settings before starting. If you changed language mid-session, stop the transcription, select the right language, and start again. The speech engine needs a clean restart to switch languages."
+          "q": "La transcription est dans la mauvaise langue.",
+          "a": "Assurez-vous d'avoir sélectionné la bonne langue dans les paramètres de l'extension avant de commencer. Si vous avez changé de langue en cours de session, arrêtez la transcription, sélectionnez la bonne langue, puis relancez. Le moteur vocal a besoin d'un redémarrage propre pour changer de langue."
         },
         {
-          "q": "The transcription isn't working at all.",
-          "a": "Try these steps in order: (1) Make sure the extension is up to date — check for updates in chrome://extensions. (2) Reload the extension by toggling it off and on. (3) Reload the page with the video. (4) Check your internet connection — AI mode requires it. (5) If you're using mic mode, make sure your system volume is high enough (80%+) and that you've granted the extension permission to access your microphone."
+          "q": "La transcription ne fonctionne pas du tout.",
+          "a": "Essayez ces étapes dans l'ordre : (1) Vérifiez que l'extension est à jour — cherchez les mises à jour dans chrome://extensions. (2) Rechargez l'extension en la désactivant puis en la réactivant. (3) Rechargez la page contenant la vidéo. (4) Vérifiez votre connexion internet — le mode IA en a besoin. (5) Si vous utilisez le mode micro, assurez-vous que le volume système est suffisamment élevé (80 %+) et que vous avez accordé à l'extension l'accès au microphone."
         },
         {
-          "q": "Microphone mode isn't picking up the audio.",
-          "a": "This is almost always a volume issue. Free mode relies on your mic hearing your speakers — the louder your system volume, the better the pickup. MacBook Air users typically need a higher volume than MacBook Pro users. Also make sure you've allowed microphone access for the extension."
+          "q": "Le mode microphone ne capte pas l'audio.",
+          "a": "C'est presque toujours un problème de volume. Le mode gratuit repose sur la captation de vos haut-parleurs par le micro — plus le volume système est élevé, meilleure est la captation. Les utilisateurs de MacBook Air ont généralement besoin d'un volume plus élevé que ceux de MacBook Pro. Vérifiez aussi que vous avez autorisé l'accès au microphone pour l'extension."
         },
         {
-          "q": "Can I transcribe multiple videos at the same time?",
-          "a": "Yes — but only with AI mode. AI mode captures tab audio per tab, so each video runs independently. Free (mic) mode captures whatever your speakers play, so mixing audio sources will confuse the transcription."
-        },
-        {
-          "q": "What are the premium formatting features?",
-          "a": "Premium unlocks additional formatting tools: text highlighting with colours, toggling section headers on and off, and hiding/collapsing parts of your transcript. These work on top of the free editing features (bold, bullets, auto-save) and are designed for students who want to turn a raw transcript into study-ready notes."
+          "q": "Puis-je transcrire plusieurs vidéos en même temps ?",
+          "a": "Oui — mais uniquement avec le mode IA. Le mode IA capture l'audio onglet par onglet, chaque vidéo fonctionne donc indépendamment. Le mode gratuit (micro) capte tout ce que jouent vos haut-parleurs, donc mélanger les sources audio perturbera la transcription."
         }
       ]
     },
     "contact": {
-      "eyebrow": "Get in touch",
-      "title_line1": "Help us build something",
-      "title_line2": "you actually",
-      "title_em": "love.",
-      "subtitle": "This extension was built out of a real need. If you have ideas, run into a bug, or just want to say hi — we read everything.",
+      "eyebrow": "Nous contacter",
+      "title_line1": "Aidez-nous à construire quelque chose",
+      "title_line2": "que vous allez vraiment",
+      "title_em": "adorer.",
+      "subtitle": "Cette extension est née d'un vrai besoin. Si vous avez des idées, rencontrez un bug ou voulez simplement dire bonjour — nous lisons tout.",
       "options": [
         {
-          "title": "Feature suggestions",
-          "desc": "Something missing? Tell us what would make this better for you."
+          "title": "Suggestions de fonctionnalités",
+          "desc": "Il manque quelque chose ? Dites-nous ce qui rendrait l'outil meilleur pour vous."
         },
         {
-          "title": "Bug reports",
-          "desc": "Something broken? We want to know — the more detail the better."
+          "title": "Signalements de bugs",
+          "desc": "Quelque chose ne fonctionne pas ? Nous voulons le savoir — plus il y a de détails, mieux c'est."
         },
         {
-          "title": "Just saying hi",
-          "desc": "We genuinely love hearing how people use it. Drop us a note."
+          "title": "Juste un bonjour",
+          "desc": "Nous adorons sincèrement savoir comment les gens utilisent l'extension. Laissez-nous un petit mot."
         }
-      ]
+      ],
+      "form": {
+        "name": "Votre nom",
+        "email": "votre@email.com",
+        "topic": "Sujet…",
+        "feature": "Suggestion de fonctionnalité",
+        "bug": "Signaler un bug",
+        "question": "Question",
+        "hi": "Juste un bonjour",
+        "message": "Votre message…",
+        "send": "Envoyer →"
+      }
     }
   },
   "youtube": {
     "h1": "Transcrire une vidéo YouTube en temps réel",
     "subtitle": "Obtenez une transcription en direct et modifiable de n'importe quelle vidéo YouTube directement dans Chrome — sans copier-coller ni changer d'onglet. Mode gratuit inclus.",
-    "answer": "Pour transcrire une vidéo YouTube dans Chrome : installez l'extension Lessonscriptor, ouvrez votre vidéo YouTube, cliquez sur l'icône du panneau latéral et appuyez sur lecture. La transcription démarre automatiquement et apparaît en temps réel à côté de la vidéo.",
+    "answer": "Pour transcrire une vidéo YouTube dans Chrome : installez l'extension LessonScriptor, ouvrez votre vidéo YouTube, cliquez sur l'icône du panneau latéral et appuyez sur lecture. La transcription démarre automatiquement et apparaît en temps réel à côté de la vidéo.",
     "methods": {
-      "title": "How to get a YouTube video transcript — all methods compared",
+      "title": "Comment obtenir la transcription d'une vidéo YouTube — toutes les méthodes comparées",
       "items": [
         {
-          "method": "YouTube built-in captions",
-          "pros": "Free, no install needed",
-          "cons": "Read-only, no editing, not available on all videos, inaccurate on auto-generated captions",
-          "verdict": "OK for reading along"
+          "method": "Sous-titres intégrés YouTube",
+          "pros": "Gratuit, aucune installation nécessaire",
+          "cons": "Lecture seule, pas de modification, pas disponible sur toutes les vidéos, imprécis sur les sous-titres auto-générés",
+          "verdict": "Correct pour lire en suivant"
         },
         {
-          "method": "Lessonscriptor (this tool)",
-          "pros": "Live editing, highlight, export, works on any video not just YouTube, 14+ languages, free mode",
-          "cons": "Requires Chrome extension install",
-          "verdict": "Best for students and learning"
+          "method": "LessonScriptor (cet outil)",
+          "pros": "Édition en direct, surlignage, export, fonctionne sur toute vidéo pas seulement YouTube, 14+ langues, mode gratuit",
+          "cons": "Nécessite l'installation de l'extension Chrome",
+          "verdict": "Idéal pour les étudiants et l'apprentissage"
         },
         {
-          "method": "Copy-paste transcript tools",
-          "pros": "Quick for a static copy",
-          "cons": "No live transcription, not real-time, no editing, YouTube-only",
-          "verdict": "OK for archiving"
+          "method": "Outils de copier-coller de transcriptions",
+          "pros": "Rapide pour une copie statique",
+          "cons": "Pas de transcription en direct, pas en temps réel, pas de modification, YouTube uniquement",
+          "verdict": "Correct pour l'archivage"
         }
       ]
     },
     "steps": {
-      "title": "Step-by-step: transcribe a YouTube video with Lessonscriptor",
+      "title": "Étape par étape : transcrire une vidéo YouTube avec LessonScriptor",
       "items": [
-        "Install Lessonscriptor from the Chrome Web Store (free, one click, no sign-up).",
-        "Open any YouTube video in Chrome.",
-        "Click the Lessonscriptor icon in your Chrome toolbar to open the side panel.",
-        "Hit play on the video — transcription starts automatically.",
-        "Edit as you watch: click to add notes, highlight important passages, delete tangents.",
-        "Export to Markdown when done — your formatted notes are ready."
+        "Installez LessonScriptor depuis le Chrome Web Store (gratuit, un clic, sans inscription).",
+        "Ouvrez n'importe quelle vidéo YouTube dans Chrome.",
+        "Cliquez sur l'icône LessonScriptor dans la barre d'outils Chrome pour ouvrir le panneau latéral.",
+        "Lancez la lecture de la vidéo — la transcription démarre automatiquement.",
+        "Modifiez en regardant : cliquez pour ajouter des notes, surlignez les passages importants, supprimez les digressions.",
+        "Exportez en Markdown une fois terminé — vos notes formatées sont prêtes."
       ]
     },
     "faq": {
       "items": [
         {
           "q": "Puis-je télécharger la transcription d'une vidéo YouTube ?",
-          "a": "Oui. Avec Lessonscriptor, vous pouvez exporter la transcription en Markdown (.md) ou la copier dans le presse-papiers pour la coller dans Notion, Google Docs ou Obsidian. L'export préserve tout votre formatage."
+          "a": "Oui. Avec LessonScriptor, vous pouvez exporter la transcription en Markdown (.md) ou la copier dans le presse-papiers pour la coller dans Notion, Google Docs ou Obsidian. L'export préserve tout votre formatage — gras, surlignages, titres."
         },
         {
           "q": "Fonctionne-t-il sur les vidéos YouTube sans sous-titres ?",
-          "a": "Oui. Lessonscriptor ne dépend pas des sous-titres de YouTube — il transcrit l'audio réel en temps réel, que YouTube ait ou non généré des sous-titres automatiques."
+          "a": "Oui. LessonScriptor ne dépend pas des sous-titres de YouTube — il transcrit l'audio réel en temps réel. Il fonctionne donc que YouTube ait ou non généré des sous-titres automatiques."
         },
         {
-          "q": "Peut-on transcrire une vidéo YouTube en français ?",
-          "a": "Oui. Sélectionnez le français dans les paramètres de l'extension et la transcription apparaîtra en français."
+          "q": "Peut-on transcrire une vidéo YouTube en français ou en espagnol ?",
+          "a": "Oui. LessonScriptor prend en charge 14+ langues. Dans les paramètres de l'extension, sélectionnez la langue cible et la transcription se fera dans cette langue — utile pour l'apprentissage des langues ou les cours internationaux."
+        },
+        {
+          "q": "Y a-t-il une limite de durée pour les vidéos YouTube ?",
+          "a": "Non. LessonScriptor transcrit en temps réel pendant la lecture de la vidéo, il fonctionne donc pour n'importe quelle durée — d'un tutoriel de 5 minutes à un cours de 3 heures."
         }
       ]
     }
@@ -373,49 +397,49 @@
   "liveCaptions": {
     "h1": "Sous-titres en direct pour toute vidéo dans Chrome",
     "subtitle": "Ajoutez des sous-titres IA en temps réel et modifiables à toute vidéo dans Chrome. Gratuit, privé, compatible avec toutes les plateformes.",
-    "answer": "Lessonscriptor ajoute des sous-titres IA en direct à toute vidéo dans Chrome via un panneau latéral. Contrairement aux sous-titres en direct intégrés à Chrome, ceux-ci sont entièrement modifiables, exportables et prennent en charge 14+ langues.",
+    "answer": "LessonScriptor ajoute des sous-titres IA en direct à toute vidéo dans Chrome via un panneau latéral. Contrairement aux sous-titres en direct intégrés à Chrome, ceux-ci sont entièrement modifiables, exportables et prennent en charge 14+ langues — y compris le vocabulaire académique que les sous-titres de votre navigateur déforment.",
     "vsChrome": {
-      "title": "Lessonscriptor vs Chrome's built-in Live Captions",
+      "title": "LessonScriptor vs les sous-titres en direct intégrés à Chrome",
       "rows": [
         [
-          "Feature",
-          "Chrome Live Captions",
-          "Lessonscriptor"
+          "Fonctionnalité",
+          "Sous-titres Chrome",
+          "LessonScriptor"
         ],
         [
-          "Editable transcript",
-          "No",
-          "Yes — click anywhere to edit"
+          "Transcription modifiable",
+          "Non",
+          "Oui — cliquez n'importe où pour modifier"
         ],
         [
-          "Export notes",
-          "No",
-          "Yes — Markdown, clipboard"
+          "Export des notes",
+          "Non",
+          "Oui — Markdown, presse-papiers"
         ],
         [
-          "Highlight & format",
-          "No",
-          "Yes — 5 colors, bold, headers"
+          "Surlignage et mise en forme",
+          "Non",
+          "Oui — 5 couleurs, gras, titres"
         ],
         [
-          "Custom vocabulary",
-          "No",
-          "Yes — personal dictionary"
+          "Vocabulaire personnalisé",
+          "Non",
+          "Oui — dictionnaire personnel"
         ],
         [
-          "Languages supported",
-          "English only",
-          "14+ languages"
+          "Langues prises en charge",
+          "Anglais uniquement",
+          "14+ langues"
         ],
         [
-          "Works with headphones (Premium)",
-          "No",
-          "Yes"
+          "Fonctionne avec un casque (Premium)",
+          "Non",
+          "Oui"
         ],
         [
-          "Price",
-          "Free",
-          "Free mode + Pay-as-you-go Premium"
+          "Prix",
+          "Gratuit",
+          "Mode gratuit + Premium à l'usage"
         ]
       ]
     },
@@ -423,101 +447,117 @@
       "items": [
         {
           "q": "Comment ajouter des sous-titres en direct dans Chrome ?",
-          "a": "Installez Lessonscriptor depuis le Chrome Web Store. Ouvrez n'importe quelle vidéo, cliquez sur l'icône de l'extension pour ouvrir le panneau latéral, et appuyez sur lecture. Les sous-titres en direct apparaissent automatiquement."
+          "a": "Installez LessonScriptor depuis le Chrome Web Store. Ouvrez n'importe quelle vidéo, cliquez sur l'icône de l'extension pour ouvrir le panneau latéral, et appuyez sur lecture. Les sous-titres en direct apparaissent automatiquement en temps réel."
         },
         {
           "q": "Chrome dispose-t-il de sous-titres en direct intégrés ?",
-          "a": "Oui, Chrome propose une fonctionnalité de sous-titres de base (Paramètres → Accessibilité → Sous-titres en direct). Cependant, elle ne supporte que l'anglais, produit un flux en lecture seule non modifiable et ne gère pas bien le vocabulaire technique. Lessonscriptor supporte 14+ langues et offre une transcription entièrement modifiable et exportable."
+          "a": "Oui, Chrome propose une fonctionnalité de sous-titres de base (Paramètres → Accessibilité → Sous-titres en direct). Cependant, elle ne supporte que l'anglais, produit un flux en lecture seule non modifiable ni exportable, et ne gère pas bien le vocabulaire technique. LessonScriptor supporte 14+ langues et offre une transcription entièrement modifiable et exportable."
+        },
+        {
+          "q": "Les sous-titres en direct fonctionnent-ils avec un casque dans Chrome ?",
+          "a": "Le mode Premium de LessonScriptor capture l'audio directement depuis l'onglet du navigateur plutôt que par le microphone, donc les écouteurs fonctionnent parfaitement."
+        },
+        {
+          "q": "Puis-je utiliser les sous-titres en direct pour des enregistrements Zoom ou Teams dans Chrome ?",
+          "a": "Oui. LessonScriptor fonctionne sur toute vidéo lue dans Chrome, y compris les enregistrements Zoom, Google Meet, Teams et toute autre plateforme vidéo."
         }
       ]
     }
   },
   "transcribeVideo": {
     "h1": "Transcrire une vidéo en texte — gratuitement, dans votre navigateur",
-    "subtitle": "Convertissez n'importe quelle vidéo en texte en temps réel avec l'IA. Sans upload, sans attente, sans abonnement. Fonctionne directement dans Chrome.",
-    "answer": "Pour transcrire gratuitement une vidéo en texte dans Chrome : installez Lessonscriptor, ouvrez n'importe quelle vidéo et appuyez sur lecture. L'IA transcrit l'audio en temps réel dans un panneau latéral. Le mode gratuit est illimité.",
+    "subtitle": "Convertissez n'importe quelle vidéo en texte en temps réel avec l'IA. Sans upload, sans attente, sans abonnement. Fonctionne directement dans Chrome sur toute plateforme vidéo.",
+    "answer": "Pour transcrire gratuitement une vidéo en texte dans Chrome : installez LessonScriptor, ouvrez n'importe quelle vidéo et appuyez sur lecture. L'IA transcrit l'audio en temps réel et l'affiche sous forme de texte modifiable dans un panneau latéral. Le mode gratuit est gratuit pour toujours.",
     "faq": {
       "items": [
         {
           "q": "Comment transcrire gratuitement une vidéo en texte ?",
-          "a": "Installez Lessonscriptor (extension Chrome gratuite). Ouvrez n'importe quelle vidéo dans Chrome. Cliquez sur l'icône de l'extension pour ouvrir le panneau latéral. Appuyez sur lecture — la transcription démarre automatiquement. Le mode gratuit est gratuit pour toujours."
+          "a": "Installez LessonScriptor (extension Chrome gratuite). Ouvrez n'importe quelle vidéo dans Chrome. Cliquez sur l'icône de l'extension pour ouvrir le panneau latéral. Appuyez sur lecture — la transcription démarre automatiquement. Exportez le texte une fois terminé. Le mode gratuit est gratuit pour toujours, sans inscription."
         },
         {
           "q": "Puis-je convertir un fichier MP4 en texte ?",
-          "a": "Oui. Ouvrez le fichier MP4 dans Chrome (glissez-déposez dans un onglet Chrome) puis utilisez Lessonscriptor pour le transcrire en temps réel."
+          "a": "Oui. Ouvrez le fichier MP4 dans Chrome (glissez-déposez dans un onglet Chrome, ou ouvrez via Fichier → Ouvrir), puis utilisez LessonScriptor pour le transcrire en temps réel pendant la lecture."
+        },
+        {
+          "q": "Quel est l'outil de transcription vidéo gratuit le plus précis ?",
+          "a": "Pour la transcription en direct dans le navigateur, le mode Premium de LessonScriptor offre la meilleure précision. Le mode gratuit utilise la Web Speech API, qui fonctionne bien pour le contenu général. Les deux sont disponibles sans abonnement."
+        },
+        {
+          "q": "Combien de temps faut-il pour transcrire une vidéo ?",
+          "a": "LessonScriptor transcrit en temps réel — le texte apparaît pendant la lecture de la vidéo, il n'y a donc aucune attente. Une vidéo d'une heure prend une heure à transcrire."
         }
       ]
     }
   },
   "otterAlt": {
     "h1": "La meilleure alternative à Otter.ai pour les étudiants",
-    "subtitle": "Vous cherchez une alternative à Otter.ai qui fonctionne dans votre navigateur, sans abonnement, et gratuite au quotidien ? C'est Lessonscriptor.",
-    "answer": "Lessonscriptor est la meilleure alternative à Otter.ai pour les étudiants car il fonctionne dans Chrome sur toute plateforme vidéo (pas seulement les réunions), dispose d'un mode gratuit illimité, et facture environ 1 €/heure pour le premium — sans abonnement mensuel.",
+    "subtitle": "Vous cherchez une alternative à Otter.ai qui fonctionne dans votre navigateur, sans abonnement, et gratuite au quotidien ? C'est LessonScriptor.",
+    "answer": "LessonScriptor est la meilleure alternative à Otter.ai pour les étudiants car il fonctionne dans Chrome sur toute plateforme vidéo (pas seulement les réunions), dispose d'un mode gratuit illimité, et facture environ 1 €/heure pour le premium — sans abonnement mensuel.",
     "comparison": {
-      "title": "Otter.ai vs Lessonscriptor — detailed comparison",
+      "title": "Otter.ai vs LessonScriptor — comparaison détaillée",
       "rows": [
         [
           "",
           "Otter.ai",
           "Notta",
           "Tactiq",
-          "Lessonscriptor"
+          "LessonScriptor"
         ],
         [
-          "Free tier",
-          "Limited (300 min/mo)",
-          "Limited",
-          "Limited",
-          "Unlimited free mode"
+          "Offre gratuite",
+          "Limitée (300 min/mois)",
+          "Limitée",
+          "Limitée",
+          "Mode gratuit illimité"
         ],
         [
-          "Subscription required",
-          "Yes ($17/mo+)",
-          "Yes ($14/mo+)",
-          "Yes ($12/mo+)",
-          "No — pay as you go"
+          "Abonnement requis",
+          "Oui (17 $/mois+)",
+          "Oui (14 $/mois+)",
+          "Oui (12 $/mois+)",
+          "Non — paiement à l'usage"
         ],
         [
-          "Works on any video",
-          "No (meetings only)",
-          "No (meetings only)",
-          "No (meetings only)",
-          "Yes — any video in Chrome"
+          "Fonctionne sur toute vidéo",
+          "Non (réunions uniquement)",
+          "Non (réunions uniquement)",
+          "Non (réunions uniquement)",
+          "Oui — toute vidéo dans Chrome"
         ],
         [
-          "Live editing",
-          "Basic",
-          "No",
-          "No",
-          "Full editor — highlight, bold, headers"
+          "Édition en direct",
+          "Basique",
+          "Non",
+          "Non",
+          "Éditeur complet — surlignage, gras, titres"
         ],
         [
-          "Export formats",
+          "Formats d'export",
           "TXT, DOCX, PDF",
           "TXT, DOCX, PDF",
           "TXT, DOCX",
-          "Markdown, clipboard"
+          "Markdown, presse-papiers"
         ],
         [
-          "Chrome extension",
-          "Yes (meetings)",
-          "No",
-          "Yes (meetings)",
-          "Yes — any video"
+          "Extension Chrome",
+          "Oui (réunions)",
+          "Non",
+          "Oui (réunions)",
+          "Oui — toute vidéo"
         ],
         [
-          "Price for 12hr/semester",
-          "~$20/mo ongoing",
-          "~$14/mo ongoing",
-          "~$12/mo ongoing",
-          "~€12 total"
+          "Prix pour 12h/semestre",
+          "~20 $/mois en continu",
+          "~14 $/mois en continu",
+          "~12 $/mois en continu",
+          "~12 € au total"
         ],
         [
-          "Privacy (audio)",
-          "Sent to Otter servers",
-          "Sent to Notta servers",
-          "Sent to Tactiq servers",
-          "Local (free) or xAI API (premium)"
+          "Confidentialité (audio)",
+          "Envoyé aux serveurs Otter",
+          "Envoyé aux serveurs Notta",
+          "Envoyé aux serveurs Tactiq",
+          "Local (gratuit) ou API IA (premium)"
         ]
       ]
     },
@@ -525,11 +565,15 @@
       "items": [
         {
           "q": "Quelle est la meilleure alternative gratuite à Otter.ai ?",
-          "a": "Lessonscriptor est la meilleure alternative gratuite à Otter.ai pour les étudiants. Son mode gratuit est illimité et sans restriction mensuelle."
+          "a": "LessonScriptor est la meilleure alternative gratuite à Otter.ai pour les étudiants. Son mode gratuit est gratuit pour toujours, sans limite mensuelle — il utilise votre microphone pour capter l'audio de n'importe quelle vidéo dans Chrome. Sans abonnement, sans inscription."
         },
         {
           "q": "Existe-t-il une alternative à Otter.ai qui fonctionne sur YouTube ?",
-          "a": "Oui — Lessonscriptor. Contrairement à Otter.ai, conçu pour les réunions, Lessonscriptor fonctionne sur toute vidéo dans Chrome, y compris YouTube, Coursera, Udemy et les portails universitaires."
+          "a": "Oui — LessonScriptor. Contrairement à Otter.ai, conçu pour les réunions et les appels, LessonScriptor fonctionne sur toute vidéo dans Chrome, y compris YouTube, Coursera, Udemy, les enregistrements Zoom et les portails universitaires."
+        },
+        {
+          "q": "Pourquoi Otter.ai est-il trop cher pour les étudiants ?",
+          "a": "Le plan Pro d'Otter.ai commence à 17 $/mois. Pour un étudiant qui n'a besoin de transcrire que pendant le semestre, cela revient à plus de 100 $ par an. Le mode premium de LessonScriptor coûte environ 1 €/heure sans abonnement — un semestre complet de 12 heures coûte environ 12 €."
         }
       ]
     }
@@ -537,46 +581,54 @@
   "blog": {
     "lecture": {
       "h1": "Comment transcrire automatiquement des vidéos de cours",
-      "intro": "La façon la plus rapide de transcrire automatiquement une vidéo de cours est d'utiliser Lessonscriptor — une extension Chrome gratuite qui transcrit n'importe quelle vidéo en temps réel, directement dans votre navigateur. Sans upload, sans attente, sans abonnement.",
+      "intro": "La façon la plus rapide de transcrire automatiquement une vidéo de cours est d'utiliser LessonScriptor — une extension Chrome gratuite qui transcrit n'importe quelle vidéo en temps réel, directement dans votre navigateur. Sans upload, sans attente, sans abonnement.",
       "sections": [
         {
-          "h2": "Why manual note-taking during lectures fails",
-          "body": "Writing by hand during a lecture forces you to split your attention between listening, understanding, and writing — often all at the same time. Research consistently shows that students who transcribe lectures word-for-word retain less of the content than those who actively engage with it. The problem isn't discipline. It's the tool. When you're busy writing, you're not learning."
+          "h2": "Pourquoi la prise de notes manuelle échoue pendant les cours",
+          "body": "Écrire à la main pendant un cours vous oblige à partager votre attention entre écouter, comprendre et écrire — souvent les trois en même temps. Les recherches montrent systématiquement que les étudiants qui transcrivent les cours mot pour mot retiennent moins le contenu que ceux qui s'y engagent activement. Le problème n'est pas la discipline. C'est l'outil. Quand vous êtes occupé à écrire, vous n'apprenez pas."
         },
         {
-          "h2": "How AI transcription works in a browser",
-          "body": "Lessonscriptor uses two transcription engines. The free mode uses the Web Speech API, which is built into Chrome and processes audio locally on your device — nothing ever leaves your computer. The premium mode uses Grok (xAI), which captures the audio directly from the browser tab and sends it to the API for transcription, returning highly accurate text within seconds."
+          "h2": "Comment fonctionne la transcription IA dans un navigateur",
+          "body": "LessonScriptor utilise deux moteurs de transcription. Le mode gratuit utilise la Web Speech API, intégrée à Chrome, qui traite l'audio en local sur votre appareil — rien ne quitte jamais votre ordinateur. Le mode premium capture l'audio directement depuis l'onglet du navigateur et l'envoie à un modèle d'IA cloud pour la transcription, retournant un texte d'une grande précision en quelques secondes."
         },
         {
-          "h2": "Step-by-step: how to transcribe a lecture video with Lessonscriptor",
+          "h2": "Étape par étape : comment transcrire une vidéo de cours avec LessonScriptor",
           "steps": [
-            "Install Lessonscriptor from the Chrome Web Store — it's free, no sign-up required.",
-            "Open your lecture video in Chrome (YouTube, Coursera, Zoom recording, university portal, or any video platform).",
-            "Click the Lessonscriptor icon in your Chrome toolbar to open the side panel.",
-            "Hit play on the video — transcription starts automatically and text appears in real-time.",
-            "Edit as you watch: click to add your own notes, highlight key concepts in color, bold terminology, delete tangents.",
-            "Click any timestamp in the transcript to jump back to that exact moment in the video.",
-            "When done, export to Markdown to get a formatted document with all your highlights and formatting."
+            "Installez LessonScriptor depuis le Chrome Web Store — c'est gratuit, sans inscription.",
+            "Ouvrez votre vidéo de cours dans Chrome (YouTube, Coursera, enregistrement Zoom, portail universitaire ou toute plateforme vidéo).",
+            "Cliquez sur l'icône LessonScriptor dans la barre d'outils Chrome pour ouvrir le panneau latéral.",
+            "Lancez la lecture de la vidéo — la transcription démarre automatiquement et le texte apparaît en temps réel.",
+            "Modifiez en regardant : cliquez pour ajouter vos propres notes, surlignez les concepts clés en couleur, mettez en gras la terminologie, supprimez les digressions.",
+            "Cliquez sur n'importe quel horodatage dans la transcription pour revenir à ce moment précis de la vidéo.",
+            "Une fois terminé, exportez en Markdown pour obtenir un document formaté avec tous vos surlignages et votre mise en forme."
           ]
         },
         {
-          "h2": "Free mode vs Premium mode — which to use for lectures",
-          "body": "For most students, free mode is enough. It works well in a quiet environment with speakers on. If you prefer headphones, or if you're transcribing content with heavy technical vocabulary, accents, or fast speech, Premium mode gives significantly better accuracy at about €1 per hour."
+          "h2": "Mode gratuit vs mode Premium — lequel utiliser pour les cours",
+          "body": "Pour la plupart des étudiants, le mode gratuit suffit. Il fonctionne bien dans un environnement calme avec les haut-parleurs allumés. Si vous préférez un casque, ou si vous transcrivez du contenu avec beaucoup de vocabulaire technique, d'accents ou de parole rapide, le mode Premium offre une précision nettement supérieure à environ 1 € de l'heure."
         },
         {
-          "h2": "How to study from your transcript",
-          "body": "Once transcribed, treat your Lessonscriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams."
+          "h2": "Comment réviser à partir de votre transcription",
+          "body": "Une fois le cours transcrit, traitez votre document LessonScriptor comme un guide de révision. Surlignez les concepts les plus importants en jaune. Mettez en gras la terminologie clé. Ajoutez votre propre interprétation entre crochets au fil de votre relecture. Exportez en Markdown et importez dans Notion ou Obsidian pour un archivage à long terme. Faites une recherche plein texte avant les examens."
         }
       ],
       "faq": {
         "items": [
           {
             "q": "Puis-je transcrire automatiquement un enregistrement Zoom ?",
-            "a": "Oui. Ouvrez l'enregistrement Zoom dans Chrome et utilisez Lessonscriptor pour le transcrire. Il fonctionne sur toute vidéo lue dans Chrome."
+            "a": "Oui. Ouvrez l'enregistrement Zoom dans Chrome et utilisez LessonScriptor pour le transcrire. Il fonctionne sur toute vidéo lue dans Chrome, y compris Zoom, Google Meet, Teams et les portails vidéo universitaires."
+          },
+          {
+            "q": "La transcription automatique de cours fonctionne-t-elle en français ou en espagnol ?",
+            "a": "Oui. LessonScriptor prend en charge 14+ langues. Sélectionnez votre langue dans les paramètres et la transcription apparaîtra dans cette langue."
+          },
+          {
+            "q": "Est-ce de la triche d'utiliser un outil de transcription pour les cours ?",
+            "a": "Non. Les outils de transcription sont des aides académiques, comme les enregistreurs. Ils capturent ce qui a été dit — l'apprentissage et l'analyse restent les vôtres. De nombreuses universités autorisent et encouragent explicitement les outils d'accessibilité pour les étudiants."
           },
           {
             "q": "Quel est le meilleur outil de transcription pour les étudiants ?",
-            "a": "Lessonscriptor est le meilleur outil de transcription pour les étudiants car il fonctionne directement dans Chrome sur toute plateforme vidéo, offre un mode gratuit illimité et permet de modifier la transcription en direct pendant le visionnage."
+            "a": "LessonScriptor est le meilleur outil de transcription pour les étudiants car il fonctionne directement dans Chrome sur toute plateforme vidéo, offre un mode gratuit illimité et permet de modifier la transcription en direct pendant le visionnage — contrairement à la plupart des outils qui ne produisent qu'une transcription statique après coup."
           }
         ]
       }
@@ -584,28 +636,28 @@
   },
   "contact": {
     "h1": "Nous contacter",
-    "subtitle": "Une question, un retour ou un bug à signaler ? Envoyez-nous un message.",
+    "subtitle": "Une question, un retour ou besoin d'aide ? Nous serions ravis de vous lire. Envoyez-nous un message et nous vous répondrons dès que possible.",
     "name": "Votre nom",
-    "namePlaceholder": "Your full name",
+    "namePlaceholder": "Votre nom complet",
     "email": "Votre adresse e-mail",
-    "emailPlaceholder": "your@email.com",
+    "emailPlaceholder": "votre@email.com",
     "subject": "Sujet",
-    "subjectPlaceholder": "What is this about?",
+    "subjectPlaceholder": "De quoi s'agit-il ?",
     "message": "Votre message",
-    "messagePlaceholder": "Tell us what's on your mind...",
-    "submit": "Send Message",
-    "sending": "Sending...",
-    "success": "Message envoyé. Nous vous répondrons dans les 48 heures.",
-    "error": "Une erreur s'est produite. Veuillez réessayer ou contacter directement contact@lessonscriptor.com.",
-    "directEmail": "Or email us directly at contact@lessonscriptor.com",
+    "messagePlaceholder": "Dites-nous ce que vous avez en tête…",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours…",
+    "success": "Merci ! Votre message a bien été envoyé. Nous vous répondrons dans les meilleurs délais.",
+    "error": "Une erreur s'est produite. Veuillez vérifier vos informations et réessayer.",
+    "directEmail": "Ou écrivez-nous directement à contact@lessonscriptor.com",
     "send": "Envoyer"
   },
   "privacy": {
     "h1": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour : avril 2026"
+    "lastUpdated": "Dernière mise à jour"
   },
   "terms": {
     "h1": "Conditions d'utilisation",
-    "lastUpdated": "Dernière mise à jour : avril 2026"
+    "lastUpdated": "Dernière mise à jour"
   }
 }

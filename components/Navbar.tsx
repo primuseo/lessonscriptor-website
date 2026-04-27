@@ -10,6 +10,7 @@ const LOCALES = [
   { code: 'es', label: 'ES' },
   { code: 'pt', label: 'PT' },
   { code: 'de', label: 'DE' },
+  { code: 'zh', label: '中文' },
 ]
 
 export default function Navbar({ locale }: { locale: string }) {

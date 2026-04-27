@@ -31,6 +31,16 @@
     "tagline": "Stop writing. Start learning."
   },
   "home": {
+    "meta": {
+      "title": "accurate lecture transcription for online students",
+      "ogTitle": "never miss a word from your lectures"
+    },
+    "editing": {
+      "eyebrow": "Live editing",
+      "title": "Edit while you",
+      "titleEm": "watch.",
+      "desc": "Highlight in 5 colors, bold key terms, add headers and bullets — turn a raw transcript into study-ready notes without leaving the video."
+    },
     "hero": {
       "badge": "Free Chrome Extension",
       "h1_line1": "Never miss a word",
@@ -170,13 +180,16 @@
       ],
       "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Lemon Squeezy at checkout.",
       "paymentProcessor": "Payments processed securely by Lemon Squeezy.",
-      "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters."
+      "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters.",
+      "installFreeBtn": "Install Free",
+      "getAIBtn": "Get AI Hours →"
     },
     "quickstart": {
       "eyebrow": "Get started",
       "title_line1": "Up and running",
       "title_line2": "in 60 seconds",
       "subtitle": "No account. No configuration. Just install and go.",
+      "schemaName": "How to start transcribing lectures with LessonScriptor",
       "steps": [
         { "n": "1", "title": "Install the extension", "desc": "Add it to Chrome from the Web Store. No sign-up required.", "tag": "Chrome Web Store" },
         { "n": "2", "title": "Open any video", "desc": "Go to YouTube, Coursera, Udemy — any site with a video lecture.", "tag": "Any video site" },
@@ -211,10 +224,6 @@
         {
           "q": "Can I transcribe multiple videos at the same time?",
           "a": "Yes — but only with AI mode. AI mode captures tab audio per tab, so each video runs independently. Free (mic) mode captures whatever your speakers play, so mixing audio sources will confuse the transcription."
-        },
-        {
-          "q": "What are the premium formatting features?",
-          "a": "Premium unlocks additional formatting tools: text highlighting with colours, toggling section headers on and off, and hiding/collapsing parts of your transcript. These work on top of the free editing features (bold, bullets, auto-save) and are designed for students who want to turn a raw transcript into study-ready notes."
         }
       ]
     },
@@ -228,7 +237,18 @@
         { "title": "Feature suggestions", "desc": "Something missing? Tell us what would make this better for you." },
         { "title": "Bug reports", "desc": "Something broken? We want to know — the more detail the better." },
         { "title": "Just saying hi", "desc": "We genuinely love hearing how people use it. Drop us a note." }
-      ]
+      ],
+      "form": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "topic": "Topic…",
+        "feature": "Feature suggestion",
+        "bug": "Bug report",
+        "question": "Question",
+        "hi": "Just saying hi",
+        "message": "Your message…",
+        "send": "Send →"
+      }
     }
   },
   "youtube": {

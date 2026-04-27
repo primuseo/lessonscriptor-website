@@ -20,16 +20,18 @@ import {
   SpeakerWaveIcon,
 } from '@heroicons/react/24/outline'
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const site = await getTranslations('site')
+  const home = await getTranslations('home')
+  const url = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
   return {
-    title: `${site('name')} — accurate lecture transcription for online students`,
+    title: `${site('name')} — ${home('meta.title')}`,
     description: site('description'),
     openGraph: {
-      title: `${site('name')} — never miss a word from your lectures`,
+      title: `${site('name')} — ${home('meta.ogTitle')}`,
       description: site('description'),
       type: 'website',
-      url: 'https://lessonscriptor.com',
+      url,
     },
   }
 }
@@ -39,20 +41,53 @@ export default async function HomePage({ params: { locale } }: { params: { local
   const t = await getTranslations('home')
   const site = await getTranslations('site')
 
+  const websiteData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: site('name'),
+    url: 'https://lessonscriptor.com',
+    description: site('description'),
+  }
+
+  const organizationData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: site('name'),
+    url: 'https://lessonscriptor.com',
+    logo: 'https://lessonscriptor.com/icons/icon-512.png',
+    sameAs: ['https://github.com/pierregseo/live-transcription-extension'],
+    foundingDate: '2026',
+    founder: [
+      { '@type': 'Person', name: 'Victoria' },
+      { '@type': 'Person', name: 'Pierre' },
+    ],
+  }
+
   const structuredData = {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: site('name'),
     description: site('description'),
     url: 'https://lessonscriptor.com',
-    applicationCategory: 'ProductivityApplication',
-    operatingSystem: 'Chrome',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'EUR',
-      category: 'Free',
-    },
+    applicationCategory: 'BrowserApplication',
+    operatingSystem: 'Chrome, Chromium, Brave, Edge, Arc',
+    browserRequirements: 'Requires Chrome or a Chromium-based browser',
+    inLanguage: ['en', 'fr', 'es', 'zh', 'hi', 'ar', 'bn', 'pt', 'ru', 'ur', 'de', 'it'],
+    featureList: [
+      'Live lecture transcription via microphone (free) or AI tab capture (paid)',
+      '14 transcription languages including English, French, Spanish, Arabic, Hindi',
+      'Rich note editing with highlights, bold, and bullet points',
+      'Export to .txt, .md, clipboard, or Google Drive',
+      'Per-line timestamps and session history',
+      'Privacy-first: fully local processing in free mode',
+    ],
+    offers: [
+      { '@type': 'Offer', name: 'Free — Browser Speech Recognition', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/PreOrder' },
+      { '@type': 'Offer', name: 'AI Mode — 5 Hours', price: '5.00', priceCurrency: 'USD', availability: 'https://schema.org/PreOrder' },
+      { '@type': 'Offer', name: 'AI Mode — 15 Hours', price: '12.00', priceCurrency: 'USD', availability: 'https://schema.org/PreOrder' },
+      { '@type': 'Offer', name: 'AI Mode — 30 Hours', price: '21.00', priceCurrency: 'USD', availability: 'https://schema.org/PreOrder' },
+    ],
+    creator: { '@type': 'Organization', name: 'LessonScriptor', url: 'https://lessonscriptor.com' },
   }
 
   const faqData = {
@@ -65,14 +100,31 @@ export default async function HomePage({ params: { locale } }: { params: { local
     })),
   }
 
+  const howToData = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: t('quickstart.schemaName'),
+    description: t('quickstart.subtitle'),
+    totalTime: 'PT1M',
+    step: t.raw('quickstart.steps').map((s: { n: string; title: string; desc: string }, i: number) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.title,
+      text: s.desc,
+    })),
+  }
+
   const problemIcons = [HandRaisedIcon, SparklesIcon, GlobeAltIcon, BoltIcon]
   const featureIcons = [MicrophoneIcon, PencilSquareIcon, ArrowDownTrayIcon, LanguageIcon, ShieldCheckIcon, ClockIcon]
   const whoIcons = [AcademicCapIcon, SparklesIcon, GlobeAltIcon, ComputerDesktopIcon]
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToData) }} />
 
       {/* ── HERO ── */}
       <section className="bg-cream-50 border-b border-cream-200">
@@ -198,13 +250,13 @@ export default async function HomePage({ params: { locale } }: { params: { local
       {/* ── EDITING SHOWCASE ── */}
       <section className="bg-white py-24 px-4 border-b border-cream-200">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="eyebrow">Live editing</p>
+          <p className="eyebrow">{t('editing.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight mb-4">
-            Edit while you{' '}
-            <em className="italic text-accent-500">watch.</em>
+            {t('editing.title')}{' '}
+            <em className="italic text-accent-500">{t('editing.titleEm')}</em>
           </h2>
           <p className="text-[15px] text-terra-800/60 max-w-xl mx-auto mb-12 leading-relaxed">
-            Highlight in 5 colors, bold key terms, add headers and bullets — turn a raw transcript into study-ready notes without leaving the video.
+            {t('editing.desc')}
           </p>
           <div className="bg-white p-4 rounded-3xl shadow-lg border border-cream-200 max-w-md mx-auto">
             <Image
@@ -343,7 +395,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 rel="noopener noreferrer"
                 className="block text-center bg-cream-100 border border-cream-200 text-accent-600 text-[13px] font-bold py-3 rounded-full no-underline hover:bg-cream-200 transition-colors"
               >
-                Install Free
+                {t('pricing.installFreeBtn')}
               </a>
             </div>
 
@@ -391,7 +443,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 rel="noopener noreferrer"
                 className="block text-center bg-accent-500 text-white text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-600 transition-colors"
               >
-                Get AI Hours →
+                {t('pricing.getAIBtn')}
               </a>
             </div>
           </div>
@@ -465,18 +517,18 @@ export default async function HomePage({ params: { locale } }: { params: { local
             method="POST"
           >
             <input type="hidden" name="_subject" value="Contact form message" />
-            <input type="text" name="name" placeholder="Your name" required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
-            <input type="email" name="email" placeholder="your@email.com" required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
+            <input type="text" name="name" placeholder={t('contact.form.name')} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
+            <input type="email" name="email" placeholder={t('contact.form.email')} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
             <select name="type" className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors">
-              <option value="" disabled>Topic…</option>
-              <option value="feature">Feature suggestion</option>
-              <option value="bug">Bug report</option>
-              <option value="question">Question</option>
-              <option value="hi">Just saying hi</option>
+              <option value="" disabled>{t('contact.form.topic')}</option>
+              <option value="feature">{t('contact.form.feature')}</option>
+              <option value="bug">{t('contact.form.bug')}</option>
+              <option value="question">{t('contact.form.question')}</option>
+              <option value="hi">{t('contact.form.hi')}</option>
             </select>
-            <textarea name="message" placeholder="Your message…" rows={5} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 resize-y focus:border-accent-500 transition-colors" />
+            <textarea name="message" placeholder={t('contact.form.message')} rows={5} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 resize-y focus:border-accent-500 transition-colors" />
             <button type="submit" className="btn-primary justify-center py-3.5">
-              Send →
+              {t('contact.form.send')}
             </button>
           </form>
         </div>

@@ -61,6 +61,7 @@ export default function Footer({ locale }: { locale: string }) {
               <li><Link href="/es" className="hover:text-cream-100 transition-colors">Español</Link></li>
               <li><Link href="/pt" className="hover:text-cream-100 transition-colors">Português</Link></li>
               <li><Link href="/de" className="hover:text-cream-100 transition-colors">Deutsch</Link></li>
+              <li><Link href="/zh" className="hover:text-cream-100 transition-colors">中文</Link></li>
             </ul>
           </div>
         </div>

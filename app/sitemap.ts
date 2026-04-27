@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lessonscriptor.com'
-  const locales = ['en', 'fr', 'es', 'pt', 'de']
+  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   const pages = [
     '/',
     '/transcribe-youtube-video',

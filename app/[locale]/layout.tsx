@@ -6,7 +6,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import '../globals.css'
 
-const locales = ['en', 'fr', 'es', 'pt', 'de']
+const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
 
 export function generateStaticParams() {
   return locales.map(locale => ({ locale }))
@@ -39,11 +39,13 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     alternates: {
       canonical: 'https://lessonscriptor.com',
       languages: {
+        'x-default': 'https://lessonscriptor.com',
         'en': 'https://lessonscriptor.com',
         'fr': 'https://lessonscriptor.com/fr',
         'es': 'https://lessonscriptor.com/es',
         'pt': 'https://lessonscriptor.com/pt',
         'de': 'https://lessonscriptor.com/de',
+        'zh': 'https://lessonscriptor.com/zh',
       }
     }
   }
