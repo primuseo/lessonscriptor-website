@@ -33,7 +33,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       description: site.description,
     },
     verification: {
-      google: 'REPLACE_WITH_GSC_VERIFICATION_TOKEN',
+      google: 'NWAu36gT5TsT2EkB4qbgsD2KaghAslDeD0Gh1AP9X8c',
     },
     robots: { index: true, follow: true },
     alternates: {

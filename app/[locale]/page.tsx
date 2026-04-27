@@ -67,7 +67,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
   const problemIcons = [HandRaisedIcon, SparklesIcon, GlobeAltIcon, BoltIcon]
   const featureIcons = [MicrophoneIcon, PencilSquareIcon, ArrowDownTrayIcon, LanguageIcon, ShieldCheckIcon, ClockIcon]
-  const whoIcons = [AcademicCapIcon, SparklesIcon, ComputerDesktopIcon]
+  const whoIcons = [AcademicCapIcon, SparklesIcon, GlobeAltIcon, ComputerDesktopIcon]
 
   return (
     <>
@@ -103,7 +103,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
           </div>
 
           {/* Full-width browser context screenshot */}
-          <div className="relative mx-auto max-w-5xl">
+          <div className="relative mx-auto max-w-5xl pb-16">
             <div className="bg-white p-2 sm:p-3 rounded-2xl sm:rounded-3xl shadow-lg border border-cream-200 overflow-hidden">
               <Image
                 src="/images/sidebar-context.png"
@@ -175,7 +175,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
             <p className="eyebrow">{t('who.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">{t('who.title')}</h2>
           </div>
-          <div className="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 max-w-5xl mx-auto">
             {t.raw('who.items').map((item: { title: string; desc: string; tag: string }, i: number) => {
               const Icon = whoIcons[i]
               return (

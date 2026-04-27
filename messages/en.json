@@ -43,7 +43,7 @@
     },
     "problem": {
       "eyebrow": "The problem",
-      "title_line1": "Your brain can't write and",
+      "title_line1": "Your brain struggles to write and",
       "title_line2": "listen at the",
       "title_em": "same time.",
       "subtitle": "Lectures move fast. Notes fall behind. You end up choosing between understanding and capturing — and either way, something gets lost.",
@@ -70,6 +70,7 @@
       "items": [
         { "title": "Students", "desc": "University lectures, online courses, MOOCs — capture everything without losing the thread of what's being said.", "tag": "Free mode works great" },
         { "title": "ADHD Learners", "desc": "Reading along while listening dramatically reduces cognitive load. Stop losing focus mid-lecture.", "tag": "Accessibility first" },
+        { "title": "Non-native speakers", "desc": "Watching lectures in a second language? Having the transcript appear in real-time lets you follow along without missing a word.", "tag": "Any language" },
         { "title": "Online Course Takers", "desc": "Udemy, Coursera, YouTube tutorials — turn any video into searchable, editable notes automatically.", "tag": "Any video site" }
       ]
     },
@@ -79,13 +80,13 @@
       "title_line2": "Nothing you don't.",
       "items": [
         {
-          "title": "Accuracy over speed",
-          "desc": "Audio is chunked into 10-second windows (3 seconds optimal) — exactly how the AI model was trained. The trade-off: a short delay, but far more accurate text than any real-time alternative.",
-          "chips": ["10s chunks", "High accuracy"]
+          "title": "Accuracy you can trust",
+          "desc": "Audio is sent in chunks — 10 seconds in Normal mode, 30 seconds in Optimal for even better accuracy. A short delay, but far more accurate text than any real-time alternative.",
+          "chips": ["Normal mode", "Optimal mode", "High accuracy"]
         },
         {
-          "title": "Rich note editing",
-          "desc": "Format your transcript as it arrives — highlight key phrases, bold important terms, add bullet points, and toggle headers on the fly.",
+          "title": "A real note editor",
+          "desc": "Don't just read — work directly in the transcript. Highlight key phrases, bold terms, add headers and bullets, remove the parts you don't need. Most students finish their notes before the lecture ends.",
           "chips": ["Highlights", "Bold", "Headers", "• Bullets", "Auto-save"]
         },
         {
@@ -95,7 +96,7 @@
         },
         {
           "title": "14 languages",
-          "desc": "English, French, Spanish, Arabic, Hindi and more. Transcribe in the language of your lecture.",
+          "desc": "English, French, Spanish, Arabic, Hindi and more. Transcribe in the language of your lecture — great for non-native speakers following along.",
           "chips": ["incl. Arabic", "incl. Hindi"]
         },
         {
@@ -104,9 +105,9 @@
           "chips": ["Local by default", "No signup"]
         },
         {
-          "title": "Timestamps + history",
-          "desc": "Optional timestamps on every line. Resume past sessions without losing your work.",
-          "chips": ["Per-line timestamps", "Session history"]
+          "title": "Session history",
+          "desc": "All your past transcriptions are saved automatically. Pick up where you left off — nothing is ever lost.",
+          "chips": ["Auto-save", "Session history"]
         }
       ]
     },
@@ -138,15 +139,14 @@
       "freeDesc": "Uses your browser's built-in speech engine and your microphone. Fully local — no audio sent anywhere.",
       "freeFeatures": [
         "Transcription via microphone",
-        "Basic editing — bold, bullets",
+        "Full editing — highlights, bold, headers, bullets",
         "Export .txt, .md, clipboard",
         "14 languages",
         "Session history & auto-save"
       ],
       "freeMuted": [
         "Works with headphones",
-        "Cloud AI accuracy",
-        "Premium formatting"
+        "Cloud AI accuracy"
       ],
       "freeCaveat": "Audio must play through your speakers — the mic needs to hear it.",
       "premiumLabel": "AI Mode — Pay as you go",
@@ -160,11 +160,10 @@
         { "hours": "30h", "basePrice": 21, "basePer": 0.70, "per": "one-time · no expiry", "badge": "Most popular", "save": 9 }
       ],
       "premiumFeatures": [
-        "Everything in Free",
+        "Everything in Free, including full editing",
         "Cloud AI engine — far better accuracy than browser speech",
         "Direct tab audio — works with any headphones",
         "Higher accuracy across accents & background noise",
-        "Premium formatting — highlights, headers, hide/show sections",
         "Hours consumed second-by-second — nothing wasted when you stop",
         "Credits never expire — top up whenever you want",
         "10-min grace period if credits run out mid-lecture"
