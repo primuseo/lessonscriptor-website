@@ -55,14 +55,14 @@
       ]
     },
     "origin": {
-      "eyebrow": "Who made this",
-      "title_line1": "Built for",
-      "title_em": "online students.",
-      "lede": "Victoria is studying for a bachelor's in anthropology at a French university — entirely by distance, with ADHD. Hours of video lectures, workshops, seminars every week.",
-      "p1": "Taking notes while watching meant losing the thread. Rewinding, rewriting, rewatching. Notes too sparse to study from, or too rushed to read. The cognitive load of listening and writing at the same time, with ADHD, is brutal.",
-      "p2": "Pierre is a geek. So he started building. Victoria tested every version, gave feedback, broke things, explained what was missing. Weeks of iteration — a real back-and-forth.",
-      "close": "This extension is the result. We hope it lets you focus on what actually matters — understanding what you're learning, not fighting to write it down.",
-      "sig": "Victoria (testing & feedback) · Pierre (dev) · South of France · 2026"
+      "eyebrow": "Our story",
+      "title_line1": "Built at the",
+      "title_em": "kitchen table.",
+      "lede": "We're Victoria and Pierre — a couple from the south of France. Victoria is studying anthropology online — every lecture, every seminar, every workshop streamed from home. Pierre loves building things with code. This started as a side project to see if a little Chrome extension could help — and turned into something we think everyone deserves.",
+      "p1": "Victoria's days are hours of video lectures back to back. Taking notes while watching meant losing the thread. Rewinding, rewriting, rewatching. Notes too sparse to study from, or too rushed to read. On top of that, she has ADHD — which makes splitting focus between listening and writing not just hard, but exhausting.",
+      "p2": "So Pierre started building, and Victoria tested every version — broke things, gave feedback, explained what was actually missing. Evening after evening, laptop to laptop.",
+      "close": "This is the result. We're making it available to everyone because no student should have to choose between listening and writing. If it helps you even once, it was worth it.",
+      "sig": "Victoria & Pierre · South of France · 2026"
     },
     "who": {
       "eyebrow": "Who it's for",
@@ -129,11 +129,11 @@
       "title_line1": "Free forever. Pay only",
       "title_line2": "for what you transcribe.",
       "subtitle": "Start for free with your microphone. Top up when you need AI-powered transcription — no subscription, no expiry.",
-      "whyPay": "Why does Premium cost money?",
-      "whyPayDesc": "Free mode uses your browser's built-in speech recognition — local, instant, free. Premium sends your audio to a state-of-the-art cloud AI model. That processing has a real cost. We pass it on transparently: credits are consumed second-by-second from your pack, they never expire, and you choose how fast you burn them based on the transcription mode you use.",
+      "whyPay": "Why does AI mode cost money?",
+      "whyPayDesc": "Free mode uses your browser's built-in speech recognition — local, instant, free. AI mode sends your audio to a state-of-the-art cloud AI model. That processing has a real cost. We pass it on transparently: credits are consumed second-by-second from your pack, they never expire, and you choose how fast you burn them based on the transcription mode you use.",
       "freeLabel": "Free",
       "freeEngine": "Browser speech recognition",
-      "freePrice": "€0",
+      "freePrice": "$0",
       "freePriceSuffix": "forever",
       "freeDesc": "Uses your browser's built-in speech engine and your microphone. Fully local — no audio sent anywhere.",
       "freeFeatures": [
@@ -146,19 +146,18 @@
       "freeMuted": [
         "Works with headphones",
         "Cloud AI accuracy",
-        "Premium formatting & player sync"
+        "Premium formatting"
       ],
       "freeCaveat": "Audio must play through your speakers — the mic needs to hear it.",
-      "premiumLabel": "Premium — Pay as you go",
+      "premiumLabel": "AI Mode — Pay as you go",
       "premiumEngine": "AI-powered transcription",
       "noSubCallout": "No subscription. No \"I forgot to cancel\" tax. Credits never expire.",
-      "costCallout": "Buy a pack once. Your hours are consumed second-by-second as you transcribe — nothing is wasted when you stop. Time shown is for Normal mode. Live mode sends audio more frequently and burns ~3× faster. The extension shows your live burn rate so there are no surprises.",
+      "costCallout": "Buy a pack once. Your hours are consumed second-by-second as you transcribe, so nothing is wasted when you stop. The bigger the pack, the lower the price per hour.",
       "headphonesCallout": "Works with headphones on. Tab audio is captured directly — no microphone, no speakers needed.",
       "packs": [
-        { "hours": "1h", "unit": "normal · ~20min live", "price": "€3", "per": "one-time · no expiry" },
-        { "hours": "3h", "unit": "normal · ~1h live", "price": "€8", "per": "one-time · no expiry" },
-        { "hours": "10h", "unit": "normal · ~3h live", "price": "€18", "per": "one-time · no expiry", "badge": "Most popular" },
-        { "hours": "25h", "unit": "normal · ~8h live", "price": "€35", "per": "one-time · no expiry" }
+        { "hours": "5h", "basePrice": 5, "basePer": 1.00, "per": "one-time · no expiry" },
+        { "hours": "15h", "basePrice": 12, "basePer": 0.80, "per": "one-time · no expiry", "save": 3 },
+        { "hours": "30h", "basePrice": 21, "basePer": 0.70, "per": "one-time · no expiry", "badge": "Most popular", "save": 9 }
       ],
       "premiumFeatures": [
         "Everything in Free",
@@ -166,12 +165,13 @@
         "Direct tab audio — works with any headphones",
         "Higher accuracy across accents & background noise",
         "Premium formatting — highlights, headers, hide/show sections",
-        "Player sync — transcript follows the video position (beta)",
         "Hours consumed second-by-second — nothing wasted when you stop",
         "Credits never expire — top up whenever you want",
         "10-min grace period if credits run out mid-lecture"
       ],
-      "footnote": "Buy once, use whenever. A full semester at 3h/week on normal mode costs around €18 — less than one textbook chapter."
+      "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Lemon Squeezy at checkout.",
+      "paymentProcessor": "Payments processed securely by Lemon Squeezy.",
+      "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters."
     },
     "quickstart": {
       "eyebrow": "Get started",
@@ -212,10 +212,6 @@
         {
           "q": "Can I transcribe multiple videos at the same time?",
           "a": "Yes — but only with AI mode. AI mode captures tab audio per tab, so each video runs independently. Free (mic) mode captures whatever your speakers play, so mixing audio sources will confuse the transcription."
-        },
-        {
-          "q": "What is player sync?",
-          "a": "Player sync is a beta feature for Premium users. It links the transcript to the video timeline — when you click a line in the transcript, the video jumps to that moment. When the video plays, the transcript follows along. It works best with standard HTML5 video players."
         },
         {
           "q": "What are the premium formatting features?",
@@ -294,7 +290,6 @@
         ["Editable transcript", "No", "Yes — click anywhere to edit"],
         ["Export notes", "No", "Yes — Markdown, clipboard"],
         ["Highlight & format", "No", "Yes — 5 colors, bold, headers"],
-        ["Timestamp sync", "No", "Yes — click to jump to moment"],
         ["Custom vocabulary", "No", "Yes — personal dictionary"],
         ["Languages supported", "English only", "14+ languages"],
         ["Works with headphones (Premium)", "No", "Yes"],

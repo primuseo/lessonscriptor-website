@@ -3,6 +3,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
+import PricingPacks from '@/components/PricingPacks'
 import {
   MicrophoneIcon,
   PencilSquareIcon,
@@ -370,27 +371,12 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 </p>
               </div>
 
-              {/* Packs grid */}
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 mb-4">
-                {t.raw('pricing.packs').map((pack: { hours: string; unit: string; price: string; per: string; badge?: string }, i: number) => (
-                  <div
-                    key={i}
-                    className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent-400/30 transition-colors ${
-                      pack.badge ? 'border-accent-600' : 'border-white/[0.08]'
-                    }`}
-                  >
-                    {pack.badge && (
-                      <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-accent-600 text-white text-[9px] font-extrabold tracking-wider uppercase py-0.5 px-2 rounded-full whitespace-nowrap">
-                        {pack.badge}
-                      </span>
-                    )}
-                    <div className="text-xl font-bold text-cream-50 font-serif leading-none tracking-tight">{pack.hours}</div>
-                    <div className="text-[10px] text-cream-50/40 my-1 leading-snug">{pack.unit}</div>
-                    <div className="text-[22px] font-bold text-accent-400 tracking-tight">{pack.price}</div>
-                    <div className="text-[10px] text-cream-50/35 mt-[3px]">{pack.per}</div>
-                  </div>
-                ))}
-              </div>
+              {/* Packs grid with currency selector */}
+              <PricingPacks
+                packs={t.raw('pricing.packs')}
+                currencyDisclaimer={t('pricing.currencyDisclaimer')}
+                paymentProcessor={t('pricing.paymentProcessor')}
+              />
 
               <ul className="flex flex-col gap-2 mb-6 pt-5 border-t border-white/[0.06] list-none p-0">
                 {t.raw('pricing.premiumFeatures').map((f: string, i: number) => (
@@ -405,7 +391,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 rel="noopener noreferrer"
                 className="block text-center bg-accent-500 text-white text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-600 transition-colors"
               >
-                Get Premium →
+                Get AI Hours →
               </a>
             </div>
           </div>
