@@ -76,9 +76,9 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
       {/* ── HERO ── */}
       <section className="bg-cream-50 border-b border-cream-200">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-0 grid md:grid-cols-2 gap-14 items-end">
-          <div className="pb-20">
-            <div className="badge mb-7">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-0">
+          <div className="text-center max-w-2xl mx-auto mb-14">
+            <div className="badge mb-7 justify-center">
               <span className="w-1.5 h-1.5 rounded-full bg-accent-500" />
               {t('hero.badge')}
             </div>
@@ -88,7 +88,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               <em className="italic text-accent-500">{t('hero.h1_em')}</em><br />
               {t('hero.h1_line3')}
             </h1>
-            <p className="text-lg text-terra-800/60 leading-relaxed mb-9 max-w-md">
+            <p className="text-lg text-terra-800/60 leading-relaxed mb-9 max-w-md mx-auto">
               {t('hero.subtitle')}
             </p>
             <a
@@ -102,15 +102,15 @@ export default async function HomePage({ params: { locale } }: { params: { local
             <p className="text-xs text-terra-800/30 mt-4">{t('hero.waitlistNote')}</p>
           </div>
 
-          {/* Sidebar screenshot */}
-          <div className="flex justify-center items-end">
-            <div className="w-full max-w-[360px] bg-white p-3 rounded-3xl shadow-lg border border-cream-200">
+          {/* Full-width browser context screenshot */}
+          <div className="relative mx-auto max-w-5xl">
+            <div className="bg-white p-2 sm:p-3 rounded-2xl sm:rounded-3xl shadow-lg border border-cream-200 overflow-hidden">
               <Image
-                src="/images/sidebar-screenshot.png"
-                alt="LessonScriptor side panel showing live transcription of a YouTube video"
-                width={360}
-                height={680}
-                className="w-full h-auto rounded-2xl"
+                src="/images/sidebar-context.png"
+                alt="LessonScriptor side panel transcribing a YouTube lecture in real-time alongside the video"
+                width={2928}
+                height={1834}
+                className="w-full h-auto rounded-xl sm:rounded-2xl"
                 priority
               />
             </div>
