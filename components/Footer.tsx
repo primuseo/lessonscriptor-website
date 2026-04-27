@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer')
+  const s = useTranslations('site')
   const base = locale === 'en' ? '' : `/${locale}`
 
   return (
@@ -21,7 +22,7 @@ export default function Footer({ locale }: { locale: string }) {
               rel="noopener noreferrer"
               className="inline-block text-xs bg-accent-500 text-white px-4 py-2 rounded-full hover:bg-accent-600 transition-colors"
             >
-              Install Free
+              {s('footerInstall')}
             </a>
           </div>
 
@@ -68,7 +69,7 @@ export default function Footer({ locale }: { locale: string }) {
 
         <div className="border-t border-cream-200/10 pt-8 text-xs flex flex-col md:flex-row justify-between gap-4">
           <p>{t('copyright')}</p>
-          <p>No tracking · No cookies</p>
+          <p>{s('footerPrivacy')}</p>
         </div>
       </div>
     </footer>

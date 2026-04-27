@@ -1,4 +1,5 @@
 'use client'
+import { useTranslations } from 'next-intl'
 
 interface FAQItem {
   q: string
@@ -6,14 +7,15 @@ interface FAQItem {
 }
 
 export default function FAQSection({ title, items }: { title?: string; items: FAQItem[] }) {
+  const t = useTranslations('site')
   return (
     <section className="py-24 px-4 max-w-3xl mx-auto" id="faq">
       {title && (
         <div className="text-center mb-14">
-          <p className="eyebrow">Support</p>
+          <p className="eyebrow">{t('faqSection.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
-            Common questions{' '}
-            <em className="italic text-accent-500">answered.</em>
+            {t('faqSection.title')}{' '}
+            <em className="italic text-accent-500">{t('faqSection.titleEm')}</em>
           </h2>
         </div>
       )}

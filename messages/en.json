@@ -8,7 +8,19 @@
     "learnMore": "Learn more",
     "free": "Free",
     "premium": "Premium",
-    "tryFree": "Try for free"
+    "tryFree": "Try for free",
+    "cta": {
+      "title": "Because love means you don't have to write everything down",
+      "titleEm": "by hand.",
+      "subtitle": "Free to install. Free to use. Built for learners who deserve better tools."
+    },
+    "faqSection": {
+      "eyebrow": "Support",
+      "title": "Common questions",
+      "titleEm": "answered."
+    },
+    "footerInstall": "Install Free",
+    "footerPrivacy": "No tracking · No cookies"
   },
   "nav": {
     "features": "Features",

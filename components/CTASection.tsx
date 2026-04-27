@@ -6,11 +6,11 @@ export default function CTASection() {
     <section className="bg-terra-900 py-24 px-4 text-center">
       <div className="max-w-3xl mx-auto">
         <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-cream-100 mb-5 leading-tight">
-          Because love means you don&apos;t have to write everything down{' '}
-          <em className="italic text-accent-500">by hand.</em>
+          {t('cta.title')}{' '}
+          <em className="italic text-accent-500">{t('cta.titleEm')}</em>
         </h2>
         <p className="text-cream-200/60 text-lg mb-10 max-w-xl mx-auto">
-          Free to install. Free to use. Built for learners who deserve better tools.
+          {t('cta.subtitle')}
         </p>
         <a
           href="https://chrome.google.com/webstore"
