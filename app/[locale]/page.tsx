@@ -1,18 +1,31 @@
-import { getTranslations, getLocale, unstable_setRequestLocale } from 'next-intl/server'
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { Metadata } from 'next'
-import Link from 'next/link'
+import Image from 'next/image'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
+import {
+  MicrophoneIcon,
+  PencilSquareIcon,
+  ArrowDownTrayIcon,
+  LanguageIcon,
+  ShieldCheckIcon,
+  ClockIcon,
+  AcademicCapIcon,
+  SparklesIcon,
+  ComputerDesktopIcon,
+  HandRaisedIcon,
+  BoltIcon,
+  GlobeAltIcon,
+  SpeakerWaveIcon,
+} from '@heroicons/react/24/outline'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations('home')
   const site = await getTranslations('site')
-
   return {
-    title: `${site('name')} — Live AI Transcription for Any Video in Chrome`,
+    title: `${site('name')} — accurate lecture transcription for online students`,
     description: site('description'),
     openGraph: {
-      title: `${site('name')} — Live AI Transcription for Any Video in Chrome`,
+      title: `${site('name')} — never miss a word from your lectures`,
       description: site('description'),
       type: 'website',
       url: 'https://lessonscriptor.com',
@@ -24,8 +37,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
   unstable_setRequestLocale(locale)
   const t = await getTranslations('home')
   const site = await getTranslations('site')
-  const nav = await getTranslations('nav')
-  const base = locale === 'en' ? '' : `/${locale}`
 
   const structuredData = {
     '@context': 'https://schema.org',
@@ -41,11 +52,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       priceCurrency: 'EUR',
       category: 'Free',
     },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      ratingCount: '240',
-    },
   }
 
   const faqData = {
@@ -54,233 +60,443 @@ export default async function HomePage({ params: { locale } }: { params: { local
     mainEntity: t.raw('faq.items').map((item: { q: string; a: string }) => ({
       '@type': 'Question',
       name: item.q,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.a,
-      },
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
     })),
   }
+
+  const problemIcons = [HandRaisedIcon, SparklesIcon, GlobeAltIcon, BoltIcon]
+  const featureIcons = [MicrophoneIcon, PencilSquareIcon, ArrowDownTrayIcon, LanguageIcon, ShieldCheckIcon, ClockIcon]
+  const whoIcons = [AcademicCapIcon, SparklesIcon, ComputerDesktopIcon]
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }} />
 
-      {/* HERO SECTION */}
-      <section className="pt-24 pb-16 px-4 max-w-6xl mx-auto">
-        <div className="text-center">
-          {/* Badge */}
-          <div className="inline-block mb-6">
-            <span className="badge text-sm px-4 py-2 bg-blue-100 text-blue-700 rounded-full font-medium">
+      {/* ── HERO ── */}
+      <section className="bg-cream-50 border-b border-cream-200">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-0 grid md:grid-cols-2 gap-14 items-end">
+          <div className="pb-20">
+            <div className="badge mb-7">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent-500" />
               {t('hero.badge')}
-            </span>
-          </div>
-
-          {/* H1 */}
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
-            {t('hero.h1')}
-          </h1>
-
-          {/* Subtitle */}
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            {t('hero.subtitle')}
-          </p>
-
-          {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+            </div>
+            <h1 className="font-serif text-5xl md:text-6xl font-bold text-terra-800 leading-[1.1] tracking-tight mb-6">
+              {t('hero.h1_line1')}<br />
+              {t('hero.h1_line2')}{' '}
+              <em className="italic text-accent-500">{t('hero.h1_em')}</em><br />
+              {t('hero.h1_line3')}
+            </h1>
+            <p className="text-lg text-terra-800/60 leading-relaxed mb-9 max-w-md">
+              {t('hero.subtitle')}
+            </p>
             <a
               href="https://chrome.google.com/webstore"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center justify-center px-8 py-4 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-colors text-lg shadow-lg"
+              className="btn-primary text-base py-4 px-8"
             >
-              {t('hero.cta1')}
+              {site('installCTA')}
             </a>
-            <button className="btn-secondary inline-flex items-center justify-center px-8 py-4 bg-white border-2 border-gray-200 text-gray-900 font-bold rounded-xl hover:bg-gray-50 transition-colors text-lg">
-              {t('hero.cta2')}
-            </button>
+            <p className="text-xs text-terra-800/30 mt-4">{t('hero.waitlistNote')}</p>
           </div>
 
-          {/* Social proof */}
-          <p className="text-gray-500 text-sm font-medium">
-            {t('hero.socialProof')}
+          {/* Sidebar screenshot */}
+          <div className="flex justify-center items-end">
+            <div className="w-full max-w-[360px] bg-white p-3 rounded-3xl shadow-lg border border-cream-200">
+              <Image
+                src="/images/sidebar-screenshot.png"
+                alt="LessonScriptor side panel showing live transcription of a YouTube video"
+                width={360}
+                height={680}
+                className="w-full h-auto rounded-2xl"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PROBLEM ── */}
+      <section className="bg-terra-900 py-24 px-4 text-center">
+        <div className="max-w-6xl mx-auto">
+          <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-accent-400 mb-4">{t('problem.eyebrow')}</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-cream-50 leading-tight tracking-tight mb-5 max-w-2xl mx-auto">
+            {t('problem.title_line1')}<br />
+            {t('problem.title_line2')}{' '}
+            <em className="italic text-accent-400">{t('problem.title_em')}</em>
+          </h2>
+          <p className="text-base text-cream-100/50 leading-relaxed max-w-lg mx-auto mb-14">
+            {t('problem.subtitle')}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            {t.raw('problem.items').map((item: { title: string; desc: string }, i: number) => {
+              const Icon = problemIcons[i]
+              return (
+                <div key={i} className="bg-white/[0.04] border border-white/[0.06] rounded-2xl p-6 text-left hover:bg-white/[0.07] transition-colors">
+                  <Icon className="w-5 h-5 text-accent-400 mb-3" />
+                  <h4 className="text-[13px] font-bold text-cream-50 mb-2 leading-tight">{item.title}</h4>
+                  <p className="text-xs text-white/45 leading-relaxed m-0">{item.desc}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── ORIGIN STORY ── */}
+      <section className="bg-white py-24 px-4 border-b border-cream-200">
+        <div className="max-w-2xl mx-auto">
+          <p className="eyebrow">{t('origin.eyebrow')}</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight mb-9">
+            {t('origin.title_line1')}<br />
+            <em className="italic text-accent-500">{t('origin.title_em')}</em>
+          </h2>
+          <div className="border-l-[3px] border-accent-500 pl-7">
+            <p className="text-lg text-terra-800 leading-relaxed mb-5 font-serif italic">
+              {t('origin.lede')}
+            </p>
+            <p className="text-[15px] text-terra-800/60 leading-relaxed mb-5">{t('origin.p1')}</p>
+            <p className="text-[15px] text-terra-800/60 leading-relaxed mb-5">{t('origin.p2')}</p>
+            <p className="text-[15px] text-terra-800 leading-relaxed font-semibold">{t('origin.close')}</p>
+          </div>
+          <div className="mt-9 flex items-center gap-3">
+            <span className="w-2 h-2 rounded-full bg-accent-500 flex-shrink-0" />
+            <span className="text-xs text-terra-800/30 font-serif italic">{t('origin.sig')}</span>
+          </div>
+        </div>
+      </section>
+
+      {/* ── WHO IT'S FOR ── */}
+      <section className="bg-cream-50 py-24 px-4 border-b border-cream-200" id="features">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="eyebrow">{t('who.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">{t('who.title')}</h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+            {t.raw('who.items').map((item: { title: string; desc: string; tag: string }, i: number) => {
+              const Icon = whoIcons[i]
+              return (
+                <div key={i} className="card p-8">
+                  <div className="w-12 h-12 rounded-2xl bg-cream-100 flex items-center justify-center mb-4">
+                    <Icon className="w-6 h-6 text-accent-500" />
+                  </div>
+                  <h3 className="font-serif text-xl font-bold text-terra-800 mb-2.5">{item.title}</h3>
+                  <p className="text-[13px] text-terra-800/60 leading-relaxed">{item.desc}</p>
+                  <span className="inline-block mt-4 bg-accent-500/10 text-accent-600 text-[10px] font-bold tracking-wider uppercase py-1 px-3 rounded-full">
+                    {item.tag}
+                  </span>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── EDITING SHOWCASE ── */}
+      <section className="bg-white py-24 px-4 border-b border-cream-200">
+        <div className="max-w-4xl mx-auto text-center">
+          <p className="eyebrow">Live editing</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight mb-4">
+            Edit while you{' '}
+            <em className="italic text-accent-500">watch.</em>
+          </h2>
+          <p className="text-[15px] text-terra-800/60 max-w-xl mx-auto mb-12 leading-relaxed">
+            Highlight in 5 colors, bold key terms, add headers and bullets — turn a raw transcript into study-ready notes without leaving the video.
+          </p>
+          <div className="bg-white p-4 rounded-3xl shadow-lg border border-cream-200 max-w-md mx-auto">
+            <Image
+              src="/images/editing-screenshot.png"
+              alt="LessonScriptor editing toolbar with color highlighting and text formatting"
+              width={480}
+              height={340}
+              className="w-full h-auto rounded-2xl"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* ── FEATURES ── */}
+      <section className="bg-cream-100 py-24 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="eyebrow">{t('features.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
+              {t('features.title_line1')}<br />{t('features.title_line2')}
+            </h2>
+          </div>
+          <div className="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto">
+            {t.raw('features.items').map((item: { title: string; desc: string; chips: string[] }, i: number) => {
+              const Icon = featureIcons[i]
+              return (
+                <div key={i} className="bg-cream-50/80 backdrop-blur-sm border border-cream-200 rounded-2xl p-7 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-200">
+                  <Icon className="w-5 h-5 text-accent-500 mb-3" />
+                  <h4 className="text-sm font-bold text-terra-800 mb-2">{item.title}</h4>
+                  <p className="text-[13px] text-terra-800/60 leading-relaxed">{item.desc}</p>
+                  <div className="flex flex-wrap gap-1 mt-4 pt-4 border-t border-cream-200">
+                    {item.chips.map((chip: string, j: number) => (
+                      <span key={j} className="bg-cream-100 border border-cream-200 text-accent-600 text-[10px] font-semibold py-0.5 px-2.5 rounded-full">
+                        {chip}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* ── WORKS EVERYWHERE ── */}
+      <section className="py-24 px-4" id="works-everywhere">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="eyebrow">{t('worksEverywhere.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
+              {t('worksEverywhere.title_line1')}<br />{t('worksEverywhere.title_line2')}
+            </h2>
+            <p className="text-[15px] text-terra-800/60 mt-4 max-w-xl mx-auto leading-relaxed">{t('worksEverywhere.subtitle')}</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-5 max-w-4xl mx-auto mb-10">
+            {t.raw('worksEverywhere.platforms').map((p: { title: string; desc: string }, i: number) => {
+              const icons = [AcademicCapIcon, ComputerDesktopIcon, SpeakerWaveIcon]
+              const Icon = icons[i]
+              return (
+                <div key={i} className="card p-8">
+                  <Icon className="w-6 h-6 text-accent-500 mb-3" />
+                  <h4 className="text-base font-bold text-terra-800 mb-2.5 font-serif">{p.title}</h4>
+                  <p className="text-sm text-terra-800/60 leading-relaxed">{p.desc}</p>
+                </div>
+              )
+            })}
+          </div>
+          <div className="bg-terra-800 rounded-2xl py-9 px-8 md:px-11 max-w-4xl mx-auto">
+            <p className="text-[10px] font-bold tracking-[2.5px] uppercase text-accent-400 mb-4">
+              {t('worksEverywhere.explainerEyebrow')}
+            </p>
+            <p className="text-sm leading-relaxed text-cream-50/70 mb-3">
+              <strong className="text-cream-50 font-bold">Free mode</strong> {t('worksEverywhere.explainerFree').replace('Free mode ', '')}
+            </p>
+            <p className="text-sm leading-relaxed text-cream-50/70">
+              <strong className="text-cream-50 font-bold">AI mode</strong> {t('worksEverywhere.explainerAI').replace('AI mode ', '')}
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* ── PRICING ── */}
+      <section className="bg-cream-50 py-24 px-4 border-b border-cream-200" id="pricing">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="eyebrow">{t('pricing.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
+              {t('pricing.title_line1')}<br />{t('pricing.title_line2')}
+            </h2>
+            <p className="text-[15px] text-terra-800/60 mt-4 max-w-xl mx-auto leading-relaxed">{t('pricing.subtitle')}</p>
+          </div>
+
+          {/* Why pay banner */}
+          <div className="max-w-4xl mx-auto -mt-4 mb-11 bg-cream-100 border border-cream-200 rounded-2xl py-4 px-6 flex items-start gap-3.5">
+            <svg className="flex-shrink-0 mt-0.5 stroke-accent-500" width="18" height="18" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+            </svg>
+            <p className="text-[13px] text-terra-800/60 leading-relaxed">
+              <strong className="text-terra-800">{t('pricing.whyPay')}</strong>{' '}
+              {t('pricing.whyPayDesc').replace(`${t('pricing.whyPay')} `, '')}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-[1fr_1.6fr] gap-5 max-w-4xl mx-auto items-start">
+            {/* Free plan */}
+            <div className="bg-white border border-cream-200 rounded-2xl p-9 shadow-sm">
+              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-accent-600 mb-3">{t('pricing.freeLabel')}</p>
+              <div className="inline-flex items-center gap-1.5 border border-cream-200 rounded-full py-1 px-2.5 text-[10px] font-semibold bg-cream-50 text-terra-800/60 mb-4">
+                <MicrophoneIcon className="w-3 h-3" />
+                {t('pricing.freeEngine')}
+              </div>
+              <div className="font-serif text-5xl font-bold text-terra-800 leading-none mb-1.5 tracking-tight">
+                {t('pricing.freePrice')} <span className="text-[15px] font-normal text-terra-800/40 font-sans">{t('pricing.freePriceSuffix')}</span>
+              </div>
+              <p className="text-[13px] text-terra-800/60 leading-relaxed mb-6 pb-6 border-b border-cream-200">
+                {t('pricing.freeDesc')}
+              </p>
+              <ul className="flex flex-col gap-2.5 mb-6 list-none p-0">
+                {t.raw('pricing.freeFeatures').map((f: string, i: number) => (
+                  <li key={i} className="text-[13px] text-terra-800/70 flex items-start gap-2.5 leading-snug">
+                    <span className="text-accent-500 font-bold flex-shrink-0">✓</span> {f}
+                  </li>
+                ))}
+                {t.raw('pricing.freeMuted').map((f: string, i: number) => (
+                  <li key={`m${i}`} className="text-[13px] text-terra-800/30 flex items-start gap-2.5 leading-snug">
+                    <span className="text-cream-300 font-bold flex-shrink-0">–</span> {f}
+                  </li>
+                ))}
+              </ul>
+              <div className="text-[11px] text-terra-800/40 leading-snug mb-6 py-3 px-3.5 bg-cream-100 border border-cream-200 rounded-xl">
+                <strong>Note:</strong> {t('pricing.freeCaveat')}
+              </div>
+              <a
+                href="https://chrome.google.com/webstore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-cream-100 border border-cream-200 text-accent-600 text-[13px] font-bold py-3 rounded-full no-underline hover:bg-cream-200 transition-colors"
+              >
+                Install Free
+              </a>
+            </div>
+
+            {/* Premium plan */}
+            <div className="bg-terra-800 rounded-2xl p-9 shadow-lg">
+              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-accent-400 mb-3">{t('pricing.premiumLabel')}</p>
+              <div className="inline-flex items-center gap-1.5 border border-accent-400/20 rounded-full py-1 px-2.5 text-[10px] font-semibold bg-accent-400/10 text-accent-400 mb-4">
+                <SparklesIcon className="w-3 h-3" />
+                {t('pricing.premiumEngine')}
+              </div>
+
+              <div className="flex items-center gap-2 bg-accent-400/10 border border-accent-400/20 rounded-xl py-2.5 px-3.5 mb-4 text-xs text-accent-400 font-semibold">
+                {t('pricing.noSubCallout')}
+              </div>
+
+              <div className="bg-white/[0.04] border-l-[3px] border-accent-600 rounded-r-xl py-3.5 px-4 mb-4">
+                <p className="text-xs text-cream-50/50 leading-relaxed">{t('pricing.costCallout')}</p>
+              </div>
+
+              <div className="flex items-start gap-2.5 bg-white/[0.04] border border-accent-400/[0.12] rounded-xl py-3 px-4 mb-5">
+                <SpeakerWaveIcon className="w-[18px] h-[18px] text-cream-50 flex-shrink-0 mt-px" />
+                <p className="text-xs text-cream-50/60 leading-snug">
+                  <strong className="text-cream-50">{t('pricing.headphonesCallout').split('.')[0]}.</strong>{' '}
+                  {t('pricing.headphonesCallout').split('.').slice(1).join('.').trim()}
+                </p>
+              </div>
+
+              {/* Packs grid */}
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-2.5 mb-4">
+                {t.raw('pricing.packs').map((pack: { hours: string; unit: string; price: string; per: string; badge?: string }, i: number) => (
+                  <div
+                    key={i}
+                    className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent-400/30 transition-colors ${
+                      pack.badge ? 'border-accent-600' : 'border-white/[0.08]'
+                    }`}
+                  >
+                    {pack.badge && (
+                      <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-accent-600 text-white text-[9px] font-extrabold tracking-wider uppercase py-0.5 px-2 rounded-full whitespace-nowrap">
+                        {pack.badge}
+                      </span>
+                    )}
+                    <div className="text-xl font-bold text-cream-50 font-serif leading-none tracking-tight">{pack.hours}</div>
+                    <div className="text-[10px] text-cream-50/40 my-1 leading-snug">{pack.unit}</div>
+                    <div className="text-[22px] font-bold text-accent-400 tracking-tight">{pack.price}</div>
+                    <div className="text-[10px] text-cream-50/35 mt-[3px]">{pack.per}</div>
+                  </div>
+                ))}
+              </div>
+
+              <ul className="flex flex-col gap-2 mb-6 pt-5 border-t border-white/[0.06] list-none p-0">
+                {t.raw('pricing.premiumFeatures').map((f: string, i: number) => (
+                  <li key={i} className="text-xs text-cream-50/55 flex items-start gap-2 leading-snug">
+                    <span className="text-accent-400 font-bold flex-shrink-0">✓</span> {f}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href="https://chrome.google.com/webstore"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-center bg-accent-500 text-white text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-600 transition-colors"
+              >
+                Get Premium →
+              </a>
+            </div>
+          </div>
+          <p className="text-center mt-7 text-xs text-terra-800/30 max-w-lg mx-auto leading-relaxed">
+            {t('pricing.footnote')}
           </p>
         </div>
       </section>
 
-      {/* PAIN SECTION */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            {t('pain.title')}
-          </h2>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {t.raw('pain.items').map((item: { icon: string; text: string }, i: number) => (
-              <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-md transition-shadow">
-                <div className="text-4xl mb-4">{item.icon}</div>
-                <p className="text-lg text-gray-700 font-medium">{item.text}</p>
+      {/* ── QUICKSTART ── */}
+      <section className="bg-terra-900 py-24 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-accent-400 mb-4">{t('quickstart.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-cream-50 tracking-tight leading-tight">
+              {t('quickstart.title_line1')}<br />{t('quickstart.title_line2')}
+            </h2>
+            <p className="text-[15px] text-cream-50/50 mt-4">{t('quickstart.subtitle')}</p>
+          </div>
+          <div className="grid md:grid-cols-3 max-w-3xl mx-auto relative">
+            <div className="hidden md:block absolute top-7 left-[calc(16.66%+16px)] right-[calc(16.66%+16px)] h-px bg-white/[0.08]" />
+            {t.raw('quickstart.steps').map((step: { n: string; title: string; desc: string; tag: string }, i: number) => (
+              <div key={i} className="text-center px-6 relative">
+                <div className="w-14 h-14 rounded-full bg-white/[0.04] border-[1.5px] border-white/[0.08] flex items-center justify-center mx-auto mb-6 font-serif text-xl font-bold text-accent-400 relative z-[1]">
+                  {step.n}
+                </div>
+                <h4 className="text-sm font-bold text-cream-50 mb-2.5">{step.title}</h4>
+                <p className="text-xs text-cream-50/45 leading-relaxed">{step.desc}</p>
+                <span className="inline-block mt-3 bg-white/[0.04] border border-white/[0.08] text-cream-50/40 text-[10px] py-1 px-2.5 rounded-full font-mono">
+                  {step.tag}
+                </span>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* FEATURES GRID */}
-      <section className="py-20 px-4">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            {t('features.title')}
-          </h2>
+      {/* ── FAQ ── */}
+      <FAQSection
+        title={`${t('faq.title_line1')} ${t('faq.title_em')}`}
+        items={t.raw('faq.items')}
+      />
 
-          <div className="grid md:grid-cols-3 gap-8">
-            {t.raw('features.items').map(
-              (item: { icon: string; title: string; desc: string }, i: number) => (
-                <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-lg transition-shadow">
-                  <div className="text-5xl mb-4">{item.icon}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{item.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* HOW IT WORKS */}
-      <section className="py-20 px-4 bg-blue-50">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            {t('howItWorks.title')}
-          </h2>
-
-          <div className="grid md:grid-cols-4 gap-6">
-            {t.raw('howItWorks.steps').map(
-              (step: { n: string; title: string; desc: string }, i: number) => (
-                <div key={i} className="relative">
-                  <div className="card p-8 bg-white rounded-xl border border-gray-200 h-full">
-                    <div className="w-12 h-12 bg-blue-600 text-white font-bold rounded-full flex items-center justify-center mb-4 text-xl">
-                      {step.n}
-                    </div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">{step.desc}</p>
+      {/* ── CONTACT ── */}
+      <section className="bg-cream-100 py-24 px-4 border-t border-cream-200">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_1.4fr] gap-14 items-start">
+          <div>
+            <p className="eyebrow">{t('contact.eyebrow')}</p>
+            <h2 className="font-serif text-3xl font-bold text-terra-800 tracking-tight leading-tight mb-4">
+              {t('contact.title_line1')}<br />
+              {t('contact.title_line2')}{' '}
+              <em className="italic text-accent-500">{t('contact.title_em')}</em>
+            </h2>
+            <p className="text-sm text-terra-800/60 leading-relaxed mb-9">{t('contact.subtitle')}</p>
+            <div className="flex flex-col gap-5">
+              {t.raw('contact.options').map((opt: { title: string; desc: string }, i: number) => (
+                <div key={i} className="flex items-start gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-accent-500 mt-2 flex-shrink-0" />
+                  <div>
+                    <h4 className="text-[13px] font-bold text-terra-800 mb-1">{opt.title}</h4>
+                    <p className="text-xs text-terra-800/40 leading-snug m-0">{opt.desc}</p>
                   </div>
-
-                  {/* Connector line (only on md and up, not after last) */}
-                  {i < 3 && (
-                    <div className="hidden md:block absolute top-1/3 -right-3 w-6 h-0.5 bg-blue-300" />
-                  )}
                 </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* MODES SECTION */}
-      <section className="py-20 px-4">
-        <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            {t('modes.title')}
-          </h2>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {/* Free Mode */}
-            <div className="card p-10 bg-white border-2 border-gray-200 rounded-2xl">
-              <div className="flex items-center justify-between mb-4">
-                <h3 className="text-2xl font-bold text-gray-900">{t('modes.free.title')}</h3>
-                <span className="badge px-3 py-1 bg-green-100 text-green-700 text-sm rounded-full font-medium">
-                  {t('modes.free.badge')}
-                </span>
-              </div>
-
-              <div className="mb-6">
-                <p className="text-4xl font-bold text-blue-600 mb-2">{t('modes.free.price')}</p>
-                <p className="text-gray-600 text-sm">{t('modes.free.desc')}</p>
-              </div>
-
-              <ul className="space-y-3 mb-8">
-                {t.raw('modes.free.items').map((item: string, i: number) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-700">
-                    <svg className="w-5 h-5 text-green-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-
-              <a
-                href="https://chrome.google.com/webstore"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full btn-primary inline-block text-center px-6 py-3 bg-blue-600 text-white font-bold rounded-xl hover:bg-blue-700 transition-colors"
-              >
-                {site('installCTA')}
-              </a>
-            </div>
-
-            {/* Premium Mode */}
-            <div className="card p-10 bg-gradient-to-br from-blue-50 to-white border-2 border-blue-300 rounded-2xl relative overflow-hidden">
-              <div className="absolute -top-12 -right-12 w-32 h-32 bg-blue-100 rounded-full opacity-50" />
-              <div className="relative z-10">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-gray-900">{t('modes.premium.title')}</h3>
-                  <span className="badge px-3 py-1 bg-purple-100 text-purple-700 text-sm rounded-full font-medium">
-                    {t('modes.premium.badge')}
-                  </span>
-                </div>
-
-                <div className="mb-6">
-                  <p className="text-4xl font-bold text-blue-600 mb-2">{t('modes.premium.price')}</p>
-                  <p className="text-gray-600 text-sm">{t('modes.premium.desc')}</p>
-                </div>
-
-                <ul className="space-y-3 mb-8">
-                  {t.raw('modes.premium.items').map((item: string, i: number) => (
-                    <li key={i} className="flex items-start gap-3 text-gray-700">
-                      <svg className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                      </svg>
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
-
-                <button className="w-full btn-secondary px-6 py-3 bg-white text-blue-600 font-bold rounded-xl hover:bg-gray-50 transition-colors border-2 border-blue-300">
-                  {t('site.learnMore')}
-                </button>
-              </div>
+              ))}
             </div>
           </div>
+
+          <form
+            className="flex flex-col gap-3 bg-white/80 backdrop-blur-sm border border-cream-200 rounded-2xl p-8 shadow-sm"
+            action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+            method="POST"
+          >
+            <input type="hidden" name="_subject" value="Contact form message" />
+            <input type="text" name="name" placeholder="Your name" required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
+            <input type="email" name="email" placeholder="your@email.com" required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
+            <select name="type" className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors">
+              <option value="" disabled>Topic…</option>
+              <option value="feature">Feature suggestion</option>
+              <option value="bug">Bug report</option>
+              <option value="question">Question</option>
+              <option value="hi">Just saying hi</option>
+            </select>
+            <textarea name="message" placeholder="Your message…" rows={5} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 resize-y focus:border-accent-500 transition-colors" />
+            <button type="submit" className="btn-primary justify-center py-3.5">
+              Send →
+            </button>
+          </form>
         </div>
       </section>
 
-      {/* USE CASES */}
-      <section className="py-20 px-4 bg-gray-50">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-16">
-            {t('useCases.title')}
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {t.raw('useCases.items').map(
-              (item: { icon: string; title: string; desc: string }, i: number) => (
-                <div key={i} className="card p-8 bg-white rounded-xl border border-gray-200 hover:shadow-md transition-shadow">
-                  <div className="text-5xl mb-4">{item.icon}</div>
-                  <h3 className="text-lg font-bold text-gray-900 mb-2">{item.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
-                </div>
-              )
-            )}
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ */}
-      <FAQSection title={t('faq.title')} items={t.raw('faq.items')} />
-
-      {/* CTA SECTION */}
+      {/* ── FOOTER CTA ── */}
       <CTASection />
     </>
   )

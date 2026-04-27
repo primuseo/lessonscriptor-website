@@ -6,10 +6,10 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const base = locale === 'en' ? '' : `/${locale}`
   return {
-    title: 'Transcribe Video to Text Free — Live in Chrome | Lessonscriptor',
+    title: 'Transcribe Video to Text Free — Live in Chrome | LessonScriptor',
     description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.',
     openGraph: {
-      title: 'Transcribe Video to Text Free — Live in Chrome | Lessonscriptor',
+      title: 'Transcribe Video to Text Free — Live in Chrome | LessonScriptor',
       description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription.',
       url: `https://lessonscriptor.com${base}/transcribe-video-to-text`,
     },
@@ -29,13 +29,13 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
     '@context': 'https://schema.org',
     '@type': 'HowTo',
     'name': 'How to Transcribe a Video to Text',
-    'description': 'Convert any video to text in real-time with AI using Lessonscriptor',
+    'description': 'Convert any video to text in real-time with AI using LessonScriptor',
     'image': 'https://lessonscriptor.com/og-image.png',
     'step': [
       {
         '@type': 'HowToStep',
-        'name': 'Install Lessonscriptor',
-        'text': 'Install Lessonscriptor from the Chrome Web Store'
+        'name': 'Install LessonScriptor',
+        'text': 'Install LessonScriptor from the Chrome Web Store'
       },
       {
         '@type': 'HowToStep',
@@ -79,34 +79,34 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
         {/* Hero */}
         <section className="px-4 py-16 max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
               {t('h1')}
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-terra-800/60 mb-8">
               {t('subtitle')}
             </p>
           </div>
 
           {/* AIO Answer Box */}
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-12">
-            <p className="text-gray-900 text-lg leading-relaxed">
+          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12">
+            <p className="text-terra-800 text-lg leading-relaxed">
               {t('answer')}
             </p>
           </div>
         </section>
 
         {/* Features Grid */}
-        <section className="px-4 py-16 bg-gray-50">
+        <section className="px-4 py-16 bg-cream-100">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
+            <h2 className="text-3xl font-bold text-terra-800 mb-12 text-center">
               {tHome('features.title')}
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               {features.map((feature: any, idx: number) => (
                 <div key={idx} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
-                  <p className="text-gray-600 leading-relaxed">{feature.desc}</p>
+                  <h3 className="text-xl font-bold text-terra-800 mb-2">{feature.title}</h3>
+                  <p className="text-terra-800/60 leading-relaxed">{feature.desc}</p>
                 </div>
               ))}
             </div>

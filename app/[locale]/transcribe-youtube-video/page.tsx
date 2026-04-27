@@ -6,10 +6,10 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const base = locale === 'en' ? '' : `/${locale}`
   return {
-    title: 'Transcribe Any YouTube Video in Real-Time | Lessonscriptor',
+    title: 'Transcribe Any YouTube Video in Real-Time | LessonScriptor',
     description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.',
     openGraph: {
-      title: 'Transcribe Any YouTube Video in Real-Time | Lessonscriptor',
+      title: 'Transcribe Any YouTube Video in Real-Time | LessonScriptor',
       description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs.',
       url: `https://lessonscriptor.com${base}/transcribe-youtube-video`,
     },
@@ -27,13 +27,13 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
   const schemaHowTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    'name': 'How to Transcribe a YouTube Video with Lessonscriptor',
+    'name': 'How to Transcribe a YouTube Video with LessonScriptor',
     'image': 'https://lessonscriptor.com/og-image.png',
     'step': [
       {
         '@type': 'HowToStep',
-        'name': 'Install Lessonscriptor from the Chrome Web Store',
-        'text': 'Install Lessonscriptor from the Chrome Web Store (free, one click, no sign-up).',
+        'name': 'Install LessonScriptor from the Chrome Web Store',
+        'text': 'Install LessonScriptor from the Chrome Web Store (free, one click, no sign-up).',
         'image': 'https://lessonscriptor.com/step-1.png'
       },
       {
@@ -44,14 +44,14 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
       },
       {
         '@type': 'HowToStep',
-        'name': 'Click the Lessonscriptor icon in your Chrome toolbar',
-        'text': 'Click the Lessonscriptor icon in your Chrome toolbar to open the side panel.',
+        'name': 'Click the LessonScriptor icon in your Chrome toolbar',
+        'text': 'Click the LessonScriptor icon in your Chrome toolbar to open the side panel.',
         'image': 'https://lessonscriptor.com/step-3.png'
       },
       {
         '@type': 'HowToStep',
         'name': 'Hit play on the video',
-        'text': 'Lessonscriptor opens in the side panel and starts transcribing automatically.',
+        'text': 'LessonScriptor opens in the side panel and starts transcribing automatically.',
         'image': 'https://lessonscriptor.com/step-4.png'
       },
       {
@@ -93,45 +93,45 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
         {/* Hero */}
         <section className="px-4 py-16 max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
               {t('h1')}
             </h1>
-            <p className="text-xl text-gray-600 mb-8">
+            <p className="text-xl text-terra-800/60 mb-8">
               {t('subtitle')}
             </p>
           </div>
 
           {/* AIO Answer Box */}
-          <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-lg mb-12">
-            <p className="text-gray-900 text-lg leading-relaxed">
+          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12">
+            <p className="text-terra-800 text-lg leading-relaxed">
               {t('answer')}
             </p>
           </div>
         </section>
 
         {/* Methods Comparison Table */}
-        <section className="px-4 py-16 bg-gray-50">
+        <section className="px-4 py-16 bg-cream-100">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+            <h2 className="text-3xl font-bold text-terra-800 mb-8 text-center">
               {t('methods.title')}
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
                 <thead>
-                  <tr className="bg-gray-100 border-b-2 border-gray-300">
-                    <th className="px-6 py-4 text-left font-bold text-gray-900">Method</th>
-                    <th className="px-6 py-4 text-left font-bold text-gray-900">Pros</th>
-                    <th className="px-6 py-4 text-left font-bold text-gray-900">Cons</th>
-                    <th className="px-6 py-4 text-left font-bold text-gray-900">Verdict</th>
+                  <tr className="bg-cream-100 border-b-2 border-cream-200">
+                    <th className="px-6 py-4 text-left font-bold text-terra-800">Method</th>
+                    <th className="px-6 py-4 text-left font-bold text-terra-800">Pros</th>
+                    <th className="px-6 py-4 text-left font-bold text-terra-800">Cons</th>
+                    <th className="px-6 py-4 text-left font-bold text-terra-800">Verdict</th>
                   </tr>
                 </thead>
                 <tbody>
                   {youtubeMethodsData.map((row: any, idx: number) => (
-                    <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                      <td className="px-6 py-4 font-semibold text-gray-900 border-b border-gray-200">{row.method}</td>
-                      <td className="px-6 py-4 text-gray-700 border-b border-gray-200">{row.pros}</td>
-                      <td className="px-6 py-4 text-gray-700 border-b border-gray-200">{row.cons}</td>
-                      <td className="px-6 py-4 text-gray-700 border-b border-gray-200 font-semibold">{row.verdict}</td>
+                    <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-cream-100'}>
+                      <td className="px-6 py-4 font-semibold text-terra-800 border-b border-cream-200">{row.method}</td>
+                      <td className="px-6 py-4 text-terra-800/60 border-b border-cream-200">{row.pros}</td>
+                      <td className="px-6 py-4 text-terra-800/60 border-b border-cream-200">{row.cons}</td>
+                      <td className="px-6 py-4 text-terra-800/60 border-b border-cream-200 font-semibold">{row.verdict}</td>
                     </tr>
                   ))}
                 </tbody>
@@ -142,16 +142,16 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
 
         {/* Steps Section */}
         <section className="px-4 py-16 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-10">
+          <h2 className="text-3xl font-bold text-terra-800 mb-10">
             {t('steps.title')}
           </h2>
           <ol className="space-y-6">
             {t.raw('steps.items').map((step: string, idx: number) => (
               <li key={idx} className="flex gap-4">
-                <span className="flex-shrink-0 w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold">
+                <span className="flex-shrink-0 w-8 h-8 bg-terra-800 text-white rounded-full flex items-center justify-center font-bold">
                   {idx + 1}
                 </span>
-                <p className="text-gray-700 text-lg leading-relaxed pt-1">
+                <p className="text-terra-800/60 text-lg leading-relaxed pt-1">
                   {step}
                 </p>
               </li>
@@ -160,7 +160,7 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
         </section>
 
         {/* FAQ */}
-        <section className="bg-gray-50 py-16 px-4">
+        <section className="bg-cream-100 py-16 px-4">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}

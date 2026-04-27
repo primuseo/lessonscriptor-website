@@ -45,10 +45,7 @@ export default function BlogLectureTranscribePage() {
             mainEntity: faqItems.map((item: any) => ({
               '@type': 'Question',
               name: item.q,
-              acceptedAnswer: {
-                '@type': 'Answer',
-                text: item.a,
-              },
+              acceptedAnswer: { '@type': 'Answer', text: item.a },
             })),
           }),
         }}
@@ -61,67 +58,50 @@ export default function BlogLectureTranscribePage() {
             '@context': 'https://schema.org',
             '@type': 'BreadcrumbList',
             itemListElement: [
-              {
-                '@type': 'ListItem',
-                position: 1,
-                name: 'Home',
-                item: `https://lessonscriptor.com${base}`,
-              },
-              {
-                '@type': 'ListItem',
-                position: 2,
-                name: 'Blog',
-                item: `https://lessonscriptor.com${base}/blog`,
-              },
-              {
-                '@type': 'ListItem',
-                position: 3,
-                name: t('h1'),
-                item: canonicalUrl,
-              },
+              { '@type': 'ListItem', position: 1, name: 'Home', item: `https://lessonscriptor.com${base}` },
+              { '@type': 'ListItem', position: 2, name: 'Blog', item: `https://lessonscriptor.com${base}/blog` },
+              { '@type': 'ListItem', position: 3, name: t('h1'), item: canonicalUrl },
             ],
           }),
         }}
       />
 
-      <article className="max-w-3xl mx-auto px-4 py-12">
+      <article className="max-w-3xl mx-auto px-6 py-12">
         <header className="mb-10">
-          <div className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mb-4">
-            Learning
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
+          <div className="badge mb-4">Learning</div>
+          <h1 className="font-serif text-4xl md:text-5xl font-bold text-dark mb-4 leading-tight">
             {t('h1')}
           </h1>
-          <div className="flex items-center gap-4 text-gray-600 text-sm mb-8">
+          <div className="flex items-center gap-4 text-muted text-sm mb-8">
             <time dateTime="2026-04-01">April 2026</time>
-            <span>•</span>
-            <span>Lessonscriptor Team</span>
+            <span>·</span>
+            <span>LessonScriptor Team</span>
           </div>
         </header>
 
-        <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg mb-10">
-          <p className="text-gray-800 leading-relaxed">
+        <div className="bg-cream-100 border-l-[3px] border-amber-600 p-6 rounded-r-lg mb-10">
+          <p className="text-dark leading-relaxed">
             {t('intro')}
           </p>
         </div>
 
-        <div className="prose prose-lg max-w-none mb-12">
+        <div className="prose-custom max-w-none mb-12">
           {sections.map((section: any, idx: number) => (
             <div key={idx} className="mb-12">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="font-serif text-2xl md:text-3xl font-bold text-dark mb-6">
                 {section.h2}
               </h2>
 
               {section.steps ? (
                 <ol className="list-decimal list-inside space-y-4 mb-6">
                   {section.steps.map((step: string, stepIdx: number) => (
-                    <li key={stepIdx} className="text-gray-700 leading-relaxed pl-4">
+                    <li key={stepIdx} className="text-muted leading-relaxed pl-4">
                       {step}
                     </li>
                   ))}
                 </ol>
               ) : (
-                <p className="text-gray-700 leading-relaxed mb-6">
+                <p className="text-muted leading-relaxed mb-6">
                   {section.body}
                 </p>
               )}
@@ -130,7 +110,7 @@ export default function BlogLectureTranscribePage() {
         </div>
       </article>
 
-      <FAQSection title={t('faq.title')} items={faqItems} />
+      <FAQSection title="Frequently asked questions" items={faqItems} />
       <CTASection />
     </>
   )

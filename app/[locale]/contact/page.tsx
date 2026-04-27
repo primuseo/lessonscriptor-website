@@ -34,13 +34,11 @@ export default function ContactPage() {
     e.preventDefault()
     setError('')
 
-    // Validation
     if (!formData.name.trim() || !formData.email.trim() || !formData.subject.trim() || !formData.message.trim()) {
       setError(t('error'))
       return
     }
 
-    // Basic email validation
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(formData.email)) {
       setError(t('error'))
@@ -62,7 +60,6 @@ export default function ContactPage() {
       if (response.ok) {
         setSubmitted(true)
         setFormData({ name: '', email: '', subject: '', message: '' })
-        // Auto-hide success message after 5 seconds
         setTimeout(() => setSubmitted(false), 5000)
       } else {
         setError(t('error'))
@@ -75,36 +72,31 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-16">
-      {/* Header */}
+    <div className="max-w-2xl mx-auto px-6 py-16">
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="font-serif text-4xl md:text-5xl font-bold text-dark mb-4">
           {t('h1')}
         </h1>
-        <p className="text-xl text-gray-600">
+        <p className="text-lg text-muted">
           {t('subtitle')}
         </p>
       </div>
 
-      {/* Success Message */}
       {submitted && (
         <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-8 text-green-700">
           {t('success')}
         </div>
       )}
 
-      {/* Error Message */}
       {error && (
         <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-8 text-red-700">
           {error}
         </div>
       )}
 
-      {/* Contact Form */}
       <form onSubmit={handleSubmit} className="space-y-6">
-        {/* Name Field */}
         <div>
-          <label htmlFor="name" className="block text-sm font-semibold text-gray-900 mb-2">
+          <label htmlFor="name" className="block text-sm font-semibold text-dark mb-2">
             {t('name')}
           </label>
           <input
@@ -114,14 +106,13 @@ export default function ContactPage() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+            className="w-full px-4 py-3 border border-cream-200 rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
             placeholder={t('namePlaceholder') || 'Your name'}
           />
         </div>
 
-        {/* Email Field */}
         <div>
-          <label htmlFor="email" className="block text-sm font-semibold text-gray-900 mb-2">
+          <label htmlFor="email" className="block text-sm font-semibold text-dark mb-2">
             {t('email')}
           </label>
           <input
@@ -131,14 +122,13 @@ export default function ContactPage() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+            className="w-full px-4 py-3 border border-cream-200 rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
             placeholder={t('emailPlaceholder') || 'your@email.com'}
           />
         </div>
 
-        {/* Subject Field */}
         <div>
-          <label htmlFor="subject" className="block text-sm font-semibold text-gray-900 mb-2">
+          <label htmlFor="subject" className="block text-sm font-semibold text-dark mb-2">
             {t('subject')}
           </label>
           <input
@@ -148,14 +138,13 @@ export default function ContactPage() {
             value={formData.subject}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+            className="w-full px-4 py-3 border border-cream-200 rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
             placeholder={t('subjectPlaceholder') || 'Subject'}
           />
         </div>
 
-        {/* Message Field */}
         <div>
-          <label htmlFor="message" className="block text-sm font-semibold text-gray-900 mb-2">
+          <label htmlFor="message" className="block text-sm font-semibold text-dark mb-2">
             {t('message')}
           </label>
           <textarea
@@ -165,26 +154,24 @@ export default function ContactPage() {
             onChange={handleChange}
             required
             rows={6}
-            className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors resize-none"
+            className="w-full px-4 py-3 border border-cream-200 rounded-lg focus:outline-none focus:border-amber-600 transition-colors resize-none"
             placeholder={t('messagePlaceholder') || 'Your message...'}
           />
         </div>
 
-        {/* Submit Button */}
         <button
           type="submit"
           disabled={loading}
-          className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors disabled:bg-gray-400 disabled:cursor-not-allowed"
+          className="w-full px-6 py-3 bg-dark text-cream-100 font-bold rounded-lg hover:opacity-[0.88] transition-opacity disabled:opacity-50 disabled:cursor-not-allowed"
         >
           {loading ? t('sending') || 'Sending...' : t('submit') || 'Send Message'}
         </button>
       </form>
 
-      {/* Contact Info Footer */}
-      <div className="mt-12 text-center text-gray-600">
+      <div className="mt-12 text-center text-muted">
         <p>
           {t('directEmail') || 'Or email us directly: '}<br />
-          <a href="mailto:contact@lessonscriptor.com" className="text-blue-600 hover:underline font-semibold">
+          <a href="mailto:contact@lessonscriptor.com" className="text-amber-600 hover:underline font-semibold">
             contact@lessonscriptor.com
           </a>
         </p>
