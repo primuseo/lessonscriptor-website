@@ -40,7 +40,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
       canonical: 'https://lessonscriptor.com',
       languages: {
         'x-default': 'https://lessonscriptor.com',
-        'en': 'https://lessonscriptor.com',
+        'en': 'https://lessonscriptor.com/en',
         'fr': 'https://lessonscriptor.com/fr',
         'es': 'https://lessonscriptor.com/es',
         'pt': 'https://lessonscriptor.com/pt',

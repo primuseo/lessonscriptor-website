@@ -17,7 +17,7 @@ export async function generateMetadata({
   params: { locale: string }
 }): Promise<Metadata> {
   const t = await getTranslations('blog.hub')
-  const base = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
+  const base = `https://lessonscriptor.com/${locale}`
   return {
     title: t('metaTitle'),
     description: t('metaDesc'),
@@ -31,7 +31,7 @@ export async function generateMetadata({
       languages: Object.fromEntries(
         LOCALES.map((l) => [
           l,
-          l === 'en' ? 'https://lessonscriptor.com/blog' : `https://lessonscriptor.com/${l}/blog`,
+          `https://lessonscriptor.com/${l}/blog`,
         ])
       ),
     },

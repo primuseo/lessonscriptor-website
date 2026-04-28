@@ -8,7 +8,7 @@ export default function TermsPage() {
   const locale = params.locale as string
 
   // Calculate base path for canonical URL
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   return (
     <article className="max-w-3xl mx-auto px-4 py-16">

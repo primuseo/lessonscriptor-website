@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }
 
   locales.forEach((locale) => {
-    const prefix = locale === 'en' ? '' : `/${locale}`
+    const prefix = `/${locale}`
 
     staticPages.forEach((page) => {
       sitemap.push({

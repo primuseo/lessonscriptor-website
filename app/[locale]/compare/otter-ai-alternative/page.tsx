@@ -4,7 +4,7 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
   return {
     title: 'Best Otter.ai Alternative for Students | LessonScriptor',
     description: 'Looking for an Otter.ai alternative that works in your browser, doesn\'t require a subscription, and is free for everyday use? That\'s LessonScriptor.',
@@ -22,7 +22,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function OtterAiAlternativePage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('otterAlt')
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   const schemaFAQ = {
     '@context': 'https://schema.org',

@@ -17,7 +17,7 @@
     "faqSection": {
       "eyebrow": "Assistance",
       "title": "Questions fréquentes",
-      "titleEm": "répondues."
+      "titleEm": ""
     },
     "footerInstall": "Installer gratuitement",
     "footerPrivacy": "Aucun tracking · Aucun cookie"
@@ -333,8 +333,8 @@
     },
     "faq": {
       "eyebrow": "FAQ et dépannage",
-      "title_line1": "Questions fréquentes,",
-      "title_em": "réponses claires.",
+      "title_line1": "Questions fréquentes",
+      "title_em": "",
       "items": [
         {
           "q": "Comment fonctionnent les crédits ?",

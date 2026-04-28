@@ -4,7 +4,7 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
   return {
     title: 'Live Captions for Any Video in Chrome | LessonScriptor',
     description: 'Add real-time, editable captions to any video you watch in Chrome. Free, private, and works on every platform — not just YouTube.',
@@ -26,7 +26,7 @@ export default async function LiveCaptionsChromeP
  params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('liveCaptions')
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   const schemaSoftwareApp = {
     '@context': 'https://schema.org',

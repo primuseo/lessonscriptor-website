@@ -4,7 +4,7 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
   return {
     title: 'Transcribe Video to Text Free — Live in Chrome | LessonScriptor',
     description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.',
@@ -23,7 +23,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
   unstable_setRequestLocale(locale)
   const t = await getTranslations('transcribeVideo')
   const tHome = await getTranslations('home')
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   const schemaHowTo = {
     '@context': 'https://schema.org',

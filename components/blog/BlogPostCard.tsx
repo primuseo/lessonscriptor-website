@@ -13,7 +13,7 @@ export default function BlogPostCard({
   readMore: string
   minRead: string
 }) {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
   const href = `${base}/blog/${getLocalizedSlug(post.slug, locale)}`
 
   return (

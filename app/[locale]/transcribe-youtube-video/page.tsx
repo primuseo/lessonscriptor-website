@@ -4,7 +4,7 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
   return {
     title: 'Transcribe Any YouTube Video in Real-Time | LessonScriptor',
     description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.',
@@ -22,7 +22,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function TranscribeYouTubePage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('youtube')
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   const schemaHowTo = {
     '@context': 'https://schema.org',

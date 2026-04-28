@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer')
   const s = useTranslations('site')
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   return (
     <footer className="bg-terra-950 text-cream-200/40 py-16 px-4">

@@ -25,7 +25,7 @@ import {
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const site = await getTranslations('site')
   const home = await getTranslations('home')
-  const url = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
+  const url = `https://lessonscriptor.com/${locale}`
   return {
     title: `${site('name')} — ${home('meta.title')}`,
     description: site('description'),
@@ -495,7 +495,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
             {t.raw('resources.posts').map((post: { slug: string; title: string; desc: string }, i: number) => {
-              const base = locale === 'en' ? '' : `/${locale}`
+              const base = `/${locale}`
               const localSlug = getLocalizedSlug(post.slug, locale)
               return (
                 <Link
@@ -513,7 +513,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
           </div>
           <div className="text-center">
             <Link
-              href={`${locale === 'en' ? '' : `/${locale}`}/blog`}
+              href={`${`/${locale}`}/blog`}
               className="inline-flex items-center gap-2 text-sm font-semibold text-accent-600 hover:text-accent-700 no-underline transition-colors"
             >
               {t('resources.browseAll')}
@@ -525,7 +525,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
       {/* ── FAQ ── */}
       <FAQSection
-        title={`${t('faq.title_line1')} ${t('faq.title_em')}`}
+        title={t('faq.title_line1')}
         items={t.raw('faq.items')}
       />
 

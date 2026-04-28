@@ -17,15 +17,14 @@ export default function Navbar({ locale }: { locale: string }) {
   const ts = useTranslations('site')
   const [open, setOpen] = useState(false)
 
-  const base = locale === 'en' ? '' : `/${locale}`
+  const base = `/${locale}`
 
   function switchLocaleHref(targetLocale: string) {
-    if (targetLocale === 'en') return '/'
     return `/${targetLocale}`
   }
 
   return (
-    <nav className="sticky top-0 z-50 bg-cream-50/92 backdrop-blur-xl border-b border-cream-200">
+    <nav className="sticky top-0 z-50 bg-cream-50 backdrop-blur-xl border-b border-cream-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}

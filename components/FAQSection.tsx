@@ -14,8 +14,10 @@ export default function FAQSection({ title, items }: { title?: string; items: FA
         <div className="text-center mb-14">
           <p className="eyebrow">{t('faqSection.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
-            {t('faqSection.title')}{' '}
-            <em className="italic text-accent-500">{t('faqSection.titleEm')}</em>
+            {t('faqSection.title')}
+            {t('faqSection.titleEm') && (
+              <> <em className="italic text-accent-500">{t('faqSection.titleEm')}</em></>
+            )}
           </h2>
         </div>
       )}

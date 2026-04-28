@@ -26,7 +26,7 @@ export async function generateMetadata({
   const canonical = getCanonicalSlug(slug, locale) || slug
   const post = getPost(canonical, locale)
   if (!post) return {}
-  const base = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
+  const base = `https://lessonscriptor.com/${locale}`
   return {
     title: post.meta.title,
     description: post.meta.description,
@@ -44,12 +44,7 @@ export async function generateMetadata({
       languages: Object.fromEntries(
         LOCALES.map((l) => {
           const localSlug = getLocalizedSlug(canonical, l)
-          return [
-            l,
-            l === 'en'
-              ? `https://lessonscriptor.com/blog/${localSlug}`
-              : `https://lessonscriptor.com/${l}/blog/${localSlug}`,
-          ]
+          return [l, `https://lessonscriptor.com/${l}/blog/${localSlug}`]
         })
       ),
     },
@@ -111,7 +106,7 @@ export default async function BlogPostPage({
   if (!post) notFound()
 
   const schemas = post.schemas || []
-  const baseUrl = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
+  const baseUrl = `https://lessonscriptor.com/${locale}`
 
   return (
     <>
