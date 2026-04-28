@@ -35,6 +35,7 @@ export default function Footer({ locale }: { locale: string }) {
               <li><Link href="/live-captions-chrome" className="hover:text-cream-100 transition-colors">Live Captions</Link></li>
               <li><Link href="/transcribe-video-to-text" className="hover:text-cream-100 transition-colors">Video to Text</Link></li>
               <li><Link href="/compare/otter-ai-alternative" className="hover:text-cream-100 transition-colors">vs Otter.ai</Link></li>
+              <li><Link href="/for-adhd-students" className="hover:text-cream-100 transition-colors">For ADHD Students</Link></li>
             </ul>
           </div>
 

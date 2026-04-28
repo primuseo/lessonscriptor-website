@@ -29,7 +29,8 @@
     "liveCaptions": "Live Captions",
     "transcribeVideo": "Transcribe Video",
     "blog": "Blog",
-    "compare": "vs Otter.ai"
+    "compare": "vs Otter.ai",
+    "forAdhd": "For ADHD Students"
   },
   "footer": {
     "product": "Product",
@@ -624,7 +625,9 @@
       ]
     },
     "metaTitle": "Live Captions for Chrome — Editable, Exportable, Multilingual",
-    "metaDesc": "Add real-time, editable captions to any video in Chrome. Free, private, works on every platform — not just YouTube."
+    "metaDesc": "Add real-time, editable captions to any video in Chrome. Free, private, works on every platform — not just YouTube.",
+    "relatedHeading": "Learn more about live captions in Chrome",
+    "readMore": "Read more"
   },
   "transcribeVideo": {
     "h1": "Transcribe Video to Text — Free, in Your Browser",
@@ -709,7 +712,9 @@
       ]
     },
     "metaTitle": "Transcribe Video to Text Free — Live in Chrome",
-    "metaDesc": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform."
+    "metaDesc": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.",
+    "relatedHeading": "Learn more about video transcription",
+    "readMore": "Read more"
   },
   "otterAlt": {
     "h1": "The Best Otter.ai Alternative for Students",
@@ -871,13 +876,34 @@
     "whoWeAre": "Who We Are",
     "whoWeAreBody": "LessonScriptor is a Chrome extension developed and operated by Pierre Girardot. We are committed to protecting your privacy and respecting the European General Data Protection Regulation (GDPR) and other applicable privacy laws. For any privacy-related questions, contact us at contact@lessonscriptor.com.",
     "whatWeCollect": "What Data We Collect",
+    "whatWeCollectBody1": "LessonScriptor is designed with privacy by default. We do not collect personal data about you. We do not create accounts for you, and we never ask for your email address. There is no sign-up — ever.",
+    "whatWeCollectMic": "Microphone Mode: All audio processing happens locally on your device using the Web Speech API. Audio never leaves your device and is never sent to any server. Transcripts are stored only in your browser's local storage. We have no access to this data.",
+    "whatWeCollectTab": "Tab Audio Mode: When you use Tab Audio mode, audio chunks from the browser tab are sent to Groq (api.groq.com) for transcription using their Whisper model. Groq does not retain audio data beyond the transcription request. Transcripts are saved locally in your browser only and are never transmitted to LessonScriptor's servers. We do not retain any personal data.",
+    "whatWeCollectNoTracking": "We do not use cookies. We do not use analytics tools. We do not track your browsing, behavior, or usage patterns. We do not sell data.",
     "localStorage": "Local Storage",
+    "localStorageBody": "Your transcripts and extension settings are stored exclusively in your browser's local storage. This data lives on your device only. LessonScriptor has no server-side storage of transcripts, settings, or user information. If you clear your browser data, your local transcripts will be deleted. We cannot access or recover this data for you.",
     "paymentsTitle": "Payments and License Keys",
+    "paymentsBody1": "Tab Audio credits are purchased through LemonSqueezy, a third-party payment processor. Your payment details and personal information are handled entirely by LemonSqueezy — LessonScriptor never receives or stores your payment information, billing address, or email address.",
+    "paymentsBody2": "Upon purchase, LemonSqueezy provides an anonymous license key. That key is stored locally on your device only. LessonScriptor has no way to associate your license key with your identity. Please review LemonSqueezy's privacy policy for details on how they handle payment data.",
     "thirdParty": "Third-Party Services",
+    "thirdPartyGroq": "Groq (api.groq.com): Tab Audio mode uses Groq's Whisper model for high-accuracy transcription. Audio chunks are sent to Groq, processed, and not retained beyond the request. Please review Groq's privacy policy for details.",
+    "thirdPartyLemon": "LemonSqueezy: Handles all payment processing for Tab Audio credit purchases. See the Payments section above.",
+    "thirdPartyGSC": "Google Search Console: We use Google Search Console to monitor aggregate search performance of our website (lessonscriptor.com). This is limited to non-personally-identifiable search metrics and does not track individual users.",
+    "thirdPartyNoShare": "We do not share your data with any other third parties.",
     "gdprRights": "Your Rights Under GDPR",
+    "gdprIntro": "Under the GDPR, you have the following rights:",
+    "gdprRight1": "Right to Access: You have the right to request a copy of the personal data we hold about you.",
+    "gdprRight2": "Right to Rectification: You have the right to correct inaccurate personal data.",
+    "gdprRight3": "Right to Erasure: You have the right to request the deletion of your personal data.",
+    "gdprRight4": "Right to Data Portability: You have the right to request your personal data in a portable format.",
+    "gdprRight5": "Right to Object: You have the right to object to our processing of your personal data.",
+    "gdprNote": "Important note: Since LessonScriptor does not collect personal data on our servers, most of these rights are moot for data processed by us. Your transcripts exist only in your browser's local storage, which you control directly. Contact us at contact@lessonscriptor.com with any questions.",
     "dataRetention": "Data Retention",
+    "dataRetentionBody": "LessonScriptor retains no personal data on our servers. Your transcripts and settings are retained only in your browser's local storage for as long as you choose to keep them. You can delete them at any time by clearing your browser data or uninstalling the extension.",
     "changes": "Changes to This Privacy Policy",
+    "changesBody": "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of any material changes by updating the last updated date on this page. Your continued use of LessonScriptor after such changes constitutes your acceptance of the updated policy.",
     "contactTitle": "Contact Us",
+    "contactBody": "If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:",
     "englishNote": "This Privacy Policy is provided in English across all language versions of our website. English is the authoritative version."
   },
   "terms": {
@@ -967,6 +993,8 @@
       ]
     },
     "metaTitle": "LessonScriptor for ADHD Students — Stop Splitting Attention Between Listening and Writing",
-    "metaDesc": "LessonScriptor is the ADHD-friendly Chrome extension that auto-transcribes your lectures, freeing working memory for actual learning. No writing. No missed points."
+    "metaDesc": "LessonScriptor is the ADHD-friendly Chrome extension that auto-transcribes your lectures, freeing working memory for actual learning. No writing. No missed points.",
+    "relatedHeading": "More guides for ADHD students",
+    "readMore": "Read more"
   }
 }

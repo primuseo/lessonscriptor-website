@@ -29,7 +29,8 @@
     "liveCaptions": "实时字幕",
     "transcribeVideo": "视频转录",
     "blog": "博客",
-    "compare": "对比 Otter.ai"
+    "compare": "对比 Otter.ai",
+    "forAdhd": "ADHD学生"
   },
   "footer": {
     "product": "产品",
@@ -640,7 +641,9 @@
       ]
     },
     "metaTitle": "Chrome 实时字幕——可编辑、可导出、支持多语言",
-    "metaDesc": "为 Chrome 中的任何视频添加实时可编辑字幕。免费、私密，适用于所有平台。"
+    "metaDesc": "为 Chrome 中的任何视频添加实时可编辑字幕。免费、私密，适用于所有平台。",
+    "relatedHeading": "了解更多关于 Chrome 实时字幕的内容",
+    "readMore": "阅读更多"
   },
   "transcribeVideo": {
     "h1": "视频转文字——免费，在浏览器中直接使用",
@@ -725,7 +728,9 @@
       ]
     },
     "metaTitle": "免费视频转文字——直接在 Chrome 中实时转录",
-    "metaDesc": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。"
+    "metaDesc": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。",
+    "relatedHeading": "了解更多关于视频转录的内容",
+    "readMore": "阅读更多"
   },
   "otterAlt": {
     "h1": "最适合学生的 Otter.ai 替代工具",
@@ -881,16 +886,37 @@
     "h1": "隐私政策",
     "lastUpdated": "最后更新",
     "whoWeAre": "关于我们",
-    "whoWeAreBody": "LessonScriptor 是由 Pierre Girardot 开发和运营的 Chrome 扩展程序。我们致力于保护您的隐私并遵守 GDPR 及其他适用的隐私法律。如有任何隐私相关问题，请通过 contact@lessonscriptor.com 联系我们。",
+    "whoWeAreBody": "LessonScriptor 是由 Pierre Girardot 开发和运营的 Chrome 扩展程序。我们致力于保护您的隐私，遵守《通用数据保护条例》（GDPR）及其他适用的隐私法律。如有任何隐私相关问题，请通过 contact@lessonscriptor.com 联系我们。",
     "whatWeCollect": "我们收集的数据",
+    "whatWeCollectBody1": "LessonScriptor 采用隐私优先设计。我们不收集您的任何个人数据，不为您创建账户，也从不索取您的电子邮件地址。无需注册——永远不需要。",
+    "whatWeCollectMic": "麦克风模式：所有音频处理均通过 Web Speech API 在您的设备本地进行。音频永远不会离开您的设备，也不会发送到任何服务器。转录内容仅存储在浏览器本地存储中，我们无法访问这些数据。",
+    "whatWeCollectTab": "标签页音频模式：使用此模式时，浏览器标签页的音频片段会被发送至 Groq（api.groq.com），使用其 Whisper 模型进行转录。Groq 不会在请求结束后保留音频数据。转录内容仅保存在您的浏览器本地，永远不会传输至 LessonScriptor 的服务器。我们不保留任何个人数据。",
+    "whatWeCollectNoTracking": "我们不使用 Cookie，不使用分析工具，不跟踪您的浏览行为或使用模式，不出售数据。",
     "localStorage": "本地存储",
+    "localStorageBody": "您的转录内容和扩展设置仅存储在浏览器的本地存储中，这些数据只存在于您的设备上。LessonScriptor 在服务器端不存储任何转录、设置或用户信息。如果您清除浏览器数据，本地转录将被删除。我们无法为您访问或恢复这些数据。",
     "paymentsTitle": "付款与许可证密钥",
+    "paymentsBody1": "标签页音频积分通过第三方支付处理商 LemonSqueezy 购买。您的支付信息和个人数据完全由 LemonSqueezy 处理——LessonScriptor 从不接收或存储您的支付信息、账单地址或电子邮件地址。",
+    "paymentsBody2": "购买后，LemonSqueezy 提供一个匿名许可证密钥，该密钥仅存储在您的设备本地。LessonScriptor 无法将您的许可证密钥与您的身份关联。详情请参阅 LemonSqueezy 的隐私政策。",
     "thirdParty": "第三方服务",
+    "thirdPartyGroq": "Groq（api.groq.com）：标签页音频模式使用 Groq 的 Whisper 模型进行高精度转录。音频片段发送至 Groq 后被处理，不会在请求结束后保留。详情请参阅 Groq 的隐私政策。",
+    "thirdPartyLemon": "LemonSqueezy：处理所有标签页音频积分的支付。见上方付款部分。",
+    "thirdPartyGSC": "Google Search Console：我们使用 Google Search Console 监测网站（lessonscriptor.com）的汇总搜索表现，仅限于不可识别个人身份的搜索指标，不跟踪个人用户。",
+    "thirdPartyNoShare": "我们不与任何其他第三方共享您的数据。",
     "gdprRights": "您在 GDPR 下的权利",
+    "gdprIntro": "根据 GDPR，您享有以下权利：",
+    "gdprRight1": "访问权：您有权请求获取我们持有的关于您的个人数据副本。",
+    "gdprRight2": "更正权：您有权更正不准确的个人数据。",
+    "gdprRight3": "删除权：您有权要求删除您的个人数据。",
+    "gdprRight4": "数据可携权：您有权以可携带格式请求您的个人数据。",
+    "gdprRight5": "反对权：您有权反对我们处理您的个人数据。",
+    "gdprNote": "重要说明：由于 LessonScriptor 不在服务器上收集个人数据，这些权利对我们处理的数据大多不适用。您的转录内容仅存在于您直接控制的浏览器本地存储中。如有疑问，请通过 contact@lessonscriptor.com 联系我们。",
     "dataRetention": "数据保留",
-    "changes": "本隐私政策的变更",
+    "dataRetentionBody": "LessonScriptor 不在服务器上保留任何个人数据。您的转录内容和设置仅在您选择的时间内保存在浏览器本地存储中。您可以随时通过清除浏览器数据或卸载扩展程序来删除它们。",
+    "changes": "本政策的变更",
+    "changesBody": "我们可能会不时更新本隐私政策，以反映我们实践或法律要求的变化。我们将通过更新本页面的最后更新日期来通知您任何重大变更。您在变更后继续使用 LessonScriptor 即表示您接受更新后的政策。",
     "contactTitle": "联系我们",
-    "englishNote": "本隐私政策在我们网站的所有语言版本中均以英语提供。英语版本为权威版本。"
+    "contactBody": "如果您对本隐私政策或我们的隐私实践有任何问题、疑虑或请求，请通过以下方式联系我们：",
+    "englishNote": "本隐私政策在我们网站的所有语言版本中均以英文提供。英文版本为权威版本。"
   },
   "terms": {
     "h1": "使用条款",
@@ -979,6 +1005,8 @@
       ]
     },
     "metaTitle": "专为ADHD学生设计的LessonScriptor——不再分心于同时听讲和记笔记",
-    "metaDesc": "LessonScriptor是专为多动症学生设计的Chrome扩展，自动转录课程内容，释放工作记忆用于真正的学习。"
+    "metaDesc": "LessonScriptor是专为多动症学生设计的Chrome扩展，自动转录课程内容，释放工作记忆用于真正的学习。",
+    "relatedHeading": "更多 ADHD 学生学习指南",
+    "readMore": "阅读更多"
   }
 }

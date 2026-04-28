@@ -29,7 +29,8 @@
     "liveCaptions": "Live-Untertitel",
     "transcribeVideo": "Video transkribieren",
     "blog": "Blog",
-    "compare": "vs. Otter.ai"
+    "compare": "vs. Otter.ai",
+    "forAdhd": "ADHS-Studierende"
   },
   "footer": {
     "product": "Produkt",
@@ -640,7 +641,9 @@
       ]
     },
     "metaTitle": "Live-Untertitel für Chrome — Bearbeitbar, Exportierbar, Mehrsprachig",
-    "metaDesc": "Füge Echtzeit-Untertitel zu jedem Video in Chrome hinzu. Kostenlos, privat, funktioniert auf jeder Plattform."
+    "metaDesc": "Füge Echtzeit-Untertitel zu jedem Video in Chrome hinzu. Kostenlos, privat, funktioniert auf jeder Plattform.",
+    "relatedHeading": "Mehr über Live-Untertitel in Chrome erfahren",
+    "readMore": "Mehr lesen"
   },
   "transcribeVideo": {
     "h1": "Video in Text transkribieren — Kostenlos, in Ihrem Browser",
@@ -725,7 +728,9 @@
       ]
     },
     "metaTitle": "Video kostenlos in Text transkribieren — live in Chrome",
-    "metaDesc": "Konvertieren Sie jedes Video mit KI in Echtzeit in Text. Kein Upload, kein Warten, kein Abo. Funktioniert direkt in Chrome auf jeder Videoplattform."
+    "metaDesc": "Konvertieren Sie jedes Video mit KI in Echtzeit in Text. Kein Upload, kein Warten, kein Abo. Funktioniert direkt in Chrome auf jeder Videoplattform.",
+    "relatedHeading": "Mehr über Video-Transkription erfahren",
+    "readMore": "Mehr lesen"
   },
   "otterAlt": {
     "h1": "Die beste Otter.ai-Alternative für Studierende",
@@ -878,19 +883,40 @@
     "directEmail": "Oder schreiben Sie uns direkt an contact@lessonscriptor.com"
   },
   "privacy": {
-    "h1": "Datenschutzerklärung",
+    "h1": "Datenschutzrichtlinie",
     "lastUpdated": "Zuletzt aktualisiert",
-    "whoWeAre": "Wer Wir Sind",
-    "whoWeAreBody": "LessonScriptor ist eine Chrome-Erweiterung, die von Pierre Girardot entwickelt und betrieben wird. Wir verpflichten uns, Ihre Privatsphäre zu schützen und die DSGVO sowie andere geltende Datenschutzgesetze einzuhalten. Für datenschutzbezogene Fragen kontaktieren Sie uns unter contact@lessonscriptor.com.",
-    "whatWeCollect": "Welche Daten Wir Erheben",
+    "whoWeAre": "Wer wir sind",
+    "whoWeAreBody": "LessonScriptor ist eine Chrome-Erweiterung, die von Pierre Girardot entwickelt und betrieben wird. Wir verpflichten uns, Ihre Privatsphäre zu schützen und die Datenschutz-Grundverordnung (DSGVO) sowie andere anwendbare Datenschutzgesetze einzuhalten. Bei datenschutzbezogenen Fragen erreichen Sie uns unter contact@lessonscriptor.com.",
+    "whatWeCollect": "Welche Daten wir erheben",
+    "whatWeCollectBody1": "LessonScriptor wurde mit Datenschutz als Standard entwickelt. Wir erheben keine personenbezogenen Daten über Sie. Wir erstellen keine Konten für Sie und fragen niemals nach Ihrer E-Mail-Adresse. Keine Registrierung — niemals.",
+    "whatWeCollectMic": "Mikrofon-Modus: Die gesamte Audioverarbeitung erfolgt lokal auf Ihrem Gerät über die Web Speech API. Audio verlässt Ihr Gerät nie und wird nie an einen Server gesendet. Transkripte werden ausschließlich im lokalen Speicher Ihres Browsers gespeichert. Wir haben keinen Zugriff auf diese Daten.",
+    "whatWeCollectTab": "Tab-Audio-Modus: Bei Verwendung dieses Modus werden Audio-Fragmente des Browser-Tabs zur Transkription an Groq (api.groq.com) gesendet, unter Verwendung des Whisper-Modells. Groq speichert Audio-Daten nicht über die Anfrage hinaus. Transkripte werden ausschließlich lokal in Ihrem Browser gespeichert und nie an LessonScriptors Server übertragen. Wir speichern keine personenbezogenen Daten.",
+    "whatWeCollectNoTracking": "Wir verwenden keine Cookies. Wir verwenden keine Analysetools. Wir verfolgen weder Ihr Browsing noch Ihr Verhalten oder Nutzungsmuster. Wir verkaufen keine Daten.",
     "localStorage": "Lokaler Speicher",
+    "localStorageBody": "Ihre Transkripte und Erweiterungseinstellungen werden ausschließlich im lokalen Speicher Ihres Browsers gespeichert. Diese Daten befinden sich nur auf Ihrem Gerät. LessonScriptor hat keinen serverseitigen Speicher für Transkripte, Einstellungen oder Benutzerinformationen. Wenn Sie Ihre Browserdaten löschen, werden Ihre lokalen Transkripte gelöscht. Wir können nicht auf diese Daten zugreifen oder sie für Sie wiederherstellen.",
     "paymentsTitle": "Zahlungen und Lizenzschlüssel",
+    "paymentsBody1": "Tab-Audio-Credits werden über LemonSqueezy erworben, einen Drittanbieter für Zahlungen. Ihre Zahlungsdaten und persönlichen Informationen werden vollständig von LemonSqueezy verwaltet — LessonScriptor empfängt oder speichert niemals Ihre Zahlungsinformationen, Rechnungsadresse oder E-Mail-Adresse.",
+    "paymentsBody2": "Nach dem Kauf stellt LemonSqueezy einen anonymen Lizenzschlüssel bereit. Dieser Schlüssel wird ausschließlich lokal auf Ihrem Gerät gespeichert. LessonScriptor hat keine Möglichkeit, Ihren Lizenzschlüssel mit Ihrer Identität zu verknüpfen. Bitte beachten Sie die Datenschutzrichtlinie von LemonSqueezy für Details.",
     "thirdParty": "Drittanbieterdienste",
+    "thirdPartyGroq": "Groq (api.groq.com): Der Tab-Audio-Modus verwendet Groqs Whisper-Modell für hochpräzise Transkription. Audio-Fragmente werden an Groq gesendet, verarbeitet und nicht über die Anfrage hinaus gespeichert. Bitte beachten Sie Groqs Datenschutzrichtlinie für Details.",
+    "thirdPartyLemon": "LemonSqueezy: Verwaltet alle Zahlungen für Tab-Audio-Credits. Siehe Abschnitt Zahlungen oben.",
+    "thirdPartyGSC": "Google Search Console: Wir nutzen Google Search Console zur Überwachung der aggregierten Suchleistung unserer Website (lessonscriptor.com). Dies beschränkt sich auf nicht personenbezogene Suchmetriken und verfolgt keine einzelnen Nutzer.",
+    "thirdPartyNoShare": "Wir teilen Ihre Daten nicht mit anderen Dritten.",
     "gdprRights": "Ihre Rechte unter der DSGVO",
+    "gdprIntro": "Gemäß der DSGVO haben Sie folgende Rechte:",
+    "gdprRight1": "Auskunftsrecht: Sie haben das Recht, eine Kopie der personenbezogenen Daten anzufordern, die wir über Sie gespeichert haben.",
+    "gdprRight2": "Recht auf Berichtigung: Sie haben das Recht, unrichtige personenbezogene Daten zu korrigieren.",
+    "gdprRight3": "Recht auf Löschung: Sie haben das Recht, die Löschung Ihrer personenbezogenen Daten zu verlangen.",
+    "gdprRight4": "Recht auf Datenübertragbarkeit: Sie haben das Recht, Ihre personenbezogenen Daten in einem portablen Format anzufordern.",
+    "gdprRight5": "Widerspruchsrecht: Sie haben das Recht, der Verarbeitung Ihrer personenbezogenen Daten zu widersprechen.",
+    "gdprNote": "Wichtiger Hinweis: Da LessonScriptor auf unseren Servern keine personenbezogenen Daten erhebt, sind die meisten dieser Rechte für von uns verarbeitete Daten gegenstandslos. Ihre Transkripte befinden sich ausschließlich in Ihrem lokalen Browser-Speicher, den Sie direkt kontrollieren. Kontaktieren Sie uns unter contact@lessonscriptor.com bei Fragen.",
     "dataRetention": "Datenspeicherung",
-    "changes": "Änderungen dieser Datenschutzerklärung",
+    "dataRetentionBody": "LessonScriptor speichert keine personenbezogenen Daten auf unseren Servern. Ihre Transkripte und Einstellungen werden nur im lokalen Speicher Ihres Browsers so lange aufbewahrt, wie Sie es wünschen. Sie können diese jederzeit löschen, indem Sie Ihre Browserdaten löschen oder die Erweiterung deinstallieren.",
+    "changes": "Änderungen dieser Richtlinie",
+    "changesBody": "Wir können diese Datenschutzrichtlinie von Zeit zu Zeit aktualisieren, um Änderungen in unseren Praktiken oder rechtlichen Anforderungen widerzuspiegeln. Wir werden Sie über wesentliche Änderungen informieren, indem wir das Datum der letzten Aktualisierung auf dieser Seite aktualisieren. Ihre fortgesetzte Nutzung von LessonScriptor nach solchen Änderungen gilt als Ihre Zustimmung zur aktualisierten Richtlinie.",
     "contactTitle": "Kontakt",
-    "englishNote": "Diese Datenschutzerklärung wird in englischer Sprache für alle Sprachversionen unserer Website bereitgestellt. Die englische Version ist maßgeblich."
+    "contactBody": "Wenn Sie Fragen, Bedenken oder Anfragen zu dieser Datenschutzrichtlinie oder unseren Datenschutzpraktiken haben, kontaktieren Sie uns unter:",
+    "englishNote": "Diese Datenschutzrichtlinie ist in englischer Sprache in allen Sprachversionen unserer Website verfügbar. Die englische Version ist die maßgebliche Version."
   },
   "terms": {
     "h1": "Nutzungsbedingungen",
@@ -979,6 +1005,8 @@
       ]
     },
     "metaTitle": "LessonScriptor für Studierende mit ADHS — Schluss mit geteilter Aufmerksamkeit zwischen Zuhören und Schreiben",
-    "metaDesc": "LessonScriptor ist die ADHS-freundliche Chrome-Erweiterung, die deine Vorlesungen automatisch transkribiert und das Arbeitsgedächtnis für echtes Lernen freisetzt."
+    "metaDesc": "LessonScriptor ist die ADHS-freundliche Chrome-Erweiterung, die deine Vorlesungen automatisch transkribiert und das Arbeitsgedächtnis für echtes Lernen freisetzt.",
+    "relatedHeading": "Weitere Leitfäden für Studierende mit ADHS",
+    "readMore": "Mehr lesen"
   }
 }

@@ -29,7 +29,8 @@
     "liveCaptions": "Subtítulos en vivo",
     "transcribeVideo": "Transcribir video",
     "blog": "Blog",
-    "compare": "vs Otter.ai"
+    "compare": "vs Otter.ai",
+    "forAdhd": "Estudiantes TDAH"
   },
   "footer": {
     "product": "Producto",
@@ -640,7 +641,9 @@
       ]
     },
     "metaTitle": "Subtítulos en Vivo para Chrome — Editables, Exportables, Multilingües",
-    "metaDesc": "Añade subtítulos en tiempo real y editables a cualquier vídeo en Chrome. Gratuito, privado, compatible con todas las plataformas."
+    "metaDesc": "Añade subtítulos en tiempo real y editables a cualquier vídeo en Chrome. Gratuito, privado, compatible con todas las plataformas.",
+    "relatedHeading": "Aprende más sobre los subtítulos en vivo en Chrome",
+    "readMore": "Leer más"
   },
   "transcribeVideo": {
     "h1": "Transcribir vídeo a texto — Gratis, en tu navegador",
@@ -725,7 +728,9 @@
       ]
     },
     "metaTitle": "Transcribir vídeo a texto gratis — en directo en Chrome",
-    "metaDesc": "Convierte cualquier vídeo a texto en tiempo real con IA. Sin subida, sin esperas, sin suscripción. Funciona en Chrome en cualquier plataforma de vídeo."
+    "metaDesc": "Convierte cualquier vídeo a texto en tiempo real con IA. Sin subida, sin esperas, sin suscripción. Funciona en Chrome en cualquier plataforma de vídeo.",
+    "relatedHeading": "Aprende más sobre transcripción de vídeo",
+    "readMore": "Leer más"
   },
   "otterAlt": {
     "h1": "La mejor alternativa a Otter.ai para estudiantes",
@@ -879,19 +884,40 @@
     "send": "Enviar"
   },
   "privacy": {
-    "h1": "Política de Privacidad",
+    "h1": "Política de privacidad",
     "lastUpdated": "Última actualización",
-    "whoWeAre": "Quiénes Somos",
-    "whoWeAreBody": "LessonScriptor es una extensión de Chrome desarrollada y operada por Pierre Girardot. Nos comprometemos a proteger tu privacidad y a cumplir con el RGPD y otras leyes aplicables. Para cualquier pregunta, contáctanos en contact@lessonscriptor.com.",
-    "whatWeCollect": "Datos que Recopilamos",
-    "localStorage": "Almacenamiento Local",
-    "paymentsTitle": "Pagos y Claves de Licencia",
-    "thirdParty": "Servicios de Terceros",
-    "gdprRights": "Tus Derechos bajo el RGPD",
-    "dataRetention": "Retención de Datos",
-    "changes": "Cambios en esta Política",
+    "whoWeAre": "Quiénes somos",
+    "whoWeAreBody": "LessonScriptor es una extensión de Chrome desarrollada y operada por Pierre Girardot. Nos comprometemos a proteger tu privacidad y respetar el Reglamento General de Protección de Datos (RGPD) y otras leyes aplicables. Para cualquier consulta sobre privacidad, contáctanos en contact@lessonscriptor.com.",
+    "whatWeCollect": "Datos que recopilamos",
+    "whatWeCollectBody1": "LessonScriptor está diseñado con privacidad por defecto. No recopilamos datos personales sobre ti. No creamos cuentas para ti y nunca pedimos tu dirección de correo electrónico. Sin registro — jamás.",
+    "whatWeCollectMic": "Modo Micrófono: todo el procesamiento de audio ocurre localmente en tu dispositivo usando la Web Speech API. El audio nunca abandona tu dispositivo y nunca se envía a ningún servidor. Las transcripciones se almacenan únicamente en el almacenamiento local de tu navegador. No tenemos acceso a estos datos.",
+    "whatWeCollectTab": "Modo Audio de pestaña: cuando usas este modo, fragmentos de audio de la pestaña del navegador se envían a Groq (api.groq.com) para transcripción usando su modelo Whisper. Groq no retiene datos de audio más allá de la solicitud. Las transcripciones se guardan localmente en tu navegador únicamente y nunca se transmiten a los servidores de LessonScriptor. No retenemos ningún dato personal.",
+    "whatWeCollectNoTracking": "No usamos cookies. No usamos herramientas de análisis. No rastreamos tu navegación, comportamiento ni patrones de uso. No vendemos datos.",
+    "localStorage": "Almacenamiento local",
+    "localStorageBody": "Tus transcripciones y configuración de la extensión se almacenan exclusivamente en el almacenamiento local de tu navegador. Estos datos residen únicamente en tu dispositivo. LessonScriptor no tiene almacenamiento en servidor para transcripciones, configuración o información de usuario. Si borras los datos de tu navegador, tus transcripciones locales serán eliminadas. No podemos acceder ni recuperar estos datos para ti.",
+    "paymentsTitle": "Pagos y claves de licencia",
+    "paymentsBody1": "Los créditos de Audio de pestaña se compran a través de LemonSqueezy, un procesador de pagos externo. Tus datos de pago e información personal son manejados íntegramente por LemonSqueezy — LessonScriptor nunca recibe ni almacena tu información de pago, dirección de facturación ni correo electrónico.",
+    "paymentsBody2": "Al realizar una compra, LemonSqueezy proporciona una clave de licencia anónima. Esa clave se almacena localmente en tu dispositivo únicamente. LessonScriptor no tiene forma de asociar tu clave de licencia con tu identidad. Consulta la política de privacidad de LemonSqueezy para más detalles.",
+    "thirdParty": "Servicios de terceros",
+    "thirdPartyGroq": "Groq (api.groq.com): el modo Audio de pestaña usa el modelo Whisper de Groq para transcripción de alta precisión. Los fragmentos de audio se envían a Groq, se procesan y no se retienen más allá de la solicitud. Consulta la política de privacidad de Groq para más detalles.",
+    "thirdPartyLemon": "LemonSqueezy: gestiona todos los pagos para los créditos de Audio de pestaña. Ver la sección Pagos arriba.",
+    "thirdPartyGSC": "Google Search Console: usamos Google Search Console para monitorear el rendimiento de búsqueda agregado de nuestro sitio (lessonscriptor.com). Se limita a métricas no identificables personalmente y no rastrea usuarios individuales.",
+    "thirdPartyNoShare": "No compartimos tus datos con ningún otro tercero.",
+    "gdprRights": "Tus derechos bajo el RGPD",
+    "gdprIntro": "Bajo el RGPD, tienes los siguientes derechos:",
+    "gdprRight1": "Derecho de acceso: tienes derecho a solicitar una copia de los datos personales que tenemos sobre ti.",
+    "gdprRight2": "Derecho de rectificación: tienes derecho a corregir datos personales inexactos.",
+    "gdprRight3": "Derecho de supresión: tienes derecho a solicitar la eliminación de tus datos personales.",
+    "gdprRight4": "Derecho a la portabilidad: tienes derecho a solicitar tus datos personales en un formato portable.",
+    "gdprRight5": "Derecho de oposición: tienes derecho a oponerte a nuestro tratamiento de tus datos personales.",
+    "gdprNote": "Nota importante: dado que LessonScriptor no recopila datos personales en nuestros servidores, la mayoría de estos derechos son irrelevantes para los datos que procesamos. Tus transcripciones existen únicamente en el almacenamiento local de tu navegador, que controlas directamente. Contáctanos en contact@lessonscriptor.com con cualquier pregunta.",
+    "dataRetention": "Retención de datos",
+    "dataRetentionBody": "LessonScriptor no retiene datos personales en nuestros servidores. Tus transcripciones y configuración se retienen únicamente en el almacenamiento local de tu navegador durante el tiempo que elijas. Puedes eliminarlos en cualquier momento borrando los datos de tu navegador o desinstalando la extensión.",
+    "changes": "Cambios en esta política",
+    "changesBody": "Podemos actualizar esta Política de privacidad periódicamente para reflejar cambios en nuestras prácticas o requisitos legales. Te notificaremos de cualquier cambio importante actualizando la fecha de última actualización en esta página. Tu uso continuado de LessonScriptor después de dichos cambios constituye tu aceptación de la política actualizada.",
     "contactTitle": "Contáctanos",
-    "englishNote": "Esta política de privacidad se proporciona en inglés en todas las versiones del sitio. La versión en inglés es la versión oficial."
+    "contactBody": "Si tienes preguntas, inquietudes o solicitudes sobre esta Política de privacidad o nuestras prácticas, contáctanos en:",
+    "englishNote": "Esta Política de privacidad se proporciona en inglés en todas las versiones lingüísticas de nuestro sitio. La versión en inglés es la versión oficial."
   },
   "terms": {
     "h1": "Términos de uso",
@@ -980,6 +1006,8 @@
       ]
     },
     "metaTitle": "LessonScriptor para estudiantes con TDAH — deja de dividir tu atención entre escuchar y escribir",
-    "metaDesc": "LessonScriptor es la extensión Chrome adaptada al TDAH que transcribe automáticamente tus clases, liberando la memoria de trabajo para aprender de verdad."
+    "metaDesc": "LessonScriptor es la extensión Chrome adaptada al TDAH que transcribe automáticamente tus clases, liberando la memoria de trabajo para aprender de verdad.",
+    "relatedHeading": "Más guías para estudiantes con TDAH",
+    "readMore": "Leer más"
   }
 }
