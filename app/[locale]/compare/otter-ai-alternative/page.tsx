@@ -6,12 +6,13 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/compare/otter-ai-alternative'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const t = await getTranslations({ locale, namespace: 'otterAlt' })
   return {
-    title: 'Best Otter.ai Alternative for Students',
-    description: 'Looking for an Otter.ai alternative that works in your browser, doesn\'t require a subscription, and is free for everyday use? That\'s LessonScriptor.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     openGraph: {
-      title: 'Best Otter.ai Alternative for Students',
-      description: 'Free Otter.ai alternative for students. Works in Chrome on any video, no subscription required.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {

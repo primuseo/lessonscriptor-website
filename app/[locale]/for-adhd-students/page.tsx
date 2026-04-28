@@ -6,12 +6,13 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/for-adhd-students'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const t = await getTranslations({ locale, namespace: 'adhdStudents' })
   return {
-    title: 'LessonScriptor for ADHD Students — Stop Splitting Attention Between Listening and Writing',
-    description: 'LessonScriptor is the ADHD-friendly Chrome extension that auto-transcribes your lectures, freeing working memory for actual learning. No writing. No missed points.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     openGraph: {
-      title: 'LessonScriptor for ADHD Students — Stop Splitting Attention Between Listening and Writing',
-      description: 'Auto-transcription for lectures, YouTube, and Coursera. Built for students with ADHD who struggle to listen and write at the same time.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {

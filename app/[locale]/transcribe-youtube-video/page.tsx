@@ -6,12 +6,13 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/transcribe-youtube-video'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const t = await getTranslations({ locale, namespace: 'youtube' })
   return {
-    title: 'Transcribe Any YouTube Video in Real-Time',
-    description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     openGraph: {
-      title: 'Transcribe Any YouTube Video in Real-Time',
-      description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {

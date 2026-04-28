@@ -6,12 +6,13 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/transcribe-video-to-text'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const t = await getTranslations({ locale, namespace: 'transcribeVideo' })
   return {
-    title: 'Transcribe Video to Text Free — Live in Chrome',
-    description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     openGraph: {
-      title: 'Transcribe Video to Text Free — Live in Chrome',
-      description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {

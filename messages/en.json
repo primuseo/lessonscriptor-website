@@ -484,7 +484,9 @@
           "a": "No hard limit. LessonScriptor transcribes in real-time as the video plays, so it works for any length — from a 5-minute tutorial to a 3-hour lecture."
         }
       ]
-    }
+    },
+    "metaTitle": "Transcribe Any YouTube Video in Real-Time — Free Chrome Extension",
+    "metaDesc": "Get a live, editable transcript of any YouTube video in Chrome. Free mode included. Works on Coursera, Udemy, and any video tab."
   },
   "liveCaptions": {
     "h1": "Live Captions for Chrome — Editable, Exportable, Multilingual",
@@ -620,7 +622,9 @@
           "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode also uses on-device speech recognition. The Premium mode sends audio to a cloud API for better accuracy, but no data is stored after transcription."
         }
       ]
-    }
+    },
+    "metaTitle": "Live Captions for Chrome — Editable, Exportable, Multilingual",
+    "metaDesc": "Add real-time, editable captions to any video in Chrome. Free, private, works on every platform — not just YouTube."
   },
   "transcribeVideo": {
     "h1": "Transcribe Video to Text — Free, in Your Browser",
@@ -703,7 +707,9 @@
           "a": "LessonScriptor supports 14+ languages including English, French, Spanish, German, Portuguese, Italian, Dutch, Polish, Mandarin, Japanese, Arabic, Hindi, and more. Select your language in the extension settings before pressing play."
         }
       ]
-    }
+    },
+    "metaTitle": "Transcribe Video to Text Free — Live in Chrome",
+    "metaDesc": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform."
   },
   "otterAlt": {
     "h1": "The Best Otter.ai Alternative for Students",
@@ -826,7 +832,9 @@
           "a": "Otter.ai's Pro plan starts at $17/month. For a student who only needs to transcribe lectures during the semester, that adds up to $100+ per year. LessonScriptor's premium mode costs about €1/hour with no subscription — a full semester of 12 hours costs around €12."
         }
       ]
-    }
+    },
+    "metaTitle": "Best Otter.ai Alternative for Students — Free, No Subscription",
+    "metaDesc": "LessonScriptor is the best free Otter.ai alternative for students. No monthly cap, works on any video in Chrome, pay-as-you-go premium."
   },
   "blog": {
     "hub": {
@@ -957,6 +965,8 @@
           "a": "LessonScriptor's free mode is completely free with no monthly minute limit. It uses the Web Speech API to transcribe audio from your microphone — capturing any video playing in Chrome. There is no sign-up, no subscription, and no credit card. Premium mode adds cloud AI accuracy for technical or accented speech, at around €0.60 per hour."
         }
       ]
-    }
+    },
+    "metaTitle": "LessonScriptor for ADHD Students — Stop Splitting Attention Between Listening and Writing",
+    "metaDesc": "LessonScriptor is the ADHD-friendly Chrome extension that auto-transcribes your lectures, freeing working memory for actual learning. No writing. No missed points."
   }
 }

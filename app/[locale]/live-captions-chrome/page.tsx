@@ -6,12 +6,13 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/live-captions-chrome'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const t = await getTranslations({ locale, namespace: 'liveCaptions' })
   return {
-    title: 'Live Captions for Chrome — Editable, Exportable, Multilingual',
-    description: 'Add real-time, editable live captions to any video in Chrome. Works on YouTube, Zoom recordings, lectures, and more. Free mode included, 14+ languages.',
+    title: t('metaTitle'),
+    description: t('metaDesc'),
     openGraph: {
-      title: 'Live Captions for Chrome — Editable, Exportable, Multilingual',
-      description: 'Add real-time, editable live captions to any video in Chrome. Free mode, 14+ languages, works everywhere.',
+      title: t('metaTitle'),
+      description: t('metaDesc'),
       url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {

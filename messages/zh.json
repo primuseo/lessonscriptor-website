@@ -398,7 +398,7 @@
   "youtube": {
     "h1": "实时转录任何 YouTube 视频",
     "subtitle": "直接在 Chrome 中获取任何 YouTube 视频的实时、可编辑转录——无需复制、粘贴或切换标签页。含免费模式。",
-    "answer": "LessonScriptor is a free Chrome extension that transcribes YouTube videos in real-time. Install it from the Chrome Web Store, open any YouTube video, click the LessonScriptor icon to open the side panel, and press play. The transcript appears immediately alongside the video — editable, highlightable, and exportable to Markdown or clipboard. It works on Coursera, Udemy, and any other Chrome tab, not just YouTube.",
+    "answer": "LessonScriptor 是一款免费的 Chrome 扩展程序，可实时转录 YouTube 视频。从 Chrome 应用商店安装后，打开任意 YouTube 视频，点击 LessonScriptor 图标打开侧面板，然后播放视频。转录文本立即显示在视频旁边——可编辑、可高亮标注，并可导出为 Markdown 或复制到剪贴板。不仅适用于 YouTube，Coursera、Udemy 以及任何其他 Chrome 标签页均可使用。",
     "methods": {
       "title": "如何获取 YouTube 视频转录——所有方法对比",
       "items": [
@@ -482,32 +482,34 @@
       ]
     },
     "useCases": {
-      "title": "Who uses LessonScriptor to transcribe YouTube videos?",
+      "title": "谁在用 LessonScriptor 转录 YouTube 视频？",
       "items": [
         {
           "icon": "🎓",
-          "title": "University students watching recorded lectures",
-          "desc": "Many universities post lecture recordings on YouTube or link them in Moodle. LessonScriptor transcribes them in real-time, so students get searchable notes without rewatching."
+          "title": "观看录播课的大学生",
+          "desc": "许多高校将课程录像发布在 YouTube 上，或通过超星学习通、雨课堂等平台提供链接。LessonScriptor 实时转录，让你获得可搜索的笔记，无需反复回看课程。"
         },
         {
           "icon": "🌍",
-          "title": "Language learners studying with YouTube",
-          "desc": "Watching videos in French, Spanish, or German? LessonScriptor transcribes in 14+ languages — the transcript helps with vocabulary and comprehension at the same time."
+          "title": "用 YouTube 学外语的学习者",
+          "desc": "在看英语、法语或日语视频？LessonScriptor 支持 14 种以上语言——转录文本同时帮助你积累词汇、提升理解能力。"
         },
         {
           "icon": "📚",
-          "title": "Online course students on Coursera and Udemy",
-          "desc": "Coursera and Udemy videos play in Chrome just like YouTube. LessonScriptor works on both — giving you editable transcripts for every paid course you take."
+          "title": "在 Coursera 和 Udemy 上学习的学员",
+          "desc": "Coursera 和 Udemy 的视频在 Chrome 中播放方式与 YouTube 完全相同。LessonScriptor 两个平台都支持——为你的每门付费课程生成可编辑的转录文本。"
         }
       ]
-    }
+    },
+    "metaTitle": "实时转录任意 YouTube 视频——免费 Chrome 扩展",
+    "metaDesc": "在 Chrome 中获取任意 YouTube 视频的实时可编辑转录文本。包含免费模式。"
   },
   "liveCaptions": {
-    "h1": "为 Chrome 中的任何视频添加实时字幕",
-    "subtitle": "为你在 Chrome 中观看的任何视频添加实时、可编辑的字幕。免费、私密，适用于所有平台——不仅限于 YouTube。",
-    "answer": "LessonScriptor 通过侧面板为 Chrome 中的任何视频添加实时 AI 字幕。与 Chrome 内置的实时字幕不同，这些字幕完全可编辑、可导出，支持 14 种以上语言——包括浏览器字幕容易出错的学术词汇。",
+    "h1": "Chrome 实时字幕 — 可编辑、可导出、支持多语言",
+    "subtitle": "为您在 Chrome 中观看的任何视频添加实时可编辑字幕。免费、私密，适用于所有平台——不仅限于 YouTube。",
+    "answer": "LessonScriptor 通过侧边面板为 Chrome 中的任何视频添加 AI 实时字幕。与 Chrome 内置的实时字幕不同，这些字幕完全可编辑、可导出，并支持 14 种以上语言——包括浏览器常常转录错误的学术词汇。无论您使用超星学习通、雨课堂还是其他在线学习平台，都能无缝使用。",
     "vsChrome": {
-      "title": "LessonScriptor 对比 Chrome 内置实时字幕",
+      "title": "LessonScriptor 与 Chrome 内置实时字幕对比",
       "rows": [
         [
           "功能",
@@ -515,7 +517,7 @@
           "LessonScriptor"
         ],
         [
-          "可编辑的转录文本",
+          "可编辑转录文本",
           "否",
           "是——点击任意位置即可编辑"
         ],
@@ -525,9 +527,9 @@
           "是——Markdown、剪贴板"
         ],
         [
-          "高亮和格式化",
+          "高亮与格式化",
           "否",
-          "是——5 种颜色、加粗、标题"
+          "是——5 种颜色、粗体、标题"
         ],
         [
           "自定义词汇",
@@ -535,13 +537,18 @@
           "是——个人词典"
         ],
         [
-          "支持的语言",
+          "支持语言",
           "仅英语",
           "14 种以上语言"
         ],
         [
-          "支持耳机（高级版）",
+          "支持耳机使用（高级版）",
           "否",
+          "是"
+        ],
+        [
+          "适用于所有视频平台",
+          "是",
           "是"
         ],
         [
@@ -551,181 +558,203 @@
         ]
       ]
     },
+    "steps": {
+      "title": "如何在 Chrome 中添加实时字幕——分步指南",
+      "items": [
+        "从 Chrome 网上应用店安装 LessonScriptor。免费，只需 10 秒，无需注册。",
+        "在 Chrome 中打开任意视频——YouTube、Coursera、Zoom 录制视频、Google Meet，或超星学习通、雨课堂等任意平台。",
+        "点击 Chrome 工具栏中的 LessonScriptor 图标，在视频旁边打开侧边面板。",
+        "播放视频。实时字幕会自动实时显示在侧边面板中。",
+        "点击转录文本中的任意位置进行编辑、纠正单词或在观看时添加笔记。",
+        "使用高亮标记关键时刻——5 种颜色、粗体、标题，帮助整理笔记结构。",
+        "完成后导出——复制到剪贴板或下载为 Markdown 格式，可直接用于 Notion、Obsidian 或 Google Docs。"
+      ]
+    },
+    "useCases": {
+      "title": "Chrome 实时字幕的使用场景",
+      "items": [
+        {
+          "title": "大学课程",
+          "description": "跟进录播或直播课程，不遗漏任何内容。在超星学习通、雨课堂或学校网络教学平台上实时编辑转录文本，标注重点概念，课程结束后导出结构化笔记。"
+        },
+        {
+          "title": "YouTube 教育视频",
+          "description": "在播放时转录任何 YouTube 教程、课程或纪录片。无需暂停重新输入——只需高亮重要内容，跳过其余部分。"
+        },
+        {
+          "title": "Zoom 和 Teams 录制视频",
+          "description": "LessonScriptor 适用于在 Chrome 标签页中播放的任何视频——包括 Zoom 云端录制和 Teams 视频。即使没有生成字幕，也能获得转录文本。"
+        },
+        {
+          "title": "语言学习",
+          "description": "观看外语视频并实时获得该语言的字幕。支持法语、西班牙语、德语、葡萄牙语、普通话及另外 9 种语言。"
+        },
+        {
+          "title": "多动症与无障碍功能",
+          "description": "边听边看字幕能显著提升患有多动症（ADHD）、听觉处理障碍或处于嘈杂环境中的学生的理解力和记忆力。"
+        },
+        {
+          "title": "在线课程与网络研讨会",
+          "description": "在 Chrome 中转录 Coursera、edX、Udemy 或任意直播网络研讨会。会话结束后导出笔记，所有编辑和高亮内容均完整保留。"
+        }
+      ]
+    },
     "faq": {
       "items": [
         {
           "q": "如何在 Chrome 中添加实时字幕？",
-          "a": "从 Chrome 应用商店安装 LessonScriptor。打开任意视频，点击扩展程序图标以打开侧面板，然后播放视频。实时字幕会自动显示。"
+          "a": "从 Chrome 网上应用店安装 LessonScriptor。打开任意视频，点击扩展图标打开侧边面板，然后播放视频。实时字幕会自动实时显示。"
         },
         {
-          "q": "Chrome 有内置的实时字幕功能吗？",
-          "a": "有，Chrome 有基础的实时字幕功能（设置 → 无障碍 → 实时字幕）。但它仅支持英语，生成的是不可编辑或导出的只读文本，且对专业词汇处理不佳。LessonScriptor 支持 14 种以上语言，提供完全可编辑、可导出的转录文本。"
+          "q": "Chrome 有内置实时字幕功能吗？",
+          "a": "有，Chrome 在「设置 → 无障碍 → 实时字幕」中提供了基本的实时字幕功能。但它仅支持英语，生成的是无法编辑或导出的只读文本，且对专业词汇的处理效果较差。LessonScriptor 支持 14 种以上语言。"
         },
         {
-          "q": "Chrome 中的实时字幕支持耳机吗？",
-          "a": "LessonScriptor 的高级模式使用标签页音频捕获——直接从浏览器标签页获取音频而非通过麦克风，因此完美支持耳机使用。"
+          "q": "如何免费开启 Chrome 实时字幕？",
+          "a": "两种方式：Chrome 内置实时字幕免费，但仅支持英语且不可编辑。LessonScriptor 也有免费模式——从 Chrome 网上应用店安装后立即可用，无需账号。"
         },
         {
-          "q": "我可以在 Chrome 中为 Zoom 或 Teams 录制的内容添加实时字幕吗？",
-          "a": "可以。LessonScriptor 适用于 Chrome 中播放的任何视频，包括 Zoom 录制、Google Meet 录制、Teams 录制以及其他任何视频平台。"
+          "q": "Chrome 实时字幕支持耳机使用吗？",
+          "a": "Chrome 内置实时字幕不支持耳机，因为它依赖麦克风。LessonScriptor 高级版使用标签页音频捕获——直接从浏览器标签页获取音频，因此使用耳机完全没有问题。"
         },
         {
-          "q": "How do I add live captions to Chrome?",
-          "a": "Install LessonScriptor from the Chrome Web Store. Open any video, click the extension icon to open the side panel, and hit play. Live captions appear automatically in real-time."
+          "q": "能在 Chrome 中获得英语以外语言的实时字幕吗？",
+          "a": "Chrome 内置字幕仅支持英语。LessonScriptor 支持 14 种以上语言，包括法语、西班牙语、德语、葡萄牙语、普通话、意大利语、荷兰语、波兰语等。"
         },
         {
-          "q": "Does Chrome have live captions built in?",
-          "a": "Yes, Chrome has a basic live captions feature under Settings → Accessibility → Live Caption. However, it only supports English, produces a read-only feed you can't edit or export, and doesn't handle technical vocabulary well. LessonScriptor supports 14+ languages and gives you a fully editable, exportable transcript."
+          "q": "为什么 Chrome 内置实时字幕不够准确？",
+          "a": "Chrome 的实时字幕使用的是较旧的本地语音识别模型，针对日常对话优化，而非学术或专业词汇。LessonScriptor 高级版使用更精准的 AI 模型，并支持个人词汇词典。"
         },
         {
-          "q": "How do I turn on live captions in Chrome for free?",
-          "a": "Two options: Chrome's built-in live captions are free but English-only and not editable (Settings → Accessibility → Live Caption). LessonScriptor also has a free mode — install from the Chrome Web Store and it works immediately with no account required. The free mode uses your device's microphone for transcription."
+          "q": "可以导出 Chrome 实时字幕吗？",
+          "a": "Chrome 内置实时字幕无法导出或保存——视频停止后文本即消失。LessonScriptor 在播放过程中持续保存完整转录文本。"
         },
         {
-          "q": "Do Chrome live captions work with headphones?",
-          "a": "Chrome's built-in live captions do not work with headphones because they rely on the microphone. LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab rather than through a microphone, so headphones work perfectly."
+          "q": "Chrome 实时字幕支持 Zoom 录制视频吗？",
+          "a": "Chrome 内置实时字幕适用于浏览器中播放的任何音频，包括 Zoom 录制视频。LessonScriptor 同样适用于在 Chrome 标签页中播放的任何视频。"
         },
         {
-          "q": "Can I get live captions in languages other than English in Chrome?",
-          "a": "Chrome's built-in captions are English-only. LessonScriptor supports 14+ languages including French, Spanish, German, Portuguese, Mandarin, Italian, Dutch, Polish, and more. Select your language in the extension settings before starting transcription."
-        },
-        {
-          "q": "Why are Chrome's built-in live captions inaccurate?",
-          "a": "Chrome's live captions use an older on-device speech recognition model optimised for general speech, not academic or technical vocabulary. LessonScriptor's Premium mode uses a more accurate AI model and supports a personal vocabulary dictionary — you can add names, terms, and abbreviations it should always get right."
-        },
-        {
-          "q": "Can I export Chrome live captions?",
-          "a": "Chrome's built-in live captions cannot be exported or saved — the text disappears when the video stops. LessonScriptor saves your full transcript as you go and lets you export to Markdown, copy to clipboard, or keep it in the extension for later."
-        },
-        {
-          "q": "Do Chrome live captions work on Zoom recordings?",
-          "a": "Chrome's built-in live captions work on any audio playing in the browser, including Zoom recordings. LessonScriptor also works on any video playing in a Chrome tab, with the added benefit of an editable, exportable transcript."
-        },
-        {
-          "q": "Are Chrome live captions private?",
-          "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode also uses on-device speech recognition. The Premium mode sends audio to a cloud API for better accuracy, but no data is stored after transcription."
+          "q": "Chrome 实时字幕是私密的吗？",
+          "a": "Chrome 内置实时字幕在设备本地处理音频——任何数据都不会离开您的电脑。LessonScriptor 免费模式同样使用本地语音识别。高级版将音频发送至云端 API 以提高准确性，但转录完成后不会存储任何数据。"
         }
       ]
     },
-    "steps": {
-      "title": "How to add live captions in Chrome — step by step",
-      "items": [
-        "Install LessonScriptor from the Chrome Web Store. It's free, takes 10 seconds, no sign-up required.",
-        "Open any video in Chrome — YouTube, Coursera, a Zoom recording, Google Meet, any platform.",
-        "Click the LessonScriptor icon in your Chrome toolbar to open the side panel next to the video.",
-        "Hit play on the video. Live captions appear in real-time inside the side panel automatically.",
-        "Click anywhere in the transcript to edit, correct a word, or add a note as you watch.",
-        "Use highlights to mark key moments — 5 colours, bold, headers to structure your notes.",
-        "Export when done — copy to clipboard or download as Markdown, ready for Notion, Obsidian, or Google Docs."
-      ]
-    },
-    "useCases": {
-      "title": "What you can use Chrome live captions for",
-      "items": [
-        {
-          "title": "University lectures",
-          "description": "Follow along with recorded or live lectures without missing words. Edit the transcript in real-time, highlight key concepts, and export structured notes when the lecture ends."
-        },
-        {
-          "title": "YouTube educational videos",
-          "description": "Transcribe any YouTube tutorial, course, or documentary as it plays. No need to pause and retype — just highlight what matters and skip the rest."
-        },
-        {
-          "title": "Zoom and Teams recordings",
-          "description": "LessonScriptor works on any video that plays in a Chrome tab — including Zoom cloud recordings and Teams videos. Get captions even when no transcript was generated."
-        },
-        {
-          "title": "Language learning",
-          "description": "Watch videos in a foreign language and get live captions in that language. Supports French, Spanish, German, Portuguese, Mandarin, and 9 more languages — useful for accent comprehension and vocabulary."
-        },
-        {
-          "title": "ADHD and accessibility",
-          "description": "Reading captions while listening significantly improves comprehension and retention for students with ADHD, auditory processing difficulties, or those in noisy environments."
-        },
-        {
-          "title": "Online courses and webinars",
-          "description": "Transcribe Coursera, edX, Udemy, or any live webinar in Chrome. Export your notes after the session with all your edits and highlights preserved."
-        }
-      ]
-    }
+    "metaTitle": "Chrome 实时字幕——可编辑、可导出、支持多语言",
+    "metaDesc": "为 Chrome 中的任何视频添加实时可编辑字幕。免费、私密，适用于所有平台。"
   },
   "transcribeVideo": {
-    "h1": "视频转文字——免费，在你的浏览器中完成",
-    "subtitle": "使用 AI 实时将任何视频转换为文字。无需上传，无需等待，无需订阅。直接在 Chrome 中适用于任何视频平台。",
-    "answer": "LessonScriptor is a free Chrome extension that transcribes any video to text in real-time — no file upload, no account, no subscription. Open any video on YouTube, Coursera, Udemy, Zoom, or a university portal like Moodle or Canvas, press play, and the transcript appears in a side panel as the audio plays. The free mode uses the Web Speech API and works immediately; the Premium mode uses a cloud AI model for higher accuracy across accents and technical vocabulary.",
-    "faq": {
-      "items": [
-        {
-          "q": "如何免费将视频转为文字？",
-          "a": "安装 LessonScriptor（免费 Chrome 扩展程序）。在 Chrome 中打开任意视频。点击扩展程序图标打开侧面板。按下播放——转录自动开始。完成后导出文本。免费模式永久免费，无需注册。"
-        },
-        {
-          "q": "我可以将 MP4 文件转为文字吗？",
-          "a": "可以。在 Chrome 中打开 MP4 文件（拖放到 Chrome 标签页中，或通过文件 → 打开），然后使用 LessonScriptor 在播放时实时转录。"
-        },
-        {
-          "q": "最准确的免费视频转录工具是什么？",
-          "a": "对于浏览器内的实时转录，LessonScriptor 的高级模式提供最高准确度。免费模式使用 Web Speech API，适用于一般内容。两者均无需订阅即可使用。"
-        },
-        {
-          "q": "转录一个视频需要多长时间？",
-          "a": "LessonScriptor 进行实时转录——文本在视频播放时同步出现，因此无需等待。一小时的视频需要一小时完成转录。"
-        }
-      ]
-    },
+    "h1": "视频转文字——免费，在浏览器中直接使用",
+    "subtitle": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。",
+    "answer": "LessonScriptor是一款免费的Chrome扩展程序，可实时将任意视频转录为文字——无需上传文件、无需账号、无需订阅。在YouTube、Coursera、Udemy、Zoom或超星学习通、雨课堂等高校学习平台上打开任意视频，点击播放，转录内容即在侧边栏中随音频同步显示。免费模式使用Web Speech API，立即可用；高级模式使用云端AI模型，在口音识别和专业词汇方面精度更高。",
     "useCases": {
-      "title": "What types of videos can you transcribe to text?",
+      "title": "您可以将哪些类型的视频转录为文字？",
       "items": [
         {
           "icon": "🎓",
-          "title": "University lecture recordings",
-          "desc": "Transcribe Moodle, Canvas, Panopto, or Blackboard lecture videos in real-time. No download required — if the video plays in Chrome, LessonScriptor captures it."
+          "title": "大学课程录像",
+          "desc": "实时转录超星学习通、雨课堂、Panopto或Blackboard上的课程视频。无需下载——只要视频能在Chrome中播放，LessonScriptor即可捕获。"
         },
         {
           "icon": "▶️",
-          "title": "YouTube tutorials and courses",
-          "desc": "Convert any YouTube video to text as it plays. Edit the transcript, highlight key points, and export to Notion, Obsidian, or Google Docs."
+          "title": "YouTube教程和课程",
+          "desc": "在视频播放的同时将任意YouTube视频转换为文字。编辑转录内容，标记重点，并导出至Notion、Obsidian或Google文档。"
         },
         {
           "icon": "📹",
-          "title": "Zoom and Teams recordings",
-          "desc": "Open a Zoom cloud recording or a Microsoft Teams video in Chrome and transcribe it directly. Works even if the original had no captions."
+          "title": "Zoom和Teams录像",
+          "desc": "在Chrome中打开Zoom云录像或Microsoft Teams视频，直接进行转录。即使原始视频没有字幕也同样适用。"
         },
         {
           "icon": "📁",
-          "title": "Local MP4 and video files",
-          "desc": "Drag and drop an MP4 or MOV file into a Chrome tab. LessonScriptor transcribes local files the same way as online videos — no upload needed."
+          "title": "本地MP4及视频文件",
+          "desc": "将MP4或MOV文件拖放到Chrome标签页中。LessonScriptor转录本地文件的方式与在线视频完全相同——无需上传。"
         }
       ]
     },
     "howItWorks": {
-      "title": "How does video-to-text transcription work in Chrome?",
-      "subtitle": "No upload. No waiting. No subscription.",
+      "title": "Chrome中的视频转文字是如何工作的？",
+      "subtitle": "无需上传。无需等待。无需订阅。",
       "steps": [
         {
           "n": "1",
-          "title": "Install LessonScriptor from the Chrome Web Store",
-          "desc": "Free, one click, no sign-up. It takes under 30 seconds and works on any Chrome browser."
+          "title": "从Chrome网上应用店安装LessonScriptor",
+          "desc": "免费，一键安装，无需注册。安装时间不到30秒，适用于任何Chrome浏览器。"
         },
         {
           "n": "2",
-          "title": "Open any video and press play",
-          "desc": "Go to YouTube, Coursera, a Zoom recording, or any video in Chrome. Click the LessonScriptor icon to open the side panel, then press play."
+          "title": "打开任意视频并点击播放",
+          "desc": "前往YouTube、Coursera、Zoom录像，或您学校的超星学习通、雨课堂等平台。点击LessonScriptor图标打开侧边栏，然后点击播放。"
         },
         {
           "n": "3",
-          "title": "Edit and export your transcript",
-          "desc": "The transcript appears in real-time. Click to edit, highlight key passages, add headers. Export to Markdown or copy to clipboard when done."
+          "title": "编辑并导出您的转录内容",
+          "desc": "转录内容实时显示。点击即可编辑，标记关键段落，添加标题。完成后导出为Markdown或复制到剪贴板。"
         }
       ]
-    }
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "如何免费将视频转录为文字？",
+          "a": "安装LessonScriptor（免费Chrome扩展）。在Chrome中打开任意视频。点击扩展图标打开侧边栏。点击播放——转录自动开始。完成后导出文字。免费模式永久免费，无需注册。"
+        },
+        {
+          "q": "我可以将MP4文件转换为文字吗？",
+          "a": "可以。在Chrome中打开MP4文件（拖放到Chrome标签页，或通过文件→打开），然后使用LessonScriptor在播放时实时转录。"
+        },
+        {
+          "q": "哪款免费视频转录工具最准确？",
+          "a": "对于浏览器内的实时转录，LessonScriptor的高级模式通过云端AI模型提供最高精度。免费模式使用Web Speech API——适用于音频清晰的一般内容。两种模式均无需订阅即可使用。"
+        },
+        {
+          "q": "转录一段视频需要多长时间？",
+          "a": "LessonScriptor实时转录——文字随视频播放同步出现，无需等待。1小时的视频需要1小时转录。"
+        },
+        {
+          "q": "LessonScriptor可以离线使用吗？",
+          "a": "免费模式可离线使用——它使用浏览器内置的Web Speech API，在您的设备本地运行。高级AI模式需要网络连接，以将音频发送至云端转录引擎。"
+        },
+        {
+          "q": "LessonScriptor支持哪些视频平台？",
+          "a": "LessonScriptor支持任何可在Chrome标签页中播放的视频，包括YouTube、Coursera、Udemy、Zoom云录像、Microsoft Teams录像、超星学习通、雨课堂、Panopto、Blackboard，以及在Chrome中打开的本地MP4或MOV文件。"
+        },
+        {
+          "q": "我可以将视频转录为哪些语言？",
+          "a": "LessonScriptor支持14种以上语言，包括中文、英语、法语、西班牙语、葡萄牙语、意大利语、荷兰语、波兰语、日语、阿拉伯语、印地语等。在点击播放前，请在扩展设置中选择您的语言。"
+        }
+      ]
+    },
+    "metaTitle": "免费视频转文字——直接在 Chrome 中实时转录",
+    "metaDesc": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。"
   },
   "otterAlt": {
-    "h1": "学生的最佳 Otter.ai 替代方案",
-    "subtitle": "正在寻找一个在浏览器中使用、无需订阅、日常使用免费的 Otter.ai 替代方案？那就是 LessonScriptor。",
-    "answer": "Otter.ai charges $17/month and caps free users at 300 minutes per month — enough for roughly 5 lectures. LessonScriptor is a Chrome extension with a free mode that has no monthly cap and a premium mode that costs ~€1/hour with no subscription. Unlike Otter.ai, which is designed for meetings and Zoom calls, LessonScriptor works on any video in Chrome: YouTube, Coursera, Udemy, university portals like Moodle or Canvas, and local video files.",
+    "h1": "最适合学生的 Otter.ai 替代工具",
+    "subtitle": "在寻找一款能在浏览器中运行、无需订阅、日常免费使用的 Otter.ai 替代工具？那就是 LessonScriptor。",
+    "answer": "Otter.ai 每月收费 17 美元，免费用户每月仅限 300 分钟——大约够用 5 节课。LessonScriptor 是一款 Chrome 扩展，免费模式无月度限制，高级模式约 1 欧元/小时，无需订阅。与专为会议和 Zoom 通话设计的 Otter.ai 不同，LessonScriptor 支持 Chrome 中的任意视频：YouTube、Coursera、Udemy、超星学习通、雨课堂等大学平台，以及本地视频文件。",
+    "whenToUse": {
+      "title": "何时应选择 Otter.ai，何时选择 LessonScriptor？",
+      "otter": {
+        "heading": "使用 Otter.ai，如果你……",
+        "items": [
+          "需要转录 Zoom、Google Meet 或 Microsoft Teams 的实时会议",
+          "希望自动生成会议摘要和 AI 行动项",
+          "在团队中通过 Otter 工作区共享会议记录",
+          "主要录制自己的声音——Otter 的移动端应用非常适合语音听写"
+        ]
+      },
+      "lessonscriptor": {
+        "heading": "使用 LessonScriptor，如果你……",
+        "items": [
+          "需要转录 YouTube、Coursera、Udemy 或超星学习通、雨课堂等平台上的视频课程",
+          "希望使用免费工具且无月度分钟限制",
+          "更倾向于按需付费（约 1 欧元/小时），而非固定月费订阅",
+          "需要转录 14 种以上语言，而不仅限于英语",
+          "希望在视频播放过程中编辑和高亮转录文本"
+        ]
+      }
+    },
     "comparison": {
-      "title": "Otter.ai 对比 LessonScriptor——详细比较",
+      "title": "Otter.ai vs LessonScriptor——详细对比",
       "rows": [
         [
           "",
@@ -735,25 +764,25 @@
           "LessonScriptor"
         ],
         [
-          "免费层级",
+          "免费套餐",
           "有限（300 分钟/月）",
           "有限",
           "有限",
           "无限免费模式"
         ],
         [
-          "需要订阅",
-          "是（$17/月起）",
-          "是（$14/月起）",
-          "是（$12/月起）",
+          "是否需要订阅",
+          "是（17 美元/月起）",
+          "是（14 美元/月起）",
+          "是（12 美元/月起）",
           "否——按需付费"
         ],
         [
-          "适用于任何视频",
+          "支持任意视频",
           "否（仅限会议）",
           "否（仅限会议）",
           "否（仅限会议）",
-          "是——Chrome 中的任何视频"
+          "是——Chrome 中任意视频"
         ],
         [
           "实时编辑",
@@ -770,90 +799,54 @@
           "Markdown、剪贴板"
         ],
         [
-          "Chrome 扩展程序",
-          "是（仅会议）",
+          "Chrome 扩展",
+          "是（会议）",
           "否",
-          "是（仅会议）",
-          "是——任何视频"
+          "是（会议）",
+          "是——任意视频"
         ],
         [
-          "12 小时/学期费用",
-          "约 $20/月持续支付",
-          "约 $14/月持续支付",
-          "约 $12/月持续支付",
-          "共约 12 欧元"
+          "12 学时/学期费用",
+          "约 20 美元/月持续计费",
+          "约 14 美元/月持续计费",
+          "约 12 美元/月持续计费",
+          "约 12 欧元（总计）"
         ],
         [
           "隐私（音频）",
           "发送至 Otter 服务器",
           "发送至 Notta 服务器",
           "发送至 Tactiq 服务器",
-          "本地（免费）或云端 AI（高级版）"
+          "本地处理（免费）或云端 AI（高级）"
         ]
       ]
     },
     "faq": {
       "items": [
         {
-          "q": "Otter.ai 的最佳免费替代方案是什么？",
-          "a": "LessonScriptor 是学生的最佳免费 Otter.ai 替代方案。其免费模式永久免费，无月度限制——使用麦克风从 Chrome 中的任何视频捕获音频。无需订阅，无需注册。"
+          "q": "最好的免费 Otter.ai 替代工具是什么？",
+          "a": "LessonScriptor 是最适合学生的免费 Otter.ai 替代工具。其免费模式永久免费，无月度分钟限制——使用你的麦克风捕捉 Chrome 中任意视频的音频。无需订阅，无需注册。"
         },
         {
-          "q": "有可以在 YouTube 上使用的 Otter.ai 替代方案吗？",
-          "a": "有——LessonScriptor。与专为会议和通话设计的 Otter.ai 不同，LessonScriptor 适用于 Chrome 中的任何视频，包括 YouTube、Coursera、Udemy、Zoom 录制和大学门户网站。"
+          "q": "Otter.ai 有免费版吗？",
+          "a": "Otter.ai 提供免费套餐，但每月限 300 分钟，每次对话限 30 分钟。大约够用 5 节一小时的课。超出后，需等到下个月才能继续使用。LessonScriptor 的免费模式没有月度限制。"
         },
         {
-          "q": "为什么 Otter.ai 对学生来说太贵了？",
-          "a": "Otter.ai 的 Pro 套餐起价 $17/月。对于只需要在学期期间转录课程的学生来说，一年下来要花 $100 以上。LessonScriptor 的高级模式每小时仅需约 1 欧元，无需订阅——12 小时的完整学期费用约为 12 欧元。"
+          "q": "Otter.ai 和 LessonScriptor 的主要区别是什么？",
+          "a": "Otter.ai 专为会议转录设计——Zoom、Google Meet、Teams。LessonScriptor 专为 Chrome 中的视频转录设计——YouTube、Coursera、Udemy、超星学习通、雨课堂等学习平台。Otter.ai 常规使用需订阅；LessonScriptor 免费模式无限制，高级版按需付费（约 1 欧元/小时）。"
         },
         {
-          "q": "What is the best free alternative to Otter.ai?",
-          "a": "LessonScriptor is the best free Otter.ai alternative for students. Its free mode is free forever with no monthly minute limit — it uses your microphone to capture audio from any video in Chrome. No subscription, no sign-up required."
+          "q": "LessonScriptor 能转录 Zoom 会议吗？",
+          "a": "LessonScriptor 可以转录在 Chrome 中播放的 Zoom 云录制视频，但不像 Otter.ai 那样加入实时 Zoom 会议。如需实时会议转录，Otter.ai 是专为此场景设计的。如需转录 Zoom 录制文件或其他任何视频，LessonScriptor 更为合适。"
         },
         {
-          "q": "Is there a completely free Otter.ai alternative with no limits?",
-          "a": "Yes. LessonScriptor's free mode has no monthly minute cap — unlike Otter.ai's free tier, which is capped at 300 minutes per month. LessonScriptor uses your device's microphone and the Web Speech API, which runs locally with no usage limits."
-        },
-        {
-          "q": "Is there an Otter.ai alternative that works on YouTube?",
-          "a": "Yes — LessonScriptor. Unlike Otter.ai, which is designed for meetings and calls, LessonScriptor works on any video in Chrome, including YouTube, Coursera, Udemy, Zoom recordings, and university portals."
-        },
-        {
-          "q": "Does Otter.ai work on YouTube?",
-          "a": "No. Otter.ai is designed for live meetings — Zoom, Google Meet, Microsoft Teams, and in-person recordings via its mobile app. It does not transcribe YouTube videos, Coursera courses, or other browser-based video content. LessonScriptor works on all of those."
-        },
-        {
-          "q": "Which is more accurate: Otter.ai or LessonScriptor?",
-          "a": "For meeting transcription, Otter.ai is purpose-built and performs well with clear speaker audio. For video-based content — YouTube, lectures, courses — LessonScriptor's Premium mode uses a high-accuracy AI model optimised for that context. LessonScriptor's free mode uses the Web Speech API, which is slightly less accurate than both in noisy environments."
-        },
-        {
-          "q": "Why is Otter.ai expensive for students?",
-          "a": "Otter.ai's Pro plan starts at $17/month. For a student who only needs to transcribe lectures during the semester, that adds up to $100+ per year. LessonScriptor's premium mode costs about €1/hour with no subscription — a full semester of 12 hours costs around €12."
+          "q": "Otter.ai 对学生来说值得吗？",
+          "a": "Otter.ai 的免费套餐（300 分钟/月）适合轻度使用，但每周课时超过 5 小时的学生很快就会触达上限。每月 17 美元对学生预算而言偏贵。LessonScriptor 的免费模式可覆盖日常使用，没有限制；高级模式（约 1 欧元/小时）对于偶尔的高精度需求更具性价比。"
         }
       ]
     },
-    "whenToUse": {
-      "title": "When should you use Otter.ai vs LessonScriptor?",
-      "otter": {
-        "heading": "Use Otter.ai if you…",
-        "items": [
-          "Need to transcribe live Zoom, Google Meet, or Microsoft Teams meetings",
-          "Want automatic meeting summaries and AI action items from calls",
-          "Work in a team that shares meeting notes through Otter's workspace",
-          "Primarily record your own voice — Otter's mobile app is strong for dictation"
-        ]
-      },
-      "lessonscriptor": {
-        "heading": "Use LessonScriptor if you…",
-        "items": [
-          "Need to transcribe video lectures on YouTube, Coursera, Udemy, or university portals",
-          "Want a free tool with no monthly minute cap",
-          "Prefer to pay per-use (~€1/hr) rather than a fixed monthly subscription",
-          "Need to transcribe in 14+ languages, not just English",
-          "Want to edit and highlight the transcript while the video plays"
-        ]
-      }
-    }
+    "metaTitle": "最适合学生的 Otter.ai 替代工具——免费，无需订阅",
+    "metaDesc": "LessonScriptor 是最适合学生的免费 Otter.ai 替代工具。无月度限制，支持 Chrome 中的任意视频。"
   },
   "blog": {
     "hub": {
@@ -984,6 +977,8 @@
           "a": "LessonScriptor的免费模式完全免费，无每月分钟限制。它使用Web Speech API转录麦克风音频——捕获在Chrome中播放的任何视频。无需注册，无需订阅，无需信用卡。高级模式为技术性或带口音的语音添加云端AI准确性，每小时约0.60欧元。"
         }
       ]
-    }
+    },
+    "metaTitle": "专为ADHD学生设计的LessonScriptor——不再分心于同时听讲和记笔记",
+    "metaDesc": "LessonScriptor是专为多动症学生设计的Chrome扩展，自动转录课程内容，释放工作记忆用于真正的学习。"
   }
 }
