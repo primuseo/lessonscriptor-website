@@ -7,9 +7,13 @@
   "published_at": "2026-04-25",
   "updated_at": "2026-04-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
+    "title": "How to Transcribe Lecture Videos Automatically",
     "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
-    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+    "keywords": [
+      "transcribe lecture video",
+      "automatic lecture transcription",
+      "lecture to text"
+    ]
   },
   "author": {
     "name": "Lessonscriptor Editorial Team",
@@ -43,7 +47,21 @@
     },
     {
       "h2": "How to study from your transcript",
-      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams."
+      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams.",
+      "internal_links": [
+        {
+          "text": "Transcribe video to text free",
+          "url": "/transcribe-video-to-text"
+        },
+        {
+          "text": "How to take notes with ADHD",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "How to download a YouTube transcript",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
+      ]
     }
   ],
   "faq": {

@@ -97,7 +97,30 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
   const callout = section.callout as { type?: string; label?: string; body: string } | undefined
   const compTable = section.comparison_table as { title?: string; rows: Array<Record<string, unknown>> } | undefined
   const table = section.table as { headers: string[]; rows: string[][] } | undefined
-  const internalLinks = section.internal_links as Array<{ text: string; url: string }> | undefined
+  const internalLinks = (() => {
+    type LinkItem = { text: string; url: string }
+    const normalize = (raw: unknown): LinkItem | null => {
+      if (!raw || typeof raw !== 'object') return null
+      const r = raw as Record<string, unknown>
+      const url = (r.url || r.href) as string | undefined
+      const text = (r.text || r.label) as string | undefined
+      if (!url || !text) return null
+      return { text, url }
+    }
+    const candidates: LinkItem[] = []
+    const push = (v: unknown) => {
+      if (Array.isArray(v)) v.forEach(i => { const n = normalize(i); if (n) candidates.push(n) })
+      else if (v && typeof v === 'object') { const n = normalize(v); if (n) candidates.push(n) }
+    }
+    push(section.internal_links)
+    push(section.internal_links_map)
+    push(section.internal_link)
+    if (typeof section.cta_link === 'string' && typeof section.cta_text === 'string')
+      candidates.push({ url: section.cta_link as string, text: section.cta_text as string })
+    if (typeof section.secondary_href === 'string' && typeof section.secondary_label === 'string')
+      candidates.push({ url: section.secondary_href as string, text: section.secondary_label as string })
+    return candidates.length > 0 ? candidates : undefined
+  })()
   const subsections = section.subsections as Array<{ h3?: string; body?: string }> | undefined
 
   return (

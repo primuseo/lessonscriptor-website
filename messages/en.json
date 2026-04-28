@@ -859,10 +859,104 @@
   },
   "privacy": {
     "h1": "Privacy Policy",
-    "lastUpdated": "Last updated"
+    "lastUpdated": "Last updated",
+    "whoWeAre": "Who We Are",
+    "whoWeAreBody": "LessonScriptor is a Chrome extension developed and operated by Pierre Girardot. We are committed to protecting your privacy and respecting the European General Data Protection Regulation (GDPR) and other applicable privacy laws. For any privacy-related questions, contact us at contact@lessonscriptor.com.",
+    "whatWeCollect": "What Data We Collect",
+    "localStorage": "Local Storage",
+    "paymentsTitle": "Payments and License Keys",
+    "thirdParty": "Third-Party Services",
+    "gdprRights": "Your Rights Under GDPR",
+    "dataRetention": "Data Retention",
+    "changes": "Changes to This Privacy Policy",
+    "contactTitle": "Contact Us",
+    "englishNote": "This Privacy Policy is provided in English across all language versions of our website. English is the authoritative version."
   },
   "terms": {
     "h1": "Terms of Use",
     "lastUpdated": "Last updated"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "ADHD Study Tools",
+      "h1": "LessonScriptor for ADHD Students",
+      "subtitle": "Stop splitting your attention between listening and writing. LessonScriptor transcribes your lectures automatically so your working memory can focus on what matters: understanding.",
+      "answer": "LessonScriptor is an ADHD-friendly Chrome extension that auto-transcribes any lecture, YouTube video, or Coursera course in real time. ADHD students struggle because simultaneously listening and writing overwhelms working memory — LessonScriptor removes that split-attention problem entirely.",
+      "cta": "Install Free — Chrome Extension"
+    },
+    "problems": {
+      "title": "Why note-taking is harder with ADHD",
+      "subtitle": "ADHD affects the exact cognitive systems that conventional note-taking demands most.",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "Working memory overload",
+          "description": "ADHD reduces working memory capacity. Writing a sentence while processing the next one is cognitively impossible — one task always loses. Research shows ADHD students retain 40% less information when forced to write and listen simultaneously."
+        },
+        {
+          "icon": "⚡",
+          "title": "Split attention collapse",
+          "description": "Dopamine-driven attention can't sustain two competing demands. The moment your pen hits the page, the lecturer's voice becomes background noise. LessonScriptor breaks that cycle by handling the writing task completely."
+        },
+        {
+          "icon": "🌊",
+          "title": "Information overload",
+          "description": "Fast-paced lectures on Canvas, Coursera, or YouTube generate more information than ADHD working memory can buffer. Missing one sentence creates a comprehension gap that cascades — leaving students lost for the next five minutes."
+        }
+      ]
+    },
+    "features": {
+      "title": "How LessonScriptor helps ADHD students",
+      "subtitle": "Three features designed specifically for how ADHD brains process information.",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "Automatic transcription",
+          "description": "LessonScriptor transcribes every word your lecturer says — automatically, in real time, directly in Chrome. No setup, no switching tabs. Your hands stay free and your attention stays on understanding, not writing."
+        },
+        {
+          "icon": "✏️",
+          "title": "Real-time editing",
+          "description": "The live transcript is fully editable. ADHD students can highlight key concepts, bold important terms, and add margin notes without losing the thread of the lecture. The editor works exactly like a document — no learning curve."
+        },
+        {
+          "icon": "🕐",
+          "title": "Timestamp navigation",
+          "description": "Every transcript segment is timestamped. Jump back 30 seconds when dopamine pulled your attention away. Review the exact moment you zoned out, without rewatching the entire video. Works on YouTube, Coursera, Udemy, and any Chrome-based video."
+        }
+      ]
+    },
+    "quote": {
+      "text": "I used to fall behind the moment I picked up my pen. Now I just listen — and the transcript is there when I need it.",
+      "attribution": "LessonScriptor user, university student with ADHD"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "What are the best apps for students with ADHD?",
+          "a": "The best apps for ADHD students remove tasks that compete with listening and understanding. LessonScriptor eliminates note-taking entirely by auto-transcribing lectures in Chrome. Other useful tools include focus timers (Pomofocus), text-to-speech readers (Natural Reader), and distraction blockers (Freedom). LessonScriptor is free to install with no account required."
+        },
+        {
+          "q": "How do I take notes with ADHD?",
+          "a": "The most effective ADHD note-taking strategy is to stop writing during the lecture entirely. Let LessonScriptor transcribe automatically, then review and annotate the transcript immediately after — when working memory is no longer split. This approach is backed by dual-task research showing that eliminating the writing task dramatically improves comprehension and recall for ADHD learners."
+        },
+        {
+          "q": "Is LessonScriptor an ADHD-friendly app?",
+          "a": "Yes. LessonScriptor was built for online students who struggle with simultaneous listening and writing — a core difficulty for people with ADHD. It works in Chrome on any video platform: YouTube, Coursera, Udemy, Canvas, Zoom recordings, and more. The free mode has no usage limits and requires no account."
+        },
+        {
+          "q": "What ADHD study tools work with online courses?",
+          "a": "For online courses on platforms like Coursera, Udemy, or Canvas, LessonScriptor is the most effective ADHD study tool because it transcribes the video content directly in Chrome — no separate app, no copying and pasting. Other helpful tools include speed control (built into most platforms at 0.75x), closed captions (enabled via LessonScriptor), and the Cornell Notes method applied to the post-lecture transcript."
+        },
+        {
+          "q": "Does LessonScriptor work on YouTube for ADHD students?",
+          "a": "Yes. LessonScriptor works on YouTube, Coursera, Udemy, university portals, Zoom recordings, and any video playing in Chrome. ADHD students can transcribe a YouTube lecture, pause to re-read any section, and export the full transcript as a Word document or PDF for later review — all without leaving the browser."
+        },
+        {
+          "q": "Is there a free ADHD note-taking tool for students?",
+          "a": "LessonScriptor's free mode is completely free with no monthly minute limit. It uses the Web Speech API to transcribe audio from your microphone — capturing any video playing in Chrome. There is no sign-up, no subscription, and no credit card. Premium mode adds cloud AI accuracy for technical or accented speech, at around €0.60 per hour."
+        }
+      ]
+    }
   }
 }

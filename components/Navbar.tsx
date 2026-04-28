@@ -1,6 +1,6 @@
 'use client'
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
+import { Link } from '@/navigation'
 import { useState } from 'react'
 
 const LOCALES = [
@@ -17,18 +17,12 @@ export default function Navbar({ locale }: { locale: string }) {
   const ts = useTranslations('site')
   const [open, setOpen] = useState(false)
 
-  const base = `/${locale}`
-
-  function switchLocaleHref(targetLocale: string) {
-    return `/${targetLocale}`
-  }
-
   return (
     <nav className="sticky top-0 z-50 bg-cream-50 backdrop-blur-xl border-b border-cream-200">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href={`${base}/`} className="flex items-center gap-1.5 no-underline">
+          <Link href="/" className="flex items-center gap-1.5 no-underline">
             <span className="font-serif text-lg font-bold text-terra-800 tracking-tight">
               Lesson<span className="text-accent-500">Scriptor</span>
             </span>
@@ -36,10 +30,10 @@ export default function Navbar({ locale }: { locale: string }) {
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-7 text-[13px] font-medium">
-            <Link href={`${base}/transcribe-youtube-video`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('youtube')}</Link>
-            <Link href={`${base}/live-captions-chrome`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('liveCaptions')}</Link>
-            <Link href={`${base}/compare/otter-ai-alternative`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('compare')}</Link>
-            <Link href={`${base}/blog`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
+            <Link href="/transcribe-video-to-text" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('transcribeVideo')}</Link>
+            <Link href="/transcribe-youtube-video" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('youtube')}</Link>
+            <Link href="/live-captions-chrome" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('liveCaptions')}</Link>
+            <Link href="/blog" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
           </div>
 
           {/* Right side */}
@@ -49,7 +43,8 @@ export default function Navbar({ locale }: { locale: string }) {
               {LOCALES.map(l => (
                 <Link
                   key={l.code}
-                  href={switchLocaleHref(l.code)}
+                  href="/"
+                  locale={l.code}
                   className={`text-[10px] px-1.5 py-0.5 rounded font-semibold transition-colors ${
                     locale === l.code ? 'bg-accent-500/10 text-accent-600' : 'text-terra-800/30 hover:text-terra-800/60'
                   }`}
@@ -83,13 +78,13 @@ export default function Navbar({ locale }: { locale: string }) {
       {/* Mobile menu */}
       {open && (
         <div className="md:hidden border-t border-cream-200 bg-cream-50 px-4 py-4 space-y-3">
-          <Link href={`${base}/transcribe-youtube-video`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('youtube')}</Link>
-          <Link href={`${base}/live-captions-chrome`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('liveCaptions')}</Link>
-          <Link href={`${base}/compare/otter-ai-alternative`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('compare')}</Link>
-          <Link href={`${base}/blog`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
+          <Link href="/transcribe-video-to-text" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('transcribeVideo')}</Link>
+          <Link href="/transcribe-youtube-video" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('youtube')}</Link>
+          <Link href="/live-captions-chrome" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('liveCaptions')}</Link>
+          <Link href="/blog" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
           <div className="flex gap-2 pt-2">
             {LOCALES.map(l => (
-              <Link key={l.code} href={switchLocaleHref(l.code)}
+              <Link key={l.code} href="/" locale={l.code}
                 className={`text-xs px-2 py-1 rounded font-medium ${locale === l.code ? 'bg-accent-500/10 text-accent-600' : 'text-terra-800/30'}`}>
                 {l.label}
               </Link>

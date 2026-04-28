@@ -9,9 +9,19 @@
   "meta": {
     "title": "Best Apps for ADHD Students 2026 — Free & Paid Tools Reviewed",
     "description": "12 evidence-based apps for ADHD students covering note-taking, focus, task management, and memory. Includes Lessonscriptor, Goblin Tools, Anki, and more. Free tier options included.",
-    "keywords": ["best apps for ADHD students", "ADHD study apps", "apps for students with ADHD", "best ADHD apps 2026", "ADHD organization apps"],
+    "keywords": [
+      "best apps for ADHD students",
+      "ADHD study apps",
+      "apps for students with ADHD",
+      "best ADHD apps 2026",
+      "ADHD organization apps"
+    ],
     "primary_keyword": "best apps for ADHD students",
-    "secondary_keywords": ["ADHD study apps", "apps for students with ADHD", "best ADHD apps 2026"],
+    "secondary_keywords": [
+      "ADHD study apps",
+      "apps for students with ADHD",
+      "best ADHD apps 2026"
+    ],
     "estimated_volume": "1500-3000/month",
     "keyword_difficulty": 28,
     "search_intent": "commercial_roundup"
@@ -26,7 +36,12 @@
   "author": {
     "name": "Lessonscriptor Editorial Team",
     "bio": "The Lessonscriptor Editorial Team specializes in accessibility, learning sciences, and neurodivergent study tools. Our reviews are grounded in research from ADDitude Magazine, CHADD (Children and Adults with ADHD), and peer-reviewed studies on working memory and executive function by Dr. Russell Barkley.",
-    "expertise_areas": ["ADHD research", "accessibility tech", "spaced repetition", "executive function"]
+    "expertise_areas": [
+      "ADHD research",
+      "accessibility tech",
+      "spaced repetition",
+      "executive function"
+    ]
   },
   "tldr": {
     "title": "TL;DR — Best ADHD Apps by Category",
@@ -413,20 +428,111 @@
     },
     {
       "type": "table",
-      "headers": ["App Name", "Category", "Free Tier", "ADHD Fit (1-10)", "Best For", "Platform"],
+      "headers": [
+        "App Name",
+        "Category",
+        "Free Tier",
+        "ADHD Fit (1-10)",
+        "Best For",
+        "Platform"
+      ],
       "rows": [
-        ["Lessonscriptor", "Capture", "Yes (unlimited)", "10", "Any video transcription", "Chrome"],
-        ["Otter.ai", "Capture", "Yes (300 min/mo)", "7", "Meetings + in-person lectures", "Web, iOS, Android"],
-        ["Coconote", "Capture", "Yes (3 docs/mo)", "6", "AI-generated study guides", "Web"],
-        ["Brain.fm", "Focus", "Yes (1 session/day)", "9", "Neuroscience-backed focus", "Web, iOS, Android, Spotify"],
-        ["Forest", "Focus", "Yes (basic)", "8", "Pomodoro + gamification", "Web, iOS, Android, Chrome"],
-        ["BlockSite", "Focus", "Yes (20 blocks)", "7", "Hard-block distractions", "Chrome, iOS, Android"],
-        ["Goblin Tools", "Organize", "Yes (100%)", "10", "Task paralysis → micro-steps", "Web"],
-        ["Todoist", "Organize", "Yes (unlimited)", "7", "Task tracking + reminders", "Web, iOS, Android"],
-        ["Notion", "Organize", "Yes (personal)", "8", "All-in-one hub", "Web, iOS, Android, Desktop"],
-        ["Anki", "Review", "Yes (100%)", "8", "Spaced repetition mastery", "Desktop, Android"],
-        ["Quizlet", "Review", "Yes (limited)", "7", "Collaborative flashcards", "Web, iOS, Android"],
-        ["Tiimo", "General Wellness", "Yes (calendar only)", "6", "ADHD-designed task & habit planner", "iOS, Android, Web"]
+        [
+          "Lessonscriptor",
+          "Capture",
+          "Yes (unlimited)",
+          "10",
+          "Any video transcription",
+          "Chrome"
+        ],
+        [
+          "Otter.ai",
+          "Capture",
+          "Yes (300 min/mo)",
+          "7",
+          "Meetings + in-person lectures",
+          "Web, iOS, Android"
+        ],
+        [
+          "Coconote",
+          "Capture",
+          "Yes (3 docs/mo)",
+          "6",
+          "AI-generated study guides",
+          "Web"
+        ],
+        [
+          "Brain.fm",
+          "Focus",
+          "Yes (1 session/day)",
+          "9",
+          "Neuroscience-backed focus",
+          "Web, iOS, Android, Spotify"
+        ],
+        [
+          "Forest",
+          "Focus",
+          "Yes (basic)",
+          "8",
+          "Pomodoro + gamification",
+          "Web, iOS, Android, Chrome"
+        ],
+        [
+          "BlockSite",
+          "Focus",
+          "Yes (20 blocks)",
+          "7",
+          "Hard-block distractions",
+          "Chrome, iOS, Android"
+        ],
+        [
+          "Goblin Tools",
+          "Organize",
+          "Yes (100%)",
+          "10",
+          "Task paralysis → micro-steps",
+          "Web"
+        ],
+        [
+          "Todoist",
+          "Organize",
+          "Yes (unlimited)",
+          "7",
+          "Task tracking + reminders",
+          "Web, iOS, Android"
+        ],
+        [
+          "Notion",
+          "Organize",
+          "Yes (personal)",
+          "8",
+          "All-in-one hub",
+          "Web, iOS, Android, Desktop"
+        ],
+        [
+          "Anki",
+          "Review",
+          "Yes (100%)",
+          "8",
+          "Spaced repetition mastery",
+          "Desktop, Android"
+        ],
+        [
+          "Quizlet",
+          "Review",
+          "Yes (limited)",
+          "7",
+          "Collaborative flashcards",
+          "Web, iOS, Android"
+        ],
+        [
+          "Tiimo",
+          "General Wellness",
+          "Yes (calendar only)",
+          "6",
+          "ADHD-designed task & habit planner",
+          "iOS, Android, Web"
+        ]
       ]
     },
     {
@@ -439,7 +545,13 @@
       "type": "content",
       "heading": "FAQ: ADHD Apps for Students",
       "level": 2,
-      "content": "This section addresses common questions from ADHD students evaluating these tools."
+      "content": "This section addresses common questions from ADHD students evaluating these tools.",
+      "internal_links": [
+        {
+          "text": "how to transcribe lecture videos",
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
     }
   ],
   "faq": {

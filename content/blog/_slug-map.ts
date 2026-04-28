@@ -79,6 +79,22 @@ export const SLUG_MAP: Record<string, Record<string, string>> = {
     de: 'neurodivergente-lernwerkzeuge',
     zh: 'shenjing-duoyangxing-xuexi-gongju',
   },
+  'otter-ai-alternative-for-students': {
+    en: 'otter-ai-alternative-for-students',
+    fr: 'alternative-otter-ai-etudiants',
+    es: 'alternativa-otter-ai-estudiantes',
+    pt: 'alternativa-otter-ai-estudantes',
+    de: 'otter-ai-alternative-studenten',
+    zh: 'otter-ai-tidai-xuesheng',
+  },
+  'best-speech-to-text-chrome-extensions': {
+    en: 'best-speech-to-text-chrome-extensions',
+    fr: 'meilleures-extensions-chrome-reconnaissance-vocale',
+    es: 'mejores-extensiones-chrome-texto-a-voz',
+    pt: 'melhores-extensoes-chrome-fala-para-texto',
+    de: 'beste-chrome-erweiterungen-sprache-zu-text',
+    zh: 'zuijia-chrome-kuozhan-yuyin-zhuanwen',
+  },
   // Live captions pillar cluster
   'chrome-live-captions-not-working': {
     en: 'chrome-live-captions-not-working',
@@ -127,6 +143,15 @@ export const SLUG_MAP: Record<string, Record<string, string>> = {
     pt: 'legendas-chrome-vs-lessonscriptor',
     de: 'chrome-untertitel-vs-lessonscriptor',
     zh: 'chrome-zishimu-vs-lessonscriptor',
+  },
+  // YouTube transcript cluster
+  'how-to-download-youtube-transcript': {
+    en: 'how-to-download-youtube-transcript',
+    fr: 'comment-telecharger-transcription-youtube',
+    es: 'como-descargar-transcripcion-youtube',
+    pt: 'como-baixar-transcricao-youtube',
+    de: 'youtube-transkription-herunterladen',
+    zh: 'ruhe-xiazai-youtube-zhuanlu',
   },
 }
 

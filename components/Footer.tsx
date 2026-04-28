@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl'
-import Link from 'next/link'
+import NextLink from 'next/link'
+import { Link } from '@/navigation'
 
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer')
@@ -30,10 +31,10 @@ export default function Footer({ locale }: { locale: string }) {
           <div>
             <div className="text-cream-100 font-semibold text-sm mb-4">{t('product')}</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href={`${base}/transcribe-youtube-video`} className="hover:text-cream-100 transition-colors">YouTube</Link></li>
-              <li><Link href={`${base}/live-captions-chrome`} className="hover:text-cream-100 transition-colors">Live Captions</Link></li>
-              <li><Link href={`${base}/transcribe-video-to-text`} className="hover:text-cream-100 transition-colors">Video to Text</Link></li>
-              <li><Link href={`${base}/compare/otter-ai-alternative`} className="hover:text-cream-100 transition-colors">vs Otter.ai</Link></li>
+              <li><Link href="/transcribe-youtube-video" className="hover:text-cream-100 transition-colors">YouTube</Link></li>
+              <li><Link href="/live-captions-chrome" className="hover:text-cream-100 transition-colors">Live Captions</Link></li>
+              <li><Link href="/transcribe-video-to-text" className="hover:text-cream-100 transition-colors">Video to Text</Link></li>
+              <li><Link href="/compare/otter-ai-alternative" className="hover:text-cream-100 transition-colors">vs Otter.ai</Link></li>
             </ul>
           </div>
 
@@ -41,15 +42,12 @@ export default function Footer({ locale }: { locale: string }) {
           <div>
             <div className="text-cream-100 font-semibold text-sm mb-4">{t('resources')}</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href={`${base}/blog`} className="hover:text-cream-100 transition-colors">{t('blog')}</Link></li>
-              <li>
-                <a href="https://github.com/primuseo/chrome-video-live-transcription" target="_blank" rel="noopener noreferrer" className="hover:text-cream-100 transition-colors">
-                  {t('github')}
-                </a>
-              </li>
-              <li><Link href={`${base}/contact`} className="hover:text-cream-100 transition-colors">{t('support')}</Link></li>
-              <li><Link href={`${base}/privacy`} className="hover:text-cream-100 transition-colors">{t('privacy')}</Link></li>
-              <li><Link href={`${base}/terms`} className="hover:text-cream-100 transition-colors">{t('terms')}</Link></li>
+              <li><Link href="/blog" className="hover:text-cream-100 transition-colors">{t('blog')}</Link></li>
+              <li><NextLink href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-cream-100 transition-colors">How to Transcribe Lectures</NextLink></li>
+              <li><NextLink href={`${base}/blog/how-to-take-notes-with-adhd`} className="hover:text-cream-100 transition-colors">Note-taking for ADHD</NextLink></li>
+              <li><NextLink href={`${base}/blog/best-chrome-extensions-live-captions`} className="hover:text-cream-100 transition-colors">Best Chrome Live Captions</NextLink></li>
+              <li><Link href="/contact" className="hover:text-cream-100 transition-colors">{t('support')}</Link></li>
+              <li><Link href="/privacy" className="hover:text-cream-100 transition-colors">{t('privacy')}</Link></li>
             </ul>
           </div>
 
@@ -57,12 +55,12 @@ export default function Footer({ locale }: { locale: string }) {
           <div>
             <div className="text-cream-100 font-semibold text-sm mb-4">{t('languages')}</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="hover:text-cream-100 transition-colors">English</Link></li>
-              <li><Link href="/fr" className="hover:text-cream-100 transition-colors">Français</Link></li>
-              <li><Link href="/es" className="hover:text-cream-100 transition-colors">Español</Link></li>
-              <li><Link href="/pt" className="hover:text-cream-100 transition-colors">Português</Link></li>
-              <li><Link href="/de" className="hover:text-cream-100 transition-colors">Deutsch</Link></li>
-              <li><Link href="/zh" className="hover:text-cream-100 transition-colors">中文</Link></li>
+              <li><Link href="/" locale="en" className="hover:text-cream-100 transition-colors">English</Link></li>
+              <li><Link href="/" locale="fr" className="hover:text-cream-100 transition-colors">Français</Link></li>
+              <li><Link href="/" locale="es" className="hover:text-cream-100 transition-colors">Español</Link></li>
+              <li><Link href="/" locale="pt" className="hover:text-cream-100 transition-colors">Português</Link></li>
+              <li><Link href="/" locale="de" className="hover:text-cream-100 transition-colors">Deutsch</Link></li>
+              <li><Link href="/" locale="zh" className="hover:text-cream-100 transition-colors">中文</Link></li>
             </ul>
           </div>
         </div>

@@ -886,10 +886,104 @@
   },
   "privacy": {
     "h1": "隐私政策",
-    "lastUpdated": "最后更新"
+    "lastUpdated": "最后更新",
+    "whoWeAre": "关于我们",
+    "whoWeAreBody": "LessonScriptor 是由 Pierre Girardot 开发和运营的 Chrome 扩展程序。我们致力于保护您的隐私并遵守 GDPR 及其他适用的隐私法律。如有任何隐私相关问题，请通过 contact@lessonscriptor.com 联系我们。",
+    "whatWeCollect": "我们收集的数据",
+    "localStorage": "本地存储",
+    "paymentsTitle": "付款与许可证密钥",
+    "thirdParty": "第三方服务",
+    "gdprRights": "您在 GDPR 下的权利",
+    "dataRetention": "数据保留",
+    "changes": "本隐私政策的变更",
+    "contactTitle": "联系我们",
+    "englishNote": "本隐私政策在我们网站的所有语言版本中均以英语提供。英语版本为权威版本。"
   },
   "terms": {
     "h1": "使用条款",
     "lastUpdated": "最后更新"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "ADHD学习工具",
+      "h1": "专为ADHD学生设计的LessonScriptor",
+      "subtitle": "停止在听讲和记笔记之间分散注意力。LessonScriptor自动转录您的课程，让您的工作记忆专注于真正重要的事：理解。",
+      "answer": "LessonScriptor是一款适合ADHD的Chrome扩展程序，可实时自动转录任何课程、YouTube视频或Coursera课程。ADHD学生面临的困难在于同时聆听和书写会使工作记忆超负荷——LessonScriptor从根本上消除了这种注意力分散的问题。",
+      "cta": "免费安装 — Chrome扩展程序"
+    },
+    "problems": {
+      "title": "为什么ADHD让记笔记更困难",
+      "subtitle": "ADHD影响的正是传统记笔记方式最依赖的认知系统。",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "工作记忆超负荷",
+          "description": "ADHD会降低工作记忆的容量。在处理下一句话的同时书写上一句话在认知上是不可能的——总有一项任务会失败。研究表明，ADHD学生在被迫同时书写和聆听时，信息保留率会降低40%。"
+        },
+        {
+          "icon": "⚡",
+          "title": "注意力分散崩溃",
+          "description": "多巴胺驱动的注意力无法同时维持两项相互竞争的需求。当笔触纸的那一刻，老师的声音就变成了背景噪音。LessonScriptor通过完全承担书写任务来打破这一循环。"
+        },
+        {
+          "icon": "🌊",
+          "title": "信息过载",
+          "description": "Canvas、Coursera或YouTube上节奏快的课程产生的信息量超出了ADHD工作记忆的处理能力。错过一句话会产生理解缺口，进而形成连锁反应——让学生在接下来的五分钟内迷失方向。"
+        }
+      ]
+    },
+    "features": {
+      "title": "LessonScriptor如何帮助ADHD学生",
+      "subtitle": "三项专为ADHD大脑处理信息方式设计的功能。",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "自动转录",
+          "description": "LessonScriptor自动、实时地在Chrome中直接转录老师说的每一个字。无需设置，无需切换标签页。您的双手保持自由，注意力集中在理解上，而不是书写上。"
+        },
+        {
+          "icon": "✏️",
+          "title": "实时编辑",
+          "description": "实时转录文本完全可编辑。ADHD学生可以高亮关键概念、加粗重要术语、添加边注，而不会失去课程的思路。编辑器的使用方式与文档完全相同——无学习曲线。"
+        },
+        {
+          "icon": "🕐",
+          "title": "时间戳导航",
+          "description": "每个转录片段都带有时间戳。当多巴胺分散您的注意力时，可以跳回30秒。回顾您走神的确切时刻，无需重新观看整个视频。支持YouTube、Coursera、Udemy以及Chrome中的任何视频。"
+        }
+      ]
+    },
+    "quote": {
+      "text": "以前我一拿起笔就开始落后。现在我只需要听——需要的时候转录文本就在那里。",
+      "attribution": "LessonScriptor用户，有ADHD的大学生"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "哪些应用程序最适合ADHD学生？",
+          "a": "最适合ADHD学生的应用程序能消除那些与聆听和理解相竞争的任务。LessonScriptor通过在Chrome中自动转录课程，完全消除了记笔记的需要。其他有用的工具包括专注计时器（Pomofocus）、文字转语音阅读器（Natural Reader）和注意力分散拦截器（Freedom）。LessonScriptor无需账户即可免费安装。"
+        },
+        {
+          "q": "ADHD学生如何记笔记？",
+          "a": "最有效的ADHD记笔记策略是在课堂上完全停止书写。让LessonScriptor自动转录，然后在课后立即复习并注释转录文本——此时工作记忆不再被分散。这种方法得到了双任务研究的支持，研究表明消除书写任务能够显著提高ADHD学习者的理解力和记忆力。"
+        },
+        {
+          "q": "LessonScriptor是一款ADHD友好的应用程序吗？",
+          "a": "是的。LessonScriptor专为在线学习时难以同时聆听和书写的学生而设计——这是ADHD人群的核心困难。它在Chrome中适用于任何视频平台：YouTube、Coursera、Udemy、Canvas、Zoom录像等。免费模式没有使用限制，无需账户。"
+        },
+        {
+          "q": "哪些ADHD学习工具适用于在线课程？",
+          "a": "对于Coursera、Udemy或Canvas等平台上的在线课程，LessonScriptor是最有效的ADHD学习工具，因为它直接在Chrome中转录视频内容——无需单独的应用程序，无需复制粘贴。其他有用的工具包括速度控制（大多数平台内置0.75x选项）、字幕（通过LessonScriptor启用）以及应用于课后转录文本的康奈尔笔记法。"
+        },
+        {
+          "q": "LessonScriptor适用于ADHD学生在YouTube上使用吗？",
+          "a": "是的。LessonScriptor适用于YouTube、Coursera、Udemy、大学门户网站、Zoom录像以及在Chrome中播放的任何视频。ADHD学生可以转录YouTube课程，暂停并重新阅读任何部分，并将完整转录文本导出为Word文档或PDF以供日后复习——所有操作都无需离开浏览器。"
+        },
+        {
+          "q": "是否有免费的ADHD学生记笔记工具？",
+          "a": "LessonScriptor的免费模式完全免费，无每月分钟限制。它使用Web Speech API转录麦克风音频——捕获在Chrome中播放的任何视频。无需注册，无需订阅，无需信用卡。高级模式为技术性或带口音的语音添加云端AI准确性，每小时约0.60欧元。"
+        }
+      ]
+    }
   }
 }

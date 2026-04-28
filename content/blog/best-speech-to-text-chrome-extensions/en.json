@@ -1,0 +1,393 @@
+{
+  "slug": "best-speech-to-text-chrome-extensions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "The 5 Best Speech-to-Text Chrome Extensions for Students in 2026",
+  "reading_time_min": 8,
+  "published_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "meta": {
+    "title": "Best Speech-to-Text Chrome Extensions 2026 (Students & Lectures)",
+    "description": "The 5 best speech-to-text Chrome extensions in 2026 — compared by accuracy, language support, real-time transcription, and price. LessonScriptor wins for lecture transcription.",
+    "og_image": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
+    "og_title": "Best Speech-to-Text Chrome Extensions 2026",
+    "og_description": "5 speech-to-text Chrome extensions compared — real-time accuracy, YouTube support, export, and price.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+    "alt": "Chrome browser showing a real-time speech-to-text transcript appearing alongside a video lecture",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
+  },
+  "author": {
+    "name": "LessonScriptor Team"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "The best speech-to-text Chrome extension for students is LessonScriptor for lecture and YouTube transcription, and Google's Live Captions (built into Chrome, no install) for quick, read-only captioning of any audio.",
+    "bullets": [
+      "LessonScriptor transcribes any video in Chrome into an editable, exportable transcript. Free mode works immediately — no account needed.",
+      "Google's Live Captions is built into Chrome since version 89 — enable it in chrome://settings/accessibility. Read-only, but works on all audio without any extension.",
+      "Speechnotes is best for dictation — typing by voice into a document — not for transcribing video audio.",
+      "Notta covers 50+ languages, making it the strongest choice for Asian and Middle Eastern language transcription.",
+      "Tactiq is optimised for live Google Meet and Zoom meetings, not recorded video."
+    ]
+  },
+  "intro": "A speech-to-text Chrome extension is a browser add-on that converts spoken audio — from a video, microphone, or live meeting — into readable, searchable text directly inside Chrome. For students watching recorded lectures on YouTube, Canvas, or Coursera, or professionals in back-to-back video calls, the right extension can eliminate manual note-taking entirely. This guide compares the five most-used speech-to-text Chrome extensions in 2026: LessonScriptor, Google's Live Captions, Speechnotes, Notta, and Tactiq. The verdict upfront: LessonScriptor wins for lecture and video transcription; Google's Live Captions wins for system-wide, zero-install captioning. Each tool has a clear best-fit use case — and knowing which one fits yours matters.",
+  "stats": [
+    {
+      "number": "50+",
+      "label": "video platforms LessonScriptor transcribes in real time"
+    },
+    {
+      "number": "14",
+      "label": "languages supported by LessonScriptor's AI transcription"
+    },
+    {
+      "number": "680K hrs",
+      "label": "of speech OpenAI Whisper (LessonScriptor Premium) was trained on"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-speech-to-text-chrome-extension",
+      "h2": "What is a speech-to-text Chrome extension?",
+      "body": "A speech-to-text Chrome extension is a browser add-on that listens to audio — from your microphone, a playing video, or a live meeting — and converts it to text in real time, inside Chrome.\n\nThe category splits into two distinct types:\n\n**Dictation tools** capture your voice from a microphone and let you type by speaking. Speechnotes is the most popular example. You open it, speak, and words appear in a document. Useful for composing emails or notes hands-free.\n\n**Transcription tools** capture audio from an external source — a video lecture, a Zoom call, a YouTube tutorial — and produce a searchable, saveable transcript. LessonScriptor, Google's Live Captions, Notta, and Tactiq fall into this category.\n\nMost students searching for a speech-to-text Chrome extension need the second type: a way to get a transcript from a video or meeting. The two types use different audio pipelines and are not interchangeable. A dictation tool cannot transcribe a YouTube video — it only hears your microphone.",
+      "internal_links": [
+        {
+          "text": "Learn how Chrome Live Captions work",
+          "internal": true,
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "best-speech-to-text-chrome-extensions-2026",
+      "h2": "What are the best speech-to-text Chrome extensions in 2026?",
+      "body": "The five best speech-to-text Chrome extensions in 2026, ranked by use case fit for students and professionals:",
+      "table": {
+        "caption": "Best speech-to-text Chrome extensions 2026 — comparison by accuracy, use case, and price.",
+        "headers": [
+          "Extension",
+          "Best For",
+          "Real-Time Transcription",
+          "Editable Transcript",
+          "Export",
+          "Languages",
+          "Price"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "LessonScriptor",
+              "Video lectures, YouTube, Canvas, Zoom recordings",
+              "Yes",
+              "Yes",
+              "Markdown, clipboard",
+              "14",
+              "Free + pay-as-you-go"
+            ],
+            "highlight": true,
+            "badge": "Best for students"
+          },
+          {
+            "cells": [
+              "Google Live Captions (built-in)",
+              "Any audio, zero install",
+              "Yes",
+              "No",
+              "None",
+              "20+",
+              "Free (built-in)"
+            ],
+            "highlight": false,
+            "badge": "Easiest to enable"
+          },
+          {
+            "cells": [
+              "Speechnotes",
+              "Voice dictation / typing by voice",
+              "Yes (mic only)",
+              "Yes",
+              "Google Docs, TXT",
+              "English primary",
+              "Free + $9.99/mo"
+            ],
+            "highlight": false,
+            "badge": "Best for dictation"
+          },
+          {
+            "cells": [
+              "Notta",
+              "Multilingual meetings and uploads",
+              "Yes (meetings)",
+              "Yes",
+              "TXT, DOCX, SRT",
+              "50+",
+              "Free (120 min/mo) + $9/mo"
+            ],
+            "highlight": false,
+            "badge": "Best language coverage"
+          },
+          {
+            "cells": [
+              "Tactiq",
+              "Live Google Meet / Zoom meetings",
+              "Yes",
+              "Yes",
+              "Google Docs, Notion",
+              "English primary",
+              "Free (10/mo) + $8/mo"
+            ],
+            "highlight": false,
+            "badge": "Best for live meetings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor: best speech-to-text extension for lectures and YouTube",
+      "body": "LessonScriptor is a Chrome extension that transcribes any video playing in Chrome into a persistent, editable side panel. It works on YouTube, Zoom cloud recordings, Canvas, Coursera, edX, Skillshare, Vimeo, TED Talks, and more than 50 other platforms — any video that plays inside Chrome.\n\nInstalling LessonScriptor from the Chrome Web Store takes one click. No account is required to use the free mode. Open a video, click the LessonScriptor toolbar icon, and the side panel fills with a live transcript as the video plays.\n\n**Free mode** uses Chrome's Web Speech API, which processes audio on-device via your microphone. It is accurate, private, and unlimited. The same engine powers Google's built-in Live Captions.\n\n**Premium mode** uses tab audio capture — it grabs the audio directly from the browser tab rather than a microphone — and sends it to OpenAI Whisper for transcription. Whisper's training on 680,000 hours of speech data makes it substantially more accurate on academic vocabulary, professor names, technical terminology, and non-English lectures. Because Premium captures tab audio, it works with headphones; free mode requires your speaker audio to reach the microphone.\n\n**What differentiates LessonScriptor:** The transcript is fully editable. Click any word to correct a misheard term. Highlight passages in five colours. Add bold formatting and section headers to turn a raw transcript into structured notes. Export as Markdown to paste directly into Notion, Obsidian, or Google Docs with formatting preserved.\n\nFor any student whose core workflow is watching recorded video content and building notes from it, LessonScriptor is the most complete speech-to-text Chrome extension available in 2026.",
+      "internal_links": [
+        {
+          "text": "See how LessonScriptor compares to Chrome's built-in Live Captions",
+          "internal": true,
+          "url": "/blog/chrome-live-captions-not-working"
+        },
+        {
+          "text": "Transcribe video to text with LessonScriptor",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "google-live-captions-review",
+      "h2": "Does Chrome have built-in speech to text?",
+      "body": "Yes. Chrome has had a built-in speech-to-text feature called Live Captions since Chrome 89, released in 2021. It is not an extension — it is built directly into Chrome and requires no installation or Chrome Web Store visit.\n\nTo enable Chrome's Live Captions: open **chrome://settings/accessibility** in your address bar, then toggle **Live Caption** on. A floating caption bubble will appear at the bottom of Chrome whenever audio plays.\n\nChrome's Live Captions processes all audio entirely on-device. Nothing is sent to Google's servers. This makes it private by default and functional offline.\n\n**Where Chrome's built-in captions excel:**\n- Zero friction: enable once, works on all audio in Chrome automatically\n- Supports 20+ languages including Vietnamese, Thai, Hindi, and Swedish\n- Completely free, no account, no extension required\n- Works on any audio source: videos, podcasts, web radio, audio files\n\n**Where Chrome's built-in captions fall short:**\n- The transcript is read-only — it cannot be edited, saved, copied, or exported\n- The caption bubble disappears when audio stops; there is no history\n- Accuracy degrades on academic vocabulary, accented speech, and proper nouns\n- Unreliable with headphones on Windows (audio routing issue — see our [fix guide](/blog/chrome-live-captions-not-working))\n\nGoogle's Live Captions is the right tool when you need quick, temporary accessibility captions with no setup. It is not a note-taking tool. For students who need to keep what they transcribe, it is the starting point, not the destination.",
+      "internal_links": [
+        {
+          "text": "Chrome Live Captions not working? See the fix guide",
+          "internal": true,
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "speechnotes-review",
+      "h2": "Speechnotes: best Chrome extension for voice dictation",
+      "body": "Speechnotes is a voice dictation extension for Chrome — it converts your spoken words into typed text in real time. It is one of the most-installed speech-to-text Chrome extensions on the Chrome Web Store, with a clean interface optimised for hands-free writing.\n\nSpeechnotes listens to your microphone and produces text in a Speechnotes document, which can be saved to Google Docs, downloaded as TXT, or copied to the clipboard.\n\n**The key limitation:** Speechnotes only captures microphone audio. It cannot transcribe a YouTube video, a recorded lecture, a Zoom recording, or any audio that plays through your speakers. If you open Speechnotes while a video is playing, it will transcribe whatever it hears from the room — not the video audio directly.\n\n**When Speechnotes makes sense:** Dictating notes, composing emails hands-free, or describing observations in a lab or field setting where typing is inconvenient. For these dictation use cases, Speechnotes is well-built and free.\n\nFor video transcription — which is what most students searching for an AI transcription Chrome extension actually need — LessonScriptor is the correct tool."
+    },
+    {
+      "id": "which-extension-for-students",
+      "h2": "Which Chrome speech-to-text extension works best for students?",
+      "body": "For students, the right speech-to-text Chrome extension depends entirely on what you are transcribing.\n\n**Watching recorded video lectures (YouTube, Canvas, Coursera, edX, Zoom recordings):** Use LessonScriptor. It is the only extension in this comparison built specifically for video transcription in Chrome. The free mode works immediately with no account. The Premium mode adds Whisper accuracy and headphone support for €0.60/hour of transcribed audio.\n\n**Quick captions while studying, no notes needed:** Use Google's Live Captions (built into Chrome). Enable once in settings, forget it is there. Perfect for watching a video on campus when you forgot headphones or need to follow along in a noisy environment.\n\n**Live class participation on Google Meet or Zoom:** Use Tactiq if your primary need is capturing live meeting transcripts with speaker labels. Tactiq integrates well with Google Meet's native caption feed and exports to Google Docs automatically.\n\n**Typing by voice:** Use Speechnotes for hands-free composition — dictating an essay, summarizing notes verbally, or writing in a context where typing is inconvenient.\n\n**The academic reality:** Most students land on the wrong tool because they search for \"speech to text\" when they actually need \"video transcription\". A dictation tool like Speechnotes and a video transcription tool like LessonScriptor both convert speech to text — but they solve completely different problems. If the audio is coming from a video file or stream, you need LessonScriptor or Notta, not a microphone-only dictation tool.",
+      "internal_links": [
+        {
+          "text": "How to transcribe lecture videos step by step",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "real-time-transcription-chrome",
+      "h2": "Which extension gives the most accurate real-time transcription in Chrome?",
+      "body": "For real-time transcription accuracy in Chrome, the answer depends on which audio model is doing the work.\n\n**On-device accuracy (Google Web Speech API):** Chrome's Live Captions, LessonScriptor free mode, and Speechnotes all use Chrome's Web Speech API for on-device processing. Accuracy is comparable across all three for standard English speech — roughly 90–95% word accuracy on clear audio with a native speaker. Accuracy drops to 70–85% on accented speech, academic jargon, or proper nouns.\n\n**AI-powered accuracy (cloud models):** LessonScriptor Premium and Notta use cloud AI models — OpenAI Whisper and Notta's proprietary model, respectively — which produce noticeably higher accuracy on academic content. Whisper, which powers LessonScriptor Premium, was trained on 680,000 hours of multilingual speech including university lectures, research presentations, and domain-specific audio. In practical tests on chemistry, law, and medical lectures, Whisper-powered transcription produces fewer errors on technical vocabulary than the on-device Chrome model.\n\n**Language accuracy:** For non-English content, the gap widens. LessonScriptor Premium's Whisper model and Notta both outperform Chrome's on-device model on French, Spanish, German, Japanese, and Korean academic audio. Notta's 50+ language support makes it the best choice for languages LessonScriptor doesn't yet cover.\n\n**The bottom line:** For casual English speech, all tools perform similarly. For academic lectures — especially in non-English languages or technical fields — LessonScriptor Premium (Whisper) or Notta are the more accurate choices."
+    }
+  ],
+  "cta": {
+    "heading": "Transcribe any lecture in Chrome — free, no account needed",
+    "body": "LessonScriptor works on YouTube, Canvas, Zoom recordings, Coursera, and 50+ other platforms. Editable, exportable, 14 languages. Free mode works immediately.",
+    "button_label": "Add LessonScriptor to Chrome — free",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "What is the best speech-to-text Chrome extension for students?",
+        "a": "LessonScriptor is the best speech-to-text Chrome extension for students who watch video lectures. It transcribes any video in Chrome — YouTube, Zoom recordings, Canvas, Coursera — into an editable, exportable transcript. The free mode requires no account. For quick, read-only captions with zero installation, Chrome's built-in Live Captions (chrome://settings/accessibility) is the easiest option."
+      },
+      {
+        "q": "Does Chrome have a built-in speech-to-text feature?",
+        "a": "Yes. Chrome has included Live Captions since version 89 (2021). Enable it at chrome://settings/accessibility. It generates real-time captions for any audio in Chrome, processes everything on-device, supports 20+ languages, and is completely free. The limitation: captions are read-only and disappear when audio stops — there is no way to save or export them."
+      },
+      {
+        "q": "What is the difference between an AI transcription Chrome extension and a voice dictation extension?",
+        "a": "A transcription extension (LessonScriptor, Notta, Tactiq) captures audio from a video, meeting, or stream and converts it to text. A dictation extension (Speechnotes, Google Docs voice typing) only captures your microphone and converts what you say into typed text. They are not interchangeable: a dictation tool cannot transcribe a YouTube video."
+      },
+      {
+        "q": "Can I use a Chrome speech-to-text extension with headphones?",
+        "a": "Yes, with LessonScriptor Premium. The Premium mode uses tab audio capture — it grabs audio directly from the browser tab, not the microphone — so headphone use doesn't affect transcription. LessonScriptor's free mode and Speechnotes use the microphone, which means audio needs to play through speakers for the microphone to pick it up. Chrome's built-in Live Captions has known reliability issues with headphones on Windows."
+      },
+      {
+        "q": "Is there a free AI transcription Chrome extension?",
+        "a": "Yes. LessonScriptor's free mode transcribes any video in Chrome using on-device speech recognition — no account, no payment, no time limit. Chrome's built-in Live Captions is also free with no installation required. Speechnotes offers a free dictation tier. Notta and Tactiq both have free tiers with monthly usage limits (120 minutes/month and 10 meetings/month respectively)."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "The best speech-to-text Chrome extension in 2026",
+    "body": "LessonScriptor is the best speech-to-text Chrome extension for anyone who needs an editable, exportable transcript from a video lecture, YouTube tutorial, or Zoom recording. Google's Live Captions — built into Chrome with no extension required — is the easiest option for temporary, read-only captions on any audio. Speechnotes leads for voice dictation. Notta is the strongest choice for 50+ language support. Tactiq is purpose-built for live meetings on Google Meet and Zoom. The common mistake is choosing a dictation tool when you need a transcription tool — if the audio is coming from a video, LessonScriptor or Notta is what you need."
+  },
+  "schemas": [
+    {
+      "type": "BlogPosting",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The 5 Best Speech-to-Text Chrome Extensions for Students in 2026",
+        "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "author": {
+          "@type": "Organization",
+          "name": "LessonScriptor Team",
+          "url": "https://lessonscriptor.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "image": "https://lessonscriptor.com/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+        "url": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
+        "keywords": [
+          "speech to text chrome extension",
+          "ai transcription chrome extension",
+          "real time transcription chrome",
+          "chrome live captions",
+          "lecture transcription chrome"
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best speech-to-text Chrome extension for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LessonScriptor is the best speech-to-text Chrome extension for students who watch video lectures. It transcribes any video in Chrome — YouTube, Zoom recordings, Canvas, Coursera — into an editable, exportable transcript with a free mode that requires no account."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Chrome have a built-in speech-to-text feature?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Chrome's Live Captions (available since Chrome 89) generates real-time captions for any audio in Chrome. Enable it at chrome://settings/accessibility. It is completely free, supports 20+ languages, and processes audio on-device — but captions are read-only and cannot be saved or exported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use a Chrome speech-to-text extension with headphones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with LessonScriptor Premium. It uses tab audio capture — grabbing audio directly from the browser tab — so headphones don't affect transcription. Chrome's built-in Live Captions has known reliability issues with headphones on Windows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a free AI transcription Chrome extension?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. LessonScriptor's free mode transcribes any video in Chrome using on-device speech recognition with no account, no payment, and no time limit. Chrome's built-in Live Captions is also free but read-only."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Best Speech-to-Text Chrome Extensions 2026",
+            "item": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Speech recognition research",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    },
+    {
+      "text": "Chrome Web Store — LessonScriptor",
+      "href": "https://chrome.google.com/webstore/detail/lessonscriptor",
+      "external": true
+    },
+    {
+      "text": "Speechnotes — Voice notes and dictation",
+      "href": "https://speechnotes.co",
+      "external": true
+    },
+    {
+      "text": "Notta — AI transcription",
+      "href": "https://www.notta.ai",
+      "external": true
+    },
+    {
+      "text": "Tactiq — Meeting transcription",
+      "href": "https://tactiq.io",
+      "external": true
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "How Chrome Live Captions work",
+      "href": "/live-captions-chrome",
+      "internal": true
+    },
+    {
+      "text": "Transcribe video to text",
+      "href": "/transcribe-video-to-text",
+      "internal": true
+    },
+    {
+      "text": "Chrome Live Captions not working — fix guide",
+      "href": "/blog/chrome-live-captions-not-working",
+      "internal": true
+    }
+  ]
+}

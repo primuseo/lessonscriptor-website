@@ -886,10 +886,104 @@
   },
   "privacy": {
     "h1": "Datenschutzerklärung",
-    "lastUpdated": "Zuletzt aktualisiert"
+    "lastUpdated": "Zuletzt aktualisiert",
+    "whoWeAre": "Wer Wir Sind",
+    "whoWeAreBody": "LessonScriptor ist eine Chrome-Erweiterung, die von Pierre Girardot entwickelt und betrieben wird. Wir verpflichten uns, Ihre Privatsphäre zu schützen und die DSGVO sowie andere geltende Datenschutzgesetze einzuhalten. Für datenschutzbezogene Fragen kontaktieren Sie uns unter contact@lessonscriptor.com.",
+    "whatWeCollect": "Welche Daten Wir Erheben",
+    "localStorage": "Lokaler Speicher",
+    "paymentsTitle": "Zahlungen und Lizenzschlüssel",
+    "thirdParty": "Drittanbieterdienste",
+    "gdprRights": "Ihre Rechte unter der DSGVO",
+    "dataRetention": "Datenspeicherung",
+    "changes": "Änderungen dieser Datenschutzerklärung",
+    "contactTitle": "Kontakt",
+    "englishNote": "Diese Datenschutzerklärung wird in englischer Sprache für alle Sprachversionen unserer Website bereitgestellt. Die englische Version ist maßgeblich."
   },
   "terms": {
     "h1": "Nutzungsbedingungen",
     "lastUpdated": "Zuletzt aktualisiert"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "ADHS-Lerntools",
+      "h1": "LessonScriptor für Studierende mit ADHS",
+      "subtitle": "Hören Sie auf, Ihre Aufmerksamkeit zwischen Zuhören und Schreiben aufzuteilen. LessonScriptor transkribiert Ihre Vorlesungen automatisch, damit Ihr Arbeitsgedächtnis sich auf das Wesentliche konzentrieren kann: Verstehen.",
+      "answer": "LessonScriptor ist eine ADHS-freundliche Chrome-Erweiterung, die jede Vorlesung, jedes YouTube-Video oder jeden Coursera-Kurs in Echtzeit automatisch transkribiert. Studierende mit ADHS haben Schwierigkeiten, weil gleichzeitiges Zuhören und Schreiben das Arbeitsgedächtnis überlastet — LessonScriptor beseitigt dieses Problem der geteilten Aufmerksamkeit vollständig.",
+      "cta": "Kostenlos installieren — Chrome-Erweiterung"
+    },
+    "problems": {
+      "title": "Warum Notizen machen mit ADHS schwieriger ist",
+      "subtitle": "ADHS betrifft genau die kognitiven Systeme, die konventionelle Mitschriften am meisten beanspruchen.",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "Überlastung des Arbeitsgedächtnisses",
+          "description": "ADHS reduziert die Kapazität des Arbeitsgedächtnisses. Einen Satz zu schreiben, während der nächste verarbeitet wird, ist kognitiv unmöglich — eine Aufgabe verliert immer. Forschungen zeigen, dass Studierende mit ADHS 40 % weniger Informationen behalten, wenn sie gezwungen sind, gleichzeitig zu schreiben und zuzuhören."
+        },
+        {
+          "icon": "⚡",
+          "title": "Zusammenbruch der geteilten Aufmerksamkeit",
+          "description": "Dopamingesteuerte Aufmerksamkeit kann zwei konkurrierende Anforderungen nicht aufrechterhalten. In dem Moment, in dem der Stift das Papier berührt, wird die Stimme des Lehrers zum Hintergrundrauschen. LessonScriptor durchbricht diesen Kreislauf, indem es die Schreibaufgabe vollständig übernimmt."
+        },
+        {
+          "icon": "🌊",
+          "title": "Informationsüberflutung",
+          "description": "Schnell getaktete Vorlesungen auf Canvas, Coursera oder YouTube erzeugen mehr Informationen, als das ADHS-Arbeitsgedächtnis puffern kann. Das Verpassen eines Satzes schafft eine Verständnislücke, die sich aufschaukelt — und Studierende für die nächsten fünf Minuten verloren gehen lässt."
+        }
+      ]
+    },
+    "features": {
+      "title": "Wie LessonScriptor Studierende mit ADHS unterstützt",
+      "subtitle": "Drei Funktionen, die speziell für die Art entwickelt wurden, wie ADHS-Gehirne Informationen verarbeiten.",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "Automatische Transkription",
+          "description": "LessonScriptor transkribiert jedes Wort Ihres Dozenten — automatisch, in Echtzeit, direkt in Chrome. Keine Einrichtung, kein Tab-Wechsel. Ihre Hände bleiben frei und Ihre Aufmerksamkeit bleibt auf dem Verstehen, nicht auf dem Schreiben."
+        },
+        {
+          "icon": "✏️",
+          "title": "Echtzeit-Bearbeitung",
+          "description": "Das Live-Transkript ist vollständig editierbar. Studierende mit ADHS können Schlüsselkonzepte markieren, wichtige Begriffe fett hervorheben und Randnotizen hinzufügen, ohne den Faden der Vorlesung zu verlieren. Der Editor funktioniert genau wie ein Dokument — keine Einarbeitungszeit."
+        },
+        {
+          "icon": "🕐",
+          "title": "Zeitstempel-Navigation",
+          "description": "Jedes Transkriptsegment ist mit einem Zeitstempel versehen. Springen Sie 30 Sekunden zurück, wenn die Dopamin Ihre Aufmerksamkeit abgelenkt hat. Überprüfen Sie den genauen Moment, in dem Sie abgedriftet sind, ohne das gesamte Video erneut anzusehen. Funktioniert auf YouTube, Coursera, Udemy und jedem Video in Chrome."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Ich blieb immer zurück, sobald ich den Stift aufnahm. Jetzt höre ich einfach zu — und das Transkript ist da, wenn ich es brauche.",
+      "attribution": "LessonScriptor-Nutzerin, Universitätsstudentin mit ADHS"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Was sind die besten Apps für Studierende mit ADHS?",
+          "a": "Die besten Apps für Studierende mit ADHS beseitigen Aufgaben, die mit dem Zuhören und Verstehen konkurrieren. LessonScriptor eliminiert die Mitschrift vollständig, indem es Vorlesungen automatisch in Chrome transkribiert. Weitere nützliche Tools sind Fokus-Timer (Pomofocus), Text-zu-Sprache-Leser (Natural Reader) und Ablenkungsblocker (Freedom). LessonScriptor ist kostenlos zu installieren, ohne Account erforderlich."
+        },
+        {
+          "q": "Wie macht man Notizen mit ADHS?",
+          "a": "Die effektivste ADHS-Mitschrift-Strategie ist, während der Vorlesung vollständig aufzuhören zu schreiben. Lassen Sie LessonScriptor automatisch transkribieren, überarbeiten und kommentieren Sie dann das Transkript unmittelbar danach — wenn das Arbeitsgedächtnis nicht mehr aufgeteilt ist. Dieser Ansatz wird durch Doppelaufgaben-Forschung unterstützt, die zeigt, dass das Eliminieren der Schreibaufgabe das Verständnis und die Behaltensleistung für ADHS-Lernende dramatisch verbessert."
+        },
+        {
+          "q": "Ist LessonScriptor eine ADHS-freundliche App?",
+          "a": "Ja. LessonScriptor wurde für Online-Studierende entwickelt, die Schwierigkeiten mit gleichzeitigem Zuhören und Schreiben haben — eine zentrale Schwierigkeit für Menschen mit ADHS. Es funktioniert in Chrome auf jeder Video-Plattform: YouTube, Coursera, Udemy, Canvas, Zoom-Aufzeichnungen und mehr. Der kostenlose Modus hat keine Nutzungslimits und erfordert keinen Account."
+        },
+        {
+          "q": "Welche ADHS-Lerntools funktionieren mit Online-Kursen?",
+          "a": "Für Online-Kurse auf Plattformen wie Coursera, Udemy oder Canvas ist LessonScriptor das effektivste ADHS-Lerntool, da es Videoinhalte direkt in Chrome transkribiert — keine separate App, kein Kopieren und Einfügen. Weitere nützliche Tools sind Geschwindigkeitssteuerung (in den meisten Plattformen bei 0,75x integriert), Untertitel (über LessonScriptor aktiviert) und die Cornell-Methode, angewendet auf das Post-Vorlesungs-Transkript."
+        },
+        {
+          "q": "Funktioniert LessonScriptor auf YouTube für Studierende mit ADHS?",
+          "a": "Ja. LessonScriptor funktioniert auf YouTube, Coursera, Udemy, Universitätsportalen, Zoom-Aufzeichnungen und jedem Video, das in Chrome abgespielt wird. Studierende mit ADHS können eine YouTube-Vorlesung transkribieren, pausieren um einen Abschnitt nochmals zu lesen, und das vollständige Transkript als Word-Dokument oder PDF für spätere Überprüfung exportieren — alles ohne den Browser zu verlassen."
+        },
+        {
+          "q": "Gibt es ein kostenloses Notiz-Tool für Studierende mit ADHS?",
+          "a": "Der kostenlose Modus von LessonScriptor ist vollständig kostenlos ohne monatliches Minutenlimit. Er verwendet die Web Speech API, um Audio von Ihrem Mikrofon zu transkribieren — jedes Video in Chrome wird erfasst. Keine Anmeldung, kein Abonnement, keine Kreditkarte. Der Premium-Modus fügt Cloud-KI-Genauigkeit für technisches oder akzentiertes Sprache hinzu, für etwa 0,60 € pro Stunde."
+        }
+      ]
+    }
   }
 }

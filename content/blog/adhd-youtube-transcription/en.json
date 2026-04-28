@@ -9,7 +9,12 @@
   "meta": {
     "title": "Transcribe YouTube Videos for ADHD: Real-Time Chrome Extension | Lessonscriptor",
     "description": "Transcribe any YouTube lecture in real time inside Chrome—no download, no signup. Free Chrome extension perfect for ADHD students who struggle with focus and note-taking.",
-    "keywords": ["transcribe youtube video ADHD", "ADHD youtube study", "youtube lecture transcription ADHD", "how to use youtube for studying ADHD"]
+    "keywords": [
+      "transcribe youtube video ADHD",
+      "ADHD youtube study",
+      "youtube lecture transcription ADHD",
+      "how to use youtube for studying ADHD"
+    ]
   },
   "hero_image": {
     "alt": "ADHD student watching YouTube lecture with Lessonscriptor transcript panel open in Chrome sidebar",
@@ -96,7 +101,13 @@
         "type": "tip",
         "label": "Cross-Platform Benefit for ADHD",
         "body": "One tool for all your video studying means less context-switching and fewer separate apps to manage. For ADHD brains overwhelmed by tool proliferation, this consistency is a feature."
-      }
+      },
+      "internal_links": [
+        {
+          "text": "transcribe lecture video automatically",
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
     }
   ],
   "cta": {

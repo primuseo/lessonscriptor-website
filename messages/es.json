@@ -886,11 +886,105 @@
     "send": "Enviar"
   },
   "privacy": {
-    "h1": "Política de privacidad",
-    "lastUpdated": "Última actualización"
+    "h1": "Política de Privacidad",
+    "lastUpdated": "Última actualización",
+    "whoWeAre": "Quiénes Somos",
+    "whoWeAreBody": "LessonScriptor es una extensión de Chrome desarrollada y operada por Pierre Girardot. Nos comprometemos a proteger tu privacidad y a cumplir con el RGPD y otras leyes aplicables. Para cualquier pregunta, contáctanos en contact@lessonscriptor.com.",
+    "whatWeCollect": "Datos que Recopilamos",
+    "localStorage": "Almacenamiento Local",
+    "paymentsTitle": "Pagos y Claves de Licencia",
+    "thirdParty": "Servicios de Terceros",
+    "gdprRights": "Tus Derechos bajo el RGPD",
+    "dataRetention": "Retención de Datos",
+    "changes": "Cambios en esta Política",
+    "contactTitle": "Contáctanos",
+    "englishNote": "Esta política de privacidad se proporciona en inglés en todas las versiones del sitio. La versión en inglés es la versión oficial."
   },
   "terms": {
     "h1": "Términos de uso",
     "lastUpdated": "Última actualización"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "Herramientas de estudio para TDAH",
+      "h1": "LessonScriptor para estudiantes con TDAH",
+      "subtitle": "Deja de dividir tu atención entre escuchar y escribir. LessonScriptor transcribe tus clases automáticamente para que tu memoria de trabajo se centre en lo que importa: comprender.",
+      "answer": "LessonScriptor es una extensión de Chrome adaptada al TDAH que transcribe automáticamente cualquier clase, vídeo de YouTube o curso de Coursera en tiempo real. Los estudiantes con TDAH tienen dificultades porque escuchar y escribir simultáneamente sobrecarga la memoria de trabajo — LessonScriptor elimina por completo ese problema de atención dividida.",
+      "cta": "Instalar gratis — Extensión de Chrome"
+    },
+    "problems": {
+      "title": "Por qué tomar apuntes es más difícil con TDAH",
+      "subtitle": "El TDAH afecta exactamente los sistemas cognitivos que más demanda la toma de apuntes convencional.",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "Sobrecarga de la memoria de trabajo",
+          "description": "El TDAH reduce la capacidad de la memoria de trabajo. Escribir una frase mientras se procesa la siguiente es cognitivamente imposible — una tarea siempre pierde. Las investigaciones muestran que los estudiantes con TDAH retienen un 40 % menos de información cuando se les obliga a escribir y escuchar al mismo tiempo."
+        },
+        {
+          "icon": "⚡",
+          "title": "Colapso de la atención dividida",
+          "description": "La atención impulsada por la dopamina no puede sostener dos demandas en competencia. En el momento en que el bolígrafo toca el papel, la voz del profesor se convierte en ruido de fondo. LessonScriptor rompe ese ciclo encargándose completamente de la tarea de escritura."
+        },
+        {
+          "icon": "🌊",
+          "title": "Sobrecarga de información",
+          "description": "Las clases a ritmo rápido en Canvas, Coursera o YouTube generan más información de la que la memoria de trabajo con TDAH puede procesar. Perder una frase crea una brecha de comprensión que se acumula — dejando a los estudiantes perdidos durante los cinco minutos siguientes."
+        }
+      ]
+    },
+    "features": {
+      "title": "Cómo LessonScriptor ayuda a los estudiantes con TDAH",
+      "subtitle": "Tres funciones diseñadas específicamente para cómo los cerebros con TDAH procesan la información.",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "Transcripción automática",
+          "description": "LessonScriptor transcribe cada palabra de tu profesor — automáticamente, en tiempo real, directamente en Chrome. Sin configuración, sin cambiar de pestaña. Tus manos quedan libres y tu atención permanece en la comprensión, no en la escritura."
+        },
+        {
+          "icon": "✏️",
+          "title": "Edición en tiempo real",
+          "description": "La transcripción en directo es completamente editable. Los estudiantes con TDAH pueden resaltar conceptos clave, poner en negrita términos importantes y añadir notas al margen sin perder el hilo de la clase. El editor funciona exactamente como un documento — sin curva de aprendizaje."
+        },
+        {
+          "icon": "🕐",
+          "title": "Navegación por marca de tiempo",
+          "description": "Cada segmento de transcripción tiene marca de tiempo. Retrocede 30 segundos cuando la dopamina desvió tu atención. Revisa el momento exacto en que te desconectaste, sin volver a ver todo el vídeo. Funciona en YouTube, Coursera, Udemy y cualquier vídeo en Chrome."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Solía quedarme atrás en el momento en que cogía el bolígrafo. Ahora simplemente escucho — y la transcripción está ahí cuando la necesito.",
+      "attribution": "Usuaria de LessonScriptor, estudiante universitaria con TDAH"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "¿Cuáles son las mejores aplicaciones para estudiantes con TDAH?",
+          "a": "Las mejores aplicaciones para estudiantes con TDAH eliminan las tareas que compiten con escuchar y comprender. LessonScriptor elimina por completo la toma de apuntes transcribiendo automáticamente las clases en Chrome. Otras herramientas útiles incluyen temporizadores de concentración (Pomofocus), lectores de texto a voz (Natural Reader) y bloqueadores de distracciones (Freedom). LessonScriptor es gratuito de instalar sin necesidad de cuenta."
+        },
+        {
+          "q": "¿Cómo tomar apuntes con TDAH?",
+          "a": "La estrategia de toma de apuntes con TDAH más efectiva es dejar de escribir durante la clase por completo. Deja que LessonScriptor transcriba automáticamente, luego revisa y anota la transcripción inmediatamente después — cuando la memoria de trabajo ya no está dividida. Este enfoque está respaldado por investigaciones sobre doble tarea que muestran que eliminar la tarea de escritura mejora drásticamente la comprensión y el recuerdo para los alumnos con TDAH."
+        },
+        {
+          "q": "¿Es LessonScriptor una aplicación adaptada al TDAH?",
+          "a": "Sí. LessonScriptor fue creado para estudiantes en línea que tienen dificultades con la escucha y la escritura simultáneas — una dificultad central para las personas con TDAH. Funciona en Chrome en cualquier plataforma de vídeo: YouTube, Coursera, Udemy, Canvas, grabaciones de Zoom y más. El modo gratuito no tiene límite de uso y no requiere cuenta."
+        },
+        {
+          "q": "¿Qué herramientas de estudio para TDAH funcionan con cursos en línea?",
+          "a": "Para cursos en línea en plataformas como Coursera, Udemy o Canvas, LessonScriptor es la herramienta de estudio para TDAH más efectiva porque transcribe el contenido del vídeo directamente en Chrome — sin aplicación separada, sin copiar y pegar. Otras herramientas útiles incluyen el control de velocidad (integrado en la mayoría de plataformas a 0,75x), subtítulos (activados mediante LessonScriptor) y el método Cornell aplicado a la transcripción posterior a la clase."
+        },
+        {
+          "q": "¿Funciona LessonScriptor en YouTube para estudiantes con TDAH?",
+          "a": "Sí. LessonScriptor funciona en YouTube, Coursera, Udemy, portales universitarios, grabaciones de Zoom y cualquier vídeo que se reproduzca en Chrome. Los estudiantes con TDAH pueden transcribir una clase de YouTube, pausar para releer cualquier sección y exportar la transcripción completa como documento de Word o PDF para revisión posterior — todo sin salir del navegador."
+        },
+        {
+          "q": "¿Existe una herramienta gratuita de toma de apuntes para estudiantes con TDAH?",
+          "a": "El modo gratuito de LessonScriptor es completamente gratuito sin límite mensual de minutos. Utiliza la API Web Speech para transcribir el audio de tu micrófono — capturando cualquier vídeo que se reproduzca en Chrome. Sin registro, sin suscripción, sin tarjeta de crédito. El modo Premium añade precisión de IA en la nube para el habla técnica o con acento, a unos 0,60 € por hora."
+        }
+      ]
+    }
   }
 }

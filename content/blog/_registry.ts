@@ -9,6 +9,8 @@ export const BLOG_SLUGS = [
   'how-to-take-notes-with-adhd',
   'how-to-transcribe-lecture-videos',
   'neurodivergent-study-tools',
+  'otter-ai-alternative-for-students',
+  'best-speech-to-text-chrome-extensions',
   // Live captions pillar cluster
   'chrome-live-captions-not-working',
   'best-chrome-extensions-live-captions',
@@ -16,6 +18,8 @@ export const BLOG_SLUGS = [
   'live-captions-zoom-recordings-chrome',
   'live-captions-other-languages-chrome',
   'chrome-live-captions-vs-lessonscriptor',
+  // YouTube transcript cluster
+  'how-to-download-youtube-transcript',
 ] as const
 
 export type BlogSlug = (typeof BLOG_SLUGS)[number]

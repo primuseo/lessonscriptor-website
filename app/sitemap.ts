@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/transcribe-youtube-video',
     '/live-captions-chrome',
     '/transcribe-video-to-text',
+    '/for-adhd-students',
     '/compare/otter-ai-alternative',
     '/blog',
     '/contact',
@@ -23,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   function getPriority(page: string, locale: string): number {
     let base: number
     if (page === '/') base = 1.0
-    else if (page.includes('youtube') || page.includes('captions') || page.includes('transcribe-video') || page.includes('otter')) base = 0.9
+    else if (page.includes('youtube') || page.includes('captions') || page.includes('transcribe-video') || page.includes('otter') || page.includes('adhd')) base = 0.9
     else if (page.includes('blog')) base = 0.8
     else base = 0.7
     return locale === 'en' ? base : base - 0.1

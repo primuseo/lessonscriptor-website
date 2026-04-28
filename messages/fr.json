@@ -398,7 +398,7 @@
   "youtube": {
     "h1": "Transcrire une vidéo YouTube en temps réel",
     "subtitle": "Obtenez une transcription en direct et modifiable de n'importe quelle vidéo YouTube directement dans Chrome — sans copier-coller ni changer d'onglet. Mode gratuit inclus.",
-    "answer": "LessonScriptor is a free Chrome extension that transcribes YouTube videos in real-time. Install it from the Chrome Web Store, open any YouTube video, click the LessonScriptor icon to open the side panel, and press play. The transcript appears immediately alongside the video — editable, highlightable, and exportable to Markdown or clipboard. It works on Coursera, Udemy, and any other Chrome tab, not just YouTube.",
+    "answer": "LessonScriptor est une extension Chrome gratuite qui transcrit les vidéos YouTube en temps réel. Installez-la depuis le Chrome Web Store, ouvrez n'importe quelle vidéo YouTube, cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral, puis lancez la lecture. La transcription apparaît immédiatement à côté de la vidéo — modifiable, surlignable et exportable en Markdown ou dans le presse-papiers. Fonctionne sur Coursera, Udemy et tout autre onglet Chrome, pas seulement YouTube.",
     "methods": {
       "title": "Comment obtenir la transcription d'une vidéo YouTube — toutes les méthodes comparées",
       "items": [
@@ -452,52 +452,52 @@
           "a": "Non. LessonScriptor transcrit en temps réel pendant la lecture de la vidéo, il fonctionne donc pour n'importe quelle durée — d'un tutoriel de 5 minutes à un cours de 3 heures."
         },
         {
-          "q": "Can I download a transcript from a YouTube video?",
-          "a": "Yes. With LessonScriptor, you can export the transcript as a Markdown file (.md) or copy it to clipboard to paste into Notion, Google Docs, or Obsidian. The export preserves all your formatting — bold, highlights, headers."
+          "q": "Peut-on télécharger la transcription d'une vidéo YouTube ?",
+          "a": "Oui. Avec LessonScriptor, vous pouvez exporter la transcription en fichier Markdown (.md) ou la copier dans le presse-papiers pour la coller dans Notion, Google Docs ou Obsidian. L'export préserve tout votre formatage — gras, surlignages, titres."
         },
         {
-          "q": "Is there a way to get a full transcript of a YouTube video?",
-          "a": "Yes. YouTube's built-in transcript (click '...' → Show transcript) gives you a read-only, uneditable copy of auto-generated captions — not available for all videos. LessonScriptor generates a full editable transcript as the video plays, works on any video, and lets you export the complete text when done."
+          "q": "Comment obtenir la transcription complète d'une vidéo YouTube ?",
+          "a": "Oui. La transcription intégrée de YouTube (clic sur '...' → Afficher la transcription) fournit une copie en lecture seule des sous-titres auto-générés — non disponible pour toutes les vidéos. LessonScriptor génère une transcription complète et modifiable pendant la lecture, fonctionne sur toute vidéo, et vous permet d'exporter le texte intégral à la fin."
         },
         {
-          "q": "What's the difference between YouTube auto-captions and LessonScriptor?",
-          "a": "YouTube auto-captions are read-only, appear as an overlay you can't edit, and aren't available on all videos. LessonScriptor transcribes in real-time into an editable side panel — you can correct errors, highlight passages, add notes, and export as Markdown. It also works on Coursera, Udemy, and any other video in Chrome, not just YouTube."
+          "q": "Quelle différence entre les sous-titres automatiques YouTube et LessonScriptor ?",
+          "a": "Les sous-titres automatiques de YouTube sont en lecture seule, apparaissent en superposition non modifiable et ne sont pas disponibles sur toutes les vidéos. LessonScriptor transcrit en temps réel dans un panneau latéral modifiable — vous pouvez corriger les erreurs, surligner des passages, ajouter des notes et exporter en Markdown. Il fonctionne aussi sur Coursera, Udemy et toute autre vidéo dans Chrome."
         },
         {
-          "q": "Does it work on YouTube videos without captions?",
-          "a": "Yes. LessonScriptor doesn't rely on YouTube's captions — it transcribes the actual audio in real-time. So it works whether or not YouTube has auto-generated captions for the video."
+          "q": "Fonctionne-t-il sur les vidéos YouTube sans sous-titres ?",
+          "a": "Oui. LessonScriptor ne dépend pas des sous-titres de YouTube — il transcrit l'audio réel en temps réel. Il fonctionne donc que YouTube ait ou non généré des sous-titres automatiques."
         },
         {
-          "q": "Can I transcribe a YouTube video in French or Spanish?",
-          "a": "Yes. LessonScriptor supports 14+ languages. In the extension settings, select your target language and it will transcribe accordingly — useful for language learning or international lectures."
+          "q": "Peut-on transcrire une vidéo YouTube en français ou en espagnol ?",
+          "a": "Oui. LessonScriptor prend en charge 14+ langues. Dans les paramètres de l'extension, sélectionnez la langue cible et la transcription se fera dans cette langue — utile pour l'apprentissage des langues ou les cours internationaux."
         },
         {
-          "q": "Can I transcribe a private YouTube video?",
-          "a": "Yes, if you have access to it. LessonScriptor transcribes any video playing in a Chrome tab — including YouTube unlisted or private videos you're logged in to view. It doesn't bypass any access restrictions; it just captures the audio from what's already playing on your screen."
+          "q": "Peut-on transcrire une vidéo YouTube privée ?",
+          "a": "Oui, si vous y avez accès. LessonScriptor transcrit toute vidéo en cours de lecture dans un onglet Chrome — y compris les vidéos YouTube non répertoriées ou privées auxquelles vous êtes connecté. Il ne contourne aucune restriction d'accès ; il capte simplement l'audio de ce qui joue déjà sur votre écran."
         },
         {
-          "q": "Is there a limit to how long a YouTube video can be?",
-          "a": "No hard limit. LessonScriptor transcribes in real-time as the video plays, so it works for any length — from a 5-minute tutorial to a 3-hour lecture."
+          "q": "Y a-t-il une limite de durée pour les vidéos YouTube ?",
+          "a": "Non. LessonScriptor transcrit en temps réel pendant la lecture de la vidéo, il fonctionne donc pour n'importe quelle durée — d'un tutoriel de 5 minutes à un cours de 3 heures."
         }
       ]
     },
     "useCases": {
-      "title": "Who uses LessonScriptor to transcribe YouTube videos?",
+      "title": "Qui utilise LessonScriptor pour transcrire des vidéos YouTube ?",
       "items": [
         {
           "icon": "🎓",
-          "title": "University students watching recorded lectures",
-          "desc": "Many universities post lecture recordings on YouTube or link them in Moodle. LessonScriptor transcribes them in real-time, so students get searchable notes without rewatching."
+          "title": "Étudiants regardant des cours enregistrés",
+          "desc": "De nombreuses universités publient leurs cours sur YouTube ou les intègrent dans Moodle. LessonScriptor les transcrit en temps réel — des notes consultables sans avoir à tout revoir."
         },
         {
           "icon": "🌍",
-          "title": "Language learners studying with YouTube",
-          "desc": "Watching videos in French, Spanish, or German? LessonScriptor transcribes in 14+ languages — the transcript helps with vocabulary and comprehension at the same time."
+          "title": "Apprenants de langues sur YouTube",
+          "desc": "Vous regardez des vidéos en anglais, espagnol ou allemand ? LessonScriptor transcrit dans 14+ langues — la transcription aide à la fois le vocabulaire et la compréhension."
         },
         {
           "icon": "📚",
-          "title": "Online course students on Coursera and Udemy",
-          "desc": "Coursera and Udemy videos play in Chrome just like YouTube. LessonScriptor works on both — giving you editable transcripts for every paid course you take."
+          "title": "Étudiants en ligne sur Coursera et Udemy",
+          "desc": "Les vidéos Coursera et Udemy se lisent dans Chrome comme YouTube. LessonScriptor fonctionne sur les deux — des transcriptions modifiables pour chaque cours suivi."
         }
       ]
     }
@@ -887,10 +887,104 @@
   },
   "privacy": {
     "h1": "Politique de confidentialité",
-    "lastUpdated": "Dernière mise à jour"
+    "lastUpdated": "Dernière mise à jour",
+    "whoWeAre": "Qui Nous Sommes",
+    "whoWeAreBody": "LessonScriptor est une extension Chrome développée et exploitée par Pierre Girardot. Nous nous engageons à protéger votre vie privée et à respecter le RGPD et les autres lois applicables. Pour toute question, contactez-nous à contact@lessonscriptor.com.",
+    "whatWeCollect": "Données Collectées",
+    "localStorage": "Stockage Local",
+    "paymentsTitle": "Paiements et Clés de Licence",
+    "thirdParty": "Services Tiers",
+    "gdprRights": "Vos Droits RGPD",
+    "dataRetention": "Conservation des Données",
+    "changes": "Modifications de cette Politique",
+    "contactTitle": "Nous Contacter",
+    "englishNote": "Cette politique de confidentialité est fournie en anglais sur toutes les versions linguistiques du site. La version anglaise fait foi."
   },
   "terms": {
     "h1": "Conditions d'utilisation",
     "lastUpdated": "Dernière mise à jour"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "Outils d'étude TDAH",
+      "h1": "LessonScriptor pour les étudiants TDAH",
+      "subtitle": "Arrêtez de partager votre attention entre l'écoute et l'écriture. LessonScriptor transcrit automatiquement vos cours pour que votre mémoire de travail se concentre sur ce qui compte : comprendre.",
+      "answer": "LessonScriptor est une extension Chrome adaptée au TDAH qui transcrit automatiquement tout cours magistral, vidéo YouTube ou cours Coursera en temps réel. Les étudiants TDAH ont du mal car écouter et écrire simultanément surcharge la mémoire de travail — LessonScriptor élimine entièrement ce problème d'attention partagée.",
+      "cta": "Installer gratuitement — Extension Chrome"
+    },
+    "problems": {
+      "title": "Pourquoi la prise de notes est plus difficile avec le TDAH",
+      "subtitle": "Le TDAH affecte précisément les systèmes cognitifs que la prise de notes conventionnelle sollicite le plus.",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "Surcharge de la mémoire de travail",
+          "description": "Le TDAH réduit la capacité de la mémoire de travail. Écrire une phrase tout en traitant la suivante est cognitivement impossible — l'une des deux tâches perd toujours. Les recherches montrent que les étudiants TDAH retiennent 40 % moins d'informations lorsqu'ils sont forcés d'écrire et d'écouter simultanément."
+        },
+        {
+          "icon": "⚡",
+          "title": "Effondrement de l'attention partagée",
+          "description": "L'attention pilotée par la dopamine ne peut pas soutenir deux demandes concurrentes. Au moment où le stylo touche la page, la voix du professeur devient un bruit de fond. LessonScriptor brise ce cycle en gérant entièrement la tâche d'écriture."
+        },
+        {
+          "icon": "🌊",
+          "title": "Surcharge d'informations",
+          "description": "Les cours rapides sur Canvas, Coursera ou YouTube génèrent plus d'informations que la mémoire de travail TDAH ne peut en traiter. Manquer une phrase crée un manque de compréhension qui s'accumule — laissant les étudiants perdus pendant les cinq minutes suivantes."
+        }
+      ]
+    },
+    "features": {
+      "title": "Comment LessonScriptor aide les étudiants TDAH",
+      "subtitle": "Trois fonctionnalités conçues spécifiquement pour la façon dont les cerveaux TDAH traitent l'information.",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "Transcription automatique",
+          "description": "LessonScriptor transcrit chaque mot de votre professeur — automatiquement, en temps réel, directement dans Chrome. Pas de configuration, pas de changement d'onglet. Vos mains restent libres et votre attention reste sur la compréhension, pas sur l'écriture."
+        },
+        {
+          "icon": "✏️",
+          "title": "Édition en temps réel",
+          "description": "La transcription en direct est entièrement modifiable. Les étudiants TDAH peuvent surligner les concepts clés, mettre en gras les termes importants et ajouter des notes sans perdre le fil du cours. L'éditeur fonctionne exactement comme un document — aucune courbe d'apprentissage."
+        },
+        {
+          "icon": "🕐",
+          "title": "Navigation par horodatage",
+          "description": "Chaque segment de transcription est horodaté. Revenez 30 secondes en arrière quand la dopamine a détourné votre attention. Revoyez le moment exact où vous avez décroché, sans revoir toute la vidéo. Fonctionne sur YouTube, Coursera, Udemy et toute vidéo dans Chrome."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Je prenais du retard dès que je posais mon stylo. Maintenant j'écoute simplement — et la transcription est là quand j'en ai besoin.",
+      "attribution": "Utilisatrice de LessonScriptor, étudiante universitaire avec TDAH"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Quelles sont les meilleures applications pour les étudiants TDAH ?",
+          "a": "Les meilleures applications pour les étudiants TDAH suppriment les tâches qui rivalisent avec l'écoute et la compréhension. LessonScriptor élimine entièrement la prise de notes en transcrivant automatiquement les cours dans Chrome. D'autres outils utiles incluent les minuteries de concentration (Pomofocus), les lecteurs texte-parole (Natural Reader) et les bloqueurs de distractions (Freedom). LessonScriptor est gratuit à installer sans compte requis."
+        },
+        {
+          "q": "Comment prendre des notes avec le TDAH ?",
+          "a": "La stratégie de prise de notes TDAH la plus efficace est d'arrêter complètement d'écrire pendant le cours. Laissez LessonScriptor transcrire automatiquement, puis révisez et annotez la transcription immédiatement après — quand la mémoire de travail n'est plus partagée. Cette approche est soutenue par des recherches sur la double tâche montrant qu'éliminer la tâche d'écriture améliore considérablement la compréhension et la mémorisation pour les apprenants TDAH."
+        },
+        {
+          "q": "LessonScriptor est-il une application adaptée au TDAH ?",
+          "a": "Oui. LessonScriptor a été conçu pour les étudiants en ligne qui ont du mal avec l'écoute et l'écriture simultanées — une difficulté centrale pour les personnes atteintes de TDAH. Il fonctionne dans Chrome sur n'importe quelle plateforme vidéo : YouTube, Coursera, Udemy, Canvas, enregistrements Zoom, et plus encore. Le mode gratuit est sans limite d'utilisation et ne nécessite pas de compte."
+        },
+        {
+          "q": "Quels outils d'étude TDAH fonctionnent avec les cours en ligne ?",
+          "a": "Pour les cours en ligne sur des plateformes comme Coursera, Udemy ou Canvas, LessonScriptor est l'outil d'étude TDAH le plus efficace car il transcrit le contenu vidéo directement dans Chrome — pas d'application séparée, pas de copier-coller. D'autres outils utiles incluent le contrôle de vitesse (intégré dans la plupart des plateformes à 0,75x), les sous-titres (activés via LessonScriptor), et la méthode Cornell appliquée à la transcription post-cours."
+        },
+        {
+          "q": "LessonScriptor fonctionne-t-il sur YouTube pour les étudiants TDAH ?",
+          "a": "Oui. LessonScriptor fonctionne sur YouTube, Coursera, Udemy, les portails universitaires, les enregistrements Zoom et toute vidéo lue dans Chrome. Les étudiants TDAH peuvent transcrire un cours YouTube, faire une pause pour relire n'importe quelle section, et exporter la transcription complète en document Word ou PDF pour une révision ultérieure — tout sans quitter le navigateur."
+        },
+        {
+          "q": "Existe-t-il un outil gratuit de prise de notes pour les étudiants TDAH ?",
+          "a": "Le mode gratuit de LessonScriptor est entièrement gratuit sans limite mensuelle de minutes. Il utilise l'API Web Speech pour transcrire l'audio de votre microphone — capturant toute vidéo lue dans Chrome. Pas d'inscription, pas d'abonnement, pas de carte de crédit. Le mode Premium ajoute une précision IA cloud pour les discours techniques ou accentués, à environ 0,60 € par heure."
+        }
+      ]
+    }
   }
 }

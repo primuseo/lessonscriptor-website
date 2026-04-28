@@ -886,10 +886,104 @@
   },
   "privacy": {
     "h1": "Política de Privacidade",
-    "lastUpdated": "Última atualização"
+    "lastUpdated": "Última atualização",
+    "whoWeAre": "Quem Somos",
+    "whoWeAreBody": "LessonScriptor é uma extensão do Chrome desenvolvida e operada por Pierre Girardot. Comprometemo-nos a proteger a sua privacidade e a cumprir o RGPD e outras leis aplicáveis. Para qualquer questão, contacte-nos em contact@lessonscriptor.com.",
+    "whatWeCollect": "Dados que Recolhemos",
+    "localStorage": "Armazenamento Local",
+    "paymentsTitle": "Pagamentos e Chaves de Licença",
+    "thirdParty": "Serviços de Terceiros",
+    "gdprRights": "Os Seus Direitos ao Abrigo do RGPD",
+    "dataRetention": "Retenção de Dados",
+    "changes": "Alterações a esta Política",
+    "contactTitle": "Contacte-nos",
+    "englishNote": "Esta política de privacidade é fornecida em inglês em todas as versões linguísticas do site. A versão inglesa é a versão oficial."
   },
   "terms": {
     "h1": "Termos de Utilização",
     "lastUpdated": "Última atualização"
+  },
+  "adhdStudents": {
+    "hero": {
+      "eyebrow": "Ferramentas de estudo para TDAH",
+      "h1": "LessonScriptor para estudantes com TDAH",
+      "subtitle": "Pare de dividir a sua atenção entre ouvir e escrever. LessonScriptor transcreve as suas aulas automaticamente para que a sua memória de trabalho se concentre no que importa: compreender.",
+      "answer": "LessonScriptor é uma extensão Chrome adaptada ao TDAH que transcreve automaticamente qualquer aula, vídeo do YouTube ou curso da Coursera em tempo real. Os estudantes com TDAH têm dificuldade porque ouvir e escrever em simultâneo sobrecarrega a memória de trabalho — o LessonScriptor elimina completamente esse problema de atenção dividida.",
+      "cta": "Instalar gratuitamente — Extensão Chrome"
+    },
+    "problems": {
+      "title": "Por que tirar notas é mais difícil com TDAH",
+      "subtitle": "O TDAH afeta exatamente os sistemas cognitivos que a tomada de notas convencional mais exige.",
+      "items": [
+        {
+          "icon": "🧠",
+          "title": "Sobrecarga da memória de trabalho",
+          "description": "O TDAH reduz a capacidade da memória de trabalho. Escrever uma frase enquanto processa a seguinte é cognitivamente impossível — uma tarefa perde sempre. As investigações mostram que os estudantes com TDAH retêm 40% menos informação quando são forçados a escrever e ouvir em simultâneo."
+        },
+        {
+          "icon": "⚡",
+          "title": "Colapso da atenção dividida",
+          "description": "A atenção impulsionada pela dopamina não consegue sustentar duas exigências em competição. No momento em que a caneta toca o papel, a voz do professor torna-se ruído de fundo. O LessonScriptor quebra esse ciclo ao gerir completamente a tarefa de escrita."
+        },
+        {
+          "icon": "🌊",
+          "title": "Sobrecarga de informação",
+          "description": "As aulas a ritmo rápido no Canvas, Coursera ou YouTube geram mais informação do que a memória de trabalho com TDAH consegue processar. Perder uma frase cria uma lacuna de compreensão que se acumula — deixando os estudantes perdidos durante os cinco minutos seguintes."
+        }
+      ]
+    },
+    "features": {
+      "title": "Como o LessonScriptor ajuda estudantes com TDAH",
+      "subtitle": "Três funcionalidades desenhadas especificamente para a forma como os cérebros com TDAH processam informação.",
+      "items": [
+        {
+          "icon": "✍️",
+          "title": "Transcrição automática",
+          "description": "O LessonScriptor transcreve cada palavra do seu professor — automaticamente, em tempo real, diretamente no Chrome. Sem configuração, sem mudar de separador. As suas mãos ficam livres e a sua atenção permanece na compreensão, não na escrita."
+        },
+        {
+          "icon": "✏️",
+          "title": "Edição em tempo real",
+          "description": "A transcrição em direto é totalmente editável. Os estudantes com TDAH podem destacar conceitos-chave, colocar termos importantes a negrito e adicionar notas sem perder o fio da aula. O editor funciona exatamente como um documento — sem curva de aprendizagem."
+        },
+        {
+          "icon": "🕐",
+          "title": "Navegação por marcação temporal",
+          "description": "Cada segmento de transcrição tem marcação temporal. Recue 30 segundos quando a dopamina desviou a sua atenção. Reveja o momento exato em que se distraiu, sem rever o vídeo inteiro. Funciona no YouTube, Coursera, Udemy e qualquer vídeo no Chrome."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Costumava ficar para trás no momento em que pegava na caneta. Agora simplesmente ouço — e a transcrição está lá quando preciso.",
+      "attribution": "Utilizadora do LessonScriptor, estudante universitária com TDAH"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Quais são as melhores aplicações para estudantes com TDAH?",
+          "a": "As melhores aplicações para estudantes com TDAH eliminam tarefas que competem com ouvir e compreender. O LessonScriptor elimina completamente a tomada de notas ao transcrever automaticamente as aulas no Chrome. Outras ferramentas úteis incluem temporizadores de concentração (Pomofocus), leitores de texto para voz (Natural Reader) e bloqueadores de distração (Freedom). O LessonScriptor é gratuito para instalar sem conta necessária."
+        },
+        {
+          "q": "Como tirar notas com TDAH?",
+          "a": "A estratégia de tomada de notas com TDAH mais eficaz é parar completamente de escrever durante a aula. Deixe o LessonScriptor transcrever automaticamente, depois revise e anote a transcrição imediatamente a seguir — quando a memória de trabalho já não está dividida. Esta abordagem é apoiada por investigação sobre dupla tarefa que demonstra que eliminar a tarefa de escrita melhora drasticamente a compreensão e a retenção para os alunos com TDAH."
+        },
+        {
+          "q": "O LessonScriptor é uma aplicação adaptada ao TDAH?",
+          "a": "Sim. O LessonScriptor foi criado para estudantes online que têm dificuldade com ouvir e escrever em simultâneo — uma dificuldade central para pessoas com TDAH. Funciona no Chrome em qualquer plataforma de vídeo: YouTube, Coursera, Udemy, Canvas, gravações de Zoom e mais. O modo gratuito não tem limite de utilização e não requer conta."
+        },
+        {
+          "q": "Que ferramentas de estudo para TDAH funcionam com cursos online?",
+          "a": "Para cursos online em plataformas como Coursera, Udemy ou Canvas, o LessonScriptor é a ferramenta de estudo para TDAH mais eficaz porque transcreve o conteúdo de vídeo diretamente no Chrome — sem aplicação separada, sem copiar e colar. Outras ferramentas úteis incluem controlo de velocidade (integrado na maioria das plataformas a 0,75x), legendas (ativadas via LessonScriptor) e o método Cornell aplicado à transcrição pós-aula."
+        },
+        {
+          "q": "O LessonScriptor funciona no YouTube para estudantes com TDAH?",
+          "a": "Sim. O LessonScriptor funciona no YouTube, Coursera, Udemy, portais universitários, gravações de Zoom e qualquer vídeo reproduzido no Chrome. Os estudantes com TDAH podem transcrever uma aula do YouTube, pausar para reler qualquer secção e exportar a transcrição completa como documento Word ou PDF para revisão posterior — tudo sem sair do browser."
+        },
+        {
+          "q": "Existe uma ferramenta gratuita de tomada de notas para estudantes com TDAH?",
+          "a": "O modo gratuito do LessonScriptor é completamente gratuito sem limite mensal de minutos. Utiliza a Web Speech API para transcrever o áudio do seu microfone — capturando qualquer vídeo reproduzido no Chrome. Sem registo, sem subscrição, sem cartão de crédito. O modo Premium adiciona precisão de IA na nuvem para discurso técnico ou com sotaque, a cerca de 0,60 € por hora."
+        }
+      ]
+    }
   }
 }
