@@ -1,7 +1,6 @@
 'use client'
 import { useTranslations } from 'next-intl'
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
 import { useState } from 'react'
 
 const LOCALES = [
@@ -17,16 +16,12 @@ export default function Navbar({ locale }: { locale: string }) {
   const t = useTranslations('nav')
   const ts = useTranslations('site')
   const [open, setOpen] = useState(false)
-  const pathname = usePathname()
 
   const base = locale === 'en' ? '' : `/${locale}`
 
   function switchLocaleHref(targetLocale: string) {
-    const localePattern = /^\/(en|fr|es|pt|de|zh)(\/|$)/
-    const match = pathname.match(localePattern)
-    const pathWithoutLocale = match ? pathname.slice(match[1].length + 1) || '/' : pathname
-    if (targetLocale === 'en') return pathWithoutLocale
-    return `/${targetLocale}${pathWithoutLocale === '/' ? '' : pathWithoutLocale}`
+    if (targetLocale === 'en') return '/'
+    return `/${targetLocale}`
   }
 
   return (

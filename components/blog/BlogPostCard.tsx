@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { BlogPostMeta } from '@/lib/blog'
+import { getLocalizedSlug } from '@/content/blog/_slug-map'
 
 export default function BlogPostCard({
   post,
@@ -13,7 +14,7 @@ export default function BlogPostCard({
   minRead: string
 }) {
   const base = locale === 'en' ? '' : `/${locale}`
-  const href = `${base}/blog/${post.slug}`
+  const href = `${base}/blog/${getLocalizedSlug(post.slug, locale)}`
 
   return (
     <Link

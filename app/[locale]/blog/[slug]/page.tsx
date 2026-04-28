@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { getPost } from '@/lib/blog'
 import { BLOG_SLUGS } from '@/content/blog/_registry'
+import { getCanonicalSlug, getLocalizedSlug } from '@/content/blog/_slug-map'
 import BlogSectionRenderer from '@/components/blog/BlogSectionRenderer'
 import TldrSection from '@/components/blog/TldrSection'
 import SummarySection from '@/components/blog/SummarySection'
@@ -13,7 +14,7 @@ const LOCALES = ['en', 'fr', 'es', 'pt', 'de', 'zh']
 
 export function generateStaticParams() {
   return BLOG_SLUGS.flatMap((slug) =>
-    LOCALES.map((locale) => ({ locale, slug }))
+    LOCALES.map((locale) => ({ locale, slug: getLocalizedSlug(slug, locale) }))
   )
 }
 
@@ -22,7 +23,8 @@ export async function generateMetadata({
 }: {
   params: { locale: string; slug: string }
 }): Promise<Metadata> {
-  const post = getPost(slug, locale)
+  const canonical = getCanonicalSlug(slug, locale) || slug
+  const post = getPost(canonical, locale)
   if (!post) return {}
   const base = locale === 'en' ? 'https://lessonscriptor.com' : `https://lessonscriptor.com/${locale}`
   return {
@@ -40,12 +42,15 @@ export async function generateMetadata({
     },
     alternates: {
       languages: Object.fromEntries(
-        LOCALES.map((l) => [
-          l,
-          l === 'en'
-            ? `https://lessonscriptor.com/blog/${slug}`
-            : `https://lessonscriptor.com/${l}/blog/${slug}`,
-        ])
+        LOCALES.map((l) => {
+          const localSlug = getLocalizedSlug(canonical, l)
+          return [
+            l,
+            l === 'en'
+              ? `https://lessonscriptor.com/blog/${localSlug}`
+              : `https://lessonscriptor.com/${l}/blog/${localSlug}`,
+          ]
+        })
       ),
     },
   }
@@ -101,7 +106,8 @@ export default async function BlogPostPage({
   params: { locale: string; slug: string }
 }) {
   unstable_setRequestLocale(locale)
-  const post = getPost(slug, locale)
+  const canonical = getCanonicalSlug(slug, locale) || slug
+  const post = getPost(canonical, locale)
   if (!post) notFound()
 
   const schemas = post.schemas || []
@@ -148,7 +154,6 @@ export default async function BlogPostPage({
           {post.author && (
             <p className="text-sm text-terra-800/50">
               By {post.author.name}
-              {post.author.title && <span> · {post.author.title}</span>}
             </p>
           )}
         </div>

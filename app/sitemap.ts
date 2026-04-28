@@ -1,60 +1,53 @@
 import { MetadataRoute } from 'next'
 import { BLOG_SLUGS } from '@/content/blog/_registry'
+import { getLocalizedSlug } from '@/content/blog/_slug-map'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lessonscriptor.com'
   const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
-  const pages = [
+  const staticPages = [
     '/',
     '/transcribe-youtube-video',
     '/live-captions-chrome',
     '/transcribe-video-to-text',
     '/compare/otter-ai-alternative',
     '/blog',
-    ...BLOG_SLUGS.map((slug) => `/blog/${slug}`),
     '/contact',
     '/privacy',
     '/terms',
   ]
 
   const sitemap: MetadataRoute.Sitemap = []
+  const today = new Date().toISOString().split('T')[0]
+
+  function getPriority(page: string, locale: string): number {
+    let base: number
+    if (page === '/') base = 1.0
+    else if (page.includes('youtube') || page.includes('captions') || page.includes('transcribe-video') || page.includes('otter')) base = 0.9
+    else if (page.includes('blog')) base = 0.8
+    else base = 0.7
+    return locale === 'en' ? base : base - 0.1
+  }
 
   locales.forEach((locale) => {
-    pages.forEach((page) => {
-      // Determine base priority based on page type
-      let basePriority: number
-      if (page === '/') {
-        basePriority = 1.0
-      } else if (
-        page.includes('youtube') ||
-        page.includes('captions') ||
-        page.includes('transcribe-video') ||
-        page.includes('otter')
-      ) {
-        basePriority = 0.9
-      } else if (page.includes('blog')) {
-        basePriority = 0.8
-      } else {
-        basePriority = 0.7
-      }
+    const prefix = locale === 'en' ? '' : `/${locale}`
 
-      // Reduce priority for non-English locales
-      const priority = locale === 'en' ? basePriority : basePriority - 0.1
-
-      // Build the URL
-      let url = baseUrl
-      if (locale !== 'en') {
-        url += `/${locale}`
-      }
-      if (page !== '/') {
-        url += page
-      }
-
+    staticPages.forEach((page) => {
       sitemap.push({
-        url,
-        lastModified: new Date().toISOString().split('T')[0],
+        url: `${baseUrl}${prefix}${page === '/' ? '' : page}`,
+        lastModified: today,
         changeFrequency: page === '/' ? 'weekly' : 'monthly',
-        priority,
+        priority: getPriority(page, locale),
+      })
+    })
+
+    BLOG_SLUGS.forEach((slug) => {
+      const localSlug = getLocalizedSlug(slug, locale)
+      sitemap.push({
+        url: `${baseUrl}${prefix}/blog/${localSlug}`,
+        lastModified: today,
+        changeFrequency: 'monthly',
+        priority: locale === 'en' ? 0.8 : 0.7,
       })
     })
   })
