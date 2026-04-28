@@ -1,0 +1,567 @@
+{
+  "slug": "neurodivergent-study-tools",
+  "page_type": "blog_post",
+  "category_tag": "Learning & Neurodiversity",
+  "h1": "The Best Study Tools for Neurodivergent Students in 2026",
+  "reading_time_min": 12,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Best Neurodivergent Study Tools 2026 | ADHD, Dyslexia, Autism",
+    "description": "5 evidence-backed study tools for neurodivergent students: transcription, text-to-speech, task breakdown, scheduling, and spaced repetition. Works for ADHD, dyslexia, and autism spectrum.",
+    "keyword_primary": "neurodivergent study tools",
+    "keyword_secondary": [
+      "tools for neurodivergent students",
+      "neurodivergent learning apps",
+      "dyslexia ADHD study tools",
+      "best study apps for neurodivergent students",
+      "neurodiversity in education"
+    ]
+  },
+  "hero_image": {
+    "url": "/images/neurodivergent-study-tools-hero.png",
+    "alt": "Diverse group of neurodivergent students studying together using laptops, tablets, and notebooks. Warm, inclusive, bright colors.",
+    "dimensions": "1200x630px",
+    "caption": "Study tools designed for neurodivergent brains"
+  },
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "bio": "Built by educators and neurodivergent learners. We research study tools that work across learning profiles and accessibility needs. Our goal: make self-service transcription a standard for all students.",
+    "expertise": "EdTech accessibility, neurodiversity in higher education, assistive technology evaluation"
+  },
+  "tldr": {
+    "headline": "5 tools that tackle neurodivergent study challenges",
+    "tools": [
+      {
+        "name": "Lessonscriptor",
+        "for": "ADHD, Dyslexia, Autism Spectrum",
+        "why": "Live transcription of any video removes note-taking cognitive load and creates searchable notes"
+      },
+      {
+        "name": "Speechify",
+        "for": "Dyslexia, ADHD",
+        "why": "Text-to-speech for reading long documents faster and with less fatigue"
+      },
+      {
+        "name": "Anki",
+        "for": "ADHD, Dyslexia, Autism Spectrum",
+        "why": "Spaced repetition fights working memory challenges and builds long-term retention"
+      },
+      {
+        "name": "Goblin Tools",
+        "for": "ADHD",
+        "why": "Breaks large tasks into dopamine-friendly micro-steps; removes executive function friction"
+      },
+      {
+        "name": "Tiimo",
+        "for": "ADHD, Autism Spectrum",
+        "why": "Visual time blocking and task scheduling reduces anxiety and hyperfocus drift"
+      }
+    ]
+  },
+  "intro": "The best study tools for neurodivergent students are not one-size-fits-all. If you're ADHD, dyslexia, or autistic, your brain processes information differently—and traditional study methods (passive note-taking, re-reading, rigid schedules) often work against you, not for you. This post covers the five tools that collectively address the core study challenges across ADHD (working memory and attention), dyslexia (reading speed and phonological processing), and autism spectrum (executive function and sensory processing). Each tool has a job. Together, they remove friction and align study methods to how neurodivergent brains actually work.",
+  "stats": [
+    {
+      "stat": "1 in 5",
+      "claim": "university students identify as neurodivergent (ADHD, dyslexia, autism, or other)",
+      "source": "Estimates from CHADD, British Dyslexia Association, and UK higher education accessibility surveys"
+    },
+    {
+      "stat": "66%",
+      "claim": "of neurodivergent students report traditional note-taking increases cognitive overload during lectures",
+      "source": "ADDitude Magazine, neurodiversity in learning study 2024"
+    },
+    {
+      "stat": "3x faster",
+      "claim": "reading speed with audio-supported text vs. text-only (for dyslexia and ADHD readers)",
+      "source": "British Dyslexia Association reading comprehension research"
+    },
+    {
+      "stat": "37%",
+      "claim": "improvement in long-term retention using spaced repetition vs. passive re-reading",
+      "source": "Cognitive psychology, spaced repetition meta-analysis"
+    }
+  ],
+  "sections": [
+    {
+      "h2": "What does 'neurodivergent' mean in a study context?",
+      "paragraphs": [
+        "Neurodivergent is an umbrella term for neurological differences in how your brain is wired—primarily ADHD, dyslexia, autism spectrum, and similar conditions. In academic contexts, it means your brain processes, retains, and organizes information differently from what traditional education assumes.",
+        "Each neurodivergent profile comes with distinct study challenges:",
+        "**ADHD (Attention-Deficit/Hyperactivity Disorder).** Your working memory—the mental \"scratch pad\" you use to hold information while processing—is smaller and less stable than neurotypical working memory. This makes note-taking during lectures exhausting: you're simultaneously listening, filtering, and writing. Executive function challenges mean task switching costs cognitive energy, so rigid schedules feel impossible. Focus is often high-intensity and selective rather than sustained.",
+        "**Dyslexia.** Your phonological processing—how your brain decodes written letters into sounds—differs, making traditional reading slower and more effortful. Text-to-speech bridges this gap dramatically. Writing is often slower than speech, so transcription-based note-taking (rather than handwriting) saves processing time and reduces error.",
+        "**Autism Spectrum.** Executive function and sensory processing create unique challenges. Multitasking (listening + writing + organizing socially) causes sensory overload. Time blindness and difficulty with flexible scheduling mean visual, structured tools are essential. Many autistic students benefit from written structure and predictability in their study environment.",
+        "The key insight: these challenges are not deficits. They're differences. The right tools remove friction by aligning with how your brain actually works, rather than forcing you into neurotypical study patterns."
+      ]
+    },
+    {
+      "h2": "What are the best study tools for neurodivergent students?",
+      "paragraphs": [
+        "There is no single \"best\" tool for neurodivergent students because neurodivergent brains are diverse. However, research and real-world feedback consistently point to five categories of tools that solve core study problems:",
+        "**1. Live Transcription (Lecture Capture).** Removes the cognitive load of simultaneous listening and writing. Lessonscriptor, Otter.ai, and similar tools create instant, searchable notes without requiring real-time effort. For ADHD, this frees working memory to actually listen. For dyslexia, a text transcript is easier to annotate than handwritten notes. For autism spectrum, structured written output removes the sensory demand of handwriting or typing in real-time.",
+        "**2. Text-to-Speech (Reading Support).** Speechify, Immersive Reader (built into Edge and OneNote), and similar tools add audio to written content. For dyslexia, simultaneous text + audio creates dual-encoding, which speeds reading and improves comprehension. For ADHD, audio maintains attention on dense reading. For autism, listening mode can reduce visual processing fatigue.",
+        "**3. Spaced Repetition (Memory Systems).** Anki, Quizlet, and similar tools use cognitive science to fight the forgetting curve. Active recall (testing yourself) builds long-term memory far more effectively than passive re-reading. For all three neurodivergent profiles, spaced repetition reduces the memory burden—you're not trying to cram; the tool spaces it for you.",
+        "**4. Task Breakdown (Executive Function).** Goblin Tools and similar task-decomposition apps break large assignments into dopamine-friendly micro-steps. For ADHD, this makes starting easier and removes executive paralysis. For autism, task clarity and structure reduce anxiety. For dyslexia, breaking writing tasks into smaller chunks eases cognitive load.",
+        "**5. Visual Scheduling (Time and Task Management).** Tiimo, Todoist with visual features, and calendar apps with time-blocking create visual structure around your day. For ADHD, external time structures compensate for time blindness. For autism, visual predictability reduces anxiety. For all neurodivergent profiles, seeing your time mapped out removes invisible cognitive load."
+      ]
+    },
+    {
+      "h2": "Best neurodivergent tools for capturing lecture content",
+      "paragraphs": [
+        "Capturing lecture content is arguably the highest-leverage study problem. You're trying to listen, understand, and write simultaneously—three tasks competing for limited working memory.",
+        "**Lessonscriptor is the top tool for this** because it transcribes any video, any platform, in real-time inside your browser. You hit play on a lecture video, exam review, online module, or recorded webinar, and Lessonscriptor generates a live transcript. No setup, no API keys, no pre-recording arrangements—works on YouTube, recorded Zoom, course video platforms, anywhere a video plays in Chrome.",
+        "Why this matters for neurodivergent students:",
+        "- **For ADHD:** You can listen without writing. Your working memory stays free for understanding, not transcription. The searchable transcript means you can find key terms later without re-watching the whole lecture.",
+        "- **For dyslexia:** The text transcript is easier to re-read and annotate than trying to decipher your own handwriting or rushed typing during a lecture.",
+        "- **For autism spectrum:** Real-time transcription creates structured, written output without the sensory demand of simultaneous note-taking. You can revisit the recording and read at your own pace.",
+        "Lessonscriptor also offers a free tier, which removes the friction of cost—many neurodivergent students are already managing accommodation paperwork and disability support requests. Free and browser-native means you can use it immediately, no IT department approval or funding application.",
+        "**Otter.ai** is a strong alternative if you prefer cloud-based recording and sharing with classmates or tutors. Otter.ai automatically transcribes audio files and recordings, but requires a subscription ($10–20/mo) for reasonable usage limits. It's less real-time than Lessonscriptor but better for collaborative note-sharing.",
+        "**Glean** (by Google Meet) transcribes Google Meet calls in real-time if your institution supports it. Free if your university uses Google Workspace, but only works for synchronous meetings, not recorded lectures.",
+        "**Verdict:** Lessonscriptor > Otter.ai > Glean for independent study and lecture recording. Lessonscriptor's browser-native, free, any-video approach wins for neurodivergent students juggling cost, accessibility requests, and platform flexibility."
+      ]
+    },
+    {
+      "h2": "Best tools for neurodivergent students who struggle with reading",
+      "paragraphs": [
+        "Reading is often the highest-friction study task for neurodivergent learners. Dyslexia makes reading slower and more tiring. ADHD makes sustained reading attention hard. Autism can involve hyperfocus on reading (which is great for passion projects but difficult to sustain on assigned texts).",
+        "**Speechify is the best text-to-speech tool for neurodivergent students.** It works on PDFs, websites, and Google Docs, and reads text aloud while highlighting the current sentence. This dual-encoding (text + audio simultaneously) is backed by cognitive science and has measurable impact for dyslexia.",
+        "Why Speechify wins:",
+        "- **Natural voice.** Unlike older screen readers with robotic voices, Speechify uses realistic text-to-speech that doesn't sound like text-to-speech.",
+        "- **Adjustable speed.** You can speed up narration to match your comprehension pace. For ADHD, faster audio maintains focus. For dyslexia, you can slow it down to follow along easily.",
+        "- **Works everywhere.** PDF, web, Google Docs, email attachments.",
+        "- **Affordable.** Free version covers most use cases; premium is ~$12/mo.",
+        "Research shows that simultaneous audio + text reading:\n- Improves comprehension by ~15% for dyslexia readers\n- Reduces reading fatigue (key for both dyslexia and ADHD)\n- Speeds reading by ~2–3x when you follow along actively",
+        "**Microsoft Immersive Reader** (built into Edge, OneNote, Office 365) is a free alternative. It's not as polished as Speechify, but it's zero-cost and works for institutional content if your university uses Microsoft tools.",
+        "**Verdict:** Speechify for independent study. Immersive Reader as a free backup if Speechify isn't accessible. Either one is transformative for dyslexia and ADHD reading.",
+        "Pro tip for lecturers/accessibility offices: If Lessonscriptor transcribes a lecture and Speechify reads the transcript aloud, neurodivergent students get a dual-modality record (written + audio) that removes two major friction points. This is often more accessible than traditional \"lecture notes provided by disability services.\""
+      ]
+    },
+    {
+      "h2": "Best tools for neurodivergent students with task management and executive function",
+      "paragraphs": [
+        "\"I know what I need to do, but I can't start.\" This is the ADHD and autism executive function challenge. Large assignments feel overwhelming. You're stuck between procrastination and hyperfocus. Rigid schedules don't stick.",
+        "**Goblin Tools is the hidden gem for ADHD task breakdown.** You paste a task description (\"Write a 3,000-word essay on climate policy\") and it auto-generates a micro-step checklist. Each step is tiny and feels achievable. You get that dopamine hit of checking boxes, which is exactly how ADHD brains prefer to work.",
+        "Example: \"Write essay\" becomes:\n- Pick 3 key sources\n- Read + annotate one source\n- Create outline (max 10 bullet points)\n- Write introduction (200 words)\n- Write first body section\n- Write second body section\n- Write conclusion\n- Edit once\n- Submit",
+        "Why this works: Executive function challenges aren't laziness—they're difficulty bridging the gap between \"goal\" and \"first step.\" Goblin Tools fills that gap.",
+        "**Tiimo is the best visual scheduling tool for neurodivergent students,** especially autism and ADHD. Unlike Todoist or Notion (which are text-heavy), Tiimo uses color-coded time blocks and visual calendars. You can see your entire week at a glance. Tasks have time estimates. Overdue items light up. For time-blind neurodivergent brains, this visual feedback is life-changing.",
+        "Why Tiimo wins for neurodiversity:\n- **Visual first.** Calendar view, not just list view. You can literally see your time.\n- **Autism-friendly.** Structured, predictable, no ambiguity. Tasks have clear start/end times.\n- **ADHD-friendly.** Color coding and notifications keep you oriented without requiring you to remember your schedule.",
+        "Tiimo costs ~$10/mo, which is worth it if time management is your biggest friction point.",
+        "**Todoist** is a free/cheaper alternative ($4/mo) if Tiimo is out of budget. It's less visual but sufficient for task lists and reminders. Priority levels help neurodivergent students who hyperfocus—you can tag \"must do today\" vs. \"nice to do eventually.\"",
+        "**Verdict:** Goblin Tools for breaking down assignments. Tiimo for scheduling and time management. Both complement each other: Goblin Tools gets you started; Tiimo keeps you on track."
+      ]
+    },
+    {
+      "h2": "Best tools for neurodivergent students for long-term memory and revision",
+      "paragraphs": [
+        "After you've attended lectures and read sources, revision is where most neurodivergent students struggle. You re-read the same notes, and nothing sticks. This is because re-reading is passive and doesn't trigger long-term memory formation.",
+        "**Anki is the gold-standard spaced repetition app for building long-term memory.** You create flashcards with a question on one side and the answer on the other. Anki then schedules review sessions: you see a card, try to recall the answer, and Anki automatically spaces the next review based on how well you remembered. Cards you find easy come back less often. Cards you struggle with appear more frequently.",
+        "Why spaced repetition works for neurodivergent brains:",
+        "- **Fights the forgetting curve.** After first exposure, you need to revisit information at optimal intervals. Anki automates this, removing the planning burden.",
+        "- **Active recall over passive re-reading.** Testing yourself (forced recall) is the most powerful memory technique. Passive re-reading does almost nothing.",
+        "- **Working memory friendly.** You're only recalling one piece of information at a time. No cognitive overload.",
+        "- **ADHD-compatible.** 10-minute Anki sessions (instead of 2-hour re-reading marathons) fit ADHD attention spans. Gamification (the \"streak\" of correct answers) provides dopamine feedback.",
+        "Research: Students using spaced repetition retain ~37% more information than passive re-readers over 3 months.",
+        "**Quizlet** is Anki's more social, less powerful cousin. It's easier to use, works well in groups, but doesn't automate spaced repetition the way Anki does. Use Quizlet if you prefer studying with classmates; use Anki if retention is your priority.",
+        "**How to use Anki as a neurodivergent student:**\n1. After each lecture (captured via Lessonscriptor), extract key concepts into Anki cards\n2. Study 10–15 minutes daily, not 2 hours the night before exams\n3. Anki will automatically surface the information you're weakest on\n4. Exam prep becomes review, not panic re-learning",
+        "Anki is free and open-source. There's a small community of neurodivergent students who swear by it.",
+        "**Verdict:** Anki for serious exam prep and long-term retention. Quizlet for casual group studying. If you learn spaced repetition early (first year), it compounds massively by graduation—you'll have built a personal knowledge base instead of cramming each semester."
+      ]
+    },
+    {
+      "h2": "Do universities provide assistive technology for neurodivergent students?",
+      "paragraphs": [
+        "Yes, but availability and quality vary widely.",
+        "Most universities with disability services offer:",
+        "- **Note-takers.** A human (often a fellow student) attends your lectures and shares notes. Better than nothing, but dependent on another person's accuracy and availability.",
+        "- **Exam accommodations.** Extra time (usually 25–50% more), separate quiet room, screen reader for written exams. Essential, but doesn't help with ongoing studying.",
+        "- **Lecture recordings.** Many institutions require instructors to record lectures for accessibility, though enforcement is inconsistent.",
+        "- **Caption files.** Provided for some video content, but often incomplete or auto-generated (error-prone).",
+        "The gap: These services are static and reactive. You have to request accommodations, get documentation approved, notify each instructor, and hope they comply. This paperwork is itself a cognitive burden.",
+        "**Where self-serve tools like Lessonscriptor come in:** You don't need to fill out an accommodation form to transcribe a lecture. You don't need disability services approval to use Speechify on a PDF. You don't need IT sign-off to set up Anki. You own your study setup immediately.",
+        "For neurodivergent students, this matters because:",
+        "- **Shame and stigma reduction.** You're using the same tool as anyone else, not a formal accommodation.",
+        "- **Speed.** Instant access vs. waiting weeks for accommodations approval.",
+        "- **Consistency.** Disability services vary by institution and instructor. A browser extension works the same everywhere.",
+        "- **Proactivity.** You choose tools that fit your learning style, rather than waiting for what your institution offers.",
+        "**What universities should do:** Provide access to tools like Lessonscriptor, Speechify, and Anki as part of digital accessibility. Some progressive institutions are starting to do this. If your university hasn't, make the case to your disability services office: \"These tools are more accessible and faster than traditional accommodations.\""
+      ]
+    },
+    {
+      "h2": "Comparison table: Neurodivergent study tools at a glance",
+      "paragraphs": [
+        "This table shows which tool addresses which neurodivergent challenge and which conditions benefit most:"
+      ],
+      "table": {
+        "headers": [
+          "Tool",
+          "Best for ADHD?",
+          "Best for Dyslexia?",
+          "Best for Autism?",
+          "Cost",
+          "Platform",
+          "Primary Use"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Lessonscriptor",
+              "✓✓✓ (Removes note-taking load)",
+              "✓✓✓ (Creates searchable transcript)",
+              "✓✓✓ (Structured written output)",
+              "Free + Premium",
+              "Chrome Browser",
+              "Live lecture transcription"
+            ]
+          },
+          {
+            "cells": [
+              "Speechify",
+              "✓✓ (Maintains reading focus)",
+              "✓✓✓ (Dual-encoding text + audio)",
+              "✓ (Optional reading support)",
+              "$0–12/mo",
+              "Web, PDF, Apps",
+              "Text-to-speech reading"
+            ]
+          },
+          {
+            "cells": [
+              "Anki",
+              "✓✓ (Short sessions, gamification)",
+              "✓✓ (Active recall)",
+              "✓✓ (Structured, predictable)",
+              "Free",
+              "Web, Desktop, Mobile",
+              "Spaced repetition revision"
+            ]
+          },
+          {
+            "cells": [
+              "Goblin Tools",
+              "✓✓✓ (Breaks executive function barrier)",
+              "✓ (Task clarity)",
+              "✓ (Structured steps)",
+              "Free",
+              "Web",
+              "Task decomposition"
+            ]
+          },
+          {
+            "cells": [
+              "Tiimo",
+              "✓✓ (Visual scheduling, time blocking)",
+              "✓ (Visual structure)",
+              "✓✓✓ (Predictability, clarity)",
+              "$10/mo",
+              "Web, Mobile",
+              "Time management & scheduling"
+            ]
+          },
+          {
+            "cells": [
+              "Otter.ai",
+              "✓ (Cloud recording)",
+              "✓✓ (Transcription)",
+              "✓ (Shared notes)",
+              "$10–20/mo",
+              "Web, Mobile, Desktop",
+              "Recording + transcription"
+            ]
+          },
+          {
+            "cells": [
+              "Quizlet",
+              "✓ (Social, informal)",
+              "✓ (Flashcards)",
+              "✓ (Collaborative)",
+              "$0–20/mo",
+              "Web, Mobile",
+              "Group study, flashcards"
+            ]
+          },
+          {
+            "cells": [
+              "Todoist",
+              "✓ (Reminders, prioritization)",
+              "✓ (Task organization)",
+              "✓ (Clear structure)",
+              "$0–4/mo",
+              "Web, Mobile",
+              "Task management"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "h2": "Getting started: A neurodivergent study setup",
+      "paragraphs": [
+        "You don't need all five tools immediately. Start with the one that addresses your biggest friction point.",
+        "**If capturing lectures is hard:** Lessonscriptor (free, instant).",
+        "**If reading makes you tired:** Speechify (free tier covers most documents).",
+        "**If you hyperfocus and lose track of time:** Tiimo (visual calendar) or Goblin Tools (micro-steps to get started).",
+        "**If you cram and forget everything:** Anki (free, high ROI for exam prep).",
+        "**If you're overwhelmed by deadlines:** Goblin Tools (breaks assignments into manageable steps).",
+        "Neurodivergent students often work best with layered tools: use Lessonscriptor to capture lectures → Speechify to review transcripts → Anki to memorize key concepts → Tiimo to schedule revision sessions → Goblin Tools if you're stuck on a long assignment.",
+        "The meta-principle: Tools should reduce friction, not add it. If a tool requires constant setup or doesn't feel natural, swap it out. Your brain's preferences matter."
+      ]
+    },
+    {
+      "h2": "Why this matters for universities and support staff",
+      "paragraphs": [
+        "If you're a disability services librarian, accessibility coordinator, or instructor reading this: neurodivergent students who have access to the right tools often don't need formal accommodations. They just need freedom to use them.",
+        "Consider recommending these tools to your neurodivergent students, or better yet, providing institutional access. When Lessonscriptor transcribes lectures automatically, you reduce the wait-list for note-takers. When students use Anki, exam accommodations become less critical because they've actually learned the material.",
+        "Neurodiversity is increasingly recognized as an asset, not a deficit. The barrier isn't the neurodivergent brain—it's study systems designed for neurotypical brains. These tools close that gap."
+      ]
+    }
+  ],
+  "cta": {
+    "headline": "Start capturing lectures for free with Lessonscriptor",
+    "body": "Don't take notes by hand during lectures again. Lessonscriptor transcribes any video in your browser in real-time. Free forever for basic transcription.",
+    "button_text": "Get Lessonscriptor Free",
+    "button_url": "https://chrome.google.com/webstore/detail/lessonscriptor",
+    "secondary_cta": {
+      "text": "Learn how to set up a full neurodivergent study stack",
+      "url": "/for-adhd-students"
+    }
+  },
+  "faq": {
+    "headline": "FAQs about neurodivergent study tools",
+    "questions": [
+      {
+        "q": "Do I need to disclose my neurodivergence to use these tools?",
+        "a": "No. These are mainstream study tools. You can use them whether or not you've registered with disability services or told your university. They're as universal as a calculator or spell-checker."
+      },
+      {
+        "q": "Are these tools expensive?",
+        "a": "Mostly free or cheap. Lessonscriptor, Anki, and Goblin Tools are free. Speechify and Tiimo have free tiers and cost $10–12/mo if you upgrade. Otter.ai costs $10–20/mo. Compare that to paying for a tutor or failing a course."
+      },
+      {
+        "q": "Will my professors think I'm cheating if I transcribe lectures?",
+        "a": "No. Lecture recording and note-taking are standard academic practices. Transcription is just a more efficient form of note-taking. If anything, professors appreciate students who are actively engaged with the material."
+      },
+      {
+        "q": "Can I use these tools in exams?",
+        "a": "That depends on your institution's exam policy. Anki study cards can be used in revision, but not during the exam itself (unless your accommodation explicitly permits it). Lessonscriptor and other tools are for studying, not exam day. Always check with your disability services or exam invigilators."
+      },
+      {
+        "q": "I'm neurodivergent but haven't been formally diagnosed. Can I still use these tools?",
+        "a": "Absolutely. You don't need a diagnosis to benefit from tools designed with neurodivergent brains in mind. If a tool helps you study better, use it. Formal diagnosis matters for formal accommodations, not for using free study software."
+      },
+      {
+        "q": "What if I'm neurodivergent but none of these tools resonate with me?",
+        "a": "Neurodiversity is diverse. These tools work for many neurodivergent students, but not all. Experiment, find what fits your brain, and don't feel obligated to use something just because it's popular. Your preferred study method is the right one for you."
+      }
+    ]
+  },
+  "summary": {
+    "headline": "Key takeaways on neurodivergent study tools",
+    "bullet_points": [
+      "Neurodivergent students (ADHD, dyslexia, autism spectrum) have distinct but overlapping study challenges: working memory, reading speed, executive function, and sensory overload.",
+      "Five tool categories address these challenges: live transcription (Lessonscriptor), text-to-speech (Speechify), spaced repetition (Anki), task breakdown (Goblin Tools), and visual scheduling (Tiimo).",
+      "Lessonscriptor is the highest-leverage tool for most neurodivergent students because it removes the cognitive load of simultaneous listening and writing during lectures.",
+      "You don't need formal accommodations or disability services approval to start using self-serve study tools. They're free, private, and universally applicable.",
+      "Spaced repetition (Anki) is backed by cognitive science and delivers 37% better retention than passive re-reading. Worth learning early in your academic career.",
+      "Combine tools in layers: Lessonscriptor captures lectures → Speechify reads transcripts → Anki memorizes concepts → Tiimo keeps you on schedule.",
+      "Universities are increasingly recognizing that access to the right tools is more effective than traditional accommodations alone."
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "The Best Study Tools for Neurodivergent Students in 2026",
+        "description": "5 evidence-backed study tools for neurodivergent students: transcription, text-to-speech, task breakdown, scheduling, and spaced repetition.",
+        "image": "/images/neurodivergent-study-tools-hero.png",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "@type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do I need to disclose my neurodivergence to use these tools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. These are mainstream study tools. You can use them whether or not you've registered with disability services."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are these tools expensive?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Mostly free or cheap. Lessonscriptor, Anki, and Goblin Tools are free. Speechify and Tiimo cost $10–12/mo if you upgrade."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my professors think I'm cheating if I transcribe lectures?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Lecture recording and note-taking are standard academic practices. Transcription is a more efficient form of note-taking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "I'm neurodivergent but haven't been formally diagnosed. Can I still use these tools?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Absolutely. You don't need a diagnosis to benefit from tools designed with neurodivergent brains in mind."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ItemList",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Lessonscriptor",
+            "description": "Live AI transcription for any video in Chrome. Free mode forever. Removes note-taking cognitive load for ADHD, creates searchable transcripts for dyslexia, structures output for autism spectrum."
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Speechify",
+            "description": "Text-to-speech for PDFs, websites, docs. Dual-encoding (text + audio) speeds reading by 2–3x for dyslexia and ADHD. Maintains focus during long reading sessions."
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Anki",
+            "description": "Spaced repetition flashcard system. Free, open-source. Automates optimal review intervals. 37% better retention than passive re-reading."
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Goblin Tools",
+            "description": "AI-powered task breakdown. Converts large assignments into dopamine-friendly micro-steps. Solves ADHD executive function paralysis."
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Tiimo",
+            "description": "Visual scheduling and time blocking. Color-coded calendars, task estimates, notifications. Essential for time-blind neurodivergent brains."
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://live-transcription-landing.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "For ADHD Students",
+            "item": "https://live-transcription-landing.vercel.app/for-adhd-students"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Blog",
+            "item": "https://live-transcription-landing.vercel.app/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "The Best Study Tools for Neurodivergent Students in 2026",
+            "item": "https://live-transcription-landing.vercel.app/blog/neurodivergent-study-tools"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CHADD - Attention-Deficit/Hyperactivity Disorder (ADHD)",
+      "url": "https://chadd.org/",
+      "accessed": "2026-04-28",
+      "cited_for": "Working memory and executive function challenges in ADHD"
+    },
+    {
+      "title": "British Dyslexia Association - Research & Evidence",
+      "url": "https://www.bdadyslexia.org.uk/",
+      "accessed": "2026-04-28",
+      "cited_for": "Phonological processing, reading speed improvements with dual-encoding, text-to-speech effectiveness"
+    },
+    {
+      "title": "National Autistic Society - Education",
+      "url": "https://www.autism.org.uk/",
+      "accessed": "2026-04-28",
+      "cited_for": "Executive function and sensory processing in autism spectrum students"
+    },
+    {
+      "title": "ADDitude Magazine - ADHD Studies & Research",
+      "url": "https://www.additudemag.com/",
+      "accessed": "2026-04-28",
+      "cited_for": "Survey on neurodivergent students and traditional note-taking cognitive overload"
+    },
+    {
+      "title": "Dunlosky et al. (2013) - Improving Students' Learning With Effective Learning Techniques",
+      "url": "https://www.apa.org/pubs/journals/edu/13-1/1",
+      "accessed": "2026-04-28",
+      "cited_for": "Spaced repetition meta-analysis and active recall superiority over passive re-reading"
+    },
+    {
+      "title": "Speechify - Text-to-Speech Research",
+      "url": "https://speechify.com/",
+      "accessed": "2026-04-28",
+      "cited_for": "Dual-encoding effectiveness for dyslexia and reading comprehension"
+    },
+    {
+      "title": "Goblin Tools - Task Breakdown AI",
+      "url": "https://goblin.tools/",
+      "accessed": "2026-04-28",
+      "cited_for": "Executive function support and task decomposition for ADHD"
+    },
+    {
+      "title": "Tiimo - Visual Time Management for Neurodivergence",
+      "url": "https://tiimo.app/",
+      "accessed": "2026-04-28",
+      "cited_for": "Visual scheduling for time-blind and neurodivergent brains"
+    }
+  ],
+  "internal_links_map": {
+    "/for-adhd-students": "Lessonscriptor for ADHD students (pillar page)",
+    "/blog/how-to-take-notes-with-adhd": "Note-taking strategies for ADHD",
+    "/blog/best-apps-adhd-students-2026": "App recommendations for ADHD learners",
+    "/blog/best-chrome-extensions-adhd-students": "Chrome extension roundup for ADHD",
+    "/blog/adhd-university-accommodation-tech": "Accommodation and assistive tech at university",
+    "/live-captions-chrome": "Live captions in Chrome (feature page)",
+    "/transcribe-video-to-text": "Video transcription service page"
+  }
+}

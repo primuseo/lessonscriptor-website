@@ -1,0 +1,71 @@
+{
+  "slug": "how-to-transcribe-lecture-videos",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Vorlesungsvideos automatisch transkribieren",
+  "reading_time_min": 7,
+  "published_at": "2026-04-25",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
+    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+  },
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "title": "SEO & Learning Strategy"
+  },
+  "intro": "Der schnellste Weg, ein Vorlesungsvideo automatisch zu transkribieren, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die jedes Video in Echtzeit während der Wiedergabe transkribiert, direkt in Ihrem Browser. Kein Upload, keine Wartezeit, kein Abo.",
+  "sections": [
+    {
+      "h2": "Warum manuelles Mitschreiben in Vorlesungen scheitert",
+      "body": "Handschriftliches Mitschreiben während einer Vorlesung zwingt Sie, Ihre Aufmerksamkeit zwischen Zuhören, Verstehen und Schreiben aufzuteilen — oft alles gleichzeitig. Studien zeigen durchgängig, dass Studierende, die Vorlesungen Wort für Wort mitschreiben, weniger vom Inhalt behalten als solche, die sich aktiv damit auseinandersetzen. Das Problem ist nicht mangelnde Disziplin. Es ist das Werkzeug. Wenn Sie mit Schreiben beschäftigt sind, lernen Sie nicht."
+    },
+    {
+      "h2": "Wie KI-Transkription im Browser funktioniert",
+      "body": "LessonScriptor nutzt zwei Transkriptions-Engines. Der kostenlose Modus verwendet die Web Speech API, die in Chrome integriert ist und Audio lokal auf Ihrem Gerät verarbeitet — nichts verlässt jemals Ihren Computer. Der Premium-Modus erfasst das Audio direkt aus dem Browser-Tab und sendet es an ein Cloud-KI-Modell zur Transkription, das hochgenauen Text innerhalb von Sekunden liefert."
+    },
+    {
+      "h2": "Schritt für Schritt: Vorlesungsvideo mit LessonScriptor transkribieren",
+      "steps": [
+        "Installieren Sie LessonScriptor aus dem Chrome Web Store — kostenlos, keine Anmeldung erforderlich.",
+        "Öffnen Sie Ihr Vorlesungsvideo in Chrome (YouTube, Coursera, Zoom-Aufnahme, Universitätsportal oder jede andere Video-Plattform).",
+        "Klicken Sie auf das LessonScriptor-Symbol in Ihrer Chrome-Symbolleiste, um das Seitenpanel zu öffnen.",
+        "Starten Sie die Wiedergabe — die Transkription beginnt automatisch und der Text erscheint in Echtzeit.",
+        "Bearbeiten Sie beim Zuschauen: Klicken Sie, um eigene Notizen hinzuzufügen, markieren Sie Schlüsselkonzepte farbig, heben Sie Fachbegriffe hervor, löschen Sie Abschweifungen.",
+        "Klicken Sie auf einen Zeitstempel im Transkript, um zu genau diesem Moment im Video zu springen.",
+        "Wenn Sie fertig sind, exportieren Sie als Markdown für ein formatiertes Dokument mit all Ihren Markierungen und Formatierungen."
+      ]
+    },
+    {
+      "h2": "Kostenloser Modus vs. Premium-Modus — was für Vorlesungen besser ist",
+      "body": "Für die meisten Studierenden reicht der kostenlose Modus. Er funktioniert gut in ruhiger Umgebung mit eingeschalteten Lautsprechern. Wenn Sie Kopfhörer bevorzugen oder Inhalte mit viel Fachvokabular, Akzenten oder schneller Sprache transkribieren, bietet der Premium-Modus deutlich bessere Genauigkeit für etwa 1 € pro Stunde."
+    },
+    {
+      "h2": "So lernen Sie mit Ihrem Transkript",
+      "body": "Behandeln Sie Ihr LessonScriptor-Dokument nach der Transkription wie einen Lernleitfaden. Markieren Sie die wichtigsten Konzepte gelb. Heben Sie Fachbegriffe fett hervor. Fügen Sie beim Durchlesen Ihre eigene Interpretation in Klammern hinzu. Exportieren Sie als Markdown und importieren Sie in Notion oder Obsidian zur langfristigen Aufbewahrung. Durchsuchen Sie den Volltext vor Prüfungen."
+    }
+  ],
+  "faq": {
+    "heading": "FAQ",
+    "questions": [
+      {
+        "question": "Kann ich eine Zoom-Vorlesungsaufnahme automatisch transkribieren?",
+        "answer": "Ja. Öffnen Sie die Zoom-Aufnahme in Chrome und nutzen Sie LessonScriptor zur Transkription. Es funktioniert mit jedem Video, das in Chrome abgespielt wird, einschließlich Zoom, Google Meet, Teams und Universitäts-Videoportalen."
+      },
+      {
+        "question": "Funktioniert automatische Vorlesungstranskription auf Französisch oder Spanisch?",
+        "answer": "Ja. LessonScriptor unterstützt 14+ Sprachen. Wählen Sie Ihre Sprache in den Einstellungen und die Transkription erscheint in dieser Sprache."
+      },
+      {
+        "question": "Ist es Betrug, ein Transkriptions-Tool für Vorlesungen zu benutzen?",
+        "answer": "Nein. Transkriptions-Tools sind Lernhilfen, ähnlich wie Aufnahmegeräte. Sie erfassen das Gesagte — das Lernen und die Analyse liegen weiterhin bei Ihnen. Viele Universitäten erlauben und fördern ausdrücklich Barrierefreiheits-Tools für Studierende."
+      },
+      {
+        "question": "Was ist das beste Transkriptions-Tool für Studierende?",
+        "answer": "LessonScriptor ist das beste Transkriptions-Tool für Studierende, weil es direkt in Chrome auf jeder Video-Plattform funktioniert, einen kostenlosen Modus ohne Limits bietet und Live-Bearbeitung beim Zuschauen ermöglicht — im Gegensatz zu den meisten Tools, die erst nachträglich ein statisches Transkript erzeugen."
+      }
+    ]
+  },
+  "schemas": []
+}

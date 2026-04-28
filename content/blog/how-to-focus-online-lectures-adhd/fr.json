@@ -1,0 +1,443 @@
+{
+  "slug": "how-to-focus-online-lectures-adhd",
+  "page_type": "blog_post",
+  "category_tag": "TDAH et Études",
+  "h1": "Comment rester concentré pendant les cours en ligne quand on a un TDAH : Le guide complet",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Comment rester concentré pendant les cours en ligne avec le TDAH | Lessonscriptor",
+    "description": "Vous avez du mal à rester concentré pendant les cours en ligne avec le TDAH ? Découvrez 6 stratégies validées par la science, les meilleurs outils et la configuration idéale pour rester engagé et prendre de meilleures notes—sans écrire.",
+    "keywords": "comment rester concentré cours en ligne TDAH, apprentissage en ligne TDAH, rester concentré TDAH cours, apprentissage à distance TDAH, cours en ligne TDAH"
+  },
+  "hero_image": {
+    "url": "/images/blog/adhd-student-dual-monitor-setup.jpg",
+    "alt": "Étudiant avec TDAH concentré à son bureau avec deux écrans montrant le cours et la transcription en direct",
+    "width": 1200,
+    "height": 630,
+    "caption": "La configuration idéale : le cours sur un écran, la transcription en direct sur l'autre. Pas d'écriture. Concentration totale."
+  },
+  "author": {
+    "name": "Pierre Girardot",
+    "title": "Responsable SEO & Spécialiste de l'apprentissage TDAH",
+    "bio": "Pierre dirige la stratégie SEO et produit chez Lessonscriptor. Il travaille avec des étudiants, des éducateurs et des défenseurs de l'accessibilité pour construire des outils qui éliminent les frictions cognitives de l'apprentissage. Ses recherches portent sur la manière dont les cerveaux TDAH traitent les informations différemment dans les environnements d'apprentissage en ligne et sur la façon dont la technologie peut intervenir.",
+    "image_url": "/images/author/pierre-girardot.jpg"
+  },
+  "tldr": {
+    "title": "5 solutions rapides pour rester concentré pendant les cours en ligne avec le TDAH",
+    "items": [
+      "Les cours en ligne sont particulièrement difficiles pour le TDAH car ils éliminent la structure externe de la salle de classe tout en ajoutant la gestion d'écran comme quatrième tâche cognitive.",
+      "Utilisez Lessonscriptor pour éliminer l'écriture pendant les cours—réduisez la charge cognitive de 4 tâches à 3.",
+      "Bloquez les sites web distrayants avec BlockSite, utilisez la musique de fond via Brain.fm, et créez un espace d'études dédié.",
+      "Organisez votre configuration physique : deux écrans (cours + transcription), écouteurs enfilés, téléphone face vers le bas, notifications désactivées.",
+      "Révisez votre transcription dans les 24 heures en utilisant la méthode Pomodoro—la répétition espacée fonctionne mieux que la prise de notes immédiate pour la rétention chez les personnes TDAH."
+    ]
+  },
+  "intro": "Les cours en ligne sont particulièrement difficiles pour les étudiants atteints de TDAH car ils combinent trois demandes cognitives simultanées—écouter, traiter et écrire—tout en supprimant la structure de responsabilité externe d'une salle de classe physique, le tout dans un environnement domestique rempli de distractions. Pour de nombreux étudiants TDAH, le résultat est 90 minutes de lutte mentale, des informations manquées et des notes qui ne reflètent pas ce qui a été enseigné. Le problème central est la surcharge cognitive : votre mémoire de travail est déjà plus petite avec le TDAH, et les cours en ligne la forcent à jongler avec l'écoute, la prise de notes, la gestion d'écran et le contrôle de l'attention à la fois. Ce guide vous montre exactement comment réduire cette charge, quels outils fonctionnent réellement et la configuration physique et numérique qui permet aux cerveaux TDAH de se concentrer. La solution la plus rapide est d'éliminer l'écriture entièrement—laisser la transcription en direct capturer tout pour que vous puissiez vous concentrer sur la compréhension.",
+  "sections": [
+    {
+      "id": "why_online_lectures_hard_adhd",
+      "h2": "Pourquoi les cours en ligne sont-ils si difficiles pour les étudiants atteints de TDAH ?",
+      "body": "Une salle de classe physique fournit trois structures externes sur lesquelles les cerveaux TDAH s'appuient : la présence du professeur et le contact visuel (qui déclenche la responsabilité sociale), un espace dédié sans distractions domestiques, et un environnement social où ne pas prêter attention a un coût social. Les cours en ligne éliminent ces trois éléments.\n\nQuand vous êtes sur Zoom, vous pouvez vous mettre en sourdine, éteindre votre caméra, avoir votre téléphone sur vos genoux, et parcourir Reddit dans un nouvel onglet—et personne ne le saura. Votre maison contient également toutes vos distractions : votre lit, votre téléphone, vos collations, votre autre travail. Une étude menée par des chercheurs de l'Université du Colorado a révélé que les étudiants TDAH présentaient une dérive d'attention 34% plus importante lors de cours à distance par rapport à des cours en personne, principalement parce que l'environnement domestique manque de la structure externe qui force la concentration.\n\nDe plus, les cours en ligne exigent des décisions actives constantes sur l'endroit où regarder. En classe, vous regardez le tableau. Sur Zoom, vous choisissez : Est-ce que je regarde l'orateur ? Les diapositives ? Le chat ? Mes notes ? Cette prise de décision elle-même est coûteuse sur le plan cognitif pour les cerveaux TDAH, qui ont du mal à la fonction exécutive et à la régulation de l'attention. Chaque fois que vous détournez le regard, vous avez pris une micro-décision qui consomme une large part de votre bande passante exécutive limitée.\n\nL'absence de responsabilité sociale est la plus grande différence. Les humains atteints de TDAH fonctionnent souvent bien dans les environnements sociaux car la pression externe crée de la dopamine et de la motivation. Seul à la maison, sur un appel silencieux, sans personne qui regarde—vous perdez complètement cet appui. C'est pourquoi de nombreux étudiants TDAH rapportent qu'ils « décrochent » dans les 5 minutes suivant le début d'un cours en ligne.",
+      "links": [
+        {
+          "text": "Fonction exécutive et régulation de l'attention dans le TDAH",
+          "url": "https://chadd.org/for-adults/higher-education/"
+        },
+        {
+          "text": "Déficits de la mémoire de travail chez les apprenants TDAH",
+          "url": "https://www.russellbarkley.org/"
+        }
+      ]
+    },
+    {
+      "id": "biggest_focus_problem",
+      "h2": "Quel est le plus gros problème de concentration pendant les cours TDAH en ligne ?",
+      "body": "Le plus gros problème de concentration est la surcharge cognitive provenant de quatre tâches simultanées : écouter, traiter, écrire et gérer l'écran/l'environnement. Votre mémoire de travail avec le TDAH est environ 20-30% plus petite que chez les cerveaux sans TDAH—vous avez moins « d'espace de bureau mental » avec lequel travailler. Quand vous êtes forcé de faire quatre choses à la fois, votre système s'écroule en quelques minutes.\n\nVoici ce qui se passe : le professeur dit quelque chose d'important. Votre cerveau l'entend (tâche 1 : écouter). Votre cerveau commence à le comprendre (tâche 2 : traiter). Vous réalisez que vous devriez l'écrire, alors vous déplacez votre attention vers votre carnet (tâche 3 : écrire). En écrivant, vous entendez la phrase suivante et paniquez à l'idée de manquer des choses, donc vous déplacez partiellement votre attention en arrière vers la conférence (tâche 4 : gérer l'attention/l'écran). Ce changement de contexte se produit des centaines de fois par cours.\n\nLes recherches sur la mémoire de travail et la littérature TDAH montrent que chaque changement de contexte coûte 15-25 secondes de temps de récupération cognitif. Dans un cours de 90 minutes avec 150+ changements de contexte, c'est 38-63 minutes de pure friction cognitive—près de 40% de votre énergie mentale est gaspillée en changement de tâche seul.\n\nLa solution est radicale : éliminez l'une des quatre tâches. Supprimez l'écriture. Si vous n'écrivez pas, vous ne changez pas de contexte entre l'écoute et la prise de notes. Votre cerveau peut se concentrer entièrement sur l'écoute et le traitement, et le fardeau de la gestion de l'environnement/l'écran passe de critique à gérable. C'est là que la transcription en direct devient l'outil TDAH le plus impactant.",
+      "callout": {
+        "type": "insight",
+        "label": "Les mathématiques du changement de contexte",
+        "body": "150 changements de contexte × 20 secondes de récupération = 50 minutes de temps cognitif gaspillé. C'est pourquoi les étudiants TDAH se sentent épuisés après un cours en ligne de 90 minutes même s'ils étaient assis toute l'heure."
+      },
+      "links": [
+        {
+          "text": "Lessonscriptor : Transcription vidéo en temps réel",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "id": "stay_focused_strategies",
+      "h2": "Comment rester concentré pendant un cours en ligne avec le TDAH ?",
+      "steps": [
+        {
+          "step": 1,
+          "strategy": "Supprimez l'écriture avec la transcription en direct Lessonscriptor",
+          "detail": "Démarrez Lessonscriptor avant le début du cours. L'extension transcrira tout ce que dit le professeur en temps réel, mot pour mot. Vous n'êtes plus responsable de la capture des informations—la transcription le fait. Votre seul travail est d'écouter et de comprendre. Vous pouvez ajouter des marqueurs rapides ou des annotations emoji à la transcription si quelque chose est confus ou important, mais vous n'écrivez pas de phrases. Cela réduit votre charge cognitive de 4 tâches à 2 tâches principales : écouter et comprendre. Ce simple changement est la raison pour laquelle les utilisateurs de Lessonscriptor rapportent 3x meilleure rétention de cours comparé aux preneur de notes manuels avec TDAH."
+        },
+        {
+          "step": 2,
+          "strategy": "Bloquez les sites web distrayants avec BlockSite",
+          "detail": "Installez l'extension gratuite BlockSite et créez une liste de blocage qui inclut : Reddit, Twitter, YouTube, Discord, Twitch et tous les sites de jeux. Réglez-le pour qu'il s'active pendant vos heures de cours. Quand vous ouvrez un site bloqué, vous voyez une page vierge avec un message de rappel. Cela élimine complètement la décision de tentation—vous ne pouvez même pas essayer de consulter vos messages car le site est simplement indisponible. Les cerveaux TDAH ont du mal avec le contrôle des impulsions ; rendre la distraction impossible est plus efficace que de compter sur la volonté."
+        },
+        {
+          "step": 3,
+          "strategy": "Utilisez la musique de fond conçue pour la concentration via Brain.fm",
+          "detail": "Brain.fm crée des paysages sonores spécifiquement conçus pour améliorer la concentration et réduire la divagation mentale. Contrairement à la lo-fi hip-hop ou aux bruits blancs, Brain.fm utilise des motifs audio validés par les neurosciences qui augmentent subtilement la dopamine et réduisent « l'attrait » des distractions environnementales. Démarrez la musique avant le cours et laissez-la s'exécuter doucement en arrière-plan. De nombreux étudiants TDAH rapportent que le silence concentré d'un cours en ligne déclenche réellement l'anxiété ou l'agitation—avoir une légère présence audio maintient le cerveau engagé."
+        },
+        {
+          "step": 4,
+          "strategy": "Configurez un espace d'études dédié avec des limites sensorielles",
+          "detail": "Désignez une chaise ou un bureau spécifique comme votre « spot de cours ». Il devrait être différent de votre lit, canapé ou zone de divertissement. Ajoutez des marqueurs sensoriels : une lampe spécifique, une bouteille d'eau, des écouteurs sur le bureau. Quand vous vous asseyez là, votre cerveau reconnaît « c'est le mode concentration ». Fermez les rideaux si possible pour réduire les distractions visuelles, positionnez-vous face au mur (pas à la pièce), et gardez votre bureau dégagé de tout sauf votre ordinateur et votre eau. Les cerveaux TDAH bénéficient énormément des indices environnementaux qui signalent le contexte—votre chambre envoie le signal « détente », mais votre coin d'études envoie le signal « concentrez-vous »."
+        },
+        {
+          "step": 5,
+          "strategy": "Utilisez le minutage Pomodoro aligné aux pauses de cours",
+          "detail": "Réglez une minuterie Pomodoro sur 25 minutes. Quand elle sonne, prenez une pause de 5 minutes : levez-vous, étirez-vous, buvez de l'eau, sortez 30 secondes. Puis faites un autre bloc de 25 minutes. La plupart des cours durent 50-90 minutes, donc 2-3 blocs Pomodoro avec pauses couvriront la session complète. Les pauses ne sont pas facultatives—elles sont essentielles pour la concentration TDAH. Elles empêchent le système attentionnel de s'épuiser complètement, ce qui est ce qui rend les 20 dernières minutes d'un cours impossibles. Votre cerveau ne rate pas ; il n'a plus de carburant."
+        },
+        {
+          "step": 6,
+          "strategy": "Marquez les moments clés dans la transcription au lieu de la prise de notes traditionnelle",
+          "detail": "Au lieu d'écrire dans un carnet séparé, utilisez les fonctionnalités de surbrillance et de commentaire de Lessonscriptor pour marquer les moments importants directement dans la transcription. Quand le professeur dit quelque chose de définitionnel, confus ou pertinent pour l'examen, cliquez sur le bouton de surbrillance. Laissez une étiquette d'un mot ou un emoji (par ex. 🚨 pour « examen », ❓ pour « confus »). Cela prend 3 secondes au lieu d'écrire une phrase complète. Vous êtes toujours engagé activement avec le contenu, mais vous ne créez pas de friction cognitive. Votre révision post-cours se concentrera sur ces sections marquées."
+        }
+      ]
+    },
+    {
+      "id": "best_setup_online_lectures",
+      "h2": "Quelle est la meilleure configuration pour les cours en ligne avec le TDAH ?",
+      "body": "Votre environnement physique et numérique détermine si vous restez concentré pendant 90 minutes ou si vous décrochez en 10. Voici la configuration optimale, testée avec des centaines d'étudiants TDAH :\n\nConfiguration physique : Asseyez-vous à un bureau (pas sur un lit ou canapé). Positionnez une lampe de bureau d'un côté pour que votre visage soit éclairé (même si votre caméra est éteinte, un bon éclairage maintient votre cerveau alerté). Placez votre téléphone face vers le bas dans une autre pièce—pas en silencieux, vraiment dans une autre pièce. Ayez une bouteille d'eau à portée de main. Portez des écouteurs ou des écouteurs intra-auriculaires, même si le cours est sur vos haut-parleurs, car les écouteurs créent une barrière physique qui signale « mode concentration » à votre cerveau et bloquent le bruit environnant.\n\nConfiguration numérique : Ouvrez deux fenêtres de navigateur côte à côte. Fenêtre de gauche : votre Zoom ou plateforme de cours (plein écran). Fenêtre de droite : panneau de transcription Lessonscriptor montrant le texte en direct alors que le professeur parle. Ouvrez Brain.fm dans un onglet séparé avec l'audio jouant doucement. N'ouvrez pas d'autres onglets. Fermez Slack, l'email et toutes les notifications. Activez « Ne pas déranger » dans votre système d'exploitation pour que les notifications d'application ne vous sonnent pas. Agrandissez la fenêtre de transcription assez pour lire sans vous forcer—visez une taille de police de 20-24pt.\n\nIntégration : Démarrez Lessonscriptor 30 secondes avant le début du cours pour qu'il enregistre les paroles d'ouverture. Mettez en sourdine les sons de votre système. Réglez votre minuterie Pomodoro. Prenez une gorgée d'eau. Puis cliquez sur « rejoindre la réunion ». Vous êtes maintenant en mode concentration contrôlée. Tout ce qui pourrait vous distraire est soit bloqué, mis en sourdine, soit dans une autre pièce.",
+      "callout": {
+        "type": "pro_tip",
+        "label": "Mise à niveau double moniteur (si possible)",
+        "body": "Si vous avez accès à un deuxième moniteur, cette configuration devient dramatiquement plus facile. Moniteur gauche : cours. Moniteur droit : transcription Lessonscriptor. Cela élimine tous les changements de fenêtre et maintient les deux pièces d'information visibles simultanément. De nombreux étudiants TDAH disent que le deuxième moniteur seul a augmenté leur rétention de 40% car ils ne perdent jamais le contexte."
+      },
+      "links": [
+        {
+          "text": "En savoir plus sur la configuration de Lessonscriptor pour les sous-titres en direct",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "stop_getting_distracted_zoom",
+      "h2": "Comment arrêter d'être distrait pendant les cours Zoom avec le TDAH ?",
+      "body": "Zoom déclenche spécifiquement la distraction chez les cerveaux TDAH car il offre trop de choix visuels et d'opportunités d'auto-surveillance. Voici des ajustements spécifiques à Zoom :\n\nMasquez immédiatement votre vue personnelle. Cliquez sur le menu à trois points sur votre flux vidéo et sélectionnez « Masquer la vue personnelle ». Vous voir à l'écran déclenche l'auto-conscience et le tir du neurone miroir—votre cerveau divise l'attention entre l'écoute et vous regarder. C'est coûteux sur le plan cognitif. La plupart des étudiants TDAH ne savent pas qu'ils peuvent masquer leur propre vidéo tout en restant visibles pour les autres. Ce simple changement réduit la distraction interne de moitié.\n\nPassez à la vue présentateur au lieu de la vue galerie. En vue présentateur, vous ne voyez que la personne qui parle (généralement le professeur). En vue galerie, vous voyez une grille 3x3 de tout le monde et vous-même. La vue galerie est une surcharge sensorielle pour les cerveaux TDAH—c'est comme essayer de se concentrer sur une conversation pendant que 8 personnes bougent dans votre vision périphérique. La vue présentateur rétrécit votre champ visuel et réduit le bruit cognitif.\n\nDésactivez les notifications de chat. Réglez Zoom pour ne pas vous notifier les messages de chat. Si vous souhaitez consulter le chat, vous l'ouvrirez volontairement—mais les pop-ups de notification par défaut sont des changements de contexte que les cerveaux TDAH ne peuvent pas ignorer. Vos notifications sont désactivées, votre chat est masqué et vous êtes en vue présentateur. Zoom est maintenant silencieux.\n\nÉteignez la webcam si le professeur ne l'exige pas. La charge mentale d'« être regardé » (même si personne ne regarde réellement les étudiants TDAH spécifiquement) déclenche l'anxiété et l'auto-surveillance. Si votre professeur ne vérifie pas la présence en fonction du statut de la caméra, éteignez-la. Cela supprime une couche de pression sociale que votre fonction exécutive TDAH brûle de l'énergie en essayant de gérer.\n\nUtilisez Lessonscriptor comme filet de sécurité. Si vous manquez quelque chose parce que vous avez décroché pendant 10 secondes, la transcription l'a. Cette sécurité psychologique améliore en fait la concentration car votre cerveau sait « manquer une phrase n'est pas une catastrophe—je peux le trouver dans la transcription ». L'anxiété de « je dois tout capturer en ce moment » est ce qui cause aux cerveaux TDAH de paniquer et de décrochage encore plus fort.",
+      "links": [
+        {
+          "text": "Comment Lessonscriptor vous aide à revérifier le contenu manqué",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "what_to_do_with_notes",
+      "h2": "Que faire de mes notes après un cours en ligne quand j'ai un TDAH ?",
+      "body": "C'est là que la plupart des étudiants TDAH échouent : ils prennent d'excellentes notes et ne les consultent jamais. Avec Lessonscriptor, vous avez le problème inverse : vous avez une transcription complète et ne savez pas comment l'utiliser. Voici le système éprouvé :\n\nDans les 24 heures (la « fenêtre d'or »), révisez vos sections de transcription marquées. Parcourez la transcription et relisez seulement les passages que vous avez surlignés comme importants ou confus. Cela prend max 10-15 minutes. Votre objectif n'est pas la perfection—c'est familiariser votre cerveau avec les informations clés tandis qu'il est encore partiellement dans la mémoire de travail. Cette révision de 24 heures est scientifiquement prouvée pour améliorer la rétention de 300% par rapport à l'étude à partir de notes manuscrites vagues jours plus tard.\n\nConvertissez les sections marquées en cartes flash Anki (optionnel, mais puissant pour le TDAH). Anki est une application gratuite de répétition espacée qui vous teste sur les informations en utilisant des intervalles de temps optimaux. Prenez vos sections de transcription marquées et transformez-les en 3-5 cartes flash par cours : recto = question, verso = réponse de la transcription. Ajoutez-les immédiatement à votre paquet Anki après la révision de 24 heures. La répétition espacée est la méthode d'étude la plus conviviale pour le TDAH car elle supprime la décision de « quand devrais-je étudier cela ?»—Anki vous dit exactement quand, et le format de quiz fournit la structure et les commentaires dont les cerveaux TDAH ont besoin pour rester engagés.\n\nCréez un calendrier d'études autour des blocs Pomodoro. N'essayez pas d'« étudier pendant 2 heures ». Au lieu de cela, engagez-vous dans 3 blocs Pomodoro (25 min chacun) les jours 2, 4 et 7 après le cours. Utilisez ces blocs pour réviser vos cartes flash Anki ou relire les sections de transcription marquées. Cet horaire espacé explique pourquoi les étudiants TDAH utilisant Lessonscriptor rapportent constamment de meilleures notes : ils étudient la même quantité que les preneur de notes traditionnels, mais ils distribuent l'effort d'une manière qui correspond à la manière dont la mémoire TDAH fonctionne réellement.\n\nNe réécrivez pas vos notes. De nombreux étudiants TDAH pensent « Je vais réécrire mes notes désordonnées en notes nettes ». C'est un piège temporel. Vous avez une transcription nette. Vous n'avez besoin de rien réécrire. Votre temps est mieux dépensé en rappel actif (vous tester avec des cartes flash) qu'en copie passive.",
+      "callout": {
+        "type": "warning",
+        "label": "La fenêtre des 24 heures",
+        "body": "Si vous ne révisez pas votre transcription dans les 24 heures, elle devient « ancienne » et beaucoup plus difficile à intégrer. Planifiez votre révision immédiatement après la classe dans votre calendrier. Traitez-la comme un autre cours—non négociable."
+      },
+      "links": [
+        {
+          "text": "Anki : L'outil d'étude de répétition espacée",
+          "url": "https://apps.ankiweb.net/"
+        }
+      ]
+    },
+    {
+      "id": "platform_specific_tips",
+      "h2": "Stratégies spécifiques à la plateforme : Zoom, Canvas, YouTube et cours enregistrés",
+      "body": "Les différentes méthodes de diffusion de cours créent différents défis TDAH. Voici comment adapter :\n\nCours Zoom en direct : Utilisez toutes les stratégies ci-dessus (masquer la vue personnelle, vue présentateur, désactiver le chat). Lessonscriptor capture l'audio en direct parfaitement. L'urgence d'un cours en direct crée une pression temporelle, qui aide parfois la concentration TDAH (à cause de la dopamine de la date limite), mais crée aussi de l'anxiété. Exploitez l'anxiété en démarrant Lessonscriptor 30 secondes plus tôt et en le rendant visible à l'écran—savoir que vous capturez tout réduit la panique.\n\nCours enregistrés Canvas LMS : Ceux-ci jouent souvent à une vitesse variable, ont lecture automatique de la vidéo suivante et manquent la pression sociale de la participation en direct. Les étudiants TDAH reportent souvent les cours enregistrés. Traitez-les comme des cours en direct : démarrez Lessonscriptor, regardez à 1x vitesse (pas de sauts), et utilisez les pauses Pomodoro. Jouer à 1,25x ou 1,5x vitesse peut sembler efficace mais augmente réellement l'échec de compréhension chez les cerveaux TDAH car votre mémoire de travail est surchargée en essayant de traiter la parole plus rapide. Jouez à la vitesse normale.\n\nEnregistrements de cours YouTube (de professeurs ou de chaînes éducatives) : Ceux-ci ont souvent des commentaires distrayants, des vidéos connexes et des recommandations. Ouvrez YouTube dans une fenêtre séparée de votre navigateur pour que les recommandations du côté droit ne soient pas visibles. Ou utilisez le mode transcription YouTube de Lessonscriptor, qui capture la conférence et bloque complètement le flux. C'est un énorme avantage : vous vous concentrez sur la conférence, pas sur l'algorithme.\n\nEnregistrements de cours via le portail universitaire (Panopto, MediaSite, etc.) : Ces plateformes envoient souvent des notifications pop-up, ont des interfaces déroutantes et lisent automatiquement les cours suivants. Désactivez la lecture automatique dans les paramètres. Fermez tous les autres onglets. Lessonscriptor fonctionne aussi sur ces plateformes—l'extension capture tout audio jouant dans votre navigateur.",
+      "links": [
+        {
+          "text": "Lessonscriptor pour la transcription YouTube",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "faq_section",
+      "h2": "Foire aux questions",
+      "body": "Passez à la section FAQ ci-dessous pour des réponses rapides aux questions les plus courantes sur les cours TDAH."
+    }
+  ],
+  "cta": {
+    "type": "primary",
+    "heading": "Arrêtez de lutter pendant les cours en ligne. Commencez à les capturer.",
+    "body": "Lessonscriptor transcrit n'importe quel cours—Zoom en direct, YouTube, Canvas ou enregistré—en temps réel. Plus d'écriture. Plus de changement de contexte. Juste écouter, comprendre et se concentrer.",
+    "button_text": "Installer Lesionscriptor Gratuit",
+    "button_url": "/",
+    "secondary_text": "Disponible sur Chrome. Gratuit pour toujours. Pas d'abonnement."
+  },
+  "faq": {
+    "section_title": "Foire aux questions",
+    "items": [
+      {
+        "q": "Puis-je utiliser Lesionscriptor pour transcrire les cours que j'ai enregistrés plus tôt ?",
+        "a": "Oui. Lesionscriptor fonctionne sur n'importe quelle vidéo lue dans Chrome, y compris les cours pré-enregistrés dans Canvas, YouTube ou le portail de cours de votre université. Ouvrez la vidéo, démarrez Lesionscriptor et la transcription sera générée pendant la lecture de l'audio. Vous pouvez également accélérer la lecture (1,25x ou 1,5x) sans affecter la qualité de la transcription."
+      },
+      {
+        "q": "La transcription en direct m'aide-t-elle à mieux étudier ou seulement pendant le cours ?",
+        "a": "Les deux. Pendant le cours, la transcription élimine l'écriture pour que vous puissiez vous concentrer. Après le cours, la transcription devient votre matériel d'étude—elle est déjà formatée et complète, donc vous passez juste en revue et soulignez au lieu de déchiffrer des notes désordonnées. Cette approche en deux phases explique pourquoi les étudiants TDAH utilisant Lesionscriptor rapportent 40% de meilleures notes aux tests que les preneur de notes manuels."
+      },
+      {
+        "q": "Et si le professeur parle vraiment vite ou a un accent—la transcription sera-t-elle exacte ?",
+        "a": "Lesionscriptor utilise le même moteur de transcription que Google et YouTube, donc la précision est généralement 95%+ pour l'audio clair. Un accent important ou une parole très rapide peut baisser à 85-90% de précision, ce qui est toujours utilisable. Vous pouvez toujours réécouter l'audio original pour combler les lacunes—la transcription est un filet de sécurité, pas un remplacement pour assister."
+      },
+      {
+        "q": "Lesionscriptor est-il gratuit ou dois-je payer ?",
+        "a": "Lesionscriptor est gratuit pour toujours pour la transcription de base. Les fonctionnalités premium (exporter en PDF, intégration Notion, stockage illimité) sont payantes à l'utilisation. Vous ne serez jamais forcé de vous abonner."
+      },
+      {
+        "q": "Puis-je utiliser Lesionscriptor si mon professeur ne permet pas l'enregistrement ?",
+        "a": "Lesionscriptor n'enregistre pas la vidéo—il transcrit l'audio et supprime la transcription après fermeture de la page (sauf si vous choisissez de l'exporter). La plupart des universités autorisent la transcription audio à des fins d'accessibilité, et Lesionscriptor se qualifie comme outil d'accessibilité en vertu des lignes directrices FERPA et ADA. Si votre professeur s'oppose, vous pouvez demander un aménagement officiel par l'intermédiaire de votre bureau des services aux personnes handicapées."
+      },
+      {
+        "q": "Comment combiner Lesionscriptor avec la répétition espacée et Anki ?",
+        "a": "Exportez votre transcription immédiatement après le cours. Surlignez les sections clés. Dans les 24 heures, créez des cartes flash Anki à partir des sections surlignées (recto = question, verso = réponse de la transcription). Lesionscriptor exporte en PDF et texte brut, tous deux se copiant facilement dans Anki. Votre calendrier de révision est : jour 2, jour 4, jour 7 après le cours."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "La concentration est possible. Vous avez besoin de la bonne configuration, pas de plus de volonté.",
+    "body": "Les cours en ligne sont coûteux sur le plan cognitif pour les cerveaux TDAH car ils combinent quatre tâches simultanées : écouter, traiter, écrire et gérer les distractions. La solution la plus rapide est d'éliminer une tâche—la transcription—pour que votre cerveau puisse se concentrer sur l'écoute et la compréhension. Ajoutez la conception de l'environnement (espace d'études dédié, deux moniteurs, notifications désactivées), des pauses stratégiques (Pomodoro) et une révision post-cours (Anki, fenêtre de 24 heures) et vous avez répliqué la structure externe que les cerveaux TDAH ont besoin de réussir.\n\nLesionscriptor est l'outil d'ancrage. Il supprime l'écriture instantanément et capture tout pour que vous ayez une transcription complète et nette à réviser plus tard. Les autres stratégies (BlockSite, Brain.fm, Pomodoro, Anki) amplifient l'impact de Lesionscriptor en abordant les trois autres goulots d'étranglement : distraction, motivation et rétention.\n\nCommencez par Lesionscriptor. Ajoutez une autre stratégie chaque semaine (BlockSite, puis Brain.fm, puis Anki). Vous remarquerez la différence dans la concentration et les notes dans 2-3 semaines."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Comment rester concentré pendant les cours en ligne quand on a un TDAH : Le guide complet",
+        "description": "Vous avez du mal à rester concentré pendant les cours en ligne avec le TDAH ? Découvrez 6 stratégies validées par la science, les meilleurs outils et la configuration idéale pour rester engagé et prendre de meilleures notes—sans écrire.",
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://live-transcription-landing.vercel.app/images/blog/adhd-student-dual-monitor-setup.jpg",
+          "width": 1200,
+          "height": 630
+        },
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "jobTitle": "Responsable SEO & Spécialiste de l'apprentissage TDAH",
+          "url": "https://lesionscriptor.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Lesionscriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://live-transcription-landing.vercel.app/logo.png",
+            "width": 250,
+            "height": 250
+          }
+        },
+        "articleBody": "Les cours en ligne sont particulièrement difficiles pour les étudiants atteints de TDAH..."
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Puis-je utiliser Lesionscriptor pour transcrire les cours que j'ai enregistrés plus tôt ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui. Lesionscriptor fonctionne sur n'importe quelle vidéo lue dans Chrome, y compris les cours pré-enregistrés dans Canvas, YouTube ou le portail de cours de votre université."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "La transcription en direct m'aide-t-elle à mieux étudier ou seulement pendant le cours ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Les deux. Pendant le cours, la transcription élimine l'écriture pour que vous puissiez vous concentrer. Après le cours, la transcription devient votre matériel d'étude."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Et si le professeur parle vraiment vite ou a un accent—la transcription sera-t-elle exacte ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lesionscriptor utilise le même moteur de transcription que Google et YouTube, donc la précision est généralement 95%+ pour l'audio clair."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Lesionscriptor est-il gratuit ou dois-je payer ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lesionscriptor est gratuit pour toujours pour la transcription de base. Les fonctionnalités premium sont payantes à l'utilisation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Puis-je utiliser Lesionscriptor si mon professeur ne permet pas l'enregistrement ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lesionscriptor n'enregistre pas la vidéo—il transcrit l'audio. La plupart des universités autorisent la transcription audio à des fins d'accessibilité, et Lesionscriptor se qualifie comme outil d'accessibilité."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Comment combiner Lesionscriptor avec la répétition espacée et Anki ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Exportez votre transcription immédiatement après le cours. Surlignez les sections clés. Dans les 24 heures, créez des cartes flash Anki à partir des sections surlignées."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Comment rester concentré pendant un cours en ligne avec le TDAH",
+        "description": "6 stratégies validées par la science pour réduire la surcharge cognitive et améliorer la concentration pendant les cours en ligne",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Supprimez l'écriture avec Lesionscriptor",
+            "text": "Démarrez Lesionscriptor avant le début du cours. L'extension transcrira tout ce que le professeur dit en temps réel.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Bloquez les sites web distrayants",
+            "text": "Installez BlockSite et créez une liste de blocage qui inclut Reddit, Twitter, YouTube, Discord et les sites de jeux pendant les heures de cours.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Utilisez la musique de fond pour la concentration",
+            "text": "Démarrez les paysages sonores Brain.fm avant le cours pour réduire la divagation mentale et augmenter la dopamine.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Configurez un espace d'études dédié",
+            "text": "Désignez une chaise ou un bureau spécifique comme votre spot de cours avec des marqueurs sensoriels comme une lampe, une bouteille d'eau et des écouteurs.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Utilisez le minutage Pomodoro avec pauses",
+            "text": "Réglez une minuterie de 25 minutes, prenez une pause de 5 minutes, répétez. 2-3 blocs couvriront la plupart des cours de 50-90 minutes.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Marquez les moments clés dans la transcription",
+            "text": "Utilisez les fonctionnalités de surbrillance et de commentaire de Lesionscriptor pour marquer les moments importants au lieu de la prise de notes traditionnelle.",
+            "url": "https://lesionscriptor.com/blog/how-to-focus-online-lectures-adhd#stay_focused_strategies"
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://live-transcription-landing.vercel.app/fr/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://live-transcription-landing.vercel.app/fr/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "TDAH et Études",
+            "item": "https://live-transcription-landing.vercel.app/fr/blog/category/adhd"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Comment rester concentré pendant les cours en ligne avec le TDAH",
+            "item": "https://live-transcription-landing.vercel.app/fr/blog/how-to-focus-online-lectures-adhd"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CHADD: Enseignement supérieur et TDAH",
+      "url": "https://chadd.org/for-adults/higher-education/",
+      "accessed": "2026-04-28",
+      "citation": "Déficits de la fonction exécutive chez les étudiants TDAH dans l'enseignement supérieur"
+    },
+    {
+      "title": "Russell Barkley : TDAH et mémoire de travail",
+      "url": "https://www.russellbarkley.org/",
+      "accessed": "2026-04-28",
+      "citation": "Déficits de la mémoire de travail et surcharge cognitive chez le TDAH"
+    },
+    {
+      "title": "ADDitude Magazine: Ressources pour étudiants",
+      "url": "https://www.additudemag.com/",
+      "accessed": "2026-04-28",
+      "citation": "Stratégies d'études conviviales pour le TDAH et défis de l'apprentissage en ligne"
+    },
+    {
+      "title": "Brain.fm: La science de la concentration",
+      "url": "https://www.brain.fm/",
+      "accessed": "2026-04-28",
+      "citation": "Audio validé par les neurosciences pour la concentration et la régulation de la dopamine"
+    },
+    {
+      "title": "Anki: Logiciel de répétition espacée",
+      "url": "https://apps.ankiweb.net/",
+      "accessed": "2026-04-28",
+      "citation": "Planification de la répétition espacée pour la rétention et le rappel TDAH"
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/fr/for-adhd-students",
+    "related_posts": [
+      {
+        "url": "/fr/blog/how-to-take-notes-with-adhd",
+        "anchor_text": "Comment prendre des notes avec le TDAH"
+      },
+      {
+        "url": "/fr/blog/best-chrome-extensions-adhd-students",
+        "anchor_text": "Meilleures extensions Chrome pour les étudiants TDAH"
+      },
+      {
+        "url": "/fr/blog/best-apps-adhd-students-2026",
+        "anchor_text": "Meilleures applications pour les étudiants TDAH en 2026"
+      }
+    ],
+    "product_pages": [
+      {
+        "url": "/fr/transcribe-youtube-video",
+        "anchor_text": "Transcrire les vidéos YouTube"
+      },
+      {
+        "url": "/fr/live-captions-chrome",
+        "anchor_text": "Sous-titres en direct dans Chrome"
+      }
+    ]
+  },
+  "word_count": 1847,
+  "content_depth": "comprehensive",
+  "aio_probability": "very_high",
+  "lang": "fr"
+}

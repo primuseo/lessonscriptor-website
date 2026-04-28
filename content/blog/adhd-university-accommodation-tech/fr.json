@@ -1,0 +1,377 @@
+{
+  "slug": "adhd-university-accommodation-tech",
+  "page_type": "blog_post",
+  "category_tag": "TDAH et Études",
+  "lang": "fr",
+  "canonical": "/fr/blog/adhd-university-accommodation-tech",
+  "h1": "Aménagements TDAH à l'Université : Quelle Technologie Votre École Doit Fournir (Et Celle Que Vous Pouvez Installer Dès Aujourd'hui)",
+  "meta": {
+    "title": "Aménagements TDAH à l'Université : Guide Technologique pour Étudiants 2026",
+    "description": "Votre droit légal aux aménagements TDAH à l'université comprend le soutien aux preneurs de notes, les sous-titres en direct et la technologie d'assistance. Découvrez ce que votre école doit fournir et ce que vous pouvez utiliser immédiatement sans approbation.",
+    "keyword": "aménagements TDAH université technologie",
+    "secondary_keywords": [
+      "outils TDAH pour étudiants universitaires",
+      "technologie TDAH études université",
+      "aménagements d'études TDAH technologie",
+      "aménagements handicap université TDAH"
+    ],
+    "og_title": "Aménagements TDAH à l'Université : Guide Technologique pour Étudiants 2026",
+    "og_description": "Votre droit légal aux aménagements TDAH à l'université comprend le soutien aux preneurs de notes, les sous-titres en direct et la technologie d'assistance."
+  },
+  "reading_time_min": 18,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "author": {
+    "name": "Équipe Éditoriale Lessonscriptor",
+    "bio": "L'Équipe Éditoriale Lessonscriptor recherche la technologie d'accessibilité, les aménagements éducatifs et les outils d'études pour les apprenants neurodivergents. Nous travaillons avec les services d'accessibilité des universités et les organisations de défense du TDAH pour garantir que nos conseils reflètent les cadres juridiques actuels et les besoins pratiques en classe.",
+    "role": "Spécialistes de l'Apprentissage et de l'Accessibilité"
+  },
+  "hero_image": {
+    "src": "/images/adhd-student-disability-office.jpg",
+    "alt": "Étudiant universitaire atteint de TDAH en réunion avec un conseiller des services aux étudiants en situation de handicap dans un bureau du campus",
+    "width": 1200,
+    "height": 630,
+    "caption": "Les étudiants atteints de TDAH ont des droits légaux aux aménagements en classe et la technologie peut souvent les mettre en place plus rapidement que les processus traditionnels."
+  },
+  "tldr": {
+    "title": "Résumé Rapide : Vos Droits et Vos Options",
+    "points": [
+      "Les étudiants atteints de TDAH à l'université ont légalement droit à des aménagements raisonnables en vertu de l'ADA (États-Unis) ou de l'Equality Act 2010 (Royaume-Uni), y compris le soutien à la prise de notes, le temps supplémentaire et la technologie d'assistance.",
+      "Les aménagements technologiques se divisent en deux catégories : fournis par l'université (Glean, Jamworks, Kaltura) nécessitant une licence institutionnelle et un formulaire d'aménagement, et outils installables par l'étudiant (Lessonscriptor, logiciels de reconnaissance vocale) ne nécessitant aucune approbation.",
+      "Lessonscriptor reproduit le soutien aux preneurs de notes en transcrivant tout vidéo en temps réel dans Chrome, sans que votre université ne l'adopte, sans lettre d'aménagement ni abonnement.",
+      "Si vous n'avez pas encore enregistré auprès du service d'accessibilité de votre université, commencez ce processus maintenant, mais vous pouvez commencer à utiliser des outils auto-installables comme Lessonscriptor dès aujourd'hui en attendant votre approbation d'aménagement."
+    ]
+  },
+  "intro": "Les étudiants atteints de TDAH naviguant l'université ont légalement droit à des aménagements raisonnables, et l'un des plus impactants est souvent le soutien à la prise de notes. Le défi : les aménagements traditionnels nécessitent l'approbation du bureau d'accessibilité, des lettres d'aménagement et parfois plusieurs semaines de traitement. La technologie peut combler cet écart. Certains outils, comme Glean et Jamworks, nécessitent que votre université s'associe au prestataire. D'autres, comme Lessonscriptor, vous pouvez les installer vous-même dès aujourd'hui, gratuitement, et commencer à les utiliser immédiatement. Ce guide explore vos droits légaux, ce que les universités doivent fournir et quelles solutions technologiques fonctionnent sans approbation institutionnelle.",
+  "stats": [
+    {
+      "number": "2.1M",
+      "label": "étudiants universitaires américains atteints de TDAH",
+      "source": "CHADD",
+      "type": "percentage_context"
+    },
+    {
+      "number": "14%",
+      "label": "des étudiants de premier cycle américains enregistrés auprès des services aux étudiants en situation de handicap",
+      "source": "US Department of Education",
+      "type": "percentage_context"
+    },
+    {
+      "number": "73%",
+      "label": "des étudiants atteints de TDAH signalent la prise de notes comme leur besoin d'aménagement principal",
+      "source": "ADDitude Magazine ADHD Survey 2025",
+      "type": "percentage_context"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section_1",
+      "heading_level": "h2",
+      "heading": "À Quel Type d'Aménagements Technologiques les Étudiants Atteints de TDAH Ont-ils Droit à l'Université?",
+      "content": "En vertu de la loi fédérale américaine (l'Americans with Disabilities Act, ou ADA, en particulier la Section 504), et au Royaume-Uni en vertu de l'Equality Act 2010, les étudiants atteints de TDAH ont droit à des 'aménagements raisonnables' qui égalisent les chances en classe. Ces aménagements ne sont pas des extras, c'est votre droit légal.\n\nPour le TDAH spécifiquement, cela signifie :\n\n**Soutien à la prise de notes.** Votre université doit vous assurer d'avoir accès à des notes précises des cours. Cela peut être un preneur de notes humain, une transcription automatisée ou la permission d'enregistrer les cours vous-même. La plupart des universités interprètent cela largement pour inclure les outils numériques.\n\n**Temps d'examen prolongé.** La cécité temporelle et les défis de la mémoire de travail sont des caractéristiques du TDAH. Vous avez le droit de demander 25 à 50 % de temps supplémentaire sur les tests, quiz et examens.\n\n**Droits d'enregistrement.** De nombreuses universités permettent aux étudiants atteints de TDAH d'enregistrer audio ou vidéo les cours, soit pour usage personnel, soit pour utilisation avec des logiciels de transcription.\n\n**Logiciels et matériel d'assistance.** Les outils de reconnaissance vocale, les lecteurs texte-à-voix, les bloqueurs de distraction et les casques antibruit se qualifient tous. Certaines universités les fournissent; d'autres s'attendent à ce que les étudiants les acquièrent eux-mêmes.\n\n**Politiques flexibles sur la présence et les délais.** Les fonctions exécutives sont altérées dans le TDAH ; les universités peuvent ajuster les délais, permettre les abandons médicaux sans pénalité ou permettre la participation asynchrone aux cours synchrones.\n\n**Sous-titrage et transcription en direct.** Les cours vidéo, le contenu enregistré et les discussions en classe en direct doivent être sous-titrés ou transcrits si vous le demandez.\n\nCe ne sont pas des faveurs spéciales. Ce sont des aménagements requis par la loi pour garantir que les étudiants atteints de TDAH ont le même accès à l'éducation que leurs pairs sans TDAH. La clé est de savoir comment les demander et quels outils peuvent les mettre en place le plus rapidement.",
+      "internal_links": [
+        {
+          "text": "Voir quels outils ne nécessitent pas d'approbation institutionnelle",
+          "url": "#section_8"
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "heading_level": "h2",
+      "heading": "Qu'est-ce qu'un Aménagement 'Preneur de Notes' et Comment la Technologie Le Remplace-t-elle?",
+      "content": "L'aménagement 'preneur de notes' est l'une des plus anciennes adaptations en classe du répertoire. Traditionnellement, cela fonctionne ainsi : un étudiant atteint de TDAH reçoit l'approbation pour une lettre d'aménagement indiquant qu'il a besoin d'un soutien à la prise de notes. L'université trouve un autre étudiant disposé à partager ses notes (par papier carbone, photocopie ou téléchargement numérique). Le preneur de notes bénéficie d'une petite allocation, l'étudiant atteint de TDAH reçoit des notes, tout le monde gagne.\n\nMais ce système a des problèmes : c'est lent, cela dépend de trouver un preneur de notes disposé, et cela ne fonctionne que si quelqu'un est présent au cours. Pour les cours en ligne, les cours hybrides ou le contenu vidéo asynchrone, les preneurs de notes traditionnels ne passent pas à l'échelle.\n\nC'est là que la technologie de transcription en direct intervient. Au lieu d'une autre personne qui écrit des notes, un outil logiciel transcrit l'audio en temps réel. Vous obtenez un registre consultable et éditable de tout ce qui a été dit au cours, sans attendre l'approbation d'aménagement, sans dépendre d'un autre étudiant et sans être présent.\n\nIl y a deux types d'outils de transcription en direct :\n\n**Outils fournis par l'université** (Glean, Jamworks, Kaltura, sous-titres automatiques de Microsoft Teams) : Votre université adopte la plateforme, l'intègre à votre système de gestion de cours (Canvas, Blackboard) et vous la met à disposition dans le cadre de votre aménagement. L'avantage : votre école paie pour cela, c'est intégré à votre flux de travail et cela fait officiellement partie de votre lettre d'aménagement. L'inconvénient : cela nécessite que votre université se soit déjà associée au prestataire et que vous passiez par le processus d'aménagement formel en premier (qui peut prendre 2 à 8 semaines).\n\n**Outils auto-installables** (Lessonscriptor, OtterAI, Fireflies, Otter.ai) : Vous installez vous-même l'outil, souvent gratuitement ou dans un modèle freemium, et il fonctionne sur n'importe quelle vidéo que vous regardez, cours, tutoriels YouTube, séminaires enregistrés, même des appels vidéo entre pairs. L'avantage : vous pouvez commencer dès aujourd'hui, aucune approbation institutionnelle nécessaire, et vous n'êtes pas limité au prestataire de votre école. L'inconvénient : vous êtes responsable d'apprendre l'outil, et bien qu'il remplisse l'exigence d'aménagement 'preneur de notes', ce n'est pas officiellement part de votre forfait d'aménagement (bien qu'il fonctionne souvent aussi bien ou mieux).\n\nLessonscriptor relève de la deuxième catégorie. C'est une extension Chrome qui capture la transcription en direct de n'importe quelle vidéo dans votre navigateur. Parce qu'elle fonctionne sur n'importe quelle plateforme vidéo (pas seulement les cours dans Canvas ou Zoom), vous obtenez un soutien au niveau du preneur de notes pour les tutoriels YouTube, les vidéos asynchrones, les enregistrements de séminaires ponctuels et tout ce que vous regardez. Aucun formulaire, aucune attente, aucune licence institutionnelle requise.",
+      "internal_links": [
+        {
+          "text": "En savoir plus sur Lessonscriptor pour les étudiants atteints de TDAH",
+          "url": "/for-adhd-students"
+        },
+        {
+          "text": "Comment prendre des notes avec le TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "heading_level": "h2",
+      "heading": "Lessonscriptor Nécessite-t-il une Lettre d'Aménagement Universitaire?",
+      "content": "Non. Lessonscriptor ne nécessite pas :\n\n- Une lettre d'aménagement de votre université\n- Un enregistrement formel auprès des Services aux Étudiants en Situation de Handicap\n- Une licence institutionnelle ou un partenariat\n- Un diagnostic de TDAH (bien que si vous en avez un, cela aide à contextualiser pourquoi vous l'utilisez)\n- Un abonnement ou un paiement (mode gratuit disponible)\n- L'approbation de votre professeur, assistant ou département\n\nVous téléchargez l'extension Chrome, l'installez et commencez à l'utiliser immédiatement. Elle fonctionne sur n'importe quelle vidéo que votre navigateur peut accéder : YouTube, Vimeo, enregistrements Zoom, plateformes vidéo de cours, webinaires, tutoriels, tout.\n\nC'est une différence significative par rapport à Glean et Jamworks, qui sont des plateformes exclusivement institutionnelles. Si votre université ne les a pas adoptés, vous ne pouvez pas les utiliser. Lessonscriptor contourne entièrement ce goulot d'étranglement.\n\n**Pourquoi c'est important pour les étudiants atteints de TDAH :** La mémoire de travail est un défi central du TDAH. Les cours vont vite, et même la prise de notes attentive laisse des lacunes. Une transcription en direct vous donne un enregistrement complet que vous pouvez rechercher, copier et examiner à votre propre rythme, sans la charge de fonction exécutive de 'suivre le rythme' pendant le cours lui-même. Vous pouvez vous concentrer sur la compréhension des concepts au lieu de vous précipiter pour les noter.\n\n**Un conseil stratégique :** Utiliser Lessonscriptor en attendant les aménagements formels est intelligent. Vous bénéficiez d'un soutien immédiat pendant que votre bureau d'accessibilité traite votre demande d'aménagement. Une fois que vous avez votre lettre d'aménagement, vous avez des options : continuer à utiliser Lessonscriptor, demander que votre université adopte un outil fourni comme Glean, ou utiliser les deux en parallèle. Le choix vous appartient.",
+      "internal_links": [
+        {
+          "text": "Commencer à utiliser Lessonscriptor gratuitement",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "heading_level": "h2",
+      "heading": "Quelle Autre Technologie les Universités Fournissent-elles pour les Étudiants Atteints de TDAH?",
+      "content": "Au-delà du soutien à la prise de notes, les universités offrent une gamme de technologie d'assistance pour le TDAH. Celles-ci sont généralement demandées par le biais de votre bureau des Services aux Étudiants en Situation de Handicap et énumérées dans votre lettre d'aménagement officielle.\n\n**Logiciels de reconnaissance vocale.** Des outils comme Dragon NaturallySpeaking vous permettent de dicter des devoirs, des e-mails et des publications de forum au lieu de taper. Pour les étudiants atteints de TDAH avec des défis de planification motrice ou une paralysie du perfectionnisme, cela peut être transformateur. Certaines universités les fournissent; d'autres s'attendent à ce que les étudiants les achètent eux-mêmes.\n\n**Texte-à-voix et lecteurs d'écran.** JAWS, NVDA et les lecteurs d'écran intégrés du système d'exploitation lisent à haute voix le texte lorsque vous bougez votre curseur. C'est particulièrement utile pour lire les manuels scolaires denses, les articles de revues et les diapositives de cours, car cela active plusieurs canaux sensoriels et aide à combattre la dérive d'attention.\n\n**Logiciels de blocage de distraction.** Freedom, Cold Turkey et LeechBlock désactivent les sites web et les applications lors de sessions d'étude. De nombreuses universités ne 'fournissent' pas officiellement ceux-ci, mais elles les reconnaissent comme des outils compatibles avec les aménagements et permettent aux étudiants de les utiliser lors d'examens ou de séances d'étude.\n\n**Temps d'examen prolongé dans les environnements proctorés.** Pour les tests standardisés (GRE, GMAT, LSAT) et les examens majeurs, les universités fournissent des salles où vous bénéficiez de 25 à 50 % de temps supplémentaire, de distractions réduites, de pauses et parfois d'un scribe ou d'un outil de reconnaissance vocale.\n\n**Appareils de prise de notes numériques.** iPads avec stylet, appareils Microsoft Surface ou tablettes ChromeOS avec support de stylet. Certains étudiants trouvent que la prise de notes numérique est moins intensive en fonction exécutive que l'écriture manuscrite et s'intègre bien aux enregistrements de cours.\n\n**Casques antibruit ou accès prioritaire aux espaces d'étude calmes.** La surcharge sensorielle est réelle dans le TDAH. Les universités offrent souvent un accès prioritaire aux salles calmes de la bibliothèque, de l'équipement de casques antibruit ou des chambres individuelles pour minimiser la distraction.\n\n**Sous-titrage et CART (Communication Access Realtime Translation).** Pour les cours en direct, les séminaires et les événements, les universités fournissent des sous-titres humains en temps réel (CART) ou des sous-titres en direct automatisés. Ceux-ci doivent être fournis sans frais pour l'étudiant.\n\n**Formats d'examen flexibles.** Examens oraux au lieu de résultats écrits, examens à emporter ou examens administrés dans un cadre à faible pression au lieu d'une grande salle de cours.\n\nPour accéder à ces services, vous devez :\n\n1. S'enregistrer auprès du bureau des Services aux Étudiants en Situation de Handicap de votre université\n2. Fournir une documentation de votre diagnostic de TDAH (généralement une lettre d'un diagnosticien, clinicien ou neuropsychologue)\n3. Demander des aménagements spécifiques par écrit\n4. Travailler avec le bureau d'accessibilité pour construire votre lettre d'aménagement\n5. Partager cette lettre avec vos professeurs et les départements pertinents\n\nCe processus prend généralement 2 à 8 semaines. Commencez maintenant si vous ne l'avez pas déjà fait.",
+      "internal_links": [
+        {
+          "text": "Meilleures applications TDAH pour 2026",
+          "url": "/blog/best-apps-adhd-students-2026"
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "heading_level": "h2",
+      "heading": "Comment S'enregistrer Auprès du Bureau d'Accessibilité de Mon Université pour les Aménagements TDAH?",
+      "content": "Le processus est similaire dans la plupart des universités, mais vérifiez toujours le site web spécifique de votre école, Services aux Étudiants en Situation de Handicap, Bureau d'Accessibilité ou Aménagements pour Étudiants (le nom varie).\n\n**Étape 1 : Rassemblez votre documentation.**\nVous aurez besoin de preuves d'un diagnostic de TDAH d'un professionnel qualifié. C'est généralement :\n- Une lettre d'un psychologue agréé, neuropsychologue ou médecin indiquant : le diagnostic, la date du diagnostic, les scores de tests pertinents (si disponibles), les limitations fonctionnelles dans un cadre académique et les aménagements recommandés.\n- Certaines universités acceptent les évaluations des psychologues scolaires; d'autres exigent des psychologues cliniques ou des médecins. Vérifiez les exigences de votre école.\n- Si vous avez reçu un diagnostic dans l'enfance, cette documentation compte toujours, mais une évaluation plus récente (moins de 3 ans) est souvent préférée.\n- Si vous ne pouvez pas vous permettre une nouvelle évaluation, de nombreuses universités ont des subventions ou des partenariats avec des cliniques locales offrant des évaluations à coût réduit.\n\n**Étape 2 : Contactez les Services aux Étudiants en Situation de Handicap.**\nTrouvez votre bureau d'accessibilité sur le site web de votre université. Ils ont généralement un formulaire d'accueil à remplir ou un rendez-vous à réserver. Contactez-les en début de semestre (même avant le début des cours, si possible).\n\n**Étape 3 : Soumettez votre documentation.**\nUne fois que vous vous rencontrez avec le bureau d'accessibilité, soumettez votre lettre de diagnostic et toute documentation complémentaire qu'ils demandent. Ils l'examineront pour confirmer que le TDAH est un 'handicap' en vertu de l'ADA (c'est le cas) et que vous avez droit à des aménagements.\n\n**Étape 4 : Demandez des aménagements spécifiques par écrit.**\nLe bureau d'accessibilité vous demandera quels aménagements vous avez besoin. Soyez spécifique : \"soutien à la prise de notes ou transcription en direct des cours\", \"25 % de temps d'examen prolongé\", \"permission d'enregistrer les cours\", etc. Si vous n'êtes pas sûr de ce que demander, demandez conseil au conseiller du bureau d'accessibilité, ils travaillent avec des étudiants atteints de TDAH tout le temps.\n\n**Étape 5 : Recevez votre lettre d'aménagement.**\nUne fois approuvé, le bureau d'accessibilité vous donnera une lettre d'aménagement officielle à partager avec vos professeurs. Certaines écoles fournissent une version numérique; d'autres l'impriment. Vous contrôlez qui la voit, vous n'êtes pas tenu de divulguer à qui que ce soit, mais les professeurs doivent savoir pour accorder les aménagements.\n\n**Étape 6 : Communiquez avec vos professeurs.**\nAu début de chaque semestre, envoyez un e-mail à chaque professeur avec votre lettre d'aménagement. De nombreux étudiants l'envoient en privé avant la première semaine de cours. L'e-mail peut être simple : \"Bonjour Professeur X, j'ai des aménagements approuvés pour [type d'aménagement]. J'ai joint ma lettre. Veuillez me faire savoir si vous avez besoin de clarifications.\"\n\n**Calendrier :** Ce processus entier prend généralement 2 à 8 semaines, selon la rapidité avec laquelle le bureau d'accessibilité reçoit votre documentation et leur charge de travail actuelle. Si les aménagements sont sensibles au temps (par exemple, vous avez un examen la semaine prochaine), signalez-le lorsque vous contactez d'abord le bureau d'accessibilité, ils peuvent parfois accélérer l'approbation.\n\n**Coût :** L'enregistrement officiel aux services pour les étudiants en situation de handicap et les lettres d'aménagement sont gratuits dans la plupart des universités. Certaines écoles facturent des frais mineurs (0 à 100 $); quelques-unes facturent plus. Vérifiez la structure tarifaire de votre école.\n\n**Point clé pour cet article :** Pendant que vous attendez les aménagements officiels, vous pouvez utiliser des outils auto-installables comme Lessonscriptor immédiatement. Vous n'avez pas besoin d'une lettre d'aménagement pour bénéficier de la technologie de prise de notes, vous en avez besoin pour assurer que votre université reconnaît légalement vos aménagements et ne peut pas vous punir de les utiliser.",
+      "internal_links": []
+    },
+    {
+      "id": "section_6",
+      "heading_level": "h2",
+      "heading": "Quelle Technologie les Étudiants Atteints de TDAH Peuvent-ils Utiliser Sans Approbation d'Aménagement?",
+      "content": "C'est la section la plus pratique : les outils que vous pouvez utiliser dès maintenant, aujourd'hui, sans attendre l'approbation du bureau d'accessibilité, sans lettre d'aménagement, sans la permission de votre professeur et généralement gratuitement ou à faible coût.\n\n**Transcription en direct et prise de notes :**\n- **Lessonscriptor** (mode gratuit, extension Chrome) : Capture la transcription en direct de n'importe quelle vidéo dans Chrome. Fonctionne sur YouTube, les plateformes de cours, les séminaires enregistrés, les appels vidéo entre pairs. Modifiez, recherchez, exportez et mettez en évidence directement dans Lessonscriptor.\n- **Otter.ai** (niveau mensuel gratuit, application mobile ou web) : Enregistre et transcrit l'audio des cours, des réunions ou des mémos vocaux. Basé sur le cloud, vous pouvez accéder aux transcriptions à partir de n'importe quel appareil.\n- **Fireflies.ai** (gratuit pour usage personnel, web) : Enregistre et transcrit Zoom, Teams, Google Meet et les appels par numérotation directe. S'intègre à votre calendrier.\n\n**Texte-à-voix (pour les devoirs écrits) :**\n- **Reconnaissance vocale de système d'exploitation intégré :** Windows Dictation, macOS Dictation, Chrome OS Voice Typing et la dictation iOS/Android sont tous gratuits et s'améliorent avec l'utilisation.\n- **Voix des Google Docs** (gratuit) : Ouvrez un document Google, cliquez sur Outils > Saisie vocale et dictez vos essais. Étonnamment précis et convivial pour le TDAH car vous ne fixez pas une page blanche.\n\n**Répétition espacée et mémoire :**\n- **Anki** (gratuit, open-source) : Créez des flashcards et Anki les programme pour une rétention de mémoire optimale. Excellent pour le TDAH car il supprime la prise de décision sur *quand* étudier.\n- **Quizlet** (gratuit avec annonces, option payante) : Similaire à Anki mais plus visuel. Des milliers d'ensembles d'études pré-faits pour les cours courants.\n\n**Gestion des distractions :**\n- **Focus@Will** (essai gratuit, payant) : Musique de concentration soutenue scientifiquement conçue pour les cerveaux TDAH. Supprime la fatigue décisionnelle sur ce qu'écouter.\n- **Brain.fm** (essai gratuit, payant) : Similaire, musique conçue pour améliorer la concentration et réduire le stress lors des sessions d'étude.\n- **Freedom** (payant, mais abordable) : Bloque les sites web et les applications distractifs sur tous vos appareils. De nombreuses universités reconnaissent cela comme compatible avec les aménagements.\n- **Cold Turkey** (gratuit pour basique, payant pour avancé) : Encore plus agressif que Freedom, une fois que vous bloquez quelque chose, vous ne pouvez pas le débloquer jusqu'à l'expiration du minuteur.\n\n**Organisation et gestion des tâches :**\n- **Goblin Tools** (gratuit, basé sur le web) : Une suite de petits outils construits spécifiquement pour les cerveaux neurodivergents. Le \"Magic ToDo\" et le \"Formalizer\" sont particulièrement utiles pour le TDAH.\n- **Todoist** (niveau gratuit, payant pour avancé) : Gestion simple des tâches avec tâches récurrentes, priorités et rappels. Moins accablant que Notion pour le TDAH.\n- **Notion** (gratuit) : Espace de travail tout-en-un personnalisable. Courbe d'apprentissage raide, mais puissant une fois que vous l'avez configuré.\n\n**Lecture et compréhension :**\n- **Bionic Reading** (extension navigateur gratuite) : Met en gras les premières lettres des mots pour guider votre œil et réduire la relecture. Fonctionne sur n'importe quel site web ou PDF.\n- **Texte-à-voix intégré de Kindle** (gratuit si vous possédez le livre) : Raconte les e-books à haute voix. Idéal pour les manuels scolaires et les longs travaux de lecture.\n- **Natural Reader** (version gratuite, payante pour avancé) : Convertit les PDF, les articles web et les documents en discours.\n\n**Pourquoi c'est important :** Chacun de ces outils reproduit un aménagement sans nécessiter l'approbation institutionnelle. Vous pouvez commencer à les utiliser dès aujourd'hui. Si votre université vous demande plus tard d'utiliser ses outils officiels (comme Glean), d'accord, mais jusqu'à présent, vous avez accès immédiatement à des alternatives fonctionnelles. Et de nombreux étudiants atteints de TDAH utilisent les deux : l'outil fourni par l'université pour les cours officiels et l'outil auto-installable pour tout le reste.",
+      "comparison_table": {
+        "title": "Outils Fournis par l'Université vs Outils Auto-Installables pour la Prise de Notes",
+        "rows": [
+          {
+            "category": "Outils Fournis par l'Université (Glean, Jamworks, Kaltura)",
+            "cost": "Gratuit (l'université paie)",
+            "setup": "Votre école doit l'adopter",
+            "approval_required": "Oui, lettre d'aménagement nécessaire",
+            "works_on_any_video": "Seulement les vidéos de votre LMS ou Zoom",
+            "start_using": "2 à 8 semaines après l'approbation d'aménagement",
+            "examples": "Glean, Jamworks, Kaltura, sous-titres automatiques Microsoft Teams"
+          },
+          {
+            "category": "Outils Auto-Installables (Lessonscriptor, Otter.ai, Fireflies)",
+            "cost": "Gratuit ou freemium",
+            "setup": "Vous l'installez vous-même",
+            "approval_required": "Non",
+            "works_on_any_video": "Oui, n'importe quelle vidéo dans Chrome ou en ligne",
+            "start_using": "Aujourd'hui",
+            "examples": "Lessonscriptor, Otter.ai, Fireflies, saisie vocale Google Docs"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section_7",
+      "heading_level": "h2",
+      "heading": "États-Unis vs Royaume-Uni : Différences Clés dans les Aménagements Universitaires TDAH",
+      "content": "Les cadres d'aménagement du TDAH diffèrent considérablement entre les États-Unis et le Royaume-Uni. Si vous étudiez à l'international ou comparez les systèmes, voici ce que vous devez savoir.\n\n**États-Unis :**\n- **Cadre légal :** Americans with Disabilities Act (ADA), Section 504 de la Rehabilitation Act et la loi ADA Amendments Act (ADAAA) de 2008.\n- **Qui est couvert :** La Section 504 couvre toute condition (physique ou mentale) qui limite considérablement une activité majeure de la vie. Le TDAH se qualifie s'il affecte l'apprentissage, la mémoire, la concentration ou les fonctions exécutives.\n- **Responsabilité :** Les universités sont légalement tenues de fournir des aménagements. S'ils refusent, les étudiants peuvent déposer une plainte auprès du Bureau des Droits Civiques de l'U.S. Department of Education (OCR).\n- **Lettre d'aménagement :** Non légalement requise pour que les aménagements soient valides, mais les universités en émettent généralement une et demandent aux étudiants de la partager avec les professeurs.\n- **Coût pour l'étudiant :** Les aménagements sont gratuits. Les universités ne peuvent pas facturer les étudiants pour les fournir.\n- **Couverture :** S'étend de la maternelle aux universités, écoles supérieures et écoles professionnelles (droit, médecine, etc.).\n- **Documentation :** Une lettre de diagnostic d'un clinicien qualifié (psychologue, neuropsychologue, médecin). Les écoles peuvent demander des évaluations mises à jour si elles ont des raisons de croire que l'antérieure est obsolète.\n- **Processus d'appel :** Si le bureau d'accessibilité refuse votre demande, vous pouvez faire appel en interne ou déposer une plainte auprès du Bureau des Droits Civiques.\n\n**Royaume-Uni :**\n- **Cadre légal :** Equality Act 2010, qui classe le TDAH comme un handicap s'il a un 'effet négatif substantiel et à long terme' sur les activités quotidiennes normales.\n- **Qui est couvert :** Tout étudiant ayant un diagnostic de handicap. Le TDAH se qualifie s'il affecte l'apprentissage, la gestion du temps ou l'attention de manière substantielle.\n- **Responsabilité :** Les universités sont tenues de faire des 'ajustements raisonnables' pour empêcher les étudiants en situation de handicap d'être désavantagés. Cela comprend la fourniture de technologie, de temps prolongé, de formats d'examen alternatifs et du soutien à la prise de notes.\n- **Lettre d'aménagement :** Les universités émettent un 'Profil d'Invalidité' ou 'Plan de Soutien' plutôt qu'une lettre d'aménagement traditionnelle. Cela décrit les ajustements approuvés et est partagé avec les départements et les examinateurs.\n- **Coût pour l'étudiant :** Les aménagements sont gratuits. Les universités peuvent offrir des services de soutien supplémentaires (par exemple, coaching individuel) moyennant des frais, mais les aménagements essentiels sont fournis sans frais.\n- **Couverture :** S'applique à toutes les universités et établissements d'enseignement supérieur du Royaume-Uni. Des protections similaires existent pour les A-Levels et GCSEs.\n- **Documentation :** Une lettre de diagnostic d'un clinicien qualifié (médecin généraliste, psychologue clinique ou psychiatre). L'université peut demander une évaluation éducative pour déterminer des aménagements spécifiques.\n- **Processus d'appel :** Si l'université refuse les ajustements, les étudiants peuvent escalader en interne ou déposer une plainte auprès de l'Office of the Independent Adjudicator (OIA) pour l'Enseignement Supérieur.\n- **Divulgation :** Au Royaume-Uni, les universités demandent souvent des handicaps lors du processus de candidature. La divulgation est optionnelle, mais de nombreux étudiants trouvent qu'il est utile de signaler le TDAH tôt pour que le bureau d'accessibilité puisse les soutenir dès le départ.\n\n**Comparaison pratique :**\n- Les deux systèmes exigent légalement que les universités aménagent les étudiants atteint TDAH.\n- Les États-Unis sont plus explicites sur le fait que le TDAH est un handicap couvert (grâce à la ADAAA); le Royaume-Uni applique un test de 'désavantage substantiel', qui est généralement rencontré.\n- Les États-Unis utilisent des 'lettres d'aménagement'; le Royaume-Uni utilise des 'plans de soutien' ou des 'profils d'invalidité', mais l'intention est la même.\n- Les deux systèmes permettent aux étudiants d'utiliser la technologie d'assistance (y compris Lessonscriptor) sans approuvation institutionnelle.\n- Aucun système ne nécessite de partenariat universitaire ou de licence institutionnelle pour des outils auto-installables comme Lessonscriptor.\n\n**Pour les étudiants TDAH internationaux :** Si vous étudiez à l'étranger, vérifiez si la documentation de handicap de votre pays d'origine est reconnue. Certaines universités acceptent les diagnostics américains pour les études au Royaume-Uni et vice versa; d'autres exigent une évaluation locale. Contactez le bureau d'accessibilité de l'université d'accueil tôt pour clarifier.",
+      "internal_links": []
+    },
+    {
+      "id": "section_8",
+      "heading_level": "h2",
+      "heading": "Construire Votre Stack Technologique TDAH à l'Université (Sans Attendre l'Approbation)",
+      "content": "Voici un plan pratique : l'ensemble minimal d'outils que chaque étudiant universitaire atteint de TDAH devrait utiliser, dès aujourd'hui, en attendant que sa demande d'aménagement officielle soit en cours de traitement.\n\n**Pour les cours et le contenu enregistré :**\n- Installez **Lessonscriptor** (gratuit, Chrome). Transcrivez les cours, les séminaires enregistrés et les vidéos tutorielles. Vous obtenez des notes consultables et éditables sans dépendre d'un autre étudiant ou attendre que votre université adopte une plateforme spécifique.\n\n**Pour les devoirs écrits :**\n- Utilisez **la saisie vocale de Google Docs** (gratuit, intégré). Dictez vos essais et vos travaux. Aide à surmonter la paralysie du perfectionnisme et réduit la barrière au démarrage.\n- Sauvegarde : **Otter.ai** (niveau gratuit) pour une transcription plus complexe si vous dictez de longs devoirs.\n\n**Pour la mémoire et l'étude :**\n- Configurez **Anki** (gratuit) avec des flashcards de vos cours. Laissez-le gérer la décision sur quand passer en revue, une tâche de fonction exécutive en moins pour votre cerveau TDAH.\n\n**Pour les sessions de concentration :**\n- Utilisez **Freedom** ou **Cold Turkey** (payant, mais abordable) pour bloquer les sites web distractifs lors du temps d'étude. Choisissez-en un et engagez-vous à l'utiliser pendant une semaine, vous serez étonné de la différence.\n\n**Pour la gestion des tâches :**\n- Choisissez **Todoist** (niveau gratuit) ou **Goblin Tools** (gratuit). Choisissez-en un et utilisez-le religieusement. L'objectif est d'externaliser votre liste de tâches pour que vous n'ayez pas à la tenir en mémoire de travail.\n\n**Une fois que votre lettre d'aménagement arrive :**\n- Partagez-la avec chaque professeur dans la première semaine de cours.\n- Demandez si votre université offre Glean, Jamworks ou des outils institutionnels similaires. Si oui, envisagez de les utiliser en parallèle avec Lessonscriptor (la ceinture et les bretelles).\n- Si votre université n'offre pas d'outils de transcription institutionnels, Lessonscriptor devient votre principal aménagement de prise de notes.\n\n**L'insight clé :** Vous n'avez pas besoin d'attendre la bureaucratie pour commencer à soutenir votre cerveau TDAH. Lessonscriptor et les autres outils de cette liste sont disponibles maintenant, ils fonctionnent et c'est légal, que vous ayez ou non une lettre d'aménagement officielle. Utilisez-les, construisez la confiance dans ce qui fonctionne pour vous, puis intégrez-les à votre plan d'aménagement formel une fois que le bureau d'accessibilité les approuve.",
+      "internal_links": [
+        {
+          "text": "Explorez notre guide complet des outils d'étude neurodivergents",
+          "url": "/blog/neurodivergent-study-tools"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "type": "primary",
+    "heading": "Commencez à Transcrire les Cours Aujourd'hui, Gratuit, Aucune Approbation Requise",
+    "description": "Lessonscriptor capture la transcription en direct de n'importe quelle vidéo dans Chrome. Installez-la gratuitement, utilisez-la immédiatement et obtenez le soutien au preneur de notes auquel vous avez droit.",
+    "button_text": "Installer Lessonscriptor Gratuitement",
+    "button_url": "/",
+    "secondary_cta": {
+      "text": "En savoir plus sur les outils conviviales pour le TDAH",
+      "url": "/for-adhd-students"
+    }
+  },
+  "faq": {
+    "heading": "Questions Fréquemment Posées",
+    "items": [
+      {
+        "question": "Ai-je besoin d'un diagnostic de TDAH pour utiliser Lessonscriptor?",
+        "answer": "Non. Lessonscriptor fonctionne pour quiconque souhaite des transcriptions de vidéos, vous n'avez pas besoin d'un diagnostic pour l'installer ou l'utiliser. Cela dit, si vous avez un diagnostic de TDAH, Lessonscriptor est un excellent moyen d'obtenir un soutien à la prise de notes en attendant que votre demande d'aménagement soit traitée."
+      },
+      {
+        "question": "Mon professeur peut-il m'interdire d'utiliser Lessonscriptor en classe?",
+        "answer": "Une fois que vous avez une lettre d'aménagement officielle pour la prise de notes ou la transcription, votre professeur ne peut pas l'interdire, c'est un aménagement légal. Si vous utilisez Lessonscriptor sans lettre d'aménagement, votre professeur peut théoriquement s'y opposer, mais c'est rare (la plupart des professeurs ne s'opposent pas à ce qu'un étudiant enregistre ou transcrive des cours). Si vous n'êtes pas sûr, vérifiez la politique d'enregistrement de votre université ou demandez directement à votre professeur."
+      },
+      {
+        "question": "Lessonscriptor est-il meilleur que l'aménagement 'preneur de notes' de mon université?",
+        "answer": "Ils sont différents. Un preneur de notes humain est présent en temps réel et peut mettre en évidence des concepts importants; Lessonscriptor vous donne une transcription complète et consultable de tout ce qui a été dit. La plupart des étudiants atteint de TDAH trouvent la transcription plus précieuse car elle est complète et ne nécessite pas de suivre le rythme pendant le cours. Si votre université offre Glean ou Jamworks, essayez les deux et voyez ce qui fonctionne le mieux pour votre cerveau."
+      },
+      {
+        "question": "Et si mon université n'a pas de bureau des Services aux Étudiants en Situation de Handicap?",
+        "answer": "Toutes les universités et collèges accrédités aux États-Unis et au Royaume-Uni sont tenus par la loi d'avoir un bureau d'aménagements pour les étudiants en situation de handicap, même s'il porte un nom différent (Services d'Accessibilité, Soutien aux Étudiants, Bureau de l'Égalité des Chances, etc.). Commencez par contacter votre bureau des affaires étudiantes ou recherchez 'handicap' ou 'aménagements' sur le site web de votre université. Si vous ne le trouvez vraiment pas, contactez le bureau principal des services aux étudiants et demandez-leur de vous diriger."
+      },
+      {
+        "question": "Combien de temps faut-il pour obtenir une lettre d'aménagement pour le TDAH?",
+        "answer": "Généralement 2 à 8 semaines à partir du moment où vous contactez d'abord le bureau d'accessibilité. Si vous avez déjà une documentation de diagnostic récente (moins de 3 ans), c'est généralement plus rapide (1 à 3 semaines). Si vous avez besoin d'une nouvelle évaluation, cela ajoute 2 à 4 semaines selon la disponibilité du clinicien. Commencez le processus tôt dans l'année universitaire, plus tôt vous contacterez le bureau d'accessibilité, plus tôt vous aurez des aménagements en place."
+      },
+      {
+        "question": "Puis-je utiliser Lessonscriptor aux tests ou aux examens?",
+        "answer": "Pas aux examens proctorés (en personne ou en ligne). Lessonscriptor nécessite d'installer une extension Chrome, ce qui n'est pas autorisé dans la plupart des environnements d'examen. Pour les examens officiels, utilisez votre aménagement : temps prolongé, une salle de test séparée ou un scribe. Lessonscriptor est meilleur pour les cours, les tutoriels et les sessions d'étude, pas les examens. Si vous avez besoin de transcription aux examens (par exemple, pour un aménagement d'accessibilité auditive), demandez un logiciel de reconnaissance vocale ou un scribe dans le cadre de votre lettre d'aménagement officielle."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Le Résumé : Vos Droits, Vos Choix, Vos Outils",
+    "content": "Les étudiants atteints de TDAH à l'université ont légalement droit à des aménagements, y compris le soutien à la prise de notes, le temps prolongé et la technologie d'assistance. Le système varie selon le pays (ADA aux États-Unis, Equality Act au Royaume-Uni), mais le principe est le même : les universités doivent faire des ajustements raisonnables pour que les étudiants atteint de TDAH ne soient pas désavantagés dans l'apprentissage.\n\nLe chemin le plus rapide vers le soutien n'est pas toujours à travers le bureau d'aménagement formel. En attendant l'approbation de vos services aux étudiants en situation de handicap, vous pouvez utiliser des outils auto-installables comme Lessonscriptor pour accéder immédiatement à la technologie de prise de notes. Aucun formulaire, aucune attente, aucune approbation institutionnelle requise.\n\nUne fois que votre lettre d'aménagement arrive, vous aurez des options supplémentaires : outils institutionnels comme Glean ou Jamworks, logiciels d'assistance officiels et temps d'examen prolongé. Mais vous n'avez pas besoin d'attendre tout cela pour commencer. Installez Lessonscriptor, configurez Anki et Todoist, utilisez la saisie vocale de Google Docs et construisez un stack technologique qui fonctionne pour votre cerveau TDAH dès maintenant.\n\nContactez le bureau des Services aux Étudiants en Situation de Handicap de votre université cette semaine. Soumettez votre documentation. Demandez des aménagements spécifiques. Mais en attendant, commencez à utiliser les outils disponibles pour vous aujourd'hui. Votre succès académique n'a pas besoin d'attendre la bureaucratie."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "properties": {
+        "headline": "Aménagements TDAH à l'Université : Quelle Technologie Votre École Doit Fournir (Et Celle Que Vous Pouvez Installer Dès Aujourd'hui)",
+        "description": "Votre droit légal aux aménagements TDAH à l'université comprend le soutien aux preneurs de notes, les sous-titres en direct et la technologie d'assistance.",
+        "image": "/images/adhd-student-disability-office.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "properties": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Ai-je besoin d'un diagnostic de TDAH pour utiliser Lessonscriptor?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Non. Lessonscriptor fonctionne pour quiconque souhaite des transcriptions de vidéos. Si vous avez un diagnostic de TDAH, c'est un excellent moyen d'obtenir un soutien à la prise de notes en attendant votre aménagement."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Mon professeur peut-il m'interdire d'utiliser Lessonscriptor en classe?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Une fois que vous avez une lettre d'aménagement officielle pour la prise de notes, votre professeur ne peut pas l'interdire. C'est un aménagement légal."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Combien de temps faut-il pour obtenir une lettre d'aménagement pour le TDAH?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Généralement 2 à 8 semaines. Si vous avez déjà une documentation de diagnostic récente, c'est généralement plus rapide (1 à 3 semaines). Commencez tôt dans l'année universitaire."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "properties": {
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "Pour les Étudiants Atteints de TDAH",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "Aménagements TDAH à l'Université : Guide Technologique",
+            "item": "/blog/adhd-university-accommodation-tech"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CHADD: Enseignement Supérieur et TDAH",
+      "url": "https://chadd.org/for-adults/higher-education/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "ADDitude Magazine: Succès Universitaire pour les Étudiants Atteint de TDAH",
+      "url": "https://www.additudemag.com/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Americans with Disabilities Act (ADA) - Orientations Officielles",
+      "url": "https://www.ada.gov/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Equality Act 2010 - Orientations du Royaume-Uni sur les Droits des Personnes en Situation de Handicap dans l'Éducation",
+      "url": "https://www.gov.uk/guidance/equality-act-2010-guidance",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Russell Barkley: Recherche sur le TDAH et les Fonctions Exécutives",
+      "url": "https://www.russellbarkley.org/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "U.S. Department of Education: Section 504 et IDEA",
+      "url": "https://www2.ed.gov/about/offices/list/ocr/504faq.html",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Anki: Outil d'Apprentissage par Répétition Espacée",
+      "url": "https://apps.ankiweb.net/",
+      "access_date": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/neurodivergent-study-tools",
+      "/blog/best-apps-adhd-students-2026"
+    ],
+    "homepage": "/",
+    "product": "/",
+    "comparison": "/compare/otter-ai-alternative"
+  },
+  "tags": [
+    "TDAH",
+    "Université",
+    "Aménagements",
+    "Technologie",
+    "Étudiants",
+    "Accessibilité",
+    "Prise de Notes",
+    "Droits Légaux",
+    "Apprentissage à Distance",
+    "Outils d'Étude"
+  ],
+  "image_assets": [
+    {
+      "id": "hero_adhd_student",
+      "type": "hero",
+      "filename": "adhd-student-disability-office.jpg",
+      "alt": "Étudiant universitaire atteint de TDAH en réunion avec un conseiller des services aux étudiants en situation de handicap dans un bureau du campus",
+      "dimensions": "1200x630",
+      "caption": "Les étudiants atteints de TDAH ont des droits légaux aux aménagements en classe et la technologie peut souvent les mettre en place plus rapidement que les processus traditionnels."
+    },
+    {
+      "id": "comparison_table_visual",
+      "type": "infographic",
+      "filename": "accommodation-tools-comparison.png",
+      "alt": "Tableau de comparaison montrant les outils fournis par l'université (Glean, Jamworks) par rapport aux outils auto-installables (Lessonscriptor, Otter.ai)",
+      "dimensions": "1000x600",
+      "caption": "Les outils fournis par l'université nécessitent une adoption institutionnelle; les outils auto-installables vous permettent de commencer aujourd'hui."
+    }
+  ]
+}

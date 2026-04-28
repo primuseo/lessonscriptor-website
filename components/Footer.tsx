@@ -41,7 +41,7 @@ export default function Footer({ locale }: { locale: string }) {
           <div>
             <div className="text-cream-100 font-semibold text-sm mb-4">{t('resources')}</div>
             <ul className="space-y-2 text-sm">
-              <li><Link href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-cream-100 transition-colors">Blog</Link></li>
+              <li><Link href={`${base}/blog`} className="hover:text-cream-100 transition-colors">{t('blog')}</Link></li>
               <li>
                 <a href="https://github.com/primuseo/chrome-video-live-transcription" target="_blank" rel="noopener noreferrer" className="hover:text-cream-100 transition-colors">
                   {t('github')}

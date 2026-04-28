@@ -1,4 +1,5 @@
 import { MetadataRoute } from 'next'
+import { BLOG_SLUGS } from '@/content/blog/_registry'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lessonscriptor.com'
@@ -9,7 +10,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/live-captions-chrome',
     '/transcribe-video-to-text',
     '/compare/otter-ai-alternative',
-    '/blog/how-to-transcribe-lecture-videos',
+    '/blog',
+    ...BLOG_SLUGS.map((slug) => `/blog/${slug}`),
     '/contact',
     '/privacy',
     '/terms',

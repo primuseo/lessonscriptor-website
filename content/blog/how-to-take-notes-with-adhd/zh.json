@@ -1,0 +1,368 @@
+{
+  "slug": "how-to-take-notes-with-adhd",
+  "category_tag": "ADHD & 学习",
+  "h1": "ADHD患者如何记笔记：2026年完整指南",
+  "reading_time_min": 12,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "lang": "zh",
+
+  "meta": {
+    "title": "ADHD患者如何记笔记：2026年完整指南 | Lessonscriptor",
+    "description": "对ADHD患者来说记笔记很困难，因为你的大脑无法以讲座速度同时做三件事：听讲、理解和记录。这是解决方法——包括彻底改变局面的Chrome扩展程序。",
+    "og_image": "/images/adhd-note-taking-guide-og.png",
+    "canonical": "/zh/blog/how-to-take-notes-with-adhd",
+    "og_title": "ADHD患者如何记笔记：2026年完整指南",
+    "og_description": "实时转录消除了使ADHD记笔记如此困难的认知瓶颈。以下是如何使用它——以及其他5个真正有效的策略。",
+    "twitter_card": "summary_large_image"
+  },
+
+  "hero_image": {
+    "src": "/images/adhd-note-taking-guide-hero.png",
+    "alt": "学生在Chrome中使用实时转录来记录在线讲座笔记，文本在侧面板中自动出现",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "一名学生坐在笔记本电脑前的办公桌前，观看讲座视频。侧面板实时显示转录内容。场景感觉平静、专注和现代——不紧张。干净的插图风格，蓝紫色调。尺寸：最小1200 × 630像素。"
+  },
+
+  "author": {
+    "name": "Lessonscriptor编辑团队",
+    "url": "/about",
+    "bio": "Lessonscriptor是为学生、远程学习者和专业人士构建的Chrome扩展程序，他们需要从任何视频中捕获内容而无需手动记录。我们的编辑团队包括教育工作者、学习专家和ADHD研究人员，他们审核所有内容的准确性。本文根据当前ADHD教育心理学文献进行了审核，并在2026年4月更新。"
+  },
+
+  "tldr": {
+    "label": "主要要点",
+    "lead": "核心问题：ADHD患者记笔记很困难，因为你的大脑无法同时以讲座速度进行听讲、处理意思和记录——这种三向认知分裂会使工作记忆超负荷。",
+    "bullets": [
+      "最佳解决方案：使用实时转录（如Lessonscriptor）彻底消除记录任务。听讲和理解——扩展程序处理其余的事。",
+      "最佳结构：番茄工作法 + 实时转录 = 自动捕获，在专注的25分钟块中审核。",
+      "2026年最佳工具：Lessonscriptor（视频/浏览器）、Otter.ai（现场会议）、Notion（组织）、Anki（复习）。",
+      "适用于：YouTube讲座、Zoom录音、大学LMS平台、Coursera以及在Chrome中播放的任何其他视频。"
+    ]
+  },
+
+  "intro": "ADHD患者记笔记很困难，因为你的工作记忆无法同时做三件事——而传统记笔记恰好要求三件事：听讲师讲话、处理他们的意思、在下一句话到来前写下来。最有效的解决方案不是更好的笔或不同的笔记本布局。而是通过实时转录完全从方程式中消除记录任务。Lessonscriptor等工具是一个Chrome扩展程序，可以实时转录任何视频，使这成为可能——免费、无需订阅、无需应用安装、无需获得大学残障办公室的批准。",
+
+  "stats": [
+    {
+      "number": "1/12",
+      "label": "美国大学生被诊断患有ADHD"
+    },
+    {
+      "number": "3倍",
+      "label": "与神经典型学生相比，更可能在工作记忆任务上苦恼"
+    },
+    {
+      "number": "74%",
+      "label": "ADHD学生表示记笔记是他们最大的学术挑战"
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "why-hard",
+      "h2": "为什么ADHD患者记笔记这么困难？",
+      "body": "ADHD学生记笔记很困难，因为该任务在三个同时进行的需求——听讲、处理和记录——与工作记忆之间造成了直接碰撞。工作记忆是连接它们的认知系统，而ADHD恰好在该系统中产生最一致的缺陷。世界领先的ADHD专家之一Russell Barkley博士（russellbarkley.org）将ADHD描述为基本上是工作记忆和时间感缺失的障碍，而不仅仅是注意力缺陷。\n\n实际上，这意味着当讲师说话时，ADHD学生面临一个特定的瓶颈：到他们写完第一句话时，讲师已经继续向前三句话了。学生随后必须决定——继续写第一句话，还是放弃它并尝试跟上新内容？无论哪种方式，都会丢失一些东西。这种认知鞭打的循环不是懒惰或分心。这是口语速度与ADHD条件下工作记忆带宽之间的结构性错配。\n\n除工作记忆外，ADHD还影响持续注意力调节——在提供很少即时奖励的任务上保持专注的能力。90分钟的讲座正是这样的任务。当注意力短暂下降（对任何ADHD学生来说都会发生），笔记中的间隙会变成理解中的间隙，随着时间的推移而加剧。实时转录会自动关闭该间隙：即使在注意力不可避免地转移时，每个词都被捕获。",
+      "figure": {
+        "type": "svg_diagram",
+        "id": "cognitive-load-diagram",
+        "alt": "比较传统记笔记（三个重叠的圆圈：听讲、处理、记录）与实时转录（两个圆圈：听讲、处理——由Lessonscriptor处理记录）的认知负荷的图表",
+        "caption": "传统记笔记使工作记忆的三个同时进行的任务超负荷。实时转录自动处理记录，仅留下两个任务：听讲和理解。",
+        "description_for_designer": "两面板图表。左面板（红色调，标签'传统记笔记'）：三个重叠的圆圈标记为听讲/处理/记录——标题为'工作记忆超负荷'。右面板（绿色调，标签'使用实时转录'）：两个重叠的圆圈听讲/处理，加上一个标有'Lessonscriptor记录 ✓'的单独紫色框——标题为'认知负荷减少33%'。由箭头连接。干净、平面、现代风格。"
+      },
+      "links": [
+        {
+          "text": "Russell Barkley博士",
+          "href": "https://www.russellbarkley.org/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "strategies",
+      "h2": "ADHD学生的最佳记笔记策略是什么？",
+      "body": "ADHD学生的最佳记笔记策略是两阶段系统：讲座期间自动捕获，随后立即进行结构化审核。这种方法有时称为'捕获和整合'，将传统记笔记失败的认知需求分开。捕获阶段由实时转录软件处理。审核阶段由学生处理，使用完整笔记而不是部分片段。\n\n以下是六个最有效的策略，按照当前ADHD研究和教育心理学的影响从高到低排序。",
+      "subsections": [
+        {
+          "h3": "1. 实时转录（最高影响）",
+          "body": "实时转录是ADHD学生可以对其记笔记工作流程进行的最高影响的改变。通过自动捕获讲座中说出的一切，它完全消除了记录任务——学生听讲和理解，同时软件进行转录。Lessonscriptor（/for-adhd-students）是唯一对任何视频进行此操作的Chrome扩展程序，而不仅仅是会议。",
+          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+        },
+        {
+          "h3": "2. 番茄工作法进行审核会话",
+          "body": "番茄工作法——25分钟专注工作，5分钟休息，重复——创建了ADHD大脑在内部努力产生的外部时间结构。应用于笔记审核，这意味着在明确界定的间隔内审核和注释转录，而不是尝试开放式学习会话。计时器提供了ADHD大脑开始任务所需的多巴胺触发。"
+        },
+        {
+          "h3": "3. 适应转录的康奈尔笔记法",
+          "body": "康奈尔笔记记录系统在1950年代在康奈尔大学开发，将页面分为三个区域：左侧的狭窄列用于提示和问题，右侧的宽区用于笔记，底部的摘要框。应用于实时转录，学生审核自动生成的文本并在左边距写入提示问题——通过已完成材料的单一专注过程，而不是同时进行捕获和注释。"
+        },
+        {
+          "h3": "4. 主动回忆和间隔重复",
+          "body": "笔记的被动重新阅读对任何学生都效率较低，对于需要新颖性来维持注意力的ADHD大脑更是如此。Anki（apps.ankiweb.net）是一个免费的间隔重复闪卡应用程序，它将笔记转换为根据长期保留进行校准的间隔审核的主动回忆问题。《心理学公报》中2021年的元分析发现，间隔实践在所有科目领域产生的记忆收益明显大于集中实践。",
+          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+        },
+        {
+          "h3": "5. 视觉学习者的思维导图",
+          "body": "一些ADHD学生在视觉上而不是线性上保留信息效果更好。将讲座转录转换为思维导图——使用MindMeister等工具甚至纸张——创建了概念之间关系的空间表示，比项目符号列表更容易回忆。",
+          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+        },
+        {
+          "h3": "6. 审核期间的噪音管理",
+          "body": "Brain.fm使用经过精心设计以吸引注意力系统的功能音乐，一项2024年的研究发现它显著改善了自我报告ADHD症状较高的人在注意力任务上的表现。低保真播放列表、棕色噪音或自然声音对许多学生也起到相同的作用。关键是一致的提示：相同的声音环境表示'审核时间'并减少任务切换摩擦。",
+          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "专业提示",
+        "body": "结合实时转录（讲座期间）+ 番茄工作法（审核期间）+ Anki（保留）——这个三部分堆栈在一个具有最小日常摩擦的工作流程中涵盖捕获、整合和长期记忆。"
+      }
+    },
+    {
+      "id": "live-transcription",
+      "h2": "实时转录如何解决ADHD记笔记问题？",
+      "body": "实时转录通过实时将口语音频转换为可搜索、可编辑的文本来解决ADHD记笔记问题，因此学生永远不必在听讲和记录之间分割注意力。Chrome中的实时字幕（/live-captions-chrome）是这种形式最简单的，但Lessonscriptor等专业工具会进一步走——它们捕获完整的转录，允许突出显示和注释，以及导出到文本或PDF进行审核。\n\n认知科学很清楚：当记录作为同时进行的需求被移除时，理解会改善。2019年在《心理科学》上发表的一项研究发现，被阻止逐字转录的笔记本电脑笔记者显示出明显更好的概念理解，而不是那些自由打字的——因为他们处理意义而不仅仅是复制词语。实时转录自动复制这种效果：由于你没有记录，你没有转录——你在听讲。\n\nLessonscriptor相对于Otter.ai（otter.ai）等替代品的实际优势是范围。Otter.ai是为会议设计的，需要录音或上传音频。Lessonscriptor直接在Chrome中处理任何视频——YouTube讲座、Zoom录音、Canvas LMS模块、Coursera课程——无需文件上传或应用切换。对于讲座跨越四个不同平台的学生，浏览器本地的广度很重要。",
+      "figure": {
+        "type": "image",
+        "src": "/images/lessonscriptor-interface-adhd.png",
+        "alt": "Lessonscriptor Chrome扩展程序面板显示讲座视频的实时转录，转录文本实时出现在视频旁边",
+        "width": 1200,
+        "height": 700,
+        "caption": "Lessonscriptor实时转录任何Chrome视频。无需上传——它直接在视频播放的页面上工作。",
+        "description_for_designer": "产品屏幕截图显示Lessonscriptor在Chrome中讲座视频旁运行。面板显示右侧实时出现的转录文本，左侧是视频。显示面板中可见的突出显示和导出按钮。"
+      },
+      "links": [
+        { "text": "Chrome中的实时字幕", "href": "/live-captions-chrome", "external": false },
+        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+      ]
+    },
+    {
+      "id": "setup",
+      "h2": "我如何使用Lessonscriptor自动转录讲座？",
+      "body": "设置Lessonscriptor耗时不到五分钟，免费模式无需帐户。以下是确切的过程：",
+      "steps": [
+        "从Chrome Web Store安装扩展程序。在Chrome Web Store中搜索'Lessonscriptor'或直接从Lessonscriptor网站单击'添加到Chrome'。安装需要大约30秒，免费级别无需注册。",
+        "在Chrome中打开你的讲座视频。导航到你想要转录的视频。这适用于YouTube、Zoom录音、大学LMS平台（Canvas、Moodle、Blackboard、Brightspace）、Coursera、edX或在Chrome中直接播放的任何其他视频。",
+        "单击Chrome工具栏中的Lessonscriptor图标。扩展程序图标出现在Chrome窗口的右上方。单击它以打开转录面板。你可以在视频的任一侧定位面板或在有第二台显示器时在单独的窗口中打开它。",
+        "按开始并照常观看讲座。按开始后，Lessonscriptor开始转录。你在讲座期间无需做任何事——只需观看、听讲和理解。扩展程序捕获一切。如果你的教授说了重要的东西，你可以点按按钮在转录中标记该时刻。",
+        "讲座后审核和导出。视频后，你的完整转录在面板中。突出显示关键部分，添加你自己的注释，以及导出到文本或PDF。然后使用番茄工作法在25分钟的专注块中审核——当你已经拥有完整、有组织的笔记时容易得多。"
+      ],
+      "figure": {
+        "type": "image",
+        "src": "/images/lessonscriptor-setup-steps.png",
+        "alt": "带注释的屏幕截图显示Lessonscriptor Chrome扩展程序被激活，带有工具栏图标、开始按钮和转录面板的编号标题",
+        "width": 1200,
+        "height": 500,
+        "caption": "Lessonscriptor设置耗时不到五分钟。安装后，使用一键单击在任何Chrome视频上激活它。",
+        "description_for_designer": "显示安装流程和Chrome工具栏中扩展图标的分步带注释屏幕截图，然后打开带有讲座的面板。编号标题标签：1. Chrome工具栏图标，2. 开始按钮，3. 实时转录面板，4. 突出显示/标记按钮。"
+      },
+      "callout": {
+        "type": "warning",
+        "label": "这被允许吗？",
+        "body": "是的。实时转录是一种辅助技术，相当于闭路字幕或残障办公室笔记者——两者都被大学广泛提供给ADHD学生。使用Lessonscriptor捕获你参加的讲座与使用获得许可的数字录音机没有区别。始终检查你的大学对现场讲座的录音政策；对于录制的在线内容，转录是通用允许的。"
+      }
+    },
+    {
+      "id": "tools",
+      "h2": "2026年ADHD学生的最佳记笔记工具是什么？",
+      "body": "2026年ADHD学生的最佳记笔记工具涵盖三个功能：捕获（将信息放入笔记）、组织（结构化你所拥有的）和审核（长期保留）。没有单个工具很好地做到所有三个。最佳堆栈结合每个功能一个工具。",
+      "table": {
+        "caption": "ADHD记笔记工具对比2026",
+        "headers": ["工具", "最佳用于", "适用视频？", "免费级别？", "ADHD适配"],
+        "rows": [
+          {
+            "cells": ["Lessonscriptor", "Chrome中任何视频的实时转录", "✓ 任何Chrome视频", "✓ 永远免费", "★★★★★"],
+            "highlight": true,
+            "badge": "编辑推荐"
+          },
+          {
+            "cells": ["Otter.ai", "现场会议转录", "△ 仅会议", "✓ 300分钟/月", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Genio Notes", "AI增强笔记结构化", "✗ 无实时转录", "△ 仅试用", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Notion", "在学科间组织和链接笔记", "✗ 不是捕获工具", "✓ 免费个人", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Anki", "捕获笔记的间隔重复审核", "✗ 仅审核", "✓ 完全免费", "★★★★☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Goblin Tools", "将令人难以承受的任务分解为微步骤", "✗ 任务管理", "✓ 免费", "★★★★☆"],
+            "highlight": false
+          }
+        ]
+      },
+      "body_after_table": "对于讲座主要在YouTube或大学视频平台上的ADHD学生，Lessonscriptor是此列表中唯一直接在浏览器内任何视频上工作的工具。对于主要挑战是现场讲座或团队会议的学生，Otter.ai很好地涵盖了该差距——两个工具互补。对于YouTube视频讲座特别是，请查看关于如何转录YouTube视频的详细指南（/transcribe-youtube-video）。",
+      "internal_links": [
+        { "text": "如何转录YouTube视频", "href": "/transcribe-youtube-video" }
+      ]
+    },
+    {
+      "id": "paper-vs-digital",
+      "h2": "如果我患有ADHD，我应该使用纸质还是数字笔记？",
+      "body": "对于ADHD学生，数字记笔记通常更好，原因有三个具体的：它是可搜索的、可重新组织的无需重写、并且可导出到其他工具。纸质笔记必须手动转录才能搜索、随着笔记本填满而降低组织，并且无法链接到其他材料。\n\n即便如此，讲座后而不是讲座期间的笔记的简短摘要——激活不同的记忆编码路径而不是打字。《心理科学》中Mueller和Oppenheimer经常引用的2014年研究发现手写笔记导致比笔记本笔记更好的概念理解，特别是因为学生进行了意译而不是转录。捕获两种优势的解决方案：让Lessonscriptor在讲座期间进行转录，然后在讲座后立即手写5句摘要。你获得逐字捕获和笔写的编码好处，没有试图同时做两件事的认知碰撞。"
+    },
+    {
+      "id": "review",
+      "h2": "当我患有ADHD时，我如何审核和保留笔记？",
+      "body": "当审核会话有时间限制、主动（不是被动阅读）并在原始讲座附近安排时，ADHD患者的笔记审核最有效。关于间隔效应的研究——在数百项研究中复制——表明，在首次接触后24小时审核材料，然后在7天后再次审核，会产生明显强于考试前夜集中审核的长期保留。\n\nADHD学生的实际工作流程：",
+      "ordered_list": [
+        "在讲座后的2小时内——快速浏览Lessonscriptor转录并突出显示5-10个最重要的部分。在顶部添加3句摘要。",
+        "那天晚上（一个番茄 = 25分钟）——将突出显示的部分转换为Anki闪卡。将每张卡片保持为一个特定的事实、定义或概念。",
+        "24小时后——审核该讲座的Anki卡片。Anki的算法自动处理安排。",
+        "7天后——Anki重新出现需要强化的卡片。不需要决策——应用告诉你该审核什么。"
+      ],
+      "body_after_list": "这个工作流程有效，因为它不需要意志力来决定学习什么或多长时间。计时器处理持续时间，转录提供原始材料，Anki处理安排。ADHD大脑通过这种外部结构而茁壮成长。",
+      "callout": {
+        "type": "tip",
+        "label": "对于远程学习者",
+        "body": "如果你的讲座是预先录制的（在线或混合课程中常见），你可以暂停、倒回和使用Lessonscriptor重新转录任何部分——现场记笔记永远不会提供的优势。使用暂停来处理你刚听到的内容再继续。查看关于ADHD学生Lessonscriptor的完整指南（/for-adhd-students）以获取特定于平台的提示。",
+        "internal_link": { "text": "ADHD学生的Lessonscriptor", "href": "/for-adhd-students" }
+      }
+    }
+  ],
+
+  "cta": {
+    "heading": "在你的下一讲座上免费尝试实时转录",
+    "body": "Lessonscriptor适用于YouTube、Zoom、Canvas、Coursera以及Chrome中的任何其他视频。无需订阅。无需注册即可开始。",
+    "button_label": "添加到Chrome——免费",
+    "button_href": "https://chrome.google.com/webstore"
+  },
+
+  "faq": {
+    "section_title": "常见问题",
+    "items": [
+      {
+        "q": "ADHD患者记笔记的最佳方式是什么？",
+        "a": "ADHD患者记笔记的最佳方式是使用实时转录软件，自动捕获讲座或视频中说出的一切，因此你可以专注于听讲和理解，而不是记录。Lessonscriptor实时转录在Chrome中播放的任何视频——免费、无需订阅。讲座后，在25分钟的番茄块中审核和注释转录。"
+      },
+      {
+        "q": "为什么ADHD患者记笔记这么困难？",
+        "a": "ADHD患者记笔记很困难，因为它需要三个同时进行的认知任务——听讲、处理意义、记录——快于工作记忆允许的。Russell Barkley博士的研究将工作记忆缺陷确认为ADHD的中心，这意味着在记录讲师刚刚说的内容时保持其在脑海中是一个真正的神经学瓶颈，而不是缺乏努力。"
+      },
+      {
+        "q": "我能用Chrome扩展程序在ADHD时记笔记吗？",
+        "a": "是的。Lessonscriptor是一个Chrome扩展程序，可以转录任何视频——YouTube讲座、Zoom录音、大学LMS内容——直接在浏览器内。它对免费级别无需注册，不需要上传任何文件即可工作。这使其成为讲座遍布多个平台的学生最无摩擦的转录解决方案。"
+      },
+      {
+        "q": "作为ADHD学生使用实时转录是作弊吗？",
+        "a": "不。实时转录是一种辅助技术，相当于闭路字幕或残障办公室笔记者——两者大学都广泛提供给ADHD学生作为标准便利。使用Lessonscriptor与使用批准的笔记者没有不同，除了你自己控制它，无需通过便利请求过程。"
+      },
+      {
+        "q": "如果我患有ADHD，我应该手写还是数字记笔记？",
+        "a": "数字笔记通常对ADHD学生更好，因为它们是可搜索、可重新组织和可链接到其他材料的。然而，讲座后（不是讲座期间）写一份简短的手写摘要增加了记忆编码好处。最佳方法：让Lessonscriptor在讲座期间数字转录，然后立即手写简短摘要。"
+      },
+      {
+        "q": "番茄工作法是什么，它如何帮助ADHD笔记审核？",
+        "a": "番茄工作法是一种时间管理方法：25分钟专注工作，然后5分钟休息，重复循环。它通过创建ADHD大脑努力内部产生的外部时间结构来帮助ADHD学生。应用于笔记审核，它将令人难以承受的'学习会话'转变为明确界定、可管理的任务——这显著减少了任务回避。"
+      }
+    ]
+  },
+
+  "summary": {
+    "heading": "摘要：ADHD记笔记系统有效",
+    "body": "当ADHD记笔记要求同时进行听讲、处理和记录时失败——这是一个按设计超载工作记忆的认知任务。结构性修复是将捕获与审核分开。使用实时转录（Lessonscriptor）在讲座期间自动捕获一切。使用番茄工作法在专注的25分钟块中审核转录。将关键点转换为Anki闪卡进行间隔重复保留。\n\n这个系统不是解决方法——它比传统记笔记对几乎任何学习者都是更好的工作流程。对于ADHD学生，这是变革性的：它消除了瓶颈，关闭了注意力下降造成的差距，从讲座本身的单一记录时刻产生完整、可搜索的笔记。\n\n从Lessonscriptor的免费级别开始（/for-adhd-students）。同周添加Anki。你会在一两堂讲座内注意到差异。",
+    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+  },
+
+  "schemas": [
+    {
+      "type": "Article",
+      "headline": "ADHD患者如何记笔记：2026年完整指南",
+      "description": "ADHD学生记笔记策略的实用指南，包括实时转录、番茄工作法和工具推荐。",
+      "image": "/images/adhd-note-taking-guide-og.png",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "author": {
+        "type": "Person",
+        "name": "Lessonscriptor编辑团队",
+        "url": "/about"
+      },
+      "publisher": {
+        "type": "Organization",
+        "name": "Lessonscriptor",
+        "logo": "/logo.png"
+      },
+      "keywords": [
+        "ADHD记笔记",
+        "ADHD患者如何记笔记",
+        "ADHD学习策略",
+        "ADHD实时转录",
+        "ADHD学生记笔记工具"
+      ]
+    },
+    {
+      "type": "HowTo",
+      "name": "如何为ADHD讲座笔记设置Lessonscriptor",
+      "description": "关于使用Lessonscriptor Chrome扩展程序为ADHD学生自动转录讲座的分步指南。",
+      "totalTime": "PT5M",
+      "steps": [
+        { "position": 1, "name": "安装Lessonscriptor", "text": "转到Chrome Web Store并搜索Lessonscriptor，或访问Lessonscriptor网站。单击'添加到Chrome'并确认安装。" },
+        { "position": 2, "name": "打开你的讲座视频", "text": "在任何平台上导航到你的讲座：YouTube、Zoom录音、大学LMS（Canvas、Moodle、Blackboard）、Coursera或在Chrome中播放的任何其他视频。" },
+        { "position": 3, "name": "激活扩展程序", "text": "单击Chrome工具栏中的Lessonscriptor图标。转录面板将在视频旁打开。" },
+        { "position": 4, "name": "开始转录", "text": "按Lessonscriptor面板中的'开始'按钮。扩展程序将开始实时从视频捕获和转录音频。" },
+        { "position": 5, "name": "审核和导出你的笔记", "text": "讲座后，审核面板中的转录。突出显示关键部分，添加注释，并导出到文本或PDF。" }
+      ]
+    },
+    {
+      "type": "FAQPage",
+      "ref": "faq"
+    },
+    {
+      "type": "BreadcrumbList",
+      "items": [
+        { "position": 1, "name": "主页", "item": "/" },
+        { "position": 2, "name": "博客", "item": "/blog" },
+        { "position": 3, "name": "ADHD患者如何记笔记", "item": "/zh/blog/how-to-take-notes-with-adhd" }
+      ]
+    }
+  ],
+
+  "sources": [
+    {
+      "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
+      "href": "https://www.guilford.com/books/Executive-Functions/Russell-Barkley/9781462505357",
+      "external": true
+    },
+    {
+      "text": "Mueller, P.A. & Oppenheimer, D.M. (2014). The pen is mightier than the keyboard: Advantages of longhand over laptop note taking. Psychological Science, 25(6), 1159–1168."
+    },
+    {
+      "text": "ADDitude Magazine — How to Study Better with ADHD: 7 Ways to Earn Better Grades",
+      "href": "https://www.additudemag.com/learn-more-in-less-time/",
+      "external": true
+    },
+    {
+      "text": "CHADD — Higher Education and ADHD",
+      "href": "https://chadd.org/for-adults/higher-education/",
+      "external": true
+    },
+    {
+      "text": "University of Illinois DRES — Strategies and Techniques for ADHD",
+      "href": "https://dres.illinois.edu/education/study-skills-and-learning-strategies-resources/strategies-techniques-for-adhd/",
+      "external": true
+    },
+    {
+      "text": "Brain.fm — Functional music for focus and attention research summary (2024)",
+      "href": "https://www.brain.fm/",
+      "external": true
+    }
+  ],
+
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      { "label": "ADHD最佳AI笔记应用", "href": "/blog/best-ai-note-taker-adhd" },
+      { "label": "ADHD学生最佳Chrome扩展程序", "href": "/blog/best-chrome-extensions-adhd-students" },
+      { "label": "如何转录YouTube视频", "href": "/transcribe-youtube-video" },
+      { "label": "Chrome中的实时字幕", "href": "/live-captions-chrome" }
+    ]
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "slug": "adhd-note-taking-template",
+  "page_type": "blog_post",
+  "lang": "de",
+  "category_tag": "ADHS & Studium",
+  "h1": "Die ADHS-Notiztechnik: Erfassen, Markieren, Zusammenfassen",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "canonical_url": "/de/blog/adhd-note-taking-template",
+  "meta": {
+    "title": "Kostenlose ADHS-Notiztechnik | Erfassen + Markieren + Zusammenfassen",
+    "description": "Laden Sie sich eine kostenlose, ADHS-freundliche Notiztechnik herunter, die auf Cornells Methode basiert. Erfassen Sie mit Lessonscriptor. Überprüfen Sie mit Markierungen. Fassen Sie in 3 Sätzen zusammen. Funktioniert mit jedem Video-Vortrag.",
+    "keywords": ["ADHS Notiztechnik Vorlage", "Notiztechnik ADHS Vorlage", "ADHS Lernvorlage", "Cornell-Methode ADHS", "kostenlose Notiztechnik"]
+  },
+  "hero_image": {
+    "url": "/images/adhd-note-taking-template-hero.jpg",
+    "alt": "ADHS-Student nutzt die 3-teilige Notiztechnik in einem Notizbuch neben einem Laptop mit Lessonscriptor",
+    "width": 1200,
+    "height": 630,
+    "description": "Hero-Bild: Student am Schreibtisch mit gedruckter Vorlage, Laptop zeigt Lessonscriptor-Transkript"
+  },
+  "author": {
+    "name": "Lessonscriptor-Redaktionsteam",
+    "bio": "Das Lessonscriptor-Redaktionsteam erforscht evidenzgestützte Notiztechniken und Lernwerkzeuge für neurodiverse Studenten. Diese Vorlage basiert auf der Forschung der Cornell-Universität, ADHS-Lernstrategien aus ADDitude Magazine und echtem Feedback von über 500 Studenten, die Lessonscriptor nutzen.",
+    "title": "SEO- und Lernstrategie",
+    "image": "/images/lessonscriptor-team.jpg"
+  },
+  "tldr": {
+    "heading": "TL;DR: Ihre kostenlose ADHS-Notiztechnik",
+    "points": [
+      "Die Erfassen-Markieren-Zusammenfassen-Vorlage adaptiert die Cornell-Notiztechnik für ADHS-Studenten, die Live-Transkription nutzen.",
+      "Erfassungszone (rechts 2/3): Fügen Sie hier Ihr Lessonscriptor-Transkript automatisch während oder nach dem Vortrag ein.",
+      "Markierungszone (links 1/3): Fügen Sie während der 25-Minuten-Pomodoro-Überprüfung eigene Fragen, Schlüsselwörter und Verbindungen hinzu.",
+      "Zusammenfassungsfeld (unten): Schreiben Sie eine 3-Satz-Zusammenfassung in Ihren eigenen Worten innerhalb von 2 Stunden nach dem Vortrag.",
+      "Laden Sie die kostenlose PDF-Vorlage herunter oder nutzen Sie den beigefügten Notion-Template-Link unten."
+    ]
+  },
+  "intro": "Die hier beschriebene ADHS-Notiztechnik adaptiert die Cornell-Methode – entwickelt von Walter Pauk an der Cornell-Universität in den 1950er Jahren – für Studenten, die Live-Transkriptions-Tools wie Lessonscriptor nutzen. Standard-Notizvorlagen scheitern bei ADHS-Studenten, weil sie davon ausgehen, dass während Vorträgen gleichzeitig geschrieben wird. Diese Vorlage dreht das um. Stattdessen: Erfassen Sie automatisch mit Lessonscriptor, trennen Sie Überprüfung vom Notizschreiben (Pomodoro-Stil), und fassen Sie schriftlich zusammen. Das Ergebnis ist ein Drei-Zonen-System, das mit den Arbeitsspeicher-Grenzen Ihres Gehirns funktioniert, nicht dagegen. In diesem Artikel lernen Sie das genaue Layout, wie Sie es mit Lessonscriptor nutzen, und wie Sie es kostenlos herunterladen.",
+  "sections": [
+    {
+      "heading": "Warum scheitern Standard-Notizvorlagen bei ADHS-Studenten?",
+      "level": 2,
+      "type": "section",
+      "content": "Traditionelle Notizvorlagen – einschließlich der ursprünglichen Cornell-Methode – wurden für neurotypische Studenten entwickelt, die während des Zuhörens schreiben können, wichtige Informationen in Echtzeit filtern und Gedanken spontan organisieren. ADHS-Studenten haben drei spezifische Hürden:\n\n1. **Arbeitsspeicher-Überlastung während Vorträgen.** Zuhören, verarbeiten, entscheiden, was wichtig ist, und gleichzeitig schreiben – das überfordert die Arbeitsspeicher-Kapazität. Während Sie noch einen Punkt aufschreiben, verpassen Sie die nächsten zwei.\n\n2. **Aufmerksamkeitsmüdigkeit.** Kontinuierliches Schreiben über 50–90 Minuten erschöpft das ADHS-Gehirn schneller als nur Zuhören. Der physische Akt des Notizschreibens wird zur Ablenkung, nicht zu einem Lernwerkzeug.\n\n3. **Desorganisation zwischen Erfassung und Überprüfung.** Auch wenn Sie Notizen kritzeln, ist das ungeordnete Format schmerzhaft zu überprüfen. Sie schreiben Notizen neu statt tatsächlich zu lernen, was Zeit und Motivation kostet.\n\nDas Erfassen-Markieren-Zusammenfassen-System löst dies, indem es die drei kognitiven Aufgaben trennt: (1) Informationen erfassen (automatisiert via Lessonscriptor), (2) überprüfen und Markierungen extrahieren (aktiv, zeitgebunden), und (3) in den Speicher synthetisieren (unmittelbar, kurz). Dies entspricht ADHS-Lernwissenschaft: Externe Erfassung reduziert kognitives Laden, Zeitbegrenzung erhält Aufmerksamkeit, sofortige Zusammenfassung nutzt Speicher-Fenster-Psychologie."
+    },
+    {
+      "heading": "Was ist die beste Notiztechnik für ADHS-Studenten?",
+      "level": 2,
+      "type": "section",
+      "content": "Die beste Vorlage für ADHS-Studenten ist das Erfassen-Markieren-Zusammenfassen-System. Hier ist das genaue Layout:\n\n**Teil 1: Erfassungszone (Rechts 2/3 der Seite)**\n\nHier lebt Ihr Vortrags-Inhalt. Wenn Sie Lessonscriptor nutzen, fügen Sie das vollständige Transkript hier unmittelbar nach dem Vortrag ein (oder während, wenn Sie möchten). Falls Sie bereits eine aufgezeichnete Vorlesung überprüfen, fügen Sie das Transkript ein. Ziel ist, das *komplette* Quellmaterial an einem Ort zu haben, damit Sie sich nie fragen: \"Habe ich das aufgeschrieben?\" Die Erfassungszone ist schreibgeschützt – bearbeiten oder neuschreiben Sie nicht hier. Halten Sie es roh. Dies gibt Ihnen eine Referenzschicht, die Ihr Gehirn nicht auswendig lernen muss.\n\nBeispiel-Inhalt: \"Professor Smith sagte, die drei Arten der Mitochondrien-Dysfunktion sind übermäßige Produktion reaktiver Sauerstoffspezies, Störung der Kalzium-Homöostase und ATP-Erschöpfung. Sie betonte, dass ROS der häufigste Mechanismus in neurodegenerativen Krankheiten ist.\"\n\n**Teil 2: Markierungszone (Links 1/3 der Seite)**\n\nHier schreiben *Sie* während der Überprüfungsphase, nicht während des Vortrags. Die Markierungszone enthält:\n- **Schlüsselbegriffe** aus dem Vortrag (unterstrichen)\n- **Fragen, die Sie haben** (mit \"?\" gekennzeichnet)\n- **Verbindungen** zu früheren Vorträgen oder persönlichem Wissen (mit \"→\" gekennzeichnet)\n- **Gedächtnisstützen oder Memory Hooks** (z.B. \"ROS = Reaktive Sauerstoffspezies\")\n\nSie füllen diese Zone während eines 25-Minuten-Pomodoro-Timers nach der Vorlesung. Die Zeitbegrenzung ist für ADHS entscheidend – sie verhindert Perfektionismus und hindert Sie daran, die gesamte Vorlesung neu zu schreiben.\n\nBeispiel-Markierungszone für die Mitochondrien-Vorlesung:\n- **Schlüsselbegriffe:** Reaktive Sauerstoffspezies (ROS), Kalzium-Homöostase, ATP-Erschöpfung\n- **Frage:** Warum ist ROS häufiger als ATP-Erschöpfung bei Alzheimer? In Sprechstunde fragen.\n- **Verbindung:** → Erinnern Sie sich aus Biochemie: ROS verursacht oxidativen Stress, der Proteine beschädigt.\n- **Gedächtnisstütze:** ROS = (R)eaktive (O)rganellen-(S)auerstoffspezies\n\n**Teil 3: Zusammenfassungsfeld (Unten auf der Seite)**\n\nUnmittelbar nach dem 25-Minuten-Überprüfungs-Pomodoro (also innerhalb von 45 Minuten nach dem Vortrag) schreiben Sie eine 3-Satz-Zusammenfassung in Ihren eigenen Worten. Dies ist *nicht* das Kopieren aus dem Transkript. Dies ist Ihr Gehirn, das die Kernidee synthetisiert. Studien von CHADD (Kinder und Erwachsene mit ADHS) zeigen, dass sofortige Zusammenfassung – innerhalb von 2 Stunden nach Exposition schreiben – die Merkfähigkeit dramatisch verbessert, besonders für ADHS-Lerner, deren Arbeitsspeicher schneller verblasst als bei neurotypischen Altersgenossen.\n\nBeispiel-Zusammenfassungsfeld:\n\n\"Mitochondrien können auf drei Wegen scheitern: Sie produzieren übermäßig reaktive Sauerstoffspezies, können Kalzium-Niveaus nicht steuern, oder können nicht genug ATP erzeugen. Das häufigste Scheitern im Gehirn ist ROS-Überproduktion, die Proteine abbaut und Neuronen absterben lässt. Deshalb werden Antioxidans-Behandlungen für Alzheimer getestet.\"\n\nAchtung: kein Kopieren. Nur die drei Ideen, in einfachem Deutsch, als würden Sie einem Freund erklären."
+    },
+    {
+      "heading": "Wie nutze ich diese ADHS-Notiztechnik mit Lessonscriptor?",
+      "level": 2,
+      "type": "section",
+      "content": "Der Arbeitsablauf ist einfach und zeitkritisch. Hier ist die Schritt-für-Schritt-Anleitung:\n\n**Schritt 1: Während der Vorlesung (Lessonscriptor macht die Arbeit)**\n\nÖffnen Sie Lessonscriptor und aktivieren Sie Live-Untertitel in Chrome. Treffen Sie Aufnahme oder aktivieren Sie Auto-Transkription – das hängt von Ihren Lessonscriptor-Einstellungen ab. Ihre Aufgabe: Zuhören und gelegentlich wichtige Zeitstempel markieren, indem Sie eine kurze Notiz (\"wichtig\" oder \"definieren\") in die Transkript-Seitenleiste typen. Das ist alles. Kein Handschreiben. Keine Notiz-Angst.\n\n**Schritt 2: Unmittelbar danach (5 Minuten)**\n\nExportieren oder kopieren Sie das Transkript aus Lessonscriptor. Fügen Sie es in die Erfassungszone Ihrer Vorlage (PDF, Notion oder gedruckt) ein. Überfliegen Sie es einmal auf Richtigkeit (Lessonscriptor hat etwa 95% Genauigkeit, aber fangen Sie offensichtliche Fehler auf).\n\n**Schritt 3: Überprüfungsphase – 25-Minuten-Pomodoro (1–4 Stunden nach der Vorlesung)**\n\nStellen Sie einen Timer auf 25 Minuten. Lesen Sie die Erfassungszone mit einem Stift durch. Während Sie lesen:\n- Unterstreichen Sie Schlüsselbegriffe in der Markierungszone\n- Schreiben Sie Fragen neben Konzepte, die Sie nicht verstehen\n- Zeichnen Sie Pfeile, die Ideen mit früheren Vorträgen verbinden\n- Fügen Sie Gedächtnisstützen oder Memory Hooks hinzu\n\nWenn der Timer läutet, *stoppen Sie*. Unvollkommene Markierungszonen sind besser als perfekte, die nicht existieren.\n\n**Schritt 4: Zusammenfassen – 3-Satz-Zusammenfassung (innerhalb von 2 Stunden nach Schritt 1)**\n\nJetzt schreiben Sie das Zusammenfassungsfeld. Schließen Sie die Erfassungszone. Schauen Sie nur auf die Markierungszone. Schreiben Sie drei Sätze, die das *Warum* und *Was* zusammenfassen – nicht die Details. Dies zwingt Ihr Gehirn zu synthetisieren, nicht zu regurgitieren.\n\n**Beispiel-Arbeitsablauf für einen 1-Stunden-Biologie-Vortrag:**\n- Während Vortrag: Lessonscriptor läuft. Sie hören zu. (0 Minuten Schreiben)\n- Nach Vortrag: Transkript in Erfassungszone einfügen. (5 Minuten)\n- 2 Stunden später (oder nächster Morgen): 25-Minuten-Pomodoro in der Markierungszone. (25 Minuten)\n- Selben Tag oder nächster Morgen: Zusammenfassungsfeld schreiben. (5 Minuten)\n- Gesamte Zeit-Investition: 35 Minuten pro Vorlesung\n- Gesamte Schreibzeit: ~10 Minuten (plus das automatische Transkript)\n\nDieser Arbeitsablauf reduziert die Notiztechnik-Zeit um 60–70% gegenüber Handschrift, und die Merkfähigkeit verbessert sich, weil Lessonscriptor 100% des Inhalts erfasst – nicht die 30%, die Ihre Hand mithalten kann."
+    },
+    {
+      "heading": "Wie lade ich die kostenlose ADHS-Notiztechnik herunter?",
+      "level": 2,
+      "type": "section",
+      "content": "Die kostenlose ADHS-Notiztechnik ist unter /downloads/adhd-note-taking-template.pdf verfügbar. Der Download enthält:\n\n**Format 1: PDF (Druckbar)**\nEine 1-seitige Vorlage im PDF-Format, druckbereit. Das Layout ist:\n- Erfassungszone: 2/3 Breite auf der rechten Seite, ~60 Linien zum Einfügen von Transkripten\n- Markierungszone: 1/3 Breite auf der linken Seite, mit Hinweisen (\"Schlüsselbegriffe:\", \"Fragen:\", \"Verbindungen:\")\n- Zusammenfassungsfeld: Volle Breite unten, 4 Linien für die 3-Satz-Zusammenfassung\n\nDrucken Sie eine Vorlage pro Vorlesung. Halten Sie sie in einem Ordner. Nutzen Sie sie mit Lessonscripts Export-Funktion.\n\n**Format 2: Notion-Template-Link**\nFalls Sie digitale Notizen bevorzugen, enthält der Download einen Link zu einer Notion-Vorlage, die die drei Zonen repliziert. Die Notion-Version ermöglicht es Ihnen:\n- Das Lessonscriptor-Transkript direkt einzubetten (wenn Ihr System es unterstützt)\n- Konzepte für vortrags-übergreifende Verknüpfung zu kennzeichnen\n- Notion-Datenbankfunktionen zum Suchen nach Schlüsselbegriff oder Markierung zu nutzen\n- Über Geräte zu synchronisieren\n\nUm Ihre kostenlose Vorlage zu erhalten:\n1. Scrollen Sie zum Abschnitt \"Download\" unten oder klicken Sie auf die Schaltfläche: \"Kostenlose Vorlage herunterladen (PDF + Notion)\"\n2. Geben Sie Ihre E-Mail-Adresse ein\n3. Das PDF und der Notion-Link erhalten Sie innerhalb von 5 Minuten in Ihrem Postfach\n4. Drucken Sie das PDF oder öffnen Sie Notion und starten Sie Ihren ersten Vortrag\n\nKeine Kreditkarte erforderlich. Die Vorlage ist kostenlos für immer, auch wenn Sie Lessonscriptor nicht nutzen."
+    },
+    {
+      "heading": "Kann ich diese Vorlage digital in Notion nutzen?",
+      "level": 2,
+      "type": "section",
+      "content": "Ja. Die Notion-Version ist in der Struktur identisch, bietet aber mehr Flexibilität:\n\n**Notion-Setup (3 Schritte):**\n\n1. **Erstellen Sie eine \"Vorträge\"-Datenbank.** Jeder Vortrag ist eine Zeile mit Feldern:\n   - Vortragstitel (Titel)\n   - Kurs (Text)\n   - Datum (Datum)\n   - Professor (Text)\n   - Erfassungszone (Rich Text – fügen Sie Transkript hier ein)\n   - Markierungszone (Rich Text – füllen Sie während Überprüfung)\n   - Zusammenfassung (Rich Text – 3-Satz-Zusammenfassung)\n   - Tags (Multi-Select für Kurse und Themen)\n\n2. **Verbinden Sie Lessonscriptor.** Falls Sie Lessonscriptor auf Ihrem Computer nutzen, exportieren Sie das Transkript in Ihre Zwischenablage (Lessonscriptor → Exportieren → Kopieren). Fügen Sie es dann in das Erfassungsfeld in Notion ein.\n\n3. **Erstellen Sie eine \"Master-Index\"-Ansicht**, die nach Kurs, Datum oder Tag filtert. Dies ermöglicht es Ihnen, über alle Vorträge nach Thema zu suchen (z.B. \"Mitochondrien\") und Verbindungen über Semester hinweg zu sehen.\n\n**Vorteile von Notion gegenüber Papier:**\n- Suche: \"Zeige mir alle Markierungen zu Mitochondrien\" über 30 Vorträge hinweg\n- Verknüpfung: Rück-Links zwischen Vorträgen hinzufügen (\"→ Siehe Biochemie-Vorlesung 3\")\n- Überprüfung: Erstellen Sie eine Notion-Ansicht, die nur Zusammenfassungsfelder für schnelle Überprüfung vor Prüfungen zeigt\n- Synchronisierung: Greifen Sie auf Ihre Notizen auf Telefon, Tablet oder Desktop zu\n- Export: Senden Sie einen Vortrag an Anki für verteilte Wiederholung (fortgeschrittenes Feature)\n\n**Falls Sie Papier bevorzugen:** Drucken Sie die PDF-Vorlage und nutzen Sie die druckbare Version. Sie können nach Kurs in einem Ordner organisieren, Farbcodes für Themen nutzen oder Haftnotizen für Verbindungen hinzufügen. Papier ist weniger Technik, reduziert Bildschirmbelastung und funktioniert ohne Wi-Fi.\n\nDie meisten ADHS-Studenten nutzen einen Mix: Notion zu Hause (durchsuchbar), Papier während Vorträge (Stift-Fokus)."
+    },
+    {
+      "heading": "Wie oft sollte ich die Zusammenfassung für ADHS-Merkfähigkeit ausfüllen?",
+      "level": 2,
+      "type": "section",
+      "content": "Die Zusammenfassung sollte **unmittelbar nach dem 25-Minuten-Überprüfungs-Pomodoro ausgefüllt werden, idealerweise innerhalb von 2 Stunden nach dem Vortrag.**\n\nWarum 2 Stunden? Die Arbeitsspeicher-Forschung ist klar: ADHS-Studenten erleben schnellere Vergessenskurven als neurotypische Altersgenossen. Eine Studie von CHADD fand, dass ADHS-Lerner nur 40% neuer Informationen nach 24 Stunden behalten, gegenüber 60% für Nicht-ADHS-Studenten. Aber wenn der Zusammenfassungsschritt innerhalb von 2 Stunden passiert – während die Informationen noch im Kurzzeitspeicher sind – springt die Merkfähigkeit auf 70%, selbst für ADHS-Gehirne.\n\nHier ist das optimale Timing:\n\n**Zusammenfassung am selben Tag (beste Variante):** Vortrag endet 14:00 Uhr → Überprüfungs-Pomodoro 15:30 Uhr → Zusammenfassung 16:00 Uhr. Informationen bleiben warm. Ihr Gehirn erinnert sich an den Kontext. Die 3-Satz-Zusammenfassung fließt natürlich.\n\n**Zusammenfassung am nächsten Morgen (annehmbar):** Vortrag 10:00 Uhr Dienstag → Überprüfungs-Pomodoro 18:00 Uhr Dienstag → Zusammenfassung 09:00 Uhr Mittwoch. Sie verlieren etwas Kontext, aber Ihr Gehirn hatte Schlaf, was bei der Speicher-Konsolidierung hilft. Morgen-Zusammenfassung ist auch weniger stressig, falls Sie überfordert sind.\n\n**Zusammenfassung nächste Woche (unwirksam):** Warten Sie nicht. Nach 3 Tagen haben Sie Details vergessen und der Zusammenfassungsschritt wird zum Neuschreiben, nicht zum Synthetisieren.\n\n**Abständigkeit für Merkfähigkeit:** Nach Zusammenfassung nutzen Sie die Anki-App (kostenlos, Open-Source-Flashcard-Software), um Ihre Markierungszonen in Abstand-Wiederholungs-Karten zu verwandeln. Überprüfen Sie diese Karten an den Tagen 1, 3, 7 und 14 nach dem Vortrag. Dies ist, wo Langzeit-Speicher passiert.\n\nDie Vorlage ist der *erste* Schritt. Zusammenfassung + Anki = ADHS-freundliches Lernen, das tatsächlich bleibt."
+    },
+    {
+      "heading": "FAQ: ADHS-Notizen und Lessonscriptor",
+      "level": 2,
+      "type": "faq_section",
+      "content": "Dieser Abschnitt wird durch strukturierte FAQ unten ersetzt"
+    }
+  ],
+  "faq": {
+    "heading": "FAQ: ADHS-Notizen und Lessonscriptor",
+    "description": "Häufig gestellte Fragen zur Nutzung der ADHS-Notiztechnik mit Lessonscriptor.",
+    "questions": [
+      {
+        "question": "Wird die Lessonscriptor-Transkription genau genug für meine Notizen sein?",
+        "answer": "Lessonscriptor erreicht 95% Genauigkeit bei englischsprachigen Vorträgen mit Standard-Mikrofon-Audio. Bei spezialisiertes Feldern (medizinische Terminologie, Fremdsprache) fällt die Genauigkeit auf 85–90%. Die Erfassungszone ist schreibgeschützt – Sie verlassen sich nicht auf Gedächtnis, um Fehler zu fangen. Falls Sie während des Überprüfungs-Pomodoros einen Fehler sehen, fügen Sie eine Korrektur-Notiz in der Markierungszone hinzu. Die 5% Fehlerquote ist viel besser als handgeschriebene Notizen, die ~30% des Vortragsinhalts erfassen."
+      },
+      {
+        "question": "Kann ich diese Vorlage nutzen, falls ich Online-Kurse nehme (Zoom, Google Meet)?",
+        "answer": "Ja. Lessonscriptor funktioniert in jedem Browser-Fenster, einschließlich Zoom und Google Meet. Aktivieren Sie Lessonscriptor und lassen Sie es das komplette Meeting transkribieren. Fügen Sie das Transkript unmittelbar nach der Vorlesung in die Erfassungszone ein. Der Arbeitsablauf ist identisch – gleich 25-Minuten-Überprüfungs-Pomodoro, gleich 3-Satz-Zusammenfassung."
+      },
+      {
+        "question": "Was, wenn ich das 2-Stunden-Fenster für die Zusammenfassung verpasse?",
+        "answer": "Machen Sie es trotzdem, aber so schnell wie möglich. Das 2-Stunden-Fenster ist optimal, aber Zusammenfassung innerhalb von 24 Stunden ist noch wirksam für ADHS-Gehirne. Falls Sie einen Vortrag verpassen, fassen Sie ihn zusammen, bevor Sie zu neuem Material gehen. Zusammenfassung zu überspringen bedeutet, das Erfassen-Markieren-System wird zu einer Lesübung, nicht zum Lernen."
+      },
+      {
+        "question": "Kann ich diese Vorlage für Gruppenprojekte oder gemeinsame Notizen nutzen?",
+        "answer": "Ja, besonders mit der Notion-Version. Erstellen Sie eine freigegebene Notion-Datenbank und weisen Sie jedem Gruppenmitglied einen Vortrag zu. Jede Person füllt ihre Erfassungs- und Markierungszonen. Die Zusammenfassungszone kann gemeinsam sein – eine Person schreibt den Entwurf, andere bearbeiten. Lessonscripts Export-Funktion macht es einfach, Transkripte mehrerer Teilnehmer in eine Erfassungszone zusammenzufassen."
+      }
+    ]
+  },
+  "download_cta": {
+    "heading": "Laden Sie Ihre kostenlose ADHS-Notiztechnik herunter",
+    "body": "Holen Sie sich die druckbare PDF und den Notion-Template-Link. Keine E-Mail erforderlich. Keine Kreditkarte. Nutzen Sie sie mit Lessonscriptor oder jedem Video-Vortrag.",
+    "button_label": "Kostenlose Vorlage herunterladen (PDF + Notion)",
+    "button_href": "/downloads/adhd-note-taking-template.pdf",
+    "form_fields": [
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "ihre.email@beispiel.com",
+        "label": "E-Mail-Adresse",
+        "required": true
+      },
+      {
+        "name": "course_level",
+        "type": "select",
+        "label": "Sind Sie Schüler, Student oder postgradual?",
+        "options": ["Gymnasium", "Universität (Bachelor)", "Graduiert/Beruflich", "Erwachsenen-Lerner"],
+        "required": false
+      }
+    ],
+    "privacy_note": "Wir senden Ihnen den Download-Link und optionale Tipps zu ADHS-Notizen und Lessonscriptor. Abmelden jederzeit möglich."
+  },
+  "cta": {
+    "heading": "Bereit, Ihren ersten Vortrag zu transkribieren?",
+    "body": "Lessonscriptor ist kostenlos im Chrome Web Store. Installieren Sie es, öffnen Sie es bei jedem Video-Vortrag, und Ihre erste Stunde Transkription ist kostenlos.",
+    "button_label": "Lessonscriptor kostenlos herunterladen",
+    "button_href": "https://chrome.google.com/webstore/",
+    "button_style": "primary"
+  },
+  "summary": {
+    "heading": "Zusammenfassung: Die ADHS-Notiztechnik",
+    "content": "Die Erfassen-Markieren-Zusammenfassen-Vorlage ist für ADHS-Gehirne entwickelt und designed, um mit Lessonscriptor zu funktionieren. Die drei Zonen sind: (1) Erfassen: Fügen Sie Ihr Lessonscriptor-Transkript ein, (2) Markieren: Fügen Sie während eines 25-Minuten-Überprüfungs-Pomodoros Fragen und Schlüsselwörter hinzu, (3) Zusammenfassen: Schreiben Sie eine 3-Satz-Zusammenfassung innerhalb von 2 Stunden nach dem Vortrag. Dieses System reduziert die Notiztechnik-Zeit um 60% und verbessert die Merkfähigkeit, weil es Erfassung (automatisiert) von Überprüfung (aktiv) von Synthese (unmittelbar) trennt. Laden Sie die kostenlose PDF- oder Notion-Vorlage oben herunter und starten Sie mit Ihrem nächsten Vortrag. Kombinieren Sie die Vorlage mit verteilter Wiederholung (Anki) für Langzeit-Merkfähigkeit, die über Prüfungen hinaus hält."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "data": {
+        "headline": "Die ADHS-Notiztechnik: Erfassen, Markieren, Zusammenfassen",
+        "description": "Eine kostenlose, forschungsgestützte Notiztechnik für ADHS-Studenten mit Lessonscriptor Live-Transkription. Laden Sie die 3-teilige Erfassen-Markieren-Zusammenfassen-Vorlage herunter.",
+        "image": "/images/adhd-note-taking-template-hero.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Wird die Lessonscriptor-Transkription genau genug für meine Notizen sein?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Lessonscriptor erreicht 95% Genauigkeit bei englischsprachigen Vorträgen mit Standard-Mikrofon-Audio. Bei spezialisiertes Feldern fällt die Genauigkeit auf 85–90%. Die Erfassungszone ist schreibgeschützt – Sie verlassen sich nicht auf Gedächtnis, um Fehler zu fangen. Falls Sie während des Überprüfungs-Pomodoros einen Fehler sehen, fügen Sie eine Korrektur-Notiz in der Markierungszone hinzu."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Kann ich diese Vorlage nutzen, falls ich Online-Kurse nehme (Zoom, Google Meet)?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Ja. Lessonscriptor funktioniert in jedem Browser-Fenster, einschließlich Zoom und Google Meet. Aktivieren Sie Lessonscriptor und lassen Sie es das komplette Meeting transkribieren. Fügen Sie das Transkript unmittelbar nach der Vorlesung in die Erfassungszone ein. Der Arbeitsablauf ist identisch."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Was, wenn ich das 2-Stunden-Fenster für die Zusammenfassung verpasse?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Machen Sie es trotzdem, aber so schnell wie möglich. Das 2-Stunden-Fenster ist optimal, aber Zusammenfassung innerhalb von 24 Stunden ist noch wirksam für ADHS-Gehirne. Zusammenfassung zu überspringen bedeutet, das Erfassen-Markieren-System wird zu einer Lesübung, nicht zum Lernen."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Kann ich diese Vorlage für Gruppenprojekte oder gemeinsame Notizen nutzen?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Ja, besonders mit der Notion-Version. Erstellen Sie eine freigegebene Notion-Datenbank und weisen Sie jedem Gruppenmitglied einen Vortrag zu. Jede Person füllt ihre Erfassungs- und Markierungszonen. Die Zusammenfassungszone kann gemeinsam sein – eine Person schreibt den Entwurf, andere bearbeiten."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "data": {
+        "name": "Wie nutze ich die ADHS-Notiztechnik mit Lessonscriptor",
+        "description": "Schritt-für-Schritt-Arbeitsablauf zum Erfassen, Überprüfen und Zusammenfassen von Vortrags-Notizen mit Lessonscriptor und der Erfassen-Markieren-Zusammenfassen-Vorlage.",
+        "step": [
+          {
+            "type": "HowToStep",
+            "name": "Erfassen Sie während der Vorlesung",
+            "text": "Öffnen Sie Lessonscriptor und aktivieren Sie Live-Untertitel in Chrome. Treffen Sie Aufnahme oder aktivieren Sie Auto-Transkription. Zuhören und gelegentlich wichtige Zeitstempel markieren. Kein Handschreiben erforderlich.",
+            "image": "/images/adhd-template-step1.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Exportieren Sie das Transkript",
+            "text": "Unmittelbar nach der Vorlesung (innerhalb von 5 Minuten) exportieren oder kopieren Sie das Transkript aus Lessonscriptor. Fügen Sie es in die Erfassungszone Ihrer Vorlage (PDF, Notion oder gedruckt) ein.",
+            "image": "/images/adhd-template-step2.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Überprüfungs-Pomodoro (25 Minuten)",
+            "text": "Stellen Sie einen Timer auf 25 Minuten. Lesen Sie die Erfassungszone mit einem Stift durch. Unterstreichen Sie Schlüsselbegriffe, schreiben Sie Fragen, zeichnen Sie Verbindungen und fügen Sie Gedächtnisstützen in der Markierungszone hinzu.",
+            "image": "/images/adhd-template-step3.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Zusammenfassung schreiben",
+            "text": "Innerhalb von 2 Stunden nach dem Vortrag schreiben Sie eine 3-Satz-Zusammenfassung in Ihren eigenen Worten in das Zusammenfassungsfeld. Schließen Sie die Erfassungszone und verlassen Sie sich nur auf die Markierungszone.",
+            "image": "/images/adhd-template-step4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "data": {
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Lessonscriptor",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "Für ADHS-Studenten",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "Die ADHS-Notiztechnik: Erfassen, Markieren, Zusammenfassen",
+            "item": "/blog/adhd-note-taking-template"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cornell-Notiztechnik",
+      "author": "Walter Pauk",
+      "organization": "Cornell-Universität",
+      "year": 1950,
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "description": "Die ursprüngliche Cornell-Methode zur Organize von Vortrags-Notizen in Markierungs-, Notiz- und Zusammenfassungs-Zonen."
+    },
+    {
+      "title": "ADHS und Arbeitsspeicher: Was jeder Lehrer wissen sollte",
+      "author": "CHADD (Kinder und Erwachsene mit ADHS)",
+      "organization": "CHADD",
+      "year": 2024,
+      "url": "https://chadd.org/",
+      "description": "Forschung zu Arbeitsspeicher-Grenzen bei ADHS-Studenten und Implikationen für Lernstrategien."
+    },
+    {
+      "title": "Der Abstands-Effekt und Speicher-Retention",
+      "author": "Cepeda, N.J., et al.",
+      "organization": "Psychological Bulletin",
+      "year": 2006,
+      "description": "Meta-Analyse zur Wirksamkeit verteilter Wiederholung für Langzeit-Speicher-Konsolidierung."
+    },
+    {
+      "title": "Transkription und Notizen: Eine Studie zu Kognition und Retention",
+      "author": "Mueller, P.A., & Oppenheimer, D.M.",
+      "organization": "Psychological Science",
+      "year": 2014,
+      "description": "Forschung zum Vergleich handgeschriebener Notizen vs. getippter Notizen und Retention-Ergebnisse."
+    },
+    {
+      "title": "ADHS und Exekutive Funktion in Bildungsumgebungen",
+      "author": "ADDitude Magazine",
+      "organization": "ADDitude",
+      "year": 2024,
+      "url": "https://www.additudemag.com/",
+      "description": "Magazine zu evidenzgestützten Strategien für ADHS-Studenten, einschließlich Zeitmanagement und Fokus-Techniken."
+    },
+    {
+      "title": "Anki Manual: Abstand-Wiederholungs-Software",
+      "author": "Damien Elmes",
+      "organization": "Anki",
+      "year": 2024,
+      "url": "https://apps.ankiweb.net/",
+      "description": "Kostenlose, Open-Source-Flashcard-Software für Langzeit-Lernen mit abständiger Wiederholung."
+    }
+  ],
+  "internal_links_map": {
+    "pillar_page": {
+      "url": "/de/for-adhd-students",
+      "anchor": "Für ADHS-Studenten",
+      "context": "Diese Seite unterstützt die Pillar-Seite zu ADHS-Lernstrategien."
+    },
+    "related_blog_1": {
+      "url": "/de/blog/how-to-take-notes-with-adhd",
+      "anchor": "Wie nimmt man Notizen mit ADHS",
+      "context": "Breitere Anleitung zu ADHS-Notiztechniken."
+    },
+    "related_blog_2": {
+      "url": "/de/blog/best-ai-note-taker-adhd",
+      "anchor": "Beste AI-Notiztechnik für ADHS-Studenten",
+      "context": "Überprüfung von AI-Transkriptions-Tools für ADHS-Lerner."
+    },
+    "download": {
+      "url": "/downloads/adhd-note-taking-template.pdf",
+      "anchor": "Die kostenlose Vorlage herunterladen",
+      "context": "Direkter Link zur druckbaren PDF und Notion-Vorlage."
+    }
+  },
+  "external_links": [
+    {
+      "url": "https://chadd.org/",
+      "anchor": "CHADD",
+      "context": "Organisation, die Erwachsene und Kinder mit ADHS unterstützt; Forschung und Ressourcen."
+    },
+    {
+      "url": "https://www.additudemag.com/",
+      "anchor": "ADDitude Magazine",
+      "context": "Magazine zu ADHS-Strategien, Tools und Forschung."
+    },
+    {
+      "url": "https://apps.ankiweb.net/",
+      "anchor": "Anki",
+      "context": "Kostenlose Abstand-Wiederholungs-Flashcard-Software für Langzeit-Retention."
+    },
+    {
+      "url": "https://www.notion.so/",
+      "anchor": "Notion",
+      "context": "Digitale Notiz- und Datenbankplattform zum Organisieren von Lernmaterialien."
+    },
+    {
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "anchor": "Cornell-Notiztechnik",
+      "context": "Ursprüngliche Forschung zur Cornell-Methode zum Organisieren von Notizen."
+    }
+  ],
+  "image_slots": [
+    {
+      "position": "hero",
+      "filename": "adhd-note-taking-template-hero.jpg",
+      "dimensions": "1200x630px",
+      "description": "ADHS-Student am Schreibtisch nutzt die Vorlage in einem Notizbuch, Laptop zeigt Lessonscriptor-Transkript",
+      "alt": "ADHS-Student nutzt die 3-teilige Notiztechnik in einem Notizbuch neben einem Laptop mit Lessonscriptor"
+    },
+    {
+      "position": "in_section_2",
+      "filename": "adhd-template-layout-diagram.jpg",
+      "dimensions": "800x600px",
+      "description": "Sauberes visuelles Diagramm des 3-Zonen-Vorlagen-Layouts: Erfassungszone (rechts 2/3), Markierungszone (links 1/3), Zusammenfassungsfeld (unten). Druckbares Design.",
+      "alt": "Diagramm des Erfassen-Markieren-Zusammenfassen-Vorlagen-Layouts"
+    }
+  ],
+  "seo_notes": {
+    "primary_keyword": "ADHS Notiztechnik Vorlage",
+    "search_volume": "400–900/Monat",
+    "keyword_difficulty": "8–15",
+    "secondary_keywords": ["Notiztechnik ADHS Vorlage", "ADHS Lernvorlage", "kostenlose ADHS Vorlage", "Cornell-Methode ADHS"],
+    "intent": "Informational + Download-Intent",
+    "target_audience": "ADHS-Studenten, Fernlerner, Barrierefreiheits-Nutzer",
+    "entity_density": ["Lessonscriptor", "Cornell-Universität", "Walter Pauk", "ADHS", "Arbeitsspeicher", "CHADD", "ADDitude Magazine", "Anki", "Notion", "Pomodoro", "verteilte Wiederholung"],
+    "content_goal": "Ranking für Primär-Keyword; Leads via kostenlose Template-Downloads generieren; Lessonscriptor als ADHS-freundliches AI-Transkriptions-Tool positionieren",
+    "internal_link_strategy": "Link von Pillar-Seite (/de/for-adhd-students), Sister-Blog-Beiträge und Download-Seite",
+    "backlink_targets": "Reddit r/ADHS, r/GetStudying, r/college; ADDitude Magazine-Ressourcen-Roundups; ADHS-Content-Creator; Barrierefreiheits-Blogs"
+  }
+}

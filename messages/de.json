@@ -40,7 +40,8 @@
     "github": "GitHub",
     "support": "Support",
     "copyright": "© 2026 LessonScriptor",
-    "tagline": "Hör auf zu schreiben. Fang an zu lernen."
+    "tagline": "Hör auf zu schreiben. Fang an zu lernen.",
+    "blog": "Blog"
   },
   "home": {
     "meta": {
@@ -233,13 +234,31 @@
       "freeCaveat": "Audio muss über Ihre Lautsprecher abgespielt werden — das Mikrofon muss es hören können.",
       "premiumLabel": "KI-Modus — Zahlen nach Verbrauch",
       "premiumEngine": "KI-gestützte Transkription",
-      "noSubCallout": "Kein Abo. Keine \u201EIch habe vergessen zu k\u00FCndigen\u201C-Falle. Guthaben verf\u00E4llt nie.",
+      "noSubCallout": "Kein Abo. Keine „Ich habe vergessen zu kündigen“-Falle. Guthaben verfällt nie.",
       "costCallout": "Kaufen Sie einmal ein Paket. Ihre Stunden werden sekundengenau verbraucht, sodass nichts verschwendet wird, wenn Sie stoppen. Je größer das Paket, desto günstiger der Stundenpreis.",
       "headphonesCallout": "Funktioniert mit Kopfhörern. Tab-Audio wird direkt erfasst — kein Mikrofon, keine Lautsprecher nötig.",
       "packs": [
-        { "hours": "5 Std.", "basePrice": 5, "basePer": 1.00, "per": "einmalig · kein Ablaufdatum" },
-        { "hours": "15 Std.", "basePrice": 12, "basePer": 0.80, "per": "einmalig · kein Ablaufdatum", "save": 3 },
-        { "hours": "30 Std.", "basePrice": 21, "basePer": 0.70, "per": "einmalig · kein Ablaufdatum", "badge": "Beliebtestes Paket", "save": 9 }
+        {
+          "hours": "5 Std.",
+          "basePrice": 5,
+          "basePer": 1,
+          "per": "einmalig · kein Ablaufdatum"
+        },
+        {
+          "hours": "15 Std.",
+          "basePrice": 12,
+          "basePer": 0.8,
+          "per": "einmalig · kein Ablaufdatum",
+          "save": 3
+        },
+        {
+          "hours": "30 Std.",
+          "basePrice": 21,
+          "basePer": 0.7,
+          "per": "einmalig · kein Ablaufdatum",
+          "badge": "Beliebtestes Paket",
+          "save": 9
+        }
       ],
       "premiumFeatures": [
         "Alles aus Kostenlos, inklusive vollständiger Bearbeitung",
@@ -591,59 +610,15 @@
     }
   },
   "blog": {
-    "lecture": {
-      "h1": "Vorlesungsvideos automatisch transkribieren",
-      "intro": "Der schnellste Weg, ein Vorlesungsvideo automatisch zu transkribieren, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die jedes Video in Echtzeit während der Wiedergabe transkribiert, direkt in Ihrem Browser. Kein Upload, keine Wartezeit, kein Abo.",
-      "sections": [
-        {
-          "h2": "Warum manuelles Mitschreiben in Vorlesungen scheitert",
-          "body": "Handschriftliches Mitschreiben während einer Vorlesung zwingt Sie, Ihre Aufmerksamkeit zwischen Zuhören, Verstehen und Schreiben aufzuteilen — oft alles gleichzeitig. Studien zeigen durchgängig, dass Studierende, die Vorlesungen Wort für Wort mitschreiben, weniger vom Inhalt behalten als solche, die sich aktiv damit auseinandersetzen. Das Problem ist nicht mangelnde Disziplin. Es ist das Werkzeug. Wenn Sie mit Schreiben beschäftigt sind, lernen Sie nicht."
-        },
-        {
-          "h2": "Wie KI-Transkription im Browser funktioniert",
-          "body": "LessonScriptor nutzt zwei Transkriptions-Engines. Der kostenlose Modus verwendet die Web Speech API, die in Chrome integriert ist und Audio lokal auf Ihrem Gerät verarbeitet — nichts verlässt jemals Ihren Computer. Der Premium-Modus erfasst das Audio direkt aus dem Browser-Tab und sendet es an ein Cloud-KI-Modell zur Transkription, das hochgenauen Text innerhalb von Sekunden liefert."
-        },
-        {
-          "h2": "Schritt für Schritt: Vorlesungsvideo mit LessonScriptor transkribieren",
-          "steps": [
-            "Installieren Sie LessonScriptor aus dem Chrome Web Store — kostenlos, keine Anmeldung erforderlich.",
-            "Öffnen Sie Ihr Vorlesungsvideo in Chrome (YouTube, Coursera, Zoom-Aufnahme, Universitätsportal oder jede andere Video-Plattform).",
-            "Klicken Sie auf das LessonScriptor-Symbol in Ihrer Chrome-Symbolleiste, um das Seitenpanel zu öffnen.",
-            "Starten Sie die Wiedergabe — die Transkription beginnt automatisch und der Text erscheint in Echtzeit.",
-            "Bearbeiten Sie beim Zuschauen: Klicken Sie, um eigene Notizen hinzuzufügen, markieren Sie Schlüsselkonzepte farbig, heben Sie Fachbegriffe hervor, löschen Sie Abschweifungen.",
-            "Klicken Sie auf einen Zeitstempel im Transkript, um zu genau diesem Moment im Video zu springen.",
-            "Wenn Sie fertig sind, exportieren Sie als Markdown für ein formatiertes Dokument mit all Ihren Markierungen und Formatierungen."
-          ]
-        },
-        {
-          "h2": "Kostenloser Modus vs. Premium-Modus — was für Vorlesungen besser ist",
-          "body": "Für die meisten Studierenden reicht der kostenlose Modus. Er funktioniert gut in ruhiger Umgebung mit eingeschalteten Lautsprechern. Wenn Sie Kopfhörer bevorzugen oder Inhalte mit viel Fachvokabular, Akzenten oder schneller Sprache transkribieren, bietet der Premium-Modus deutlich bessere Genauigkeit für etwa 1 € pro Stunde."
-        },
-        {
-          "h2": "So lernen Sie mit Ihrem Transkript",
-          "body": "Behandeln Sie Ihr LessonScriptor-Dokument nach der Transkription wie einen Lernleitfaden. Markieren Sie die wichtigsten Konzepte gelb. Heben Sie Fachbegriffe fett hervor. Fügen Sie beim Durchlesen Ihre eigene Interpretation in Klammern hinzu. Exportieren Sie als Markdown und importieren Sie in Notion oder Obsidian zur langfristigen Aufbewahrung. Durchsuchen Sie den Volltext vor Prüfungen."
-        }
-      ],
-      "faq": {
-        "items": [
-          {
-            "q": "Kann ich eine Zoom-Vorlesungsaufnahme automatisch transkribieren?",
-            "a": "Ja. Öffnen Sie die Zoom-Aufnahme in Chrome und nutzen Sie LessonScriptor zur Transkription. Es funktioniert mit jedem Video, das in Chrome abgespielt wird, einschließlich Zoom, Google Meet, Teams und Universitäts-Videoportalen."
-          },
-          {
-            "q": "Funktioniert automatische Vorlesungstranskription auf Französisch oder Spanisch?",
-            "a": "Ja. LessonScriptor unterstützt 14+ Sprachen. Wählen Sie Ihre Sprache in den Einstellungen und die Transkription erscheint in dieser Sprache."
-          },
-          {
-            "q": "Ist es Betrug, ein Transkriptions-Tool für Vorlesungen zu benutzen?",
-            "a": "Nein. Transkriptions-Tools sind Lernhilfen, ähnlich wie Aufnahmegeräte. Sie erfassen das Gesagte — das Lernen und die Analyse liegen weiterhin bei Ihnen. Viele Universitäten erlauben und fördern ausdrücklich Barrierefreiheits-Tools für Studierende."
-          },
-          {
-            "q": "Was ist das beste Transkriptions-Tool für Studierende?",
-            "a": "LessonScriptor ist das beste Transkriptions-Tool für Studierende, weil es direkt in Chrome auf jeder Video-Plattform funktioniert, einen kostenlosen Modus ohne Limits bietet und Live-Bearbeitung beim Zuschauen ermöglicht — im Gegensatz zu den meisten Tools, die erst nachträglich ein statisches Transkript erzeugen."
-          }
-        ]
-      }
+    "hub": {
+      "metaTitle": "Blog — ADHD Lerntipps, neurodivergentes Lernen & Transkriptionstools",
+      "metaDesc": "Evidenzbasierte Artikel über ADHD Notizen, neurodivergente Lernwerkzeuge und Video-Transkriptionstipps. Kostenlose Ressourcen für Studierende, die anders lernen.",
+      "eyebrow": "Blog",
+      "title": "Besser lernen, auf deine Art",
+      "subtitle": "Evidenzbasierte Leitfäden zu ADHD-Lernstrategien, neurodivergenten Lernwerkzeugen und Video-Transkriptionstipps.",
+      "all": "Alle",
+      "readMore": "Weiterlesen",
+      "minRead": "Min. Lesezeit"
     }
   },
   "contact": {

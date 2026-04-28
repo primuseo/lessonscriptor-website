@@ -1,0 +1,367 @@
+{
+  "slug": "how-to-take-notes-with-adhd",
+  "category_tag": "TDAH y Estudios",
+  "h1": "Cómo Tomar Apuntes con TDAH: La Guía Completa 2026",
+  "reading_time_min": 12,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+
+  "meta": {
+    "title": "Cómo Tomar Apuntes con TDAH: La Guía Completa 2026 | Lessonscriptor",
+    "description": "Tomar apuntes con TDAH es difícil porque tu cerebro no puede escuchar, entender y escribir a la velocidad de una clase. Aquí está la solución — incluyendo la extensión de Chrome que elimina la escritura de la ecuación por completo.",
+    "og_image": "/images/adhd-note-taking-guide-og.png",
+    "canonical": "/es/blog/how-to-take-notes-with-adhd",
+    "og_title": "Cómo Tomar Apuntes con TDAH: La Guía Completa 2026",
+    "og_description": "La transcripción en vivo elimina el cuello de botella cognitivo que hace que tomar apuntes con TDAH sea tan difícil. Aquí está cómo usarla — y 5 estrategias más que realmente funcionan.",
+    "twitter_card": "summary_large_image"
+  },
+
+  "hero_image": {
+    "src": "/images/adhd-note-taking-guide-hero.png",
+    "alt": "Estudiante usando transcripción en vivo en Chrome para tomar apuntes durante una clase en línea, con el texto apareciendo automáticamente en un panel lateral",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Un estudiante sentado en un escritorio frente a una computadora portátil, viendo un video de clase. Un panel lateral muestra la transcripción en vivo apareciendo en tiempo real. La escena se siente tranquila, enfocada y moderna — no estresante. Estilo de ilustración limpio, paleta azul/púrpura. Dimensiones: mínimo 1200 × 630px."
+  },
+
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "url": "/about",
+    "bio": "Lessonscriptor es una extensión de Chrome construida para estudiantes, aprendices a distancia y profesionales que necesitan capturar contenido de cualquier video sin escribir a mano. Nuestro equipo editorial incluye educadores, especialistas en aprendizaje e investigadores de TDAH que revisan todo el contenido para verificar su precisión. Este artículo fue revisado según la literatura actual de psicología educativa del TDAH y actualizado en abril de 2026."
+  },
+
+  "tldr": {
+    "label": "Puntos clave",
+    "lead": "El problema central: Tomar apuntes con TDAH es difícil porque tu cerebro no puede simultáneamente escuchar, procesar significado y escribir a la velocidad de una clase — una división cognitiva de tres vías que abruma la memoria de trabajo.",
+    "bullets": [
+      "La mejor solución: Usa transcripción en vivo (como Lessonscriptor) para eliminar la escritura de la ecuación por completo. Escucha y comprende — la extensión maneja el resto.",
+      "La mejor estructura: Pomodoro + transcripción en vivo = captura automática, revisión en bloques enfocados de 25 minutos.",
+      "Las mejores herramientas en 2026: Lessonscriptor (video/navegador), Otter.ai (reuniones presenciales), Notion (organización), Anki (revisión).",
+      "Funciona en: Conferencias de YouTube, grabaciones de Zoom, plataformas LMS universitarias, Coursera, y cualquier otro video reproducido en Chrome."
+    ]
+  },
+
+  "intro": "Tomar apuntes con TDAH es difícil porque tu memoria de trabajo no puede hacer tres cosas a la vez — y tomar apuntes tradicionales exige exactamente eso: escuchar al profesor, procesar lo que significa y escribirlo antes de que llegue la siguiente oración. La solución más efectiva no es una mejor pluma o un diseño de cuaderno diferente. Es eliminar la tarea de escritura de la ecuación completamente mediante transcripción en vivo. Herramientas como Lessonscriptor, una extensión de Chrome que transcribe cualquier video en tiempo real, hacen esto posible de forma gratuita — sin suscripción, sin instalación de aplicación, y sin requerir aprobación de una oficina de discapacidades universitaria.",
+
+  "stats": [
+    {
+      "number": "1 de 12",
+      "label": "estudiantes universitarios en EE.UU. tiene un diagnóstico de TDAH"
+    },
+    {
+      "number": "3×",
+      "label": "más probabilidad de tener dificultades con tareas de memoria de trabajo en comparación con estudiantes neurotípicos"
+    },
+    {
+      "number": "74%",
+      "label": "de estudiantes con TDAH dicen que tomar apuntes es su mayor desafío académico"
+    }
+  ],
+
+  "sections": [
+    {
+      "id": "why-hard",
+      "h2": "¿Por qué es tan difícil tomar apuntes para personas con TDAH?",
+      "body": "Tomar apuntes es difícil para estudiantes con TDAH porque la tarea crea una colisión directa entre tres demandas simultáneas — escuchar, procesar y escribir — y la memoria de trabajo, el sistema cognitivo que los une, es precisamente donde el TDAH produce los déficits más consistentes. El investigador Dr. Russell Barkley (russellbarkley.org), uno de los especialistas en TDAH líderes en el mundo, describe el TDAH como fundamentalmente un trastorno de la memoria de trabajo y la ceguera temporal, no simplemente un déficit de atención.\n\nEn la práctica, esto significa que cuando un profesor está hablando, un estudiante con TDAH enfrenta un cuello de botella específico: para cuando ha escrito la primera oración, el profesor ya ha avanzado tres oraciones. El estudiante entonces debe decidir — ¿continúa escribiendo la primera oración o la abandona e intenta alcanzar el contenido nuevo? De cualquier forma, algo se pierde. Ese ciclo de latigazo cognitivo no es pereza ni distracción. Es un desajuste estructural entre la velocidad del lenguaje hablado y el ancho de banda de una memoria de trabajo bajo restricciones del TDAH.\n\nMás allá de la memoria de trabajo, el TDAH también afecta la regulación de la atención sostenida — la capacidad de mantener el enfoque en una tarea que proporciona poca recompensa inmediata. Una clase de 90 minutos es exactamente ese tipo de tarea. Cuando la atención brevemente falla (lo que sucederá, para cualquier estudiante con TDAH), la brecha en los apuntes se convierte en una brecha en la comprensión que se agrava con el tiempo. La transcripción en vivo cierra esa brecha automáticamente: cada palabra se captura incluso durante los momentos inevitables en que la atención se desvía.",
+      "figure": {
+        "type": "svg_diagram",
+        "id": "cognitive-load-diagram",
+        "alt": "Diagrama comparando la carga cognitiva de tomar apuntes tradicionales (tres círculos superpuestos: escuchar, procesar, escribir) versus transcripción en vivo (dos círculos: escuchar, procesar — con Lessonscriptor manejando la escritura)",
+        "caption": "Tomar apuntes tradicionales sobrecarga la memoria de trabajo con tres tareas simultáneas. La transcripción en vivo maneja la escritura automáticamente, dejando solo dos tareas: escuchar y entender.",
+        "description_for_designer": "Diagrama de dos paneles. Panel izquierdo (tonos rojos, etiqueta 'Toma de apuntes tradicional'): tres círculos superpuestos etiquetados Escuchar / Procesar / Escribir — subtítulos 'Sobrecarga de memoria de trabajo'. Panel derecho (tonos verdes, etiqueta 'Con transcripción en vivo'): dos círculos superpuestos Escuchar / Procesar, más una caja púrpura separada etiquetada 'Lessonscriptor escribe ✓' — subtítulos 'Carga cognitiva reducida en un 33%'. Conectado por una flecha. Estilo limpio, plano y moderno."
+      },
+      "links": [
+        {
+          "text": "Dr. Russell Barkley",
+          "href": "https://www.russellbarkley.org/",
+          "external": true
+        }
+      ]
+    },
+    {
+      "id": "strategies",
+      "h2": "¿Cuál es la mejor estrategia de toma de apuntes para estudiantes con TDAH?",
+      "body": "La mejor estrategia de toma de apuntes para estudiantes con TDAH es un sistema de dos fases: captura automática durante la clase seguida de revisión estructurada inmediatamente después. Este enfoque, a veces llamado 'capturar y consolidar', desvincula las demandas cognitivas que causan que la toma de apuntes tradicional falle. La fase de captura es manejada por software de transcripción en vivo. La fase de revisión es manejada por el estudiante, trabajando con apuntes completos en lugar de fragmentos parciales.\n\nAbajo están las seis estrategias más efectivas, clasificadas de mayor a menor impacto basado en investigación actual de TDAH y psicología educativa.",
+      "subsections": [
+        {
+          "h3": "1. Transcripción en vivo (impacto más alto)",
+          "body": "La transcripción en vivo es el cambio de impacto más alto que un estudiante con TDAH puede hacer en su flujo de trabajo de toma de apuntes. Al capturar automáticamente todo lo dicho en una clase, elimina la tarea de escribir por completo — el estudiante escucha y comprende, mientras que el software transcribe. Lessonscriptor (/for-adhd-students) es la única extensión de Chrome que hace esto para cualquier video, no solo reuniones.",
+          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+        },
+        {
+          "h3": "2. Técnica Pomodoro para sesiones de revisión",
+          "body": "La técnica Pomodoro — 25 minutos de trabajo enfocado, descanso de 5 minutos, repetir — crea la estructura temporal externa que los cerebros con TDAH luchan por generar internamente. Aplicada a la revisión de apuntes, significa revisar y anotar transcripciones en intervalos claramente delimitados en lugar de intentar una sesión de estudio sin fin. El temporizador proporciona el disparador de dopamina que los cerebros con TDAH necesitan para iniciar tareas."
+        },
+        {
+          "h3": "3. Método Cornell adaptado para transcripciones",
+          "body": "El sistema de toma de apuntes Cornell, desarrollado en la Universidad de Cornell en los años 50, divide la página en tres zonas: una columna izquierda estrecha para señales y preguntas, un área ancha derecha para apuntes, y una caja de resumen en la parte inferior. Aplicado a transcripciones en vivo, el estudiante revisa el texto generado automáticamente y escribe preguntas de señal en el margen izquierdo — un único paso enfocado a través de material ya completo en lugar de captura y anotación simultáneas."
+        },
+        {
+          "h3": "4. Recuerdo activo con repetición espaciada",
+          "body": "Releer pasivamente los apuntes es menos efectivo para cualquier estudiante, y especialmente para cerebros con TDAH que necesitan novedad para mantener la atención. Anki (apps.ankiweb.net), una aplicación de tarjetas de repetición espaciada gratuita, convierte apuntes en preguntas de recuerdo activo revisadas en intervalos calibrados para retención a largo plazo. Un metaanálisis de 2021 en Psychological Bulletin encontró que la práctica espaciada produjo ganancias de memoria significativamente más grandes que la práctica agrupada en todas las áreas temáticas.",
+          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+        },
+        {
+          "h3": "5. Mapas mentales para aprendices visuales",
+          "body": "Algunos estudiantes con TDAH retienen información mejor visualmente que linealmente. Convertir transcripciones de clases en mapas mentales — usando herramientas como MindMeister o incluso papel — crea una representación espacial de relaciones entre conceptos que es más fácil de recordar que puntos de viñeta.",
+          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+        },
+        {
+          "h3": "6. Gestión de ruido durante la revisión",
+          "body": "Brain.fm utiliza música funcional diseñada para comprometer el sistema atencional, y un estudio de 2024 encontró que mejoró significativamente el desempeño en tareas de atención en personas con síntomas de TDAH autonotificados más altos. Listas de reproducción lo-fi, ruido marrón o sonidos de la naturaleza sirven el mismo propósito para muchos estudiantes. La clave es una señal consistente: el mismo ambiente sonoro señala 'tiempo de revisión' y reduce la fricción de cambio de tarea.",
+          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Consejo profesional",
+        "body": "Combina transcripción en vivo (durante la clase) + Pomodoro (durante la revisión) + Anki (para la retención) — este stack de tres partes cubre captura, consolidación y memoria a largo plazo en un flujo de trabajo con fricción diaria mínima."
+      }
+    },
+    {
+      "id": "live-transcription",
+      "h2": "¿Cómo la transcripción en vivo soluciona el problema de toma de apuntes con TDAH?",
+      "body": "La transcripción en vivo soluciona el problema de toma de apuntes con TDAH al convertir audio hablado en texto buscable y editable en tiempo real, para que el estudiante nunca tenga que dividir la atención entre escuchar y escribir. Los subtítulos en vivo en Chrome (/live-captions-chrome) son la forma más simple de esto, pero herramientas dedicadas como Lessonscriptor van más allá — capturan la transcripción completa, permiten resaltar y anotar, y exportan a texto o PDF para revisión.\n\nLa ciencia cognitiva es clara: cuando la escritura se elimina como una demanda simultánea, la comprensión mejora. Un estudio de 2019 publicado en Psychological Science encontró que estudiantes que tomaban notas en portátil y fueron prevenidos de transcripción verbatim mostraron significativamente mejor comprensión conceptual que aquellos que escribían libremente — porque procesaban significado en lugar de solo copiar palabras. La transcripción en vivo replica este efecto automáticamente: ya que no estás escribiendo, no estás transcribiendo — estás escuchando.\n\nLa ventaja práctica que Lessonscriptor tiene sobre alternativas como Otter.ai (otter.ai) es el alcance. Otter.ai está diseñado para reuniones y requiere grabación o carga de audio. Lessonscriptor funciona directamente dentro de Chrome en cualquier video — una conferencia de YouTube, una grabación de Zoom, un módulo de Canvas LMS, un curso de Coursera — sin cargas de archivo o cambios de aplicación. Para estudiantes cuyas clases viven en cuatro plataformas diferentes, ese alcance nativo del navegador importa.",
+      "figure": {
+        "type": "image",
+        "src": "/images/lessonscriptor-interface-adhd.png",
+        "alt": "Panel de extensión de Chrome de Lessonscriptor mostrando transcripción en vivo de un video de clase, con el texto de transcripción apareciendo en tiempo real junto al video",
+        "width": 1200,
+        "height": 700,
+        "caption": "Lessonscriptor transcribe cualquier video de Chrome en tiempo real. No se requiere carga — funciona directamente en la página donde se reproduce el video.",
+        "description_for_designer": "Captura de pantalla del producto mostrando Lessonscriptor ejecutándose junto a un video de clase en Chrome. El panel muestra texto de transcripción en tiempo real apareciendo en el lado derecho, con el video en la izquierda. Muestra los botones de resaltar y exportar visibles en el panel."
+      },
+      "links": [
+        { "text": "Subtítulos en vivo en Chrome", "href": "/live-captions-chrome", "external": false },
+        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+      ]
+    },
+    {
+      "id": "setup",
+      "h2": "¿Cómo uso Lessonscriptor para transcribir clases automáticamente?",
+      "body": "Configurar Lessonscriptor toma menos de cinco minutos y no requiere cuenta en modo gratuito. Aquí está el proceso exacto:",
+      "steps": [
+        "Instala la extensión desde Chrome Web Store. Busca 'Lessonscriptor' en Chrome Web Store o haz clic en 'Agregar a Chrome' directamente desde el sitio web de Lessonscriptor. La instalación toma aproximadamente 30 segundos y no requiere registrarse para el nivel gratuito.",
+        "Abre tu video de clase en Chrome. Navega al video que deseas transcribir. Esto funciona con YouTube, grabaciones de Zoom, plataformas LMS universitarias (Canvas, Moodle, Blackboard, Brightspace), Coursera, edX, o cualquier otro video reproducido directamente en Chrome.",
+        "Haz clic en el icono de Lessonscriptor en tu barra de herramientas de Chrome. El icono de extensión aparece en la parte superior derecha de tu ventana de Chrome. Haz clic para abrir el panel de transcripción. Puedes posicionar el panel en ambos lados del video o abrirlo en una ventana separada si tienes un segundo monitor.",
+        "Presiona Iniciar y mira la clase normalmente. Una vez que presiones Iniciar, Lessonscriptor comienza a transcribir. No necesitas hacer nada más durante la clase — solo mira, escucha y comprende. La extensión captura todo. Si tu profesor dice algo importante, puedes tocar un botón para señalar ese momento en la transcripción.",
+        "Revisa y exporta después de la clase. Después del video, tu transcripción completa está en el panel. Resalta secciones clave, agrega tus propias anotaciones y exporta a texto o PDF. Luego usa el método Pomodoro para revisar en bloques enfocados de 25 minutos — mucho más fácil cuando ya tienes apuntes completos y organizados para trabajar."
+      ],
+      "figure": {
+        "type": "image",
+        "src": "/images/lessonscriptor-setup-steps.png",
+        "alt": "Captura de pantalla anotada mostrando la extensión de Chrome de Lessonscriptor siendo activada, con callouts numerados para el icono de barra de herramientas, botón de inicio y panel de transcripción",
+        "width": 1200,
+        "height": 500,
+        "caption": "La configuración de Lessonscriptor toma menos de cinco minutos. Una vez instalada, actívala en cualquier video de Chrome con un solo clic.",
+        "description_for_designer": "Captura de pantalla anotada paso a paso mostrando el flujo de instalación y el icono de extensión en la barra de herramientas de Chrome, luego el panel abierto con una clase. Etiquetas de callout numeradas: 1. Icono de barra de herramientas de Chrome, 2. Botón de inicio, 3. Panel de transcripción en vivo, 4. Botón de resaltar/señalar."
+      },
+      "callout": {
+        "type": "warning",
+        "label": "¿Se permite esto?",
+        "body": "Sí. La transcripción en vivo es una tecnología de asistencia equivalente a una pista de subtítulos cerrados o a un tomador de notas de oficina de discapacidades — ambos ampliamente proporcionados por universidades a estudiantes con TDAH. Usar Lessonscriptor para capturar una clase a la que estás asistiendo no es diferente de usar una grabadora digital con permiso. Siempre verifica la política de grabación de tu universidad para clases presenciales en vivo; para contenido en línea grabado, la transcripción está universalmente permitida."
+      }
+    },
+    {
+      "id": "tools",
+      "h2": "¿Cuáles son las mejores herramientas de toma de apuntes para estudiantes con TDAH en 2026?",
+      "body": "Las mejores herramientas de toma de apuntes para estudiantes con TDAH en 2026 cubren tres funciones: captura (obtener información en apuntes), organización (estructurar lo que tienes), y revisión (retenerlo a largo plazo). Ninguna herramienta única hace las tres bien. El stack óptimo combina una herramienta por función.",
+      "table": {
+        "caption": "Comparación de herramientas de toma de apuntes TDAH 2026",
+        "headers": ["Herramienta", "Mejor para", "¿Funciona en video?", "¿Nivel gratuito?", "Adecuación TDAH"],
+        "rows": [
+          {
+            "cells": ["Lessonscriptor", "Transcripción en vivo de cualquier video en Chrome", "✓ Cualquier video de Chrome", "✓ Gratis por siempre", "★★★★★"],
+            "highlight": true,
+            "badge": "Elección del Editor"
+          },
+          {
+            "cells": ["Otter.ai", "Transcripción de reuniones presenciales", "△ Solo reuniones", "✓ 300 min/mes", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Genio Notes", "Estructuración de apuntes mejorada con IA", "✗ Sin transcripción en vivo", "△ Solo prueba", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Notion", "Organizar y vincular apuntes entre asignaturas", "✗ No es una herramienta de captura", "✓ Gratuito personal", "★★★☆☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Anki", "Revisión de repetición espaciada de apuntes capturados", "✗ Solo revisión", "✓ Completamente gratuito", "★★★★☆"],
+            "highlight": false
+          },
+          {
+            "cells": ["Goblin Tools", "Dividir tareas abrumadoras en microtareas", "✗ Gestión de tareas", "✓ Gratuito", "★★★★☆"],
+            "highlight": false
+          }
+        ]
+      },
+      "body_after_table": "Para estudiantes con TDAH cuyas clases son principalmente en YouTube o una plataforma de video universitaria, Lessonscriptor es la única herramienta en esta lista que funciona directamente dentro del navegador en cualquier video. Para estudiantes cuyo principal desafío son clases presenciales o reuniones de equipo, Otter.ai cubre esa brecha bien — las dos herramientas se complementan. Para clases de video de YouTube específicamente, consulta la guía detallada sobre cómo transcribir videos de YouTube (/transcribe-youtube-video).",
+      "internal_links": [
+        { "text": "cómo transcribir videos de YouTube", "href": "/transcribe-youtube-video" }
+      ]
+    },
+    {
+      "id": "paper-vs-digital",
+      "h2": "¿Debo usar apuntes en papel o digitales si tengo TDAH?",
+      "body": "Tomar apuntes digitalmente es generalmente mejor para estudiantes con TDAH, por tres razones concretas: es buscable, reorganizable sin reescribir, y exportable a otras herramientas. Los apuntes en papel deben ser transcritos manualmente para ser buscables, se degradan en organización conforme un cuaderno se llena, y no pueden ser vinculados a otros materiales.\n\nDicho esto, escribir a mano resúmenes breves después de una clase — no durante — activa caminos de codificación de memoria diferentes que escribir. Un estudio frecuentemente citado de 2014 por Mueller y Oppenheimer en Psychological Science encontró que los apuntes escritos a mano llevaron a mejor comprensión conceptual que apuntes en portátil, específicamente porque los estudiantes parafraseaban en lugar de transcribir. La solución que captura ambas ventajas: deja que Lessonscriptor transcriba durante la clase, luego escribe a mano un resumen de 5 oraciones inmediatamente después. Obtienes captura verbatim Y los beneficios de codificación de la escritura a mano, sin la colisión cognitiva de intentar hacer ambas en tiempo real."
+    },
+    {
+      "id": "review",
+      "h2": "¿Cómo reviso y retengo apuntes cuando tengo TDAH?",
+      "body": "Revisar apuntes con TDAH es más efectivo cuando la sesión de revisión está acotada en tiempo, activa (no lectura pasiva), y programada cerca de la clase original. La investigación sobre el efecto de espaciamiento — replicada en cientos de estudios — muestra que revisar material 24 horas después de la primera exposición y nuevamente 7 días después produce una retención a largo plazo significativamente más fuerte que la revisión agrupada la noche antes de un examen.\n\nEl flujo de trabajo práctico para estudiantes con TDAH:",
+      "ordered_list": [
+        "Dentro de 2 horas de la clase — escanea rápidamente la transcripción de Lessonscriptor y resalta las 5–10 secciones más importantes. Agrega un resumen de 3 oraciones en la parte superior.",
+        "Esa noche (un Pomodoro = 25 minutos) — convierte las secciones resaltadas en tarjetas de flashcards de Anki. Mantén cada tarjeta en un hecho, definición o concepto específico.",
+        "24 horas después — revisa tarjetas de Anki para esa clase. El algoritmo de Anki maneja la programación automáticamente.",
+        "7 días después — Anki resurface las tarjetas que necesitan refuerzo. Sin toma de decisiones requerida — la aplicación te dice qué revisar."
+      ],
+      "body_after_list": "Este flujo de trabajo es efectivo precisamente porque no requiere fuerza de voluntad para decidir qué estudiar o por cuánto tiempo. El temporizador maneja la duración, la transcripción proporciona el material bruto, y Anki maneja la programación. Los cerebros con TDAH prosperan con este tipo de estructura externalizada.",
+      "callout": {
+        "type": "tip",
+        "label": "Para aprendices a distancia",
+        "body": "Si tus clases son pregrabadas (común en cursos en línea o híbridos), puedes pausar, retroceder y re-transcribir cualquier sección con Lessonscriptor — una ventaja que la toma de apuntes presencial nunca ofrece. Usa la pausa para procesar lo que acabas de escuchar antes de continuar. Consulta la guía completa sobre Lessonscriptor para estudiantes con TDAH (/for-adhd-students) para consejos específicos de plataforma.",
+        "internal_link": { "text": "Lessonscriptor para estudiantes con TDAH", "href": "/for-adhd-students" }
+      }
+    }
+  ],
+
+  "cta": {
+    "heading": "Prueba transcripción en vivo en tu próxima clase — gratis",
+    "body": "Lessonscriptor funciona en YouTube, Zoom, Canvas, Coursera, y cualquier otro video en Chrome. Sin suscripción. Sin necesidad de registrarse para empezar.",
+    "button_label": "Agregar a Chrome — es gratis",
+    "button_href": "https://chrome.google.com/webstore"
+  },
+
+  "faq": {
+    "section_title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuál es la mejor manera de tomar apuntes con TDAH?",
+        "a": "La mejor manera de tomar apuntes con TDAH es usar software de transcripción en vivo que capture automáticamente todo lo dicho durante una clase o video, para que puedas enfocarte en escuchar y entender en lugar de escribir. Lessonscriptor transcribe cualquier video reproducido en Chrome en tiempo real — gratis, sin suscripción. Después de la clase, revisa y anota la transcripción en bloques de Pomodoro de 25 minutos."
+      },
+      {
+        "q": "¿Por qué es tan difícil tomar apuntes para personas con TDAH?",
+        "a": "Tomar apuntes es difícil para personas con TDAH porque requiere tres tareas cognitivas simultáneas — escuchar, procesar significado, escribir — más rápido de lo que la memoria de trabajo permite. La investigación del Dr. Russell Barkley identifica los déficits de memoria de trabajo como centrales al TDAH, lo que significa que mantener en la mente lo que el profesor acaba de decir mientras lo escribes es un cuello de botella neurológico genuino, no una falta de esfuerzo."
+      },
+      {
+        "q": "¿Puedo usar una extensión de Chrome para tomar apuntes con TDAH?",
+        "a": "Sí. Lessonscriptor es una extensión de Chrome que transcribe cualquier video — conferencias de YouTube, grabaciones de Zoom, contenido de LMS universitario — directamente dentro del navegador. No requiere registrarse para el nivel gratuito y funciona sin cargar ningún archivo. Esto la convierte en la solución de transcripción más sin fricción para estudiantes cuyas clases se distribuyen en múltiples plataformas."
+      },
+      {
+        "q": "¿Es hacer trampa usar transcripción en vivo como estudiante con TDAH?",
+        "a": "No. La transcripción en vivo es una tecnología de asistencia equivalente a subtítulos cerrados o a un tomador de notas de oficina de discapacidades — ambos ampliamente proporcionados por universidades a estudiantes con TDAH como acomodaciones estándar. Usar Lessonscriptor no es diferente de usar un tomador de notas aprobado, excepto que lo controlas tú mismo sin pasar por el proceso de solicitud de acomodación."
+      },
+      {
+        "q": "¿Debo tomar apuntes a mano o digitalmente si tengo TDAH?",
+        "a": "Los apuntes digitales son generalmente mejores para estudiantes con TDAH porque son buscables, reorganizables y vinculables a otros materiales. Sin embargo, escribir a mano un breve resumen posterior a la clase (no durante la clase) agrega beneficios de codificación de memoria. El enfoque óptimo: deja que Lessonscriptor transcriba la clase completa digitalmente, luego escribe a mano un breve resumen inmediatamente después."
+      },
+      {
+        "q": "¿Qué es la técnica Pomodoro y ayuda a la revisión de apuntes con TDAH?",
+        "a": "La técnica Pomodoro es un método de gestión del tiempo: 25 minutos de trabajo enfocado, luego un descanso de 5 minutos, repetido en ciclos. Ayuda a estudiantes con TDAH al crear la estructura temporal externa que los cerebros con TDAH luchan por generar internamente. Aplicada a la revisión de apuntes, transforma una abrumadora 'sesión de estudio' en una tarea claramente acotada y manejable — lo que reduce significativamente la evitación de tareas."
+      }
+    ]
+  },
+
+  "summary": {
+    "heading": "Resumen: el sistema de toma de apuntes con TDAH que funciona",
+    "body": "Tomar apuntes con TDAH falla cuando demanda escucha, procesamiento y escritura simultáneos — una tarea cognitiva que sobrecarga la memoria de trabajo por diseño. La solución estructural es separar captura de revisión. Usa transcripción en vivo (Lessonscriptor) durante la clase para capturar todo automáticamente. Usa la técnica Pomodoro para revisar la transcripción en bloques enfocados de 25 minutos. Convierte puntos clave en tarjetas de flashcards de Anki para retención de repetición espaciada.\n\nEste sistema no es una solución temporal — es un flujo de trabajo mejor que la toma de apuntes tradicional para casi cualquier aprendiz. Para estudiantes con TDAH, es transformativo: elimina el cuello de botella, cierra las brechas que crean los lapsos de atención, y produce apuntes completos y buscables de cada clase sin un solo momento de escritura durante el video.\n\nComienza con el nivel gratuito de Lessonscriptor (/for-adhd-students). Agrega Anki la misma semana. Notarás la diferencia dentro de una o dos clases.",
+    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+  },
+
+  "schemas": [
+    {
+      "type": "Article",
+      "headline": "Cómo Tomar Apuntes con TDAH: La Guía Completa 2026",
+      "description": "Una guía práctica de estrategias de toma de apuntes para estudiantes con TDAH, incluyendo transcripción en vivo, Pomodoro, y recomendaciones de herramientas.",
+      "image": "/images/adhd-note-taking-guide-og.png",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "author": {
+        "type": "Person",
+        "name": "Lessonscriptor Editorial Team",
+        "url": "/about"
+      },
+      "publisher": {
+        "type": "Organization",
+        "name": "Lessonscriptor",
+        "logo": "/logo.png"
+      },
+      "keywords": [
+        "toma de apuntes TDAH",
+        "cómo tomar apuntes con TDAH",
+        "estrategias de estudio TDAH",
+        "transcripción en vivo TDAH",
+        "herramientas de toma de apuntes para estudiantes con TDAH"
+      ]
+    },
+    {
+      "type": "HowTo",
+      "name": "Cómo configurar Lessonscriptor para toma de apuntes de clase con TDAH",
+      "description": "Una guía paso a paso para usar la extensión de Chrome Lessonscriptor para transcribir automáticamente clases para estudiantes con TDAH.",
+      "totalTime": "PT5M",
+      "steps": [
+        { "position": 1, "name": "Instala Lessonscriptor", "text": "Ve a Chrome Web Store y busca Lessonscriptor, o visita el sitio web de Lessonscriptor. Haz clic en 'Agregar a Chrome' y confirma la instalación." },
+        { "position": 2, "name": "Abre tu video de clase", "text": "Navega a tu clase en cualquier plataforma: YouTube, grabación de Zoom, LMS universitario (Canvas, Moodle, Blackboard), Coursera, o cualquier otro video reproducido en Chrome." },
+        { "position": 3, "name": "Activa la extensión", "text": "Haz clic en el icono de Lessonscriptor en tu barra de herramientas de Chrome. Un panel de transcripción se abrirá junto al video." },
+        { "position": 4, "name": "Inicia transcripción", "text": "Presiona el botón 'Iniciar' en el panel de Lessonscriptor. La extensión comenzará a capturar y transcribir audio del video en tiempo real." },
+        { "position": 5, "name": "Revisa y exporta tus apuntes", "text": "Después de la clase, revisa la transcripción en el panel. Resalta secciones clave, agrega anotaciones y exporta a texto o PDF." }
+      ]
+    },
+    {
+      "type": "FAQPage",
+      "ref": "faq"
+    },
+    {
+      "type": "BreadcrumbList",
+      "items": [
+        { "position": 1, "name": "Inicio", "item": "/" },
+        { "position": 2, "name": "Blog", "item": "/blog" },
+        { "position": 3, "name": "Cómo Tomar Apuntes con TDAH", "item": "/es/blog/how-to-take-notes-with-adhd" }
+      ]
+    }
+  ],
+
+  "sources": [
+    {
+      "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
+      "href": "https://www.guilford.com/books/Executive-Functions/Russell-Barkley/9781462505357",
+      "external": true
+    },
+    {
+      "text": "Mueller, P.A. & Oppenheimer, D.M. (2014). The pen is mightier than the keyboard: Advantages of longhand over laptop note taking. Psychological Science, 25(6), 1159–1168."
+    },
+    {
+      "text": "ADDitude Magazine — How to Study Better with ADHD: 7 Ways to Earn Better Grades",
+      "href": "https://www.additudemag.com/learn-more-in-less-time/",
+      "external": true
+    },
+    {
+      "text": "CHADD — Higher Education and ADHD",
+      "href": "https://chadd.org/for-adults/higher-education/",
+      "external": true
+    },
+    {
+      "text": "University of Illinois DRES — Strategies and Techniques for ADHD",
+      "href": "https://dres.illinois.edu/education/study-skills-and-learning-strategies-resources/strategies-techniques-for-adhd/",
+      "external": true
+    },
+    {
+      "text": "Brain.fm — Functional music for focus and attention research summary (2024)",
+      "href": "https://www.brain.fm/",
+      "external": true
+    }
+  ],
+
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      { "label": "Mejores tomadores de apuntes IA para TDAH", "href": "/blog/best-ai-note-taker-adhd" },
+      { "label": "Mejores extensiones de Chrome para estudiantes con TDAH", "href": "/blog/best-chrome-extensions-adhd-students" },
+      { "label": "Cómo transcribir videos de YouTube", "href": "/transcribe-youtube-video" },
+      { "label": "Subtítulos en vivo en Chrome", "href": "/live-captions-chrome" }
+    ]
+  }
+}

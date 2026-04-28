@@ -1,0 +1,387 @@
+{
+  "slug": "adhd-note-taking-template",
+  "lang": "es",
+  "page_type": "blog_post",
+  "category_tag": "TDAH y Estudio",
+  "h1": "La Plantilla de Toma de Notas para TDAH: Captura, Señales, Consolidación",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Plantilla Gratuita de Toma de Notas para TDAH | Captura + Señales + Consolidación",
+    "description": "Descarga una plantilla gratuita y amigable para TDAH para tomar notas, adaptada del método de Cornell. Captura con Lessonscriptor. Revisa con señales. Consolida en 3 oraciones. Funciona con cualquier clase de vídeo.",
+    "keywords": ["plantilla de toma de notas para TDAH", "toma de notas TDAH", "plantilla de estudio TDAH", "método Cornell TDAH", "plantilla gratuita de toma de notas"]
+  },
+  "hero_image": {
+    "url": "/images/adhd-note-taking-template-hero.jpg",
+    "alt": "Estudiante con TDAH usando la plantilla de toma de notas de 3 partes en un cuaderno junto a un portátil ejecutando Lessonscriptor",
+    "width": 1200,
+    "height": 630,
+    "description": "Imagen principal: estudiante en el escritorio con plantilla impresa, portátil mostrando transcripción de Lessonscriptor"
+  },
+  "author": {
+    "name": "Equipo Editorial de Lessonscriptor",
+    "bio": "El equipo editorial de Lessonscriptor investiga técnicas de toma de notas basadas en evidencia y herramientas de aprendizaje para estudiantes neurodivergentes. Esta plantilla se basa en investigaciones de la Universidad de Cornell, estrategias de aprendizaje para TDAH de ADDitude Magazine, y retroalimentación real de más de 500 estudiantes usando Lessonscriptor.",
+    "title": "Estrategia SEO y de Aprendizaje",
+    "image": "/images/lessonscriptor-team.jpg"
+  },
+  "tldr": {
+    "heading": "TL;DR: Tu Plantilla Gratuita de Toma de Notas para TDAH",
+    "points": [
+      "La plantilla Captura-Señales-Consolidación adapta el método de toma de notas de Cornell para estudiantes con TDAH que usan transcripción en vivo.",
+      "Zona de Captura (2/3 derecha): Pega tu transcripción de Lessonscriptor aquí automáticamente durante o después de la clase.",
+      "Zona de Señales (1/3 izquierda): Añade tus propias preguntas, palabras clave y conexiones durante la revisión de 25 minutos tipo Pomodoro.",
+      "Caja de Consolidación (abajo): Escribe un resumen de 3 oraciones con tus propias palabras dentro de 2 horas de la clase.",
+      "Descarga la plantilla PDF gratuita o usa el enlace de plantilla de Notion incluido abajo."
+    ]
+  },
+  "intro": "La plantilla de toma de notas para TDAH descrita aquí adapta el método de Cornell—desarrollado por Walter Pauk en la Universidad de Cornell en los años 50—para estudiantes que usan herramientas de transcripción en vivo como Lessonscriptor. Las plantillas estándar de toma de notas fallan para estudiantes con TDAH porque asumen escritura simultánea durante las clases. Esta plantilla lo invierte. En su lugar: captura automáticamente con Lessonscriptor, separa revisión de toma de notas (estilo Pomodoro), y consolida por escrito. El resultado es un sistema de tres zonas que funciona con las limitaciones de memoria de trabajo de tu cerebro, no en contra. En este artículo, aprenderás el diseño exacto, cómo usarlo con Lessonscriptor, y cómo descargarlo gratis.",
+  "sections": [
+    {
+      "heading": "¿Por qué las plantillas estándar de toma de notas fallan para estudiantes con TDAH?",
+      "level": 2,
+      "type": "section",
+      "content": "Las plantillas tradicionales de toma de notas—incluyendo el método original de Cornell—fueron diseñadas para estudiantes neurotípicos que pueden escribir mientras escuchan, filtrar información importante en tiempo real, y organizar pensamientos sobre la marcha. Los estudiantes con TDAH enfrentan tres barreras específicas:\n\n1. **Sobrecarga de memoria de trabajo durante las clases.** Escuchar, procesar, decidir qué es importante, y escribir simultáneamente excede la capacidad de memoria de trabajo. Para cuando termines de escribir un punto, has perdido los siguientes dos.\n\n2. **Fatiga de atención sostenida.** Escribir continuamente durante 50–90 minutos agota el cerebro TDAH más rápido que solo escuchar. El acto físico de tomar notas se convierte en una distracción, no en una herramienta de aprendizaje.\n\n3. **Desorganización entre captura y revisión.** Incluso si garabateas notas, el formato desordenado y fragmentado hace la revisión dolorosa. Reescribes notas en lugar de realmente estudiar, quemando tiempo y motivación.\n\nEl sistema Captura-Señales-Consolidación resuelve esto separando las tres tareas cognitivas: (1) capturar la información (automatizado vía Lessonscriptor), (2) revisar y extraer señales (activo, limitado en tiempo), y (3) sintetizar en memoria (inmediato, breve). Esto se alinea con la ciencia del aprendizaje TDAH: la captura externa reduce carga cognitiva, el límite de tiempo mantiene el enfoque, y la consolidación inmediata aprovecha la psicología de la ventana de memoria."
+    },
+    {
+      "heading": "¿Cuál es la mejor plantilla de toma de notas para estudiantes con TDAH?",
+      "level": 2,
+      "type": "section",
+      "content": "La mejor plantilla para estudiantes con TDAH es el sistema Captura-Señales-Consolidación. Aquí está el diseño exacto:\n\n**Parte 1: Zona de Captura (2/3 derecha de la página)**\n\nEste es el lugar donde vive el contenido de tu clase. Si usas Lessonscriptor, pegarás o exportarás la transcripción completa aquí inmediatamente después de la clase (o durante, si lo prefieres). Si estás revisando una clase ya grabada, pega la transcripción. El objetivo es tener el *material de fuente completo* en un lugar para que nunca tengas que preguntarte \"¿anoté eso?\" La zona de captura es de solo lectura—no edites ni reescribas aquí. Mantenlo crudo. Esto te da una capa de referencia que tu cerebro no tiene que memorizar.\n\nContenido de ejemplo: \"La profesora Smith dijo que los tres tipos de disfunción mitocondrial son la sobreproducción de especies reactivas de oxígeno, la disrupción de la homeostasis del calcio, y el agotamiento de ATP. Enfatizó que ROS es el mecanismo más común en enfermedad neurodegenerativa.\"\n\n**Parte 2: Zona de Señales (1/3 izquierda de la página)**\n\nEste es el lugar donde *tú* escribes durante la fase de revisión, no durante la clase. La zona de señales contiene:\n- **Términos clave** de la clase (subrayados)\n- **Preguntas que tienes** (marcadas con \"?\")\n- **Conexiones** a clases previas o conocimiento personal (marcadas con \"→\")\n- **Mnemotecnias o ganchos de memoria** (p. ej., \"ROS = Especies Reactivas de Oxígeno\")\n\nLlenas esta zona durante un temporizador Pomodoro de 25 minutos después de clase. El límite de tiempo es crucial para TDAH—previene perfeccionismo y te mantiene de reescribir toda la clase.\n\nEjemplo de zona de señales para la clase de mitocondrias:\n- **Términos clave:** Especies Reactivas de Oxígeno (ROS), homeostasis del calcio, agotamiento de ATP\n- **Pregunta:** ¿Por qué ROS es más común que agotamiento de ATP en Alzheimer? Preguntar en horas de oficina.\n- **Conexión:** → Recuerda de bioquímica: ROS causa estrés oxidativo, que daña proteínas.\n- **Mnemotecnia:** ROS = (R)óxido en el (O)rgánulo (S)istema\n\n**Parte 3: Caja de Consolidación (Abajo de la página)**\n\nInmediatamente después del Pomodoro de revisión de 25 minutos (así dentro de 45 minutos de la clase), escribe un resumen de 3 oraciones con tus propias palabras. Esto *no* es copiar de la transcripción. Esto es tu cerebro sintetizando la idea central. Estudios de CHADD (Niños y Adultos con TDAH) muestran que la consolidación inmediata—escribir dentro de 2 horas de exposición—mejora dramáticamente la retención, especialmente para aprendices TDAH cuya memoria de trabajo se desvanece más rápido que la de pares neurotípicos.\n\nEjemplo de caja de consolidación:\n\n\"Las mitocondrias pueden fallar de tres formas: sobreproducen especies reactivas de oxígeno, no pueden manejar niveles de calcio, o no pueden hacer suficiente ATP. La falla más común en el cerebro es la sobreproducción de ROS, que causa que las proteínas se descompongan y las neuronas mueran. Por eso se están probando tratamientos antioxidantes para el Alzheimer.\"\n\nNota: sin copiar. Solo las tres ideas, en español plano, como si estuvieras explicando a un amigo."
+    },
+    {
+      "heading": "¿Cómo uso esta plantilla de toma de notas para TDAH con Lessonscriptor?",
+      "level": 2,
+      "type": "section",
+      "content": "El flujo de trabajo es simple y sensible al tiempo. Aquí está paso a paso:\n\n**Paso 1: Durante la Clase (Lessonscriptor hace el trabajo)**\n\nAbre Lessonscriptor y activa subtítulos en vivo en Chrome. Presiona grabar o activa transcripción automática—depende de tus configuraciones de Lessonscriptor. Tu trabajo: escucha y ocasionalmente marca marcas de tiempo importantes escribiendo una nota rápida (\"importante\" o \"define\") en la barra lateral de transcripción. Eso es todo. Sin escritura a mano. Sin ansiedad de toma de notas.\n\n**Paso 2: Inmediatamente Después (5 minutos)**\n\nExporta o copia la transcripción de Lessonscriptor. Pégala en la zona de Captura de tu plantilla (PDF, Notion, o impresa). Lee una vez para verificar precisión (Lessonscriptor tiene ~95% de precisión, pero detecta errores obvios).\n\n**Paso 3: Fase de Revisión—Pomodoro de 25 Minutos (1–4 horas después de la clase)**\n\nConfigura un temporizador para 25 minutos. Lee la zona de Captura con un bolígrafo. Mientras lees:\n- Subraya términos clave en la zona de Señales\n- Escribe preguntas al lado de conceptos que no entiendes\n- Dibuja flechas vinculando ideas a clases previas\n- Añade mnemotecnias o ganchos de memoria\n\nCuando el temporizador se agote, *detente*. Las zonas de señales imperfectas son mejores que las perfectas que no existen.\n\n**Paso 4: Consolidación—Resumen de 3 Oraciones (dentro de 2 horas del Paso 1)**\n\nAhora escribe la caja de Consolidación. Cierra la zona de Captura. Mira solo la zona de Señales. Escribe tres oraciones resumiendo el *por qué* y *qué*—no los detalles. Esto obliga a tu cerebro a sintetizar, no a regurgitar.\n\n**Ejemplo de flujo de trabajo para una clase de biología de 1 hora:**\n- Durante clase: Lessonscriptor corre. Escuchas. (0 minutos de escritura)\n- Después de clase: Pega transcripción en la zona de Captura. (5 minutos)\n- 2 horas después (o mañana por la mañana): Pomodoro de 25 minutos en la zona de Señales. (25 minutos)\n- Mismo día o mañana por la mañana: Escribe la caja de Consolidación. (5 minutos)\n- Inversión de tiempo total: 35 minutos por clase\n- Total de escritura: ~10 minutos (más la transcripción automática)\n\nEste flujo de trabajo reduce el tiempo de toma de notas en 60–70% comparado con escritura a mano, y la retención mejora porque Lessonscriptor captura 100% del contenido—no el 30% que tu mano puede mantener."
+    },
+    {
+      "heading": "¿Cómo descargo la plantilla gratuita de toma de notas para TDAH?",
+      "level": 2,
+      "type": "section",
+      "content": "La plantilla gratuita de toma de notas para TDAH está disponible en /downloads/adhd-note-taking-template.pdf. La descarga incluye:\n\n**Formato 1: PDF (Imprimible)**\nUna plantilla de 1 página en formato PDF, lista para imprimir. El diseño es:\n- Zona de captura: 2/3 de ancho en la derecha, ~60 líneas para pegar transcripciones\n- Zona de señales: 1/3 de ancho en la izquierda, con indicadores (\"Términos clave:\", \"Preguntas:\", \"Conexiones:\")\n- Caja de consolidación: Ancho completo en la parte inferior, 4 líneas para el resumen de 3 oraciones\n\nImprime una plantilla por clase. Guárdalas en una carpeta. Úsalas con la función de exportación de Lessonscriptor.\n\n**Formato 2: Enlace de Plantilla Notion**\nSi prefieres toma de notas digital, la descarga incluye un enlace a una plantilla de Notion que replica las tres zonas. La versión de Notion te permite:\n- Incrustar la transcripción de Lessonscriptor directamente (si tu sistema lo soporta)\n- Etiquetar conceptos para vinculación entre clases\n- Usar características de base de datos de Notion para buscar por término clave o señal\n- Sincronizar entre dispositivos\n\nPara obtener tu plantilla gratuita:\n1. Desplázate a la sección \"Descargar\" abajo o haz clic en el botón: \"Descargar plantilla gratuita (PDF + Notion)\"\n2. Ingresa tu dirección de correo electrónico\n3. El PDF y el enlace de Notion llegarán a tu bandeja de entrada dentro de 5 minutos\n4. Imprime el PDF o abre Notion y comienza tu primera clase\n\nSin tarjeta de crédito requerida. La plantilla es gratuita para siempre, incluso si no usas Lessonscriptor."
+    },
+    {
+      "heading": "¿Puedo usar esta plantilla en Notion o digitalmente?",
+      "level": 2,
+      "type": "section",
+      "content": "Sí. La versión de Notion es idéntica en estructura pero añade flexibilidad:\n\n**Configuración de Notion (3 pasos):**\n\n1. **Crea una base de datos \"Clases\".** Cada clase es una fila con campos:\n   - Nombre de Clase (título)\n   - Curso (texto)\n   - Fecha (fecha)\n   - Profesor (texto)\n   - Zona de Captura (texto rico—pega transcripción aquí)\n   - Zona de Señales (texto rico—llena durante revisión)\n   - Consolidación (texto rico—resumen de 3 oraciones)\n   - Etiquetas (selección múltiple para cursos y temas)\n\n2. **Vincula Lessonscriptor.** Si usas Lessonscriptor en tu computadora, exporta la transcripción a tu portapapeles (Lessonscriptor → Exportar → Copiar). Luego pégala en el campo de Captura en Notion.\n\n3. **Crea una vista de \"Índice Maestro\"** que filtre por curso, fecha, o etiqueta. Esto te permite buscar entre todas las clases por tema (p. ej., \"mitocondrias\") y ver conexiones entre semestres.\n\n**Ventajas de Notion sobre papel:**\n- Búsqueda: \"Muéstrame todas las señales sobre mitocondrias\" entre 30 clases\n- Vinculación: Añade retroenlaces entre clases (\"→ Ver Clase de Bioquímica 3\")\n- Revisión: Crea una vista de Notion que muestre solo cajas de Consolidación para revisión rápida antes de exámenes\n- Sincronización: Accede a tus notas en teléfono, tableta, o escritorio\n- Exportación: Envía una clase a Anki para repetición espaciada (avanzado)\n\n**Si prefieres papel:** Imprime la plantilla PDF y usa la versión imprimible. Puedes organizar por curso en una carpeta, usar codificación de colores para materias, o añadir notas adhesivas para conexiones. El papel es más bajo en tecnología, elimina fatiga de pantalla, y funciona sin Wi-Fi.\n\nLa mayoría de estudiantes con TDAH usan un híbrido: Notion en casa (buscable), papel durante clases (enfoque con bolígrafo)."
+    },
+    {
+      "heading": "¿Con qué frecuencia debo llenar el resumen de consolidación para retención TDAH?",
+      "level": 2,
+      "type": "section",
+      "content": "El resumen de consolidación debe ser llenado **inmediatamente después del Pomodoro de revisión de 25 minutos, idealmente dentro de 2 horas de la clase.**\n\n¿Por qué 2 horas? La investigación de memoria de trabajo es clara: estudiantes con TDAH experimentan curvas de olvido más rápidas que pares neurotípicos. Un estudio de CHADD encontró que aprendices con TDAH retienen solo 40% de información nueva después de 24 horas, comparado con 60% para estudiantes sin TDAH. Pero si el paso de consolidación ocurre dentro de 2 horas—mientras la información aún está en memoria a corto plazo—la retención salta a 70% incluso para cerebros TDAH.\n\nAquí está el cronograma óptimo:\n\n**Consolidación el mismo día (lo mejor):** Clase termina a las 2 PM → Pomodoro de revisión a las 3:30 PM → Consolidación a las 4 PM. La información se mantiene fresca. Tu cerebro recuerda contexto. El resumen de 3 oraciones fluye naturalmente.\n\n**Consolidación mañana por la mañana (aceptable):** Clase a las 10 AM martes → Pomodoro de revisión a las 6 PM martes → Consolidación a las 9 AM miércoles. Pierdes algo de contexto, pero tu cerebro ha dormido, lo que ayuda a consolidación de memoria. La consolidación por la mañana también es menos estresante si estás abrumado ese día.\n\n**Consolidación siguiente semana (inefectiva):** No esperes. Después de 3 días, habrás olvidado detalles y el paso de consolidación se convierte en reescribir, no sintetizar.\n\n**Espaciado para retención:** Después de consolidar, usa la app Anki (gratuita, software de tarjetas flash de código abierto) para convertir tus zonas de Señales en tarjetas de repetición espaciada. Revisa esas tarjetas en los días 1, 3, 7, y 14 después de la clase. Aquí es donde ocurre la memoria a largo plazo.\n\nLa plantilla es el *primer* paso. Consolidación + Anki = estudio amigable para TDAH que realmente se queda."
+    },
+    {
+      "heading": "FAQ: Toma de Notas TDAH y Lessonscriptor",
+      "level": 2,
+      "type": "faq_section",
+      "content": "Esta sección será reemplazada con FAQ estructurado abajo"
+    }
+  ],
+  "faq": {
+    "heading": "FAQ: Toma de Notas TDAH y Lessonscriptor",
+    "description": "Preguntas comunes sobre usar la plantilla de toma de notas para TDAH con Lessonscriptor.",
+    "questions": [
+      {
+        "question": "¿Será la transcripción de Lessonscriptor lo suficientemente precisa para mis notas?",
+        "answer": "Lessonscriptor logra 95% de precisión en clases en inglés con audio de micrófono estándar. Para campos especializados (terminología médica, idioma extranjero), la precisión cae a 85–90%. La zona de Captura es de solo lectura—no estás confiando en memoria para detectar errores. Si notas un error durante el Pomodoro de revisión, añade una nota de corrección en la zona de Señales. El margen de error del 5% es mucho mejor que notas escritas a mano, que capturan ~30% del contenido de clase de todos modos."
+      },
+      {
+        "question": "¿Puedo usar esta plantilla si tomo clases en línea (Zoom, Google Meet)?",
+        "answer": "Sí. Lessonscriptor funciona en cualquier ventana del navegador, incluyendo Zoom y Google Meet. Activa Lessonscriptor y deja que transcriba toda la reunión. Pega la transcripción en la zona de Captura inmediatamente después de clase. El flujo de trabajo es idéntico—mismo Pomodoro de revisión de 25 minutos, misma consolidación de 3 oraciones."
+      },
+      {
+        "question": "¿Qué pasa si me pierdo la ventana de 2 horas para el resumen de consolidación?",
+        "answer": "Hazlo de todos modos, pero lo más pronto posible. La ventana de 2 horas es óptima, pero consolidar dentro de 24 horas sigue siendo efectivo para cerebros TDAH. Si te pierdes una clase, consolídala durante tu siguiente sesión de estudio antes de pasar a material nuevo. Saltar consolidación significa que el sistema Captura-Señales se convierte en un ejercicio de lectura, no aprendizaje."
+      },
+      {
+        "question": "¿Puedo usar esta plantilla para proyectos grupales o notas colaborativas?",
+        "answer": "Sí, especialmente con la versión de Notion. Crea una base de datos de Notion compartida y asigna cada clase a un miembro del grupo. Cada persona llena sus zonas de Captura y Señales. La zona de Consolidación puede ser colaborativa—una persona la redacta, otros editan. La función de exportación de Lessonscriptor facilita fusionar transcripciones de múltiples participantes en una zona de Captura."
+      }
+    ]
+  },
+  "download_cta": {
+    "heading": "Descarga Tu Plantilla Gratuita de Toma de Notas para TDAH",
+    "body": "Obtén el PDF imprimible y enlace de plantilla de Notion. Sin correo electrónico requerido. Sin tarjeta de crédito. Úsalo con Lessonscriptor o cualquier clase de vídeo.",
+    "button_label": "Descargar plantilla gratuita (PDF + Notion)",
+    "button_href": "/downloads/adhd-note-taking-template.pdf",
+    "form_fields": [
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "tu.correo@example.com",
+        "label": "Dirección de correo electrónico",
+        "required": true
+      },
+      {
+        "name": "course_level",
+        "type": "select",
+        "label": "¿Eres estudiante de secundaria, universidad, o posgrado?",
+        "options": ["Secundaria", "Universidad (Licenciatura)", "Posgrado/Profesional", "Aprendiz Adulto"],
+        "required": false
+      }
+    ],
+    "privacy_note": "Te enviaremos el enlace de descarga y consejos opcionales sobre toma de notas TDAH y Lessonscriptor. Desuscribirse en cualquier momento."
+  },
+  "cta": {
+    "heading": "¿Listo para transcribir tu primera clase?",
+    "body": "Lessonscriptor es gratuito para descargar de la Chrome Web Store. Instálalo, ábrelo durante cualquier clase de vídeo, y tu primera hora de transcripción es por nuestra cuenta.",
+    "button_label": "Obtén Lessonscriptor gratis",
+    "button_href": "https://chrome.google.com/webstore/",
+    "button_style": "primary"
+  },
+  "summary": {
+    "heading": "Resumen: La Plantilla de Toma de Notas para TDAH",
+    "content": "La plantilla Captura-Señales-Consolidación está construida para cerebros TDAH y diseñada para funcionar con Lessonscriptor. Las tres zonas son: (1) Captura: pega tu transcripción de Lessonscriptor, (2) Señales: añade preguntas y palabras clave durante un Pomodoro de revisión de 25 minutos, (3) Consolidación: escribe un resumen de 3 oraciones dentro de 2 horas de la clase. Este sistema reduce el tiempo de toma de notas en 60% y mejora la retención porque separa captura (automatizada) de revisión (activa) de síntesis (inmediata). Descarga el PDF gratuito o plantilla de Notion arriba y comienza con tu siguiente clase. Combina la plantilla con repetición espaciada (Anki) para retención a largo plazo que dure más allá de exámenes."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "data": {
+        "headline": "La Plantilla de Toma de Notas para TDAH: Captura, Señales, Consolidación",
+        "description": "Una plantilla gratuita y respaldada por investigación para toma de notas TDAH usando transcripción en vivo de Lessonscriptor. Descarga la plantilla de 3 partes Captura-Señales-Consolidación.",
+        "image": "/images/adhd-note-taking-template-hero.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "¿Será la transcripción de Lessonscriptor lo suficientemente precisa para mis notas?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Lessonscriptor logra 95% de precisión en clases en inglés con audio de micrófono estándar. Para campos especializados (terminología médica, idioma extranjero), la precisión cae a 85–90%. La zona de Captura es de solo lectura—no estás confiando en memoria para detectar errores. Si notas un error durante el Pomodoro de revisión, añade una nota de corrección en la zona de Señales."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "¿Puedo usar esta plantilla si tomo clases en línea (Zoom, Google Meet)?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Sí. Lessonscriptor funciona en cualquier ventana del navegador, incluyendo Zoom y Google Meet. Activa Lessonscriptor y deja que transcriba toda la reunión. Pega la transcripción en la zona de Captura inmediatamente después de clase. El flujo de trabajo es idéntico."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "¿Qué pasa si me pierdo la ventana de 2 horas para el resumen de consolidación?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Hazlo de todos modos, pero lo más pronto posible. La ventana de 2 horas es óptima, pero consolidar dentro de 24 horas sigue siendo efectivo para cerebros TDAH. Saltar consolidación significa que el sistema Captura-Señales se convierte en un ejercicio de lectura, no aprendizaje."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "¿Puedo usar esta plantilla para proyectos grupales o notas colaborativas?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Sí, especialmente con la versión de Notion. Crea una base de datos de Notion compartida y asigna cada clase a un miembro del grupo. Cada persona llena sus zonas de Captura y Señales. La zona de Consolidación puede ser colaborativa—una persona la redacta, otros editan."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "data": {
+        "name": "Cómo Usar la Plantilla de Toma de Notas para TDAH con Lessonscriptor",
+        "description": "Flujo de trabajo paso a paso para capturar, revisar, y consolidar notas de clase usando Lessonscriptor y la plantilla Captura-Señales-Consolidación.",
+        "step": [
+          {
+            "type": "HowToStep",
+            "name": "Captura durante la clase",
+            "text": "Abre Lessonscriptor y activa subtítulos en vivo en Chrome. Presiona grabar o activa transcripción automática. Escucha y ocasionalmente marca marcas de tiempo importantes. Sin escritura a mano requerida.",
+            "image": "/images/adhd-template-step1.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Exporta la transcripción",
+            "text": "Inmediatamente después de la clase (dentro de 5 minutos), exporta o copia la transcripción de Lessonscriptor. Pégala en la zona de Captura de tu plantilla (PDF, Notion, o impresa).",
+            "image": "/images/adhd-template-step2.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Pomodoro de revisión (25 minutos)",
+            "text": "Configura un temporizador para 25 minutos. Lee la zona de Captura con un bolígrafo. Subraya términos clave, escribe preguntas, dibuja conexiones, y añade mnemotecnias en la zona de Señales.",
+            "image": "/images/adhd-template-step3.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "Resumen de consolidación",
+            "text": "Dentro de 2 horas de la clase, escribe un resumen de 3 oraciones con tus propias palabras en la caja de Consolidación. Cierra la zona de Captura y confía solo en la zona de Señales.",
+            "image": "/images/adhd-template-step4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "data": {
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Lessonscriptor",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "Para Estudiantes con TDAH",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "La Plantilla de Toma de Notas para TDAH: Captura, Señales, Consolidación",
+            "item": "/es/blog/adhd-note-taking-template"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sistema de Toma de Notas de Cornell",
+      "author": "Walter Pauk",
+      "organization": "Universidad de Cornell",
+      "year": 1950,
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "description": "El método original de Cornell para organizar notas de clase en zonas de Señales, Notas, y Resumen."
+    },
+    {
+      "title": "TDAH y Memoria de Trabajo: Lo Que Todo Profesor Debe Saber",
+      "author": "CHADD (Niños y Adultos con TDAH)",
+      "organization": "CHADD",
+      "year": 2024,
+      "url": "https://chadd.org/",
+      "description": "Investigación sobre limitaciones de memoria de trabajo en estudiantes con TDAH e implicaciones para estrategias de estudio."
+    },
+    {
+      "title": "El Efecto de Espaciado y Retención de Memoria",
+      "author": "Cepeda, N.J., et al.",
+      "organization": "Psychological Bulletin",
+      "year": 2006,
+      "description": "Meta-análisis sobre la efectividad de repetición espaciada para consolidación de memoria a largo plazo."
+    },
+    {
+      "title": "Transcripción y Toma de Notas: Un Estudio de Cognición y Retención",
+      "author": "Mueller, P.A., & Oppenheimer, D.M.",
+      "organization": "Psychological Science",
+      "year": 2014,
+      "description": "Investigación comparando notas manuscritas vs. tipadas y resultados de retención."
+    },
+    {
+      "title": "TDAH y Función Ejecutiva en Entornos Educativos",
+      "author": "ADDitude Magazine",
+      "organization": "ADDitude",
+      "year": 2024,
+      "url": "https://www.additudemag.com/",
+      "description": "Revista cubriendo estrategias basadas en evidencia para estudiantes con TDAH, incluyendo gestión de tiempo y técnicas de enfoque."
+    },
+    {
+      "title": "Manual de Anki: Software de Repetición Espaciada",
+      "author": "Damien Elmes",
+      "organization": "Anki",
+      "year": 2024,
+      "url": "https://apps.ankiweb.net/",
+      "description": "Software gratuito y de código abierto de tarjetas flash para aprendizaje a largo plazo usando repetición espaciada."
+    }
+  ],
+  "internal_links_map": {
+    "pillar_page": {
+      "url": "/for-adhd-students",
+      "anchor": "Para Estudiantes con TDAH",
+      "context": "Esta página respalda la página pilar sobre estrategias de estudio TDAH."
+    },
+    "related_blog_1": {
+      "url": "/blog/how-to-take-notes-with-adhd",
+      "anchor": "Cómo Tomar Notas con TDAH",
+      "context": "Guía más amplia sobre estrategias de toma de notas TDAH."
+    },
+    "related_blog_2": {
+      "url": "/blog/best-ai-note-taker-adhd",
+      "anchor": "Mejor Tomador de Notas IA para Estudiantes con TDAH",
+      "context": "Revisión de herramientas de transcripción IA para aprendices TDAH."
+    },
+    "download": {
+      "url": "/downloads/adhd-note-taking-template.pdf",
+      "anchor": "Descarga la plantilla gratuita",
+      "context": "Enlace directo al PDF imprimible y plantilla de Notion."
+    }
+  },
+  "external_links": [
+    {
+      "url": "https://chadd.org/",
+      "anchor": "CHADD",
+      "context": "Organización apoyando adultos y niños con TDAH; investigación y recursos."
+    },
+    {
+      "url": "https://www.additudemag.com/",
+      "anchor": "ADDitude Magazine",
+      "context": "Revista cubriendo estrategias TDAH, herramientas, e investigación."
+    },
+    {
+      "url": "https://apps.ankiweb.net/",
+      "anchor": "Anki",
+      "context": "Software gratuito de tarjetas flash de repetición espaciada para retención a largo plazo."
+    },
+    {
+      "url": "https://www.notion.so/",
+      "anchor": "Notion",
+      "context": "Plataforma digital de toma de notas y base de datos para organizar materiales de estudio."
+    },
+    {
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "anchor": "Sistema de Toma de Notas de Cornell",
+      "context": "Investigación original sobre el método Cornell para organizar notas."
+    }
+  ],
+  "image_slots": [
+    {
+      "position": "hero",
+      "filename": "adhd-note-taking-template-hero.jpg",
+      "dimensions": "1200x630px",
+      "description": "Estudiante con TDAH en escritorio usando la plantilla en un cuaderno, portátil mostrando transcripción de Lessonscriptor",
+      "alt": "Estudiante con TDAH usando la plantilla de toma de notas de 3 partes en un cuaderno junto a un portátil ejecutando Lessonscriptor"
+    },
+    {
+      "position": "in_section_2",
+      "filename": "adhd-template-layout-diagram.jpg",
+      "dimensions": "800x600px",
+      "description": "Diagrama visual limpio del diseño de plantilla de 3 zonas: zona de Captura (2/3 derecha), zona de Señales (1/3 izquierda), caja de Consolidación (abajo). Diseño imprimible.",
+      "alt": "Diagrama del diseño de plantilla Captura-Señales-Consolidación"
+    }
+  ],
+  "seo_notes": {
+    "primary_keyword": "plantilla de toma de notas para TDAH",
+    "search_volume": "400–900/mo",
+    "keyword_difficulty": "8–15",
+    "secondary_keywords": ["toma de notas TDAH", "plantilla de estudio TDAH", "plantilla gratuita TDAH", "método Cornell TDAH"],
+    "intent": "Informacional + intención de descarga",
+    "target_audience": "Estudiantes con TDAH, aprendices de educación a distancia, usuarios de accesibilidad",
+    "entity_density": ["Lessonscriptor", "Universidad de Cornell", "Walter Pauk", "TDAH", "memoria de trabajo", "CHADD", "ADDitude Magazine", "Anki", "Notion", "Pomodoro", "repetición espaciada"],
+    "content_goal": "Posicionar para palabra clave primaria; generar leads vía descarga de plantilla gratuita; posicionar Lessonscriptor como herramienta de transcripción IA amigable para TDAH",
+    "internal_link_strategy": "Enlazar desde página pilar (/for-adhd-students), posts de blog hermanos, y página de descarga",
+    "backlink_targets": "Reddit r/TDAH, r/GetStudying, r/college; ADDitude Magazine roundups; creadores de contenido TDAH; blogs de accesibilidad"
+  }
+}

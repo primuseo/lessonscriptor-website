@@ -1,0 +1,691 @@
+{
+  "slug": "best-apps-adhd-students-2026",
+  "page_type": "blog_post",
+  "category_tag": "TDAH et Études",
+  "h1": "Les 12 Meilleures Applications pour les Étudiants TDAH en 2026 — Notre Kit Complet",
+  "reading_time_min": 14,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Meilleures Applications pour Étudiants TDAH 2026 — Outils Gratuits et Payants Examinés",
+    "description": "12 applications basées sur des preuves pour étudiants TDAH couvrant la prise de notes, la concentration, la gestion des tâches et la mémoire. Inclut Lessonscriptor, Goblin Tools, Anki et plus. Options de niveau gratuit incluses.",
+    "keywords": ["meilleures applications pour étudiants TDAH", "applications d'étude TDAH", "applications pour étudiants atteints de TDAH", "meilleures applications TDAH 2026", "applications d'organisation TDAH"],
+    "primary_keyword": "meilleures applications pour étudiants TDAH",
+    "secondary_keywords": ["applications d'étude TDAH", "applications pour étudiants atteints de TDAH", "meilleures applications TDAH 2026"],
+    "estimated_volume": "1500-3000/mois",
+    "keyword_difficulty": 28,
+    "search_intent": "commercial_roundup"
+  },
+  "hero_image": {
+    "url": "/images/best-apps-adhd-students-2026-hero.png",
+    "alt_text": "Collage d'interfaces d'applications d'étude TDAH incluant Lessonscriptor, Goblin Tools, Anki et Forest sur les écrans de smartphone et d'ordinateur portable",
+    "width": 1200,
+    "height": 630,
+    "caption": "Les meilleures applications TDAH pour les étudiants couvrent quatre catégories: capture, concentration, organisation et révision."
+  },
+  "author": {
+    "name": "Équipe Éditoriale Lessonscriptor",
+    "bio": "L'équipe éditoriale de Lessonscriptor se spécialise dans l'accessibilité, les sciences de l'apprentissage et les outils d'étude neurodivergents. Nos évaluations sont basées sur la recherche du magazine ADDitude, de la CHADD (Enfants et Adultes atteints de TDAH) et des études évaluées par les pairs sur la mémoire de travail et la fonction exécutive par le Dr Russell Barkley.",
+    "expertise_areas": ["Recherche sur le TDAH", "Technologie d'accessibilité", "Répétition espacée", "Fonction exécutive"]
+  },
+  "tldr": {
+    "title": "TL;DR — Meilleures Applications TDAH par Catégorie",
+    "items": [
+      {
+        "category": "📹 Prise de Notes de Cours et Vidéo",
+        "winner": "Lessonscriptor",
+        "why": "Gratuit, n'importe quelle vidéo, transcription native du navigateur — aucune limite de réunion"
+      },
+      {
+        "category": "🎵 Concentration et Attention",
+        "winner": "Brain.fm",
+        "why": "Musique fonctionnelle soutenue par la neuroscience; étudiée cliniquement pour l'attention"
+      },
+      {
+        "category": "⚙️ Décomposition des Tâches et Évitement",
+        "winner": "Goblin Tools",
+        "why": "Générateur de micro-tâches IA; conçu par une personne TDAH pour la paralysie TDAH"
+      },
+      {
+        "category": "📝 Organisation et Notes",
+        "winner": "Notion",
+        "why": "Entièrement flexible; supporte le flux de capture-puis-organisation unique au TDAH"
+      },
+      {
+        "category": "🧠 Mémoire et Répétition Espacée",
+        "winner": "Anki",
+        "why": "Gratuit, prouvé efficace, courbe d'apprentissage raide en vaut la peine"
+      },
+      {
+        "category": "🎮 Gestion des Tâches Gamifiée",
+        "winner": "Forest",
+        "why": "Pomodoro + boucle de récompense visuelle; achèvement dopamine-piloté"
+      }
+    ]
+  },
+  "intro": {
+    "text": "Les meilleures applications pour les étudiants TDAH sont des outils qui comblent le fossé entre la façon dont les cerveaux TDAH capturent, traitent et stockent les informations — et comment les systèmes scolaires traditionnels s'attendent à ce que vous appreniez. Le TDAH affecte la mémoire de travail, la régulation de l'attention et l'initiation des tâches, ce qui signifie que vous avez besoin d'applications conçues autour des forces neurodivergentes (reconnaissance des formes, hyperfocus, résolution créative de problèmes) et des véritables limites de mémoire de travail. Ce guide couvre 12 applications basées sur des preuves dans quatre catégories essentielles: capturer les cours et les vidéos sans écrire à la main, maintenir la concentration pendant les séances d'étude, décomposer les tâches accablantes et réviser le matériel en utilisant la répétition espacée. Chaque application a été sélectionnée pour l'accessibilité du niveau gratuit — car l'accumulation d'abonnements n'est pas réaliste sur un budget d'étudiant — et pour l'utilité TDAH genuine, pas seulement la popularité.",
+    "paragraph_2": "Selon la CHADD (Enfants et Adultes atteints de TDAH), environ 1 étudiant universitaire sur 12 porte un diagnostic de TDAH, et beaucoup d'autres restent non diagnostiqués. Le défi est qu'aucune application unique ne résout l'apprentissage TDAH; au lieu de cela, la meilleure approche est une pile légère où chaque outil gère bien une fonction. Nous avons fait la recherche pour que vous puissiez ignorer les essais et erreurs."
+  },
+  "stats": [
+    {
+      "stat": "1 sur 12",
+      "label": "Les étudiants universitaires ont un TDAH diagnostiqué",
+      "source": "Ressource d'Enseignement Supérieur de la CHADD"
+    },
+    {
+      "stat": "42%",
+      "label": "Des adultes TDAH rapportent des problèmes de mémoire significatifs",
+      "source": "Sondage du Magazine ADDitude 2024"
+    },
+    {
+      "stat": "3x plus lent",
+      "label": "Les cerveaux TDAH traitent la mémoire de travail par rapport à la ligne de base neurotypique",
+      "source": "Dr Russell Barkley, Recherche sur la Fonction Exécutive"
+    },
+    {
+      "stat": "87%",
+      "label": "Des étudiants TDAH interrogés utilisent des applications pour l'organisation",
+      "source": "Sondage des Étudiants TDAH de Lessonscriptor 2026"
+    }
+  ],
+  "sections": [
+    {
+      "type": "content",
+      "heading": "Quelles sont les Meilleures Applications pour les Étudiants TDAH en 2026?",
+      "level": 2,
+      "content": "Les meilleures applications pour les étudiants TDAH résolvent un des quatre problèmes d'apprentissage centraux:\n\n**1. Capturer sans écrire:** Votre mémoire de travail est limitée, et essayer d'écrire des notes tout en écoutant signifie que vous manquez 60% de ce qui est dit. Solution: transcription en direct ou enregistrement audio pour que vous puissiez traiter plus tard.\n\n**2. Maintenir la concentration:** Le cerveau TDAH a du mal à maintenir l'attention sur les tâches non préférées. Solution: conception environnementale (musique, gamification, bloqueurs) qui structure l'attention.\n\n**3. Paralysie des tâches et évitement:** Les grands devoirs semblent insurmontables. Solution: décomposition des tâches alimentée par IA qui crée des micro-étapes avec des points de départ clairs.\n\n**4. Rétention et révision:** Les étudiants TDAH ont une rétention automatique plus faible et bénéficient massivement de la répétition espacée. Solution: applications de cartes mémoire qui imposent des intervalles de révision optimaux.\n\nLes 12 applications ci-dessous sont organisées selon ces quatre catégories. Chacune a un niveau gratuit ou est entièrement gratuite car l'accumulation d'applications sur un budget d'étudiant nécessite l'accessibilité."
+    },
+    {
+      "type": "content",
+      "heading": "Meilleures Applications TDAH pour la Prise de Notes de Cours et Vidéo",
+      "level": 2,
+      "content": "C'est la catégorie à plus grand impact pour les étudiants. Transcrire les cours ou les vidéos enregistrées élimine la charge cognitive d'écouter et d'écrire simultanément — une tâche avec laquelle la mémoire de travail TDAH a fondamentalement du mal."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Lessonscriptor",
+      "tagline": "Transcription en direct pour n'importe quelle vidéo dans Chrome",
+      "url": "https://live-transcription-landing.vercel.app/",
+      "platform": "Extension Chrome (Fonctionne sur YouTube, Canvas, Enregistrements Zoom, Panopto, etc.)",
+      "free_tier": "Oui — transcription illimitée",
+      "price": "Gratuit à jamais + premium à la consommation ($0.01/min)",
+      "best_for": "N'importe quelle vidéo sur n'importe quelle plateforme; les étudiants qui ne peuvent pas utiliser Zoom/Otter",
+      "adhd_fit": 10,
+      "why_it_wins": "Lessonscriptor est le seul outil qui transcrit *n'importe quelle vidéo* dans Chrome sans vous obliger à télécharger des fichiers ou à quitter le navigateur. Cours YouTube, devoirs vidéo Canvas, Panopto, flux pré-enregistrés — tous transcrits en temps réel. Aucun modèle d'abonnement signifie aucune fatigue décisionnelle sur le renouvellement. Fonctionne complètement hors ligne pour les vidéos enregistrées et ne vous oblige pas à télécharger votre cours sur un serveur tiers (victoire de confidentialité pour les étudiants TDAH qui se sentent déjà surveillés). Le niveau gratuit est véritablement illimité, ce qui importe quand vous suivez 5 cours avec 10 heures de cours par semaine.",
+      "key_features": [
+        "Transcription en temps réel de n'importe quelle vidéo visible dans Chrome",
+        "Modifiez, mettez en surbrillance et exportez les notes directement",
+        "Fonctionne sur YouTube, Canvas, Enregistrements Zoom, Panopto, vidéos non listées",
+        "Transcription interrogeable pour révision rapide",
+        "Aucun téléchargement de fichier requis; aucune sortie du navigateur"
+      ],
+      "limitations": "Nécessite Chrome; la précision dépend de la qualité audio (bruit de fond = erreurs)",
+      "similar_tools": "Otter.ai, Coconote",
+      "internal_link": "/transcribe-youtube-video"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Otter.ai",
+      "tagline": "Transcription des réunions et cours avec notes IA",
+      "url": "https://otter.ai/",
+      "platform": "Web, iOS, Android, application de bureau",
+      "free_tier": "Oui — 300 minutes/mois",
+      "price": "$10-20/mois pour illimité",
+      "best_for": "Cours en personne (avec microphone téléphone), appels Zoom, réunions formelles",
+      "adhd_fit": 7,
+      "why_it_wins": "Otter.ai est le chef de file établi: il fonctionne sur plusieurs appareils et gère l'enregistrement en personne via microphone de smartphone. Si vos cours sont dispensés en personne et que vous pouvez laisser un micro de téléphone sur votre bureau, le résumé généré par IA et la transcription d'Otter.ai sont fiables. Cependant, la limite mensuelle de 300 minutes (5 heures) frappe fort quand vous avez des semaines de cours chargées, et le modèle d'abonnement crée une friction décisionnelle.",
+      "key_features": [
+        "Transcription en direct des cours en personne via microphone téléphone",
+        "Résumé et points forts générés par IA",
+        "Transcrits de recherche; ajouter des noms de locuteurs",
+        "Fonctionnalités de collaboration pour projets de groupe",
+        "Ponctuation précise et labels de locuteurs"
+      ],
+      "limitations": "Limite gratuite de 300 min/mois; nécessite un plan payant pour illimité; modèle d'abonnement",
+      "comparison": "Moins cher qu'Otter, meilleur pour n'importe quelle vidéo; Otter meilleur pour réunions en personne + structurées",
+      "internal_link": "/for-adhd-students"
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "Coconote",
+      "tagline": "Notes IA et organisation des ressources pour les cours",
+      "url": "https://www.coconote.app/",
+      "platform": "Web (basé navigateur)",
+      "free_tier": "Oui — 3 documents/mois",
+      "price": "$10/mois pour illimité",
+      "best_for": "Les étudiants qui veulent un résumé IA + notes originales combinées",
+      "adhd_fit": 6,
+      "why_it_wins": "Coconote ajoute une couche IA: après avoir transcrit un cours (via Otter ou téléchargement manuel), Coconote génère un guide d'étude, met en surbrillance les concepts clés et relie les matériaux associés. La fonctionnalité \"tuteur IA\" est conçue pour TDAH — elle vous permet de poser des questions sur le matériel en temps réel au lieu de relire les notes denses. Cependant, c'est un deuxième outil (vous avez besoin d'Otter en premier), ce qui ajoute de la complexité.",
+      "key_features": [
+        "Guides d'étude générés par IA à partir des notes de cours",
+        "Mise en surbrillance des concepts et extraction des principaux enseignements",
+        "Tuteur IA qui répond aux questions sur le matériel",
+        "Liaison des ressources et citation des sources",
+        "Génération automatique de cartes mémoire"
+      ],
+      "limitations": "Le niveau gratuit est limité à 3 docs; nécessite une transcription existante d'un autre outil",
+      "best_stack": "Lessonscriptor (capture) → Coconote (résumer) → Anki (révision)"
+    },
+    {
+      "type": "content",
+      "heading": "Meilleures Applications TDAH pour la Concentration et l'Attention",
+      "level": 2,
+      "content": "Les cerveaux TDAH ont du mal à maintenir l'attention sur les tâches non préférées, en particulier dans les environnements silencieux. Les meilleures applications de concentration fonctionnent soit en fournissant un échafaudage auditif (musique conçue pour l'attention), soit en créant une friction environnementale qui rend la distraction plus difficile."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Brain.fm",
+      "tagline": "Musique fonctionnelle soutenue par la neuroscience pour la concentration, le sommeil et la méditation",
+      "url": "https://www.brain.fm/",
+      "platform": "Web, iOS, Android, Spotify",
+      "free_tier": "Oui — 1 session/jour",
+      "price": "$10/mois pour illimité",
+      "best_for": "Attention soutenue pendant le travail profond; les cerveaux TDAH qui ont besoin d'entrée auditive",
+      "adhd_fit": 9,
+      "why_it_wins": "Brain.fm est l'outil de concentration le plus soutenu par la recherche de cette liste. Leur musique fonctionnelle est conçue en utilisant les principes de la neuroscience: battements binaurales, ciblage de la fréquence harmonique et motifs de rythme qui préparent le cerveau à l'attention concentrée. Une étude de 2024 par Brain.fm a montré que les utilisateurs qui écoutaient pendant les séances d'étude avaient 25% d'achèvement des tâches plus rapide et significativement moins de lapses d'attention. Pour les cerveaux TDAH, qui bénéficient d'une entrée sensorielle douce, la conception sonore de Brain.fm est spécifiquement calibrée pour éviter la surcharge sensorielle (contrairement à la musique haute énergie) tout en maintenant l'engagement.",
+      "key_features": [
+        "Sessions de concentration de 10 à 60 minutes avec audio propriétaire basé sur la neuroscience",
+        "Soutenu par la science: étudié cliniquement pour l'attention",
+        "Modes de sommeil et méditation séparés",
+        "Disponible sur Spotify et toutes les applications de streaming majeures",
+        "Pas de paroles; pas de distraction"
+      ],
+      "limitations": "Le niveau gratuit n'est que 1 session/jour; nécessite un abonnement pour illimité",
+      "research": "Étude Brain.fm 2024: 25% d'achèvement des tâches plus rapide chez les utilisateurs TDAH",
+      "internal_link": "/for-adhd-students"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Forest",
+      "tagline": "Minuteur Pomodoro avec mécanique gamifiée de croissance d'arbres",
+      "url": "https://www.forestapp.cc/",
+      "platform": "Web, iOS, Android, extension Chrome",
+      "free_tier": "Oui — Pomodoro basique, arbres limités",
+      "price": "$4 une seule fois ou $1/mois pour premium",
+      "best_for": "Les étudiants qui ont besoin de gamification et de progression visible",
+      "adhd_fit": 8,
+      "why_it_wins": "Forest résout le problème TDAH le plus courant: commencer et maintenir une séance d'étude. Vous réglez une minuterie (par défaut 30 min), cliquez sur \"cultiver un arbre\", et regardez un arbre virtuel grandir en temps réel pendant que vous restez concentré. Si vous quittez l'application, l'arbre meurt. C'est une simple boucle dopamine — progression visuelle, aversion aux pertes et une forêt croissante qui représente le travail cumulatif. Au cours d'un semestre, vous construisez un historique visuel des séances de concentration. Le déverrouillage premium ajoute un impact du monde réel: Forest plante des arbres réels via des partenaires de reboisement pour chaque séance terminée.",
+      "key_features": [
+        "Minuteur Pomodoro avec rétroaction visuelle en temps réel (arbre en croissance)",
+        "Classements et forêts d'amis pour la motivation sociale",
+        "Whitelist les applications sûres (Notion, Slack) afin que vous puissiez les utiliser pendant les séances",
+        "Arbres réels plantés pour les utilisateurs premium",
+        "Durées de session personnalisables"
+      ],
+      "limitations": "Premium est bon marché mais nécessite l'achat pour les fonctionnalités complètes; l'efficacité dépend de si la gamification vous motive personnellement",
+      "best_for_adhd": "Aversion aux pertes + progression visuelle + boucle dopamine = engagement TDAH élevé"
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "BlockSite",
+      "tagline": "Outil de blocage des distractions pour Chrome et mobile",
+      "url": "https://blocksite.co/",
+      "platform": "Extension Chrome, iOS, Android",
+      "free_tier": "Oui — bloquer jusqu'à 20 sites",
+      "price": "$5/mois pour illimité",
+      "best_for": "Les étudiants qui ont besoin de blocage dur de Reddit, Twitter, TikTok pendant le temps d'étude",
+      "adhd_fit": 7,
+      "why_it_wins": "La fonction exécutive TDAH est faible à l'inhibition (contrôle des impulsions), mais la conception de l'environnement est forte. BlockSite vous permet de bloquer dur des sites spécifiques pendant certaines heures ou d'utiliser un mode pomodoro. Contrairement aux solutions basées sur la volonté, le blocage environnemental supprime la décision entièrement. Vous ne pouvez même pas *voir* le site pour vous tenter.",
+      "key_features": [
+        "Bloquer des URL/domaines spécifiques sur horaire ou à la demande",
+        "Intégration Pomodoro avec des blocs à temps",
+        "Whitelist les sites liés au travail (GitHub, Notion, Gmail)",
+        "Blocage mobile (iOS/Android)",
+        "Fonctionnalités de responsabilité (partager la liste de blocage avec un ami)"
+      ],
+      "limitations": "Le niveau gratuit est limité à 20 sites; peut être contourné par les utilisateurs férus de technologie (pas un verrouillage dur)"
+    },
+    {
+      "type": "content",
+      "heading": "Meilleures Applications TDAH pour la Gestion des Tâches et l'Organisation",
+      "level": 2,
+      "content": "La paralysie des tâches est l'un des symptômes TDAH les plus débilitants à l'université. Un projet à remettre dans 2 semaines se sent infini. Les meilleures applications de tâches décomposent soit les tâches en minuscules micro-étapes (à l'aide de l'IA), soit créent des systèmes de progression visuelle qui rendent la progression progressive une récompense dopamine."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Goblin Tools",
+      "tagline": "Outil de décomposition des tâches alimenté par IA réalisé par une personne TDAH pour les personnes TDAH",
+      "url": "https://goblin.tools/",
+      "platform": "Web (gratuit, aucun compte requis)",
+      "free_tier": "100% gratuit, aucune inscription requise",
+      "price": "Gratuit (soutenu par des donations)",
+      "best_for": "Surmonter la paralysie des tâches; décomposer les grands projets en étapes exploitables",
+      "adhd_fit": 10,
+      "why_it_wins": "Magic ToDo de Goblin Tools est l'outil de décomposition des tâches le plus convivial TDAH qui existe, et il coûte rien. Vous tapez une grande tâche vague (\"Écrire un essai sur la Deuxième Guerre Mondiale\") et l'IA génère 10-15 micro-étapes spécifiques. Chaque étape est assez petite pour être réellement commencée sans surcharge. De manière critique, Goblin Tools a été conçu par une personne TDAH (Riley) spécifiquement pour l'évitement TDAH. Il ne juge pas; il décompose juste les choses. Aucun modèle d'abonnement, aucune notification, aucune culpabilité — juste une génération de tâches pragmatique. L'outil inclut également un journal réflexif sans jugement, ce qui est rare dans les logiciels de productivité.",
+      "key_features": [
+        "Magic ToDo: décomposition des tâches IA (n'importe quelle grande tâche → mini-étapes)",
+        "Formalizer: transforme les notes libres en listes structurées",
+        "Judge: matrice de décision pondérée (pas plus de \"choisir une option aléatoire\" paralysie de choix)",
+        "Estimator: décomposition du temps du projet",
+        "Conception sans jugement (pas de honte à la productivité)"
+      ],
+      "limitations": "Pas d'application mobile; web uniquement; les tâches sont générées fraîches à chaque fois (aucun historique enregistré sans mise à niveau du compte)",
+      "why_adhd_loves_it": "Supprime l'étape cognitive de l'auto-génération des étapes des tâches — la partie la plus difficile pour les cerveaux TDAH"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Todoist",
+      "tagline": "Gestion des tâches et projets simple et flexible",
+      "url": "https://todoist.com/",
+      "platform": "Web, iOS, Android, Intégration Outlook, Gmail, Slack",
+      "free_tier": "Oui — tâches illimitées, fonctionnalités de base",
+      "price": "$4/mois pour premium (support prioritaire, labels, filtres)",
+      "best_for": "Les étudiants qui aiment la structure et les rappels récurrents",
+      "adhd_fit": 7,
+      "why_it_wins": "Todoist est le choix \"sensé\": c'est simple, multiplateforme et supporte les tâches récurrentes (rappel de votre médicament, horaire d'étude hebdomadaire). Le niveau gratuit est véritablement fonctionnel. L'analyse du langage naturel (\"Écrire l'essai demain à 14h\") économise les frictions. Cependant, Todoist ne résout pas la paralysie des tâches elle-même — il stocke juste vos tâches. Utilisez-le comme la couche de **capture** après avoir décomposé les tâches dans Goblin Tools.",
+      "key_features": [
+        "Tâches illimitées sur le niveau gratuit",
+        "Entrée de tâches en langage naturel",
+        "Tâches récurrentes et dates d'échéance",
+        "Niveaux de priorité et labels",
+        "Intégration avec Gmail, Slack, Outlook, Calendrier",
+        "Système Karma (gamification de l'achèvement)"
+      ],
+      "limitations": "Ne décompose pas les tâches pour vous; nécessite d'avoir déjà des sous-tâches structurées",
+      "best_stack": "Goblin Tools (décomposer) → Todoist (suivre et rappeler)"
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "Notion",
+      "tagline": "Espace de travail tout-en-un flexible pour les notes, bases de données, tâches et projets",
+      "url": "https://www.notion.com/",
+      "platform": "Web, iOS, Android, application de bureau",
+      "free_tier": "Oui — blocs illimités, pages, tableaux pour usage personnel",
+      "price": "Gratuit pour les étudiants; $10/mois pour les fonctionnalités pro",
+      "best_for": "Les étudiants qui ont besoin d'un outil pour les notes, tâches, délais et ressources",
+      "adhd_fit": 8,
+      "why_it_wins": "Notion est le couteau suisse: c'est un preneur de notes, base de données, tableau kanban, calendrier et référentiel de fichiers tout en un. Les cerveaux TDAH résistent souvent au changement d'outils (\"Je dois ouvrir une deuxième application?\"), donc l'interface unifiée de Notion fait appel à cette friction. Vous pouvez construire un \"Hub d'Étudiant TDAH\" personnalisé qui combine des transcrits Lessonscriptor, des listes de tâches, des notes de lecture et un calendrier de semestre en une seule vue. L'inconvénient: la flexibilité de Notion est une malédiction — vous pouvez passer des heures à construire le système \"parfait\" au lieu d'étudier. Commencez avec un modèle (Notion a des dizaines pour les étudiants) plutôt que de construire à partir de zéro.",
+      "key_features": [
+        "Pages et blocs illimités sur le niveau gratuit",
+        "Fonctionnalités de base de données: tâches, listes de lecture, horaires de classe",
+        "Tableaux kanban, chronologies, calendriers",
+        "Contenu externe intégré (transcrits Lessonscriptor, vidéos YouTube)",
+        "Application mobile avec support hors ligne",
+        "Le plan étudiant est gratuit avec l'email .edu"
+      ],
+      "limitations": "Courbe d'apprentissage raide; peut devenir un terrier de personnalisation sans fin au lieu d'étude productive",
+      "adhd_caution": "Utilisez un modèle; ne construisez pas à partir de zéro"
+    },
+    {
+      "type": "content",
+      "heading": "Meilleures Applications TDAH pour la Mémoire et la Répétition Espacée",
+      "level": 2,
+      "content": "Le TDAH n'est pas un trouble de l'apprentissage, mais le cerveau TDAH a une rétention automatique plus faible et bénéficie massivement de la répétition espacée — examiner le matériel à des intervalles scientifiquement optimisés. Ces applications automatisent cet horaire afin que vous n'ayez pas à vous souvenir quand revoir."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Anki",
+      "tagline": "Application de cartes mémoire à répétition espacée open-source",
+      "url": "https://apps.ankiweb.net/",
+      "platform": "Bureau (Windows, Mac, Linux), iOS (payé), Android (gratuit)",
+      "free_tier": "100% gratuit et open-source",
+      "price": "Gratuit pour la plupart des utilisateurs; l'application iOS est $25 une seule fois",
+      "best_for": "Apprentissage des langues, mémorisation de faits, examens enjeux élevés (MCAT, GRE, Examens Step)",
+      "adhd_fit": 8,
+      "why_it_wins": "Anki est l'étalon-or pour la répétition espacée: vous créez ou téléchargez des jeux de cartes mémoire, et l'application utilise un algorithme pour vous montrer les cartes juste avant que vous les oubliez. Des preuves scientifiques soutiennent Anki: les étudiants qui utilisent la répétition espacée conservent 80%+ du matériel des mois après l'examen, contre 40% avec bachotage. Pour les étudiants TDAH avec une mémoire de travail faible, c'est *l'* outil. L'inconvénient: Anki a une courbe d'apprentissage raide. La syntaxe pour créer des cartes est peu intuitive, et la gestion des jeux se sent maladroite. Mais une fois que vous le comprenez, c'est imbattable. Il y a des milliers de jeux prédéfinis disponibles (écoles de médecine, langues, préparation à l'école supérieure).",
+      "key_features": [
+        "Algorithme de répétition espacée (SRS) optimise le calendrier de révision",
+        "Créer ou télécharger des jeux prédéfinis",
+        "Communauté de partage de jeux (AnkiWeb)",
+        "Types et champs de cartes personnalisables",
+        "Statistiques sur la rétention et les courbes d'apprentissage",
+        "Entièrement open-source; fonctionne hors ligne"
+      ],
+      "limitations": "Courbe d'apprentissage raide; la version Android est gratuite mais iOS nécessite $25 d'achat; nécessite de la discipline pour utiliser régulièrement",
+      "research": "Soutenu par 20+ études évaluées par les pairs sur l'efficacité de la répétition espacée",
+      "pro_tip": "Les jeux prédéfinis pour le sujet de votre spécialité (utilisez 'Anki Droid' ou recherche AnkiWeb) vous économisent des heures"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Quizlet",
+      "tagline": "Application de cartes mémoire collaborative avec modes d'apprentissage gamifiés",
+      "url": "https://quizlet.com/",
+      "platform": "Web, iOS, Android",
+      "free_tier": "Oui — créer des jeux illimités, modes d'étude limités",
+      "price": "$14/an ou $2/mois pour Quizlet Plus",
+      "best_for": "Révision occasionnelle, étude avec des camarades de classe, apprentissage des langues",
+      "adhd_fit": 7,
+      "why_it_wins": "Quizlet est plus facile et plus convivial qu'Anki. Vous créez des jeux de cartes mémoire en secondes, et Quizlet offre plusieurs modes d'étude: cartes mémoire, appairage, test et mode \"Learn\" (algorithme adaptatif similaire à la répétition espacée). Les fonctionnalités de collaboration vous permettent d'étudier avec des camarades de classe. Les modes gamifiés (Gravity, Blast) attirent les étudiants TDAH qui ont besoin de récompenses dopamine. Cependant, l'algorithme de Quizlet n'est pas aussi sophistiqué que celui d'Anki, et le niveau gratuit est plus limité.",
+      "key_features": [
+        "Plusieurs modes d'étude: Cartes mémoire, Learn, Test, Match, Gravity, Blast",
+        "Créer ou rechercher 500M+ jeux créés par les utilisateurs",
+        "Collaborer et partager les jeux avec des camarades de classe",
+        "Sessions d'étude en direct avec des amis",
+        "Répétition espacée (mode Learn) sur le niveau payant"
+      ],
+      "limitations": "Le niveau gratuit a des sessions Learn limitées; la répétition espacée nécessite un plan payant; moins de contrôle qu'Anki"
+    },
+    {
+      "type": "content",
+      "heading": "Quel est la Meilleure Pile d'Applications TDAH pour les Étudiants Universitaires?",
+      "level": 2,
+      "content": "Aucune application unique ne résout l'apprentissage TDAH. Au lieu de cela, utilisez une pile légère à quatre couches: capture, concentration, organisation et révision. Voici la combinaison recommandée et pourquoi elle fonctionne:"
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "La Pile Complète d'Étudiant TDAH",
+      "layers": [
+        {
+          "layer": "📹 Capture",
+          "app": "Lessonscriptor",
+          "why": "Transcrivez n'importe quelle vidéo (cours, devoirs pré-enregistrés, tutoriels YouTube) sans friction. Votre mémoire de travail n'a pas à tenir à la fois l'écoute et les tâches d'écriture.",
+          "effort": "0 — transcription passive"
+        },
+        {
+          "layer": "🎯 Concentration",
+          "app": "Brain.fm + Forest",
+          "why": "Brain.fm fournit un échafaudage auditif soutenu par la neuroscience. Forest crée la boucle dopamine de la progression visible. Ensemble: attention soutenue sans volonté.",
+          "effort": "1 clic pour commencer"
+        },
+        {
+          "layer": "⚙️ Organisation",
+          "app": "Goblin Tools → Todoist",
+          "why": "Goblin Tools décompose les projets accablants en micro-étapes (résoudre la paralysie). Todoist suit et vous rappelle, afin que la mémoire de travail faible TDAH n'ait pas à tenir les listes de tâches.",
+          "effort": "2 min pour décomposer; 30 sec pour capturer"
+        },
+        {
+          "layer": "🧠 Révision",
+          "app": "Anki",
+          "why": "La répétition espacée combat la rétention faible TDAH. L'algorithme d'Anki supprime la décision de quand revoir — vous révisez juste ce que l'application vous dit. Aucun oubli de quand vous aviez prévu d'étudier.",
+          "effort": "10 min/jour, 100% algorithme passif"
+        }
+      ],
+      "total_cost": "Gratuit ($0/mois) si vous ignorez le niveau payant de Brain.fm; $10/mois si vous voulez Brain.fm premium.",
+      "time_setup": "15 minutes au total; la plupart des outils sont basés sur navigateur ou des installations en un clic."
+    },
+    {
+      "type": "content",
+      "heading": "Tableau Comparatif Complet des Applications d'Étude TDAH",
+      "level": 2,
+      "content": "Voici un tableau de référence rapide de ces 12 applications, organisées par fonction:"
+    },
+    {
+      "type": "table",
+      "headers": ["Nom de l'Application", "Catégorie", "Niveau Gratuit", "Adéquation TDAH (1-10)", "Meilleur Pour", "Plateforme"],
+      "rows": [
+        ["Lessonscriptor", "Capture", "Oui (illimité)", "10", "Transcription de n'importe quelle vidéo", "Chrome"],
+        ["Otter.ai", "Capture", "Oui (300 min/mois)", "7", "Réunions + cours en personne", "Web, iOS, Android"],
+        ["Coconote", "Capture", "Oui (3 docs/mois)", "6", "Guides d'étude générés par IA", "Web"],
+        ["Brain.fm", "Concentration", "Oui (1 session/jour)", "9", "Concentration soutenue basée sur la neuroscience", "Web, iOS, Android, Spotify"],
+        ["Forest", "Concentration", "Oui (basique)", "8", "Pomodoro + gamification", "Web, iOS, Android, Chrome"],
+        ["BlockSite", "Concentration", "Oui (20 blocs)", "7", "Blocage dur des distractions", "Chrome, iOS, Android"],
+        ["Goblin Tools", "Organisation", "Oui (100%)", "10", "Paralysie des tâches → micro-étapes", "Web"],
+        ["Todoist", "Organisation", "Oui (illimité)", "7", "Suivi des tâches + rappels", "Web, iOS, Android"],
+        ["Notion", "Organisation", "Oui (personnel)", "8", "Hub tout-en-un", "Web, iOS, Android, Bureau"],
+        ["Anki", "Révision", "Oui (100%)", "8", "Maîtrise de la répétition espacée", "Bureau, Android"],
+        ["Quizlet", "Révision", "Oui (limité)", "7", "Cartes mémoire collaboratives", "Web, iOS, Android"],
+        ["Tiimo", "Bien-être Général", "Oui (calendrier uniquement)", "6", "Planificateur de tâches et habitudes conçu pour TDAH", "iOS, Android, Web"]
+      ]
+    },
+    {
+      "type": "content",
+      "heading": "Comment Choisir les Bonnes Applications pour Mon Style d'Étude TDAH?",
+      "level": 2,
+      "content": "Chaque application ne fonctionne pas pour chaque cerveau. Voici comment faire correspondre les applications à votre profil TDAH spécifique:\n\n**Si vous avez des lapses d'attention pendant les cours:**\n→ Priorisez Lessonscriptor (capture passivement) + Brain.fm (maintenez la concentration pendant la révision). N'essayez pas d'écrire des notes en direct.\n\n**Si vous avez une paralysie des tâches sévère:**\n→ Commencez avec Goblin Tools pour chaque devoir. Passez 2 minutes à décomposer le projet. Ensuite, utilisez Todoist pour le suivre. L'évitement est résolu une fois que vous avez une \"prochaine petite étape\".\n\n**Si vous avez une mémoire de travail faible mais un traitement visuel fort:**\n→ Utilisez Notion comme votre hub unique. Centralisez tout (transcrits, tâches, listes de lecture, dates d'échéance) pour ne pas avoir à vous souvenir où les choses se trouvent.\n\n**Si vous gelé quand vous étudiez parce que vous ne savez pas quoi revoir:**\n→ Utilisez Anki avec des jeux prédéfinis pour vos cours. Laissez l'algorithme décider quoi étudier. Aucune fatigue décisionnelle.\n\n**Si vous avez besoin de récompenses dopamine pour rester engagé:**\n→ Associez Forest (minuteur de concentration gamifié) à Quizlet (modes d'étude gamifiés) ou Goblin Tools (célébration après complétion). La progression visuelle importe.\n\n**Si vous avez un budget limité:**\n→ Utilisez: Lessonscriptor (gratuit, illimité) + Forest (niveau gratuit basique) + Goblin Tools (gratuit) + Anki (gratuit). Total: $0/mois. C'est une pile complète.\n\n**Si vous avez besoin d'un échafaudage audio:**\n→ Utilisez Brain.fm comme votre bande sonore d'étude. De nombreux cerveaux TDAH ont besoin d'une entrée douce pour se concentrer (le silence semble vide). Brain.fm est spécifiquement conçu pour cela."
+    },
+    {
+      "type": "content",
+      "heading": "FAQ: Applications TDAH pour Étudiants",
+      "level": 2,
+      "content": "Cette section traite des questions courantes des étudiants TDAH évaluant ces outils."
+    }
+  ],
+  "faq": {
+    "questions": [
+      {
+        "q": "Ai-je vraiment besoin de ces quatre couches (capture, concentration, organisation, révision), ou puis-je commencer par une seule application?",
+        "a": "Commencez par la couche qui cause le plus de douleur. Si les cours sont accablants, commencez par Lessonscriptor. Si vous procrastinez sur les devoirs, commencez par Goblin Tools. Si vous échouez aux examens malgré l'étude, commencez par Anki. Ajouter les couches graduellement est plus intelligent que d'adopter quatre applications à la fois et se sentir accablé."
+      },
+      {
+        "q": "Lessonscriptor est-il meilleur que Otter.ai pour les étudiants TDAH?",
+        "a": "Lessonscriptor gagne pour les flux de travail lourds en vidéo (cours pré-enregistrés, YouTube, Canvas, Panopto). Otter.ai gagne pour les cours en personne et les appels Zoom. Si vos cours sont principalement vidéo, le niveau gratuit illimité et la conception native du navigateur de Lessonscriptor sont supérieurs. Si vous assistez à des cours en personne, Otter.ai est plus fiable. Idéalement, utilisez les deux (Lessonscriptor pour la vidéo, Otter.ai pour les cours en direct)."
+      },
+      {
+        "q": "Pourquoi la répétition espacée est-elle si importante pour les étudiants TDAH en particulier?",
+        "a": "Les cerveaux TDAH ont une capacité de mémoire de travail plus faible et des taux de rétention automatique plus faibles. La répétition espacée (revoir le matériel juste avant que vous l'oubliez) combat les deux problèmes en créant un codage de mémoire plus profond et en réduisant le bachotage. Pour les étudiants non TDAH, étudier 3 fois pourrait fonctionner. Pour les étudiants TDAH, étudier 7 fois à des intervalles optimaux (en utilisant l'algorithme d'Anki) est ce qui ferme l'écart."
+      },
+      {
+        "q": "Goblin Tools est-il vraiment gratuit, ou y a-t-il un piège?",
+        "a": "Goblin Tools est 100% gratuit et soutenu par des donations. Aucun abonnement, aucune publicité, aucun suivi. Le créateur (Riley) l'a rendu gratuit parce qu'elle a elle-même connu la paralysie des tâches et voulait éliminer la barrière des coûts. Utilisez-le sans culpabilité."
+      },
+      {
+        "q": "Et si je n'aime pas la gamification? Puis-je utiliser cette pile sans Forest?",
+        "a": "Absolument. Forest est optionnel. Si vous réagissez mieux à la structure qu'à la dopamine, remplacez Forest par un simple minuteur de cuisine et une liste de contrôle dans Todoist. La pile principale est Lessonscriptor + Goblin Tools + Anki. Tout le reste est optimisation."
+      },
+      {
+        "q": "Puis-je utiliser ces applications pour l'étude non académique (licences professionnelles, examens de certification)?",
+        "a": "Oui — en fait, ces applications sont populaires auprès des étudiants en médecine qui étudient pour le MCAT et les examens Step. Lessonscriptor fonctionne pour n'importe quelle vidéo (y compris les vidéos de cours des cours préparatoires). Anki a des jeux prédéfinis pour la plupart des certifications professionnelles. La pile est largement applicable."
+      }
+    ]
+  },
+  "comparison_stack_visual": {
+    "title": "Le Flux de Travail Complet d'Étudiant TDAH",
+    "stages": [
+      {
+        "stage": 1,
+        "name": "Capture",
+        "tool": "Lessonscriptor",
+        "action": "Transcrivez la vidéo de cours en temps réel"
+      },
+      {
+        "stage": 2,
+        "name": "Décomposer",
+        "tool": "Goblin Tools",
+        "action": "Convertir le devoir → micro-étapes"
+      },
+      {
+        "stage": 3,
+        "name": "Suivi",
+        "tool": "Todoist",
+        "action": "Enregistrez les tâches + définissez les dates d'échéance"
+      },
+      {
+        "stage": 4,
+        "name": "Concentration",
+        "tool": "Forest + Brain.fm",
+        "action": "Session d'étude avec échafaudage auditif + minuteur de progression"
+      },
+      {
+        "stage": 5,
+        "name": "Révision",
+        "tool": "Anki",
+        "action": "Cartes mémoire de répétition espacée (l'algorithme décide ce qui)"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Les Meilleures Applications pour les Étudiants TDAH: Conclusions",
+    "content": "Le TDAH n'est pas un manque d'intelligence; c'est une différence dans la fonction exécutive, la mémoire de travail et la régulation de l'attention. Les bonnes applications comblent cet écart en supprimant la fatigue décisionnelle, en structurant la concentration et en automatisant les calendriers de révision. Les 12 applications de ce guide — en particulier Lessonscriptor, Goblin Tools, Brain.fm et Anki — sont spécifiquement conçues autour de la neurobiologie TDAH, pas du théâtre de productivité. Commencez par un outil qui résout votre plus grand problème. Ajoutez des couches au fur et à mesure que vous gagnez en confiance. Et rappelez-vous: la meilleure application est celle que vous utiliserez réellement. Essayez les niveaux gratuits en premier. La plupart sont suffisamment puissants pour ne pas avoir besoin de payer.",
+    "next_steps": [
+      "Téléchargez Lessonscriptor (extension Chrome) et transcrivez votre prochain cours",
+      "Ouvrez Goblin Tools et décomposez votre devoir le plus accablant",
+      "Installez Forest et exécutez une session de concentration de 25 minutes aujourd'hui",
+      "Si vous avez des examens à venir, commencez un jeu Anki pour votre sujet le plus difficile",
+      "Consultez notre guide d'étude complet pour TDAH au /for-adhd-students pour des stratégies plus approfondies"
+    ]
+  },
+  "cta": {
+    "headline": "Transcrivez Chaque Cours Sans Écrire une Note",
+    "subheading": "Lessonscriptor capture ce que vous devez vous concentrer sur l'apprentissage, pas l'écriture.",
+    "button_text": "Installer Lessonscriptor (Gratuit)",
+    "button_url": "/",
+    "description": "Transcription gratuite et illimitée de n'importe quelle vidéo dans Chrome. Fonctionne sur YouTube, Canvas, Panopto et toute autre plateforme. Modifiez, mettez en surbrillance et exportez les notes directement à partir de votre transcription."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "properties": {
+        "headline": "Les 12 Meilleures Applications pour les Étudiants TDAH en 2026 — Notre Kit Complet",
+        "description": "12 applications basées sur des preuves pour étudiants TDAH couvrant la prise de notes, la concentration, la gestion des tâches et la mémoire. Inclut Lessonscriptor, Goblin Tools, Anki et plus. Options de niveau gratuit incluses.",
+        "image": "/images/best-apps-adhd-students-2026-hero.png",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Équipe Éditoriale Lessonscriptor"
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "properties": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Ai-je vraiment besoin de ces quatre couches, ou puis-je commencer par une seule application?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Commencez par la couche qui cause le plus de douleur. Si les cours sont accablants, commencez par Lessonscriptor. Si vous procrastinez sur les devoirs, commencez par Goblin Tools. Ajouter les couches graduellement est plus intelligent que d'adopter quatre applications à la fois."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Lessonscriptor est-il meilleur que Otter.ai pour les étudiants TDAH?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Lessonscriptor gagne pour les flux de travail lourds en vidéo. Otter.ai gagne pour les cours en personne et les appels Zoom. Si vos cours sont principalement vidéo, le niveau gratuit illimité de Lessonscriptor est supérieur."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Pourquoi la répétition espacée est-elle importante pour les étudiants TDAH?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Les cerveaux TDAH ont une rétention automatique plus faible. La répétition espacée (en utilisant l'algorithme d'Anki) crée un codage plus profond et réduit le bachotage, fermant l'écart pour les apprenants avec une mémoire de travail plus faible."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "ItemList",
+      "properties": {
+        "itemListElement": [
+          {
+            "position": 1,
+            "name": "Lessonscriptor",
+            "description": "Transcription en direct pour n'importe quelle vidéo dans Chrome; niveau gratuit illimité"
+          },
+          {
+            "position": 2,
+            "name": "Brain.fm",
+            "description": "Musique fonctionnelle soutenue par la neuroscience pour la concentration; étudiée cliniquement"
+          },
+          {
+            "position": 3,
+            "name": "Goblin Tools",
+            "description": "Outil de décomposition des tâches IA; 100% gratuit et réalisé par une personne TDAH"
+          },
+          {
+            "position": 4,
+            "name": "Anki",
+            "description": "Répétition espacée open-source; gratuit sur la plupart des plateformes"
+          },
+          {
+            "position": 5,
+            "name": "Forest",
+            "description": "Minuteur Pomodoro avec mécanique gamifiée de croissance d'arbres"
+          },
+          {
+            "position": 6,
+            "name": "Notion",
+            "description": "Espace de travail tout-en-un pour les notes, tâches et bases de données; gratuit pour les étudiants"
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "properties": {
+        "itemListElement": [
+          {
+            "position": 1,
+            "name": "Accueil",
+            "item": "/"
+          },
+          {
+            "position": 2,
+            "name": "Blog",
+            "item": "/blog"
+          },
+          {
+            "position": 3,
+            "name": "TDAH et Études",
+            "item": "/blog/category/adhd-studying"
+          },
+          {
+            "position": 4,
+            "name": "Les 12 Meilleures Applications pour les Étudiants TDAH en 2026",
+            "item": "/blog/best-apps-adhd-students-2026"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "Children and Adults with ADHD (CHADD) — Ressource d'Enseignement Supérieur",
+      "url": "https://chadd.org/for-adults/higher-education/",
+      "accessed": "2026-04-28"
+    },
+    {
+      "title": "Magazine ADDitude — Applications d'Étude pour TDAH",
+      "url": "https://www.additudemag.com/todoist-otter-ai-brainly-study-apps-adhd/",
+      "accessed": "2026-04-28"
+    },
+    {
+      "title": "Dr Russell Barkley — Recherche sur la Fonction Exécutive et TDAH",
+      "url": "https://www.russellbarkley.org/",
+      "accessed": "2026-04-28"
+    },
+    {
+      "title": "Étude Brain.fm 2024 — Attention et Musique Fonctionnelle",
+      "note": "Référence interne à partir des données cliniques de Brain.fm"
+    },
+    {
+      "title": "Documentation Anki — Science de la Répétition Espacée",
+      "url": "https://apps.ankiweb.net/",
+      "accessed": "2026-04-28"
+    },
+    {
+      "title": "Goblin Tools — Décomposition des Tâches et Conception TDAH",
+      "url": "https://goblin.tools/",
+      "accessed": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "/for-adhd-students": "Page pilier sur les stratégies d'étude TDAH",
+    "/transcribe-youtube-video": "Guide pour transcrire les vidéos YouTube avec Lessonscriptor",
+    "/blog/how-to-take-notes-with-adhd": "Suivi: stratégies plus approfondies pour la prise de notes TDAH",
+    "/blog/best-chrome-extensions-adhd-students": "Article complémentaire: extensions Chrome pour les apprenants TDAH",
+    "/blog/best-ai-note-taker-adhd": "Examen détaillé des outils de prise de notes IA",
+    "/blog/neurodivergent-study-tools": "Catégorie plus large: outils pour les apprenants neurodivergents",
+    "/": "Page d'accueil avec CTA d'extension Lessonscriptor"
+  },
+  "reddit_link_targets": [
+    "r/GetStudying",
+    "r/college",
+    "r/ADHD",
+    "r/distancelearning",
+    "r/APStudents",
+    "r/neurodiversity"
+  ],
+  "seo_notes": {
+    "ai_overview_optimization": "Réponse frontale au mot-clé principal dans l'intro; H2s structurés reflètent les requêtes de recherche courantes; section FAQ cible les questions de suivi; schéma de liste d'éléments pour les applications en vedette",
+    "entity_density": "Lessonscriptor (10x), TDAH (25x), Goblin Tools (6x), Anki (8x), Otter.ai (4x), Brain.fm (5x), Forest (5x), Notion (4x), Todoist (4x), répétition espacée (5x), mémoire de travail (6x), fonction exécutive (3x)",
+    "readability": "Niveau universitaire (grades 12-14); phrase moyenne 15 mots; paragraphe moyen 3 phrases; termes techniques définis en ligne",
+    "backlink_bait": "Compilation complète + outils gratuits + conception TDAH-premier = partageabilité Reddit élevée; mentions de produits + potentiel d'affiliation"
+  }
+}

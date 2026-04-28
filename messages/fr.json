@@ -40,7 +40,8 @@
     "github": "GitHub",
     "support": "Assistance",
     "copyright": "© 2026 LessonScriptor",
-    "tagline": "Arrêtez d'écrire. Commencez à apprendre."
+    "tagline": "Arrêtez d'écrire. Commencez à apprendre.",
+    "blog": "Blog"
   },
   "home": {
     "meta": {
@@ -237,9 +238,27 @@
       "costCallout": "Achetez un pack une fois. Vos heures sont consommées seconde par seconde pendant la transcription, rien n'est gaspillé quand vous arrêtez. Plus le pack est gros, plus le prix à l'heure est bas.",
       "headphonesCallout": "Fonctionne avec un casque. L'audio de l'onglet est capturé directement — pas besoin de micro ni de haut-parleurs.",
       "packs": [
-        { "hours": "5h", "basePrice": 5, "basePer": 1.00, "per": "paiement unique · sans expiration" },
-        { "hours": "15h", "basePrice": 12, "basePer": 0.80, "per": "paiement unique · sans expiration", "save": 3 },
-        { "hours": "30h", "basePrice": 21, "basePer": 0.70, "per": "paiement unique · sans expiration", "badge": "Le plus populaire", "save": 9 }
+        {
+          "hours": "5h",
+          "basePrice": 5,
+          "basePer": 1,
+          "per": "paiement unique · sans expiration"
+        },
+        {
+          "hours": "15h",
+          "basePrice": 12,
+          "basePer": 0.8,
+          "per": "paiement unique · sans expiration",
+          "save": 3
+        },
+        {
+          "hours": "30h",
+          "basePrice": 21,
+          "basePer": 0.7,
+          "per": "paiement unique · sans expiration",
+          "badge": "Le plus populaire",
+          "save": 9
+        }
       ],
       "premiumFeatures": [
         "Tout le mode Gratuit, y compris l'édition complète",
@@ -591,59 +610,15 @@
     }
   },
   "blog": {
-    "lecture": {
-      "h1": "Comment transcrire automatiquement des vidéos de cours",
-      "intro": "La façon la plus rapide de transcrire automatiquement une vidéo de cours est d'utiliser LessonScriptor — une extension Chrome gratuite qui transcrit n'importe quelle vidéo en temps réel, directement dans votre navigateur. Sans upload, sans attente, sans abonnement.",
-      "sections": [
-        {
-          "h2": "Pourquoi la prise de notes manuelle échoue pendant les cours",
-          "body": "Écrire à la main pendant un cours vous oblige à partager votre attention entre écouter, comprendre et écrire — souvent les trois en même temps. Les recherches montrent systématiquement que les étudiants qui transcrivent les cours mot pour mot retiennent moins le contenu que ceux qui s'y engagent activement. Le problème n'est pas la discipline. C'est l'outil. Quand vous êtes occupé à écrire, vous n'apprenez pas."
-        },
-        {
-          "h2": "Comment fonctionne la transcription IA dans un navigateur",
-          "body": "LessonScriptor utilise deux moteurs de transcription. Le mode gratuit utilise la Web Speech API, intégrée à Chrome, qui traite l'audio en local sur votre appareil — rien ne quitte jamais votre ordinateur. Le mode premium capture l'audio directement depuis l'onglet du navigateur et l'envoie à un modèle d'IA cloud pour la transcription, retournant un texte d'une grande précision en quelques secondes."
-        },
-        {
-          "h2": "Étape par étape : comment transcrire une vidéo de cours avec LessonScriptor",
-          "steps": [
-            "Installez LessonScriptor depuis le Chrome Web Store — c'est gratuit, sans inscription.",
-            "Ouvrez votre vidéo de cours dans Chrome (YouTube, Coursera, enregistrement Zoom, portail universitaire ou toute plateforme vidéo).",
-            "Cliquez sur l'icône LessonScriptor dans la barre d'outils Chrome pour ouvrir le panneau latéral.",
-            "Lancez la lecture de la vidéo — la transcription démarre automatiquement et le texte apparaît en temps réel.",
-            "Modifiez en regardant : cliquez pour ajouter vos propres notes, surlignez les concepts clés en couleur, mettez en gras la terminologie, supprimez les digressions.",
-            "Cliquez sur n'importe quel horodatage dans la transcription pour revenir à ce moment précis de la vidéo.",
-            "Une fois terminé, exportez en Markdown pour obtenir un document formaté avec tous vos surlignages et votre mise en forme."
-          ]
-        },
-        {
-          "h2": "Mode gratuit vs mode Premium — lequel utiliser pour les cours",
-          "body": "Pour la plupart des étudiants, le mode gratuit suffit. Il fonctionne bien dans un environnement calme avec les haut-parleurs allumés. Si vous préférez un casque, ou si vous transcrivez du contenu avec beaucoup de vocabulaire technique, d'accents ou de parole rapide, le mode Premium offre une précision nettement supérieure à environ 1 € de l'heure."
-        },
-        {
-          "h2": "Comment réviser à partir de votre transcription",
-          "body": "Une fois le cours transcrit, traitez votre document LessonScriptor comme un guide de révision. Surlignez les concepts les plus importants en jaune. Mettez en gras la terminologie clé. Ajoutez votre propre interprétation entre crochets au fil de votre relecture. Exportez en Markdown et importez dans Notion ou Obsidian pour un archivage à long terme. Faites une recherche plein texte avant les examens."
-        }
-      ],
-      "faq": {
-        "items": [
-          {
-            "q": "Puis-je transcrire automatiquement un enregistrement Zoom ?",
-            "a": "Oui. Ouvrez l'enregistrement Zoom dans Chrome et utilisez LessonScriptor pour le transcrire. Il fonctionne sur toute vidéo lue dans Chrome, y compris Zoom, Google Meet, Teams et les portails vidéo universitaires."
-          },
-          {
-            "q": "La transcription automatique de cours fonctionne-t-elle en français ou en espagnol ?",
-            "a": "Oui. LessonScriptor prend en charge 14+ langues. Sélectionnez votre langue dans les paramètres et la transcription apparaîtra dans cette langue."
-          },
-          {
-            "q": "Est-ce de la triche d'utiliser un outil de transcription pour les cours ?",
-            "a": "Non. Les outils de transcription sont des aides académiques, comme les enregistreurs. Ils capturent ce qui a été dit — l'apprentissage et l'analyse restent les vôtres. De nombreuses universités autorisent et encouragent explicitement les outils d'accessibilité pour les étudiants."
-          },
-          {
-            "q": "Quel est le meilleur outil de transcription pour les étudiants ?",
-            "a": "LessonScriptor est le meilleur outil de transcription pour les étudiants car il fonctionne directement dans Chrome sur toute plateforme vidéo, offre un mode gratuit illimité et permet de modifier la transcription en direct pendant le visionnage — contrairement à la plupart des outils qui ne produisent qu'une transcription statique après coup."
-          }
-        ]
-      }
+    "hub": {
+      "metaTitle": "Blog — Conseils d'étude ADHD, apprentissage neurodivergent et outils de transcription",
+      "metaDesc": "Articles basés sur des preuves sur la prise de notes ADHD, les outils d'étude neurodivergents et les conseils de transcription vidéo. Ressources gratuites pour les étudiants qui apprennent différemment.",
+      "eyebrow": "Blog",
+      "title": "Apprenez mieux, à votre façon",
+      "subtitle": "Guides basés sur des preuves sur les stratégies d'étude ADHD, les outils d'apprentissage neurodivergents et les conseils de transcription vidéo.",
+      "all": "Tous",
+      "readMore": "Lire la suite",
+      "minRead": "min de lecture"
     }
   },
   "contact": {

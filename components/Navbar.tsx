@@ -45,7 +45,7 @@ export default function Navbar({ locale }: { locale: string }) {
             <Link href={`${base}/transcribe-youtube-video`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('youtube')}</Link>
             <Link href={`${base}/live-captions-chrome`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('liveCaptions')}</Link>
             <Link href={`${base}/compare/otter-ai-alternative`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('compare')}</Link>
-            <Link href={`${base}/blog/how-to-transcribe-lecture-videos`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
+            <Link href={`${base}/blog`} className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
           </div>
 
           {/* Right side */}
@@ -92,7 +92,7 @@ export default function Navbar({ locale }: { locale: string }) {
           <Link href={`${base}/transcribe-youtube-video`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('youtube')}</Link>
           <Link href={`${base}/live-captions-chrome`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('liveCaptions')}</Link>
           <Link href={`${base}/compare/otter-ai-alternative`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('compare')}</Link>
-          <Link href={`${base}/blog/how-to-transcribe-lecture-videos`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
+          <Link href={`${base}/blog`} className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
           <div className="flex gap-2 pt-2">
             {LOCALES.map(l => (
               <Link key={l.code} href={switchLocaleHref(l.code)}

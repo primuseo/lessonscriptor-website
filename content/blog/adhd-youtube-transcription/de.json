@@ -1,0 +1,328 @@
+{
+  "slug": "adhd-youtube-transcription",
+  "page_type": "blog_post",
+  "category_tag": "ADHS und Lernen",
+  "h1": "YouTube-Videos für ADHS transkribieren: Die schnellste Methode im Chrome",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "YouTube-Videos für ADHS transkribieren: Chrome-Echtzeit-Erweiterung | Lessonscriptor",
+    "description": "Transkribieren Sie beliebige YouTube-Vorlesungen in Echtzeit im Chrome—kein Download, keine Anmeldung. Kostenlose Chrome-Erweiterung perfekt für ADHS-Schüler, die Schwierigkeiten mit Konzentration und Notizen haben.",
+    "keywords": ["YouTube-Video transkribieren ADHS", "ADHS youtube lernen", "YouTube-Vorlesung Transkription ADHS", "Wie nutze ich YouTube zum Lernen mit ADHS"]
+  },
+  "hero_image": {
+    "alt": "ADHS-Schüler schaut sich YouTube-Vorlesung an mit Lessonscriptor-Transkript-Panel in der Chrome-Seitenleiste",
+    "src": "/images/blog/adhd-youtube-transcription-hero.png",
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "name": "Lessonscriptor Team",
+    "bio": "Wir entwickeln Tools für Schüler und Fernlerner, die Barrierefreiheitsfunktionen eingebaut haben—nicht nachträglich angebracht. Unser Team besteht aus ADHS-Pädagogen, Barrierefreiheitsspezialisten und Barrierefreiheitsforschern, die verstehen, wie Arbeitsgedächtnisgaps das Lernen beeinflussen."
+  },
+  "tldr": {
+    "title": "TL;DR — 3 Wichtigste Erkenntnisse",
+    "points": [
+      "Lessonscriptor ist eine Chrome-Erweiterung, die beliebige YouTube-Videos in Echtzeit transkribiert—kein Datei-Upload, keine erforderliche Anmeldung. Klicken Sie auf Abspielen, Transkript erscheint sofort.",
+      "Für ADHS-Schüler entfernt Echtzeit-Transkription die kognitive Belastung des gleichzeitigen Ansehens, Hörens und Notierens. Sie konzentrieren sich auf den Inhalt; Ihr Transkript erledigt die Erfassung.",
+      "Andere Tools wie Otter.ai erfordern, dass Sie Audiodateien hochladen oder Zoom-Anrufe separat aufzeichnen. Lessonscriptor funktioniert direkt auf YouTube, Canvas, Coursera und anderen Video-Plattformen, die Sie bereits nutzen."
+    ]
+  },
+  "intro": "Lessonscriptor ist die schnellste Möglichkeit, YouTube-Vorlesungen für ADHS zu transkribieren, da es direkt in Ihrem Chrome-Browser auf der YouTube-Seite läuft—null Einrichtung, null Datei-Upload, null erforderliche Abonnements. Sie öffnen ein Video, klicken auf das Lessonscriptor-Symbol und ein Echtzeit-Transkript erscheint in Ihrer Seitenleiste während Sie schauen. Keine zusätzlichen Schritte. Kein kognitiver Overhead.\n\nWenn Sie ADHS haben und versuchen, von YouTube-Vorlesungen zu lernen, kennen Sie das Problem: Ein Video ansehen, während Sie Notizen machen und konzentriert bleiben möchten, erfordert das Verwalten von drei kognitiven Strömen gleichzeitig. Ihr Arbeitsgedächtnis wird überlastet. Tabs lenken Sie ab. Sie verpassen Abschnitte. Sie spulen ständig zurück. Lessonscriptor löst dies, indem es die Transkription für Sie übernimmt—und Ihr Gehirn frei wird, um tatsächlich zu lernen.",
+  "sections": [
+    {
+      "id": "why-adhd-youtube",
+      "h2": "Warum haben ADHS-Schüler Schwierigkeiten mit YouTube-Vorlesungen?",
+      "body": "YouTube ist eine leistungsstarke Bildungsressource—es gibt über 800 Millionen Bildungsvideos auf der Plattform. Aber für Schüler mit ADHS präsentieren YouTube-Vorlesungen eine spezifische Reihe von kognitiven Herausforderungen:\n\n**1. Keine eingebaute Verantwortungsstruktur.** Im Live-Klassenzimmer halten Sie die Präsenz des Lehrers, die Aufmerksamkeit der Mitschüler und der gemeinsame soziale Raum in Ankern. Auf YouTube sind Sie allein. Autoplay-Warteschlangen verführen Sie. Die Seitenleiste verwandter Videos ist ein Ablenkungsminefield. Ihr Gehirn erhält nicht das \"jemand beobachtet, ob ich abschalte\"-Signal, das beim ADHS-Fokus hilft.\n\n**2. Gleichzeitiges Notieren tötet den Fokus.** Wenn Sie versuchen, während des Hörens Notizen zu schreiben, jonglieren Sie drei Aufgaben: Hören, Schreiben und Verständnis. ADHS-Gehirne haben Schwierigkeiten mit Aufgabenwechsel. Wenn Ihre Hand aufgeholt hat, was der Lehrer sagte, haben Sie den nächsten Satz verpasst. Oder Sie schreiben, ohne zu verstehen. Beides funktioniert nicht.\n\n**3. Arbeitsgedächtnis ist ein Engpass.** ADHS beeinträchtigt die Arbeitsgedächtniskapazität—den mentalen Notizblock, auf dem Sie neue Informationen halten, während Sie diese verarbeiten. Video-Vorlesungen laden Informationen in der Geschwindigkeit des Lehrers ab, nicht in Ihrer. Sie können nicht verlangsamen, ohne anzuhalten. Sie können einen gesprochenen Satz nicht erneut lesen wie einen geschriebenen. Transkripte kehren dies um: Text ist erneut lesbar, überprüfbar, von Ihrem Gehirn indizierbar.\n\n**4. Zurückspulen bricht den Fluss.** Sie verpassen einen Satz, Sie spulen zurück. Jetzt schauen Sie denselben Inhalt zweimal, verschwenden Zeit und Aufmerksamkeit. Mit einem Transkript werfen Sie einen Blick zurück, ohne das Video zu verlassen.",
+      "callout": {
+        "type": "note",
+        "label": "Forschungskontext",
+        "body": "Nach ADDitude Magazine und CHADD (Kinder und Erwachsene mit ADHS) sind Arbeitsgedächtnisdefizite ein Kern-ADHS-Merkmal. Die Unterstützung des Arbeitsgedächtnisses mit schriftlichen Transkripten, Highlights und Zusammenfassungen ist eine Gold-Standard-Intervention für ADHS-Lerner."
+      }
+    },
+    {
+      "id": "how-transcribe",
+      "h2": "Wie transkribiere ich eine YouTube-Vorlesung mit ADHS?",
+      "body": "Hier ist der schrittweise Prozess mit Lessonscriptor. Es dauert insgesamt 60 Sekunden.",
+      "steps": [
+        "Installieren Sie Lessonscriptor aus dem Chrome Web Store (kostenlos, Ein-Klick-Installation).",
+        "Gehen Sie zu YouTube und öffnen Sie das Vorlesungsvideo, das Sie studieren möchten.",
+        "Klicken Sie auf das Lessonscriptor-Symbol in Ihrer Chrome-Symbolleiste (oben rechts).",
+        "Das Transkript-Panel öffnet sich automatisch in Ihrer Browser-Seitenleiste. Klicken Sie auf Play auf dem Video.",
+        "Während das Video abgespielt wird, wird ein Echtzeit-Transkript in der Seitenleiste erstellt. Markieren Sie Schlüsselwörter, während Sie gehen. Wenn Sie fertig sind, exportieren Sie das Transkript als Text, PDF oder Lernkarten (optional—Sie können auch kopieren/einfügen)."
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Profi-Tipp für ADHS-Lerner",
+        "body": "Passen Sie Ihre Video-Fenster und das Transkript-Panel so an, dass beide sichtbar sind. Schauen Sie sich das Video mit 75% Geschwindigkeit an (YouTube's eingebauter Geschwindigkeitsregler). Dies gibt Ihrem Gehirn Zeit zum Aufnehmen, während Sie mitlesen. Markieren Sie beim Gehen—der physische Akt des Markierens löst tiefere Kodierung in ADHS-Gehirnen aus."
+      }
+    },
+    {
+      "id": "youtube-built-in",
+      "h2": "Helfen YouTube's integrierte Transkripte ADHS-Schülern?",
+      "body": "YouTube bietet automatisch generierte Transkripte für viele Videos (nicht alle—ältere oder weniger populäre Inhalte fehlen oft). Also warum Lessonscriptor statt dessen verwenden?\n\n**YouTube-Transkripte sind nachträglich, nicht in Echtzeit.** Sie müssen das Video pausieren, auf CC klicken, auf \"Transkript anzeigen\" klicken und zwischen Panels wechseln. Für ADHS-Gehirne, die mit Aufgabenwechsel kämpfen, addiert diese Reibung kognitives Arbeitsgedächtnis. Lessonscriptor transkribiert standardmäßig—keine zusätzlichen Klicks.\n\n**YouTube-Transkripte synchronisieren sich nicht mit dem Ansehen.** Wenn Sie fünf Minuten in ein 40-Minuten-Video entfernt sind, scrollt YouTube's Transkript nicht automatisch, um zu zeigen, wo Sie in der Vorlesung sind. Sie müssen manuell Ihre Position suchen. Lessonscriptor's Transkript scrollt automatisch mit dem Video.\n\n**Nicht alle Videos haben Transkripte.** YouTube's automatische Transkription funktioniert gut für Englisch und populäre Videos, ist aber fleckig für Nischen-Kurse, nicht-englische Inhalte oder audio-lastige Vorlesungen. Lessonscriptor funktioniert auf jedem Video, unabhängig von YouTube's Caption-Status.\n\n**YouTube-Transkripte sind schreibgeschützt während der Wiedergabe.** Sie können nicht markieren, annotieren oder exportieren während Sie schauen. Mit Lessonscriptor markieren Sie live während Sie schauen und exportieren Ihre Notizen sofort, wenn Sie fertig sind.",
+      "callout": {
+        "type": "insight",
+        "label": "Fazit",
+        "body": "YouTube's integrierte Captions sind kostenlos und hilfreich, wenn sie existieren und Sie sich erinnern, sie zu verwenden. Aber sie sind für Barrierefreiheit (taube und schwerhörige Zuschauer) entworfen, nicht für ADHS-Studienworkflows. Lessonscriptor ist für Schüler entwickelt, die Echtzeit-Transkription als Studientool benötigen."
+      }
+    },
+    {
+      "id": "otter-comparison",
+      "h2": "Kann ich Otter.ai verwenden, um YouTube-Videos für ADHS-Studium zu transkribieren?",
+      "body": "Kurze Antwort: nicht direkt. Otter.ai ist ein leistungsstarkes Transkriptions-Tool, aber es ist für einen anderen Workflow gebaut.\n\nOtter.ai erfordert, dass Sie entweder:\n1. Eine Audiodatei hochladen (was bedeutet, das Video zuerst herunterzuladen, dann Audio zu extrahieren, dann hochzuladen—drei manuelle Schritte).\n2. Eine Live-Besprechung oder einen Anruf mit Otter's integriertem Recorder aufzeichnen.\n\nKeiner dieser Workflows entspricht, wie Sie tatsächlich YouTube ansehen. Sie müssen YouTube verlassen, in einem anderen Tool arbeiten und dann zurückkommen. Für ADHS-Gehirne, die mit mehrstufigen Prozessen und Aufgabenwechsel kämpfen, ist diese Reibung ein Blocker.\n\nLessonscriptor funktioniert im YouTube. Sie verlassen niemals die Seite. Das Transkript erscheint während Sie schauen. Keine Uploads. Keine Kontoeinrichtung (optional, aber nicht erforderlich). Es ist ein Schritt, nicht fünf.\n\nOtter.ai ist auch abonnementbasiert ($8–25/Monat). Lessonscriptor ist für immer kostenlos.",
+      "callout": {
+        "type": "comparison",
+        "label": "Schneller Vergleich",
+        "body": "Otter.ai: Leistungsstark für aufgezeichnete Interviews und Besprechungen, erfordert Audio-Datei-Upload oder Live-Recording-Einrichtung, abonnementbasiert. Lessonscriptor: Für YouTube, Canvas, Zoom und Video-Plattformen entworfen, funktioniert im Browser, kostenlos."
+      }
+    },
+    {
+      "id": "what-to-do-transcript",
+      "h2": "Was soll ich mit meinem YouTube-Vorlesungs-Transkript für ADHS-Studium machen?",
+      "body": "Ein Transkript zu haben ist Schritt eins. Es strategisch zu verwenden ist Schritt zwei.\n\nFür ADHS-Lerner ist der beste Studien-Workflow:\n\n**1. Überprüfen und markieren (selben Tag).** Während die Vorlesung frisch ist, verbringen Sie 10 Minuten mit dem erneuten Lesen Ihres Transkripts und dem Markieren von Schlüsselkonzepten. Für ADHS ist diese aktive Überprüfung kritisch—sie verschiebt Informationen von Kurzzeitgedächtnis zu Langzeitgedächtnis. Markieren Sie nicht alles; streben Sie 20% des Textes an.\n\n**2. Fassen Sie mit Ihren eigenen Worten zusammen (innerhalb von 24 Stunden).** Schreiben Sie eine einsätzige Zusammenfassung des Hauptlernziels. Dieser Kodierungsschritt zwingt Ihr Gehirn, das Material zu verarbeiten. Lessonscriptor ermöglicht es Ihnen, Ihren hervorgehobenen Text zu exportieren, den Sie dann zusammenfassen können.\n\n**3. Erstellen Sie Lernkarten für verteilte Wiederholung.** Nehmen Sie Ihre Zusammenfassung und konvertieren Sie sie in 3–5 Lernkarten-Fragen. Verwenden Sie Anki (kostenlos, Open-Source Lernkarten-App) oder Quizlet. Studieren Sie diese Karten am Tag 2, Tag 5 und Tag 15. Dies ist der Goldstandard für ADHS-Retention.\n\n**4. Beziehen Sie sich auf das Original-Transkript für tiefe Tauchgänge.** Wenn Sie für eine Prüfung überprüfen, ist Ihr Transkript durchsuchbar. Strg+F um bestimmte Themen zu finden. Kein erneutes Ansehen erforderlich.",
+      "callout": {
+        "type": "checklist",
+        "label": "Ihr ADHS-Studien-Workflow",
+        "body": "[ ] Sehen Sie sich die Vorlesung mit sichtbarem Lessonscriptor-Transkript an\n[ ] Markieren Sie Schlüsselwörter live (während Sie schauen)\n[ ] Exportieren Sie das Transkript innerhalb von 1 Stunde\n[ ] Überprüfen Sie Highlights und fassen Sie innerhalb von 24 Stunden zusammen\n[ ] Erstellen Sie 3–5 Lernkarten aus Ihrer Zusammenfassung\n[ ] Studieren Sie Lernkarten nach verteiltem Zeitplan (Tag 2, Tag 5, Tag 15)"
+      }
+    },
+    {
+      "id": "other-platforms",
+      "h2": "Welche anderen Video-Plattformen funktionieren mit Lessonscriptor außer YouTube?",
+      "body": "Lessonscriptor funktioniert auf jeder Video-Plattform, die in Ihrem Chrome-Browser läuft. Die häufigsten Plattformen für Schüler sind:\n\n**Zoom-Aufzeichnungen** (wenn Sie aufgezeichnete Vorlesungen von Ihrer Universität oder Ihrem Online-Kurs studieren).\n\n**Canvas** (Lernmanagementsystem, das von den meisten Universitäten in den USA und Großbritannien verwendet wird).\n\n**Coursera** (Online-Kurs-Plattform).\n\n**edX** (Online-Bildungsplattform des MIT).\n\n**Panopto** (Video-Plattform, die von vielen Universitäten für Vorlesungsaufzeichnung verwendet wird).\n\n**Microsoft Stream** (Enterprise-Video-Plattform, die von einigen Universitäten verwendet wird).\n\nIm Grunde, wenn es Video in Ihrem Chrome-Browser abspielt, kann Lessonscriptor es transkribieren. Dies macht es zu einem universellen Tool für Ihr gesamtes Studien-Ökosystem—nicht nur YouTube.",
+      "callout": {
+        "type": "tip",
+        "label": "Cross-Plattform-Vorteil für ADHS",
+        "body": "Ein Tool für Ihr gesamtes Video-Studium bedeutet weniger Kontextwechsel und weniger separate Apps zum Verwalten. Für ADHS-Gehirne, die von Tool-Proliferation überwältigt sind, ist diese Konsistenz ein Feature."
+      }
+    }
+  ],
+  "cta": {
+    "headline": "Bereit, YouTube-Vorlesungen nicht mehr zurückzuspulen?",
+    "body": "Installieren Sie Lessonscriptor kostenlos und transkribieren Sie Ihre nächste Vorlesung ohne Einrichtung. Keine Kreditkarte. Kein Abonnement. Beginnen Sie in 30 Sekunden.",
+    "button_text": "Lessonscriptor installieren",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor",
+    "secondary_cta": "Erfahren Sie mehr über Lessonscriptor für ADHS-Schüler →",
+    "secondary_href": "/de/fuer-adhs-schueler"
+  },
+  "faq": {
+    "heading": "Häufig Gestellte Fragen",
+    "questions": [
+      {
+        "q": "Ist Lessonscriptor kostenlos?",
+        "a": "Ja. Lessonscriptor hat einen kostenlosen Modus für immer mit unbegrenzter Transkription. Premium-Funktionen (erweiterte Exporte, Team-Zusammenarbeit) sind optional und zahlen sich ab. Sie werden niemals in ein Abonnement gezwungen."
+      },
+      {
+        "q": "Funktioniert Lessonscriptor offline?",
+        "a": "Lessonscriptor benötigt eine Internetverbindung zur Verarbeitung von Transkripten (es verwendet KI-Modelle, um diese zu generieren). Sobald ein Transkript generiert und heruntergeladen ist, können Sie es offline überprüfen. Videos müssen online streamen, um transkribiert zu werden."
+      },
+      {
+        "q": "Kann ich Lessonscriptor auf Mobiltelefon oder iPad verwenden?",
+        "a": "Lessonscriptor ist eine Chrome-Erweiterung, daher funktioniert sie auf Desktop und Laptop. Auf dem iPad können Sie Chrome verwenden, aber die Erweiterungsunterstützung ist begrenzt. Mobiltelefone unterstützen keine Chrome-Erweiterungen. Derzeit ist Lessonscriptor für Desktop-Studium optimiert."
+      },
+      {
+        "q": "Wird Lessonscriptor meinen Browser verlangsamen?",
+        "a": "Nein. Lessonscriptor läuft effizient im Hintergrund. Es wird nur aktiviert, wenn Sie auf das Symbol klicken. Wir haben es mit langsamen Internetverbindungen (2Mbps) und älteren Computern getestet. Die Auswirkung auf die Leistung ist minimal."
+      },
+      {
+        "q": "Können Lehrer sehen, ob ich Lessonscriptor auf YouTube verwende?",
+        "a": "Nein. Lessonscriptor ist eine clientseitige Browser-Erweiterung. Sie lädt keine Daten über Sie auf Ihre Schule oder YouTube hoch. Es ist völlig privat. Selbst wenn ein Video in Ihr Schulgelernmanagementsystem eingebettet ist, funktioniert Lessonscriptor auf die gleiche Weise—privat, lokal."
+      },
+      {
+        "q": "Wie genau sind die Transkripte?",
+        "a": "Lessonscriptor verwendet hochmoderne KI-Transkriptionsmodelle. Englische Transkripte sind typischerweise 95%+ genau, besonders für klare Vorlesungsaudio. Akzentierte Sprache, Hintergrundgeräusche oder domänenspezifisches Fachjargon können kleine Fehler haben (1–3% der Wörter). Sie können Transkripte vor dem Export immer manuell bearbeiten."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Fazit: Transkribieren Sie YouTube für besseres ADHS-Studium",
+    "body": "Wenn Sie ADHS haben und von YouTube lernen, ist Echtzeit-Transkription kein Nice-to-have—es ist eine kognitive Notwendigkeit. Der Versuch, gleichzeitig anzusehen, zu hören, Notizen zu machen und konzentriert zu bleiben, überfordert Ihr Arbeitsgedächtnis. Lessonscriptor entfernt diese Überbelastung, indem es das Transkript für Sie erfasst, im Chrome, während Sie schauen.\n\nSie erhalten drei Vorteile: (1) kein Zurückspulen, um verpasste Details zu finden, (2) ein schriftliches Dokument, das Sie überprüfen und markieren können, und (3) Zeit, um das Material tatsächlich zu verstehen, anstatt zu kämpfen, Notizen zu halten. Für ADHS-Lerner ist diese Zeit alles.\n\nBeginnen Sie mit YouTube. Erweitern Sie sich auf Canvas, Zoom, Coursera und andere Video-Plattformen. Bauen Sie einen Studien-Workflow auf, der Ihr Arbeitsgedächtnis unterstützt, anstatt ihn zu bekämpfen. Lessonscriptor ist kostenlos, funktioniert überall und dauert 30 Sekunden zum Installieren.",
+    "cta_link": "/de/fuer-adhs-schueler"
+  },
+  "sources": [
+    {
+      "title": "CHADD: Aufmerksamkeitsdefizit-Hyperaktivitätsstörung",
+      "url": "https://chadd.org/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "ADDitude Magazine: Arbeitsgedächtnis und ADHS",
+      "url": "https://www.additudemag.com/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "YouTube Offizielle Statistiken",
+      "citation": "Über 800 Millionen Bildungsvideos auf YouTube verfügbar (2025)"
+    },
+    {
+      "title": "Otter.ai Preise und Funktionen",
+      "url": "https://otter.ai/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "Anki: Open-Source-Lernkarten-Software",
+      "url": "https://apps.ankiweb.net/",
+      "accessed_date": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "pillar_page": "/de/fuer-adhs-schueler",
+    "primary_commercial": "/de/youtube-video-transkribieren",
+    "related_posts": [
+      {
+        "url": "/de/blog/wie-man-notizen-mit-adhs-macht",
+        "anchor_text": "wie man mit ADHS Notizen macht",
+        "placement": "In the study workflow section"
+      },
+      {
+        "url": "/de/blog/bestes-ai-notizentool-adhs",
+        "anchor_text": "beste KI-Notizen-Tools für ADHS",
+        "placement": "In the FAQ or related resources"
+      },
+      {
+        "url": "/de/live-captions-chrome",
+        "anchor_text": "Live-Captions im Chrome",
+        "placement": "In the platforms section"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "YouTube-Videos für ADHS transkribieren: Die schnellste Methode im Chrome",
+        "description": "Transkribieren Sie beliebige YouTube-Vorlesungen in Echtzeit im Chrome—kein Download, keine Anmeldung. Kostenlose Chrome-Erweiterung perfekt für ADHS-Schüler, die Schwierigkeiten mit Konzentration und Notizen haben.",
+        "image": "/images/blog/adhd-youtube-transcription-hero.png",
+        "author": {
+          "@type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28"
+      }
+    },
+    {
+      "type": "FAQPage",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Ist Lessonscriptor kostenlos?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Ja. Lessonscriptor hat einen kostenlosen Modus für immer mit unbegrenzter Transkription. Premium-Funktionen (erweiterte Exporte, Team-Zusammenarbeit) sind optional und zahlen sich ab."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktioniert Lessonscriptor offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor benötigt eine Internetverbindung zur Verarbeitung von Transkripten. Sobald ein Transkript generiert und heruntergeladen ist, können Sie es offline überprüfen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Kann ich Lessonscriptor auf Mobiltelefon oder iPad verwenden?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor ist eine Chrome-Erweiterung, die für Desktop und Laptop optimiert ist. Die Erweiterungsunterstützung ist auf dem iPad begrenzt und Mobiltelefone unterstützen keine Chrome-Erweiterungen."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Wie genau sind die Transkripte?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor verwendet hochmoderne KI-Transkriptionsmodelle. Englische Transkripte sind typischerweise 95%+ genau. Sie können Transkripte vor dem Export immer manuell bearbeiten."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Wie man eine YouTube-Vorlesung mit Lessonscriptor transkribiert",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Lessonscriptor installieren",
+            "text": "Installieren Sie Lessonscriptor aus dem Chrome Web Store (kostenlos, Ein-Klick-Installation)."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Öffnen Sie Ihre YouTube-Vorlesung",
+            "text": "Gehen Sie zu YouTube und öffnen Sie das Vorlesungsvideo, das Sie studieren möchten."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Klicken Sie auf das Lessonscriptor-Symbol",
+            "text": "Klicken Sie auf das Lessonscriptor-Symbol in Ihrer Chrome-Symbolleiste (oben rechts)."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Starten Sie das Video",
+            "text": "Das Transkript-Panel öffnet sich automatisch in Ihrer Browser-Seitenleiste. Klicken Sie auf Play auf dem Video."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Markieren und exportieren",
+            "text": "Während das Video abgespielt wird, wird das Echtzeit-Transkript in der Seitenleiste erstellt. Markieren Sie Schlüsselwörter. Wenn Sie fertig sind, exportieren Sie das Transkript als Text, PDF oder Lernkarten."
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "ADHS und Lernen",
+            "item": "https://lessonscriptor.com/de/fuer-adhs-schueler"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "YouTube-Videos für ADHS transkribieren",
+            "item": "https://lessonscriptor.com/de/blog/adhd-youtube-transcription"
+          }
+        ]
+      }
+    },
+    {
+      "type": "SoftwareApplication",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Lessonscriptor",
+        "description": "Live-KI-Video-Transkriptions-Chrome-Erweiterung für YouTube, Canvas, Zoom, Coursera und mehr. Kostenlos für immer.",
+        "operatingSystem": "Web",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    }
+  ]
+}

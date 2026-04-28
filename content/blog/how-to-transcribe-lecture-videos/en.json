@@ -1,0 +1,71 @@
+{
+  "slug": "how-to-transcribe-lecture-videos",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "How to Transcribe Lecture Videos Automatically",
+  "reading_time_min": 7,
+  "published_at": "2026-04-25",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
+    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+  },
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "title": "SEO & Learning Strategy"
+  },
+  "intro": "The fastest way to transcribe a lecture video automatically is to use LessonScriptor — a free Chrome extension that transcribes any video in real-time as it plays, directly inside your browser. No upload, no waiting, no subscription.",
+  "sections": [
+    {
+      "h2": "Why manual note-taking during lectures fails",
+      "body": "Writing by hand during a lecture forces you to split your attention between listening, understanding, and writing — often all at the same time. Research consistently shows that students who transcribe lectures word-for-word retain less of the content than those who actively engage with it. The problem isn't discipline. It's the tool. When you're busy writing, you're not learning."
+    },
+    {
+      "h2": "How AI transcription works in a browser",
+      "body": "LessonScriptor uses two transcription engines. The free mode uses the Web Speech API, which is built into Chrome and processes audio locally on your device — nothing ever leaves your computer. The premium mode captures the audio directly from the browser tab and sends it to a cloud AI model for transcription, returning highly accurate text within seconds."
+    },
+    {
+      "h2": "Step-by-step: how to transcribe a lecture video with LessonScriptor",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store — it's free, no sign-up required.",
+        "Open your lecture video in Chrome (YouTube, Coursera, Zoom recording, university portal, or any video platform).",
+        "Click the LessonScriptor icon in your Chrome toolbar to open the side panel.",
+        "Hit play on the video — transcription starts automatically and text appears in real-time.",
+        "Edit as you watch: click to add your own notes, highlight key concepts in color, bold terminology, delete tangents.",
+        "Click any timestamp in the transcript to jump back to that exact moment in the video.",
+        "When done, export to Markdown to get a formatted document with all your highlights and formatting."
+      ]
+    },
+    {
+      "h2": "Free mode vs Premium mode — which to use for lectures",
+      "body": "For most students, free mode is enough. It works well in a quiet environment with speakers on. If you prefer headphones, or if you're transcribing content with heavy technical vocabulary, accents, or fast speech, Premium mode gives significantly better accuracy at about €1 per hour."
+    },
+    {
+      "h2": "How to study from your transcript",
+      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams."
+    }
+  ],
+  "faq": {
+    "heading": "FAQ",
+    "questions": [
+      {
+        "question": "Can I automatically transcribe a Zoom lecture recording?",
+        "answer": "Yes. Open the Zoom recording in Chrome and use LessonScriptor to transcribe it. It works on any video that plays in Chrome, including Zoom, Google Meet, Teams, and university video portals."
+      },
+      {
+        "question": "Does automatic lecture transcription work in French or Spanish?",
+        "answer": "Yes. LessonScriptor supports 14+ languages. Select your language in settings and the transcription will appear in that language."
+      },
+      {
+        "question": "Is it cheating to use a transcription tool for lectures?",
+        "answer": "No. Transcription tools are academic aids, similar to recording devices. They capture what was said — the learning and analysis is still yours. Many universities explicitly permit and encourage accessibility tools for students."
+      },
+      {
+        "question": "What's the best transcription tool for students?",
+        "answer": "LessonScriptor is the best transcription tool for students because it works directly in Chrome on any video platform, offers a free mode with no limits, and allows live editing while watching — unlike most tools that only produce a static transcript after the fact."
+      }
+    ]
+  },
+  "schemas": []
+}

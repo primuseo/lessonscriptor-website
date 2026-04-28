@@ -1,0 +1,71 @@
+{
+  "slug": "how-to-transcribe-lecture-videos",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "如何自动转录课程视频",
+  "reading_time_min": 7,
+  "published_at": "2026-04-25",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
+    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+  },
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "title": "SEO & Learning Strategy"
+  },
+  "intro": "自动转录课程视频最快的方法是使用 LessonScriptor——一个免费的 Chrome 扩展程序，可在视频播放时直接在浏览器中进行实时转录。无需上传，无需等待，无需订阅。",
+  "sections": [
+    {
+      "h2": "为什么在课堂上手动记笔记效果不好",
+      "body": "在课堂上手写笔记迫使您在听、理解和写之间分散注意力——通常是同时进行。研究一致表明，逐字转录课程的学生对内容的记忆不如那些主动参与的学生。问题不在于自律，而在于工具。当您忙于书写时，您并没有在学习。"
+    },
+    {
+      "h2": "AI 转录在浏览器中如何工作",
+      "body": "LessonScriptor 使用两种转录引擎。免费模式使用 Web Speech API，它内置于 Chrome 中，在您的设备上本地处理音频——不会有任何数据离开您的电脑。高级模式直接从浏览器标签页捕获音频并发送至云端 AI 模型进行转录，在数秒内返回高精度文本。"
+    },
+    {
+      "h2": "分步指南：如何使用 LessonScriptor 转录课程视频",
+      "steps": [
+        "从 Chrome 应用商店安装 LessonScriptor——免费，无需注册。",
+        "在 Chrome 中打开课程视频（YouTube、Coursera、Zoom 录制、大学门户网站或任何视频平台）。",
+        "点击 Chrome 工具栏中的 LessonScriptor 图标以打开侧面板。",
+        "播放视频——转录自动开始，文字实时显示。",
+        "边看边编辑：点击添加您自己的笔记，用颜色高亮标注关键概念，加粗术语，删除无关内容。",
+        "点击转录文本中的任意时间戳，跳转到视频中的对应时刻。",
+        "完成后导出为 Markdown，获取包含所有高亮和格式的文档。"
+      ]
+    },
+    {
+      "h2": "免费模式与高级模式——课程转录该选哪个",
+      "body": "对于大多数学生，免费模式就足够了。在安静环境中使用扬声器效果良好。如果您更喜欢使用耳机，或者转录含有大量专业词汇、口音或语速较快的内容，高级模式可以提供显著更高的准确度，每小时约 1 欧元。"
+    },
+    {
+      "h2": "如何利用转录文本进行学习",
+      "body": "转录完成后，将 LessonScriptor 文档当作学习指南使用。用黄色高亮标注最重要的概念。加粗关键术语。复习时在括号中添加您自己的理解。导出为 Markdown 并导入 Notion 或 Obsidian 进行长期保存。考前可以搜索全文。"
+    }
+  ],
+  "faq": {
+    "heading": "FAQ",
+    "questions": [
+      {
+        "question": "我可以自动转录 Zoom 课程录制吗？",
+        "answer": "可以。在 Chrome 中打开 Zoom 录制并使用 LessonScriptor 转录。它适用于 Chrome 中播放的任何视频，包括 Zoom、Google Meet、Teams 和大学视频门户网站。"
+      },
+      {
+        "question": "自动课程转录支持法语或西班牙语吗？",
+        "answer": "支持。LessonScriptor 支持 14 种以上语言。在设置中选择您的语言，转录将以该语言显示。"
+      },
+      {
+        "question": "使用转录工具听课算作弊吗？",
+        "answer": "不算。转录工具是学习辅助工具，类似于录音设备。它们记录说了什么——学习和分析仍然由您完成。许多大学明确允许并鼓励学生使用无障碍工具。"
+      },
+      {
+        "question": "学生最好用什么转录工具？",
+        "answer": "LessonScriptor 是学生的最佳转录工具，因为它直接在 Chrome 中适用于任何视频平台，提供无限制的免费模式，并支持边看边实时编辑——与大多数只能在结束后生成静态转录文本的工具不同。"
+      }
+    ]
+  },
+  "schemas": []
+}

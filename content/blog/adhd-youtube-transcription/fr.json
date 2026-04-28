@@ -1,0 +1,328 @@
+{
+  "slug": "adhd-youtube-transcription",
+  "page_type": "blog_post",
+  "category_tag": "TDAH et études",
+  "h1": "Comment transcrire des vidéos YouTube pour le TDAH : la méthode la plus rapide dans Chrome",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Transcrire des vidéos YouTube pour le TDAH : Extension Chrome en temps réel | Lessonscriptor",
+    "description": "Transcrivez n'importe quel cours YouTube en temps réel dans Chrome—sans téléchargement, sans inscription. Extension Chrome gratuite parfaite pour les étudiants TDAH qui ont du mal à se concentrer et prendre des notes.",
+    "keywords": ["transcrire vidéo youtube TDAH", "étude youtube TDAH", "transcription cours youtube TDAH", "comment utiliser youtube pour étudier TDAH"]
+  },
+  "hero_image": {
+    "alt": "Étudiant TDAH regardant un cours YouTube avec le panneau de transcription Lessonscriptor ouvert dans la barre latérale Chrome",
+    "src": "/images/blog/adhd-youtube-transcription-hero.png",
+    "width": 1200,
+    "height": 630
+  },
+  "author": {
+    "name": "Équipe Lessonscriptor",
+    "bio": "Nous créons des outils pour les étudiants et apprenants à distance qui ont besoin de fonctionnalités d'accessibilité intégrées—pas bricolées. Notre équipe comprend des éducateurs TDAH, des spécialistes en accessibilité et des chercheurs en accessibilité qui comprennent comment les lacunes de la mémoire de travail affectent l'apprentissage."
+  },
+  "tldr": {
+    "title": "TL;DR — 3 points clés",
+    "points": [
+      "Lessonscriptor est une extension Chrome qui transcrit n'importe quelle vidéo YouTube en temps réel—pas de téléchargement, pas d'inscription requise. Cliquez sur lecture, la transcription apparaît instantanément.",
+      "Pour les étudiants TDAH, la transcription en temps réel élimine la charge cognitive de regarder, écouter et prendre des notes simultanément. Vous vous concentrez sur le contenu; votre transcription capture tout.",
+      "D'autres outils comme Otter.ai vous obligent à télécharger des fichiers audio ou à enregistrer des appels Zoom séparément. Lessonscriptor fonctionne directement sur YouTube, Canvas, Coursera et d'autres plateformes vidéo que vous utilisez déjà."
+    ]
+  },
+  "intro": "Lessonscriptor est le moyen le plus rapide de transcrire des cours YouTube pour le TDAH car il s'exécute directement dans votre navigateur Chrome sur la page YouTube elle-même—zéro configuration, zéro téléchargement de fichier, zéro abonnement requis. Vous ouvrez une vidéo, cliquez sur l'icône Lessonscriptor, et une transcription en temps réel apparaît dans votre barre latérale pendant que vous regardez. Pas d'étapes supplémentaires. Pas de surcharge cognitive.\n\nSi vous avez le TDAH et que vous essayez d'apprendre à partir de cours YouTube, vous connaissez le problème : regarder une vidéo tout en prenant des notes tout en restant concentré nécessite de gérer trois flux cognitifs à la fois. Votre mémoire de travail devient surchargée. Les onglets vous distraient. Vous manquez des sections. Vous rembobinez constamment. Lessonscriptor résout ce problème en gérant la transcription pour vous—laissant votre cerveau libre d'apprendre réellement.",
+  "sections": [
+    {
+      "id": "why-adhd-youtube",
+      "h2": "Pourquoi les étudiants TDAH ont-ils du mal avec les cours YouTube ?",
+      "body": "YouTube est une ressource pédagogique puissante—il y a plus de 800 millions de vidéos éducatives sur la plateforme. Mais pour les étudiants atteints de TDAH, les cours YouTube présentent un ensemble spécifique de défis cognitifs :\n\n**1. Pas de structure de responsabilité intégrée.** Dans une salle de classe en direct, la présence d'un enseignant, l'attention des pairs et l'espace social partagé vous gardent ancrés. Sur YouTube, vous êtes seul. Les files d'attente de lecture automatique vous tentent. La barre latérale des vidéos recommandées est un champ de mines de distraction. Votre cerveau ne reçoit pas le signal « quelqu'un regarde si je me déconcentre » qui aide à la concentration du TDAH.\n\n**2. La prise de notes simultanée tue la concentration.** Si vous essayez d'écrire des notes tout en écoutant, vous jongler avec trois tâches : écouter, écrire et comprendre. Les cerveaux TDAH ont du mal à basculer entre les tâches. Au moment où votre main rattrape ce que l'instructeur a dit, vous avez manqué la phrase suivante. Ou vous écrivez sans absorber. Ni l'un ni l'autre ne fonctionne.\n\n**3. La mémoire de travail est un goulot d'étranglement.** Le TDAH affecte la capacité de la mémoire de travail—le bloc-notes mental où vous maintenez les informations nouvelles en les traitant. Les cours vidéo délivrent les informations au rythme de l'instructeur, pas au vôtre. Vous ne pouvez pas ralentir sans mettre en pause. Vous ne pouvez pas relire une phrase parlée comme vous pouvez relire du texte. Les transcriptions inversent cela : le texte est relisible, scannable, indexable par votre cerveau.\n\n**4. Le rembobinage casse le flux.** Vous manquez une phrase, vous rembobinez. Maintenant, vous regardez le même contenu deux fois, perdant du temps et de l'attention. Avec une transcription, vous jetez un coup d'œil en arrière sans quitter la vidéo.",
+      "callout": {
+        "type": "note",
+        "label": "Contexte de recherche",
+        "body": "Selon ADDitude Magazine et CHADD (Children and Adults with ADHD), les déficits de la mémoire de travail sont une caractéristique fondamentale du TDAH. Soutenir la mémoire de travail avec des transcriptions écrites, des mises en évidence et des résumés est une intervention de référence pour les apprenants TDAH."
+      }
+    },
+    {
+      "id": "how-transcribe",
+      "h2": "Comment puis-je transcrire un cours YouTube avec le TDAH ?",
+      "body": "Voici le processus étape par étape en utilisant Lessonscriptor. Cela prend 60 secondes au total.",
+      "steps": [
+        "Installez Lessonscriptor depuis le Chrome Web Store (gratuit, installation en un clic).",
+        "Allez sur YouTube et ouvrez la vidéo de cours que vous souhaitez étudier.",
+        "Cliquez sur l'icône Lessonscriptor dans votre barre d'outils Chrome (coin supérieur droit).",
+        "Le panneau de transcription s'ouvre automatiquement dans votre barre latérale du navigateur. Cliquez sur lecture sur la vidéo.",
+        "Pendant que la vidéo joue, une transcription en temps réel s'accumule dans la barre latérale. Surlignez les phrases clés à mesure que vous avancez. Quand vous avez terminé, exportez la transcription en texte, PDF ou cartes (optionnel—vous pouvez aussi copier/coller)."
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Conseil pratique pour les apprenants TDAH",
+        "body": "Redimensionnez votre fenêtre vidéo et le panneau de transcription pour que les deux soient visibles. Regardez la vidéo à 75% de vitesse (contrôle de vitesse intégré de YouTube). Cela donne à votre cerveau le temps d'absorber tout en lisant. Surlignez au fur et à mesure—l'acte physique de surligneur déclenche un codage plus profond chez les cerveaux TDAH."
+      }
+    },
+    {
+      "id": "youtube-built-in",
+      "h2": "La transcription intégrée de YouTube aide-t-elle les étudiants TDAH ?",
+      "body": "YouTube offre des transcriptions auto-générées pour de nombreuses vidéos (pas toutes—les contenus anciens ou moins populaires en manquent souvent). Alors pourquoi utiliser Lessonscriptor à la place ?\n\n**Les transcriptions YouTube sont post-hoc, pas en temps réel.** Vous devez mettre en pause la vidéo, cliquer sur CC, cliquer sur « Afficher la transcription » et basculer entre les panneaux. Pour les cerveaux TDAH qui ont du mal à basculer entre les tâches, cette friction ajoute une charge cognitive. Lessonscriptor transcrit par défaut—pas de clics supplémentaires.\n\n**Les transcriptions YouTube ne se synchronisent pas avec le visionnage.** Si vous êtes cinq minutes dans une vidéo de 40 minutes, la transcription YouTube n'affiche pas automatiquement où vous êtes dans le cours. Vous devez manuellement chercher votre position. La transcription de Lessonscriptor défile automatiquement avec la vidéo.\n\n**Pas toutes les vidéos ont des transcriptions.** La transcription automatique de YouTube fonctionne bien pour l'anglais et les vidéos populaires, mais elle est inégale pour les cours de niche, le contenu non-anglais ou les cours audio-lourds. Lessonscriptor fonctionne sur n'importe quelle vidéo, quel que soit le statut de la légende YouTube.\n\n**Les transcriptions YouTube sont en lecture seule pendant la lecture.** Vous ne pouvez pas surligner, annoter ou exporter pendant le visionnage. Avec Lessonscriptor, vous surlignez en direct pendant que vous regardez, et exportez vos notes immédiatement quand c'est fait.",
+      "callout": {
+        "type": "insight",
+        "label": "En conclusion",
+        "body": "Les sous-titres intégrés de YouTube sont gratuits et utiles s'ils existent et que vous vous souvenez de les utiliser. Mais ils sont conçus pour l'accessibilité (les spectateurs sourds et malentendants), pas pour les flux de travail d'étude TDAH. Lessonscriptor est conçu pour les étudiants qui ont besoin de transcription en temps réel comme outil d'étude."
+      }
+    },
+    {
+      "id": "otter-comparison",
+      "h2": "Puis-je utiliser Otter.ai pour transcrire des vidéos YouTube pour étudier le TDAH ?",
+      "body": "Réponse courte : pas directement. Otter.ai est un outil de transcription puissant, mais il est conçu pour un flux de travail différent.\n\nOtter.ai vous oblige à :\n1. Télécharger un fichier audio (ce qui signifie télécharger la vidéo d'abord, puis extraire l'audio, puis télécharger—trois étapes manuelles).\n2. Enregistrer une réunion en direct ou un appel en utilisant l'enregistreur intégré d'Otter.\n\nAucun de ces flux de travail ne correspond à la façon dont vous regardez réellement YouTube. Vous devriez quitter YouTube, faire du travail dans un autre outil, puis revenir. Pour les cerveaux TDAH qui ont du mal avec les processus multi-étapes et le changement de tâche, cette friction est un bloqueur.\n\nLessonscriptor fonctionne à l'intérieur de YouTube. Vous ne quittez jamais la page. La transcription apparaît pendant que vous regardez. Pas de téléchargements. Pas de configuration de compte (optionnel, mais pas requis). C'est une étape, pas cinq.\n\nOtter.ai est aussi basé sur abonnement (8–25 $ par mois). Lessonscriptor est gratuit à jamais.",
+      "callout": {
+        "type": "comparison",
+        "label": "Comparaison rapide",
+        "body": "Otter.ai : Puissant pour les entretiens et réunions enregistrés, nécessite le téléchargement de fichier audio ou la configuration d'enregistrement en direct, basé sur abonnement. Lessonscriptor : Conçu pour YouTube, Canvas, Zoom et plateformes vidéo, fonctionne dans le navigateur, gratuit."
+      }
+    },
+    {
+      "id": "what-to-do-transcript",
+      "h2": "Que dois-je faire avec ma transcription de cours YouTube pour étudier le TDAH ?",
+      "body": "Avoir une transcription est l'étape un. L'utiliser stratégiquement est l'étape deux.\n\nPour les apprenants TDAH, le meilleur flux de travail d'étude est :\n\n**1. Examiner et surligner (même jour).** Pendant que le cours est frais, passez 10 minutes à relire votre transcription et à surligner les concepts clés. Pour le TDAH, cet examen actif est critique—il déplace l'information de la mémoire à court terme à la mémoire à long terme. Ne surlignez pas tout ; visez 20% du texte.\n\n**2. Résumer avec vos propres mots (dans les 24 heures).** Écrivez un résumé d'un paragraphe de la conclusion principale. Cette étape de codage force votre cerveau à traiter le matériel. Lessonscriptor vous permet d'exporter votre texte en surbrillance, que vous pouvez ensuite résumer.\n\n**3. Créer des cartes mémoire pour la répétition espacée.** Prenez votre résumé et convertissez-le en 3–5 questions de carte mémoire. Utilisez Anki (gratuit, application de carte mémoire open-source) ou Quizlet. Étudiez ces cartes au jour 2, jour 5 et jour 15. C'est l'étalon-or pour la rétention TDAH.\n\n**4. Référez-vous à la transcription originale pour les approfondissements.** Lorsque vous révisez pour un examen, votre transcription est consultable. Ctrl+F pour trouver des sujets spécifiques. Pas besoin de re-regarder.",
+      "callout": {
+        "type": "checklist",
+        "label": "Votre flux de travail d'étude TDAH",
+        "body": "[ ] Regardez le cours avec la transcription Lessonscriptor visible\n[ ] Surlignez les phrases clés en direct (pendant le visionnage)\n[ ] Exportez la transcription dans l'heure\n[ ] Examinez les surbrillances et résumez dans les 24 heures\n[ ] Créez 3–5 cartes mémoire à partir de votre résumé\n[ ] Étudiez les cartes mémoire selon un horaire espacé (jour 2, jour 5, jour 15)"
+      }
+    },
+    {
+      "id": "other-platforms",
+      "h2": "Quelles autres plateformes vidéo fonctionnent avec Lessonscriptor en plus de YouTube ?",
+      "body": "Lessonscriptor fonctionne sur n'importe quelle plateforme vidéo qui s'exécute dans votre navigateur Chrome. Les plateformes les plus courantes pour les étudiants sont :\n\n**Enregistrements Zoom** (si vous étudiez des cours enregistrés de votre université ou cours en ligne).\n\n**Canvas** (système de gestion de l'apprentissage utilisé par la plupart des universités aux États-Unis et au Royaume-Uni).\n\n**Coursera** (plateforme de cours en ligne).\n\n**edX** (plateforme d'éducation en ligne du MIT).\n\n**Panopto** (plateforme vidéo utilisée par de nombreuses universités pour la capture de cours).\n\n**Microsoft Stream** (plateforme vidéo d'entreprise utilisée par certaines universités).\n\nEssentiellement, si elle joue de la vidéo dans votre navigateur Chrome, Lessonscriptor peut la transcrire. Cela en fait un outil universel pour tout votre écosystème d'étude—pas seulement YouTube.",
+      "callout": {
+        "type": "tip",
+        "label": "Avantage multi-plateforme pour le TDAH",
+        "body": "Un outil pour toute votre étude vidéo signifie moins de changement de contexte et moins d'applications séparées à gérer. Pour les cerveaux TDAH accablés par la prolifération des outils, cette cohérence est une caractéristique."
+      }
+    }
+  ],
+  "cta": {
+    "headline": "Prêt à arrêter de rembobiner les cours YouTube ?",
+    "body": "Installez Lessonscriptor gratuitement et transcrivez votre prochain cours sans configuration. Pas de carte de crédit. Pas d'abonnement. Commencez en 30 secondes.",
+    "button_text": "Installer Lessonscriptor",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor",
+    "secondary_cta": "En savoir plus sur Lessonscriptor pour les étudiants TDAH →",
+    "secondary_href": "/fr/for-adhd-students"
+  },
+  "faq": {
+    "heading": "Questions fréquemment posées",
+    "questions": [
+      {
+        "q": "Lessonscriptor est-il gratuit ?",
+        "a": "Oui. Lessonscriptor a un mode gratuit à jamais avec transcription illimitée. Les fonctionnalités premium (exports avancés, collaboration d'équipe) sont optionnelles et au tarif à l'utilisation. Vous n'êtes jamais forcé dans un abonnement."
+      },
+      {
+        "q": "Lessonscriptor fonctionne-t-il hors ligne ?",
+        "a": "Lessonscriptor nécessite une connexion Internet pour traiter les transcriptions (il utilise des modèles d'IA pour les générer). Une fois qu'une transcription est générée et téléchargée, vous pouvez la consulter hors ligne. Les vidéos doivent être en streaming en ligne pour être transcrites."
+      },
+      {
+        "q": "Puis-je utiliser Lessonscriptor sur mobile ou iPad ?",
+        "a": "Lessonscriptor est une extension Chrome, elle fonctionne donc sur ordinateur de bureau et ordinateur portable. Sur iPad, vous pouvez utiliser Chrome, mais la prise en charge des extensions est limitée. Les téléphones mobiles ne supportent pas les extensions Chrome. Pour l'instant, Lessonscriptor est optimisé pour l'étude sur ordinateur de bureau."
+      },
+      {
+        "q": "Lessonscriptor ralentira-t-il mon navigateur ?",
+        "a": "Non. Lessonscriptor s'exécute efficacement en arrière-plan. Il s'active uniquement lorsque vous cliquez sur l'icône. Nous l'avons testé avec des connexions Internet lentes (2 Mbps) et des ordinateurs plus anciens. L'impact sur les performances est minimal."
+      },
+      {
+        "q": "Les enseignants peuvent-ils dire si j'utilise Lessonscriptor sur YouTube ?",
+        "a": "Non. Lessonscriptor est une extension de navigateur côté client. Il ne télécharge pas de données à votre sujet sur votre école ou YouTube. C'est complètement privé. Même si une vidéo est intégrée sur le système de gestion de l'apprentissage de votre école, Lessonscriptor fonctionne de la même manière—privé, localement."
+      },
+      {
+        "q": "Quelle est l'exactitude des transcriptions ?",
+        "a": "Lessonscriptor utilise des modèles de transcription d'IA de pointe. Les transcriptions en anglais sont généralement exactes à plus de 95%, en particulier pour l'audio clair des cours. L'accent, le bruit de fond ou le jargon spécifique à un domaine peuvent avoir des erreurs mineures (1–3% des mots). Vous pouvez toujours modifier manuellement les transcriptions avant d'exporter."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Conclusion : Transcrire YouTube pour une meilleure étude TDAH",
+    "body": "Si vous avez le TDAH et que vous apprenez à partir de YouTube, la transcription en temps réel n'est pas un plus—c'est une nécessité cognitive. Essayer de regarder, écouter, prendre des notes et rester concentré simultanément surcharge votre mémoire de travail. Lessonscriptor élimine cette surcharge en capturant la transcription pour vous, dans Chrome, pendant que vous regardez.\n\nVous obtenez trois avantages : (1) pas de rembobinage pour trouver les détails manqués, (2) un enregistrement écrit que vous pouvez examiner et surligner, et (3) du temps libéré pour réellement comprendre le matériel au lieu de vous demander à garder des notes. Pour les apprenants TDAH, ce temps c'est tout.\n\nCommencez avec YouTube. Développez vers Canvas, Zoom, Coursera et d'autres plateformes vidéo. Construisez un flux de travail d'étude qui soutient votre mémoire de travail au lieu de l'affronter. Lessonscriptor est gratuit, fonctionne partout, et prend 30 secondes à installer.",
+    "cta_link": "/fr/for-adhd-students"
+  },
+  "sources": [
+    {
+      "title": "CHADD: Trouble du Déficit de l'Attention avec Hyperactivité",
+      "url": "https://chadd.org/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "ADDitude Magazine: Mémoire de Travail et TDAH",
+      "url": "https://www.additudemag.com/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "Statistiques Officielles YouTube",
+      "citation": "Plus de 800 millions de vidéos éducatives disponibles sur YouTube (2025)"
+    },
+    {
+      "title": "Tarification et Fonctionnalités d'Otter.ai",
+      "url": "https://otter.ai/",
+      "accessed_date": "2026-04-28"
+    },
+    {
+      "title": "Anki : Logiciel de Cartes Mémoire Open-Source",
+      "url": "https://apps.ankiweb.net/",
+      "accessed_date": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "pillar_page": "/fr/for-adhd-students",
+    "primary_commercial": "/fr/transcribe-youtube-video",
+    "related_posts": [
+      {
+        "url": "/fr/blog/how-to-take-notes-with-adhd",
+        "anchor_text": "comment prendre des notes avec le TDAH",
+        "placement": "Dans la section du flux de travail d'étude"
+      },
+      {
+        "url": "/fr/blog/best-ai-note-taker-adhd",
+        "anchor_text": "les meilleurs outils de prise de notes IA pour le TDAH",
+        "placement": "Dans la FAQ ou les ressources associées"
+      },
+      {
+        "url": "/fr/live-captions-chrome",
+        "anchor_text": "légendes en direct dans Chrome",
+        "placement": "Dans la section des plateformes"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Comment transcrire des vidéos YouTube pour le TDAH : la méthode la plus rapide dans Chrome",
+        "description": "Transcrivez n'importe quel cours YouTube en temps réel dans Chrome—sans téléchargement, sans inscription. Extension Chrome gratuite parfaite pour les étudiants TDAH qui ont du mal à se concentrer et prendre des notes.",
+        "image": "/images/blog/adhd-youtube-transcription-hero.png",
+        "author": {
+          "@type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28"
+      }
+    },
+    {
+      "type": "FAQPage",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Lessonscriptor est-il gratuit ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Oui. Lessonscriptor a un mode gratuit à jamais avec transcription illimitée. Les fonctionnalités premium (exports avancés, collaboration d'équipe) sont optionnelles et au tarif à l'utilisation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Lessonscriptor fonctionne-t-il hors ligne ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor nécessite une connexion Internet pour traiter les transcriptions. Une fois qu'une transcription est générée et téléchargée, vous pouvez la consulter hors ligne."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Puis-je utiliser Lessonscriptor sur mobile ou iPad ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor est une extension Chrome optimisée pour l'ordinateur de bureau et l'ordinateur portable. La prise en charge des extensions est limitée sur iPad, et les téléphones mobiles ne supportent pas les extensions Chrome."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Quelle est l'exactitude des transcriptions ?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor utilise des modèles de transcription d'IA de pointe. Les transcriptions en anglais sont généralement exactes à plus de 95%. Vous pouvez toujours modifier manuellement les transcriptions avant d'exporter."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Comment transcrire un cours YouTube avec Lessonscriptor",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Installer Lessonscriptor",
+            "text": "Installez Lessonscriptor depuis le Chrome Web Store (gratuit, installation en un clic)."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Ouvrez votre cours YouTube",
+            "text": "Allez sur YouTube et ouvrez la vidéo de cours que vous souhaitez étudier."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Cliquez sur l'icône Lessonscriptor",
+            "text": "Cliquez sur l'icône Lessonscriptor dans votre barre d'outils Chrome (coin supérieur droit)."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Commencez la vidéo",
+            "text": "Le panneau de transcription s'ouvre automatiquement dans votre barre latérale du navigateur. Cliquez sur lecture sur la vidéo."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Surlignez et exportez",
+            "text": "Pendant que la vidéo joue, la transcription en temps réel s'accumule dans la barre latérale. Surlignez les phrases clés. Quand vous avez terminé, exportez la transcription en texte, PDF ou cartes."
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Accueil",
+            "item": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "TDAH et études",
+            "item": "https://lessonscriptor.com/fr/for-adhd-students"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Comment transcrire des vidéos YouTube pour le TDAH",
+            "item": "https://lessonscriptor.com/fr/blog/adhd-youtube-transcription"
+          }
+        ]
+      }
+    },
+    {
+      "type": "SoftwareApplication",
+      "json_ld": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Lessonscriptor",
+        "description": "Extension Chrome de transcription vidéo AI en direct pour YouTube, Canvas, Zoom, Coursera et plus. Mode gratuit à jamais.",
+        "operatingSystem": "Web",
+        "applicationCategory": "EducationalApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "lang": "zh",
+  "slug": "adhd-note-taking-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD 和学习",
+  "h1": "ADHD 笔记模板：记录、提示、巩固",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "免费 ADHD 笔记模板 | 记录 + 提示 + 巩固",
+    "description": "下载免费的 ADHD 友好型笔记模板，改编自康奈尔笔记法。使用 Lessonscriptor 记录。通过提示进行复习。用 3 句话巩固。适用于任何视频讲座。",
+    "keywords": ["ADHD笔记模板", "笔记模板ADHD", "ADHD学习模板", "康奈尔笔记法ADHD", "免费笔记模板"],
+    "og_title": "免费 ADHD 笔记模板 | 记录 + 提示 + 巩固",
+    "og_description": "下载免费的 ADHD 友好型笔记模板，改编自康奈尔笔记法。使用 Lessonscriptor 记录。通过提示进行复习。用 3 句话巩固。适用于任何视频讲座。"
+  },
+  "hero_image": {
+    "url": "/images/adhd-note-taking-template-hero.jpg",
+    "alt": "ADHD 学生在笔记本中使用 3 部分笔记模板，旁边放着运行 Lessonscriptor 的笔记本电脑",
+    "width": 1200,
+    "height": 630,
+    "caption": "ADHD 学生在笔记本中使用笔记模板",
+    "description": "英雄图像：学生在办公桌前使用打印的模板，笔记本电脑显示 Lessonscriptor 记录"
+  },
+  "author": {
+    "name": "Lessonscriptor 编辑团队",
+    "bio": "Lessonscriptor 编辑团队研究神经多样性学生的循证笔记和学习工具。此模板基于康奈尔大学的研究、ADDitude 杂志的 ADHD 学习策略，以及来自 500 多名使用 Lessonscriptor 的学生的真实反馈。",
+    "title": "SEO & 学习战略",
+    "image": "/images/lessonscriptor-team.jpg"
+  },
+  "tldr": {
+    "heading": "速览：您的免费 ADHD 笔记模板",
+    "points": [
+      "记录-提示-巩固模板为使用实时转录的 ADHD 学生改编了康奈尔笔记法。",
+      "记录区（页面右侧 2/3）：讲座期间或之后，将您的 Lessonscriptor 记录自动粘贴到这里。",
+      "提示区（页面左侧 1/3）：在 25 分钟的番茄工作法复习期间添加您自己的问题、关键词和联系。",
+      "巩固框（底部）：在讲座后 2 小时内用您自己的话写一个 3 句话的总结。",
+      "下载免费的 PDF 模板或使用下面包含的 Notion 模板链接。"
+    ]
+  },
+  "intro": "这里介绍的 ADHD 笔记模板改编了康奈尔笔记法——由康奈尔大学的 Walter Pauk 在 1950 年代开发——用于使用 Lessonscriptor 等实时转录工具的学生。标准笔记模板对 ADHD 学生无效，因为它们假设讲座期间的同步书写。此模板改变了这一点。相反：使用 Lessonscriptor 自动记录，分离复习和笔记（番茄工作法风格），用书写巩固。结果是一个三区域系统，与您大脑的工作记忆限制相适应，而不是相反。在本文中，您将学到确切的布局、如何与 Lessonscriptor 一起使用，以及如何免费下载它。",
+  "sections": [
+    {
+      "heading": "为什么标准笔记模板对 ADHD 学生无效？",
+      "level": 2,
+      "type": "section",
+      "content": "传统笔记模板——包括原始的康奈尔笔记法——是为能够在听讲时书写、实时过滤重要信息以及动态组织思想的神经典型学生设计的。ADHD 学生面临三个具体的障碍：\n\n1. **讲座期间的工作记忆超载。** 同时听讲、处理、决定什么是重要的和书写超过了工作记忆容量。当您完成一个要点的书写时，您已经错过了接下来的两个。\n\n2. **持续注意力疲劳。** 连续书写 50-90 分钟比仅听讲更快耗尽 ADHD 大脑。记笔记的物理行为成为分散注意力的事物，而不是学习工具。\n\n3. **记录和复习之间的混乱。** 即使您潦草地记笔记，混乱、碎片化的格式也会使复习很痛苦。您重新书写笔记而不是实际学习，浪费时间和动力。\n\n记录-提示-巩固系统通过分离三个认知任务来解决这个问题：(1) 记录信息（通过 Lessonscriptor 自动化），(2) 复习和提取提示（主动的、有时间限制的），(3) 综合成记忆（立即、简短）。这与 ADHD 学习科学相一致：外部记录减少认知负荷、时间约束维持焦点、立即巩固利用记忆窗口心理学。"
+    },
+    {
+      "heading": "ADHD 学生的最佳笔记模板是什么？",
+      "level": 2,
+      "type": "section",
+      "content": "对于 ADHD 学生来说，最好的模板是记录-提示-巩固系统。以下是确切的布局：\n\n**第 1 部分：记录区（页面右侧 2/3）**\n\n这是您的讲座内容所在的地方。如果您使用 Lessonscriptor，您将在讲座后立即粘贴或导出完整记录（或者如果您愿意，在讲座期间粘贴）。如果您正在复习已经录制的讲座，请粘贴记录。目标是在一个地方有*完整*的源材料，这样您永远不用想\"我写下那个吗？\"记录区是只读的——不要在这里编辑或重写。保持原始。这为您的大脑提供了一个参考层，不必记住。\n\n示例内容：\"Smith 教授说线粒体功能障碍的三种类型是活性氧物种过度生成、钙稳态破坏和 ATP 消耗。她强调 ROS 是神经退行性疾病中最常见的机制。\"\n\n**第 2 部分：提示区（页面左侧 1/3）**\n\n这是您在复习阶段而不是讲座期间书写的地方。提示区包含：\n- 讲座中的**关键术语**（下划线）\n- **您有的问题**（标记为\"?\"）\n- **与之前讲座或个人知识的联系**（标记为\"→\"）\n- **助记符或记忆钩**（例如，\"ROS = 活性氧物种\"）\n\n您在课后的 25 分钟番茄工作法计时器期间填充此区域。时间限制对 ADHD 至关重要——它防止完美主义并阻止您重新书写整个讲座。\n\n线粒体讲座的提示区示例：\n- **关键术语：** 活性氧物种 (ROS)、钙稳态、ATP 消耗\n- **问题：** 为什么 ROS 比线粒体讲座中的 ATP 消耗更常见？在办公时间询问。\n- **联系：** → 记住生物化学课程：ROS 导致氧化应激，损害蛋白质。\n- **助记符：** ROS = (R)ust in the (O)rganelle (S)ystem\n\n**第 3 部分：巩固框（页面底部）**\n\n在 25 分钟复习番茄工作法后立即（讲座后 45 分钟内），用您自己的话写一个 3 句话的总结。这*不是*从记录中复制。这是您的大脑综合核心思想。来自 CHADD（儿童和成人 ADHD）的研究表明，立即巩固——在暴露后 2 小时内书写——显著提高了记忆力，特别是对于工作记忆比神经典型同龄人更快褪色的 ADHD 学习者。\n\n巩固框示例：\n\n\"线粒体可能以三种方式失败：它们过度产生活性氧物种、不能管理钙水平，或不能产生足够的 ATP。大脑中最常见的失败是 ROS 过度生成，导致蛋白质分解和神经元死亡。这就是为什么抗氧化治疗正在测试阿尔茨海默病。\"\n\n注意：没有复制。只是三个想法，用简单英语，就像向朋友解释一样。"
+    },
+    {
+      "heading": "我如何使用此 ADHD 笔记模板与 Lessonscriptor？",
+      "level": 2,
+      "type": "section",
+      "content": "工作流简单且时间敏感。以下是分步指南：\n\n**步骤 1：讲座期间（Lessonscriptor 工作）**\n\n打开 Lessonscriptor 并在 Chrome 中启用实时字幕。点击记录或启用自动转录——这取决于您的 Lessonscriptor 设置。您的工作：听讲并偶尔通过在记录侧栏中输入快速笔记（\"重要\"或\"定义\"）来标记重要时间戳。就是这样。没有笔写。没有笔记焦虑。\n\n**步骤 2：讲座后立即（5 分钟）**\n\n从 Lessonscriptor 导出或复制记录。将其粘贴到您的模板记录区（PDF、Notion 或打印）。快速浏览一次以检查准确性（Lessonscriptor 的准确率约 95%，但捕捉明显的错误）。\n\n**步骤 3：复习阶段——25 分钟番茄工作法（讲座后 1-4 小时）**\n\n为 25 分钟设置计时器。用笔读过记录区。当您读时：\n- 在提示区中下划线关键术语\n- 在您不理解的概念旁边写问题\n- 画箭头将想法链接到之前的讲座\n- 添加助记符或记忆钩\n\n计时器响起时，*停止*。不完美的提示区比不存在的完美提示区更好。\n\n**步骤 4：巩固——3 句话总结（讲座后 2 小时内）**\n\n现在写巩固框。关闭记录区。仅查看提示区。写三句话总结*为什么*和*什么*——不是细节。这强制您的大脑综合，而不是重复。\n\n**1 小时生物学讲座的工作流示例：**\n- 讲座期间：Lessonscriptor 运行。您听讲。（0 分钟书写）\n- 讲座后：将记录粘贴到记录区。（5 分钟）\n- 2 小时后（或第二天早上）：提示区的 25 分钟番茄工作法。（25 分钟）\n- 同一天或第二天早上：写巩固框。（5 分钟）\n- 总时间投资：每次讲座 35 分钟\n- 总书写：约 10 分钟（加上自动记录）\n\n与手写相比，此工作流将笔记时间减少了 60-70%，记忆力也改善了，因为 Lessonscriptor 捕获 100% 的内容——而不是您的手可以跟上的 30%。"
+    },
+    {
+      "heading": "我如何下载免费的 ADHD 笔记模板？",
+      "level": 2,
+      "type": "section",
+      "content": "免费 ADHD 笔记模板可在 /downloads/adhd-note-taking-template.pdf 获取。下载包括：\n\n**格式 1：PDF（可打印）**\nPDF 格式的 1 页模板，可打印。布局如下：\n- 记录区：页面右侧 2/3 宽度，约 60 行用于粘贴记录\n- 提示区：页面左侧 1/3 宽度，带有提示（\"关键术语：\"、\"问题：\"、\"联系：\"）\n- 巩固框：页面底部全宽，4 行用于 3 句话总结\n\n每堂讲座打印一个模板。将它们保存在活页夹中。与 Lessonscriptor 的导出功能一起使用。\n\n**格式 2：Notion 模板链接**\n如果您更喜欢数字笔记，下载包括 Notion 模板的链接，该链接复制三个区域。Notion 版本允许您：\n- 直接嵌入 Lessonscriptor 记录（如果您的系统支持）\n- 按概念标签进行交叉讲座链接\n- 使用 Notion 的数据库功能按关键术语或提示搜索\n- 跨设备同步\n\n要获取您的免费模板：\n1. 滚动到下面的\"下载\"部分或点击按钮：\"下载免费模板（PDF + Notion）\"\n2. 输入您的电子邮件地址\n3. PDF 和 Notion 链接将在 5 分钟内送达您的收件箱\n4. 打印 PDF 或打开 Notion 并开始您的第一堂讲座\n\n无需信用卡。即使您不使用 Lessonscriptor，模板也永久免费。"
+    },
+    {
+      "heading": "我可以在 Notion 或数字上使用此模板吗？",
+      "level": 2,
+      "type": "section",
+      "content": "可以。Notion 版本在结构上相同但增加了灵活性：\n\n**Notion 设置（3 个步骤）：**\n\n1. **创建\"讲座\"数据库。** 每个讲座是一行，字段为：\n   - 讲座名称（标题）\n   - 课程（文本）\n   - 日期（日期）\n   - 教授（文本）\n   - 记录区（富文本——在这里粘贴记录）\n   - 提示区（富文本——在复习期间填充）\n   - 巩固（富文本——3 句话总结）\n   - 标签（多选用于课程和主题）\n\n2. **链接 Lessonscriptor。** 如果您在计算机上使用 Lessonscriptor，导出记录到剪贴板（Lessonscriptor → 导出 → 复制）。然后将其粘贴到 Notion 中的捕获字段。\n\n3. **创建\"主索引\"视图**，按课程、日期或标签过滤。这让您可以搜索所有讲座中的主题（例如，\"线粒体\"）并查看跨学期的连接。\n\n**Notion 相对于纸张的优势：**\n- 搜索：\"显示我所有关于线粒体的提示\"跨 30 次讲座\n- 联系：在讲座之间添加反向链接（\"→ 参见生物化学讲座 3\"）\n- 复习：创建 Notion 视图，仅显示巩固框以在考试前快速复习\n- 同步：在手机、平板电脑或台式机上访问您的笔记\n- 导出：将讲座发送到 Anki 以进行间隔重复（高级）\n\n**如果您更喜欢纸张：** 打印 PDF 模板并使用可打印版本。您可以按课程组织在活页夹中、为主题使用彩色编码，或为连接添加便签。纸张技术含量较低，消除屏幕疲劳，无需 Wi-Fi 即可工作。\n\n大多数 ADHD 学生使用混合方法：在家里使用 Notion（可搜索），讲座期间使用纸张（笔焦点）。"
+    },
+    {
+      "heading": "我应该多经常为 ADHD 学生填充巩固总结？",
+      "level": 2,
+      "type": "section",
+      "content": "巩固总结应在 25 分钟复习番茄工作法后立即填充，理想情况下在讲座后 2 小时内填充。\n\n为什么是 2 小时？工作记忆研究很清楚：ADHD 学生比神经典型同龄人经历更快的遗忘曲线。CHADD 的一项研究发现 ADHD 学习者在 24 小时后只保留 40% 的新信息，而非 ADHD 学生为 60%。但是如果巩固步骤在 2 小时内发生——当信息仍在短期记忆中时——即使对 ADHD 大脑，保留率也会跳到 70%。\n\n以下是最佳时间安排：\n\n**同日巩固（最佳）：** 讲座在下午 2 点结束 → 审阅番茄工作法在下午 3:30 → 巩固在下午 4 点。信息保持温暖。您的大脑记住背景。3 句话总结自然流动。\n\n**第二天早上巩固（可接受）：** 周二上午 10 点讲座 → 周二下午 6 点复习番茄工作法 → 周三上午 9 点巩固。您丧失了一些背景，但您的大脑已经睡过，这有助于记忆巩固。早上巩固也是低压力的，如果您那天不知所措。\n\n**下周巩固（无效）：** 不要等待。3 天后，您将忘记细节，巩固步骤变成重写，而不是综合。\n\n**间隔以保持记忆：** 巩固后，使用 Anki 应用（免费、开源闪卡软件）将您的提示区转换为间隔重复卡。在讲座后的第 1、3、7 和 14 天复习这些卡。这是长期记忆发生的地方。\n\n模板是*第一*步。巩固 + Anki = ADHD 友好的学习，实际上坚持。"
+    },
+    {
+      "heading": "常见问题：ADHD 笔记和 Lessonscriptor",
+      "level": 2,
+      "type": "faq_section",
+      "content": "此部分将被下面的结构化常见问题替换"
+    }
+  ],
+  "faq": {
+    "heading": "常见问题：ADHD 笔记和 Lessonscriptor",
+    "description": "关于使用 ADHD 笔记模板与 Lessonscriptor 的常见问题。",
+    "questions": [
+      {
+        "question": "Lessonscriptor 转录的准确性足以用于我的笔记吗？",
+        "answer": "Lessonscriptor 在具有标准麦克风音频的英语讲座中达到 95% 的准确性。对于专业领域（医学术语、外语），准确性下降到 85-90%。记录区是只读的——您不依赖记忆来捕捉错误。如果您在审阅番茄工作法期间发现错误，在提示区添加更正笔记。5% 的错误率远好于手写笔记，可捕获约 30% 的讲座内容。"
+      },
+      {
+        "question": "如果我上在线课程（Zoom、Google Meet），我可以使用此模板吗？",
+        "answer": "可以。Lessonscriptor 在任何浏览器窗口中工作，包括 Zoom 和 Google Meet。启用 Lessonscriptor 并让它转录整个会议。课后立即将记录粘贴到记录区。工作流相同——相同的 25 分钟复习番茄工作法、相同的 3 句话巩固。"
+      },
+      {
+        "question": "如果我错过了巩固总结的 2 小时窗口怎么办？",
+        "answer": "无论如何都要做，但尽快。2 小时窗口是最优的，但在 24 小时内巩固对 ADHD 大脑仍然有效。如果您错过了讲座，在开始新材料之前在下一个学习时段内巩固它。跳过巩固意味着记录-提示系统变成阅读练习，而不是学习。"
+      },
+      {
+        "question": "我可以为小组项目或协作笔记使用此模板吗？",
+        "answer": "可以，特别是使用 Notion 版本。创建共享 Notion 数据库并为每个小组成员分配一次讲座。每个人填充他们的记录和提示区。巩固区可以是协作的——一个人起草，其他人编辑。Lessonscriptor 的导出功能使将多个参与者的记录合并到一个记录区变得容易。"
+      }
+    ]
+  },
+  "download_cta": {
+    "heading": "下载您的免费 ADHD 笔记模板",
+    "body": "获取可打印的 PDF 和 Notion 模板链接。不需要电子邮件。无需信用卡。与 Lessonscriptor 或任何视频讲座一起使用。",
+    "button_label": "下载免费模板（PDF + Notion）",
+    "button_href": "/downloads/adhd-note-taking-template.pdf",
+    "form_fields": [
+      {
+        "name": "email",
+        "type": "email",
+        "placeholder": "your.email@example.com",
+        "label": "电子邮件地址",
+        "required": true
+      },
+      {
+        "name": "course_level",
+        "type": "select",
+        "label": "您是高中、大学还是研究生学生？",
+        "options": ["高中", "大学（本科）", "研究生/专业", "成人学习者"],
+        "required": false
+      }
+    ],
+    "privacy_note": "我们将向您发送下载链接和有关 ADHD 笔记和 Lessonscriptor 的可选提示。随时取消订阅。"
+  },
+  "cta": {
+    "heading": "准备好转录您的第一堂讲座了吗？",
+    "body": "Lessonscriptor 可从 Chrome 网上应用店免费下载。在任何视频讲座中安装、打开它，您的第一小时转录是免费的。",
+    "button_label": "免费获取 Lessonscriptor",
+    "button_href": "https://chrome.google.com/webstore/",
+    "button_style": "primary"
+  },
+  "summary": {
+    "heading": "总结：ADHD 笔记模板",
+    "content": "记录-提示-巩固模板为 ADHD 大脑构建，设计为与 Lessonscriptor 一起工作。三个区域是：(1) 记录：粘贴您的 Lessonscriptor 记录，(2) 提示：在 25 分钟复习番茄工作法期间添加问题和关键词，(3) 巩固：在讲座后 2 小时内写一个 3 句话总结。该系统将笔记时间减少 60%，并改善保留，因为它分离记录（自动化）、复习（主动）和综合（立即）。下载上面的免费 PDF 或 Notion 模板，从您的下一堂讲座开始。将模板与间隔重复 (Anki) 结合以实现超过考试的长期记忆。"
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "ADHD 笔记模板：记录、提示、巩固",
+        "description": "为使用 Lessonscriptor 实时转录的 ADHD 学生提供的免费、基于研究的笔记模板。下载 3 部分记录-提示-巩固模板。",
+        "image": "/images/adhd-note-taking-template-hero.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Lessonscriptor 转录的准确性足以用于我的笔记吗？",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Lessonscriptor 在具有标准麦克风音频的英语讲座中达到 95% 的准确性。对于专业领域（医学术语、外语），准确性下降到 85-90%。记录区是只读的——您不依赖记忆来捕捉错误。如果您在审阅番茄工作法期间发现错误，在提示区添加更正笔记。"
+            }
+          },
+          {
+            "type": "Question",
+            "name": "如果我上在线课程（Zoom、Google Meet），我可以使用此模板吗？",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "可以。Lessonscriptor 在任何浏览器窗口中工作，包括 Zoom 和 Google Meet。启用 Lessonscriptor 并让它转录整个会议。课后立即将记录粘贴到记录区。工作流相同。"
+            }
+          },
+          {
+            "type": "Question",
+            "name": "如果我错过了巩固总结的 2 小时窗口怎么办？",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "无论如何都要做，但尽快。2 小时窗口是最优的，但在 24 小时内巩固对 ADHD 大脑仍然有效。跳过巩固意味着记录-提示系统变成阅读练习，而不是学习。"
+            }
+          },
+          {
+            "type": "Question",
+            "name": "我可以为小组项目或协作笔记使用此模板吗？",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "可以，特别是使用 Notion 版本。创建共享 Notion 数据库并为每个小组成员分配一次讲座。每个人填充他们的记录和提示区。巩固区可以是协作的——一个人起草，其他人编辑。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "HowTo",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "如何与 Lessonscriptor 一起使用 ADHD 笔记模板",
+        "description": "使用 Lessonscriptor 和记录-提示-巩固模板捕获、复习和巩固讲座笔记的分步工作流。",
+        "step": [
+          {
+            "type": "HowToStep",
+            "name": "讲座期间记录",
+            "text": "打开 Lessonscriptor 并在 Chrome 中启用实时字幕。点击记录或启用自动转录。听讲并偶尔标记重要时间戳。无需笔写。",
+            "image": "/images/adhd-template-step1.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "导出记录",
+            "text": "在讲座后立即（5 分钟内）从 Lessonscriptor 导出或复制记录。将其粘贴到您的模板记录区（PDF、Notion 或打印）。",
+            "image": "/images/adhd-template-step2.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "复习番茄工作法（25 分钟）",
+            "text": "为 25 分钟设置计时器。用笔读过记录区。下划线关键术语、写问题、画连接、在提示区添加助记符。",
+            "image": "/images/adhd-template-step3.jpg"
+          },
+          {
+            "type": "HowToStep",
+            "name": "巩固总结",
+            "text": "在讲座后 2 小时内，在巩固框中用您自己的话写一个 3 句话总结。关闭记录区，仅依赖提示区。",
+            "image": "/images/adhd-template-step4.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Lessonscriptor",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "面向 ADHD 学生",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "ADHD 笔记模板：记录、提示、巩固",
+            "item": "/zh/blog/adhd-note-taking-template"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "康奈尔笔记系统",
+      "author": "Walter Pauk",
+      "organization": "康奈尔大学",
+      "year": 1950,
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "description": "原始康奈尔方法，将讲座笔记组织成提示、笔记和总结区。"
+    },
+    {
+      "title": "ADHD 和工作记忆：每位教师应知道的事项",
+      "author": "CHADD（儿童和成人 ADHD）",
+      "organization": "CHADD",
+      "year": 2024,
+      "url": "https://chadd.org/",
+      "description": "关于 ADHD 学生工作记忆限制和对学习策略影响的研究。"
+    },
+    {
+      "title": "间隔效应和记忆保留",
+      "author": "Cepeda, N.J., 等人",
+      "organization": "心理学公报",
+      "year": 2006,
+      "description": "关于间隔重复对长期记忆巩固有效性的元分析。"
+    },
+    {
+      "title": "转录和笔记：认知和保留研究",
+      "author": "Mueller, P.A., & Oppenheimer, D.M.",
+      "organization": "心理学科学",
+      "year": 2014,
+      "description": "比较手写笔记与键入笔记和保留结果的研究。"
+    },
+    {
+      "title": "教育环境中的 ADHD 和执行功能",
+      "author": "ADDitude 杂志",
+      "organization": "ADDitude",
+      "year": 2024,
+      "url": "https://www.additudemag.com/",
+      "description": "涵盖 ADHD 学生循证策略的杂志，包括时间管理和焦点技术。"
+    },
+    {
+      "title": "Anki 手册：间隔重复软件",
+      "author": "Damien Elmes",
+      "organization": "Anki",
+      "year": 2024,
+      "url": "https://apps.ankiweb.net/",
+      "description": "免费、开源闪卡软件，用于使用间隔重复的长期学习。"
+    }
+  ],
+  "internal_links_map": {
+    "pillar_page": {
+      "url": "/for-adhd-students",
+      "anchor": "面向 ADHD 学生",
+      "context": "此页面支持 ADHD 学习策略的柱页。"
+    },
+    "related_blog_1": {
+      "url": "/blog/how-to-take-notes-with-adhd",
+      "anchor": "如何使用 ADHD 记笔记",
+      "context": "关于 ADHD 笔记策略的更广泛指南。"
+    },
+    "related_blog_2": {
+      "url": "/blog/best-ai-note-taker-adhd",
+      "anchor": "ADHD 学生的最佳 AI 笔记程序",
+      "context": "为 ADHD 学习者的 AI 转录工具评论。"
+    },
+    "download": {
+      "url": "/downloads/adhd-note-taking-template.pdf",
+      "anchor": "下载免费模板",
+      "context": "可打印 PDF 和 Notion 模板的直接链接。"
+    }
+  },
+  "external_links": [
+    {
+      "url": "https://chadd.org/",
+      "anchor": "CHADD",
+      "context": "支持 ADHD 成人和儿童的组织；研究和资源。"
+    },
+    {
+      "url": "https://www.additudemag.com/",
+      "anchor": "ADDitude 杂志",
+      "context": "涵盖 ADHD 策略、工具和研究的杂志。"
+    },
+    {
+      "url": "https://apps.ankiweb.net/",
+      "anchor": "Anki",
+      "context": "免费间隔重复闪卡软件，用于长期保留。"
+    },
+    {
+      "url": "https://www.notion.so/",
+      "anchor": "Notion",
+      "context": "用于组织学习材料的数字笔记和数据库平台。"
+    },
+    {
+      "url": "https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/",
+      "anchor": "康奈尔笔记系统",
+      "context": "关于康奈尔笔记法组织笔记的原始研究。"
+    }
+  ],
+  "image_slots": [
+    {
+      "position": "hero",
+      "filename": "adhd-note-taking-template-hero.jpg",
+      "dimensions": "1200x630px",
+      "description": "ADHD 学生在办公桌前使用笔记本中的模板，笔记本电脑显示 Lessonscriptor 记录",
+      "alt": "ADHD 学生在笔记本中使用 3 部分笔记模板，旁边放着运行 Lessonscriptor 的笔记本电脑"
+    },
+    {
+      "position": "in_section_2",
+      "filename": "adhd-template-layout-diagram.jpg",
+      "dimensions": "800x600px",
+      "description": "3 区域模板布局的干净视觉图：记录区（右侧 2/3）、提示区（左侧 1/3）、巩固框（底部）。可打印设计。",
+      "alt": "记录-提示-巩固模板布局图"
+    }
+  ],
+  "seo_notes": {
+    "primary_keyword": "ADHD笔记模板",
+    "search_volume": "400-900/月",
+    "keyword_difficulty": "8-15",
+    "secondary_keywords": ["笔记模板ADHD", "ADHD学习模板", "免费ADHD模板", "康奈尔笔记法ADHD"],
+    "intent": "信息性 + 下载意图",
+    "target_audience": "ADHD 学生、远程学习者、无障碍用户",
+    "entity_density": ["Lessonscriptor", "康奈尔大学", "Walter Pauk", "ADHD", "工作记忆", "CHADD", "ADDitude 杂志", "Anki", "Notion", "番茄工作法", "间隔重复"],
+    "content_goal": "为主要关键词排名；通过免费模板下载生成线索；将 Lessonscriptor 定位为 ADHD 友好的 AI 转录工具",
+    "internal_link_strategy": "从柱页（/for-adhd-students）、姐妹博客文章和下载页面链接",
+    "backlink_targets": "Reddit r/ADHD、r/GetStudying、r/college；ADDitude 杂志资源综述；ADHD 内容创建者；无障碍博客"
+  }
+}

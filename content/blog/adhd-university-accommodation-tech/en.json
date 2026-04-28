@@ -1,0 +1,373 @@
+{
+  "slug": "adhd-university-accommodation-tech",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "ADHD University Accommodations: What Technology Your School Must Provide (And What You Can Install Today)",
+  "meta": {
+    "title": "ADHD University Accommodations: Technology Guide for Students 2026",
+    "description": "Your legal right to ADHD accommodations at university includes note-taker support, live captions, and assistive tech. Discover what your school must provide—and what you can use immediately without approval.",
+    "keyword": "ADHD university accommodations technology",
+    "secondary_keywords": [
+      "ADHD college student tools",
+      "technology for ADHD students university",
+      "ADHD study accommodations tech",
+      "university disability accommodations ADHD"
+    ]
+  },
+  "reading_time_min": 18,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "author": {
+    "name": "Lessonscriptor Editorial Team",
+    "bio": "The Lessonscriptor Editorial Team researches accessibility technology, educational accommodations, and study tools for neurodivergent learners. We work with disability services offices and ADHD advocacy organizations to ensure our guidance reflects current legal frameworks and practical classroom needs.",
+    "role": "Learning & Accessibility Specialists"
+  },
+  "hero_image": {
+    "src": "/images/adhd-student-disability-office.jpg",
+    "alt": "ADHD university student meeting with a disability services advisor in a campus office",
+    "width": 1200,
+    "height": 630,
+    "caption": "ADHD students have legal rights to classroom accommodations—and technology can often fulfill them faster than traditional processes."
+  },
+  "tldr": {
+    "title": "Quick Summary: Your Rights & Your Options",
+    "points": [
+      "ADHD students at university are legally entitled to reasonable accommodations under the ADA (US) or Equality Act 2010 (UK), including note-taking support, extended time, and assistive technology.",
+      "Technology-based accommodations fall into two categories: university-provisioned (Glean, Jamworks, Kaltura) requiring institutional licensing and accommodation paperwork, and student-installed tools (Lessonscriptor, speech-to-text software) requiring no approval.",
+      "Lessonscriptor replicates note-taker support by transcribing any video in real time inside Chrome—without requiring your university to adopt it, your accommodation letter, or a subscription.",
+      "If you haven't registered with your university's Disability Support Services yet, start that process now—but you can start using self-install tools like Lessonscriptor today while your accommodation request is pending."
+    ]
+  },
+  "intro": "ADHD students navigating university are legally entitled to reasonable accommodations—and the most impactful one is often note-taking support. The challenge: traditional accommodations require disability office approval, accommodation letters, and sometimes weeks of processing. Technology can close that gap. Some tools, like Glean and Jamworks, require your university to partner with the vendor. Others, like Lessonscriptor, you can install yourself today, free, and start using immediately. This guide walks through your legal rights, what universities must provide, and which technology solutions work without institutional approval.",
+  "stats": [
+    {
+      "number": "2.1M",
+      "label": "US college students with ADHD",
+      "source": "CHADD",
+      "type": "percentage_context"
+    },
+    {
+      "number": "14%",
+      "label": "of US undergraduates registered with disability services",
+      "source": "US Department of Education",
+      "type": "percentage_context"
+    },
+    {
+      "number": "73%",
+      "label": "of ADHD students report note-taking as their top accommodation need",
+      "source": "ADDitude Magazine ADHD Survey 2025",
+      "type": "percentage_context"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section_1",
+      "heading_level": "h2",
+      "heading": "What Technology Accommodations Are ADHD Students Entitled to at University?",
+      "content": "Under US federal law (the Americans with Disabilities Act, or ADA, specifically Section 504), and in the UK under the Equality Act 2010, students with ADHD are entitled to 'reasonable adjustments' that level the playing field in the classroom. These accommodations are not extras—they are your legal right.\n\nFor ADHD specifically, this means:\n\n**Note-taking support.** Your university must ensure you have access to accurate notes from lectures. This can be a human note-taker, automated transcription, or permission to record lectures yourself. Most universities interpret this broadly to include digital tools.\n\n**Extended exam time.** Time-blindness and working memory challenges are hallmarks of ADHD. You are entitled to request 25–50% extra time on tests, quizzes, and exams.\n\n**Recording rights.** Many universities allow ADHD students to audio or video record lectures—either for personal use or to use with transcription software.\n\n**Assistive software and hardware.** Speech-to-text tools, text-to-speech readers, distraction blockers, and noise-cancelling headphones all qualify. Some universities provide these; others expect students to self-source them.\n\n**Flexible attendance and deadline policies.** Executive function is impaired in ADHD; universities may adjust deadlines, allow medical withdrawals without penalty, or permit asynchronous participation in synchronous classes.\n\n**Captioning and live transcription.** Video lectures, recorded content, and live classroom discussion must be captioned or transcribed if you request it.\n\nThese are not special favors. They are accommodations required by law to ensure ADHD students have the same access to education as their non-ADHD peers. The key is knowing how to request them and which tools can fulfill them fastest.",
+      "internal_links": [
+        {
+          "text": "Check what tools don't require institutional approval",
+          "url": "#section_8"
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "heading_level": "h2",
+      "heading": "What Is a Note-Taker Accommodation and How Does Technology Replace It?",
+      "content": "The 'note-taker accommodation' is one of the oldest classroom adjustments in the book. Traditionally, it works like this: a student with ADHD gets approved for an accommodation letter that states they need note-taking support. The university finds another student willing to share their notes (via carbon paper, photocopying, or digital upload). The note-taker benefits from a small stipend, the ADHD student gets notes, everyone wins.\n\nBut this system has problems: it's slow, it depends on finding a willing note-taker, and it only works if someone is present in the lecture. For online classes, hybrid lectures, or asynchronous video content, traditional note-takers don't scale.\n\nThat is where live transcription technology comes in. Instead of another person writing notes, a software tool transcribes the audio in real time. You get a searchable, editable record of everything said in the lecture—without waiting for accommodation approval, without relying on another student, and without being present.\n\nThere are two kinds of live transcription tools:\n\n**University-provisioned tools** (Glean, Jamworks, Kaltura, Microsoft Teams auto-captions): Your university adopts the platform, integrates it with your course management system (Canvas, Blackboard), and provisions it to you as part of your accommodation. The upside: your school pays for it, it's integrated into your workflow, and it's officially part of your accommodation letter. The downside: it requires your university to have already partnered with the vendor, and you need to go through the formal accommodation process first (which can take 2–8 weeks).\n\n**Self-install tools** (Lessonscriptor, OtterAI, Fireflies, Otter.ai): You install the tool yourself, often for free or as a freemium model, and it works on any video you're watching—lectures, YouTube tutorials, recorded seminars, even peer video calls. The upside: you can start today, no institutional approval needed, and you're not locked into your school's vendor. The downside: you're responsible for learning the tool, and while it fulfills the 'note-taker accommodation' requirement, it's not officially part of your accommodation package (though it often works equally well or better).\n\nLessonscriptor falls into the second category. It's a Chrome extension that captures live transcription from any video in your browser. Because it works on any video platform (not just lectures in Canvas or Zoom), you get note-taker-level support for YouTube tutorials, asynchronous videos, one-off seminar recordings, and anything else you watch. No paperwork, no waiting, no institutional licensing required.",
+      "internal_links": [
+        {
+          "text": "Learn more about Lessonscriptor for ADHD students",
+          "url": "/for-adhd-students"
+        },
+        {
+          "text": "How to take notes with ADHD",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "heading_level": "h2",
+      "heading": "Does Lessonscriptor Require a University Accommodation Letter?",
+      "content": "No. Lessonscriptor does not require:\n\n- An accommodation letter from your university\n- Formal registration with Disability Support Services (DSS)\n- Institutional licensing or partnership\n- An ADHD diagnosis (though if you have one, it helps contextualize why you're using it)\n- A subscription or payment (free mode available)\n- Approval from your professor, TA, or department\n\nYou download the Chrome extension, install it, and start using it immediately. It works on any video your browser can access: YouTube, Vimeo, Zoom recordings, course video platforms, webinars, tutorials—anything.\n\nThis is a meaningful difference from Glean and Jamworks, which are institutional-only platforms. If your university hasn't adopted them, you can't use them. Lessonscriptor bypasses that bottleneck entirely.\n\n**Why this matters for ADHD students:** Working memory is a core ADHD challenge. Lectures move fast, and even attentive note-taking leaves gaps. A live transcript gives you a complete record you can search, copy, and review at your own pace—without the executive function burden of 'keeping up' during the lecture itself. You can focus on understanding concepts instead of racing to write them down.\n\n**A strategic tip:** Using Lessonscriptor while waiting for formal accommodations is smart. You get immediate support while your disability office processes your accommodation request. Once you have your accommodation letter, you have options: keep using Lessonscriptor, request that your university adopt a provisioned tool like Glean, or use both in parallel. The choice is yours.",
+      "internal_links": [
+        {
+          "text": "Start using Lessonscriptor for free",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "heading_level": "h2",
+      "heading": "What Other Technology Do Universities Provide for ADHD Students?",
+      "content": "Beyond note-taker support, universities offer a range of assistive technology for ADHD. These are typically requested through your Disability Support Services office and listed in your official accommodation letter.\n\n**Speech-to-text software.** Tools like Dragon NaturallySpeaking allow you to dictate assignments, emails, and forum posts instead of typing. For ADHD students with motor planning challenges or perfectionism paralysis, this can be transformative. Some universities provide these; others expect students to purchase their own.\n\n**Text-to-speech and screen readers.** JAWS, NVDA, and built-in OS screen readers read text aloud as you move your cursor. This is especially useful for reading dense textbooks, journal articles, and lecture slides—it activates multiple sensory channels and helps combat focus-drift.\n\n**Distraction-blocking software.** Freedom, Cold Turkey, and LeechBlock disable websites and apps during study sessions. Many universities don't formally 'provide' these, but they recognize them as accommodation-compatible tools and allow students to use them during exams or study halls.\n\n**Extended exam time in proctored environments.** For standardized tests (GRE, GMAT, LSAT) and major exams, universities provide rooms where you get 25–50% extra time, reduced distractions, breaks, and sometimes a scribe or speech-to-text tool.\n\n**Digital note-taking devices.** iPads with stylus, Microsoft Surface devices, or ChromeOS tablets with stylus support. Some students find digital note-taking less executive-function-intensive than handwriting, and it integrates well with lecture recordings.\n\n**Noise-reducing headphones or priority access to quiet study spaces.** Sensory overload is real in ADHD. Universities often provide priority access to quiet library rooms, noise-cancelling headphone equipment, or single dorm rooms to minimize distraction.\n\n**Captioning and CART (Communication Access Realtime Translation).** For live lectures, seminars, and events, universities provide real-time human captioning (CART) or automated live captions. These must be provided at no cost to the student.\n\n**Flexible exam formats.** Oral exams instead of written, take-home exams, or exams administered in a low-pressure setting instead of a large lecture hall.\n\nTo access these, you must:\n\n1. Register with your university's Disability Support Services (DSS)\n2. Provide documentation of your ADHD diagnosis (usually a letter from a diagnostician, clinician, or neuropsychologist)\n3. Request specific accommodations in writing\n4. Work with DSS to build your accommodation letter\n5. Share that letter with your professors and relevant departments\n\nThis process typically takes 2–8 weeks. Start it now if you haven't already.",
+      "internal_links": [
+        {
+          "text": "Best ADHD study apps for 2026",
+          "url": "/blog/best-apps-adhd-students-2026"
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "heading_level": "h2",
+      "heading": "How Do I Register with My University Disability Office for ADHD Accommodations?",
+      "content": "The process is similar across most universities, but always check your school's specific website—Disability Support Services, Accessibility Office, or Student Accommodations (naming varies).\n\n**Step 1: Gather your documentation.**\nYou'll need proof of an ADHD diagnosis from a qualified professional. This is typically:\n- A letter from a licensed psychologist, neuropsychologist, or physician stating: the diagnosis, the date of diagnosis, relevant test scores (if available), functional limitations in an academic setting, and recommended accommodations.\n- Some universities accept evaluations from school psychologists; others require clinical psychologists or medical doctors. Check your school's requirements.\n- If you were diagnosed as a child, that documentation still counts—but a more recent evaluation (within 3 years) is often preferred.\n- If you can't afford a new evaluation, many universities have grants or partnerships with local clinics offering reduced-cost assessments.\n\n**Step 2: Contact Disability Support Services.**\nFind your DSS office on your university website. They usually have an intake form to fill out or an appointment to book. Contact them early in the term (even before classes start, if possible).\n\n**Step 3: Submit your documentation.**\nOnce you meet with DSS, submit your diagnosis letter and any supporting documentation they request. They will review it to confirm that ADHD is a 'disability' under the ADA (it is) and that you're entitled to accommodations.\n\n**Step 4: Request specific accommodations in writing.**\nDSS will ask you which accommodations you need. Be specific: \"note-taker support or live transcription of lectures,\" \"25% extended exam time,\" \"permission to record lectures,\" etc. If you're unsure what to request, ask the DSS counselor for guidance—they work with ADHD students all the time.\n\n**Step 5: Receive your accommodation letter.**\nOnce approved, DSS will give you an official accommodation letter to share with your professors. Some schools provide a digital version; others print it. You control who sees it—you're not required to disclose to anyone, but professors need to know to grant accommodations.\n\n**Step 6: Communicate with your professors.**\nAt the start of each semester, email each professor with your accommodation letter. Many students send it privately before the first week of class. The email can be simple: \"Hi Professor X, I have approved accommodations for [accommodation type]. I've attached my letter. Please let me know if you need any clarifications.\"\n\n**Timeline:** This entire process typically takes 2–8 weeks, depending on how quickly DSS receives your documentation and their current workload. If accommodations are time-sensitive (e.g., you have an exam next week), flag that when you first contact DSS—they can sometimes fast-track approval.\n\n**Cost:** Official disability registration and accommodation letters are free at most universities. Some schools charge a small fee ($0–$100); a few charge more. Check your school's fee structure.\n\n**Key point for this post:** While you're waiting for official accommodations, you can use self-install tools like Lessonscriptor immediately. You don't need an accommodation letter to benefit from note-taker technology—you need it to ensure your university legally recognizes your accommodations and can't punish you for using them.",
+      "internal_links": []
+    },
+    {
+      "id": "section_6",
+      "heading_level": "h2",
+      "heading": "What Technology Can ADHD Students Use Without Accommodation Approval?",
+      "content": "This is the most practical section: tools you can use right now, today, without waiting for disability office approval, without an accommodation letter, without your professor's permission, and usually for free or low cost.\n\n**Live transcription and note-taking:**\n- **Lessonscriptor** (free mode, Chrome extension): Captures live transcription from any video in Chrome. Works on YouTube, course platforms, recorded seminars, peer video calls. Edit, search, export, and highlight directly in Lessonscriptor.\n- **Otter.ai** (free monthly tier, mobile app or web): Records and transcribes audio from lectures, meetings, or voice memos. Cloud-based, so you can access transcripts from any device.\n- **Fireflies.ai** (free for personal use, web): Records and transcribes Zoom, Teams, Google Meet, and dial-in calls. Integrates with your calendar.\n\n**Speech-to-text (for writing assignments):**\n- **Built-in OS speech-to-text:** Windows Dictation, macOS Dictation, Chrome OS Voice Typing, and iOS/Android dictation are all free and improve with use.\n- **Google Docs voice typing** (free): Open a Google Doc, click Tools > Voice typing, and dictate your essays. Surprisingly accurate and ADHD-friendly because you're not staring at a blank page.\n\n**Spaced repetition and memory:**\n- **Anki** (free, open-source): Create flashcards, and Anki schedules them for optimal memory retention. Great for ADHD because it removes the decision-making about *when* to study.\n- **Quizlet** (free with ads, paid option): Similar to Anki but more visual. Thousands of pre-made study sets for common courses.\n\n**Distraction management:**\n- **Focus@Will** (free trial, paid): Scientifically-backed focus music designed for ADHD brains. Removes decision fatigue about what to listen to.\n- **Brain.fm** (free trial, paid): Similar—music designed to improve focus and reduce stress during study sessions.\n- **Freedom** (paid, but affordable): Blocks distracting websites and apps across all your devices. Many universities recognize this as accommodation-compatible.\n- **Cold Turkey** (free for basic, paid for advanced): Even more aggressive than Freedom—once you block something, you can't unblock it until the timer expires.\n\n**Organizational and task management:**\n- **Goblin Tools** (free, web-based): A suite of tiny tools built specifically for neurodivergent brains. The \"Magic ToDo\" and \"Formalizer\" are especially helpful for ADHD.\n- **Todoist** (free tier, paid for advanced): Simple task management with recurring tasks, priorities, and reminders. Less overwhelming than Notion for ADHD.\n- **Notion** (free): Customizable all-in-one workspace. Steep learning curve, but powerful once you set it up.\n\n**Reading and comprehension:**\n- **Bionic Reading** (free browser extension): Bolds the first letters of words to guide your eye and reduce re-reading. Works on any website or PDF.\n- **Kindle's built-in text-to-speech** (free if you own the book): Narrates e-books aloud. Great for textbooks and long reading assignments.\n- **Natural Reader** (free version, paid for advanced): Converts PDFs, web articles, and documents to speech.\n\n**Why these matter:** Every one of these tools replicates an accommodation without requiring institutional approval. You can start using them today. If your university later requires you to use their official tools (like Glean), fine—but until then, you have immediate access to functional alternatives. And many ADHD students use both: the university-provisioned tool for official lectures and the self-install tool for everything else.",
+      "comparison_table": {
+        "title": "University-Provisioned vs. Self-Install Tools for Note-Taking",
+        "rows": [
+          {
+            "category": "University-Provisioned Tools (Glean, Jamworks, Kaltura)",
+            "cost": "Free (university pays)",
+            "setup": "Your school must adopt it",
+            "approval_required": "Yes, accommodation letter needed",
+            "works_on_any_video": "Only videos in your LMS or Zoom",
+            "start_using": "2–8 weeks after accommodation approval",
+            "examples": "Glean, Jamworks, Kaltura, Microsoft Teams auto-captions"
+          },
+          {
+            "category": "Self-Install Tools (Lessonscriptor, Otter.ai, Fireflies)",
+            "cost": "Free or freemium",
+            "setup": "You install it yourself",
+            "approval_required": "No",
+            "works_on_any_video": "Yes, any video in Chrome or online",
+            "start_using": "Today",
+            "examples": "Lessonscriptor, Otter.ai, Fireflies, Google Docs voice typing"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section_7",
+      "heading_level": "h2",
+      "heading": "US vs. UK: Key Differences in ADHD University Accommodations",
+      "content": "ADHD accommodation frameworks differ significantly between the US and UK. If you're studying internationally or comparing systems, here's what you need to know.\n\n**United States:**\n- **Legal framework:** Americans with Disabilities Act (ADA), Section 504 of the Rehabilitation Act, and the ADA Amendments Act (ADAAA) of 2008.\n- **Who is covered:** Section 504 covers any condition (physical or mental) that substantially limits a major life activity. ADHD qualifies if it impacts learning, memory, concentration, or executive function.\n- **Responsibility:** Universities are legally required to provide accommodations. If they refuse, students can file a complaint with the US Department of Education's Office for Civil Rights (OCR).\n- **Accommodation letter:** Not legally required for accommodations to be valid, but universities typically issue one and require students to share it with professors.\n- **Cost to student:** Accommodations are free. Universities cannot charge students for providing them.\n- **Coverage:** Extends to K-12, colleges, graduate schools, and professional schools (law, medicine, etc.).\n- **Documentation:** A diagnosis letter from a qualified clinician (psychologist, neuropsychologist, physician). Schools can request updated evaluations if they have reason to believe the earlier one is outdated.\n- **Appeals process:** If DSS denies your request, you can appeal internally or file a complaint with the Office for Civil Rights.\n\n**United Kingdom:**\n- **Legal framework:** Equality Act 2010, which classifies ADHD as a disability if it has a 'substantial and long-term adverse effect' on normal day-to-day activities.\n- **Who is covered:** Any student with a disability diagnosis. ADHD qualifies if it affects learning, time management, or attention in a substantial way.\n- **Responsibility:** Universities are required to make 'reasonable adjustments' to prevent students with disabilities from being disadvantaged. This includes providing technology, extended time, alternative exam formats, and note-taking support.\n- **Accommodation letter:** Universities issue a 'Disability Profile' or 'Support Plan' rather than a traditional accommodation letter. This outlines approved adjustments and is shared with departments and examiners.\n- **Cost to student:** Accommodations are free. Universities may offer additional support services (e.g., one-on-one coaching) for a fee, but core accommodations are provided at no cost.\n- **Coverage:** Applies to all UK universities and higher education institutions. Similar protections exist for A-Levels and GCSEs.\n- **Documentation:** A diagnosis letter from a qualified clinician (GP, clinical psychologist, or psychiatrist). The university may request an educational assessment to determine specific accommodations.\n- **Appeals process:** If the university denies adjustments, students can escalate internally or file a complaint with the Office of the Independent Adjudicator (OIA) for Higher Education.\n- **Disclosure:** In the UK, universities often ask about disabilities during the application process. Disclosure is optional, but many students find it helpful to flag ADHD early so DSS can support them from day one.\n\n**Practical comparison:**\n- Both systems legally require universities to accommodate ADHD students.\n- The US is more explicit about ADHD being a covered disability (thanks to the ADAAA); the UK applies a 'substantial disadvantage' test, which is usually met.\n- The US uses 'accommodation letters'; the UK uses 'support plans' or 'disability profiles'—but the intent is the same.\n- Both systems allow students to use assistive technology (including Lessonscriptor) without requiring institutional approval.\n- Neither system requires a university partnership or institutional licensing for self-install tools like Lessonscriptor.\n\n**For international ADHD students:** If you're studying abroad, check whether your home country's disability documentation is recognized. Some universities accept US diagnoses for UK study and vice versa; others require a local assessment. Contact the host university's disability office early to clarify.",
+      "internal_links": []
+    },
+    {
+      "id": "section_8",
+      "heading_level": "h2",
+      "heading": "Building Your ADHD University Tech Stack (Without Waiting for Approval)",
+      "content": "Here's a practical playbook: the minimal set of tools every ADHD university student should use, starting today, while your official accommodation request is pending.\n\n**For lectures and recorded content:**\n- Install **Lessonscriptor** (free, Chrome). Transcribe lectures, recorded seminars, and tutorial videos. You get searchable, editable notes without relying on another student or waiting for your university to adopt a specific platform.\n\n**For writing assignments:**\n- Use **Google Docs voice typing** (free, integrated). Dictate your essays and papers. Helps overcome perfectionism paralysis and reduces the barrier to starting.\n- Backup: **Otter.ai** (free tier) for more complex transcription if you're dictating lengthy assignments.\n\n**For memory and studying:**\n- Set up **Anki** (free) with flashcards from your courses. Let it handle the decision about when to review—one less executive function task for your ADHD brain.\n\n**For focus sessions:**\n- Use **Freedom** or **Cold Turkey** (paid, but affordable) to block distracting websites during study time. Pick one and commit to it for a week—you'll be amazed at the difference.\n\n**For task management:**\n- Choose **Todoist** (free tier) or **Goblin Tools** (free). Pick one and use it religiously. The goal is to externalize your task list so you don't have to hold it in working memory.\n\n**Once your accommodation letter arrives:**\n- Share it with each professor within the first week of classes.\n- Ask whether your university offers Glean, Jamworks, or similar institutional tools. If yes, consider using them in parallel with Lessonscriptor (belt and suspenders).\n- If your university doesn't offer institutional transcription tools, Lessonscriptor becomes your primary note-taking accommodation.\n\n**The key insight:** You don't need to wait for bureaucracy to start supporting your ADHD brain. Lessonscriptor and the other tools in this list are available now, they work, and they're legal—whether or not you have an official accommodation letter. Use them, build confidence in what works for you, and then integrate them into your formal accommodation plan once DSS approves it.",
+      "internal_links": [
+        {
+          "text": "Explore our full guide to neurodivergent study tools",
+          "url": "/blog/neurodivergent-study-tools"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "type": "primary",
+    "heading": "Start Transcribing Lectures Today—Free, No Approval Required",
+    "description": "Lessonscriptor captures live transcription from any video in Chrome. Install it free, use it immediately, and get the note-taker support you're entitled to.",
+    "button_text": "Install Lessonscriptor Free",
+    "button_url": "/",
+    "secondary_cta": {
+      "text": "Learn more about ADHD-friendly tools",
+      "url": "/for-adhd-students"
+    }
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "Do I need an ADHD diagnosis to use Lessonscriptor?",
+        "answer": "No. Lessonscriptor works for anyone who wants transcriptions of videos—you don't need a diagnosis to install it or use it. That said, if you have an ADHD diagnosis, Lessonscriptor is an excellent way to get note-taking support while your accommodation request is pending."
+      },
+      {
+        "question": "Can my professor prohibit me from using Lessonscriptor in class?",
+        "answer": "Once you have an official accommodation letter for note-taking or transcription, your professor cannot prohibit it—it's a legal accommodation. If you're using Lessonscriptor without an accommodation letter, your professor can theoretically object, but it's rare (most professors don't object to a student recording or transcribing lectures). If you're unsure, check your university's recording policy or ask your professor directly."
+      },
+      {
+        "question": "Is Lessonscriptor better than my university's note-taker accommodation?",
+        "answer": "They're different. A human note-taker is present in real time and can flag important concepts; Lessonscriptor gives you a complete, searchable transcript of everything said. Most ADHD students find the transcript more valuable because it's complete and doesn't require keeping up during the lecture. If your university offers Glean or Jamworks, try both and see what works best for your brain."
+      },
+      {
+        "question": "What if my university doesn't have a Disability Support Services office?",
+        "answer": "All accredited universities and colleges in the US and UK are required by law to have a disability accommodations office, even if it goes by a different name (Accessibility Services, Student Support, Equal Opportunity Office, etc.). Start by contacting your student affairs office or searching your university website for 'disability' or 'accommodations.' If you genuinely can't find it, contact the main student services office and ask them to direct you."
+      },
+      {
+        "question": "How long does it take to get an accommodation letter for ADHD?",
+        "answer": "Typically 2–8 weeks from when you first contact Disability Support Services. If you already have recent diagnosis documentation (within 3 years), it's usually faster (1–3 weeks). If you need a new evaluation, that adds 2–4 weeks depending on clinician availability. Start the process early in the academic year—the sooner you contact DSS, the sooner you have accommodations in place."
+      },
+      {
+        "question": "Can I use Lessonscriptor on tests or exams?",
+        "answer": "Not on proctored exams (in-person or online-proctored). Lessonscriptor requires installing a Chrome extension, which isn't allowed in most exam environments. For official exams, use your university's accommodation: extended time, a separate test room, or a scribe. Lessonscriptor is best for lectures, tutorials, and study sessions—not exams. If you need transcription on exams (e.g., for a hearing accommodation), request speech-to-text software or a scribe as part of your official accommodation letter."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "The Bottom Line: Your Rights, Your Choices, Your Tools",
+    "content": "ADHD students at university are legally entitled to accommodations—including note-taking support, extended time, and assistive technology. The system varies by country (ADA in the US, Equality Act in the UK), but the principle is the same: universities must provide reasonable adjustments so ADHD students aren't disadvantaged in learning.\n\nThe fastest path to support isn't always through the formal accommodation office. While you're waiting for your disability services approval, you can use self-install tools like Lessonscriptor to get immediate access to note-taking technology. No paperwork, no wait, no institutional approval required.\n\nOnce your accommodation letter arrives, you'll have additional options: institutional tools like Glean or Jamworks, official assistive software, and extended exam time. But you don't have to wait for any of that to get started. Install Lessonscriptor, set up Anki and Todoist, use Google Docs voice typing, and build a tech stack that works for your ADHD brain right now.\n\nContact your university's Disability Support Services office this week. Submit your documentation. Request specific accommodations. But in the meantime, start using the tools available to you today. Your academic success doesn't have to wait for bureaucracy."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "properties": {
+        "headline": "ADHD University Accommodations: What Technology Your School Must Provide (And What You Can Install Today)",
+        "description": "Your legal right to ADHD accommodations at university includes note-taker support, live captions, and assistive tech. Discover what your school must provide—and what you can use immediately without approval.",
+        "image": "/images/adhd-student-disability-office.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "properties": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Do I need an ADHD diagnosis to use Lessonscriptor?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "No. Lessonscriptor works for anyone who wants transcriptions of videos—you don't need a diagnosis to install it or use it. That said, if you have an ADHD diagnosis, Lessonscriptor is an excellent way to get note-taking support while your accommodation request is pending."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Can my professor prohibit me from using Lessonscriptor in class?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Once you have an official accommodation letter for note-taking or transcription, your professor cannot prohibit it—it's a legal accommodation. If you're using Lessonscriptor without an accommodation letter, your professor can theoretically object, but it's rare (most professors don't object to a student recording or transcribing lectures)."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "How long does it take to get an accommodation letter for ADHD?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Typically 2–8 weeks from when you first contact Disability Support Services. If you already have recent diagnosis documentation (within 3 years), it's usually faster (1–3 weeks). Start the process early in the academic year."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "properties": {
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "For ADHD Students",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "ADHD University Accommodations: Technology Guide",
+            "item": "/blog/adhd-university-accommodation-tech"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CHADD: Higher Education and ADHD",
+      "url": "https://chadd.org/for-adults/higher-education/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "ADDitude Magazine: College Success for ADHD Students",
+      "url": "https://www.additudemag.com/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Americans with Disabilities Act (ADA) — Official Guidance",
+      "url": "https://www.ada.gov/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Equality Act 2010 — UK Guidance on Disability Rights in Education",
+      "url": "https://www.gov.uk/guidance/equality-act-2010-guidance",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Russell Barkley: ADHD and Executive Function Research",
+      "url": "https://www.russellbarkley.org/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "US Department of Education: Section 504 and IDEA",
+      "url": "https://www2.ed.gov/about/offices/list/ocr/504faq.html",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Anki: Spaced Repetition Learning Tool",
+      "url": "https://apps.ankiweb.net/",
+      "access_date": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/neurodivergent-study-tools",
+      "/blog/best-apps-adhd-students-2026"
+    ],
+    "homepage": "/",
+    "product": "/",
+    "comparison": "/compare/otter-ai-alternative"
+  },
+  "tags": [
+    "ADHD",
+    "University",
+    "Accommodations",
+    "Technology",
+    "Students",
+    "Accessibility",
+    "Note-taking",
+    "Legal Rights",
+    "Distance Learning",
+    "Study Tools"
+  ],
+  "image_assets": [
+    {
+      "id": "hero_adhd_student",
+      "type": "hero",
+      "filename": "adhd-student-disability-office.jpg",
+      "alt": "ADHD university student meeting with a disability services advisor in a campus office",
+      "dimensions": "1200x630",
+      "caption": "ADHD students have legal rights to classroom accommodations—and technology can often fulfill them faster than traditional processes."
+    },
+    {
+      "id": "comparison_table_visual",
+      "type": "infographic",
+      "filename": "accommodation-tools-comparison.png",
+      "alt": "Comparison table showing university-provisioned tools (Glean, Jamworks) vs. self-install tools (Lessonscriptor, Otter.ai)",
+      "dimensions": "1000x600",
+      "caption": "University-provisioned tools require institutional adoption; self-install tools let you start today."
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "slug": "adhd-university-accommodation-tech",
+  "page_type": "blog_post",
+  "category_tag": "ADHS und Lernen",
+  "h1": "ADHS Universitätsanpassungen: Welche Technologie Ihre Schule Bereitstellen Muss (und Was Sie Heute Selbst Installieren Können)",
+  "meta": {
+    "title": "ADHS Universitätsanpassungen: Technologie-Leitfaden für Studenten 2026",
+    "description": "Ihr gesetzliches Recht auf ADHS-Anpassungen an der Universität umfasst Schreiberhilfe, Live-Captions und Hilfstechnologie. Erfahren Sie, was Ihre Schule bereitstellen muss und was Sie sofort ohne Genehmigung nutzen können.",
+    "keyword": "ADHS Universitätsanpassungen Technologie",
+    "secondary_keywords": [
+      "ADHS Studentenwerkzeuge Universität",
+      "Technologie für ADHS Studenten",
+      "ADHS Studierenden Anpassungen Technologie",
+      "Universitäre Behindertenanpassungen ADHS"
+    ]
+  },
+  "reading_time_min": 18,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "author": {
+    "name": "Lessonscriptor Redaktionsteam",
+    "bio": "Das Lessonscriptor Redaktionsteam recherchiert Hilfstechnologie, pädagogische Anpassungen und Studienwerkzeuge für neurodivergente Lernende. Wir arbeiten mit Behindertenbüros und ADHS-Interessenvertretungen zusammen, um sicherzustellen, dass unsere Anleitung die aktuellen Rechtsrahmen und praktischen Anforderungen widerspiegelt.",
+    "role": "Lern- und Barrierefreiheitsspezialisten"
+  },
+  "hero_image": {
+    "src": "/images/adhd-student-disability-office.jpg",
+    "alt": "ADHS-Student bei einem Treffen mit einem Berater für Behindertenunterstützung in einem Universitätsbüro",
+    "width": 1200,
+    "height": 630,
+    "caption": "ADHS-Studenten haben gesetzliche Rechte auf Klassenzimmeranpassungen – und Technologie kann sie oft schneller erfüllen als traditionelle Prozesse."
+  },
+  "tldr": {
+    "title": "Kurzübersicht: Ihre Rechte und Ihre Optionen",
+    "points": [
+      "ADHS-Studenten an Universitäten haben gesetzliche Anspruch auf angemessene Anpassungen gemäß ADA (USA) oder Equality Act 2010 (UK), einschließlich Schreiberhilfe, Zeitverlängerung und Hilfstechnologie.",
+      "Technologie-basierte Anpassungen fallen in zwei Kategorien: von der Universität bereitgestellt (Glean, Jamworks, Kaltura) mit Institutslizenzierung und Anpassungspapieren sowie von Studenten installierbare Tools (Lessonscriptor, Sprache-zu-Text-Software) ohne Genehmigung.",
+      "Lessonscriptor repliziert Schreiberhilfe durch Echtzeittranskription jedes Videos in Chrome – ohne dass Ihre Universität es übernehmen muss, ohne Anpassungsschreiben oder Abonnement.",
+      "Falls Sie sich noch nicht bei den Behindertendiensten Ihrer Universität registriert haben, starten Sie diesen Prozess jetzt – aber Sie können selbst installierbare Tools wie Lessonscriptor bereits heute nutzen, während Ihre Anpassungsanfrage läuft."
+    ]
+  },
+  "intro": "ADHS-Studenten an Universitäten haben gesetzlich Anspruch auf angemessene Anpassungen – und die wirkungsvolle Anpassung ist oft Schreiberhilfe. Die Herausforderung: traditionelle Anpassungen erfordern Genehmigung des Behindertenbüros, Anpassungsschreiben und manchmal Wochen der Bearbeitung. Technologie kann diese Lücke schließen. Einige Tools wie Glean und Jamworks erfordern eine Partnerschaft Ihrer Universität mit dem Anbieter. Andere wie Lessonscriptor können Sie heute selbst installieren und sofort nutzen. Dieser Leitfaden behandelt Ihre gesetzlichen Rechte, was Universitäten bereitstellen müssen, und welche Technologielösungen ohne institutionelle Genehmigung funktionieren.",
+  "stats": [
+    {
+      "number": "2,1M",
+      "label": "US-Hochschulstudenten mit ADHS",
+      "source": "CHADD",
+      "type": "percentage_context"
+    },
+    {
+      "number": "14%",
+      "label": "von US-Studienanfängern registriert bei Behindertendiensten",
+      "source": "US Department of Education",
+      "type": "percentage_context"
+    },
+    {
+      "number": "73%",
+      "label": "ADHS-Studenten berichten Notizen als Top-Anpassungsbedarf",
+      "source": "ADDitude Magazine ADHS-Umfrage 2025",
+      "type": "percentage_context"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section_1",
+      "heading_level": "h2",
+      "heading": "Auf welche Technologieanpassungen haben ADHS-Studenten an der Universität Anspruch?",
+      "content": "Gemäß US-Bundesgesetz (Americans with Disabilities Act oder ADA, spezifisch Section 504) und in Großbritannien unter dem Equality Act 2010 haben Studenten mit ADHS Anspruch auf \"angemessene Anpassungen\", die im Klassenzimmer Chancengleichheit schaffen. Diese Anpassungen sind nicht optional – es sind Ihre gesetzlichen Rechte.\n\nFür ADHS bedeutet dies konkret:\n\n**Schreiberhilfe.** Ihre Universität muss sicherstellen, dass Sie Zugang zu genauen Notizen aus Vorlesungen haben. Dies kann ein menschlicher Schreiber, automatische Transkription oder Erlaubnis zur Vorlesungsaufzeichnung sein. Die meisten Universitäten interpretieren dies großzügig, um digitale Werkzeuge einzuschließen.\n\n**Zeitverlängerung bei Prüfungen.** Zeitblindheit und Arbeitsspeicherprobleme sind Merkmale von ADHS. Sie haben das Recht, 25–50% zusätzliche Zeit bei Tests, Quizzen und Prüfungen zu beantragen.\n\n**Aufzeichnungsrechte.** Viele Universitäten erlauben ADHS-Studenten, Vorlesungen audio- oder videoaufzuzeichnen – entweder für persönliche Nutzung oder für die Verwendung mit Transkriptionssoftware.\n\n**Hilfssoftware und Hardware.** Sprache-zu-Text-Tools, Text-zu-Sprache-Leser, Ablenkungsblocker und geräuschreduzierende Kopfhörer qualifizieren sich alle. Einige Universitäten stellen diese bereit; andere erwarten, dass Studenten sie selbst kaufen.\n\n**Flexible Anwesenheits- und Deadline-Richtlinien.** Exekutive Funktion ist bei ADHS beeinträchtigt; Universitäten können Fristen anpassen, medizinische Rücktritte ohne Strafe ermöglichen oder asynchrone Teilnahme in synchronen Klassen gestatten.\n\n**Untertitelung und Live-Transkription.** Video-Vorlesungen, aufgezeichnete Inhalte und live Klassendiskussionen müssen auf Anfrage untertitelt oder transkribiert werden.\n\nDies sind keine Sondergefälligkeiten. Es sind gesetzlich vorgeschriebene Anpassungen, um ADHS-Studenten denselben Zugang zu Bildung wie ihre nicht-ADHS-Kommilitonen zu sichern. Der Schlüssel ist zu wissen, wie man sie beantragt und welche Tools sie am schnellsten erfüllen.",
+      "internal_links": [
+        {
+          "text": "Erfahren Sie mehr über Tools, die keine institutionelle Genehmigung erfordern",
+          "url": "#section_8"
+        }
+      ]
+    },
+    {
+      "id": "section_2",
+      "heading_level": "h2",
+      "heading": "Was ist eine Schreiberhilfe-Anpassung und wie ersetzt Technologie sie?",
+      "content": "Die \"Schreiberhilfe-Anpassung\" ist eine der ältesten Klassenzimmeranpassungen. Traditionell funktioniert es so: Ein Student mit ADHS wird für ein Anpassungsschreiben genehmigt, das besagt, dass er Schreiberhilfe braucht. Die Universität findet einen anderen Studenten, der bereit ist, seine Notizen zu teilen (via Kohlepapier, Fotokopie oder digitaler Upload). Der Schreiber erhält ein kleines Stipendium, der ADHS-Student bekommt Notizen, alle gewinnen.\n\nAber dieses System hat Probleme: es ist langsam, es hängt davon ab, einen willigen Schreiber zu finden, und es funktioniert nur, wenn jemand bei der Vorlesung anwesend ist. Für Online-Kurse, Hybrid-Vorlesungen oder asynchrone Video-Inhalte skaliert die traditionelle Schreiberhilfe nicht.\n\nHier kommt Live-Transkriptionstechnologie ins Spiel. Statt einer anderen Person, die Notizen schreibt, transkribiert ein Softwaretool das Audio in Echtzeit. Sie erhalten einen durchsuchbaren, bearbeitbaren Datensatz von allem, was in der Vorlesung gesagt wurde – ohne Genehmigungsverzögerung, ohne Abhängigkeit von einem anderen Studenten und ohne anwesend zu sein.\n\nEs gibt zwei Arten von Live-Transkriptionstools:\n\n**Von der Universität bereitgestellte Tools** (Glean, Jamworks, Kaltura, Microsoft Teams Auto-Captions): Ihre Universität übernimmt die Plattform, integriert sie in Ihr Kursmanagement-System (Canvas, Blackboard) und stellt sie Ihnen als Teil Ihrer Anpassung bereit. Der Vorteil: Ihre Schule zahlt dafür, es ist in Ihren Workflow integriert und Teil Ihres offiziellen Anpassungsschreibens. Der Nachteil: die Universität muss bereits eine Partnerschaft mit dem Anbieter haben, und Sie müssen zuerst den formellen Anpassungsprozess durchlaufen (was 2–8 Wochen dauern kann).\n\n**Selbst installierbare Tools** (Lessonscriptor, OtterAI, Fireflies, Otter.ai): Sie installieren das Tool selbst, oft kostenlos oder mit Freemium-Modell, und es funktioniert bei jedem Video, das Sie ansehen – Vorlesungen, YouTube-Tutorials, aufgezeichnete Seminare, sogar Peer-Video-Anrufe. Der Vorteil: Sie können heute anfangen, keine institutionelle Genehmigung nötig, und Sie sind nicht an den Anbieter Ihrer Schule gebunden. Der Nachteil: Sie sind verantwortlich für das Erlernen des Tools, und obwohl es die \"Schreiberhilfe-Anpassung\" erfüllt, ist es nicht offiziell Teil Ihres Anpassungspakets (obwohl es oft gleichwertig oder besser funktioniert).\n\nLessonscriptor fällt in die zweite Kategorie. Es ist eine Chrome-Erweiterung, die Live-Transkription aus jedem Video in Ihrem Browser erfasst. Da es bei jedem Video-Projekt funktioniert (nicht nur Vorlesungen in Canvas oder Zoom), erhalten Sie Schreiberhilfe-ähnliche Unterstützung für YouTube-Tutorials, asynchrone Videos, einzelne Seminaraufzeichnungen und alles andere, das Sie ansehen. Keine Papiere, kein Warten, keine institutionelle Lizenzierung erforderlich.",
+      "internal_links": [
+        {
+          "text": "Erfahren Sie mehr über Lessonscriptor für ADHS-Studenten",
+          "url": "/for-adhd-students"
+        },
+        {
+          "text": "Wie man mit ADHS Notizen macht",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "section_3",
+      "heading_level": "h2",
+      "heading": "Benötigt Lessonscriptor ein Universitäts-Anpassungsschreiben?",
+      "content": "Nein. Lessonscriptor benötigt nicht:\n\n- Ein Anpassungsschreiben Ihrer Universität\n- Formelle Registrierung bei Behindertendiensten (DSS)\n- Institutslizenzierung oder Partnerschaft\n- Eine ADHS-Diagnose (obwohl es hilft, wenn Sie eine haben)\n- Ein Abonnement oder Bezahlung (kostenlos verfügbar)\n- Genehmigung von Professor, TA oder Abteilung\n\nSie laden die Chrome-Erweiterung herunter, installieren sie und nutzen sie sofort. Sie funktioniert mit jedem Video, auf das Ihr Browser zugreifen kann: YouTube, Vimeo, Zoom-Aufzeichnungen, Video-Plattformen, Webinare, Tutorials – alles.\n\nDies ist ein bedeutender Unterschied zu Glean und Jamworks, die nur institutionelle Plattformen sind. Falls Ihre Universität sie nicht übernommen hat, können Sie sie nicht verwenden. Lessonscriptor umgeht diesen Engpass vollständig.\n\n**Warum dies für ADHS-Studenten wichtig ist:** Arbeitsspeicher ist eine zentrale ADHS-Herausforderung. Vorlesungen sind schnell, und sogar aufmerksames Notizenmachen hinterlässt Lücken. Ein Live-Transkript gibt Ihnen einen vollständigen Datensatz, den Sie durchsuchen, kopieren und in Ihrem eigenen Tempo überprüfen können – ohne die Herausforderung der Exekutivfunktion, \"Schritt halten\" während der Vorlesung selbst. Sie können sich auf das Verstehen von Konzepten konzentrieren statt auf das Mitschreiben.\n\n**Ein strategischer Tipp:** Lessonscriptor zu nutzen, während Sie auf formelle Anpassungen warten, ist klug. Sie erhalten sofortige Unterstützung, während Ihr Behindertenbüro Ihren Anpassungsantrag bearbeitet. Sobald Sie Ihr Anpassungsschreiben haben, haben Sie Optionen: Lessonscriptor weiter nutzen, anfordern, dass Ihre Universität ein bereitgestelltes Tool wie Glean übernimmt, oder beide parallel nutzen. Die Wahl liegt bei Ihnen.",
+      "internal_links": [
+        {
+          "text": "Beginnen Sie, Lessonscriptor kostenlos zu nutzen",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "id": "section_4",
+      "heading_level": "h2",
+      "heading": "Welche andere Technologie stellen Universitäten für ADHS-Studenten bereit?",
+      "content": "Neben Schreiberhilfe bieten Universitäten eine Reihe von Hilfstechnologien für ADHS an. Diese werden typischerweise über Ihr Behindertendienste-Büro angefordert und in Ihrem offiziellen Anpassungsschreiben aufgeführt.\n\n**Sprache-zu-Text-Software.** Tools wie Dragon NaturallySpeaking erlauben Ihnen, Aufgaben, E-Mails und Forumsbeiträge zu diktieren statt zu tippen. Für ADHS-Studenten mit Motorplanungsproblemen oder Perfektionismuslähmung kann dies transformativ sein. Einige Universitäten stellen diese bereit; andere erwarten, dass Studenten sie selbst kaufen.\n\n**Text-zu-Sprache und Bildschirmleser.** JAWS, NVDA und integrierte Betriebssystem-Bildschirmleser lesen Text laut vor, wenn Sie den Cursor bewegen. Dies ist besonders nützlich beim Lesen dichter Lehrbücher, Fachjournale und Vorlesungsfolien – es aktiviert mehrere Sinneskanäle und bekämpft Aufmerksamkeitsverlust.\n\n**Ablenkung blockierende Software.** Freedom, Cold Turkey und LeechBlock deaktivieren Websites und Apps während Lernsitzungen. Viele Universitäten stellen diese nicht formal bereit, erkennen sie aber als mit Anpassungen kompatible Tools an und erlauben Studenten, sie während Prüfungen oder Lernräumen zu nutzen.\n\n**Zeitverlängerung bei Prüfungen in überwachten Umgebungen.** Für standardisierte Tests (GRE, GMAT, LSAT) und größere Prüfungen stellen Universitäten Räume bereit, in denen Sie 25–50% zusätzliche Zeit, reduzierte Ablenkungen, Pausen und manchmal einen Schreiber oder Sprache-zu-Text-Tool erhalten.\n\n**Digitale Notizbuch-Geräte.** iPads mit Stylus, Microsoft Surface-Geräte oder ChromeOS-Tablets mit Stylus-Unterstützung. Einige Studenten finden digitales Notizenmachen weniger exekutiv-funktionsbürdenreich als Handschrift, und es integriert sich gut mit Vorlesungsaufzeichnungen.\n\n**Geräuschreduzierende Kopfhörer oder Vorrangzugang zu ruhigen Lernplätzen.** Reizüberflutung ist real bei ADHS. Universitäten bieten oft Vorrangzugang zu ruhigen Bibliotheksräumen, geräuschreduzierender Kopfhörerausrüstung oder Einzelzimmern, um Ablenkung zu minimieren.\n\n**Untertitelung und CART (Communication Access Realtime Translation).** Für live Vorlesungen, Seminare und Veranstaltungen stellen Universitäten Echtzeit-Menschenuntertitel (CART) oder automatisierte Live-Captions bereit. Diese müssen kostenfrei für den Studenten bereitgestellt werden.\n\n**Flexible Prüfungsformate.** Mündliche Prüfungen statt schriftlich, Take-Home-Prüfungen oder Prüfungen in einer stressarmen Umgebung statt in einem großen Hörsaal.\n\nUm auf diese zuzugreifen, müssen Sie:\n\n1. Sich bei den Behindertendiensten Ihrer Universität registrieren (DSS)\n2. Dokumentation Ihrer ADHS-Diagnose bereitstellen (normalerweise ein Brief von einem Diagnostiker, Kliniker oder Neuropsychologen)\n3. Spezifische Anpassungen schriftlich anfordern\n4. Mit DSS Ihr Anpassungsschreiben erstellen\n5. Diesen Brief Ihren Professoren und relevanten Abteilungen zeigen\n\nDieser Prozess dauert typischerweise 2–8 Wochen. Beginnen Sie ihn jetzt, falls Sie es noch nicht getan haben.",
+      "internal_links": [
+        {
+          "text": "Beste ADHS-Studier-Apps für 2026",
+          "url": "/blog/best-apps-adhd-students-2026"
+        }
+      ]
+    },
+    {
+      "id": "section_5",
+      "heading_level": "h2",
+      "heading": "Wie registriere ich mich bei meinem Universitäts-Behindertenbüro für ADHS-Anpassungen?",
+      "content": "Der Prozess ist an den meisten Universitäten ähnlich, aber überprüfen Sie immer die Website Ihrer Schule – Behindertendienste, Barrierefreieheitsbüro oder Studentische Anpassungen (die Benennung variiert).\n\n**Schritt 1: Sammeln Sie Ihre Dokumentation.**\nSie benötigen einen Nachweis einer ADHS-Diagnose von einem qualifizierten Fachmann. Dies ist typischerweise:\n- Ein Brief von einem lizenzierten Psychologen, Neuropsychologen oder Arzt, in dem angegeben wird: die Diagnose, das Diagnosedatum, relevante Test-Scores (falls verfügbar), funktionelle Einschränkungen in einem akademischen Setting und empfohlene Anpassungen.\n- Einige Universitäten akzeptieren Bewertungen von Schulpsychologen; andere erfordern klinische Psychologen oder Ärzte. Überprüfen Sie die Anforderungen Ihrer Schule.\n- Falls Sie als Kind diagnostiziert wurden, zählt diese Dokumentation noch – aber eine neuere Bewertung (innerhalb von 3 Jahren) wird oft bevorzugt.\n- Falls Sie keine neue Bewertung leisten können, haben viele Universitäten Zuschüsse oder Partnerschaften mit lokalen Kliniken, die reduzierte Kosten anbieten.\n\n**Schritt 2: Kontaktieren Sie Behindertendienste.**\nFinden Sie Ihr DSS-Büro auf der Universitätswebseite. Sie haben normalerweise ein Anmeldeformular zum Ausfüllen oder einen Termin zum Buchen. Kontaktieren Sie sie früh im Semester (sogar vor Semesterbeginn, falls möglich).\n\n**Schritt 3: Reichen Sie Ihre Dokumentation ein.**\nSobald Sie DSS treffen, reichen Sie Ihren Diagnosebrief und alle unterstützenden Dokumentationen ein, die sie anfordern. Sie überprüfen, ob ADHS eine \"Behinderung\" unter der ADA ist (es ist), und ob Sie Anspruch auf Anpassungen haben.\n\n**Schritt 4: Fordern Sie spezifische Anpassungen schriftlich an.**\nDSS wird Sie fragen, welche Anpassungen Sie brauchen. Seien Sie spezifisch: \"Schreiberhilfe oder Live-Transkription von Vorlesungen\", \"25% Zeitverlängerung bei Prüfungen\", \"Erlaubnis, Vorlesungen aufzuzeichnen\", etc. Falls Sie unsicher sind, was zu fordern ist, bitten Sie den DSS-Berater um Anleitung – sie arbeiten ständig mit ADHS-Studenten.\n\n**Schritt 5: Erhalten Sie Ihr Anpassungsschreiben.**\nSobald genehmigt, stellt DSS Ihnen ein offizielles Anpassungsschreiben zur Verfügung, das Sie Ihren Professoren zeigen können. Einige Schulen stellen eine digitale Version bereit; andere drucken es. Sie kontrollieren, wer es sieht – Sie sind nicht verpflichtet, sich gegenüber jemandem zu offenbaren, aber Professoren müssen es wissen.\n\n**Schritt 6: Kommunizieren Sie mit Ihren Professoren.**\nZu Semesterbeginn schreiben Sie jedem Professor mit Ihrem Anpassungsschreiben. Viele Studenten schreiben es privat vor der ersten Semesterwoche. Die E-Mail kann einfach sein: \"Hallo Professor X, ich habe genehmigte Anpassungen für [Anpassungstyp]. Ich habe meinen Brief angehängt. Lassen Sie mich wissen, falls Sie Klarstellungen benötigen.\"\n\n**Zeitplan:** Dieser gesamte Prozess dauert typischerweise 2–8 Wochen, abhängig davon, wie schnell DSS Ihre Dokumentation erhält und ihre aktuelle Arbeitslast. Falls Anpassungen zeitkritisch sind (z. B. Sie haben nächste Woche eine Prüfung), kennzeichnen Sie das, wenn Sie DSS kontaktieren – sie können manchmal die Genehmigung beschleunigen.\n\n**Kosten:** Offizielle Behindertenregistrierung und Anpassungsschreiben sind an den meisten Universitäten kostenlos. Einige Schulen verlangen eine kleine Gebühr ($0–$100); wenige verlangen mehr. Überprüfen Sie die Gebührenstruktur Ihrer Schule.\n\n**Wichtiger Punkt für diesen Beitrag:** Während Sie auf offizielle Anpassungen warten, können Sie selbst installierbare Tools wie Lessonscriptor sofort nutzen. Sie benötigen kein Anpassungsschreiben, um von Notizentechnologie zu profitieren – Sie benötigen es, um sicherzustellen, dass Ihre Universität Ihre Anpassungen rechtlich erkennt und Sie nicht benachteiligt.",
+      "internal_links": []
+    },
+    {
+      "id": "section_6",
+      "heading_level": "h2",
+      "heading": "Welche Technologie können ADHS-Studenten ohne Anpassungsgenehmigung nutzen?",
+      "content": "Dies ist der praktischste Abschnitt: Tools, die Sie jetzt, heute, ohne Warten auf Behindertenbürogenehmigung, ohne Anpassungsschreiben, ohne Erlaubnis Ihres Professors und normalerweise kostenlos oder kostengünstig nutzen können.\n\n**Live-Transkription und Notizenmachen:**\n- **Lessonscriptor** (kostenlos, Chrome-Erweiterung): Erfasst Live-Transkription aus jedem Video in Chrome. Funktioniert auf YouTube, Kursplattformen, aufgezeichneten Seminaren, Peer-Video-Anrufen. Bearbeiten, durchsuchen, exportieren und markieren Sie direkt in Lessonscriptor.\n- **Otter.ai** (kostenlos monatlich, mobile App oder Web): Zeichnet Audio von Vorlesungen, Meetings oder Sprachmemos auf und transkribiert es. Cloud-basiert, sodass Sie von jedem Gerät auf Transkripte zugreifen können.\n- **Fireflies.ai** (kostenlos für persönliche Nutzung, Web): Zeichnet Zoom, Teams, Google Meet und Einwahlgespräche auf und transkribiert sie. Integriert sich mit Ihrem Kalender.\n\n**Sprache-zu-Text (für Schreibaufgaben):**\n- **Integrierte Betriebssystem-Sprache-zu-Text:** Windows Diktat, macOS Diktat, Chrome OS Sprachemittlung und iOS/Android Diktat sind alle kostenlos und verbessern sich mit Gebrauch.\n- **Google Docs Sprachtypisierung** (kostenlos): Öffnen Sie ein Google Doc, klicken Sie auf Tools > Sprachtypisierung und diktieren Sie Ihre Essays. Überraschend genau und ADHS-freundlich, weil Sie nicht auf eine leere Seite starren.\n\n**Wiederholtes Spaced-Lernen und Gedächtnis:**\n- **Anki** (kostenlos, Open-Source): Erstellen Sie Karteikarten, und Anki plant sie für optimales Gedächtnislernen. Großartig für ADHS, weil es die Entscheidungsfindung über \"wann\" zu studieren entfernt.\n- **Quizlet** (kostenlos mit Anzeigen, bezahlte Option): Ähnlich wie Anki, aber visueller. Tausende von vorgefertigten Studiensätzen für häufige Kurse.\n\n**Ablenkungsverwaltung:**\n- **Focus@Will** (kostenloser Test, bezahlt): Wissenschaftlich unterstützte Fokusmusik für ADHS-Gehirne. Entfernt Entscheidungsermüdung bei der Auswahl von Musik.\n- **Brain.fm** (kostenloser Test, bezahlt): Ähnlich – Musik für verbessertes Fokus und Stressabbau während Lernzeiten.\n- **Freedom** (bezahlt, aber erschwinglich): Blockiert ablenkende Websites und Apps auf allen Ihren Geräten. Viele Universitäten erkennen dies als mit Anpassungen kompatibel an.\n- **Cold Turkey** (kostenlos für Basis, bezahlt für erweitert): Noch aggressiver als Freedom – sobald Sie etwas blockieren, können Sie es nicht entblocken, bis der Timer abläuft.\n\n**Organisationsmanagement und Aufgabenverwaltung:**\n- **Goblin Tools** (kostenlos, Web-basiert): Ein Set von winzigen Tools speziell für neurodivergente Gehirne. Das \"Magic ToDo\" und \"Formalizer\" sind besonders hilfreich für ADHS.\n- **Todoist** (kostenlos, bezahlt für erweitert): Einfache Aufgabenverwaltung mit wiederkehrenden Aufgaben, Prioritäten und Erinnerungen. Weniger überwältigend als Notion für ADHS.\n- **Notion** (kostenlos): Anpassbarer All-in-One Arbeitsbereich. Steile Lernkurve, aber mächtig einmal eingerichtet.\n\n**Lesen und Verständnis:**\n- **Bionic Reading** (kostenlos Browser-Erweiterung): Fettet die ersten Buchstaben von Wörtern fett, um Ihr Auge zu führen und erneutes Lesen zu reduzieren. Funktioniert auf jeder Website oder jedem PDF.\n- **Kindels integrierte Text-zu-Sprache** (kostenlos falls Sie das Buch besitzen): Erzählt E-Books vor. Großartig für Lehrbücher und lange Lesaufgaben.\n- **Natural Reader** (kostenlos, bezahlt für erweitert): Konvertiert PDFs, Webartikel und Dokumente zu Sprache.\n\n**Warum diese wichtig sind:** Jedes dieser Tools repliziert eine Anpassung ohne institutionelle Genehmigung. Sie können heute damit anfangen. Falls Ihre Universität Sie später verpflichtet, ihre offiziellen Tools zu nutzen (wie Glean), in Ordnung – aber bis dahin haben Sie sofortigen Zugriff auf funktionsfähige Alternativen. Und viele ADHS-Studenten nutzen beide: das von der Universität bereitgestellte Tool für offizielle Vorlesungen und das selbst installierbare Tool für alles andere.",
+      "comparison_table": {
+        "title": "Universitäts-bereitgestellte vs. Selbst installierbare Tools für Notizenmachen",
+        "rows": [
+          {
+            "category": "Universitäts-bereitgestellte Tools (Glean, Jamworks, Kaltura)",
+            "cost": "Kostenlos (Universität zahlt)",
+            "setup": "Ihre Schule muss es übernehmen",
+            "approval_required": "Ja, Anpassungsschreiben erforderlich",
+            "works_on_any_video": "Nur Videos in Ihrem LMS oder Zoom",
+            "start_using": "2–8 Wochen nach Anpassungsgenehmigung",
+            "examples": "Glean, Jamworks, Kaltura, Microsoft Teams Auto-Captions"
+          },
+          {
+            "category": "Selbst installierbare Tools (Lessonscriptor, Otter.ai, Fireflies)",
+            "cost": "Kostenlos oder Freemium",
+            "setup": "Sie installieren es selbst",
+            "approval_required": "Nein",
+            "works_on_any_video": "Ja, jedes Video in Chrome oder online",
+            "start_using": "Heute",
+            "examples": "Lessonscriptor, Otter.ai, Fireflies, Google Docs Sprachtypisierung"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section_7",
+      "heading_level": "h2",
+      "heading": "USA vs. Großbritannien: Wesentliche Unterschiede in ADHS-Universitätsanpassungen",
+      "content": "Die ADHS-Anpassungsrahmen unterscheiden sich erheblich zwischen den USA und Großbritannien. Falls Sie international studieren oder Systeme vergleichen, erfahren Sie hier die wesentlichen Unterschiede.\n\n**Vereinigte Staaten:**\n- **Gesetzlicher Rahmen:** Americans with Disabilities Act (ADA), Section 504 des Rehabilitation Act und der ADA Amendments Act (ADAAA) von 2008.\n- **Wer ist versichert:** Section 504 deckt jede Bedingung (physisch oder mental) ab, die eine Hauptlebenstätigkeit wesentlich einschränkt. ADHS qualifiziert, falls es Lernen, Gedächtnis, Konzentration oder Exekutivfunktion beeinflusst.\n- **Verantwortung:** Universitäten sind gesetzlich verpflichtet, Anpassungen bereitzustellen. Falls sie sich weigern, können Studenten eine Beschwerde bei der US-Behörde für Bildung Office for Civil Rights (OCR) einreichen.\n- **Anpassungsschreiben:** Nicht gesetzlich erforderlich, damit Anpassungen gültig sind, aber Universitäten stellen normalerweise eines aus und verlangen, dass Studenten es ihren Professoren zeigen.\n- **Kosten für Studenten:** Anpassungen sind kostenlos. Universitäten können keine Gebühren von Studenten für deren Bereitstellung verlangen.\n- **Abdeckung:** Erstreckt sich auf K-12, Hochschulen, Graduiertenschulen und Fachschulen (Jura, Medizin, usw.).\n- **Dokumentation:** Ein Diagnosebrief von einem qualifizierten Kliniker (Psychologe, Neuropsychologe, Arzt). Schulen können aktualisierte Bewertungen anfordern, falls sie Grund zu der Annahme haben, dass die frühere veraltet ist.\n- **Berufungsprozess:** Falls DSS Ihren Antrag ablehnt, können Sie intern Einspruch einlegen oder eine Beschwerde beim Office for Civil Rights einreichen.\n\n**Vereinigtes Königreich:**\n- **Gesetzlicher Rahmen:** Equality Act 2010, der ADHS als Behinderung klassifiziert, falls es eine \"wesentliche und langfristige nachteilige Auswirkung\" auf normale alltägliche Aktivitäten hat.\n- **Wer ist versichert:** Jeder Student mit Behinderungsdiagnose. ADHS qualifiziert, falls es Lernen, Zeitmanagement oder Aufmerksamkeit wesentlich beeinflusst.\n- **Verantwortung:** Universitäten müssen \"angemessene Anpassungen\" vornehmen, um Behindertenstudenten nicht zu benachteiligen. Dies umfasst Bereitstellung von Technologie, Zeitverlängerung, alternative Prüfungsformate und Schreiberhilfe.\n- **Anpassungsschreiben:** Universitäten stellen ein \"Behindertenprofil\" oder \"Unterstützungsplan\" statt eines traditionellen Anpassungsschreibens aus. Dies beschreibt genehmigte Anpassungen und wird mit Abteilungen und Prüfern geteilt.\n- **Kosten für Studenten:** Anpassungen sind kostenlos. Universitäten können zusätzliche Supportdienste anbieten (z. B. Eins-zu-Eins-Coaching) gegen Gebühr, aber wesentliche Anpassungen sind kostenlos.\n- **Abdeckung:** Gilt für alle britischen Universitäten und Hochschuleinrichtungen. Ähnliche Schutzmaßnahmen gibt es für A-Levels und GCSEs.\n- **Dokumentation:** Ein Diagnosebrief von einem qualifizierten Kliniker (Hausarzt, klinischer Psychologe oder Psychiater). Die Universität kann eine pädagogische Bewertung anfordern, um spezifische Anpassungen zu bestimmen.\n- **Berufungsprozess:** Falls die Universität Anpassungen ablehnt, können Sie intern eskalieren oder eine Beschwerde bei der Office of the Independent Adjudicator (OIA) für Hochschulbildung einreichen.\n- **Offenlegung:** Im UK fragen Universitäten oft während des Bewerbungsprozesses nach Behinderungen. Die Offenlegung ist optional, aber viele Studenten finden es hilfreich, ADHS früh hervorzuheben, damit DSS vom Tag eins an Unterstützung leisten kann.\n\n**Praktischer Vergleich:**\n- Beide Systeme verlangen gesetzlich von Universitäten, ADHS-Studenten zu berücksichtigen.\n- Die USA sind expliziter, dass ADHS eine versicherte Behinderung ist (dank der ADAAA); das UK wendet einen \"wesentliche Benachteiligung\"-Test an, der normalerweise erfüllt wird.\n- Die USA nutzen \"Anpassungsschreiben\"; das UK nutzt \"Unterstützungspläne\" oder \"Behindertenprofile\" – aber die Absicht ist gleich.\n- Beide Systeme erlauben Studenten, Hilfstechnologie (einschließlich Lessonscriptor) ohne institutionelle Genehmigung zu nutzen.\n- Keines der Systeme verlangt eine Universitätspartnerschaft oder institutionelle Lizenzierung für selbst installierbare Tools wie Lessonscriptor.\n\n**Für internationale ADHS-Studenten:** Falls Sie im Ausland studieren, überprüfen Sie, ob die Behinderungsdokumentation Ihres Heimatlandes anerkannt wird. Einige Universitäten akzeptieren US-Diagnosen für UK-Studium und umgekehrt; andere verlangen eine lokale Bewertung. Kontaktieren Sie das Behindertenbüro der Gastuniversität früh für Klarstellung.",
+      "internal_links": []
+    },
+    {
+      "id": "section_8",
+      "heading_level": "h2",
+      "heading": "Erstellen Sie Ihren ADHS-Universitäts-Tech-Stack (Ohne auf Genehmigung zu Warten)",
+      "content": "Hier ist ein praktischer Aktionsplan: das minimale Set von Tools, das jeder ADHS-Student an der Universität nutzen sollte, beginnend heute, während Ihre offizielle Anpassungsanfrage läuft.\n\n**Für Vorlesungen und aufgezeichnete Inhalte:**\n- Installieren Sie **Lessonscriptor** (kostenlos, Chrome). Transkribieren Sie Vorlesungen, aufgezeichnete Seminare und Tutorial-Videos. Sie erhalten durchsuchbare, bearbeitbare Notizen ohne Abhängigkeit von einem anderen Studenten oder Warten darauf, dass Ihre Universität eine bestimmte Plattform übernimmt.\n\n**Für Schreibaufgaben:**\n- Nutzen Sie **Google Docs Sprachtypisierung** (kostenlos, integriert). Diktieren Sie Ihre Essays und Arbeiten. Hilft gegen Perfektionismuslähmung und reduziert die Hürde zum Anfangen.\n- Fallback: **Otter.ai** (kostenlos) für komplexere Transkription, falls Sie längere Aufgaben diktieren.\n\n**Für Gedächtnis und Studium:**\n- Richten Sie **Anki** (kostenlos) mit Karteikarten von Ihren Kursen ein. Lassen Sie es die Entscheidung über wann zu überprüfen treffen – eine weniger Exekutivfunktionsaufgabe für Ihr ADHS-Gehirn.\n\n**Für Fokussitzungen:**\n- Nutzen Sie **Freedom** oder **Cold Turkey** (bezahlt, aber erschwinglich), um ablenkende Websites während Lernzeiten zu blockieren. Wählen Sie eins aus und verpflichten Sie sich eine Woche lang – Sie werden den Unterschied bemerken.\n\n**Für Aufgabenverwaltung:**\n- Wählen Sie **Todoist** (kostenlos) oder **Goblin Tools** (kostenlos). Wählen Sie eins aus und nutzen Sie es konsequent. Das Ziel ist, Ihre Aufgabenliste zu externalisieren, damit Sie sie nicht im Arbeitsspeicher halten müssen.\n\n**Sobald Ihr Anpassungsschreiben ankommt:**\n- Teilen Sie es mit jedem Professor in der ersten Schulwoche.\n- Fragen Sie, ob Ihre Universität Glean, Jamworks oder ähnliche institutionelle Tools anbietet. Falls ja, erwägen Sie, beide parallel zu nutzen (Hosenträger und Gürtel).\n- Falls Ihre Universität keine institutionellen Transkriptionstools anbietet, wird Lessonscriptor zu Ihrem Primär-Notizenanpassungstool.\n\n**Die Kernaussage:** Sie müssen nicht auf Bürokratie warten, um Ihr ADHS-Gehirn zu unterstützen. Lessonscriptor und die anderen Tools in dieser Liste sind jetzt verfügbar, sie funktionieren und sind legal – ob oder ob nicht Sie ein offizielles Anpassungsschreiben haben. Nutzen Sie sie, bauen Sie Vertrauen darauf auf, was für Sie funktioniert, und integrieren Sie sie dann in Ihren formellen Anpassungsplan, sobald DSS genehmigt.",
+      "internal_links": [
+        {
+          "text": "Erkunden Sie unseren kompletten Leitfaden zu Neurodivergenz-Studienwerkzeugen",
+          "url": "/blog/neurodivergent-study-tools"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "type": "primary",
+    "heading": "Beginnen Sie heute, Vorlesungen zu transkribieren – Kostenlos, Keine Genehmigung Erforderlich",
+    "description": "Lessonscriptor erfasst Live-Transkription aus jedem Video in Chrome. Installieren Sie es kostenlos, nutzen Sie es sofort und erhalten Sie die Schreiberhilfe, die Ihnen zusteht.",
+    "button_text": "Lessonscriptor Kostenlos Installieren",
+    "button_url": "/",
+    "secondary_cta": {
+      "text": "Erfahren Sie mehr über ADHS-freundliche Tools",
+      "url": "/for-adhd-students"
+    }
+  },
+  "faq": {
+    "heading": "Häufig Gestellte Fragen",
+    "items": [
+      {
+        "question": "Benötige ich eine ADHS-Diagnose, um Lessonscriptor zu nutzen?",
+        "answer": "Nein. Lessonscriptor funktioniert für jeden, der Transkriptionen von Videos möchte – Sie benötigen keine Diagnose, um es zu installieren oder zu nutzen. Falls Sie jedoch eine ADHS-Diagnose haben, ist Lessonscriptor eine ausgezeichnete Methode, um Schreiberhilfe zu erhalten, während Ihre Anpassungsanfrage läuft."
+      },
+      {
+        "question": "Kann mein Professor mir verbieten, Lessonscriptor im Unterricht zu nutzen?",
+        "answer": "Sobald Sie ein offizielles Anpassungsschreiben für Notizen oder Transkription haben, kann Ihr Professor es nicht verbieten – es ist eine legale Anpassung. Falls Sie Lessonscriptor ohne Anpassungsschreiben nutzen, kann Ihr Professor theoretisch Einwände erheben, aber es ist selten (die meisten Professoren haben Einwände gegen die Aufzeichnung oder Transkription von Vorlesungen nicht). Falls Sie unsicher sind, überprüfen Sie Ihre Universitäts-Aufzeichnungsrichtlinie oder fragen Sie Ihren Professor direkt."
+      },
+      {
+        "question": "Ist Lessonscriptor besser als die Schreiberhilfe-Anpassung meiner Universität?",
+        "answer": "Sie sind unterschiedlich. Ein menschlicher Schreiber ist in Echtzeit anwesend und kann wichtige Konzepte kennzeichnen; Lessonscriptor gibt Ihnen ein vollständiges, durchsuchbares Transkript von allem Gesagten. Die meisten ADHS-Studenten finden das Transkript wertvoller, weil es vollständig ist und nicht erfordert, während der Vorlesung Schritt zu halten. Falls Ihre Universität Glean oder Jamworks anbietet, versuchen Sie beide und sehen Sie, was für Ihr Gehirn am besten funktioniert."
+      },
+      {
+        "question": "Was tun, falls meine Universität kein Behindertendienste-Büro hat?",
+        "answer": "Alle akkreditierten Universitäten und Hochschulen in den USA und UK sind gesetzlich verpflichtet, ein Behindertenbüro zu haben, auch falls es einen anderen Namen trägt (Barrierefreieheitsdienste, Studentensupport, Chancengleichstellungsbüro, usw.). Beginnen Sie, indem Sie Ihr Studentenangelegenheitsbüro kontaktieren oder Ihre Universitätswebseite nach \"Behinderung\" oder \"Anpassungen\" durchsuchen. Falls Sie es wirklich nicht finden können, kontaktieren Sie das Hauptstudentendienstesbüro und bitten Sie um Weitergabe."
+      },
+      {
+        "question": "Wie lange dauert es, ein Anpassungsschreiben für ADHS zu erhalten?",
+        "answer": "Typischerweise 2–8 Wochen ab Ihrer ersten Kontaktaufnahme mit Behindertendiensten. Falls Sie bereits aktuelle Diagnosedokumentation (innerhalb von 3 Jahren) haben, ist es normalerweise schneller (1–3 Wochen). Falls Sie eine neue Bewertung benötigen, fügt dies 2–4 Wochen hinzu, abhängig von Klinikverfügbarkeit. Starten Sie den Prozess früh im akademischen Jahr – je früher Sie DSS kontaktieren, desto früher haben Sie Anpassungen."
+      },
+      {
+        "question": "Kann ich Lessonscriptor in Tests oder Prüfungen nutzen?",
+        "answer": "Nicht in überwachten Prüfungen (persönlich oder online-überwacht). Lessonscriptor erfordert die Installation einer Chrome-Erweiterung, die in den meisten Prüfungsumgebungen nicht erlaubt ist. Für offizielle Prüfungen nutzen Sie Ihre Universitäts-Anpassung: Zeitverlängerung, separaten Testraum oder Schreiber. Lessonscriptor ist am besten für Vorlesungen, Tutorials und Lernsitzungen – nicht Prüfungen. Falls Sie Transkription in Prüfungen benötigen (z. B. für Höranpassung), fordern Sie Sprache-zu-Text-Software oder einen Schreiber als Teil Ihres offiziellen Anpassungsschreibens an."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Der Kern: Ihre Rechte, Ihre Wahlmöglichkeiten, Ihre Tools",
+    "content": "ADHS-Studenten an Universitäten haben gesetzlich Anspruch auf Anpassungen – einschließlich Schreiberhilfe, Zeitverlängerung und Hilfstechnologie. Das System variiert nach Land (ADA in den USA, Equality Act in Großbritannien), aber das Prinzip ist gleich: Universitäten müssen angemessene Anpassungen bereistellen, damit ADHS-Studenten beim Lernen nicht benachteiligt werden.\n\nDer schnellste Weg zu Support führt nicht immer über das formelle Anpassungsbüro. Während Sie auf Ihre Behindertendienst-Genehmigung warten, können Sie selbst installierbare Tools wie Lessonscriptor nutzen, um sofortigen Zugriff auf Notizentechnologie zu erhalten. Keine Papiere, kein Warten, keine institutionelle Genehmigung erforderlich.\n\nSobald Ihr Anpassungsschreiben ankommt, haben Sie zusätzliche Optionen: institutionelle Tools wie Glean oder Jamworks, offizielle Hilfssoftware und Prüfungszeitverlängerung. Aber Sie müssen nicht auf all das warten, um anzufangen. Installieren Sie Lessonscriptor, richten Sie Anki und Todoist ein, nutzen Sie Google Docs Sprachtypisierung und bauen Sie einen Tech-Stack auf, der jetzt für Ihr ADHS-Gehirn funktioniert.\n\nKontaktieren Sie das Behindertendienste-Büro Ihrer Universität diese Woche. Reichen Sie Ihre Dokumentation ein. Fordern Sie spezifische Anpassungen an. Aber in der Zwischenzeit beginnen Sie, die Tools zu nutzen, die Ihnen heute verfügbar sind. Ihr akademischer Erfolg muss nicht auf Bürokratie warten."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "properties": {
+        "headline": "ADHS Universitätsanpassungen: Welche Technologie Ihre Schule Bereitstellen Muss (und Was Sie Heute Selbst Installieren Können)",
+        "description": "Ihr gesetzliches Recht auf ADHS-Anpassungen an der Universität umfasst Schreiberhilfe, Live-Captions und Hilfstechnologie. Erfahren Sie, was Ihre Schule bereitstellen muss und was Sie sofort ohne Genehmigung nutzen können.",
+        "image": "/images/adhd-student-disability-office.jpg",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": {
+          "type": "Organization",
+          "name": "Lessonscriptor"
+        },
+        "publisher": {
+          "type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "type": "ImageObject",
+            "url": "/images/lessonscriptor-logo.png"
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "properties": {
+        "mainEntity": [
+          {
+            "type": "Question",
+            "name": "Benötige ich eine ADHS-Diagnose, um Lessonscriptor zu nutzen?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Nein. Lessonscriptor funktioniert für jeden, der Transkriptionen von Videos möchte – Sie benötigen keine Diagnose, um es zu installieren oder zu nutzen. Falls Sie jedoch eine ADHS-Diagnose haben, ist Lessonscriptor eine ausgezeichnete Methode, um Schreiberhilfe zu erhalten, während Ihre Anpassungsanfrage läuft."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Kann mein Professor mir verbieten, Lessonscriptor im Unterricht zu nutzen?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Sobald Sie ein offizielles Anpassungsschreiben für Notizen oder Transkription haben, kann Ihr Professor es nicht verbieten – es ist eine legale Anpassung. Falls Sie Lessonscriptor ohne Anpassungsschreiben nutzen, kann Ihr Professor theoretisch Einwände erheben, aber es ist selten."
+            }
+          },
+          {
+            "type": "Question",
+            "name": "Wie lange dauert es, ein Anpassungsschreiben für ADHS zu erhalten?",
+            "acceptedAnswer": {
+              "type": "Answer",
+              "text": "Typischerweise 2–8 Wochen ab Ihrer ersten Kontaktaufnahme mit Behindertendiensten. Falls Sie bereits aktuelle Diagnosedokumentation (innerhalb von 3 Jahren) haben, ist es normalerweise schneller (1–3 Wochen). Starten Sie den Prozess früh im akademischen Jahr."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "properties": {
+        "itemListElement": [
+          {
+            "type": "ListItem",
+            "position": 1,
+            "name": "Startseite",
+            "item": "/"
+          },
+          {
+            "type": "ListItem",
+            "position": 2,
+            "name": "Für ADHS-Studenten",
+            "item": "/for-adhd-students"
+          },
+          {
+            "type": "ListItem",
+            "position": 3,
+            "name": "ADHS Universitätsanpassungen: Technologie-Leitfaden",
+            "item": "/blog/adhd-university-accommodation-tech"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "title": "CHADD: Hochschulbildung und ADHS",
+      "url": "https://chadd.org/for-adults/higher-education/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "ADDitude Magazine: Hochschulerfolg für ADHS-Studenten",
+      "url": "https://www.additudemag.com/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Americans with Disabilities Act (ADA) — Offizielle Anleitung",
+      "url": "https://www.ada.gov/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Equality Act 2010 — UK-Anleitung zu Behindertenrechten in der Bildung",
+      "url": "https://www.gov.uk/guidance/equality-act-2010-guidance",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Russell Barkley: ADHS und Exekutivfunktion Forschung",
+      "url": "https://www.russellbarkley.org/",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "US Department of Education: Section 504 und IDEA",
+      "url": "https://www2.ed.gov/about/offices/list/ocr/504faq.html",
+      "access_date": "2026-04-28"
+    },
+    {
+      "title": "Anki: Spaced-Repetition Lernwerkzeug",
+      "url": "https://apps.ankiweb.net/",
+      "access_date": "2026-04-28"
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/neurodivergent-study-tools",
+      "/blog/best-apps-adhd-students-2026"
+    ],
+    "homepage": "/",
+    "product": "/",
+    "comparison": "/compare/otter-ai-alternative"
+  },
+  "tags": [
+    "ADHS",
+    "Universität",
+    "Anpassungen",
+    "Technologie",
+    "Studenten",
+    "Barrierefreiheit",
+    "Notizenmachen",
+    "Gesetzliche Rechte",
+    "Fernunterricht",
+    "Studienwerkzeuge"
+  ],
+  "image_assets": [
+    {
+      "id": "hero_adhd_student",
+      "type": "hero",
+      "filename": "adhd-student-disability-office.jpg",
+      "alt": "ADHS-Student bei einem Treffen mit einem Berater für Behindertenunterstützung in einem Universitätsbüro",
+      "dimensions": "1200x630",
+      "caption": "ADHS-Studenten haben gesetzliche Rechte auf Klassenzimmeranpassungen – und Technologie kann sie oft schneller erfüllen als traditionelle Prozesse."
+    },
+    {
+      "id": "comparison_table_visual",
+      "type": "infographic",
+      "filename": "accommodation-tools-comparison.png",
+      "alt": "Vergleichstabelle von universitäts-bereitgestellten Tools (Glean, Jamworks) vs. selbst installierbaren Tools (Lessonscriptor, Otter.ai)",
+      "dimensions": "1000x600",
+      "caption": "Universitäts-bereitgestellte Tools erfordern institutionelle Adoption; selbst installierbare Tools lassen Sie heute starten."
+    }
+  ]
+}
