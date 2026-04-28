@@ -10,7 +10,7 @@
     "premium": "Premium",
     "tryFree": "Experimentar grátis",
     "cta": {
-      "title": "Porque amor significa não ter que anotar tudo",
+      "title": "Porque aprender não deveria significar anotar tudo",
       "titleEm": "à mão.",
       "subtitle": "Grátis para instalar. Grátis para usar. Feito para estudantes que merecem ferramentas melhores."
     },
@@ -302,6 +302,35 @@
         }
       ]
     },
+    "resources": {
+      "eyebrow": "Recursos úteis",
+      "title_line1": "Vá mais fundo.",
+      "title_line2": "Aprenda mais.",
+      "subtitle": "Guias práticos sobre anotações, foco e ferramentas de estudo — escritos para estudantes que pensam diferente.",
+      "browseAll": "Ver todos os artigos",
+      "posts": [
+        {
+          "slug": "best-apps-adhd-students-2026",
+          "title": "Os 12 melhores apps para estudantes com TDAH em 2026",
+          "desc": "Um kit completo: anotações, foco, gestão de tarefas e memória."
+        },
+        {
+          "slug": "how-to-take-notes-with-adhd",
+          "title": "Como fazer anotações com TDAH",
+          "desc": "Por que seu cérebro não consegue ouvir e escrever ao mesmo tempo — e o que fazer no lugar."
+        },
+        {
+          "slug": "how-to-focus-online-lectures-adhd",
+          "title": "Como se concentrar em aulas online com TDAH",
+          "desc": "6 estratégias com base científica e as melhores ferramentas para manter o foco."
+        },
+        {
+          "slug": "adhd-note-taking-template",
+          "title": "O modelo de anotações para TDAH",
+          "desc": "Um modelo gratuito e adaptado ao TDAH, inspirado no método Cornell."
+        }
+      ]
+    },
     "faq": {
       "eyebrow": "Perguntas frequentes e solução de problemas",
       "title_line1": "Perguntas comuns",
@@ -522,7 +551,7 @@
   },
   "otterAlt": {
     "h1": "A melhor alternativa ao Otter.ai para estudantes",
-    "subtitle": "Procurando uma alternativa ao Otter.ai que funcione no seu navegador, não exija assinatura e seja gratuita para uso diário? Essa é o LessonScriptor.",
+    "subtitle": "Procurando uma alternativa ao Otter.ai que funcione no seu navegador, não exija assinatura e seja gratuita para uso diário? Conheça o LessonScriptor.",
     "answer": "O LessonScriptor é a melhor alternativa ao Otter.ai para estudantes porque funciona no Chrome em qualquer plataforma de vídeo (não apenas reuniões), tem modo gratuito sem limites e cobra apenas ~€1/hora pelo premium — sem assinatura mensal.",
     "comparison": {
       "title": "Otter.ai vs LessonScriptor — comparação detalhada",
@@ -611,11 +640,11 @@
   },
   "blog": {
     "hub": {
-      "metaTitle": "Blog — Dicas de estudo ADHD, aprendizado neurodivergente e ferramentas de transcrição",
-      "metaDesc": "Artigos baseados em evidências sobre anotações ADHD, ferramentas de estudo neurodivergentes e dicas de transcrição de vídeo. Recursos gratuitos para estudantes que aprendem de forma diferente.",
+      "metaTitle": "Blog — Dicas de estudo para TDAH, aprendizado neurodivergente e ferramentas de transcrição",
+      "metaDesc": "Artigos com fundamentação científica sobre anotações para TDAH, ferramentas de estudo neurodivergentes e dicas de transcrição de vídeo. Recursos gratuitos para estudantes que aprendem de forma diferente.",
       "eyebrow": "Blog",
       "title": "Aprenda melhor, do seu jeito",
-      "subtitle": "Guias baseados em evidências sobre estratégias de estudo ADHD, ferramentas de aprendizado neurodivergentes e dicas de transcrição de vídeo.",
+      "subtitle": "Guias com fundamentação científica sobre estratégias de estudo para TDAH, ferramentas de aprendizado neurodivergentes e dicas de transcrição de vídeo.",
       "all": "Todos",
       "readMore": "Leia mais",
       "minRead": "min de leitura"

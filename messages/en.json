@@ -10,7 +10,7 @@
     "premium": "Premium",
     "tryFree": "Try for free",
     "cta": {
-      "title": "Because love means you don't have to write everything down",
+      "title": "Because learning shouldn't mean writing everything down",
       "titleEm": "by hand.",
       "subtitle": "Free to install. Free to use. Built for learners who deserve better tools."
     },
@@ -299,6 +299,35 @@
           "title": "Hit Record",
           "desc": "Click the extension icon, open the side panel, press Record. That's it.",
           "tag": "Side panel opens"
+        }
+      ]
+    },
+    "resources": {
+      "eyebrow": "Helpful Resources",
+      "title_line1": "Go deeper.",
+      "title_line2": "Learn more.",
+      "subtitle": "Practical guides on note-taking, focus, and study tools — written for students who think differently.",
+      "browseAll": "Browse all articles",
+      "posts": [
+        {
+          "slug": "best-apps-adhd-students-2026",
+          "title": "The 12 Best Apps for ADHD Students in 2026",
+          "desc": "A complete toolkit covering note-taking, focus, task management, and memory."
+        },
+        {
+          "slug": "how-to-take-notes-with-adhd",
+          "title": "How to Take Notes with ADHD",
+          "desc": "Why your brain can't listen and write at the same time — and what to do instead."
+        },
+        {
+          "slug": "how-to-focus-online-lectures-adhd",
+          "title": "How to Focus During Online Lectures with ADHD",
+          "desc": "6 science-backed strategies and the best tools to stay engaged."
+        },
+        {
+          "slug": "adhd-note-taking-template",
+          "title": "The ADHD Note-Taking Template",
+          "desc": "A free, ADHD-friendly template adapted from Cornell's method."
         }
       ]
     },

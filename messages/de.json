@@ -3,14 +3,14 @@
     "name": "LessonScriptor",
     "domain": "lessonscriptor.com",
     "tagline": "KI-Live-Transkription für jedes Video in Chrome",
-    "description": "Transkribieren Sie jedes Video in Echtzeit in Chrome. Kostenloser Modus ohne Limits. Bearbeiten, markieren und exportieren Sie Ihre Notizen. Ideal für Studierende, Vorlesungen und Fernstudium.",
+    "description": "Jedes Video in Echtzeit transkribieren — direkt in Chrome. Kostenloser Modus ohne Limits. Bearbeiten, markieren und exportieren Sie Ihre Notizen. Ideal für Studierende, Vorlesungen und Fernstudium.",
     "installCTA": "Kostenlos installieren — Chrome-Erweiterung",
     "learnMore": "Mehr erfahren",
     "free": "Kostenlos",
     "premium": "Premium",
     "tryFree": "Kostenlos testen",
     "cta": {
-      "title": "Weil Liebe bedeutet, nicht alles per Hand mitschreiben",
+      "title": "Weil Lernen nicht heißen sollte, alles von Hand mitschreiben",
       "titleEm": "zu müssen.",
       "subtitle": "Kostenlos installieren. Kostenlos nutzen. Gemacht für Lernende, die bessere Werkzeuge verdienen."
     },
@@ -271,7 +271,7 @@
       ],
       "currencyDisclaimer": "Angezeigte Preise sind Schätzungen. Der endgültige Betrag wird beim Bezahlen von Lemon Squeezy zum aktuellen Wechselkurs umgerechnet.",
       "paymentProcessor": "Zahlungen werden sicher über Lemon Squeezy abgewickelt.",
-      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 $ — weniger als zwei Lehrbuchkapitel.",
+      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 $ — weniger als zwei Kapitel aus einem Lehrbuch.",
       "installFreeBtn": "Kostenlos installieren",
       "getAIBtn": "KI-Stunden erhalten →"
     },
@@ -299,6 +299,35 @@
           "title": "Aufnahme starten",
           "desc": "Klicken Sie auf das Erweiterungssymbol, öffnen Sie das Seitenpanel, drücken Sie Aufnahme. Das war's.",
           "tag": "Seitenpanel öffnet sich"
+        }
+      ]
+    },
+    "resources": {
+      "eyebrow": "Hilfreiche Ressourcen",
+      "title_line1": "Tiefer einsteigen.",
+      "title_line2": "Mehr erfahren.",
+      "subtitle": "Praktische Leitfäden zu Mitschriften, Konzentration und Lerntools — geschrieben für Studierende, die anders denken.",
+      "browseAll": "Alle Artikel ansehen",
+      "posts": [
+        {
+          "slug": "best-apps-adhd-students-2026",
+          "title": "Die 12 besten Apps für Studierende mit ADHS 2026",
+          "desc": "Ein komplettes Toolkit: Mitschriften, Fokus, Aufgabenverwaltung und Gedächtnis."
+        },
+        {
+          "slug": "how-to-take-notes-with-adhd",
+          "title": "Wie man mit ADHS Notizen macht",
+          "desc": "Warum Ihr Gehirn nicht gleichzeitig zuhören und schreiben kann — und was Sie stattdessen tun können."
+        },
+        {
+          "slug": "how-to-focus-online-lectures-adhd",
+          "title": "Wie man sich bei Online-Vorlesungen mit ADHS konzentriert",
+          "desc": "6 wissenschaftlich fundierte Strategien und die besten Tools, um aufmerksam zu bleiben."
+        },
+        {
+          "slug": "adhd-note-taking-template",
+          "title": "Die ADHS-Notizvorlage",
+          "desc": "Eine kostenlose, ADHS-freundliche Vorlage nach der Cornell-Methode."
         }
       ]
     },
@@ -611,11 +640,11 @@
   },
   "blog": {
     "hub": {
-      "metaTitle": "Blog — ADHD Lerntipps, neurodivergentes Lernen & Transkriptionstools",
-      "metaDesc": "Evidenzbasierte Artikel über ADHD Notizen, neurodivergente Lernwerkzeuge und Video-Transkriptionstipps. Kostenlose Ressourcen für Studierende, die anders lernen.",
+      "metaTitle": "Blog — ADHS-Lerntipps, neurodivergentes Lernen & Transkriptionstools",
+      "metaDesc": "Wissenschaftlich fundierte Artikel über ADHS-Notizen, neurodivergente Lernwerkzeuge und Video-Transkriptionstipps. Kostenlose Ressourcen für Studierende, die anders lernen.",
       "eyebrow": "Blog",
-      "title": "Besser lernen, auf deine Art",
-      "subtitle": "Evidenzbasierte Leitfäden zu ADHD-Lernstrategien, neurodivergenten Lernwerkzeugen und Video-Transkriptionstipps.",
+      "title": "Besser lernen, auf Ihre Art",
+      "subtitle": "Wissenschaftlich fundierte Leitfäden zu ADHS-Lernstrategien, neurodivergenten Lernwerkzeugen und Video-Transkriptionstipps.",
       "all": "Alle",
       "readMore": "Weiterlesen",
       "minRead": "Min. Lesezeit"

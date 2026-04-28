@@ -1,7 +1,9 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import { Metadata } from 'next'
 import Image from 'next/image'
+import Link from 'next/link'
 import FAQSection from '@/components/FAQSection'
+import { getLocalizedSlug } from '@/content/blog/_slug-map'
 import CTASection from '@/components/CTASection'
 import PricingPacks from '@/components/PricingPacks'
 import {
@@ -477,6 +479,46 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 </span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── HELPFUL RESOURCES ── */}
+      <section className="py-24 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-14">
+            <p className="eyebrow">{t('resources.eyebrow')}</p>
+            <h2 className="font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight">
+              {t('resources.title_line1')}<br />{t('resources.title_line2')}
+            </h2>
+            <p className="text-[15px] text-terra-800/50 mt-4 max-w-xl mx-auto">{t('resources.subtitle')}</p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-10">
+            {t.raw('resources.posts').map((post: { slug: string; title: string; desc: string }, i: number) => {
+              const base = locale === 'en' ? '' : `/${locale}`
+              const localSlug = getLocalizedSlug(post.slug, locale)
+              return (
+                <Link
+                  key={i}
+                  href={`${base}/blog/${localSlug}`}
+                  className="group block bg-white/80 backdrop-blur-sm border border-cream-200 rounded-2xl p-6 no-underline hover:border-accent-500/30 hover:shadow-md transition-all"
+                >
+                  <h3 className="text-sm font-bold text-terra-800 mb-2 group-hover:text-accent-600 transition-colors leading-snug">
+                    {post.title}
+                  </h3>
+                  <p className="text-xs text-terra-800/50 leading-relaxed m-0">{post.desc}</p>
+                </Link>
+              )
+            })}
+          </div>
+          <div className="text-center">
+            <Link
+              href={`${locale === 'en' ? '' : `/${locale}`}/blog`}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-accent-600 hover:text-accent-700 no-underline transition-colors"
+            >
+              {t('resources.browseAll')}
+              <span aria-hidden="true">&rarr;</span>
+            </Link>
           </div>
         </div>
       </section>

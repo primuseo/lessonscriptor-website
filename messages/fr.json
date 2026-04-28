@@ -10,7 +10,7 @@
     "premium": "Premium",
     "tryFree": "Essayer gratuitement",
     "cta": {
-      "title": "Parce qu'aimer, c'est ne pas avoir à tout noter",
+      "title": "Parce qu'apprendre, ça ne devrait pas vouloir dire tout écrire",
       "titleEm": "à la main.",
       "subtitle": "Gratuit à installer. Gratuit à utiliser. Conçu pour les apprenants qui méritent de meilleurs outils."
     },
@@ -299,6 +299,35 @@
           "title": "Appuyez sur Enregistrer",
           "desc": "Cliquez sur l'icône de l'extension, ouvrez le panneau latéral, appuyez sur Enregistrer. C'est tout.",
           "tag": "Le panneau latéral s'ouvre"
+        }
+      ]
+    },
+    "resources": {
+      "eyebrow": "Ressources utiles",
+      "title_line1": "Allez plus loin.",
+      "title_line2": "Apprenez mieux.",
+      "subtitle": "Des guides pratiques sur la prise de notes, la concentration et les outils d'étude — écrits pour les étudiants qui apprennent autrement.",
+      "browseAll": "Voir tous les articles",
+      "posts": [
+        {
+          "slug": "best-apps-adhd-students-2026",
+          "title": "Les 12 meilleures applis pour étudiants TDAH en 2026",
+          "desc": "Un kit complet : prise de notes, concentration, gestion des tâches et mémoire."
+        },
+        {
+          "slug": "how-to-take-notes-with-adhd",
+          "title": "Comment prendre des notes avec un TDAH",
+          "desc": "Pourquoi votre cerveau ne peut pas écouter et écrire en même temps — et quoi faire à la place."
+        },
+        {
+          "slug": "how-to-focus-online-lectures-adhd",
+          "title": "Comment se concentrer en cours en ligne avec un TDAH",
+          "desc": "6 stratégies validées par la science et les meilleurs outils pour rester attentif."
+        },
+        {
+          "slug": "adhd-note-taking-template",
+          "title": "Le modèle de prise de notes TDAH",
+          "desc": "Un modèle gratuit et adapté au TDAH, inspiré de la méthode Cornell."
         }
       ]
     },
@@ -611,11 +640,11 @@
   },
   "blog": {
     "hub": {
-      "metaTitle": "Blog — Conseils d'étude ADHD, apprentissage neurodivergent et outils de transcription",
-      "metaDesc": "Articles basés sur des preuves sur la prise de notes ADHD, les outils d'étude neurodivergents et les conseils de transcription vidéo. Ressources gratuites pour les étudiants qui apprennent différemment.",
+      "metaTitle": "Blog — Conseils d'étude TDAH, apprentissage neurodivergent et outils de transcription",
+      "metaDesc": "Articles appuyés par la recherche sur la prise de notes TDAH, les outils d'étude neurodivergents et les conseils de transcription vidéo. Ressources gratuites pour les étudiants qui apprennent différemment.",
       "eyebrow": "Blog",
       "title": "Apprenez mieux, à votre façon",
-      "subtitle": "Guides basés sur des preuves sur les stratégies d'étude ADHD, les outils d'apprentissage neurodivergents et les conseils de transcription vidéo.",
+      "subtitle": "Guides appuyés par la recherche sur les stratégies d'étude TDAH, les outils d'apprentissage neurodivergents et les conseils de transcription vidéo.",
       "all": "Tous",
       "readMore": "Lire la suite",
       "minRead": "min de lecture"
