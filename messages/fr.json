@@ -60,7 +60,7 @@
       "h1_line2": "de vos",
       "h1_em": "cours",
       "h1_line3": "jamais.",
-      "subtitle": "LessonScriptor transcrit vos cours automatiquement — pour que vous puissiez vous concentrer sur la compréhension, pas sur la prise de notes. Conçu pour les étudiants, les personnes TDAH et tous ceux qui apprennent mieux en lisant en même temps.",
+      "subtitle": "LessonScriptor transcrit vos CM et cours en ligne automatiquement — pour que vous puissiez vous concentrer sur la compréhension, pas sur la prise de notes. Que ce soit sur l'ENT de votre fac ou sur FUN-MOOC, conçu pour les étudiants, les personnes TDAH et tous ceux qui apprennent mieux en lisant en même temps.",
       "waitlistNote": "Gratuit · Pas de spam · Alerte de lancement uniquement",
       "githubCTA": "Voir sur GitHub"
     },
@@ -72,8 +72,8 @@
       "subtitle": "Les cours avancent vite. Les notes prennent du retard. Vous finissez par choisir entre comprendre et noter — et dans les deux cas, quelque chose vous échappe.",
       "items": [
         {
-          "title": "Crampes aux mains, mots manqués",
-          "desc": "Écrire assez vite pour suivre signifie que vos notes sont incomplètes — ou illisibles."
+          "title": "Le CM va trop vite",
+          "desc": "En amphi, le prof déroule sans attendre. Vos notes sont incomplètes — ou illisibles — et le TD de demain arrive vite."
         },
         {
           "title": "Le TDAH complique tout",
@@ -84,8 +84,8 @@
           "desc": "Suivre un cours rapide dans une langue étrangère double la charge cognitive."
         },
         {
-          "title": "Pas de notes = pas de révisions",
-          "desc": "Sans notes écrites, réviser signifie regarder l'intégralité du cours à nouveau."
+          "title": "Pas de notes = partiel dans le flou",
+          "desc": "Sans notes écrites, réviser pour le partiel signifie se retaper l'intégralité du cours en vidéo. Bon courage pour le rattrapage."
         }
       ]
     },
@@ -104,8 +104,8 @@
       "title": "Conçu pour ceux qui apprennent en lisant en même temps",
       "items": [
         {
-          "title": "Étudiants",
-          "desc": "Cours magistraux, formations en ligne, MOOCs — capturez tout sans perdre le fil de ce qui est dit.",
+          "title": "Étudiants de L1 à M2",
+          "desc": "CM en amphi, cours sur Moodle, replays Panopto, FUN-MOOC — capturez tout sans perdre le fil de ce qui est dit.",
           "tag": "Le mode gratuit suffit"
         },
         {
@@ -119,8 +119,8 @@
           "tag": "Toutes les langues"
         },
         {
-          "title": "Apprenants en ligne",
-          "desc": "Udemy, Coursera, tutoriels YouTube — transformez n'importe quelle vidéo en notes consultables et modifiables automatiquement.",
+          "title": "Apprenants en ligne & SED",
+          "desc": "Udemy, Coursera, YouTube, cours du SED de votre fac — transformez n'importe quelle vidéo en notes consultables et modifiables automatiquement.",
           "tag": "Tout site vidéo"
         }
       ]
@@ -189,7 +189,7 @@
       "eyebrow": "Compatibilité",
       "title_line1": "Fonctionne partout où",
       "title_line2": "l'audio est diffusé.",
-      "subtitle": "Plateformes internes universitaires, vidéos protégées, sites publics — si le son sort de votre ordinateur, nous pouvons le transcrire.",
+      "subtitle": "ENT de votre fac, Moodle, Panopto, vidéos protégées, sites publics — si le son sort de votre ordinateur, on peut le transcrire.",
       "platforms": [
         {
           "title": "Plateformes universitaires",
@@ -271,7 +271,7 @@
       ],
       "currencyDisclaimer": "Les prix affichés sont des estimations. Le montant final est converti au taux de change en vigueur par Lemon Squeezy lors du paiement.",
       "paymentProcessor": "Paiements traités de manière sécurisée par Lemon Squeezy.",
-      "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 3h/semaine coûte environ 21 $ — moins que deux chapitres de manuel.",
+      "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 3h/semaine coûte environ 21 $ — moins cher qu'un repas au CROUS par semaine.",
       "installFreeBtn": "Installer gratuitement",
       "getAIBtn": "Obtenir des heures IA →"
     },

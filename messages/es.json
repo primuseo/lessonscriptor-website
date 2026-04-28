@@ -60,7 +60,7 @@
       "h1_line2": "de tus",
       "h1_em": "clases",
       "h1_line3": "nunca más.",
-      "subtitle": "LessonScriptor transcribe tus clases automáticamente — para que puedas centrarte en entender, no en escribir. Diseñado para estudiantes, personas con TDAH y cualquiera que aprenda mejor leyendo a la vez.",
+      "subtitle": "LessonScriptor transcribe tus clases online automáticamente — ya sea en el Campus Virtual de tu universidad o en cualquier plataforma. Deja de copiar apuntes a mano y céntrate en entender. Diseñado para estudiantes, personas con TDAH y cualquiera que aprenda mejor leyendo a la vez.",
       "waitlistNote": "Gratis · Sin spam · Solo aviso de lanzamiento",
       "githubCTA": "Ver en GitHub"
     },
@@ -72,20 +72,20 @@
       "subtitle": "Las clases van rápido. Los apuntes se quedan atrás. Acabas eligiendo entre entender y capturar — y en ambos casos, algo se pierde.",
       "items": [
         {
-          "title": "Calambres en la mano, palabras perdidas",
-          "desc": "Escribir lo bastante rápido para seguir el ritmo significa que tus apuntes quedan incompletos — o ilegibles."
+          "title": "Clases magistrales a toda velocidad",
+          "desc": "El profesor lleva dos horas sin parar y tú llevas diez folios de apuntes ilegibles. En una clase magistral de Grado, escribir lo bastante rápido significa perder la mitad."
         },
         {
           "title": "El TDAH lo complica aún más",
-          "desc": "Dividir la atención entre escuchar y escribir es agotador. Siempre se escapa algo."
+          "desc": "Dividir la atención entre escuchar y escribir es agotador. Cuando llega época de exámenes o la EBAU, cada detalle perdido pesa el doble."
         },
         {
           "title": "Idioma no nativo",
-          "desc": "Seguir una clase rápida en tu segundo idioma supone el doble de carga cognitiva."
+          "desc": "Seguir una clase rápida en tu segundo idioma supone el doble de carga cognitiva — y en un Máster bilingüe, no puedes permitirte perder el hilo."
         },
         {
           "title": "Sin apuntes = sin estudio",
-          "desc": "Sin apuntes escritos, repasar significa volver a ver toda la clase."
+          "desc": "Sin apuntes escritos, repasar para los parciales significa volver a ver toda la clase grabada."
         }
       ]
     },
@@ -104,8 +104,8 @@
       "title": "Diseñado para personas que aprenden leyendo a la vez",
       "items": [
         {
-          "title": "Estudiantes",
-          "desc": "Clases universitarias, cursos en línea, MOOCs — captura todo sin perder el hilo de lo que se dice.",
+          "title": "Estudiantes universitarios",
+          "desc": "Clases de Grado en la UNED, seminarios en el Campus Virtual, sesiones grabadas en Moodle — captura todo sin perder el hilo.",
           "tag": "El modo gratuito funciona genial"
         },
         {
@@ -120,7 +120,7 @@
         },
         {
           "title": "Alumnos de cursos en línea",
-          "desc": "Udemy, Coursera, tutoriales de YouTube — convierte cualquier vídeo en apuntes editables y buscables automáticamente.",
+          "desc": "Udemy, Coursera, tutoriales de YouTube, o las clases del Aula Virtual de la UOC — convierte cualquier vídeo en apuntes editables y buscables.",
           "tag": "Cualquier sitio de vídeo"
         }
       ]
@@ -189,7 +189,7 @@
       "eyebrow": "Compatibilidad",
       "title_line1": "Funciona en cualquier sitio",
       "title_line2": "donde suene audio.",
-      "subtitle": "Plataformas internas de universidad, vídeos protegidos, sitios públicos — si el audio sale de tu ordenador, podemos transcribirlo.",
+      "subtitle": "Campus Virtual, Aula Virtual, Moodle, vídeos protegidos de tu universidad — si el audio sale de tu ordenador, podemos transcribirlo.",
       "platforms": [
         {
           "title": "Plataformas universitarias",
@@ -271,7 +271,7 @@
       ],
       "currencyDisclaimer": "Los precios mostrados son estimaciones. El importe final se convierte al tipo de cambio vigente por Lemon Squeezy en el momento del pago.",
       "paymentProcessor": "Pagos procesados de forma segura por Lemon Squeezy.",
-      "footnote": "Compra una vez, úsalo cuando quieras. Un semestre completo a 3h/semana cuesta unos 21 $ — menos que dos capítulos de un libro de texto.",
+      "footnote": "Compra una vez, úsalo cuando quieras. Un semestre completo a 3h/semana cuesta unos 21 € — menos que un menú del día por semana.",
       "installFreeBtn": "Instalar gratis",
       "getAIBtn": "Obtener horas IA →"
     },

@@ -60,7 +60,7 @@
       "h1_line2": "das suas",
       "h1_em": "aulas",
       "h1_line3": "de novo.",
-      "subtitle": "O LessonScriptor transcreve suas aulas automaticamente — para que você possa focar em entender, não em escrever. Feito para estudantes, pessoas com TDAH e todos que aprendem melhor lendo junto.",
+      "subtitle": "O LessonScriptor transcreve suas aulas automaticamente — sejam aulas EAD no AVA da faculdade ou videoaulas presenciais gravadas. Foque em entender, não em escrever. Feito para estudantes, pessoas com TDAH e todos que aprendem melhor lendo junto.",
       "waitlistNote": "Grátis · Sem spam · Só alerta de lançamento",
       "githubCTA": "Ver no GitHub"
     },
@@ -72,12 +72,12 @@
       "subtitle": "As aulas vão rápido. As anotações ficam para trás. Você acaba escolhendo entre entender e anotar — e de qualquer forma, algo se perde.",
       "items": [
         {
-          "title": "Cãibra na mão, palavras perdidas",
-          "desc": "Escrever rápido o suficiente para acompanhar significa que suas anotações ficam incompletas — ou ilegíveis."
+          "title": "Aulas de 3 horas sem pausar",
+          "desc": "Aulas longas no EAD ou no presencial passam rápido. Anotar tudo à mão significa anotações incompletas — ou ilegíveis."
         },
         {
           "title": "O TDAH torna tudo mais difícil",
-          "desc": "Dividir o foco entre ouvir e escrever é exaustivo. Algo sempre escapa."
+          "desc": "Dividir o foco entre ouvir e escrever é exaustivo. Algo sempre escapa — ainda mais quando você precisa revisar para o ENEM ou vestibular."
         },
         {
           "title": "Idioma não nativo",
@@ -85,7 +85,7 @@
         },
         {
           "title": "Sem anotações = sem estudo",
-          "desc": "Sem anotações escritas, revisar significa assistir toda a aula de novo."
+          "desc": "Sem anotações escritas, revisar para a prova significa reassistir toda a aula de novo."
         }
       ]
     },
@@ -104,8 +104,8 @@
       "title": "Feito para quem aprende lendo junto",
       "items": [
         {
-          "title": "Estudantes",
-          "desc": "Aulas na universidade, cursos online, MOOCs — capture tudo sem perder o fio do que está sendo dito.",
+          "title": "Estudantes universitários",
+          "desc": "Aulas no Moodle, no Sigaa, no AVA da sua faculdade ou no presencial — capture tudo sem perder o fio da meada, da licenciatura ao mestrado.",
           "tag": "O modo gratuito funciona muito bem"
         },
         {
@@ -119,8 +119,8 @@
           "tag": "Qualquer idioma"
         },
         {
-          "title": "Alunos de cursos online",
-          "desc": "Udemy, Coursera, tutoriais no YouTube — transforme qualquer vídeo em anotações pesquisáveis e editáveis automaticamente.",
+          "title": "Alunos EAD e de cursos online",
+          "desc": "Udemy, Coursera, tutoriais no YouTube ou videoaulas da sua universidade — transforme qualquer vídeo em anotações pesquisáveis e editáveis.",
           "tag": "Qualquer site de vídeo"
         }
       ]
@@ -189,7 +189,7 @@
       "eyebrow": "Compatibilidade",
       "title_line1": "Funciona em todo lugar",
       "title_line2": "que toca áudio.",
-      "subtitle": "Plataformas internas de universidades, vídeos protegidos, sites públicos — se o áudio sai do seu computador, podemos transcrevê-lo.",
+      "subtitle": "Moodle, Sigaa, AVA da faculdade, vídeos protegidos, sites públicos — se o áudio sai do seu computador, podemos transcrevê-lo.",
       "platforms": [
         {
           "title": "Plataformas universitárias",
@@ -271,7 +271,7 @@
       ],
       "currencyDisclaimer": "Os preços mostrados são estimativas. O valor final é convertido pela taxa de câmbio em tempo real pelo Lemon Squeezy no checkout.",
       "paymentProcessor": "Pagamentos processados com segurança pelo Lemon Squeezy.",
-      "footnote": "Compre uma vez, use quando quiser. Um semestre inteiro com 3h/semana custa cerca de $21 — menos que dois capítulos de livro.",
+      "footnote": "Compre uma vez, use quando quiser. Um semestre inteiro com 3h/semana custa cerca de $21 — menos que um almoço no bandejão por semana.",
       "installFreeBtn": "Instalar grátis",
       "getAIBtn": "Obter horas IA →"
     },

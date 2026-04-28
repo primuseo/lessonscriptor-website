@@ -60,7 +60,7 @@
       "h1_line2": "Ihrer",
       "h1_em": "Vorlesungen",
       "h1_line3": "mehr.",
-      "subtitle": "LessonScriptor transkribiert Ihre Vorlesungen automatisch — damit Sie sich aufs Verstehen konzentrieren können, nicht aufs Mitschreiben. Entwickelt für Studierende, Menschen mit ADHS und alle, die besser lernen, wenn sie mitlesen.",
+      "subtitle": "LessonScriptor transkribiert Ihre Vorlesungen und Seminare automatisch — ob im Hörsaal, im Fernstudium oder bei der Modulprüfungsvorbereitung. Damit Sie sich aufs Verstehen konzentrieren können, nicht aufs Mitschreiben.",
       "waitlistNote": "Kostenlos · Kein Spam · Nur Benachrichtigung zum Start",
       "githubCTA": "Auf GitHub ansehen"
     },
@@ -72,20 +72,20 @@
       "subtitle": "Vorlesungen sind schnell. Notizen kommen nicht hinterher. Am Ende müssen Sie sich zwischen Verstehen und Mitschreiben entscheiden — und so oder so geht etwas verloren.",
       "items": [
         {
-          "title": "Handkrämpfe, verpasste Wörter",
-          "desc": "Schnell genug zu schreiben, um mitzukommen, bedeutet, dass Ihre Notizen unvollständig sind — oder unleserlich."
+          "title": "90-Minuten-Vorlesungen, null Pause",
+          "desc": "Eine typische Vorlesung dauert 90 Minuten am Stück — schnell genug mitschreiben heißt: lückenhafte oder unleserliche Notizen."
         },
         {
           "title": "ADHS macht es schwerer",
-          "desc": "Die Aufmerksamkeit zwischen Zuhören und Schreiben aufzuteilen ist erschöpfend. Irgendetwas geht immer verloren."
+          "desc": "Die Aufmerksamkeit zwischen Zuhören und Schreiben aufzuteilen ist erschöpfend — besonders in langen Übungen und Seminaren. Irgendetwas geht immer verloren."
         },
         {
           "title": "Fremdsprache",
-          "desc": "Einer schnellen Vorlesung in Ihrer Zweitsprache zu folgen, bedeutet doppelte kognitive Belastung."
+          "desc": "Einer schnellen Vorlesung in Ihrer Zweitsprache zu folgen, bedeutet doppelte kognitive Belastung — und in der Modulprüfung fehlen dann die entscheidenden Details."
         },
         {
           "title": "Keine Notizen = kein Lernen",
-          "desc": "Ohne schriftliche Notizen bedeutet Wiederholen, die gesamte Vorlesung erneut anzusehen."
+          "desc": "Ohne schriftliche Notizen heißt Wiederholen, die gesamte Vorlesung nochmal anzusehen — ECTS sammelt man so nicht."
         }
       ]
     },
@@ -105,12 +105,12 @@
       "items": [
         {
           "title": "Studierende",
-          "desc": "Universitätsvorlesungen, Online-Kurse, MOOCs — alles mitschneiden, ohne den Faden zu verlieren.",
+          "desc": "Vorlesungen, Seminare, Übungen — ob Sommersemester oder Wintersemester, alles mitschneiden, ohne den Faden zu verlieren.",
           "tag": "Kostenloser Modus ideal"
         },
         {
           "title": "Menschen mit ADHS",
-          "desc": "Mitlesen beim Zuhören reduziert die kognitive Belastung erheblich. Nie mehr den Fokus mitten in der Vorlesung verlieren.",
+          "desc": "Mitlesen beim Zuhören reduziert die kognitive Belastung erheblich. Ideal auch als Unterstützung im Rahmen eines Nachteilsausgleichs.",
           "tag": "Barrierefreiheit zuerst"
         },
         {
@@ -119,8 +119,8 @@
           "tag": "Jede Sprache"
         },
         {
-          "title": "Online-Kursteilnehmer",
-          "desc": "Udemy, Coursera, YouTube-Tutorials — verwandeln Sie jedes Video automatisch in durchsuchbare, bearbeitbare Notizen.",
+          "title": "Fernstudium & Online-Kurse",
+          "desc": "FernUni Hagen, Udemy, Coursera, YouTube-Tutorials — verwandeln Sie jedes Video automatisch in durchsuchbare, bearbeitbare Notizen.",
           "tag": "Jede Video-Plattform"
         }
       ]
@@ -189,7 +189,7 @@
       "eyebrow": "Kompatibilität",
       "title_line1": "Funktioniert überall,",
       "title_line2": "wo Audio läuft.",
-      "subtitle": "Universitätsinterne Plattformen, geschützte Videos, öffentliche Seiten — wenn Audio aus Ihrem Computer kommt, können wir es transkribieren.",
+      "subtitle": "Moodle, ILIAS, Stud.IP, Panopto — egal welche Uni-Plattform. Wenn Audio aus Ihrem Browser kommt, können wir es transkribieren.",
       "platforms": [
         {
           "title": "Universitätsplattformen",
@@ -271,7 +271,7 @@
       ],
       "currencyDisclaimer": "Angezeigte Preise sind Schätzungen. Der endgültige Betrag wird beim Bezahlen von Lemon Squeezy zum aktuellen Wechselkurs umgerechnet.",
       "paymentProcessor": "Zahlungen werden sicher über Lemon Squeezy abgewickelt.",
-      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 $ — weniger als zwei Kapitel aus einem Lehrbuch.",
+      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 € — weniger als ein Mensaessen pro Woche.",
       "installFreeBtn": "Kostenlos installieren",
       "getAIBtn": "KI-Stunden erhalten →"
     },
