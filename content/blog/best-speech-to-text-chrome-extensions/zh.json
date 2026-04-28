@@ -1,0 +1,393 @@
+{
+  "slug": "best-speech-to-text-chrome-extensions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "2026年最佳学生用Chrome语音转文字扩展程序（5款对比）",
+  "reading_time_min": 8,
+  "published_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "meta": {
+    "title": "2026年最佳Chrome语音转文字扩展（学生与课堂专用）",
+    "description": "2026年5款最佳Chrome语音转文字扩展对比——精度、语言支持、实时转录和价格全面比较。LessonScriptor在课堂转录方面胜出。",
+    "og_image": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
+    "og_title": "2026年最佳Chrome语音转文字扩展",
+    "og_description": "5款Chrome语音转文字扩展对比——实时精度、YouTube支持、导出功能和价格。",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+    "alt": "Chrome浏览器在视频课旁边实时显示语音转文字转录内容",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
+  },
+  "author": {
+    "name": "LessonScriptor Team"
+  },
+  "tldr": {
+    "label": "核心要点",
+    "lead": "对学生来说，最佳Chrome语音转文字扩展是LessonScriptor（用于课堂和YouTube转录），以及Google实时字幕（内置于Chrome，无需安装，适合快速只读字幕）。",
+    "bullets": [
+      "LessonScriptor可将Chrome中任意视频转录为可编辑、可导出的文字稿。免费模式立即可用——无需注册账号。",
+      "Google实时字幕自Chrome 89版本起内置——在chrome://settings/accessibility中启用。只读模式，但无需任何扩展即可处理所有音频。",
+      "Speechnotes最适合语音听写——用声音在文档中打字——而不是转录视频音频。",
+      "Notta支持50多种语言，是亚洲语言和中东语言转录的最佳选择。",
+      "Tactiq专为Google Meet和Zoom实时会议优化，不适用于录制视频。"
+    ]
+  },
+  "intro": "Chrome语音转文字扩展是一种浏览器插件，可将口语音频——来自视频、麦克风或实时会议——直接在Chrome中转换为可读、可搜索的文字。对于在YouTube、Canvas或Coursera观看录制课程的学生，或连续参加视频会议的职场人士，选对扩展程序可以彻底省去手动记笔记的麻烦。本指南对比2026年五款最常用的Chrome语音转文字扩展：LessonScriptor、Google实时字幕、Speechnotes、Notta和Tactiq。先说结论：LessonScriptor在课堂和视频转录方面胜出；Google实时字幕在全系统零安装字幕方面胜出。每款工具都有明确的最佳适用场景——弄清楚哪款最适合你至关重要。",
+  "stats": [
+    {
+      "number": "50+",
+      "label": "LessonScriptor可实时转录的视频平台数量"
+    },
+    {
+      "number": "14",
+      "label": "LessonScriptor AI转录支持的语言数量"
+    },
+    {
+      "number": "680K hrs",
+      "label": "OpenAI Whisper（LessonScriptor Premium）的语音训练数据量"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-speech-to-text-chrome-extension",
+      "h2": "什么是Chrome语音转文字扩展？",
+      "body": "Chrome语音转文字扩展是一种浏览器插件，可以监听音频——来自麦克风、正在播放的视频或实时会议——并在Chrome内部将其实时转换为文字。\n\n这类产品分为两种截然不同的类型：\n\n**听写工具**从麦克风捕获你的声音，让你通过说话来打字。Speechnotes是最典型的例子。打开它，说话，文字就会出现在文档中。适合免提撰写邮件或笔记。\n\n**转录工具**从外部来源捕获音频——视频课、Zoom通话、YouTube教程——并生成可搜索、可保存的文字稿。LessonScriptor、Google实时字幕、Notta和Tactiq都属于这一类。\n\n大多数搜索Chrome语音转文字扩展的学生需要的是第二种类型：从视频或会议中获取文字稿的方法。这两种类型使用不同的音频处理流程，不可互换。听写工具无法转录YouTube视频——它只能听到你的麦克风。",
+      "internal_links": [
+        {
+          "text": "了解Chrome实时字幕的工作原理",
+          "internal": true,
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "best-speech-to-text-chrome-extensions-2026",
+      "h2": "2026年最佳Chrome语音转文字扩展有哪些？",
+      "body": "2026年五款最佳Chrome语音转文字扩展，按学生和职场人士的适用场景排序：",
+      "table": {
+        "caption": "2026年最佳Chrome语音转文字扩展——按精度、适用场景和价格对比。",
+        "headers": [
+          "扩展程序",
+          "最适用于",
+          "实时转录",
+          "可编辑文字稿",
+          "导出",
+          "语言数",
+          "价格"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "LessonScriptor",
+              "视频课堂、YouTube、Canvas、Zoom录像",
+              "是",
+              "是",
+              "Markdown、剪贴板",
+              "14",
+              "免费 + 按需付费"
+            ],
+            "highlight": true,
+            "badge": "最适合学生"
+          },
+          {
+            "cells": [
+              "Google Live Captions（内置）",
+              "任意音频，零安装",
+              "是",
+              "否",
+              "无",
+              "20+",
+              "免费（内置）"
+            ],
+            "highlight": false,
+            "badge": "最易启用"
+          },
+          {
+            "cells": [
+              "Speechnotes",
+              "语音听写 / 语音打字",
+              "是（仅麦克风）",
+              "是",
+              "Google Docs、TXT",
+              "主要支持英语",
+              "免费 + $9.99/月"
+            ],
+            "highlight": false,
+            "badge": "最适合听写"
+          },
+          {
+            "cells": [
+              "Notta",
+              "多语言会议和文件上传",
+              "是（会议）",
+              "是",
+              "TXT、DOCX、SRT",
+              "50+",
+              "免费（120分钟/月）+ $9/月"
+            ],
+            "highlight": false,
+            "badge": "语言覆盖最广"
+          },
+          {
+            "cells": [
+              "Tactiq",
+              "Google Meet / Zoom实时会议",
+              "是",
+              "是",
+              "Google Docs、Notion",
+              "主要支持英语",
+              "免费（10次/月）+ $8/月"
+            ],
+            "highlight": false,
+            "badge": "最适合实时会议"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor：课堂和YouTube最佳语音转文字扩展",
+      "body": "LessonScriptor是一款Chrome扩展，可将Chrome中播放的任意视频转录到一个持久的、可编辑的侧边栏面板。它支持YouTube、Zoom云端录像、Canvas、Coursera、edX、Skillshare、Vimeo、TED演讲以及50多个其他平台——任何在Chrome中播放的视频。\n\n从Chrome网上应用店安装LessonScriptor只需一次点击。使用免费模式无需账号。打开视频，点击工具栏中的LessonScriptor图标，侧边栏就会随着视频播放实时填充转录内容。\n\n**免费模式**使用Chrome的Web Speech API，通过麦克风在设备上处理音频。精度高、保护隐私、无使用限制。Google内置实时字幕使用的也是同一引擎。\n\n**Premium模式**使用标签页音频捕获——直接从浏览器标签页而非麦克风获取音频——并发送给OpenAI Whisper进行转录。Whisper基于68万小时的语音数据训练，在学术词汇、教授姓名、专业术语和非英语课程方面的精度明显更高。由于Premium捕获标签页音频，佩戴耳机也能正常使用；而免费模式需要音频通过扬声器播放才能被麦克风捕获。\n\n**LessonScriptor的差异化优势：**文字稿完全可编辑。点击任意单词即可纠正听错的词。用五种颜色高亮标记段落。添加加粗格式和章节标题，将原始转录内容整理成结构化笔记。导出为Markdown，可直接粘贴到Notion、Obsidian或Google Docs并保留格式。\n\n对于核心工作流程是观看录制视频内容并从中整理笔记的学生来说，LessonScriptor是2026年最全面的Chrome语音转文字扩展。",
+      "internal_links": [
+        {
+          "text": "LessonScriptor与Chrome内置实时字幕的对比",
+          "internal": true,
+          "url": "/blog/chrome-live-captions-not-working"
+        },
+        {
+          "text": "用LessonScriptor将视频转录为文字",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "google-live-captions-review",
+      "h2": "Chrome有内置语音转文字功能吗？",
+      "body": "有。Chrome自2021年发布的Chrome 89版本起就内置了名为「实时字幕」的语音转文字功能。这不是扩展程序——它直接内置于Chrome中，无需安装，也不需要访问Chrome网上应用店。\n\n启用Chrome实时字幕的方法：在地址栏中打开**chrome://settings/accessibility**，然后开启**实时字幕**。每当Chrome中有音频播放时，底部就会出现一个浮动字幕气泡。\n\nChrome实时字幕完全在设备上处理所有音频，不会向Google服务器发送任何数据，默认保护隐私，离线也能使用。\n\n**Chrome内置字幕的优势：**\n- 零门槛：开启一次，自动处理Chrome中的所有音频\n- 支持20多种语言，包括越南语、泰语、印地语和瑞典语\n- 完全免费，无需账号，无需扩展\n- 适用于任何音频来源：视频、播客、网络电台、音频文件\n\n**Chrome内置字幕的局限：**\n- 文字稿只读——无法编辑、保存、复制或导出\n- 音频停止后字幕气泡消失，没有历史记录\n- 对学术词汇、带口音的语音和专有名词精度下降\n- 在Windows上使用耳机时可靠性差（音频路由问题——见我们的[解决指南](/blog/chrome-live-captions-not-working)）\n\nGoogle实时字幕适合需要快速、临时无障碍字幕且不想配置的场景。它不是笔记工具。对于需要保留转录内容的学生来说，这只是起点，而不是终点。",
+      "internal_links": [
+        {
+          "text": "Chrome实时字幕不工作？查看解决指南",
+          "internal": true,
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "speechnotes-review",
+      "h2": "Speechnotes：最佳Chrome语音听写扩展",
+      "body": "Speechnotes是一款Chrome语音听写扩展——它能将你说的话实时转换为打出的文字。它是Chrome网上应用店中安装量最大的语音转文字Chrome扩展之一，界面简洁，专为免提写作优化。\n\nSpeechnotes监听你的麦克风，在Speechnotes文档中生成文字，可保存到Google Docs、下载为TXT文件或复制到剪贴板。\n\n**核心局限：**Speechnotes只能捕获麦克风音频。它无法转录YouTube视频、录制的课程、Zoom录像，或任何通过扬声器播放的音频。如果在视频播放时打开Speechnotes，它会转录房间里听到的声音——而不是直接转录视频音频。\n\n**Speechnotes适合的场景：**口述笔记、免提撰写邮件，或在实验室、野外等不方便打字的环境中描述观察内容。对于这类听写使用场景，Speechnotes功能完善且免费。\n\n对于视频转录——这才是大多数搜索AI转录Chrome扩展的学生真正需要的——LessonScriptor才是正确的工具。"
+    },
+    {
+      "id": "which-extension-for-students",
+      "h2": "哪款Chrome语音转文字扩展最适合学生？",
+      "body": "对学生来说，选择哪款Chrome语音转文字扩展完全取决于你要转录的内容。\n\n**观看录制视频课（YouTube、Canvas、Coursera、edX、Zoom录像）：**使用LessonScriptor。这是本次对比中唯一专为Chrome视频转录而设计的扩展。免费模式无需账号，立即可用。Premium模式以€0.60/小时的价格提供Whisper精度和耳机支持。\n\n**学习时需要快速字幕但不需要保存：**使用Google实时字幕（内置于Chrome）。在设置中开启一次，之后就不用管它了。在校园里忘带耳机或需要在嘈杂环境中跟随视频时非常实用。\n\n**在Google Meet或Zoom上参与线上课：**如果你的主要需求是捕获带发言人标签的实时会议转录，使用Tactiq。Tactiq与Google Meet的原生字幕流集成良好，可自动导出到Google Docs。\n\n**用语音打字：**使用Speechnotes进行免提写作——口述论文、口头总结笔记，或在不方便打字的场景中写作。\n\n**学术现实：**大多数学生之所以选错工具，是因为他们搜索的是「语音转文字」，而实际上需要的是「视频转录」。Speechnotes这类听写工具和LessonScriptor这类视频转录工具都能将语音转为文字——但它们解决的是完全不同的问题。如果音频来自视频文件或流媒体，你需要的是LessonScriptor或Notta，而不是只能用麦克风的听写工具。",
+      "internal_links": [
+        {
+          "text": "如何逐步转录课程视频",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "real-time-transcription-chrome",
+      "h2": "哪款扩展在Chrome中提供最准确的实时转录？",
+      "body": "在Chrome实时转录精度方面，答案取决于哪个音频模型在处理工作。\n\n**设备端精度（Google Web Speech API）：**Chrome实时字幕、LessonScriptor免费模式和Speechnotes都使用Chrome的Web Speech API进行设备端处理。三者对标准英语的精度相当——在发音清晰的母语者音频上，词语准确率约为90-95%。对带口音的语音、学术术语或专有名词，精度降至70-85%。\n\n**AI驱动精度（云端模型）：**LessonScriptor Premium和Notta分别使用云端AI模型——OpenAI Whisper和Notta的专有模型——在学术内容上的精度明显更高。驱动LessonScriptor Premium的Whisper基于68万小时多语言语音训练，涵盖大学课程、学术报告和专业领域音频。在化学、法律和医学课堂的实测中，Whisper驱动的转录在专业词汇上的错误明显少于Chrome的设备端模型。\n\n**语言精度：**对于非英语内容，差距更大。LessonScriptor Premium的Whisper模型和Notta在法语、西班牙语、德语、日语和韩语学术音频上的表现都优于Chrome的设备端模型。Notta的50多种语言支持使其成为LessonScriptor尚未覆盖的语言的最佳选择。\n\n**总结：**对于日常英语口语，各工具表现相近。对于学术课程——尤其是非英语或专业技术领域——LessonScriptor Premium（Whisper）或Notta是更准确的选择。"
+    }
+  ],
+  "cta": {
+    "heading": "在Chrome中转录任意课堂内容——免费，无需账号",
+    "body": "LessonScriptor支持YouTube、Canvas、Zoom录像、Coursera以及50多个其他平台。可编辑、可导出，支持14种语言。免费模式立即可用。",
+    "button_label": "将LessonScriptor添加到Chrome——免费",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "常见问题",
+    "items": [
+      {
+        "q": "学生用哪款Chrome语音转文字扩展最好？",
+        "a": "LessonScriptor是观看视频课的学生最好的Chrome语音转文字扩展。它可以将Chrome中的任意视频——YouTube、Zoom录像、Canvas、Coursera——转录为可编辑、可导出的文字稿。免费模式无需账号。如果只需要快速只读字幕且不想安装扩展，Chrome内置实时字幕（chrome://settings/accessibility）是最简单的选择。"
+      },
+      {
+        "q": "Chrome有内置语音转文字功能吗？",
+        "a": "有。Chrome自89版本（2021年）起就包含了实时字幕功能。在chrome://settings/accessibility中启用。它可以为Chrome中的任意音频实时生成字幕，全程在设备端处理，支持20多种语言，完全免费。局限：字幕只读，音频停止后消失——无法保存或导出。"
+      },
+      {
+        "q": "AI转录Chrome扩展和语音听写扩展有什么区别？",
+        "a": "转录扩展（LessonScriptor、Notta、Tactiq）从视频、会议或流媒体捕获音频并转换为文字。听写扩展（Speechnotes、Google Docs语音输入）只捕获你的麦克风，将你说的话转换为打出的文字。两者不可互换：听写工具无法转录YouTube视频。"
+      },
+      {
+        "q": "使用耳机时能用Chrome语音转文字扩展吗？",
+        "a": "可以，使用LessonScriptor Premium即可。Premium模式使用标签页音频捕获——直接从浏览器标签页而非麦克风获取音频——所以佩戴耳机不影响转录。LessonScriptor免费模式和Speechnotes使用麦克风，意味着音频需要通过扬声器播放才能被麦克风捕获。Chrome内置实时字幕在Windows上使用耳机时存在已知的可靠性问题。"
+      },
+      {
+        "q": "有免费的AI转录Chrome扩展吗？",
+        "a": "有。LessonScriptor免费模式使用设备端语音识别转录Chrome中的任意视频——无需账号、无需付费、无时间限制。Chrome内置实时字幕也免费且无需安装。Speechnotes提供免费听写版本。Notta和Tactiq都有免费版，但有每月使用限制（分别为每月120分钟和每月10次会议）。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "2026年最佳Chrome语音转文字扩展",
+    "body": "LessonScriptor是需要从视频课、YouTube教程或Zoom录像获取可编辑、可导出文字稿的用户的最佳Chrome语音转文字扩展。Google实时字幕——无需扩展即可内置于Chrome——是处理任意音频的临时只读字幕的最简单选项。Speechnotes在语音听写方面领先。Notta是50多种语言支持的最佳选择。Tactiq专为Google Meet和Zoom实时会议而设计。常见错误是在需要转录工具时却选了听写工具——如果音频来自视频，你需要的是LessonScriptor或Notta。"
+  },
+  "schemas": [
+    {
+      "type": "BlogPosting",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The 5 Best Speech-to-Text Chrome Extensions for Students in 2026",
+        "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "author": {
+          "@type": "Organization",
+          "name": "LessonScriptor Team",
+          "url": "https://lessonscriptor.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "image": "https://lessonscriptor.com/images/blog/best-speech-to-text-chrome-extensions-hero.png",
+        "url": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
+        "keywords": [
+          "speech to text chrome extension",
+          "ai transcription chrome extension",
+          "real time transcription chrome",
+          "chrome live captions",
+          "lecture transcription chrome"
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best speech-to-text Chrome extension for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LessonScriptor is the best speech-to-text Chrome extension for students who watch video lectures. It transcribes any video in Chrome — YouTube, Zoom recordings, Canvas, Coursera — into an editable, exportable transcript with a free mode that requires no account."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Chrome have a built-in speech-to-text feature?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Chrome's Live Captions (available since Chrome 89) generates real-time captions for any audio in Chrome. Enable it at chrome://settings/accessibility. It is completely free, supports 20+ languages, and processes audio on-device — but captions are read-only and cannot be saved or exported."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use a Chrome speech-to-text extension with headphones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with LessonScriptor Premium. It uses tab audio capture — grabbing audio directly from the browser tab — so headphones don't affect transcription. Chrome's built-in Live Captions has known reliability issues with headphones on Windows."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there a free AI transcription Chrome extension?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. LessonScriptor's free mode transcribes any video in Chrome using on-device speech recognition with no account, no payment, and no time limit. Chrome's built-in Live Captions is also free but read-only."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Best Speech-to-Text Chrome Extensions 2026",
+            "item": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Speech recognition research",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    },
+    {
+      "text": "Chrome Web Store — LessonScriptor",
+      "href": "https://chrome.google.com/webstore/detail/lessonscriptor",
+      "external": true
+    },
+    {
+      "text": "Speechnotes — Voice notes and dictation",
+      "href": "https://speechnotes.co",
+      "external": true
+    },
+    {
+      "text": "Notta — AI transcription",
+      "href": "https://www.notta.ai",
+      "external": true
+    },
+    {
+      "text": "Tactiq — Meeting transcription",
+      "href": "https://tactiq.io",
+      "external": true
+    }
+  ],
+  "internal_links": [
+    {
+      "text": "Chrome实时字幕的工作原理",
+      "href": "/live-captions-chrome",
+      "internal": true
+    },
+    {
+      "text": "将视频转录为文字",
+      "href": "/transcribe-video-to-text",
+      "internal": true
+    },
+    {
+      "text": "Chrome实时字幕不工作——解决指南",
+      "href": "/blog/chrome-live-captions-not-working",
+      "internal": true
+    }
+  ]
+}

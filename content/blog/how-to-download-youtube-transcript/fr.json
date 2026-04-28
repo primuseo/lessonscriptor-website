@@ -1,0 +1,357 @@
+{
+  "slug": "how-to-download-youtube-transcript",
+  "page_type": "blog_post",
+  "category_tag": "Chrome & Captions",
+  "h1": "Comment télécharger une transcription YouTube (3 méthodes, gratuites)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "meta": {
+    "title": "Comment télécharger une transcription YouTube (gratuit, 3 méthodes)",
+    "description": "Téléchargez n'importe quelle transcription YouTube en quelques secondes : utilisez le panneau intégré de YouTube, une extension Chrome comme LessonScriptor, ou le copier-coller. Guide étape par étape avec une comparaison de LessonScriptor, NoteGPT et Tactiq.",
+    "og_image": "/images/blog/how-to-download-youtube-transcript-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript",
+    "og_title": "Comment télécharger une transcription YouTube — 3 méthodes gratuites",
+    "og_description": "Panneau intégré YouTube vs extensions Chrome : la façon la plus rapide d'enregistrer une transcription YouTube en fichier texte.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/how-to-download-youtube-transcript-hero.png",
+    "alt": "Lecteur vidéo YouTube avec le panneau de transcription latéral ouvert dans Chrome, affichant du texte téléchargeable",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Screenshot-style mockup of YouTube with its native transcript panel visible, and a LessonScriptor side panel open alongside it. Clean editorial style. Cream background, red YouTube accent, LessonScriptor terra tone. Shows timestamped transcript lines."
+  },
+  "author": {
+    "name": "LessonScriptor Team",
+    "url": "/transcribe-video-to-text",
+    "bio": "The LessonScriptor team tests transcript and caption tools against real-world student workflows. This guide is based on hands-on testing of YouTube's built-in tools and Chrome extensions in 2026."
+  },
+  "tldr": {
+    "label": "Points clés",
+    "lead": "La façon la plus rapide et gratuite de télécharger une transcription YouTube est le menu ⋯ intégré de YouTube → Afficher la transcription — mais le résultat est en lecture seule et nécessite une copie manuelle. Pour une transcription modifiable et exportable que vous pouvez annoter et coller dans Notion ou Google Docs, une extension Chrome est la meilleure méthode.",
+    "bullets": [
+      "Le panneau de transcription intégré de YouTube est gratuit et ne nécessite aucune installation — mais le texte est horodaté, en lecture seule, et doit être copié manuellement.",
+      "LessonScriptor extrait et télécharge une transcription YouTube en Markdown en un clic — modifiable, surlignée, exportable.",
+      "NoteGPT et Tactiq proposent également l'extraction de transcriptions YouTube, avec résumé IA moyennant un coût supplémentaire.",
+      "L'IA de YouTube génère automatiquement des transcriptions pour la plupart des vidéos grâce au moteur de reconnaissance vocale de Google — mais la précision se dégrade sur les accents prononcés et le vocabulaire technique.",
+      "Aucune méthode ne fonctionne sur les vidéos dont le propriétaire de la chaîne a désactivé les sous-titres et pour lesquelles YouTube n'en a pas généré automatiquement."
+    ]
+  },
+  "intro": "Une transcription YouTube est une version texte horodatée de tout ce qui est dit dans une vidéo, et vous pouvez la télécharger gratuitement en moins de 30 secondes grâce au panneau de transcription intégré de YouTube — aucun outil requis. Pour un fichier texte plus propre et modifiable que vous pouvez annoter et exporter vers une application de prise de notes, une extension Chrome comme LessonScriptor, NoteGPT ou Tactiq produit un meilleur résultat. Ce guide couvre les trois méthodes, les classe par cas d'utilisation, et explique quelle approche est la plus fiable pour les étudiants qui transcrivent des cours depuis YouTube.",
+  "stats": [
+    {
+      "number": "800M+",
+      "label": "vidéos sur YouTube avec des transcriptions générées automatiquement"
+    },
+    {
+      "number": "1",
+      "label": "clic pour ouvrir le panneau de transcription natif de YouTube"
+    },
+    {
+      "number": "14+",
+      "label": "langues dans lesquelles LessonScriptor extrait les transcriptions YouTube"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-youtube-transcript",
+      "h2": "Qu'est-ce qu'une transcription YouTube et pourquoi la télécharger ?",
+      "body": "Une transcription YouTube est le texte intégral du contenu parlé d'une vidéo, généré soit par le moteur de reconnaissance vocale automatique (ASR) de YouTube, soit téléchargé manuellement par le propriétaire de la chaîne sous forme de fichier de sous-titres. YouTube stocke ces données de transcription pour chaque vidéo dont les sous-titres sont activés.\n\nTélécharger une transcription YouTube est utile dans quatre situations concrètes. Premièrement, **la prise de notes de cours** : les étudiants qui regardent des cours enregistrés sur YouTube souhaitent une version texte qu'ils peuvent rechercher, annoter et réviser. Deuxièmement, **l'accessibilité** : les spectateurs sourds ou malentendants ont besoin d'une version texte indépendante de la bulle de sous-titres à lecture automatique. Troisièmement, **la recherche et l'analyse de contenu** : les journalistes, chercheurs et créateurs de contenu extraient des transcriptions pour analyser les modèles de discours, citer des passages ou réutiliser du contenu. Quatrièmement, **l'apprentissage des langues** : les apprenants qui étudient l'anglais ou une autre langue à partir de vidéos YouTube utilisent les transcriptions pour lire en écoutant, annoter le vocabulaire et exporter du matériel d'étude.\n\nDans ces quatre cas, la transcription doit être dans un format modifiable — pas un panneau en lecture seule défilant — ce qui fait que les extensions Chrome surpassent l'outil natif de YouTube.",
+      "internal_links": [
+        {
+          "text": "Comment transcrire des vidéos de cours",
+          "internal": true,
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
+    },
+    {
+      "id": "youtube-builtin-method",
+      "h2": "Comment télécharger gratuitement une transcription YouTube avec l'outil intégré ?",
+      "body": "La fonction de transcription intégrée de YouTube est disponible sur chaque vidéo dont les sous-titres sont activés. Voici le processus étape par étape.\n\n**Étape 1 :** Ouvrez la vidéo YouTube dans votre navigateur.\n\n**Étape 2 :** Cliquez sur le menu à trois points (⋯) directement sous le titre de la vidéo, à droite du bouton Enregistrer.\n\n**Étape 3 :** Sélectionnez **Afficher la transcription** dans le menu déroulant. Un panneau s'ouvre sur le côté droit de la page avec des lignes de texte horodatées.\n\n**Étape 4 :** Pour supprimer les horodatages (ce qui rend le copier-coller plus propre), cliquez sur l'icône à trois points en haut du panneau de transcription et sélectionnez **Activer/désactiver les horodatages**.\n\n**Étape 5 :** Cliquez n'importe où dans le panneau de transcription, appuyez sur Ctrl+A (Windows) ou Cmd+A (Mac) pour tout sélectionner, puis Ctrl+C / Cmd+C pour copier. Collez dans Google Docs, Notion ou n'importe quel éditeur de texte.\n\n**Ce que vous ne pouvez pas faire avec la transcription native de YouTube :**\n- Télécharger directement en fichier .txt ou .docx (YouTube n'offre pas de bouton d'export)\n- Modifier la transcription dans YouTube\n- Surligner ou annoter des passages\n- Accéder aux transcriptions générées automatiquement dans une langue différente de celle d'origine de la vidéo sans activer la traduction automatique (ce qui réduit la précision)\n\nPour une seule vidéo où vous avez besoin d'un collage rapide du texte, cette méthode est suffisante et prend moins d'une minute. Pour des flux de travail d'étude réguliers — plusieurs vidéos par semaine, notes annotées, export Markdown — une extension Chrome est plus rapide et produit un résultat plus propre.",
+      "internal_links": [
+        {
+          "text": "Transcrire automatiquement des vidéos YouTube",
+          "internal": true,
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "chrome-extension-comparison",
+      "h2": "Quelle extension Chrome extrait le mieux les transcriptions YouTube ?",
+      "body": "Trois extensions Chrome dominent l'extraction de transcriptions YouTube en 2026 : LessonScriptor, NoteGPT et Tactiq. Chacune adopte une approche différente — le bon choix dépend de si vous avez besoin de texte brut, de résumés IA, ou d'un flux de travail complet de prise de notes.",
+      "type": "table",
+      "table": {
+        "caption": "Extensions Chrome pour transcriptions YouTube comparées — LessonScriptor vs NoteGPT vs Tactiq (2026).",
+        "headers": [
+          "Extension",
+          "Transcription YouTube",
+          "Notes modifiables",
+          "Format d'export",
+          "Résumé IA",
+          "Version gratuite",
+          "Prix"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "LessonScriptor",
+              "Temps réel + vidéo à la demande",
+              "Oui — éditeur complet, surlignage 5 couleurs",
+              "Markdown, presse-papiers",
+              "Non (focus transcription)",
+              "Mode gratuit illimité",
+              "Gratuit + paiement à l'usage"
+            ],
+            "highlight": true,
+            "badge": "Meilleur pour les étudiants"
+          },
+          {
+            "cells": [
+              "NoteGPT",
+              "Vidéos préenregistrées",
+              "Limité",
+              "TXT, copie",
+              "Oui — résumé GPT-4",
+              "5 résumés/jour",
+              "Gratuit + 9,99 $/mois"
+            ],
+            "highlight": false,
+            "badge": "Meilleur pour les résumés rapides"
+          },
+          {
+            "cells": [
+              "Tactiq",
+              "Réunions en direct uniquement (pas YouTube VOD)",
+              "Oui — export Google Docs",
+              "Google Docs, Notion, TXT",
+              "Oui — IA pour réunions",
+              "10 réunions/mois",
+              "Gratuit + 8 $/mois"
+            ],
+            "highlight": false,
+            "badge": "Meilleur pour les réunions en direct"
+          }
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Meilleures extensions Chrome pour les sous-titres en direct",
+          "internal": true,
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-method",
+      "h2": "Comment LessonScriptor extrait-il une transcription YouTube ?",
+      "body": "LessonScriptor est une extension Chrome qui transcrit n'importe quelle vidéo lue dans Chrome — y compris YouTube — en temps réel et affiche le résultat dans un panneau latéral. Contrairement à NoteGPT, qui traite les données de sous-titres existantes, LessonScriptor capture l'audio réel en utilisant soit le microphone de votre appareil (mode gratuit), soit la capture audio de l'onglet (mode Premium).\n\nCette distinction est importante pour deux raisons. Premièrement, LessonScriptor fonctionne sur des vidéos pour lesquelles YouTube n'a pas généré automatiquement de sous-titres — cours mis en ligne sans sous-titres, vidéos non répertoriées, et contenu dans des langues que l'ASR de YouTube ne prend pas bien en charge. Deuxièmement, le mode Premium de LessonScriptor utilise OpenAI Whisper, qui produit une meilleure précision sur le vocabulaire académique, les noms de professeurs et la terminologie technique que le propre ASR de YouTube.\n\n**Comment utiliser LessonScriptor pour télécharger une transcription YouTube :**\n\n1. Installez LessonScriptor depuis le Chrome Web Store (gratuit, aucun compte requis).\n2. Ouvrez la vidéo YouTube que vous souhaitez transcrire.\n3. Cliquez sur l'icône LessonScriptor dans la barre d'outils — le panneau latéral s'ouvre à côté de la vidéo.\n4. Appuyez sur lecture sur la vidéo. La transcription apparaît en temps réel pendant la lecture.\n5. Une fois terminé, cliquez sur **Exporter** → Copier en Markdown. Collez directement dans Notion, Obsidian, Google Docs ou n'importe quel éditeur Markdown.\n\nLa transcription exportée conserve tous les surlignages et titres que vous avez ajoutés pendant la lecture — utile pour marquer les sections les plus importantes d'un cours avant de les coller dans vos notes.",
+      "internal_links": [
+        {
+          "text": "Transcrire des vidéos en texte avec LessonScriptor",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "save-as-text-file",
+      "h2": "Comment enregistrer une transcription YouTube en fichier texte ?",
+      "body": "YouTube ne propose pas de bouton natif « Télécharger en .txt » — il n'y a pas d'export de fichier direct dans l'interface YouTube. Pour enregistrer une transcription YouTube en fichier texte, vous avez trois options classées par effort.\n\n**Option 1 — Copier et enregistrer manuellement (le plus lent) :** Utilisez le panneau de transcription intégré de YouTube (menu ⋯ → Afficher la transcription → Désactiver les horodatages → Tout sélectionner → Copier). Collez dans un éditeur de texte et enregistrez en .txt. Fiable, mais nécessite un travail manuel à chaque fois.\n\n**Option 2 — Export Markdown de LessonScriptor (le plus rapide pour les étudiants) :** Exportez la transcription en Markdown directement depuis le panneau latéral de LessonScriptor. Markdown est un format texte brut lisible dans n'importe quel éditeur de texte et rendu nativement dans Notion, Obsidian, GitHub et Google Docs. C'est le format le plus pratique pour les notes d'étude.\n\n**Option 3 — Copie en un clic de NoteGPT (le plus rapide pour les résumés rapides) :** NoteGPT extrait les données de sous-titres de YouTube et les affiche sous forme de bloc de texte unique avec un bouton de copie. Pas d'horodatages, pas de mise en forme. Collez dans un fichier .txt en quelques secondes. Si vous avez seulement besoin du texte brut et non d'un document d'étude annoté, c'est l'option avec le moins de friction.\n\nPour les fichiers de sous-titres SRT ou VTT (fichiers de sous-titres avec horodatages), il n'existe pas de méthode gratuite dans le navigateur — vous auriez besoin d'un outil en ligne de commande comme `yt-dlp` avec le flag `--write-subs`, ce qui dépasse le cadre d'un flux de travail étudiant."
+    },
+    {
+      "id": "youtube-ai-transcripts",
+      "h2": "Est-ce que l'IA de YouTube génère automatiquement des transcriptions ?",
+      "body": "Oui. YouTube utilise la technologie de reconnaissance vocale automatique (ASR) de Google pour générer des transcriptions pour la plupart des vidéos mises en ligne sur la plateforme. Le processus est automatique — les propriétaires de chaînes n'ont rien à faire pour que YouTube génère des sous-titres.\n\nLe moteur ASR de YouTube fonctionne bien sur un discours anglais clair et avec un accent standard, avec une précision d'environ 80 à 90 % sur le contenu général. La précision diminue de façon mesurable dans quatre situations : les accents régionaux prononcés, le débit rapide au-dessus de ~200 mots par minute, le vocabulaire technique (terminologie médicale, juridique, scientifique, mathématique), et les langues non anglaises pour lesquelles les données d'entraînement de YouTube sont moins abondantes.\n\nPour les étudiants qui regardent des cours universitaires, la limitation de précision est pertinente : l'utilisation par un professeur de chimie de noms de composés, de mécanismes de réaction ou de terminologie d'équipement de laboratoire produira des erreurs notables dans la transcription auto-générée de YouTube. Le mode Premium de LessonScriptor, qui utilise OpenAI Whisper, produit moins d'erreurs sur ce type de contenu car Whisper a été entraîné sur 680 000 heures d'audio varié, y compris des discours académiques et professionnels.\n\nYouTube traduit également automatiquement les transcriptions en plus de 50 langues via sa fonction de traduction automatique. Les transcriptions auto-traduites introduisent une deuxième couche d'erreur en plus des erreurs de reconnaissance vocale — utiles pour comprendre le sens général, mais pas assez fiables pour la prise de notes académiques.",
+      "internal_links": [
+        {
+          "text": "Transcrire automatiquement des vidéos YouTube",
+          "internal": true,
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-transcript-unavailable",
+      "h2": "Pourquoi l'option de transcription YouTube n'apparaît-elle pas ?",
+      "body": "L'option ⋯ → Afficher la transcription dans YouTube est absente dans trois situations.\n\n**1. La chaîne a désactivé les sous-titres.** Certaines chaînes, notamment celles avec du contenu protégé par des droits d'auteur ou à forte teneur musicale, désactivent les sous-titres automatiques. Sans sous-titres, il n'y a pas de transcription à afficher. Dans ce cas, le mode microphone gratuit de LessonScriptor est la seule méthode basée sur le navigateur qui produira une transcription — il transcrit l'audio directement, indépendamment du système de sous-titres de YouTube.\n\n**2. L'ASR de YouTube n'a pas encore traité la vidéo.** Les vidéos nouvellement mises en ligne prennent jusqu'à 24 heures pour que YouTube génère des sous-titres automatiques. Si vous essayez de transcrire la rediffusion d'un événement en direct ou une vidéo mise en ligne dans la dernière heure, l'option Afficher la transcription peut ne pas encore apparaître.\n\n**3. La vidéo est dans une langue avec un support ASR limité.** Les sous-titres automatiques de YouTube couvrent environ 60 langues, mais la précision et la disponibilité varient. Les vidéos dans des langues avec peu de données d'entraînement peuvent ne pas recevoir de sous-titres générés automatiquement du tout.\n\nDans les cas 1 et 3, LessonScriptor et toute extension qui s'appuie sur les données de sous-titres de YouTube (NoteGPT, Tactiq) échoueront — sauf le mode microphone de LessonScriptor, qui capture l'audio de manière indépendante."
+    }
+  ],
+  "cta": {
+    "heading": "Téléchargez des transcriptions YouTube avec LessonScriptor — gratuitement",
+    "body": "LessonScriptor transcrit n'importe quelle vidéo YouTube en temps réel et exporte une transcription Markdown propre et modifiable. Mode gratuit, aucun compte requis, fonctionne même sans sous-titres YouTube.",
+    "button_label": "Ajouter LessonScriptor à Chrome — gratuit",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Questions fréquemment posées",
+    "items": [
+      {
+        "q": "Comment télécharger gratuitement une transcription YouTube ?",
+        "a": "Ouvrez la vidéo YouTube, cliquez sur le menu ⋯ sous le titre, et sélectionnez Afficher la transcription. Désactivez les horodatages, sélectionnez tout le texte (Ctrl+A), copiez, et collez dans un document. C'est gratuit et ne nécessite aucun outil. Pour un fichier modifiable plus propre, LessonScriptor exporte la transcription en Markdown en un clic."
+      },
+      {
+        "q": "Quelle est la meilleure extension Chrome pour extraire des transcriptions YouTube ?",
+        "a": "LessonScriptor est la meilleure extension Chrome pour extraire des transcriptions YouTube pour les étudiants qui ont besoin d'une transcription modifiable et annotée qu'ils peuvent exporter. NoteGPT est la meilleure option si vous souhaitez principalement un résumé généré par IA de la vidéo. Tactiq fonctionne pour les réunions en direct mais n'extrait pas les transcriptions des vidéos YouTube."
+      },
+      {
+        "q": "Puis-je obtenir une transcription YouTube sans sous-titres ?",
+        "a": "Oui, avec le mode microphone de LessonScriptor. LessonScriptor capture l'audio de la vidéo via le microphone de votre appareil et le transcrit indépendamment du système de sous-titres de YouTube — ainsi cela fonctionne même lorsque la chaîne a désactivé les sous-titres ou que YouTube ne les a pas encore générés automatiquement."
+      },
+      {
+        "q": "Est-ce que YouTube génère automatiquement des transcriptions grâce à l'IA ?",
+        "a": "Oui. YouTube utilise la reconnaissance vocale automatique de Google pour générer des transcriptions pour la plupart des vidéos. La précision est bonne pour un discours anglais clair mais se dégrade sur le vocabulaire technique, les accents prononcés et le contenu non anglais. Pour les cours universitaires, LessonScriptor Premium utilisant OpenAI Whisper produit moins d'erreurs sur le vocabulaire spécialisé."
+      },
+      {
+        "q": "Comment enregistrer une transcription YouTube en fichier texte ?",
+        "a": "YouTube n'a pas de bouton d'export natif. Vous pouvez copier manuellement la transcription depuis le panneau intégré de YouTube et la coller dans un éditeur de texte, ou utiliser LessonScriptor pour exporter la transcription en fichier Markdown directement depuis le panneau latéral Chrome. L'export de LessonScriptor inclut tous les surlignages et titres que vous avez ajoutés pendant la lecture."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "La façon la plus rapide de télécharger une transcription YouTube",
+    "body": "La façon la plus simple de télécharger une transcription YouTube est le panneau ⋯ → Afficher la transcription de YouTube — gratuit, instantané, sans installation. La limitation est que l'outil de YouTube est en lecture seule et n'offre pas de bouton d'export, ce qui le rend peu pratique pour des flux de travail d'étude réguliers. Pour les étudiants qui transcrivent régulièrement des cours YouTube, LessonScriptor est la méthode plus efficace : il capture l'audio en temps réel, produit une transcription Markdown modifiable, et fonctionne même sur les vidéos sans sous-titres. NoteGPT ajoute une synthèse IA si vous souhaitez les points clés d'une vidéo sans lire la transcription complète. Quelle que soit la méthode utilisée, la transcription YouTube elle-même — lorsqu'elle est disponible — est gratuite, accessible dans chaque vidéo, et s'ouvre en quelques secondes."
+  },
+  "schemas": [
+    {
+      "type": "BlogPosting",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to Download a YouTube Transcript (3 Methods, Free)",
+        "description": "Three free methods to download a YouTube transcript: the built-in YouTube transcript panel, Chrome extensions (LessonScriptor, NoteGPT, Tactiq), and manual copy-paste. Step-by-step guide for students.",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "author": {
+          "@type": "Organization",
+          "name": "LessonScriptor Team",
+          "url": "https://lessonscriptor.com/about"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript"
+        },
+        "image": "https://lessonscriptor.com/images/blog/how-to-download-youtube-transcript-hero.png"
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I download a YouTube transcript for free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Open the video on YouTube, click the ⋯ menu below the title, select Show transcript, toggle off timestamps, select all text, copy, and paste into a document. No tools or extensions required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best YouTube transcript extractor Chrome extension?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LessonScriptor is the best YouTube transcript extractor for students needing an editable, annotated transcript exportable as Markdown. NoteGPT is best for AI-generated video summaries. Tactiq works for live meetings but not for YouTube video-on-demand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get a YouTube transcript without captions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with LessonScriptor's microphone mode. It transcribes audio directly from your device microphone, independent of YouTube's caption system — so it works even when captions are disabled."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does YouTube automatically generate transcripts using AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. YouTube uses Google's automatic speech recognition to generate transcripts for most videos. Accuracy is good for standard English speech but lower on technical vocabulary and accented speech."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I save a YouTube transcript as a text file?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "YouTube has no native export button. Copy the transcript from YouTube's built-in panel and paste into a text editor, or use LessonScriptor to export as a Markdown file directly from the Chrome side panel."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Download a YouTube Transcript",
+            "item": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "text": "YouTube Help — View video transcripts",
+      "href": "https://support.google.com/youtube/answer/100077",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Robust speech recognition via large-scale weak supervision",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    },
+    {
+      "text": "NoteGPT — YouTube summary and transcript tool",
+      "href": "https://notegpt.io",
+      "external": true
+    },
+    {
+      "text": "Tactiq — Chrome extension for meeting transcription",
+      "href": "https://tactiq.io",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-youtube-video",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/how-to-transcribe-lecture-videos",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

@@ -1,0 +1,357 @@
+{
+  "slug": "how-to-download-youtube-transcript",
+  "page_type": "blog_post",
+  "category_tag": "Chrome & Captions",
+  "h1": "如何下载 YouTube 字幕文本（3 种免费方法）",
+  "reading_time_min": 8,
+  "published_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "meta": {
+    "title": "如何下载 YouTube 字幕文本（免费，3 种方法）",
+    "description": "几秒内下载任意 YouTube 字幕文本：使用 YouTube 内置面板、LessonScriptor 等 Chrome 扩展，或直接复制粘贴。含 LessonScriptor、NoteGPT 和 Tactiq 对比的分步指南。",
+    "og_image": "/images/blog/how-to-download-youtube-transcript-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript",
+    "og_title": "如何下载 YouTube 字幕文本 — 3 种免费方法",
+    "og_description": "YouTube 内置面板 vs Chrome 扩展：将 YouTube 字幕保存为文本文件的最快方式。",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/how-to-download-youtube-transcript-hero.png",
+    "alt": "Chrome 中 YouTube 视频播放器旁边打开了字幕侧边面板，显示可下载的文本",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Screenshot-style mockup of YouTube with its native transcript panel visible, and a LessonScriptor side panel open alongside it. Clean editorial style. Cream background, red YouTube accent, LessonScriptor terra tone. Shows timestamped transcript lines."
+  },
+  "author": {
+    "name": "LessonScriptor Team",
+    "url": "/transcribe-video-to-text",
+    "bio": "The LessonScriptor team tests transcript and caption tools against real-world student workflows. This guide is based on hands-on testing of YouTube's built-in tools and Chrome extensions in 2026."
+  },
+  "tldr": {
+    "label": "核心要点",
+    "lead": "下载 YouTube 字幕最快的免费方式是 YouTube 内置的 ⋯ 菜单 → 显示字幕——但结果是只读的，需要手动复制。如果你需要可编辑、可导出的字幕文本用于在 Notion 或 Google Docs 中注释，Chrome 扩展是更好的方法。",
+    "bullets": [
+      "YouTube 内置字幕面板免费且无需安装——但文本带有时间戳、只读，必须手动复制。",
+      "LessonScriptor 一键将 YouTube 字幕提取并下载为 Markdown 格式——可编辑、可高亮、可导出。",
+      "NoteGPT 和 Tactiq 也提供 YouTube 字幕提取，AI 摘要功能需额外付费。",
+      "YouTube AI 使用 Google 语音识别引擎自动为大多数视频生成字幕——但在口音较重和专业术语上精度会下降。",
+      "如果频道所有者禁用了字幕且 YouTube 未自动生成，则所有方法都无法使用。"
+    ]
+  },
+  "intro": "YouTube 字幕是视频中所有对话内容的带时间戳文本版本，你可以通过 YouTube 内置字幕面板在 30 秒内免费下载——无需任何工具。如果你需要更干净、可编辑的文本文件用于注释并导出到笔记应用，LessonScriptor、NoteGPT 或 Tactiq 等 Chrome 扩展能产出更好的结果。本指南涵盖全部三种方法，按使用场景排序，并解释哪种方式对于需要转录 YouTube 课程视频的学生来说最可靠。",
+  "stats": [
+    {
+      "number": "800M+",
+      "label": "YouTube 上提供自动生成字幕的视频数量"
+    },
+    {
+      "number": "1",
+      "label": "点击即可打开 YouTube 原生字幕面板"
+    },
+    {
+      "number": "14+",
+      "label": "LessonScriptor 可提取 YouTube 字幕的语言数量"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-youtube-transcript",
+      "h2": "什么是 YouTube 字幕文本，为什么要下载它？",
+      "body": "YouTube 字幕文本是视频语音内容的完整文字记录，由 YouTube 的自动语音识别（ASR）引擎生成，或由频道所有者手动上传字幕文件。YouTube 会为每个启用字幕的视频存储这些字幕数据。\n\n下载 YouTube 字幕在四种具体场景中非常有用。第一，**课堂笔记**：在 YouTube 上观看录播课程的学生需要可以搜索、注释和复习的文字版本。第二，**无障碍访问**：听障用户需要独立于自动播放字幕气泡的文字版本。第三，**研究和内容分析**：记者、研究人员和内容创作者提取字幕来分析语言模式、引用原文或再利用内容。第四，**语言学习**：通过 YouTube 视频学习英语或其他语言的学习者使用字幕在听的同时阅读、标注词汇并导出学习材料。\n\n在这四种情况下，字幕都需要以可编辑格式呈现——而不是只读滚动面板——这正是 Chrome 扩展优于 YouTube 原生工具的地方。",
+      "internal_links": [
+        {
+          "text": "如何转录课程视频",
+          "internal": true,
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
+    },
+    {
+      "id": "youtube-builtin-method",
+      "h2": "如何用 YouTube 内置工具免费下载字幕？",
+      "body": "YouTube 内置字幕功能在所有启用了字幕的视频中都可以使用。以下是详细的分步操作流程。\n\n**第 1 步：** 在浏览器中打开 YouTube 视频。\n\n**第 2 步：** 点击视频标题正下方的三点菜单（⋯），位于「保存」按钮的右侧。\n\n**第 3 步：** 在下拉菜单中选择**显示字幕**。页面右侧会打开一个带时间戳的文本面板。\n\n**第 4 步：** 要去除时间戳（使复制更整洁），点击字幕面板顶部的三点图标，选择**切换时间戳**。\n\n**第 5 步：** 在字幕面板内任意位置点击，按 Ctrl+A（Windows）或 Cmd+A（Mac）全选文本，再按 Ctrl+C / Cmd+C 复制。粘贴到 Google Docs、Notion 或任意文本编辑器中。\n\n**YouTube 原生字幕无法做到的事：**\n- 直接下载为 .txt 或 .docx 文件（YouTube 没有导出按钮）\n- 在 YouTube 内编辑字幕\n- 高亮或注释段落\n- 不开启自动翻译的情况下获取与视频原语言不同的自动字幕（开启后会降低准确性）\n\n对于只需要快速复制粘贴一个视频文本的场景，这个方法足够用，不到一分钟就能完成。但对于定期学习工作流——每周多个视频、带注释的笔记、Markdown 导出——Chrome 扩展更快，输出也更整洁。",
+      "internal_links": [
+        {
+          "text": "自动转录 YouTube 视频",
+          "internal": true,
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "chrome-extension-comparison",
+      "h2": "哪款 Chrome 扩展提取 YouTube 字幕最好？",
+      "body": "2026 年，三款 Chrome 扩展在 YouTube 字幕提取领域占主导地位：LessonScriptor、NoteGPT 和 Tactiq。每款采用不同方式——正确的选择取决于你是需要原始文本、AI 摘要，还是完整的笔记工作流。",
+      "type": "table",
+      "table": {
+        "caption": "YouTube 字幕 Chrome 扩展对比——LessonScriptor vs NoteGPT vs Tactiq（2026）。",
+        "headers": [
+          "扩展",
+          "YouTube 字幕",
+          "可编辑笔记",
+          "导出格式",
+          "AI 摘要",
+          "免费版",
+          "价格"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "LessonScriptor",
+              "实时 + 点播视频",
+              "是——完整编辑器，5 色高亮",
+              "Markdown，剪贴板",
+              "否（专注转录）",
+              "无限免费模式",
+              "免费 + 按量付费"
+            ],
+            "highlight": true,
+            "badge": "最适合学生"
+          },
+          {
+            "cells": [
+              "NoteGPT",
+              "预录视频",
+              "有限",
+              "TXT，复制",
+              "是——GPT-4 摘要",
+              "每天 5 次摘要",
+              "免费 + $9.99/月"
+            ],
+            "highlight": false,
+            "badge": "最适合快速摘要"
+          },
+          {
+            "cells": [
+              "Tactiq",
+              "仅限实时会议（不支持 YouTube VOD）",
+              "是——Google Docs 导出",
+              "Google Docs、Notion、TXT",
+              "是——会议 AI",
+              "每月 10 次会议",
+              "免费 + $8/月"
+            ],
+            "highlight": false,
+            "badge": "最适合实时会议"
+          }
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "最佳实时字幕 Chrome 扩展",
+          "internal": true,
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-method",
+      "h2": "LessonScriptor 如何提取 YouTube 字幕？",
+      "body": "LessonScriptor 是一款 Chrome 扩展，可以对 Chrome 中播放的任意视频（包括 YouTube）进行实时转录，并在侧边面板中显示结果。与处理现有字幕数据的 NoteGPT 不同，LessonScriptor 通过设备麦克风（免费模式）或标签页音频捕获（Premium 模式）直接录制实际音频。\n\n这一区别在两方面很重要。第一，LessonScriptor 可以处理 YouTube 没有自动生成字幕的视频——没有字幕上传的课程、未列出的视频，以及 YouTube ASR 支持不好的语言内容。第二，LessonScriptor 的 Premium 模式使用 OpenAI Whisper，在学术词汇、教授姓名和专业术语上的准确率比 YouTube 自身的 ASR 更高。\n\n**使用 LessonScriptor 下载 YouTube 字幕的步骤：**\n\n1. 从 Chrome 网上应用店安装 LessonScriptor（免费，无需账户）。\n2. 打开你想要转录的 YouTube 视频。\n3. 点击工具栏中的 LessonScriptor 图标——侧边面板在视频旁边打开。\n4. 点击视频的播放键。字幕随着视频播放实时出现。\n5. 完成后，点击**导出** → 复制为 Markdown。直接粘贴到 Notion、Obsidian、Google Docs 或任意 Markdown 编辑器。\n\n导出的字幕保留了你在播放过程中添加的所有高亮和标题——在将最重要的课程段落粘贴到笔记之前标记它们非常有用。",
+      "internal_links": [
+        {
+          "text": "使用 LessonScriptor 将视频转录为文本",
+          "internal": true,
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "save-as-text-file",
+      "h2": "如何将 YouTube 字幕保存为文本文件？",
+      "body": "YouTube 没有原生的「下载为 .txt」按钮——YouTube 界面中没有直接的文件导出功能。要将 YouTube 字幕保存为文本文件，你有三种按难易程度排列的选项。\n\n**选项 1 — 手动复制保存（最慢）：** 使用 YouTube 内置字幕面板（⋯菜单 → 显示字幕 → 关闭时间戳 → 全选 → 复制）。粘贴到文本编辑器中，另存为 .txt。可靠，但每次都需要手动操作。\n\n**选项 2 — LessonScriptor Markdown 导出（对学生最快）：** 直接从 LessonScriptor 侧边面板将字幕导出为 Markdown。Markdown 是一种纯文本格式，在任意文本编辑器中可读，在 Notion、Obsidian、GitHub 和 Google Docs 中原生渲染。这是学习笔记最实用的格式。\n\n**选项 3 — NoteGPT 一键复制（快速摘要最快）：** NoteGPT 从 YouTube 提取字幕数据，以带复制按钮的单块文本显示。没有时间戳，没有格式。几秒内粘贴到 .txt 文件。如果你只需要原始文本而不是带注释的学习文档，这是摩擦最小的选项。\n\n对于 SRT 或 VTT 字幕文件（带时间戳的字幕文件），浏览器内没有免费方法——你需要使用 `yt-dlp` 这类命令行工具加上 `--write-subs` 参数，这超出了学生工作流的范围。"
+    },
+    {
+      "id": "youtube-ai-transcripts",
+      "h2": "YouTube AI 会自动生成字幕吗？",
+      "body": "是的。YouTube 使用 Google 的自动语音识别（ASR）技术为平台上大多数上传的视频生成字幕。该过程是自动的——频道所有者无需任何操作，YouTube 就会生成字幕。\n\nYouTube 的 ASR 引擎在发音清晰、标准口音的英语上表现良好，在一般内容上准确率约为 80–90%。在四种情况下准确率会明显下降：浓重的地区口音、语速超过约每分钟 200 词的快速语音、专业词汇（医学、法律、科学、数学术语），以及 YouTube 训练数据较少的非英语语言。\n\n对于观看学术课程的学生来说，准确率限制非常重要：化学教授使用的化合物名称、反应机理或实验室设备术语，会在 YouTube 自动生成的字幕中产生明显错误。LessonScriptor 的 Premium 模式使用 OpenAI Whisper，在这类内容上错误更少，因为 Whisper 在 68 万小时的多样化音频（包括学术和专业语音）上进行了训练。\n\nYouTube 还通过自动翻译功能将字幕自动翻译成 50 多种语言。自动翻译的字幕在语音识别错误之上又引入了第二层错误——对于理解大意有用，但对于学术笔记来说不够可靠。",
+      "internal_links": [
+        {
+          "text": "自动转录 YouTube 视频",
+          "internal": true,
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-transcript-unavailable",
+      "h2": "为什么 YouTube 字幕选项没有显示？",
+      "body": "YouTube 中 ⋯ → 显示字幕 选项在三种情况下会缺失。\n\n**1. 该频道禁用了字幕。** 一些频道，尤其是有版权材料或以音乐为主的内容，会禁用自动字幕。没有字幕就没有可显示的文本。在这种情况下，LessonScriptor 的免费麦克风模式是唯一能生成字幕的浏览器方法——它直接转录音频，独立于 YouTube 的字幕系统。\n\n**2. YouTube 的 ASR 还未处理该视频。** 新上传的视频最多需要 24 小时让 YouTube 生成自动字幕。如果你想转录直播回放或一小时内刚上传的视频，显示字幕选项可能还不会出现。\n\n**3. 视频使用的语言 ASR 支持有限。** YouTube 的自动字幕覆盖约 60 种语言，但准确率和可用性参差不齐。训练数据有限的语言的视频可能根本不会收到自动生成的字幕。\n\n在第 1 和第 3 种情况下，LessonScriptor 和任何依赖 YouTube 字幕数据的扩展（NoteGPT、Tactiq）都会失效——除了 LessonScriptor 的麦克风模式，它能独立捕获音频。"
+    }
+  ],
+  "cta": {
+    "heading": "用 LessonScriptor 下载 YouTube 字幕——免费",
+    "body": "LessonScriptor 实时转录任意 YouTube 视频，并导出整洁、可编辑的 Markdown 字幕。免费模式，无需账户，即使没有 YouTube 字幕也能正常使用。",
+    "button_label": "将 LessonScriptor 添加到 Chrome——免费",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "常见问题",
+    "items": [
+      {
+        "q": "如何免费下载 YouTube 字幕？",
+        "a": "打开 YouTube 视频，点击标题下方的 ⋯ 菜单，选择显示字幕。关闭时间戳，全选文本（Ctrl+A），复制后粘贴到文档中。免费且无需工具。想要更整洁的可编辑文件，LessonScriptor 一键将字幕导出为 Markdown。"
+      },
+      {
+        "q": "哪款 Chrome 扩展提取 YouTube 字幕最好？",
+        "a": "对于需要可编辑、带注释且可导出字幕的学生，LessonScriptor 是最佳 YouTube 字幕提取 Chrome 扩展。如果你主要想要视频的 AI 生成摘要，NoteGPT 是最好的选择。Tactiq 适用于实时会议，但不能提取 YouTube 视频的字幕。"
+      },
+      {
+        "q": "没有字幕也能获取 YouTube 字幕文本吗？",
+        "a": "可以，使用 LessonScriptor 的麦克风模式。LessonScriptor 通过设备麦克风捕获视频音频并进行转录，独立于 YouTube 的字幕系统——即使频道禁用了字幕或 YouTube 尚未自动生成字幕也能使用。"
+      },
+      {
+        "q": "YouTube 会用 AI 自动生成字幕吗？",
+        "a": "是的。YouTube 使用 Google 的自动语音识别为大多数视频生成字幕。在清晰的英语上准确率较好，但在专业词汇、浓重口音和非英语内容上准确率会下降。对于学术课程，LessonScriptor Premium 使用 OpenAI Whisper，在专业词汇上错误更少。"
+      },
+      {
+        "q": "如何将 YouTube 字幕保存为文本文件？",
+        "a": "YouTube 没有原生导出按钮。你可以从 YouTube 内置面板手动复制字幕并粘贴到文本编辑器，或使用 LessonScriptor 直接从 Chrome 侧边面板将字幕导出为 Markdown 文件。LessonScriptor 的导出包含你在播放过程中添加的所有高亮和标题。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "下载 YouTube 字幕最快的方式",
+    "body": "下载 YouTube 字幕最简单的方式是 YouTube 自带的 ⋯ → 显示字幕面板——免费、即时、无需安装。局限在于 YouTube 的工具是只读的，没有导出按钮，不适合日常学习工作流。对于经常转录 YouTube 课程的学生，LessonScriptor 是更高效的方法：实时捕获音频，生成可编辑的 Markdown 字幕，即使视频没有字幕也能使用。如果你想在不阅读完整字幕的情况下获取视频要点，NoteGPT 提供 AI 摘要功能。无论使用哪种方法，YouTube 字幕本身——在可用的情况下——都是免费的，每个视频都能访问，几秒内即可打开。"
+  },
+  "schemas": [
+    {
+      "type": "BlogPosting",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "How to Download a YouTube Transcript (3 Methods, Free)",
+        "description": "Three free methods to download a YouTube transcript: the built-in YouTube transcript panel, Chrome extensions (LessonScriptor, NoteGPT, Tactiq), and manual copy-paste. Step-by-step guide for students.",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "author": {
+          "@type": "Organization",
+          "name": "LessonScriptor Team",
+          "url": "https://lessonscriptor.com/about"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript"
+        },
+        "image": "https://lessonscriptor.com/images/blog/how-to-download-youtube-transcript-hero.png"
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do I download a YouTube transcript for free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Open the video on YouTube, click the ⋯ menu below the title, select Show transcript, toggle off timestamps, select all text, copy, and paste into a document. No tools or extensions required."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best YouTube transcript extractor Chrome extension?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LessonScriptor is the best YouTube transcript extractor for students needing an editable, annotated transcript exportable as Markdown. NoteGPT is best for AI-generated video summaries. Tactiq works for live meetings but not for YouTube video-on-demand."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get a YouTube transcript without captions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, with LessonScriptor's microphone mode. It transcribes audio directly from your device microphone, independent of YouTube's caption system — so it works even when captions are disabled."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does YouTube automatically generate transcripts using AI?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. YouTube uses Google's automatic speech recognition to generate transcripts for most videos. Accuracy is good for standard English speech but lower on technical vocabulary and accented speech."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I save a YouTube transcript as a text file?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "YouTube has no native export button. Copy the transcript from YouTube's built-in panel and paste into a text editor, or use LessonScriptor to export as a Markdown file directly from the Chrome side panel."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "How to Download a YouTube Transcript",
+            "item": "https://lessonscriptor.com/blog/how-to-download-youtube-transcript"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "text": "YouTube Help — View video transcripts",
+      "href": "https://support.google.com/youtube/answer/100077",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Robust speech recognition via large-scale weak supervision",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    },
+    {
+      "text": "NoteGPT — YouTube summary and transcript tool",
+      "href": "https://notegpt.io",
+      "external": true
+    },
+    {
+      "text": "Tactiq — Chrome extension for meeting transcription",
+      "href": "https://tactiq.io",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-youtube-video",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/how-to-transcribe-lecture-videos",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "slug": "otter-ai-alternative-for-students",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "A melhor alternativa ao Otter AI para estudantes em 2026",
+  "reading_time_min": 7,
+  "published_at": "2026-04-29",
+  "updated_at": "2026-04-29",
+  "meta": {
+    "title": "Melhor alternativa ao Otter AI para estudantes em 2026",
+    "description": "Otter AI foi criado para reuniões. Lessonscriptor foi criado para estudantes. Compare Otter AI vs Lessonscriptor, Fireflies, Notta e Tactiq para transcrição de YouTube e aulas.",
+    "og_image": "/images/blog/otter-ai-alternative-for-students-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/otter-ai-alternative-for-students",
+    "og_title": "Melhor alternativa ao Otter AI para estudantes em 2026",
+    "og_description": "Otter AI foi criado para reuniões. Para estudantes que transcrevem aulas do YouTube no Chrome, existe uma opção melhor.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/otter-ai-alternative-for-students-hero.png",
+    "alt": "Estudante comparando Otter AI e Lessonscriptor em um notebook enquanto assiste a uma aula no YouTube",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Student at a desk, laptop showing a split view: one side an Otter AI meeting interface, the other side Lessonscriptor's side panel transcribing a YouTube lecture. Calm, focused lighting. Blues and warm neutrals. Conveys comparison and choice."
+  },
+  "author": {
+    "name": "LessonScriptor Team"
+  },
+  "tldr": {
+    "label": "Pontos principais",
+    "lead": "Otter AI é um aplicativo de transcrição de reuniões. Lessonscriptor é uma extensão do Chrome que transcreve vídeos do YouTube e aulas online diretamente no navegador. São ferramentas diferentes para usos diferentes.",
+    "bullets": [
+      "Otter AI ganha para reuniões ao vivo no Zoom e Google Meet — foi projetado exatamente para isso.",
+      "Lessonscriptor ganha para aulas do YouTube, gravações do Canvas, Coursera e qualquer vídeo no navegador — sem necessidade de upload de arquivo.",
+      "Plano gratuito do Otter AI: 600 minutos/mês, depois 10–17 $/mês. Lessonscriptor: modo gratuito que nunca expira.",
+      "Fireflies AI, Notta e Tactiq são alternativas que vale a pena conhecer — mas todas são ferramentas voltadas para reuniões, como o Otter.",
+      "Para estudantes cujo formato principal são aulas gravadas, Lessonscriptor é a resposta direta."
+    ]
+  },
+  "intro": "Otter AI é um aplicativo de transcrição de reuniões; Lessonscriptor é uma extensão do Chrome que transcreve vídeos do YouTube e aulas online diretamente no navegador. Ambos geram transcrições — mas foram criados para fluxos de trabalho completamente diferentes. Otter AI é otimizado para chamadas Zoom, sessões do Google Meet e uploads de arquivos de áudio. Lessonscriptor é otimizado para estudantes que assistem a aulas gravadas no Chrome. Se você está procurando uma alternativa ao Otter AI porque ele não funciona no YouTube ou no Canvas, este artigo vai explicar exatamente o porquê e qual ferramenta usar no lugar.",
+  "stats": [
+    {
+      "number": "600 min/mo",
+      "label": "Plano gratuito do Otter AI — depois 10–17 $/mês"
+    },
+    {
+      "number": "50+",
+      "label": "plataformas de vídeo que Lessonscriptor transcreve nativamente no Chrome"
+    },
+    {
+      "number": "0",
+      "label": "uploads necessários — Lessonscriptor funciona dentro da aba do navegador"
+    }
+  ],
+  "sections": [
+    {
+      "id": "best-otter-ai-alternative-students",
+      "h2": "Qual é a melhor alternativa ao Otter AI para estudantes?",
+      "body": "Lessonscriptor é a melhor alternativa ao Otter AI para estudantes que transcrevem aulas em vídeo gravadas. A razão principal é arquitetural: Otter AI foi construído em torno da ingestão de arquivos de áudio e integrações de reuniões (Zoom, Google Meet, Microsoft Teams). Ele não foi projetado para transcrever um vídeo do YouTube que você está assistindo agora no Chrome.\n\nLessonscriptor funciona de forma oposta. Instale a extensão do Chrome, abra uma aula no YouTube, Canvas, Coursera, edX, gravações do Zoom, Skillshare ou qualquer outra plataforma de vídeo, e uma transcrição aparece em um painel lateral enquanto você assiste. Sem arquivo para baixar. Sem fila de upload. Sem espera. A transcrição acontece ao vivo, dentro da aba do navegador.\n\nPara estudantes, essa distinção é decisiva. O formato de aprendizado dominante no ensino superior é o vídeo gravado — explicações no YouTube, gravações de aulas no Canvas, módulos do Coursera, gravações do Zoom que seu professor enviou após a sessão. Otter AI não lida com nenhum desses nativamente. Lessonscriptor lida com todos eles.\n\n**Veredicto:** Se você é estudante e procura uma alternativa ao Otter AI, Lessonscriptor é a ferramenta certa. Se você precisa especificamente de transcrição de reuniões para chamadas Zoom ao vivo com grupos de estudo ou professores, Otter AI é uma boa opção — veja nossa comparação completa abaixo.",
+      "internal_links": [
+        {
+          "text": "comparação completa do Otter AI vs Lessonscriptor",
+          "url": "/compare/otter-ai-alternative"
+        },
+        {
+          "text": "transcrever vídeos do YouTube",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "otter-ai-vs-lessonscriptor",
+      "h2": "Como o Otter AI se compara ao Lessonscriptor?",
+      "body": "Otter AI e Lessonscriptor se encontram em uma área — transcrição em tempo real — e divergem em todo o resto. Esta é a comparação honesta.",
+      "table": {
+        "caption": "Otter AI vs Lessonscriptor — comparação de recursos para estudantes em 2026.",
+        "headers": [
+          "Recurso",
+          "Otter AI",
+          "Lessonscriptor"
+        ],
+        "rows": [
+          {
+            "cells": [
+              "Caso de uso principal",
+              "Reuniões ao vivo (Zoom, Meet, Teams)",
+              "Aulas em vídeo no navegador (YouTube, Canvas, Coursera)"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Transcrição do YouTube",
+              "Não (upload manual necessário)",
+              "Sim — ao vivo na aba"
+            ],
+            "highlight": true
+          },
+          {
+            "cells": [
+              "Google Meet / Zoom",
+              "Sim — integração nativa",
+              "Sim — transcreve gravações no navegador"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Extensão do Chrome",
+              "Apenas complementar",
+              "Produto principal"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Plano gratuito",
+              "600 min/mês",
+              "Modo gratuito, sem expiração"
+            ],
+            "highlight": true
+          },
+          {
+            "cells": [
+              "Plano pago",
+              "10–17 $/mês",
+              "Pague conforme usar a partir de €0,60/h"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Upload de arquivo",
+              "Sim — enviar arquivo de áudio/vídeo",
+              "Não — funciona diretamente na aba"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Modo offline / no dispositivo",
+              "Não",
+              "Sim (modo microfone, gratuito)"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Transcrição editável",
+              "Sim",
+              "Sim"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Formato de exportação",
+              "Texto, PDF, Word, SRT",
+              "Markdown, texto, PDF"
+            ],
+            "highlight": false
+          },
+          {
+            "cells": [
+              "Adaptado ao TDAH",
+              "Requer conta + instalação do app",
+              "Instalação no Chrome com um clique, sem conta necessária"
+            ],
+            "highlight": true
+          }
+        ]
+      }
+    },
+    {
+      "id": "otter-ai-free-students",
+      "h2": "O Otter AI é gratuito para estudantes?",
+      "body": "Otter AI tem um plano gratuito, mas com limites reais. O plano gratuito oferece 600 minutos de transcrição por mês — cerca de 10 horas. Para um estudante fazendo quatro ou cinco disciplinas com gravações semanais de aulas, essas 10 horas acabam nas primeiras duas semanas do mês.\n\nApós 600 minutos, Otter AI para de transcrever até o próximo ciclo de cobrança, ou você faz upgrade para um plano pago. O plano Pro custa 10 $/mês (cobrado anualmente) ou 17 $/mês cobrado mensalmente. O plano Business é 20 $/mês ou mais. Existe um plano Otter AI for Education, mas é voltado para instituições, não para estudantes individuais — e ainda requer compra institucional.\n\n**Existe uma alternativa genuinamente gratuita ao Otter AI para estudantes?** Sim: o modo gratuito do Lessonscriptor usa o microfone do dispositivo (Web Speech API do Chrome, no dispositivo, sem enviar dados para servidores) e não tem limite mensal de minutos. Você pode transcrever todas as aulas do semestre, com custo zero. O modo Premium — que usa captura de áudio da aba com OpenAI Whisper para maior precisão — é pago por uso a €0,60/hora, então você só paga pelas sessões que realmente usa.\n\nPara estudantes com orçamento apertado, a comparação financeira é clara: Otter AI a 10–17 $/mês versus Lessonscriptor a €0 (modo gratuito) ou alguns euros por mês (Premium, pague conforme usar).",
+      "internal_links": [
+        {
+          "text": "preços do Lessonscriptor",
+          "url": "/compare/otter-ai-alternative"
+        }
+      ]
+    },
+    {
+      "id": "otter-ai-youtube-transcription",
+      "h2": "Qual alternativa ao Otter AI funciona para transcrição do YouTube?",
+      "body": "Otter AI não transcreve vídeos do YouTube diretamente. Para usar o Otter AI em uma aula do YouTube, você precisaria: (1) baixar o arquivo de vídeo, (2) extrair o áudio, (3) fazer upload do arquivo de áudio no Otter, (4) aguardar o processamento, (5) recuperar a transcrição. Esse é um fluxo de trabalho manual de cinco etapas para algo que o Lessonscriptor faz com um único clique.\n\nLessonscriptor foi criado especificamente para resolver esse problema. Abra um vídeo do YouTube no Chrome, clique no ícone do Lessonscriptor na barra de ferramentas e a transcrição aparece em um painel lateral enquanto o vídeo é reproduzido. Funciona da mesma forma em qualquer plataforma de vídeo: Canvas, Coursera, edX, Skillshare, Vimeo, TED, gravações do Zoom, links do Loom ou qualquer outro vídeo incorporado em uma página web.\n\n**Outras ferramentas que transcrevem o YouTube:** Tactiq pode transcrever vídeos do YouTube por meio de uma extensão do Chrome, embora seu foco principal seja Google Meet e Zoom. Notta suporta upload de URL do YouTube, mas ainda o processa como um arquivo, não em tempo real enquanto você assiste. Lessonscriptor é atualmente a única ferramenta que transcreve conteúdo de aulas do YouTube ao vivo, dentro da aba do navegador, sem etapa de upload de arquivo.\n\nPara estudantes que passam o tempo de estudo assistindo a explicações no YouTube, vídeos do Khan Academy, gravações enviadas por professores ou aulas do MIT OpenCourseWare, Lessonscriptor é a única alternativa ao Otter AI que realmente se encaixa no fluxo de trabalho.",
+      "internal_links": [
+        {
+          "text": "como transcrever vídeos do YouTube com Lessonscriptor",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "best-otter-ai-alternatives-2026",
+      "h2": "Quais são as melhores alternativas ao Otter AI em 2026?",
+      "body": "O panorama mais amplo de ferramentas de transcrição em 2026 se divide em duas categorias: ferramentas voltadas para reuniões (como o próprio Otter AI) e ferramentas voltadas para navegador/vídeo (lideradas pelo Lessonscriptor). Aqui está um resumo rápido de cada alternativa principal.\n\n**Lessonscriptor** — Ideal para estudantes que transcrevem aulas em vídeo no Chrome. Funciona no YouTube, Canvas, Coursera, gravações do Zoom e 50+ outras plataformas. Modo gratuito (microfone) sem expiração; Premium pago por uso. Sem necessidade de upload de arquivo.\n\n**Fireflies AI** — Ferramenta voltada para reuniões com sólidos recursos de colaboração em equipe. Integra-se com Zoom, Google Meet, Teams, Webex e Slack. Plano gratuito: 800 minutos de armazenamento. Pago a partir de 10 $/mês. Mais adequado para equipes e profissionais do que para estudantes individuais.\n\n**Notta** — Ferramenta de transcrição polivalente e sólida. Suporta 58 idiomas, upload de arquivos de áudio/vídeo e bots de gravação de reuniões. Plano gratuito: 120 minutos/mês. Pago a partir de 9 $/mês. Melhor que o Otter AI para transcrição em idiomas além do inglês, mas ainda voltada para reuniões e upload de arquivos.\n\n**Tactiq** — Extensão do Chrome focada no Google Meet, Zoom e Microsoft Teams. Exibe transcrições ao vivo durante videochamadas e as exporta depois. O plano gratuito é limitado. Pago a partir de 8 $/mês. Não foi projetado para transcrição de aulas em vídeo gravadas.\n\n**O padrão:** Fireflies, Notta e Tactiq são todas variações da fórmula do Otter AI — bots de reuniões e processamento de arquivos de áudio. Nenhuma resolve o problema específico do estudante de transcrever uma aula do YouTube que está assistindo naquele momento. Lessonscriptor está em uma categoria diferente.",
+      "internal_links": [
+        {
+          "text": "comparar todas as alternativas ao Otter AI",
+          "url": "/compare/otter-ai-alternative"
+        },
+        {
+          "text": "melhor aplicativo de anotações com IA para estudantes com TDAH",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-otter",
+      "h2": "Quando você deve usar o Otter AI?",
+      "body": "Este artigo é honesto: Otter AI é genuinamente bom no que foi criado para fazer.\n\n**Use o Otter AI quando:** Você vai participar de uma chamada Zoom ao vivo, uma sessão do Google Meet ou uma reunião presencial e quer transcrição automática em tempo real com identificação de falantes. O bot de reuniões do Otter AI entra na chamada, rotula a contribuição de cada falante e produz uma transcrição pesquisável que você pode compartilhar com a equipe depois. Para grupos de estudo, reuniões de projeto, atendimentos no Zoom ou qualquer sessão colaborativa em tempo real, Otter AI é uma ferramenta legítima.\n\n**Use o Lessonscriptor quando:** Seu formato principal são aulas em vídeo gravadas — YouTube, Canvas, Coursera ou uma gravação do Zoom que seu professor enviou. Você quer transcrever enquanto assiste, sem nenhum fluxo de trabalho de upload. Você tem orçamento apertado e precisa de uma opção gratuita que não se esgote no meio do semestre.\n\n**Use os dois:** Muitos estudantes usam Lessonscriptor para assistir aulas individualmente e Otter AI para chamadas Zoom em grupo ao vivo. As ferramentas são complementares, não mutuamente exclusivas."
+    }
+  ],
+  "cta": {
+    "heading": "Transcreva sua próxima aula gratuitamente",
+    "body": "Instale o Lessonscriptor, abra qualquer vídeo de aula no Chrome e comece a transcrever com um clique. Sem conta necessária. Sem limite mensal no modo gratuito.",
+    "button_label": "Obter Lessonscriptor grátis",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Existe uma alternativa gratuita ao Otter AI para estudantes?",
+        "a": "Sim. O modo gratuito do Lessonscriptor usa transcrição por microfone no dispositivo, sem limite mensal de minutos. Você pode transcrever todas as suas aulas durante todo o semestre sem custo. O plano gratuito do Otter AI tem limite de 600 minutos por mês, que acaba rapidamente com uma grade curricular completa."
+      },
+      {
+        "q": "O Otter AI funciona no YouTube?",
+        "a": "Não nativamente. Para transcrever um vídeo do YouTube com Otter AI, você precisa baixar o vídeo, extrair o áudio, fazer upload no Otter e aguardar o processamento. Lessonscriptor transcreve vídeos do YouTube ao vivo, diretamente na aba do navegador, sem nenhum upload de arquivo."
+      },
+      {
+        "q": "Qual é a melhor alternativa ao Otter AI para estudantes?",
+        "a": "Lessonscriptor é a melhor alternativa ao Otter AI para estudantes que assistem a aulas em vídeo gravadas. Funciona no YouTube, Canvas, Coursera, edX, gravações do Zoom e 50+ outras plataformas. Para estudantes que precisam principalmente de transcrição de reuniões ao vivo, Otter AI continua sendo uma boa opção."
+      },
+      {
+        "q": "Como o Lessonscriptor se compara ao Fireflies AI para estudantes?",
+        "a": "Fireflies AI é um bot de reuniões para equipes — ele entra nas chamadas do Zoom e Google Meet e as grava. Não foi projetado para estudantes que assistem a aulas gravadas. Lessonscriptor foi criado para o caso de uso do estudante: abra um vídeo no Chrome, receba uma transcrição no painel lateral, exporte para seu app de anotações. Ferramentas diferentes para fluxos de trabalho diferentes."
+      },
+      {
+        "q": "Posso usar o Lessonscriptor offline?",
+        "a": "O modo de microfone gratuito do Lessonscriptor usa a Web Speech API do Chrome no dispositivo, que requer conexão para alguns recursos, mas processa o áudio localmente. O modo Premium de captura de aba usa OpenAI Whisper, que requer conexão com a internet. Otter AI requer conexão com a internet para todas as transcrições."
+      }
+    ]
+  },
+  "internal_links": [
+    {
+      "text": "Comparação completa do Otter AI vs Lessonscriptor",
+      "href": "/compare/otter-ai-alternative"
+    },
+    {
+      "text": "Como transcrever vídeos do YouTube",
+      "href": "/transcribe-youtube-video"
+    },
+    {
+      "text": "Melhor aplicativo de anotações com IA para estudantes com TDAH",
+      "href": "/blog/best-ai-note-taker-adhd"
+    }
+  ],
+  "schemas": [
+    {
+      "type": "BlogPosting",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "The Best Otter AI Alternative for Students in 2026",
+        "description": "Otter AI is a meeting transcription app. Lessonscriptor is a Chrome extension that transcribes YouTube videos and online lectures directly in the browser. Honest comparison for students in 2026.",
+        "image": "/images/blog/otter-ai-alternative-for-students-hero.png",
+        "datePublished": "2026-04-29",
+        "dateModified": "2026-04-29",
+        "author": {
+          "@type": "Organization",
+          "name": "LessonScriptor Team",
+          "url": "https://lessonscriptor.com"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Lessonscriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        },
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "https://lessonscriptor.com/blog/otter-ai-alternative-for-students"
+        },
+        "keywords": "otter ai alternative, otter ai alternative for students, otter ai free, otter ai for students, youtube transcription, lecture transcription chrome"
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is there a free Otter AI alternative for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Lessonscriptor's free mode uses on-device microphone transcription with no monthly minute limit. Otter AI's free tier caps at 600 minutes per month."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Otter AI work on YouTube?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not natively. To transcribe a YouTube video with Otter AI, you must download the audio and upload it. Lessonscriptor transcribes YouTube videos live, directly in the browser tab."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best Otter AI alternative for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor is the best Otter AI alternative for students who watch recorded video lectures on YouTube, Canvas, Coursera, or other platforms in Chrome."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does Lessonscriptor compare to Fireflies AI for students?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fireflies AI is a meeting bot for teams, not designed for students watching recorded lectures. Lessonscriptor transcribes any video playing in Chrome without an upload workflow."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I use Lessonscriptor offline?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lessonscriptor's free mic mode uses Chrome's on-device Web Speech API and processes audio locally. The Premium tab-capture mode uses OpenAI Whisper and requires an internet connection."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Best Otter AI Alternative for Students",
+            "item": "https://lessonscriptor.com/blog/otter-ai-alternative-for-students"
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "text": "Otter AI pricing — otter.ai/pricing",
+      "href": "https://otter.ai/pricing",
+      "external": true
+    },
+    {
+      "text": "Fireflies AI — fireflies.ai",
+      "href": "https://fireflies.ai",
+      "external": true
+    },
+    {
+      "text": "Notta — notta.ai",
+      "href": "https://www.notta.ai",
+      "external": true
+    },
+    {
+      "text": "Tactiq — tactiq.io",
+      "href": "https://tactiq.io",
+      "external": true
+    }
+  ]
+}
