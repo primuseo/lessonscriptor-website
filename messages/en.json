@@ -398,7 +398,27 @@
   "youtube": {
     "h1": "Transcribe Any YouTube Video in Real-Time",
     "subtitle": "Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.",
-    "answer": "To transcribe a YouTube video in Chrome: install the LessonScriptor extension, open your YouTube video, click the side panel icon, and hit play. Transcription starts automatically and appears in real-time alongside the video.",
+    "answer": "LessonScriptor is a free Chrome extension that transcribes YouTube videos in real-time. Install it from the Chrome Web Store, open any YouTube video, click the LessonScriptor icon to open the side panel, and press play. The transcript appears immediately alongside the video — editable, highlightable, and exportable to Markdown or clipboard. It works on Coursera, Udemy, and any other Chrome tab, not just YouTube.",
+    "useCases": {
+      "title": "Who uses LessonScriptor to transcribe YouTube videos?",
+      "items": [
+        {
+          "icon": "🎓",
+          "title": "University students watching recorded lectures",
+          "desc": "Many universities post lecture recordings on YouTube or link them in Moodle. LessonScriptor transcribes them in real-time, so students get searchable notes without rewatching."
+        },
+        {
+          "icon": "🌍",
+          "title": "Language learners studying with YouTube",
+          "desc": "Watching videos in French, Spanish, or German? LessonScriptor transcribes in 14+ languages — the transcript helps with vocabulary and comprehension at the same time."
+        },
+        {
+          "icon": "📚",
+          "title": "Online course students on Coursera and Udemy",
+          "desc": "Coursera and Udemy videos play in Chrome just like YouTube. LessonScriptor works on both — giving you editable transcripts for every paid course you take."
+        }
+      ]
+    },
     "methods": {
       "title": "How to get a YouTube video transcript — all methods compared",
       "items": [
@@ -440,12 +460,24 @@
           "a": "Yes. With LessonScriptor, you can export the transcript as a Markdown file (.md) or copy it to clipboard to paste into Notion, Google Docs, or Obsidian. The export preserves all your formatting — bold, highlights, headers."
         },
         {
+          "q": "Is there a way to get a full transcript of a YouTube video?",
+          "a": "Yes. YouTube's built-in transcript (click '...' → Show transcript) gives you a read-only, uneditable copy of auto-generated captions — not available for all videos. LessonScriptor generates a full editable transcript as the video plays, works on any video, and lets you export the complete text when done."
+        },
+        {
+          "q": "What's the difference between YouTube auto-captions and LessonScriptor?",
+          "a": "YouTube auto-captions are read-only, appear as an overlay you can't edit, and aren't available on all videos. LessonScriptor transcribes in real-time into an editable side panel — you can correct errors, highlight passages, add notes, and export as Markdown. It also works on Coursera, Udemy, and any other video in Chrome, not just YouTube."
+        },
+        {
           "q": "Does it work on YouTube videos without captions?",
           "a": "Yes. LessonScriptor doesn't rely on YouTube's captions — it transcribes the actual audio in real-time. So it works whether or not YouTube has auto-generated captions for the video."
         },
         {
           "q": "Can I transcribe a YouTube video in French or Spanish?",
           "a": "Yes. LessonScriptor supports 14+ languages. In the extension settings, select your target language and it will transcribe accordingly — useful for language learning or international lectures."
+        },
+        {
+          "q": "Can I transcribe a private YouTube video?",
+          "a": "Yes, if you have access to it. LessonScriptor transcribes any video playing in a Chrome tab — including YouTube unlisted or private videos you're logged in to view. It doesn't bypass any access restrictions; it just captures the audio from what's already playing on your screen."
         },
         {
           "q": "Is there a limit to how long a YouTube video can be?",
@@ -593,7 +625,53 @@
   "transcribeVideo": {
     "h1": "Transcribe Video to Text — Free, in Your Browser",
     "subtitle": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.",
-    "answer": "To transcribe video to text for free in Chrome: install LessonScriptor, open any video, and hit play. AI transcribes the audio in real-time and displays it as editable text in a side panel. Free mode is free forever.",
+    "answer": "LessonScriptor is a free Chrome extension that transcribes any video to text in real-time — no file upload, no account, no subscription. Open any video on YouTube, Coursera, Udemy, Zoom, or a university portal like Moodle or Canvas, press play, and the transcript appears in a side panel as the audio plays. The free mode uses the Web Speech API and works immediately; the Premium mode uses a cloud AI model for higher accuracy across accents and technical vocabulary.",
+    "useCases": {
+      "title": "What types of videos can you transcribe to text?",
+      "items": [
+        {
+          "icon": "🎓",
+          "title": "University lecture recordings",
+          "desc": "Transcribe Moodle, Canvas, Panopto, or Blackboard lecture videos in real-time. No download required — if the video plays in Chrome, LessonScriptor captures it."
+        },
+        {
+          "icon": "▶️",
+          "title": "YouTube tutorials and courses",
+          "desc": "Convert any YouTube video to text as it plays. Edit the transcript, highlight key points, and export to Notion, Obsidian, or Google Docs."
+        },
+        {
+          "icon": "📹",
+          "title": "Zoom and Teams recordings",
+          "desc": "Open a Zoom cloud recording or a Microsoft Teams video in Chrome and transcribe it directly. Works even if the original had no captions."
+        },
+        {
+          "icon": "📁",
+          "title": "Local MP4 and video files",
+          "desc": "Drag and drop an MP4 or MOV file into a Chrome tab. LessonScriptor transcribes local files the same way as online videos — no upload needed."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How does video-to-text transcription work in Chrome?",
+      "subtitle": "No upload. No waiting. No subscription.",
+      "steps": [
+        {
+          "n": "1",
+          "title": "Install LessonScriptor from the Chrome Web Store",
+          "desc": "Free, one click, no sign-up. It takes under 30 seconds and works on any Chrome browser."
+        },
+        {
+          "n": "2",
+          "title": "Open any video and press play",
+          "desc": "Go to YouTube, Coursera, a Zoom recording, or any video in Chrome. Click the LessonScriptor icon to open the side panel, then press play."
+        },
+        {
+          "n": "3",
+          "title": "Edit and export your transcript",
+          "desc": "The transcript appears in real-time. Click to edit, highlight key passages, add headers. Export to Markdown or copy to clipboard when done."
+        }
+      ]
+    },
     "faq": {
       "items": [
         {
@@ -606,11 +684,23 @@
         },
         {
           "q": "What is the most accurate free video transcription tool?",
-          "a": "For live, in-browser transcription, LessonScriptor's Premium mode offers the highest accuracy. The Free mode uses the Web Speech API, which is good for general content. Both are available without a subscription."
+          "a": "For live, in-browser transcription, LessonScriptor's Premium mode offers the highest accuracy using a cloud AI model. The Free mode uses the Web Speech API — accurate for general content in clear audio. Both are available without a subscription."
         },
         {
           "q": "How long does it take to transcribe a video?",
           "a": "LessonScriptor transcribes in real-time — the text appears as the video plays, so there's no waiting. A 1-hour video takes 1 hour to transcribe."
+        },
+        {
+          "q": "Does LessonScriptor work offline?",
+          "a": "The Free mode works offline — it uses your browser's built-in Web Speech API, which runs locally on your device. The Premium AI mode requires an internet connection to send audio to the cloud transcription engine."
+        },
+        {
+          "q": "What video platforms does LessonScriptor work on?",
+          "a": "LessonScriptor works on any video that plays in a Chrome tab. That includes YouTube, Coursera, Udemy, Zoom cloud recordings, Microsoft Teams recordings, Moodle, Canvas, Panopto, Blackboard, and local MP4 or MOV files opened in Chrome."
+        },
+        {
+          "q": "What languages can I transcribe video into?",
+          "a": "LessonScriptor supports 14+ languages including English, French, Spanish, German, Portuguese, Italian, Dutch, Polish, Mandarin, Japanese, Arabic, Hindi, and more. Select your language in the extension settings before pressing play."
         }
       ]
     }
@@ -618,7 +708,29 @@
   "otterAlt": {
     "h1": "The Best Otter.ai Alternative for Students",
     "subtitle": "Looking for an Otter.ai alternative that works in your browser, doesn't require a subscription, and is free for everyday use? That's LessonScriptor.",
-    "answer": "LessonScriptor is the best Otter.ai alternative for students because it works in Chrome on any video platform (not just meetings), has a free mode with no limits, and charges only ~€1/hour for premium — no monthly subscription.",
+    "answer": "Otter.ai charges $17/month and caps free users at 300 minutes per month — enough for roughly 5 lectures. LessonScriptor is a Chrome extension with a free mode that has no monthly cap and a premium mode that costs ~€1/hour with no subscription. Unlike Otter.ai, which is designed for meetings and Zoom calls, LessonScriptor works on any video in Chrome: YouTube, Coursera, Udemy, university portals like Moodle or Canvas, and local video files.",
+    "whenToUse": {
+      "title": "When should you use Otter.ai vs LessonScriptor?",
+      "otter": {
+        "heading": "Use Otter.ai if you…",
+        "items": [
+          "Need to transcribe live Zoom, Google Meet, or Microsoft Teams meetings",
+          "Want automatic meeting summaries and AI action items from calls",
+          "Work in a team that shares meeting notes through Otter's workspace",
+          "Primarily record your own voice — Otter's mobile app is strong for dictation"
+        ]
+      },
+      "lessonscriptor": {
+        "heading": "Use LessonScriptor if you…",
+        "items": [
+          "Need to transcribe video lectures on YouTube, Coursera, Udemy, or university portals",
+          "Want a free tool with no monthly minute cap",
+          "Prefer to pay per-use (~€1/hr) rather than a fixed monthly subscription",
+          "Need to transcribe in 14+ languages, not just English",
+          "Want to edit and highlight the transcript while the video plays"
+        ]
+      }
+    },
     "comparison": {
       "title": "Otter.ai vs LessonScriptor — detailed comparison",
       "rows": [
@@ -691,11 +803,23 @@
       "items": [
         {
           "q": "What is the best free alternative to Otter.ai?",
-          "a": "LessonScriptor is the best free Otter.ai alternative for students. Its free mode is free forever with no monthly limit — it uses your microphone to capture audio from any video in Chrome. No subscription, no sign-up required."
+          "a": "LessonScriptor is the best free Otter.ai alternative for students. Its free mode is free forever with no monthly minute limit — it uses your microphone to capture audio from any video in Chrome. No subscription, no sign-up required."
+        },
+        {
+          "q": "Is there a completely free Otter.ai alternative with no limits?",
+          "a": "Yes. LessonScriptor's free mode has no monthly minute cap — unlike Otter.ai's free tier, which is capped at 300 minutes per month. LessonScriptor uses your device's microphone and the Web Speech API, which runs locally with no usage limits."
         },
         {
           "q": "Is there an Otter.ai alternative that works on YouTube?",
           "a": "Yes — LessonScriptor. Unlike Otter.ai, which is designed for meetings and calls, LessonScriptor works on any video in Chrome, including YouTube, Coursera, Udemy, Zoom recordings, and university portals."
+        },
+        {
+          "q": "Does Otter.ai work on YouTube?",
+          "a": "No. Otter.ai is designed for live meetings — Zoom, Google Meet, Microsoft Teams, and in-person recordings via its mobile app. It does not transcribe YouTube videos, Coursera courses, or other browser-based video content. LessonScriptor works on all of those."
+        },
+        {
+          "q": "Which is more accurate: Otter.ai or LessonScriptor?",
+          "a": "For meeting transcription, Otter.ai is purpose-built and performs well with clear speaker audio. For video-based content — YouTube, lectures, courses — LessonScriptor's Premium mode uses a high-accuracy AI model optimised for that context. LessonScriptor's free mode uses the Web Speech API, which is slightly less accurate than both in noisy environments."
         },
         {
           "q": "Why is Otter.ai expensive for students?",

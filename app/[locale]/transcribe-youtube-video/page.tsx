@@ -4,12 +4,12 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = `/${locale}`
+  const base = locale === 'en' ? '' : `/${locale}`
   return {
-    title: 'Transcribe Any YouTube Video in Real-Time | LessonScriptor',
+    title: 'Transcribe Any YouTube Video in Real-Time',
     description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.',
     openGraph: {
-      title: 'Transcribe Any YouTube Video in Real-Time | LessonScriptor',
+      title: 'Transcribe Any YouTube Video in Real-Time',
       description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs.',
       url: `https://lessonscriptor.com${base}/transcribe-youtube-video`,
     },
@@ -83,6 +83,7 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
   }
 
   const youtubeMethodsData = t.raw('methods.items')
+  const useCases = t.raw('useCases.items')
 
   return (
     <>
@@ -137,6 +138,22 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
                 </tbody>
               </table>
             </div>
+          </div>
+        </section>
+
+        {/* Use Cases */}
+        <section className="px-4 py-16 max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
+            {t('useCases.title')}
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            {useCases.map((item: any, idx: number) => (
+              <div key={idx} className="bg-white border border-cream-200 p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div className="text-3xl mb-3">{item.icon}</div>
+                <h3 className="text-lg font-bold text-terra-800 mb-2">{item.title}</h3>
+                <p className="text-terra-800/60 leading-relaxed text-sm">{item.desc}</p>
+              </div>
+            ))}
           </div>
         </section>
 

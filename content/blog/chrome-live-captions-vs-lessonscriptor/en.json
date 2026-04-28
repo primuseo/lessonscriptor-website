@@ -1,0 +1,217 @@
+{
+  "slug": "chrome-live-captions-vs-lessonscriptor",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome Live Captions vs LessonScriptor: A Complete Comparison",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Chrome Live Captions vs LessonScriptor: What's the Difference? | LessonScriptor",
+    "description": "Chrome's built-in live captions vs LessonScriptor: accuracy, editing, export, headphone support, languages, and which to use for students, professionals, and accessibility.",
+    "og_image": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/chrome-live-captions-vs-lessonscriptor",
+    "og_title": "Chrome Live Captions vs LessonScriptor: Full Comparison",
+    "og_description": "Which is better for students and professionals — Chrome's built-in captions or LessonScriptor?",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "alt": "Side-by-side comparison of Chrome's built-in live caption bubble versus LessonScriptor's editable side panel",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen comparison: left shows Chrome's floating caption bubble over a video, right shows LessonScriptor's full side panel with editable transcript and highlights. Clean, editorial. Cream and terra palette."
+  },
+  "author": {
+    "name": "LessonScriptor Editorial Team",
+    "url": "/about",
+    "bio": "The LessonScriptor team has run side-by-side tests of Chrome's built-in Live Caption and LessonScriptor across accuracy, usability, and export workflows."
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "Chrome's built-in Live Caption and LessonScriptor solve different problems. Chrome's captions are zero-friction and temporary. LessonScriptor is a note-taking tool that uses live transcription as its foundation — it adds editing, export, annotation, and accurate multilingual support.",
+    "bullets": [
+      "Chrome's built-in Live Caption: free, no installation, read-only, 20+ languages, no export, unreliable with headphones on Windows.",
+      "LessonScriptor: free mode + pay-as-you-go Premium, requires Chrome extension install, fully editable, exportable as Markdown, works with headphones (Premium), 14 languages.",
+      "Neither tool works on DRM-protected content (Netflix, Spotify, Disney+).",
+      "For students who need to keep and study their notes from video lectures, LessonScriptor is the better choice. For quick, temporary accessibility captions, Chrome's built-in feature is easier.",
+      "LessonScriptor is free to install and use in microphone mode — the comparison isn't free vs paid, it's read-only vs editable."
+    ]
+  },
+  "intro": "Chrome's built-in Live Caption is a read-only accessibility feature that displays a floating caption bubble for any audio playing in Chrome. LessonScriptor is a Chrome extension that transcribes video audio into a persistent, editable side panel with export and annotation features. Both generate live captions. The difference is what you can do with those captions afterward. Chrome's captions disappear when the audio stops. LessonScriptor's transcript stays, is fully editable, and can be exported as Markdown to any note-taking app. This comparison covers every meaningful difference between the two tools.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "words you can edit or save from Chrome's built-in Live Caption"
+    },
+    {
+      "number": "100%",
+      "label": "of LessonScriptor's transcript is editable, highlightable, and exportable"
+    },
+    {
+      "number": "50+",
+      "label": "video platforms LessonScriptor works on vs any audio for Chrome"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-chrome-live-caption",
+      "h2": "What is Chrome's built-in Live Caption?",
+      "body": "Chrome's built-in Live Caption is an accessibility feature that generates real-time captions for any audio playing in the Chrome browser. It was introduced in Chrome 89 in 2021 and processes audio entirely on-device — nothing is sent to Google's servers.\n\nTo enable it: chrome://settings/accessibility → Live Caption → toggle on.\n\nThe feature creates a floating caption bubble at the bottom of the Chrome window. The bubble shows a rolling 2–3 lines of transcribed speech and disappears when the audio stops. There is no way to scroll back, edit, copy, save, or export the text — it exists only in the moment.\n\nChrome's Live Caption supports 20+ languages and works on any audio source in Chrome: YouTube videos, podcasts, streaming video, video calls (in browser), and any other audio-producing web page."
+    },
+    {
+      "id": "what-is-lessonscriptor",
+      "h2": "What is LessonScriptor?",
+      "body": "LessonScriptor is a Chrome extension that transcribes video audio into an editable side panel. It's designed primarily for students who watch video lectures and want a structured, annotatable transcript they can study from.\n\nInstalling LessonScriptor adds a toolbar icon to Chrome. Clicking the icon opens a side panel next to any video — on YouTube, Zoom recordings, Canvas, Coursera, edX, Skillshare, Vimeo, TED, and 50+ other platforms. The panel fills with a live transcript as the video plays.\n\nThe transcript is fully editable: click any word to correct it, highlight passages in five colours, add bold formatting, or insert headers to structure notes. When you're done watching, export the annotated transcript as Markdown to paste into Notion, Obsidian, Google Docs, or any other note-taking app.\n\nLessonScriptor has two modes: a free mode that uses the device microphone (Chrome's Web Speech API, same on-device model as Chrome's built-in captions) and a Premium mode that uses tab audio capture with OpenAI Whisper for higher accuracy.",
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Chrome Live Captions vs LessonScriptor: full feature comparison",
+      "body": "This table compares every meaningful feature difference between Chrome's built-in Live Caption and LessonScriptor.",
+      "table": {
+        "caption": "Chrome built-in Live Caption vs LessonScriptor — feature comparison 2026.",
+        "headers": ["Feature", "Chrome Live Caption", "LessonScriptor"],
+        "rows": [
+          { "cells": ["Requires installation", "No (built into Chrome)", "Yes (Chrome Web Store)"], "highlight": false, "badge": null },
+          { "cells": ["Account required", "No", "No (free mode)"], "highlight": false, "badge": null },
+          { "cells": ["Editable transcript", "No", "Yes"], "highlight": true, "badge": null },
+          { "cells": ["Export transcript", "No", "Yes — Markdown, clipboard"], "highlight": true, "badge": null },
+          { "cells": ["Highlighting and annotation", "No", "Yes — 5 colours, bold, headers"], "highlight": true, "badge": null },
+          { "cells": ["Works with headphones", "Unreliable on Windows", "Yes (Premium — tab audio)"], "highlight": true, "badge": null },
+          { "cells": ["Languages", "20+", "14"], "highlight": false, "badge": null },
+          { "cells": ["Accuracy (general speech)", "Good", "Good (free) / Excellent (Premium)"], "highlight": false, "badge": null },
+          { "cells": ["Accuracy (academic vocabulary)", "Moderate", "High (Premium with Whisper)"], "highlight": false, "badge": null },
+          { "cells": ["Works on YouTube", "Yes", "Yes"], "highlight": false, "badge": null },
+          { "cells": ["Works on Zoom recordings", "Yes", "Yes"], "highlight": false, "badge": null },
+          { "cells": ["Works on Canvas / LMS", "Yes", "Yes"], "highlight": false, "badge": null },
+          { "cells": ["Works on DRM content", "No", "No"], "highlight": false, "badge": null },
+          { "cells": ["Personal vocabulary dictionary", "No", "Yes (Premium)"], "highlight": true, "badge": null },
+          { "cells": ["Price", "Free", "Free + pay-as-you-go Premium"], "highlight": false, "badge": null }
+        ]
+      }
+    },
+    {
+      "id": "accuracy-comparison",
+      "h2": "How does accuracy compare between Chrome Live Caption and LessonScriptor?",
+      "body": "For general speech in English — news, podcasts, standard lectures — Chrome's built-in Live Caption and LessonScriptor's free mode produce similar accuracy because both use Chrome's Web Speech API on-device model.\n\nFor academic content, the difference becomes significant in LessonScriptor's Premium mode. OpenAI Whisper, which powers LessonScriptor's Premium transcription, was trained on 680,000 hours of multilingual speech data including academic lectures, podcasts, and professional content. Chrome's on-device model is optimised for efficiency on consumer hardware and uses a smaller training dataset.\n\nIn practical terms: on a standard university lecture in English, Chrome's built-in captions and LessonScriptor's free mode perform comparably. On a chemistry lecture with element names, reaction terminology, and professor-specific vocabulary, LessonScriptor Premium produces noticeably fewer errors — particularly on proper nouns and domain-specific compound terms.\n\nFor non-English academic content (French lectures, Spanish academic videos, German university content), LessonScriptor Premium's accuracy advantage is larger because Whisper's training data for these languages was more academically diverse than Chrome's on-device multilingual models."
+    },
+    {
+      "id": "when-to-use-chrome-captions",
+      "h2": "When should I use Chrome's built-in Live Caption instead of LessonScriptor?",
+      "body": "Chrome's built-in Live Caption is the better choice in three scenarios.\n\n**Quick, temporary captions:** If you're watching a video and temporarily can't use audio — in a library, on a noisy commute, or during a video call — Chrome's captions provide instant accessibility with zero friction. No extension to find, no side panel to open. Enable from the Chrome toolbar's accessibility quick settings.\n\n**Languages beyond LessonScriptor's 14:** Chrome supports 20+ languages. If you need captions in Vietnamese, Thai, Indonesian, Danish, Norwegian, Swedish, or Hindi, Chrome's built-in feature covers these while LessonScriptor doesn't yet.\n\n**Caution about installation:** Some enterprise or education environments restrict Chrome extension installation through managed Chrome policies. In these cases, Chrome's built-in feature — which doesn't require any extension — is the only option."
+    },
+    {
+      "id": "when-to-use-lessonscriptor",
+      "h2": "When should I use LessonScriptor instead of Chrome's built-in captions?",
+      "body": "LessonScriptor is the better choice whenever you need to keep, study, or reference what was said.\n\n**Study sessions:** If you're a student watching a lecture and need notes you can review later, Chrome's read-only captions are useless after the video ends. LessonScriptor generates a permanent, annotated transcript.\n\n**Headphone users:** Chrome's captions don't work reliably with headphones on Windows. LessonScriptor's Premium mode uses tab audio capture and works with any audio output device.\n\n**Academic or technical content:** LessonScriptor Premium's Whisper model is more accurate on academic vocabulary, professor names, institutional names, and technical terminology.\n\n**Multilingual students:** If you're a French, Spanish, or German speaker watching content in your native language and need an exportable transcript for study, LessonScriptor's language support combined with edit-and-export functionality is significantly more useful.\n\n**Language learners:** LessonScriptor's editable transcript lets you annotate vocabulary, highlight unfamiliar phrases, and export a study list. Chrome's captions disappear.",
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        },
+        {
+          "text": "/blog/chrome-live-captions-headphones",
+          "href": "/blog/chrome-live-captions-headphones",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "can-use-both",
+      "h2": "Can I use both Chrome Live Caption and LessonScriptor at the same time?",
+      "body": "Yes, but there's no reason to. Both generate captions from the same audio source. Running both simultaneously would produce duplicate caption outputs. In practice, when LessonScriptor's side panel is open, Chrome's caption bubble adds visual noise without providing additional information.\n\nThe more useful approach is to choose based on the session: Chrome's built-in captions for quick, disposable captioning; LessonScriptor for any session where you'll want to keep the transcript."
+    }
+  ],
+  "cta": {
+    "heading": "Try LessonScriptor — free, no account required",
+    "body": "Install LessonScriptor in one click. Editable, exportable live captions for any video in Chrome. Free mode works immediately.",
+    "button_label": "Add LessonScriptor to Chrome — free",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "What is the difference between Chrome live captions and LessonScriptor?",
+        "a": "Chrome's built-in Live Caption is a read-only accessibility feature — captions appear in a floating bubble and disappear when the audio stops. LessonScriptor is a Chrome extension that generates a persistent, editable, exportable transcript in a side panel. LessonScriptor's transcript can be annotated with highlights and notes and exported as Markdown."
+      },
+      {
+        "q": "Is LessonScriptor better than Chrome's built-in live captions?",
+        "a": "For students and professionals who need to keep and study their transcripts, yes. LessonScriptor adds editing, export, annotation, and reliable headphone support that Chrome's built-in captions don't provide. For quick, temporary captions with no installation, Chrome's built-in feature is easier."
+      },
+      {
+        "q": "Is LessonScriptor free like Chrome's live captions?",
+        "a": "LessonScriptor has a free mode that requires no account and no payment — it works with on-device speech recognition just like Chrome's built-in captions. The key difference is the transcript is editable and exportable. LessonScriptor's Premium mode uses OpenAI Whisper for higher accuracy and adds tab audio capture for headphone support."
+      },
+      {
+        "q": "Can LessonScriptor replace Chrome's built-in live captions?",
+        "a": "For video transcription, yes. LessonScriptor works on any video in Chrome and produces more useful output (editable, exportable). It doesn't replace Chrome's built-in captions for audio sources that aren't video — background music, audio-only streams, or system-level audio from non-video sources."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome Live Caption vs LessonScriptor: which should you use?",
+    "body": "Chrome's built-in Live Caption is best when you need instant, zero-friction captions and don't need to save them. LessonScriptor is best when you need a transcript you can edit, annotate, and export — particularly for video lectures, Zoom recordings, YouTube content, and Canvas or Coursera videos. Both tools are free. The difference isn't cost — it's what you can do with the transcript after the video ends. If you've ever thought 'I wish I could save what Chrome's captions just showed me,' LessonScriptor is the tool you need."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Chrome Live Captions vs LessonScriptor: A Complete Comparison",
+        "description": "Chrome's built-in Live Caption vs LessonScriptor — full feature comparison covering accuracy, editing, export, headphone support, and when to use each.",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
+        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is the difference between Chrome live captions and LessonScriptor?", "acceptedAnswer": { "@type": "Answer", "text": "Chrome's built-in Live Caption is read-only — captions disappear when audio stops. LessonScriptor generates a persistent, editable, exportable transcript in a side panel with highlighting and Markdown export." } },
+          { "@type": "Question", "name": "Is LessonScriptor free like Chrome's live captions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor has a free mode with no account and no payment required. It uses on-device speech recognition like Chrome. The key difference is the transcript is editable and exportable." } }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Chrome Live Captions vs LessonScriptor", "item": "https://lessonscriptor.com/blog/chrome-live-captions-vs-lessonscriptor" }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    { "text": "Google Chrome Help — Live Caption", "href": "https://support.google.com/chrome/answer/10538231", "external": true },
+    { "text": "OpenAI Whisper — Speech recognition research", "href": "https://openai.com/research/whisper", "external": true }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/live-captions-other-languages-chrome"
+    ]
+  }
+}

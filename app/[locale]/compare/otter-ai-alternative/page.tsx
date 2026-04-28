@@ -4,12 +4,12 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = `/${locale}`
+  const base = locale === 'en' ? '' : `/${locale}`
   return {
-    title: 'Best Otter.ai Alternative for Students | LessonScriptor',
+    title: 'Best Otter.ai Alternative for Students',
     description: 'Looking for an Otter.ai alternative that works in your browser, doesn\'t require a subscription, and is free for everyday use? That\'s LessonScriptor.',
     openGraph: {
-      title: 'Best Otter.ai Alternative for Students | LessonScriptor',
+      title: 'Best Otter.ai Alternative for Students',
       description: 'Free Otter.ai alternative for students. Works in Chrome on any video, no subscription required.',
       url: `https://lessonscriptor.com${base}/compare/otter-ai-alternative`,
     },
@@ -37,6 +37,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
     }))
   }
 
+  const whenToUse = t.raw('whenToUse')
   const comparisonRows = t.raw('comparison.rows')
   const headerRow = comparisonRows[0]
   const dataRows = comparisonRows.slice(1)
@@ -130,8 +131,41 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
           </div>
         </section>
 
+        {/* When to Use Which Tool */}
+        <section className="px-4 py-16 max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
+            {whenToUse.title}
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            {/* Otter.ai */}
+            <div className="bg-white border border-cream-200 rounded-xl p-6 shadow-sm">
+              <h3 className="text-xl font-bold text-terra-800 mb-4">{whenToUse.otter.heading}</h3>
+              <ul className="space-y-3">
+                {whenToUse.otter.items.map((item: string, idx: number) => (
+                  <li key={idx} className="flex gap-3 text-terra-800/70">
+                    <span className="flex-shrink-0 mt-0.5 text-terra-800/30">→</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            {/* LessonScriptor */}
+            <div className="bg-accent-500/5 border border-accent-500/20 rounded-xl p-6 shadow-sm">
+              <h3 className="text-xl font-bold text-terra-800 mb-4">{whenToUse.lessonscriptor.heading}</h3>
+              <ul className="space-y-3">
+                {whenToUse.lessonscriptor.items.map((item: string, idx: number) => (
+                  <li key={idx} className="flex gap-3 text-terra-800/70">
+                    <span className="flex-shrink-0 mt-0.5 text-accent-500">✓</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </section>
+
         {/* FAQ */}
-        <section className="py-16 px-4">
+        <section className="py-16 px-4 bg-cream-100">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}

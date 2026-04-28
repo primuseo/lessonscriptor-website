@@ -1,0 +1,234 @@
+{
+  "slug": "best-chrome-extensions-live-captions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Best Chrome Extensions for Live Captions in 2026 (Free & Paid, Tested)",
+  "reading_time_min": 9,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Best Chrome Extensions for Live Captions 2026 | LessonScriptor",
+    "description": "The 5 best Chrome extensions for live captions in 2026 — compared by accuracy, language support, headphone compatibility, and price. LessonScriptor leads for students.",
+    "og_image": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/best-chrome-extensions-live-captions",
+    "og_title": "Best Chrome Extensions for Live Captions 2026",
+    "og_description": "5 best Chrome live caption extensions compared — accuracy, languages, headphones, price.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "alt": "Chrome browser with live captions side panel showing real-time transcription of a video lecture",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Browser mockup showing multiple caption extensions in a comparison layout. Clean, editorial style. Warm cream background, terra accents. Shows caption text appearing in real-time beside a video."
+  },
+  "author": {
+    "name": "LessonScriptor Editorial Team",
+    "url": "/about",
+    "bio": "The LessonScriptor team has tested every major live caption extension for Chrome across Windows, macOS, and ChromeOS. This comparison is based on direct testing, not marketing claims."
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "LessonScriptor is the best Chrome extension for live captions for students and professionals who need editable, exportable transcripts. Chrome's built-in feature is fine for casual use but lacks editing, export, and reliable headphone support.",
+    "bullets": [
+      "LessonScriptor wins for video transcription: works on YouTube, Zoom, Canvas, Coursera, and 50+ platforms. Free mode, no sign-up.",
+      "Chrome's built-in Live Caption is the easiest to enable (no install needed) but is read-only, English-primary, and unreliable with headphones.",
+      "Tactiq is strong for Google Meet and Zoom live meetings but not for video-on-demand transcription.",
+      "Captions for Live Presentations targets conference speakers and presenters, not students watching lectures.",
+      "Speechify is a text-to-speech tool, not a live caption extension — it reads content aloud rather than transcribing audio."
+    ]
+  },
+  "intro": "The best Chrome extension for live captions is LessonScriptor for anyone watching video lectures, Zoom recordings, or YouTube tutorials who needs an editable, exportable transcript. For quick, read-only captions on any audio without installing anything, Chrome's built-in Live Caption (enabled in chrome://settings/accessibility) is sufficient. This guide compares the five most-used Chrome caption tools in 2026 across the criteria that matter: accuracy, language support, headphone compatibility, export options, and price.",
+  "stats": [
+    {
+      "number": "50+",
+      "label": "video platforms LessonScriptor works on"
+    },
+    {
+      "number": "14+",
+      "label": "languages supported by LessonScriptor"
+    },
+    {
+      "number": "20+",
+      "label": "languages supported by Chrome's built-in Live Caption"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-best-live-caption-extension",
+      "h2": "What is the best Chrome extension for live captions?",
+      "body": "LessonScriptor is the best Chrome extension for live captions for students, researchers, and professionals who watch video content. It transcribes any video playing in Chrome in real time, displays the transcript in a side panel, and lets you edit, highlight, and export the text — features Chrome's built-in Live Caption doesn't offer.\n\nLessonScriptor installs from the Chrome Web Store in one click, requires no account, and has a free mode that works immediately. The free mode uses your device's microphone for transcription (on-device, private). The Premium mode uses tab audio capture — it grabs audio directly from the browser tab — which means it works with headphones and doesn't require speaking into a microphone.\n\nFor students taking notes from YouTube lectures, Canvas recordings, Coursera videos, or Zoom class recordings, LessonScriptor is the most complete solution available in Chrome in 2026."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Chrome live caption extensions: side-by-side comparison",
+      "body": "This table compares the five most-used Chrome caption tools across the criteria that most affect daily use for students and professionals.",
+      "table": {
+        "caption": "Comparison of Chrome live caption extensions in 2026.",
+        "headers": ["Tool", "Works on Video", "Editable Transcript", "Export", "Headphone Support", "Languages", "Price"],
+        "rows": [
+          {
+            "cells": ["LessonScriptor", "Any video in Chrome", "Yes", "Markdown, clipboard", "Yes (Premium)", "14+", "Free + Premium"],
+            "highlight": true,
+            "badge": "Best for students"
+          },
+          {
+            "cells": ["Chrome Live Caption (built-in)", "Any audio in Chrome", "No", "None", "Limited", "20+", "Free (built-in)"],
+            "highlight": false,
+            "badge": "Easiest to enable"
+          },
+          {
+            "cells": ["Tactiq", "Google Meet, Zoom, Teams", "Yes", "Google Docs, Notion", "Yes", "English primary", "Free (limited) + $8/mo"],
+            "highlight": false,
+            "badge": "Best for live meetings"
+          },
+          {
+            "cells": ["Captions for Live Presentations", "Microphone only", "No", "None", "No", "English", "Free"],
+            "highlight": false,
+            "badge": "For presenters"
+          },
+          {
+            "cells": ["Notta", "Zoom, Google Meet", "Yes", "TXT, DOCX, SRT", "Yes", "50+", "Free (limited) + $9/mo"],
+            "highlight": false,
+            "badge": "Best language coverage"
+          }
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor: best for video lecture transcription",
+      "body": "LessonScriptor is a Chrome extension that opens a side panel next to any video and transcribes the audio in real time. It works on YouTube, Zoom cloud recordings, Canvas, Coursera, edX, Skillshare, Vimeo, TED, and any other video platform that plays in Chrome — over 50 platforms in total.\n\n**Free mode:** Uses your device's microphone to capture audio. Works on any video, any platform. Unlimited use. No account required. All processing happens on-device via Chrome's Web Speech API.\n\n**Premium mode (pay-as-you-go):** Uses tab audio capture — grabs audio directly from the browser tab. Works with headphones, doesn't require a microphone, and uses an AI model (OpenAI Whisper) for higher accuracy on academic vocabulary, names, and technical terminology. You pay per minute of transcription, not a monthly subscription.\n\n**Editing and export:** The transcript is fully editable — click any word to correct it, highlight passages in five colors, add bold formatting, or insert headers to structure your notes. Export as Markdown to paste into Notion, Obsidian, or Google Docs.\n\n**Best for:** Students transcribing recorded lectures, researchers watching conference presentations, language learners watching foreign-language videos, and professionals who use headphones.",
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "chrome-builtin-review",
+      "h2": "Chrome's built-in Live Caption: best for quick, casual use",
+      "body": "Chrome's built-in Live Caption is not technically an extension — it's a browser feature enabled in chrome://settings/accessibility. It adds a floating caption bubble to any audio playing in Chrome, processed entirely on-device using a local speech recognition model.\n\n**Strengths:** Zero installation, completely free, works on any audio in Chrome, private (nothing leaves your device), supports 20+ languages.\n\n**Limitations:** The transcript is read-only — you cannot edit, save, copy, or export it. The caption bubble disappears when the audio stops. It doesn't work reliably with headphones on Windows 10. Accuracy degrades significantly on accented speech, technical vocabulary, and proper nouns.\n\n**Best for:** Quick, temporary captions when you need to hear what someone is saying and don't need a permanent record. Not suitable for study sessions, research, or any use case where you need to review the transcript later.",
+      "links": [
+        {
+          "text": "/blog/chrome-live-captions-not-working",
+          "href": "/blog/chrome-live-captions-not-working",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "tactiq-review",
+      "h2": "Tactiq: best Chrome extension for live meeting transcription",
+      "body": "Tactiq is a Chrome extension built specifically for live meetings — Google Meet, Zoom (browser version), and Microsoft Teams. It captures live captions as they appear on screen and saves them as a transcript that can be exported to Google Docs, Notion, or downloaded as a text file.\n\nTactiq's free tier captures up to 10 meeting transcripts per month. The paid plan ($8/month) removes limits and adds AI summarization.\n\n**Where Tactiq falls short for students:** Tactiq only works on live meetings — not on recorded videos. If you want to transcribe a Zoom recording, a YouTube lecture, or a Canvas video, Tactiq won't help. It's also not optimized for academic vocabulary or multilingual content. For live class participation in Google Meet or Zoom, Tactiq is solid. For everything else, LessonScriptor is the better choice."
+    },
+    {
+      "id": "notta-review",
+      "h2": "Notta: best language coverage in a Chrome caption tool",
+      "body": "Notta is a transcription service with a Chrome extension that works on Zoom, Google Meet, and audio files. Its standout feature is language support — 50+ languages, the widest coverage of any tool in this comparison.\n\nNotta's free tier is limited to 120 minutes of transcription per month and requires an account. Paid plans start at $9/month. The Chrome extension itself is a companion to Notta's web app rather than a standalone tool.\n\n**Best for:** Professionals or researchers who need transcription in languages beyond what LessonScriptor or Chrome support. Notta's accuracy in Japanese, Korean, Arabic, and Hindi is noticeably better than Chrome's built-in captions. For English and Western European languages, LessonScriptor and Notta perform similarly."
+    },
+    {
+      "id": "which-extension-should-i-use",
+      "h2": "Which Chrome live caption extension should I use?",
+      "body": "The right Chrome live caption extension depends on your primary use case.\n\n**Use LessonScriptor if** you're a student watching recorded video lectures (YouTube, Canvas, Zoom recordings, Coursera), need editable notes, or use headphones. The free tier works immediately with no account. This covers the majority of student and professional use cases.\n\n**Use Chrome's built-in Live Caption if** you want zero installation, don't need to save the transcript, and are listening to casual audio (podcasts, streaming video). It's the lowest-friction option for temporary captions.\n\n**Use Tactiq if** your primary use case is live Google Meet or Zoom meetings where you're an active participant (not just watching a recording). Tactiq's meeting-specific features (speaker identification, meeting summary) are stronger than LessonScriptor for this narrow use case.\n\n**Use Notta if** you need transcription in languages beyond the 14 LessonScriptor supports — particularly Japanese, Korean, Arabic, or Hindi at high accuracy.",
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        },
+        {
+          "text": "/blog/live-captions-zoom-recordings-chrome",
+          "href": "/blog/live-captions-zoom-recordings-chrome",
+          "internal": true
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Try the best Chrome live caption extension — free",
+    "body": "LessonScriptor works on any video in Chrome. Editable, exportable, 14 languages. Free mode, no account needed.",
+    "button_label": "Add LessonScriptor to Chrome — free",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Is there a free Chrome extension for live captions?",
+        "a": "Yes. LessonScriptor has a free mode that works on any video in Chrome with no account required and no time limit. Chrome's built-in Live Caption (in settings, not an extension) is also free and requires no installation."
+      },
+      {
+        "q": "Which Chrome live caption extension works with headphones?",
+        "a": "LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab rather than a microphone — so it works with any headphones. Chrome's built-in Live Caption doesn't reliably work when audio is routed exclusively through headphones."
+      },
+      {
+        "q": "Do Chrome live caption extensions work on YouTube?",
+        "a": "LessonScriptor works on YouTube and 50+ other video platforms. Chrome's built-in Live Caption also works on YouTube audio. Tactiq and Notta are meeting-focused and don't transcribe YouTube videos."
+      },
+      {
+        "q": "Can I export captions from a Chrome extension?",
+        "a": "LessonScriptor exports transcripts as Markdown or plain text, which you can paste into Notion, Google Docs, Obsidian, or any note-taking app. Chrome's built-in captions cannot be exported. Tactiq exports to Google Docs and Notion. Notta exports as TXT, DOCX, or SRT."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "The best Chrome live caption extension in 2026",
+    "body": "LessonScriptor is the best Chrome extension for live captions for students, researchers, and professionals who watch video content and need editable, exportable transcripts. It works on any video platform — YouTube, Zoom recordings, Canvas, Coursera, Vimeo, and 50+ others — has a free mode that requires no account, and supports 14 languages. Chrome's built-in Live Caption is the easiest option for casual, temporary captions with no installation required, but it cannot be edited or exported. For live meetings specifically, Tactiq is the stronger choice. For maximum language coverage, Notta covers 50+ languages. For the majority of use cases — video lecture transcription with notes — LessonScriptor is the clear winner."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Best Chrome Extensions for Live Captions in 2026",
+        "description": "The 5 best Chrome extensions for live captions compared by accuracy, language support, headphone compatibility, export options, and price.",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
+        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Is there a free Chrome extension for live captions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor has a free mode with no account required and no time limit. Chrome's built-in Live Caption is also free but requires no extension install." } },
+          { "@type": "Question", "name": "Which Chrome live caption extension works with headphones?", "acceptedAnswer": { "@type": "Answer", "text": "LessonScriptor's Premium mode uses tab audio capture and works with any headphones. Chrome's built-in captions don't reliably work when audio is routed exclusively through headphones." } }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Best Chrome Extensions for Live Captions", "item": "https://lessonscriptor.com/blog/best-chrome-extensions-live-captions" }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    { "text": "Chrome Web Store — LessonScriptor", "href": "https://chrome.google.com/webstore/detail/lessonscriptor", "external": true },
+    { "text": "Tactiq — Chrome extension for meeting transcription", "href": "https://tactiq.io", "external": true },
+    { "text": "Notta — AI transcription service", "href": "https://www.notta.ai", "external": true }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome"
+    ]
+  }
+}

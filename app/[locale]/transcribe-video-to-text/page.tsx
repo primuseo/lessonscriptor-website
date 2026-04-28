@@ -4,12 +4,12 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = `/${locale}`
+  const base = locale === 'en' ? '' : `/${locale}`
   return {
-    title: 'Transcribe Video to Text Free — Live in Chrome | LessonScriptor',
+    title: 'Transcribe Video to Text Free — Live in Chrome',
     description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.',
     openGraph: {
-      title: 'Transcribe Video to Text Free — Live in Chrome | LessonScriptor',
+      title: 'Transcribe Video to Text Free — Live in Chrome',
       description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription.',
       url: `https://lessonscriptor.com${base}/transcribe-video-to-text`,
     },
@@ -22,8 +22,6 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function TranscribeVideoToTextPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('transcribeVideo')
-  const tHome = await getTranslations('home')
-  const base = `/${locale}`
 
   const schemaHowTo = {
     '@context': 'https://schema.org',
@@ -31,28 +29,11 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
     'name': 'How to Transcribe a Video to Text',
     'description': 'Convert any video to text in real-time with AI using LessonScriptor',
     'image': 'https://lessonscriptor.com/og-image.png',
-    'step': [
-      {
-        '@type': 'HowToStep',
-        'name': 'Install LessonScriptor',
-        'text': 'Install LessonScriptor from the Chrome Web Store'
-      },
-      {
-        '@type': 'HowToStep',
-        'name': 'Open any video',
-        'text': 'Open any video in Chrome'
-      },
-      {
-        '@type': 'HowToStep',
-        'name': 'Hit play',
-        'text': 'Hit play and transcription starts automatically'
-      },
-      {
-        '@type': 'HowToStep',
-        'name': 'Export',
-        'text': 'Export the transcript when done'
-      }
-    ]
+    'step': t.raw('howItWorks.steps').map((step: any) => ({
+      '@type': 'HowToStep',
+      'name': step.title,
+      'text': step.desc
+    }))
   }
 
   const schemaFAQ = {
@@ -68,7 +49,8 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
     }))
   }
 
-  const features = tHome.raw('features.items')
+  const useCases = t.raw('useCases.items')
+  const howItWorksSteps = t.raw('howItWorks.steps')
 
   return (
     <>
@@ -95,26 +77,47 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
           </div>
         </section>
 
-        {/* Features Grid */}
+        {/* Use Cases Grid */}
         <section className="px-4 py-16 bg-cream-100">
           <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-bold text-terra-800 mb-12 text-center">
-              {tHome('features.title')}
+            <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
+              {t('useCases.title')}
             </h2>
-            <div className="grid md:grid-cols-2 gap-8">
-              {features.map((feature: any, idx: number) => (
-                <div key={idx} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-bold text-terra-800 mb-2">{feature.title}</h3>
-                  <p className="text-terra-800/60 leading-relaxed">{feature.desc}</p>
+            <div className="grid md:grid-cols-2 gap-6">
+              {useCases.map((item: any, idx: number) => (
+                <div key={idx} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                  <div className="text-3xl mb-3">{item.icon}</div>
+                  <h3 className="text-lg font-bold text-terra-800 mb-2">{item.title}</h3>
+                  <p className="text-terra-800/60 leading-relaxed">{item.desc}</p>
                 </div>
               ))}
             </div>
           </div>
         </section>
 
+        {/* How It Works */}
+        <section className="px-4 py-16 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-terra-800 mb-4">
+            {t('howItWorks.title')}
+          </h2>
+          <p className="text-terra-800/50 text-lg mb-10">{t('howItWorks.subtitle')}</p>
+          <ol className="space-y-8">
+            {howItWorksSteps.map((step: any, idx: number) => (
+              <li key={idx} className="flex gap-6">
+                <span className="flex-shrink-0 w-10 h-10 bg-terra-800 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                  {step.n}
+                </span>
+                <div>
+                  <h3 className="text-lg font-bold text-terra-800 mb-1">{step.title}</h3>
+                  <p className="text-terra-800/60 leading-relaxed">{step.desc}</p>
+                </div>
+              </li>
+            ))}
+          </ol>
+        </section>
+
         {/* FAQ */}
-        <section className="py-16 px-4">
+        <section className="py-16 px-4 bg-cream-100">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}

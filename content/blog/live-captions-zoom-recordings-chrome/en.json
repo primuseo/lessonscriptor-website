@@ -1,0 +1,203 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "How to Get Live Captions for Zoom Recordings in Chrome (2026)",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Live Captions for Zoom Recordings in Chrome | LessonScriptor",
+    "description": "Get live captions for any Zoom recording playing in Chrome — even when Zoom didn't generate a transcript. Works on cloud recordings, local recordings, and Canvas-hosted Zoom videos.",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "canonical": "https://lessonscriptor.com/blog/live-captions-zoom-recordings-chrome",
+    "og_title": "How to Get Live Captions for Zoom Recordings in Chrome",
+    "og_description": "Get captions for Zoom recordings in Chrome — even without a Zoom transcript.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Chrome browser showing a Zoom recording with LessonScriptor caption side panel open",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Browser window showing a Zoom cloud recording playback with a LessonScriptor side panel displaying a live transcript. Professional, clean. Cream and terra palette."
+  },
+  "author": {
+    "name": "LessonScriptor Editorial Team",
+    "url": "/about",
+    "bio": "The LessonScriptor team has tested caption workflows across Zoom cloud recordings, Canvas-hosted Zoom videos, and local Zoom recording files to identify the most reliable transcription methods."
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "LessonScriptor adds live, editable captions to any Zoom recording playing in Chrome — including recordings where Zoom didn't generate a transcript. Chrome's built-in Live Caption also works on Zoom recordings played in a browser tab.",
+    "bullets": [
+      "Zoom cloud recordings played in a browser tab work with both Chrome's built-in Live Caption and LessonScriptor.",
+      "Zoom's own transcript feature requires the host to have enabled it and the recording to be processed — it's often unavailable for recordings shared by professors.",
+      "LessonScriptor works on Zoom recordings embedded in Canvas, Moodle, and Blackboard LMS platforms — not just on zoom.us directly.",
+      "For Zoom recordings you downloaded as MP4 files, you can play them in Chrome and use LessonScriptor to transcribe.",
+      "LessonScriptor's transcript is editable and exportable — Zoom's built-in transcript is read-only and tied to the Zoom platform."
+    ]
+  },
+  "intro": "LessonScriptor adds live captions to Zoom recordings in Chrome by capturing tab audio and displaying a real-time, editable transcript in a side panel. This works regardless of whether the Zoom host enabled recording transcription — LessonScriptor transcribes the audio as it plays, not from a pre-generated file. Chrome's built-in Live Caption (chrome://settings/accessibility) also generates captions for Zoom recordings played in a browser tab, but produces a read-only feed that disappears when the video ends. This guide explains when to use each option and covers the edge cases — Canvas-embedded Zoom videos, downloaded MP4 files, and recordings without a transcript.",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "Do Chrome live captions work on Zoom recordings?",
+      "body": "Yes. Chrome's built-in Live Caption works on Zoom cloud recordings played in a browser tab at zoom.us, because the recording is standard web video audio that Chrome's caption engine can access.\n\nTo confirm: Chrome's Live Caption does NOT work on the Zoom desktop app — it only works on audio playing inside a Chrome browser tab. If your professor shared a Zoom recording link that opens in your browser at a zoom.us URL, Chrome's captions work. If the recording opens the Zoom app on your computer, Chrome's captions don't apply.\n\nLessonScriptor works on any video playing inside a Chrome tab — including Zoom recordings at zoom.us, Zoom recordings embedded in Canvas, Moodle, or Blackboard, and MP4 files played in Chrome directly.",
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "What is the difference between Zoom's transcript and Chrome live captions for recordings?",
+      "body": "Zoom's built-in audio transcript is a pre-generated text file that Zoom creates by processing the recording after the meeting ends. The host must have enabled 'Cloud recording' with 'Audio transcript' before the meeting — if they didn't, no transcript is available.\n\nChrome live captions and LessonScriptor are real-time transcription tools that generate captions as the video plays, independently of whether Zoom generated a transcript. They transcribe the actual audio from the recording, not a pre-generated file.\n\n**Zoom's built-in transcript:** Available only if the host enabled it. Appears as a separate panel on zoom.us. Can be downloaded as VTT or TXT. Speaker-labeled. Only available in English for most account types.\n\n**Chrome's built-in Live Caption on a Zoom recording:** Read-only caption bubble that appears as the video plays. Disappears when the video ends. Cannot be saved or exported. Works in any language Chrome supports.\n\n**LessonScriptor on a Zoom recording:** Real-time transcript in a side panel. Fully editable, exportable as Markdown or plain text. Works in 14 languages. Available whether or not Zoom generated a transcript. Can be annotated with highlights and notes."
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "How do I get a transcript of a Zoom recording in Chrome?",
+      "body": "To get a transcript of a Zoom recording in Chrome using LessonScriptor:",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store. Free, no account required.",
+        "Open the Zoom recording in Chrome. This works at zoom.us/rec/play/[recording-link], in Canvas (click the Zoom recording link in your LMS), or by dragging an MP4 file into Chrome.",
+        "Click the LessonScriptor icon in your Chrome toolbar to open the side panel.",
+        "Switch to 'Tab audio' mode in the LessonScriptor panel if you're using headphones (Premium feature). Leave it on 'Microphone' mode for the free tier.",
+        "Press play on the Zoom recording. LessonScriptor starts transcribing immediately. The transcript appears in the side panel in real time.",
+        "Edit the transcript as it generates — correct names, technical terms, or misheared words by clicking directly on the text.",
+        "When the recording ends, click 'Export' to save the transcript as Markdown or copy it to your clipboard."
+      ],
+      "links": [
+        {
+          "text": "/live-captions-chrome",
+          "href": "/live-captions-chrome",
+          "internal": true
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "Do live captions work on Zoom recordings embedded in Canvas?",
+      "body": "Yes. Zoom recordings embedded in Canvas (Instructure's LMS) are typically hosted on zoom.us or on Kaltura and played back inside a Chrome iframe within the Canvas page. LessonScriptor's tab audio capture works on these embedded videos because it accesses the audio stream at the tab level — the iframe embedding doesn't affect this.\n\nChrome's built-in Live Caption also works on Canvas-embedded Zoom recordings, with the same limitation: the transcript is read-only and disappears when the video ends.\n\nOther LMS platforms (Moodle, Blackboard, Brightspace) use similar video embedding approaches and are also compatible with LessonScriptor.\n\nIf your Canvas-embedded Zoom recording doesn't play audio at all, that's usually a browser permission issue — check that Chrome hasn't blocked autoplay audio for your university's Canvas domain."
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "Can I get captions for a downloaded Zoom MP4 file in Chrome?",
+      "body": "Yes. If you have a Zoom recording saved as an MP4 file on your computer, you can transcribe it with LessonScriptor by playing it in Chrome.\n\n**How to do it:**\n1. Drag the MP4 file into a new Chrome tab, or type `file:///` in the address bar and navigate to the file.\n2. Chrome will play the MP4 file in a native video player.\n3. Open LessonScriptor's side panel and start transcribing as normal.\n\nNote: For downloaded MP4 files, LessonScriptor's free mode (microphone-based) will transcribe the audio as it plays through your speakers. If you're using headphones, you'll need to either play the audio through speakers briefly, use Windows or macOS system audio capture, or upgrade to LessonScriptor's tab audio capture (Premium) which captures audio before it reaches any output device."
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "Should I use Zoom's transcript feature or LessonScriptor?",
+      "body": "Use Zoom's built-in transcript when it's available and you only need a static text copy of the recording. Zoom's transcript is speaker-labeled, which is useful for multi-speaker meetings where knowing who said what matters.\n\nUse LessonScriptor when Zoom's transcript isn't available (the host didn't enable it), when you need to edit and annotate the transcript, when you're watching from Canvas or another LMS, or when you need to export formatted notes rather than a raw text dump.\n\nFor academic use, LessonScriptor's edit-as-you-watch workflow is more useful than Zoom's transcript for most students. Zoom's transcript requires waiting for processing after the recording — LessonScriptor generates the transcript as you watch, letting you annotate in real time.",
+      "links": [
+        {
+          "text": "/blog/best-chrome-extensions-live-captions",
+          "href": "/blog/best-chrome-extensions-live-captions",
+          "internal": true
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Get captions for any Zoom recording in Chrome — free",
+    "body": "LessonScriptor works on Zoom recordings, Canvas-embedded videos, and any other video in Chrome. Edit, highlight, and export your notes.",
+    "button_label": "Add LessonScriptor to Chrome — free",
+    "button_href": "https://chrome.google.com/webstore/detail/lessonscriptor"
+  },
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Can Chrome live captions transcribe a Zoom recording?",
+        "a": "Yes, if the Zoom recording is played in a Chrome browser tab (at zoom.us or embedded in an LMS like Canvas). Chrome's built-in Live Caption generates a real-time caption bubble, but it's read-only and disappears when the video ends. LessonScriptor generates an editable, exportable transcript."
+      },
+      {
+        "q": "Why doesn't my Zoom recording have a transcript?",
+        "a": "Zoom only generates an audio transcript for cloud recordings if the host enabled the 'Audio transcript' feature before the meeting. If your professor didn't enable it, no Zoom transcript exists. LessonScriptor solves this by transcribing the recording as you play it in Chrome."
+      },
+      {
+        "q": "Does LessonScriptor work on Zoom recordings in Canvas?",
+        "a": "Yes. LessonScriptor works on Zoom recordings embedded in Canvas, Moodle, Blackboard, and any other LMS that plays video in a Chrome tab. The tab audio capture works on embedded iframes."
+      },
+      {
+        "q": "Can I export a Zoom recording transcript from Chrome?",
+        "a": "LessonScriptor exports the transcript as Markdown or plain text, which you can paste into Notion, Google Docs, Obsidian, or any note-taking app. Chrome's built-in captions cannot be exported."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Live captions for Zoom recordings in Chrome: the short version",
+    "body": "LessonScriptor and Chrome's built-in Live Caption both work on Zoom recordings played in a Chrome browser tab. Chrome's captions are read-only and temporary. LessonScriptor produces an editable, exportable transcript — even when Zoom never generated one. This works on zoom.us links, Canvas-embedded recordings, Moodle and Blackboard hosted videos, and MP4 files played directly in Chrome. For students whose professors share Zoom recordings without transcripts, LessonScriptor is the most reliable way to get a text record of the lecture content."
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Get Live Captions for Zoom Recordings in Chrome (2026)",
+        "description": "Get live captions for any Zoom recording playing in Chrome — editable and exportable, even without a Zoom-generated transcript.",
+        "datePublished": "2026-04-28",
+        "dateModified": "2026-04-28",
+        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
+        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to get a transcript of a Zoom recording in Chrome",
+        "step": [
+          { "@type": "HowToStep", "position": 1, "text": "Install LessonScriptor from the Chrome Web Store." },
+          { "@type": "HowToStep", "position": 2, "text": "Open the Zoom recording in Chrome." },
+          { "@type": "HowToStep", "position": 3, "text": "Click the LessonScriptor icon to open the side panel." },
+          { "@type": "HowToStep", "position": 4, "text": "Press play on the recording." },
+          { "@type": "HowToStep", "position": 5, "text": "Edit the transcript as it generates." },
+          { "@type": "HowToStep", "position": 6, "text": "Export as Markdown or copy to clipboard." }
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "Can Chrome live captions transcribe a Zoom recording?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, if the Zoom recording is played in a Chrome browser tab. LessonScriptor generates an editable, exportable transcript. Chrome's built-in captions are read-only and temporary." } },
+          { "@type": "Question", "name": "Why doesn't my Zoom recording have a transcript?", "acceptedAnswer": { "@type": "Answer", "text": "Zoom only generates transcripts if the host enabled 'Audio transcript' before the meeting. LessonScriptor solves this by transcribing any recording as you play it in Chrome." } }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Live Captions for Zoom Recordings in Chrome", "item": "https://lessonscriptor.com/blog/live-captions-zoom-recordings-chrome" }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    { "text": "Zoom Support — Cloud recording audio transcript", "href": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0059762", "external": true },
+    { "text": "Google Chrome Help — Live Caption", "href": "https://support.google.com/chrome/answer/10538231", "external": true }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

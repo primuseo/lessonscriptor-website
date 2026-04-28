@@ -79,6 +79,55 @@ export const SLUG_MAP: Record<string, Record<string, string>> = {
     de: 'neurodivergente-lernwerkzeuge',
     zh: 'shenjing-duoyangxing-xuexi-gongju',
   },
+  // Live captions pillar cluster
+  'chrome-live-captions-not-working': {
+    en: 'chrome-live-captions-not-working',
+    fr: 'sous-titres-chrome-ne-fonctionnent-pas',
+    es: 'subtitulos-chrome-no-funcionan',
+    pt: 'legendas-chrome-nao-funcionam',
+    de: 'chrome-untertitel-funktionieren-nicht',
+    zh: 'chrome-zishimu-wufa-gongzuo',
+  },
+  'best-chrome-extensions-live-captions': {
+    en: 'best-chrome-extensions-live-captions',
+    fr: 'meilleures-extensions-chrome-sous-titres-live',
+    es: 'mejores-extensiones-chrome-subtitulos-live',
+    pt: 'melhores-extensoes-chrome-legendas-ao-vivo',
+    de: 'beste-chrome-erweiterungen-live-untertitel',
+    zh: 'zuijia-chrome-kuozhan-shishi-zishimu',
+  },
+  'chrome-live-captions-headphones': {
+    en: 'chrome-live-captions-headphones',
+    fr: 'sous-titres-chrome-casque-audio',
+    es: 'subtitulos-chrome-auriculares',
+    pt: 'legendas-chrome-fones-de-ouvido',
+    de: 'chrome-untertitel-kopfhoerer',
+    zh: 'chrome-zishimu-erji',
+  },
+  'live-captions-zoom-recordings-chrome': {
+    en: 'live-captions-zoom-recordings-chrome',
+    fr: 'sous-titres-live-enregistrements-zoom-chrome',
+    es: 'subtitulos-live-grabaciones-zoom-chrome',
+    pt: 'legendas-ao-vivo-gravacoes-zoom-chrome',
+    de: 'live-untertitel-zoom-aufnahmen-chrome',
+    zh: 'shishi-zishimu-zoom-luhua-chrome',
+  },
+  'live-captions-other-languages-chrome': {
+    en: 'live-captions-other-languages-chrome',
+    fr: 'sous-titres-live-autres-langues-chrome',
+    es: 'subtitulos-live-otros-idiomas-chrome',
+    pt: 'legendas-ao-vivo-outros-idiomas-chrome',
+    de: 'live-untertitel-andere-sprachen-chrome',
+    zh: 'shishi-zishimu-qita-yuyan-chrome',
+  },
+  'chrome-live-captions-vs-lessonscriptor': {
+    en: 'chrome-live-captions-vs-lessonscriptor',
+    fr: 'sous-titres-chrome-vs-lessonscriptor',
+    es: 'subtitulos-chrome-vs-lessonscriptor',
+    pt: 'legendas-chrome-vs-lessonscriptor',
+    de: 'chrome-untertitel-vs-lessonscriptor',
+    zh: 'chrome-zishimu-vs-lessonscriptor',
+  },
 }
 
 export function getLocalizedSlug(canonicalSlug: string, locale: string): string {
