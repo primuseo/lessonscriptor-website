@@ -4,17 +4,22 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const path = '/transcribe-video-to-text'
+  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   return {
     title: 'Transcribe Video to Text Free — Live in Chrome',
     description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.',
     openGraph: {
       title: 'Transcribe Video to Text Free — Live in Chrome',
       description: 'Convert any video to text in real-time with AI. No upload, no waiting, no subscription.',
-      url: `https://lessonscriptor.com${base}/transcribe-video-to-text`,
+      url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com${base}/transcribe-video-to-text`,
+      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      languages: {
+        'x-default': `https://lessonscriptor.com/en${path}`,
+        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+      }
     }
   }
 }

@@ -4,17 +4,22 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const path = '/compare/otter-ai-alternative'
+  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   return {
     title: 'Best Otter.ai Alternative for Students',
     description: 'Looking for an Otter.ai alternative that works in your browser, doesn\'t require a subscription, and is free for everyday use? That\'s LessonScriptor.',
     openGraph: {
       title: 'Best Otter.ai Alternative for Students',
       description: 'Free Otter.ai alternative for students. Works in Chrome on any video, no subscription required.',
-      url: `https://lessonscriptor.com${base}/compare/otter-ai-alternative`,
+      url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com${base}/compare/otter-ai-alternative`,
+      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      languages: {
+        'x-default': `https://lessonscriptor.com/en${path}`,
+        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+      }
     }
   }
 }

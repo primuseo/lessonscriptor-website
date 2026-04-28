@@ -4,17 +4,22 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = locale === 'en' ? '' : `/${locale}`
+  const path = '/transcribe-youtube-video'
+  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   return {
     title: 'Transcribe Any YouTube Video in Real-Time',
     description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs. Free mode included.',
     openGraph: {
       title: 'Transcribe Any YouTube Video in Real-Time',
       description: 'Get a live, editable transcript of any YouTube video directly in Chrome — without copying, pasting, or switching tabs.',
-      url: `https://lessonscriptor.com${base}/transcribe-youtube-video`,
+      url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com${base}/transcribe-youtube-video`,
+      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      languages: {
+        'x-default': `https://lessonscriptor.com/en${path}`,
+        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+      }
     }
   }
 }

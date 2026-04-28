@@ -4,17 +4,22 @@ import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const base = `/${locale}`
+  const path = '/live-captions-chrome'
+  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   return {
-    title: 'Live Captions for Chrome — Editable, Exportable, Multilingual | LessonScriptor',
+    title: 'Live Captions for Chrome — Editable, Exportable, Multilingual',
     description: 'Add real-time, editable live captions to any video in Chrome. Works on YouTube, Zoom recordings, lectures, and more. Free mode included, 14+ languages.',
     openGraph: {
-      title: 'Live Captions for Chrome — Editable, Exportable, Multilingual | LessonScriptor',
+      title: 'Live Captions for Chrome — Editable, Exportable, Multilingual',
       description: 'Add real-time, editable live captions to any video in Chrome. Free mode, 14+ languages, works everywhere.',
-      url: `https://lessonscriptor.com${base}/live-captions-chrome`,
+      url: `https://lessonscriptor.com/${locale}${path}`,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com${base}/live-captions-chrome`,
+      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      languages: {
+        'x-default': `https://lessonscriptor.com/en${path}`,
+        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+      }
     }
   }
 }
