@@ -6,11 +6,11 @@ import CTASection from '@/components/CTASection'
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const base = `/${locale}`
   return {
-    title: 'Live Captions for Any Video in Chrome | LessonScriptor',
-    description: 'Add real-time, editable captions to any video you watch in Chrome. Free, private, and works on every platform — not just YouTube.',
+    title: 'Live Captions for Chrome — Editable, Exportable, Multilingual | LessonScriptor',
+    description: 'Add real-time, editable live captions to any video in Chrome. Works on YouTube, Zoom recordings, lectures, and more. Free mode included, 14+ languages.',
     openGraph: {
-      title: 'Live Captions for Any Video in Chrome | LessonScriptor',
-      description: 'Add real-time, editable captions to any video you watch in Chrome. Free and works on all platforms.',
+      title: 'Live Captions for Chrome — Editable, Exportable, Multilingual | LessonScriptor',
+      description: 'Add real-time, editable live captions to any video in Chrome. Free mode, 14+ languages, works everywhere.',
       url: `https://lessonscriptor.com${base}/live-captions-chrome`,
     },
     alternates: {
@@ -19,11 +19,7 @@ export async function generateMetadata({ params: { locale } }: { params: { local
   }
 }
 
-export default async function LiveCaptionsChromeP
-
-({
-
- params: { locale } }: { params: { locale: string } }) {
+export default async function LiveCaptionsChromeP({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('liveCaptions')
   const base = `/${locale}`
@@ -32,7 +28,7 @@ export default async function LiveCaptionsChromeP
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     'name': 'LessonScriptor',
-    'description': 'Live AI captions for any video in Chrome',
+    'description': 'Live AI captions for any video in Chrome — editable, exportable, multilingual',
     'applicationCategory': 'UtilityApplication',
     'operatingSystem': 'Chrome',
     'url': 'https://lessonscriptor.com',
@@ -41,6 +37,18 @@ export default async function LiveCaptionsChromeP
       'price': '0',
       'priceCurrency': 'EUR'
     }
+  }
+
+  const schemaHowTo = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    'name': 'How to add live captions in Chrome',
+    'image': 'https://lessonscriptor.com/og-image.png',
+    'step': t.raw('steps.items').map((step: string, idx: number) => ({
+      '@type': 'HowToStep',
+      'position': idx + 1,
+      'text': step
+    }))
   }
 
   const schemaFAQ = {
@@ -57,26 +65,26 @@ export default async function LiveCaptionsChromeP
   }
 
   const comparisonRows = t.raw('vsChrome.rows')
+  const useCases = t.raw('useCases.items')
 
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaSoftwareApp) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaHowTo) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }} />
 
       <div className="w-full">
         {/* Hero */}
         <section className="px-4 py-16 max-w-4xl mx-auto">
-          <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
-              {t('h1')}
-            </h1>
-            <p className="text-xl text-terra-800/60 mb-8">
-              {t('subtitle')}
-            </p>
-          </div>
+          <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
+            {t('h1')}
+          </h1>
+          <p className="text-xl text-terra-800/60 mb-8">
+            {t('subtitle')}
+          </p>
 
           {/* AIO Answer Box */}
-          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12">
+          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-4">
             <p className="text-terra-800 text-lg leading-relaxed">
               {t('answer')}
             </p>
@@ -108,7 +116,7 @@ export default async function LiveCaptionsChromeP
                           key={cellIdx}
                           className={`px-6 py-4 border-b border-cream-200 border-r border-cream-200 last:border-r-0 ${
                             cellIdx === 0 ? 'font-semibold text-terra-800' : 'text-terra-800/60'
-                          } ${cellIdx === row.length - 1 && cell === 'Yes — click anywhere to edit' ? 'bg-accent-500/10' : ''}`}
+                          }`}
                         >
                           {cell}
                         </td>
@@ -117,6 +125,42 @@ export default async function LiveCaptionsChromeP
                   ))}
                 </tbody>
               </table>
+            </div>
+          </div>
+        </section>
+
+        {/* Step-by-step how-to */}
+        <section className="px-4 py-16 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-terra-800 mb-10">
+            {t('steps.title')}
+          </h2>
+          <ol className="space-y-6">
+            {t.raw('steps.items').map((step: string, idx: number) => (
+              <li key={idx} className="flex gap-4">
+                <span className="flex-shrink-0 w-8 h-8 bg-terra-800 text-white rounded-full flex items-center justify-center font-bold text-sm">
+                  {idx + 1}
+                </span>
+                <p className="text-terra-800/70 text-lg leading-relaxed pt-1">
+                  {step}
+                </p>
+              </li>
+            ))}
+          </ol>
+        </section>
+
+        {/* Use cases */}
+        <section className="px-4 py-16 bg-cream-100">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
+              {t('useCases.title')}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {useCases.map((item: any, idx: number) => (
+                <div key={idx} className="bg-white rounded-lg p-6 shadow-sm border border-cream-200">
+                  <h3 className="text-lg font-bold text-terra-800 mb-2">{item.title}</h3>
+                  <p className="text-terra-800/60 leading-relaxed">{item.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </section>

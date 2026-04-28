@@ -455,7 +455,7 @@
     }
   },
   "liveCaptions": {
-    "h1": "Live Captions for Any Video in Chrome",
+    "h1": "Live Captions for Chrome — Editable, Exportable, Multilingual",
     "subtitle": "Add real-time, editable captions to any video you watch in Chrome. Free, private, and works on every platform — not just YouTube.",
     "answer": "LessonScriptor adds live AI captions to any video in Chrome via a side panel. Unlike Chrome's built-in live captions, these are fully editable, exportable, and work with 14+ languages — including academic vocabulary your browser's captions get wrong.",
     "vsChrome": {
@@ -497,10 +497,56 @@
           "Yes"
         ],
         [
+          "Works on all video platforms",
+          "Yes",
+          "Yes"
+        ],
+        [
           "Price",
           "Free",
           "Free mode + Pay-as-you-go Premium"
         ]
+      ]
+    },
+    "steps": {
+      "title": "How to add live captions in Chrome — step by step",
+      "items": [
+        "Install LessonScriptor from the Chrome Web Store. It's free, takes 10 seconds, no sign-up required.",
+        "Open any video in Chrome — YouTube, Coursera, a Zoom recording, Google Meet, any platform.",
+        "Click the LessonScriptor icon in your Chrome toolbar to open the side panel next to the video.",
+        "Hit play on the video. Live captions appear in real-time inside the side panel automatically.",
+        "Click anywhere in the transcript to edit, correct a word, or add a note as you watch.",
+        "Use highlights to mark key moments — 5 colours, bold, headers to structure your notes.",
+        "Export when done — copy to clipboard or download as Markdown, ready for Notion, Obsidian, or Google Docs."
+      ]
+    },
+    "useCases": {
+      "title": "What you can use Chrome live captions for",
+      "items": [
+        {
+          "title": "University lectures",
+          "description": "Follow along with recorded or live lectures without missing words. Edit the transcript in real-time, highlight key concepts, and export structured notes when the lecture ends."
+        },
+        {
+          "title": "YouTube educational videos",
+          "description": "Transcribe any YouTube tutorial, course, or documentary as it plays. No need to pause and retype — just highlight what matters and skip the rest."
+        },
+        {
+          "title": "Zoom and Teams recordings",
+          "description": "LessonScriptor works on any video that plays in a Chrome tab — including Zoom cloud recordings and Teams videos. Get captions even when no transcript was generated."
+        },
+        {
+          "title": "Language learning",
+          "description": "Watch videos in a foreign language and get live captions in that language. Supports French, Spanish, German, Portuguese, Mandarin, and 9 more languages — useful for accent comprehension and vocabulary."
+        },
+        {
+          "title": "ADHD and accessibility",
+          "description": "Reading captions while listening significantly improves comprehension and retention for students with ADHD, auditory processing difficulties, or those in noisy environments."
+        },
+        {
+          "title": "Online courses and webinars",
+          "description": "Transcribe Coursera, edX, Udemy, or any live webinar in Chrome. Export your notes after the session with all your edits and highlights preserved."
+        }
       ]
     },
     "faq": {
@@ -511,15 +557,35 @@
         },
         {
           "q": "Does Chrome have live captions built in?",
-          "a": "Yes, Chrome has a basic live captions feature (Settings → Accessibility → Live Caption). However, it only supports English, produces a read-only feed you can't edit or export, and doesn't handle technical vocabulary well. LessonScriptor supports 14+ languages and gives you a fully editable, exportable transcript."
+          "a": "Yes, Chrome has a basic live captions feature under Settings → Accessibility → Live Caption. However, it only supports English, produces a read-only feed you can't edit or export, and doesn't handle technical vocabulary well. LessonScriptor supports 14+ languages and gives you a fully editable, exportable transcript."
         },
         {
-          "q": "Do live captions work with headphones in Chrome?",
-          "a": "LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab rather than through a microphone, so headphones work perfectly."
+          "q": "How do I turn on live captions in Chrome for free?",
+          "a": "Two options: Chrome's built-in live captions are free but English-only and not editable (Settings → Accessibility → Live Caption). LessonScriptor also has a free mode — install from the Chrome Web Store and it works immediately with no account required. The free mode uses your device's microphone for transcription."
         },
         {
-          "q": "Can I use live captions for Zoom or Teams recordings in Chrome?",
-          "a": "Yes. LessonScriptor works on any video that plays in Chrome, including Zoom recordings, Google Meet recordings, Teams recordings, and any other video platform."
+          "q": "Do Chrome live captions work with headphones?",
+          "a": "Chrome's built-in live captions do not work with headphones because they rely on the microphone. LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab rather than through a microphone, so headphones work perfectly."
+        },
+        {
+          "q": "Can I get live captions in languages other than English in Chrome?",
+          "a": "Chrome's built-in captions are English-only. LessonScriptor supports 14+ languages including French, Spanish, German, Portuguese, Mandarin, Italian, Dutch, Polish, and more. Select your language in the extension settings before starting transcription."
+        },
+        {
+          "q": "Why are Chrome's built-in live captions inaccurate?",
+          "a": "Chrome's live captions use an older on-device speech recognition model optimised for general speech, not academic or technical vocabulary. LessonScriptor's Premium mode uses a more accurate AI model and supports a personal vocabulary dictionary — you can add names, terms, and abbreviations it should always get right."
+        },
+        {
+          "q": "Can I export Chrome live captions?",
+          "a": "Chrome's built-in live captions cannot be exported or saved — the text disappears when the video stops. LessonScriptor saves your full transcript as you go and lets you export to Markdown, copy to clipboard, or keep it in the extension for later."
+        },
+        {
+          "q": "Do Chrome live captions work on Zoom recordings?",
+          "a": "Chrome's built-in live captions work on any audio playing in the browser, including Zoom recordings. LessonScriptor also works on any video playing in a Chrome tab, with the added benefit of an editable, exportable transcript."
+        },
+        {
+          "q": "Are Chrome live captions private?",
+          "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode also uses on-device speech recognition. The Premium mode sends audio to a cloud API for better accuracy, but no data is stored after transcription."
         }
       ]
     }
