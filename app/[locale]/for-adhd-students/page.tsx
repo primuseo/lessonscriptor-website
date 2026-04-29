@@ -5,8 +5,14 @@ import CTASection from '@/components/CTASection'
 import RelatedPosts from '@/components/RelatedPosts'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const path = '/for-adhd-students'
-  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
+  const slugs: Record<string, string> = {
+    en: 'for-adhd-students',
+    fr: 'etudiants-tdah',
+    es: 'estudiantes-tdah',
+    pt: 'estudantes-tdah',
+    de: 'adhs-studenten',
+    zh: 'for-adhd-students',
+  }
   const t = await getTranslations({ locale, namespace: 'adhdStudents' })
   return {
     title: t('metaTitle'),
@@ -14,13 +20,13 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDesc'),
-      url: `https://lessonscriptor.com/${locale}${path}`,
+      url: `https://lessonscriptor.com/${locale}/${slugs[locale]}`,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      canonical: `https://lessonscriptor.com/${locale}/${slugs[locale]}`,
       languages: {
-        'x-default': `https://lessonscriptor.com/en${path}`,
-        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+        'x-default': `https://lessonscriptor.com/en/for-adhd-students`,
+        ...Object.fromEntries(Object.entries(slugs).map(([l, s]) => [l, `https://lessonscriptor.com/${l}/${s}`]))
       }
     }
   }

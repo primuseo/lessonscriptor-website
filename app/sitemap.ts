@@ -10,13 +10,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/transcribe-youtube-video',
     '/live-captions-chrome',
     '/transcribe-video-to-text',
-    '/for-adhd-students',
     '/compare/otter-ai-alternative',
     '/blog',
     '/contact',
     '/privacy',
     '/terms',
   ]
+
+  const adhdSlugs: Record<string, string> = {
+    en: 'for-adhd-students',
+    fr: 'etudiants-tdah',
+    es: 'estudiantes-tdah',
+    pt: 'estudantes-tdah',
+    de: 'adhs-studenten',
+    zh: 'for-adhd-students',
+  }
 
   const sitemap: MetadataRoute.Sitemap = []
   const today = new Date().toISOString().split('T')[0]
@@ -40,6 +48,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: page === '/' ? 'weekly' : 'monthly',
         priority: getPriority(page, locale),
       })
+    })
+
+    sitemap.push({
+      url: `${baseUrl}${prefix}/${adhdSlugs[locale]}`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: locale === 'en' ? 0.9 : 0.8,
     })
 
     BLOG_SLUGS.forEach((slug) => {
