@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background: warm cream matching brand -->
+  <rect width="64" height="64" rx="12" fill="#F5F0E8"/>
+  <!-- "L" in dark charcoal -->
+  <text
+    x="7"
+    y="47"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="40"
+    font-weight="700"
+    fill="#2B2B2B"
+    letter-spacing="-1"
+  >L</text>
+  <!-- "S" in amber orange -->
+  <text
+    x="33"
+    y="47"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="40"
+    font-weight="700"
+    fill="#C8842A"
+    letter-spacing="-1"
+  >S</text>
+</svg>
