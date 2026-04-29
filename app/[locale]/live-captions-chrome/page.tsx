@@ -2,6 +2,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
+import RelatedPosts from '@/components/RelatedPosts'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/live-captions-chrome'
@@ -178,6 +179,14 @@ export default async function LiveCaptionsChromeP({ params: { locale } }: { para
             items={t.raw('faq.items')}
           />
         </section>
+
+        {/* Related Posts */}
+        <RelatedPosts
+          slugs={['chrome-live-captions-vs-lessonscriptor', 'chrome-live-captions-headphones', 'live-captions-other-languages-chrome', 'live-captions-zoom-recordings-chrome', 'chrome-live-captions-not-working', 'best-chrome-extensions-live-captions']}
+          locale={locale}
+          heading={t('relatedHeading')}
+          readMore={t('readMore')}
+        />
 
         {/* CTA */}
         <CTASection />

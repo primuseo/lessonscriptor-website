@@ -2,6 +2,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
+import RelatedPosts from '@/components/RelatedPosts'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/for-adhd-students'
@@ -156,6 +157,14 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
             items={t.raw('faq.items')}
           />
         </section>
+
+        {/* Related Posts */}
+        <RelatedPosts
+          slugs={['best-apps-adhd-students-2026', 'adhd-note-taking-template', 'best-ai-note-taker-adhd', 'best-chrome-extensions-adhd-students', 'adhd-youtube-transcription']}
+          locale={locale}
+          heading={t('relatedHeading')}
+          readMore={t('readMore')}
+        />
 
         {/* CTA */}
         <CTASection />
