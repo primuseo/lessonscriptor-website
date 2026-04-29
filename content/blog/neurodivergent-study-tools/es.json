@@ -29,9 +29,9 @@
     "caption": "Herramientas de estudio diseñadas para cerebros neurodivergentes"
   },
   "author": {
-    "name": "Equipo Editorial de Lessonscriptor",
-    "bio": "Construido por educadores y estudiantes neurodivergentes. Investigamos herramientas de estudio que funcionan en diferentes perfiles de aprendizaje y necesidades de accesibilidad. Nuestro objetivo: hacer que la transcripción autoservicio sea estándar para todos los estudiantes.",
-    "expertise": "Accesibilidad en EdTech, neurodiversidad en educación superior, evaluación de tecnología asistiva"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "headline": "5 herramientas que abordan los desafíos de estudio neurodivergentes",
@@ -113,7 +113,7 @@
       "h2": "Mejores herramientas neurodivergentes para capturar contenido de lecciones",
       "paragraphs": [
         "Capturar contenido de lecciones es posiblemente el problema de estudio de mayor impacto. Estás tratando de escuchar, entender y escribir simultáneamente: tres tareas compitiendo por memoria de trabajo limitada.",
-        "**Lessonscriptor es la herramienta principal para esto** porque transcribe cualquier video, cualquier plataforma, en vivo dentro de tu navegador. Presionas play en un video de lección, revisión de examen, módulo en línea o seminario web grabado, y Lessonscriptor genera una transcripción en vivo. Sin configuración, sin claves API, sin arreglos de pregrabación: funciona en YouTube, Zoom grabado, plataformas de video de cursos, en cualquier lugar donde se reproduzca un video en Chrome.",
+        "**Lessonscriptor es la herramienta principal para esto** porque transcribe cualquier video, cualquier plataforma, en vivo dentro de tu navegador. Presionas play en un video de lección, revisión de examen, módulo en línea o seminario web grabado, y Lessonscriptor genera una transcripción en vivo. Sin configuración, sin claves API, sin arreglos de pregrabación: funciona en YouTube, Zoom grabado, plataformas de video de cursos, en cualquier lugar donde se reproduzca un video en Chrome. Para una guía completa, consulta <a href=\"/blog/how-to-transcribe-lecture-videos\">cómo transcribir vídeos de clases automáticamente</a>.",
         "Por qué esto importa para estudiantes neurodivergentes:",
         "- **Para TDAH:** Puedes escuchar sin escribir. Tu memoria de trabajo se mantiene libre para entender, no para transcripción. La transcripción buscable significa que puedes encontrar términos clave después sin ver toda la lección de nuevo.",
         "- **Para dislexia:** La transcripción de texto es más fácil de releer y anotar que intentar descifrar tu propia escritura a mano o mecanografía apresurada durante una lección.",
@@ -381,10 +381,20 @@
         "image": "/images/neurodivergent-study-tools-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",
@@ -566,6 +576,7 @@
     "/es/blog/best-chrome-extensions-adhd-students": "Resumen de extensiones de Chrome para TDAH",
     "/es/blog/adhd-university-accommodation-tech": "Acomodación y tecnología asistiva en universidad",
     "/es/live-captions-chrome": "Subtítulos en vivo en Chrome (página de características)",
-    "/es/transcribe-video-to-text": "Página de servicio de transcripción de video"
+    "/es/transcribe-video-to-text": "Página de servicio de transcripción de video",
+    "/blog/how-to-transcribe-lecture-videos": "Step-by-step automatic lecture transcription guide"
   }
 }

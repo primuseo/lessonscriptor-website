@@ -9,9 +9,19 @@
   "meta": {
     "title": "Beste Apps für ADHS-Schüler 2026 — Kostenlose und kostenpflichtige Tools im Test",
     "description": "12 evidenzbasierte Apps für ADHS-Schüler zu Notizen, Fokus, Aufgabenmanagement und Gedächtnis. Einschließlich Lessonscriptor, Goblin Tools, Anki und mehr. Kostenlose Optionen enthalten.",
-    "keywords": ["beste Apps für ADHS-Schüler", "ADHS-Lern-Apps", "Apps für Schüler mit ADHS", "beste ADHS-Apps 2026", "ADHS-Organisations-Apps"],
+    "keywords": [
+      "beste Apps für ADHS-Schüler",
+      "ADHS-Lern-Apps",
+      "Apps für Schüler mit ADHS",
+      "beste ADHS-Apps 2026",
+      "ADHS-Organisations-Apps"
+    ],
     "primary_keyword": "beste Apps für ADHS-Schüler",
-    "secondary_keywords": ["ADHS-Lern-Apps", "Apps für Schüler mit ADHS", "beste ADHS-Apps 2026"],
+    "secondary_keywords": [
+      "ADHS-Lern-Apps",
+      "Apps für Schüler mit ADHS",
+      "beste ADHS-Apps 2026"
+    ],
     "estimated_volume": "1500-3000/month",
     "keyword_difficulty": 28,
     "search_intent": "commercial_roundup"
@@ -24,9 +34,9 @@
     "caption": "Die besten ADHS-Apps für Schüler spannen vier Kategorien ab: Erfassung, Fokus, Organisation und Wiederholung."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "bio": "Das Lessonscriptor Editorial Team spezialisiert sich auf Barrierefreiheit, Lernwissenschaften und neurodivergente Lern-Tools. Unsere Bewertungen basieren auf Forschung von ADDitude Magazine, CHADD (Children and Adults with ADHD) und begutachteten Studien zum Arbeitsgedächtnis und zu exekutiven Funktionen von Dr. Russell Barkley.",
-    "expertise_areas": ["ADHS-Forschung", "Barrierefreiheits-Technologie", "Spaced Repetition", "Exekutive Funktionen"]
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — Beste ADHS-Apps nach Kategorie",
@@ -413,20 +423,111 @@
     },
     {
       "type": "table",
-      "headers": ["App-Name", "Kategorie", "Kostenlose Stufe", "ADHS-Fit (1-10)", "Beste Für", "Platform"],
+      "headers": [
+        "App-Name",
+        "Kategorie",
+        "Kostenlose Stufe",
+        "ADHS-Fit (1-10)",
+        "Beste Für",
+        "Platform"
+      ],
       "rows": [
-        ["Lessonscriptor", "Erfassen", "Ja (unbegrenzt)", "10", "Jede Video-Transkription", "Chrome"],
-        ["Otter.ai", "Erfassen", "Ja (300 Min/Mo)", "7", "Besprechungen + persönliche Vorlesungen", "Web, iOS, Android"],
-        ["Coconote", "Erfassen", "Ja (3 Dokumente/Mo)", "6", "KI-generierte Lernleitfäden", "Web"],
-        ["Brain.fm", "Fokus", "Ja (1 Sitzung/Tag)", "9", "Neurowissenschaftlich-gestützter Fokus", "Web, iOS, Android, Spotify"],
-        ["Forest", "Fokus", "Ja (grundlegend)", "8", "Pomodoro + Gamification", "Web, iOS, Android, Chrome"],
-        ["BlockSite", "Fokus", "Ja (20 Blocks)", "7", "Hartblock-Distrraktionen", "Chrome, iOS, Android"],
-        ["Goblin Tools", "Organisieren", "Ja (100%)", "10", "Aufgabenlähmung → Mikro-Schritte", "Web"],
-        ["Todoist", "Organisieren", "Ja (unbegrenzt)", "7", "Aufgaben-Verfolgung + Erinnerungen", "Web, iOS, Android"],
-        ["Notion", "Organisieren", "Ja (persönlich)", "8", "All-in-One-Hub", "Web, iOS, Android, Desktop"],
-        ["Anki", "Überprüfen", "Ja (100%)", "8", "Spaced-Repetition-Meisterschaft", "Desktop, Android"],
-        ["Quizlet", "Überprüfen", "Ja (begrenzt)", "7", "Zusammenarbeitende Karteikarten", "Web, iOS, Android"],
-        ["Tiimo", "Allgemeine Gesundheit", "Ja (nur Kalender)", "6", "ADHS-konzipierter Aufgaben- und Gewohnheits-Planer", "iOS, Android, Web"]
+        [
+          "Lessonscriptor",
+          "Erfassen",
+          "Ja (unbegrenzt)",
+          "10",
+          "Jede Video-Transkription",
+          "Chrome"
+        ],
+        [
+          "Otter.ai",
+          "Erfassen",
+          "Ja (300 Min/Mo)",
+          "7",
+          "Besprechungen + persönliche Vorlesungen",
+          "Web, iOS, Android"
+        ],
+        [
+          "Coconote",
+          "Erfassen",
+          "Ja (3 Dokumente/Mo)",
+          "6",
+          "KI-generierte Lernleitfäden",
+          "Web"
+        ],
+        [
+          "Brain.fm",
+          "Fokus",
+          "Ja (1 Sitzung/Tag)",
+          "9",
+          "Neurowissenschaftlich-gestützter Fokus",
+          "Web, iOS, Android, Spotify"
+        ],
+        [
+          "Forest",
+          "Fokus",
+          "Ja (grundlegend)",
+          "8",
+          "Pomodoro + Gamification",
+          "Web, iOS, Android, Chrome"
+        ],
+        [
+          "BlockSite",
+          "Fokus",
+          "Ja (20 Blocks)",
+          "7",
+          "Hartblock-Distrraktionen",
+          "Chrome, iOS, Android"
+        ],
+        [
+          "Goblin Tools",
+          "Organisieren",
+          "Ja (100%)",
+          "10",
+          "Aufgabenlähmung → Mikro-Schritte",
+          "Web"
+        ],
+        [
+          "Todoist",
+          "Organisieren",
+          "Ja (unbegrenzt)",
+          "7",
+          "Aufgaben-Verfolgung + Erinnerungen",
+          "Web, iOS, Android"
+        ],
+        [
+          "Notion",
+          "Organisieren",
+          "Ja (persönlich)",
+          "8",
+          "All-in-One-Hub",
+          "Web, iOS, Android, Desktop"
+        ],
+        [
+          "Anki",
+          "Überprüfen",
+          "Ja (100%)",
+          "8",
+          "Spaced-Repetition-Meisterschaft",
+          "Desktop, Android"
+        ],
+        [
+          "Quizlet",
+          "Überprüfen",
+          "Ja (begrenzt)",
+          "7",
+          "Zusammenarbeitende Karteikarten",
+          "Web, iOS, Android"
+        ],
+        [
+          "Tiimo",
+          "Allgemeine Gesundheit",
+          "Ja (nur Kalender)",
+          "6",
+          "ADHS-konzipierter Aufgaben- und Gewohnheits-Planer",
+          "iOS, Android, Web"
+        ]
       ]
     },
     {
@@ -532,10 +633,20 @@
         "image": "/images/best-apps-adhd-students-2026-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor Editorial Team"
-        }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ]
       }
     },
     {

@@ -24,9 +24,9 @@
     "description_for_designer": "Screenshot-style mockup of YouTube with its native transcript panel visible, and a LessonScriptor side panel open alongside it. Clean editorial style. Cream background, red YouTube accent, LessonScriptor terra tone. Shows timestamped transcript lines."
   },
   "author": {
-    "name": "LessonScriptor Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The LessonScriptor team tests transcript and caption tools against real-world student workflows. This guide is based on hands-on testing of YouTube's built-in tools and Chrome extensions in 2026."
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一个用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "核心要点",
@@ -225,11 +225,20 @@
         "description": "Three free methods to download a YouTube transcript: the built-in YouTube transcript panel, Chrome extensions (LessonScriptor, NoteGPT, Tactiq), and manual copy-paste. Step-by-step guide for students.",
         "datePublished": "2026-04-29",
         "dateModified": "2026-04-29",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Team",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "LessonScriptor",

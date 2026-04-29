@@ -2,6 +2,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
+import RelatedPosts from '@/components/RelatedPosts'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
   const path = '/transcribe-video-to-text'
@@ -32,8 +33,8 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
   const schemaHowTo = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    'name': 'How to Transcribe a Video to Text',
-    'description': 'Convert any video to text in real-time with AI using LessonScriptor',
+    'name': t('howItWorks.title'),
+    'description': t('subtitle'),
     'image': 'https://lessonscriptor.com/og-image.png',
     'step': t.raw('howItWorks.steps').map((step: any) => ({
       '@type': 'HowToStep',
@@ -129,6 +130,14 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
             items={t.raw('faq.items')}
           />
         </section>
+
+        {/* Related Posts */}
+        <RelatedPosts
+          slugs={['how-to-download-youtube-transcript', 'how-to-transcribe-lecture-videos', 'best-speech-to-text-chrome-extensions']}
+          locale={locale}
+          heading={t('relatedHeading')}
+          readMore={t('readMore')}
+        />
 
         {/* CTA */}
         <CTASection />

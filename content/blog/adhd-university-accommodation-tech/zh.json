@@ -19,9 +19,9 @@
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
   "author": {
-    "name": "Lessonscriptor编辑团队",
-    "bio": "Lessonscriptor编辑团队研究无障碍技术、教育住宿和神经多样性学习者的学习工具。我们与残疾服务办公室和ADHD倡导组织合作，确保我们的指导反映当前的法律框架和实际的课堂需求。",
-    "role": "学习与无障碍专家"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "hero_image": {
     "src": "/images/adhd-student-disability-office.jpg",
@@ -222,10 +222,20 @@
         "image": "/images/adhd-student-disability-office.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",

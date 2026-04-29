@@ -9,7 +9,12 @@
   "meta": {
     "title": "为ADHD转录YouTube视频：实时Chrome扩展 | Lessonscriptor",
     "description": "在Chrome中实时转录任何YouTube讲座——无需下载，无需注册。免费的Chrome扩展，非常适合注意力难以集中且记笔记困难的ADHD学生。",
-    "keywords": ["转录youtube视频ADHD", "ADHD youtube学习", "youtube讲座转录ADHD", "ADHD学习如何使用youtube"]
+    "keywords": [
+      "转录youtube视频ADHD",
+      "ADHD youtube学习",
+      "youtube讲座转录ADHD",
+      "ADHD学习如何使用youtube"
+    ]
   },
   "hero_image": {
     "alt": "ADHD学生在观看YouTube讲座，Lessonscriptor转录面板在Chrome侧边栏中打开",
@@ -18,8 +23,9 @@
     "height": 630
   },
   "author": {
-    "name": "Lessonscriptor团队",
-    "bio": "我们为学生和远程学习者构建工具，这些学生需要内置的无障碍功能——而不是事后添加的功能。我们的团队包括ADHD教育工作者、无障碍专家和无障碍研究人员，他们理解工作记忆缺陷如何影响学习。"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — 3个关键要点",
@@ -197,10 +203,20 @@
         "headline": "如何为ADHD转录YouTube视频：Chrome中最快的方法",
         "description": "在Chrome中实时转录任何YouTube讲座——无需下载，无需注册。免费的Chrome扩展，非常适合注意力难以集中且记笔记困难的ADHD学生。",
         "image": "/images/blog/adhd-youtube-transcription-hero.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28"
       }

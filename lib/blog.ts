@@ -28,8 +28,7 @@ export interface BlogPost extends BlogPostMeta {
   author?: {
     name: string
     bio?: string
-    title?: string
-    image?: string
+    url?: string
   }
   tldr?: Record<string, unknown>
   stats?: Array<Record<string, unknown>>

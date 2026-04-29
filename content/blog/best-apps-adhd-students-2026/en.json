@@ -34,14 +34,9 @@
     "caption": "The best ADHD apps for students span four categories: capture, focus, organization, and review."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "bio": "The Lessonscriptor Editorial Team specializes in accessibility, learning sciences, and neurodivergent study tools. Our reviews are grounded in research from ADDitude Magazine, CHADD (Children and Adults with ADHD), and peer-reviewed studies on working memory and executive function by Dr. Russell Barkley.",
-    "expertise_areas": [
-      "ADHD research",
-      "accessibility tech",
-      "spaced repetition",
-      "executive function"
-    ]
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — Best ADHD Apps by Category",
@@ -644,10 +639,20 @@
         "image": "/images/best-apps-adhd-students-2026-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor Editorial Team"
-        }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ]
       }
     },
     {

@@ -22,9 +22,9 @@
     "description": "五个强大的Chrome扩展程序的集合，用于支持ADHD学生的在线学习和笔记记录。"
   },
   "author": {
-    "name": "Lessonscriptor团队",
-    "bio": "我们开发了Lessonscriptor，以使患有ADHD和其他学习差异的学生更容易获得在线学习。我们的使命是利用技术提供真实的支持。",
-    "avatar": "https://live-transcription-landing.vercel.app/avatars/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": "患有ADHD的学生需要专业的工具。这5个Chrome扩展程序有助于专注力、笔记记录和信息保留：Lessonscriptor（免费实时转录）、Speechify（文本转语音）、Mercury Reader（专注阅读）、BlockSite（分散注意力阻止）和Dark Reader（眼睛保护）。",
   "intro": "患有ADHD的学生在在线学习中面临独特的挑战。分心、注意力集中困难和信息处理与保留困难是常见的挫折。好消息是：正确的技术可以带来很大的不同。Chrome扩展程序提供了简单的、通常是免费的解决方案，可以改善专注力、笔记记录和对讲座内容的理解。在本指南中，我们将介绍2026年针对ADHD学生的5个最佳Chrome扩展程序。",
@@ -56,7 +56,12 @@
   ],
   "comparison_table": {
     "caption": "ADHD学习扩展程序的比较：功能、成本和ADHD优势",
-    "headers": ["扩展程序", "主要功能", "价格", "ADHD优势"],
+    "headers": [
+      "扩展程序",
+      "主要功能",
+      "价格",
+      "ADHD优势"
+    ],
     "rows": [
       {
         "name": "Lessonscriptor",
@@ -124,7 +129,20 @@
       "type": "Article",
       "headline": "2026年针对ADHD学生的5个最佳Chrome扩展程序",
       "description": "关于针对ADHD学生的最佳Chrome扩展程序的综合指南，包括Lessonscriptor、Speechify、Mercury Reader、BlockSite和Dark Reader。",
-      "author": "Lessonscriptor团队",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
       "image": "https://live-transcription-landing.vercel.app/blog-images/adhd-chrome-extensions-og.png"

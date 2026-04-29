@@ -24,7 +24,9 @@
     "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
   },
   "author": {
-    "name": "LessonScriptor Team"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -186,7 +188,7 @@
     {
       "id": "which-extension-for-students",
       "h2": "Which Chrome speech-to-text extension works best for students?",
-      "body": "For students, the right speech-to-text Chrome extension depends entirely on what you are transcribing.\n\n**Watching recorded video lectures (YouTube, Canvas, Coursera, edX, Zoom recordings):** Use LessonScriptor. It is the only extension in this comparison built specifically for video transcription in Chrome. The free mode works immediately with no account. The Premium mode adds Whisper accuracy and headphone support for €0.60/hour of transcribed audio.\n\n**Quick captions while studying, no notes needed:** Use Google's Live Captions (built into Chrome). Enable once in settings, forget it is there. Perfect for watching a video on campus when you forgot headphones or need to follow along in a noisy environment.\n\n**Live class participation on Google Meet or Zoom:** Use Tactiq if your primary need is capturing live meeting transcripts with speaker labels. Tactiq integrates well with Google Meet's native caption feed and exports to Google Docs automatically.\n\n**Typing by voice:** Use Speechnotes for hands-free composition — dictating an essay, summarizing notes verbally, or writing in a context where typing is inconvenient.\n\n**The academic reality:** Most students land on the wrong tool because they search for \"speech to text\" when they actually need \"video transcription\". A dictation tool like Speechnotes and a video transcription tool like LessonScriptor both convert speech to text — but they solve completely different problems. If the audio is coming from a video file or stream, you need LessonScriptor or Notta, not a microphone-only dictation tool.",
+      "body": "For students, the right speech-to-text Chrome extension depends entirely on what you are transcribing.\n\n**Watching recorded video lectures (YouTube, Canvas, Coursera, edX, Zoom recordings):** Use LessonScriptor. It is the only extension in this comparison built specifically for video transcription in Chrome. The free mode works immediately with no account. The Premium mode adds Whisper accuracy and headphone support for €0.60/hour of transcribed audio. ADHD students benefit particularly — transcription eliminates the working-memory burden of simultaneous listening and writing. See our <a href=\"/blog/how-to-take-notes-with-adhd\">complete ADHD note-taking guide</a> and the <a href=\"/for-adhd-students\">ADHD student hub</a>.\n\n**Quick captions while studying, no notes needed:** Use Google's Live Captions (built into Chrome). Enable once in settings, forget it is there. Perfect for watching a video on campus when you forgot headphones or need to follow along in a noisy environment.\n\n**Live class participation on Google Meet or Zoom:** Use Tactiq if your primary need is capturing live meeting transcripts with speaker labels. Tactiq integrates well with Google Meet's native caption feed and exports to Google Docs automatically.\n\n**Typing by voice:** Use Speechnotes for hands-free composition — dictating an essay, summarizing notes verbally, or writing in a context where typing is inconvenient.\n\n**The academic reality:** Most students land on the wrong tool because they search for \"speech to text\" when they actually need \"video transcription\". A dictation tool like Speechnotes and a video transcription tool like LessonScriptor both convert speech to text — but they solve completely different problems. If the audio is coming from a video file or stream, you need LessonScriptor or Notta, not a microphone-only dictation tool.",
       "internal_links": [
         {
           "text": "How to transcribe lecture videos step by step",
@@ -246,11 +248,20 @@
         "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
         "datePublished": "2026-04-29",
         "dateModified": "2026-04-29",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Team",
-          "url": "https://lessonscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "LessonScriptor",
@@ -387,6 +398,16 @@
     {
       "text": "Chrome Live Captions not working — fix guide",
       "href": "/blog/chrome-live-captions-not-working",
+      "internal": true
+    },
+    {
+      "text": "How to take notes with ADHD",
+      "href": "/blog/how-to-take-notes-with-adhd",
+      "internal": true
+    },
+    {
+      "text": "ADHD student hub",
+      "href": "/for-adhd-students",
       "internal": true
     }
   ]

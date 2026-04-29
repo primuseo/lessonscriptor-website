@@ -19,10 +19,9 @@
     "caption": "The ideal setup: lecture on one monitor, live transcription on the other. No writing. Full focus."
   },
   "author": {
-    "name": "Pierre Girardot",
-    "title": "SEO Lead & ADHD Learning Specialist",
-    "bio": "Pierre leads SEO and product strategy at Lesionscriptor. He works with students, educators, and accessibility advocates to build tools that remove cognitive friction from learning. His research focuses on how ADHD brains process information differently in online environments—and what technology can do about it.",
-    "image_url": "/images/author/pierre-girardot.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "5 Quick Wins to Stay Focused in Online Lectures with ADHD",
@@ -220,12 +219,20 @@
         },
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Person",
-          "name": "Pierre Girardot",
-          "jobTitle": "SEO Lead & ADHD Learning Specialist",
-          "url": "https://lesionscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lesionscriptor",

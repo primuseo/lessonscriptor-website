@@ -25,9 +25,9 @@
     "description_for_designer": "Warme, inklusive Szene eines vielfältigen Studenten (mit Kopfhörern, ruhige Lernumgebung), der von AI transkribierte Notizen auf einem Laptop überprüft. Zeige das Lessonscriptor-Interface mit hervorgehobenen Notizen und nebenliegendem Video. Füge Lernmaterialien (Notizen, Textmarker) auf dem Schreibtisch ein. Ton: zugänglich, konzentriert, nicht klinisch. Farben: kühle Blau- und Grüntöne (beruhigend für ADHD), moderne UI-Elemente."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/about",
-    "bio": "Das Lessonscriptor-Team besteht aus Pädagogen, Barrierefreiheitsspezialisten und ADHD-Forschern, die sich dafür einsetzen, Video-Notizen barrierefrei und reibungslos zu gestalten. Dieser Leitfaden wurde von ADHD-Coaches und Lernspezialisten überprüft."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Wichtigste Erkenntnisse",
@@ -282,11 +282,20 @@
         "image": "/images/blog/best-ai-note-taker-adhd-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor Editorial Team",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

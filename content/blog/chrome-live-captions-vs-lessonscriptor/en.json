@@ -24,9 +24,9 @@
     "description_for_designer": "Split-screen comparison: left shows Chrome's floating caption bubble over a video, right shows LessonScriptor's full side panel with editable transcript and highlights. Clean, editorial. Cream and terra palette."
   },
   "author": {
-    "name": "LessonScriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The LessonScriptor team has run side-by-side tests of Chrome's built-in Live Caption and LessonScriptor across accuracy, usability, and export workflows."
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -78,23 +78,147 @@
       "body": "This table compares every meaningful feature difference between Chrome's built-in Live Caption and LessonScriptor.",
       "table": {
         "caption": "Chrome built-in Live Caption vs LessonScriptor — feature comparison 2026.",
-        "headers": ["Feature", "Chrome Live Caption", "LessonScriptor"],
+        "headers": [
+          "Feature",
+          "Chrome Live Caption",
+          "LessonScriptor"
+        ],
         "rows": [
-          { "cells": ["Requires installation", "No (built into Chrome)", "Yes (Chrome Web Store)"], "highlight": false, "badge": null },
-          { "cells": ["Account required", "No", "No (free mode)"], "highlight": false, "badge": null },
-          { "cells": ["Editable transcript", "No", "Yes"], "highlight": true, "badge": null },
-          { "cells": ["Export transcript", "No", "Yes — Markdown, clipboard"], "highlight": true, "badge": null },
-          { "cells": ["Highlighting and annotation", "No", "Yes — 5 colours, bold, headers"], "highlight": true, "badge": null },
-          { "cells": ["Works with headphones", "Unreliable on Windows", "Yes (Premium — tab audio)"], "highlight": true, "badge": null },
-          { "cells": ["Languages", "20+", "14"], "highlight": false, "badge": null },
-          { "cells": ["Accuracy (general speech)", "Good", "Good (free) / Excellent (Premium)"], "highlight": false, "badge": null },
-          { "cells": ["Accuracy (academic vocabulary)", "Moderate", "High (Premium with Whisper)"], "highlight": false, "badge": null },
-          { "cells": ["Works on YouTube", "Yes", "Yes"], "highlight": false, "badge": null },
-          { "cells": ["Works on Zoom recordings", "Yes", "Yes"], "highlight": false, "badge": null },
-          { "cells": ["Works on Canvas / LMS", "Yes", "Yes"], "highlight": false, "badge": null },
-          { "cells": ["Works on DRM content", "No", "No"], "highlight": false, "badge": null },
-          { "cells": ["Personal vocabulary dictionary", "No", "Yes (Premium)"], "highlight": true, "badge": null },
-          { "cells": ["Price", "Free", "Free + pay-as-you-go Premium"], "highlight": false, "badge": null }
+          {
+            "cells": [
+              "Requires installation",
+              "No (built into Chrome)",
+              "Yes (Chrome Web Store)"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Account required",
+              "No",
+              "No (free mode)"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Editable transcript",
+              "No",
+              "Yes"
+            ],
+            "highlight": true,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Export transcript",
+              "No",
+              "Yes — Markdown, clipboard"
+            ],
+            "highlight": true,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Highlighting and annotation",
+              "No",
+              "Yes — 5 colours, bold, headers"
+            ],
+            "highlight": true,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Works with headphones",
+              "Unreliable on Windows",
+              "Yes (Premium — tab audio)"
+            ],
+            "highlight": true,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Languages",
+              "20+",
+              "14"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Accuracy (general speech)",
+              "Good",
+              "Good (free) / Excellent (Premium)"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Accuracy (academic vocabulary)",
+              "Moderate",
+              "High (Premium with Whisper)"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Works on YouTube",
+              "Yes",
+              "Yes"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Works on Zoom recordings",
+              "Yes",
+              "Yes"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Works on Canvas / LMS",
+              "Yes",
+              "Yes"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Works on DRM content",
+              "No",
+              "No"
+            ],
+            "highlight": false,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Personal vocabulary dictionary",
+              "No",
+              "Yes (Premium)"
+            ],
+            "highlight": true,
+            "badge": null
+          },
+          {
+            "cells": [
+              "Price",
+              "Free",
+              "Free + pay-as-you-go Premium"
+            ],
+            "highlight": false,
+            "badge": null
+          }
         ]
       }
     },
@@ -111,7 +235,7 @@
     {
       "id": "when-to-use-lessonscriptor",
       "h2": "When should I use LessonScriptor instead of Chrome's built-in captions?",
-      "body": "LessonScriptor is the better choice whenever you need to keep, study, or reference what was said.\n\n**Study sessions:** If you're a student watching a lecture and need notes you can review later, Chrome's read-only captions are useless after the video ends. LessonScriptor generates a permanent, annotated transcript.\n\n**Headphone users:** Chrome's captions don't work reliably with headphones on Windows. LessonScriptor's Premium mode uses tab audio capture and works with any audio output device.\n\n**Academic or technical content:** LessonScriptor Premium's Whisper model is more accurate on academic vocabulary, professor names, institutional names, and technical terminology.\n\n**Multilingual students:** If you're a French, Spanish, or German speaker watching content in your native language and need an exportable transcript for study, LessonScriptor's language support combined with edit-and-export functionality is significantly more useful.\n\n**Language learners:** LessonScriptor's editable transcript lets you annotate vocabulary, highlight unfamiliar phrases, and export a study list. Chrome's captions disappear.",
+      "body": "LessonScriptor is the better choice whenever you need to keep, study, or reference what was said.\n\n**Study sessions:** If you're a student watching a lecture and need notes you can review later, Chrome's read-only captions are useless after the video ends. LessonScriptor generates a permanent, annotated transcript. This is especially valuable for <a href=\"/blog/how-to-take-notes-with-adhd\">ADHD students who struggle with simultaneous note-taking</a>.\n\n**Headphone users:** Chrome's captions don't work reliably with headphones on Windows. LessonScriptor's Premium mode uses tab audio capture and works with any audio output device.\n\n**Academic or technical content:** LessonScriptor Premium's Whisper model is more accurate on academic vocabulary, professor names, institutional names, and technical terminology.\n\n**Multilingual students:** If you're a French, Spanish, or German speaker watching content in your native language and need an exportable transcript for study, LessonScriptor's language support combined with edit-and-export functionality is significantly more useful.\n\n**Language learners:** LessonScriptor's editable transcript lets you annotate vocabulary, highlight unfamiliar phrases, and export a study list. Chrome's captions disappear.",
       "links": [
         {
           "text": "/live-captions-chrome",
@@ -172,8 +296,30 @@
         "description": "Chrome's built-in Live Caption vs LessonScriptor — full feature comparison covering accuracy, editing, export, headphone support, and when to use each.",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
-        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
       }
     },
     {
@@ -182,8 +328,22 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "What is the difference between Chrome live captions and LessonScriptor?", "acceptedAnswer": { "@type": "Answer", "text": "Chrome's built-in Live Caption is read-only — captions disappear when audio stops. LessonScriptor generates a persistent, editable, exportable transcript in a side panel with highlighting and Markdown export." } },
-          { "@type": "Question", "name": "Is LessonScriptor free like Chrome's live captions?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor has a free mode with no account and no payment required. It uses on-device speech recognition like Chrome. The key difference is the transcript is editable and exportable." } }
+          {
+            "@type": "Question",
+            "name": "What is the difference between Chrome live captions and LessonScriptor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chrome's built-in Live Caption is read-only — captions disappear when audio stops. LessonScriptor generates a persistent, editable, exportable transcript in a side panel with highlighting and Markdown export."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is LessonScriptor free like Chrome's live captions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. LessonScriptor has a free mode with no account and no payment required. It uses on-device speech recognition like Chrome. The key difference is the transcript is editable and exportable."
+            }
+          }
         ]
       }
     },
@@ -193,16 +353,39 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Chrome Live Captions vs LessonScriptor", "item": "https://lessonscriptor.com/blog/chrome-live-captions-vs-lessonscriptor" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chrome Live Captions vs LessonScriptor",
+            "item": "https://lessonscriptor.com/blog/chrome-live-captions-vs-lessonscriptor"
+          }
         ]
       }
     }
   ],
   "sources": [
-    { "text": "Google Chrome Help — Live Caption", "href": "https://support.google.com/chrome/answer/10538231", "external": true },
-    { "text": "OpenAI Whisper — Speech recognition research", "href": "https://openai.com/research/whisper", "external": true }
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Speech recognition research",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
   ],
   "internal_links_map": {
     "pillar": "/live-captions-chrome",
@@ -211,7 +394,8 @@
       "/blog/best-chrome-extensions-live-captions",
       "/blog/chrome-live-captions-headphones",
       "/blog/live-captions-zoom-recordings-chrome",
-      "/blog/live-captions-other-languages-chrome"
+      "/blog/live-captions-other-languages-chrome",
+      "/blog/how-to-take-notes-with-adhd"
     ]
   }
 }

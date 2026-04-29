@@ -24,9 +24,9 @@
     "description_for_designer": "Student at desk with over-ear headphones, Chrome browser open with a lecture video and caption side panel. Warm, focused study environment. Cream and terra color palette."
   },
   "author": {
-    "name": "LessonScriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The LessonScriptor team has tested Chrome live caption behavior across headphone configurations on Windows 10, Windows 11, and macOS Sonoma."
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -148,8 +148,30 @@
         "description": "Chrome's built-in live captions don't work reliably with headphones. Explains why and how LessonScriptor's tab audio capture solves the problem.",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
-        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
       }
     },
     {
@@ -158,8 +180,22 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Why do Chrome live captions not work with headphones?", "acceptedAnswer": { "@type": "Answer", "text": "Chrome's built-in Live Caption uses microphone input on Windows. When headphones are used, audio plays directly into your ears and never reaches the microphone. LessonScriptor's Premium mode solves this with tab audio capture." } },
-          { "@type": "Question", "name": "Do Chrome live captions work with AirPods?", "acceptedAnswer": { "@type": "Answer", "text": "Inconsistently. On macOS, AirPods often work. On Windows, they typically don't because Bluetooth audio bypasses the microphone. LessonScriptor's tab audio capture works with AirPods on both platforms." } }
+          {
+            "@type": "Question",
+            "name": "Why do Chrome live captions not work with headphones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Chrome's built-in Live Caption uses microphone input on Windows. When headphones are used, audio plays directly into your ears and never reaches the microphone. LessonScriptor's Premium mode solves this with tab audio capture."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do Chrome live captions work with AirPods?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Inconsistently. On macOS, AirPods often work. On Windows, they typically don't because Bluetooth audio bypasses the microphone. LessonScriptor's tab audio capture works with AirPods on both platforms."
+            }
+          }
         ]
       }
     },
@@ -169,16 +205,39 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Chrome Live Captions with Headphones", "item": "https://lessonscriptor.com/blog/chrome-live-captions-headphones" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chrome Live Captions with Headphones",
+            "item": "https://lessonscriptor.com/blog/chrome-live-captions-headphones"
+          }
         ]
       }
     }
   ],
   "sources": [
-    { "text": "Google Chrome Help — Live Caption", "href": "https://support.google.com/chrome/answer/10538231", "external": true },
-    { "text": "Microsoft Support — Live Captions in Windows 11", "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df", "external": true }
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Microsoft Support — Live Captions in Windows 11",
+      "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
+      "external": true
+    }
   ],
   "internal_links_map": {
     "pillar": "/live-captions-chrome",

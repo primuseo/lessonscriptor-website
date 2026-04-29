@@ -9,11 +9,16 @@
   "meta": {
     "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
     "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
-    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+    "keywords": [
+      "transcribe lecture video",
+      "automatic lecture transcription",
+      "lecture to text"
+    ]
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "title": "SEO & Learning Strategy"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一个用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
   },
   "intro": "自动转录课程视频最快的方法是使用 LessonScriptor——一个免费的 Chrome 扩展程序，可在视频播放时直接在浏览器中进行实时转录。无需上传，无需等待，无需订阅。",
   "sections": [
@@ -43,7 +48,7 @@
     },
     {
       "h2": "如何利用转录文本进行学习",
-      "body": "转录完成后，将 LessonScriptor 文档当作学习指南使用。用黄色高亮标注最重要的概念。加粗关键术语。复习时在括号中添加您自己的理解。导出为 Markdown 并导入 Notion 或 Obsidian 进行长期保存。考前可以搜索全文。"
+      "body": "转录完成后，将 LessonScriptor 文档当作学习指南使用。用黄色高亮标注最重要的概念。加粗关键术语。复习时在括号中添加您自己的理解。导出为 Markdown 并导入 Notion 或 Obsidian 进行长期保存。考前可以搜索全文。如果你是神经多样性学生，自动转录消除了同时记笔记的认知负担——请参阅<a href=\"/blog/neurodivergent-study-tools\">神经多样性学生最佳学习工具</a>。"
     }
   ],
   "faq": {
@@ -67,5 +72,11 @@
       }
     ]
   },
+  "internal_links": [
+    {
+      "text": "Best study tools for neurodivergent students",
+      "url": "/blog/neurodivergent-study-tools"
+    }
+  ],
   "schemas": []
 }

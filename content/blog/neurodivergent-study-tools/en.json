@@ -25,9 +25,9 @@
     "caption": "Study tools designed for neurodivergent brains"
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "bio": "Built by educators and neurodivergent learners. We research study tools that work across learning profiles and accessibility needs. Our goal: make self-service transcription a standard for all students.",
-    "expertise": "EdTech accessibility, neurodiversity in higher education, assistive technology evaluation"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "headline": "5 tools that tackle neurodivergent study challenges",
@@ -109,7 +109,7 @@
       "h2": "Best neurodivergent tools for capturing lecture content",
       "paragraphs": [
         "Capturing lecture content is arguably the highest-leverage study problem. You're trying to listen, understand, and write simultaneously—three tasks competing for limited working memory.",
-        "**Lessonscriptor is the top tool for this** because it transcribes any video, any platform, in real-time inside your browser. You hit play on a lecture video, exam review, online module, or recorded webinar, and Lessonscriptor generates a live transcript. No setup, no API keys, no pre-recording arrangements—works on YouTube, recorded Zoom, course video platforms, anywhere a video plays in Chrome.",
+        "**Lessonscriptor is the top tool for this** because it transcribes any video, any platform, in real-time inside your browser. You hit play on a lecture video, exam review, online module, or recorded webinar, and Lessonscriptor generates a live transcript. No setup, no API keys, no pre-recording arrangements—works on YouTube, recorded Zoom, course video platforms, anywhere a video plays in Chrome. For a full walkthrough, see <a href=\"/blog/how-to-transcribe-lecture-videos\">how to transcribe lecture videos automatically</a>.",
         "Why this matters for neurodivergent students:",
         "- **For ADHD:** You can listen without writing. Your working memory stays free for understanding, not transcription. The searchable transcript means you can find key terms later without re-watching the whole lecture.",
         "- **For dyslexia:** The text transcript is easier to re-read and annotate than trying to decipher your own handwriting or rushed typing during a lecture.",
@@ -377,10 +377,20 @@
         "image": "/images/neurodivergent-study-tools-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",
@@ -562,6 +572,7 @@
     "/blog/best-chrome-extensions-adhd-students": "Chrome extension roundup for ADHD",
     "/blog/adhd-university-accommodation-tech": "Accommodation and assistive tech at university",
     "/live-captions-chrome": "Live captions in Chrome (feature page)",
-    "/transcribe-video-to-text": "Video transcription service page"
+    "/transcribe-video-to-text": "Video transcription service page",
+    "/blog/how-to-transcribe-lecture-videos": "Step-by-step automatic lecture transcription guide"
   }
 }

@@ -18,9 +18,9 @@
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
   "author": {
-    "name": "Lessonscriptor Redaktionsteam",
-    "bio": "Das Lessonscriptor Redaktionsteam recherchiert Hilfstechnologie, pädagogische Anpassungen und Studienwerkzeuge für neurodivergente Lernende. Wir arbeiten mit Behindertenbüros und ADHS-Interessenvertretungen zusammen, um sicherzustellen, dass unsere Anleitung die aktuellen Rechtsrahmen und praktischen Anforderungen widerspiegelt.",
-    "role": "Lern- und Barrierefreiheitsspezialisten"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "hero_image": {
     "src": "/images/adhd-student-disability-office.jpg",
@@ -221,10 +221,20 @@
         "image": "/images/adhd-student-disability-office.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",

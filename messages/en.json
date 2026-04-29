@@ -630,9 +630,9 @@
     "readMore": "Read more"
   },
   "transcribeVideo": {
-    "h1": "Transcribe Video to Text — Free, in Your Browser",
-    "subtitle": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.",
-    "answer": "LessonScriptor is a free Chrome extension that transcribes any video to text in real-time — no file upload, no account, no subscription. Open any video on YouTube, Coursera, Udemy, Zoom, or a university portal like Moodle or Canvas, press play, and the transcript appears in a side panel as the audio plays. The free mode uses the Web Speech API and works immediately; the Premium mode uses a cloud AI model for higher accuracy across accents and technical vocabulary.",
+    "h1": "YouTube Transcript Generator — Free, No Upload",
+    "subtitle": "Generate a transcript from any YouTube video, lecture recording, or Zoom call in real-time. No file upload, no account, no subscription. Works directly in Chrome.",
+    "answer": "The fastest YouTube transcript generator is LessonScriptor — a free Chrome extension that generates a transcript from any YouTube video in real-time as it plays. No file upload, no account, no subscription. It also works on Coursera, Udemy, Zoom recordings, and university portals like Moodle and Canvas. The free mode uses the Web Speech API (on-device, private); the Premium mode uses OpenAI Whisper for higher accuracy on accents, technical vocabulary, and 14+ languages.",
     "useCases": {
       "title": "What types of videos can you transcribe to text?",
       "items": [
@@ -659,7 +659,7 @@
       ]
     },
     "howItWorks": {
-      "title": "How does video-to-text transcription work in Chrome?",
+      "title": "How to generate a YouTube transcript in Chrome",
       "subtitle": "No upload. No waiting. No subscription.",
       "steps": [
         {
@@ -682,16 +682,16 @@
     "faq": {
       "items": [
         {
-          "q": "How do I transcribe a video to text for free?",
-          "a": "Install LessonScriptor (free Chrome extension). Open any video in Chrome. Click the extension icon to open the side panel. Press play — transcription starts automatically. Export the text when done. Free mode is free forever with no sign-up."
+          "q": "What is the best free YouTube transcript generator?",
+          "a": "LessonScriptor is the best free YouTube transcript generator. Install the Chrome extension, open any YouTube video, click the icon to open the side panel, and press play — the transcript generates in real-time. Edit, highlight, and export as Markdown. Free mode is free forever with no sign-up."
         },
         {
           "q": "Can I convert an MP4 to text?",
           "a": "Yes. Open the MP4 file in Chrome (drag and drop into a Chrome tab, or open via File → Open), then use LessonScriptor to transcribe it in real-time as it plays."
         },
         {
-          "q": "What is the most accurate free video transcription tool?",
-          "a": "For live, in-browser transcription, LessonScriptor's Premium mode offers the highest accuracy using a cloud AI model. The Free mode uses the Web Speech API — accurate for general content in clear audio. Both are available without a subscription."
+          "q": "What is the most accurate YouTube transcript generator?",
+          "a": "LessonScriptor's Premium mode is the most accurate YouTube transcript generator, using OpenAI Whisper (trained on 680,000 hours of speech). The free mode uses the Web Speech API — accurate for general content in clear audio. Both work without a subscription."
         },
         {
           "q": "How long does it take to transcribe a video?",
@@ -711,8 +711,8 @@
         }
       ]
     },
-    "metaTitle": "Transcribe Video to Text Free — Live in Chrome",
-    "metaDesc": "Convert any video to text in real-time with AI. No upload, no waiting, no subscription. Works directly in Chrome on any video platform.",
+    "metaTitle": "YouTube Transcript Generator — Free, No Upload | LessonScriptor",
+    "metaDesc": "Generate a transcript from any YouTube video in real-time with AI. Free Chrome extension — no upload, no account, no subscription. Works on 50+ video platforms.",
     "relatedHeading": "Learn more about video transcription",
     "readMore": "Read more"
   },
@@ -851,7 +851,8 @@
       "all": "All",
       "readMore": "Read more",
       "minRead": "min read"
-    }
+    },
+    "byAuthor": "By {author}"
   },
   "contact": {
     "h1": "Get in Touch",

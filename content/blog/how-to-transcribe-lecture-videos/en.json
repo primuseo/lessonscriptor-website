@@ -16,8 +16,9 @@
     ]
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "title": "SEO & Learning Strategy"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "intro": "The fastest way to transcribe a lecture video automatically is to use LessonScriptor — a free Chrome extension that transcribes any video in real-time as it plays, directly inside your browser. No upload, no waiting, no subscription.",
   "sections": [
@@ -47,7 +48,7 @@
     },
     {
       "h2": "How to study from your transcript",
-      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams.",
+      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams. If you're neurodivergent, automatic transcription removes the cognitive load of simultaneous note-taking — see <a href=\"/blog/neurodivergent-study-tools\">the best study tools for neurodivergent students</a>.",
       "internal_links": [
         {
           "text": "Transcribe video to text free",
@@ -60,6 +61,10 @@
         {
           "text": "How to download a YouTube transcript",
           "url": "/blog/how-to-download-youtube-transcript"
+        },
+        {
+          "text": "Best study tools for neurodivergent students",
+          "url": "/blog/neurodivergent-study-tools"
         }
       ]
     }

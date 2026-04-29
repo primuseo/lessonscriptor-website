@@ -20,9 +20,9 @@
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
   "author": {
-    "name": "Equipo Editorial de Lessonscriptor",
-    "bio": "El Equipo Editorial de Lessonscriptor investiga tecnología de accesibilidad, adaptaciones educativas y herramientas de estudio para estudiantes neurodivergentes. Trabajamos con oficinas de servicios para personas con discapacidad y organizaciones de defensa del TDAH para asegurar que nuestra orientación refleje marcos legales vigentes y necesidades reales del aula.",
-    "role": "Especialistas en Aprendizaje y Accesibilidad"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "hero_image": {
     "src": "/images/adhd-student-disability-office.jpg",
@@ -223,10 +223,20 @@
         "image": "/images/adhd-student-disability-office.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",

@@ -24,9 +24,9 @@
     "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
   },
   "author": {
-    "name": "LessonScriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The LessonScriptor team tests Chrome accessibility features and caption tools across Windows, macOS, and ChromeOS to help students and professionals get reliable transcription."
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -177,11 +177,20 @@
         "description": "Chrome live captions not working? 8 proven fixes — from toggling the setting to switching to a Chrome extension that works with headphones.",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Editorial Team",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "LessonScriptor",
@@ -233,16 +242,39 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Chrome Live Captions Not Working", "item": "https://lessonscriptor.com/blog/chrome-live-captions-not-working" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chrome Live Captions Not Working",
+            "item": "https://lessonscriptor.com/blog/chrome-live-captions-not-working"
+          }
         ]
       }
     }
   ],
   "sources": [
-    { "text": "Google Chrome Help — Manage captions and translations in Chrome", "href": "https://support.google.com/chrome/answer/10538231", "external": true },
-    { "text": "Chromium Issues — Live caption architectural limitations", "href": "https://issues.chromium.org/issues/40268358", "external": true }
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
   ],
   "internal_links_map": {
     "pillar": "/live-captions-chrome",

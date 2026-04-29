@@ -25,9 +25,9 @@
     "description_for_designer": "温暖、包容的场景，展示一位多元化的学生（戴着耳机，安静的学习环境）在笔记本电脑上查看AI转录的笔记。显示Lessonscriptor界面，突出显示的笔记和视频并排播放。包括书桌上的学习材料（笔记、荧光笔）。语调：平易近人、专注，不是冷漠的。配色：冷色调的蓝色和绿色（对ADHD平静），现代UI元素。"
   },
   "author": {
-    "name": "Lessonscriptor编辑团队",
-    "url": "/about",
-    "bio": "Lessonscriptor团队包括教育工作者、无障碍专家和ADHD研究人员，致力于使视频笔记无障碍且流畅。本指南已由ADHD教练和学习专家审阅。"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "主要要点",
@@ -282,11 +282,20 @@
         "image": "/images/blog/best-ai-note-taker-adhd-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor编辑团队",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

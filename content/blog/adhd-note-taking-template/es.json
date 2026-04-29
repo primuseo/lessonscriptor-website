@@ -10,7 +10,13 @@
   "meta": {
     "title": "Plantilla Gratuita de Toma de Notas para TDAH | Captura + Señales + Consolidación",
     "description": "Descarga una plantilla gratuita y amigable para TDAH para tomar notas, adaptada del método de Cornell. Captura con Lessonscriptor. Revisa con señales. Consolida en 3 oraciones. Funciona con cualquier clase de vídeo.",
-    "keywords": ["plantilla de toma de notas para TDAH", "toma de notas TDAH", "plantilla de estudio TDAH", "método Cornell TDAH", "plantilla gratuita de toma de notas"]
+    "keywords": [
+      "plantilla de toma de notas para TDAH",
+      "toma de notas TDAH",
+      "plantilla de estudio TDAH",
+      "método Cornell TDAH",
+      "plantilla gratuita de toma de notas"
+    ]
   },
   "hero_image": {
     "url": "/images/adhd-note-taking-template-hero.jpg",
@@ -20,10 +26,9 @@
     "description": "Imagen principal: estudiante en el escritorio con plantilla impresa, portátil mostrando transcripción de Lessonscriptor"
   },
   "author": {
-    "name": "Equipo Editorial de Lessonscriptor",
-    "bio": "El equipo editorial de Lessonscriptor investiga técnicas de toma de notas basadas en evidencia y herramientas de aprendizaje para estudiantes neurodivergentes. Esta plantilla se basa en investigaciones de la Universidad de Cornell, estrategias de aprendizaje para TDAH de ADDitude Magazine, y retroalimentación real de más de 500 estudiantes usando Lessonscriptor.",
-    "title": "Estrategia SEO y de Aprendizaje",
-    "image": "/images/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "heading": "TL;DR: Tu Plantilla Gratuita de Toma de Notas para TDAH",
@@ -53,7 +58,7 @@
       "heading": "¿Cómo uso esta plantilla de toma de notas para TDAH con Lessonscriptor?",
       "level": 2,
       "type": "section",
-      "content": "El flujo de trabajo es simple y sensible al tiempo. Aquí está paso a paso:\n\n**Paso 1: Durante la Clase (Lessonscriptor hace el trabajo)**\n\nAbre Lessonscriptor y activa subtítulos en vivo en Chrome. Presiona grabar o activa transcripción automática—depende de tus configuraciones de Lessonscriptor. Tu trabajo: escucha y ocasionalmente marca marcas de tiempo importantes escribiendo una nota rápida (\"importante\" o \"define\") en la barra lateral de transcripción. Eso es todo. Sin escritura a mano. Sin ansiedad de toma de notas.\n\n**Paso 2: Inmediatamente Después (5 minutos)**\n\nExporta o copia la transcripción de Lessonscriptor. Pégala en la zona de Captura de tu plantilla (PDF, Notion, o impresa). Lee una vez para verificar precisión (Lessonscriptor tiene ~95% de precisión, pero detecta errores obvios).\n\n**Paso 3: Fase de Revisión—Pomodoro de 25 Minutos (1–4 horas después de la clase)**\n\nConfigura un temporizador para 25 minutos. Lee la zona de Captura con un bolígrafo. Mientras lees:\n- Subraya términos clave en la zona de Señales\n- Escribe preguntas al lado de conceptos que no entiendes\n- Dibuja flechas vinculando ideas a clases previas\n- Añade mnemotecnias o ganchos de memoria\n\nCuando el temporizador se agote, *detente*. Las zonas de señales imperfectas son mejores que las perfectas que no existen.\n\n**Paso 4: Consolidación—Resumen de 3 Oraciones (dentro de 2 horas del Paso 1)**\n\nAhora escribe la caja de Consolidación. Cierra la zona de Captura. Mira solo la zona de Señales. Escribe tres oraciones resumiendo el *por qué* y *qué*—no los detalles. Esto obliga a tu cerebro a sintetizar, no a regurgitar.\n\n**Ejemplo de flujo de trabajo para una clase de biología de 1 hora:**\n- Durante clase: Lessonscriptor corre. Escuchas. (0 minutos de escritura)\n- Después de clase: Pega transcripción en la zona de Captura. (5 minutos)\n- 2 horas después (o mañana por la mañana): Pomodoro de 25 minutos en la zona de Señales. (25 minutos)\n- Mismo día o mañana por la mañana: Escribe la caja de Consolidación. (5 minutos)\n- Inversión de tiempo total: 35 minutos por clase\n- Total de escritura: ~10 minutos (más la transcripción automática)\n\nEste flujo de trabajo reduce el tiempo de toma de notas en 60–70% comparado con escritura a mano, y la retención mejora porque Lessonscriptor captura 100% del contenido—no el 30% que tu mano puede mantener."
+      "content": "El flujo de trabajo es simple y sensible al tiempo. Aquí está paso a paso:\n\n**Paso 1: Durante la Clase (Lessonscriptor hace el trabajo)**\n\nAbre Lessonscriptor y activa subtítulos en vivo en Chrome. Presiona grabar o activa transcripción automática—depende de tus configuraciones de Lessonscriptor. Tu trabajo: escucha y ocasionalmente marca marcas de tiempo importantes escribiendo una nota rápida (\"importante\" o \"define\") en la barra lateral de transcripción. Eso es todo. Sin escritura a mano. Sin ansiedad de toma de notas. (¿Nuevo en la transcripción? Ver <a href=\"/blog/how-to-transcribe-lecture-videos\">cómo transcribir vídeos de clases automáticamente</a>.)\n\n**Paso 2: Inmediatamente Después (5 minutos)**\n\nExporta o copia la transcripción de Lessonscriptor. Pégala en la zona de Captura de tu plantilla (PDF, Notion, o impresa). Lee una vez para verificar precisión (Lessonscriptor tiene ~95% de precisión, pero detecta errores obvios).\n\n**Paso 3: Fase de Revisión—Pomodoro de 25 Minutos (1–4 horas después de la clase)**\n\nConfigura un temporizador para 25 minutos. Lee la zona de Captura con un bolígrafo. Mientras lees:\n- Subraya términos clave en la zona de Señales\n- Escribe preguntas al lado de conceptos que no entiendes\n- Dibuja flechas vinculando ideas a clases previas\n- Añade mnemotecnias o ganchos de memoria\n\nCuando el temporizador se agote, *detente*. Las zonas de señales imperfectas son mejores que las perfectas que no existen.\n\n**Paso 4: Consolidación—Resumen de 3 Oraciones (dentro de 2 horas del Paso 1)**\n\nAhora escribe la caja de Consolidación. Cierra la zona de Captura. Mira solo la zona de Señales. Escribe tres oraciones resumiendo el *por qué* y *qué*—no los detalles. Esto obliga a tu cerebro a sintetizar, no a regurgitar.\n\n**Ejemplo de flujo de trabajo para una clase de biología de 1 hora:**\n- Durante clase: Lessonscriptor corre. Escuchas. (0 minutos de escritura)\n- Después de clase: Pega transcripción en la zona de Captura. (5 minutos)\n- 2 horas después (o mañana por la mañana): Pomodoro de 25 minutos en la zona de Señales. (25 minutos)\n- Mismo día o mañana por la mañana: Escribe la caja de Consolidación. (5 minutos)\n- Inversión de tiempo total: 35 minutos por clase\n- Total de escritura: ~10 minutos (más la transcripción automática)\n\nEste flujo de trabajo reduce el tiempo de toma de notas en 60–70% comparado con escritura a mano, y la retención mejora porque Lessonscriptor captura 100% del contenido—no el 30% que tu mano puede mantener."
     },
     {
       "heading": "¿Cómo descargo la plantilla gratuita de toma de notas para TDAH?",
@@ -119,7 +124,12 @@
         "name": "course_level",
         "type": "select",
         "label": "¿Eres estudiante de secundaria, universidad, o posgrado?",
-        "options": ["Secundaria", "Universidad (Licenciatura)", "Posgrado/Profesional", "Aprendiz Adulto"],
+        "options": [
+          "Secundaria",
+          "Universidad (Licenciatura)",
+          "Posgrado/Profesional",
+          "Aprendiz Adulto"
+        ],
         "required": false
       }
     ],
@@ -145,10 +155,20 @@
         "image": "/images/adhd-note-taking-template-hero.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",
@@ -327,6 +347,11 @@
       "url": "/downloads/adhd-note-taking-template.pdf",
       "anchor": "Descarga la plantilla gratuita",
       "context": "Enlace directo al PDF imprimible y plantilla de Notion."
+    },
+    "related_blog_3": {
+      "url": "/blog/how-to-transcribe-lecture-videos",
+      "anchor": "How to Transcribe Lecture Videos Automatically",
+      "context": "Step-by-step guide for automatic lecture transcription."
     }
   },
   "external_links": [
@@ -376,10 +401,27 @@
     "primary_keyword": "plantilla de toma de notas para TDAH",
     "search_volume": "400–900/mo",
     "keyword_difficulty": "8–15",
-    "secondary_keywords": ["toma de notas TDAH", "plantilla de estudio TDAH", "plantilla gratuita TDAH", "método Cornell TDAH"],
+    "secondary_keywords": [
+      "toma de notas TDAH",
+      "plantilla de estudio TDAH",
+      "plantilla gratuita TDAH",
+      "método Cornell TDAH"
+    ],
     "intent": "Informacional + intención de descarga",
     "target_audience": "Estudiantes con TDAH, aprendices de educación a distancia, usuarios de accesibilidad",
-    "entity_density": ["Lessonscriptor", "Universidad de Cornell", "Walter Pauk", "TDAH", "memoria de trabajo", "CHADD", "ADDitude Magazine", "Anki", "Notion", "Pomodoro", "repetición espaciada"],
+    "entity_density": [
+      "Lessonscriptor",
+      "Universidad de Cornell",
+      "Walter Pauk",
+      "TDAH",
+      "memoria de trabajo",
+      "CHADD",
+      "ADDitude Magazine",
+      "Anki",
+      "Notion",
+      "Pomodoro",
+      "repetición espaciada"
+    ],
     "content_goal": "Posicionar para palabra clave primaria; generar leads vía descarga de plantilla gratuita; posicionar Lessonscriptor como herramienta de transcripción IA amigable para TDAH",
     "internal_link_strategy": "Enlazar desde página pilar (/for-adhd-students), posts de blog hermanos, y página de descarga",
     "backlink_targets": "Reddit r/TDAH, r/GetStudying, r/college; ADDitude Magazine roundups; creadores de contenido TDAH; blogs de accesibilidad"

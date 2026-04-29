@@ -6,7 +6,6 @@
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
   "lang": "zh",
-
   "meta": {
     "title": "ADHD患者如何记笔记：2026年完整指南 | Lessonscriptor",
     "description": "对ADHD患者来说记笔记很困难，因为你的大脑无法以讲座速度同时做三件事：听讲、理解和记录。这是解决方法——包括彻底改变局面的Chrome扩展程序。",
@@ -16,7 +15,6 @@
     "og_description": "实时转录消除了使ADHD记笔记如此困难的认知瓶颈。以下是如何使用它——以及其他5个真正有效的策略。",
     "twitter_card": "summary_large_image"
   },
-
   "hero_image": {
     "src": "/images/adhd-note-taking-guide-hero.png",
     "alt": "学生在Chrome中使用实时转录来记录在线讲座笔记，文本在侧面板中自动出现",
@@ -25,13 +23,11 @@
     "caption": null,
     "description_for_designer": "一名学生坐在笔记本电脑前的办公桌前，观看讲座视频。侧面板实时显示转录内容。场景感觉平静、专注和现代——不紧张。干净的插图风格，蓝紫色调。尺寸：最小1200 × 630像素。"
   },
-
   "author": {
-    "name": "Lessonscriptor编辑团队",
-    "url": "/about",
-    "bio": "Lessonscriptor是为学生、远程学习者和专业人士构建的Chrome扩展程序，他们需要从任何视频中捕获内容而无需手动记录。我们的编辑团队包括教育工作者、学习专家和ADHD研究人员，他们审核所有内容的准确性。本文根据当前ADHD教育心理学文献进行了审核，并在2026年4月更新。"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
-
   "tldr": {
     "label": "主要要点",
     "lead": "核心问题：ADHD患者记笔记很困难，因为你的大脑无法同时以讲座速度进行听讲、处理意思和记录——这种三向认知分裂会使工作记忆超负荷。",
@@ -42,9 +38,7 @@
       "适用于：YouTube讲座、Zoom录音、大学LMS平台、Coursera以及在Chrome中播放的任何其他视频。"
     ]
   },
-
   "intro": "ADHD患者记笔记很困难，因为你的工作记忆无法同时做三件事——而传统记笔记恰好要求三件事：听讲师讲话、处理他们的意思、在下一句话到来前写下来。最有效的解决方案不是更好的笔或不同的笔记本布局。而是通过实时转录完全从方程式中消除记录任务。Lessonscriptor等工具是一个Chrome扩展程序，可以实时转录任何视频，使这成为可能——免费、无需订阅、无需应用安装、无需获得大学残障办公室的批准。",
-
   "stats": [
     {
       "number": "1/12",
@@ -59,7 +53,6 @@
       "label": "ADHD学生表示记笔记是他们最大的学术挑战"
     }
   ],
-
   "sections": [
     {
       "id": "why-hard",
@@ -88,7 +81,12 @@
         {
           "h3": "1. 实时转录（最高影响）",
           "body": "实时转录是ADHD学生可以对其记笔记工作流程进行的最高影响的改变。通过自动捕获讲座中说出的一切，它完全消除了记录任务——学生听讲和理解，同时软件进行转录。Lessonscriptor（/for-adhd-students）是唯一对任何视频进行此操作的Chrome扩展程序，而不仅仅是会议。",
-          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+          "internal_links": [
+            {
+              "text": "Lessonscriptor",
+              "href": "/for-adhd-students"
+            }
+          ]
         },
         {
           "h3": "2. 番茄工作法进行审核会话",
@@ -101,17 +99,35 @@
         {
           "h3": "4. 主动回忆和间隔重复",
           "body": "笔记的被动重新阅读对任何学生都效率较低，对于需要新颖性来维持注意力的ADHD大脑更是如此。Anki（apps.ankiweb.net）是一个免费的间隔重复闪卡应用程序，它将笔记转换为根据长期保留进行校准的间隔审核的主动回忆问题。《心理学公报》中2021年的元分析发现，间隔实践在所有科目领域产生的记忆收益明显大于集中实践。",
-          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+          "links": [
+            {
+              "text": "Anki",
+              "href": "https://apps.ankiweb.net/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "5. 视觉学习者的思维导图",
           "body": "一些ADHD学生在视觉上而不是线性上保留信息效果更好。将讲座转录转换为思维导图——使用MindMeister等工具甚至纸张——创建了概念之间关系的空间表示，比项目符号列表更容易回忆。",
-          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+          "links": [
+            {
+              "text": "MindMeister",
+              "href": "https://www.mindmeister.com/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "6. 审核期间的噪音管理",
           "body": "Brain.fm使用经过精心设计以吸引注意力系统的功能音乐，一项2024年的研究发现它显著改善了自我报告ADHD症状较高的人在注意力任务上的表现。低保真播放列表、棕色噪音或自然声音对许多学生也起到相同的作用。关键是一致的提示：相同的声音环境表示'审核时间'并减少任务切换摩擦。",
-          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+          "links": [
+            {
+              "text": "Brain.fm",
+              "href": "https://www.brain.fm/",
+              "external": true
+            }
+          ]
         }
       ],
       "callout": {
@@ -134,8 +150,16 @@
         "description_for_designer": "产品屏幕截图显示Lessonscriptor在Chrome中讲座视频旁运行。面板显示右侧实时出现的转录文本，左侧是视频。显示面板中可见的突出显示和导出按钮。"
       },
       "links": [
-        { "text": "Chrome中的实时字幕", "href": "/live-captions-chrome", "external": false },
-        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+        {
+          "text": "Chrome中的实时字幕",
+          "href": "/live-captions-chrome",
+          "external": false
+        },
+        {
+          "text": "Otter.ai",
+          "href": "https://otter.ai/",
+          "external": true
+        }
       ]
     },
     {
@@ -170,38 +194,83 @@
       "body": "2026年ADHD学生的最佳记笔记工具涵盖三个功能：捕获（将信息放入笔记）、组织（结构化你所拥有的）和审核（长期保留）。没有单个工具很好地做到所有三个。最佳堆栈结合每个功能一个工具。",
       "table": {
         "caption": "ADHD记笔记工具对比2026",
-        "headers": ["工具", "最佳用于", "适用视频？", "免费级别？", "ADHD适配"],
+        "headers": [
+          "工具",
+          "最佳用于",
+          "适用视频？",
+          "免费级别？",
+          "ADHD适配"
+        ],
         "rows": [
           {
-            "cells": ["Lessonscriptor", "Chrome中任何视频的实时转录", "✓ 任何Chrome视频", "✓ 永远免费", "★★★★★"],
+            "cells": [
+              "Lessonscriptor",
+              "Chrome中任何视频的实时转录",
+              "✓ 任何Chrome视频",
+              "✓ 永远免费",
+              "★★★★★"
+            ],
             "highlight": true,
             "badge": "编辑推荐"
           },
           {
-            "cells": ["Otter.ai", "现场会议转录", "△ 仅会议", "✓ 300分钟/月", "★★★☆☆"],
+            "cells": [
+              "Otter.ai",
+              "现场会议转录",
+              "△ 仅会议",
+              "✓ 300分钟/月",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Genio Notes", "AI增强笔记结构化", "✗ 无实时转录", "△ 仅试用", "★★★☆☆"],
+            "cells": [
+              "Genio Notes",
+              "AI增强笔记结构化",
+              "✗ 无实时转录",
+              "△ 仅试用",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Notion", "在学科间组织和链接笔记", "✗ 不是捕获工具", "✓ 免费个人", "★★★☆☆"],
+            "cells": [
+              "Notion",
+              "在学科间组织和链接笔记",
+              "✗ 不是捕获工具",
+              "✓ 免费个人",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Anki", "捕获笔记的间隔重复审核", "✗ 仅审核", "✓ 完全免费", "★★★★☆"],
+            "cells": [
+              "Anki",
+              "捕获笔记的间隔重复审核",
+              "✗ 仅审核",
+              "✓ 完全免费",
+              "★★★★☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Goblin Tools", "将令人难以承受的任务分解为微步骤", "✗ 任务管理", "✓ 免费", "★★★★☆"],
+            "cells": [
+              "Goblin Tools",
+              "将令人难以承受的任务分解为微步骤",
+              "✗ 任务管理",
+              "✓ 免费",
+              "★★★★☆"
+            ],
             "highlight": false
           }
         ]
       },
       "body_after_table": "对于讲座主要在YouTube或大学视频平台上的ADHD学生，Lessonscriptor是此列表中唯一直接在浏览器内任何视频上工作的工具。对于主要挑战是现场讲座或团队会议的学生，Otter.ai很好地涵盖了该差距——两个工具互补。对于YouTube视频讲座特别是，请查看关于如何转录YouTube视频的详细指南（/transcribe-youtube-video）。",
       "internal_links": [
-        { "text": "如何转录YouTube视频", "href": "/transcribe-youtube-video" }
+        {
+          "text": "如何转录YouTube视频",
+          "href": "/transcribe-youtube-video"
+        }
       ]
     },
     {
@@ -224,18 +293,19 @@
         "type": "tip",
         "label": "对于远程学习者",
         "body": "如果你的讲座是预先录制的（在线或混合课程中常见），你可以暂停、倒回和使用Lessonscriptor重新转录任何部分——现场记笔记永远不会提供的优势。使用暂停来处理你刚听到的内容再继续。查看关于ADHD学生Lessonscriptor的完整指南（/for-adhd-students）以获取特定于平台的提示。",
-        "internal_link": { "text": "ADHD学生的Lessonscriptor", "href": "/for-adhd-students" }
+        "internal_link": {
+          "text": "ADHD学生的Lessonscriptor",
+          "href": "/for-adhd-students"
+        }
       }
     }
   ],
-
   "cta": {
     "heading": "在你的下一讲座上免费尝试实时转录",
     "body": "Lessonscriptor适用于YouTube、Zoom、Canvas、Coursera以及Chrome中的任何其他视频。无需订阅。无需注册即可开始。",
     "button_label": "添加到Chrome——免费",
     "button_href": "https://chrome.google.com/webstore"
   },
-
   "faq": {
     "section_title": "常见问题",
     "items": [
@@ -265,13 +335,16 @@
       }
     ]
   },
-
   "summary": {
     "heading": "摘要：ADHD记笔记系统有效",
     "body": "当ADHD记笔记要求同时进行听讲、处理和记录时失败——这是一个按设计超载工作记忆的认知任务。结构性修复是将捕获与审核分开。使用实时转录（Lessonscriptor）在讲座期间自动捕获一切。使用番茄工作法在专注的25分钟块中审核转录。将关键点转换为Anki闪卡进行间隔重复保留。\n\n这个系统不是解决方法——它比传统记笔记对几乎任何学习者都是更好的工作流程。对于ADHD学生，这是变革性的：它消除了瓶颈，关闭了注意力下降造成的差距，从讲座本身的单一记录时刻产生完整、可搜索的笔记。\n\n从Lessonscriptor的免费级别开始（/for-adhd-students）。同周添加Anki。你会在一两堂讲座内注意到差异。",
-    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+    "internal_links": [
+      {
+        "text": "Lessonscriptor",
+        "href": "/for-adhd-students"
+      }
+    ]
   },
-
   "schemas": [
     {
       "type": "Article",
@@ -280,11 +353,20 @@
       "image": "/images/adhd-note-taking-guide-og.png",
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
-      "author": {
-        "type": "Person",
-        "name": "Lessonscriptor编辑团队",
-        "url": "/about"
-      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "publisher": {
         "type": "Organization",
         "name": "Lessonscriptor",
@@ -304,11 +386,31 @@
       "description": "关于使用Lessonscriptor Chrome扩展程序为ADHD学生自动转录讲座的分步指南。",
       "totalTime": "PT5M",
       "steps": [
-        { "position": 1, "name": "安装Lessonscriptor", "text": "转到Chrome Web Store并搜索Lessonscriptor，或访问Lessonscriptor网站。单击'添加到Chrome'并确认安装。" },
-        { "position": 2, "name": "打开你的讲座视频", "text": "在任何平台上导航到你的讲座：YouTube、Zoom录音、大学LMS（Canvas、Moodle、Blackboard）、Coursera或在Chrome中播放的任何其他视频。" },
-        { "position": 3, "name": "激活扩展程序", "text": "单击Chrome工具栏中的Lessonscriptor图标。转录面板将在视频旁打开。" },
-        { "position": 4, "name": "开始转录", "text": "按Lessonscriptor面板中的'开始'按钮。扩展程序将开始实时从视频捕获和转录音频。" },
-        { "position": 5, "name": "审核和导出你的笔记", "text": "讲座后，审核面板中的转录。突出显示关键部分，添加注释，并导出到文本或PDF。" }
+        {
+          "position": 1,
+          "name": "安装Lessonscriptor",
+          "text": "转到Chrome Web Store并搜索Lessonscriptor，或访问Lessonscriptor网站。单击'添加到Chrome'并确认安装。"
+        },
+        {
+          "position": 2,
+          "name": "打开你的讲座视频",
+          "text": "在任何平台上导航到你的讲座：YouTube、Zoom录音、大学LMS（Canvas、Moodle、Blackboard）、Coursera或在Chrome中播放的任何其他视频。"
+        },
+        {
+          "position": 3,
+          "name": "激活扩展程序",
+          "text": "单击Chrome工具栏中的Lessonscriptor图标。转录面板将在视频旁打开。"
+        },
+        {
+          "position": 4,
+          "name": "开始转录",
+          "text": "按Lessonscriptor面板中的'开始'按钮。扩展程序将开始实时从视频捕获和转录音频。"
+        },
+        {
+          "position": 5,
+          "name": "审核和导出你的笔记",
+          "text": "讲座后，审核面板中的转录。突出显示关键部分，添加注释，并导出到文本或PDF。"
+        }
       ]
     },
     {
@@ -318,13 +420,24 @@
     {
       "type": "BreadcrumbList",
       "items": [
-        { "position": 1, "name": "主页", "item": "/" },
-        { "position": 2, "name": "博客", "item": "/blog" },
-        { "position": 3, "name": "ADHD患者如何记笔记", "item": "/zh/blog/how-to-take-notes-with-adhd" }
+        {
+          "position": 1,
+          "name": "主页",
+          "item": "/"
+        },
+        {
+          "position": 2,
+          "name": "博客",
+          "item": "/blog"
+        },
+        {
+          "position": 3,
+          "name": "ADHD患者如何记笔记",
+          "item": "/zh/blog/how-to-take-notes-with-adhd"
+        }
       ]
     }
   ],
-
   "sources": [
     {
       "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
@@ -355,14 +468,25 @@
       "external": true
     }
   ],
-
   "internal_links_map": {
     "pillar": "/for-adhd-students",
     "related_posts": [
-      { "label": "ADHD最佳AI笔记应用", "href": "/blog/best-ai-note-taker-adhd" },
-      { "label": "ADHD学生最佳Chrome扩展程序", "href": "/blog/best-chrome-extensions-adhd-students" },
-      { "label": "如何转录YouTube视频", "href": "/transcribe-youtube-video" },
-      { "label": "Chrome中的实时字幕", "href": "/live-captions-chrome" }
+      {
+        "label": "ADHD最佳AI笔记应用",
+        "href": "/blog/best-ai-note-taker-adhd"
+      },
+      {
+        "label": "ADHD学生最佳Chrome扩展程序",
+        "href": "/blog/best-chrome-extensions-adhd-students"
+      },
+      {
+        "label": "如何转录YouTube视频",
+        "href": "/transcribe-youtube-video"
+      },
+      {
+        "label": "Chrome中的实时字幕",
+        "href": "/live-captions-chrome"
+      }
     ]
   }
 }

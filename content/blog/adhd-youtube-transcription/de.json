@@ -9,7 +9,12 @@
   "meta": {
     "title": "YouTube-Videos für ADHS transkribieren: Chrome-Echtzeit-Erweiterung | Lessonscriptor",
     "description": "Transkribieren Sie beliebige YouTube-Vorlesungen in Echtzeit im Chrome—kein Download, keine Anmeldung. Kostenlose Chrome-Erweiterung perfekt für ADHS-Schüler, die Schwierigkeiten mit Konzentration und Notizen haben.",
-    "keywords": ["YouTube-Video transkribieren ADHS", "ADHS youtube lernen", "YouTube-Vorlesung Transkription ADHS", "Wie nutze ich YouTube zum Lernen mit ADHS"]
+    "keywords": [
+      "YouTube-Video transkribieren ADHS",
+      "ADHS youtube lernen",
+      "YouTube-Vorlesung Transkription ADHS",
+      "Wie nutze ich YouTube zum Lernen mit ADHS"
+    ]
   },
   "hero_image": {
     "alt": "ADHS-Schüler schaut sich YouTube-Vorlesung an mit Lessonscriptor-Transkript-Panel in der Chrome-Seitenleiste",
@@ -18,8 +23,9 @@
     "height": 630
   },
   "author": {
-    "name": "Lessonscriptor Team",
-    "bio": "Wir entwickeln Tools für Schüler und Fernlerner, die Barrierefreiheitsfunktionen eingebaut haben—nicht nachträglich angebracht. Unser Team besteht aus ADHS-Pädagogen, Barrierefreiheitsspezialisten und Barrierefreiheitsforschern, die verstehen, wie Arbeitsgedächtnisgaps das Lernen beeinflussen."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — 3 Wichtigste Erkenntnisse",
@@ -197,10 +203,20 @@
         "headline": "YouTube-Videos für ADHS transkribieren: Die schnellste Methode im Chrome",
         "description": "Transkribieren Sie beliebige YouTube-Vorlesungen in Echtzeit im Chrome—kein Download, keine Anmeldung. Kostenlose Chrome-Erweiterung perfekt für ADHS-Schüler, die Schwierigkeiten mit Konzentration und Notizen haben.",
         "image": "/images/blog/adhd-youtube-transcription-hero.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28"
       }

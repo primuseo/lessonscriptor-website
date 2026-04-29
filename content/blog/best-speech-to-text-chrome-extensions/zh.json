@@ -24,7 +24,9 @@
     "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
   },
   "author": {
-    "name": "LessonScriptor Team"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一个用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "核心要点",
@@ -186,7 +188,7 @@
     {
       "id": "which-extension-for-students",
       "h2": "哪款Chrome语音转文字扩展最适合学生？",
-      "body": "对学生来说，选择哪款Chrome语音转文字扩展完全取决于你要转录的内容。\n\n**观看录制视频课（YouTube、Canvas、Coursera、edX、Zoom录像）：**使用LessonScriptor。这是本次对比中唯一专为Chrome视频转录而设计的扩展。免费模式无需账号，立即可用。Premium模式以€0.60/小时的价格提供Whisper精度和耳机支持。\n\n**学习时需要快速字幕但不需要保存：**使用Google实时字幕（内置于Chrome）。在设置中开启一次，之后就不用管它了。在校园里忘带耳机或需要在嘈杂环境中跟随视频时非常实用。\n\n**在Google Meet或Zoom上参与线上课：**如果你的主要需求是捕获带发言人标签的实时会议转录，使用Tactiq。Tactiq与Google Meet的原生字幕流集成良好，可自动导出到Google Docs。\n\n**用语音打字：**使用Speechnotes进行免提写作——口述论文、口头总结笔记，或在不方便打字的场景中写作。\n\n**学术现实：**大多数学生之所以选错工具，是因为他们搜索的是「语音转文字」，而实际上需要的是「视频转录」。Speechnotes这类听写工具和LessonScriptor这类视频转录工具都能将语音转为文字——但它们解决的是完全不同的问题。如果音频来自视频文件或流媒体，你需要的是LessonScriptor或Notta，而不是只能用麦克风的听写工具。",
+      "body": "对学生来说，选择哪款Chrome语音转文字扩展完全取决于你要转录的内容。\n\n**观看录制视频课（YouTube、Canvas、Coursera、edX、Zoom录像）：**使用LessonScriptor。这是本次对比中唯一专为Chrome视频转录而设计的扩展。免费模式无需账号，立即可用。Premium模式以€0.60/小时的价格提供Whisper精度和耳机支持。 ADHD学生尤其受益——转录消除了同时听讲和写笔记的工作记忆负担。请查看我们的<a href=\"/blog/how-to-take-notes-with-adhd\">ADHD完整笔记指南</a>和<a href=\"/for-adhd-students\">ADHD学生中心</a>。\n\n**学习时需要快速字幕但不需要保存：**使用Google实时字幕（内置于Chrome）。在设置中开启一次，之后就不用管它了。在校园里忘带耳机或需要在嘈杂环境中跟随视频时非常实用。\n\n**在Google Meet或Zoom上参与线上课：**如果你的主要需求是捕获带发言人标签的实时会议转录，使用Tactiq。Tactiq与Google Meet的原生字幕流集成良好，可自动导出到Google Docs。\n\n**用语音打字：**使用Speechnotes进行免提写作——口述论文、口头总结笔记，或在不方便打字的场景中写作。\n\n**学术现实：**大多数学生之所以选错工具，是因为他们搜索的是「语音转文字」，而实际上需要的是「视频转录」。Speechnotes这类听写工具和LessonScriptor这类视频转录工具都能将语音转为文字——但它们解决的是完全不同的问题。如果音频来自视频文件或流媒体，你需要的是LessonScriptor或Notta，而不是只能用麦克风的听写工具。",
       "internal_links": [
         {
           "text": "如何逐步转录课程视频",
@@ -246,11 +248,20 @@
         "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
         "datePublished": "2026-04-29",
         "dateModified": "2026-04-29",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Team",
-          "url": "https://lessonscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "LessonScriptor",
@@ -387,6 +398,16 @@
     {
       "text": "Chrome实时字幕不工作——解决指南",
       "href": "/blog/chrome-live-captions-not-working",
+      "internal": true
+    },
+    {
+      "text": "How to take notes with ADHD",
+      "href": "/blog/how-to-take-notes-with-adhd",
+      "internal": true
+    },
+    {
+      "text": "ADHD student hub",
+      "href": "/for-adhd-students",
       "internal": true
     }
   ]

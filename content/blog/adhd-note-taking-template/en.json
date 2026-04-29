@@ -9,7 +9,13 @@
   "meta": {
     "title": "Free ADHD Note-Taking Template | Capture + Cue + Consolidate",
     "description": "Download a free, ADHD-friendly note-taking template adapted from Cornell's method. Capture with Lessonscriptor. Review with cues. Consolidate in 3 sentences. Works with any video lecture.",
-    "keywords": ["ADHD note taking template", "note taking template ADHD", "ADHD study template", "Cornell method ADHD", "free note taking template"]
+    "keywords": [
+      "ADHD note taking template",
+      "note taking template ADHD",
+      "ADHD study template",
+      "Cornell method ADHD",
+      "free note taking template"
+    ]
   },
   "hero_image": {
     "url": "/images/adhd-note-taking-template-hero.jpg",
@@ -19,10 +25,9 @@
     "description": "Hero image: student at desk with printed template, laptop showing Lessonscriptor transcript"
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "bio": "The Lessonscriptor editorial team researches evidence-based note-taking and learning tools for neurodivergent students. This template draws on Cornell University's research, ADDitude Magazine's ADHD learning strategies, and real feedback from 500+ students using Lessonscriptor.",
-    "title": "SEO & Learning Strategy",
-    "image": "/images/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "heading": "TL;DR: Your Free ADHD Note-Taking Template",
@@ -52,7 +57,7 @@
       "heading": "How do I use this ADHD note-taking template with Lessonscriptor?",
       "level": 2,
       "type": "section",
-      "content": "The workflow is simple and time-sensitive. Here's the step-by-step:\n\n**Step 1: During the Lecture (Lessonscriptor does the work)**\n\nOpen Lessonscriptor and enable live captions in Chrome. Hit record or enable auto-transcription—it depends on your Lessonscriptor settings. Your job: listen and occasionally mark important timestamps by typing a quick note (\"important\" or \"define\") into the transcript sidebar. That's it. No handwriting. No note-taking anxiety.\n\n**Step 2: Immediately After (5 minutes)**\n\nExport or copy the transcript from Lessonscriptor. Paste it into the Capture zone of your template (PDF, Notion, or printed). Skim it once for accuracy (Lessonscriptor is ~95% accurate, but catch obvious errors).\n\n**Step 3: Review Phase—25-Minute Pomodoro (1–4 hours after the lecture)**\n\nSet a timer for 25 minutes. Read through the Capture zone with a pen. As you read:\n- Underline key terms in the Cue zone\n- Write questions next to concepts you don't understand\n- Draw arrows linking ideas to previous lectures\n- Add mnemonics or memory hooks\n\nWhen the timer goes off, *stop*. Imperfect cue zones are better than perfect ones that don't exist.\n\n**Step 4: Consolidate—3-Sentence Summary (within 2 hours of Step 1)**\n\nNow write the Consolidate box. Close the Capture zone. Look only at the Cue zone. Write three sentences summarizing the *why* and *what*—not the details. This forces your brain to synthesize, not regurgitate.\n\n**Example workflow for a 1-hour biology lecture:**\n- During lecture: Lessonscriptor runs. You listen. (0 minutes of writing)\n- After lecture: Paste transcript into Capture zone. (5 minutes)\n- 2 hours later (or next morning): 25-minute Pomodoro in the Cue zone. (25 minutes)\n- Same day or next morning: Write the Consolidate box. (5 minutes)\n- Total time investment: 35 minutes per lecture\n- Total writing: ~10 minutes (plus the automatic transcript)\n\nThis workflow cuts note-taking time by 60–70% compared to handwriting, and retention improves because Lessonscriptor captures 100% of the content—not the 30% your hand can keep up with."
+      "content": "The workflow is simple and time-sensitive. Here's the step-by-step:\n\n**Step 1: During the Lecture (Lessonscriptor does the work)**\n\nOpen Lessonscriptor and enable live captions in Chrome. Hit record or enable auto-transcription—it depends on your Lessonscriptor settings. Your job: listen and occasionally mark important timestamps by typing a quick note (\"important\" or \"define\") into the transcript sidebar. That's it. No handwriting. No note-taking anxiety. (New to transcription? See <a href=\"/blog/how-to-transcribe-lecture-videos\">how to transcribe lecture videos automatically</a>.)\n\n**Step 2: Immediately After (5 minutes)**\n\nExport or copy the transcript from Lessonscriptor. Paste it into the Capture zone of your template (PDF, Notion, or printed). Skim it once for accuracy (Lessonscriptor is ~95% accurate, but catch obvious errors).\n\n**Step 3: Review Phase—25-Minute Pomodoro (1–4 hours after the lecture)**\n\nSet a timer for 25 minutes. Read through the Capture zone with a pen. As you read:\n- Underline key terms in the Cue zone\n- Write questions next to concepts you don't understand\n- Draw arrows linking ideas to previous lectures\n- Add mnemonics or memory hooks\n\nWhen the timer goes off, *stop*. Imperfect cue zones are better than perfect ones that don't exist.\n\n**Step 4: Consolidate—3-Sentence Summary (within 2 hours of Step 1)**\n\nNow write the Consolidate box. Close the Capture zone. Look only at the Cue zone. Write three sentences summarizing the *why* and *what*—not the details. This forces your brain to synthesize, not regurgitate.\n\n**Example workflow for a 1-hour biology lecture:**\n- During lecture: Lessonscriptor runs. You listen. (0 minutes of writing)\n- After lecture: Paste transcript into Capture zone. (5 minutes)\n- 2 hours later (or next morning): 25-minute Pomodoro in the Cue zone. (25 minutes)\n- Same day or next morning: Write the Consolidate box. (5 minutes)\n- Total time investment: 35 minutes per lecture\n- Total writing: ~10 minutes (plus the automatic transcript)\n\nThis workflow cuts note-taking time by 60–70% compared to handwriting, and retention improves because Lessonscriptor captures 100% of the content—not the 30% your hand can keep up with."
     },
     {
       "heading": "How do I download the free ADHD note-taking template?",
@@ -118,7 +123,12 @@
         "name": "course_level",
         "type": "select",
         "label": "Are you a high school, college, or graduate student?",
-        "options": ["High School", "College (Undergrad)", "Graduate/Professional", "Adult Learner"],
+        "options": [
+          "High School",
+          "College (Undergrad)",
+          "Graduate/Professional",
+          "Adult Learner"
+        ],
         "required": false
       }
     ],
@@ -144,10 +154,20 @@
         "image": "/images/adhd-note-taking-template-hero.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",
@@ -322,6 +342,11 @@
       "anchor": "Best AI Note-Taker for ADHD Students",
       "context": "Review of AI transcription tools for ADHD learners."
     },
+    "related_blog_3": {
+      "url": "/blog/how-to-transcribe-lecture-videos",
+      "anchor": "How to Transcribe Lecture Videos Automatically",
+      "context": "Step-by-step guide for automatic lecture transcription."
+    },
     "download": {
       "url": "/downloads/adhd-note-taking-template.pdf",
       "anchor": "Download the free template",
@@ -375,10 +400,27 @@
     "primary_keyword": "ADHD note taking template",
     "search_volume": "400–900/mo",
     "keyword_difficulty": "8–15",
-    "secondary_keywords": ["note taking template ADHD", "ADHD study template", "free ADHD template", "Cornell method ADHD"],
+    "secondary_keywords": [
+      "note taking template ADHD",
+      "ADHD study template",
+      "free ADHD template",
+      "Cornell method ADHD"
+    ],
     "intent": "Informational + download intent",
     "target_audience": "ADHD students, distance learners, accessibility users",
-    "entity_density": ["Lessonscriptor", "Cornell University", "Walter Pauk", "ADHD", "working memory", "CHADD", "ADDitude Magazine", "Anki", "Notion", "Pomodoro", "spaced repetition"],
+    "entity_density": [
+      "Lessonscriptor",
+      "Cornell University",
+      "Walter Pauk",
+      "ADHD",
+      "working memory",
+      "CHADD",
+      "ADDitude Magazine",
+      "Anki",
+      "Notion",
+      "Pomodoro",
+      "spaced repetition"
+    ],
     "content_goal": "Rank for primary keyword; generate leads via free template download; position Lessonscriptor as ADHD-friendly AI transcription tool",
     "internal_link_strategy": "Link from pillar page (/for-adhd-students), sister blog posts, and download page",
     "backlink_targets": "Reddit r/ADHD, r/GetStudying, r/college; ADDitude Magazine resource roundups; ADHD content creators; accessibility blogs"

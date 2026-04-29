@@ -26,9 +26,9 @@
     "caption": "为神经多样性大脑设计的学习工具"
   },
   "author": {
-    "name": "Lessonscriptor 编辑团队",
-    "bio": "由教育工作者和神经多样性学习者打造。我们研究跨越不同学习方式和无障碍需求的学习工具。我们的目标：让自助转录成为所有学生的标准。",
-    "expertise": "教育技术无障碍、高等教育中的神经多样性、辅助技术评估"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "headline": "5款解决神经多样性学习挑战的工具",
@@ -110,7 +110,7 @@
       "h2": "捕捉讲座内容的最佳神经多样性工具",
       "paragraphs": [
         "捕捉讲座内容可能是最高杠杆的学习问题。你试图同时听、理解和写——三个任务竞争有限的工作记忆。",
-        "**Lessonscriptor是此工具的最佳工具**，因为它在浏览器内实时转录任何视频、任何平台。你按下讲座视频、考试复习、在线模块或录制的网络研讨会上的播放，Lessonscriptor生成实时转录。无需设置、无需API密钥、无需预先录制安排——适用于YouTube、录制的Zoom、课程视频平台、任何在Chrome中播放视频的地方。",
+        "**Lessonscriptor是此工具的最佳工具**，因为它在浏览器内实时转录任何视频、任何平台。你按下讲座视频、考试复习、在线模块或录制的网络研讨会上的播放，Lessonscriptor生成实时转录。无需设置、无需API密钥、无需预先录制安排——适用于YouTube、录制的Zoom、课程视频平台、任何在Chrome中播放视频的地方。如需完整指南，请参阅<a href=\"/blog/how-to-transcribe-lecture-videos\">如何自动转录讲座视频</a>。",
         "这对神经多样性学生的重要性：",
         "- **对于ADHD：** 你可以不写地听。你的工作记忆自由用于理解，而不是转录。可搜索的转录意味着你以后可以找到关键术语，而无需重新观看整个讲座。",
         "- **对于阅读障碍：** 文本转录比试图破译你自己在讲座中的潦草笔迹或急匆匆的打字更容易重读和注释。",
@@ -380,10 +380,20 @@
         "image": "/images/neurodivergent-study-tools-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",
@@ -565,6 +575,7 @@
     "/zh/blog/best-chrome-extensions-adhd-students": "ADHD的Chrome扩展综述",
     "/zh/blog/adhd-university-accommodation-tech": "大学的住宿和辅助技术",
     "/zh/live-captions-chrome": "Chrome中的实时字幕（功能页面）",
-    "/zh/transcribe-video-to-text": "视频转录服务页面"
+    "/zh/transcribe-video-to-text": "视频转录服务页面",
+    "/blog/how-to-transcribe-lecture-videos": "Step-by-step automatic lecture transcription guide"
   }
 }

@@ -20,10 +20,9 @@
     "caption": "La configuración ideal: clase en un monitor, transcripción en vivo en el otro. Sin escribir. Enfoque total."
   },
   "author": {
-    "name": "Pierre Girardot",
-    "title": "Líder de SEO y Especialista en Aprendizaje con TDAH",
-    "bio": "Pierre lidera la estrategia de SEO y producto en Lessonscriptor. Trabaja con estudiantes, educadores y defensores de la accesibilidad para construir herramientas que eliminen la fricción cognitiva del aprendizaje. Su investigación se enfoca en cómo los cerebros con TDAH procesan la información de manera diferente en entornos en línea—y qué puede hacer la tecnología al respecto.",
-    "image_url": "/images/author/pierre-girardot.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "5 Victorias Rápidas para Mantenerte Enfocado en Clases en Línea con TDAH",
@@ -221,12 +220,20 @@
         },
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Person",
-          "name": "Pierre Girardot",
-          "jobTitle": "Líder de SEO y Especialista en Aprendizaje con TDAH",
-          "url": "https://lesionscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lesionscriptor",

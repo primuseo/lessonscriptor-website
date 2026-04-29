@@ -24,9 +24,9 @@
     "description_for_designer": "Warm, inclusive scene of a diverse student (wearing headphones, calm study environment) reviewing AI-transcribed notes on a laptop. Show the Lessonscriptor interface with highlighted notes and video playing side-by-side. Include study materials (notes, highlighters) on desk. Tone: approachable, focused, not clinical. Colors: cool blues and greens (calming for ADHD), modern UI elements."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The Lessonscriptor team includes educators, accessibility specialists, and ADHD researchers who are committed to making video note-taking accessible and friction-free. This guide has been reviewed by ADHD coaches and learning specialists."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -281,11 +281,20 @@
         "image": "/images/blog/best-ai-note-taker-adhd-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor Editorial Team",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

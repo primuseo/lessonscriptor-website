@@ -24,9 +24,9 @@
     "description_for_designer": "Scène chaleureuse et inclusive d'un étudiant diversifié (portant des écouteurs, environnement d'étude calme) examinant des notes transcrites par l'IA sur un ordinateur portable. Montrez l'interface de Lessonscriptor avec des notes surlignées et une vidéo en lecture côte à côte. Incluez du matériel d'étude (notes, surligneurs) sur le bureau. Ton : accessible, concentré, pas clinique. Couleurs : bleus et verts apaisants (calmants pour le TDAH), éléments d'interface modernes."
   },
   "author": {
-    "name": "Équipe éditoriale Lessonscriptor",
-    "url": "/about",
-    "bio": "L'équipe Lessonscriptor comprend des éducateurs, des spécialistes en accessibilité et des chercheurs en TDAH qui s'engagent à rendre la prise de notes vidéo accessible et sans friction. Ce guide a été examiné par des coachs TDAH et des spécialistes de l'apprentissage."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Points clés à retenir",
@@ -281,11 +281,20 @@
         "image": "/images/blog/best-ai-note-taker-adhd-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Équipe éditoriale Lessonscriptor",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

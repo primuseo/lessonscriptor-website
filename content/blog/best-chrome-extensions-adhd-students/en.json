@@ -24,9 +24,9 @@
     "description_for_designer": "Wide shot of a student at a desk with an open Chrome browser window. Show the toolbar with colorful extension icons (orange for Lessonscriptor, blue for Speechify, green for BlockSite, purple for Dark Reader, gray for Mercury Reader). The main content area shows a lecture video paused mid-play. The student is wearing headphones and taking handwritten notes. Lighting is warm and focused. Background is a modern study desk with minimalist aesthetic. Include some scattered study materials but keep the focus on the browser and extensions."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The Lessonscriptor team creates resources to help students capture, organize, and learn from any video. We partner with ADHD educators, accessibility advocates, and students to build tools that turn distraction into focus."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -247,11 +247,20 @@
         "image": "https://live-transcription-landing.vercel.app/images/blog/best-chrome-extensions-adhd-students-1200x630.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor Editorial Team",
-          "url": "https://live-transcription-landing.vercel.app/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",

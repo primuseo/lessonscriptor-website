@@ -24,9 +24,9 @@
     "description_for_designer": "Vue large d'un étudiant assis à un bureau avec une fenêtre Chrome ouverte. Montrez la barre d'outils avec des icônes d'extensions colorées (orange pour Lessonscriptor, bleu pour Speechify, vert pour BlockSite, violet pour Dark Reader, gris pour Mercury Reader). La zone de contenu principal montre une vidéo de cours mise en pause. L'étudiant porte des écouteurs et prend des notes manuscrites. L'éclairage est chaud et ciblé. L'arrière-plan est un bureau d'étude moderne avec une esthétique minimaliste. Incluez quelques matériels d'étude dispersés mais gardez l'accent sur le navigateur et les extensions."
   },
   "author": {
-    "name": "Équipe Éditoriale Lessonscriptor",
-    "url": "/about",
-    "bio": "L'équipe Lessonscriptor crée des ressources pour aider les étudiants à capturer, organiser et apprendre à partir de n'importe quelle vidéo. Nous collaborons avec des éducateurs ADHD, des militants pour l'accessibilité et des étudiants pour construire des outils qui transforment la distraction en concentration."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Points clés",
@@ -247,11 +247,20 @@
         "image": "https://live-transcription-landing.vercel.app/images/blog/best-chrome-extensions-adhd-students-1200x630.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Équipe Éditoriale Lessonscriptor",
-          "url": "https://live-transcription-landing.vercel.app/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",

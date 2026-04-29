@@ -19,10 +19,9 @@
     "caption": "La configuration idéale : le cours sur un écran, la transcription en direct sur l'autre. Pas d'écriture. Concentration totale."
   },
   "author": {
-    "name": "Pierre Girardot",
-    "title": "Responsable SEO & Spécialiste de l'apprentissage TDAH",
-    "bio": "Pierre dirige la stratégie SEO et produit chez Lessonscriptor. Il travaille avec des étudiants, des éducateurs et des défenseurs de l'accessibilité pour construire des outils qui éliminent les frictions cognitives de l'apprentissage. Ses recherches portent sur la manière dont les cerveaux TDAH traitent les informations différemment dans les environnements d'apprentissage en ligne et sur la façon dont la technologie peut intervenir.",
-    "image_url": "/images/author/pierre-girardot.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "5 solutions rapides pour rester concentré pendant les cours en ligne avec le TDAH",
@@ -220,12 +219,20 @@
         },
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Person",
-          "name": "Pierre Girardot",
-          "jobTitle": "Responsable SEO & Spécialiste de l'apprentissage TDAH",
-          "url": "https://lesionscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lesionscriptor",

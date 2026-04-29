@@ -646,9 +646,9 @@
     "readMore": "Ler mais"
   },
   "transcribeVideo": {
-    "h1": "Transcrever vídeo para texto — Grátis, no seu navegador",
-    "subtitle": "Converta qualquer vídeo em texto em tempo real com IA. Sem upload, sem espera, sem assinatura. Funciona diretamente no Chrome em qualquer plataforma de vídeo.",
-    "answer": "LessonScriptor é uma extensão gratuita do Chrome que transcreve qualquer vídeo para texto em tempo real — sem upload de arquivo, sem conta, sem assinatura. Abra qualquer vídeo no YouTube, Coursera, Udemy, Zoom ou em um portal universitário como Moodle, SIGAA ou AVA da sua instituição, clique em reproduzir, e a transcrição aparece em um painel lateral enquanto o áudio toca. O modo gratuito usa a API Web Speech e funciona imediatamente; o modo Premium usa um modelo de IA na nuvem para maior precisão com sotaques e vocabulário técnico.",
+    "h1": "Transcrever Vídeo em Texto — Grátis, no Chrome",
+    "subtitle": "Transcreva qualquer vídeo do YouTube, gravação de aula ou chamada Zoom em texto em tempo real. Sem upload, sem conta, sem assinatura. Direto no Chrome.",
+    "answer": "A forma mais rápida de transcrever vídeo em texto é o LessonScriptor — uma extensão Chrome gratuita que gera uma transcrição em tempo real enquanto o vídeo toca. Funciona no YouTube, Coursera, Udemy, Zoom e portais universitários como Moodle, Sigaa e AVA. O modo gratuito usa o Web Speech API (no dispositivo, privado); o modo Premium usa OpenAI Whisper para maior precisão com sotaques, vocabulário técnico e 14+ idiomas.",
     "useCases": {
       "title": "Que tipos de vídeos você pode transcrever para texto?",
       "items": [
@@ -675,7 +675,7 @@
       ]
     },
     "howItWorks": {
-      "title": "Como funciona a transcrição de vídeo para texto no Chrome?",
+      "title": "Como transcrever um vídeo em texto no Chrome",
       "subtitle": "Sem upload. Sem espera. Sem assinatura.",
       "steps": [
         {
@@ -698,16 +698,16 @@
     "faq": {
       "items": [
         {
-          "q": "Como transcrever um vídeo para texto de graça?",
-          "a": "Instale o LessonScriptor (extensão gratuita do Chrome). Abra qualquer vídeo no Chrome. Clique no ícone da extensão para abrir o painel lateral. Clique em reproduzir — a transcrição começa automaticamente. Exporte o texto quando terminar. O modo gratuito é gratuito para sempre sem cadastro."
+          "q": "Como transcrever um vídeo em texto de graça?",
+          "a": "Instale o LessonScriptor (extensão Chrome gratuita). Abra qualquer vídeo no Chrome. Clique no ícone da extensão para abrir o painel lateral. Aperte play — a transcrição começa automaticamente. Exporte o texto em Markdown. O modo gratuito é grátis para sempre sem cadastro."
         },
         {
           "q": "Posso converter um arquivo MP4 para texto?",
           "a": "Sim. Abra o arquivo MP4 no Chrome (arraste e solte em uma aba do Chrome, ou abra via Arquivo → Abrir), depois use o LessonScriptor para transcrevê-lo em tempo real durante a reprodução."
         },
         {
-          "q": "Qual é a ferramenta gratuita de transcrição de vídeo mais precisa?",
-          "a": "Para transcrição ao vivo no navegador, o modo Premium do LessonScriptor oferece a maior precisão usando um modelo de IA na nuvem. O modo gratuito usa a API Web Speech — preciso para conteúdo geral com áudio claro. Ambos estão disponíveis sem assinatura."
+          "q": "Qual a ferramenta mais precisa para transcrever vídeo em texto?",
+          "a": "O modo Premium do LessonScriptor é o mais preciso para transcrever vídeo em texto, graças ao OpenAI Whisper (treinado com 680.000 horas de áudio). O modo gratuito usa o Web Speech API — preciso para conteúdo geral com áudio claro. Ambos funcionam sem assinatura."
         },
         {
           "q": "Quanto tempo leva para transcrever um vídeo?",
@@ -727,8 +727,8 @@
         }
       ]
     },
-    "metaTitle": "Transcrever vídeo para texto grátis — ao vivo no Chrome",
-    "metaDesc": "Converta qualquer vídeo em texto em tempo real com IA. Sem upload, sem espera, sem assinatura. Funciona no Chrome em qualquer plataforma de vídeo.",
+    "metaTitle": "Transcrever Vídeo em Texto Grátis — ao Vivo no Chrome",
+    "metaDesc": "Transcreva qualquer vídeo em texto em tempo real com IA. Extensão Chrome gratuita — sem upload, sem conta, sem assinatura. +50 plataformas de vídeo.",
     "relatedHeading": "Saiba mais sobre transcrição de vídeo",
     "readMore": "Ler mais"
   },
@@ -863,7 +863,8 @@
       "all": "Todos",
       "readMore": "Leia mais",
       "minRead": "min de leitura"
-    }
+    },
+    "byAuthor": "Por {author}"
   },
   "contact": {
     "h1": "Fale conosco",

@@ -10,9 +10,19 @@
   "meta": {
     "title": "2026年ADHD学生最佳应用 — 免费和付费工具评测",
     "description": "12款基于证据的ADHD学生应用，涵盖笔记、专注力、任务管理和记忆。包括Lessonscriptor、Goblin Tools、Anki等。包含免费版本选项。",
-    "keywords": ["ADHD学生最佳应用", "ADHD学习应用", "ADHD学生应用", "2026年最佳ADHD应用", "ADHD组织应用"],
+    "keywords": [
+      "ADHD学生最佳应用",
+      "ADHD学习应用",
+      "ADHD学生应用",
+      "2026年最佳ADHD应用",
+      "ADHD组织应用"
+    ],
     "primary_keyword": "ADHD学生最佳应用",
-    "secondary_keywords": ["ADHD学习应用", "ADHD学生应用", "2026年最佳ADHD应用"],
+    "secondary_keywords": [
+      "ADHD学习应用",
+      "ADHD学生应用",
+      "2026年最佳ADHD应用"
+    ],
     "estimated_volume": "1500-3000/月",
     "keyword_difficulty": 28,
     "search_intent": "commercial_roundup"
@@ -25,9 +35,9 @@
     "caption": "最佳ADHD学生应用涵盖四个类别：捕获、专注、组织和复习。"
   },
   "author": {
-    "name": "Lessonscriptor编辑团队",
-    "bio": "Lessonscriptor编辑团队专门研究无障碍技术、学习科学和神经多样性学习工具。我们的评测基于来自ADDitude杂志、CHADD（儿童和成人ADHD组织）以及Russell Barkley博士关于工作记忆和执行功能的同行评审研究。",
-    "expertise_areas": ["ADHD研究", "无障碍技术", "间隔重复", "执行功能"]
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "速览 — 按类别分类的最佳ADHD应用",
@@ -414,20 +424,111 @@
     },
     {
       "type": "table",
-      "headers": ["应用名称", "类别", "免费版", "ADHD适配度（1-10）", "最适合", "平台"],
+      "headers": [
+        "应用名称",
+        "类别",
+        "免费版",
+        "ADHD适配度（1-10）",
+        "最适合",
+        "平台"
+      ],
       "rows": [
-        ["Lessonscriptor", "捕获", "是（无限）", "10", "任何视频转录", "Chrome"],
-        ["Otter.ai", "捕获", "是（每月300分钟）", "7", "会议加面对面讲座", "网页、iOS、Android"],
-        ["Coconote", "捕获", "是（每月3个文档）", "6", "AI生成的学习指南", "网页"],
-        ["Brain.fm", "专注", "是（每天1个会话）", "9", "神经科学支持的专注", "网页、iOS、Android、Spotify"],
-        ["Forest", "专注", "是（基本）", "8", "番茄工作法加游戏化", "网页、iOS、Android、Chrome"],
-        ["BlockSite", "专注", "是（20个块）", "7", "硬性拦截干扰", "Chrome、iOS、Android"],
-        ["Goblin Tools", "组织", "是（100%）", "10", "任务瘫痪→微步骤", "网页"],
-        ["Todoist", "组织", "是（无限）", "7", "任务跟踪加提醒", "网页、iOS、Android"],
-        ["Notion", "组织", "是（个人）", "8", "一站式中心", "网页、iOS、Android、桌面"],
-        ["Anki", "复习", "是（100%）", "8", "间隔重复掌握", "桌面、Android"],
-        ["Quizlet", "复习", "是（有限）", "7", "协作闪卡", "网页、iOS、Android"],
-        ["Tiimo", "一般健康", "是（仅日历）", "6", "ADHD设计的任务加习惯计划", "iOS、Android、网页"]
+        [
+          "Lessonscriptor",
+          "捕获",
+          "是（无限）",
+          "10",
+          "任何视频转录",
+          "Chrome"
+        ],
+        [
+          "Otter.ai",
+          "捕获",
+          "是（每月300分钟）",
+          "7",
+          "会议加面对面讲座",
+          "网页、iOS、Android"
+        ],
+        [
+          "Coconote",
+          "捕获",
+          "是（每月3个文档）",
+          "6",
+          "AI生成的学习指南",
+          "网页"
+        ],
+        [
+          "Brain.fm",
+          "专注",
+          "是（每天1个会话）",
+          "9",
+          "神经科学支持的专注",
+          "网页、iOS、Android、Spotify"
+        ],
+        [
+          "Forest",
+          "专注",
+          "是（基本）",
+          "8",
+          "番茄工作法加游戏化",
+          "网页、iOS、Android、Chrome"
+        ],
+        [
+          "BlockSite",
+          "专注",
+          "是（20个块）",
+          "7",
+          "硬性拦截干扰",
+          "Chrome、iOS、Android"
+        ],
+        [
+          "Goblin Tools",
+          "组织",
+          "是（100%）",
+          "10",
+          "任务瘫痪→微步骤",
+          "网页"
+        ],
+        [
+          "Todoist",
+          "组织",
+          "是（无限）",
+          "7",
+          "任务跟踪加提醒",
+          "网页、iOS、Android"
+        ],
+        [
+          "Notion",
+          "组织",
+          "是（个人）",
+          "8",
+          "一站式中心",
+          "网页、iOS、Android、桌面"
+        ],
+        [
+          "Anki",
+          "复习",
+          "是（100%）",
+          "8",
+          "间隔重复掌握",
+          "桌面、Android"
+        ],
+        [
+          "Quizlet",
+          "复习",
+          "是（有限）",
+          "7",
+          "协作闪卡",
+          "网页、iOS、Android"
+        ],
+        [
+          "Tiimo",
+          "一般健康",
+          "是（仅日历）",
+          "6",
+          "ADHD设计的任务加习惯计划",
+          "iOS、Android、网页"
+        ]
       ]
     },
     {
@@ -533,10 +634,20 @@
         "image": "/images/best-apps-adhd-students-2026-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor编辑团队"
-        }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ]
       }
     },
     {

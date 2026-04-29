@@ -10,7 +10,13 @@
   "meta": {
     "title": "Modèle gratuit de prise de notes pour le TDAH | Capturer + Créer des indices + Consolider",
     "description": "Téléchargez un modèle gratuit de prise de notes adapté au TDAH, inspiré de la méthode Cornell. Capturez avec Lessonscriptor. Révisez avec des indices. Consolidez en 3 phrases. Fonctionne avec n'importe quel cours vidéo.",
-    "keywords": ["modèle de prise de notes TDAH", "prise de notes modèle TDAH", "modèle d'étude TDAH", "méthode Cornell TDAH", "modèle de prise de notes gratuit"]
+    "keywords": [
+      "modèle de prise de notes TDAH",
+      "prise de notes modèle TDAH",
+      "modèle d'étude TDAH",
+      "méthode Cornell TDAH",
+      "modèle de prise de notes gratuit"
+    ]
   },
   "hero_image": {
     "url": "/images/adhd-note-taking-template-hero.jpg",
@@ -20,10 +26,9 @@
     "description": "Image héroïque : étudiant à son bureau avec un modèle imprimé, un ordinateur portable affichant la transcription de Lessonscriptor"
   },
   "author": {
-    "name": "Équipe éditoriale de Lessonscriptor",
-    "bio": "L'équipe éditoriale de Lessonscriptor recherche les stratégies de prise de notes et les outils d'apprentissage fondés sur des données probantes pour les étudiants neurodivergents. Ce modèle s'inspire de la recherche de l'Université Cornell, des stratégies d'apprentissage pour le TDAH du magazine ADDitude, et des commentaires réels de plus de 500 étudiants utilisant Lessonscriptor.",
-    "title": "Stratégie SEO et apprentissage",
-    "image": "/images/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "heading": "TL;DR : Votre modèle gratuit de prise de notes pour le TDAH",
@@ -53,7 +58,7 @@
       "heading": "Comment utiliser ce modèle de prise de notes TDAH avec Lessonscriptor ?",
       "level": 2,
       "type": "section",
-      "content": "Le flux de travail est simple et sensible au temps. Voici l'étape par étape :\n\n**Étape 1 : Pendant la conférence (Lessonscriptor fait le travail)**\n\nOuvrez Lessonscriptor et activez les sous-titres en direct dans Chrome. Appuyez sur enregistrer ou activez la transcription automatique—cela dépend de vos paramètres Lessonscriptor. Votre travail : écoutez et marquez occasionnellement les horodatages importants en tapant une note rapide (« important » ou « définir ») dans la barre latérale de transcription. C'est tout. Pas d'écriture manuscrite. Pas d'anxiété de prise de notes.\n\n**Étape 2 : Immédiatement après (5 minutes)**\n\nExportez ou copiez la transcription de Lessonscriptor. Collez-la dans la zone de capture de votre modèle (PDF, Notion ou imprimé). Parcourez-la une fois pour la précision (Lessonscriptor est ~95% précis, mais attraper les erreurs évidentes).\n\n**Étape 3 : Phase de révision—Pomodoro de 25 minutes (1–4 heures après la conférence)**\n\nDéfinissez une minuterie pour 25 minutes. Lisez la zone de capture avec un stylo. Au fur et à mesure que vous lisez :\n- Soulignez les termes clés dans la zone de création d'indices\n- Écrivez des questions à côté des concepts que vous ne comprenez pas\n- Tracez des flèches reliant les idées aux conférences précédentes\n- Ajoutez des mnémoniques ou des crochets de mémoire\n\nQuand la minuterie s'arrête, *arrêtez*. Les zones de création d'indices imparfaites sont mieux que les parfaites qui n'existent pas.\n\n**Étape 4 : Consolidation—Résumé de 3 phrases (dans les 2 heures suivant l'étape 1)**\n\nMaintenant, écrivez la zone de consolidation. Fermez la zone de capture. Regardez uniquement la zone de création d'indices. Écrivez trois phrases résumant le *pourquoi* et le *quoi*—pas les détails. Cela force votre cerveau à synthétiser, pas à régurgiter.\n\n**Exemple de flux de travail pour un cours de biologie d'une heure :**\n- Pendant la conférence : Lessonscriptor s'exécute. Vous écoutez. (0 minutes d'écriture)\n- Après la conférence : Collez la transcription dans la zone de capture. (5 minutes)\n- 2 heures après (ou le matin suivant) : Pomodoro de 25 minutes dans la zone de création d'indices. (25 minutes)\n- Le même jour ou le matin suivant : Écrivez la zone de consolidation. (5 minutes)\n- Investissement total : 35 minutes par conférence\n- Écriture totale : ~10 minutes (plus la transcription automatique)\n\nCe flux de travail réduit le temps de prise de notes de 60–70% par rapport à la rédaction manuscrite, et la rétention s'améliore car Lessonscriptor capture 100% du contenu—pas les 30% que votre main peut suivre."
+      "content": "Le flux de travail est simple et sensible au temps. Voici l'étape par étape :\n\n**Étape 1 : Pendant la conférence (Lessonscriptor fait le travail)**\n\nOuvrez Lessonscriptor et activez les sous-titres en direct dans Chrome. Appuyez sur enregistrer ou activez la transcription automatique—cela dépend de vos paramètres Lessonscriptor. Votre travail : écoutez et marquez occasionnellement les horodatages importants en tapant une note rapide (« important » ou « définir ») dans la barre latérale de transcription. C'est tout. Pas d'écriture manuscrite. Pas d'anxiété de prise de notes. (Nouveau dans la transcription ? Voir <a href=\"/blog/how-to-transcribe-lecture-videos\">comment transcrire automatiquement des vidéos de cours</a>.)\n\n**Étape 2 : Immédiatement après (5 minutes)**\n\nExportez ou copiez la transcription de Lessonscriptor. Collez-la dans la zone de capture de votre modèle (PDF, Notion ou imprimé). Parcourez-la une fois pour la précision (Lessonscriptor est ~95% précis, mais attraper les erreurs évidentes).\n\n**Étape 3 : Phase de révision—Pomodoro de 25 minutes (1–4 heures après la conférence)**\n\nDéfinissez une minuterie pour 25 minutes. Lisez la zone de capture avec un stylo. Au fur et à mesure que vous lisez :\n- Soulignez les termes clés dans la zone de création d'indices\n- Écrivez des questions à côté des concepts que vous ne comprenez pas\n- Tracez des flèches reliant les idées aux conférences précédentes\n- Ajoutez des mnémoniques ou des crochets de mémoire\n\nQuand la minuterie s'arrête, *arrêtez*. Les zones de création d'indices imparfaites sont mieux que les parfaites qui n'existent pas.\n\n**Étape 4 : Consolidation—Résumé de 3 phrases (dans les 2 heures suivant l'étape 1)**\n\nMaintenant, écrivez la zone de consolidation. Fermez la zone de capture. Regardez uniquement la zone de création d'indices. Écrivez trois phrases résumant le *pourquoi* et le *quoi*—pas les détails. Cela force votre cerveau à synthétiser, pas à régurgiter.\n\n**Exemple de flux de travail pour un cours de biologie d'une heure :**\n- Pendant la conférence : Lessonscriptor s'exécute. Vous écoutez. (0 minutes d'écriture)\n- Après la conférence : Collez la transcription dans la zone de capture. (5 minutes)\n- 2 heures après (ou le matin suivant) : Pomodoro de 25 minutes dans la zone de création d'indices. (25 minutes)\n- Le même jour ou le matin suivant : Écrivez la zone de consolidation. (5 minutes)\n- Investissement total : 35 minutes par conférence\n- Écriture totale : ~10 minutes (plus la transcription automatique)\n\nCe flux de travail réduit le temps de prise de notes de 60–70% par rapport à la rédaction manuscrite, et la rétention s'améliore car Lessonscriptor capture 100% du contenu—pas les 30% que votre main peut suivre."
     },
     {
       "heading": "Comment télécharger le modèle gratuit de prise de notes TDAH ?",
@@ -119,7 +124,12 @@
         "name": "course_level",
         "type": "select",
         "label": "Êtes-vous un étudiant du lycée, université ou cycle supérieur ?",
-        "options": ["Lycée", "Université (Licence)", "Cycle supérieur/Professionnel", "Apprenant adulte"],
+        "options": [
+          "Lycée",
+          "Université (Licence)",
+          "Cycle supérieur/Professionnel",
+          "Apprenant adulte"
+        ],
         "required": false
       }
     ],
@@ -145,10 +155,20 @@
         "image": "/images/adhd-note-taking-template-hero.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",
@@ -327,6 +347,11 @@
       "url": "/downloads/adhd-note-taking-template.pdf",
       "anchor": "Téléchargez le modèle gratuit",
       "context": "Lien direct au PDF imprimable et au modèle Notion."
+    },
+    "related_blog_3": {
+      "url": "/blog/how-to-transcribe-lecture-videos",
+      "anchor": "How to Transcribe Lecture Videos Automatically",
+      "context": "Step-by-step guide for automatic lecture transcription."
     }
   },
   "external_links": [
@@ -376,10 +401,27 @@
     "primary_keyword": "modèle de prise de notes TDAH",
     "search_volume": "400–900/mo",
     "keyword_difficulty": "8–15",
-    "secondary_keywords": ["prise de notes modèle TDAH", "modèle d'étude TDAH", "modèle TDAH gratuit", "méthode Cornell TDAH"],
+    "secondary_keywords": [
+      "prise de notes modèle TDAH",
+      "modèle d'étude TDAH",
+      "modèle TDAH gratuit",
+      "méthode Cornell TDAH"
+    ],
     "intent": "Informatif + intention de téléchargement",
     "target_audience": "Étudiants TDAH, apprenants à distance, utilisateurs d'accessibilité",
-    "entity_density": ["Lessonscriptor", "Université Cornell", "Walter Pauk", "TDAH", "mémoire de travail", "CHADD", "Magazine ADDitude", "Anki", "Notion", "Pomodoro", "répétition espacée"],
+    "entity_density": [
+      "Lessonscriptor",
+      "Université Cornell",
+      "Walter Pauk",
+      "TDAH",
+      "mémoire de travail",
+      "CHADD",
+      "Magazine ADDitude",
+      "Anki",
+      "Notion",
+      "Pomodoro",
+      "répétition espacée"
+    ],
     "content_goal": "Classer pour le mot-clé primaire ; générer des leads via le téléchargement gratuit du modèle ; positionner Lessonscriptor comme outil de transcription IA TDAH-friendly",
     "internal_link_strategy": "Lien depuis la page pilier (/for-adhd-students), articles de blog sœurs, et page de téléchargement",
     "backlink_targets": "Reddit r/ADHD, r/GetStudying, r/college ; arrondis de ressources du magazine ADDitude ; créateurs de contenu TDAH ; blogs d'accessibilité"

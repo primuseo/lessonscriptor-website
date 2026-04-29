@@ -101,6 +101,7 @@ export default async function BlogPostPage({
   params: { locale: string; slug: string }
 }) {
   unstable_setRequestLocale(locale)
+  const t = await getTranslations('blog')
   const canonical = getCanonicalSlug(slug, locale) || slug
   const post = getPost(canonical, locale)
   if (!post) notFound()
@@ -148,7 +149,7 @@ export default async function BlogPostPage({
           </h1>
           {post.author && (
             <p className="text-sm text-terra-800/50">
-              By {post.author.name}
+              {t('byAuthor', { author: post.author.name })}
             </p>
           )}
         </div>

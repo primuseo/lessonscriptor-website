@@ -10,7 +10,13 @@
   "meta": {
     "title": "Modelo Gratuito de Anotações para TDAH | Captura + Dica + Consolidação",
     "description": "Baixe um modelo gratuito de anotações adaptado do método Cornell para estudantes com TDAH. Capture com Lessonscriptor. Revise com dicas. Consolide em 3 frases. Funciona com qualquer aula em vídeo.",
-    "keywords": ["modelo de anotações TDAH", "anotações template TDAH", "modelo de estudo TDAH", "método Cornell TDAH", "modelo de anotações gratuito"]
+    "keywords": [
+      "modelo de anotações TDAH",
+      "anotações template TDAH",
+      "modelo de estudo TDAH",
+      "método Cornell TDAH",
+      "modelo de anotações gratuito"
+    ]
   },
   "hero_image": {
     "url": "/images/adhd-note-taking-template-hero.jpg",
@@ -20,10 +26,9 @@
     "description": "Imagem hero: estudante na mesa com modelo impresso, laptop mostrando transcrição Lessonscriptor"
   },
   "author": {
-    "name": "Equipe Editorial Lessonscriptor",
-    "bio": "A equipe editorial Lessonscriptor pesquisa ferramentas de anotação e aprendizagem baseadas em evidências para estudantes neurodivergentes. Este modelo se baseia na pesquisa da Universidade Cornell, nas estratégias de aprendizagem TDAH da Revista ADDitude e no feedback real de mais de 500 estudantes usando Lessonscriptor.",
-    "title": "SEO & Estratégia de Aprendizagem",
-    "image": "/images/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estuda Antropologia e convive com o TDAH — ela é a razão pela qual o LessonScriptor existe. Pierre desenvolve a extensão. Eles compartilham o que realmente funciona para estudantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "heading": "TL;DR: Seu Modelo Gratuito de Anotações para TDAH",
@@ -53,7 +58,7 @@
       "heading": "Como faço para usar este modelo de anotações para TDAH com Lessonscriptor?",
       "level": 2,
       "type": "section",
-      "content": "O fluxo de trabalho é simples e sensível ao tempo. Aqui está o passo a passo:\n\n**Passo 1: Durante a Aula (Lessonscriptor faz o trabalho)**\n\nAbra Lessonscriptor e ative legendas ao vivo no Chrome. Pressione gravar ou ative auto-transcrição—depende das suas configurações de Lessonscriptor. Seu trabalho: ouvir e ocasionalmente marcar timestamps importantes digitando uma nota rápida (\"importante\" ou \"definir\") na barra lateral da transcrição. Só isso. Sem escrita à mão. Sem ansiedade de anotações.\n\n**Passo 2: Imediatamente Depois (5 minutos)**\n\nExporte ou copie a transcrição do Lessonscriptor. Cole-a na zona de captura do seu modelo (PDF, Notion ou impresso). Leia-a uma vez para precisão (Lessonscriptor tem ~95% de precisão, mas pegue erros óbvios).\n\n**Passo 3: Fase de Revisão—Pomodoro de 25 minutos (1–4 horas após a aula)**\n\nDefina um temporizador para 25 minutos. Leia a zona de captura com uma caneta. Conforme lê:\n- Sublinhe termos-chave na zona de dicas\n- Escreva perguntas próximas a conceitos que você não entende\n- Desenhe setas ligando ideias a aulas anteriores\n- Adicione mnemônicos ou ganchos de memória\n\nQuando o temporizador toca, *pare*. Zonas de dicas imperfeitas são melhores que aquelas perfeitas que não existem.\n\n**Passo 4: Consolidação—Resumo de 3 frases (dentro de 2 horas do Passo 1)**\n\nAgora escreva a caixa de consolidação. Feche a zona de captura. Olhe apenas para a zona de dicas. Escreva três frases resumindo o *porquê* e *o quê*—não os detalhes. Isso força seu cérebro a sintetizar, não regurgitar.\n\n**Exemplo de fluxo de trabalho para uma aula de biologia de 1 hora:**\n- Durante aula: Lessonscriptor funciona. Você ouve. (0 minutos de escrita)\n- Após aula: Cole transcrição na zona de captura. (5 minutos)\n- 2 horas depois (ou manhã seguinte): Pomodoro de 25 minutos na zona de dicas. (25 minutos)\n- Mesmo dia ou manhã seguinte: Escreva a caixa de consolidação. (5 minutos)\n- Investimento total de tempo: 35 minutos por aula\n- Escrita total: ~10 minutos (mais a transcrição automática)\n\nEste fluxo de trabalho reduz o tempo de anotações em 60–70% comparado à escrita à mão, e a retenção melhora porque Lessonscriptor captura 100% do conteúdo—não os 30% que sua mão consegue acompanhar."
+      "content": "O fluxo de trabalho é simples e sensível ao tempo. Aqui está o passo a passo:\n\n**Passo 1: Durante a Aula (Lessonscriptor faz o trabalho)**\n\nAbra Lessonscriptor e ative legendas ao vivo no Chrome. Pressione gravar ou ative auto-transcrição—depende das suas configurações de Lessonscriptor. Seu trabalho: ouvir e ocasionalmente marcar timestamps importantes digitando uma nota rápida (\"importante\" ou \"definir\") na barra lateral da transcrição. Só isso. Sem escrita à mão. Sem ansiedade de anotações. (Novo em transcrição? Veja <a href=\"/blog/how-to-transcribe-lecture-videos\">como transcrever vídeos de aulas automaticamente</a>.)\n\n**Passo 2: Imediatamente Depois (5 minutos)**\n\nExporte ou copie a transcrição do Lessonscriptor. Cole-a na zona de captura do seu modelo (PDF, Notion ou impresso). Leia-a uma vez para precisão (Lessonscriptor tem ~95% de precisão, mas pegue erros óbvios).\n\n**Passo 3: Fase de Revisão—Pomodoro de 25 minutos (1–4 horas após a aula)**\n\nDefina um temporizador para 25 minutos. Leia a zona de captura com uma caneta. Conforme lê:\n- Sublinhe termos-chave na zona de dicas\n- Escreva perguntas próximas a conceitos que você não entende\n- Desenhe setas ligando ideias a aulas anteriores\n- Adicione mnemônicos ou ganchos de memória\n\nQuando o temporizador toca, *pare*. Zonas de dicas imperfeitas são melhores que aquelas perfeitas que não existem.\n\n**Passo 4: Consolidação—Resumo de 3 frases (dentro de 2 horas do Passo 1)**\n\nAgora escreva a caixa de consolidação. Feche a zona de captura. Olhe apenas para a zona de dicas. Escreva três frases resumindo o *porquê* e *o quê*—não os detalhes. Isso força seu cérebro a sintetizar, não regurgitar.\n\n**Exemplo de fluxo de trabalho para uma aula de biologia de 1 hora:**\n- Durante aula: Lessonscriptor funciona. Você ouve. (0 minutos de escrita)\n- Após aula: Cole transcrição na zona de captura. (5 minutos)\n- 2 horas depois (ou manhã seguinte): Pomodoro de 25 minutos na zona de dicas. (25 minutos)\n- Mesmo dia ou manhã seguinte: Escreva a caixa de consolidação. (5 minutos)\n- Investimento total de tempo: 35 minutos por aula\n- Escrita total: ~10 minutos (mais a transcrição automática)\n\nEste fluxo de trabalho reduz o tempo de anotações em 60–70% comparado à escrita à mão, e a retenção melhora porque Lessonscriptor captura 100% do conteúdo—não os 30% que sua mão consegue acompanhar."
     },
     {
       "heading": "Como faço para baixar o modelo gratuito de anotações para TDAH?",
@@ -119,7 +124,12 @@
         "name": "course_level",
         "type": "select",
         "label": "Você é estudante de ensino médio, graduação ou pós-graduação?",
-        "options": ["Ensino Médio", "Graduação", "Pós-graduação/Profissional", "Aprendiz Adulto"],
+        "options": [
+          "Ensino Médio",
+          "Graduação",
+          "Pós-graduação/Profissional",
+          "Aprendiz Adulto"
+        ],
         "required": false
       }
     ],
@@ -145,10 +155,20 @@
         "image": "/images/adhd-note-taking-template-hero.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",
@@ -327,6 +347,11 @@
       "url": "/downloads/adhd-note-taking-template.pdf",
       "anchor": "Baixar o modelo gratuito",
       "context": "Link direto para o PDF imprimível e modelo Notion."
+    },
+    "related_blog_3": {
+      "url": "/blog/how-to-transcribe-lecture-videos",
+      "anchor": "How to Transcribe Lecture Videos Automatically",
+      "context": "Step-by-step guide for automatic lecture transcription."
     }
   },
   "external_links": [
@@ -376,10 +401,27 @@
     "primary_keyword": "modelo de anotações TDAH",
     "search_volume": "400–900/mês",
     "keyword_difficulty": "8–15",
-    "secondary_keywords": ["anotações template TDAH", "modelo de estudo TDAH", "modelo TDAH gratuito", "método Cornell TDAH"],
+    "secondary_keywords": [
+      "anotações template TDAH",
+      "modelo de estudo TDAH",
+      "modelo TDAH gratuito",
+      "método Cornell TDAH"
+    ],
     "intent": "Informacional + intenção de download",
     "target_audience": "Estudantes com TDAH, aprendizes a distância, usuários de acessibilidade",
-    "entity_density": ["Lessonscriptor", "Universidade Cornell", "Walter Pauk", "TDAH", "memória de trabalho", "CHADD", "Revista ADDitude", "Anki", "Notion", "Pomodoro", "repetição espaçada"],
+    "entity_density": [
+      "Lessonscriptor",
+      "Universidade Cornell",
+      "Walter Pauk",
+      "TDAH",
+      "memória de trabalho",
+      "CHADD",
+      "Revista ADDitude",
+      "Anki",
+      "Notion",
+      "Pomodoro",
+      "repetição espaçada"
+    ],
     "content_goal": "Classificar para palavra-chave primária; gerar leads via download de modelo gratuito; posicionar Lessonscriptor como ferramenta de transcrição com IA amigável para TDAH",
     "internal_link_strategy": "Link da página pilar (/pt/for-adhd-students), posts de blog irmãos e página de download",
     "backlink_targets": "Reddit r/TDAH, r/GetStudying, r/college; roundups de recursos da Revista ADDitude; criadores de conteúdo TDAH; blogs de acessibilidade"

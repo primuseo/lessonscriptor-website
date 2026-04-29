@@ -25,9 +25,9 @@
     "description_for_designer": "Cena calorosa e inclusiva de um aluno diverso (usando fones de ouvido, ambiente de estudo calmo) revisando anotações transcritas por IA em um laptop. Mostrar a interface Lessonscriptor com anotações destacadas e vídeo tocando lado a lado. Incluir materiais de estudo (anotações, marcadores) na mesa. Tom: acessível, focado, não clínico. Cores: azuis e verdes calmos (acalmando para ADHD), elementos modernos da interface."
   },
   "author": {
-    "name": "Equipe Editorial Lessonscriptor",
-    "url": "/about",
-    "bio": "A equipe Lessonscriptor inclui educadores, especialistas em acessibilidade e pesquisadores de ADHD que se dedicam a tornar a anotação de vídeos acessível e sem atrito. Este guia foi revisado por treinadores de ADHD e especialistas em aprendizado."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estuda Antropologia e convive com o TDAH — ela é a razão pela qual o LessonScriptor existe. Pierre desenvolve a extensão. Eles compartilham o que realmente funciona para estudantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Pontos-chave",
@@ -282,11 +282,20 @@
         "image": "/images/blog/best-ai-note-taker-adhd-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Organization",
-          "name": "Equipe Editorial Lessonscriptor",
-          "url": "https://lessonscriptor.com/about"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

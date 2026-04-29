@@ -5,7 +5,6 @@
   "reading_time_min": 12,
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
-
   "meta": {
     "title": "How to Take Notes with ADHD: The Complete 2026 Guide | Lessonscriptor",
     "description": "Note-taking with ADHD is hard because your brain can't listen, understand, and write at lecture speed. Here's the fix — including the Chrome extension that removes writing from the equation entirely.",
@@ -15,7 +14,6 @@
     "og_description": "Live transcription removes the cognitive bottleneck that makes ADHD note-taking so hard. Here's how to use it — and 5 more strategies that actually work.",
     "twitter_card": "summary_large_image"
   },
-
   "hero_image": {
     "src": "/images/adhd-note-taking-guide-hero.png",
     "alt": "Student using live transcription in Chrome to take notes during an online lecture, with text appearing automatically in a side panel",
@@ -24,13 +22,11 @@
     "caption": null,
     "description_for_designer": "A student sitting at a desk in front of a laptop, watching a lecture video. A side panel shows live transcription appearing in real-time. The scene feels calm, focused, and modern — not stressful. Clean illustration style, blue/purple palette. Dimensions: 1200 × 630px minimum."
   },
-
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "Lessonscriptor is a Chrome extension built for students, distance learners, and professionals who need to capture content from any video without writing by hand. Our editorial team includes educators, learning specialists, and ADHD researchers who review all content for accuracy. This article was reviewed against current ADHD educational psychology literature and updated in April 2026."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
-
   "tldr": {
     "label": "Key takeaways",
     "lead": "The core problem: Note-taking with ADHD is hard because your brain cannot simultaneously listen, process meaning, and write at lecture speed — a three-way cognitive split that overwhelms working memory.",
@@ -41,9 +37,7 @@
       "Works on: YouTube lectures, Zoom recordings, university LMS platforms, Coursera, and any other video played in Chrome."
     ]
   },
-
   "intro": "Note-taking with ADHD is hard because your working memory cannot do three things at once — and traditional note-taking demands exactly that: listen to the lecturer, process what they mean, and write it down before the next sentence arrives. The most effective solution is not a better pen or a different notebook layout. It is removing the writing task from the equation entirely through live transcription. Tools like Lessonscriptor, a Chrome extension that transcribes any video in real time, make this possible for free — without a subscription, without an app install, and without requiring approval from a university disability office.",
-
   "stats": [
     {
       "number": "1 in 12",
@@ -58,7 +52,6 @@
       "label": "of ADHD students say note-taking is their biggest academic challenge"
     }
   ],
-
   "sections": [
     {
       "id": "why-hard",
@@ -87,7 +80,12 @@
         {
           "h3": "1. Live transcription (highest impact)",
           "body": "Live transcription is the single highest-impact change an ADHD student can make to their note-taking workflow. By automatically capturing everything said in a lecture, it eliminates the writing task entirely — the student listens and understands, while the software transcribes. Lessonscriptor (/for-adhd-students) is the only Chrome extension that does this for any video, not just meetings.",
-          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+          "internal_links": [
+            {
+              "text": "Lessonscriptor",
+              "href": "/for-adhd-students"
+            }
+          ]
         },
         {
           "h3": "2. Pomodoro technique for review sessions",
@@ -100,17 +98,35 @@
         {
           "h3": "4. Active recall with spaced repetition",
           "body": "Passive re-reading of notes is less effective for any student, and especially for ADHD brains that need novelty to sustain attention. Anki (apps.ankiweb.net), a free spaced repetition flashcard app, converts notes into active recall questions reviewed at intervals calibrated for long-term retention. A 2021 meta-analysis in Psychological Bulletin found spaced practice produced significantly larger memory gains than massed practice across all subject areas.",
-          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+          "links": [
+            {
+              "text": "Anki",
+              "href": "https://apps.ankiweb.net/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "5. Mindmapping for visual learners",
           "body": "Some ADHD students retain information better visually than linearly. Converting lecture transcripts into mind maps — using tools like MindMeister or even paper — creates a spatial representation of relationships between concepts that is easier to recall than bullet points.",
-          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+          "links": [
+            {
+              "text": "MindMeister",
+              "href": "https://www.mindmeister.com/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "6. Noise management during review",
           "body": "Brain.fm uses functional music engineered to engage the attentional system, and a 2024 study found it significantly improved performance on attention tasks in people with higher self-reported ADHD symptoms. Low-fi playlists, brown noise, or nature sounds serve the same purpose for many students. The key is consistent cue: the same sound environment signals 'review time' and reduces task-switching friction.",
-          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+          "links": [
+            {
+              "text": "Brain.fm",
+              "href": "https://www.brain.fm/",
+              "external": true
+            }
+          ]
         }
       ],
       "callout": {
@@ -133,8 +149,16 @@
         "description_for_designer": "Product screenshot showing Lessonscriptor running alongside a lecture video in Chrome. The panel shows real-time transcription text appearing on the right side, with the video on the left. Show the highlight and export buttons visible in the panel."
       },
       "links": [
-        { "text": "Live captions in Chrome", "href": "/live-captions-chrome", "external": false },
-        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+        {
+          "text": "Live captions in Chrome",
+          "href": "/live-captions-chrome",
+          "external": false
+        },
+        {
+          "text": "Otter.ai",
+          "href": "https://otter.ai/",
+          "external": true
+        }
       ]
     },
     {
@@ -169,38 +193,83 @@
       "body": "The best note-taking tools for ADHD students in 2026 cover three functions: capture (getting information into notes), organization (structuring what you have), and review (retaining it long-term). No single tool does all three well. The optimal stack combines one tool per function.",
       "table": {
         "caption": "ADHD note-taking tool comparison 2026",
-        "headers": ["Tool", "Best for", "Works on video?", "Free tier?", "ADHD fit"],
+        "headers": [
+          "Tool",
+          "Best for",
+          "Works on video?",
+          "Free tier?",
+          "ADHD fit"
+        ],
         "rows": [
           {
-            "cells": ["Lessonscriptor", "Live transcription of any video in Chrome", "✓ Any Chrome video", "✓ Free forever", "★★★★★"],
+            "cells": [
+              "Lessonscriptor",
+              "Live transcription of any video in Chrome",
+              "✓ Any Chrome video",
+              "✓ Free forever",
+              "★★★★★"
+            ],
             "highlight": true,
             "badge": "Editor's Pick"
           },
           {
-            "cells": ["Otter.ai", "In-person meeting transcription", "△ Meetings only", "✓ 300 min/mo", "★★★☆☆"],
+            "cells": [
+              "Otter.ai",
+              "In-person meeting transcription",
+              "△ Meetings only",
+              "✓ 300 min/mo",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Genio Notes", "AI-enhanced note structuring", "✗ No live transcription", "△ Trial only", "★★★☆☆"],
+            "cells": [
+              "Genio Notes",
+              "AI-enhanced note structuring",
+              "✗ No live transcription",
+              "△ Trial only",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Notion", "Organizing and linking notes across subjects", "✗ Not a capture tool", "✓ Free personal", "★★★☆☆"],
+            "cells": [
+              "Notion",
+              "Organizing and linking notes across subjects",
+              "✗ Not a capture tool",
+              "✓ Free personal",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Anki", "Spaced repetition review of captured notes", "✗ Review only", "✓ Fully free", "★★★★☆"],
+            "cells": [
+              "Anki",
+              "Spaced repetition review of captured notes",
+              "✗ Review only",
+              "✓ Fully free",
+              "★★★★☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Goblin Tools", "Breaking overwhelming tasks into micro-steps", "✗ Task management", "✓ Free", "★★★★☆"],
+            "cells": [
+              "Goblin Tools",
+              "Breaking overwhelming tasks into micro-steps",
+              "✗ Task management",
+              "✓ Free",
+              "★★★★☆"
+            ],
             "highlight": false
           }
         ]
       },
       "body_after_table": "For ADHD students whose lectures are primarily on YouTube or a university video platform, Lessonscriptor is the only tool in this list that works directly inside the browser on any video. For students whose main challenge is in-person lectures or team meetings, Otter.ai covers that gap well — the two tools complement each other. For YouTube video lectures specifically, see the detailed guide on how to transcribe YouTube videos (/transcribe-youtube-video).",
       "internal_links": [
-        { "text": "how to transcribe YouTube videos", "href": "/transcribe-youtube-video" }
+        {
+          "text": "how to transcribe YouTube videos",
+          "href": "/transcribe-youtube-video"
+        }
       ]
     },
     {
@@ -223,18 +292,19 @@
         "type": "tip",
         "label": "For distance learners",
         "body": "If your lectures are pre-recorded (common in online or hybrid courses), you can pause, rewind, and re-transcribe any section with Lessonscriptor — an advantage in-person note-taking never offers. Use the pause to process what you just heard before moving on. See the full guide on Lessonscriptor for ADHD students (/for-adhd-students) for platform-specific tips.",
-        "internal_link": { "text": "Lessonscriptor for ADHD students", "href": "/for-adhd-students" }
+        "internal_link": {
+          "text": "Lessonscriptor for ADHD students",
+          "href": "/for-adhd-students"
+        }
       }
     }
   ],
-
   "cta": {
     "heading": "Try live transcription on your next lecture — free",
     "body": "Lessonscriptor works on YouTube, Zoom, Canvas, Coursera, and any other video in Chrome. No subscription. No sign-up required to start.",
     "button_label": "Add to Chrome — it's free",
     "button_href": "https://chrome.google.com/webstore"
   },
-
   "faq": {
     "section_title": "Frequently asked questions",
     "items": [
@@ -264,13 +334,16 @@
       }
     ]
   },
-
   "summary": {
     "heading": "Summary: the ADHD note-taking system that works",
     "body": "Note-taking with ADHD fails when it demands simultaneous listening, processing, and writing — a cognitive task that overloads working memory by design. The structural fix is to separate capture from review. Use live transcription (Lessonscriptor) during the lecture to capture everything automatically. Use the Pomodoro technique to review the transcript in focused 25-minute blocks. Convert key points into Anki flashcards for spaced-repetition retention.\n\nThis system is not a workaround — it is a better workflow than traditional note-taking for almost any learner. For ADHD students, it is transformative: it removes the bottleneck, closes the gaps that attention lapses create, and produces complete, searchable notes from every lecture without a single moment of writing during the video itself.\n\nStart with the free tier of Lessonscriptor (/for-adhd-students). Add Anki the same week. You will notice the difference within one or two lectures.",
-    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+    "internal_links": [
+      {
+        "text": "Lessonscriptor",
+        "href": "/for-adhd-students"
+      }
+    ]
   },
-
   "schemas": [
     {
       "type": "Article",
@@ -279,11 +352,20 @@
       "image": "/images/adhd-note-taking-guide-og.png",
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
-      "author": {
-        "type": "Person",
-        "name": "Lessonscriptor Editorial Team",
-        "url": "/transcribe-video-to-text"
-      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "publisher": {
         "type": "Organization",
         "name": "Lessonscriptor",
@@ -303,11 +385,31 @@
       "description": "A step-by-step guide to using the Lessonscriptor Chrome extension to automatically transcribe lectures for ADHD students.",
       "totalTime": "PT5M",
       "steps": [
-        { "position": 1, "name": "Install Lessonscriptor", "text": "Go to the Chrome Web Store and search for Lessonscriptor, or visit the Lessonscriptor website. Click 'Add to Chrome' and confirm the installation." },
-        { "position": 2, "name": "Open your lecture video", "text": "Navigate to your lecture on any platform: YouTube, Zoom recording, university LMS (Canvas, Moodle, Blackboard), Coursera, or any other video played in Chrome." },
-        { "position": 3, "name": "Activate the extension", "text": "Click the Lessonscriptor icon in your Chrome toolbar. A transcription panel will open alongside the video." },
-        { "position": 4, "name": "Start transcription", "text": "Press the 'Start' button in the Lessonscriptor panel. The extension will begin capturing and transcribing audio from the video in real time." },
-        { "position": 5, "name": "Review and export your notes", "text": "After the lecture, review the transcript in the panel. Highlight key sections, add annotations, and export to text or PDF." }
+        {
+          "position": 1,
+          "name": "Install Lessonscriptor",
+          "text": "Go to the Chrome Web Store and search for Lessonscriptor, or visit the Lessonscriptor website. Click 'Add to Chrome' and confirm the installation."
+        },
+        {
+          "position": 2,
+          "name": "Open your lecture video",
+          "text": "Navigate to your lecture on any platform: YouTube, Zoom recording, university LMS (Canvas, Moodle, Blackboard), Coursera, or any other video played in Chrome."
+        },
+        {
+          "position": 3,
+          "name": "Activate the extension",
+          "text": "Click the Lessonscriptor icon in your Chrome toolbar. A transcription panel will open alongside the video."
+        },
+        {
+          "position": 4,
+          "name": "Start transcription",
+          "text": "Press the 'Start' button in the Lessonscriptor panel. The extension will begin capturing and transcribing audio from the video in real time."
+        },
+        {
+          "position": 5,
+          "name": "Review and export your notes",
+          "text": "After the lecture, review the transcript in the panel. Highlight key sections, add annotations, and export to text or PDF."
+        }
       ]
     },
     {
@@ -317,13 +419,24 @@
     {
       "type": "BreadcrumbList",
       "items": [
-        { "position": 1, "name": "Home", "item": "/" },
-        { "position": 2, "name": "Blog", "item": "/blog" },
-        { "position": 3, "name": "How to Take Notes with ADHD", "item": "/blog/how-to-take-notes-with-adhd" }
+        {
+          "position": 1,
+          "name": "Home",
+          "item": "/"
+        },
+        {
+          "position": 2,
+          "name": "Blog",
+          "item": "/blog"
+        },
+        {
+          "position": 3,
+          "name": "How to Take Notes with ADHD",
+          "item": "/blog/how-to-take-notes-with-adhd"
+        }
       ]
     }
   ],
-
   "sources": [
     {
       "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
@@ -354,14 +467,25 @@
       "external": true
     }
   ],
-
   "internal_links_map": {
     "pillar": "/for-adhd-students",
     "related_posts": [
-      { "label": "Best AI note takers for ADHD", "href": "/blog/best-ai-note-taker-adhd" },
-      { "label": "Best Chrome extensions for ADHD students", "href": "/blog/best-chrome-extensions-adhd-students" },
-      { "label": "How to transcribe YouTube videos", "href": "/transcribe-youtube-video" },
-      { "label": "Live captions in Chrome", "href": "/live-captions-chrome" }
+      {
+        "label": "Best AI note takers for ADHD",
+        "href": "/blog/best-ai-note-taker-adhd"
+      },
+      {
+        "label": "Best Chrome extensions for ADHD students",
+        "href": "/blog/best-chrome-extensions-adhd-students"
+      },
+      {
+        "label": "How to transcribe YouTube videos",
+        "href": "/transcribe-youtube-video"
+      },
+      {
+        "label": "Live captions in Chrome",
+        "href": "/live-captions-chrome"
+      }
     ]
   }
 }

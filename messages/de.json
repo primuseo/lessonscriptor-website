@@ -646,9 +646,9 @@
     "readMore": "Mehr lesen"
   },
   "transcribeVideo": {
-    "h1": "Video in Text transkribieren — Kostenlos, in Ihrem Browser",
-    "subtitle": "Konvertieren Sie jedes Video mit KI in Echtzeit in Text. Kein Upload, kein Warten, kein Abo. Funktioniert direkt in Chrome auf jeder Videoplattform.",
-    "answer": "LessonScriptor ist eine kostenlose Chrome-Erweiterung, die jedes Video in Echtzeit in Text transkribiert — ohne Datei-Upload, ohne Konto, ohne Abonnement. Öffnen Sie ein Video auf YouTube, Coursera, Udemy, Zoom oder einem Hochschulportal wie Moodle, ILIAS oder Stud.IP, drücken Sie auf Abspielen, und die Transkription erscheint in einem Seitenpanel, während das Audio läuft. Der kostenlose Modus nutzt die Web Speech API und funktioniert sofort; der Premium-Modus verwendet ein KI-Cloudmodell für höhere Genauigkeit bei Akzenten und Fachvokabular.",
+    "h1": "Video in Text Umwandeln — Kostenlos, in Chrome",
+    "subtitle": "Wandeln Sie jedes YouTube-Video, jede Vorlesungsaufnahme oder jeden Zoom-Anruf in Echtzeit in Text um. Kein Upload, kein Konto, kein Abo. Direkt in Chrome.",
+    "answer": "Der schnellste Weg, ein Video in Text umzuwandeln, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die in Echtzeit ein Transkript erzeugt, während das Video abgespielt wird. Funktioniert auf YouTube, Coursera, Udemy, Zoom und Hochschulportalen wie Moodle, ILIAS und Stud.IP. Der kostenlose Modus nutzt die Web Speech API (auf dem Gerät, privat); der Premium-Modus nutzt OpenAI Whisper für höhere Genauigkeit bei Akzenten, Fachvokabular und 14+ Sprachen.",
     "useCases": {
       "title": "Welche Videotypen können Sie in Text transkribieren?",
       "items": [
@@ -675,7 +675,7 @@
       ]
     },
     "howItWorks": {
-      "title": "Wie funktioniert die Video-zu-Text-Transkription in Chrome?",
+      "title": "So wandeln Sie ein Video in Text um — in Chrome",
       "subtitle": "Kein Upload. Kein Warten. Kein Abo.",
       "steps": [
         {
@@ -698,16 +698,16 @@
     "faq": {
       "items": [
         {
-          "q": "Wie transkribiere ich ein Video kostenlos in Text?",
-          "a": "Installieren Sie LessonScriptor (kostenlose Chrome-Erweiterung). Öffnen Sie ein beliebiges Video in Chrome. Klicken Sie auf das Erweiterungssymbol, um das Seitenpanel zu öffnen. Drücken Sie Abspielen — die Transkription startet automatisch. Exportieren Sie den Text, wenn Sie fertig sind. Der kostenlose Modus ist dauerhaft kostenlos ohne Anmeldung."
+          "q": "Wie kann ich ein Video kostenlos in Text umwandeln?",
+          "a": "Installieren Sie LessonScriptor (kostenlose Chrome-Erweiterung). Öffnen Sie ein beliebiges Video in Chrome. Klicken Sie auf das Erweiterungssymbol, um das Seitenpanel zu öffnen. Drücken Sie Play — die Transkription startet automatisch. Exportieren Sie den Text als Markdown. Der kostenlose Modus ist dauerhaft kostenlos ohne Registrierung."
         },
         {
           "q": "Kann ich eine MP4-Datei in Text konvertieren?",
           "a": "Ja. Öffnen Sie die MP4-Datei in Chrome (per Drag-and-drop in einen Chrome-Tab oder über Datei → Öffnen), und verwenden Sie dann LessonScriptor, um sie in Echtzeit während der Wiedergabe zu transkribieren."
         },
         {
-          "q": "Was ist das genaueste kostenlose Video-Transkriptionswerkzeug?",
-          "a": "Für die Live-Transkription im Browser bietet der Premium-Modus von LessonScriptor die höchste Genauigkeit durch ein KI-Cloudmodell. Der kostenlose Modus nutzt die Web Speech API — genau für allgemeine Inhalte mit klarem Audio. Beide sind ohne Abonnement verfügbar."
+          "q": "Was ist das genaueste Tool, um ein Video in Text umzuwandeln?",
+          "a": "Der Premium-Modus von LessonScriptor ist am genauesten, um Videos in Text umzuwandeln, dank OpenAI Whisper (trainiert mit 680.000 Stunden Sprachdaten). Der kostenlose Modus nutzt die Web Speech API — genau für allgemeine Inhalte bei klarem Audio. Beide funktionieren ohne Abo."
         },
         {
           "q": "Wie lange dauert es, ein Video zu transkribieren?",
@@ -727,8 +727,8 @@
         }
       ]
     },
-    "metaTitle": "Video kostenlos in Text transkribieren — live in Chrome",
-    "metaDesc": "Konvertieren Sie jedes Video mit KI in Echtzeit in Text. Kein Upload, kein Warten, kein Abo. Funktioniert direkt in Chrome auf jeder Videoplattform.",
+    "metaTitle": "Video in Text Umwandeln Kostenlos — Live in Chrome",
+    "metaDesc": "Wandeln Sie jedes Video mit KI in Echtzeit in Text um. Kostenlose Chrome-Erweiterung — kein Upload, kein Konto, kein Abo. 50+ Videoplattformen.",
     "relatedHeading": "Mehr über Video-Transkription erfahren",
     "readMore": "Mehr lesen"
   },
@@ -863,7 +863,8 @@
       "all": "Alle",
       "readMore": "Weiterlesen",
       "minRead": "Min. Lesezeit"
-    }
+    },
+    "byAuthor": "Von {author}"
   },
   "contact": {
     "h1": "Kontakt",

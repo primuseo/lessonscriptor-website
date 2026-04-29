@@ -646,9 +646,9 @@
     "readMore": "阅读更多"
   },
   "transcribeVideo": {
-    "h1": "视频转文字——免费，在浏览器中直接使用",
-    "subtitle": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。",
-    "answer": "LessonScriptor是一款免费的Chrome扩展程序，可实时将任意视频转录为文字——无需上传文件、无需账号、无需订阅。在YouTube、Coursera、Udemy、Zoom或超星学习通、雨课堂等高校学习平台上打开任意视频，点击播放，转录内容即在侧边栏中随音频同步显示。免费模式使用Web Speech API，立即可用；高级模式使用云端AI模型，在口音识别和专业词汇方面精度更高。",
+    "h1": "视频转文字——免费，Chrome 实时转录",
+    "subtitle": "实时将任意YouTube视频、课程录像或Zoom通话转为文字。无需上传、无需账号、无需订阅。直接在Chrome中使用。",
+    "answer": "最快的视频转文字方法是使用LessonScriptor——一款免费的Chrome扩展程序，在视频播放时实时生成文字转录。适用于YouTube、Coursera、Udemy、Zoom以及超星学习通、雨课堂等高校学习平台。免费模式使用Web Speech API（本地处理，保护隐私）；高级模式使用OpenAI Whisper，在口音、专业词汇和14+种语言方面精度更高。",
     "useCases": {
       "title": "您可以将哪些类型的视频转录为文字？",
       "items": [
@@ -675,7 +675,7 @@
       ]
     },
     "howItWorks": {
-      "title": "Chrome中的视频转文字是如何工作的？",
+      "title": "如何在Chrome中将视频转文字",
       "subtitle": "无需上传。无需等待。无需订阅。",
       "steps": [
         {
@@ -698,16 +698,16 @@
     "faq": {
       "items": [
         {
-          "q": "如何免费将视频转录为文字？",
-          "a": "安装LessonScriptor（免费Chrome扩展）。在Chrome中打开任意视频。点击扩展图标打开侧边栏。点击播放——转录自动开始。完成后导出文字。免费模式永久免费，无需注册。"
+          "q": "如何免费将视频转文字？",
+          "a": "安装LessonScriptor（免费Chrome扩展）。在Chrome中打开任意视频。点击扩展图标打开侧边栏。播放视频——转录自动开始。将文字导出为Markdown。免费模式永久免费，无需注册。"
         },
         {
           "q": "我可以将MP4文件转换为文字吗？",
           "a": "可以。在Chrome中打开MP4文件（拖放到Chrome标签页，或通过文件→打开），然后使用LessonScriptor在播放时实时转录。"
         },
         {
-          "q": "哪款免费视频转录工具最准确？",
-          "a": "对于浏览器内的实时转录，LessonScriptor的高级模式通过云端AI模型提供最高精度。免费模式使用Web Speech API——适用于音频清晰的一般内容。两种模式均无需订阅即可使用。"
+          "q": "哪个视频转文字工具最准确？",
+          "a": "LessonScriptor的高级模式是最准确的视频转文字工具，采用OpenAI Whisper（基于68万小时语音数据训练）。免费模式使用Web Speech API——对清晰音频的一般内容准确度高。两种模式均无需订阅。"
         },
         {
           "q": "转录一段视频需要多长时间？",
@@ -727,8 +727,8 @@
         }
       ]
     },
-    "metaTitle": "免费视频转文字——直接在 Chrome 中实时转录",
-    "metaDesc": "借助AI实时将任意视频转换为文字。无需上传，无需等待，无需订阅。直接在Chrome中适用于任意视频平台。",
+    "metaTitle": "视频转文字免费工具——Chrome 实时转录 | LessonScriptor",
+    "metaDesc": "借助AI实时将任意视频转为文字。免费Chrome扩展——无需上传、无需账号、无需订阅。支持50+视频平台。",
     "relatedHeading": "了解更多关于视频转录的内容",
     "readMore": "阅读更多"
   },
@@ -863,7 +863,8 @@
       "all": "全部",
       "readMore": "阅读更多",
       "minRead": "分钟阅读"
-    }
+    },
+    "byAuthor": "作者：{author}"
   },
   "contact": {
     "h1": "联系我们",

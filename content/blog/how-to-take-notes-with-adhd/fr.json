@@ -5,7 +5,6 @@
   "reading_time_min": 12,
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
-
   "meta": {
     "title": "Comment prendre des notes avec le TDAH : Le guide complet 2026 | Lessonscriptor",
     "description": "Prendre des notes avec le TDAH est difficile car votre cerveau ne peut pas écouter, comprendre et écrire à la vitesse du cours. Voici la solution — y compris l'extension Chrome qui élimine complètement l'écriture.",
@@ -15,7 +14,6 @@
     "og_description": "La transcription en direct élimine le goulot d'étranglement cognitif qui rend la prise de notes avec le TDAH si difficile. Voici comment l'utiliser — et 5 autres stratégies qui fonctionnent vraiment.",
     "twitter_card": "summary_large_image"
   },
-
   "hero_image": {
     "src": "/images/adhd-note-taking-guide-hero.png",
     "alt": "Étudiante utilisant la transcription en direct dans Chrome pour prendre des notes pendant un cours en ligne, le texte apparaissant automatiquement dans un panneau latéral",
@@ -24,13 +22,11 @@
     "caption": null,
     "description_for_designer": "Une étudiante assise à un bureau devant un ordinateur portable, regardant un cours. Un panneau latéral affiche la transcription en direct en temps réel. La scène se sent calme, concentrée et moderne — pas stressante. Style d'illustration épuré, palette bleu/violet. Dimensions : minimum 1200 × 630px."
   },
-
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/about",
-    "bio": "Lessonscriptor est une extension Chrome conçue pour les étudiants, les apprenants à distance et les professionnels qui ont besoin de capturer du contenu à partir de n'importe quelle vidéo sans écrire à la main. Notre équipe éditoriale comprend des éducateurs, des spécialistes de l'apprentissage et des chercheurs en TDAH qui examinent tout le contenu pour en vérifier l'exactitude. Cet article a été examiné par rapport à la littérature actuelle de la psychologie éducative du TDAH et mis à jour en avril 2026."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
-
   "tldr": {
     "label": "Points clés",
     "lead": "Le problème fondamental : Prendre des notes avec le TDAH est difficile car votre cerveau ne peut pas simultanément écouter, traiter la signification et écrire à la vitesse du cours — un dédoublement cognitif à trois niveaux qui surcharge la mémoire de travail.",
@@ -41,9 +37,7 @@
       "Fonctionne sur : Cours YouTube, enregistrements Zoom, plateformes LMS universitaires, Coursera, et toute autre vidéo lue dans Chrome."
     ]
   },
-
   "intro": "Prendre des notes avec le TDAH est difficile car votre mémoire de travail ne peut pas faire trois choses à la fois — et la prise de notes traditionnelle exige exactement cela : écouter le conférencier, traiter ce qu'il signifie, et l'écrire avant que la phrase suivante ne arrive. La solution la plus efficace n'est pas un meilleur stylo ou une mise en page de cahier différente. C'est d'éliminer complètement la tâche d'écriture par la transcription en direct. Des outils comme Lessonscriptor, une extension Chrome qui transcrit n'importe quelle vidéo en temps réel, rendent cela possible gratuitement — sans abonnement, sans installation d'application et sans approbation d'un bureau d'accessibilité universitaire.",
-
   "stats": [
     {
       "number": "1 sur 12",
@@ -58,7 +52,6 @@
       "label": "des étudiants atteints de TDAH disent que la prise de notes est leur plus grand défi académique"
     }
   ],
-
   "sections": [
     {
       "id": "why-hard",
@@ -87,7 +80,12 @@
         {
           "h3": "1. Transcription en direct (impact le plus élevé)",
           "body": "La transcription en direct est le changement d'impact le plus élevé qu'un étudiant atteint de TDAH puisse apporter à son flux de travail de prise de notes. En capturant automatiquement tout ce qui est dit dans un cours, elle élimine complètement la tâche d'écriture — l'étudiant écoute et comprend, tandis que le logiciel transcrit. Lessonscriptor (/for-adhd-students) est la seule extension Chrome qui le fait pour n'importe quelle vidéo, pas seulement les réunions.",
-          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+          "internal_links": [
+            {
+              "text": "Lessonscriptor",
+              "href": "/for-adhd-students"
+            }
+          ]
         },
         {
           "h3": "2. Technique Pomodoro pour les sessions de révision",
@@ -100,17 +98,35 @@
         {
           "h3": "4. Rappel actif avec répétition espacée",
           "body": "La relecture passive des notes est moins efficace pour tout étudiant, et particulièrement pour les cerveaux atteints de TDAH qui ont besoin de nouveauté pour maintenir l'attention. Anki (apps.ankiweb.net), une application de flashcards gratuite à répétition espacée, convertit les notes en questions de rappel actif révisées à des intervalles calibrés pour la rétention à long terme. Une méta-analyse de 2021 dans Psychological Bulletin a révélé que la pratique espacée produisait des gains de mémoire significativement plus importants que la pratique massed dans tous les domaines d'étude.",
-          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+          "links": [
+            {
+              "text": "Anki",
+              "href": "https://apps.ankiweb.net/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "5. Cartographie mentale pour les apprenants visuels",
           "body": "Certains étudiants atteints de TDAH retiennent mieux l'information visuellement que linéairement. Convertir les transcriptions de cours en cartes mentales — en utilisant des outils comme MindMeister ou même du papier — crée une représentation spatiale des relations entre les concepts qui est plus facile à rappeler que les points à puces.",
-          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+          "links": [
+            {
+              "text": "MindMeister",
+              "href": "https://www.mindmeister.com/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "6. Gestion du bruit pendant la révision",
           "body": "Brain.fm utilise la musique fonctionnelle conçue pour engager le système attentionnel, et une étude de 2024 a révélé qu'elle améliorait considérablement les performances sur les tâches d'attention chez les personnes ayant des symptômes de TDAH plus élevés. Les listes de lecture lo-fi, le bruit brun ou les sons de la nature servent le même but pour de nombreux étudiants. La clé est un signal constant : le même environnement sonore indique « l'heure de la révision » et réduit la friction du changement de tâche.",
-          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+          "links": [
+            {
+              "text": "Brain.fm",
+              "href": "https://www.brain.fm/",
+              "external": true
+            }
+          ]
         }
       ],
       "callout": {
@@ -133,8 +149,16 @@
         "description_for_designer": "Capture d'écran du produit montrant Lessonscriptor fonctionnant à côté d'une vidéo de cours dans Chrome. Le panneau affiche le texte de transcription en temps réel apparaissant sur le côté droit, avec la vidéo sur la gauche. Montrez les boutons de surlignage et d'exportation visibles dans le panneau."
       },
       "links": [
-        { "text": "Sous-titres en direct dans Chrome", "href": "/live-captions-chrome", "external": false },
-        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+        {
+          "text": "Sous-titres en direct dans Chrome",
+          "href": "/live-captions-chrome",
+          "external": false
+        },
+        {
+          "text": "Otter.ai",
+          "href": "https://otter.ai/",
+          "external": true
+        }
       ]
     },
     {
@@ -169,38 +193,83 @@
       "body": "Les meilleurs outils de prise de notes pour les étudiants atteints de TDAH en 2026 couvrent trois fonctions : la capture (mettre l'information dans les notes), l'organisation (structurer ce que vous avez) et la révision (la retenir à long terme). Aucun outil ne fait les trois bien. La pile optimale combine un outil par fonction.",
       "table": {
         "caption": "Comparaison des outils de prise de notes pour le TDAH 2026",
-        "headers": ["Outil", "Meilleur pour", "Fonctionne sur les vidéos ?", "Abonnement gratuit ?", "Adaptation au TDAH"],
+        "headers": [
+          "Outil",
+          "Meilleur pour",
+          "Fonctionne sur les vidéos ?",
+          "Abonnement gratuit ?",
+          "Adaptation au TDAH"
+        ],
         "rows": [
           {
-            "cells": ["Lessonscriptor", "Transcription en direct de n'importe quelle vidéo dans Chrome", "✓ N'importe quelle vidéo Chrome", "✓ Gratuit pour toujours", "★★★★★"],
+            "cells": [
+              "Lessonscriptor",
+              "Transcription en direct de n'importe quelle vidéo dans Chrome",
+              "✓ N'importe quelle vidéo Chrome",
+              "✓ Gratuit pour toujours",
+              "★★★★★"
+            ],
             "highlight": true,
             "badge": "Choix de l'éditeur"
           },
           {
-            "cells": ["Otter.ai", "Transcription de réunion en personne", "△ Réunions seulement", "✓ 300 min/mo", "★★★☆☆"],
+            "cells": [
+              "Otter.ai",
+              "Transcription de réunion en personne",
+              "△ Réunions seulement",
+              "✓ 300 min/mo",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Genio Notes", "Structuration des notes améliorée par l'IA", "✗ Pas de transcription en direct", "△ Essai seulement", "★★★☆☆"],
+            "cells": [
+              "Genio Notes",
+              "Structuration des notes améliorée par l'IA",
+              "✗ Pas de transcription en direct",
+              "△ Essai seulement",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Notion", "Organisation et liaison des notes entre les sujets", "✗ Pas un outil de capture", "✓ Personnel gratuit", "★★★☆☆"],
+            "cells": [
+              "Notion",
+              "Organisation et liaison des notes entre les sujets",
+              "✗ Pas un outil de capture",
+              "✓ Personnel gratuit",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Anki", "Révision à répétition espacée des notes capturées", "✗ Révision seulement", "✓ Entièrement gratuit", "★★★★☆"],
+            "cells": [
+              "Anki",
+              "Révision à répétition espacée des notes capturées",
+              "✗ Révision seulement",
+              "✓ Entièrement gratuit",
+              "★★★★☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Goblin Tools", "Décomposer les tâches accablantes en micro-étapes", "✗ Gestion des tâches", "✓ Gratuit", "★★★★☆"],
+            "cells": [
+              "Goblin Tools",
+              "Décomposer les tâches accablantes en micro-étapes",
+              "✗ Gestion des tâches",
+              "✓ Gratuit",
+              "★★★★☆"
+            ],
             "highlight": false
           }
         ]
       },
       "body_after_table": "Pour les étudiants atteints de TDAH dont les cours sont principalement sur YouTube ou une plateforme vidéo universitaire, Lessonscriptor est le seul outil de cette liste qui fonctionne directement dans le navigateur sur n'importe quelle vidéo. Pour les étudiants dont le défi principal est les cours en direct ou les réunions d'équipe, Otter.ai couvre bien cet écart — les deux outils se complètent. Pour les cours vidéo YouTube spécifiquement, consultez le guide détaillé sur la transcription des vidéos YouTube (/transcribe-youtube-video).",
       "internal_links": [
-        { "text": "comment transcrire les vidéos YouTube", "href": "/transcribe-youtube-video" }
+        {
+          "text": "comment transcrire les vidéos YouTube",
+          "href": "/transcribe-youtube-video"
+        }
       ]
     },
     {
@@ -223,18 +292,19 @@
         "type": "tip",
         "label": "Pour les apprenants à distance",
         "body": "Si vos cours sont pré-enregistrés (courant dans les cours en ligne ou hybrides), vous pouvez mettre en pause, rembobiner et re-transcrire n'importe quelle section avec Lessonscriptor — un avantage que la prise de notes en direct n'offre jamais. Utilisez la pause pour traiter ce que vous venez d'entendre avant de passer. Consultez le guide complet sur Lessonscriptor pour les étudiants atteints de TDAH (/for-adhd-students) pour les conseils spécifiques à la plateforme.",
-        "internal_link": { "text": "Lessonscriptor pour les étudiants atteints de TDAH", "href": "/for-adhd-students" }
+        "internal_link": {
+          "text": "Lessonscriptor pour les étudiants atteints de TDAH",
+          "href": "/for-adhd-students"
+        }
       }
     }
   ],
-
   "cta": {
     "heading": "Essayez la transcription en direct sur votre prochain cours — gratuit",
     "body": "Lessonscriptor fonctionne sur YouTube, Zoom, Canvas, Coursera et toute autre vidéo dans Chrome. Pas d'abonnement. Pas d'inscription requise pour commencer.",
     "button_label": "Ajouter à Chrome — c'est gratuit",
     "button_href": "https://chrome.google.com/webstore"
   },
-
   "faq": {
     "section_title": "Questions fréquemment posées",
     "items": [
@@ -264,13 +334,16 @@
       }
     ]
   },
-
   "summary": {
     "heading": "Résumé : le système de prise de notes avec le TDAH qui fonctionne",
     "body": "La prise de notes avec le TDAH échoue quand elle demande une écoute, une compréhension et une écriture simultanées — une tâche cognitive qui surcharge la mémoire de travail par conception. La solution structurelle est de séparer la capture de la révision. Utilisez la transcription en direct (Lessonscriptor) pendant le cours pour tout capturer automatiquement. Utilisez la technique Pomodoro pour revoir la transcription en blocs de 25 minutes concentrés. Convertissez les points clés en cartes de flashcards Anki pour la rétention à répétition espacée.\n\nCe système n'est pas une solution de contournement — c'est un meilleur flux de travail que la prise de notes traditionnelle pour presque tout apprenant. Pour les étudiants atteints de TDAH, c'est transformateur : il élimine le goulot d'étranglement, comble les lacunes que les pauses d'attention créent, et produit des notes complètes et recherchables de chaque cours sans un seul moment d'écriture pendant la vidéo elle-même.\n\nCommencez avec la version gratuite de Lessonscriptor (/for-adhd-students). Ajoutez Anki la même semaine. Vous remarquerez la différence en un ou deux cours.",
-    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+    "internal_links": [
+      {
+        "text": "Lessonscriptor",
+        "href": "/for-adhd-students"
+      }
+    ]
   },
-
   "schemas": [
     {
       "type": "Article",
@@ -279,11 +352,20 @@
       "image": "/images/adhd-note-taking-guide-og.png",
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
-      "author": {
-        "type": "Person",
-        "name": "Lessonscriptor Editorial Team",
-        "url": "/about"
-      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "publisher": {
         "type": "Organization",
         "name": "Lessonscriptor",
@@ -303,11 +385,31 @@
       "description": "Un guide étape par étape pour utiliser l'extension Chrome Lessonscriptor pour transcrire automatiquement les cours pour les étudiants atteints de TDAH.",
       "totalTime": "PT5M",
       "steps": [
-        { "position": 1, "name": "Installer Lessonscriptor", "text": "Allez au Chrome Web Store et recherchez Lessonscriptor, ou visitez le site Web de Lessonscriptor. Cliquez sur « Ajouter à Chrome » et confirmez l'installation." },
-        { "position": 2, "name": "Ouvrez votre vidéo de cours", "text": "Accédez à votre cours sur n'importe quelle plateforme : YouTube, enregistrement Zoom, LMS universitaire (Canvas, Moodle, Blackboard), Coursera ou toute autre vidéo lue dans Chrome." },
-        { "position": 3, "name": "Activez l'extension", "text": "Cliquez sur l'icône Lessonscriptor dans votre barre d'outils Chrome. Un panneau de transcription s'ouvrira à côté de la vidéo." },
-        { "position": 4, "name": "Démarrer la transcription", "text": "Appuyez sur le bouton « Démarrer » dans le panneau Lessonscriptor. L'extension commencera à capturer et transcrire l'audio de la vidéo en temps réel." },
-        { "position": 5, "name": "Révisez et exportez vos notes", "text": "Après le cours, révisez la transcription dans le panneau. Mettez en évidence les sections clés, ajoutez des annotations et exportez en texte ou PDF." }
+        {
+          "position": 1,
+          "name": "Installer Lessonscriptor",
+          "text": "Allez au Chrome Web Store et recherchez Lessonscriptor, ou visitez le site Web de Lessonscriptor. Cliquez sur « Ajouter à Chrome » et confirmez l'installation."
+        },
+        {
+          "position": 2,
+          "name": "Ouvrez votre vidéo de cours",
+          "text": "Accédez à votre cours sur n'importe quelle plateforme : YouTube, enregistrement Zoom, LMS universitaire (Canvas, Moodle, Blackboard), Coursera ou toute autre vidéo lue dans Chrome."
+        },
+        {
+          "position": 3,
+          "name": "Activez l'extension",
+          "text": "Cliquez sur l'icône Lessonscriptor dans votre barre d'outils Chrome. Un panneau de transcription s'ouvrira à côté de la vidéo."
+        },
+        {
+          "position": 4,
+          "name": "Démarrer la transcription",
+          "text": "Appuyez sur le bouton « Démarrer » dans le panneau Lessonscriptor. L'extension commencera à capturer et transcrire l'audio de la vidéo en temps réel."
+        },
+        {
+          "position": 5,
+          "name": "Révisez et exportez vos notes",
+          "text": "Après le cours, révisez la transcription dans le panneau. Mettez en évidence les sections clés, ajoutez des annotations et exportez en texte ou PDF."
+        }
       ]
     },
     {
@@ -317,13 +419,24 @@
     {
       "type": "BreadcrumbList",
       "items": [
-        { "position": 1, "name": "Accueil", "item": "/" },
-        { "position": 2, "name": "Blog", "item": "/blog" },
-        { "position": 3, "name": "Comment prendre des notes avec le TDAH", "item": "/blog/how-to-take-notes-with-adhd" }
+        {
+          "position": 1,
+          "name": "Accueil",
+          "item": "/"
+        },
+        {
+          "position": 2,
+          "name": "Blog",
+          "item": "/blog"
+        },
+        {
+          "position": 3,
+          "name": "Comment prendre des notes avec le TDAH",
+          "item": "/blog/how-to-take-notes-with-adhd"
+        }
       ]
     }
   ],
-
   "sources": [
     {
       "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
@@ -354,14 +467,25 @@
       "external": true
     }
   ],
-
   "internal_links_map": {
     "pillar": "/for-adhd-students",
     "related_posts": [
-      { "label": "Meilleurs preneurs de notes IA pour le TDAH", "href": "/blog/best-ai-note-taker-adhd" },
-      { "label": "Meilleures extensions Chrome pour les étudiants atteints de TDAH", "href": "/blog/best-chrome-extensions-adhd-students" },
-      { "label": "Comment transcrire les vidéos YouTube", "href": "/transcribe-youtube-video" },
-      { "label": "Sous-titres en direct dans Chrome", "href": "/live-captions-chrome" }
+      {
+        "label": "Meilleurs preneurs de notes IA pour le TDAH",
+        "href": "/blog/best-ai-note-taker-adhd"
+      },
+      {
+        "label": "Meilleures extensions Chrome pour les étudiants atteints de TDAH",
+        "href": "/blog/best-chrome-extensions-adhd-students"
+      },
+      {
+        "label": "Comment transcrire les vidéos YouTube",
+        "href": "/transcribe-youtube-video"
+      },
+      {
+        "label": "Sous-titres en direct dans Chrome",
+        "href": "/live-captions-chrome"
+      }
     ]
   }
 }

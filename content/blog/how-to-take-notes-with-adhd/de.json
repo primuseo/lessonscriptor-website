@@ -5,7 +5,6 @@
   "reading_time_min": 12,
   "published_at": "2026-04-28",
   "updated_at": "2026-04-28",
-
   "meta": {
     "title": "Wie man mit ADHS Notizen macht: Der vollständige Leitfaden 2026 | Lessonscriptor",
     "description": "Notizen machen mit ADHS ist schwierig, weil Ihr Gehirn nicht gleichzeitig hören, verstehen und in Vorlesungsgeschwindigkeit schreiben kann. Hier ist die Lösung – einschließlich der Chrome-Erweiterung, die das Schreiben vollständig eliminiert.",
@@ -15,7 +14,6 @@
     "og_description": "Live-Transkription beseitigt den kognitiven Engpass, der das Notizenmachen mit ADHS so schwierig macht. Hier ist, wie man es verwendet – und 5 weitere Strategien, die tatsächlich funktionieren.",
     "twitter_card": "summary_large_image"
   },
-
   "hero_image": {
     "src": "/images/adhd-note-taking-guide-hero.png",
     "alt": "Student verwendet Live-Transkription in Chrome, um während eines Online-Vorlesungen Notizen zu machen, mit Text, der automatisch in einem Seitenpanel angezeigt wird",
@@ -24,13 +22,11 @@
     "caption": null,
     "description_for_designer": "Ein Student sitzt an einem Schreibtisch vor einem Laptop und schaut sich einen Vortrag an. Ein Seitenpanel zeigt Live-Transkription in Echtzeit. Die Szene wirkt ruhig, konzentriert und modern – nicht stressig. Sauberer Illustrationsstil, Blau-/Violettpalette. Mindestabmessungen: 1200 × 630px."
   },
-
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "url": "/about",
-    "bio": "Lessonscriptor ist eine Chrome-Erweiterung für Studenten, Fernlerner und Profis, die Inhalte aus beliebigen Videos erfassen müssen, ohne von Hand zu schreiben. Unser Editorial Team umfasst Pädagogen, Lernspezialisten und ADHS-Forscher, die alle Inhalte auf Genauigkeit überprüfen. Dieser Artikel wurde mit aktueller ADHS-Bildungspsychologie-Literatur überprüft und im April 2026 aktualisiert."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
-
   "tldr": {
     "label": "Wichtigste Erkenntnisse",
     "lead": "Das Kernproblem: Notizen machen mit ADHS ist schwierig, weil Ihr Gehirn nicht gleichzeitig hören, die Bedeutung verarbeiten und in Vorlesungsgeschwindigkeit schreiben kann – eine dreigeteilte kognitive Spaltung, die das Arbeitsgedächtnis überfordert.",
@@ -41,9 +37,7 @@
       "Funktioniert bei: YouTube-Vorlesungen, Zoom-Aufzeichnungen, Universitäts-LMS-Plattformen, Coursera und allen anderen Videos, die in Chrome abgespielt werden."
     ]
   },
-
   "intro": "Notizen machen mit ADHS ist schwierig, weil Ihr Arbeitsgedächtnis nicht drei Dinge gleichzeitig tun kann – und traditionelles Notizen machen erfordert genau das: auf den Dozenten hören, verstehen, was er meint, und es aufschreiben, bevor der nächste Satz kommt. Die effektivste Lösung ist nicht ein besserer Stift oder ein anderes Notizbuch-Layout. Es ist, die Schreibaufgabe durch Live-Transkription vollständig aus der Gleichung zu entfernen. Tools wie Lessonscriptor, eine Chrome-Erweiterung, die beliebige Videos in Echtzeit transkribiert, machen dies kostenlos möglich – ohne Abonnement, ohne App-Installation und ohne dass Sie die Genehmigung eines Universitätsbüros für Menschen mit Behinderungen benötigen.",
-
   "stats": [
     {
       "number": "1 von 12",
@@ -58,7 +52,6 @@
       "label": "von ADHS-Studenten sagen, dass Notizen machen ihre größte akademische Herausforderung ist"
     }
   ],
-
   "sections": [
     {
       "id": "why-hard",
@@ -87,7 +80,12 @@
         {
           "h3": "1. Live-Transkription (höchste Auswirkung)",
           "body": "Live-Transkription ist die einzelne Änderung mit der höchsten Auswirkung, die ein ADHS-Student in seinem Notizen-Workflow vornehmen kann. Durch die automatische Erfassung von allem, was in einer Vorlesung gesagt wird, beseitigt sie die Schreibaufgabe vollständig – der Student hört zu und versteht, während die Software transkribiert. Lessonscriptor (/for-adhd-students) ist die einzige Chrome-Erweiterung, die dies für beliebige Videos und nicht nur für Meetings tut.",
-          "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+          "internal_links": [
+            {
+              "text": "Lessonscriptor",
+              "href": "/for-adhd-students"
+            }
+          ]
         },
         {
           "h3": "2. Pomodoro-Technik für Überprüfungssitzungen",
@@ -100,17 +98,35 @@
         {
           "h3": "4. Aktiver Rückruf mit verteilter Wiederholung",
           "body": "Passives erneutes Lesen von Notizen ist für jeden Studenten weniger wirksam und besonders für ADHS-Gehirne, die Neuheit benötigen, um die Aufmerksamkeit zu halten. Anki (apps.ankiweb.net), eine kostenlose App für verteilte Wiederholung mit Karteikarten, konvertiert Notizen in aktive Rückruffragen, die in Abständen überprüft werden, die für langfristiges Behalten kalibriert sind. Eine 2021-Metaanalyse im Psychological Bulletin ergab, dass verteilte Praxis signifikant größere Gedächtnisstärken als konzentrierte Praxis in allen Themenbereichen erzeugte.",
-          "links": [{ "text": "Anki", "href": "https://apps.ankiweb.net/", "external": true }]
+          "links": [
+            {
+              "text": "Anki",
+              "href": "https://apps.ankiweb.net/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "5. Mind-Mapping für visuelle Lerner",
           "body": "Einige ADHS-Studenten behalten Informationen visuell besser als linear. Das Konvertieren von Vorlesungstranskripten in Mind Maps – mit Tools wie MindMeister oder sogar Papier – schafft eine räumliche Darstellung von Beziehungen zwischen Konzepten, die leichter zu merken ist als Aufzählungspunkte.",
-          "links": [{ "text": "MindMeister", "href": "https://www.mindmeister.com/", "external": true }]
+          "links": [
+            {
+              "text": "MindMeister",
+              "href": "https://www.mindmeister.com/",
+              "external": true
+            }
+          ]
         },
         {
           "h3": "6. Lärmmanagement während der Überprüfung",
           "body": "Brain.fm verwendet funktionelle Musik, die das Aufmerksamkeitssystem beeinflussit, und eine 2024-Studie ergab, dass sie die Leistung bei Aufmerksamkeitsaufgaben bei Menschen mit höheren selbst angegebenen ADHS-Symptomen erheblich verbesserte. Lo-Fi-Wiedergabelisten, brauner Lärm oder Naturgeräusche dienen vielen Studenten dem gleichen Zweck. Der Schlüssel ist konsistente Signalisierung: die gleiche Schallumgebung signalisiert \"Überprüfungszeit\" und reduziert Aufgabenwechsel-Reibung.",
-          "links": [{ "text": "Brain.fm", "href": "https://www.brain.fm/", "external": true }]
+          "links": [
+            {
+              "text": "Brain.fm",
+              "href": "https://www.brain.fm/",
+              "external": true
+            }
+          ]
         }
       ],
       "callout": {
@@ -133,8 +149,16 @@
         "description_for_designer": "Produktscreenshot mit Lessonscriptor neben einem Vorlesungsvideo in Chrome. Das Panel zeigt Echtzeit-Transkriptionstext, der auf der rechten Seite angezeigt wird, mit dem Video auf der linken Seite. Zeigen Sie die in dem Panel sichtbaren Hervorhebungs- und Exportschaltflächen."
       },
       "links": [
-        { "text": "Live-Untertitel in Chrome", "href": "/live-captions-chrome", "external": false },
-        { "text": "Otter.ai", "href": "https://otter.ai/", "external": true }
+        {
+          "text": "Live-Untertitel in Chrome",
+          "href": "/live-captions-chrome",
+          "external": false
+        },
+        {
+          "text": "Otter.ai",
+          "href": "https://otter.ai/",
+          "external": true
+        }
       ]
     },
     {
@@ -169,38 +193,83 @@
       "body": "Die besten Notizen-Tools für ADHS-Studenten 2026 decken drei Funktionen ab: Erfassung (Informationen in Notizen erhalten), Organisation (strukturieren, was Sie haben) und Überprüfung (es langfristig behalten). Kein einzelnes Tool macht alle drei gut. Der optimale Stack kombiniert ein Tool pro Funktion.",
       "table": {
         "caption": "Vergleich von ADHS-Notizen-Tools 2026",
-        "headers": ["Tool", "Beste für", "Funktioniert bei Video?", "Kostenlose Stufe?", "ADHS-Passform"],
+        "headers": [
+          "Tool",
+          "Beste für",
+          "Funktioniert bei Video?",
+          "Kostenlose Stufe?",
+          "ADHS-Passform"
+        ],
         "rows": [
           {
-            "cells": ["Lessonscriptor", "Live-Transkription beliebiger Videos in Chrome", "✓ Beliebiges Chrome-Video", "✓ Kostenlos für immer", "★★★★★"],
+            "cells": [
+              "Lessonscriptor",
+              "Live-Transkription beliebiger Videos in Chrome",
+              "✓ Beliebiges Chrome-Video",
+              "✓ Kostenlos für immer",
+              "★★★★★"
+            ],
             "highlight": true,
             "badge": "Wahl des Herausgebers"
           },
           {
-            "cells": ["Otter.ai", "In-Person Meeting-Transkription", "△ Nur Meetings", "✓ 300 Min/Monat", "★★★☆☆"],
+            "cells": [
+              "Otter.ai",
+              "In-Person Meeting-Transkription",
+              "△ Nur Meetings",
+              "✓ 300 Min/Monat",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Genio Notes", "KI-verbesserte Notizen-Strukturierung", "✗ Keine Live-Transkription", "△ Nur Testversion", "★★★☆☆"],
+            "cells": [
+              "Genio Notes",
+              "KI-verbesserte Notizen-Strukturierung",
+              "✗ Keine Live-Transkription",
+              "△ Nur Testversion",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Notion", "Notizen in verschiedenen Fächern organisieren und verlinken", "✗ Kein Erfassungs-Tool", "✓ Kostenlos persönlich", "★★★☆☆"],
+            "cells": [
+              "Notion",
+              "Notizen in verschiedenen Fächern organisieren und verlinken",
+              "✗ Kein Erfassungs-Tool",
+              "✓ Kostenlos persönlich",
+              "★★★☆☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Anki", "Verteilte Wiederholungsüberprüfung erfasster Notizen", "✗ Nur Überprüfung", "✓ Vollständig kostenlos", "★★★★☆"],
+            "cells": [
+              "Anki",
+              "Verteilte Wiederholungsüberprüfung erfasster Notizen",
+              "✗ Nur Überprüfung",
+              "✓ Vollständig kostenlos",
+              "★★★★☆"
+            ],
             "highlight": false
           },
           {
-            "cells": ["Goblin Tools", "Überwältigende Aufgaben in Mikro-Schritte zerlegen", "✗ Aufgabenverwaltung", "✓ Kostenlos", "★★★★☆"],
+            "cells": [
+              "Goblin Tools",
+              "Überwältigende Aufgaben in Mikro-Schritte zerlegen",
+              "✗ Aufgabenverwaltung",
+              "✓ Kostenlos",
+              "★★★★☆"
+            ],
             "highlight": false
           }
         ]
       },
       "body_after_table": "Für ADHS-Studenten, deren Vorlesungen hauptsächlich auf YouTube oder einer Universitäts-Videoplattform stattfinden, ist Lessonscriptor das einzige Tool in dieser Liste, das direkt im Browser auf beliebigen Videos funktioniert. Für Studenten, deren Hauptherausforderung in-Person Vorlesungen oder Team-Meetings sind, deckt Otter.ai diese Lücke gut – die beiden Tools ergänzen sich. Für YouTube-Video-Vorlesungen speziell, siehe den detaillierten Leitfaden zum Transkribieren von YouTube-Videos (/transcribe-youtube-video).",
       "internal_links": [
-        { "text": "Wie man YouTube-Videos transkribiert", "href": "/transcribe-youtube-video" }
+        {
+          "text": "Wie man YouTube-Videos transkribiert",
+          "href": "/transcribe-youtube-video"
+        }
       ]
     },
     {
@@ -223,18 +292,19 @@
         "type": "tip",
         "label": "Für Fernlerner",
         "body": "Wenn Ihre Vorlesungen voraufgezeichnet sind (häufig in Online- oder Hybrid-Kursen), können Sie beliebige Abschnitte mit Lessonscriptor pausieren, zurückspulen und erneut transkribieren – ein Vorteil, den persönliche Notizen nie bieten. Verwenden Sie die Pause, um das, was Sie gerade gehört haben, zu verarbeiten, bevor Sie fortfahren. Siehe den vollständigen Leitfaden zu Lessonscriptor für ADHS-Studenten (/for-adhd-students) für plattformspezifische Tipps.",
-        "internal_link": { "text": "Lessonscriptor für ADHS-Studenten", "href": "/for-adhd-students" }
+        "internal_link": {
+          "text": "Lessonscriptor für ADHS-Studenten",
+          "href": "/for-adhd-students"
+        }
       }
     }
   ],
-
   "cta": {
     "heading": "Probieren Sie Live-Transkription bei Ihrer nächsten Vorlesung aus – kostenlos",
     "body": "Lessonscriptor funktioniert auf YouTube, Zoom, Canvas, Coursera und beliebigen anderen Videos in Chrome. Kein Abonnement. Keine Anmeldung erforderlich, um zu beginnen.",
     "button_label": "Zu Chrome hinzufügen – es ist kostenlos",
     "button_href": "https://chrome.google.com/webstore"
   },
-
   "faq": {
     "section_title": "Häufig gestellte Fragen",
     "items": [
@@ -264,13 +334,16 @@
       }
     ]
   },
-
   "summary": {
     "heading": "Zusammenfassung: Das ADHS-Notizen-System, das funktioniert",
     "body": "Notizen machen mit ADHS scheitert, wenn es gleichzeitiges Hören, Verarbeiten und Schreiben erfordert – eine kognitive Aufgabe, die das Arbeitsgedächtnis von Natur aus überfordert. Die strukturelle Lösung besteht darin, Erfassung von Überprüfung zu trennen. Verwenden Sie Live-Transkription (Lessonscriptor) während der Vorlesung, um alles automatisch zu erfassen. Verwenden Sie die Pomodoro-Technik, um das Transkript in fokussierten 25-Minuten-Blöcken zu überprüfen. Konvertieren Sie Schlüsselpunkte in Anki-Flashkarten für verteilte Wiederholung.\n\nDieses System ist kein Workaround – es ist ein besserer Workflow als traditionelle Notizen für fast jeden Lerner. Für ADHS-Studenten ist es transformativ: Es entfernt den Engpass, schließt die Lücken, die Aufmerksamkeitsverluste schaffen, und erzeugt vollständige, durchsuchbare Notizen aus jeder Vorlesung ohne einen einzigen Schreib-Moment während des Videos.\n\nBeginn mit der kostenlosen Stufe von Lessonscriptor (/for-adhd-students). Fügen Sie Anki die gleiche Woche hinzu. Sie werden den Unterschied nach einer oder zwei Vorlesungen bemerken.",
-    "internal_links": [{ "text": "Lessonscriptor", "href": "/for-adhd-students" }]
+    "internal_links": [
+      {
+        "text": "Lessonscriptor",
+        "href": "/for-adhd-students"
+      }
+    ]
   },
-
   "schemas": [
     {
       "type": "Article",
@@ -279,11 +352,20 @@
       "image": "/images/adhd-note-taking-guide-og.png",
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
-      "author": {
-        "type": "Person",
-        "name": "Lessonscriptor Editorial Team",
-        "url": "/about"
-      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "publisher": {
         "type": "Organization",
         "name": "Lessonscriptor",
@@ -303,11 +385,31 @@
       "description": "Ein Schritt-für-Schritt-Leitfaden zur Verwendung der Lessonscriptor Chrome-Erweiterung, um Vorlesungen für ADHS-Studenten automatisch zu transkribieren.",
       "totalTime": "PT5M",
       "steps": [
-        { "position": 1, "name": "Lessonscriptor installieren", "text": "Gehen Sie zum Chrome Web Store und suchen Sie nach Lessonscriptor, oder besuchen Sie die Lessonscriptor-Website. Klicken Sie auf \"Zu Chrome hinzufügen\" und bestätigen Sie die Installation." },
-        { "position": 2, "name": "Öffnen Sie Ihr Vorlesungsvideo", "text": "Navigieren Sie zu Ihrer Vorlesung auf einer beliebigen Plattform: YouTube, Zoom-Aufzeichnung, Universitäts-LMS (Canvas, Moodle, Blackboard), Coursera oder beliebige andere Videos, die in Chrome abgespielt werden." },
-        { "position": 3, "name": "Aktivieren Sie die Erweiterung", "text": "Klicken Sie auf das Lessonscriptor-Symbol in Ihrer Chrome-Symbolleiste. Ein Transkriptionspanel wird neben dem Video geöffnet." },
-        { "position": 4, "name": "Starten Sie die Transkription", "text": "Drücken Sie die Schaltfläche \"Start\" im Lessonscriptor-Panel. Die Erweiterung beginnt, Audio vom Video in Echtzeit zu erfassen und zu transkribieren." },
-        { "position": 5, "name": "Überprüfen und exportieren Sie Ihre Notizen", "text": "Nach der Vorlesung überprüfen Sie das Transkript im Panel. Heben Sie wichtige Abschnitte hervor, fügen Sie Anmerkungen hinzu und exportieren Sie zu Text oder PDF." }
+        {
+          "position": 1,
+          "name": "Lessonscriptor installieren",
+          "text": "Gehen Sie zum Chrome Web Store und suchen Sie nach Lessonscriptor, oder besuchen Sie die Lessonscriptor-Website. Klicken Sie auf \"Zu Chrome hinzufügen\" und bestätigen Sie die Installation."
+        },
+        {
+          "position": 2,
+          "name": "Öffnen Sie Ihr Vorlesungsvideo",
+          "text": "Navigieren Sie zu Ihrer Vorlesung auf einer beliebigen Plattform: YouTube, Zoom-Aufzeichnung, Universitäts-LMS (Canvas, Moodle, Blackboard), Coursera oder beliebige andere Videos, die in Chrome abgespielt werden."
+        },
+        {
+          "position": 3,
+          "name": "Aktivieren Sie die Erweiterung",
+          "text": "Klicken Sie auf das Lessonscriptor-Symbol in Ihrer Chrome-Symbolleiste. Ein Transkriptionspanel wird neben dem Video geöffnet."
+        },
+        {
+          "position": 4,
+          "name": "Starten Sie die Transkription",
+          "text": "Drücken Sie die Schaltfläche \"Start\" im Lessonscriptor-Panel. Die Erweiterung beginnt, Audio vom Video in Echtzeit zu erfassen und zu transkribieren."
+        },
+        {
+          "position": 5,
+          "name": "Überprüfen und exportieren Sie Ihre Notizen",
+          "text": "Nach der Vorlesung überprüfen Sie das Transkript im Panel. Heben Sie wichtige Abschnitte hervor, fügen Sie Anmerkungen hinzu und exportieren Sie zu Text oder PDF."
+        }
       ]
     },
     {
@@ -317,13 +419,24 @@
     {
       "type": "BreadcrumbList",
       "items": [
-        { "position": 1, "name": "Home", "item": "/" },
-        { "position": 2, "name": "Blog", "item": "/blog" },
-        { "position": 3, "name": "Wie man mit ADHS Notizen macht", "item": "/de/blog/how-to-take-notes-with-adhd" }
+        {
+          "position": 1,
+          "name": "Home",
+          "item": "/"
+        },
+        {
+          "position": 2,
+          "name": "Blog",
+          "item": "/blog"
+        },
+        {
+          "position": 3,
+          "name": "Wie man mit ADHS Notizen macht",
+          "item": "/de/blog/how-to-take-notes-with-adhd"
+        }
       ]
     }
   ],
-
   "sources": [
     {
       "text": "Barkley, R.A. (2012). Executive Functions: What They Are, How They Work, and Why They Evolved. Guilford Press.",
@@ -354,14 +467,25 @@
       "external": true
     }
   ],
-
   "internal_links_map": {
     "pillar": "/for-adhd-students",
     "related_posts": [
-      { "label": "Beste KI-Notizenmacher für ADHS", "href": "/blog/best-ai-note-taker-adhd" },
-      { "label": "Beste Chrome-Erweiterungen für ADHS-Studenten", "href": "/blog/best-chrome-extensions-adhd-students" },
-      { "label": "Wie man YouTube-Videos transkribiert", "href": "/transcribe-youtube-video" },
-      { "label": "Live-Untertitel in Chrome", "href": "/live-captions-chrome" }
+      {
+        "label": "Beste KI-Notizenmacher für ADHS",
+        "href": "/blog/best-ai-note-taker-adhd"
+      },
+      {
+        "label": "Beste Chrome-Erweiterungen für ADHS-Studenten",
+        "href": "/blog/best-chrome-extensions-adhd-students"
+      },
+      {
+        "label": "Wie man YouTube-Videos transkribiert",
+        "href": "/transcribe-youtube-video"
+      },
+      {
+        "label": "Live-Untertitel in Chrome",
+        "href": "/live-captions-chrome"
+      }
     ]
   }
 }

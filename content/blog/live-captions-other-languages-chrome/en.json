@@ -24,9 +24,9 @@
     "description_for_designer": "Browser window with a multilingual caption display — showing text in French or Spanish. Clean, editorial. World map or language flag motif in background. Cream and terra palette."
   },
   "author": {
-    "name": "LessonScriptor Editorial Team",
-    "url": "/transcribe-video-to-text",
-    "bio": "The LessonScriptor team has tested live caption accuracy across French, Spanish, German, Portuguese, and Mandarin content for academic use cases."
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Key takeaways",
@@ -153,8 +153,30 @@
         "description": "Chrome's built-in Live Caption supports 20+ languages. For academic accuracy in French, Spanish, and other languages, LessonScriptor adds AI-powered multilingual captions with a vocabulary dictionary.",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": { "@type": "Organization", "name": "LessonScriptor Editorial Team", "url": "https://lessonscriptor.com/about" },
-        "publisher": { "@type": "Organization", "name": "LessonScriptor", "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 } }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
       }
     },
     {
@@ -163,8 +185,22 @@
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Does Chrome live caption work in French?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Chrome's Live Caption supports French (France) and French (Canada). Go to chrome://settings/accessibility → Live Caption → Language to select French." } },
-          { "@type": "Question", "name": "How do I change the language for Chrome live captions?", "acceptedAnswer": { "@type": "Answer", "text": "Go to chrome://settings/accessibility, click Live Caption, and use the Language dropdown. Chrome downloads the model for your selected language." } }
+          {
+            "@type": "Question",
+            "name": "Does Chrome live caption work in French?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Chrome's Live Caption supports French (France) and French (Canada). Go to chrome://settings/accessibility → Live Caption → Language to select French."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I change the language for Chrome live captions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Go to chrome://settings/accessibility, click Live Caption, and use the Language dropdown. Chrome downloads the model for your selected language."
+            }
+          }
         ]
       }
     },
@@ -174,16 +210,39 @@
         "@context": "https://schema.org",
         "@type": "BreadcrumbList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Chrome Live Captions in Other Languages", "item": "https://lessonscriptor.com/blog/live-captions-other-languages-chrome" }
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Blog",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Chrome Live Captions in Other Languages",
+            "item": "https://lessonscriptor.com/blog/live-captions-other-languages-chrome"
+          }
         ]
       }
     }
   ],
   "sources": [
-    { "text": "Google Chrome Help — Manage captions and translations", "href": "https://support.google.com/chrome/answer/10538231", "external": true },
-    { "text": "OpenAI Whisper — Multilingual speech recognition model", "href": "https://openai.com/research/whisper", "external": true }
+    {
+      "text": "Google Chrome Help — Manage captions and translations",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — Multilingual speech recognition model",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
   ],
   "internal_links_map": {
     "pillar": "/live-captions-chrome",

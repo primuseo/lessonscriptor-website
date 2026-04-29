@@ -20,10 +20,9 @@
     "caption": "Das ideale Setup: Vorlesung auf einem Monitor, Live-Transkription auf dem anderen. Kein Schreiben. Volle Konzentration."
   },
   "author": {
-    "name": "Pierre Girardot",
-    "title": "SEO Lead & ADHS-Lernexperte",
-    "bio": "Pierre leitet SEO und Produktstrategie bei Lesionscriptor. Er arbeitet mit Studierenden, Pädagogen und Befürwortern der Barrierefreiheit zusammen, um Tools zu entwickeln, die kognitive Reibung aus dem Lernen entfernen. Seine Forschung konzentriert sich darauf, wie ADHS-Gehirne Informationen in Online-Umgebungen unterschiedlich verarbeiten—und welche Technologie dabei helfen kann.",
-    "image_url": "/images/author/pierre-girardot.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "5 schnelle Gewinne, um in Online-Vorlesungen mit ADHS konzentriert zu bleiben",
@@ -221,12 +220,20 @@
         },
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Person",
-          "name": "Pierre Girardot",
-          "jobTitle": "SEO Lead & ADHS-Lernexperte",
-          "url": "https://lesionscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lesionscriptor",

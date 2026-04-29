@@ -24,7 +24,9 @@
     "description_for_designer": "Student at a desk, laptop showing a split view: one side an Otter AI meeting interface, the other side Lessonscriptor's side panel transcribing a YouTube lecture. Calm, focused lighting. Blues and warm neutrals. Conveys comparison and choice."
   },
   "author": {
-    "name": "LessonScriptor Team"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria y Pierre desarrollan LessonScriptor, una extensión de Chrome para la transcripción de vídeo en tiempo real. Victoria estudia Antropología y tiene TDAH. Pierre se encarga del desarrollo y el SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Puntos clave",
@@ -270,11 +272,20 @@
         "image": "/images/blog/otter-ai-alternative-for-students-hero.png",
         "datePublished": "2026-04-29",
         "dateModified": "2026-04-29",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Team",
-          "url": "https://lessonscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lessonscriptor",

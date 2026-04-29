@@ -20,10 +20,9 @@
     "caption": "理想的设置：一个显示器上显示讲座，另一个显示实时转录。无需手写。完全专注。"
   },
   "author": {
-    "name": "Pierre Girardot",
-    "title": "SEO主管与ADHD学习专家",
-    "bio": "Pierre在Lessonscriptor领导SEO和产品战略。他与学生、教育工作者和无障碍倡导者合作，开发消除学习中认知障碍的工具。他的研究重点是ADHD大脑在在线环境中如何以不同方式处理信息，以及技术能做什么。",
-    "image_url": "/images/author/pierre-girardot.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria 学习人类学，患有 ADHD——她是 LessonScriptor 存在的原因。Pierre 开发这个扩展程序。他们分享对神经多样性学生真正有效的方法。",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "5个快速方法让你在ADHD时在在线讲座中保持专注",
@@ -221,12 +220,20 @@
         },
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "@type": "Person",
-          "name": "Pierre Girardot",
-          "jobTitle": "SEO主管与ADHD学习专家",
-          "url": "https://lesionscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "Lesionscriptor",

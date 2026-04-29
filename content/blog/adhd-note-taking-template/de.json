@@ -11,7 +11,13 @@
   "meta": {
     "title": "Kostenlose ADHS-Notiztechnik | Erfassen + Markieren + Zusammenfassen",
     "description": "Laden Sie sich eine kostenlose, ADHS-freundliche Notiztechnik herunter, die auf Cornells Methode basiert. Erfassen Sie mit Lessonscriptor. Überprüfen Sie mit Markierungen. Fassen Sie in 3 Sätzen zusammen. Funktioniert mit jedem Video-Vortrag.",
-    "keywords": ["ADHS Notiztechnik Vorlage", "Notiztechnik ADHS Vorlage", "ADHS Lernvorlage", "Cornell-Methode ADHS", "kostenlose Notiztechnik"]
+    "keywords": [
+      "ADHS Notiztechnik Vorlage",
+      "Notiztechnik ADHS Vorlage",
+      "ADHS Lernvorlage",
+      "Cornell-Methode ADHS",
+      "kostenlose Notiztechnik"
+    ]
   },
   "hero_image": {
     "url": "/images/adhd-note-taking-template-hero.jpg",
@@ -21,10 +27,9 @@
     "description": "Hero-Bild: Student am Schreibtisch mit gedruckter Vorlage, Laptop zeigt Lessonscriptor-Transkript"
   },
   "author": {
-    "name": "Lessonscriptor-Redaktionsteam",
-    "bio": "Das Lessonscriptor-Redaktionsteam erforscht evidenzgestützte Notiztechniken und Lernwerkzeuge für neurodiverse Studenten. Diese Vorlage basiert auf der Forschung der Cornell-Universität, ADHS-Lernstrategien aus ADDitude Magazine und echtem Feedback von über 500 Studenten, die Lessonscriptor nutzen.",
-    "title": "SEO- und Lernstrategie",
-    "image": "/images/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "heading": "TL;DR: Ihre kostenlose ADHS-Notiztechnik",
@@ -54,7 +59,7 @@
       "heading": "Wie nutze ich diese ADHS-Notiztechnik mit Lessonscriptor?",
       "level": 2,
       "type": "section",
-      "content": "Der Arbeitsablauf ist einfach und zeitkritisch. Hier ist die Schritt-für-Schritt-Anleitung:\n\n**Schritt 1: Während der Vorlesung (Lessonscriptor macht die Arbeit)**\n\nÖffnen Sie Lessonscriptor und aktivieren Sie Live-Untertitel in Chrome. Treffen Sie Aufnahme oder aktivieren Sie Auto-Transkription – das hängt von Ihren Lessonscriptor-Einstellungen ab. Ihre Aufgabe: Zuhören und gelegentlich wichtige Zeitstempel markieren, indem Sie eine kurze Notiz (\"wichtig\" oder \"definieren\") in die Transkript-Seitenleiste typen. Das ist alles. Kein Handschreiben. Keine Notiz-Angst.\n\n**Schritt 2: Unmittelbar danach (5 Minuten)**\n\nExportieren oder kopieren Sie das Transkript aus Lessonscriptor. Fügen Sie es in die Erfassungszone Ihrer Vorlage (PDF, Notion oder gedruckt) ein. Überfliegen Sie es einmal auf Richtigkeit (Lessonscriptor hat etwa 95% Genauigkeit, aber fangen Sie offensichtliche Fehler auf).\n\n**Schritt 3: Überprüfungsphase – 25-Minuten-Pomodoro (1–4 Stunden nach der Vorlesung)**\n\nStellen Sie einen Timer auf 25 Minuten. Lesen Sie die Erfassungszone mit einem Stift durch. Während Sie lesen:\n- Unterstreichen Sie Schlüsselbegriffe in der Markierungszone\n- Schreiben Sie Fragen neben Konzepte, die Sie nicht verstehen\n- Zeichnen Sie Pfeile, die Ideen mit früheren Vorträgen verbinden\n- Fügen Sie Gedächtnisstützen oder Memory Hooks hinzu\n\nWenn der Timer läutet, *stoppen Sie*. Unvollkommene Markierungszonen sind besser als perfekte, die nicht existieren.\n\n**Schritt 4: Zusammenfassen – 3-Satz-Zusammenfassung (innerhalb von 2 Stunden nach Schritt 1)**\n\nJetzt schreiben Sie das Zusammenfassungsfeld. Schließen Sie die Erfassungszone. Schauen Sie nur auf die Markierungszone. Schreiben Sie drei Sätze, die das *Warum* und *Was* zusammenfassen – nicht die Details. Dies zwingt Ihr Gehirn zu synthetisieren, nicht zu regurgitieren.\n\n**Beispiel-Arbeitsablauf für einen 1-Stunden-Biologie-Vortrag:**\n- Während Vortrag: Lessonscriptor läuft. Sie hören zu. (0 Minuten Schreiben)\n- Nach Vortrag: Transkript in Erfassungszone einfügen. (5 Minuten)\n- 2 Stunden später (oder nächster Morgen): 25-Minuten-Pomodoro in der Markierungszone. (25 Minuten)\n- Selben Tag oder nächster Morgen: Zusammenfassungsfeld schreiben. (5 Minuten)\n- Gesamte Zeit-Investition: 35 Minuten pro Vorlesung\n- Gesamte Schreibzeit: ~10 Minuten (plus das automatische Transkript)\n\nDieser Arbeitsablauf reduziert die Notiztechnik-Zeit um 60–70% gegenüber Handschrift, und die Merkfähigkeit verbessert sich, weil Lessonscriptor 100% des Inhalts erfasst – nicht die 30%, die Ihre Hand mithalten kann."
+      "content": "Der Arbeitsablauf ist einfach und zeitkritisch. Hier ist die Schritt-für-Schritt-Anleitung:\n\n**Schritt 1: Während der Vorlesung (Lessonscriptor macht die Arbeit)**\n\nÖffnen Sie Lessonscriptor und aktivieren Sie Live-Untertitel in Chrome. Treffen Sie Aufnahme oder aktivieren Sie Auto-Transkription – das hängt von Ihren Lessonscriptor-Einstellungen ab. Ihre Aufgabe: Zuhören und gelegentlich wichtige Zeitstempel markieren, indem Sie eine kurze Notiz (\"wichtig\" oder \"definieren\") in die Transkript-Seitenleiste typen. Das ist alles. Kein Handschreiben. Keine Notiz-Angst. (Neu bei Transkription? Siehe <a href=\"/blog/how-to-transcribe-lecture-videos\">wie man Vorlesungsvideos automatisch transkribiert</a>.)\n\n**Schritt 2: Unmittelbar danach (5 Minuten)**\n\nExportieren oder kopieren Sie das Transkript aus Lessonscriptor. Fügen Sie es in die Erfassungszone Ihrer Vorlage (PDF, Notion oder gedruckt) ein. Überfliegen Sie es einmal auf Richtigkeit (Lessonscriptor hat etwa 95% Genauigkeit, aber fangen Sie offensichtliche Fehler auf).\n\n**Schritt 3: Überprüfungsphase – 25-Minuten-Pomodoro (1–4 Stunden nach der Vorlesung)**\n\nStellen Sie einen Timer auf 25 Minuten. Lesen Sie die Erfassungszone mit einem Stift durch. Während Sie lesen:\n- Unterstreichen Sie Schlüsselbegriffe in der Markierungszone\n- Schreiben Sie Fragen neben Konzepte, die Sie nicht verstehen\n- Zeichnen Sie Pfeile, die Ideen mit früheren Vorträgen verbinden\n- Fügen Sie Gedächtnisstützen oder Memory Hooks hinzu\n\nWenn der Timer läutet, *stoppen Sie*. Unvollkommene Markierungszonen sind besser als perfekte, die nicht existieren.\n\n**Schritt 4: Zusammenfassen – 3-Satz-Zusammenfassung (innerhalb von 2 Stunden nach Schritt 1)**\n\nJetzt schreiben Sie das Zusammenfassungsfeld. Schließen Sie die Erfassungszone. Schauen Sie nur auf die Markierungszone. Schreiben Sie drei Sätze, die das *Warum* und *Was* zusammenfassen – nicht die Details. Dies zwingt Ihr Gehirn zu synthetisieren, nicht zu regurgitieren.\n\n**Beispiel-Arbeitsablauf für einen 1-Stunden-Biologie-Vortrag:**\n- Während Vortrag: Lessonscriptor läuft. Sie hören zu. (0 Minuten Schreiben)\n- Nach Vortrag: Transkript in Erfassungszone einfügen. (5 Minuten)\n- 2 Stunden später (oder nächster Morgen): 25-Minuten-Pomodoro in der Markierungszone. (25 Minuten)\n- Selben Tag oder nächster Morgen: Zusammenfassungsfeld schreiben. (5 Minuten)\n- Gesamte Zeit-Investition: 35 Minuten pro Vorlesung\n- Gesamte Schreibzeit: ~10 Minuten (plus das automatische Transkript)\n\nDieser Arbeitsablauf reduziert die Notiztechnik-Zeit um 60–70% gegenüber Handschrift, und die Merkfähigkeit verbessert sich, weil Lessonscriptor 100% des Inhalts erfasst – nicht die 30%, die Ihre Hand mithalten kann."
     },
     {
       "heading": "Wie lade ich die kostenlose ADHS-Notiztechnik herunter?",
@@ -120,7 +125,12 @@
         "name": "course_level",
         "type": "select",
         "label": "Sind Sie Schüler, Student oder postgradual?",
-        "options": ["Gymnasium", "Universität (Bachelor)", "Graduiert/Beruflich", "Erwachsenen-Lerner"],
+        "options": [
+          "Gymnasium",
+          "Universität (Bachelor)",
+          "Graduiert/Beruflich",
+          "Erwachsenen-Lerner"
+        ],
         "required": false
       }
     ],
@@ -146,10 +156,20 @@
         "image": "/images/adhd-note-taking-template-hero.jpg",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "type": "Organization",
           "name": "Lessonscriptor",
@@ -328,6 +348,11 @@
       "url": "/downloads/adhd-note-taking-template.pdf",
       "anchor": "Die kostenlose Vorlage herunterladen",
       "context": "Direkter Link zur druckbaren PDF und Notion-Vorlage."
+    },
+    "related_blog_3": {
+      "url": "/blog/how-to-transcribe-lecture-videos",
+      "anchor": "How to Transcribe Lecture Videos Automatically",
+      "context": "Step-by-step guide for automatic lecture transcription."
     }
   },
   "external_links": [
@@ -377,10 +402,27 @@
     "primary_keyword": "ADHS Notiztechnik Vorlage",
     "search_volume": "400–900/Monat",
     "keyword_difficulty": "8–15",
-    "secondary_keywords": ["Notiztechnik ADHS Vorlage", "ADHS Lernvorlage", "kostenlose ADHS Vorlage", "Cornell-Methode ADHS"],
+    "secondary_keywords": [
+      "Notiztechnik ADHS Vorlage",
+      "ADHS Lernvorlage",
+      "kostenlose ADHS Vorlage",
+      "Cornell-Methode ADHS"
+    ],
     "intent": "Informational + Download-Intent",
     "target_audience": "ADHS-Studenten, Fernlerner, Barrierefreiheits-Nutzer",
-    "entity_density": ["Lessonscriptor", "Cornell-Universität", "Walter Pauk", "ADHS", "Arbeitsspeicher", "CHADD", "ADDitude Magazine", "Anki", "Notion", "Pomodoro", "verteilte Wiederholung"],
+    "entity_density": [
+      "Lessonscriptor",
+      "Cornell-Universität",
+      "Walter Pauk",
+      "ADHS",
+      "Arbeitsspeicher",
+      "CHADD",
+      "ADDitude Magazine",
+      "Anki",
+      "Notion",
+      "Pomodoro",
+      "verteilte Wiederholung"
+    ],
     "content_goal": "Ranking für Primär-Keyword; Leads via kostenlose Template-Downloads generieren; Lessonscriptor als ADHS-freundliches AI-Transkriptions-Tool positionieren",
     "internal_link_strategy": "Link von Pillar-Seite (/de/for-adhd-students), Sister-Blog-Beiträge und Download-Seite",
     "backlink_targets": "Reddit r/ADHS, r/GetStudying, r/college; ADDitude Magazine-Ressourcen-Roundups; ADHS-Content-Creator; Barrierefreiheits-Blogs"

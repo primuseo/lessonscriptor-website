@@ -9,9 +9,19 @@
   "meta": {
     "title": "Mejores Aplicaciones para Estudiantes con TDAH 2026 — Herramientas Gratuitas y de Pago Reseñadas",
     "description": "12 aplicaciones basadas en evidencia para estudiantes con TDAH que cubren toma de notas, enfoque, gestión de tareas y memoria. Incluye Lessonscriptor, Goblin Tools, Anki y más. Se incluyen opciones de nivel gratuito.",
-    "keywords": ["mejores aplicaciones para TDAH", "aplicaciones de estudio TDAH", "aplicaciones para estudiantes con TDAH", "mejores aplicaciones TDAH 2026", "aplicaciones de organización TDAH"],
+    "keywords": [
+      "mejores aplicaciones para TDAH",
+      "aplicaciones de estudio TDAH",
+      "aplicaciones para estudiantes con TDAH",
+      "mejores aplicaciones TDAH 2026",
+      "aplicaciones de organización TDAH"
+    ],
     "primary_keyword": "mejores aplicaciones para estudiantes con TDAH",
-    "secondary_keywords": ["aplicaciones de estudio TDAH", "aplicaciones para estudiantes con TDAH", "mejores aplicaciones TDAH 2026"],
+    "secondary_keywords": [
+      "aplicaciones de estudio TDAH",
+      "aplicaciones para estudiantes con TDAH",
+      "mejores aplicaciones TDAH 2026"
+    ],
     "estimated_volume": "1500-3000/month",
     "keyword_difficulty": 28,
     "search_intent": "commercial_roundup"
@@ -24,9 +34,9 @@
     "caption": "Las mejores aplicaciones TDAH para estudiantes abarcan cuatro categorías: captura, enfoque, organización y revisión."
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "bio": "El Equipo Editorial de Lessonscriptor se especializa en accesibilidad, ciencias del aprendizaje y herramientas de estudio neurodivergentes. Nuestras reseñas se basan en investigaciones de ADDitude Magazine, CHADD (Niños y Adultos con TDAH) y estudios revisados por pares sobre memoria de trabajo y función ejecutiva del Dr. Russell Barkley.",
-    "expertise_areas": ["ADHD research", "accessibility tech", "spaced repetition", "executive function"]
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — Mejores Aplicaciones TDAH por Categoría",
@@ -413,20 +423,111 @@
     },
     {
       "type": "table",
-      "headers": ["Nombre de Aplicación", "Categoría", "Nivel Gratuito", "Ajuste TDAH (1-10)", "Mejor Para", "Plataforma"],
+      "headers": [
+        "Nombre de Aplicación",
+        "Categoría",
+        "Nivel Gratuito",
+        "Ajuste TDAH (1-10)",
+        "Mejor Para",
+        "Plataforma"
+      ],
       "rows": [
-        ["Lessonscriptor", "Captura", "Sí (ilimitado)", "10", "Transcripción de cualquier video", "Chrome"],
-        ["Otter.ai", "Captura", "Sí (300 min/mes)", "7", "Reuniones + conferencias presenciales", "Web, iOS, Android"],
-        ["Coconote", "Captura", "Sí (3 docs/mes)", "6", "Guías de estudio generadas por IA", "Web"],
-        ["Brain.fm", "Enfoque", "Sí (1 sesión/día)", "9", "Enfoque respaldado por neurociencia", "Web, iOS, Android, Spotify"],
-        ["Forest", "Enfoque", "Sí (básico)", "8", "Pomodoro + gamificación", "Web, iOS, Android, Chrome"],
-        ["BlockSite", "Enfoque", "Sí (20 bloqueos)", "7", "Bloquear distracciones duro", "Chrome, iOS, Android"],
-        ["Goblin Tools", "Organiza", "Sí (100%)", "10", "Parálisis de tareas → micropasos", "Web"],
-        ["Todoist", "Organiza", "Sí (ilimitado)", "7", "Rastreo de tareas + recordatorios", "Web, iOS, Android"],
-        ["Notion", "Organiza", "Sí (personal)", "8", "Hub todo en uno", "Web, iOS, Android, Escritorio"],
-        ["Anki", "Revisión", "Sí (100%)", "8", "Dominio de repetición espaciada", "Escritorio, Android"],
-        ["Quizlet", "Revisión", "Sí (limitado)", "7", "Tarjetas didácticas colaborativas", "Web, iOS, Android"],
-        ["Tiimo", "Bienestar General", "Sí (solo calendario)", "6", "Planificador de tareas y hábitos diseñado para TDAH", "iOS, Android, Web"]
+        [
+          "Lessonscriptor",
+          "Captura",
+          "Sí (ilimitado)",
+          "10",
+          "Transcripción de cualquier video",
+          "Chrome"
+        ],
+        [
+          "Otter.ai",
+          "Captura",
+          "Sí (300 min/mes)",
+          "7",
+          "Reuniones + conferencias presenciales",
+          "Web, iOS, Android"
+        ],
+        [
+          "Coconote",
+          "Captura",
+          "Sí (3 docs/mes)",
+          "6",
+          "Guías de estudio generadas por IA",
+          "Web"
+        ],
+        [
+          "Brain.fm",
+          "Enfoque",
+          "Sí (1 sesión/día)",
+          "9",
+          "Enfoque respaldado por neurociencia",
+          "Web, iOS, Android, Spotify"
+        ],
+        [
+          "Forest",
+          "Enfoque",
+          "Sí (básico)",
+          "8",
+          "Pomodoro + gamificación",
+          "Web, iOS, Android, Chrome"
+        ],
+        [
+          "BlockSite",
+          "Enfoque",
+          "Sí (20 bloqueos)",
+          "7",
+          "Bloquear distracciones duro",
+          "Chrome, iOS, Android"
+        ],
+        [
+          "Goblin Tools",
+          "Organiza",
+          "Sí (100%)",
+          "10",
+          "Parálisis de tareas → micropasos",
+          "Web"
+        ],
+        [
+          "Todoist",
+          "Organiza",
+          "Sí (ilimitado)",
+          "7",
+          "Rastreo de tareas + recordatorios",
+          "Web, iOS, Android"
+        ],
+        [
+          "Notion",
+          "Organiza",
+          "Sí (personal)",
+          "8",
+          "Hub todo en uno",
+          "Web, iOS, Android, Escritorio"
+        ],
+        [
+          "Anki",
+          "Revisión",
+          "Sí (100%)",
+          "8",
+          "Dominio de repetición espaciada",
+          "Escritorio, Android"
+        ],
+        [
+          "Quizlet",
+          "Revisión",
+          "Sí (limitado)",
+          "7",
+          "Tarjetas didácticas colaborativas",
+          "Web, iOS, Android"
+        ],
+        [
+          "Tiimo",
+          "Bienestar General",
+          "Sí (solo calendario)",
+          "6",
+          "Planificador de tareas y hábitos diseñado para TDAH",
+          "iOS, Android, Web"
+        ]
       ]
     },
     {
@@ -532,10 +633,20 @@
         "image": "/images/best-apps-adhd-students-2026-hero.png",
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28",
-        "author": {
-          "type": "Organization",
-          "name": "Lessonscriptor Editorial Team"
-        }
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ]
       }
     },
     {

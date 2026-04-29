@@ -9,7 +9,12 @@
   "meta": {
     "title": "Transcribir Videos de YouTube para TDAH: Extensión Chrome en Tiempo Real | Lessonscriptor",
     "description": "Transcribe cualquier clase de YouTube en tiempo real dentro de Chrome—sin descargas, sin registro. Extensión Chrome gratuita perfecta para estudiantes con TDAH que luchan con la concentración y la toma de notas.",
-    "keywords": ["transcribir video youtube TDAH", "estudio youtube TDAH", "transcripción clase youtube TDAH", "cómo usar youtube para estudiar TDAH"]
+    "keywords": [
+      "transcribir video youtube TDAH",
+      "estudio youtube TDAH",
+      "transcripción clase youtube TDAH",
+      "cómo usar youtube para estudiar TDAH"
+    ]
   },
   "hero_image": {
     "alt": "Estudiante con TDAH viendo una clase de YouTube con el panel de transcripción de Lessonscriptor abierto en la barra lateral de Chrome",
@@ -18,8 +23,9 @@
     "height": 630
   },
   "author": {
-    "name": "Equipo Lessonscriptor",
-    "bio": "Creamos herramientas para estudiantes y aprendices a distancia que necesitan características de accesibilidad integradas, no agregadas. Nuestro equipo incluye educadores con TDAH, especialistas en accesibilidad e investigadores de accesibilidad que entienden cómo los déficits de memoria de trabajo afectan el aprendizaje."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria estudia Antropología y tiene TDAH — por eso existe LessonScriptor. Pierre desarrolla la extensión. Comparten lo que realmente funciona para estudiantes neurodivergentes.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — 3 Puntos Clave",
@@ -197,10 +203,20 @@
         "headline": "Cómo Transcribir Videos de YouTube para TDAH: El Método Más Rápido en Chrome",
         "description": "Transcribe cualquier clase de YouTube en tiempo real dentro de Chrome—sin descargas, sin registro. Extensión Chrome gratuita perfecta para estudiantes con TDAH que luchan con la concentración y la toma de notas.",
         "image": "/images/blog/adhd-youtube-transcription-hero.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28"
       }

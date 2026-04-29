@@ -9,7 +9,12 @@
   "meta": {
     "title": "Transcrire des vidéos YouTube pour le TDAH : Extension Chrome en temps réel | Lessonscriptor",
     "description": "Transcrivez n'importe quel cours YouTube en temps réel dans Chrome—sans téléchargement, sans inscription. Extension Chrome gratuite parfaite pour les étudiants TDAH qui ont du mal à se concentrer et prendre des notes.",
-    "keywords": ["transcrire vidéo youtube TDAH", "étude youtube TDAH", "transcription cours youtube TDAH", "comment utiliser youtube pour étudier TDAH"]
+    "keywords": [
+      "transcrire vidéo youtube TDAH",
+      "étude youtube TDAH",
+      "transcription cours youtube TDAH",
+      "comment utiliser youtube pour étudier TDAH"
+    ]
   },
   "hero_image": {
     "alt": "Étudiant TDAH regardant un cours YouTube avec le panneau de transcription Lessonscriptor ouvert dans la barre latérale Chrome",
@@ -18,8 +23,9 @@
     "height": 630
   },
   "author": {
-    "name": "Équipe Lessonscriptor",
-    "bio": "Nous créons des outils pour les étudiants et apprenants à distance qui ont besoin de fonctionnalités d'accessibilité intégrées—pas bricolées. Notre équipe comprend des éducateurs TDAH, des spécialistes en accessibilité et des chercheurs en accessibilité qui comprennent comment les lacunes de la mémoire de travail affectent l'apprentissage."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria étudie l’anthropologie et vit avec un TDAH — c’est la raison pour laquelle LessonScriptor existe. Pierre développe l’extension. Ils partagent ce qui fonctionne vraiment pour les étudiants neurodivergents.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — 3 points clés",
@@ -197,10 +203,20 @@
         "headline": "Comment transcrire des vidéos YouTube pour le TDAH : la méthode la plus rapide dans Chrome",
         "description": "Transcrivez n'importe quel cours YouTube en temps réel dans Chrome—sans téléchargement, sans inscription. Extension Chrome gratuite parfaite pour les étudiants TDAH qui ont du mal à se concentrer et prendre des notes.",
         "image": "/images/blog/adhd-youtube-transcription-hero.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28"
       }

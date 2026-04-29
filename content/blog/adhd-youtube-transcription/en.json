@@ -23,8 +23,9 @@
     "height": 630
   },
   "author": {
-    "name": "Lessonscriptor Team",
-    "bio": "We build tools for students and distance learners who need accessibility features built in—not bolted on. Our team includes ADHD educators, accessibility specialists, and accessibility researchers who understand how working memory gaps affect learning."
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studies Anthropology and lives with ADHD — she’s the reason LessonScriptor exists. Pierre builds the extension. They share what actually works for neurodivergent students.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "title": "TL;DR — 3 Key Takeaways",
@@ -208,10 +209,20 @@
         "headline": "How to Transcribe YouTube Videos for ADHD: The Fastest Method in Chrome",
         "description": "Transcribe any YouTube lecture in real time inside Chrome—no download, no signup. Free Chrome extension perfect for ADHD students who struggle with focus and note-taking.",
         "image": "/images/blog/adhd-youtube-transcription-hero.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lessonscriptor"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "datePublished": "2026-04-28",
         "dateModified": "2026-04-28"
       }

@@ -9,11 +9,16 @@
   "meta": {
     "title": "How to Transcribe Lecture Videos Automatically | LessonScriptor",
     "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
-    "keywords": ["transcribe lecture video", "automatic lecture transcription", "lecture to text"]
+    "keywords": [
+      "transcribe lecture video",
+      "automatic lecture transcription",
+      "lecture to text"
+    ]
   },
   "author": {
-    "name": "Lessonscriptor Editorial Team",
-    "title": "SEO & Learning Strategy"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre desenvolvem o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "intro": "A forma mais rápida de transcrever uma videoaula automaticamente é usar o LessonScriptor — uma extensão Chrome gratuita que transcreve qualquer vídeo em tempo real enquanto toca, diretamente no seu navegador. Sem upload, sem espera, sem assinatura.",
   "sections": [
@@ -43,7 +48,7 @@
     },
     {
       "h2": "Como estudar a partir da sua transcrição",
-      "body": "Depois de transcrita, trate seu documento do LessonScriptor como um guia de estudo. Destaque os conceitos mais importantes em amarelo. Negrite a terminologia-chave. Adicione sua própria interpretação entre colchetes enquanto revisa. Exporte para Markdown e importe no Notion ou Obsidian para armazenamento de longo prazo. Pesquise o texto completo antes das provas."
+      "body": "Depois de transcrita, trate seu documento do LessonScriptor como um guia de estudo. Destaque os conceitos mais importantes em amarelo. Negrite a terminologia-chave. Adicione sua própria interpretação entre colchetes enquanto revisa. Exporte para Markdown e importe no Notion ou Obsidian para armazenamento de longo prazo. Pesquise o texto completo antes das provas. Se você é neurodivergente, a transcrição automática remove a carga cognitiva de fazer anotações simultaneamente — veja <a href=\"/blog/neurodivergent-study-tools\">as melhores ferramentas de estudo para estudantes neurodivergentes</a>."
     }
   ],
   "faq": {
@@ -67,5 +72,11 @@
       }
     ]
   },
+  "internal_links": [
+    {
+      "text": "Best study tools for neurodivergent students",
+      "url": "/blog/neurodivergent-study-tools"
+    }
+  ],
   "schemas": []
 }

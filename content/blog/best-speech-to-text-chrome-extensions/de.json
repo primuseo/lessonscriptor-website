@@ -24,7 +24,9 @@
     "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
   },
   "author": {
-    "name": "LessonScriptor Team"
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für Live-Video-Transkription. Victoria studiert Anthropologie und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": {
     "label": "Wichtigste Punkte",
@@ -186,7 +188,7 @@
     {
       "id": "which-extension-for-students",
       "h2": "Welche Chrome-Sprache-zu-Text-Erweiterung funktioniert für Studierende am besten?",
-      "body": "Für Studierende hängt die richtige Sprache-zu-Text Chrome-Erweiterung vollständig davon ab, was transkribiert werden soll.\n\n**Aufgezeichnete Video-Vorlesungen anschauen (YouTube, Canvas, Coursera, edX, Zoom-Aufzeichnungen):** LessonScriptor verwenden. Es ist die einzige Erweiterung in diesem Vergleich, die speziell für Videotranskription in Chrome entwickelt wurde. Der kostenlose Modus funktioniert sofort ohne Konto. Der Premium-Modus fügt Whisper-Genauigkeit und Kopfhörer-Unterstützung für 0,60 €/Stunde transkribiertem Audio hinzu.\n\n**Schnelle Untertitel beim Lernen, keine Notizen nötig:** Googles Live-Untertitel verwenden (in Chrome integriert). Einmal in den Einstellungen aktivieren, vergessen, dass es da ist. Perfekt für das Anschauen eines Videos auf dem Campus, wenn man Kopfhörer vergessen hat oder in einer lauten Umgebung folgen muss.\n\n**Live-Kursteilnahme über Google Meet oder Zoom:** Tactiq verwenden, wenn das Hauptbedürfnis darin besteht, Live-Meeting-Transkripte mit Sprecher-Labels zu erfassen. Tactiq integriert sich gut in Google Meets nativen Untertitel-Feed und exportiert automatisch zu Google Docs.\n\n**Per Stimme tippen:** Speechnotes für freihändiges Verfassen verwenden — einen Aufsatz diktieren, Notizen mündlich zusammenfassen oder in einem Kontext schreiben, wo Tippen unpraktisch ist.\n\n**Die akademische Realität:** Die meisten Studierenden landen beim falschen Tool, weil sie nach \"Sprache zu Text\" suchen, wenn sie eigentlich \"Videotranskription\" brauchen. Ein Diktierwerkzeug wie Speechnotes und ein Videotranskriptions-Tool wie LessonScriptor wandeln beide Sprache in Text um — aber sie lösen völlig unterschiedliche Probleme. Wenn das Audio aus einer Videodatei oder einem Stream kommt, wird LessonScriptor oder Notta benötigt, kein Mikrofon-only-Diktierwerkzeug.",
+      "body": "Für Studierende hängt die richtige Sprache-zu-Text Chrome-Erweiterung vollständig davon ab, was transkribiert werden soll.\n\n**Aufgezeichnete Video-Vorlesungen anschauen (YouTube, Canvas, Coursera, edX, Zoom-Aufzeichnungen):** LessonScriptor verwenden. Es ist die einzige Erweiterung in diesem Vergleich, die speziell für Videotranskription in Chrome entwickelt wurde. Der kostenlose Modus funktioniert sofort ohne Konto. Der Premium-Modus fügt Whisper-Genauigkeit und Kopfhörer-Unterstützung für 0,60 €/Stunde transkribiertem Audio hinzu. ADHS-Studierende profitieren besonders: Die Transkription beseitigt die Arbeitsgedächtnisbelastung durch gleichzeitiges Zuhören und Schreiben. Siehe unseren <a href=\"/blog/how-to-take-notes-with-adhd\">vollständigen ADHS-Notizen-Leitfaden</a> und den <a href=\"/for-adhd-students\">Hub für ADHS-Studierende</a>.\n\n**Schnelle Untertitel beim Lernen, keine Notizen nötig:** Googles Live-Untertitel verwenden (in Chrome integriert). Einmal in den Einstellungen aktivieren, vergessen, dass es da ist. Perfekt für das Anschauen eines Videos auf dem Campus, wenn man Kopfhörer vergessen hat oder in einer lauten Umgebung folgen muss.\n\n**Live-Kursteilnahme über Google Meet oder Zoom:** Tactiq verwenden, wenn das Hauptbedürfnis darin besteht, Live-Meeting-Transkripte mit Sprecher-Labels zu erfassen. Tactiq integriert sich gut in Google Meets nativen Untertitel-Feed und exportiert automatisch zu Google Docs.\n\n**Per Stimme tippen:** Speechnotes für freihändiges Verfassen verwenden — einen Aufsatz diktieren, Notizen mündlich zusammenfassen oder in einem Kontext schreiben, wo Tippen unpraktisch ist.\n\n**Die akademische Realität:** Die meisten Studierenden landen beim falschen Tool, weil sie nach \"Sprache zu Text\" suchen, wenn sie eigentlich \"Videotranskription\" brauchen. Ein Diktierwerkzeug wie Speechnotes und ein Videotranskriptions-Tool wie LessonScriptor wandeln beide Sprache in Text um — aber sie lösen völlig unterschiedliche Probleme. Wenn das Audio aus einer Videodatei oder einem Stream kommt, wird LessonScriptor oder Notta benötigt, kein Mikrofon-only-Diktierwerkzeug.",
       "internal_links": [
         {
           "text": "Schritt für Schritt: Vorlesungsvideos transkribieren",
@@ -246,11 +248,20 @@
         "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
         "datePublished": "2026-04-29",
         "dateModified": "2026-04-29",
-        "author": {
-          "@type": "Organization",
-          "name": "LessonScriptor Team",
-          "url": "https://lessonscriptor.com"
-        },
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
         "publisher": {
           "@type": "Organization",
           "name": "LessonScriptor",
@@ -387,6 +398,16 @@
     {
       "text": "Chromes Live-Untertitel funktionieren nicht — Lösungsleitfaden",
       "href": "/blog/chrome-live-captions-not-working",
+      "internal": true
+    },
+    {
+      "text": "How to take notes with ADHD",
+      "href": "/blog/how-to-take-notes-with-adhd",
+      "internal": true
+    },
+    {
+      "text": "ADHD student hub",
+      "href": "/for-adhd-students",
       "internal": true
     }
   ]

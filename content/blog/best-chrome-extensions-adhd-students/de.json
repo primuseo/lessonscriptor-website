@@ -22,9 +22,9 @@
     "description": "Eine Sammlung von fünf leistungsstarken Chrome-Erweiterungen zur Unterstützung von Schülern mit ADHS beim Online-Lernen und der Notizenerstellung."
   },
   "author": {
-    "name": "Lessonscriptor Team",
-    "bio": "Wir entwickeln Lessonscriptor, um das Online-Lernen für Schüler mit ADHS und anderen Lernunterschieden zugänglicher zu machen. Unsere Mission ist es, Technologie nutzen, um echte Unterstützung zu bieten.",
-    "avatar": "https://live-transcription-landing.vercel.app/avatars/lessonscriptor-team.jpg"
+    "name": "Victoria & Pierre",
+    "bio": "Victoria studiert Anthropologie und lebt mit ADHS — sie ist der Grund, warum LessonScriptor existiert. Pierre entwickelt die Erweiterung. Sie teilen, was für neurodivergente Studierende wirklich funktioniert.",
+    "url": "/transcribe-video-to-text"
   },
   "tldr": "Schüler mit ADHS benötigen spezialisierte Werkzeuge. Diese 5 Chrome-Erweiterungen helfen bei Konzentration, Notizenerstellung und Informationsspeicherung: Lessonscriptor (kostenlose Live-Transkription), Speechify (Text-zu-Sprache), Mercury Reader (fokussiertes Lesen), BlockSite (Ablenkungsblockierung) und Dark Reader (Augenschonung).",
   "intro": "Schüler mit ADHS sehen sich besonderen Herausforderungen beim Online-Lernen gegenüber. Ablenkung, Konzentrationsschwierigkeiten und Schwierigkeiten, Informationen zu verarbeiten und zu behalten, sind häufige Frustrationen. Die gute Nachricht: Die richtige Technologie kann einen großen Unterschied machen. Chrome-Erweiterungen bieten einfache, oft kostenlose Lösungen zur Verbesserung der Konzentration, Notizenerstellung und des Verständnisses von Vorlesungsinhalten. In diesem Leitfaden werden wir die 5 besten Chrome-Erweiterungen für ADHS-Schüler 2026 vorstellen.",
@@ -56,7 +56,12 @@
   ],
   "comparison_table": {
     "caption": "Vergleich von ADHS-Lern-Erweiterungen: Funktion, Kosten und ADHS-Nutzen",
-    "headers": ["Erweiterung", "Hauptfunktion", "Preis", "ADHS-Nutzen"],
+    "headers": [
+      "Erweiterung",
+      "Hauptfunktion",
+      "Preis",
+      "ADHS-Nutzen"
+    ],
     "rows": [
       {
         "name": "Lessonscriptor",
@@ -124,7 +129,20 @@
       "type": "Article",
       "headline": "5 beste Chrome-Erweiterungen für ADHS-Schüler 2026",
       "description": "Ein umfassender Leitfaden zu den besten Chrome-Erweiterungen für Schüler mit ADHS, einschließlich Lessonscriptor, Speechify, Mercury Reader, BlockSite und Dark Reader.",
-      "author": "Lessonscriptor Team",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
       "datePublished": "2026-04-28",
       "dateModified": "2026-04-28",
       "image": "https://live-transcription-landing.vercel.app/blog-images/adhd-chrome-extensions-og.png"
