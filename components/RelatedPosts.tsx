@@ -39,7 +39,7 @@ export default function RelatedPosts({
                 <span className="text-[10px] font-semibold bg-accent-500/10 text-accent-600 px-2 py-0.5 rounded-full mb-3 inline-block">
                   {post!.category_tag}
                 </span>
-                <h3 className="text-base font-bold text-terra-800 group-hover:text-accent-600 transition-colors mb-2 line-clamp-2">
+                <h3 className="text-base font-bold text-terra-800 group-hover:text-accent-600 transition-colors mb-2">
                   {post!.h1}
                 </h3>
                 <p className="text-sm text-terra-800/50 line-clamp-3 mb-4">
