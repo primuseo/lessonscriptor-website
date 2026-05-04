@@ -40,6 +40,7 @@
     "terms": "使用条款",
     "github": "GitHub",
     "support": "支持",
+    "guide": "使用指南",
     "copyright": "© 2026 LessonScriptor",
     "tagline": "停止记录，开始学习。",
     "blog": "博客"
@@ -1009,5 +1010,109 @@
     "metaDesc": "LessonScriptor是专为多动症学生设计的Chrome扩展，自动转录课程内容，释放工作记忆用于真正的学习。",
     "relatedHeading": "更多 ADHD 学生学习指南",
     "readMore": "阅读更多"
+  },
+  "thankYou": {
+    "metaTitle": "感谢你的购买",
+    "metaDesc": "你的 LessonScriptor 许可证密钥已准备好。按照以下步骤在扩展中激活 AI 转录。",
+    "eyebrow": "购买确认",
+    "h1": "一切就绪。",
+    "subtitle": "你的许可证密钥如下。按照步骤在扩展中激活 AI 转录。",
+    "licenseLabel": "你的许可证密钥",
+    "copyButton": "复制",
+    "copiedButton": "已复制！",
+    "noKey": "未找到许可证密钥。请查看 LemonSqueezy 发送的邮件。",
+    "stepsHeading": "4步激活你的许可证",
+    "steps": [
+      {
+        "n": "1",
+        "title": "复制你的许可证密钥",
+        "desc": "点击上方的复制按钮，将密钥复制到剪贴板。"
+      },
+      {
+        "n": "2",
+        "title": "打开扩展并进入设置",
+        "desc": "点击 Chrome 工具栏中的 LessonScriptor 图标打开侧边栏，然后点击齿轮图标进入设置。"
+      },
+      {
+        "n": "3",
+        "title": "将音频来源设置为「使用 AI 录制标签页音频」",
+        "desc": "在设置的「音频来源」部分，选择「使用 AI 录制标签页音频」。也可以直接在侧边栏中选择。然后在许可证部分粘贴密钥并点击激活。"
+      },
+      {
+        "n": "4",
+        "title": "打开任意视频，开始转录",
+        "desc": "访问 YouTube、Coursera、Zoom 录像或 Chrome 中的任意视频。点击播放——AI 转录立即开始。"
+      }
+    ],
+    "onboardingCTA": "阅读完整指南",
+    "onboardingDesc": "在 LessonScriptor 指南中了解所有功能、设置和技巧。"
+  },
+  "onboarding": {
+    "metaTitle": "如何使用 LessonScriptor — 完整指南",
+    "metaDesc": "学习如何使用 LessonScriptor 转录 Chrome 中的任意视频。标签页音频、麦克风模式、编辑、导出、设置和故障排除。",
+    "eyebrow": "使用指南",
+    "h1": "如何使用 LessonScriptor",
+    "subtitle": "一切你需要的内容，帮助你快速上手并充分利用每项功能。",
+    "quickstartHeading": "3分钟快速开始",
+    "quickstartSteps": [
+      "从 Chrome 网上应用店安装 LessonScriptor（免费，无需注册）。",
+      "在 Chrome 中打开任意视频，点击 LessonScriptor 图标打开侧边栏。",
+      "在侧边栏中选择音频来源（麦克风模式 = 免费；标签页音频 = 需要许可证）。",
+      "点击播放。转录内容实时显示。"
+    ],
+    "modesHeading": "转录模式",
+    "tabAudioHeading": "标签页音频 — 普通模式与最优模式",
+    "tabAudioBody": "标签页音频直接捕获浏览器标签页发出的声音——无需麦克风。只要视频本身有声音，就可以正常工作。电脑音量可以调到零，但视频本身不能静音。标签页音频需要许可证密钥（在 LemonSqueezy 购买——一次性付款，永不过期）。\n\n普通模式以10秒为单位发送音频。最优模式以30秒为单位发送，为 AI 提供更多上下文，精度略有提升。对于大多数使用场景，普通模式在速度和精度之间取得了最佳平衡。",
+    "tabAudioNote": "适用于付费墙后的内容、私人课程和受保护的大学门户——只要能播放，LessonScriptor 就能转录。",
+    "micModeHeading": "麦克风模式",
+    "micModeBody": "麦克风模式使用设备麦克风拾取扬声器播放的音频。完全免费，无需许可证。电脑音量需要开到合理水平。注意：麦克风也会拾取你的声音和背景噪音，因此安静的环境效果最佳。",
+    "editingHeading": "编辑和保存转录",
+    "titleBody": "LessonScriptor 会自动检测页面标题并将其用作转录名称。你可以点击侧边栏顶部的标题来重命名——保存或导出时将使用此名称。",
+    "saveBody": "点击软盘图标保存转录。你可以在设置（存储部分）中设置默认保存文件夹。未设置文件夹时，转录保存在浏览器本地存储中。",
+    "historyBody": "点击时钟图标打开转录历史。所有之前保存的转录都列在那里——点击加载即可恢复。历史记录存储在浏览器中（或在已配置的本地文件夹中）。",
+    "exportHeading": "导出选项",
+    "exportBody": "三种导出转录的方式：\n\n• **复制到剪贴板** — 直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。\n• **下载为 TXT** — 纯文本，无格式。\n• **下载为 Markdown（.md）** — 完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。",
+    "deleteBody": "点击垃圾桶图标删除当前转录。此操作无法撤销。",
+    "syncHeading": "与视频播放器同步（测试版）",
+    "syncBody": "点击链接图标启用同步模式。启用后，停止转录也会暂停视频。这是测试版功能——适用于大多数播放器，但在所有平台上可能不完全可靠。",
+    "settingsHeading": "设置",
+    "settingsLangHeading": "语言与转录",
+    "settingsLangBody": "设置界面语言（扩展中显示的语言）和视频语言（AI 识别的语言）。指定视频语言可显著提高非英语内容的转录精度。",
+    "settingsAudioHeading": "音频来源",
+    "settingsAudioBody": "在麦克风、标签页音频普通模式和标签页音频最优模式之间切换。也可以直接在侧边栏中切换，无需打开设置。",
+    "settingsDictHeading": "自定义词典",
+    "settingsDictBody": "添加 AI 总是转录错误的专业术语、名称或缩写。词典中的词语在转录时享有优先权——适用于课程专用词汇、教授姓名或科学术语。",
+    "settingsDisplayHeading": "显示",
+    "settingsDisplayBody": "调整侧边栏中的字体大小，开启每行的时间戳，以及启用自动格式化来自动插入段落分隔。",
+    "settingsStorageHeading": "存储",
+    "settingsStorageBody": "选择自动保存频率、保存位置（浏览器存储或本地文件夹）以及默认导出格式（TXT 或 Markdown）。",
+    "settingsLicenseHeading": "许可证与积分",
+    "settingsLicenseBody": "在此粘贴你的许可证密钥并点击激活。激活后，你可以看到剩余积分余额和已转录的总时长。",
+    "troubleshootingHeading": "故障排除",
+    "troubleshootingItems": [
+      {
+        "q": "转录在静音期间出现「感谢观看」或「点击订阅」等内容。",
+        "a": "这是正常的 AI 行为。转录模型基于 YouTube 视频训练，在静音或背景噪音期间有时会产生这些短语。直接删除这些行即可——不影响转录的其余部分。"
+      },
+      {
+        "q": "LessonScriptor 无法识别视频标题。",
+        "a": "刷新标签页。标题检测需要页面完全加载——刷新在大多数情况下可以解决此问题。"
+      },
+      {
+        "q": "同步功能没有暂停我的视频。",
+        "a": "同步是兼容性有限的测试版功能。尝试刷新标签页。如果仍然无效，请手动使用停止转录按钮。"
+      },
+      {
+        "q": "麦克风模式的转录停止或似乎卡住了。",
+        "a": "Chrome 的语音识别引擎有时会静默停止。尝试提高电脑音量以便麦克风更好地拾取声音。如果仍然卡住，请停止并重新开始转录。"
+      },
+      {
+        "q": "什么都不起作用——转录无法启动。",
+        "a": "首先刷新标签页。这能解决90%的所有问题。如果问题仍然存在，请在 chrome://extensions 中检查扩展是否需要更新。"
+      }
+    ],
+    "supportHeading": "需要更多帮助？",
+    "supportBody": "如果仍然遇到问题，给我们发消息——通常在24小时内回复。",
+    "footer": "指南"
   }
 }

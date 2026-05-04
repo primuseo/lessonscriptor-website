@@ -40,6 +40,7 @@
     "terms": "Terms",
     "github": "GitHub",
     "support": "Support",
+    "guide": "User Guide",
     "copyright": "© 2026 LessonScriptor",
     "tagline": "Stop writing. Start learning.",
     "blog": "Blog"
@@ -997,5 +998,109 @@
     "metaDesc": "LessonScriptor is the ADHD-friendly Chrome extension that auto-transcribes your lectures, freeing working memory for actual learning. No writing. No missed points.",
     "relatedHeading": "More guides for ADHD students",
     "readMore": "Read more"
+  },
+  "thankYou": {
+    "metaTitle": "Thank you for your purchase",
+    "metaDesc": "Your LessonScriptor license key is ready. Follow these steps to activate AI transcription in your extension.",
+    "eyebrow": "Purchase confirmed",
+    "h1": "You're all set.",
+    "subtitle": "Your license key is below. Follow the steps to activate AI transcription in your extension.",
+    "licenseLabel": "Your license key",
+    "copyButton": "Copy",
+    "copiedButton": "Copied!",
+    "noKey": "No license key found. Please check your email from LemonSqueezy.",
+    "stepsHeading": "Activate your license in 4 steps",
+    "steps": [
+      {
+        "n": "1",
+        "title": "Copy your license key",
+        "desc": "Click the copy button above to copy it to your clipboard."
+      },
+      {
+        "n": "2",
+        "title": "Open the extension and go to Settings",
+        "desc": "Click the LessonScriptor icon in your Chrome toolbar to open the side panel, then click the gear icon to open Settings."
+      },
+      {
+        "n": "3",
+        "title": "Set your audio source to Tab Audio with AI",
+        "desc": "In Settings, under Audio Source, select \"Record tab audio with AI\". You can also select this mode directly in the extension side panel. Then paste your key in the License section and click Activate."
+      },
+      {
+        "n": "4",
+        "title": "Open any video and start transcribing",
+        "desc": "Go to YouTube, Coursera, a Zoom recording, or any video in Chrome. Hit play — AI transcription starts immediately."
+      }
+    ],
+    "onboardingCTA": "Read the full guide",
+    "onboardingDesc": "Learn all features, settings, and tips in the LessonScriptor guide."
+  },
+  "onboarding": {
+    "metaTitle": "How to use LessonScriptor — Complete Guide",
+    "metaDesc": "Learn how to use LessonScriptor to transcribe any video in Chrome. Tab Audio, Mic Mode, editing, export, settings, and troubleshooting.",
+    "eyebrow": "User Guide",
+    "h1": "How to use LessonScriptor",
+    "subtitle": "Everything you need to get started and get the most out of every feature.",
+    "quickstartHeading": "Get started in 3 minutes",
+    "quickstartSteps": [
+      "Install LessonScriptor from the Chrome Web Store (free, no sign-up).",
+      "Open any video in Chrome and click the LessonScriptor icon to open the side panel.",
+      "Choose your audio source in the side panel (Mic Mode = free; Tab Audio = requires license).",
+      "Press play on the video. Your transcript appears in real-time."
+    ],
+    "modesHeading": "Transcription modes",
+    "tabAudioHeading": "Tab Audio — Normal and Optimal",
+    "tabAudioBody": "Tab Audio captures the sound coming out of your browser tab directly — no microphone needed. It works on any video as long as the video itself has sound. Your computer volume can be set to zero; the video just cannot be on mute. Tab Audio requires a license key (purchased on LemonSqueezy — one-time payment, never expires).\n\nNormal mode sends audio in 10-second blocks. Optimal mode sends 30-second blocks, giving the AI more context for slightly better accuracy. For most use cases, Normal is the better balance between speed and precision.",
+    "tabAudioNote": "Works behind paywalls, private courses, and protected university portals — if you can play it, LessonScriptor can transcribe it.",
+    "micModeHeading": "Mic Mode",
+    "micModeBody": "Mic Mode uses your device microphone to pick up the audio playing from your speakers. It is completely free with no license required. Your computer sound must be on at a reasonable volume. Be aware: the microphone will also pick up your voice and any background noise, so a quiet environment works best.",
+    "editingHeading": "Editing and saving your transcript",
+    "titleBody": "LessonScriptor automatically detects the page title and uses it as the transcript name. You can click the title at the top of the panel to rename it — this name will be used when you save or export.",
+    "saveBody": "Click the floppy disk icon to save the transcript. You can set a default save folder in Settings (Storage section). If no folder is set, the transcript is saved in your browser's local storage.",
+    "historyBody": "Click the clock icon to open your transcript history. All previously saved transcripts are listed there — click Load to restore any of them. History is stored in your browser (or in your local folder if configured).",
+    "exportHeading": "Export options",
+    "exportBody": "Three ways to get your transcript out:\n\n• **Copy to clipboard** — paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved.\n• **Download as TXT** — plain text, no formatting.\n• **Download as Markdown (.md)** — full formatting preserved. Open with Obsidian, Typora, or any Markdown reader.",
+    "deleteBody": "Click the trash icon to delete the current transcript. This action cannot be undone.",
+    "syncHeading": "Sync with video player (beta)",
+    "syncBody": "Click the link icon to enable sync mode. When active, stopping the transcription will also pause the video. This is a beta feature — it works with most players but may not be reliable on all platforms.",
+    "settingsHeading": "Settings walkthrough",
+    "settingsLangHeading": "Language & Transcription",
+    "settingsLangBody": "Set the interface language (what you see in the extension) and the video language (what the AI listens for). Specifying the video language improves transcription accuracy significantly for non-English content.",
+    "settingsAudioHeading": "Audio Source",
+    "settingsAudioBody": "Switch between Mic, Tab Audio Normal, and Tab Audio Optimal. You can also switch directly in the side panel without opening Settings.",
+    "settingsDictHeading": "Custom Dictionary",
+    "settingsDictBody": "Add technical terms, names, or abbreviations that the AI keeps getting wrong. Words in the dictionary are given priority during transcription — useful for course-specific vocabulary, professor names, or scientific terms.",
+    "settingsDisplayHeading": "Display",
+    "settingsDisplayBody": "Adjust the font size inside the transcript panel, toggle timestamps on each line, and enable auto-formatting to insert paragraph breaks automatically.",
+    "settingsStorageHeading": "Storage",
+    "settingsStorageBody": "Choose how often the transcript auto-saves, where it saves (browser storage or a local folder), and the default export format (TXT or Markdown).",
+    "settingsLicenseHeading": "License & Credits",
+    "settingsLicenseBody": "Paste your license key here and click Activate. Once active, you'll see your remaining credit balance and total hours transcribed.",
+    "troubleshootingHeading": "Troubleshooting",
+    "troubleshootingItems": [
+      {
+        "q": "The transcript shows \"thank you for watching\" or \"click subscribe\" during silence.",
+        "a": "This is normal AI behavior. Transcription models are trained on YouTube videos, so they sometimes hallucinate these phrases during silence or background noise. Just delete those lines — they don't affect the rest of the transcript."
+      },
+      {
+        "q": "LessonScriptor isn't detecting the video title.",
+        "a": "Refresh the tab. Title detection relies on the page being fully loaded — a refresh solves this in most cases."
+      },
+      {
+        "q": "The sync feature isn't pausing my video.",
+        "a": "Sync is a beta feature with limited compatibility. Try refreshing the tab. If it still doesn't work, use the transcription stop button manually."
+      },
+      {
+        "q": "Mic Mode transcription stopped or seems frozen.",
+        "a": "Chrome's speech recognition engine sometimes stops silently. Try increasing your computer volume so the microphone picks up sound more clearly. If it's still stuck, stop and restart transcription."
+      },
+      {
+        "q": "Nothing works — transcription won't start.",
+        "a": "First, refresh the tab. This solves 90% of all issues. If the problem persists, check if your extension needs an update in chrome://extensions."
+      }
+    ],
+    "supportHeading": "Need more help?",
+    "supportBody": "If you're still stuck, send us a message — we usually reply within 24 hours.",
+    "footer": "Guide"
   }
 }

@@ -40,6 +40,7 @@
     "terms": "Nutzungsbedingungen",
     "github": "GitHub",
     "support": "Support",
+    "guide": "Benutzerhandbuch",
     "copyright": "© 2026 LessonScriptor",
     "tagline": "Hör auf zu schreiben. Fang an zu lernen.",
     "blog": "Blog"
@@ -1009,5 +1010,109 @@
     "metaDesc": "LessonScriptor ist die ADHS-freundliche Chrome-Erweiterung, die deine Vorlesungen automatisch transkribiert und das Arbeitsgedächtnis für echtes Lernen freisetzt.",
     "relatedHeading": "Weitere Leitfäden für Studierende mit ADHS",
     "readMore": "Mehr lesen"
+  },
+  "thankYou": {
+    "metaTitle": "Vielen Dank für Ihren Kauf",
+    "metaDesc": "Ihr LessonScriptor-Lizenzschlüssel ist bereit. Folgen Sie diesen Schritten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
+    "eyebrow": "Kauf bestätigt",
+    "h1": "Alles bereit.",
+    "subtitle": "Ihr Lizenzschlüssel steht unten. Folgen Sie den Schritten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
+    "licenseLabel": "Ihr Lizenzschlüssel",
+    "copyButton": "Kopieren",
+    "copiedButton": "Kopiert!",
+    "noKey": "Kein Lizenzschlüssel gefunden. Bitte prüfen Sie Ihre E-Mail von LemonSqueezy.",
+    "stepsHeading": "Aktivieren Sie Ihre Lizenz in 4 Schritten",
+    "steps": [
+      {
+        "n": "1",
+        "title": "Kopieren Sie Ihren Lizenzschlüssel",
+        "desc": "Klicken Sie auf die Schaltfläche Kopieren oben, um ihn in Ihre Zwischenablage zu kopieren."
+      },
+      {
+        "n": "2",
+        "title": "Öffnen Sie die Erweiterung und gehen Sie zu Einstellungen",
+        "desc": "Klicken Sie auf das LessonScriptor-Symbol in der Chrome-Symbolleiste, um das Seitenpanel zu öffnen, dann klicken Sie auf das Zahnrad-Symbol für die Einstellungen."
+      },
+      {
+        "n": "3",
+        "title": "Stellen Sie die Audioquelle auf Tab-Audio mit KI ein",
+        "desc": "Wählen Sie in den Einstellungen unter Audioquelle «Tab-Audio mit KI aufnehmen». Sie können dies auch direkt im Seitenpanel auswählen. Fügen Sie dann Ihren Schlüssel im Bereich Lizenz ein und klicken Sie auf Aktivieren."
+      },
+      {
+        "n": "4",
+        "title": "Öffnen Sie ein Video und starten Sie die Transkription",
+        "desc": "Gehen Sie zu YouTube, Coursera, einer Zoom-Aufzeichnung oder einem beliebigen Video in Chrome. Drücken Sie Play — die KI-Transkription startet sofort."
+      }
+    ],
+    "onboardingCTA": "Vollständige Anleitung lesen",
+    "onboardingDesc": "Erfahren Sie alle Funktionen, Einstellungen und Tipps in der LessonScriptor-Anleitung."
+  },
+  "onboarding": {
+    "metaTitle": "So verwenden Sie LessonScriptor — Vollständige Anleitung",
+    "metaDesc": "Lernen Sie, wie Sie LessonScriptor zum Transkribieren beliebiger Videos in Chrome verwenden. Tab-Audio, Mikrofon-Modus, Bearbeitung, Export, Einstellungen und Fehlerbehebung.",
+    "eyebrow": "Benutzerhandbuch",
+    "h1": "So verwenden Sie LessonScriptor",
+    "subtitle": "Alles, was Sie brauchen, um zu starten und das Beste aus jeder Funktion herauszuholen.",
+    "quickstartHeading": "In 3 Minuten loslegen",
+    "quickstartSteps": [
+      "Installieren Sie LessonScriptor aus dem Chrome Web Store (kostenlos, ohne Registrierung).",
+      "Öffnen Sie ein Video in Chrome und klicken Sie auf das LessonScriptor-Symbol, um das Seitenpanel zu öffnen.",
+      "Wählen Sie Ihre Audioquelle im Panel (Mikrofon-Modus = kostenlos; Tab-Audio = erfordert Lizenz).",
+      "Drücken Sie Play. Ihre Transkription erscheint in Echtzeit."
+    ],
+    "modesHeading": "Transkriptionsmodi",
+    "tabAudioHeading": "Tab-Audio — Normal und Optimal",
+    "tabAudioBody": "Tab-Audio erfasst den Ton direkt aus Ihrem Browser-Tab — kein Mikrofon erforderlich. Es funktioniert bei jedem Video, solange das Video selbst Ton hat. Die Computerlautstärke kann auf null gestellt sein; das Video selbst darf nur nicht stummgeschaltet sein. Tab-Audio erfordert einen Lizenzschlüssel (auf LemonSqueezy gekauft — Einmalzahlung, läuft nie ab).\n\nNormal-Modus sendet Audio in 10-Sekunden-Blöcken. Optimal-Modus sendet 30-Sekunden-Blöcke und gibt der KI mehr Kontext für etwas bessere Genauigkeit. Für die meisten Anwendungsfälle bietet Normal die beste Balance zwischen Geschwindigkeit und Präzision.",
+    "tabAudioNote": "Funktioniert hinter Paywalls, privaten Kursen und geschützten Universitätsportalen — wenn Sie es abspielen können, kann LessonScriptor es transkribieren.",
+    "micModeHeading": "Mikrofon-Modus",
+    "micModeBody": "Der Mikrofon-Modus verwendet das Mikrofon Ihres Geräts, um den Ton aus Ihren Lautsprechern aufzunehmen. Er ist vollständig kostenlos, ohne Lizenz. Der Computerton muss auf eine angemessene Lautstärke eingestellt sein. Beachten Sie: Das Mikrofon nimmt auch Ihre Stimme und Hintergrundgeräusche auf — eine ruhige Umgebung ist daher am besten.",
+    "editingHeading": "Transkription bearbeiten und speichern",
+    "titleBody": "LessonScriptor erkennt automatisch den Seitentitel und verwendet ihn als Transkriptionsname. Sie können auf den Titel oben im Panel klicken, um ihn umzubenennen — dieser Name wird beim Speichern oder Exportieren verwendet.",
+    "saveBody": "Klicken Sie auf das Disketten-Symbol, um die Transkription zu speichern. Sie können in den Einstellungen (Abschnitt Speicherung) einen Standardspeicherordner festlegen. Ohne konfigurierten Ordner wird die Transkription im lokalen Browser-Speicher gespeichert.",
+    "historyBody": "Klicken Sie auf das Uhr-Symbol, um den Transkriptionsverlauf zu öffnen. Alle zuvor gespeicherten Transkriptionen werden dort aufgelistet — klicken Sie auf Laden, um eine davon wiederherzustellen. Der Verlauf wird in Ihrem Browser gespeichert (oder in Ihrem lokalen Ordner, falls konfiguriert).",
+    "exportHeading": "Exportoptionen",
+    "exportBody": "Drei Möglichkeiten, Ihre Transkription zu exportieren:\n\n• **In Zwischenablage kopieren** — direkt in Google Docs, Notion, Word oder einen beliebigen Editor einfügen. Alle Formatierungen (Fett, Überschriften, Hervorhebungen) bleiben erhalten.\n• **Als TXT herunterladen** — Klartext, ohne Formatierung.\n• **Als Markdown (.md) herunterladen** — vollständige Formatierung bleibt erhalten. Öffnen Sie mit Obsidian, Typora oder einem Markdown-Reader.",
+    "deleteBody": "Klicken Sie auf das Papierkorb-Symbol, um die aktuelle Transkription zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
+    "syncHeading": "Synchronisation mit dem Videoplayer (Beta)",
+    "syncBody": "Klicken Sie auf das Link-Symbol, um den Synchronisationsmodus zu aktivieren. Wenn aktiv, wird das Video auch pausiert, wenn die Transkription gestoppt wird. Dies ist eine Beta-Funktion — sie funktioniert mit den meisten Playern, ist aber möglicherweise nicht auf allen Plattformen zuverlässig.",
+    "settingsHeading": "Einstellungen",
+    "settingsLangHeading": "Sprache und Transkription",
+    "settingsLangBody": "Stellen Sie die Oberflächensprache (was Sie in der Erweiterung sehen) und die Videosprache (was die KI hört) ein. Die Angabe der Videosprache verbessert die Transkriptionsgenauigkeit für nicht-englische Inhalte erheblich.",
+    "settingsAudioHeading": "Audioquelle",
+    "settingsAudioBody": "Wechseln Sie zwischen Mikrofon, Tab-Audio Normal und Tab-Audio Optimal. Sie können auch direkt im Seitenpanel wechseln, ohne die Einstellungen zu öffnen.",
+    "settingsDictHeading": "Benutzerdefiniertes Wörterbuch",
+    "settingsDictBody": "Fügen Sie Fachbegriffe, Namen oder Abkürzungen hinzu, die die KI immer falsch transkribiert. Wörter im Wörterbuch werden bei der Transkription priorisiert — nützlich für kursspezifisches Vokabular, Dozentennamen oder wissenschaftliche Begriffe.",
+    "settingsDisplayHeading": "Anzeige",
+    "settingsDisplayBody": "Passen Sie die Schriftgröße im Panel an, aktivieren Sie Zeitstempel für jede Zeile und aktivieren Sie die automatische Formatierung, um automatisch Absatzumbrüche einzufügen.",
+    "settingsStorageHeading": "Speicherung",
+    "settingsStorageBody": "Wählen Sie, wie oft automatisch gespeichert wird, wo gespeichert wird (Browser-Speicher oder lokaler Ordner) und das Standard-Exportformat (TXT oder Markdown).",
+    "settingsLicenseHeading": "Lizenz und Credits",
+    "settingsLicenseBody": "Fügen Sie Ihren Lizenzschlüssel hier ein und klicken Sie auf Aktivieren. Nach der Aktivierung sehen Sie Ihr verbleibendes Guthaben und die insgesamt transkribierten Stunden.",
+    "troubleshootingHeading": "Fehlerbehebung",
+    "troubleshootingItems": [
+      {
+        "q": "Die Transkription zeigt «danke fürs Zuschauen» oder «klick zum Abonnieren» während der Stille.",
+        "a": "Das ist normales KI-Verhalten. Transkriptionsmodelle werden mit YouTube-Videos trainiert und halluzinieren manchmal diese Phrasen während Stille oder Hintergrundgeräuschen. Einfach diese Zeilen löschen — sie beeinträchtigen den Rest der Transkription nicht."
+      },
+      {
+        "q": "LessonScriptor erkennt den Videotitel nicht.",
+        "a": "Aktualisieren Sie den Tab. Die Titelerkennung erfordert, dass die Seite vollständig geladen ist — ein Aktualisieren löst dies in den meisten Fällen."
+      },
+      {
+        "q": "Die Synchronisation pausiert mein Video nicht.",
+        "a": "Synchronisation ist eine Beta-Funktion mit eingeschränkter Kompatibilität. Versuchen Sie, den Tab zu aktualisieren. Wenn es immer noch nicht funktioniert, verwenden Sie manuell die Stopp-Schaltfläche der Transkription."
+      },
+      {
+        "q": "Die Transkription im Mikrofon-Modus hat gestoppt oder scheint eingefroren.",
+        "a": "Chromes Spracherkennungs-Engine kann lautlos stoppen. Erhöhen Sie die Computerlautstärke, damit das Mikrofon den Ton besser aufnimmt. Wenn es immer noch blockiert ist, stoppen und starten Sie die Transkription neu."
+      },
+      {
+        "q": "Nichts funktioniert — die Transkription startet nicht.",
+        "a": "Aktualisieren Sie zuerst den Tab. Das löst 90% aller Probleme. Wenn das Problem weiterhin besteht, prüfen Sie unter chrome://extensions, ob Ihre Erweiterung aktualisiert werden muss."
+      }
+    ],
+    "supportHeading": "Benötigen Sie weitere Hilfe?",
+    "supportBody": "Wenn Sie immer noch nicht weiterkommen, senden Sie uns eine Nachricht — wir antworten in der Regel innerhalb von 24 Stunden.",
+    "footer": "Anleitung"
   }
 }

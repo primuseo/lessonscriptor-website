@@ -40,6 +40,7 @@
     "terms": "Conditions",
     "github": "GitHub",
     "support": "Assistance",
+    "guide": "Guide d'utilisation",
     "copyright": "© 2026 LessonScriptor",
     "tagline": "Arrêtez d'écrire. Commencez à apprendre.",
     "blog": "Blog"
@@ -1010,5 +1011,109 @@
     "metaDesc": "LessonScriptor est l'extension Chrome pensée pour le TDAH qui transcrit automatiquement vos cours, libérant la mémoire de travail pour un vrai apprentissage.",
     "relatedHeading": "Plus de guides pour les étudiants TDAH",
     "readMore": "Lire la suite"
+  },
+  "thankYou": {
+    "metaTitle": "Merci pour votre achat",
+    "metaDesc": "Votre clé de licence LessonScriptor est prête. Suivez ces étapes pour activer la transcription IA dans votre extension.",
+    "eyebrow": "Achat confirmé",
+    "h1": "Tout est prêt.",
+    "subtitle": "Votre clé de licence est ci-dessous. Suivez les étapes pour activer la transcription IA dans votre extension.",
+    "licenseLabel": "Votre clé de licence",
+    "copyButton": "Copier",
+    "copiedButton": "Copié !",
+    "noKey": "Aucune clé de licence trouvée. Veuillez vérifier votre e-mail LemonSqueezy.",
+    "stepsHeading": "Activez votre licence en 4 étapes",
+    "steps": [
+      {
+        "n": "1",
+        "title": "Copiez votre clé de licence",
+        "desc": "Cliquez sur le bouton Copier ci-dessus pour la copier dans votre presse-papiers."
+      },
+      {
+        "n": "2",
+        "title": "Ouvrez l'extension et accédez aux Paramètres",
+        "desc": "Cliquez sur l'icône LessonScriptor dans la barre d'outils Chrome pour ouvrir le panneau latéral, puis cliquez sur l'icône d'engrenage pour accéder aux Paramètres."
+      },
+      {
+        "n": "3",
+        "title": "Définissez la source audio sur Audio d'onglet avec IA",
+        "desc": "Dans les Paramètres, sous Source audio, sélectionnez « Enregistrer l'audio de l'onglet avec l'IA ». Vous pouvez aussi le sélectionner directement dans le panneau latéral. Collez ensuite votre clé dans la section Licence et cliquez sur Activer."
+      },
+      {
+        "n": "4",
+        "title": "Ouvrez une vidéo et commencez à transcrire",
+        "desc": "Allez sur YouTube, Coursera, un enregistrement Zoom ou toute vidéo dans Chrome. Appuyez sur lecture — la transcription IA démarre immédiatement."
+      }
+    ],
+    "onboardingCTA": "Lire le guide complet",
+    "onboardingDesc": "Découvrez toutes les fonctionnalités, paramètres et conseils dans le guide LessonScriptor."
+  },
+  "onboarding": {
+    "metaTitle": "Comment utiliser LessonScriptor — Guide complet",
+    "metaDesc": "Apprenez à utiliser LessonScriptor pour transcrire n'importe quelle vidéo dans Chrome. Audio d'onglet, mode micro, édition, export, paramètres et dépannage.",
+    "eyebrow": "Guide d'utilisation",
+    "h1": "Comment utiliser LessonScriptor",
+    "subtitle": "Tout ce qu'il vous faut pour démarrer et tirer le meilleur de chaque fonctionnalité.",
+    "quickstartHeading": "Démarrez en 3 minutes",
+    "quickstartSteps": [
+      "Installez LessonScriptor depuis le Chrome Web Store (gratuit, sans inscription).",
+      "Ouvrez une vidéo dans Chrome et cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral.",
+      "Choisissez votre source audio dans le panneau (Mode Micro = gratuit ; Audio d'onglet = nécessite une licence).",
+      "Appuyez sur lecture. Votre transcription apparaît en temps réel."
+    ],
+    "modesHeading": "Modes de transcription",
+    "tabAudioHeading": "Audio d'onglet — Normal et Optimal",
+    "tabAudioBody": "L'audio d'onglet capture directement le son émis par votre onglet de navigateur — sans microphone. Il fonctionne sur n'importe quelle vidéo tant que celle-ci émet du son. Le volume de l'ordinateur peut être à zéro ; la vidéo elle-même ne doit pas être en sourdine. L'audio d'onglet nécessite une clé de licence (achetée sur LemonSqueezy — paiement unique, sans expiration).\n\nLe mode Normal envoie l'audio par blocs de 10 secondes. Le mode Optimal envoie des blocs de 30 secondes, donnant à l'IA plus de contexte pour une précision légèrement supérieure. Pour la plupart des usages, Normal offre le meilleur équilibre entre rapidité et précision.",
+    "tabAudioNote": "Fonctionne derrière les paywalls, cours privés et portails universitaires protégés — si vous pouvez le lire, LessonScriptor peut le transcrire.",
+    "micModeHeading": "Mode Microphone",
+    "micModeBody": "Le mode Micro utilise le microphone de votre appareil pour capter l'audio diffusé par vos haut-parleurs. Il est entièrement gratuit, sans licence requise. Le son de votre ordinateur doit être activé à un volume raisonnable. Attention : le microphone captera aussi votre voix et les bruits ambiants — un environnement calme est donc préférable.",
+    "editingHeading": "Édition et sauvegarde de la transcription",
+    "titleBody": "LessonScriptor détecte automatiquement le titre de la page et l'utilise comme nom de transcription. Vous pouvez cliquer sur le titre en haut du panneau pour le renommer — ce nom sera utilisé lors de la sauvegarde ou de l'export.",
+    "saveBody": "Cliquez sur l'icône de disquette pour sauvegarder la transcription. Vous pouvez définir un dossier de sauvegarde par défaut dans les Paramètres (section Stockage). Sans dossier configuré, la transcription est enregistrée dans le stockage local du navigateur.",
+    "historyBody": "Cliquez sur l'icône d'horloge pour ouvrir l'historique de vos transcriptions. Toutes les transcriptions précédemment sauvegardées y sont listées — cliquez sur Charger pour en restaurer une. L'historique est stocké dans votre navigateur (ou dans votre dossier local si configuré).",
+    "exportHeading": "Options d'export",
+    "exportBody": "Trois façons d'exporter votre transcription :\n\n• **Copier dans le presse-papiers** — collez directement dans Google Docs, Notion, Word ou tout éditeur. Toute la mise en forme (gras, titres, surlignages) est préservée.\n• **Télécharger en TXT** — texte brut, sans mise en forme.\n• **Télécharger en Markdown (.md)** — mise en forme complète préservée. Ouvrez avec Obsidian, Typora ou tout lecteur Markdown.",
+    "deleteBody": "Cliquez sur l'icône de corbeille pour supprimer la transcription en cours. Cette action est irréversible.",
+    "syncHeading": "Synchronisation avec le lecteur vidéo (bêta)",
+    "syncBody": "Cliquez sur l'icône de lien pour activer le mode synchronisation. Lorsqu'il est actif, arrêter la transcription met également la vidéo en pause. Il s'agit d'une fonctionnalité bêta — elle fonctionne avec la plupart des lecteurs mais peut ne pas être fiable sur toutes les plateformes.",
+    "settingsHeading": "Paramètres",
+    "settingsLangHeading": "Langue et transcription",
+    "settingsLangBody": "Définissez la langue de l'interface (ce que vous voyez dans l'extension) et la langue de la vidéo (ce que l'IA écoute). Préciser la langue de la vidéo améliore significativement la précision pour les contenus non anglophones.",
+    "settingsAudioHeading": "Source audio",
+    "settingsAudioBody": "Basculez entre Micro, Audio d'onglet Normal et Audio d'onglet Optimal. Vous pouvez aussi changer directement dans le panneau latéral sans ouvrir les Paramètres.",
+    "settingsDictHeading": "Dictionnaire personnalisé",
+    "settingsDictBody": "Ajoutez les termes techniques, noms ou abréviations que l'IA transcrit mal. Les mots du dictionnaire sont priorisés lors de la transcription — utile pour le vocabulaire spécifique à un cours, les noms de professeurs ou les termes scientifiques.",
+    "settingsDisplayHeading": "Affichage",
+    "settingsDisplayBody": "Ajustez la taille de police dans le panneau, activez les horodatages sur chaque ligne, et activez le formatage automatique pour insérer des sauts de paragraphe automatiquement.",
+    "settingsStorageHeading": "Stockage",
+    "settingsStorageBody": "Choisissez la fréquence de sauvegarde automatique, l'emplacement de sauvegarde (stockage navigateur ou dossier local), et le format d'export par défaut (TXT ou Markdown).",
+    "settingsLicenseHeading": "Licence et crédits",
+    "settingsLicenseBody": "Collez votre clé de licence ici et cliquez sur Activer. Une fois active, vous verrez votre solde de crédits restants et le total d'heures transcrites.",
+    "troubleshootingHeading": "Dépannage",
+    "troubleshootingItems": [
+      {
+        "q": "La transcription affiche « merci d'avoir regardé » ou « cliquez pour vous abonner » pendant les silences.",
+        "a": "C'est un comportement normal de l'IA. Les modèles de transcription sont entraînés sur des vidéos YouTube et peuvent halluciner ces phrases pendant les silences ou les bruits de fond. Supprimez simplement ces lignes — elles n'affectent pas le reste."
+      },
+      {
+        "q": "LessonScriptor ne détecte pas le titre de la vidéo.",
+        "a": "Actualisez l'onglet. La détection du titre requiert que la page soit entièrement chargée — une actualisation résout ce problème dans la plupart des cas."
+      },
+      {
+        "q": "La synchronisation ne met pas ma vidéo en pause.",
+        "a": "La synchronisation est une fonctionnalité bêta avec une compatibilité limitée. Essayez d'actualiser l'onglet. Si cela ne fonctionne pas, utilisez manuellement le bouton d'arrêt de transcription."
+      },
+      {
+        "q": "La transcription en mode Micro s'est arrêtée ou semble bloquée.",
+        "a": "Le moteur de reconnaissance vocale de Chrome peut s'arrêter silencieusement. Augmentez le volume de votre ordinateur pour que le microphone capte mieux le son. Si c'est toujours bloqué, arrêtez et redémarrez la transcription."
+      },
+      {
+        "q": "Rien ne fonctionne — la transcription ne démarre pas.",
+        "a": "D'abord, actualisez l'onglet. Cela résout 90 % des problèmes. Si le problème persiste, vérifiez si votre extension nécessite une mise à jour dans chrome://extensions."
+      }
+    ],
+    "supportHeading": "Besoin d'aide ?",
+    "supportBody": "Si vous êtes toujours bloqué, envoyez-nous un message — nous répondons généralement sous 24 heures.",
+    "footer": "Guide"
   }
 }

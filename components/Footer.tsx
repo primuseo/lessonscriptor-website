@@ -47,6 +47,7 @@ export default function Footer({ locale }: { locale: string }) {
               <li><NextLink href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-cream-100 transition-colors">How to Transcribe Lectures</NextLink></li>
               <li><NextLink href={`${base}/blog/how-to-take-notes-with-adhd`} className="hover:text-cream-100 transition-colors">Note-taking for ADHD</NextLink></li>
               <li><NextLink href={`${base}/blog/best-chrome-extensions-live-captions`} className="hover:text-cream-100 transition-colors">Best Chrome Live Captions</NextLink></li>
+              <li><Link href="/onboarding" className="hover:text-cream-100 transition-colors">{t('guide')}</Link></li>
               <li><Link href="/contact" className="hover:text-cream-100 transition-colors">{t('support')}</Link></li>
               <li><Link href="/privacy" className="hover:text-cream-100 transition-colors">{t('privacy')}</Link></li>
             </ul>
