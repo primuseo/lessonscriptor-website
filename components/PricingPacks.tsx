@@ -30,7 +30,7 @@ const CURRENCIES: Record<string, { symbol: string; rate: number; decimals?: numb
 }
 
 const CHECKOUT_URLS: Record<number, string> = {
-  5: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/4d71daba-2b98-4e22-ad5f-b02eb08f9bfb?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
+  5: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/8ff92fe3-bb8d-401b-b2b2-9579a54a1722?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
   12: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/347face6-52b0-432f-a2bd-1c7c41158f84?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
   21: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/4d71daba-2b98-4e22-ad5f-b02eb08f9bfb?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
 }
