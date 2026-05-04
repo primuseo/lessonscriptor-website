@@ -4,11 +4,9 @@ import { getDb } from '@/lib/db';
 import { requireAuth, isAuthError } from '@/lib/auth';
 import { handlePreflight, jsonResponse } from '@/lib/cors';
 
-export const maxDuration = 30;
-export const config = {
-  api: { bodyParser: { sizeLimit: '10mb' } },
-};
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit';
+
+export const maxDuration = 30;
 
 const MAX_ACTIVE_SESSIONS = 2;
 const GRACE_PERIOD_SECONDS = 600;
