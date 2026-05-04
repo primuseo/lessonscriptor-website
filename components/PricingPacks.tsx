@@ -30,9 +30,9 @@ const CURRENCIES: Record<string, { symbol: string; rate: number; decimals?: numb
 }
 
 const CHECKOUT_URLS: Record<number, string> = {
-  5: 'https://lessonscriptor.lemonsqueezy.com/buy/YOUR_5H_PRODUCT_ID',
-  12: 'https://lessonscriptor.lemonsqueezy.com/buy/YOUR_15H_PRODUCT_ID',
-  21: 'https://lessonscriptor.lemonsqueezy.com/buy/YOUR_30H_PRODUCT_ID',
+  5: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/4d71daba-2b98-4e22-ad5f-b02eb08f9bfb?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
+  12: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/347face6-52b0-432f-a2bd-1c7c41158f84?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
+  21: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/4d71daba-2b98-4e22-ad5f-b02eb08f9bfb?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
 }
 
 function formatPrice(symbol: string, amount: number, forceDecimals?: number): string {
