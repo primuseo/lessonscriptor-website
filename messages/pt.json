@@ -1053,12 +1053,13 @@
     "eyebrow": "Guia do utilizador",
     "h1": "Como usar o LessonScriptor",
     "subtitle": "Tudo o que precisa para começar e tirar o máximo partido de cada funcionalidade.",
-    "quickstartHeading": "Comece em 3 minutos",
+    "quickstartHeading": "Comece em 5 minutos",
     "quickstartSteps": [
       "Instale o LessonScriptor na Chrome Web Store (gratuito, sem registo).",
       "Abra qualquer vídeo no Chrome e clique no ícone LessonScriptor para abrir o painel lateral.",
       "Escolha a fonte de áudio no painel (Modo Microfone = gratuito; Áudio de Aba = requer licença).",
-      "Carregue em play. A sua transcrição aparece em tempo real."
+      "Em Definições > Armazenamento, selecione a pasta no computador onde pretende que as transcrições sejam guardadas automaticamente.",
+      "Carregue em play. No modo Normal, a transcrição aparece após 5\u201310 segundos. No modo Optimal, aguarde cerca de 30 segundos para o primeiro bloco."
     ],
     "modesHeading": "Modos de transcrição",
     "tabAudioHeading": "Áudio de Aba — Normal e Optimal",
@@ -1071,7 +1072,12 @@
     "saveBody": "Clique no ícone de disquete para guardar a transcrição. Pode definir uma pasta de guardado predefinida nas Definições (secção Armazenamento). Sem pasta configurada, a transcrição é guardada no armazenamento local do browser.",
     "historyBody": "Clique no ícone de relógio para abrir o histórico de transcrições. Todas as transcrições guardadas anteriormente aparecem lá — clique em Carregar para restaurar qualquer uma. O histórico é guardado no browser (ou na pasta local se configurada).",
     "exportHeading": "Opções de exportação",
-    "exportBody": "Três formas de exportar a sua transcrição:\n\n• **Copiar para a área de transferência** — cole diretamente no Google Docs, Notion, Word ou qualquer editor. Toda a formatação (negrito, cabeçalhos, destaques) é preservada.\n• **Transferir como TXT** — texto simples, sem formatação.\n• **Transferir como Markdown (.md)** — formatação completa preservada. Abra com Obsidian, Typora ou qualquer leitor Markdown.",
+    "exportSubtitle": "Três formas de exportar a sua transcrição:",
+    "exportOptions": [
+      { "label": "Copiar para a área de transferência", "desc": "Cole diretamente no Google Docs, Notion, Word ou qualquer editor. Toda a formatação (negrito, cabeçalhos, destaques) é preservada." },
+      { "label": "Transferir como TXT", "desc": "Texto simples, sem formatação." },
+      { "label": "Transferir como Markdown (.md)", "desc": "Formatação completa preservada. Abra com Obsidian, Typora ou qualquer leitor Markdown." }
+    ],
     "deleteBody": "Clique no ícone do caixote para eliminar a transcrição atual. Esta ação não pode ser desfeita.",
     "syncHeading": "Sincronização com o leitor de vídeo (beta)",
     "syncBody": "Clique no ícone de ligação para ativar o modo de sincronização. Quando ativo, parar a transcrição também pausa o vídeo. É uma funcionalidade beta — funciona com a maioria dos leitores mas pode não ser fiável em todas as plataformas.",

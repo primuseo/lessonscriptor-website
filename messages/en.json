@@ -1041,12 +1041,13 @@
     "eyebrow": "User Guide",
     "h1": "How to use LessonScriptor",
     "subtitle": "Everything you need to get started and get the most out of every feature.",
-    "quickstartHeading": "Get started in 3 minutes",
+    "quickstartHeading": "Get started in 5 minutes",
     "quickstartSteps": [
       "Install LessonScriptor from the Chrome Web Store (free, no sign-up).",
       "Open any video in Chrome and click the LessonScriptor icon to open the side panel.",
       "Choose your audio source in the side panel (Mic Mode = free; Tab Audio = requires license).",
-      "Press play on the video. Your transcript appears in real-time."
+      "In Settings > Storage, select the folder on your computer where you want transcripts saved automatically.",
+      "Press play on the video. In Normal mode, your transcript appears after 5\u201310 seconds. In Optimal mode, expect around 30 seconds for the first block."
     ],
     "modesHeading": "Transcription modes",
     "tabAudioHeading": "Tab Audio — Normal and Optimal",
@@ -1059,7 +1060,12 @@
     "saveBody": "Click the floppy disk icon to save the transcript. You can set a default save folder in Settings (Storage section). If no folder is set, the transcript is saved in your browser's local storage.",
     "historyBody": "Click the clock icon to open your transcript history. All previously saved transcripts are listed there — click Load to restore any of them. History is stored in your browser (or in your local folder if configured).",
     "exportHeading": "Export options",
-    "exportBody": "Three ways to get your transcript out:\n\n• **Copy to clipboard** — paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved.\n• **Download as TXT** — plain text, no formatting.\n• **Download as Markdown (.md)** — full formatting preserved. Open with Obsidian, Typora, or any Markdown reader.",
+    "exportSubtitle": "Three ways to get your transcript out:",
+    "exportOptions": [
+      { "label": "Copy to clipboard", "desc": "Paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved." },
+      { "label": "Download as TXT", "desc": "Plain text, no formatting." },
+      { "label": "Download as Markdown (.md)", "desc": "Full formatting preserved. Open with Obsidian, Typora, or any Markdown reader." }
+    ],
     "deleteBody": "Click the trash icon to delete the current transcript. This action cannot be undone.",
     "syncHeading": "Sync with video player (beta)",
     "syncBody": "Click the link icon to enable sync mode. When active, stopping the transcription will also pause the video. This is a beta feature — it works with most players but may not be reliable on all platforms.",

@@ -1,6 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { Link } from '@/navigation'
+import { SaveIcon, TrashIcon, ExportIcon, ClockIcon, SyncIcon } from '@/components/ExtensionIcons'
 
 const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
 
@@ -95,21 +96,47 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
         <section className="mb-16">
           <h2 className="font-serif text-2xl font-bold text-terra-800 mb-8">{t('editingHeading')}</h2>
 
-          <div className="space-y-6">
-            <div>
-              <h3 className="font-semibold text-terra-800 mb-2">{t('exportHeading')}</h3>
-              <div className="text-terra-800/70 leading-relaxed text-sm whitespace-pre-line">{t('exportBody')}</div>
-            </div>
-            <div>
-              <p className="text-terra-800/70 leading-relaxed text-sm">{t('titleBody')}</p>
-            </div>
-            <div>
+          <div className="space-y-5">
+            <p className="text-terra-800/70 leading-relaxed text-sm">{t('titleBody')}</p>
+
+            <div className="flex items-start gap-3">
+              <span className="shrink-0 w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center mt-0.5">
+                <SaveIcon className="w-4 h-4 text-terra-800/50" />
+              </span>
               <p className="text-terra-800/70 leading-relaxed text-sm">{t('saveBody')}</p>
             </div>
-            <div>
+
+            <div className="flex items-start gap-3">
+              <span className="shrink-0 w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center mt-0.5">
+                <ClockIcon className="w-4 h-4 text-terra-800/50" />
+              </span>
               <p className="text-terra-800/70 leading-relaxed text-sm">{t('historyBody')}</p>
             </div>
+
             <div>
+              <div className="flex items-start gap-3 mb-3">
+                <span className="shrink-0 w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center mt-0.5">
+                  <ExportIcon className="w-4 h-4 text-terra-800/50" />
+                </span>
+                <div>
+                  <h3 className="font-semibold text-terra-800 mb-1">{t('exportHeading')}</h3>
+                  <p className="text-terra-800/70 text-sm mb-2">{t('exportSubtitle')}</p>
+                  <ul className="space-y-1.5">
+                    {(t.raw('exportOptions') as { label: string; desc: string }[]).map((opt, i) => (
+                      <li key={i} className="text-terra-800/70 text-sm leading-relaxed">
+                        <strong className="text-terra-800 font-semibold">{opt.label}</strong>
+                        {' \u2014 '}{opt.desc}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-start gap-3">
+              <span className="shrink-0 w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center mt-0.5">
+                <TrashIcon className="w-4 h-4 text-terra-800/50" />
+              </span>
               <p className="text-terra-800/70 leading-relaxed text-sm">{t('deleteBody')}</p>
             </div>
           </div>
@@ -120,7 +147,12 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
         {/* Sync */}
         <section className="mb-16">
           <h2 className="font-serif text-2xl font-bold text-terra-800 mb-4">{t('syncHeading')}</h2>
-          <p className="text-terra-800/70 leading-relaxed text-sm">{t('syncBody')}</p>
+          <div className="flex items-start gap-3">
+            <span className="shrink-0 w-8 h-8 rounded-lg bg-cream-100 flex items-center justify-center mt-0.5">
+              <SyncIcon className="w-4 h-4 text-terra-800/50" />
+            </span>
+            <p className="text-terra-800/70 leading-relaxed text-sm">{t('syncBody')}</p>
+          </div>
         </section>
 
         <hr className="border-cream-200 mb-16" />

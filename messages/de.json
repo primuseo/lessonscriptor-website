@@ -1053,12 +1053,13 @@
     "eyebrow": "Benutzerhandbuch",
     "h1": "So verwenden Sie LessonScriptor",
     "subtitle": "Alles, was Sie brauchen, um zu starten und das Beste aus jeder Funktion herauszuholen.",
-    "quickstartHeading": "In 3 Minuten loslegen",
+    "quickstartHeading": "In 5 Minuten loslegen",
     "quickstartSteps": [
       "Installieren Sie LessonScriptor aus dem Chrome Web Store (kostenlos, ohne Registrierung).",
       "Öffnen Sie ein Video in Chrome und klicken Sie auf das LessonScriptor-Symbol, um das Seitenpanel zu öffnen.",
       "Wählen Sie Ihre Audioquelle im Panel (Mikrofon-Modus = kostenlos; Tab-Audio = erfordert Lizenz).",
-      "Drücken Sie Play. Ihre Transkription erscheint in Echtzeit."
+      "Unter Einstellungen > Speicherung wählen Sie den Ordner auf Ihrem Computer, in dem Transkriptionen automatisch gespeichert werden sollen.",
+      "Drücken Sie Play. Im Normal-Modus erscheint Ihre Transkription nach 5\u201310 Sekunden. Im Optimal-Modus dauert es etwa 30 Sekunden für den ersten Block."
     ],
     "modesHeading": "Transkriptionsmodi",
     "tabAudioHeading": "Tab-Audio — Normal und Optimal",
@@ -1071,7 +1072,12 @@
     "saveBody": "Klicken Sie auf das Disketten-Symbol, um die Transkription zu speichern. Sie können in den Einstellungen (Abschnitt Speicherung) einen Standardspeicherordner festlegen. Ohne konfigurierten Ordner wird die Transkription im lokalen Browser-Speicher gespeichert.",
     "historyBody": "Klicken Sie auf das Uhr-Symbol, um den Transkriptionsverlauf zu öffnen. Alle zuvor gespeicherten Transkriptionen werden dort aufgelistet — klicken Sie auf Laden, um eine davon wiederherzustellen. Der Verlauf wird in Ihrem Browser gespeichert (oder in Ihrem lokalen Ordner, falls konfiguriert).",
     "exportHeading": "Exportoptionen",
-    "exportBody": "Drei Möglichkeiten, Ihre Transkription zu exportieren:\n\n• **In Zwischenablage kopieren** — direkt in Google Docs, Notion, Word oder einen beliebigen Editor einfügen. Alle Formatierungen (Fett, Überschriften, Hervorhebungen) bleiben erhalten.\n• **Als TXT herunterladen** — Klartext, ohne Formatierung.\n• **Als Markdown (.md) herunterladen** — vollständige Formatierung bleibt erhalten. Öffnen Sie mit Obsidian, Typora oder einem Markdown-Reader.",
+    "exportSubtitle": "Drei Möglichkeiten, Ihre Transkription zu exportieren:",
+    "exportOptions": [
+      { "label": "In Zwischenablage kopieren", "desc": "Direkt in Google Docs, Notion, Word oder einen beliebigen Editor einfügen. Alle Formatierungen (Fett, Überschriften, Hervorhebungen) bleiben erhalten." },
+      { "label": "Als TXT herunterladen", "desc": "Klartext, ohne Formatierung." },
+      { "label": "Als Markdown (.md) herunterladen", "desc": "Vollständige Formatierung bleibt erhalten. Öffnen Sie mit Obsidian, Typora oder einem Markdown-Reader." }
+    ],
     "deleteBody": "Klicken Sie auf das Papierkorb-Symbol, um die aktuelle Transkription zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
     "syncHeading": "Synchronisation mit dem Videoplayer (Beta)",
     "syncBody": "Klicken Sie auf das Link-Symbol, um den Synchronisationsmodus zu aktivieren. Wenn aktiv, wird das Video auch pausiert, wenn die Transkription gestoppt wird. Dies ist eine Beta-Funktion — sie funktioniert mit den meisten Playern, ist aber möglicherweise nicht auf allen Plattformen zuverlässig.",

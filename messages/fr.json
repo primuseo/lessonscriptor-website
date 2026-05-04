@@ -1054,12 +1054,13 @@
     "eyebrow": "Guide d'utilisation",
     "h1": "Comment utiliser LessonScriptor",
     "subtitle": "Tout ce qu'il vous faut pour démarrer et tirer le meilleur de chaque fonctionnalité.",
-    "quickstartHeading": "Démarrez en 3 minutes",
+    "quickstartHeading": "Démarrez en 5 minutes",
     "quickstartSteps": [
       "Installez LessonScriptor depuis le Chrome Web Store (gratuit, sans inscription).",
       "Ouvrez une vidéo dans Chrome et cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral.",
       "Choisissez votre source audio dans le panneau (Mode Micro = gratuit ; Audio d'onglet = nécessite une licence).",
-      "Appuyez sur lecture. Votre transcription apparaît en temps réel."
+      "Dans Paramètres > Stockage, sélectionnez le dossier sur votre ordinateur où vous souhaitez que les transcriptions soient enregistrées automatiquement.",
+      "Appuyez sur lecture. En mode Normal, la transcription apparaît après 5\u201310 secondes. En mode Optimal, comptez environ 30 secondes pour le premier bloc."
     ],
     "modesHeading": "Modes de transcription",
     "tabAudioHeading": "Audio d'onglet — Normal et Optimal",
@@ -1072,7 +1073,12 @@
     "saveBody": "Cliquez sur l'icône de disquette pour sauvegarder la transcription. Vous pouvez définir un dossier de sauvegarde par défaut dans les Paramètres (section Stockage). Sans dossier configuré, la transcription est enregistrée dans le stockage local du navigateur.",
     "historyBody": "Cliquez sur l'icône d'horloge pour ouvrir l'historique de vos transcriptions. Toutes les transcriptions précédemment sauvegardées y sont listées — cliquez sur Charger pour en restaurer une. L'historique est stocké dans votre navigateur (ou dans votre dossier local si configuré).",
     "exportHeading": "Options d'export",
-    "exportBody": "Trois façons d'exporter votre transcription :\n\n• **Copier dans le presse-papiers** — collez directement dans Google Docs, Notion, Word ou tout éditeur. Toute la mise en forme (gras, titres, surlignages) est préservée.\n• **Télécharger en TXT** — texte brut, sans mise en forme.\n• **Télécharger en Markdown (.md)** — mise en forme complète préservée. Ouvrez avec Obsidian, Typora ou tout lecteur Markdown.",
+    "exportSubtitle": "Trois façons d'exporter votre transcription :",
+    "exportOptions": [
+      { "label": "Copier dans le presse-papiers", "desc": "Collez directement dans Google Docs, Notion, Word ou tout éditeur. Toute la mise en forme (gras, titres, surlignages) est préservée." },
+      { "label": "Télécharger en TXT", "desc": "Texte brut, sans mise en forme." },
+      { "label": "Télécharger en Markdown (.md)", "desc": "Mise en forme complète préservée. Ouvrez avec Obsidian, Typora ou tout lecteur Markdown." }
+    ],
     "deleteBody": "Cliquez sur l'icône de corbeille pour supprimer la transcription en cours. Cette action est irréversible.",
     "syncHeading": "Synchronisation avec le lecteur vidéo (bêta)",
     "syncBody": "Cliquez sur l'icône de lien pour activer le mode synchronisation. Lorsqu'il est actif, arrêter la transcription met également la vidéo en pause. Il s'agit d'une fonctionnalité bêta — elle fonctionne avec la plupart des lecteurs mais peut ne pas être fiable sur toutes les plateformes.",

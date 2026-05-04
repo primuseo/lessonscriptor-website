@@ -1053,12 +1053,13 @@
     "eyebrow": "使用指南",
     "h1": "如何使用 LessonScriptor",
     "subtitle": "一切你需要的内容，帮助你快速上手并充分利用每项功能。",
-    "quickstartHeading": "3分钟快速开始",
+    "quickstartHeading": "5分钟快速开始",
     "quickstartSteps": [
       "从 Chrome 网上应用店安装 LessonScriptor（免费，无需注册）。",
       "在 Chrome 中打开任意视频，点击 LessonScriptor 图标打开侧边栏。",
       "在侧边栏中选择音频来源（麦克风模式 = 免费；标签页音频 = 需要许可证）。",
-      "点击播放。转录内容实时显示。"
+      "在设置 > 存储中，选择电脑上自动保存转录的文件夹。",
+      "点击播放。普通模式下，转录在5\u201310秒后显示。最优模式下，第一个片段约需30秒。"
     ],
     "modesHeading": "转录模式",
     "tabAudioHeading": "标签页音频 — 普通模式与最优模式",
@@ -1071,7 +1072,12 @@
     "saveBody": "点击软盘图标保存转录。你可以在设置（存储部分）中设置默认保存文件夹。未设置文件夹时，转录保存在浏览器本地存储中。",
     "historyBody": "点击时钟图标打开转录历史。所有之前保存的转录都列在那里——点击加载即可恢复。历史记录存储在浏览器中（或在已配置的本地文件夹中）。",
     "exportHeading": "导出选项",
-    "exportBody": "三种导出转录的方式：\n\n• **复制到剪贴板** — 直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。\n• **下载为 TXT** — 纯文本，无格式。\n• **下载为 Markdown（.md）** — 完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。",
+    "exportSubtitle": "三种导出转录的方式：",
+    "exportOptions": [
+      { "label": "复制到剪贴板", "desc": "直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。" },
+      { "label": "下载为 TXT", "desc": "纯文本，无格式。" },
+      { "label": "下载为 Markdown（.md）", "desc": "完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。" }
+    ],
     "deleteBody": "点击垃圾桶图标删除当前转录。此操作无法撤销。",
     "syncHeading": "与视频播放器同步（测试版）",
     "syncBody": "点击链接图标启用同步模式。启用后，停止转录也会暂停视频。这是测试版功能——适用于大多数播放器，但在所有平台上可能不完全可靠。",
