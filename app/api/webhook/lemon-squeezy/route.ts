@@ -152,7 +152,8 @@ export async function POST(request: NextRequest) {
     await sql`
       INSERT INTO users (email, license_key)
       VALUES (${email}, ${licenseKey})
-      ON CONFLICT (email) DO UPDATE SET license_key = EXCLUDED.license_key
+      ON CONFLICT (email) DO UPDATE
+        SET license_key = COALESCE(users.license_key, EXCLUDED.license_key)
     `;
     console.log(`[Webhook] license_key_created: key linked for ${email}, key=${licenseKey.slice(0, 8)}…`);
   } else {
