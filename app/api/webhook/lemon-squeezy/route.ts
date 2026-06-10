@@ -25,7 +25,7 @@ async function addCredits(
       ON CONFLICT (email) DO UPDATE
         SET credits_seconds_remaining = users.credits_seconds_remaining + ${seconds},
             total_seconds_purchased   = users.total_seconds_purchased   + ${seconds},
-            license_key               = COALESCE(${licenseKey}, users.license_key),
+            license_key               = COALESCE(users.license_key, ${licenseKey}),
             credits_last_updated      = NOW()
     `;
   } else {
