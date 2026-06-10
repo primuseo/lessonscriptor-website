@@ -108,8 +108,14 @@ export async function POST(request: NextRequest) {
     const seconds = secondsForVariant(variantId);
     const licenseKey = attrs.license_key ?? null;
 
+    console.log(`[Webhook] order_created: email=${email}, orderId=${orderId}, variantId=${variantId}, seconds=${seconds}, licenseKey=${licenseKey ? 'yes' : 'no'}`);
+    console.log(`[Webhook] order_created raw attrs keys: ${Object.keys(attrs).join(', ')}`);
+    if (attrs.first_order_item) {
+      console.log(`[Webhook] first_order_item.variant_id=${attrs.first_order_item.variant_id}`);
+    }
+
     if (!seconds) {
-      console.warn(`[Webhook] order_created: unknown variant_id=${variantId}`);
+      console.error(`[Webhook] order_created: UNKNOWN variant_id=${variantId} — credits NOT added for ${email} (order ${orderId}). Check LEMON_SQUEEZY_PACK_*_ID env vars.`);
       return NextResponse.json({ received: true });
     }
 
