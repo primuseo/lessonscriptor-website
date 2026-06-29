@@ -36,6 +36,9 @@ const groqClient = process.env.GROQ_API_KEY
 const openaiClient = process.env.OPENAI_API_KEY
   ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
   : null;
+const openrouterClient = process.env.OPENROUTER_API_KEY
+  ? new OpenAI({ apiKey: process.env.OPENROUTER_API_KEY, baseURL: 'https://openrouter.ai/api/v1' })
+  : null;
 
 function looksLikeSilence(buffer: Buffer): boolean {
   if (buffer.length < 100) return true;
@@ -73,8 +76,10 @@ const LANGUAGE_NAME_TO_ISO: Record<string, string> = {
 
 function toIsoCode(lang: string | null | undefined): string | null {
   if (!lang) return null;
-  if (lang.length <= 3) return lang;
-  return LANGUAGE_NAME_TO_ISO[lang.toLowerCase()] || null;
+  // Strip BCP-47 region subtag: 'en-US' → 'en', 'fr-FR' → 'fr'
+  const base = lang.split('-')[0].toLowerCase();
+  if (base.length <= 3) return base;
+  return LANGUAGE_NAME_TO_ISO[base] || null;
 }
 
 export async function OPTIONS(request: NextRequest) {
@@ -101,6 +106,7 @@ export async function POST(request: NextRequest) {
     audioData?: string;
     mimeType?: string;
     durationSeconds?: number;
+    selectedLanguage?: string | null;
     detectedLanguage?: string | null;
     previousTranscript?: string;
     customDictionary?: string;
@@ -112,21 +118,24 @@ export async function POST(request: NextRequest) {
     return jsonResponse({ error: 'Invalid JSON' }, 400, request);
   }
 
-  const { audioData, mimeType, durationSeconds, detectedLanguage, previousTranscript, customDictionary, provider: requestedProvider } = body;
+  const { audioData, mimeType, durationSeconds, selectedLanguage, detectedLanguage, previousTranscript, customDictionary, provider: requestedProvider } = body;
 
   const provider =
-    (requestedProvider === 'groq' && groqClient) ? 'groq'
-    : (requestedProvider === 'openai' && openaiClient) ? 'openai'
-    : (DEFAULT_PROVIDER === 'groq' && groqClient) ? 'groq'
-    : (openaiClient) ? 'openai'
+    (requestedProvider === 'groq'        && groqClient)        ? 'groq'
+    : (requestedProvider === 'openai'    && openaiClient)      ? 'openai'
+    : (requestedProvider === 'openrouter'&& openrouterClient)  ? 'openrouter'
+    : (DEFAULT_PROVIDER  === 'groq'      && groqClient)        ? 'groq'
+    : (DEFAULT_PROVIDER  === 'openrouter'&& openrouterClient)  ? 'openrouter'
+    : (groqClient)                                              ? 'groq'
+    : (openaiClient)                                            ? 'openai'
     : null;
 
   if (!provider) {
     return jsonResponse({ error: 'No transcription API key configured on server.' }, 500, request);
   }
 
-  const openai = provider === 'groq' ? groqClient! : openaiClient!;
-  const WHISPER_MODEL = provider === 'groq' ? 'whisper-large-v3' : 'whisper-1';
+  const openai = provider === 'groq' ? groqClient! : provider === 'openrouter' ? openrouterClient! : openaiClient!;
+  const WHISPER_MODEL = provider === 'openrouter' ? 'openai/whisper-large-v3-turbo' : provider === 'groq' ? 'whisper-large-v3' : 'whisper-1';
 
   if (!audioData || !mimeType || typeof durationSeconds !== 'number') {
     return jsonResponse({ error: 'audioData, mimeType and durationSeconds are required' }, 400, request);
@@ -211,7 +220,8 @@ export async function POST(request: NextRequest) {
     response_format: 'verbose_json',
     temperature: 0,
   };
-  const isoLanguage = toIsoCode(detectedLanguage);
+  // User's explicit selection takes priority; fall back to previously detected language
+  const isoLanguage = toIsoCode(selectedLanguage) || toIsoCode(detectedLanguage);
   if (isoLanguage) {
     transcriptionParams.language = isoLanguage;
   }
@@ -230,9 +240,21 @@ export async function POST(request: NextRequest) {
   let transcription;
   try {
     transcription = await openai.audio.transcriptions.create(transcriptionParams);
-  } catch (err) {
-    console.error('[Transcribe] Whisper API error:', err);
-    return jsonResponse({ error: 'Transcription service unavailable. Please try again.' }, 502, request);
+  } catch (err: any) {
+    // Auto-fallback to OpenRouter when Groq hits rate limit (free plan quota)
+    if (provider === 'groq' && openrouterClient && err?.status === 429) {
+      console.warn('[Transcribe] Groq rate limited, falling back to OpenRouter');
+      try {
+        const orParams = { ...transcriptionParams, model: 'openai/whisper-large-v3-turbo' };
+        transcription = await openrouterClient.audio.transcriptions.create(orParams);
+      } catch (fallbackErr) {
+        console.error('[Transcribe] OpenRouter fallback failed:', fallbackErr);
+        return jsonResponse({ error: 'Transcription service unavailable. Please try again.' }, 502, request);
+      }
+    } else {
+      console.error('[Transcribe] Whisper API error:', err);
+      return jsonResponse({ error: 'Transcription service unavailable. Please try again.' }, 502, request);
+    }
   }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
