@@ -36,9 +36,6 @@ const groqClient = process.env.GROQ_API_KEY
 const openaiClient = process.env.OPENAI_API_KEY
   ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
   : null;
-const openrouterClient = process.env.OPENROUTER_API_KEY
-  ? new OpenAI({ apiKey: process.env.OPENROUTER_API_KEY, baseURL: 'https://openrouter.ai/api/v1' })
-  : null;
 
 function looksLikeSilence(buffer: Buffer): boolean {
   if (buffer.length < 100) return true;
@@ -121,21 +118,19 @@ export async function POST(request: NextRequest) {
   const { audioData, mimeType, durationSeconds, selectedLanguage, detectedLanguage, previousTranscript, customDictionary, provider: requestedProvider } = body;
 
   const provider =
-    (requestedProvider === 'groq'        && groqClient)        ? 'groq'
-    : (requestedProvider === 'openai'    && openaiClient)      ? 'openai'
-    : (requestedProvider === 'openrouter'&& openrouterClient)  ? 'openrouter'
-    : (DEFAULT_PROVIDER  === 'groq'      && groqClient)        ? 'groq'
-    : (DEFAULT_PROVIDER  === 'openrouter'&& openrouterClient)  ? 'openrouter'
-    : (groqClient)                                              ? 'groq'
-    : (openaiClient)                                            ? 'openai'
+    (requestedProvider === 'groq'   && groqClient)   ? 'groq'
+    : (requestedProvider === 'openai' && openaiClient) ? 'openai'
+    : (DEFAULT_PROVIDER  === 'groq'   && groqClient)   ? 'groq'
+    : (groqClient)                                      ? 'groq'
+    : (openaiClient)                                    ? 'openai'
     : null;
 
   if (!provider) {
     return jsonResponse({ error: 'No transcription API key configured on server.' }, 500, request);
   }
 
-  const openai = provider === 'groq' ? groqClient! : provider === 'openrouter' ? openrouterClient! : openaiClient!;
-  const WHISPER_MODEL = provider === 'openrouter' ? 'openai/whisper-large-v3-turbo' : provider === 'groq' ? 'whisper-large-v3' : 'whisper-1';
+  const openai = provider === 'groq' ? groqClient! : openaiClient!;
+  const WHISPER_MODEL = provider === 'groq' ? 'whisper-large-v3' : 'whisper-1';
 
   if (!audioData || !mimeType || typeof durationSeconds !== 'number') {
     return jsonResponse({ error: 'audioData, mimeType and durationSeconds are required' }, 400, request);
@@ -241,14 +236,14 @@ export async function POST(request: NextRequest) {
   try {
     transcription = await openai.audio.transcriptions.create(transcriptionParams);
   } catch (err: any) {
-    // Auto-fallback to OpenRouter when Groq hits rate limit (free plan quota)
-    if (provider === 'groq' && openrouterClient && err?.status === 429) {
-      console.warn('[Transcribe] Groq rate limited, falling back to OpenRouter');
+    // Auto-fallback to OpenAI when Groq hits rate limit (free plan quota)
+    if (provider === 'groq' && openaiClient && err?.status === 429) {
+      console.warn('[Transcribe] Groq rate limited, falling back to OpenAI Whisper');
       try {
-        const orParams = { ...transcriptionParams, model: 'openai/whisper-large-v3-turbo' };
-        transcription = await openrouterClient.audio.transcriptions.create(orParams);
+        const oaiParams = { ...transcriptionParams, model: 'whisper-1' };
+        transcription = await openaiClient.audio.transcriptions.create(oaiParams);
       } catch (fallbackErr) {
-        console.error('[Transcribe] OpenRouter fallback failed:', fallbackErr);
+        console.error('[Transcribe] OpenAI fallback failed:', fallbackErr);
         return jsonResponse({ error: 'Transcription service unavailable. Please try again.' }, 502, request);
       }
     } else {
