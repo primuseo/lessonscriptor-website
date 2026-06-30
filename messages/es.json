@@ -30,7 +30,8 @@
     "transcribeVideo": "Transcribir video",
     "blog": "Blog",
     "compare": "vs Otter.ai",
-    "forAdhd": "Estudiantes TDAH"
+    "forAdhd": "Estudiantes TDAH",
+    "contact": "Contacto"
   },
   "footer": {
     "product": "Producto",
@@ -725,13 +726,86 @@
         {
           "q": "¿En qué idiomas puedo transcribir un vídeo?",
           "a": "LessonScriptor admite más de 14 idiomas, incluidos español, inglés, francés, alemán, portugués, italiano, neerlandés, polaco, mandarín, japonés, árabe, hindi y más. Selecciona tu idioma en los ajustes de la extensión antes de pulsar reproducir."
+        },
+        {
+          "q": "¿Puedo transcribir clases en Moodle o el campus virtual de mi universidad?",
+          "a": "Sí. LessonScriptor funciona con cualquier video que se reproduzca en una pestaña de Chrome, incluidas plataformas universitarias protegidas como Moodle, Canvas, Panopto o Blackboard. No se necesita extraer ningún archivo."
+        },
+        {
+          "q": "¿Es LessonScriptor mejor que los subtítulos automáticos de YouTube?",
+          "a": "Para videos de YouTube ambos funcionan en tiempo real. La diferencia es que LessonScriptor genera una transcripción exportable y editable, mientras que los subtítulos de YouTube desaparecen al cerrar el video. LessonScriptor también funciona en Coursera, Zoom, Udemy y archivos locales."
         }
       ]
     },
     "metaTitle": "Transcribir Video a Texto Gratis — en Directo en Chrome",
     "metaDesc": "Transcribe cualquier vídeo a texto en tiempo real con IA. Extensión Chrome gratuita — sin subida, sin cuenta, sin suscripción. +50 plataformas de vídeo.",
     "relatedHeading": "Aprende más sobre transcripción de vídeo",
-    "readMore": "Leer más"
+    "readMore": "Leer más",
+    "heroAriaLabel": "Introducción — transcribir video a texto",
+    "answerAriaLabel": "Respuesta directa",
+    "whyRealtime": {
+      "title": "¿Por qué transcribir un video en tiempo real?",
+      "intro": "La transcripción en tiempo real cambia la forma de estudiar. A diferencia de las herramientas que te obligan a esperar el procesamiento por lotes, LessonScriptor genera el texto mientras el video se reproduce.",
+      "items": [
+        {
+          "title": "Sin esperas, sin descargas",
+          "desc": "Las herramientas de transcripción por lotes requieren descargar el video, esperar el procesamiento y luego importar el texto. LessonScriptor transcribe directamente en el navegador."
+        },
+        {
+          "title": "Privacidad: procesamiento local",
+          "desc": "El modo gratuito usa la API Web Speech de Chrome — el audio se procesa en tu dispositivo, sin enviar nada a servidores externos."
+        },
+        {
+          "title": "Compatible con plataformas universitarias protegidas",
+          "desc": "Los videos alojados en Moodle, Canvas, Panopto o Blackboard no pueden descargarse. LessonScriptor los transcribe directamente desde la pestaña de Chrome."
+        },
+        {
+          "title": "Exporta a Notion, Obsidian o Google Docs",
+          "desc": "Al terminar, exporta en Markdown o copia con un clic. Compatible con Notion, Obsidian, Google Docs y tu editor favorito."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "LessonScriptor vs otras herramientas de transcripción de video",
+      "intro": "Hay varias formas de transcribir un video a texto. Así se compara LessonScriptor con las alternativas más comunes:",
+      "colTool": "Herramienta",
+      "colMethod": "Método",
+      "colFree": "¿Gratis?",
+      "colRealtime": "¿Tiempo real?",
+      "rows": [
+        {
+          "tool": "LessonScriptor",
+          "method": "Extensión Chrome, transcribe durante la reproducción",
+          "free": "✅ Sí (nivel gratuito ilimitado)",
+          "realtime": "✅ Sí"
+        },
+        {
+          "tool": "Otter.ai",
+          "method": "Grabación de audio, procesamiento cloud",
+          "free": "⚠️ Limitado (300 min/mes)",
+          "realtime": "✅ Sí (con app)"
+        },
+        {
+          "tool": "YouTube CC",
+          "method": "Solo subtítulos automáticos de YouTube",
+          "free": "✅ Sí",
+          "realtime": "✅ Sí (solo YouTube)"
+        },
+        {
+          "tool": "Whisper (local)",
+          "method": "Descarga + procesamiento sin conexión",
+          "free": "✅ Sí (open source)",
+          "realtime": "❌ No"
+        },
+        {
+          "tool": "Rev / Trint",
+          "method": "Subida de archivo, transcripción IA o humana",
+          "free": "❌ De pago",
+          "realtime": "❌ No"
+        }
+      ],
+      "note": "Comparación actualizada en mayo de 2025. Precios y funciones verificados en los sitios oficiales."
+    }
   },
   "otterAlt": {
     "h1": "La mejor alternativa a Otter.ai para estudiantes",
@@ -1060,7 +1134,7 @@
       "Abre cualquier vídeo en Chrome y haz clic en el icono de LessonScriptor para abrir el panel lateral.",
       "Elige tu fuente de audio en el panel (Modo Micrófono = gratis; Audio de pestaña = requiere licencia).",
       "En Configuración > Almacenamiento, selecciona la carpeta en tu ordenador donde quieres que las transcripciones se guarden automáticamente.",
-      "Dale al play. En modo Normal, tu transcripción aparece tras 5\u201310 segundos. En modo Óptimo, espera unos 30 segundos para el primer bloque."
+      "Dale al play. En modo Normal, tu transcripción aparece tras 5–10 segundos. En modo Óptimo, espera unos 30 segundos para el primer bloque."
     ],
     "modesHeading": "Modos de transcripción",
     "tabAudioHeading": "Audio de pestaña — Normal y Óptimo",
@@ -1075,9 +1149,18 @@
     "exportHeading": "Opciones de exportación",
     "exportSubtitle": "Tres formas de exportar tu transcripción:",
     "exportOptions": [
-      { "label": "Copiar al portapapeles", "desc": "Pega directamente en Google Docs, Notion, Word o cualquier editor. Todo el formato (negrita, encabezados, resaltados) se conserva." },
-      { "label": "Descargar como TXT", "desc": "Texto plano, sin formato." },
-      { "label": "Descargar como Markdown (.md)", "desc": "Formato completo conservado. Ábrelo con Obsidian, Typora o cualquier lector Markdown." }
+      {
+        "label": "Copiar al portapapeles",
+        "desc": "Pega directamente en Google Docs, Notion, Word o cualquier editor. Todo el formato (negrita, encabezados, resaltados) se conserva."
+      },
+      {
+        "label": "Descargar como TXT",
+        "desc": "Texto plano, sin formato."
+      },
+      {
+        "label": "Descargar como Markdown (.md)",
+        "desc": "Formato completo conservado. Ábrelo con Obsidian, Typora o cualquier lector Markdown."
+      }
     ],
     "deleteBody": "Haz clic en el icono de papelera para eliminar la transcripción actual. Esta acción no se puede deshacer.",
     "syncHeading": "Sincronización con el reproductor de vídeo (beta)",
@@ -1121,5 +1204,41 @@
     "supportHeading": "¿Necesitas más ayuda?",
     "supportBody": "Si sigues teniendo problemas, envíanos un mensaje — solemos responder en menos de 24 horas.",
     "footer": "Guía"
+  },
+  "uninstall": {
+    "metaTitle": "Lamentamos que te vayas",
+    "metaDesc": "Cuéntanos por qué desinstalaste LessonScriptor para ayudarnos a mejorarlo.",
+    "eyebrow": "Antes de irte",
+    "h1": "Lamentamos que te vayas",
+    "subtitle": "Tus comentarios son anónimos y nos ayudan a mejorar LessonScriptor.",
+    "reasonsLabel": "¿Por qué lo desinstalaste?",
+    "reasons": [
+      {
+        "id": "too_complex",
+        "label": "Demasiado complicado o confuso de usar"
+      },
+      {
+        "id": "didnt_work",
+        "label": "No funcionaba o tenía errores"
+      },
+      {
+        "id": "missing_feature",
+        "label": "Le faltaba una función que necesitaba"
+      },
+      {
+        "id": "not_needed",
+        "label": "Ya no lo necesito / solo lo estaba probando"
+      },
+      {
+        "id": "other",
+        "label": "Otro motivo"
+      }
+    ],
+    "commentPlaceholder": "¿Algo más que quieras contarnos? (opcional)",
+    "submit": "Enviar comentarios",
+    "sending": "Enviando...",
+    "successH1": "Gracias",
+    "successBody": "Agradecemos tus comentarios. Siempre serás bienvenido de vuelta.",
+    "reinstallCTA": "Reinstalar LessonScriptor"
   }
 }

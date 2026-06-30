@@ -30,7 +30,8 @@
     "transcribeVideo": "Transcribe Video",
     "blog": "Blog",
     "compare": "vs Otter.ai",
-    "forAdhd": "For ADHD Students"
+    "forAdhd": "For ADHD Students",
+    "contact": "Contact"
   },
   "footer": {
     "product": "Product",
@@ -709,13 +710,86 @@
         {
           "q": "What languages can I transcribe video into?",
           "a": "LessonScriptor supports 14+ languages including English, French, Spanish, German, Portuguese, Italian, Dutch, Polish, Mandarin, Japanese, Arabic, Hindi, and more. Select your language in the extension settings before pressing play."
+        },
+        {
+          "q": "Can I transcribe lectures on Moodle or my university LMS?",
+          "a": "Yes. LessonScriptor works with any video playing in a Chrome tab, including password-protected university platforms like Moodle, Canvas, Panopto, or Blackboard. No file extraction needed."
+        },
+        {
+          "q": "Is LessonScriptor better than YouTube auto-captions?",
+          "a": "For YouTube videos, both work in real time. The difference is LessonScriptor generates an exportable, editable transcript, while YouTube captions disappear when the video closes. LessonScriptor also works on Coursera, Zoom, Udemy, and local files — not just YouTube."
         }
       ]
     },
     "metaTitle": "YouTube Transcript Generator — Free, No Upload | LessonScriptor",
     "metaDesc": "Generate a transcript from any YouTube video in real-time with AI. Free Chrome extension — no upload, no account, no subscription. Works on 50+ video platforms.",
     "relatedHeading": "Learn more about video transcription",
-    "readMore": "Read more"
+    "readMore": "Read more",
+    "heroAriaLabel": "Introduction — transcribe video to text",
+    "answerAriaLabel": "Direct answer",
+    "whyRealtime": {
+      "title": "Why transcribe video in real time?",
+      "intro": "Real-time transcription changes how you study. Unlike tools that make you wait for batch processing, LessonScriptor generates text as the video plays — like subtitles, but exportable and editable.",
+      "items": [
+        {
+          "title": "No waiting, no uploading",
+          "desc": "Batch transcription tools require you to download the video, wait for processing (sometimes minutes), then import the text. LessonScriptor transcribes directly in the browser, no intermediary needed."
+        },
+        {
+          "title": "Privacy: on-device processing",
+          "desc": "Free mode uses Chrome's Web Speech API — audio processing happens on your device, nothing sent to an external server. Ideal for confidential course content."
+        },
+        {
+          "title": "Works with locked university platforms",
+          "desc": "Videos hosted behind a university LMS portal (Moodle, Canvas, Panopto, Blackboard) cannot be downloaded. LessonScriptor transcribes them directly from the Chrome tab, without bypassing any protections."
+        },
+        {
+          "title": "Export to Notion, Obsidian or Google Docs",
+          "desc": "Once done, export as Markdown or copy in one click. Compatible with all note-taking tools — Notion, Obsidian, Google Docs, or your preferred editor."
+        }
+      ]
+    },
+    "comparison": {
+      "title": "LessonScriptor vs other video transcription tools",
+      "intro": "There are several ways to transcribe a video to text. Here is how LessonScriptor compares to common alternatives:",
+      "colTool": "Tool",
+      "colMethod": "Method",
+      "colFree": "Free?",
+      "colRealtime": "Real-time?",
+      "rows": [
+        {
+          "tool": "LessonScriptor",
+          "method": "Chrome extension, transcribes during playback",
+          "free": "✅ Yes (unlimited free tier)",
+          "realtime": "✅ Yes"
+        },
+        {
+          "tool": "Otter.ai",
+          "method": "Audio recording, cloud processing",
+          "free": "⚠️ Limited (300 min/mo)",
+          "realtime": "✅ Yes (with app)"
+        },
+        {
+          "tool": "YouTube CC",
+          "method": "YouTube auto-captions only",
+          "free": "✅ Yes",
+          "realtime": "✅ Yes (YouTube only)"
+        },
+        {
+          "tool": "Whisper (local)",
+          "method": "Download + offline processing",
+          "free": "✅ Yes (open source)",
+          "realtime": "❌ No"
+        },
+        {
+          "tool": "Rev / Trint",
+          "method": "File upload, human or AI transcript",
+          "free": "❌ Paid",
+          "realtime": "❌ No"
+        }
+      ],
+      "note": "Comparison updated May 2025. Pricing and features verified on competitor official sites."
+    }
   },
   "otterAlt": {
     "h1": "The Best Otter.ai Alternative for Students",
@@ -1047,7 +1121,7 @@
       "Open any video in Chrome and click the LessonScriptor icon to open the side panel.",
       "Choose your audio source in the side panel (Mic Mode = free; Tab Audio = requires license).",
       "In Settings > Storage, select the folder on your computer where you want transcripts saved automatically.",
-      "Press play on the video. In Normal mode, your transcript appears after 5\u201310 seconds. In Optimal mode, expect around 30 seconds for the first block."
+      "Press play on the video. In Normal mode, your transcript appears after 5–10 seconds. In Optimal mode, expect around 30 seconds for the first block."
     ],
     "modesHeading": "Transcription modes",
     "tabAudioHeading": "Tab Audio — Normal and Optimal",
@@ -1062,9 +1136,18 @@
     "exportHeading": "Export options",
     "exportSubtitle": "Three ways to get your transcript out:",
     "exportOptions": [
-      { "label": "Copy to clipboard", "desc": "Paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved." },
-      { "label": "Download as TXT", "desc": "Plain text, no formatting." },
-      { "label": "Download as Markdown (.md)", "desc": "Full formatting preserved. Open with Obsidian, Typora, or any Markdown reader." }
+      {
+        "label": "Copy to clipboard",
+        "desc": "Paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved."
+      },
+      {
+        "label": "Download as TXT",
+        "desc": "Plain text, no formatting."
+      },
+      {
+        "label": "Download as Markdown (.md)",
+        "desc": "Full formatting preserved. Open with Obsidian, Typora, or any Markdown reader."
+      }
     ],
     "deleteBody": "Click the trash icon to delete the current transcript. This action cannot be undone.",
     "syncHeading": "Sync with video player (beta)",
@@ -1108,5 +1191,41 @@
     "supportHeading": "Need more help?",
     "supportBody": "If you're still stuck, send us a message — we usually reply within 24 hours.",
     "footer": "Guide"
+  },
+  "uninstall": {
+    "metaTitle": "Sorry to see you go",
+    "metaDesc": "Tell us why you uninstalled LessonScriptor so we can make it better.",
+    "eyebrow": "Before you go",
+    "h1": "Sorry to see you go",
+    "subtitle": "Your feedback is anonymous and helps us improve LessonScriptor.",
+    "reasonsLabel": "What made you uninstall?",
+    "reasons": [
+      {
+        "id": "too_complex",
+        "label": "Too complicated or confusing to use"
+      },
+      {
+        "id": "didnt_work",
+        "label": "It didn't work or had bugs"
+      },
+      {
+        "id": "missing_feature",
+        "label": "Missing a feature I needed"
+      },
+      {
+        "id": "not_needed",
+        "label": "I no longer need it / was just testing"
+      },
+      {
+        "id": "other",
+        "label": "Something else"
+      }
+    ],
+    "commentPlaceholder": "Anything else you'd like to share? (optional)",
+    "submit": "Send feedback",
+    "sending": "Sending...",
+    "successH1": "Thank you",
+    "successBody": "We appreciate your feedback. You're always welcome back.",
+    "reinstallCTA": "Reinstall LessonScriptor"
   }
 }

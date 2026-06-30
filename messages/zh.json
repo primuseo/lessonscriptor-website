@@ -30,7 +30,8 @@
     "transcribeVideo": "视频转录",
     "blog": "博客",
     "compare": "对比 Otter.ai",
-    "forAdhd": "ADHD学生"
+    "forAdhd": "ADHD学生",
+    "contact": "联系我们"
   },
   "footer": {
     "product": "产品",
@@ -725,13 +726,86 @@
         {
           "q": "我可以将视频转录为哪些语言？",
           "a": "LessonScriptor支持14种以上语言，包括中文、英语、法语、西班牙语、葡萄牙语、意大利语、荷兰语、波兰语、日语、阿拉伯语、印地语等。在点击播放前，请在扩展设置中选择您的语言。"
+        },
+        {
+          "q": "我可以转录超星学习通或雨课堂上的课程视频吗？",
+          "a": "可以。LessonScriptor适用于在Chrome标签页中播放的任何视频，包括受密码保护的大学平台，如超星学习通、雨课堂、Panopto或Blackboard。无需提取文件。"
+        },
+        {
+          "q": "LessonScriptor比YouTube自动字幕更好吗？",
+          "a": "对于YouTube视频，两者都能实时工作。区别在于LessonScriptor生成可导出、可编辑的转录文本，而YouTube字幕在关闭视频后即消失。LessonScriptor还适用于Coursera、Zoom、Udemy和本地文件，不仅限于YouTube。"
         }
       ]
     },
     "metaTitle": "视频转文字免费工具——Chrome 实时转录 | LessonScriptor",
     "metaDesc": "借助AI实时将任意视频转为文字。免费Chrome扩展——无需上传、无需账号、无需订阅。支持50+视频平台。",
     "relatedHeading": "了解更多关于视频转录的内容",
-    "readMore": "阅读更多"
+    "readMore": "阅读更多",
+    "heroAriaLabel": "简介 — 视频转文字",
+    "answerAriaLabel": "直接回答",
+    "whyRealtime": {
+      "title": "为什么要实时转录视频？",
+      "intro": "实时转录改变了学习方式。与需要等待批量处理的工具不同，LessonScriptor在视频播放时即时生成文字。",
+      "items": [
+        {
+          "title": "无需等待，无需上传",
+          "desc": "批量转录工具需要下载视频、等待处理并导入文字。LessonScriptor直接在浏览器中转录，无需任何中间步骤。"
+        },
+        {
+          "title": "隐私：本地处理",
+          "desc": "免费模式使用Chrome的Web Speech API——音频在您的设备上处理，不向外部服务器发送任何内容。"
+        },
+        {
+          "title": "兼容受保护的大学平台",
+          "desc": "托管在超星学习通、雨课堂、Panopto或Blackboard等平台上的视频无法下载。LessonScriptor直接从Chrome标签页转录它们。"
+        },
+        {
+          "title": "导出到Notion、Obsidian或Google文档",
+          "desc": "转录完成后，以Markdown格式导出或一键复制。兼容Notion、Obsidian、Google文档及您喜欢的编辑器。"
+        }
+      ]
+    },
+    "comparison": {
+      "title": "LessonScriptor与其他视频转录工具对比",
+      "intro": "有多种方法可以将视频转录为文字。以下是LessonScriptor与常见替代方案的对比：",
+      "colTool": "工具",
+      "colMethod": "方式",
+      "colFree": "免费？",
+      "colRealtime": "实时？",
+      "rows": [
+        {
+          "tool": "LessonScriptor",
+          "method": "Chrome扩展，播放时实时转录",
+          "free": "✅ 是（免费版无限制）",
+          "realtime": "✅ 是"
+        },
+        {
+          "tool": "Otter.ai",
+          "method": "录音，云端处理",
+          "free": "⚠️ 有限（300分钟/月）",
+          "realtime": "✅ 是（需应用）"
+        },
+        {
+          "tool": "YouTube CC",
+          "method": "仅YouTube自动字幕",
+          "free": "✅ 是",
+          "realtime": "✅ 是（仅YouTube）"
+        },
+        {
+          "tool": "Whisper（本地）",
+          "method": "下载+离线处理",
+          "free": "✅ 是（开源）",
+          "realtime": "❌ 否"
+        },
+        {
+          "tool": "Rev / Trint",
+          "method": "上传文件，AI或人工转录",
+          "free": "❌ 付费",
+          "realtime": "❌ 否"
+        }
+      ],
+      "note": "对比更新于2025年5月。定价和功能已在竞品官网核实。"
+    }
   },
   "otterAlt": {
     "h1": "最适合学生的 Otter.ai 替代工具",
@@ -1059,7 +1133,7 @@
       "在 Chrome 中打开任意视频，点击 LessonScriptor 图标打开侧边栏。",
       "在侧边栏中选择音频来源（麦克风模式 = 免费；标签页音频 = 需要许可证）。",
       "在设置 > 存储中，选择电脑上自动保存转录的文件夹。",
-      "点击播放。普通模式下，转录在5\u201310秒后显示。最优模式下，第一个片段约需30秒。"
+      "点击播放。普通模式下，转录在5–10秒后显示。最优模式下，第一个片段约需30秒。"
     ],
     "modesHeading": "转录模式",
     "tabAudioHeading": "标签页音频 — 普通模式与最优模式",
@@ -1074,9 +1148,18 @@
     "exportHeading": "导出选项",
     "exportSubtitle": "三种导出转录的方式：",
     "exportOptions": [
-      { "label": "复制到剪贴板", "desc": "直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。" },
-      { "label": "下载为 TXT", "desc": "纯文本，无格式。" },
-      { "label": "下载为 Markdown（.md）", "desc": "完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。" }
+      {
+        "label": "复制到剪贴板",
+        "desc": "直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。"
+      },
+      {
+        "label": "下载为 TXT",
+        "desc": "纯文本，无格式。"
+      },
+      {
+        "label": "下载为 Markdown（.md）",
+        "desc": "完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。"
+      }
     ],
     "deleteBody": "点击垃圾桶图标删除当前转录。此操作无法撤销。",
     "syncHeading": "与视频播放器同步（测试版）",
@@ -1120,5 +1203,41 @@
     "supportHeading": "需要更多帮助？",
     "supportBody": "如果仍然遇到问题，给我们发消息——通常在24小时内回复。",
     "footer": "指南"
+  },
+  "uninstall": {
+    "metaTitle": "很遗憾看到你离开",
+    "metaDesc": "告诉我们你卸载 LessonScriptor 的原因，帮助我们改进。",
+    "eyebrow": "在你离开之前",
+    "h1": "很遗憾看到你离开",
+    "subtitle": "你的反馈是匿名的，能帮助我们改进 LessonScriptor。",
+    "reasonsLabel": "你为什么卸载？",
+    "reasons": [
+      {
+        "id": "too_complex",
+        "label": "太复杂或难以使用"
+      },
+      {
+        "id": "didnt_work",
+        "label": "无法正常工作或有错误"
+      },
+      {
+        "id": "missing_feature",
+        "label": "缺少我需要的功能"
+      },
+      {
+        "id": "not_needed",
+        "label": "我不再需要 / 只是试用一下"
+      },
+      {
+        "id": "other",
+        "label": "其他原因"
+      }
+    ],
+    "commentPlaceholder": "还有什么想告诉我们的吗？（可选）",
+    "submit": "发送反馈",
+    "sending": "发送中...",
+    "successH1": "谢谢",
+    "successBody": "感谢你的反馈。欢迎你随时回来。",
+    "reinstallCTA": "重新安装 LessonScriptor"
   }
 }
