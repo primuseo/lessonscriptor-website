@@ -1,4 +1,5 @@
 import { NextRequest } from 'next/server';
+import { Resend } from 'resend';
 import { getDb } from '@/lib/db';
 import { handlePreflight, jsonResponse } from '@/lib/cors';
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit';
@@ -45,6 +46,19 @@ export async function POST(request: NextRequest) {
         ${ip}
       )
     `;
+
+    const resendKey = process.env.RESEND_API_KEY;
+    const toEmail = process.env.CONTACT_TO_EMAIL;
+    if (resendKey && toEmail) {
+      const resend = new Resend(resendKey);
+      const fromEmail = process.env.CONTACT_FROM_EMAIL || 'noreply@lessonscriptor.com';
+      resend.emails.send({
+        from: `LessonScriptor <${fromEmail}>`,
+        to: toEmail,
+        subject: `Uninstall feedback: ${sanitized.slice(0, 60)}`,
+        text: `Source: ${source || 'uninstall'}\nVersion: ${version || '—'}\nLang: ${lang || '—'}\n\n${sanitized}`,
+      }).catch(e => console.error('[Feedback] Resend error:', e));
+    }
 
     return jsonResponse({ ok: true }, 200, request);
   } catch (err) {
