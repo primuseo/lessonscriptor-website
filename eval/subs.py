@@ -47,13 +47,15 @@ def fetch_reference(url: str, out_dir: str) -> str:
     template = os.path.join(out_dir, "%(id)s.%(ext)s")
     subprocess.run(
         [
-            "yt-dlp", "--skip-download", "--write-subs",
+            "yt-dlp", "--skip-download", "--write-subs", "--no-write-auto-subs",
             "--sub-langs", "en.*", "--sub-format", "vtt",
             "-o", template, url,
         ],
         check=True, capture_output=True, text=True,
     )
-    matches = glob.glob(os.path.join(out_dir, "*.en*.vtt"))
+    matches = sorted(glob.glob(os.path.join(out_dir, "*.en*.vtt")), key=len)
     if not matches:
         raise NoHumanSubtitlesError(f"No manual English subtitles for {url}")
-    return clean_vtt(open(matches[0], encoding="utf-8").read())
+    with open(matches[0], encoding="utf-8") as fh:
+        text = fh.read()
+    return clean_vtt(text)
