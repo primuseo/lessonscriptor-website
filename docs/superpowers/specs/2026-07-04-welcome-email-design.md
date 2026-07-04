@@ -28,6 +28,16 @@ or feature ideas. Replies land in a mailbox the owner reads (`marketing@primuseo
   has actually used the extension. Requires scheduled/delayed sending (e.g. a cron job,
   Resend scheduling, or a queued task), so deferred out of Phase 1. The Phase 1 welcome
   email intentionally sets this up by training the "just hit reply" habit.
+- **Wrap `addCredits` in a single SQL transaction (tracking item):** the Phase 1
+  hardening makes credit granting idempotent per `reference_id` via
+  `INSERT … ON CONFLICT DO NOTHING RETURNING` followed by the `users` credit upsert.
+  These are two separate statements, not one atomic transaction. If the database fails
+  in the narrow window *between* them, the `reference_id` is recorded but credits are
+  never added, and Lemon Squeezy's retry hits the conflict → credits are never granted
+  (a rare lost-credit path). This is strictly safer and rarer than the pre-hardening
+  behavior (which could double-credit and 500), so it ships as-is. Closing it fully
+  needs a real SQL transaction wrapper (`sql.begin(...)` / a pooled `Client`), which the
+  Neon HTTP driver doesn't cleanly support for conditional logic — hence Phase 2.
 
 ## Prerequisites (DONE)
 
