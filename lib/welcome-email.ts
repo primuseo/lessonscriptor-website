@@ -1,3 +1,5 @@
+import { Resend } from 'resend'
+
 export const SUPPORTED_LOCALES = ['en', 'fr', 'es', 'de', 'pt', 'zh'] as const
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
 
@@ -169,4 +171,28 @@ export function buildWelcomeEmail(
 </div>`
 
   return { subject: t.subject, html, text }
+}
+
+interface SendWelcomeArgs {
+  email: string
+  name: string | null
+  locale: unknown
+}
+
+export async function sendWelcomeEmail({ email, name, locale }: SendWelcomeArgs): Promise<void> {
+  const apiKey = process.env.RESEND_API_KEY
+  const from = process.env.WELCOME_FROM_EMAIL
+  const replyTo = process.env.WELCOME_REPLY_TO
+  if (!apiKey || !from || !replyTo) {
+    throw new Error(
+      'welcome-email: RESEND_API_KEY, WELCOME_FROM_EMAIL and WELCOME_REPLY_TO must be set'
+    )
+  }
+
+  const { subject, html, text } = buildWelcomeEmail(locale, name)
+  const resend = new Resend(apiKey)
+  const { error } = await resend.emails.send({ from, to: email, replyTo, subject, html, text })
+  if (error) {
+    throw new Error(`welcome-email Resend error: ${JSON.stringify(error)}`)
+  }
 }
