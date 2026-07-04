@@ -37,19 +37,6 @@ const openaiClient = process.env.OPENAI_API_KEY
   ? new OpenAI({ apiKey: process.env.OPENAI_API_KEY })
   : null;
 
-function looksLikeSilence(buffer: Buffer): boolean {
-  if (buffer.length < 100) return true;
-  const step = Math.max(1, Math.floor(buffer.length / 200));
-  let sum = 0;
-  let count = 0;
-  for (let i = 0; i < buffer.length; i += step) {
-    sum += buffer[i];
-    count++;
-  }
-  const avg = sum / count;
-  return avg < 3 || (avg > 125 && avg < 131);
-}
-
 const LANGUAGE_NAME_TO_ISO: Record<string, string> = {
   afrikaans:'af',albanian:'sq',amharic:'am',arabic:'ar',armenian:'hy',azerbaijani:'az',
   basque:'eu',belarusian:'be',bengali:'bn',bosnian:'bs',breton:'br',bulgarian:'bg',
@@ -201,14 +188,12 @@ export async function POST(request: NextRequest) {
     }, 402, request);
   }
 
+  // NOTE: We deliberately do NOT pre-filter "silent" chunks by inspecting raw
+  // audio bytes. The extension sends compressed audio (webm/opus, mp4/aac)
+  // whose bytes are near-uniform (mean ~128), which a byte-average heuristic
+  // misclassifies as silence — it dropped 25-44% of real speech blocks. True
+  // silence is handled downstream by Whisper (empty text) + isHallucination().
   const audioBuffer = Buffer.from(audioData, 'base64');
-  if (looksLikeSilence(audioBuffer)) {
-    return jsonResponse(
-      { text: '', silent: true, credits_seconds_remaining: unlimited ? Infinity : credits },
-      200,
-      request
-    );
-  }
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const transcriptionParams: any = {
