@@ -130,7 +130,9 @@ export async function POST(request: NextRequest) {
   }
 
   const openai = provider === 'groq' ? groqClient! : openaiClient!;
-  const WHISPER_MODEL = provider === 'groq' ? 'whisper-large-v3' : 'whisper-1';
+  const WHISPER_MODEL = provider === 'groq'
+    ? (process.env.GROQ_WHISPER_MODEL || 'whisper-large-v3-turbo')
+    : (process.env.OPENAI_WHISPER_MODEL || 'whisper-1');
 
   if (!audioData || !mimeType || typeof durationSeconds !== 'number') {
     return jsonResponse({ error: 'audioData, mimeType and durationSeconds are required' }, 400, request);
