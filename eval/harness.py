@@ -26,7 +26,7 @@ def run_case(case: dict, models: list[str], deps: dict) -> list[dict]:
                              case.get("segment"))
     reference = None
     if case["tier"] == 1:
-        reference = deps["fetch_reference"](case["url"], fixtures)
+        reference = deps["fetch_reference"](case["url"], fixtures, case.get("segment"))
 
     rows = []
     for mk in models:

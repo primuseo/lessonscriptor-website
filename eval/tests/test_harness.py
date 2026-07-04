@@ -26,7 +26,7 @@ def test_run_case_tier1_computes_wer_against_reference():
     }
     deps = {
         "download": lambda url, out, seg: "audio.m4a",
-        "fetch_reference": lambda url, out: "the cat sat on the mat",
+        "fetch_reference": lambda url, out, seg: "the cat sat on the mat",
         "transcribe": lambda path, mk, lang: {"text": "the cat sat", "latency_s": 1.0},
         "wer": lambda ref, hyp: {"wer": 0.5, "sub": 0, "ins": 0, "del": 3, "ref_words": 6},
     }
@@ -43,7 +43,7 @@ def test_run_case_tier2_skips_wer():
     case = {"id": "c2", "tier": 2, "url": "http://x", "language": "en", "tags": {"noise": "high"}}
     deps = {
         "download": lambda url, out, seg: "audio.m4a",
-        "fetch_reference": lambda url, out: (_ for _ in ()).throw(AssertionError("must not fetch")),
+        "fetch_reference": lambda url, out, seg: (_ for _ in ()).throw(AssertionError("must not fetch")),
         "transcribe": lambda path, mk, lang: {"text": "whatever", "latency_s": 1.0},
         "wer": lambda ref, hyp: (_ for _ in ()).throw(AssertionError("must not score")),
     }
