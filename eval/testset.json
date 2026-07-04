@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "id": "ted-mcgonigal-stress", "tier": 1,
+      "url": "https://www.youtube.com/watch?v=RcGyVTAoXEU",
+      "segment": { "start": 60, "dur": 120 }, "language": "en",
+      "tags": { "accent": "us", "noise": "low", "domain": "psychology", "speakers": 1 }
+    },
+    {
+      "id": "ted-walker-sleep", "tier": 1,
+      "url": "https://www.youtube.com/watch?v=5MuIMqhT8DM",
+      "segment": { "start": 60, "dur": 120 }, "language": "en",
+      "tags": { "accent": "gb", "noise": "low", "domain": "neuroscience", "speakers": 1 }
+    },
+    {
+      "id": "ted-suzuki-exercise", "tier": 1,
+      "url": "https://www.youtube.com/watch?v=BHY0FxzoKZE",
+      "segment": { "start": 60, "dur": 120 }, "language": "en",
+      "tags": { "accent": "us", "noise": "low", "domain": "neuroscience", "speakers": 1 }
+    },
+    {
+      "id": "indian-accent-sketch", "tier": 2,
+      "url": "https://www.youtube.com/watch?v=eKp7vUffdXM",
+      "language": "en",
+      "tags": { "accent": "in", "noise": "medium", "domain": "comedy", "speakers": 3 }
+    }
+  ]
+}
