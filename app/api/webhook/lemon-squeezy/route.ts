@@ -18,7 +18,20 @@ async function addCredits(
   seconds: number,
   referenceId: string,
   licenseKey: string | null = null
-) {
+): Promise<boolean> {
+  // Atomic idempotency gate: record the transaction FIRST. If this reference_id was
+  // already recorded (duplicate or concurrent webhook delivery), insert nothing and
+  // report that credits were NOT applied — prevents double-crediting and double emails.
+  const inserted = await sql`
+    INSERT INTO credit_transactions (user_email, type, seconds, reference_id)
+    VALUES (${email}, 'purchase', ${seconds}, ${referenceId})
+    ON CONFLICT (reference_id) WHERE reference_id IS NOT NULL DO NOTHING
+    RETURNING id
+  `;
+  if (inserted.length === 0) {
+    return false;
+  }
+
   if (licenseKey) {
     await sql`
       INSERT INTO users (email, credits_seconds_remaining, total_seconds_purchased, license_key)
@@ -40,10 +53,7 @@ async function addCredits(
     `;
   }
 
-  await sql`
-    INSERT INTO credit_transactions (user_email, type, seconds, reference_id)
-    VALUES (${email}, 'purchase', ${seconds}, ${referenceId})
-  `;
+  return true;
 }
 
 export async function POST(request: NextRequest) {
@@ -135,10 +145,10 @@ export async function POST(request: NextRequest) {
     `;
     const isFirstPurchase = priorPurchases.length === 0;
 
-    await addCredits(sql, email, seconds, orderId, licenseKey);
-    console.log(`[Webhook] order_created: +${seconds}s for ${email} (order ${orderId}), key=${licenseKey ? 'yes' : 'no'}`);
+    const applied = await addCredits(sql, email, seconds, orderId, licenseKey);
+    console.log(`[Webhook] order_created: +${seconds}s for ${email} (order ${orderId}), applied=${applied}, key=${licenseKey ? 'yes' : 'no'}`);
 
-    if (isFirstPurchase) {
+    if (applied && isFirstPurchase) {
       try {
         await sendWelcomeEmail({
           email,
