@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { getDb } from '@/lib/db';
+import { sendWelcomeEmail } from '@/lib/welcome-email';
 
 function secondsForVariant(variantId: string): number | null {
   const map: Record<string, number> = {
@@ -127,8 +128,29 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ received: true });
     }
 
+    const priorPurchases = await sql`
+      SELECT 1 FROM credit_transactions
+      WHERE user_email = ${email} AND type = 'purchase'
+      LIMIT 1
+    `;
+    const isFirstPurchase = priorPurchases.length === 0;
+
     await addCredits(sql, email, seconds, orderId, licenseKey);
     console.log(`[Webhook] order_created: +${seconds}s for ${email} (order ${orderId}), key=${licenseKey ? 'yes' : 'no'}`);
+
+    if (isFirstPurchase) {
+      try {
+        await sendWelcomeEmail({
+          email,
+          name: attrs.user_name ?? null,
+          locale: event.meta?.custom_data?.locale,
+        });
+        console.log(`[Webhook] welcome email sent to ${email}`);
+      } catch (err) {
+        console.error(`[Webhook] welcome email FAILED for ${email}:`, err);
+        // Swallow: credits are already granted; never make Lemon Squeezy retry over an email error.
+      }
+    }
   } else if (eventName === 'subscription_created' || eventName === 'subscription_payment_success') {
     const seconds = secondsForVariant(variantId) ?? 36000;
     const licenseKey = attrs.license_key ?? null;
