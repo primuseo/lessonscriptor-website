@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import crypto from 'crypto';
 import { getDb } from '@/lib/db';
+import { sendWelcomeEmail } from '@/lib/welcome-email';
 
 function secondsForVariant(variantId: string): number | null {
   const map: Record<string, number> = {
@@ -17,7 +18,20 @@ async function addCredits(
   seconds: number,
   referenceId: string,
   licenseKey: string | null = null
-) {
+): Promise<boolean> {
+  // Atomic idempotency gate: record the transaction FIRST. If this reference_id was
+  // already recorded (duplicate or concurrent webhook delivery), insert nothing and
+  // report that credits were NOT applied — prevents double-crediting and double emails.
+  const inserted = await sql`
+    INSERT INTO credit_transactions (user_email, type, seconds, reference_id)
+    VALUES (${email}, 'purchase', ${seconds}, ${referenceId})
+    ON CONFLICT (reference_id) WHERE reference_id IS NOT NULL DO NOTHING
+    RETURNING id
+  `;
+  if (inserted.length === 0) {
+    return false;
+  }
+
   if (licenseKey) {
     await sql`
       INSERT INTO users (email, credits_seconds_remaining, total_seconds_purchased, license_key)
@@ -39,10 +53,7 @@ async function addCredits(
     `;
   }
 
-  await sql`
-    INSERT INTO credit_transactions (user_email, type, seconds, reference_id)
-    VALUES (${email}, 'purchase', ${seconds}, ${referenceId})
-  `;
+  return true;
 }
 
 export async function POST(request: NextRequest) {
@@ -127,8 +138,29 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ received: true });
     }
 
-    await addCredits(sql, email, seconds, orderId, licenseKey);
-    console.log(`[Webhook] order_created: +${seconds}s for ${email} (order ${orderId}), key=${licenseKey ? 'yes' : 'no'}`);
+    const priorPurchases = await sql`
+      SELECT 1 FROM credit_transactions
+      WHERE user_email = ${email} AND type = 'purchase'
+      LIMIT 1
+    `;
+    const isFirstPurchase = priorPurchases.length === 0;
+
+    const applied = await addCredits(sql, email, seconds, orderId, licenseKey);
+    console.log(`[Webhook] order_created: +${seconds}s for ${email} (order ${orderId}), applied=${applied}, key=${licenseKey ? 'yes' : 'no'}`);
+
+    if (applied && isFirstPurchase) {
+      try {
+        await sendWelcomeEmail({
+          email,
+          name: attrs.user_name ?? null,
+          locale: event.meta?.custom_data?.locale,
+        });
+        console.log(`[Webhook] welcome email sent to ${email}`);
+      } catch (err) {
+        console.error(`[Webhook] welcome email FAILED for ${email}:`, err);
+        // Swallow: credits are already granted; never make Lemon Squeezy retry over an email error.
+      }
+    }
   } else if (eventName === 'subscription_created' || eventName === 'subscription_payment_success') {
     const seconds = secondsForVariant(variantId) ?? 36000;
     const licenseKey = attrs.license_key ?? null;

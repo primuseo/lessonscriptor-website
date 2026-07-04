@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react'
+import { useLocale } from 'next-intl'
 
 interface Pack {
   hours: string
@@ -44,6 +45,7 @@ function formatPrice(symbol: string, amount: number, forceDecimals?: number): st
 export default function PricingPacks({ packs, currencyDisclaimer, paymentProcessor }: Props) {
   const [currency, setCurrency] = useState('USD')
   const { symbol, rate, decimals } = CURRENCIES[currency]
+  const locale = useLocale()
 
   return (
     <div>
@@ -66,7 +68,11 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
         {packs.map((pack, i) => (
           <a
             key={i}
-            href={CHECKOUT_URLS[pack.basePrice] || '#'}
+            href={
+              CHECKOUT_URLS[pack.basePrice]
+                ? `${CHECKOUT_URLS[pack.basePrice]}&checkout[custom][locale]=${locale}`
+                : '#'
+            }
             target="_blank"
             rel="noopener noreferrer"
             className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent-400/30 transition-colors block no-underline ${
