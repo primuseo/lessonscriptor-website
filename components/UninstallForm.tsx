@@ -24,8 +24,17 @@ export default function UninstallForm() {
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
+  const needsDetail = selected === 'missing_feature'
+  const commentPlaceholder =
+    selected === 'missing_feature'
+      ? t('missingFeaturePlaceholder')
+      : selected === 'didnt_work'
+      ? t('bugPlaceholder')
+      : t('commentPlaceholder')
+  const canSubmit = !loading && (selected || comment.trim()) && !(needsDetail && !comment.trim())
+
   const handleSubmit = async () => {
-    if (!selected && !comment.trim()) return
+    if (!canSubmit) return
     setLoading(true)
 
     const reason = reasons.find(r => r.id === selected)
@@ -102,17 +111,22 @@ export default function UninstallForm() {
         <textarea
           value={comment}
           onChange={(e) => setComment(e.target.value)}
-          placeholder={t('commentPlaceholder')}
+          placeholder={commentPlaceholder}
           rows={3}
           maxLength={2000}
-          className="mt-4 w-full bg-cream-100 border border-cream-200 rounded-lg px-4 py-3 text-terra-800 text-sm focus:outline-none focus:border-accent-500"
+          className={`mt-4 w-full bg-cream-100 border rounded-lg px-4 py-3 text-terra-800 text-sm focus:outline-none focus:border-accent-500 ${
+            needsDetail && !comment.trim() ? 'border-accent-500/60' : 'border-cream-200'
+          }`}
         />
+        {needsDetail && !comment.trim() && (
+          <p className="mt-2 text-xs text-accent-600">{t('missingFeatureRequired')}</p>
+        )}
       </div>
 
       <button
         type="button"
         onClick={handleSubmit}
-        disabled={loading || (!selected && !comment.trim())}
+        disabled={!canSubmit}
         className="btn-primary w-full px-8 py-3 rounded-full font-bold disabled:opacity-50"
       >
         {loading ? t('sending') : t('submit')}

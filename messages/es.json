@@ -1235,6 +1235,9 @@
       }
     ],
     "commentPlaceholder": "¿Algo más que quieras contarnos? (opcional)",
+    "missingFeaturePlaceholder": "¿Qué función te faltaba? (por ejemplo, identificación de hablantes, exportar a PDF, modo sin conexión)",
+    "missingFeatureRequired": "Cuéntanos qué función — esto nos ayuda a priorizar.",
+    "bugPlaceholder": "¿Qué salió mal? Los pasos para reproducirlo ayudan mucho.",
     "submit": "Enviar comentarios",
     "sending": "Enviando...",
     "successH1": "Gracias",

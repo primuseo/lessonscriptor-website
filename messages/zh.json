@@ -1234,6 +1234,9 @@
       }
     ],
     "commentPlaceholder": "还有什么想告诉我们的吗？（可选）",
+    "missingFeaturePlaceholder": "你缺少了哪个功能？（例如：说话人识别、导出PDF、离线模式）",
+    "missingFeatureRequired": "请告诉我们具体是哪个功能——这有助于我们确定优先级。",
+    "bugPlaceholder": "哪里出了问题？提供复现步骤会很有帮助。",
     "submit": "发送反馈",
     "sending": "发送中...",
     "successH1": "谢谢",

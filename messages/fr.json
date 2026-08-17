@@ -1235,6 +1235,9 @@
       }
     ],
     "commentPlaceholder": "Vous voulez ajouter quelque chose ? (facultatif)",
+    "missingFeaturePlaceholder": "Quelle fonctionnalité vous manquait ? (ex. : identification des locuteurs, export PDF, mode hors ligne)",
+    "missingFeatureRequired": "Dites-nous quelle fonctionnalité — cela nous aide à prioriser.",
+    "bugPlaceholder": "Qu'est-ce qui n'a pas fonctionné ? Les étapes pour reproduire le problème sont très utiles.",
     "submit": "Envoyer mon retour",
     "sending": "Envoi...",
     "successH1": "Merci",

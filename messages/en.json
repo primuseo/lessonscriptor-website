@@ -1222,6 +1222,9 @@
       }
     ],
     "commentPlaceholder": "Anything else you'd like to share? (optional)",
+    "missingFeaturePlaceholder": "Which feature were you missing? (e.g. speaker labels, PDF export, offline mode)",
+    "missingFeatureRequired": "Please tell us which feature — this helps us prioritize.",
+    "bugPlaceholder": "What went wrong? Steps to reproduce help a lot.",
     "submit": "Send feedback",
     "sending": "Sending...",
     "successH1": "Thank you",

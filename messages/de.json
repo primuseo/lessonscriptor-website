@@ -1234,6 +1234,9 @@
       }
     ],
     "commentPlaceholder": "Möchtest du uns noch etwas mitteilen? (optional)",
+    "missingFeaturePlaceholder": "Welche Funktion hat gefehlt? (z. B. Sprechererkennung, PDF-Export, Offline-Modus)",
+    "missingFeatureRequired": "Sag uns, welche Funktion — das hilft uns bei der Priorisierung.",
+    "bugPlaceholder": "Was ist schiefgelaufen? Schritte zur Reproduktion helfen sehr.",
     "submit": "Feedback senden",
     "sending": "Senden...",
     "successH1": "Danke",

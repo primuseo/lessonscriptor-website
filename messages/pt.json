@@ -1234,6 +1234,9 @@
       }
     ],
     "commentPlaceholder": "Quer compartilhar mais alguma coisa? (opcional)",
+    "missingFeaturePlaceholder": "Qual funcionalidade estava faltando? (ex.: identificação de interlocutores, exportar em PDF, modo offline)",
+    "missingFeatureRequired": "Conte-nos qual funcionalidade — isso nos ajuda a priorizar.",
+    "bugPlaceholder": "O que deu errado? Os passos para reproduzir ajudam bastante.",
     "submit": "Enviar feedback",
     "sending": "Enviando...",
     "successH1": "Obrigado",
