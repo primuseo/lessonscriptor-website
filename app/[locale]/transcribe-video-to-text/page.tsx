@@ -3,24 +3,32 @@ import type { Metadata } from 'next'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 import RelatedPosts from '@/components/RelatedPosts'
+import { getPathname } from '@/navigation'
+
+const LOCALES = ['en', 'fr', 'es', 'pt', 'de', 'zh'] as const
+const CANONICAL_PATH = '/transcribe-video-to-text'
+const BASE = 'https://lessonscriptor.com'
+
+function localizedUrl(locale: string) {
+  return `${BASE}/${locale}${getPathname({ locale, href: CANONICAL_PATH })}`
+}
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const path = '/transcribe-video-to-text'
-  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   const t = await getTranslations({ locale, namespace: 'transcribeVideo' })
+  const url = localizedUrl(locale)
   return {
     title: t('metaTitle'),
     description: t('metaDesc'),
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDesc'),
-      url: `https://lessonscriptor.com/${locale}${path}`,
+      url,
     },
     alternates: {
-      canonical: `https://lessonscriptor.com/${locale}${path}`,
+      canonical: url,
       languages: {
-        'x-default': `https://lessonscriptor.com/en${path}`,
-        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
+        'x-default': localizedUrl('en'),
+        ...Object.fromEntries(LOCALES.map(l => [l, localizedUrl(l)]))
       }
     }
   }
@@ -29,6 +37,27 @@ export async function generateMetadata({ params: { locale } }: { params: { local
 export default async function TranscribeVideoToTextPage({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('transcribeVideo')
+  const pageUrl = localizedUrl(locale)
+
+  const schemaWebPage = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    'name': t('metaTitle'),
+    'description': t('metaDesc'),
+    'url': pageUrl,
+    'datePublished': '2024-09-01',
+    'dateModified': '2025-05-01',
+    'author': {
+      '@type': 'Organization',
+      'name': 'LessonScriptor',
+      'url': 'https://lessonscriptor.com'
+    },
+    'publisher': {
+      '@type': 'Organization',
+      'name': 'LessonScriptor',
+      'url': 'https://lessonscriptor.com'
+    }
+  }
 
   const schemaHowTo = {
     '@context': 'https://schema.org',
@@ -58,15 +87,18 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
 
   const useCases = t.raw('useCases.items')
   const howItWorksSteps = t.raw('howItWorks.steps')
+  const whyRealtimeItems = t.raw('whyRealtime.items')
+  const comparisonRows = t.raw('comparison.rows')
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaWebPage) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaHowTo) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaFAQ) }} />
 
-      <div className="w-full">
+      <article aria-label={t('h1')} className="w-full">
         {/* Hero */}
-        <section className="px-4 py-16 max-w-4xl mx-auto">
+        <section aria-label={t('heroAriaLabel')} className="px-4 py-16 max-w-4xl mx-auto">
           <div className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
               {t('h1')}
@@ -77,7 +109,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
           </div>
 
           {/* AIO Answer Box */}
-          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12">
+          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12" role="note" aria-label={t('answerAriaLabel')}>
             <p className="text-terra-800 text-lg leading-relaxed">
               {t('answer')}
             </p>
@@ -85,7 +117,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
         </section>
 
         {/* Use Cases Grid */}
-        <section className="px-4 py-16 bg-cream-100">
+        <section aria-label={t('useCases.title')} className="px-4 py-16 bg-cream-100">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
               {t('useCases.title')}
@@ -93,7 +125,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
             <div className="grid md:grid-cols-2 gap-6">
               {useCases.map((item: any, idx: number) => (
                 <div key={idx} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                  <div className="text-3xl mb-3">{item.icon}</div>
+                  <div className="text-3xl mb-3" aria-hidden="true">{item.icon}</div>
                   <h3 className="text-lg font-bold text-terra-800 mb-2">{item.title}</h3>
                   <p className="text-terra-800/60 leading-relaxed">{item.desc}</p>
                 </div>
@@ -103,15 +135,15 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
         </section>
 
         {/* How It Works */}
-        <section className="px-4 py-16 max-w-4xl mx-auto">
+        <section aria-label={t('howItWorks.title')} className="px-4 py-16 max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold text-terra-800 mb-4">
             {t('howItWorks.title')}
           </h2>
           <p className="text-terra-800/50 text-lg mb-10">{t('howItWorks.subtitle')}</p>
-          <ol className="space-y-8">
+          <ol className="space-y-8" aria-label={t('howItWorks.title')}>
             {howItWorksSteps.map((step: any, idx: number) => (
               <li key={idx} className="flex gap-6">
-                <span className="flex-shrink-0 w-10 h-10 bg-terra-800 text-white rounded-full flex items-center justify-center font-bold text-lg">
+                <span className="flex-shrink-0 w-10 h-10 bg-terra-800 text-white rounded-full flex items-center justify-center font-bold text-lg" aria-hidden="true">
                   {step.n}
                 </span>
                 <div>
@@ -123,8 +155,56 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
           </ol>
         </section>
 
+        {/* Why real-time */}
+        <section aria-label={t('whyRealtime.title')} className="px-4 py-16 bg-cream-100">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-terra-800 mb-4">{t('whyRealtime.title')}</h2>
+            <p className="text-terra-800/60 text-lg mb-10">{t('whyRealtime.intro')}</p>
+            <ul className="space-y-6" aria-label={t('whyRealtime.title')}>
+              {whyRealtimeItems.map((item: any, idx: number) => (
+                <li key={idx} className="flex gap-4">
+                  <span className="flex-shrink-0 text-accent-500 font-bold text-xl mt-0.5" aria-hidden="true">✓</span>
+                  <div>
+                    <h3 className="font-bold text-terra-800 mb-1">{item.title}</h3>
+                    <p className="text-terra-800/60 leading-relaxed">{item.desc}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+
+        {/* Comparison table */}
+        <section aria-label={t('comparison.title')} className="px-4 py-16 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-terra-800 mb-4">{t('comparison.title')}</h2>
+          <p className="text-terra-800/60 text-lg mb-8">{t('comparison.intro')}</p>
+          <div className="overflow-x-auto rounded-xl border border-cream-200">
+            <table className="w-full text-sm" aria-label={t('comparison.title')}>
+              <thead className="bg-terra-800 text-white">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold">{t('comparison.colTool')}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{t('comparison.colMethod')}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{t('comparison.colFree')}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{t('comparison.colRealtime')}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {comparisonRows.map((row: any, idx: number) => (
+                  <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-cream-50'}>
+                    <td className="px-4 py-3 font-semibold text-terra-800">{row.tool}</td>
+                    <td className="px-4 py-3 text-terra-800/70">{row.method}</td>
+                    <td className="px-4 py-3 text-terra-800/70">{row.free}</td>
+                    <td className="px-4 py-3 text-terra-800/70">{row.realtime}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-terra-800/50 text-sm mt-4">{t('comparison.note')}</p>
+        </section>
+
         {/* FAQ */}
-        <section className="py-16 px-4 bg-cream-100">
+        <section aria-label="FAQ" className="py-16 px-4 bg-cream-100">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}
@@ -141,7 +221,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
 
         {/* CTA */}
         <CTASection />
-      </div>
+      </article>
     </>
   )
 }

@@ -146,7 +146,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               {t('hero.subtitle')}
             </p>
             <a
-              href="https://chrome.google.com/webstore"
+              href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-base py-4 px-8"
@@ -392,7 +392,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 <strong>Note:</strong> {t('pricing.freeCaveat')}
               </div>
               <a
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center bg-cream-100 border border-cream-200 text-accent-600 text-[13px] font-bold py-3 rounded-full no-underline hover:bg-cream-200 transition-colors"
@@ -440,7 +440,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 ))}
               </ul>
               <a
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-center bg-accent-500 text-white text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-600 transition-colors"
@@ -553,26 +553,12 @@ export default async function HomePage({ params: { locale } }: { params: { local
             </div>
           </div>
 
-          <form
-            className="flex flex-col gap-3 bg-white/80 backdrop-blur-sm border border-cream-200 rounded-2xl p-8 shadow-sm"
-            action="https://formspree.io/f/YOUR_FORMSPREE_ID"
-            method="POST"
-          >
-            <input type="hidden" name="_subject" value="Contact form message" />
-            <input type="text" name="name" placeholder={t('contact.form.name')} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
-            <input type="email" name="email" placeholder={t('contact.form.email')} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors" />
-            <select name="type" className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 focus:border-accent-500 transition-colors">
-              <option value="" disabled>{t('contact.form.topic')}</option>
-              <option value="feature">{t('contact.form.feature')}</option>
-              <option value="bug">{t('contact.form.bug')}</option>
-              <option value="question">{t('contact.form.question')}</option>
-              <option value="hi">{t('contact.form.hi')}</option>
-            </select>
-            <textarea name="message" placeholder={t('contact.form.message')} rows={5} required className="w-full py-3 px-3.5 border border-cream-200 rounded-xl text-[13px] bg-white outline-none text-terra-800 resize-y focus:border-accent-500 transition-colors" />
-            <button type="submit" className="btn-primary justify-center py-3.5">
+          <div className="flex flex-col gap-6 bg-white/80 backdrop-blur-sm border border-cream-200 rounded-2xl p-8 shadow-sm items-center justify-center text-center">
+            <p className="text-terra-800/60 text-sm leading-relaxed">{t('contact.subtitle')}</p>
+            <Link href={`/${locale}/contact`} className="btn-primary justify-center py-3.5 w-full">
               {t('contact.form.send')}
-            </button>
-          </form>
+            </Link>
+          </div>
         </div>
       </section>
 

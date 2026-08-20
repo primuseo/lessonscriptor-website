@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import nodemailer from 'nodemailer'
-
-// TODO: Add rate limiting in production using tools like rate-limit or upstash
+import { Resend } from 'resend'
 
 interface ContactFormData {
   name?: string
@@ -19,74 +17,61 @@ export async function POST(request: NextRequest) {
   try {
     const body: ContactFormData = await request.json()
 
-    // Validate required fields
     const { name, email, subject, message } = body
 
     if (!name || !name.trim()) {
       return NextResponse.json({ error: 'Name is required' }, { status: 400 })
     }
-
     if (!email || !email.trim()) {
       return NextResponse.json({ error: 'Email is required' }, { status: 400 })
     }
-
     if (!validateEmail(email)) {
       return NextResponse.json({ error: 'Invalid email format' }, { status: 400 })
     }
-
     if (!subject || !subject.trim()) {
       return NextResponse.json({ error: 'Subject is required' }, { status: 400 })
     }
-
     if (!message || !message.trim()) {
       return NextResponse.json({ error: 'Message is required' }, { status: 400 })
     }
 
-    // Get SMTP configuration from environment variables
-    const smtpHost = process.env.SMTP_HOST
-    const smtpPort = process.env.SMTP_PORT
-    const smtpUser = process.env.SMTP_USER
-    const smtpPass = process.env.SMTP_PASS
-    const contactEmail = process.env.CONTACT_EMAIL
+    const apiKey = process.env.RESEND_API_KEY
+    const fromEmail = process.env.CONTACT_FROM_EMAIL   // must be verified domain, e.g. contact@lessonscriptor.com
+    const toEmail = process.env.CONTACT_TO_EMAIL       // where you actually receive, e.g. your Gmail
 
-    if (!smtpHost || !smtpPort || !smtpUser || !smtpPass || !contactEmail) {
-      console.error('Missing SMTP configuration in environment variables')
+    if (!apiKey || !fromEmail || !toEmail) {
+      console.error('Missing RESEND_API_KEY, CONTACT_FROM_EMAIL, or CONTACT_TO_EMAIL environment variables')
       return NextResponse.json(
         { error: 'Email service is not properly configured' },
         { status: 500 }
       )
     }
 
-    // Create transporter
-    const transporter = nodemailer.createTransport({
-      host: smtpHost,
-      port: parseInt(smtpPort, 10),
-      secure: parseInt(smtpPort, 10) === 465, // true for 465, false for other ports
-      auth: {
-        user: smtpUser,
-        pass: smtpPass,
-      },
-    })
+    const resend = new Resend(apiKey)
 
-    // Email content
-    const emailContent = `
-Name: ${name}
+    const emailContent = `Name: ${name}
 Email: ${email}
 
 Subject: ${subject}
 
 Message:
-${message}
-    `.trim()
+${message}`
 
-    // Send email
-    await transporter.sendMail({
-      from: smtpUser,
-      to: contactEmail,
+    const { error } = await resend.emails.send({
+      from: `LessonScriptor <${fromEmail}>`,
+      to: toEmail,
+      replyTo: email,
       subject: `New Contact Form Submission: ${subject}`,
       text: emailContent,
-      replyTo: email,
     })
+
+    if (error) {
+      console.error('Resend error:', error)
+      return NextResponse.json(
+        { error: 'Failed to send message. Please try again later.' },
+        { status: 500 }
+      )
+    }
 
     return NextResponse.json({ success: true }, { status: 200 })
   } catch (error) {

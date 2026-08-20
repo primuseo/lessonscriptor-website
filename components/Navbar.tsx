@@ -35,6 +35,7 @@ export default function Navbar({ locale }: { locale: string }) {
             <Link href="/live-captions-chrome" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('liveCaptions')}</Link>
             <Link href="/for-adhd-students" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('forAdhd')}</Link>
             <Link href="/blog" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
+            <Link href="/contact" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('contact')}</Link>
           </div>
 
           {/* Right side */}
@@ -55,7 +56,7 @@ export default function Navbar({ locale }: { locale: string }) {
               ))}
             </div>
             <a
-              href="https://chrome.google.com/webstore"
+              href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-[13px] py-2 px-5"
@@ -84,6 +85,7 @@ export default function Navbar({ locale }: { locale: string }) {
           <Link href="/live-captions-chrome" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('liveCaptions')}</Link>
           <Link href="/for-adhd-students" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('forAdhd')}</Link>
           <Link href="/blog" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
+          <Link href="/contact" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('contact')}</Link>
           <div className="flex gap-2 pt-2">
             {LOCALES.map(l => (
               <Link key={l.code} href="/" locale={l.code}
@@ -92,7 +94,7 @@ export default function Navbar({ locale }: { locale: string }) {
               </Link>
             ))}
           </div>
-          <a href="https://chrome.google.com/webstore" target="_blank" rel="noopener noreferrer" className="btn-primary w-full justify-center text-sm mt-2">
+          <a href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp" target="_blank" rel="noopener noreferrer" className="btn-primary w-full justify-center text-sm mt-2">
             {ts('installCTA').split(' — ')[0]}
           </a>
         </div>

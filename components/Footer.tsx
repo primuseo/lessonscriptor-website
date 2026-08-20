@@ -18,7 +18,7 @@ export default function Footer({ locale }: { locale: string }) {
             </div>
             <p className="text-sm leading-relaxed mb-4">{t('tagline')}</p>
             <a
-              href="https://chrome.google.com/webstore"
+              href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block text-xs bg-accent-500 text-white px-4 py-2 rounded-full hover:bg-accent-600 transition-colors"

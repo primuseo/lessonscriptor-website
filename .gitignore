@@ -10,12 +10,9 @@ node_modules/
 # Production
 /build
 
-# Env files — never commit these
-.env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# Env files — never commit these (catch-all so any .env.* naming variant is covered)
+.env*
+!.env.example
 
 # Vercel
 .vercel
@@ -27,4 +24,3 @@ next-env.d.ts
 # OS
 .DS_Store
 Thumbs.db
-.env*.local

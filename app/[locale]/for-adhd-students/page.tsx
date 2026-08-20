@@ -92,7 +92,7 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
           </div>
 
           <a
-            href="https://chrome.google.com/webstore"
+            href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center gap-2"

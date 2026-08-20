@@ -13,7 +13,7 @@ export default function CTASection() {
           {t('cta.subtitle')}
         </p>
         <a
-          href="https://chrome.google.com/webstore"
+          href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-8 py-4 bg-white text-terra-800 font-bold rounded-full hover:bg-cream-100 transition-all text-lg shadow-lg hover:scale-[1.02]"

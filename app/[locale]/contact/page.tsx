@@ -59,8 +59,6 @@ export default function ContactPage() {
 
       if (response.ok) {
         setSubmitted(true)
-        setFormData({ name: '', email: '', subject: '', message: '' })
-        setTimeout(() => setSubmitted(false), 5000)
       } else {
         setError(t('error'))
       }
@@ -82,12 +80,13 @@ export default function ContactPage() {
         </p>
       </div>
 
-      {submitted && (
-        <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-8 text-green-700">
-          {t('success')}
+      {submitted ? (
+        <div className="text-center py-12">
+          <div className="text-5xl mb-6">✉️</div>
+          <p className="text-lg text-dark">{t('success')}</p>
         </div>
-      )}
-
+      ) : (
+      <>
       {error && (
         <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-8 text-red-700">
           {error}
@@ -167,15 +166,9 @@ export default function ContactPage() {
           {loading ? t('sending') || 'Sending...' : t('submit') || 'Send Message'}
         </button>
       </form>
+      </>
+      )}
 
-      <div className="mt-12 text-center text-muted">
-        <p>
-          {t('directEmail') || 'Or email us directly: '}<br />
-          <a href="mailto:contact@lessonscriptor.com" className="text-amber-600 hover:underline font-semibold">
-            contact@lessonscriptor.com
-          </a>
-        </p>
-      </div>
     </div>
   )
 }
