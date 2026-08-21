@@ -16,7 +16,7 @@ export default function CTASection() {
           href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 px-8 py-4 bg-card text-foreground font-bold rounded-full hover:bg-muted transition-all text-lg shadow-lg hover:scale-[1.02]"
+          className="inline-flex items-center gap-2 px-8 py-4 bg-background text-foreground border border-border font-bold rounded-full hover:bg-muted transition-all text-lg shadow-lg hover:scale-[1.02]"
         >
           <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z"/>
