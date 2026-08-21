@@ -2,6 +2,7 @@
 import { useTranslations } from 'next-intl'
 import { Link } from '@/navigation'
 import { useState } from 'react'
+import ThemeToggle from './ThemeToggle'
 
 const LOCALES = [
   { code: 'en', label: 'EN' },
@@ -18,24 +19,24 @@ export default function Navbar({ locale }: { locale: string }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="sticky top-0 z-50 bg-cream-50 backdrop-blur-xl border-b border-cream-200">
+    <nav className="sticky top-0 z-50 bg-background backdrop-blur-xl border-b border-border">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1.5 no-underline">
-            <span className="font-serif text-lg font-bold text-terra-800 tracking-tight">
-              Lesson<span className="text-accent-500">Scriptor</span>
+            <span className="font-serif text-lg font-bold text-foreground tracking-tight">
+              Lesson<span className="text-accent">Scriptor</span>
             </span>
           </Link>
 
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-7 text-[13px] font-medium">
-            <Link href="/transcribe-video-to-text" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('transcribeVideo')}</Link>
-            <Link href="/transcribe-youtube-video" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('youtube')}</Link>
-            <Link href="/live-captions-chrome" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('liveCaptions')}</Link>
-            <Link href="/for-adhd-students" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('forAdhd')}</Link>
-            <Link href="/blog" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('blog')}</Link>
-            <Link href="/contact" className="text-terra-800/60 no-underline hover:text-terra-800 transition-colors">{t('contact')}</Link>
+            <Link href="/transcribe-video-to-text" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('transcribeVideo')}</Link>
+            <Link href="/transcribe-youtube-video" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('youtube')}</Link>
+            <Link href="/live-captions-chrome" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('liveCaptions')}</Link>
+            <Link href="/for-adhd-students" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forAdhd')}</Link>
+            <Link href="/blog" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('blog')}</Link>
+            <Link href="/contact" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('contact')}</Link>
           </div>
 
           {/* Right side */}
@@ -48,13 +49,14 @@ export default function Navbar({ locale }: { locale: string }) {
                   href="/"
                   locale={l.code}
                   className={`text-[10px] px-1.5 py-0.5 rounded font-semibold transition-colors ${
-                    locale === l.code ? 'bg-accent-500/10 text-accent-600' : 'text-terra-800/30 hover:text-terra-800/60'
+                    locale === l.code ? 'bg-accent/10 text-accent' : 'text-foreground/30 hover:text-foreground/60'
                   }`}
                 >
                   {l.label}
                 </Link>
               ))}
             </div>
+            <ThemeToggle />
             <a
               href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
               target="_blank"
@@ -66,7 +68,7 @@ export default function Navbar({ locale }: { locale: string }) {
           </div>
 
           {/* Mobile hamburger */}
-          <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-terra-800/60">
+          <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-foreground/60">
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {open
                 ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -79,20 +81,21 @@ export default function Navbar({ locale }: { locale: string }) {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-cream-200 bg-cream-50 px-4 py-4 space-y-3">
-          <Link href="/transcribe-video-to-text" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('transcribeVideo')}</Link>
-          <Link href="/transcribe-youtube-video" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('youtube')}</Link>
-          <Link href="/live-captions-chrome" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('liveCaptions')}</Link>
-          <Link href="/for-adhd-students" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('forAdhd')}</Link>
-          <Link href="/blog" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('blog')}</Link>
-          <Link href="/contact" className="block text-sm text-terra-800/60 hover:text-terra-800 py-2">{t('contact')}</Link>
-          <div className="flex gap-2 pt-2">
+        <div className="md:hidden border-t border-border bg-background px-4 py-4 space-y-3">
+          <Link href="/transcribe-video-to-text" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('transcribeVideo')}</Link>
+          <Link href="/transcribe-youtube-video" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('youtube')}</Link>
+          <Link href="/live-captions-chrome" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('liveCaptions')}</Link>
+          <Link href="/for-adhd-students" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('forAdhd')}</Link>
+          <Link href="/blog" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('blog')}</Link>
+          <Link href="/contact" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('contact')}</Link>
+          <div className="flex items-center gap-2 pt-2">
             {LOCALES.map(l => (
               <Link key={l.code} href="/" locale={l.code}
-                className={`text-xs px-2 py-1 rounded font-medium ${locale === l.code ? 'bg-accent-500/10 text-accent-600' : 'text-terra-800/30'}`}>
+                className={`text-xs px-2 py-1 rounded font-medium ${locale === l.code ? 'bg-accent/10 text-accent' : 'text-foreground/30'}`}>
                 {l.label}
               </Link>
             ))}
+            <ThemeToggle />
           </div>
           <a href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp" target="_blank" rel="noopener noreferrer" className="btn-primary w-full justify-center text-sm mt-2">
             {ts('installCTA').split(' — ')[0]}
