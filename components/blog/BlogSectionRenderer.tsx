@@ -13,9 +13,12 @@ function Callout({ callout }: { callout: { type?: string; label?: string; body: 
     checklist: 'bg-orange-50 border-orange-300',
   }
   const cls = colors[callout.type || 'note'] || colors.note
+  // These pastel backgrounds never change with the site theme, so the body text is
+  // pinned to a fixed dark color instead of the theme-following text-foreground —
+  // otherwise it turns near-white-on-pale and unreadable in dark mode.
   return (
-    <div className={`${cls} border-l-4 rounded-r-lg p-4 mb-4`}>
-      {callout.label && <div className="font-semibold text-sm text-terra-800 mb-1">{callout.label}</div>}
+    <div className={`${cls} border-l-4 rounded-r-lg p-4 mb-4 [&_p]:!text-stone-800 [&_li]:!text-stone-800`}>
+      {callout.label && <div className="font-semibold text-sm text-stone-800 mb-1">{callout.label}</div>}
       <Paragraphs text={callout.body} />
     </div>
   )
@@ -25,7 +28,7 @@ function Steps({ steps }: { steps: Array<string | { step?: number; strategy?: st
   return (
     <ol className="list-decimal pl-6 space-y-2 mb-4">
       {steps.map((step, i) => (
-        <li key={i} className="text-terra-800/70 leading-relaxed">
+        <li key={i} className="text-foreground/70 leading-relaxed">
           {typeof step === 'string' ? (
             <InlineText text={step} />
           ) : (
@@ -46,24 +49,24 @@ function StackRecommendation({ section }: { section: Section }) {
   const totalCost = section.total_cost as string | undefined
   const timeSetup = section.time_setup as string | undefined
   return (
-    <div className="bg-white rounded-xl border border-cream-200 p-6 mb-6">
-      {title && <h3 className="text-lg font-bold text-terra-800 mb-4">{title}</h3>}
+    <div className="bg-card rounded-xl border border-border p-6 mb-6">
+      {title && <h3 className="text-lg font-bold text-foreground mb-4">{title}</h3>}
       {layers && (
         <div className="space-y-3">
           {layers.map((l, i) => (
-            <div key={i} className="flex items-start gap-3 p-3 bg-cream-50 rounded-lg">
-              <span className="text-accent-500 font-bold text-sm shrink-0">{l.layer}</span>
+            <div key={i} className="flex items-start gap-3 p-3 bg-background rounded-lg">
+              <span className="text-accent font-bold text-sm shrink-0">{l.layer}</span>
               <div>
-                <span className="font-semibold text-terra-800 text-sm">{l.app}</span>
-                <span className="text-sm text-terra-800/60"> — {l.why}</span>
-                {l.effort && <span className="block text-xs text-terra-800/40 mt-1">Effort: {l.effort}</span>}
+                <span className="font-semibold text-foreground text-sm">{l.app}</span>
+                <span className="text-sm text-foreground/60"> — {l.why}</span>
+                {l.effort && <span className="block text-xs text-foreground/40 mt-1">Effort: {l.effort}</span>}
               </div>
             </div>
           ))}
         </div>
       )}
       {(totalCost || timeSetup) && (
-        <div className="mt-4 pt-3 border-t border-cream-200 text-sm text-terra-800/60">
+        <div className="mt-4 pt-3 border-t border-border text-sm text-foreground/60">
           {totalCost && <span>Cost: {totalCost}</span>}
           {totalCost && timeSetup && <span> · </span>}
           {timeSetup && <span>Setup: {timeSetup}</span>}
@@ -126,7 +129,7 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
   return (
     <section className="mb-8">
       {heading && (
-        <h2 className="text-xl font-bold text-terra-800 mt-10 mb-4">{heading}</h2>
+        <h2 className="text-xl font-bold text-foreground mt-10 mb-4">{heading}</h2>
       )}
 
       {body && <Paragraphs text={body} />}
@@ -150,7 +153,7 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
 
       {subsections && subsections.map((sub, i) => (
         <div key={i} className="ml-4 mb-4">
-          {sub.h3 && <h3 className="text-lg font-semibold text-terra-800 mb-2">{sub.h3}</h3>}
+          {sub.h3 && <h3 className="text-lg font-semibold text-foreground mb-2">{sub.h3}</h3>}
           {sub.body && <Paragraphs text={sub.body} />}
         </div>
       ))}
@@ -158,7 +161,7 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
       {internalLinks && internalLinks.length > 0 && (
         <div className="mt-3 space-y-1">
           {internalLinks.map((link, i) => (
-            <a key={i} href={link.url} className="block text-sm text-accent-600 hover:text-accent-700 underline">
+            <a key={i} href={link.url} className="block text-sm text-accent hover:text-accent-hover underline">
               {link.text}
             </a>
           ))}

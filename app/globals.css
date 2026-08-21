@@ -3,34 +3,76 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    color-scheme: light;
+    --color-primary: 28 25 23;
+    --color-primary-hover: 12 10 9;
+    --color-primary-foreground: 255 255 255;
+    --color-accent: 161 98 7;
+    --color-accent-hover: 124 74 5;
+    --color-accent-foreground: 255 255 255;
+    --color-background: 250 250 249;
+    --color-foreground: 12 10 9;
+    --color-card: 255 255 255;
+    --color-card-foreground: 12 10 9;
+    --color-muted: 245 245 244;
+    --color-muted-foreground: 87 83 78;
+    --color-border: 214 211 209;
+    --color-destructive: 220 38 38;
+    --color-ring: 28 25 23;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-accent: 212 160 23;
+    --color-accent-hover: 232 185 35;
+    --color-accent-foreground: 28 25 23;
+    --color-background: 12 10 9;
+    --color-foreground: 245 245 244;
+    --color-card: 41 37 36;
+    --color-card-foreground: 245 245 244;
+    --color-muted: 68 64 60;
+    --color-muted-foreground: 168 162 158;
+    --color-border: 68 64 60;
+    /* --color-primary and --color-primary-hover intentionally NOT redefined:
+       primary is already near-black and stays constant across both modes.
+       Because of this, any "permanently-dark band" built on bg-primary (e.g.
+       Footer, the for-adhd-students quote section, the homepage PROBLEM /
+       explainer / premium-pricing / QUICKSTART sections, and CTASection)
+       needs an explicit dark:bg-card + dark:text-card-foreground override so
+       it doesn't visually disappear against the dark page background. This
+       is a general pattern to apply to any future always-dark section, not
+       an enumerated list. */
+  }
+
   html {
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-cream-50 antialiased;
-    color: #2A1F1A;
+    @apply bg-background antialiased;
+    color: rgb(var(--color-foreground));
     line-height: 1.6;
   }
 }
 
 @layer components {
-  /* ── Buttons (Gamma-inspired pills) ── */
+  /* ── Buttons ── */
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 bg-terra-800 text-white text-sm font-semibold py-3 px-7 rounded-full shadow-sm transition-all duration-200;
+    @apply inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground text-sm font-semibold py-3 px-7 rounded-full shadow-sm transition-all duration-200;
   }
   .btn-primary:hover {
-    @apply bg-terra-900 scale-[1.02];
+    @apply bg-primary-hover scale-[1.02];
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 bg-white text-terra-800 text-sm font-semibold py-3 px-7 rounded-full border border-cream-200 shadow-sm transition-all duration-200;
+    @apply inline-flex items-center justify-center gap-2 bg-card text-foreground text-sm font-semibold py-3 px-7 rounded-full border border-border shadow-sm transition-all duration-200;
   }
   .btn-secondary:hover {
-    @apply bg-cream-100 scale-[1.02];
+    @apply bg-muted scale-[1.02];
   }
 
   /* ── Eyebrow ── */
   .eyebrow {
-    @apply text-[11px] font-bold tracking-[2.5px] uppercase text-accent-600 mb-4;
+    @apply text-[11px] font-bold tracking-[2.5px] uppercase text-accent mb-4;
   }
 
   /* ── Section header ── */
@@ -38,15 +80,15 @@
     @apply text-center mb-14;
   }
   .section-header h2 {
-    @apply font-serif text-4xl md:text-5xl font-bold text-terra-800 tracking-tight leading-tight;
+    @apply font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight;
   }
   .section-header p {
-    @apply text-[15px] text-terra-800/60 mt-4 max-w-xl mx-auto leading-relaxed;
+    @apply text-[15px] text-foreground/60 mt-4 max-w-xl mx-auto leading-relaxed;
   }
 
-  /* ── Cards (glassmorphism-lite) ── */
+  /* ── Cards ── */
   .card {
-    @apply bg-white/80 backdrop-blur-sm rounded-2xl border border-cream-200 shadow-sm p-6 transition-all duration-200;
+    @apply bg-card/80 backdrop-blur-sm rounded-2xl border border-border shadow-sm p-6 transition-all duration-200;
   }
   .card:hover {
     @apply shadow-md -translate-y-0.5;
@@ -54,28 +96,28 @@
 
   /* ── Badge ── */
   .badge {
-    @apply inline-flex items-center gap-1.5 bg-cream-100 border border-cream-200 text-accent-600 text-[10px] font-bold tracking-wider uppercase py-1 px-3.5 rounded-full;
+    @apply inline-flex items-center gap-1.5 bg-muted border border-border text-accent text-[10px] font-bold tracking-wider uppercase py-1 px-3.5 rounded-full;
   }
 
-  /* ── Accent text (orange italic serif words) ── */
+  /* ── Accent text ── */
   .accent {
-    @apply font-serif italic text-accent-500;
+    @apply font-serif italic text-accent;
   }
 
-  /* ── Prose (for blog/content pages) ── */
+  /* ── Prose (blog/content pages) ── */
   .prose-custom h2 {
-    @apply font-serif text-2xl font-bold text-terra-800 mt-10 mb-4;
+    @apply font-serif text-2xl font-semibold text-foreground mt-10 mb-4;
   }
   .prose-custom h3 {
-    @apply font-serif text-xl font-semibold text-terra-800 mt-8 mb-3;
+    @apply font-serif text-xl font-semibold text-foreground mt-8 mb-3;
   }
   .prose-custom p {
-    @apply text-terra-800/70 leading-relaxed mb-4;
+    @apply text-foreground/70 leading-relaxed mb-4;
   }
   .prose-custom ul {
-    @apply list-disc list-inside space-y-2 text-terra-800/70 mb-4;
+    @apply list-disc list-inside space-y-2 text-foreground/70 mb-4;
   }
   .prose-custom ol {
-    @apply list-decimal list-inside space-y-2 text-terra-800/70 mb-4;
+    @apply list-decimal list-inside space-y-2 text-foreground/70 mb-4;
   }
 }

@@ -62,15 +62,15 @@ function FAQBlock({ faq }: { faq: NonNullable<ReturnType<typeof getPost>>['faq']
 
   return (
     <section className="mb-12">
-      <h2 className="text-xl font-bold text-terra-800 mt-10 mb-6">{heading}</h2>
+      <h2 className="text-xl font-bold text-foreground mt-10 mb-6">{heading}</h2>
       <div className="space-y-4">
         {questions.map((q, i) => (
-          <details key={i} className="group bg-white rounded-xl border border-cream-200 p-4">
-            <summary className="cursor-pointer font-semibold text-terra-800 text-sm list-none flex items-center justify-between">
+          <details key={i} className="group bg-card rounded-xl border border-border p-4">
+            <summary className="cursor-pointer font-semibold text-foreground text-sm list-none flex items-center justify-between">
               {q.question}
-              <span className="text-accent-500 transition-transform group-open:rotate-45 text-lg ml-2">+</span>
+              <span className="text-accent transition-transform group-open:rotate-45 text-lg ml-2">+</span>
             </summary>
-            <p className="mt-3 text-sm text-terra-800/70 leading-relaxed">{q.answer}</p>
+            <p className="mt-3 text-sm text-foreground/70 leading-relaxed">{q.answer}</p>
           </details>
         ))}
       </div>
@@ -82,11 +82,11 @@ function StatsBar({ stats }: { stats: Array<Record<string, unknown>> }) {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       {stats.map((s, i) => (
-        <div key={i} className="bg-white rounded-xl border border-cream-200 p-4 text-center">
-          <div className="text-2xl font-bold text-accent-500">
+        <div key={i} className="bg-card rounded-xl border border-border p-4 text-center">
+          <div className="text-2xl font-bold text-accent">
             {(s.stat || s.number) as string}
           </div>
-          <div className="text-xs text-terra-800/60 mt-1">
+          <div className="text-xs text-foreground/60 mt-1">
             {(s.label || s.claim) as string}
           </div>
         </div>
@@ -128,14 +128,14 @@ export default async function BlogPostPage({
         {/* Header */}
         <div className="mb-8">
           <div className="flex items-center gap-3 mb-4">
-            <span className="text-xs font-semibold bg-accent-500/10 text-accent-600 px-3 py-1 rounded-full">
+            <span className="text-xs font-semibold bg-accent/10 text-accent px-3 py-1 rounded-full">
               {post.category_tag}
             </span>
-            <span className="text-xs text-terra-800/40">
+            <span className="text-xs text-foreground/40">
               {post.reading_time_min} min read
             </span>
             {post.published_at && (
-              <time className="text-xs text-terra-800/40" dateTime={post.published_at}>
+              <time className="text-xs text-foreground/40" dateTime={post.published_at}>
                 {new Date(post.published_at).toLocaleDateString(locale, {
                   year: 'numeric',
                   month: 'long',
@@ -144,11 +144,11 @@ export default async function BlogPostPage({
               </time>
             )}
           </div>
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-terra-800 leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl font-serif font-semibold text-foreground leading-tight mb-4">
             {post.h1}
           </h1>
           {post.author && (
-            <p className="text-sm text-terra-800/50">
+            <p className="text-sm text-foreground/50">
               {t('byAuthor', { author: post.author.name })}
             </p>
           )}
@@ -156,7 +156,7 @@ export default async function BlogPostPage({
 
         {/* Intro */}
         {post.intro && (
-          <div className="text-lg text-terra-800/70 leading-relaxed mb-8 border-l-4 border-accent-500/30 pl-4">
+          <div className="text-lg text-foreground/70 leading-relaxed mb-8 border-l-4 border-accent/30 pl-4">
             <Paragraphs text={post.intro} />
           </div>
         )}

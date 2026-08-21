@@ -53,15 +53,15 @@ export default async function BlogHubPage({
 
   return (
     <>
-      <section className="max-w-6xl mx-auto px-4 py-16">
+      <section className="max-w-6xl mx-auto px-4 py-14">
         <div className="text-center mb-12">
-          <p className="eyebrow text-accent-500 font-semibold text-xs tracking-widest uppercase mb-3">
+          <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-3">
             {t('eyebrow')}
           </p>
-          <h1 className="font-serif text-3xl md:text-4xl font-bold text-terra-800 mb-4">
+          <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
             {t('title')}
           </h1>
-          <p className="text-terra-800/50 text-lg max-w-2xl mx-auto">
+          <p className="text-foreground/50 text-lg max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
         </div>

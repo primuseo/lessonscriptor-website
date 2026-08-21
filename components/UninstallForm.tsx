@@ -63,10 +63,10 @@ export default function UninstallForm() {
   if (submitted) {
     return (
       <div className="text-center">
-        <h1 className="font-serif text-3xl md:text-4xl font-bold text-terra-800 mb-4">
+        <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
           {t('successH1')}
         </h1>
-        <p className="text-lg text-terra-800/60 mb-8">{t('successBody')}</p>
+        <p className="text-lg text-foreground/60 mb-8">{t('successBody')}</p>
         <a
           href={`https://chromewebstore.google.com/detail/apofgfejefeeepabfbaabdijnokbpcgp`}
           className="btn-primary inline-block px-8 py-3 rounded-full font-bold"
@@ -80,17 +80,17 @@ export default function UninstallForm() {
   return (
     <div>
       <div className="text-center mb-10">
-        <p className="eyebrow text-accent-500 font-semibold text-xs tracking-widest uppercase mb-4">
+        <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-4">
           {t('eyebrow')}
         </p>
-        <h1 className="font-serif text-3xl md:text-4xl font-bold text-terra-800 mb-4">
+        <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
           {t('h1')}
         </h1>
-        <p className="text-lg text-terra-800/60">{t('subtitle')}</p>
+        <p className="text-lg text-foreground/60">{t('subtitle')}</p>
       </div>
 
       <div className="card p-6 mb-6">
-        <p className="text-sm font-semibold text-terra-800/60 mb-4">{t('reasonsLabel')}</p>
+        <p className="text-sm font-semibold text-foreground/60 mb-4">{t('reasonsLabel')}</p>
         <div className="space-y-3">
           {reasons.map((r) => (
             <button
@@ -99,8 +99,8 @@ export default function UninstallForm() {
               onClick={() => setSelected(r.id)}
               className={`w-full text-left px-4 py-3 rounded-lg border transition-colors ${
                 selected === r.id
-                  ? 'border-accent-500 bg-accent-500/10 text-terra-800 font-semibold'
-                  : 'border-cream-200 bg-cream-100 text-terra-800/80 hover:border-accent-500/50'
+                  ? 'border-accent bg-accent/10 text-foreground font-semibold'
+                  : 'border-border bg-muted text-foreground/80 hover:border-accent/50'
               }`}
             >
               {r.label}
@@ -114,12 +114,12 @@ export default function UninstallForm() {
           placeholder={commentPlaceholder}
           rows={3}
           maxLength={2000}
-          className={`mt-4 w-full bg-cream-100 border rounded-lg px-4 py-3 text-terra-800 text-sm focus:outline-none focus:border-accent-500 ${
-            needsDetail && !comment.trim() ? 'border-accent-500/60' : 'border-cream-200'
+          className={`mt-4 w-full bg-muted border rounded-lg px-4 py-3 text-foreground text-sm focus:outline-none focus:border-accent ${
+            needsDetail && !comment.trim() ? 'border-accent/60' : 'border-border'
           }`}
         />
         {needsDetail && !comment.trim() && (
-          <p className="mt-2 text-xs text-accent-600">{t('missingFeatureRequired')}</p>
+          <p className="mt-2 text-xs text-accent">{t('missingFeatureRequired')}</p>
         )}
       </div>
 
