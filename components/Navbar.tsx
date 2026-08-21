@@ -24,7 +24,7 @@ export default function Navbar({ locale }: { locale: string }) {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1.5 no-underline">
-            <span className="font-serif text-lg font-bold text-foreground tracking-tight">
+            <span className="font-serif text-lg font-semibold text-foreground tracking-tight">
               Lesson<span className="text-accent">Scriptor</span>
             </span>
           </Link>

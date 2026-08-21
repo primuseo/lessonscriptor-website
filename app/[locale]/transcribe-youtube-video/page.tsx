@@ -123,7 +123,7 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
               {t('methods.title')}
             </h2>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
+              <table className="w-full border-collapse bg-card rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-muted border-b-2 border-border">
                     <th className="px-6 py-4 text-left font-bold text-foreground">Method</th>
@@ -134,7 +134,7 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
                 </thead>
                 <tbody>
                   {youtubeMethodsData.map((row: any, idx: number) => (
-                    <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-muted'}>
+                    <tr key={idx} className={idx % 2 === 0 ? 'bg-card' : 'bg-muted'}>
                       <td className="px-6 py-4 font-semibold text-foreground border-b border-border">{row.method}</td>
                       <td className="px-6 py-4 text-foreground/60 border-b border-border">{row.pros}</td>
                       <td className="px-6 py-4 text-foreground/60 border-b border-border">{row.cons}</td>
@@ -154,7 +154,7 @@ export default async function TranscribeYouTubePage({ params: { locale } }: { pa
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             {useCases.map((item: any, idx: number) => (
-              <div key={idx} className="bg-white border border-border p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+              <div key={idx} className="bg-card border border-border p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <div className="text-3xl mb-3">{item.icon}</div>
                 <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
                 <p className="text-foreground/60 leading-relaxed text-sm">{item.desc}</p>

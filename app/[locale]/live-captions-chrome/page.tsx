@@ -105,7 +105,7 @@ export default async function LiveCaptionsChromeP({ params: { locale } }: { para
               {t('vsChrome.title')}
             </h2>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
+              <table className="w-full border-collapse bg-card rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-muted border-b-2 border-border">
                     {comparisonRows[0].map((header: string, idx: number) => (
@@ -117,7 +117,7 @@ export default async function LiveCaptionsChromeP({ params: { locale } }: { para
                 </thead>
                 <tbody>
                   {comparisonRows.slice(1).map((row: string[], rowIdx: number) => (
-                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-muted'}>
+                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-card' : 'bg-muted'}>
                       {row.map((cell: string, cellIdx: number) => (
                         <td
                           key={cellIdx}
@@ -163,7 +163,7 @@ export default async function LiveCaptionsChromeP({ params: { locale } }: { para
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {useCases.map((item: any, idx: number) => (
-                <div key={idx} className="bg-white rounded-lg p-6 shadow-sm border border-border">
+                <div key={idx} className="bg-card rounded-lg p-6 shadow-sm border border-border">
                   <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
                   <p className="text-foreground/60 leading-relaxed">{item.description}</p>
                 </div>

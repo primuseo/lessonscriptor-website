@@ -124,7 +124,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               {useCases.map((item: any, idx: number) => (
-                <div key={idx} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <div key={idx} className="bg-card p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                   <div className="text-3xl mb-3" aria-hidden="true">{item.icon}</div>
                   <h3 className="text-lg font-bold text-foreground mb-2">{item.title}</h3>
                   <p className="text-foreground/60 leading-relaxed">{item.desc}</p>
@@ -190,7 +190,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
               </thead>
               <tbody>
                 {comparisonRows.map((row: any, idx: number) => (
-                  <tr key={idx} className={idx % 2 === 0 ? 'bg-white' : 'bg-background'}>
+                  <tr key={idx} className={idx % 2 === 0 ? 'bg-card' : 'bg-background'}>
                     <td className="px-4 py-3 font-semibold text-foreground">{row.tool}</td>
                     <td className="px-4 py-3 text-foreground/70">{row.method}</td>
                     <td className="px-4 py-3 text-foreground/70">{row.free}</td>

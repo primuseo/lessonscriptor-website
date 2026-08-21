@@ -28,7 +28,7 @@ export default function CategoryFilter({
           onClick={() => setActive(null)}
           className={`text-xs font-semibold px-4 py-2 rounded-full transition-colors ${
             active === null
-              ? 'bg-accent text-white'
+              ? 'bg-accent text-accent-foreground'
               : 'bg-muted text-foreground/50 hover:text-foreground'
           }`}
         >
@@ -40,7 +40,7 @@ export default function CategoryFilter({
             onClick={() => setActive(active === cat ? null : cat)}
             className={`text-xs font-semibold px-4 py-2 rounded-full transition-colors ${
               active === cat
-                ? 'bg-accent text-white'
+                ? 'bg-accent text-accent-foreground'
                 : 'bg-muted text-foreground/50 hover:text-foreground'
             }`}
           >

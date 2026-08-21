@@ -19,7 +19,7 @@ export default function BlogPostCard({
   return (
     <Link
       href={href}
-      className="group block bg-white rounded-xl border border-border p-6 hover:border-accent/30 hover:shadow-md transition-all no-underline"
+      className="group block bg-card rounded-xl border border-border p-6 hover:border-accent/30 hover:shadow-md transition-all no-underline"
     >
       <div className="flex items-center gap-2 mb-3">
         <span className="text-[10px] font-semibold bg-accent/10 text-accent px-2 py-0.5 rounded-full">

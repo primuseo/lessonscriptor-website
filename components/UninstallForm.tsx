@@ -63,7 +63,7 @@ export default function UninstallForm() {
   if (submitted) {
     return (
       <div className="text-center">
-        <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
           {t('successH1')}
         </h1>
         <p className="text-lg text-foreground/60 mb-8">{t('successBody')}</p>
@@ -83,7 +83,7 @@ export default function UninstallForm() {
         <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-4">
           {t('eyebrow')}
         </p>
-        <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
+        <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
           {t('h1')}
         </h1>
         <p className="text-lg text-foreground/60">{t('subtitle')}</p>

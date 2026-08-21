@@ -43,7 +43,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
           <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-4">
             {t('eyebrow')}
           </p>
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-4">
             {t('h1')}
           </h1>
           <p className="text-lg text-foreground/60 max-w-xl">
@@ -53,7 +53,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Quickstart */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-6">{t('quickstartHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-6">{t('quickstartHeading')}</h2>
           <ol className="space-y-3">
             {quickstartSteps.map((step, i) => (
               <li key={i} className="flex gap-4 items-start">
@@ -70,7 +70,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Modes section */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-8">{t('modesHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-8">{t('modesHeading')}</h2>
 
           {/* Tab Audio */}
           <div className="card p-6 mb-6">
@@ -94,7 +94,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Editing & saving */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-8">{t('editingHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-8">{t('editingHeading')}</h2>
 
           <div className="space-y-5">
             <p className="text-foreground/70 leading-relaxed text-sm">{t('titleBody')}</p>
@@ -146,7 +146,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Sync */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-4">{t('syncHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">{t('syncHeading')}</h2>
           <div className="flex items-start gap-3">
             <span className="shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center mt-0.5">
               <SyncIcon className="w-4 h-4 text-foreground/50" />
@@ -159,7 +159,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Settings */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-8">{t('settingsHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-8">{t('settingsHeading')}</h2>
           <div className="space-y-6">
             {[
               { heading: t('settingsLangHeading'), body: t('settingsLangBody') },
@@ -181,7 +181,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Troubleshooting */}
         <section className="mb-16">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-8">{t('troubleshootingHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-8">{t('troubleshootingHeading')}</h2>
           <div className="space-y-4">
             {troubleshootingItems.map((item, i) => (
               <details key={i} className="group border border-border rounded-xl overflow-hidden">
@@ -201,7 +201,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         {/* Support */}
         <section className="text-center">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-3">{t('supportHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-3">{t('supportHeading')}</h2>
           <p className="text-foreground/60 mb-6">{t('supportBody')}</p>
           <Link
             href="/contact"

@@ -115,7 +115,7 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {problemCards.map((card: any, idx: number) => (
-                <div key={idx} className="bg-white rounded-lg p-6 shadow-sm border border-border">
+                <div key={idx} className="bg-card rounded-lg p-6 shadow-sm border border-border">
                   <div className="text-3xl mb-3">{card.icon}</div>
                   <h3 className="text-lg font-bold text-foreground mb-2">{card.title}</h3>
                   <p className="text-foreground/60 leading-relaxed text-sm">{card.description}</p>
@@ -135,7 +135,7 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {featureCards.map((card: any, idx: number) => (
-              <div key={idx} className="rounded-lg p-6 border border-border bg-white shadow-sm">
+              <div key={idx} className="rounded-lg p-6 border border-border bg-card shadow-sm">
                 <div className="text-3xl mb-3">{card.icon}</div>
                 <h3 className="text-lg font-bold text-foreground mb-2">{card.title}</h3>
                 <p className="text-foreground/60 leading-relaxed text-sm">{card.description}</p>

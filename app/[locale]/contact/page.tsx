@@ -72,10 +72,10 @@ export default function ContactPage() {
   return (
     <div className="max-w-2xl mx-auto px-6 py-14">
       <div className="text-center mb-12">
-        <h1 className="font-serif text-4xl md:text-5xl font-bold text-dark mb-4">
+        <h1 className="font-serif text-4xl md:text-5xl font-semibold text-dark mb-4">
           {t('h1')}
         </h1>
-        <p className="text-lg text-muted">
+        <p className="text-lg text-foreground/60">
           {t('subtitle')}
         </p>
       </div>
@@ -88,7 +88,7 @@ export default function ContactPage() {
       ) : (
       <>
       {error && (
-        <div className="bg-red-50 border border-red-200 rounded-lg p-4 mb-8 text-red-700">
+        <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-4 mb-8 text-destructive">
           {error}
         </div>
       )}
@@ -105,7 +105,7 @@ export default function ContactPage() {
             value={formData.name}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
+            className="w-full px-4 py-3 bg-card text-card-foreground border border-border rounded-lg focus:outline-none focus:border-accent transition-colors"
             placeholder={t('namePlaceholder') || 'Your name'}
           />
         </div>
@@ -121,7 +121,7 @@ export default function ContactPage() {
             value={formData.email}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
+            className="w-full px-4 py-3 bg-card text-card-foreground border border-border rounded-lg focus:outline-none focus:border-accent transition-colors"
             placeholder={t('emailPlaceholder') || 'your@email.com'}
           />
         </div>
@@ -137,7 +137,7 @@ export default function ContactPage() {
             value={formData.subject}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:border-amber-600 transition-colors"
+            className="w-full px-4 py-3 bg-card text-card-foreground border border-border rounded-lg focus:outline-none focus:border-accent transition-colors"
             placeholder={t('subjectPlaceholder') || 'Subject'}
           />
         </div>
@@ -153,7 +153,7 @@ export default function ContactPage() {
             onChange={handleChange}
             required
             rows={6}
-            className="w-full px-4 py-3 border border-border rounded-lg focus:outline-none focus:border-amber-600 transition-colors resize-none"
+            className="w-full px-4 py-3 bg-card text-card-foreground border border-border rounded-lg focus:outline-none focus:border-accent transition-colors resize-none"
             placeholder={t('messagePlaceholder') || 'Your message...'}
           />
         </div>

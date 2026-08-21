@@ -8,12 +8,12 @@ export default function Footer({ locale }: { locale: string }) {
   const base = `/${locale}`
 
   return (
-    <footer className="bg-primary dark:bg-card text-primary-foreground/40 dark:text-card-foreground/40 py-16 px-4">
+    <footer className="bg-primary dark:bg-card text-primary-foreground/40 dark:text-card-foreground/40 py-14 px-4">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <div className="font-serif text-lg font-bold text-primary-foreground dark:text-card-foreground mb-2">
+            <div className="font-serif text-lg font-semibold text-primary-foreground dark:text-card-foreground mb-2">
               Lesson<span className="text-accent">Scriptor</span>
             </div>
             <p className="text-sm leading-relaxed mb-4">{t('tagline')}</p>

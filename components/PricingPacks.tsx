@@ -54,10 +54,10 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
           value={currency}
           onChange={(e) => setCurrency(e.target.value)}
           className="bg-white/[0.06] border border-accent/25 rounded-lg py-2 px-3 pr-8 text-[13px] text-accent font-semibold cursor-pointer outline-none focus:border-accent/50 transition-colors appearance-none"
-          style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23fbbf24' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 10px center' }}
+          style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A16207' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`, backgroundRepeat: 'no-repeat', backgroundPosition: 'right 10px center' }}
         >
           {Object.entries(CURRENCIES).map(([code, { symbol: s, label }]) => (
-            <option key={code} value={code} className="bg-[#1a1714] text-primary-foreground">
+            <option key={code} value={code} className="bg-primary text-primary-foreground">
               {s} {code} — {label}
             </option>
           ))}
@@ -80,11 +80,11 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
             }`}
           >
             {pack.badge && (
-              <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-accent text-white text-[9px] font-extrabold tracking-wider uppercase py-0.5 px-2 rounded-full whitespace-nowrap">
+              <span className="absolute -top-2 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground text-[9px] font-extrabold tracking-wider uppercase py-0.5 px-2 rounded-full whitespace-nowrap">
                 {pack.badge}
               </span>
             )}
-            <div className="text-xl font-bold text-primary-foreground font-serif leading-none tracking-tight">
+            <div className="text-xl font-semibold text-primary-foreground font-serif leading-none tracking-tight">
               {pack.hours}
             </div>
             <div className="text-[10px] text-primary-foreground/40 my-1 leading-snug">
@@ -94,7 +94,9 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
               {formatPrice(symbol, pack.basePrice * rate, decimals !== undefined ? decimals : 0)}
             </div>
             {pack.save && (
-              <div className="text-[10px] font-extrabold text-accent tracking-wide uppercase mt-1">
+              // This label always sits on the dark premium card (bg-primary), so it
+              // always needs the dark-surface-safe gold regardless of site theme.
+              <div className="text-[10px] font-extrabold text-[#D4A017] tracking-wide uppercase mt-1">
                 save {formatPrice(symbol, pack.save * rate, decimals !== undefined ? decimals : 0)}
               </div>
             )}

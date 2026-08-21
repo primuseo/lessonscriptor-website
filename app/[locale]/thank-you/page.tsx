@@ -46,7 +46,7 @@ export default async function ThankYouPage({ params: { locale }, searchParams }:
           <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-4">
             {t('eyebrow')}
           </p>
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h1 className="font-serif text-4xl md:text-5xl font-semibold text-foreground mb-4">
             {t('h1')}
           </h1>
           <p className="text-lg text-foreground/60">
@@ -71,11 +71,11 @@ export default async function ThankYouPage({ params: { locale }, searchParams }:
 
         {/* Steps */}
         <div className="mb-12">
-          <h2 className="font-serif text-2xl font-bold text-foreground mb-6">{t('stepsHeading')}</h2>
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-6">{t('stepsHeading')}</h2>
           <ol className="space-y-5">
             {steps.map((step) => (
               <li key={step.n} className="flex gap-4">
-                <span className="shrink-0 w-8 h-8 rounded-full bg-accent text-white text-sm font-bold flex items-center justify-center">
+                <span className="shrink-0 w-8 h-8 rounded-full bg-accent text-accent-foreground text-sm font-bold flex items-center justify-center">
                   {step.n}
                 </span>
                 <div>

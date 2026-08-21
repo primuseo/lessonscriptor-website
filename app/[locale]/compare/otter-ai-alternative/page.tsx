@@ -79,7 +79,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
               {t('comparison.title')}
             </h2>
             <div className="overflow-x-auto">
-              <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
+              <table className="w-full border-collapse bg-card rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-muted border-b-2 border-border">
                     {headerRow.map((header: string, idx: number) => (
@@ -96,7 +96,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
                 </thead>
                 <tbody>
                   {dataRows.map((row: string[], rowIdx: number) => (
-                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-muted'}>
+                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-card' : 'bg-muted'}>
                       {row.map((cell: string, cellIdx: number) => {
                         const isLessonscriptorWin = cellIdx === 3 && (
                           cell === 'Yes — click anywhere to edit' ||
@@ -144,7 +144,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {/* Otter.ai */}
-            <div className="bg-white border border-border rounded-xl p-6 shadow-sm">
+            <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
               <h3 className="text-xl font-bold text-foreground mb-4">{whenToUse.otter.heading}</h3>
               <ul className="space-y-3">
                 {whenToUse.otter.items.map((item: string, idx: number) => (

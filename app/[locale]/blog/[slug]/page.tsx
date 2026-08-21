@@ -65,7 +65,7 @@ function FAQBlock({ faq }: { faq: NonNullable<ReturnType<typeof getPost>>['faq']
       <h2 className="text-xl font-bold text-foreground mt-10 mb-6">{heading}</h2>
       <div className="space-y-4">
         {questions.map((q, i) => (
-          <details key={i} className="group bg-white rounded-xl border border-border p-4">
+          <details key={i} className="group bg-card rounded-xl border border-border p-4">
             <summary className="cursor-pointer font-semibold text-foreground text-sm list-none flex items-center justify-between">
               {q.question}
               <span className="text-accent transition-transform group-open:rotate-45 text-lg ml-2">+</span>
@@ -82,7 +82,7 @@ function StatsBar({ stats }: { stats: Array<Record<string, unknown>> }) {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
       {stats.map((s, i) => (
-        <div key={i} className="bg-white rounded-xl border border-border p-4 text-center">
+        <div key={i} className="bg-card rounded-xl border border-border p-4 text-center">
           <div className="text-2xl font-bold text-accent">
             {(s.stat || s.number) as string}
           </div>
@@ -144,7 +144,7 @@ export default async function BlogPostPage({
               </time>
             )}
           </div>
-          <h1 className="text-3xl md:text-4xl font-serif font-bold text-foreground leading-tight mb-4">
+          <h1 className="text-3xl md:text-4xl font-serif font-semibold text-foreground leading-tight mb-4">
             {post.h1}
           </h1>
           {post.author && (

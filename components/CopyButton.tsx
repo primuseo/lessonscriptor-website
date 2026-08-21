@@ -13,7 +13,7 @@ export default function CopyButton({ text, label, copiedLabel }: { text: string;
   return (
     <button
       onClick={handleCopy}
-      className="shrink-0 px-4 py-2 bg-accent hover:bg-accent-hover text-white text-sm font-semibold rounded-lg transition-colors"
+      className="shrink-0 px-4 py-2 bg-accent hover:bg-accent-hover text-accent-foreground text-sm font-semibold rounded-lg transition-colors"
     >
       {copied ? copiedLabel : label}
     </button>

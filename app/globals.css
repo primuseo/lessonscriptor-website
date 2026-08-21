@@ -4,6 +4,7 @@
 
 @layer base {
   :root {
+    color-scheme: light;
     --color-primary: 28 25 23;
     --color-primary-hover: 12 10 9;
     --color-primary-foreground: 255 255 255;
@@ -22,6 +23,7 @@
   }
 
   .dark {
+    color-scheme: dark;
     --color-accent: 212 160 23;
     --color-accent-hover: 232 185 35;
     --color-accent-foreground: 28 25 23;
@@ -34,8 +36,13 @@
     --color-border: 68 64 60;
     /* --color-primary and --color-primary-hover intentionally NOT redefined:
        primary is already near-black and stays constant across both modes.
-       See Task 5 for the one place (Footer) that needs an explicit dark:
-       override because of this. */
+       Because of this, any "permanently-dark band" built on bg-primary (e.g.
+       Footer, the for-adhd-students quote section, the homepage PROBLEM /
+       explainer / premium-pricing / QUICKSTART sections, and CTASection)
+       needs an explicit dark:bg-card + dark:text-card-foreground override so
+       it doesn't visually disappear against the dark page background. This
+       is a general pattern to apply to any future always-dark section, not
+       an enumerated list. */
   }
 
   html {

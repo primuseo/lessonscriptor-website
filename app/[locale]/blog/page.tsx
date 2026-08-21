@@ -58,7 +58,7 @@ export default async function BlogHubPage({
           <p className="eyebrow text-accent font-semibold text-xs tracking-widest uppercase mb-3">
             {t('eyebrow')}
           </p>
-          <h1 className="font-serif text-3xl md:text-4xl font-bold text-foreground mb-4">
+          <h1 className="font-serif text-3xl md:text-4xl font-semibold text-foreground mb-4">
             {t('title')}
           </h1>
           <p className="text-foreground/50 text-lg max-w-2xl mx-auto">

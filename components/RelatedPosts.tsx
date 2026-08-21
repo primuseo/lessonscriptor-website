@@ -20,7 +20,7 @@ export default function RelatedPosts({
   if (posts.length === 0) return null
 
   return (
-    <section className="px-4 py-16 bg-muted">
+    <section className="px-4 py-14 bg-muted">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-2xl font-bold text-foreground mb-8 text-center">{heading}</h2>
         <div className="grid md:grid-cols-3 gap-6">
@@ -34,7 +34,7 @@ export default function RelatedPosts({
               <Link
                 key={slug}
                 href={href}
-                className="group block bg-white rounded-xl border border-border p-6 hover:border-accent/30 hover:shadow-md transition-all no-underline"
+                className="group block bg-card rounded-xl border border-border p-6 hover:border-accent/30 hover:shadow-md transition-all no-underline"
               >
                 <span className="text-[10px] font-semibold bg-accent/10 text-accent px-2 py-0.5 rounded-full mb-3 inline-block">
                   {post!.category_tag}

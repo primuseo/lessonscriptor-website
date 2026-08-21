@@ -13,9 +13,12 @@ function Callout({ callout }: { callout: { type?: string; label?: string; body: 
     checklist: 'bg-orange-50 border-orange-300',
   }
   const cls = colors[callout.type || 'note'] || colors.note
+  // These pastel backgrounds never change with the site theme, so the body text is
+  // pinned to a fixed dark color instead of the theme-following text-foreground —
+  // otherwise it turns near-white-on-pale and unreadable in dark mode.
   return (
-    <div className={`${cls} border-l-4 rounded-r-lg p-4 mb-4`}>
-      {callout.label && <div className="font-semibold text-sm text-foreground mb-1">{callout.label}</div>}
+    <div className={`${cls} border-l-4 rounded-r-lg p-4 mb-4 [&_p]:!text-stone-800 [&_li]:!text-stone-800`}>
+      {callout.label && <div className="font-semibold text-sm text-stone-800 mb-1">{callout.label}</div>}
       <Paragraphs text={callout.body} />
     </div>
   )
@@ -46,7 +49,7 @@ function StackRecommendation({ section }: { section: Section }) {
   const totalCost = section.total_cost as string | undefined
   const timeSetup = section.time_setup as string | undefined
   return (
-    <div className="bg-white rounded-xl border border-border p-6 mb-6">
+    <div className="bg-card rounded-xl border border-border p-6 mb-6">
       {title && <h3 className="text-lg font-bold text-foreground mb-4">{title}</h3>}
       {layers && (
         <div className="space-y-3">

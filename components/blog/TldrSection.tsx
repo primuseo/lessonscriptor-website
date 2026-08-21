@@ -63,7 +63,7 @@ export default function TldrSection({ data }: { data: TldrProps }) {
       {data.tools && (
         <div className="space-y-3">
           {data.tools.map((tool, i) => (
-            <div key={i} className="bg-white rounded-lg p-3 border border-border">
+            <div key={i} className="bg-card rounded-lg p-3 border border-border">
               <div className="font-semibold text-foreground text-sm">{tool.name}</div>
               {tool.for && <div className="text-xs text-foreground/50">{tool.for}</div>}
               <div className="text-sm text-foreground/70 mt-1">{tool.why}</div>

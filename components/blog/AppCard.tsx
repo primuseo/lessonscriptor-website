@@ -18,7 +18,7 @@ interface AppCardProps {
 
 export default function AppCard({ section }: { section: AppCardProps }) {
   return (
-    <div className="bg-white rounded-xl border border-border p-6 mb-6">
+    <div className="bg-card rounded-xl border border-border p-6 mb-6">
       <div className="flex items-start justify-between mb-3">
         <div>
           {section.rank && (

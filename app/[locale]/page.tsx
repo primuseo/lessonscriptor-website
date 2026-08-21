@@ -136,7 +136,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               <span className="w-1.5 h-1.5 rounded-full bg-accent" />
               {t('hero.badge')}
             </div>
-            <h1 className="font-serif text-5xl md:text-6xl font-bold text-foreground leading-[1.1] tracking-tight mb-6">
+            <h1 className="font-serif text-5xl md:text-6xl font-semibold text-foreground leading-[1.1] tracking-tight mb-6">
               {t('hero.h1_line1')}<br />
               {t('hero.h1_line2')}{' '}
               <em className="italic text-accent">{t('hero.h1_em')}</em><br />
@@ -158,7 +158,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
           {/* Full-width browser context screenshot */}
           <div className="relative mx-auto max-w-5xl pb-16">
-            <div className="bg-white p-2 sm:p-3 rounded-2xl sm:rounded-3xl shadow-lg border border-border overflow-hidden">
+            <div className="bg-card p-2 sm:p-3 rounded-2xl sm:rounded-3xl shadow-lg border border-border overflow-hidden">
               <Image
                 src="/images/sidebar-context.png"
                 alt="LessonScriptor side panel transcribing a YouTube lecture in real-time alongside the video"
@@ -173,15 +173,17 @@ export default async function HomePage({ params: { locale } }: { params: { local
       </section>
 
       {/* ── PROBLEM ── */}
-      <section className="bg-primary py-20 px-4 text-center">
+      <section className="bg-primary dark:bg-card py-20 px-4 text-center">
         <div className="max-w-6xl mx-auto">
-          <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-accent mb-4">{t('problem.eyebrow')}</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground leading-tight tracking-tight mb-5 max-w-2xl mx-auto">
+          {/* This eyebrow always sits on the bg-primary/dark:bg-card band, so it always
+              needs the dark-surface-safe gold regardless of site theme. */}
+          <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-[#D4A017] mb-4">{t('problem.eyebrow')}</p>
+          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-primary-foreground dark:text-card-foreground leading-tight tracking-tight mb-5 max-w-2xl mx-auto">
             {t('problem.title_line1')}<br />
             {t('problem.title_line2')}{' '}
             <em className="italic text-accent">{t('problem.title_em')}</em>
           </h2>
-          <p className="text-base text-primary-foreground/50 leading-relaxed max-w-lg mx-auto mb-14">
+          <p className="text-base text-primary-foreground/50 dark:text-card-foreground/50 leading-relaxed max-w-lg mx-auto mb-14">
             {t('problem.subtitle')}
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
@@ -190,7 +192,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
               return (
                 <div key={i} className="bg-white/[0.04] border border-white/[0.06] rounded-2xl p-6 text-left hover:bg-white/[0.07] transition-colors">
                   <Icon className="w-5 h-5 text-accent mb-3" />
-                  <h4 className="text-[13px] font-bold text-primary-foreground mb-2 leading-tight">{item.title}</h4>
+                  <h4 className="text-[13px] font-semibold text-primary-foreground dark:text-card-foreground mb-2 leading-tight">{item.title}</h4>
                   <p className="text-xs text-white/45 leading-relaxed m-0">{item.desc}</p>
                 </div>
               )
@@ -200,10 +202,10 @@ export default async function HomePage({ params: { locale } }: { params: { local
       </section>
 
       {/* ── ORIGIN STORY ── */}
-      <section className="bg-white py-20 px-4 border-b border-border">
+      <section className="bg-card py-20 px-4 border-b border-border">
         <div className="max-w-2xl mx-auto">
           <p className="eyebrow">{t('origin.eyebrow')}</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight mb-9">
+          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight mb-9">
             {t('origin.title_line1')}<br />
             <em className="italic text-accent">{t('origin.title_em')}</em>
           </h2>
@@ -227,7 +229,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="eyebrow">{t('who.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight">{t('who.title')}</h2>
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">{t('who.title')}</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 max-w-5xl mx-auto">
             {t.raw('who.items').map((item: { title: string; desc: string; tag: string }, i: number) => {
@@ -237,7 +239,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                   <div className="w-12 h-12 rounded-2xl bg-muted flex items-center justify-center mb-4">
                     <Icon className="w-6 h-6 text-accent" />
                   </div>
-                  <h3 className="font-serif text-xl font-bold text-foreground mb-2.5">{item.title}</h3>
+                  <h3 className="font-serif text-xl font-semibold text-foreground mb-2.5">{item.title}</h3>
                   <p className="text-[13px] text-foreground/60 leading-relaxed">{item.desc}</p>
                   <span className="inline-block mt-4 bg-accent/10 text-accent text-[10px] font-bold tracking-wider uppercase py-1 px-3 rounded-full">
                     {item.tag}
@@ -250,17 +252,17 @@ export default async function HomePage({ params: { locale } }: { params: { local
       </section>
 
       {/* ── EDITING SHOWCASE ── */}
-      <section className="bg-white py-20 px-4 border-b border-border">
+      <section className="bg-card py-20 px-4 border-b border-border">
         <div className="max-w-4xl mx-auto text-center">
           <p className="eyebrow">{t('editing.eyebrow')}</p>
-          <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight mb-4">
+          <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight mb-4">
             {t('editing.title')}{' '}
             <em className="italic text-accent">{t('editing.titleEm')}</em>
           </h2>
           <p className="text-[15px] text-foreground/60 max-w-xl mx-auto mb-12 leading-relaxed">
             {t('editing.desc')}
           </p>
-          <div className="bg-white p-4 rounded-3xl shadow-lg border border-border max-w-md mx-auto">
+          <div className="bg-card p-4 rounded-3xl shadow-lg border border-border max-w-md mx-auto">
             <Image
               src="/images/editing-screenshot.png"
               alt="LessonScriptor editing toolbar with color highlighting and text formatting"
@@ -277,7 +279,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="eyebrow">{t('features.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('features.title_line1')}<br />{t('features.title_line2')}
             </h2>
           </div>
@@ -308,7 +310,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="eyebrow">{t('worksEverywhere.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('worksEverywhere.title_line1')}<br />{t('worksEverywhere.title_line2')}
             </h2>
             <p className="text-[15px] text-foreground/60 mt-4 max-w-xl mx-auto leading-relaxed">{t('worksEverywhere.subtitle')}</p>
@@ -320,21 +322,23 @@ export default async function HomePage({ params: { locale } }: { params: { local
               return (
                 <div key={i} className="card p-8">
                   <Icon className="w-6 h-6 text-accent mb-3" />
-                  <h4 className="text-base font-bold text-foreground mb-2.5 font-serif">{p.title}</h4>
+                  <h4 className="text-base font-semibold text-foreground mb-2.5 font-serif">{p.title}</h4>
                   <p className="text-sm text-foreground/60 leading-relaxed">{p.desc}</p>
                 </div>
               )
             })}
           </div>
-          <div className="bg-primary rounded-2xl py-9 px-8 md:px-11 max-w-4xl mx-auto">
-            <p className="text-[10px] font-bold tracking-[2.5px] uppercase text-accent mb-4">
+          <div className="bg-primary dark:bg-card rounded-2xl py-9 px-8 md:px-11 max-w-4xl mx-auto">
+            {/* This eyebrow always sits on the bg-primary/dark:bg-card band, so it always
+                needs the dark-surface-safe gold regardless of site theme. */}
+            <p className="text-[10px] font-bold tracking-[2.5px] uppercase text-[#D4A017] mb-4">
               {t('worksEverywhere.explainerEyebrow')}
             </p>
-            <p className="text-sm leading-relaxed text-primary-foreground/70 mb-3">
-              <strong className="text-primary-foreground font-bold">Free mode</strong> {t('worksEverywhere.explainerFree').replace('Free mode ', '')}
+            <p className="text-sm leading-relaxed text-primary-foreground/70 dark:text-card-foreground/70 mb-3">
+              <strong className="text-primary-foreground dark:text-card-foreground font-bold">Free mode</strong> {t('worksEverywhere.explainerFree').replace('Free mode ', '')}
             </p>
-            <p className="text-sm leading-relaxed text-primary-foreground/70">
-              <strong className="text-primary-foreground font-bold">AI mode</strong> {t('worksEverywhere.explainerAI').replace('AI mode ', '')}
+            <p className="text-sm leading-relaxed text-primary-foreground/70 dark:text-card-foreground/70">
+              <strong className="text-primary-foreground dark:text-card-foreground font-bold">AI mode</strong> {t('worksEverywhere.explainerAI').replace('AI mode ', '')}
             </p>
           </div>
         </div>
@@ -345,7 +349,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="eyebrow">{t('pricing.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('pricing.title_line1')}<br />{t('pricing.title_line2')}
             </h2>
             <p className="text-[15px] text-foreground/60 mt-4 max-w-xl mx-auto leading-relaxed">{t('pricing.subtitle')}</p>
@@ -364,7 +368,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
           <div className="grid md:grid-cols-[1fr_1.6fr] gap-5 max-w-4xl mx-auto items-start">
             {/* Free plan */}
-            <div className="bg-white border border-border rounded-2xl p-9 shadow-sm">
+            <div className="bg-card border border-border rounded-2xl p-9 shadow-sm">
               <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-accent mb-3">{t('pricing.freeLabel')}</p>
               <div className="inline-flex items-center gap-1.5 border border-border rounded-full py-1 px-2.5 text-[10px] font-semibold bg-background text-foreground/60 mb-4">
                 <MicrophoneIcon className="w-3 h-3" />
@@ -402,25 +406,27 @@ export default async function HomePage({ params: { locale } }: { params: { local
             </div>
 
             {/* Premium plan */}
-            <div className="bg-primary rounded-2xl p-9 shadow-lg">
-              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-accent mb-3">{t('pricing.premiumLabel')}</p>
-              <div className="inline-flex items-center gap-1.5 border border-accent/20 rounded-full py-1 px-2.5 text-[10px] font-semibold bg-accent/10 text-accent mb-4">
+            <div className="bg-primary dark:bg-card rounded-2xl p-9 shadow-lg">
+              {/* Label, badge and callout below always sit on the bg-primary/dark:bg-card
+                  band, so they always need the dark-surface-safe gold regardless of site theme. */}
+              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-[#D4A017] mb-3">{t('pricing.premiumLabel')}</p>
+              <div className="inline-flex items-center gap-1.5 border border-accent/20 rounded-full py-1 px-2.5 text-[10px] font-semibold bg-accent/10 text-[#D4A017] mb-4">
                 <SparklesIcon className="w-3 h-3" />
                 {t('pricing.premiumEngine')}
               </div>
 
-              <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-xl py-2.5 px-3.5 mb-4 text-xs text-accent font-semibold">
+              <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-xl py-2.5 px-3.5 mb-4 text-xs text-[#D4A017] font-semibold">
                 {t('pricing.noSubCallout')}
               </div>
 
               <div className="bg-white/[0.04] border-l-[3px] border-accent rounded-r-xl py-3.5 px-4 mb-4">
-                <p className="text-xs text-primary-foreground/50 leading-relaxed">{t('pricing.costCallout')}</p>
+                <p className="text-xs text-primary-foreground/50 dark:text-card-foreground/50 leading-relaxed">{t('pricing.costCallout')}</p>
               </div>
 
               <div className="flex items-start gap-2.5 bg-white/[0.04] border border-accent/[0.12] rounded-xl py-3 px-4 mb-5">
-                <SpeakerWaveIcon className="w-[18px] h-[18px] text-primary-foreground flex-shrink-0 mt-px" />
-                <p className="text-xs text-primary-foreground/60 leading-snug">
-                  <strong className="text-primary-foreground">{t('pricing.headphonesCallout').split('.')[0]}.</strong>{' '}
+                <SpeakerWaveIcon className="w-[18px] h-[18px] text-primary-foreground dark:text-card-foreground flex-shrink-0 mt-px" />
+                <p className="text-xs text-primary-foreground/60 dark:text-card-foreground/60 leading-snug">
+                  <strong className="text-primary-foreground dark:text-card-foreground">{t('pricing.headphonesCallout').split('.')[0]}.</strong>{' '}
                   {t('pricing.headphonesCallout').split('.').slice(1).join('.').trim()}
                 </p>
               </div>
@@ -434,8 +440,9 @@ export default async function HomePage({ params: { locale } }: { params: { local
 
               <ul className="flex flex-col gap-2 mb-6 pt-5 border-t border-white/[0.06] list-none p-0">
                 {t.raw('pricing.premiumFeatures').map((f: string, i: number) => (
-                  <li key={i} className="text-xs text-primary-foreground/55 flex items-start gap-2 leading-snug">
-                    <span className="text-accent font-bold flex-shrink-0">✓</span> {f}
+                  <li key={i} className="text-xs text-primary-foreground/55 dark:text-card-foreground/55 flex items-start gap-2 leading-snug">
+                    {/* Always on the bg-primary/dark:bg-card band, so always the dark-surface-safe gold. */}
+                    <span className="text-[#D4A017] font-bold flex-shrink-0">✓</span> {f}
                   </li>
                 ))}
               </ul>
@@ -443,7 +450,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center bg-accent text-white text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-hover transition-colors"
+                className="block text-center bg-accent text-accent-foreground text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-hover transition-colors"
               >
                 {t('pricing.getAIBtn')}
               </a>
@@ -456,25 +463,25 @@ export default async function HomePage({ params: { locale } }: { params: { local
       </section>
 
       {/* ── QUICKSTART ── */}
-      <section className="bg-primary py-20 px-4">
+      <section className="bg-primary dark:bg-card py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-accent mb-4">{t('quickstart.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-primary-foreground tracking-tight leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-primary-foreground dark:text-card-foreground tracking-tight leading-tight">
               {t('quickstart.title_line1')}<br />{t('quickstart.title_line2')}
             </h2>
-            <p className="text-[15px] text-primary-foreground/50 mt-4">{t('quickstart.subtitle')}</p>
+            <p className="text-[15px] text-primary-foreground/50 dark:text-card-foreground/50 mt-4">{t('quickstart.subtitle')}</p>
           </div>
           <div className="grid md:grid-cols-3 max-w-3xl mx-auto relative">
             <div className="hidden md:block absolute top-7 left-[calc(16.66%+16px)] right-[calc(16.66%+16px)] h-px bg-white/[0.08]" />
             {t.raw('quickstart.steps').map((step: { n: string; title: string; desc: string; tag: string }, i: number) => (
               <div key={i} className="text-center px-6 relative">
-                <div className="w-14 h-14 rounded-full bg-white/[0.04] border-[1.5px] border-white/[0.08] flex items-center justify-center mx-auto mb-6 font-serif text-xl font-bold text-accent relative z-[1]">
+                <div className="w-14 h-14 rounded-full bg-white/[0.04] border-[1.5px] border-white/[0.08] flex items-center justify-center mx-auto mb-6 font-serif text-xl font-semibold text-accent relative z-[1]">
                   {step.n}
                 </div>
-                <h4 className="text-sm font-bold text-primary-foreground mb-2.5">{step.title}</h4>
-                <p className="text-xs text-primary-foreground/45 leading-relaxed">{step.desc}</p>
-                <span className="inline-block mt-3 bg-white/[0.04] border border-white/[0.08] text-primary-foreground/40 text-[10px] py-1 px-2.5 rounded-full font-mono">
+                <h4 className="text-sm font-semibold text-primary-foreground dark:text-card-foreground mb-2.5">{step.title}</h4>
+                <p className="text-xs text-primary-foreground/45 dark:text-card-foreground/45 leading-relaxed">{step.desc}</p>
+                <span className="inline-block mt-3 bg-white/[0.04] border border-white/[0.08] text-primary-foreground/40 dark:text-card-foreground/40 text-[10px] py-1 px-2.5 rounded-full font-mono">
                   {step.tag}
                 </span>
               </div>
@@ -488,7 +495,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
             <p className="eyebrow">{t('resources.eyebrow')}</p>
-            <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground tracking-tight leading-tight">
+            <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('resources.title_line1')}<br />{t('resources.title_line2')}
             </h2>
             <p className="text-[15px] text-foreground/50 mt-4 max-w-xl mx-auto">{t('resources.subtitle')}</p>
@@ -501,7 +508,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 <Link
                   key={i}
                   href={`${base}/blog/${localSlug}`}
-                  className="group block bg-white/80 backdrop-blur-sm border border-border rounded-2xl p-6 no-underline hover:border-accent/30 hover:shadow-md transition-all"
+                  className="group block bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-6 no-underline hover:border-accent/30 hover:shadow-md transition-all"
                 >
                   <h3 className="text-sm font-bold text-foreground mb-2 group-hover:text-accent-hover transition-colors leading-snug">
                     {post.title}
@@ -534,7 +541,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
         <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_1.4fr] gap-14 items-start">
           <div>
             <p className="eyebrow">{t('contact.eyebrow')}</p>
-            <h2 className="font-serif text-3xl font-bold text-foreground tracking-tight leading-tight mb-4">
+            <h2 className="font-serif text-3xl font-semibold text-foreground tracking-tight leading-tight mb-4">
               {t('contact.title_line1')}<br />
               {t('contact.title_line2')}{' '}
               <em className="italic text-accent">{t('contact.title_em')}</em>
@@ -553,7 +560,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
             </div>
           </div>
 
-          <div className="flex flex-col gap-6 bg-white/80 backdrop-blur-sm border border-border rounded-2xl p-8 shadow-sm items-center justify-center text-center">
+          <div className="flex flex-col gap-6 bg-card/80 backdrop-blur-sm border border-border rounded-2xl p-8 shadow-sm items-center justify-center text-center">
             <p className="text-foreground/60 text-sm leading-relaxed">{t('contact.subtitle')}</p>
             <Link href={`/${locale}/contact`} className="btn-primary justify-center py-3.5 w-full">
               {t('contact.form.send')}
