@@ -75,18 +75,18 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
       <div className="w-full">
 
         {/* Hero */}
-        <section className="px-4 py-16 max-w-4xl mx-auto">
+        <section className="px-4 py-14 max-w-4xl mx-auto">
           <p className="eyebrow">{t('hero.eyebrow')}</p>
-          <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
+          <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             {t('hero.h1')}
           </h1>
-          <p className="text-xl text-terra-800/60 mb-8">
+          <p className="text-xl text-foreground/60 mb-8">
             {t('hero.subtitle')}
           </p>
 
           {/* AIO Answer Box */}
-          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-8">
-            <p className="text-terra-800 text-lg leading-relaxed">
+          <div className="bg-muted border-l-4 border-accent p-6 rounded-lg mb-8">
+            <p className="text-foreground text-lg leading-relaxed">
               {t('hero.answer')}
             </p>
           </div>
@@ -105,20 +105,20 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
         </section>
 
         {/* Problem section */}
-        <section className="px-4 py-16 bg-cream-100">
+        <section className="px-4 py-14 bg-muted">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-terra-800 mb-4 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-4 text-center">
               {t('problems.title')}
             </h2>
-            <p className="text-terra-800/60 text-lg text-center mb-10 max-w-2xl mx-auto">
+            <p className="text-foreground/60 text-lg text-center mb-10 max-w-2xl mx-auto">
               {t('problems.subtitle')}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {problemCards.map((card: any, idx: number) => (
-                <div key={idx} className="bg-white rounded-lg p-6 shadow-sm border border-cream-200">
+                <div key={idx} className="bg-white rounded-lg p-6 shadow-sm border border-border">
                   <div className="text-3xl mb-3">{card.icon}</div>
-                  <h3 className="text-lg font-bold text-terra-800 mb-2">{card.title}</h3>
-                  <p className="text-terra-800/60 leading-relaxed text-sm">{card.description}</p>
+                  <h3 className="text-lg font-bold text-foreground mb-2">{card.title}</h3>
+                  <p className="text-foreground/60 leading-relaxed text-sm">{card.description}</p>
                 </div>
               ))}
             </div>
@@ -126,38 +126,38 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
         </section>
 
         {/* How Lessonscriptor helps */}
-        <section className="px-4 py-16 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-terra-800 mb-4 text-center">
+        <section className="px-4 py-14 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-foreground mb-4 text-center">
             {t('features.title')}
           </h2>
-          <p className="text-terra-800/60 text-lg text-center mb-10 max-w-2xl mx-auto">
+          <p className="text-foreground/60 text-lg text-center mb-10 max-w-2xl mx-auto">
             {t('features.subtitle')}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {featureCards.map((card: any, idx: number) => (
-              <div key={idx} className="rounded-lg p-6 border border-cream-200 bg-white shadow-sm">
+              <div key={idx} className="rounded-lg p-6 border border-border bg-white shadow-sm">
                 <div className="text-3xl mb-3">{card.icon}</div>
-                <h3 className="text-lg font-bold text-terra-800 mb-2">{card.title}</h3>
-                <p className="text-terra-800/60 leading-relaxed text-sm">{card.description}</p>
+                <h3 className="text-lg font-bold text-foreground mb-2">{card.title}</h3>
+                <p className="text-foreground/60 leading-relaxed text-sm">{card.description}</p>
               </div>
             ))}
           </div>
         </section>
 
         {/* Quote / callout */}
-        <section className="px-4 py-16 bg-terra-900">
+        <section className="px-4 py-14 bg-primary">
           <div className="max-w-3xl mx-auto text-center">
-            <blockquote className="font-serif text-2xl md:text-3xl text-cream-100 italic leading-relaxed mb-6">
+            <blockquote className="font-serif text-2xl md:text-3xl text-primary-foreground italic leading-relaxed mb-6">
               &ldquo;{t('quote.text')}&rdquo;
             </blockquote>
-            <cite className="text-cream-200/60 text-sm not-italic">
+            <cite className="text-primary-foreground/60 text-sm not-italic">
               {t('quote.attribution')}
             </cite>
           </div>
         </section>
 
         {/* FAQ */}
-        <section className="py-16 px-4">
+        <section className="py-14 px-4">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}

@@ -54,38 +54,38 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
 
       <div className="w-full">
         {/* Hero */}
-        <section className="px-4 py-16 max-w-4xl mx-auto">
+        <section className="px-4 py-14 max-w-4xl mx-auto">
           <div className="mb-8">
-            <h1 className="text-4xl md:text-5xl font-bold text-terra-800 mb-4">
+            <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               {t('h1')}
             </h1>
-            <p className="text-xl text-terra-800/60 mb-8">
+            <p className="text-xl text-foreground/60 mb-8">
               {t('subtitle')}
             </p>
           </div>
 
           {/* AIO Answer Box */}
-          <div className="bg-cream-100 border-l-4 border-accent-500 p-6 rounded-lg mb-12">
-            <p className="text-terra-800 text-lg leading-relaxed">
+          <div className="bg-muted border-l-4 border-accent p-6 rounded-lg mb-12">
+            <p className="text-foreground text-lg leading-relaxed">
               {t('answer')}
             </p>
           </div>
         </section>
 
         {/* Comparison Table */}
-        <section className="px-4 py-16 bg-cream-100">
+        <section className="px-4 py-14 bg-muted">
           <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-terra-800 mb-8 text-center">
+            <h2 className="text-3xl font-bold text-foreground mb-8 text-center">
               {t('comparison.title')}
             </h2>
             <div className="overflow-x-auto">
               <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
                 <thead>
-                  <tr className="bg-cream-100 border-b-2 border-cream-200">
+                  <tr className="bg-muted border-b-2 border-border">
                     {headerRow.map((header: string, idx: number) => (
                       <th
                         key={idx}
-                        className={`px-6 py-4 text-left font-bold text-terra-800 border-r border-cream-200 last:border-r-0 ${
+                        className={`px-6 py-4 text-left font-bold text-foreground border-r border-border last:border-r-0 ${
                           idx === 0 ? 'min-w-[200px]' : ''
                         }`}
                       >
@@ -96,7 +96,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
                 </thead>
                 <tbody>
                   {dataRows.map((row: string[], rowIdx: number) => (
-                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-cream-100'}>
+                    <tr key={rowIdx} className={rowIdx % 2 === 0 ? 'bg-white' : 'bg-muted'}>
                       {row.map((cell: string, cellIdx: number) => {
                         const isLessonscriptorWin = cellIdx === 3 && (
                           cell === 'Yes — click anywhere to edit' ||
@@ -113,10 +113,10 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
                         return (
                           <td
                             key={cellIdx}
-                            className={`px-6 py-4 border-b border-cream-200 border-r border-cream-200 last:border-r-0 ${
-                              cellIdx === 0 ? 'font-semibold text-terra-800' : 'text-terra-800/60'
+                            className={`px-6 py-4 border-b border-border border-r border-border last:border-r-0 ${
+                              cellIdx === 0 ? 'font-semibold text-foreground' : 'text-foreground/60'
                             } ${
-                              isLessonscriptorWin ? 'bg-accent-500/10 font-semibold text-accent-500' : ''
+                              isLessonscriptorWin ? 'bg-accent/10 font-semibold text-accent' : ''
                             }`}
                           >
                             {cell}
@@ -128,8 +128,8 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
                 </tbody>
               </table>
             </div>
-            <p className="text-sm text-terra-800/60 mt-4 text-center">
-              <span className="inline-block bg-accent-500/10 px-3 py-1 rounded text-accent-500 font-semibold">
+            <p className="text-sm text-foreground/60 mt-4 text-center">
+              <span className="inline-block bg-accent/10 px-3 py-1 rounded text-accent font-semibold">
                 Green
               </span>
               {' '}= LessonScriptor advantage
@@ -138,30 +138,30 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
         </section>
 
         {/* When to Use Which Tool */}
-        <section className="px-4 py-16 max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-terra-800 mb-10 text-center">
+        <section className="px-4 py-14 max-w-5xl mx-auto">
+          <h2 className="text-3xl font-bold text-foreground mb-10 text-center">
             {whenToUse.title}
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             {/* Otter.ai */}
-            <div className="bg-white border border-cream-200 rounded-xl p-6 shadow-sm">
-              <h3 className="text-xl font-bold text-terra-800 mb-4">{whenToUse.otter.heading}</h3>
+            <div className="bg-white border border-border rounded-xl p-6 shadow-sm">
+              <h3 className="text-xl font-bold text-foreground mb-4">{whenToUse.otter.heading}</h3>
               <ul className="space-y-3">
                 {whenToUse.otter.items.map((item: string, idx: number) => (
-                  <li key={idx} className="flex gap-3 text-terra-800/70">
-                    <span className="flex-shrink-0 mt-0.5 text-terra-800/30">→</span>
+                  <li key={idx} className="flex gap-3 text-foreground/70">
+                    <span className="flex-shrink-0 mt-0.5 text-foreground/30">→</span>
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
             {/* LessonScriptor */}
-            <div className="bg-accent-500/5 border border-accent-500/20 rounded-xl p-6 shadow-sm">
-              <h3 className="text-xl font-bold text-terra-800 mb-4">{whenToUse.lessonscriptor.heading}</h3>
+            <div className="bg-accent/5 border border-accent/20 rounded-xl p-6 shadow-sm">
+              <h3 className="text-xl font-bold text-foreground mb-4">{whenToUse.lessonscriptor.heading}</h3>
               <ul className="space-y-3">
                 {whenToUse.lessonscriptor.items.map((item: string, idx: number) => (
-                  <li key={idx} className="flex gap-3 text-terra-800/70">
-                    <span className="flex-shrink-0 mt-0.5 text-accent-500">✓</span>
+                  <li key={idx} className="flex gap-3 text-foreground/70">
+                    <span className="flex-shrink-0 mt-0.5 text-accent">✓</span>
                     <span>{item}</span>
                   </li>
                 ))}
@@ -171,7 +171,7 @@ export default async function OtterAiAlternativePage({ params: { locale } }: { p
         </section>
 
         {/* FAQ */}
-        <section className="py-16 px-4 bg-cream-100">
+        <section className="py-14 px-4 bg-muted">
           <FAQSection
             title={t('faq') as any}
             items={t.raw('faq.items')}
