@@ -145,12 +145,12 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
         </section>
 
         {/* Quote / callout */}
-        <section className="px-4 py-14 bg-primary">
+        <section className="px-4 py-14 bg-primary dark:bg-card">
           <div className="max-w-3xl mx-auto text-center">
-            <blockquote className="font-serif text-2xl md:text-3xl text-primary-foreground italic leading-relaxed mb-6">
+            <blockquote className="font-serif text-2xl md:text-3xl text-primary-foreground dark:text-card-foreground italic leading-relaxed mb-6">
               &ldquo;{t('quote.text')}&rdquo;
             </blockquote>
-            <cite className="text-primary-foreground/60 text-sm not-italic">
+            <cite className="text-primary-foreground/60 dark:text-card-foreground/60 text-sm not-italic">
               {t('quote.attribution')}
             </cite>
           </div>
