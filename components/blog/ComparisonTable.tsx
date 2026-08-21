@@ -9,13 +9,13 @@ export default function ComparisonTable({ data }: { data: TableProps }) {
     return (
       <div className="overflow-x-auto mb-6">
         {data.title && (
-          <h3 className="text-base font-bold text-terra-800 mb-3">{data.title}</h3>
+          <h3 className="text-base font-bold text-foreground mb-3">{data.title}</h3>
         )}
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-cream-100">
+            <tr className="bg-muted">
               {data.headers.map((h, i) => (
-                <th key={i} className="text-left px-4 py-2 font-semibold text-terra-800 border-b border-cream-200">
+                <th key={i} className="text-left px-4 py-2 font-semibold text-foreground border-b border-border">
                   {h}
                 </th>
               ))}
@@ -23,9 +23,9 @@ export default function ComparisonTable({ data }: { data: TableProps }) {
           </thead>
           <tbody>
             {(data.rows as string[][]).map((row, i) => (
-              <tr key={i} className="border-b border-cream-100">
+              <tr key={i} className="border-b border-muted">
                 {row.map((cell, j) => (
-                  <td key={j} className="px-4 py-2 text-terra-800/70">
+                  <td key={j} className="px-4 py-2 text-foreground/70">
                     {cell}
                   </td>
                 ))}
@@ -43,13 +43,13 @@ export default function ComparisonTable({ data }: { data: TableProps }) {
     return (
       <div className="overflow-x-auto mb-6">
         {data.title && (
-          <h3 className="text-base font-bold text-terra-800 mb-3">{data.title}</h3>
+          <h3 className="text-base font-bold text-foreground mb-3">{data.title}</h3>
         )}
         <table className="w-full text-sm border-collapse">
           <thead>
-            <tr className="bg-cream-100">
+            <tr className="bg-muted">
               {keys.map((k, i) => (
-                <th key={i} className="text-left px-4 py-2 font-semibold text-terra-800 border-b border-cream-200 capitalize">
+                <th key={i} className="text-left px-4 py-2 font-semibold text-foreground border-b border-border capitalize">
                   {k.replace(/_/g, ' ')}
                 </th>
               ))}
@@ -57,9 +57,9 @@ export default function ComparisonTable({ data }: { data: TableProps }) {
           </thead>
           <tbody>
             {objRows.map((row, i) => (
-              <tr key={i} className="border-b border-cream-100">
+              <tr key={i} className="border-b border-muted">
                 {keys.map((k, j) => (
-                  <td key={j} className="px-4 py-2 text-terra-800/70">
+                  <td key={j} className="px-4 py-2 text-foreground/70">
                     {String(row[k] ?? '')}
                   </td>
                 ))}

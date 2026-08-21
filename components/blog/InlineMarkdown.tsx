@@ -33,7 +33,7 @@ export function Paragraphs({ text }: { text: string }) {
           return (
             <Tag key={i} className={`${isOrdered ? 'list-decimal' : 'list-disc'} pl-6 space-y-1 mb-4`}>
               {lines.map((line, j) => (
-                <li key={j} className="text-terra-800/70">
+                <li key={j} className="text-foreground/70">
                   <InlineText text={line.replace(/^(\d+\.\s|[-•]\s)/, '')} />
                 </li>
               ))}
@@ -42,7 +42,7 @@ export function Paragraphs({ text }: { text: string }) {
         }
 
         return (
-          <p key={i} className="text-terra-800/70 leading-relaxed mb-4">
+          <p key={i} className="text-foreground/70 leading-relaxed mb-4">
             <InlineText text={trimmed} />
           </p>
         )
