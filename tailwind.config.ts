@@ -35,9 +35,9 @@ const config: Config = {
         ring: 'rgb(var(--color-ring) / <alpha-value>)',
       },
       fontFamily: {
-        serif: ['Cormorant', 'Georgia', 'serif'],
-        heading: ['Cormorant', 'Georgia', 'serif'],
-        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Cormorant', 'Noto Serif SC', 'Georgia', 'serif'],
+        heading: ['Cormorant', 'Noto Serif SC', 'Georgia', 'serif'],
+        sans: ['Inter', 'Noto Sans SC', 'system-ui', 'sans-serif'],
       },
       borderRadius: {
         DEFAULT: '10px',
