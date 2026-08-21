@@ -30,8 +30,8 @@ export default function UninstallPage({ params: { locale } }: { params: { locale
   unstable_setRequestLocale(locale)
 
   return (
-    <div className="min-h-screen bg-cream-50">
-      <div className="max-w-xl mx-auto px-6 py-20">
+    <div className="min-h-screen bg-background">
+      <div className="max-w-xl mx-auto px-6 py-16">
         <Suspense fallback={null}>
           <UninstallForm />
         </Suspense>
