@@ -13,9 +13,9 @@ function fmt(n: unknown): string {
   return Number.isFinite(num) ? num.toLocaleString('en-US', { maximumFractionDigits: 0 }) : '0'
 }
 
-export async function POST(request: NextRequest) {
+async function handleWeeklyReport(request: NextRequest): Promise<NextResponse> {
   const authHeader = request.headers.get('authorization')
-  const expected = process.env.WEEKLY_REPORT_SECRET
+  const expected = process.env.CRON_SECRET
   if (!expected || authHeader !== `Bearer ${expected}`) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
@@ -127,4 +127,14 @@ ${feedbackLine}
     console.error('[WeeklyReport] error:', err)
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
   }
+}
+
+// Vercel Cron invokes with GET + `Authorization: Bearer $CRON_SECRET`.
+export async function GET(request: NextRequest) {
+  return handleWeeklyReport(request)
+}
+
+// Kept for manual/CLI testing with the same secret.
+export async function POST(request: NextRequest) {
+  return handleWeeklyReport(request)
 }
