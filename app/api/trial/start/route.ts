@@ -21,16 +21,37 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  let deviceId: string | null = null;
+  try {
+    const body = await request.json();
+    if (typeof body?.device_id === 'string' && body.device_id.trim()) {
+      deviceId = body.device_id.trim();
+    }
+  } catch {
+    // No/invalid JSON body — fall back to IP-only gating (older extension builds
+    // that predate the device id).
+  }
+
   const sql = getDb();
   const licenseKey = crypto.randomUUID();
   const email = `trial-${crypto.randomUUID()}@trial.lessonscriptor.internal`;
 
   try {
     await sql`
-      INSERT INTO users (email, credits_seconds_remaining, total_seconds_purchased, license_key, is_trial)
-      VALUES (${email}, ${TRIAL_SECONDS}, 0, ${licenseKey}, true)
+      INSERT INTO users (email, credits_seconds_remaining, total_seconds_purchased, license_key, is_trial, trial_device_id)
+      VALUES (${email}, ${TRIAL_SECONDS}, 0, ${licenseKey}, true, ${deviceId})
     `;
   } catch (err) {
+    // 23505 = unique_violation. The partial unique index on trial_device_id
+    // only fires for repeat device ids, so this can't be confused with any
+    // other insert conflict.
+    if (deviceId && (err as { code?: string })?.code === '23505') {
+      return jsonResponse(
+        { error: 'This device has already used its free trial. Please buy a credit pack to continue.' },
+        403,
+        request
+      );
+    }
     console.error('[Trial] DB error:', err);
     return jsonResponse({ error: 'Internal server error' }, 500, request);
   }
