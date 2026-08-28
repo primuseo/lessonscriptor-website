@@ -1,4 +1,7 @@
 import { Resend } from 'resend'
+import { signUnsubscribeToken } from './unsubscribe-token'
+
+const SITE_URL = 'https://lessonscriptor.com'
 
 export const SUPPORTED_LOCALES = ['en', 'fr', 'es', 'de', 'pt', 'zh'] as const
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
@@ -20,6 +23,7 @@ interface Template {
   replies: string
   closing: string
   signoff: string
+  unsubscribe: string // contains {url}
 }
 
 const TEMPLATES: Record<Locale, Template> = {
@@ -38,6 +42,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: 'Replies come straight to the two of us, and we answer every one personally.',
     closing: 'Thanks for being early — it matters.',
     signoff: 'Pierre & Victoria',
+    unsubscribe: "Rather not hear from us again? {url}",
   },
   fr: {
     subject: 'Bienvenue sur LessonScriptor 🎓 — un petit mot de Pierre & Victoria',
@@ -54,6 +59,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: 'Vos réponses nous arrivent directement, à tous les deux, et nous répondons personnellement à chacune.',
     closing: "Merci d'être là dès le début — ça compte beaucoup pour nous.",
     signoff: 'Pierre & Victoria',
+    unsubscribe: 'Vous préférez ne plus recevoir de nos nouvelles ? {url}',
   },
   es: {
     subject: 'Bienvenido a LessonScriptor 🎓 — un saludo de Pierre y Victoria',
@@ -70,6 +76,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: 'Tus respuestas nos llegan directamente a los dos, y respondemos personalmente a cada una.',
     closing: 'Gracias por estar desde el principio: significa mucho para nosotros.',
     signoff: 'Pierre y Victoria',
+    unsubscribe: '¿Prefieres no recibir más correos nuestros? {url}',
   },
   de: {
     subject: 'Willkommen bei LessonScriptor 🎓 — ein kurzer Gruß von Pierre & Victoria',
@@ -86,6 +93,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: 'Deine Antworten kommen direkt bei uns beiden an, und wir beantworten jede einzelne persönlich.',
     closing: 'Danke, dass du von Anfang an dabei bist – das bedeutet uns viel.',
     signoff: 'Pierre & Victoria',
+    unsubscribe: 'Möchtest du keine E-Mails mehr von uns erhalten? {url}',
   },
   pt: {
     subject: 'Bem-vindo ao LessonScriptor 🎓 — um olá de Pierre e Victoria',
@@ -102,6 +110,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: 'Suas respostas chegam direto para nós dois, e respondemos pessoalmente a cada uma.',
     closing: 'Obrigado por estar aqui desde o início — isso significa muito.',
     signoff: 'Pierre e Victoria',
+    unsubscribe: 'Prefere não receber mais e-mails nossos? {url}',
   },
   zh: {
     subject: '欢迎使用 LessonScriptor 🎓 — 来自 Pierre 和 Victoria 的问候',
@@ -118,6 +127,7 @@ const TEMPLATES: Record<Locale, Template> = {
     replies: '你的回复会直接发到我们两个人手中，我们会亲自回复每一封。',
     closing: '谢谢你在最早期就加入——这对我们意义重大。',
     signoff: 'Pierre 和 Victoria',
+    unsubscribe: '不想再收到我们的邮件？{url}',
   },
 }
 
@@ -125,14 +135,23 @@ function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }
 
+export function buildUnsubscribeUrl(email: string, locale: Locale): string {
+  const token = signUnsubscribeToken(email)
+  const params = new URLSearchParams({ email, token, locale })
+  return `${SITE_URL}/api/unsubscribe?${params.toString()}`
+}
+
 export function buildWelcomeEmail(
   rawLocale: unknown,
-  name: string | null
+  name: string | null,
+  email: string
 ): { subject: string; html: string; text: string } {
   const locale = resolveLocale(rawLocale)
   const t = TEMPLATES[locale]
   const trimmed = name && name.trim() ? name.trim() : null
   const greeting = trimmed ? t.greetingNamed.replace('{name}', trimmed) : t.greetingAnon
+  const unsubscribeUrl = buildUnsubscribeUrl(email, locale)
+  const unsubscribeText = t.unsubscribe.replace('{url}', unsubscribeUrl)
 
   const text = [
     greeting,
@@ -152,9 +171,15 @@ export function buildWelcomeEmail(
     '',
     t.signoff,
     'LessonScriptor',
+    '',
+    unsubscribeText,
   ].join('\n')
 
   const e = escapeHtml
+  const unsubscribeHtml = e(t.unsubscribe).replace(
+    '{url}',
+    `<a href="${e(unsubscribeUrl)}">${e(unsubscribeUrl)}</a>`
+  )
   const html = `<div style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714">
 <p>${e(greeting)}</p>
 <p>${e(t.intro)}</p>
@@ -168,6 +193,7 @@ export function buildWelcomeEmail(
 <p>${e(t.replies)}</p>
 <p>${e(t.closing)}</p>
 <p>${e(t.signoff)}<br/>LessonScriptor</p>
+<p style="margin-top:24px;padding-top:16px;border-top:1px solid #e5ded6;font-size:12px;color:#8a8078">${unsubscribeHtml}</p>
 </div>`
 
   return { subject: t.subject, html, text }
@@ -183,13 +209,13 @@ export async function sendWelcomeEmail({ email, name, locale }: SendWelcomeArgs)
   const apiKey = process.env.RESEND_API_KEY
   const from = process.env.WELCOME_FROM_EMAIL
   const replyTo = process.env.WELCOME_REPLY_TO
-  if (!apiKey || !from || !replyTo) {
+  if (!apiKey || !from || !replyTo || !process.env.UNSUBSCRIBE_SECRET) {
     throw new Error(
-      'welcome-email: RESEND_API_KEY, WELCOME_FROM_EMAIL and WELCOME_REPLY_TO must be set'
+      'welcome-email: RESEND_API_KEY, WELCOME_FROM_EMAIL, WELCOME_REPLY_TO and UNSUBSCRIBE_SECRET must be set'
     )
   }
 
-  const { subject, html, text } = buildWelcomeEmail(locale, name)
+  const { subject, html, text } = buildWelcomeEmail(locale, name, email)
   const resend = new Resend(apiKey)
   const { error } = await resend.emails.send({ from, to: email, replyTo, subject, html, text })
   if (error) {

@@ -13,6 +13,7 @@ beforeEach(() => {
   process.env.RESEND_API_KEY = 'test-key'
   process.env.WELCOME_FROM_EMAIL = 'LessonScriptor <hello@lessonscriptor.com>'
   process.env.WELCOME_REPLY_TO = 'marketing@primuseo.com'
+  process.env.UNSUBSCRIBE_SECRET = 'test-secret'
 })
 
 describe('sendWelcomeEmail', () => {
