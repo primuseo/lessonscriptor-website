@@ -19,31 +19,38 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  let body: { text?: string; version?: string; lang?: string; source?: string };
+  let body: { text?: string; version?: string; lang?: string; source?: string; email?: string };
   try {
     body = await request.json();
   } catch {
     return jsonResponse({ error: 'Invalid JSON' }, 400, request);
   }
 
-  const { text, version, lang, source } = body;
+  const { text, version, lang, source, email } = body;
 
   if (!text || typeof text !== 'string' || !text.trim()) {
     return jsonResponse({ error: 'text is required' }, 400, request);
   }
+
+  // Optional — the user is not required to leave contact details. Loosely
+  // validated (not a full RFC 5322 check) since this only gates whether we
+  // store a follow-up address, not whether the feedback itself is accepted.
+  const trimmedEmail = (email || '').trim().slice(0, 254);
+  const sanitizedEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail) ? trimmedEmail : '';
 
   const sanitized = text.trim().slice(0, 2000);
   const sql = getDb();
 
   try {
     await sql`
-      INSERT INTO feedback (text, extension_version, lang, source, ip)
+      INSERT INTO feedback (text, extension_version, lang, source, ip, email)
       VALUES (
         ${sanitized},
         ${(version || '').slice(0, 20)},
         ${(lang || '').slice(0, 10)},
         ${(source || 'unknown').slice(0, 30)},
-        ${ip}
+        ${ip},
+        ${sanitizedEmail || null}
       )
     `;
 
@@ -56,7 +63,7 @@ export async function POST(request: NextRequest) {
         from: `LessonScriptor <${fromEmail}>`,
         to: toEmail,
         subject: `Uninstall feedback: ${sanitized.slice(0, 60)}`,
-        text: `Source: ${source || 'uninstall'}\nVersion: ${version || '—'}\nLang: ${lang || '—'}\n\n${sanitized}`,
+        text: `Source: ${source || 'uninstall'}\nVersion: ${version || '—'}\nLang: ${lang || '—'}\nFollow-up email: ${sanitizedEmail || '—'}\n\n${sanitized}`,
       }).catch(e => console.error('[Feedback] Resend error:', e));
     }
 

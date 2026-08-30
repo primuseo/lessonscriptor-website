@@ -1243,7 +1243,9 @@
     "sending": "Envoi...",
     "successH1": "Merci",
     "successBody": "Merci pour votre retour. Vous êtes toujours le bienvenu.",
-    "reinstallCTA": "Réinstaller LessonScriptor"
+    "reinstallCTA": "Réinstaller LessonScriptor",
+    "emailPlaceholder": "Votre e-mail (facultatif) — pour qu'on puisse faire un suivi ou vous prévenir quand c'est disponible",
+    "emailInvalid": "Cette adresse e-mail ne semble pas valide"
   },
   "whatsNew": {
     "eyebrow": "Nouveautés produit",

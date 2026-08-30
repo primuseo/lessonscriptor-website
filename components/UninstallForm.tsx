@@ -21,6 +21,7 @@ export default function UninstallForm() {
 
   const [selected, setSelected] = useState<string | null>(null)
   const [comment, setComment] = useState('')
+  const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
   const [submitted, setSubmitted] = useState(false)
 
@@ -31,7 +32,11 @@ export default function UninstallForm() {
       : selected === 'didnt_work'
       ? t('bugPlaceholder')
       : t('commentPlaceholder')
-  const canSubmit = !loading && (selected || comment.trim()) && !(needsDetail && !comment.trim())
+  // Loosely validated — this only gates the local "looks malformed" hint, the
+  // field itself stays optional. The API re-validates before storing.
+  const emailLooksValid = !email.trim() || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())
+  const canSubmit =
+    !loading && (selected || comment.trim()) && !(needsDetail && !comment.trim()) && emailLooksValid
 
   const handleSubmit = async () => {
     if (!canSubmit) return
@@ -50,6 +55,7 @@ export default function UninstallForm() {
           version,
           lang,
           source: 'uninstall',
+          email: email.trim(),
         }),
       })
     } catch {
@@ -120,6 +126,24 @@ export default function UninstallForm() {
         />
         {needsDetail && !comment.trim() && (
           <p className="mt-2 text-xs text-accent">{t('missingFeatureRequired')}</p>
+        )}
+
+        {(needsDetail || comment.trim()) && (
+          <div className="mt-4">
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder={t('emailPlaceholder')}
+              maxLength={254}
+              className={`w-full bg-muted border rounded-lg px-4 py-3 text-foreground text-sm focus:outline-none focus:border-accent ${
+                emailLooksValid ? 'border-border' : 'border-accent/60'
+              }`}
+            />
+            {!emailLooksValid && (
+              <p className="mt-2 text-xs text-accent">{t('emailInvalid')}</p>
+            )}
+          </div>
         )}
       </div>
 

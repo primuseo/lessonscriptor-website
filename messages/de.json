@@ -1242,7 +1242,9 @@
     "sending": "Senden...",
     "successH1": "Danke",
     "successBody": "Danke für dein Feedback. Du bist jederzeit wieder willkommen.",
-    "reinstallCTA": "LessonScriptor erneut installieren"
+    "reinstallCTA": "LessonScriptor erneut installieren",
+    "emailPlaceholder": "Deine E-Mail (optional) — damit wir nachfragen oder dich informieren können, wenn es verfügbar ist",
+    "emailInvalid": "Das sieht nicht nach einer gültigen E-Mail-Adresse aus"
   },
   "whatsNew": {
     "eyebrow": "Produkt-Updates",

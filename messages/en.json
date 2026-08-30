@@ -1230,7 +1230,9 @@
     "sending": "Sending...",
     "successH1": "Thank you",
     "successBody": "We appreciate your feedback. You're always welcome back.",
-    "reinstallCTA": "Reinstall LessonScriptor"
+    "reinstallCTA": "Reinstall LessonScriptor",
+    "emailPlaceholder": "Your email (optional) — so we can follow up or let you know when it's live",
+    "emailInvalid": "That doesn't look like a valid email"
   },
   "whatsNew": {
     "eyebrow": "Product updates",

@@ -1242,7 +1242,9 @@
     "sending": "发送中...",
     "successH1": "谢谢",
     "successBody": "感谢你的反馈。欢迎你随时回来。",
-    "reinstallCTA": "重新安装 LessonScriptor"
+    "reinstallCTA": "重新安装 LessonScriptor",
+    "emailPlaceholder": "您的邮箱（可选）——方便我们跟进，或在功能上线时通知您",
+    "emailInvalid": "该邮箱地址似乎无效"
   },
   "whatsNew": {
     "eyebrow": "产品更新",
