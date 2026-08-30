@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/privacy',
     '/terms',
     '/onboarding',
+    '/whats-new',
   ]
 
   const adhdSlugs: Record<string, string> = {

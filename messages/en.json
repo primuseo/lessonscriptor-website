@@ -1231,5 +1231,55 @@
     "successH1": "Thank you",
     "successBody": "We appreciate your feedback. You're always welcome back.",
     "reinstallCTA": "Reinstall LessonScriptor"
+  },
+  "whatsNew": {
+    "eyebrow": "Product updates",
+    "h1": "What's New",
+    "subtitle": "A running log of what's changed in the LessonScriptor Chrome extension.",
+    "earlierNote": "Earlier updates focused on core transcription accuracy, account infrastructure, and behind-the-scenes reliability improvements.",
+    "releases": [
+      {
+        "version": "1.1.0",
+        "date": "August 30, 2026",
+        "headline": "Add screenshots to your transcript",
+        "bullets": [
+          "Capture a frame of the video you're watching and drop it right into your transcript, anchored to the moment it happened — just click the camera icon.",
+          "Export screenshots as embedded images in your Markdown download, or as a text reference everywhere else (plain text, clipboard)."
+        ]
+      },
+      {
+        "version": "1.0.7",
+        "date": "August 29, 2026",
+        "headline": "More reliable transcription uploads",
+        "bullets": [
+          "Improved reliability for Tab Audio transcription uploads, especially during long sessions."
+        ]
+      },
+      {
+        "version": "1.0.6",
+        "date": "August 26, 2026",
+        "headline": "Free Tab Audio trial and more languages",
+        "bullets": [
+          "Try Tab Audio mode free, no account required.",
+          "Expanded language support across transcription and the interface."
+        ]
+      },
+      {
+        "version": "1.0.5",
+        "date": "July 4, 2026",
+        "headline": "Clearer mode selection",
+        "bullets": [
+          "Cleaned up the popup's mode cards, and fixed a language-selection bug."
+        ]
+      },
+      {
+        "version": "1.0.4",
+        "date": "June 30, 2026",
+        "headline": "Small improvements",
+        "bullets": [
+          "Minor internal improvements."
+        ]
+      }
+    ]
   }
 }

@@ -1244,5 +1244,55 @@
     "successH1": "Gracias",
     "successBody": "Agradecemos tus comentarios. Siempre serás bienvenido de vuelta.",
     "reinstallCTA": "Reinstalar LessonScriptor"
+  },
+  "whatsNew": {
+    "eyebrow": "Novedades del producto",
+    "h1": "Novedades",
+    "subtitle": "Un registro continuo de los cambios en la extensión de Chrome de LessonScriptor.",
+    "earlierNote": "Las actualizaciones anteriores se centraron en la precisión de la transcripción, la infraestructura de cuentas y mejoras de fiabilidad detrás de escena.",
+    "releases": [
+      {
+        "version": "1.1.0",
+        "date": "30 de agosto de 2026",
+        "headline": "Añade capturas de pantalla a tu transcripción",
+        "bullets": [
+          "Captura un fotograma del vídeo que estás viendo y añádelo directamente a tu transcripción, anclado al momento exacto — solo tienes que hacer clic en el icono de la cámara.",
+          "Exporta las capturas de pantalla como imágenes incrustadas en tu descarga de Markdown, o como referencia de texto en cualquier otro lugar (texto plano, portapapeles)."
+        ]
+      },
+      {
+        "version": "1.0.7",
+        "date": "29 de agosto de 2026",
+        "headline": "Subidas de transcripción más fiables",
+        "bullets": [
+          "Mayor fiabilidad en las subidas de transcripción del modo Audio de pestaña, especialmente en sesiones largas."
+        ]
+      },
+      {
+        "version": "1.0.6",
+        "date": "26 de agosto de 2026",
+        "headline": "Prueba gratuita del modo Audio de pestaña y más idiomas",
+        "bullets": [
+          "Prueba el modo Audio de pestaña gratis, sin necesidad de cuenta.",
+          "Soporte de idiomas ampliado, tanto en la transcripción como en la interfaz."
+        ]
+      },
+      {
+        "version": "1.0.5",
+        "date": "4 de julio de 2026",
+        "headline": "Selección de modo más clara",
+        "bullets": [
+          "Limpieza de las tarjetas de modo en el popup, y corrección de un error de selección de idioma."
+        ]
+      },
+      {
+        "version": "1.0.4",
+        "date": "30 de junio de 2026",
+        "headline": "Pequeñas mejoras",
+        "bullets": [
+          "Mejoras internas menores."
+        ]
+      }
+    ]
   }
 }

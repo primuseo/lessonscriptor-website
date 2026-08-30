@@ -1244,5 +1244,55 @@
     "successH1": "Merci",
     "successBody": "Merci pour votre retour. Vous êtes toujours le bienvenu.",
     "reinstallCTA": "Réinstaller LessonScriptor"
+  },
+  "whatsNew": {
+    "eyebrow": "Nouveautés produit",
+    "h1": "Nouveautés",
+    "subtitle": "Le journal des changements de l'extension Chrome LessonScriptor.",
+    "earlierNote": "Les mises à jour précédentes portaient sur la précision de la transcription, l'infrastructure des comptes, et des améliorations de fiabilité en coulisses.",
+    "releases": [
+      {
+        "version": "1.1.0",
+        "date": "30 août 2026",
+        "headline": "Ajoutez des captures d'écran à votre transcription",
+        "bullets": [
+          "Capturez une image de la vidéo que vous regardez et ajoutez-la directement à votre transcription, ancrée au moment exact — il suffit de cliquer sur l'icône appareil photo.",
+          "Exportez les captures d'écran comme images intégrées dans votre téléchargement Markdown, ou comme référence textuelle partout ailleurs (texte brut, presse-papier)."
+        ]
+      },
+      {
+        "version": "1.0.7",
+        "date": "29 août 2026",
+        "headline": "Envois de transcription plus fiables",
+        "bullets": [
+          "Fiabilité améliorée pour les envois de transcription en mode Audio d'onglet, surtout lors de longues sessions."
+        ]
+      },
+      {
+        "version": "1.0.6",
+        "date": "26 août 2026",
+        "headline": "Essai gratuit du mode Audio d'onglet et plus de langues",
+        "bullets": [
+          "Essayez le mode Audio d'onglet gratuitement, sans compte requis.",
+          "Prise en charge élargie des langues, pour la transcription et l'interface."
+        ]
+      },
+      {
+        "version": "1.0.5",
+        "date": "4 juillet 2026",
+        "headline": "Sélection de mode plus claire",
+        "bullets": [
+          "Nettoyage des cartes de mode dans le popup, et correction d'un bug de sélection de langue."
+        ]
+      },
+      {
+        "version": "1.0.4",
+        "date": "30 juin 2026",
+        "headline": "Petites améliorations",
+        "bullets": [
+          "Améliorations internes mineures."
+        ]
+      }
+    ]
   }
 }

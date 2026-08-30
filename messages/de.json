@@ -1243,5 +1243,55 @@
     "successH1": "Danke",
     "successBody": "Danke für dein Feedback. Du bist jederzeit wieder willkommen.",
     "reinstallCTA": "LessonScriptor erneut installieren"
+  },
+  "whatsNew": {
+    "eyebrow": "Produkt-Updates",
+    "h1": "Neuigkeiten",
+    "subtitle": "Ein laufendes Protokoll der Änderungen an der LessonScriptor Chrome-Erweiterung.",
+    "earlierNote": "Frühere Updates konzentrierten sich auf die Genauigkeit der Transkription, die Konto-Infrastruktur und Zuverlässigkeitsverbesserungen im Hintergrund.",
+    "releases": [
+      {
+        "version": "1.1.0",
+        "date": "30. August 2026",
+        "headline": "Füge Screenshots zu deinem Transkript hinzu",
+        "bullets": [
+          "Erfasse ein Bild des Videos, das du gerade ansiehst, und füge es direkt in dein Transkript ein, verankert am genauen Zeitpunkt — klicke einfach auf das Kamera-Symbol.",
+          "Exportiere Screenshots als eingebettete Bilder in deinem Markdown-Download, oder als Textverweis überall sonst (Klartext, Zwischenablage)."
+        ]
+      },
+      {
+        "version": "1.0.7",
+        "date": "29. August 2026",
+        "headline": "Zuverlässigere Transkript-Uploads",
+        "bullets": [
+          "Verbesserte Zuverlässigkeit für Tab-Audio-Transkript-Uploads, besonders bei langen Sitzungen."
+        ]
+      },
+      {
+        "version": "1.0.6",
+        "date": "26. August 2026",
+        "headline": "Kostenlose Tab-Audio-Testphase und mehr Sprachen",
+        "bullets": [
+          "Probiere den Tab-Audio-Modus kostenlos aus, kein Konto erforderlich.",
+          "Erweiterte Sprachunterstützung für Transkription und Oberfläche."
+        ]
+      },
+      {
+        "version": "1.0.5",
+        "date": "4. Juli 2026",
+        "headline": "Klarere Modusauswahl",
+        "bullets": [
+          "Aufgeräumte Modus-Karten im Popup und ein behobener Sprachauswahl-Fehler."
+        ]
+      },
+      {
+        "version": "1.0.4",
+        "date": "30. Juni 2026",
+        "headline": "Kleine Verbesserungen",
+        "bullets": [
+          "Kleinere interne Verbesserungen."
+        ]
+      }
+    ]
   }
 }
