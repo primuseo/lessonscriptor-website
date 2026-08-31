@@ -1,6 +1,5 @@
 'use client'
 import { useState } from 'react'
-import { useLocale } from 'next-intl'
 
 interface Pack {
   hours: string
@@ -30,11 +29,9 @@ const CURRENCIES: Record<string, { symbol: string; rate: number; decimals?: numb
   TRY: { symbol: '₺', rate: 34.00, decimals: 0, label: 'Turkish Lira' },
 }
 
-const CHECKOUT_URLS: Record<number, string> = {
-  5: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/8ff92fe3-bb8d-401b-b2b2-9579a54a1722?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
-  12: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/347face6-52b0-432f-a2bd-1c7c41158f84?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
-  21: 'https://lesson-scriptor.lemonsqueezy.com/checkout/buy/4d71daba-2b98-4e22-ad5f-b02eb08f9bfb?discount=0&checkout[redirect_url]=https://lessonscriptor.com/thank-you',
-}
+// Individual per-pack checkout links were intermittently resolving to LemonSqueezy
+// test mode. Sending buyers to the store front (all three packs, live mode) avoids it.
+const STORE_URL = 'https://lesson-scriptor.lemonsqueezy.com/'
 
 function formatPrice(symbol: string, amount: number, forceDecimals?: number): string {
   const d = forceDecimals !== undefined ? forceDecimals : (amount >= 100 ? 0 : 2)
@@ -45,7 +42,6 @@ function formatPrice(symbol: string, amount: number, forceDecimals?: number): st
 export default function PricingPacks({ packs, currencyDisclaimer, paymentProcessor }: Props) {
   const [currency, setCurrency] = useState('USD')
   const { symbol, rate, decimals } = CURRENCIES[currency]
-  const locale = useLocale()
 
   return (
     <div>
@@ -68,11 +64,7 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
         {packs.map((pack, i) => (
           <a
             key={i}
-            href={
-              CHECKOUT_URLS[pack.basePrice]
-                ? `${CHECKOUT_URLS[pack.basePrice]}&checkout[custom][locale]=${locale}`
-                : '#'
-            }
+            href={STORE_URL}
             target="_blank"
             rel="noopener noreferrer"
             className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent/30 transition-colors block no-underline ${
