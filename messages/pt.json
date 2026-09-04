@@ -640,6 +640,10 @@
         {
           "q": "As legendas ao vivo do Chrome são privadas?",
           "a": "As legendas ao vivo integradas do Chrome processam o áudio no dispositivo — nada sai do seu computador. O modo gratuito do LessonScriptor também usa reconhecimento de fala no dispositivo. O modo Premium envia o áudio para uma API na nuvem para maior precisão, mas nenhum dado é armazenado após a transcrição."
+        },
+        {
+          "q": "Por que o modo gratuito não capta o som do meu vídeo?",
+          "a": "O modo gratuito escuta pelo microfone do seu dispositivo, e muitos sistemas aplicam cancelamento de eco que filtra o som dos seus próprios alto-falantes — então ele pode ouvir você, mas perder o vídeo. Tente aumentar a sensibilidade de entrada do seu microfone ou desativar o \"cancelamento de eco\" ou a \"supressão de ruído\" nas configurações de microfone do seu sistema ou navegador. Se ainda não captar o áudio do vídeo, mude para o modo Premium — ele captura o áudio da aba diretamente e não depende do hardware do microfone."
         }
       ]
     },
@@ -735,6 +739,10 @@
         {
           "q": "O LessonScriptor é melhor que as legendas automáticas do YouTube?",
           "a": "Para vídeos do YouTube, ambos funcionam em tempo real. A diferença é que o LessonScriptor gera uma transcrição exportável e editável, enquanto as legendas do YouTube desaparecem ao fechar o vídeo. O LessonScriptor também funciona no Coursera, Zoom, Udemy e com arquivos locais."
+        },
+        {
+          "q": "Por que o modo gratuito não capta o som do meu vídeo?",
+          "a": "O modo gratuito escuta pelo microfone do seu dispositivo, e muitos sistemas aplicam cancelamento de eco que filtra o som dos seus próprios alto-falantes — então ele pode ouvir você, mas perder o vídeo. Tente aumentar a sensibilidade de entrada do seu microfone ou desativar o \"cancelamento de eco\" ou a \"supressão de ruído\" nas configurações de microfone do seu sistema ou navegador. Se ainda não captar o áudio do vídeo, mude para o modo Premium — ele captura o áudio da aba diretamente e não depende do hardware do microfone."
         }
       ]
     },
@@ -1232,6 +1240,24 @@
       {
         "id": "other",
         "label": "Outro motivo"
+      }
+    ],
+    "subReasons": [
+      {
+        "id": "mic_no_signal",
+        "label": "O modo Microfone não captava o som do vídeo (problema de hardware/configuração do microfone)"
+      },
+      {
+        "id": "wrong_language",
+        "label": "A transcrição estava no idioma errado"
+      },
+      {
+        "id": "inaccurate",
+        "label": "A transcrição não era precisa"
+      },
+      {
+        "id": "missing_words",
+        "label": "Faltavam palavras na transcrição"
       }
     ],
     "commentPlaceholder": "Quer compartilhar mais alguma coisa? (opcional)",

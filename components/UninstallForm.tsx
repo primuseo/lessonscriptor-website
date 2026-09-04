@@ -18,8 +18,10 @@ export default function UninstallForm() {
   const lang = searchParams.get('lang') || locale
 
   const reasons = t.raw('reasons') as Reason[]
+  const subReasons = t.raw('subReasons') as Reason[]
 
   const [selected, setSelected] = useState<string | null>(null)
+  const [selectedSubReason, setSelectedSubReason] = useState<string | null>(null)
   const [comment, setComment] = useState('')
   const [email, setEmail] = useState('')
   const [loading, setLoading] = useState(false)
@@ -44,7 +46,8 @@ export default function UninstallForm() {
 
     const reason = reasons.find(r => r.id === selected)
     const reasonLabel = reason ? reason.label : 'other'
-    const text = `[${selected || 'other'}] ${reasonLabel}${comment.trim() ? ' — ' + comment.trim() : ''}`
+    const subReason = selected === 'didnt_work' ? subReasons.find(r => r.id === selectedSubReason) : null
+    const text = `[${selected || 'other'}]${subReason ? ` [${subReason.id}]` : ''} ${subReason ? subReason.label : reasonLabel}${comment.trim() ? ' — ' + comment.trim() : ''}`
 
     try {
       await fetch('/api/feedback', {
@@ -56,6 +59,7 @@ export default function UninstallForm() {
           lang,
           source: 'uninstall',
           email: email.trim(),
+          reasonCode: subReason ? subReason.id : selected,
         }),
       })
     } catch {
@@ -99,18 +103,40 @@ export default function UninstallForm() {
         <p className="text-sm font-semibold text-foreground/60 mb-4">{t('reasonsLabel')}</p>
         <div className="space-y-3">
           {reasons.map((r) => (
-            <button
-              key={r.id}
-              type="button"
-              onClick={() => setSelected(r.id)}
-              className={`w-full text-left px-4 py-3 rounded-lg border transition-colors ${
-                selected === r.id
-                  ? 'border-accent bg-accent/10 text-foreground font-semibold'
-                  : 'border-border bg-muted text-foreground/80 hover:border-accent/50'
-              }`}
-            >
-              {r.label}
-            </button>
+            <div key={r.id}>
+              <button
+                type="button"
+                onClick={() => {
+                  setSelected(r.id)
+                  if (r.id !== 'didnt_work') setSelectedSubReason(null)
+                }}
+                className={`w-full text-left px-4 py-3 rounded-lg border transition-colors ${
+                  selected === r.id
+                    ? 'border-accent bg-accent/10 text-foreground font-semibold'
+                    : 'border-border bg-muted text-foreground/80 hover:border-accent/50'
+                }`}
+              >
+                {r.label}
+              </button>
+              {r.id === 'didnt_work' && selected === 'didnt_work' && (
+                <div className="mt-2 ml-4 space-y-2">
+                  {subReasons.map((sr) => (
+                    <button
+                      key={sr.id}
+                      type="button"
+                      onClick={() => setSelectedSubReason(selectedSubReason === sr.id ? null : sr.id)}
+                      className={`w-full text-left px-3 py-2 rounded-md border text-sm transition-colors ${
+                        selectedSubReason === sr.id
+                          ? 'border-accent bg-accent/10 text-foreground font-semibold'
+                          : 'border-border bg-background text-foreground/70 hover:border-accent/50'
+                      }`}
+                    >
+                      {sr.label}
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
           ))}
         </div>
 

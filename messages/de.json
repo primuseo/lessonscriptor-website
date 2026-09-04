@@ -640,6 +640,10 @@
         {
           "q": "Sind Chrome Live-Untertitel privat?",
           "a": "Chromes integrierte Live-Untertitel verarbeiten Audio auf dem Gerät — nichts verlässt deinen Computer. LessonScriptors kostenloser Modus nutzt ebenfalls geräteseitige Spracherkennung. Der Premium-Modus sendet Audio zur besseren Genauigkeit an eine Cloud-API, aber nach der Transkription werden keine Daten gespeichert."
+        },
+        {
+          "q": "Warum erfasst der kostenlose Modus den Ton meines Videos nicht?",
+          "a": "Der kostenlose Modus hört über das Mikrofon deines Geräts zu, und viele Systeme wenden eine Echounterdrückung an, die den Ton deiner eigenen Lautsprecher herausfiltert — er kann dich also hören, aber das Video verpassen. Versuche, die Eingangsempfindlichkeit deines Mikrofons zu erhöhen oder „Echounterdrückung\" bzw. „Rauschunterdrückung\" in den Mikrofoneinstellungen deines Systems oder Browsers zu deaktivieren. Wenn der Ton des Videos immer noch nicht erfasst wird, wechsle zum Premium-Modus — er erfasst den Ton des Tabs direkt und ist von der Mikrofon-Hardware unabhängig."
         }
       ]
     },
@@ -735,6 +739,10 @@
         {
           "q": "Ist LessonScriptor besser als die automatischen YouTube-Untertitel?",
           "a": "Für YouTube-Videos funktionieren beide in Echtzeit. Der Unterschied: LessonScriptor erzeugt ein exportierbares, bearbeitbares Transkript, während YouTube-Untertitel beim Schließen des Videos verschwinden. LessonScriptor funktioniert auch auf Coursera, Zoom, Udemy und mit lokalen Dateien."
+        },
+        {
+          "q": "Warum erfasst der kostenlose Modus den Ton meines Videos nicht?",
+          "a": "Der kostenlose Modus hört über das Mikrofon deines Geräts zu, und viele Systeme wenden eine Echounterdrückung an, die den Ton deiner eigenen Lautsprecher herausfiltert — er kann dich also hören, aber das Video verpassen. Versuche, die Eingangsempfindlichkeit deines Mikrofons zu erhöhen oder „Echounterdrückung\" bzw. „Rauschunterdrückung\" in den Mikrofoneinstellungen deines Systems oder Browsers zu deaktivieren. Wenn der Ton des Videos immer noch nicht erfasst wird, wechsle zum Premium-Modus — er erfasst den Ton des Tabs direkt und ist von der Mikrofon-Hardware unabhängig."
         }
       ]
     },
@@ -1232,6 +1240,24 @@
       {
         "id": "other",
         "label": "Etwas anderes"
+      }
+    ],
+    "subReasons": [
+      {
+        "id": "mic_no_signal",
+        "label": "Der Mikrofonmodus hat den Ton des Videos nicht erfasst (Hardware-/Einstellungsproblem)"
+      },
+      {
+        "id": "wrong_language",
+        "label": "Die Transkription war in der falschen Sprache"
+      },
+      {
+        "id": "inaccurate",
+        "label": "Die Transkription war nicht genau"
+      },
+      {
+        "id": "missing_words",
+        "label": "In der Transkription fehlten Wörter"
       }
     ],
     "commentPlaceholder": "Möchtest du uns noch etwas mitteilen? (optional)",

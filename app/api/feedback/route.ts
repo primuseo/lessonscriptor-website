@@ -19,14 +19,14 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  let body: { text?: string; version?: string; lang?: string; source?: string; email?: string };
+  let body: { text?: string; version?: string; lang?: string; source?: string; email?: string; reasonCode?: string };
   try {
     body = await request.json();
   } catch {
     return jsonResponse({ error: 'Invalid JSON' }, 400, request);
   }
 
-  const { text, version, lang, source, email } = body;
+  const { text, version, lang, source, email, reasonCode } = body;
 
   if (!text || typeof text !== 'string' || !text.trim()) {
     return jsonResponse({ error: 'text is required' }, 400, request);
@@ -39,18 +39,20 @@ export async function POST(request: NextRequest) {
   const sanitizedEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(trimmedEmail) ? trimmedEmail : '';
 
   const sanitized = text.trim().slice(0, 2000);
+  const sanitizedReasonCode = (reasonCode || '').trim().slice(0, 40) || null;
   const sql = getDb();
 
   try {
     await sql`
-      INSERT INTO feedback (text, extension_version, lang, source, ip, email)
+      INSERT INTO feedback (text, extension_version, lang, source, ip, email, reason_code)
       VALUES (
         ${sanitized},
         ${(version || '').slice(0, 20)},
         ${(lang || '').slice(0, 10)},
         ${(source || 'unknown').slice(0, 30)},
         ${ip},
-        ${sanitizedEmail || null}
+        ${sanitizedEmail || null},
+        ${sanitizedReasonCode}
       )
     `;
 

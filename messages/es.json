@@ -640,6 +640,10 @@
         {
           "q": "¿Son privados los subtítulos en vivo de Chrome?",
           "a": "Los subtítulos en vivo integrados de Chrome procesan el audio en el dispositivo — nada sale de tu ordenador. El modo gratuito de LessonScriptor también usa reconocimiento de voz en el dispositivo. El modo Premium envía el audio a una API en la nube para mayor precisión, pero ningún dato se almacena tras la transcripción."
+        },
+        {
+          "q": "¿Por qué el modo gratuito no capta el sonido de mi video?",
+          "a": "El modo gratuito escucha a través del micrófono de tu dispositivo, y muchos sistemas aplican cancelación de eco que filtra el sonido de tus propios altavoces — por lo que puede oírte a ti pero no captar el video. Intenta aumentar la sensibilidad de entrada de tu micrófono o desactivar la \"cancelación de eco\" o la \"supresión de ruido\" en la configuración del micrófono de tu sistema o navegador. Si aún no capta el audio del video, cambia al modo Premium — captura el audio de la pestaña directamente y no depende del hardware del micrófono."
         }
       ]
     },
@@ -735,6 +739,10 @@
         {
           "q": "¿Es LessonScriptor mejor que los subtítulos automáticos de YouTube?",
           "a": "Para videos de YouTube ambos funcionan en tiempo real. La diferencia es que LessonScriptor genera una transcripción exportable y editable, mientras que los subtítulos de YouTube desaparecen al cerrar el video. LessonScriptor también funciona en Coursera, Zoom, Udemy y archivos locales."
+        },
+        {
+          "q": "¿Por qué el modo gratuito no capta el sonido de mi video?",
+          "a": "El modo gratuito escucha a través del micrófono de tu dispositivo, y muchos sistemas aplican cancelación de eco que filtra el sonido de tus propios altavoces — por lo que puede oírte a ti pero no captar el video. Intenta aumentar la sensibilidad de entrada de tu micrófono o desactivar la \"cancelación de eco\" o la \"supresión de ruido\" en la configuración del micrófono de tu sistema o navegador. Si aún no capta el audio del video, cambia al modo Premium — captura el audio de la pestaña directamente y no depende del hardware del micrófono."
         }
       ]
     },
@@ -1233,6 +1241,24 @@
       {
         "id": "other",
         "label": "Otro motivo"
+      }
+    ],
+    "subReasons": [
+      {
+        "id": "mic_no_signal",
+        "label": "El modo Micrófono no captaba el sonido del video (problema de hardware/configuración del micro)"
+      },
+      {
+        "id": "wrong_language",
+        "label": "La transcripción estaba en el idioma incorrecto"
+      },
+      {
+        "id": "inaccurate",
+        "label": "La transcripción no era precisa"
+      },
+      {
+        "id": "missing_words",
+        "label": "A la transcripción le faltaban palabras"
       }
     ],
     "commentPlaceholder": "¿Algo más que quieras contarnos? (opcional)",

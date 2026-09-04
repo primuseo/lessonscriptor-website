@@ -640,6 +640,10 @@
         {
           "q": "Les sous-titres en direct Chrome sont-ils privés ?",
           "a": "Les sous-titres en direct intégrés de Chrome traitent l'audio sur l'appareil — rien ne quitte votre ordinateur. Le mode gratuit de LessonScriptor utilise également la reconnaissance vocale sur l'appareil. Le mode Premium envoie l'audio à une API cloud pour une meilleure précision, mais aucune donnée n'est conservée après la transcription."
+        },
+        {
+          "q": "Pourquoi le mode gratuit ne capte-t-il pas le son de ma vidéo ?",
+          "a": "Le mode gratuit écoute via le microphone de votre appareil, et de nombreux systèmes appliquent une suppression d'écho qui filtre le son provenant de vos propres haut-parleurs — il peut donc vous entendre sans capter la vidéo. Essayez d'augmenter la sensibilité d'entrée de votre microphone ou de désactiver la « suppression d'écho » ou la « réduction de bruit » dans les réglages micro de votre système ou navigateur. Si le son de la vidéo n'est toujours pas capté, passez au mode Premium — il capture directement l'audio de l'onglet et n'est pas affecté par le matériel du microphone."
         }
       ]
     },
@@ -735,6 +739,10 @@
         {
           "q": "LessonScriptor est-il mieux que les sous-titres automatiques de YouTube ?",
           "a": "Pour les vidéos YouTube, les deux fonctionnent en temps réel. La différence est que LessonScriptor génère une transcription exportable et modifiable, alors que les sous-titres YouTube disparaissent quand la vidéo se ferme. LessonScriptor fonctionne aussi sur Coursera, Zoom, Udemy et les fichiers locaux — pas seulement YouTube."
+        },
+        {
+          "q": "Pourquoi le mode gratuit ne capte-t-il pas le son de ma vidéo ?",
+          "a": "Le mode gratuit écoute via le microphone de votre appareil, et de nombreux systèmes appliquent une suppression d'écho qui filtre le son provenant de vos propres haut-parleurs — il peut donc vous entendre sans capter la vidéo. Essayez d'augmenter la sensibilité d'entrée de votre microphone ou de désactiver la « suppression d'écho » ou la « réduction de bruit » dans les réglages micro de votre système ou navigateur. Si le son de la vidéo n'est toujours pas capté, passez au mode Premium — il capture directement l'audio de l'onglet et n'est pas affecté par le matériel du microphone."
         }
       ]
     },
@@ -1233,6 +1241,24 @@
       {
         "id": "other",
         "label": "Autre chose"
+      }
+    ],
+    "subReasons": [
+      {
+        "id": "mic_no_signal",
+        "label": "Le mode Micro ne captait pas le son de la vidéo (problème matériel/réglages micro)"
+      },
+      {
+        "id": "wrong_language",
+        "label": "La transcription était dans la mauvaise langue"
+      },
+      {
+        "id": "inaccurate",
+        "label": "La transcription n'était pas précise"
+      },
+      {
+        "id": "missing_words",
+        "label": "La transcription manquait des mots"
       }
     ],
     "commentPlaceholder": "Vous voulez ajouter quelque chose ? (facultatif)",

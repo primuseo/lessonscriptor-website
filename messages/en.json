@@ -624,6 +624,10 @@
         {
           "q": "Are Chrome live captions private?",
           "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode also uses on-device speech recognition. The Premium mode sends audio to a cloud API for better accuracy, but no data is stored after transcription."
+        },
+        {
+          "q": "Why isn't Free mode picking up sound from my video?",
+          "a": "Free mode listens through your device's microphone, and many systems apply echo cancellation that filters out sound coming from your own speakers — so it can hear you but miss the video. Try raising your microphone's input sensitivity or turning off \"echo cancellation\" or \"noise suppression\" in your system or browser's microphone settings. If it's still not picking up the video's audio, switch to Premium mode — it captures tab audio directly and isn't affected by microphone hardware."
         }
       ]
     },
@@ -719,6 +723,10 @@
         {
           "q": "Is LessonScriptor better than YouTube auto-captions?",
           "a": "For YouTube videos, both work in real time. The difference is LessonScriptor generates an exportable, editable transcript, while YouTube captions disappear when the video closes. LessonScriptor also works on Coursera, Zoom, Udemy, and local files — not just YouTube."
+        },
+        {
+          "q": "Why isn't Free mode picking up sound from my video?",
+          "a": "Free mode listens through your device's microphone, and many systems apply echo cancellation that filters out sound coming from your own speakers — so it can hear you but miss the video. Try raising your microphone's input sensitivity or turning off \"echo cancellation\" or \"noise suppression\" in your system or browser's microphone settings. If it's still not picking up the video's audio, switch to Premium mode — it captures tab audio directly and isn't affected by microphone hardware."
         }
       ]
     },
@@ -1220,6 +1228,24 @@
       {
         "id": "other",
         "label": "Something else"
+      }
+    ],
+    "subReasons": [
+      {
+        "id": "mic_no_signal",
+        "label": "Microphone mode didn't pick up sound from the video (mic hardware/settings issue)"
+      },
+      {
+        "id": "wrong_language",
+        "label": "Transcription was in the wrong language"
+      },
+      {
+        "id": "inaccurate",
+        "label": "Transcription wasn't accurate"
+      },
+      {
+        "id": "missing_words",
+        "label": "Transcription was missing words"
       }
     ],
     "commentPlaceholder": "Anything else you'd like to share? (optional)",
