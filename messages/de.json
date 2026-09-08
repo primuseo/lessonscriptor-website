@@ -32,7 +32,8 @@
     "compare": "vs. Otter.ai",
     "forAdhd": "ADHS-Studierende",
     "contact": "Kontakt",
-    "toggleDarkMode": "Dunkelmodus umschalten"
+    "toggleDarkMode": "Dunkelmodus umschalten",
+    "forTeachers": "Lehrkräfte"
   },
   "footer": {
     "product": "Produkt",
@@ -1321,5 +1322,104 @@
         ]
       }
     ]
+  },
+  "forTeachers": {
+    "metaTitle": "LessonScriptor für Lehrkräfte: Jede Stunde als Text teilen",
+    "metaDesc": "Kostenlose Chrome-Erweiterung für Lehrkräfte. Transkribieren Sie eine Live- oder aufgezeichnete Stunde, geben Sie Studierenden ein bearbeitbares Transkript, und lesen Sie Ihren eigenen Unterricht nach, um sich zu verbessern.",
+    "hero": {
+      "eyebrow": "Werkzeuge für Lehrende",
+      "h1": "LessonScriptor für Lehrkräfte",
+      "subtitle": "Sie sagen bereits alles, was Ihre Studierenden brauchen. LessonScriptor schreibt es mit, während Sie unterrichten, sodass jede Stunde mit einem Transkript endet, das Sie teilen können, und das Sie auch selbst nachlesen können.",
+      "answer": "LessonScriptor ist eine kostenlose Chrome-Erweiterung für Lehrkräfte, die jede Stunde transkribiert, die in einem Chrome-Tab läuft: ein Live-Unterricht über Zoom oder Google Meet, eine aufgezeichnete Vorlesung, ein YouTube-Video, das Sie als Hausaufgabe aufgeben. Sie läuft in einem Seitenpanel, braucht kein Konto, und exportiert mit einem Klick eine bearbeitbare Textdatei.",
+      "cta": "Kostenlos als Chrome-Erweiterung installieren"
+    },
+    "problems": {
+      "title": "Warum eine Stunde verschwindet, sobald sie endet",
+      "subtitle": "Sie verbringen eine Stunde damit, etwas sorgfältig zu erklären. Danach existiert es nur noch in den Notizen von denen, die mitgekommen sind.",
+      "items": [
+        {
+          "icon": "🙋",
+          "title": "Wer gefehlt hat",
+          "description": "\"Was haben wir am Dienstag gemacht?\" Eine 50-minütige Aufzeichnung ist keine Antwort. Ein zweiseitiges Transkript mit Überschriften schon. Im Moment bedeutet das, sich den eigenen Unterricht noch einmal anzuhören."
+        },
+        {
+          "icon": "🌍",
+          "title": "Studierende, die in ihrer Zweitsprache folgen",
+          "description": "Lernende, die in ihrer Zweitsprache arbeiten, verstehen viel mehr, wenn sie mitlesen können, während sie zuhören. Live-Untertitel verschwinden. Ein Transkript bleibt."
+        },
+        {
+          "icon": "🔁",
+          "title": "Sie hören sich selbst nie unterrichten",
+          "description": "Alle anderen bekommen Feedback zu ihrer Arbeit. Lehrende bekommen einmal im Jahr eine Unterrichtsbeobachtung. Reflektierte Unterrichtspraxis wird überall empfohlen und fast nirgends unterstützt, denn sich selbst aufzunehmen und danach eine Stunde Video anzuschauen ist an einem Dienstagabend einfach zu viel verlangt."
+        }
+      ]
+    },
+    "features": {
+      "title": "Zwei Dinge, die Lehrende mit LessonScriptor tun",
+      "subtitle": "Dasselbe Transkript, zwei Leser.",
+      "items": [
+        {
+          "icon": "📤",
+          "title": "Den Unterricht als Text weitergeben",
+          "description": "Öffnen Sie das Seitenpanel vor dem Unterricht und unterrichten Sie wie gewohnt. Während sich Ihre Studierenden abmelden, schneiden Sie die ersten fünf Minuten Vorbereitung heraus, machen die Hausaufgabe fett, fügen pro Thema eine Überschrift hinzu. Exportieren Sie als .md oder .txt, oder kopieren Sie in die Zwischenablage und fügen Sie es in Google Classroom, Moodle oder eine E-Mail ein."
+        },
+        {
+          "icon": "🪞",
+          "title": "Die eigene Stunde nachlesen",
+          "description": "Ein Transkript ist die günstigste Form der Selbstevaluation, die es gibt. Zehn Minuten Lesen zeigen Ihnen, was eine Stunde Video verbirgt: wie lange Ihre Erklärungen dauern, auf welche Wörter Sie sich stützen, ob die Frage, die Sie zu stellen glaubten, auch die ist, die Sie tatsächlich gestellt haben."
+        },
+        {
+          "icon": "✏️",
+          "title": "Bearbeiten, während es passiert",
+          "description": "Das Transkript ist ein echter Editor, keine reine Untertitel-Box zum Lesen. Markieren Sie in fünf Farben, machen Sie Schlüsselbegriffe fett, fügen Sie Überschriften und Aufzählungen hinzu, löschen Sie Abschweifungen. Die meisten Lehrenden sind mit dem Aufräumen fertig, bevor der letzte Studierende den Anruf verlässt."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Früher habe ich Sonntagabend damit verbracht aufzuschreiben, was ich schon Freitag gesagt hatte. Jetzt korrigiere ich zehn Zeilen und teile es.",
+      "attribution": "LessonScriptor-Nutzerin, Lehrerin an einer weiterführenden Schule"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Ist LessonScriptor eine gute Chrome-Erweiterung für Lehrende?",
+          "a": "Ja, wenn Sie ein Transkript Ihrer Stunde brauchen. Es ist kein Bewertungstool und kein Stundenplaner. Es transkribiert jede Stunde, die in Chrome läuft, lässt Sie den Text bearbeiten, während er entsteht, und exportiert ihn als .md oder .txt. Der kostenlose Modus hat kein Konto und kein Zeitlimit."
+        },
+        {
+          "q": "Brauche ich ein Konto, um es zu nutzen?",
+          "a": "Nein. Der kostenlose Modus braucht überhaupt keine Anmeldung. Wenn Sie den KI-Modus aufladen, bekommen Sie einen Lizenzschlüssel per E-Mail zum Einfügen in die Erweiterung, kein Konto und kein Login."
+        },
+        {
+          "q": "Müssen meine Studierenden etwas installieren?",
+          "a": "Nein. Sie transkribieren, bearbeiten und teilen eine Textdatei oder ein eingefügtes Dokument. Studierende lesen es nur."
+        },
+        {
+          "q": "Wird die Stimme von Studierenden aufgezeichnet oder gespeichert?",
+          "a": "Im kostenlosen Modus verlässt nichts Ihren Computer, die Transkription läuft lokal über die Spracherkennung von Chrome. Im KI-Modus wird das Tab-Audio in kurzen Abschnitten an ein Cloud-Transkriptionsmodell gesendet und nicht gespeichert. Halten Sie sich vor dem Erfassen von Studierendenstimmen an die Regeln Ihrer Schule zu Aufzeichnungen, wie bei jeder Aufnahme."
+        },
+        {
+          "q": "Funktioniert es mit Zoom und Google Meet in einem Browser-Tab?",
+          "a": "Ja, solange der Unterricht in einem Chrome-Tab läuft. Google Meet läuft ohnehin schon im Browser. Nutzen Sie bei Zoom den Link \"Über den Browser beitreten\". Es funktioniert auch bei aufgezeichnetem Unterricht: Panopto, Moodle, Canvas, YouTube, Vimeo, und jedem eingebetteten Player."
+        },
+        {
+          "q": "Wie genau ist es bei Akzenten oder Geräuschen im Klassenzimmer?",
+          "a": "Der KI-Modus nutzt ein Cloud-Sprachmodell, das für höhere Genauigkeit bei Akzenten und Hintergrundgeräuschen gebaut ist. Der kostenlose Modus nutzt die im Browser eingebaute Spracherkennung, die bei klarer Sprache nah am Mikrofon gut funktioniert, aber bei starken Akzenten oder einem lauten Raum weniger zuverlässig ist."
+        },
+        {
+          "q": "Kann ich es nutzen, um mich selbst beim Unterrichten aufzunehmen und die Stunde nachzubereiten?",
+          "a": "Ja. Lassen Sie es während Ihres eigenen Unterrichts laufen und lesen Sie das Transkript danach nach. Weil es Text ist und kein Video, dauert die Nachbereitung einer ganzen Stunde etwa zehn Minuten. Markieren Sie, was funktioniert hat, notieren Sie, was Sie ändern wollen, und exportieren Sie die Notizen in Ihren Planer."
+        },
+        {
+          "q": "In welchen Sprachen transkribiert es?",
+          "a": "14, darunter Englisch, Französisch, Spanisch, Portugiesisch, Deutsch, Arabisch und Hindi. Wählen Sie in den Erweiterungseinstellungen eine Sprache pro Sitzung."
+        },
+        {
+          "q": "Was bekommen Studierende am Ende tatsächlich?",
+          "a": "Was auch immer Sie exportieren: eine Markdown-Datei (.md) oder reinen Text (.txt), oder Text, den Sie direkt in Google Classroom, Moodle, Notion oder eine E-Mail einfügen. Überschriften, Fettungen und Markierungen bleiben dabei erhalten."
+        }
+      ]
+    },
+    "relatedHeading": "Mehr für Lehrende",
+    "readMore": "Mehr lesen"
   }
 }

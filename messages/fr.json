@@ -31,6 +31,7 @@
     "blog": "Blog",
     "compare": "vs Otter.ai",
     "forAdhd": "Étudiants TDAH",
+    "forTeachers": "Enseignants",
     "contact": "Contact",
     "toggleDarkMode": "Basculer le mode sombre"
   },
@@ -1322,5 +1323,104 @@
         ]
       }
     ]
+  },
+  "forTeachers": {
+    "metaTitle": "LessonScriptor pour les enseignants : partagez chaque cours en texte",
+    "metaDesc": "Extension Chrome gratuite pour les enseignants. Transcrivez un cours en direct ou enregistré, donnez à vos élèves une transcription modifiable, et relisez votre propre cours pour vous améliorer.",
+    "hero": {
+      "eyebrow": "Outils enseignants",
+      "h1": "LessonScriptor pour les enseignants",
+      "subtitle": "Vous dites déjà tout ce dont vos élèves ont besoin. LessonScriptor l'écrit pendant que vous enseignez, pour que chaque cours se termine avec une transcription à partager, et une autre à relire vous-même.",
+      "answer": "LessonScriptor est une extension Chrome gratuite pour les enseignants qui transcrit tout cours joué dans un onglet Chrome : un cours en direct sur Zoom ou Google Meet, une conférence enregistrée, une vidéo YouTube donnée en devoir. Elle fonctionne dans un panneau latéral, ne demande aucun compte, et exporte un fichier texte modifiable en un clic.",
+      "cta": "Installer gratuitement - Extension Chrome"
+    },
+    "problems": {
+      "title": "Pourquoi un cours disparaît dès qu'il se termine",
+      "subtitle": "Vous passez une heure à expliquer quelque chose avec soin. Ensuite, ça n'existe plus que dans les notes de ceux qui ont réussi à suivre.",
+      "items": [
+        {
+          "icon": "🙋",
+          "title": "L'élève absent",
+          "description": "« Qu'est-ce qu'on a fait mardi ? » Un enregistrement de 50 minutes n'est pas une réponse. Une transcription de deux pages avec des titres, si. Aujourd'hui, en produire une veut dire réécouter son propre cours."
+        },
+        {
+          "icon": "🌍",
+          "title": "Les élèves qui suivent dans une deuxième langue",
+          "description": "Les élèves qui travaillent dans leur deuxième langue comprennent bien mieux quand ils peuvent lire en même temps qu'ils écoutent. Les sous-titres en direct disparaissent. Une transcription reste."
+        },
+        {
+          "icon": "🔁",
+          "title": "Vous ne vous entendez jamais enseigner",
+          "description": "Tout le monde reçoit des retours sur son travail. Les enseignants ont une observation par an. La pratique réflexive est recommandée partout et soutenue presque nulle part, parce que s'enregistrer et se revoir pendant une heure de vidéo, c'est trop demander un mardi soir."
+        }
+      ]
+    },
+    "features": {
+      "title": "Deux choses que les enseignants font avec LessonScriptor",
+      "subtitle": "La même transcription, deux lecteurs.",
+      "items": [
+        {
+          "icon": "📤",
+          "title": "Donner le cours en texte aux élèves",
+          "description": "Ouvrez le panneau latéral avant le cours, enseignez comme d'habitude. Pendant que les élèves se déconnectent, coupez les cinq premières minutes d'installation, mettez les devoirs en gras, ajoutez un titre par sujet. Exportez en .md ou .txt, ou copiez dans le presse-papiers et collez dans Google Classroom, Moodle ou un e-mail."
+        },
+        {
+          "icon": "🪞",
+          "title": "Relire votre propre cours",
+          "description": "Une transcription est la forme la moins coûteuse d'auto-évaluation pour un enseignant. Dix minutes de lecture montrent ce qu'une heure de vidéo cache : combien de temps durent vos explications, quels mots vous répétez, si la question que vous pensiez poser est bien celle que vous avez posée."
+        },
+        {
+          "icon": "✏️",
+          "title": "Modifier en direct",
+          "description": "La transcription est un vrai éditeur, pas une simple boîte de sous-titres en lecture seule. Surlignez en cinq couleurs, mettez les termes clés en gras, ajoutez des titres et des puces, supprimez les digressions. La plupart des enseignants finissent de ranger avant que le dernier élève ne quitte l'appel."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Avant, je passais mon dimanche soir à réécrire ce que j'avais déjà dit vendredi. Maintenant, je corrige dix lignes et je publie.",
+      "attribution": "Utilisateur de LessonScriptor, enseignant du secondaire"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "LessonScriptor est-elle une bonne extension Chrome pour les enseignants ?",
+          "a": "Oui, si ce dont vous avez besoin, c'est une transcription de votre cours. Ce n'est pas un outil de notation ni un planificateur de cours. Elle transcrit tout cours joué dans Chrome, vous laisse modifier le texte au fur et à mesure, et l'exporte en .md ou .txt. Le mode gratuit ne demande aucun compte et n'a pas de limite de temps."
+        },
+        {
+          "q": "Ai-je besoin d'un compte pour l'utiliser ?",
+          "a": "Non. Le mode gratuit ne demande aucune inscription. Si vous rechargez le mode IA, vous recevez une clé de licence par e-mail à coller dans l'extension, sans compte ni connexion."
+        },
+        {
+          "q": "Mes élèves doivent-ils installer quelque chose ?",
+          "a": "Non. Vous transcrivez, modifiez et partagez un fichier texte ou un document collé. Les élèves n'ont qu'à le lire."
+        },
+        {
+          "q": "L'audio des élèves est-il enregistré ou conservé ?",
+          "a": "En mode gratuit, rien ne quitte votre ordinateur, la transcription tourne en local grâce au moteur vocal de Chrome. En mode IA, l'audio de l'onglet est envoyé par petits morceaux à un modèle de transcription cloud, et n'est pas conservé. Suivez la politique de votre établissement sur les enregistrements avant de capter la voix de vos élèves, comme pour tout enregistrement."
+        },
+        {
+          "q": "Ça fonctionne avec Zoom et Google Meet dans un onglet de navigateur ?",
+          "a": "Oui, tant que le cours est joué dans un onglet Chrome. Google Meet fonctionne déjà dans le navigateur. Pour Zoom, utilisez le lien « Rejoindre depuis votre navigateur ». Ça fonctionne aussi sur les cours enregistrés : Panopto, Moodle, Canvas, YouTube, Vimeo, et tout lecteur intégré."
+        },
+        {
+          "q": "Quelle est sa précision avec les accents ou le bruit en classe ?",
+          "a": "Le mode IA utilise un modèle vocal cloud conçu pour une meilleure précision face aux accents et au bruit de fond. Le mode gratuit utilise le moteur vocal intégré à votre navigateur, qui fonctionne bien pour une parole claire près du micro, mais moins bien avec un fort accent ou une salle bruyante."
+        },
+        {
+          "q": "Puis-je m'en servir pour m'enregistrer en train d'enseigner et relire le cours ?",
+          "a": "Oui. Lancez-la pendant votre propre cours, puis relisez la transcription ensuite. Comme c'est du texte, pas de la vidéo, relire un cours entier prend environ dix minutes. Surlignez ce qui a marché, notez ce qu'il faut changer, exportez les notes vers votre carnet de préparation."
+        },
+        {
+          "q": "Dans quelles langues peut-elle transcrire ?",
+          "a": "14, dont l'anglais, le français, l'espagnol, le portugais, l'allemand, l'arabe et l'hindi. Choisissez une langue par session dans les paramètres de l'extension."
+        },
+        {
+          "q": "Que reçoivent vraiment les élèves ?",
+          "a": "Ce que vous exportez : un fichier Markdown (.md) ou texte brut (.txt), ou du texte collé directement dans Google Classroom, Moodle, Notion ou un e-mail. Les titres, le gras et les surlignages suivent."
+        }
+      ]
+    },
+    "relatedHeading": "Plus pour les enseignants",
+    "readMore": "Lire la suite"
   }
 }

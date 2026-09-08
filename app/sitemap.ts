@@ -28,6 +28,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     zh: 'for-adhd-students',
   }
 
+  const teacherSlugs: Record<string, string> = {
+    en: 'for-teachers',
+    fr: 'enseignants',
+    es: 'profesores',
+    pt: 'professores',
+    de: 'lehrer',
+    zh: 'for-teachers',
+  }
+
   const sitemap: MetadataRoute.Sitemap = []
   const today = new Date().toISOString().split('T')[0]
 
@@ -54,6 +63,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     sitemap.push({
       url: `${baseUrl}${prefix}/${adhdSlugs[locale]}`,
+      lastModified: today,
+      changeFrequency: 'monthly',
+      priority: locale === 'en' ? 0.9 : 0.8,
+    })
+
+    sitemap.push({
+      url: `${baseUrl}${prefix}/${teacherSlugs[locale]}`,
       lastModified: today,
       changeFrequency: 'monthly',
       priority: locale === 'en' ? 0.9 : 0.8,

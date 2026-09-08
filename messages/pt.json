@@ -31,6 +31,7 @@
     "blog": "Blog",
     "compare": "vs Otter.ai",
     "forAdhd": "Estudantes TDAH",
+    "forTeachers": "Professores",
     "contact": "Contato",
     "toggleDarkMode": "Alternar modo escuro"
   },
@@ -1092,6 +1093,105 @@
     "metaTitle": "LessonScriptor para estudantes com TDAH — pare de dividir a atenção entre ouvir e escrever",
     "metaDesc": "LessonScriptor é a extensão Chrome amigável ao TDAH que transcreve automaticamente suas aulas, liberando a memória de trabalho para aprender de verdade.",
     "relatedHeading": "Mais guias para estudantes com TDAH",
+    "readMore": "Ler mais"
+  },
+  "forTeachers": {
+    "metaTitle": "LessonScriptor para Professores: Compartilhe Cada Aula em Texto",
+    "metaDesc": "Extensão gratuita do Chrome para professores. Transcreva uma aula ao vivo ou gravada, entregue aos alunos uma transcrição editável e releia sua própria aula para melhorar.",
+    "hero": {
+      "eyebrow": "Ferramentas para Professores",
+      "h1": "LessonScriptor para Professores",
+      "subtitle": "Você já diz tudo o que seus alunos precisam ouvir. O LessonScriptor anota enquanto você dá aula, então toda aula termina com uma transcrição que você pode compartilhar, e que você mesmo pode reler.",
+      "answer": "O LessonScriptor é uma extensão gratuita do Chrome para professores que transcreve qualquer aula reproduzida em uma aba do Chrome: uma aula ao vivo no Zoom ou Google Meet, uma gravação, um vídeo do YouTube que você passou de tarefa. Funciona em um painel lateral, não precisa de conta e exporta um arquivo de texto editável com um clique.",
+      "cta": "Instalar grátis - Extensão do Chrome"
+    },
+    "problems": {
+      "title": "Por que uma aula desaparece assim que termina",
+      "subtitle": "Você passa uma hora explicando algo com cuidado. Depois, isso só existe nas anotações de quem conseguiu acompanhar.",
+      "items": [
+        {
+          "icon": "🙋",
+          "title": "O aluno que faltou",
+          "description": "\"O que a gente viu na terça?\" Uma gravação de 50 minutos não é resposta. Uma transcrição de duas páginas com títulos é. Hoje, produzir uma significa reouvir a própria aula inteira."
+        },
+        {
+          "icon": "🌍",
+          "title": "Alunos acompanhando em uma segunda língua",
+          "description": "Quem estuda em uma segunda língua entende muito mais quando pode ler junto com o que ouve. Legendas ao vivo desaparecem. Uma transcrição fica."
+        },
+        {
+          "icon": "🔁",
+          "title": "Você nunca se ouve dar aula",
+          "description": "Todo mundo recebe feedback sobre o próprio trabalho. Professores recebem uma observação por ano. A prática reflexiva é recomendada em todo lugar e apoiada em quase nenhum, porque gravar a si mesmo e reassistir uma hora de vídeo é pedir demais numa noite de terça-feira."
+        }
+      ]
+    },
+    "features": {
+      "title": "Duas coisas que os professores fazem com o LessonScriptor",
+      "subtitle": "A mesma transcrição, dois leitores.",
+      "items": [
+        {
+          "icon": "📤",
+          "title": "Entregue a aula em texto aos alunos",
+          "description": "Abra o painel lateral antes da aula e ensine normalmente. Enquanto os alunos saem, corte os primeiros cinco minutos de preparação, deixe a tarefa de casa em negrito, adicione um título por tópico. Exporte como .md ou .txt, ou copie e cole no Google Classroom, Moodle ou em um e-mail."
+        },
+        {
+          "icon": "🪞",
+          "title": "Releia sua própria aula",
+          "description": "Uma transcrição é a forma mais barata de autoavaliação que existe para um professor. Dez minutos de leitura mostram o que uma hora de vídeo esconde: quanto tempo suas explicações duram, quais palavras você repete demais, se a pergunta que você achou que fez foi mesmo a que você fez."
+        },
+        {
+          "icon": "✏️",
+          "title": "Edite enquanto acontece",
+          "description": "A transcrição é um editor de verdade, não uma caixa de legendas somente leitura. Destaque em cinco cores, deixe termos-chave em negrito, adicione títulos e marcadores, apague as divagações. A maioria dos professores termina de organizar antes que o último aluno saia da chamada."
+        }
+      ]
+    },
+    "quote": {
+      "text": "Eu costumava passar o domingo à noite escrevendo o que já tinha dito na sexta. Agora eu corrijo dez linhas e publico.",
+      "attribution": "Usuária do LessonScriptor, professora do ensino médio"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "O LessonScriptor é uma boa extensão do Chrome para professores?",
+          "a": "Sim, se o que você precisa é de uma transcrição da sua aula. Não é uma ferramenta de correção nem um planejador de aulas. Ele transcreve qualquer aula reproduzida no Chrome, deixa você editar o texto conforme ele aparece e exporta como .md ou .txt. O modo gratuito não pede conta e não tem limite de tempo."
+        },
+        {
+          "q": "Preciso de uma conta para usar?",
+          "a": "Não. O modo gratuito não pede cadastro nenhum. Se você recarrega o modo IA, recebe uma chave de licença por e-mail para colar na extensão, sem conta ou login."
+        },
+        {
+          "q": "Meus alunos precisam instalar alguma coisa?",
+          "a": "Não. Você transcreve, edita e compartilha um arquivo de texto ou um documento colado. Os alunos só leem."
+        },
+        {
+          "q": "O áudio dos alunos é gravado ou armazenado?",
+          "a": "No modo gratuito, nada sai do seu computador, a transcrição roda localmente pelo mecanismo de fala do Chrome. No modo IA, o áudio da aba é enviado em pequenos trechos para um modelo de transcrição na nuvem e não é armazenado. Siga a política da sua escola sobre gravações antes de captar a voz dos alunos, como faria com qualquer gravação."
+        },
+        {
+          "q": "Funciona com Zoom e Google Meet em uma aba do navegador?",
+          "a": "Sim, desde que a aula toque em uma aba do Chrome. O Google Meet já roda no navegador. No Zoom, use o link \"Entrar pelo navegador\". Também funciona com aulas gravadas: Panopto, Moodle, Canvas, YouTube, Vimeo e qualquer player incorporado."
+        },
+        {
+          "q": "Qual a precisão com sotaques ou barulho de sala de aula?",
+          "a": "O modo IA usa um modelo de fala na nuvem feito para mais precisão com sotaques e ruído de fundo. O modo gratuito usa o mecanismo de fala integrado do navegador, que funciona bem para fala clara perto do microfone, mas é menos consistente com sotaques fortes ou uma sala barulhenta."
+        },
+        {
+          "q": "Posso usar para gravar minhas próprias aulas e revisá-las depois?",
+          "a": "Sim. Use durante sua própria aula e depois releia a transcrição. Como é texto, não vídeo, revisar uma aula inteira leva cerca de dez minutos. Destaque o que funcionou, marque o que mudar, exporte as anotações para o seu planejamento."
+        },
+        {
+          "q": "Em quais idiomas ele transcreve?",
+          "a": "14 idiomas, incluindo inglês, francês, espanhol, português, alemão, árabe e hindi. Escolha um idioma por sessão nas configurações da extensão."
+        },
+        {
+          "q": "O que os alunos realmente recebem?",
+          "a": "O que você exportar: um arquivo Markdown (.md) ou texto simples (.txt), ou o texto colado direto no Google Classroom, Moodle, Notion ou em um e-mail. Títulos, negrito e destaques vêm junto."
+        }
+      ]
+    },
+    "relatedHeading": "Mais para professores",
     "readMore": "Ler mais"
   },
   "thankYou": {

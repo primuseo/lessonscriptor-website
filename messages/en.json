@@ -32,7 +32,8 @@
     "compare": "vs Otter.ai",
     "forAdhd": "For ADHD Students",
     "contact": "Contact",
-    "toggleDarkMode": "Toggle dark mode"
+    "toggleDarkMode": "Toggle dark mode",
+    "forTeachers": "For Teachers"
   },
   "footer": {
     "product": "Product",
@@ -1309,5 +1310,104 @@
         ]
       }
     ]
+  },
+  "forTeachers": {
+    "metaTitle": "LessonScriptor for Teachers: Share Every Lesson as Text",
+    "metaDesc": "Free Chrome extension for teachers. Transcribe a live or recorded lesson, hand students an editable transcript, and re-read your own teaching to improve.",
+    "hero": {
+      "eyebrow": "Teacher Tools",
+      "h1": "LessonScriptor for Teachers",
+      "subtitle": "You already say everything your students need. LessonScriptor writes it down while you teach, so every lesson ends with a transcript you can share, and one you can read back yourself.",
+      "answer": "LessonScriptor is a free Chrome extension for teachers that transcribes any lesson playing in a Chrome tab: a live Zoom or Google Meet class, a recorded lecture, a YouTube video you assign. It runs in a side panel, needs no account, and exports an editable text file in one click.",
+      "cta": "Install Free — Chrome Extension"
+    },
+    "problems": {
+      "title": "Why a lesson disappears the moment it ends",
+      "subtitle": "You spend an hour explaining something carefully. Then it exists only in the notes of whoever managed to keep up.",
+      "items": [
+        {
+          "icon": "🙋",
+          "title": "The absent student",
+          "description": "\"What did we do on Tuesday?\" A 50-minute recording is not an answer. A two-page transcript with headers is. Right now, producing one means re-listening to your own class."
+        },
+        {
+          "icon": "🌍",
+          "title": "Students following in a second language",
+          "description": "Learners working in their second language understand far more when they can read along with what they hear. Live captions vanish. A transcript stays."
+        },
+        {
+          "icon": "🔁",
+          "title": "You never hear yourself teach",
+          "description": "Everyone else gets feedback on their work. Teachers get an observation once a year. Reflective teaching practice is recommended everywhere and supported almost nowhere, because recording yourself and re-watching an hour of video is too much to ask on a Tuesday night."
+        }
+      ]
+    },
+    "features": {
+      "title": "Two things teachers do with LessonScriptor",
+      "subtitle": "Same transcript, two readers.",
+      "items": [
+        {
+          "icon": "📤",
+          "title": "Hand students the class in text",
+          "description": "Open the side panel before class, teach as usual. While students log off, cut the first five minutes of setup, bold the homework, add a header per topic. Export as .md or .txt, or copy to clipboard and paste into Google Classroom, Moodle or an email."
+        },
+        {
+          "icon": "🪞",
+          "title": "Read your own lesson back",
+          "description": "A transcript is the cheapest form of teacher self evaluation there is. Ten minutes of reading shows you what an hour of video hides: how long your explanations run, which words you lean on, whether the question you thought you asked is the one you actually asked."
+        },
+        {
+          "icon": "✏️",
+          "title": "Edit while it happens",
+          "description": "The transcript is a real editor, not a read-only caption box. Highlight in five colors, bold key terms, add headers and bullets, delete tangents. Most teachers finish tidying before the last student leaves the call."
+        }
+      ]
+    },
+    "quote": {
+      "text": "I used to spend Sunday night writing up what I had already said on Friday. Now I fix ten lines and post it.",
+      "attribution": "LessonScriptor user, secondary school teacher"
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Is LessonScriptor a good Chrome extension for teachers?",
+          "a": "Yes, if what you need is a transcript of your lesson. It is not a grading tool or a lesson planner. It transcribes any lesson playing in Chrome, lets you edit the text as it appears, and exports it as .md or .txt. Free mode has no account and no time limit."
+        },
+        {
+          "q": "Do I need an account to use it?",
+          "a": "No. Free mode needs no signup at all. If you top up AI mode, you get a license key by email to paste into the extension — no account or login."
+        },
+        {
+          "q": "Do my students need to install anything?",
+          "a": "No. You transcribe, edit and share a text file or a pasted document. Students only read it."
+        },
+        {
+          "q": "Is student audio recorded or stored?",
+          "a": "In free mode, nothing leaves your computer — transcription runs locally through Chrome’s speech engine. In AI mode, tab audio is sent to a cloud transcription model in short chunks and is not stored. Follow your school’s policy on recording before capturing student voices, as with any recording."
+        },
+        {
+          "q": "Does it work with Zoom and Google Meet in a browser tab?",
+          "a": "Yes, as long as the class plays in a Chrome tab. Google Meet runs in the browser already. For Zoom, use the \"Join from your browser\" link. It also works on recorded lessons: Panopto, Moodle, Canvas, YouTube, Vimeo, and any embedded player."
+        },
+        {
+          "q": "How accurate is it with accents or classroom noise?",
+          "a": "AI mode uses a cloud speech model built for higher accuracy across accents and background noise. Free mode uses your browser’s built-in speech engine, which works well for clear speech near the microphone but is less consistent with strong accents or a noisy room."
+        },
+        {
+          "q": "Can I use it to record myself teaching and review the lesson?",
+          "a": "Yes. Run it during your own class, then read the transcript back afterwards. Because it is text, not video, reviewing a full lesson takes about ten minutes. Highlight what worked, mark what to change, export the notes to your planner."
+        },
+        {
+          "q": "Which languages does it transcribe?",
+          "a": "14, including English, French, Spanish, Portuguese, German, Arabic and Hindi. Choose one language per session in the extension settings."
+        },
+        {
+          "q": "What do students actually receive?",
+          "a": "Whatever you export: a Markdown (.md) or plain text (.txt) file, or text pasted straight into Google Classroom, Moodle, Notion or an email. Headers, bold and highlights come with it."
+        }
+      ]
+    },
+    "relatedHeading": "More for teachers",
+    "readMore": "Read more"
   }
 }

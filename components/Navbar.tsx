@@ -35,6 +35,7 @@ export default function Navbar({ locale }: { locale: string }) {
             <Link href="/transcribe-youtube-video" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('youtube')}</Link>
             <Link href="/live-captions-chrome" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('liveCaptions')}</Link>
             <Link href="/for-adhd-students" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forAdhd')}</Link>
+            <Link href="/for-teachers" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forTeachers')}</Link>
             <Link href="/blog" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('blog')}</Link>
             <Link href="/contact" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('contact')}</Link>
           </div>
@@ -86,6 +87,7 @@ export default function Navbar({ locale }: { locale: string }) {
           <Link href="/transcribe-youtube-video" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('youtube')}</Link>
           <Link href="/live-captions-chrome" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('liveCaptions')}</Link>
           <Link href="/for-adhd-students" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('forAdhd')}</Link>
+          <Link href="/for-teachers" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('forTeachers')}</Link>
           <Link href="/blog" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('blog')}</Link>
           <Link href="/contact" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('contact')}</Link>
           <div className="flex items-center gap-2 pt-2">

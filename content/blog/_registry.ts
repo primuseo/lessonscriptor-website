@@ -20,6 +20,8 @@ export const BLOG_SLUGS = [
   'chrome-live-captions-vs-lessonscriptor',
   // YouTube transcript cluster
   'how-to-download-youtube-transcript',
+  // Teacher cluster
+  'zoom-google-meet-transcript-for-students',
 ] as const
 
 export type BlogSlug = (typeof BLOG_SLUGS)[number]
@@ -28,6 +30,7 @@ export const BLOG_CATEGORIES = [
   'ADHD & Studying',
   'Learning & Neurodiversity',
   'Transcription & Tools',
+  'Teaching & Tools',
 ] as const
 
 export type BlogCategory = (typeof BLOG_CATEGORIES)[number]

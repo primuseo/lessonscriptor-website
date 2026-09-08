@@ -1,0 +1,241 @@
+{
+  "slug": "zoom-google-meet-transcript-for-students",
+  "page_type": "blog_post",
+  "category_tag": "Teaching & Tools",
+  "h1": "Como Obter uma Transcrição do Zoom ou Google Meet para Compartilhar com Seus Alunos",
+  "reading_time_min": 8,
+  "published_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "meta": {
+    "title": "Transcrição de Zoom e Google Meet para Alunos: Guia do Professor",
+    "description": "Dá aula ao vivo no Zoom ou Google Meet? Tenha uma transcrição editável da sua aula no Chrome e compartilhe com os alunos em minutos. Grátis, sem conta.",
+    "keywords": ["transcrição zoom", "transcrição google meet", "transcrever zoom", "transcrição chat zoom", "gravação de aula"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/pt/blog/transcricao-zoom-google-meet-estudantes",
+    "og_title": "Transcrição de Zoom e Google Meet para Alunos: Guia do Professor",
+    "og_description": "Tenha uma transcrição editável da sua aula no Zoom ou Google Meet e compartilhe com os alunos em minutos. Grátis, sem conta.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/for-teachers"
+  },
+  "tldr": {
+    "label": "Principais pontos",
+    "lead": "Você não precisa de um plano pago do Zoom ou do Google Workspace para dar aos alunos uma transcrição da sua aula. Uma extensão do Chrome faz isso na mesma aba onde você dá aula.",
+    "bullets": [
+      "A transcrição do Zoom só é salva em gravações na nuvem, que exigem um plano pago e um ajuste do administrador. As legendas ao vivo não podem mais ser salvas desde maio de 2026. Quando a aula termina, elas somem.",
+      "Os arquivos de transcrição do Google Meet vão para o Drive do anfitrião, em planos pagos do Workspace. O Education Fundamentals, o plano gratuito que a maioria das escolas usa, só tem essa função com o complemento Teaching and Learning ou o Education Plus.",
+      "O LessonScriptor funciona na aba do Chrome onde sua aula está rodando, não precisa de conta e gera uma transcrição que você pode editar antes de os alunos lerem.",
+      "A parte editável é o que importa: você tira os minutos de \"dá pra me ouvir\", deixa a tarefa de casa em negrito e manda algo que os alunos realmente conseguem estudar."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "contas necessárias para começar a transcrever com o LessonScriptor" },
+    { "number": "14", "label": "idiomas suportados, incluindo francês, espanhol, árabe e hindi" },
+    { "number": "2", "label": "formatos de exportação (.txt e .md), além de copiar para a área de transferência" }
+  ],
+  "intro": "A forma mais rápida de conseguir uma transcrição do Zoom ou do Google Meet para entregar aos alunos é o LessonScriptor, uma extensão gratuita do Chrome que transcreve sua aula enquanto ela acontece e gera um arquivo de texto editável quando ela termina. O Zoom e o Google Meet oferecem transcrição própria, mas ela fica atrás de planos pagos ou configurações de administrador, é somente leitura, e os alunos muitas vezes nunca chegam a ver. Este guia compara as três opções e mostra o fluxo de trabalho que os professores usam para publicar a transcrição da aula em até cinco minutos depois de se despedir da turma.",
+  "sections": [
+    {
+      "id": "why-share-a-transcript",
+      "h2": "Por que um professor compartilharia a transcrição de uma aula?",
+      "body": "Três grupos de alunos pedem isso, toda semana. Alunos que faltaram e não querem assistir a uma gravação de 50 minutos. Alunos acompanhando a aula em uma segunda língua, que entendem muito mais quando podem ler junto. Alunos com TDAH, dislexia ou deficiência auditiva, para quem uma versão em texto não é um bônus, é o que torna a aula acessível.\n\nUma transcrição também resolve um problema do seu lado. \"O que a gente viu na terça?\" deixa de ser um e-mail que você responde de memória. Você só cola um link."
+    },
+    {
+      "id": "zoom-transcript-how-to",
+      "h2": "Como eu consigo a transcrição de uma aula no Zoom?",
+      "body": "O Zoom oferece duas coisas fáceis de confundir. A transcrição ao vivo (o Zoom chama de \"legendas\") aparece na tela durante a aula. A transcrição de áudio é um arquivo gerado depois que uma gravação na nuvem termina. Nenhuma das duas é a mesma coisa que a transcrição do chat do Zoom, que só salva o que as pessoas digitaram, não o que foi falado. Se você buscar \"transcrever Zoom\", vai encontrar as três coisas misturadas.\n\nAs legendas ao vivo funcionam em contas gratuitas, mas só enquanto a aula está acontecendo. Até maio de 2026, um participante podia clicar em \"Salvar transcrição\" antes de sair. O Zoom removeu essa opção. Agora as legendas mostram só alguns minutos de rolagem durante a chamada e nada depois. Em uma conta gratuita, não existe mais nenhuma forma nativa de guardar uma transcrição.\n\nA transcrição de áudio de uma gravação na nuvem gera um arquivo .vtt que você baixa pelo portal web do Zoom. Isso exige um plano pago, gravação na nuvem ativada e um administrador de conta que tenha ligado \"Transcrição de áudio\" nas configurações de gravação. O processamento leva mais ou menos o mesmo tempo da própria aula, então uma aula de duas horas significa duas horas de espera. Depois é baixar, converter, arrumar e subir de novo.\n\nSe a sua escola te dá tudo isso, use. Muitos professores não têm acesso de administrador, não gravam na nuvem, ou dão aula numa conta pessoal."
+    },
+    {
+      "id": "google-meet-transcript-how-to",
+      "h2": "Como eu consigo uma transcrição do Google Meet?",
+      "body": "O Google Meet tem um botão \"Transcrições\" no painel de Atividades que salva um Google Docs no Drive do anfitrião depois da chamada. Isso vem incluído em planos pagos do Workspace (Business Standard e acima, Education Plus, e o complemento Teaching and Learning). O Education Fundamentals, o plano gratuito que a maioria das escolas usa, não inclui essa função a menos que a escola compre o complemento. As licenças de aluno vêm com as transcrições desativadas por padrão, mesmo quando a escola já tem o recurso.\n\nO Docs gerado é razoável, com nomes dos participantes e marcações de tempo, mas ainda é uma transcrição bruta. Todo \"é\", toda pergunta paralela sobre o Wi-Fi, todo minuto esperando o último aluno entrar."
+    },
+    {
+      "id": "lessonscriptor-how-to",
+      "h2": "Como transcrevo uma aula de Zoom ou Google Meet com o LessonScriptor?",
+      "body": "O LessonScriptor funciona a partir da aba do Chrome onde sua aula está rodando. Ele não entra na reunião como um bot, não pede nada aos seus alunos e não exige upgrade de plano.",
+      "steps": [
+        "Instale o LessonScriptor pela Chrome Web Store. Um clique, sem cadastro.",
+        "Abra sua aula de Zoom ou Google Meet em uma aba do Chrome. O link \"Entrar pelo navegador\" do Zoom funciona. O Meet já roda no navegador.",
+        "Clique no ícone do LessonScriptor para abrir o painel lateral e aperte Gravar antes de começar a dar aula.",
+        "Dê aula normalmente. A transcrição aparece no painel lateral enquanto você fala. Você pode dar uma olhada para conferir se um termo foi captado direito.",
+        "Quando a aula terminar, edite ali mesmo. Apague os primeiros cinco minutos de preparação, deixe a tarefa de casa em negrito, adicione um título para cada parte da aula.",
+        "Exporte como .md ou .txt, ou copie para a área de transferência e cole no Google Classroom, Moodle ou em um e-mail."
+      ]
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "h2": "Modo gratuito ou modo IA para uma aula ao vivo?",
+      "body": "O modo gratuito usa o microfone do seu aparelho e o mecanismo de fala embutido do navegador, totalmente local, sem cadastro. Ele capta sua voz diretamente, o que basta para a maioria das aulas em que você fala a maior parte do tempo. Se você também quer captar bem as perguntas dos alunos, ou dá aula com fones de ouvido, o modo IA capta o áudio da própria aba em vez de depender do microfone. O modo IA é um pacote de créditos pré-pago, não uma assinatura, os créditos nunca expiram, e um pacote de 30 horas custa cerca de $21, o que cobre praticamente um semestre inteiro com três horas de aula por semana."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Transcrição do Zoom vs transcrição do Google Meet vs LessonScriptor",
+      "body": "Esta tabela compara as três opções nos pontos que realmente mudam sua terça-feira à tarde: que plano você precisa, se dá para editar antes de compartilhar e quanto tempo você espera.",
+      "table": {
+        "headers": ["", "Transcrição de áudio do Zoom", "Transcrição do Google Meet", "LessonScriptor"],
+        "rows": [
+          ["Plano necessário", "Pago + ajuste de administrador", "Workspace pago ou complemento Education", "Nenhum"],
+          ["Disponível durante a aula", "Só legendas, não podem ser salvas", "Não, só depois da chamada", "Sim, ao vivo em um painel lateral"],
+          ["Editável antes de compartilhar", "Não (arquivo .vtt)", "Sim, no Google Docs", "Sim, no painel enquanto acontece"],
+          ["Tempo de espera", "Praticamente a duração da aula", "Alguns minutos", "Nenhum"],
+          ["Funciona também para aulas gravadas", "Só gravações na nuvem", "Não", "Sim, qualquer vídeo no Chrome"],
+          ["Idiomas", "Depende do plano", "Inglês primeiro, alguns outros", "14"]
+        ]
+      }
+    },
+    {
+      "id": "what-should-transcript-look-like",
+      "h2": "Como a transcrição deveria estar antes de chegar aos alunos?",
+      "body": "Uma transcrição bruta é uma cortesia. Uma transcrição editada é um material de estudo. As edições que levam menos tempo e ajudam mais:\n\nCorte tudo antes da primeira frase de conteúdo. Adicione um título por seção da aula para os alunos pularem direto para a parte que perderam. Deixe em negrito a tarefa de casa, a data da prova e qualquer termo que você soletrou em voz alta. Apague a divagação sobre a impressora. Mantenha suas próprias palavras, porque é isso que os alunos lembram de ter ouvido.\n\nSão dez minutos de trabalho no editor do LessonScriptor, e você já fez a maior parte enquanto a aula ainda estava rolando."
+    },
+    {
+      "id": "recorded-lessons-flipped-classrooms",
+      "h2": "Isso funciona para aulas gravadas e salas de aula invertidas?",
+      "body": "Sim. Qualquer coisa que toque em uma aba do Chrome pode ser transcrita da mesma forma: uma gravação de aula do sistema de captura de aulas da sua universidade (Panopto, Kaltura, Echo360), um vídeo do YouTube que você passou de tarefa, um Loom que você gravou no domingo à noite. Abra o vídeo, abra o painel lateral, aperte play. A transcrição vai se formando junto com o vídeo e exporta do mesmo jeito.",
+      "internal_links": [
+        { "text": "Como transcrever vídeos de aulas", "url": "/blog/how-to-transcribe-lecture-videos" }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Existe uma forma gratuita de conseguir uma transcrição do Zoom?",
+        "a": "Não pelo próprio Zoom. Desde maio de 2026 as legendas não podem mais ser salvas, e as transcrições de gravações na nuvem exigem um plano pago. O modo gratuito do LessonScriptor transcreve a aula a partir da sua aba do Chrome, sem conta e sem limite de tempo, e deixa você editar o texto antes de compartilhar."
+      },
+      {
+        "q": "Preciso de uma conta para usar o LessonScriptor?",
+        "a": "Não. O modo gratuito não pede cadastro nenhum, é só instalar a extensão e começar a transcrever. Se você comprar um pacote de créditos do modo IA, recebe uma chave de licença por e-mail para colar nas configurações da extensão. Não existe conta ou login, só uma chave."
+      },
+      {
+        "q": "Posso ter uma transcrição do Google Meet em uma conta gratuita?",
+        "a": "Não pelo Google. A função de transcrição do Meet exige um plano Workspace pago, ou o complemento Teaching and Learning para escolas no Education Fundamentals. O LessonScriptor funciona em qualquer chamada do Google Meet que toque no Chrome, independentemente do seu plano."
+      },
+      {
+        "q": "O LessonScriptor funciona com Zoom e Google Meet em uma aba do navegador?",
+        "a": "Sim. O Google Meet já roda no navegador. No Zoom, use o link \"Entrar pelo navegador\" em vez do aplicativo de mesa. O LessonScriptor transcreve a aba de qualquer jeito, e também funciona com aulas gravadas do Panopto, Canvas, YouTube e plataformas parecidas."
+      },
+      {
+        "q": "Meus alunos precisam instalar alguma coisa?",
+        "a": "Não. Você transcreve, edita e compartilha um arquivo de texto ou um documento colado. Os alunos só leem."
+      },
+      {
+        "q": "O áudio dos alunos é enviado para algum lugar?",
+        "a": "No modo gratuito, nada sai do seu computador, a transcrição roda localmente pelo mecanismo de fala do Chrome. No modo IA, o áudio da aba é enviado em pequenos trechos para um modelo de transcrição na nuvem e não é armazenado. Confira a política da sua escola sobre gravações antes de captar a voz dos alunos, como faria com qualquer gravação."
+      },
+      {
+        "q": "Qual a precisão com sotaques ou vocabulário técnico?",
+        "a": "O modo IA usa um modelo de fala na nuvem feito para mais precisão com sotaques e ruído de fundo, e se sai melhor com termos específicos de cada matéria do que o modo gratuito. O modo gratuito depende do mecanismo de fala embutido do navegador, que funciona bem para fala clara perto do microfone, mas é menos consistente com sotaques fortes."
+      },
+      {
+        "q": "Vai funcionar em francês, espanhol ou árabe?",
+        "a": "Sim. Defina o idioma nas configurações da extensão antes de começar. O LessonScriptor transcreve em 14 idiomas. Escolha um idioma por sessão, já que trocar no meio da aula exige reiniciar."
+      },
+      {
+        "q": "Em que formato os alunos recebem a aula?",
+        "a": "No que você escolher. Exporte como Markdown (.md) ou texto simples (.txt), ou copie para a área de transferência e cole no Google Classroom, Moodle, Notion ou em um e-mail. Seus títulos, negrito e destaques vêm junto."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Dê aos seus alunos a aula em texto, hoje mesmo",
+    "body": "Você já diz tudo o que os alunos precisam. O LessonScriptor anota enquanto você dá aula, deixa você arrumar enquanto eles se desconectam, e te dá um arquivo para compartilhar antes da próxima aula começar. Grátis para instalar, sem conta, funciona na aba do Chrome de onde você já dá aula.",
+    "internal_links": [
+      { "text": "Veja tudo que o LessonScriptor faz para professores, inclusive como usar sua própria transcrição para revisar uma aula", "url": "/for-teachers" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Como Obter uma Transcrição do Zoom ou Google Meet para Compartilhar com Seus Alunos",
+        "description": "Dá aula ao vivo no Zoom ou Google Meet? Tenha uma transcrição editável da sua aula no Chrome e compartilhe com os alunos em minutos. Grátis, sem conta.",
+        "datePublished": "2026-09-08",
+        "dateModified": "2026-09-08",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Estudante de Antropologia com TDAH",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Desenvolvedor e SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Existe uma forma gratuita de conseguir uma transcrição do Zoom?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não pelo próprio Zoom. Desde maio de 2026 as legendas não podem mais ser salvas, e as transcrições de gravações na nuvem exigem um plano pago. O modo gratuito do LessonScriptor transcreve a aula a partir da sua aba do Chrome, sem conta e sem limite de tempo, e deixa você editar o texto antes de compartilhar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Preciso de uma conta para usar o LessonScriptor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Não. O modo gratuito não pede cadastro nenhum. Se você comprar um pacote de créditos do modo IA, recebe uma chave de licença por e-mail para colar nas configurações da extensão. Não existe conta ou login, só uma chave."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O LessonScriptor funciona com Zoom e Google Meet em uma aba do navegador?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim. O Google Meet já roda no navegador. No Zoom, use o link \"Entrar pelo navegador\" em vez do aplicativo de mesa. O LessonScriptor transcreve a aba de qualquer jeito, e também funciona com aulas gravadas do Panopto, Canvas, YouTube e plataformas parecidas."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Transcrição de Zoom e Google Meet para Alunos", "item": "https://lessonscriptor.com/blog/zoom-google-meet-transcript-for-students" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/for-teachers",
+    "related_posts": [
+      "/live-captions-chrome",
+      "/blog/how-to-transcribe-lecture-videos"
+    ]
+  }
+}

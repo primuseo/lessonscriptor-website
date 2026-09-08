@@ -153,6 +153,15 @@ export const SLUG_MAP: Record<string, Record<string, string>> = {
     de: 'youtube-transkription-herunterladen',
     zh: 'ruhe-xiazai-youtube-zhuanlu',
   },
+  // Teacher cluster
+  'zoom-google-meet-transcript-for-students': {
+    en: 'zoom-google-meet-transcript-for-students',
+    fr: 'transcription-zoom-google-meet-etudiants',
+    es: 'transcripcion-zoom-google-meet-estudiantes',
+    pt: 'transcricao-zoom-google-meet-estudantes',
+    de: 'zoom-google-meet-transkript-studenten',
+    zh: 'zoom-google-meet-zhuanlu-xuesheng',
+  },
 }
 
 export function getLocalizedSlug(canonicalSlug: string, locale: string): string {

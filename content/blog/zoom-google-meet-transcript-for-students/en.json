@@ -1,0 +1,241 @@
+{
+  "slug": "zoom-google-meet-transcript-for-students",
+  "page_type": "blog_post",
+  "category_tag": "Teaching & Tools",
+  "h1": "How to Get a Zoom or Google Meet Transcript to Share With Your Students",
+  "reading_time_min": 8,
+  "published_at": "2026-09-08",
+  "updated_at": "2026-09-08",
+  "meta": {
+    "title": "Zoom and Google Meet Transcript for Students: Teacher Guide",
+    "description": "Teach live on Zoom or Google Meet? Get an editable transcript of your class in Chrome and share it with students in minutes. Free, no account needed.",
+    "keywords": ["zoom transcript", "google meet transcript", "transcribe zoom", "zoom chat transcript", "lecture recording"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/en/blog/zoom-google-meet-transcript-for-students",
+    "og_title": "Zoom and Google Meet Transcript for Students: Teacher Guide",
+    "og_description": "Get an editable transcript of your Zoom or Google Meet class and share it with students in minutes. Free, no account needed.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/for-teachers"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "You do not need a paid Zoom or Google Workspace plan to give students a transcript of your class. A Chrome extension can do it from the same tab you teach in.",
+    "bullets": [
+      "Zoom transcription is only saved for cloud recordings, which need a paid plan and an admin toggle. Live captions cannot be saved at all since May 2026. When the meeting ends, they are gone.",
+      "Google Meet transcript files go to the host's Drive on paid Workspace plans. Education Fundamentals, the free plan most schools use, only gets them with the Teaching and Learning add-on or Education Plus.",
+      "LessonScriptor runs in the browser tab where your class plays, needs no account, and produces a transcript you can edit before students read it.",
+      "The editable part matters: you remove the \"can everyone hear me\" minutes, bold the homework, and send something students can actually study from."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "accounts needed to start transcribing with LessonScriptor" },
+    { "number": "14", "label": "languages supported, including French, Spanish, Arabic and Hindi" },
+    { "number": "2", "label": "export formats (.txt and .md) plus copy to clipboard" }
+  ],
+  "intro": "The fastest way to get a Zoom transcript or Google Meet transcript you can hand to students is LessonScriptor, a free Chrome extension that transcribes your class while it runs and gives you an editable text file when it ends. Zoom and Google Meet both offer built-in transcription, but it sits behind paid plans or admin settings, it is read-only, and students often never see it. This guide compares the three options and shows the workflow teachers use to post a class transcript within five minutes of saying goodbye.",
+  "sections": [
+    {
+      "id": "why-share-a-transcript",
+      "h2": "Why would a teacher share a class transcript?",
+      "body": "Three groups of students ask for one, every week. Students who were absent and do not want a 50-minute recording. Students following the class in their second language, who understand more when they can read along. Students with ADHD, dyslexia or a hearing impairment, for whom a text version is not a bonus but the thing that makes the class accessible.\n\nA transcript also solves a problem on your side. \"What did we cover on Tuesday\" stops being an email you answer by memory. You paste a link."
+    },
+    {
+      "id": "zoom-transcript-how-to",
+      "h2": "How do I get a Zoom transcript of my class?",
+      "body": "Zoom offers two things that are easy to confuse. Live transcription (Zoom calls it \"captions\") appears on screen during the meeting. Audio transcription is a file generated after a cloud recording finishes. Neither is the same as the Zoom chat transcript, which only saves what people typed, not what was said. If you search \"transcribe Zoom\" you will find all three mixed together.\n\nLive captions work on free accounts, but only while the meeting runs. Until May 2026 a participant could click \"Save transcript\" before leaving. Zoom removed that option. Captions now show a few minutes of scroll-back during the call and nothing after it. On a free account there is no longer any native way to keep a transcript.\n\nAudio transcription of a cloud recording produces a .vtt file you can download from the Zoom web portal. It requires a paid plan, cloud recording turned on, and an account admin who has enabled \"Audio transcript\" under Recording settings. Processing takes roughly as long as the meeting itself, so a two-hour class means a two-hour wait. Then you download, convert, clean up and upload.\n\nIf your school gives you all of that, use it. Many teachers do not have admin access, do not record to the cloud, or teach on a personal account."
+    },
+    {
+      "id": "google-meet-transcript-how-to",
+      "h2": "How do I get a Google Meet transcript?",
+      "body": "Google Meet has a \"Transcripts\" button in the Activities panel that saves a Google Doc to the host's Drive after the call. It is included on paid Workspace plans (Business Standard and above, Education Plus, and the Teaching and Learning add-on). Education Fundamentals, the free plan most schools are on, does not include it unless the school buys the add-on. Student licences have transcripts off by default even where the school has them.\n\nThe Doc it produces is decent, with speaker names and timestamps, but it is still a raw transcript. Every \"um\", every side question about the Wi-Fi, every minute waiting for the last student to join."
+    },
+    {
+      "id": "lessonscriptor-how-to",
+      "h2": "How do I transcribe a Zoom or Google Meet class with LessonScriptor?",
+      "body": "LessonScriptor works from the Chrome tab your class runs in. It does not join the meeting as a bot, it does not ask your students for anything, and it does not need a plan upgrade.",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store. One click, no sign-up.",
+        "Open your Zoom or Google Meet class in a Chrome tab. Zoom's \"Join from your browser\" link works. Meet already runs in the browser.",
+        "Click the LessonScriptor icon to open the side panel and hit Record before you start teaching.",
+        "Teach. The transcript builds in the side panel as you speak. You can glance at it to check a term was captured right.",
+        "When the class ends, edit in place. Delete the first five minutes of setup, bold the homework, add a header for each part of the lesson.",
+        "Export as .md or .txt, or copy to clipboard and paste into Google Classroom, Moodle, or an email."
+      ]
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "h2": "Free mode or AI mode for a live class?",
+      "body": "Free mode uses your device's microphone and your browser's built-in speech engine, fully local, no signup. It picks up your voice directly, which is enough for most classes where you do most of the talking. If you also want student questions captured clearly, or you teach with headphones on, AI mode captures the tab audio itself instead of relying on a microphone. AI mode is a pay-as-you-go credit pack, not a subscription, credits never expire, and a 30-hour pack runs about $21, which covers roughly a full term at three hours of class a week."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Zoom transcript vs Google Meet transcript vs LessonScriptor",
+      "body": "This table lines up the three options on the things that actually change your Tuesday afternoon: what plan you need, whether you can edit before sharing, and how long you wait.",
+      "table": {
+        "headers": ["", "Zoom audio transcript", "Google Meet transcript", "LessonScriptor"],
+        "rows": [
+          ["Plan needed", "Paid + admin setting", "Paid Workspace or Education add-on", "None"],
+          ["Available during class", "Captions only, cannot be saved", "No, after the call", "Yes, live in a side panel"],
+          ["Editable before sharing", "No (.vtt file)", "Yes, in Google Docs", "Yes, in the panel as you go"],
+          ["Wait time", "About the length of the meeting", "A few minutes", "None"],
+          ["Works for recorded lessons too", "Only cloud recordings", "No", "Yes, any video in Chrome"],
+          ["Languages", "Depends on plan", "English first, some others", "14"]
+        ]
+      }
+    },
+    {
+      "id": "what-should-transcript-look-like",
+      "h2": "What should the transcript look like before students get it?",
+      "body": "A raw transcript is a courtesy. An edited one is a study resource. The edits that take the least time and help the most:\n\nCut everything before the first sentence of content. Add one header per section of the lesson so students can jump to the part they missed. Bold the homework, the date of the test, and any term you spelled out loud. Delete the tangent about the printer. Keep your own phrasing, because that is what students remember hearing.\n\nThat is ten minutes of work in LessonScriptor's editor, and you did most of it while the class was still running."
+    },
+    {
+      "id": "recorded-lessons-flipped-classrooms",
+      "h2": "Does this work for recorded lessons and flipped classrooms?",
+      "body": "Yes. Anything that plays in a Chrome tab can be transcribed the same way: a lecture recording from your university's lecture capture system (Panopto, Kaltura, Echo360), a YouTube video you assign for homework, a Loom you recorded on Sunday night. Open the video, open the side panel, press play. The transcript builds alongside the video and exports the same way.",
+      "internal_links": [
+        { "text": "How to transcribe lecture videos", "url": "/blog/how-to-transcribe-lecture-videos" }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Is there a free way to get a Zoom transcript?",
+        "a": "Not from Zoom itself. Since May 2026 captions cannot be saved, and cloud recording transcripts need a paid plan. LessonScriptor's free mode transcribes the class from your Chrome tab with no account and no time limit, and lets you edit the text before sharing it."
+      },
+      {
+        "q": "Do I need an account to use LessonScriptor?",
+        "a": "No. Free mode has no signup at all — install the extension and start transcribing. If you buy an AI mode credit pack, you get a license key by email that you paste into the extension settings. There is no account or login, just a key."
+      },
+      {
+        "q": "Can I get a Google Meet transcript on a free account?",
+        "a": "Not from Google. Meet's transcript feature requires a paid Workspace plan, or the Teaching and Learning add-on for schools on Education Fundamentals. LessonScriptor works on any Google Meet call that plays in Chrome, regardless of your plan."
+      },
+      {
+        "q": "Does LessonScriptor work with Zoom and Google Meet in a browser tab?",
+        "a": "Yes. Google Meet already runs in the browser. For Zoom, use the \"Join from your browser\" link instead of the desktop app. LessonScriptor transcribes the tab either way, and also works on recorded lessons from Panopto, Canvas, YouTube and similar platforms."
+      },
+      {
+        "q": "Do my students need to install anything?",
+        "a": "No. You transcribe, you edit, you share a text file or a pasted document. Students just read it."
+      },
+      {
+        "q": "Is student audio sent anywhere?",
+        "a": "In free mode, nothing leaves your computer — transcription runs locally through Chrome's speech engine. In AI mode, the tab audio is sent to a cloud transcription model in short chunks and is not stored. Check your school's policy on recording before capturing student voices, as you would with any recording."
+      },
+      {
+        "q": "How accurate is it with accents or technical vocabulary?",
+        "a": "AI mode uses a cloud speech model built for higher accuracy across accents and background noise, and holds up better on subject-specific terms than free mode. Free mode relies on your browser's built-in speech engine, which is solid for clear speech close to the microphone but less consistent with strong accents."
+      },
+      {
+        "q": "Will it work in French, Spanish or Arabic?",
+        "a": "Yes. Set the language in the extension settings before you start. LessonScriptor transcribes in 14 languages. Pick one language per session, since switching mid-class needs a restart."
+      },
+      {
+        "q": "What format do students receive?",
+        "a": "Whatever you choose. Export as Markdown (.md) or plain text (.txt), or copy to clipboard and paste into Google Classroom, Moodle, Notion, or an email. Your headers, bold and highlights come with it."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Give your students the class in text, today",
+    "body": "You already say everything students need. LessonScriptor writes it down while you teach, lets you tidy it while they log off, and gives you a file to share before the next class starts. Free to install, no account, works in the Chrome tab you already teach from.",
+    "internal_links": [
+      { "text": "See everything LessonScriptor does for teachers, including how to use your own transcript to review a lesson", "url": "/for-teachers" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Get a Zoom or Google Meet Transcript to Share With Your Students",
+        "description": "Teach live on Zoom or Google Meet? Get an editable transcript of your class in Chrome and share it with students in minutes. Free, no account needed.",
+        "datePublished": "2026-09-08",
+        "dateModified": "2026-09-08",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "Anthropology student with ADHD",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "Developer & SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is there a free way to get a Zoom transcript?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Not from Zoom itself. Since May 2026 captions cannot be saved, and cloud recording transcripts need a paid plan. LessonScriptor's free mode transcribes the class from your Chrome tab with no account and no time limit, and lets you edit the text before sharing it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need an account to use LessonScriptor?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Free mode has no signup at all. If you buy an AI mode credit pack, you get a license key by email that you paste into the extension settings. There is no account or login, just a key."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does LessonScriptor work with Zoom and Google Meet in a browser tab?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Google Meet already runs in the browser. For Zoom, use the \"Join from your browser\" link instead of the desktop app. LessonScriptor transcribes the tab either way, and also works on recorded lessons from Panopto, Canvas, YouTube and similar platforms."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Zoom and Google Meet Transcript for Students", "item": "https://lessonscriptor.com/blog/zoom-google-meet-transcript-for-students" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/for-teachers",
+    "related_posts": [
+      "/live-captions-chrome",
+      "/blog/how-to-transcribe-lecture-videos"
+    ]
+  }
+}

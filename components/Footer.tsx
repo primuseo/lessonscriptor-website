@@ -36,6 +36,7 @@ export default function Footer({ locale }: { locale: string }) {
               <li><Link href="/transcribe-video-to-text" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Video to Text</Link></li>
               <li><Link href="/compare/otter-ai-alternative" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">vs Otter.ai</Link></li>
               <li><Link href="/for-adhd-students" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">For ADHD Students</Link></li>
+              <li><Link href="/for-teachers" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">For Teachers</Link></li>
             </ul>
           </div>
 
