@@ -118,6 +118,7 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
     push(section.internal_links)
     push(section.internal_links_map)
     push(section.internal_link)
+    push(section.links)
     if (typeof section.cta_link === 'string' && typeof section.cta_text === 'string')
       candidates.push({ url: section.cta_link as string, text: section.cta_text as string })
     if (typeof section.secondary_href === 'string' && typeof section.secondary_label === 'string')

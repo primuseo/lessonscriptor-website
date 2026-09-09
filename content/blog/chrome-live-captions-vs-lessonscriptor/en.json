@@ -66,7 +66,7 @@
       "body": "LessonScriptor is a Chrome extension that transcribes video audio into an editable side panel. It's designed primarily for students who watch video lectures and want a structured, annotatable transcript they can study from.\n\nInstalling LessonScriptor adds a toolbar icon to Chrome. Clicking the icon opens a side panel next to any video — on YouTube, Zoom recordings, Canvas, Coursera, edX, Skillshare, Vimeo, TED, and 50+ other platforms. The panel fills with a live transcript as the video plays.\n\nThe transcript is fully editable: click any word to correct it, highlight passages in five colours, add bold formatting, or insert headers to structure notes. When you're done watching, export the annotated transcript as Markdown to paste into Notion, Obsidian, Google Docs, or any other note-taking app.\n\nLessonScriptor has two modes: a free mode that uses the device microphone (Chrome's Web Speech API, same on-device model as Chrome's built-in captions) and a Premium mode that uses tab audio capture with OpenAI Whisper for higher accuracy.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -238,12 +238,12 @@
       "body": "LessonScriptor is the better choice whenever you need to keep, study, or reference what was said.\n\n**Study sessions:** If you're a student watching a lecture and need notes you can review later, Chrome's read-only captions are useless after the video ends. LessonScriptor generates a permanent, annotated transcript. This is especially valuable for <a href=\"/blog/how-to-take-notes-with-adhd\">ADHD students who struggle with simultaneous note-taking</a>.\n\n**Headphone users:** Chrome's captions don't work reliably with headphones on Windows. LessonScriptor's Premium mode uses tab audio capture and works with any audio output device.\n\n**Academic or technical content:** LessonScriptor Premium's Whisper model is more accurate on academic vocabulary, professor names, institutional names, and technical terminology.\n\n**Multilingual students:** If you're a French, Spanish, or German speaker watching content in your native language and need an exportable transcript for study, LessonScriptor's language support combined with edit-and-export functionality is significantly more useful.\n\n**Language learners:** LessonScriptor's editable transcript lets you annotate vocabulary, highlight unfamiliar phrases, and export a study list. Chrome's captions disappear.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         },
         {
-          "text": "/blog/chrome-live-captions-headphones",
+          "text": "Chrome Live Captions with Headphones",
           "href": "/blog/chrome-live-captions-headphones",
           "internal": true
         }

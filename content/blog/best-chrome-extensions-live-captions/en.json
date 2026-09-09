@@ -150,7 +150,7 @@
       "body": "LessonScriptor is a Chrome extension that opens a side panel next to any video and transcribes the audio in real time. It works on YouTube, Zoom cloud recordings, Canvas, Coursera, edX, Skillshare, Vimeo, TED, and any other video platform that plays in Chrome — over 50 platforms in total.\n\n**Free mode:** Uses your device's microphone to capture audio. Works on any video, any platform. Unlimited use. No account required. All processing happens on-device via Chrome's Web Speech API.\n\n**Premium mode (pay-as-you-go):** Uses tab audio capture — grabs audio directly from the browser tab. Works with headphones, doesn't require a microphone, and uses an AI model (OpenAI Whisper) for higher accuracy on academic vocabulary, names, and technical terminology. You pay per minute of transcription, not a monthly subscription.\n\n**Editing and export:** The transcript is fully editable — click any word to correct it, highlight passages in five colors, add bold formatting, or insert headers to structure your notes. Export as Markdown to paste into Notion, Obsidian, or Google Docs.\n\n**Best for:** Students transcribing recorded lectures, researchers watching conference presentations, language learners watching foreign-language videos, and professionals who use headphones.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -162,7 +162,7 @@
       "body": "Chrome's built-in Live Caption is not technically an extension — it's a browser feature enabled in chrome://settings/accessibility. It adds a floating caption bubble to any audio playing in Chrome, processed entirely on-device using a local speech recognition model.\n\n**Strengths:** Zero installation, completely free, works on any audio in Chrome, private (nothing leaves your device), supports 20+ languages.\n\n**Limitations:** The transcript is read-only — you cannot edit, save, copy, or export it. The caption bubble disappears when the audio stops. It doesn't work reliably with headphones on Windows 10. Accuracy degrades significantly on accented speech, technical vocabulary, and proper nouns.\n\n**Best for:** Quick, temporary captions when you need to hear what someone is saying and don't need a permanent record. Not suitable for study sessions, research, or any use case where you need to review the transcript later.",
       "links": [
         {
-          "text": "/blog/chrome-live-captions-not-working",
+          "text": "Chrome Live Captions Not Working",
           "href": "/blog/chrome-live-captions-not-working",
           "internal": true
         }
@@ -184,12 +184,12 @@
       "body": "The right Chrome live caption extension depends on your primary use case.\n\n**Use LessonScriptor if** you're a student watching recorded video lectures (YouTube, Canvas, Zoom recordings, Coursera), need editable notes, or use headphones. The free tier works immediately with no account. This covers the majority of student and professional use cases. If you have ADHD, the editable transcript removes the cognitive load of writing while listening — see <a href=\"/blog/how-to-take-notes-with-adhd\">how to take notes with ADHD</a>.\n\n**Use Chrome's built-in Live Caption if** you want zero installation, don't need to save the transcript, and are listening to casual audio (podcasts, streaming video). It's the lowest-friction option for temporary captions.\n\n**Use Tactiq if** your primary use case is live Google Meet or Zoom meetings where you're an active participant (not just watching a recording). Tactiq's meeting-specific features (speaker identification, meeting summary) are stronger than LessonScriptor for this narrow use case.\n\n**Use Notta if** you need transcription in languages beyond the 14 LessonScriptor supports — particularly Japanese, Korean, Arabic, or Hindi at high accuracy.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         },
         {
-          "text": "/blog/live-captions-zoom-recordings-chrome",
+          "text": "Live Captions for Zoom Recordings",
           "href": "/blog/live-captions-zoom-recordings-chrome",
           "internal": true
         }

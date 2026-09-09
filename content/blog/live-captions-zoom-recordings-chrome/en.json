@@ -47,7 +47,7 @@
       "body": "Yes. Chrome's built-in Live Caption works on Zoom cloud recordings played in a browser tab at zoom.us, because the recording is standard web video audio that Chrome's caption engine can access.\n\nTo confirm: Chrome's Live Caption does NOT work on the Zoom desktop app — it only works on audio playing inside a Chrome browser tab. If your professor shared a Zoom recording link that opens in your browser at a zoom.us URL, Chrome's captions work. If the recording opens the Zoom app on your computer, Chrome's captions don't apply.\n\nLessonScriptor works on any video playing inside a Chrome tab — including Zoom recordings at zoom.us, Zoom recordings embedded in Canvas, Moodle, or Blackboard, and MP4 files played in Chrome directly.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -73,7 +73,7 @@
       ],
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -95,7 +95,7 @@
       "body": "Use Zoom's built-in transcript when it's available and you only need a static text copy of the recording. Zoom's transcript is speaker-labeled, which is useful for multi-speaker meetings where knowing who said what matters.\n\nUse LessonScriptor when Zoom's transcript isn't available (the host didn't enable it), when you need to edit and annotate the transcript, when you're watching from Canvas or another LMS, or when you need to export formatted notes rather than a raw text dump.\n\nFor academic use, LessonScriptor's edit-as-you-watch workflow is more useful than Zoom's transcript for most students. Zoom's transcript requires waiting for processing after the recording — LessonScriptor generates the transcript as you watch, letting you annotate in real time.",
       "links": [
         {
-          "text": "/blog/best-chrome-extensions-live-captions",
+          "text": "Best Chrome Extensions for Live Captions",
           "href": "/blog/best-chrome-extensions-live-captions",
           "internal": true
         }

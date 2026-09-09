@@ -81,7 +81,7 @@
       "body": "Chrome supports both Simplified Chinese and Traditional Chinese for Live Caption. Select 'Chinese (Simplified)' for Mainland Chinese content and 'Chinese (Traditional)' for Taiwanese or Hong Kong content.\n\nMandarin is technically the most challenging language for on-device speech recognition due to tonal speech and the complexity of the writing system. Chrome's Mandarin model performs adequately for standard Putonghua (standard Mandarin) from Mainland Chinese broadcast sources, but accuracy drops significantly for Taiwanese Mandarin, Cantonese-influenced Mandarin, and academic content with technical terminology.\n\nLessonScriptor's Whisper model for Mandarin is significantly more accurate on academic and professional content — Whisper was trained on a substantially larger and more diverse Mandarin dataset than Chrome's on-device model.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -93,7 +93,7 @@
       "body": "Yes. Both Chrome's built-in Live Caption and LessonScriptor are useful for language learning, but in different ways.\n\n**Chrome's built-in captions for language learning:** Useful as a reading aid when watching foreign-language videos. The real-time caption bubble helps you follow along with content in French, Spanish, German, or another target language. The limitation for language learning is that the captions are read-only — you can't highlight vocabulary, add notes, or export a word list.\n\n**LessonScriptor for language learning:** The editable transcript is significantly more useful for active language learning. As you watch a French video, you can highlight vocabulary you don't know, add your own translation notes in the margin, and export the annotated transcript as a vocabulary study list. The ability to pause, edit, and annotate turns passive caption-reading into active vocabulary acquisition.\n\nFor language learners, LessonScriptor's workflow is: watch the video with live captions → highlight unknown vocabulary as it appears → export the annotated transcript → paste into Anki or your flashcard app to study.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -105,7 +105,7 @@
       "body": "Use Chrome's built-in Live Caption if: you need quick, temporary captions in French, Spanish, German, Italian, Japanese, Korean, or another of the 20+ supported languages; you don't need to save or export the transcript; and you're watching general-purpose content rather than academic or technical material.\n\nUse LessonScriptor if: you're watching academic or professional content in a non-English language where accuracy on technical terms matters; you're learning a language and want to annotate vocabulary; you use headphones; or you need to export the transcript for study. LessonScriptor supports French, Spanish, German, Portuguese, Italian, Dutch, Polish, Japanese, Korean, Mandarin, Russian, Arabic, Hindi, and Turkish.\n\nUse Notta if: you need live captions or transcription in languages beyond what LessonScriptor supports — particularly Vietnamese, Thai, Indonesian, or other Southeast Asian languages where Notta has stronger coverage.",
       "links": [
         {
-          "text": "/blog/best-chrome-extensions-live-captions",
+          "text": "Best Chrome Extensions for Live Captions",
           "href": "/blog/best-chrome-extensions-live-captions",
           "internal": true
         }

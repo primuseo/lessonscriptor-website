@@ -86,7 +86,7 @@
       "body": "Chrome's built-in Live Caption does not reliably work when audio is routed exclusively through headphones, including Bluetooth headphones, AirPods, and wired headphones on Windows 10. This is a known architectural limitation: Chrome's native caption engine uses system microphone input as its fallback audio source, and when headphone output bypasses the system audio mixer, the caption engine receives no audio signal.\n\n**Workaround using Chrome settings:** Go to `chrome://flags`, search for 'Live Caption', and enable the 'Live Caption: Use system audio' flag if available for your Chrome version. This flag routes system-level audio rather than microphone input.\n\n**Better long-term fix:** LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab's audio output rather than from a microphone or system audio. This means it works with any headphones, any audio output device, and doesn't depend on Chrome's audio routing. For students and professionals who always use headphones, this is the more reliable solution.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
@@ -108,12 +108,12 @@
       "body": "Chrome's built-in Live Caption is convenient but architecturally limited: it's English-focused, read-only (no editing), not exportable, and unreliable with headphones. If you've tried all seven fixes above and captions still don't work reliably, a dedicated Chrome caption extension is the better long-term choice.\n\nLessonScriptor is a free Chrome extension that adds live, editable captions to any video in Chrome — YouTube, Zoom recordings, Canvas, Coursera, Google Meet recordings, and any other video platform. Unlike Chrome's built-in captions, LessonScriptor transcripts are fully editable (click anywhere to correct a word), exportable as Markdown or plain text, and support 14 languages including French, Spanish, German, Portuguese, and Mandarin.\n\nFor students and professionals who need reliable, exportable captions — especially with headphones — LessonScriptor is a more robust solution than fighting Chrome's native feature.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         },
         {
-          "text": "/transcribe-youtube-video",
+          "text": "Transcribe YouTube Videos",
           "href": "/transcribe-youtube-video",
           "internal": true
         }
@@ -125,7 +125,7 @@
       "body": "Chrome's built-in Live Caption is best when you need quick, temporary captions for English-language audio, don't need to save or edit the transcript, and aren't using headphones. It requires no installation and zero setup.\n\nA dedicated Chrome extension like LessonScriptor is better when you need editable, exportable transcripts; when you use headphones; when you're transcribing non-English content; or when you watch videos on platforms like YouTube, Coursera, Canvas, or Zoom where the built-in feature is unreliable.\n\nThe two approaches are complementary. Many users keep Chrome's native captions as a quick fallback and use LessonScriptor for serious study sessions where they need to annotate, highlight, and export their notes.",
       "links": [
         {
-          "text": "/live-captions-chrome",
+          "text": "Live Captions in Chrome",
           "href": "/live-captions-chrome",
           "internal": true
         }
