@@ -1,0 +1,170 @@
+{
+  "slug": "ai-note-taker-for-lectures",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
+  "reading_time_min": 8,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
+    "description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten. Sehen Sie, welcher wirklich bei aufgezeichneten Vorlesungen funktioniert, nicht nur bei Live-Meetings.",
+    "keywords": ["ki notizenassistent für studenten", "bester ki notizenassistent für studenten", "ki notiz-app für studenten kostenlos", "ki notizenassistent für studierende"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/de/blog/bester-ki-notizenassistent-vorlesungen",
+    "og_title": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
+    "og_description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten für Vorlesungen.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für die Live-Transkription von Videos. Victoria studiert Anthropologie und lebt mit ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste in Kürze",
+    "lead": "Die meisten KI-Notizenassistenten sind für Live-Meetings gebaut, nicht für aufgezeichnete Vorlesungen. LessonScriptor ist für beides gebaut: Es transkribiert alles, was in einem Chrome-Tab läuft, live oder aufgezeichnet.",
+    "bullets": [
+      "Meeting-Bot-Notizenassistenten (Otter.ai, Fireflies) treten einem Call als Teilnehmer bei. Sie helfen nicht bei einer aufgezeichneten Vorlesung, einem YouTube-Video oder einem Video auf einer Uni-Plattform.",
+      "LessonScriptor transkribiert jeden Ton, der in einem Chrome-Tab läuft: live in Zoom oder Meet, eine aufgezeichnete Vorlesung auf Panopto oder Canvas, ein YouTube-Video.",
+      "Der kostenlose Modus hat kein Konto und kein monatliches Limit. Der KI-Modus ist ein Pay-as-you-go-Guthabenpaket für bessere Genauigkeit bei Akzenten und Fachvokabular, kein Abo.",
+      "Das Transkript ist ein echter Editor, während es sich aufbaut, kein statischer Export: markieren, fett setzen, Überschriften hinzufügen, dann als .md oder .txt exportieren."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "monatliches Limit im kostenlosen Modus von LessonScriptor" },
+    { "number": "14", "label": "unterstützte Sprachen, darunter Französisch, Spanisch, Arabisch und Hindi" },
+    { "number": "2", "label": "Exportformate (.txt und .md) plus Kopieren in die Zwischenablage" }
+  ],
+  "intro": "Der beste KI-Notizenassistent für Vorlesungen ist LessonScriptor, eine kostenlose Chrome-Erweiterung, die jedes Video transkribiert, das in einem Browser-Tab läuft, live oder aufgezeichnet, und daraus ein bearbeitbares Transkript macht. Die meisten bekannten KI-Notizenassistenten, darunter Otter.ai und Fireflies, sind dafür gebaut, einem Live-Meeting als Bot beizutreten. Das ist eine andere Aufgabe als eine aufgezeichnete Vorlesung, ein YouTube-Tutorial oder ein Video auf einer Uni-Plattform zu transkribieren, genau das, was die meisten Studierenden eigentlich brauchen. Diese Anleitung vergleicht die wichtigsten Optionen bei dem, was für Vorlesungsnotizen zählt: Funktioniert es bei einer Aufnahme, nicht nur bei einem Live-Call.",
+  "sections": [
+    {
+      "id": "what-is-ai-note-taker",
+      "h2": "Was ist ein KI-Notizenassistent, und welche Art brauchen Studierende?",
+      "body": "KI-Notizenassistenten lassen sich in zwei Kategorien einteilen. Die erste sind Meeting-Bots, Tools wie Otter.ai und Fireflies, die einem Zoom- oder Google-Meet-Call als Teilnehmer beitreten und mitschreiben, was gesagt wird. Sie sind für Live-Meetings gebaut und funktionieren dafür gut, können aber keiner bereits aufgezeichneten Vorlesung beitreten oder ein YouTube-Video transkribieren.\n\nDie zweite Kategorie ist browserbasierte Transkription, Tools wie LessonScriptor, die den Ton von allem erfassen, was in einem Chrome-Tab läuft, egal ob Live-Call oder aufgezeichnetes Video. Für Vorlesungen speziell, von denen die meisten aufgezeichnet sind, auf Panopto, Canvas, YouTube oder einer eigenen Uni-Plattform, ist das die Kategorie, die wirklich hilft."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "KI-Notizenassistenten im Vergleich für Vorlesungen",
+      "body": "So schneiden die wichtigsten Optionen bei dem ab, was für Vorlesungsnotizen speziell zählt.",
+      "table": {
+        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "rows": [
+          ["Funktioniert bei aufgezeichneten Vorlesungen", "Ja, jedes Video in Chrome", "Nein, nur Live-Meetings", "Nein, nur Live-Meetings", "Eingeschränkt"],
+          ["Funktioniert bei YouTube", "Ja", "Nein", "Nein", "Nein"],
+          ["Preis", "Kostenlos, KI-Modus ab $5 einmalig", "Etwa $17/Monat", "Etwa $10/Monat", "Etwa $8-9/Monat"],
+          ["Bearbeitbares Transkript", "Ja, live im Panel", "Ja", "Ja", "Ja"],
+          ["Konto nötig", "Nein, für den kostenlosen Modus", "Ja", "Ja", "Ja"],
+          ["Sprachen", "14", "Hauptsächlich Englisch", "Hauptsächlich Englisch", "50+"]
+        ]
+      }
+    },
+    {
+      "id": "why-lessonscriptor-for-lectures",
+      "h2": "Warum LessonScriptor besser für Vorlesungsnotizen funktioniert",
+      "body": "Die Lücke bei Meeting-Bot-Tools liegt nicht an der Genauigkeit, sondern an der Abdeckung. Die Woche eines Studierenden besteht größtenteils aus aufgezeichnetem Inhalt: eine Panopto-Aufnahme eines Professors, ein als Hausaufgabe zugewiesenes YouTube-Erklärvideo, ein Coursera-Video. Ein Tool, das für Live-Calls gebaut ist, läuft bei nichts davon einfach nicht.\n\nLessonScriptor transkribiert alles, was im Tab läuft, Live-Unterricht oder aufgezeichnetes Video, mit demselben kostenlosen Modus und ohne monatliches Limit. Das Transkript lässt sich schon während des Aufbaus bearbeiten, sodass der größte Teil des Aufräumens, die Schlüsselzeile fett markieren, einen Begriff fett setzen, eine Überschrift hinzufügen, passiert, bevor das Video überhaupt zu Ende ist."
+    },
+    {
+      "id": "adhd-bridge",
+      "h2": "KI-Notizen und ADHS",
+      "body": "Gleichzeitig zu schreiben und zuzuhören teilt die Aufmerksamkeit auf eine Weise, die bei ADHS besonders schwerfällt. Das Schreiben an ein Transkript abzugeben, das sich von selbst aufbaut, hebt diese Aufteilung komplett auf und lässt den Arbeitsspeicher frei, um einfach der Vorlesung zu folgen.",
+      "internal_links": [
+        { "text": "Bester KI-Notizenassistent für ADHS-Studierende", "url": "/blog/best-ai-note-taker-adhd" },
+        { "text": "Die ADHS-Notiztechnik", "url": "/blog/adhd-note-taking-template" }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Was ist der beste kostenlose KI-Notizenassistent für Studierende?",
+        "a": "Der kostenlose Modus von LessonScriptor braucht kein Konto und hat kein monatliches Limit, und funktioniert sowohl bei Live-Unterricht als auch bei aufgezeichneten Vorlesungsvideos. Meeting-Bot-Tools wie Otter.ai und Fireflies haben auch kostenlose Stufen, sind aber nur für Live-Meetings gebaut."
+      },
+      {
+        "q": "Funktioniert ein KI-Notizenassistent bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
+        "a": "Das hängt vom Tool ab. Meeting-Bots (Otter.ai, Fireflies) treten Live-Calls als Teilnehmer bei und können nichts transkribieren, das bereits aufgezeichnet ist. LessonScriptor transkribiert jedes Video, das in einem Chrome-Tab läuft, live oder aufgezeichnet."
+      },
+      {
+        "q": "Brauche ich ein Konto, um LessonScriptor zu nutzen?",
+        "a": "Nein. Der kostenlose Modus braucht überhaupt keine Anmeldung. Falls Sie ein KI-Modus-Guthabenpaket für bessere Genauigkeit kaufen, bekommen Sie einen Lizenzschlüssel per E-Mail, ohne Konto oder Login."
+      },
+      {
+        "q": "Wird der Ton von Studierenden oder Vorlesungen irgendwohin gesendet?",
+        "a": "Im kostenlosen Modus verlässt nichts Ihren Computer, die Transkription läuft lokal über die Spracherkennung Ihres Browsers. Im KI-Modus wird Ton in kurzen Abschnitten an ein Cloud-Transkriptionsmodell gesendet und nicht gespeichert."
+      },
+      {
+        "q": "Welcher KI-Notizenassistent unterstützt die meisten Sprachen?",
+        "a": "Notta deckt mit 50+ Sprachen die breiteste Auswahl ab. LessonScriptor unterstützt 14, darunter Französisch, Spanisch, Portugiesisch, Deutsch, Arabisch und Hindi, was die meisten Vorlesungssprachen an Universitäten abdeckt."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Der KI-Notizenassistent, der auch bei Aufnahmen funktioniert",
+    "body": "Falls die meisten Ihrer Vorlesungen aufgezeichnet statt live sind, ist LessonScriptor genau dafür gebaut: Es transkribiert alles, was in Ihrem Chrome-Tab läuft, Unterricht oder Aufnahme, mit bearbeitbarem Transkript und ohne monatliches Limit im kostenlosen Modus.",
+    "internal_links": [
+      { "text": "Den vollständigen Transkriptions-Workflow ansehen", "url": "/transcribe-video-to-text" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
+        "description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten. Sehen Sie, welcher bei aufgezeichneten Vorlesungen funktioniert, nicht nur bei Live-Meetings.",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          { "@type": "Person", "name": "Victoria", "description": "Anthropologie-Studentin mit ADHS", "url": "https://lessonscriptor.com" },
+          { "@type": "Person", "name": "Pierre Girardot", "description": "Entwicklung & SEO", "url": "https://lessonscriptor.com" }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Was ist der beste kostenlose KI-Notizenassistent für Studierende?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Der kostenlose Modus von LessonScriptor braucht kein Konto und hat kein monatliches Limit, und funktioniert sowohl bei Live-Unterricht als auch bei aufgezeichneten Vorlesungsvideos." }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktioniert ein KI-Notizenassistent bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Das hängt vom Tool ab. Meeting-Bots wie Otter.ai und Fireflies treten Live-Calls als Teilnehmer bei und können nichts transkribieren, das bereits aufgezeichnet ist. LessonScriptor transkribiert jedes Video, das in einem Chrome-Tab läuft, live oder aufgezeichnet." }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Der beste KI-Notizenassistent für Vorlesungen", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/best-ai-note-taker-adhd",
+      "/blog/otter-ai-alternative-for-students",
+      "/blog/neurodivergent-study-tools"
+    ]
+  }
+}

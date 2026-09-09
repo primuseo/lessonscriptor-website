@@ -22,6 +22,10 @@ export const BLOG_SLUGS = [
   'how-to-download-youtube-transcript',
   // Teacher cluster
   'zoom-google-meet-transcript-for-students',
+  // Phase D content briefs
+  'transcribe-youtube-video-to-text',
+  'zoom-meeting-transcription-free',
+  'ai-note-taker-for-lectures',
 ] as const
 
 export type BlogSlug = (typeof BLOG_SLUGS)[number]

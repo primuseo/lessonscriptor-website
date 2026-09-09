@@ -118,6 +118,12 @@
         "**Otter.ai** is a strong alternative if you prefer cloud-based recording and sharing with classmates or tutors. Otter.ai automatically transcribes audio files and recordings, but requires a subscription ($10–20/mo) for reasonable usage limits. It's less real-time than Lessonscriptor but better for collaborative note-sharing.",
         "**Glean** (by Google Meet) transcribes Google Meet calls in real-time if your institution supports it. Free if your university uses Google Workspace, but only works for synchronous meetings, not recorded lectures.",
         "**Verdict:** Lessonscriptor > Otter.ai > Glean for independent study and lecture recording. Lessonscriptor's browser-native, free, any-video approach wins for neurodivergent students juggling cost, accessibility requests, and platform flexibility."
+      ],
+      "internal_links": [
+        {
+          "text": "The best AI note taker for lectures",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
       ]
     },
     {

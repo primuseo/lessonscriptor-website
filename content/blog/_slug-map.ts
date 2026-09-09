@@ -162,6 +162,31 @@ export const SLUG_MAP: Record<string, Record<string, string>> = {
     de: 'zoom-google-meet-transkript-studenten',
     zh: 'zoom-google-meet-zhuanlu-xuesheng',
   },
+  // Phase D content briefs
+  'transcribe-youtube-video-to-text': {
+    en: 'transcribe-youtube-video-to-text',
+    fr: 'transcrire-video-youtube-en-texte',
+    es: 'transcribir-video-youtube-a-texto',
+    pt: 'transcrever-video-youtube-em-texto',
+    de: 'youtube-video-in-text-umwandeln-transkript',
+    zh: 'youtube-shipin-zhuanwenzi',
+  },
+  'zoom-meeting-transcription-free': {
+    en: 'zoom-meeting-transcription-free',
+    fr: 'transcription-reunion-zoom-gratuite',
+    es: 'transcripcion-reunion-zoom-gratis',
+    pt: 'transcricao-reuniao-zoom-gratis',
+    de: 'zoom-meeting-transkription-kostenlos',
+    zh: 'zoom-huiyi-zhuanlu-mianfei',
+  },
+  'ai-note-taker-for-lectures': {
+    en: 'ai-note-taker-for-lectures',
+    fr: 'meilleur-preneur-de-notes-ia-cours',
+    es: 'mejor-tomador-de-notas-ia-clases',
+    pt: 'melhor-anotador-ia-aulas',
+    de: 'bester-ki-notizenassistent-vorlesungen',
+    zh: 'zuijia-ai-biji-gongju-jiangke',
+  },
 }
 
 export function getLocalizedSlug(canonicalSlug: string, locale: string): string {

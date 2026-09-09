@@ -1,0 +1,271 @@
+{
+  "slug": "ai-note-taker-for-lectures",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "最佳课堂 AI 笔记工具（免费，Chrome 版）",
+  "reading_time_min": 8,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "最佳课堂 AI 笔记工具（免费，Chrome 版）",
+    "description": "对比 LessonScriptor、Otter.ai、Fireflies 和 Notta 这几款 AI 笔记工具，看看哪一款真正能处理录制的课堂讲座，而不只是实时会议。",
+    "keywords": [
+      "ai note taker for students",
+      "best ai note taker for students",
+      "ai note taking app for students free",
+      "ai note taker for college students"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/zh/blog/zuijia-ai-biji-gongju-jiangke",
+    "og_title": "最佳课堂 AI 笔记工具（免费，Chrome 版）",
+    "og_description": "对比 LessonScriptor、Otter.ai、Fireflies 和 Notta 这几款用于课堂讲座的 AI 笔记工具。",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "关键要点",
+    "lead": "大多数 AI 笔记工具是为实时会议设计的，不是为录制的课堂讲座设计的。LessonScriptor 两者都能处理：只要是在 Chrome 标签页里播放的内容，不管实时还是录制，它都能转录。",
+    "bullets": [
+      "以会议机器人形式工作的笔记工具（Otter.ai、Fireflies）会作为参会者加入通话。它们对课堂录像、YouTube 视频，或大学平台上的视频都没有帮助。",
+      "LessonScriptor 能转录任何在 Chrome 标签页里播放的音频：实时的 Zoom 或 Meet 会议、Panopto 或 Canvas 上录制的课堂讲座、YouTube 视频。",
+      "免费模式不需要账户，也没有月度上限。AI 模式是按次付费的额度包，对口音和专业词汇的识别更准确，不是订阅制。",
+      "转录文本在生成过程中就是一个真正可编辑的文档，而不是一份静态导出：高亮、加粗、添加标题，然后导出为 .md 或 .txt。"
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "LessonScriptor 免费模式的月度上限"
+    },
+    {
+      "number": "14",
+      "label": "支持的语言数量，包括法语、西班牙语、阿拉伯语和印地语"
+    },
+    {
+      "number": "2",
+      "label": "种导出格式（.txt 和 .md），另外还能复制到剪贴板"
+    }
+  ],
+  "intro": "课堂讲座最佳的 AI 笔记工具是 LessonScriptor，一款免费的 Chrome 扩展程序，能转录浏览器标签页里播放的任何视频，不管是实时还是录制的，并把它变成可编辑的转录文本。大多数知名的 AI 笔记工具，包括 Otter.ai 和 Fireflies，都是为了作为机器人加入实时会议而设计的。这和转录已录制的讲座、YouTube 教学视频，或大学平台上的视频完全是两码事，而后者才是大多数学生真正需要的。这篇文章围绕对课堂笔记真正重要的一点来对比这些主流选项：能不能处理录制内容，而不只是实时通话。",
+  "sections": [
+    {
+      "id": "what-is-ai-note-taker",
+      "h2": "什么是 AI 笔记工具，学生需要哪一种？",
+      "body": "AI 笔记工具大致分成两类。第一类是会议机器人，像 Otter.ai 和 Fireflies 这样的工具，会作为参会者加入 Zoom 或 Google Meet 通话并记录发言。它们是为实时会议设计的，在这方面表现不错，但没法加入一场已经录制好的讲座，也没法转录 YouTube 视频。\n\n第二类是基于浏览器的转录工具，像 LessonScriptor 这样，能捕捉 Chrome 标签页里正在播放的任何音频，不管是实时通话还是录制视频。对于大多数是录制形式的课堂讲座，比如 Panopto、Canvas、YouTube 或大学自己的平台上的内容，真正能帮上忙的就是这一类。"
+    },
+    {
+      "id": "comparison-table",
+      "h2": "面向课堂使用场景的 AI 笔记工具对比",
+      "body": "以下是主流选项在课堂笔记这个具体场景下的对比。",
+      "table": {
+        "headers": [
+          "",
+          "LessonScriptor",
+          "Otter.ai",
+          "Fireflies.ai",
+          "Notta"
+        ],
+        "rows": [
+          [
+            "能处理录制的课堂讲座",
+            "是，Chrome 中的任何视频",
+            "否，仅限实时会议",
+            "否，仅限实时会议",
+            "有限"
+          ],
+          [
+            "能处理 YouTube 视频",
+            "是",
+            "否",
+            "否",
+            "否"
+          ],
+          [
+            "价格",
+            "免费，AI 模式一次性 5 美元起",
+            "每月约 17 美元",
+            "每月约 10 美元",
+            "每月约 8-9 美元"
+          ],
+          [
+            "转录内容可编辑",
+            "是，在侧边栏里实时编辑",
+            "是",
+            "是",
+            "是"
+          ],
+          [
+            "需要账户",
+            "否，免费模式不需要",
+            "是",
+            "是",
+            "是"
+          ],
+          [
+            "支持语言",
+            "14 种",
+            "主要是英语",
+            "主要是英语",
+            "50 种以上"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "why-lessonscriptor-for-lectures",
+      "h2": "为什么 LessonScriptor 更适合课堂笔记",
+      "body": "会议机器人工具的短板不在准确率，而在覆盖范围。学生一周接触的内容大多是录制的：教授的 Panopto 录像、布置的 YouTube 讲解视频作业、Coursera 上的课程视频。一款为加入实时通话而设计的工具，对这些内容根本无能为力。\n\nLessonScriptor 能转录标签页里正在播放的任何内容，不管是实时课堂还是录制视频，都用同一个免费模式，也没有月度限制。转录文本在生成过程中就可以编辑，所以大部分整理工作，比如高亮重点句子、给术语加粗、添加标题，在视频还没播完之前就能做完。"
+    },
+    {
+      "id": "adhd-bridge",
+      "h2": "AI 笔记与 ADHD",
+      "body": "同时听讲和书写，会把注意力分散开来，这对 ADHD 患者来说尤其困难。把书写这件事交给自动生成的转录文本，就完全消除了这种分散，让工作记忆可以专心跟着讲座走。",
+      "internal_links": [
+        {
+          "text": "ADHD 学生的最佳 AI 笔记工具",
+          "url": "/blog/best-ai-note-taker-adhd"
+        },
+        {
+          "text": "ADHD 笔记模板",
+          "url": "/blog/adhd-note-taking-template"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "常见问题",
+    "items": [
+      {
+        "q": "学生用什么免费 AI 笔记工具最好？",
+        "a": "LessonScriptor 的免费模式不需要账户，也没有月度上限，实时课堂和录制的讲座视频都能处理。Otter.ai 和 Fireflies 这类会议机器人工具也有免费版，但它们只是为实时会议设计的。"
+      },
+      {
+        "q": "AI 笔记工具能处理录制的课堂讲座吗，而不只是实时通话？",
+        "a": "这取决于具体工具。会议机器人（Otter.ai、Fireflies）是作为参会者加入实时通话的，没法转录已经录制好的内容。LessonScriptor 能转录 Chrome 标签页里播放的任何视频，不管是实时还是录制的。"
+      },
+      {
+        "q": "使用 LessonScriptor 需要账户吗？",
+        "a": "不需要。免费模式完全不用注册。如果你购买 AI 模式的额度包以获得更高准确率，你会收到一封邮件里的许可证密钥，不需要账户或登录。"
+      },
+      {
+        "q": "学生或讲座的音频会被发送到别的地方吗？",
+        "a": "在免费模式下，任何内容都不会离开你的电脑，转录完全通过浏览器的语音引擎在本地运行。在 AI 模式下，音频会以短片段的形式发送给云端转录模型，且不会被存储。"
+      },
+      {
+        "q": "哪款 AI 笔记工具支持的语言最多？",
+        "a": "Notta 覆盖的语言范围最广，超过 50 种。LessonScriptor 支持 14 种，包括法语、西班牙语、葡萄牙语、德语、阿拉伯语和印地语，已经覆盖了大多数大学讲座使用的语言。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "同样能处理录制内容的 AI 笔记工具",
+    "body": "如果你大多数的课都是录制的而不是实时的，LessonScriptor 正是为此而生：它能转录 Chrome 标签页里播放的任何内容，不管是课堂还是录像，转录文本可编辑，免费模式也没有月度上限。",
+    "internal_links": [
+      {
+        "text": "查看完整的转录工作流程",
+        "url": "/transcribe-video-to-text"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "最佳课堂 AI 笔记工具（免费，Chrome 版）",
+        "description": "对比 LessonScriptor、Otter.ai、Fireflies 和 Notta 这几款 AI 笔记工具，看看哪一款能处理录制的课堂讲座，而不只是实时会议。",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "患有 ADHD 的人类学学生",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "开发者兼 SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "学生用什么免费 AI 笔记工具最好？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "LessonScriptor 的免费模式不需要账户，也没有月度上限，实时课堂和录制的讲座视频都能处理。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "AI 笔记工具能处理录制的课堂讲座吗，而不只是实时通话？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "这取决于具体工具。像 Otter.ai 和 Fireflies 这样的会议机器人是作为参会者加入实时通话的，没法转录已经录制好的内容。LessonScriptor 能转录 Chrome 标签页里播放的任何视频，不管是实时还是录制的。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "博客",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "最佳课堂 AI 笔记工具",
+            "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures"
+          }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/best-ai-note-taker-adhd",
+      "/blog/otter-ai-alternative-for-students",
+      "/blog/neurodivergent-study-tools"
+    ]
+  }
+}

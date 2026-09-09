@@ -1,0 +1,170 @@
+{
+  "slug": "ai-note-taker-for-lectures",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "El mejor tomador de notas con IA para clases (gratis, en Chrome)",
+  "reading_time_min": 8,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "El mejor tomador de notas con IA para clases (gratis, en Chrome)",
+    "description": "Compara LessonScriptor, Otter.ai, Fireflies y Notta como tomadores de notas con IA. Descubre cuál funciona de verdad con clases grabadas, y no solo con reuniones en vivo.",
+    "keywords": ["tomador de notas ia para estudiantes", "mejor tomador de notas ia para estudiantes", "app de notas con ia para estudiantes gratis", "tomador de notas ia para universitarios"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/es/blog/mejor-tomador-de-notas-ia-clases",
+    "og_title": "El mejor tomador de notas con IA para clases (gratis, en Chrome)",
+    "og_description": "Compara LessonScriptor, Otter.ai, Fireflies y Notta como tomadores de notas con IA para clases.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria y Pierre crean LessonScriptor, una extensión de Chrome para transcribir vídeo en directo. Victoria estudia Antropología y tiene TDAH. Pierre se encarga del desarrollo y del SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Puntos clave",
+    "lead": "La mayoría de los tomadores de notas con IA están pensados para reuniones en vivo, no para clases grabadas. LessonScriptor sirve para ambos casos: transcribe cualquier cosa que se reproduzca en una pestaña de Chrome, en vivo o grabada.",
+    "bullets": [
+      "Los tomadores de notas tipo bot de reunión (Otter.ai, Fireflies) se unen a la llamada como un participante más. No sirven de nada con una clase grabada, un vídeo de YouTube, o un vídeo de la plataforma de la universidad.",
+      "LessonScriptor transcribe cualquier audio que se reproduzca en una pestaña de Chrome: una reunión en vivo de Zoom o Meet, una clase grabada en Panopto o Canvas, un vídeo de YouTube.",
+      "El modo gratuito no necesita cuenta ni tiene límite mensual. El modo IA es un paquete de créditos de pago por uso para mayor precisión con acentos y vocabulario técnico, no una suscripción.",
+      "La transcripción es un editor de verdad mientras se genera, no una exportación estática: resalta texto, pon negrita, añade títulos, y luego expórtala como .md o .txt."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "límite mensual en el modo gratuito de LessonScriptor" },
+    { "number": "14", "label": "idiomas disponibles, incluyendo francés, español, árabe e hindi" },
+    { "number": "2", "label": "formatos de exportación (.txt y .md), además de copiar al portapapeles" }
+  ],
+  "intro": "El mejor tomador de notas con IA para clases es LessonScriptor, una extensión gratuita de Chrome que transcribe cualquier vídeo reproducido en una pestaña del navegador, en vivo o grabado, y lo convierte en una transcripción editable. La mayoría de los tomadores de notas con IA más conocidos, entre ellos Otter.ai y Fireflies, están pensados para unirse a una reunión en vivo como un bot. Eso es un trabajo distinto a transcribir una clase grabada, un tutorial de YouTube, o un vídeo de la plataforma de una universidad, que es lo que la mayoría de los estudiantes realmente necesita. Esta guía compara las principales opciones en lo que de verdad importa para las notas de clase: si funciona con una grabación, y no solo con una llamada en vivo.",
+  "sections": [
+    {
+      "id": "what-is-ai-note-taker",
+      "h2": "¿Qué es un tomador de notas con IA, y cuál necesitan los estudiantes?",
+      "body": "Los tomadores de notas con IA se dividen en dos categorías. La primera son los bots de reunión, herramientas como Otter.ai y Fireflies que se unen a una llamada de Zoom o Google Meet como un participante más y graban lo que se dice. Están pensados para reuniones en vivo y funcionan bien para eso, pero no pueden unirse a una clase que ya está grabada, ni transcribir un vídeo de YouTube.\n\nLa segunda categoría es la transcripción desde el navegador, herramientas como LessonScriptor que captan el audio de lo que sea que se esté reproduciendo en una pestaña de Chrome, ya sea una llamada en vivo o un vídeo grabado. Para las clases en concreto, la mayoría de las cuales están grabadas, en Panopto, Canvas, YouTube, o la propia plataforma de la universidad, esta es la categoría que de verdad ayuda."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Comparación de tomadores de notas con IA para clases",
+      "body": "Así se comparan las principales opciones en lo que importa específicamente para las notas de clase.",
+      "table": {
+        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "rows": [
+          ["Funciona con clases grabadas", "Sí, cualquier vídeo en Chrome", "No, solo reuniones en vivo", "No, solo reuniones en vivo", "Limitado"],
+          ["Funciona con YouTube", "Sí", "No", "No", "No"],
+          ["Precio", "Gratis, modo IA desde $5 pago único", "Alrededor de $17/mes", "Alrededor de $10/mes", "Alrededor de $8-9/mes"],
+          ["Transcripción editable", "Sí, en vivo en el panel", "Sí", "Sí", "Sí"],
+          ["Requiere cuenta", "No, en modo gratuito", "Sí", "Sí", "Sí"],
+          ["Idiomas", "14", "Principalmente inglés", "Principalmente inglés", "50+"]
+        ]
+      }
+    },
+    {
+      "id": "why-lessonscriptor-for-lectures",
+      "h2": "Por qué LessonScriptor funciona mejor para las notas de clase",
+      "body": "El problema con las herramientas tipo bot de reunión no es la precisión, es la cobertura. La semana de un estudiante es sobre todo contenido grabado: la grabación de Panopto de un profesor, un vídeo explicativo de YouTube puesto de tarea, un vídeo de Coursera. Una herramienta pensada para unirse a llamadas en vivo simplemente no funciona con nada de eso.\n\nLessonScriptor transcribe lo que sea que se esté reproduciendo en la pestaña, clase en vivo o vídeo grabado, con el mismo modo gratuito y sin límite mensual. La transcripción se puede editar mientras se genera, así que la mayor parte del orden, resaltar la línea clave, poner un término en negrita, añadir un título, ocurre antes de que termine el vídeo."
+    },
+    {
+      "id": "adhd-bridge",
+      "h2": "Toma de notas con IA y TDAH",
+      "body": "Escribir y escuchar al mismo tiempo divide la atención de una forma especialmente difícil con TDAH. Dejar que una transcripción se genere sola en lugar de escribir elimina esa división por completo, y deja la memoria de trabajo libre para simplemente seguir la clase.",
+      "internal_links": [
+        { "text": "Mejor tomador de notas con IA para estudiantes con TDAH", "url": "/blog/best-ai-note-taker-adhd" },
+        { "text": "La plantilla de toma de notas para TDAH", "url": "/blog/adhd-note-taking-template" }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "Preguntas frecuentes",
+    "items": [
+      {
+        "q": "¿Cuál es el mejor tomador de notas con IA gratis para estudiantes?",
+        "a": "El modo gratuito de LessonScriptor no requiere cuenta ni tiene límite mensual, y funciona tanto con clases en vivo como con vídeos de clase grabados. Las herramientas tipo bot de reunión como Otter.ai y Fireflies también tienen planes gratuitos, pero están pensadas solo para reuniones en vivo."
+      },
+      {
+        "q": "¿Un tomador de notas con IA funciona con clases grabadas, y no solo con llamadas en vivo?",
+        "a": "Depende de la herramienta. Los bots de reunión (Otter.ai, Fireflies) se unen a llamadas en vivo como un participante más y no pueden transcribir algo que ya está grabado. LessonScriptor transcribe cualquier vídeo que se reproduzca en una pestaña de Chrome, en vivo o grabado."
+      },
+      {
+        "q": "¿Necesito una cuenta para usar LessonScriptor?",
+        "a": "No. El modo gratuito no requiere ningún registro. Si compras un paquete de créditos del modo IA para mayor precisión, recibes una clave de licencia por correo electrónico, sin cuenta ni inicio de sesión."
+      },
+      {
+        "q": "¿El audio del estudiante o de la clase se envía a algún lado?",
+        "a": "En modo gratuito, nada sale de tu computadora, la transcripción se ejecuta localmente a través del motor de voz del navegador. En modo IA, el audio se envía a un modelo de transcripción en la nube en fragmentos cortos y no se almacena."
+      },
+      {
+        "q": "¿Qué tomador de notas con IA admite más idiomas?",
+        "a": "Notta cubre el rango más amplio, con más de 50 idiomas. LessonScriptor admite 14, incluyendo francés, español, portugués, alemán, árabe e hindi, lo que cubre la mayoría de los idiomas de clases universitarias."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "El tomador de notas con IA que también funciona con grabaciones",
+    "body": "Si la mayoría de tus clases están grabadas en vez de ser en vivo, LessonScriptor está pensado para eso: transcribe lo que sea que se reproduzca en tu pestaña de Chrome, clase o grabación, con una transcripción editable y sin límite mensual en el modo gratuito.",
+    "internal_links": [
+      { "text": "Mira el flujo completo de transcripción", "url": "/transcribe-video-to-text" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "El mejor tomador de notas con IA para clases (gratis, en Chrome)",
+        "description": "Compara LessonScriptor, Otter.ai, Fireflies y Notta como tomadores de notas con IA. Descubre cuál funciona con clases grabadas, y no solo con reuniones en vivo.",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          { "@type": "Person", "name": "Victoria", "description": "Estudiante de Antropología con TDAH", "url": "https://lessonscriptor.com" },
+          { "@type": "Person", "name": "Pierre Girardot", "description": "Desarrollo y SEO", "url": "https://lessonscriptor.com" }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+        }
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Cuál es el mejor tomador de notas con IA gratis para estudiantes?",
+            "acceptedAnswer": { "@type": "Answer", "text": "El modo gratuito de LessonScriptor no requiere cuenta ni tiene límite mensual, y funciona tanto con clases en vivo como con vídeos de clase grabados." }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Un tomador de notas con IA funciona con clases grabadas, y no solo con llamadas en vivo?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Depende de la herramienta. Los bots de reunión como Otter.ai y Fireflies se unen a llamadas en vivo como un participante más y no pueden transcribir algo que ya está grabado. LessonScriptor transcribe cualquier vídeo que se reproduzca en una pestaña de Chrome, en vivo o grabado." }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "El mejor tomador de notas con IA para clases", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/best-ai-note-taker-adhd",
+      "/blog/otter-ai-alternative-for-students",
+      "/blog/neurodivergent-study-tools"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "slug": "zoom-meeting-transcription-free",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Como Transcrever uma Reunião do Zoom de Graça, Sem Precisar Gravar",
+  "reading_time_min": 7,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "Como Transcrever uma Reunião do Zoom de Graça, Sem Gravação",
+    "description": "Tenha a transcrição em texto de qualquer reunião do Zoom sem plano pago nem configuração de administrador. Funciona ao vivo ou em uma gravação, direto na sua aba do Chrome.",
+    "keywords": ["transcrição de reunião do zoom", "transcrição de reunião do zoom grátis", "transcrição de reunião do zoom com ia", "transcrição de reunião do zoom sem gravação"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/pt/blog/transcricao-reuniao-zoom-gratis",
+    "og_title": "Como Transcrever uma Reunião do Zoom de Graça, Sem Gravação",
+    "og_description": "Tenha a transcrição em texto de qualquer reunião do Zoom sem plano pago nem configuração de administrador.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Principais pontos",
+    "lead": "A transcrição nativa do Zoom precisa de um plano pago e de uma configuração de administrador ativada. O LessonScriptor transcreve qualquer reunião do Zoom direto da sua aba do Chrome, ao vivo ou gravada, sem precisar de nada disso.",
+    "bullets": [
+      "A transcrição de áudio do Zoom é um recurso da gravação em nuvem. Precisa de plano pago, gravação em nuvem ativada e uma configuração de administrador habilitada. Contas Free e Pro simplesmente não têm acesso a isso.",
+      "Desde maio de 2026, as legendas ao vivo do Zoom não podem mais ser salvas antes de você sair da reunião. O que você não copiar em tempo real, se perde.",
+      "O LessonScriptor roda na mesma aba do navegador onde está a reunião, entrando pelo link \"Participar pelo navegador\" do Zoom, e monta a transcrição conforme a reunião acontece.",
+      "Não precisa existir nenhuma gravação para isso funcionar. O modo grátis usa o seu microfone; nada é enviado para lugar nenhum."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "plano do Zoom necessário, o LessonScriptor funciona em qualquer conta" },
+    { "number": "14", "label": "idiomas suportados, incluindo francês, espanhol, árabe e hindi" },
+    { "number": "2", "label": "formatos de exportação (.txt e .md), além de copiar para a área de transferência" }
+  ],
+  "intro": "A forma mais rápida de transcrever uma reunião do Zoom de graça é o LessonScriptor, uma extensão do Chrome que transcreve a reunião conforme ela acontece na sua aba do navegador, sem gravação, sem plano pago, sem precisar de configuração de administrador. As ferramentas de transcrição do próprio Zoom existem, mas ficam atrás de um plano pago e de uma configuração de administrador da conta, e as legendas ao vivo não podem mais ser salvas depois que a reunião termina. Este guia mostra o que o Zoom oferece nativamente, onde ele deixa a desejar, e o fluxo de trabalho para transcrever uma reunião a partir de uma conta gratuita ou Pro."
+  ,
+  "sections": [
+    {
+      "id": "zoom-builtin-transcription",
+      "h2": "O Zoom tem transcrição de reunião nativa?",
+      "body": "Sim, mas com restrições. A transcrição de áudio do Zoom é gerada a partir de uma gravação em nuvem, o que exige um plano Business ou superior (pago), a gravação em nuvem ativada para a reunião, e um administrador da conta que tenha habilitado \"Transcrição de áudio\" nas configurações de Gravação. Se faltar qualquer um desses itens, e na maioria das contas Free ou Pro pelo menos um falta, não existe transcrição para baixar.\n\nAs legendas ao vivo são um recurso separado e funcionam em contas gratuitas, mas só enquanto a reunião está acontecendo. Desde maio de 2026, o Zoom removeu a opção de salvar a transcrição das legendas antes de sair da chamada. Assim que a reunião termina, as legendas somem junto."
+    },
+    {
+      "id": "how-to-transcribe-in-chrome",
+      "h2": "Como transcrever uma reunião do Zoom no Chrome",
+      "body": "O LessonScriptor roda na mesma aba do navegador onde está a reunião, nenhum bot entra na chamada e nada é instalado do lado do Zoom.",
+      "steps": [
+        "Instale o LessonScriptor na Chrome Web Store. Um clique, sem cadastro.",
+        "Entre na reunião do Zoom usando o link \"Participar pelo navegador\" em vez do aplicativo de desktop.",
+        "Clique no ícone do LessonScriptor para abrir o painel lateral e aperte Gravar.",
+        "A transcrição vai se formando no painel conforme a reunião acontece.",
+        "Depois da chamada, edite ali mesmo e exporte como .md ou .txt, ou copie para a área de transferência."
+      ]
+    },
+    {
+      "id": "without-recording",
+      "h2": "Transcrição do Zoom sem gravação",
+      "body": "Nada disso exige que exista uma gravação. O modo grátis do LessonScriptor usa o microfone do seu aparelho e o motor de reconhecimento de fala do próprio navegador, tudo local, sem conta, sem áudio enviado para lugar nenhum. Entre na reunião pelo Chrome, ative o LessonScriptor, e ele transcreve a conversa conforme suas caixas de som reproduzem o áudio, do mesmo jeito que uma legenda ao vivo faria, só que você fica com o texto depois e pode editá-lo."
+    },
+    {
+      "id": "recording-transcription",
+      "h2": "Transcrevendo uma gravação do Zoom",
+      "body": "Se já existir uma gravação, em nuvem ou local, o LessonScriptor funciona nela também. Abra o link da gravação em nuvem em uma aba do Chrome, ou abra um arquivo .mp4 baixado em uma aba do navegador, aperte o play, e a transcrição se forma do mesmo jeito que aconteceria em uma reunião ao vivo. Isso é útil para reuniões gravadas antes de você precisar do texto, ou para as que você não conseguiu acompanhar ao vivo."
+    },
+    {
+      "id": "free-vs-paid-comparison",
+      "h2": "Transcrição do Zoom grátis vs. paga",
+      "body": "O plano Business do Zoom fica na faixa de $13 a $15 por usuário por mês pelo recurso de transcrição. Veja como isso se compara com outras ferramentas que as pessoas costumam usar.",
+      "table": {
+        "headers": ["", "Zoom Business", "LessonScriptor", "Otter.ai"],
+        "rows": [
+          ["Preço", "Cerca de $13-15/mês por usuário", "Grátis (modo IA a partir de $5, pagamento único)", "Cerca de $17/mês"],
+          ["Precisa de configuração de administrador", "Sim", "Não", "Não"],
+          ["Funciona ao vivo na reunião", "Só legendas, não salvas", "Sim", "Sim"],
+          ["Funciona em gravação", "Só gravações em nuvem", "Qualquer gravação tocando no Chrome", "Limitado"],
+          ["Editável antes de compartilhar", "Não", "Sim, no painel", "Sim"]
+        ]
+      }
+    }
+  ],
+  "faq": {
+    "section_title": "Perguntas frequentes",
+    "items": [
+      {
+        "q": "Dá para transcrever uma reunião do Zoom de graça?",
+        "a": "Não pelo próprio Zoom, se você estiver em um plano Free ou Pro. A transcrição de áudio do Zoom exige plano Business ou superior mais uma configuração de administrador. O modo grátis do LessonScriptor transcreve qualquer reunião do Zoom direto da sua aba do Chrome, sem conta, sem precisar fazer upgrade de plano."
+      },
+      {
+        "q": "A transcrição do Zoom funciona sem gravar a reunião?",
+        "a": "A transcrição do próprio Zoom é gerada a partir de uma gravação em nuvem, então não, precisa existir uma gravação. O LessonScriptor não precisa, ele transcreve o áudio ao vivo diretamente conforme a reunião acontece."
+      },
+      {
+        "q": "Preciso de uma conta para usar o LessonScriptor?",
+        "a": "Não. O modo grátis não exige cadastro nenhum. Se você comprar um pacote de créditos do modo IA para mais precisão, você recebe uma chave de licença por email para colar na extensão, sem conta ou login."
+      },
+      {
+        "q": "Funciona se eu entrar no Zoom pelo aplicativo de desktop?",
+        "a": "O LessonScriptor transcreve áudio tocando em uma aba do Chrome, então entre pelo link \"Participar pelo navegador\" em vez do aplicativo de desktop para isso funcionar."
+      },
+      {
+        "q": "O áudio da reunião é enviado para algum lugar?",
+        "a": "No modo grátis, nada sai do seu computador, a transcrição roda localmente pelo motor de fala do navegador. No modo IA, o áudio é enviado para um modelo de transcrição na nuvem em pequenos trechos e não fica armazenado."
+      },
+      {
+        "q": "Funciona em outros idiomas além do inglês?",
+        "a": "Sim. O LessonScriptor transcreve em 14 idiomas, incluindo francês, espanhol, português, alemão, árabe e hindi. Defina o idioma nas configurações da extensão antes da reunião começar."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Uma transcrição do Zoom, sem precisar mudar de plano",
+    "body": "Seja a reunião agora ao vivo ou já gravada, o LessonScriptor transforma ela em uma transcrição editável direto da mesma aba do Chrome, sem configuração de administrador, sem precisar de gravação para começar.",
+    "internal_links": [
+      { "text": "Veja o fluxo completo de vídeo para texto", "url": "/transcribe-video-to-text" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Como Transcrever uma Reunião do Zoom de Graça, Sem Precisar Gravar",
+        "description": "Tenha a transcrição em texto de qualquer reunião do Zoom sem plano pago nem configuração de administrador. Funciona ao vivo ou em uma gravação, direto na sua aba do Chrome.",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          { "@type": "Person", "name": "Victoria", "description": "Estudante de Antropologia com TDAH", "url": "https://lessonscriptor.com" },
+          { "@type": "Person", "name": "Pierre Girardot", "description": "Desenvolvedor e SEO", "url": "https://lessonscriptor.com" }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+        }
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "Como transcrever uma reunião do Zoom no Chrome",
+        "step": [
+          { "@type": "HowToStep", "name": "Instalar", "text": "Instale o LessonScriptor na Chrome Web Store. Um clique, sem cadastro." },
+          { "@type": "HowToStep", "name": "Entrar pelo navegador", "text": "Entre na reunião do Zoom usando o link \"Participar pelo navegador\" em vez do aplicativo de desktop." },
+          { "@type": "HowToStep", "name": "Gravar", "text": "Clique no ícone do LessonScriptor, abra o painel lateral e aperte Gravar." },
+          { "@type": "HowToStep", "name": "Exportar", "text": "Edite a transcrição depois da chamada, depois exporte como .md ou .txt, ou copie para a área de transferência." }
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Dá para transcrever uma reunião do Zoom de graça?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Não pelo próprio Zoom, se você estiver em um plano Free ou Pro. A transcrição de áudio do Zoom exige plano Business ou superior mais uma configuração de administrador. O modo grátis do LessonScriptor transcreve qualquer reunião do Zoom direto da sua aba do Chrome, sem conta, sem precisar fazer upgrade de plano." }
+          },
+          {
+            "@type": "Question",
+            "name": "A transcrição do Zoom funciona sem gravar a reunião?",
+            "acceptedAnswer": { "@type": "Answer", "text": "A transcrição do próprio Zoom é gerada a partir de uma gravação em nuvem, então não, precisa existir uma gravação. O LessonScriptor não precisa, ele transcreve o áudio ao vivo diretamente conforme a reunião acontece." }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "Como Transcrever uma Reunião do Zoom de Graça", "item": "https://lessonscriptor.com/blog/zoom-meeting-transcription-free" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/best-speech-to-text-chrome-extensions",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

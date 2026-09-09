@@ -1,0 +1,294 @@
+{
+  "slug": "zoom-meeting-transcription-free",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "如何免费转录 Zoom 会议，无需录制",
+  "reading_time_min": 7,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "如何免费转录 Zoom 会议，无需录制",
+    "description": "不需要付费套餐或管理员设置，就能获得任何 Zoom 会议的文字转录。无论是实时会议还是录制视频，都能在你的 Chrome 标签页里直接完成。",
+    "keywords": [
+      "zoom meeting transcription",
+      "zoom meeting transcription free",
+      "zoom meeting transcription ai",
+      "zoom meeting transcription without recording"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/zh/blog/zoom-huiyi-zhuanlu-mianfei",
+    "og_title": "如何免费转录 Zoom 会议，无需录制",
+    "og_description": "不需要付费套餐或管理员设置，就能获得任何 Zoom 会议的文字转录。",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "关键要点",
+    "lead": "Zoom 自带的转录功能需要付费套餐和管理员开关。LessonScriptor 不需要这些，就能在你的 Chrome 标签页里转录任何 Zoom 会议，无论是实时还是录制的。",
+    "bullets": [
+      "Zoom 的音频转录是云录制的一项功能。它需要付费套餐、开启云录制，以及管理员启用相关设置。免费版和 Pro 账户根本用不了这个功能。",
+      "自 2026 年 5 月起，Zoom 的实时字幕在你离开会议前已经没法保存了。没有实时复制下来的内容，就永远消失了。",
+      "LessonScriptor 在你会议所在的浏览器标签页里运行，通过 Zoom 的「在浏览器中加入」链接进入会议，并在会议进行的同时生成转录文本。",
+      "不需要任何录制就能用。免费模式使用你的麦克风，不会上传任何内容。"
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "需要的 Zoom 套餐，LessonScriptor 在任何账户上都能用"
+    },
+    {
+      "number": "14",
+      "label": "支持的语言数量，包括法语、西班牙语、阿拉伯语和印地语"
+    },
+    {
+      "number": "2",
+      "label": "种导出格式（.txt 和 .md），另外还能复制到剪贴板"
+    }
+  ],
+  "intro": "免费转录 Zoom 会议最快的方法是 LessonScriptor，一款 Chrome 扩展程序，它在会议于你的浏览器标签页里进行时直接转录，不需要录制、不需要付费套餐、也不需要管理员设置。Zoom 自己也有转录工具，但需要付费套餐和账户管理员设置才能用，而且会议一结束，实时字幕就没法保存了。这篇文章介绍 Zoom 原生提供了什么、它的不足之处，以及用免费版或 Pro 账户转录会议的具体流程。",
+  "sections": [
+    {
+      "id": "zoom-builtin-transcription",
+      "h2": "Zoom 自带会议转录功能吗？",
+      "body": "有，但条件很苛刻。Zoom 的音频转录是从云录制生成的，这需要 Business 或更高级别的付费套餐、为该会议开启云录制，以及账户管理员在录制设置里启用「音频转录」。只要缺少其中任何一项，而大多数免费版或 Pro 账户至少会缺一项，就没有转录文本可以下载。\n\n实时字幕是另一项功能，免费账户也能用，但仅限会议进行期间。自 2026 年 5 月起，Zoom 取消了在离开通话前保存字幕转录的选项。会议一结束，字幕也就跟着消失了。"
+    },
+    {
+      "id": "how-to-transcribe-in-chrome",
+      "h2": "如何在 Chrome 中转录 Zoom 会议",
+      "body": "LessonScriptor 在会议所在的同一个浏览器标签页里运行，不会有机器人加入通话，Zoom 那边也不需要安装任何东西。",
+      "steps": [
+        "从 Chrome 网上应用店安装 LessonScriptor。一键安装，无需注册。",
+        "使用「在浏览器中加入」链接加入 Zoom 会议，而不是用桌面应用。",
+        "点击 LessonScriptor 图标打开侧边栏，然后点击录制。",
+        "转录文本会随着会议进行在侧边栏里生成。",
+        "通话结束后直接编辑，然后导出为 .md 或 .txt，或者复制到剪贴板。"
+      ]
+    },
+    {
+      "id": "without-recording",
+      "h2": "无需录制的 Zoom 转录",
+      "body": "这整个过程都不需要任何录制存在。LessonScriptor 的免费模式使用你设备的麦克风和浏览器自带的语音引擎，完全本地运行，无需注册，也不会发送任何音频。通过 Chrome 加入会议，启动 LessonScriptor，它就会在你的扬声器播放对话时进行转录，就像实时字幕一样，只不过之后你还能保留文字并进行编辑。"
+    },
+    {
+      "id": "recording-transcription",
+      "h2": "转录已录制的 Zoom 会议",
+      "body": "如果已经有录制内容了，不管是云端还是本地的，LessonScriptor 同样能处理。在 Chrome 标签页里打开云录制链接，或者在浏览器标签页里打开下载好的 .mp4 文件，按下播放键，转录文本会像处理实时会议一样生成。这对那些你后来才需要文字记录的会议，或者你没能实时参加的会议特别有用。"
+    },
+    {
+      "id": "free-vs-paid-comparison",
+      "h2": "免费与付费 Zoom 转录对比",
+      "body": "Zoom 的 Business 套餐要用到转录功能，每用户每月大约需要 13 到 15 美元。以下是它和其他几款常用工具的对比。",
+      "table": {
+        "headers": [
+          "",
+          "Zoom Business",
+          "LessonScriptor",
+          "Otter.ai"
+        ],
+        "rows": [
+          [
+            "价格",
+            "每用户每月约 13-15 美元",
+            "免费（AI 模式一次性 5 美元起）",
+            "每月约 17 美元"
+          ],
+          [
+            "需要管理员设置",
+            "是",
+            "否",
+            "否"
+          ],
+          [
+            "会议中实时可用",
+            "仅字幕，不能保存",
+            "是",
+            "是"
+          ],
+          [
+            "可处理录制内容",
+            "仅限云录制",
+            "任何在 Chrome 中播放的录制内容",
+            "有限"
+          ],
+          [
+            "分享前可编辑",
+            "否",
+            "是，在侧边栏里",
+            "是"
+          ]
+        ]
+      }
+    }
+  ],
+  "faq": {
+    "section_title": "常见问题",
+    "items": [
+      {
+        "q": "我可以免费转录 Zoom 会议吗？",
+        "a": "如果你用的是免费版或 Pro 套餐，Zoom 自己是做不到的。Zoom 的音频转录需要 Business 或更高套餐，再加上管理员设置。LessonScriptor 的免费模式可以在你的 Chrome 标签页里转录任何 Zoom 会议，不需要账户，也不需要升级套餐。"
+      },
+      {
+        "q": "不录制会议，Zoom 转录也能用吗？",
+        "a": "Zoom 自己的转录是从云录制生成的，所以不行，它需要先有录制内容存在。LessonScriptor 不需要，它会在会议进行时直接转录实时音频。"
+      },
+      {
+        "q": "使用 LessonScriptor 需要账户吗？",
+        "a": "不需要。免费模式完全不用注册。如果你购买 AI 模式的额度包以获得更高准确率，你会收到一封邮件里的许可证密钥，粘贴进扩展程序就行，不需要账户或登录。"
+      },
+      {
+        "q": "如果我通过桌面应用加入 Zoom，这个功能还能用吗？",
+        "a": "LessonScriptor 转录的是 Chrome 标签页里播放的音频，所以要用「在浏览器中加入」链接而不是桌面应用加入会议，这样才能正常工作。"
+      },
+      {
+        "q": "会议音频会被发送到别的地方吗？",
+        "a": "在免费模式下，任何内容都不会离开你的电脑，转录完全通过浏览器的语音引擎在本地运行。在 AI 模式下，音频会以短片段的形式发送给云端转录模型，且不会被存储。"
+      },
+      {
+        "q": "除了英语之外，其他语言也能用吗？",
+        "a": "可以。LessonScriptor 支持 14 种语言的转录，包括法语、西班牙语、葡萄牙语、德语、阿拉伯语和印地语。会议开始前先在扩展程序设置里选好语言。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "一份 Zoom 转录，无需升级套餐",
+    "body": "不管会议是正在进行还是已经录制完成，LessonScriptor 都能在同一个 Chrome 标签页里把它变成可编辑的转录文本，不需要管理员设置，也不需要先有录制才能开始。",
+    "internal_links": [
+      {
+        "text": "查看完整的视频转文字工作流程",
+        "url": "/transcribe-video-to-text"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "如何免费转录 Zoom 会议，无需录制",
+        "description": "不需要付费套餐或管理员设置，就能获得任何 Zoom 会议的文字转录。无论是实时会议还是录制视频，都能在你的 Chrome 标签页里直接完成。",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          {
+            "@type": "Person",
+            "name": "Victoria",
+            "description": "患有 ADHD 的人类学学生",
+            "url": "https://lessonscriptor.com"
+          },
+          {
+            "@type": "Person",
+            "name": "Pierre Girardot",
+            "description": "开发者兼 SEO",
+            "url": "https://lessonscriptor.com"
+          }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://lessonscriptor.com/logo.png",
+            "width": 600,
+            "height": 60
+          }
+        }
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "如何在 Chrome 中转录 Zoom 会议",
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "安装",
+            "text": "从 Chrome 网上应用店安装 LessonScriptor。一键安装，无需注册。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "在浏览器中加入",
+            "text": "使用「在浏览器中加入」链接加入 Zoom 会议，而不是用桌面应用。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "录制",
+            "text": "点击 LessonScriptor 图标，打开侧边栏，然后点击录制。"
+          },
+          {
+            "@type": "HowToStep",
+            "name": "导出",
+            "text": "通话结束后编辑转录文本，然后导出为 .md 或 .txt，或者复制到剪贴板。"
+          }
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "我可以免费转录 Zoom 会议吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "如果你用的是免费版或 Pro 套餐，Zoom 自己是做不到的。Zoom 的音频转录需要 Business 或更高套餐，再加上管理员设置。LessonScriptor 的免费模式可以在你的 Chrome 标签页里转录任何 Zoom 会议，不需要账户，也不需要升级套餐。"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "不录制会议，Zoom 转录也能用吗？",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Zoom 自己的转录是从云录制生成的，所以不行，它需要先有录制内容存在。LessonScriptor 不需要，它会在会议进行时直接转录实时音频。"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "首页",
+            "item": "https://lessonscriptor.com/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "博客",
+            "item": "https://lessonscriptor.com/blog"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "如何免费转录 Zoom 会议",
+            "item": "https://lessonscriptor.com/blog/zoom-meeting-transcription-free"
+          }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/best-speech-to-text-chrome-extensions",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

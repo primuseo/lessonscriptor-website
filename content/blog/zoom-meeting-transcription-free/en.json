@@ -1,0 +1,196 @@
+{
+  "slug": "zoom-meeting-transcription-free",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "How to Transcribe a Zoom Meeting for Free, No Recording Required",
+  "reading_time_min": 7,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "How to Transcribe a Zoom Meeting for Free, No Recording",
+    "description": "Get a text transcript of any Zoom meeting without a paid plan or admin setup. Works live or on a recording, right in your Chrome tab.",
+    "keywords": ["zoom meeting transcription", "zoom meeting transcription free", "zoom meeting transcription ai", "zoom meeting transcription without recording"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/en/blog/zoom-meeting-transcription-free",
+    "og_title": "How to Transcribe a Zoom Meeting for Free, No Recording",
+    "og_description": "Get a text transcript of any Zoom meeting without a paid plan or admin setup.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "Zoom's own transcription needs a paid plan and an admin toggle. LessonScriptor transcribes any Zoom meeting from your Chrome tab, live or recorded, without either.",
+    "bullets": [
+      "Zoom's audio transcript is a cloud-recording feature. It needs a paid plan, cloud recording turned on, and an admin setting enabled. Free and Pro accounts don't get it at all.",
+      "Since May 2026, Zoom's live captions can no longer be saved before you leave a meeting. What you don't copy in real time is gone.",
+      "LessonScriptor runs from the browser tab your meeting is in, joining via Zoom's \"Join from your browser\" link, and builds the transcript as the meeting happens.",
+      "No recording has to exist for this to work. The free mode uses your microphone; nothing is uploaded anywhere."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "Zoom plan required, LessonScriptor works from any account" },
+    { "number": "14", "label": "languages supported, including French, Spanish, Arabic and Hindi" },
+    { "number": "2", "label": "export formats (.txt and .md) plus copy to clipboard" }
+  ],
+  "intro": "The fastest way to transcribe a Zoom meeting for free is LessonScriptor, a Chrome extension that transcribes the meeting as it happens in your browser tab, no recording, no paid plan, no admin setup required. Zoom's own transcription tools exist, but they sit behind a paid plan and an account admin setting, and its live captions can no longer be saved once the meeting ends. This guide covers what Zoom offers natively, where it falls short, and the workflow for transcribing a meeting from a free or Pro account."
+  ,
+  "sections": [
+    {
+      "id": "zoom-builtin-transcription",
+      "h2": "Does Zoom have built-in meeting transcription?",
+      "body": "Yes, but it's gated. Zoom's audio transcript is generated from a cloud recording, which requires a Business plan or higher (paid), cloud recording turned on for the meeting, and an account admin who has enabled \"Audio transcript\" under Recording settings. If any one of those is missing, and on most free or Pro accounts at least one is, there's no transcript to download.\n\nLive captions are a separate feature and work on free accounts, but only while the meeting is running. Since May 2026, Zoom removed the option to save the caption transcript before leaving the call. Once the meeting ends, the captions are gone with it."
+    },
+    {
+      "id": "how-to-transcribe-in-chrome",
+      "h2": "How to transcribe a Zoom meeting in Chrome",
+      "body": "LessonScriptor runs in the same browser tab as the meeting, no bot joins the call and nothing is installed on the Zoom side.",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store. One click, no sign-up.",
+        "Join the Zoom meeting using the \"Join from your browser\" link instead of the desktop app.",
+        "Click the LessonScriptor icon to open the side panel and hit Record.",
+        "The transcript builds in the panel as the meeting happens.",
+        "After the call, edit in place, then export as .md or .txt, or copy to clipboard."
+      ]
+    },
+    {
+      "id": "without-recording",
+      "h2": "Zoom transcription without recording",
+      "body": "Nothing about this requires a recording to exist. LessonScriptor's free mode uses your device's microphone and your browser's built-in speech engine, fully local, no account, no audio sent anywhere. Join the meeting through Chrome, start LessonScriptor, and it transcribes the conversation as your speakers play it, the same way a live caption would, except you keep the text afterward and can edit it."
+    },
+    {
+      "id": "recording-transcription",
+      "h2": "Transcribing a Zoom recording instead",
+      "body": "If a recording already exists, cloud or local, LessonScriptor works on that too. Open the cloud recording link in a Chrome tab, or open a downloaded .mp4 file in a browser tab, press play, and the transcript builds the same way it would for a live meeting. This is useful for meetings recorded before you needed the text, or ones you weren't able to attend live."
+    },
+    {
+      "id": "free-vs-paid-comparison",
+      "h2": "Free vs paid Zoom transcription",
+      "body": "Zoom's Business plan runs in the range of $13 to $15 per user per month for the transcript feature. Here's how that compares to a couple of other tools people reach for.",
+      "table": {
+        "headers": ["", "Zoom Business", "LessonScriptor", "Otter.ai"],
+        "rows": [
+          ["Price", "Around $13-15/mo per user", "Free (AI mode from $5, one-time)", "Around $17/mo"],
+          ["Needs admin setup", "Yes", "No", "No"],
+          ["Works live in the meeting", "Captions only, not saved", "Yes", "Yes"],
+          ["Works on a recording", "Cloud recordings only", "Any recording playing in Chrome", "Limited"],
+          ["Editable before sharing", "No", "Yes, in the panel", "Yes"]
+        ]
+      }
+    }
+  ],
+  "faq": {
+    "section_title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Can I transcribe a Zoom meeting for free?",
+        "a": "Not from Zoom itself if you're on a Free or Pro plan. Zoom's audio transcript needs a Business plan or higher plus an admin setting. LessonScriptor's free mode transcribes any Zoom meeting from your Chrome tab, no account, no plan upgrade."
+      },
+      {
+        "q": "Does Zoom transcription work without recording the meeting?",
+        "a": "Zoom's own transcript is generated from a cloud recording, so no, it needs a recording to exist. LessonScriptor doesn't, it transcribes the live audio directly as the meeting happens."
+      },
+      {
+        "q": "Do I need an account to use LessonScriptor?",
+        "a": "No. Free mode has no signup at all. If you buy an AI mode credit pack for better accuracy, you get a license key by email to paste into the extension, no account or login."
+      },
+      {
+        "q": "Does it work if I join Zoom through the desktop app?",
+        "a": "LessonScriptor transcribes audio playing in a Chrome tab, so join via the \"Join from your browser\" link rather than the desktop app for this to work."
+      },
+      {
+        "q": "Is the meeting audio sent anywhere?",
+        "a": "In free mode, nothing leaves your computer, transcription runs locally through your browser's speech engine. In AI mode, audio is sent to a cloud transcription model in short chunks and is not stored."
+      },
+      {
+        "q": "Will it work in languages other than English?",
+        "a": "Yes. LessonScriptor transcribes in 14 languages, including French, Spanish, Portuguese, German, Arabic and Hindi. Set the language in the extension settings before the meeting starts."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "A Zoom transcript, no plan upgrade required",
+    "body": "Whether the meeting is happening right now or already recorded, LessonScriptor turns it into an editable transcript from the same Chrome tab, no admin setup, no recording required to get started.",
+    "internal_links": [
+      { "text": "See the full video-to-text workflow", "url": "/transcribe-video-to-text" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "How to Transcribe a Zoom Meeting for Free, No Recording Required",
+        "description": "Get a text transcript of any Zoom meeting without a paid plan or admin setup. Works live or on a recording, right in your Chrome tab.",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          { "@type": "Person", "name": "Victoria", "description": "Anthropology student with ADHD", "url": "https://lessonscriptor.com" },
+          { "@type": "Person", "name": "Pierre Girardot", "description": "Developer & SEO", "url": "https://lessonscriptor.com" }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+        }
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to transcribe a Zoom meeting in Chrome",
+        "step": [
+          { "@type": "HowToStep", "name": "Install", "text": "Install LessonScriptor from the Chrome Web Store. One click, no sign-up." },
+          { "@type": "HowToStep", "name": "Join in browser", "text": "Join the Zoom meeting using the \"Join from your browser\" link instead of the desktop app." },
+          { "@type": "HowToStep", "name": "Record", "text": "Click the LessonScriptor icon, open the side panel, and hit Record." },
+          { "@type": "HowToStep", "name": "Export", "text": "Edit the transcript after the call, then export as .md or .txt, or copy to clipboard." }
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can I transcribe a Zoom meeting for free?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Not from Zoom itself if you're on a Free or Pro plan. Zoom's audio transcript needs a Business plan or higher plus an admin setting. LessonScriptor's free mode transcribes any Zoom meeting from your Chrome tab, no account, no plan upgrade." }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Zoom transcription work without recording the meeting?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Zoom's own transcript is generated from a cloud recording, so no, it needs a recording to exist. LessonScriptor doesn't, it transcribes the live audio directly as the meeting happens." }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "How to Transcribe a Zoom Meeting for Free", "item": "https://lessonscriptor.com/blog/zoom-meeting-transcription-free" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/best-speech-to-text-chrome-extensions",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

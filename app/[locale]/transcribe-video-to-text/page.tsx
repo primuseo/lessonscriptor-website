@@ -213,7 +213,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
 
         {/* Related Posts */}
         <RelatedPosts
-          slugs={['how-to-download-youtube-transcript', 'how-to-transcribe-lecture-videos', 'best-speech-to-text-chrome-extensions']}
+          slugs={['transcribe-youtube-video-to-text', 'how-to-download-youtube-transcript', 'how-to-transcribe-lecture-videos']}
           locale={locale}
           heading={t('relatedHeading')}
           readMore={t('readMore')}

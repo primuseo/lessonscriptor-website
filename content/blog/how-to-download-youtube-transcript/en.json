@@ -177,7 +177,13 @@
     {
       "id": "when-transcript-unavailable",
       "h2": "Why is the YouTube transcript option not showing?",
-      "body": "The ⋯ → Show transcript option in YouTube is missing in three situations.\n\n**1. The channel has disabled captions.** Some channels, particularly those with copyrighted material or music-heavy content, disable automatic captions. Without captions, there is no transcript to display. In this case, LessonScriptor's microphone-based free mode is the only browser-based method that will produce a transcript — it transcribes the audio directly, independent of YouTube's caption system.\n\n**2. YouTube's ASR has not processed the video yet.** Newly uploaded videos take up to 24 hours for YouTube to generate auto-captions. If you're trying to transcribe a live event replay or a video uploaded within the last hour, the Show transcript option may not appear yet.\n\n**3. The video is in a language with limited ASR support.** YouTube's automatic captions cover about 60 languages, but accuracy and availability vary. Videos in languages with limited training data may not receive auto-generated captions at all.\n\nIn cases 1 and 3, LessonScriptor and any extension that relies on YouTube's caption data (NoteGPT, Tactiq) will fail — except LessonScriptor's microphone mode, which captures audio independently."
+      "body": "The ⋯ → Show transcript option in YouTube is missing in three situations.\n\n**1. The channel has disabled captions.** Some channels, particularly those with copyrighted material or music-heavy content, disable automatic captions. Without captions, there is no transcript to display. In this case, LessonScriptor's microphone-based free mode is the only browser-based method that will produce a transcript — it transcribes the audio directly, independent of YouTube's caption system.\n\n**2. YouTube's ASR has not processed the video yet.** Newly uploaded videos take up to 24 hours for YouTube to generate auto-captions. If you're trying to transcribe a live event replay or a video uploaded within the last hour, the Show transcript option may not appear yet.\n\n**3. The video is in a language with limited ASR support.** YouTube's automatic captions cover about 60 languages, but accuracy and availability vary. Videos in languages with limited training data may not receive auto-generated captions at all.\n\nIn cases 1 and 3, LessonScriptor and any extension that relies on YouTube's caption data (NoteGPT, Tactiq) will fail — except LessonScriptor's microphone mode, which captures audio independently.\n\nIf the video simply doesn't have captions at all, the full walkthrough for that workflow is here:",
+      "internal_links": [
+        {
+          "text": "How to transcribe a YouTube video to text",
+          "url": "/blog/transcribe-youtube-video-to-text"
+        }
+      ]
     }
   ],
   "cta": {

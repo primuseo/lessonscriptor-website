@@ -1,0 +1,205 @@
+{
+  "slug": "transcribe-youtube-video-to-text",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "So verwandeln Sie ein YouTube-Video in Text (kostenlos, Schritt für Schritt)",
+  "reading_time_min": 7,
+  "published_at": "2026-09-09",
+  "updated_at": "2026-09-09",
+  "meta": {
+    "title": "YouTube-Video in Text umwandeln, kostenlos",
+    "description": "Verwandeln Sie jedes YouTube-Video kostenlos in Text mit LessonScriptor. Keine Untertitel nötig, kein Upload, kein Konto. Installieren, Play drücken, in wenigen Minuten exportieren.",
+    "keywords": ["youtube video transkribieren", "youtube video transkription", "youtube video in text umwandeln", "youtube in text umwandeln"],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/de/blog/youtube-video-in-text-umwandeln-transkript",
+    "og_title": "YouTube-Video in Text umwandeln, kostenlos",
+    "og_description": "Verwandeln Sie jedes YouTube-Video kostenlos in Text. Keine Untertitel nötig, kein Upload, kein Konto.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für die Live-Transkription von Videos. Victoria studiert Anthropologie und lebt mit ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste in Kürze",
+    "lead": "YouTubes eigene Transkript-Funktion funktioniert nur, wenn der Uploader Untertitel aktiviert hat. LessonScriptor transkribiert den Ton direkt, also funktioniert es bei jedem Video, mit oder ohne Untertitel.",
+    "bullets": [
+      "YouTubes eingebautes Transkript (das \"...\"-Menü, dann \"Transkript anzeigen\") erscheint nur, wenn der Uploader Untertitel hinzugefügt hat. Automatisch erzeugte Untertitel sind mal gut, mal schlecht, und lassen sich nicht bearbeiten oder exportieren.",
+      "LessonScriptor hört sich den Ton des Videos direkt an. Es braucht dafür überhaupt keine Untertitel, genau die Lücke, an der jede andere Methode scheitert.",
+      "Der kostenlose Modus funktioniert sofort, ohne Konto, mit der eingebauten Spracherkennung Ihres Browsers. Der KI-Modus ist ein Pay-as-you-go-Guthabenpaket für bessere Genauigkeit bei Akzenten und Fachbegriffen.",
+      "Das Transkript lässt sich schon während des Aufbaus bearbeiten: markieren, fett setzen, Überschriften hinzufügen, dann als .md oder .txt exportieren oder direkt in Ihre Notizen-App kopieren."
+    ]
+  },
+  "stats": [
+    { "number": "0", "label": "Untertitel nötig, LessonScriptor transkribiert den Ton direkt" },
+    { "number": "14", "label": "unterstützte Sprachen, darunter Französisch, Spanisch, Arabisch und Hindi" },
+    { "number": "2", "label": "Exportformate (.txt und .md) plus Kopieren in die Zwischenablage" }
+  ],
+  "intro": "Der schnellste Weg, ein YouTube-Video in Text zu verwandeln, ist LessonScriptor, eine kostenlose Chrome-Erweiterung, die dem Video beim Abspielen zuhört und ein bearbeitbares Transkript in einem Seitenpanel aufbaut. YouTubes eigene Schaltfläche \"Transkript anzeigen\" erscheint nur, wenn der Uploader Untertitel hinzugefügt hat, und Copy-Paste von Auto-Untertiteln liefert Ihnen einen Textblock ohne Zeichensetzung oder Formatierung. Diese Anleitung zeigt drei Wege, ein YouTube-Video in Text zu verwandeln, und wann jeder davon wirklich funktioniert.",
+  "sections": [
+    {
+      "id": "three-ways",
+      "h2": "3 Wege, ein YouTube-Video in Text zu verwandeln",
+      "body": "**LessonScriptor (empfohlen).** Installieren Sie die Erweiterung, öffnen Sie das Video, drücken Sie Aufnahme. Sie hört sich den Ton direkt an und baut ein bearbeitbares Transkript in einem Seitenpanel auf, egal ob das Video Untertitel hat oder nicht.\n\n**YouTubes eingebautes Transkript.** Klicken Sie auf das Drei-Punkte-Menü unter dem Video, dann auf \"Transkript anzeigen\". Das erscheint nur, wenn der Uploader Untertitel aktiviert hat. Der Text hat keine Zeichensetzung, keine Absätze, und Sie können ihn nicht direkt bearbeiten oder markieren, dafür müssten Sie ihn erst kopieren.\n\n**Copy-Paste von Auto-Untertiteln.** YouTubes automatisch erzeugte Untertitel einzuschalten und den Text zu kopieren, funktioniert notfalls, aber Sie bekommen einen einzigen zusammenhängenden Textblock in Kleinschreibung mit Zeitstempeln dazwischen, und die Genauigkeit sinkt schnell bei Akzenten oder Fachvokabular."
+    },
+    {
+      "id": "how-to-steps",
+      "h2": "So transkribieren Sie ein YouTube-Video mit LessonScriptor",
+      "body": "Der ganze Vorgang läuft im selben Browser-Tab wie das Video.",
+      "steps": [
+        "Installieren Sie LessonScriptor aus dem Chrome Web Store. Ein Klick, keine Anmeldung.",
+        "Öffnen Sie das YouTube-Video in einem Chrome-Tab.",
+        "Klicken Sie auf das LessonScriptor-Symbol, um das Seitenpanel zu öffnen, und drücken Sie Aufnahme, bevor Sie auf Play drücken.",
+        "Drücken Sie Play. Das Transkript baut sich Wort für Wort auf, während das Video läuft.",
+        "Bearbeiten Sie direkt: markieren Sie wichtige Zeilen, setzen Sie Begriffe fett, fügen Sie bei jedem Themenwechsel eine Überschrift hinzu.",
+        "Exportieren Sie als .md oder .txt, oder kopieren Sie in die Zwischenablage und fügen Sie es in Ihre Notizen-App ein."
+      ]
+    },
+    {
+      "id": "no-captions",
+      "h2": "Was, wenn das YouTube-Video gar keine Untertitel hat?",
+      "body": "Das ist die eigentliche Lücke bei jeder anderen Methode. Bei älteren Uploads, kleineren Kanälen und vielen nicht-englischen Videos wurden nie Untertitel hinzugefügt, und die Qualität von YouTubes Auto-Untertiteln schwankt stark je nach Tonqualität und Akzent.\n\nLessonScriptor liest überhaupt keine Untertitel, es hört sich den Ton des Videos genauso an wie ein Mensch es tun würde. Das heißt, es funktioniert bei einem Video ohne Untertitel, mit fehlerhaften Untertiteln oder Untertiteln in der falschen Sprache genauso gut wie bei einem vollständig untertitelten Video."
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "h2": "Kostenloser Modus oder KI-Modus für YouTube-Videos?",
+      "body": "Der kostenlose Modus nutzt das Mikrofon Ihres Geräts und die eingebaute Spracherkennung Ihres Browsers, komplett lokal, ohne Anmeldung. Er funktioniert gut, wenn Sie das Video über Ihre Lautsprecher in vernünftiger Lautstärke abspielen. Falls Sie Kopfhörer tragen, oder der Sprecher einen starken Akzent hat oder viel Fachvokabular nutzt, erfasst der KI-Modus stattdessen den Ton des Tabs direkt, statt sich auf ein Mikrofon zu verlassen, und nutzt ein Cloud-Sprachmodell, das für höhere Genauigkeit unter diesen Bedingungen gebaut wurde. Der KI-Modus ist ein Pay-as-you-go-Guthabenpaket, kein Abo, und Guthaben verfällt nie."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "YouTube-Transkriptionsmethoden im Vergleich",
+      "body": "So schneiden die drei Methoden bei den Dingen ab, die wirklich zählen: Braucht es Untertitel, lässt es sich bearbeiten, und was bekommen Sie am Ende.",
+      "table": {
+        "headers": ["", "YouTubes Transkript-Schaltfläche", "Copy-Paste Auto-Untertitel", "LessonScriptor"],
+        "rows": [
+          ["Funktioniert ohne Untertitel", "Nein", "Nein", "Ja"],
+          ["Bearbeitbares Transkript", "Nein", "Nur nach dem Kopieren", "Ja, live im Panel"],
+          ["Exportformat", "Nicht eingebaut", "Reiner Text, keine Formatierung", ".txt, .md oder Zwischenablage"],
+          ["Wartezeit", "Keine, falls Untertitel vorhanden", "Keine, falls Untertitel vorhanden", "Keine"],
+          ["Sprachen", "Abhängig vom Uploader", "Abhängig von YouTubes Auto-Untertiteln", "14"]
+        ]
+      }
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "So lernen Sie mit einem YouTube-Transkript",
+      "body": "Sobald Sie den Text haben, gelten dieselben Bearbeitungsgewohnheiten wie bei einer Live-Vorlesung: Intro-Geplauder rausschneiden, alles fett markieren, was geprüft wird, pro Thema eine Überschrift hinzufügen. Falls Sie sich mit YouTube-Vorlesungen für einen Kurs durcharbeiten, verwandelt die Notiztechnik unten dieses Transkript in so etwas wie einen Lernleitfaden.",
+      "internal_links": [
+        { "text": "Wie man mit ADHS Notizen macht", "url": "/blog/how-to-take-notes-with-adhd" },
+        { "text": "Die ADHS-Notiztechnik", "url": "/blog/adhd-note-taking-template" }
+      ]
+    }
+  ],
+  "faq": {
+    "section_title": "Häufig gestellte Fragen",
+    "items": [
+      {
+        "q": "Kann ich ein YouTube-Video ohne Untertitel transkribieren?",
+        "a": "Ja. LessonScriptor hört sich den Ton des Videos direkt an, statt vorhandene Untertitel zu lesen, also funktioniert es bei Videos, die nie Untertitel bekommen haben, oder bei denen die Auto-Untertitel unzuverlässig sind."
+      },
+      {
+        "q": "Ist es legal, ein YouTube-Video für meine eigenen Notizen zu transkribieren?",
+        "a": "Ein Video für das persönliche Lernen zu transkribieren, genauso wie Sie beim Zuschauen handschriftliche Notizen machen würden, ist gängige Praxis. Falls Sie das Transkript selbst veröffentlichen oder weiterverbreiten möchten, prüfen Sie zuerst die Lizenz des Videos und YouTubes Nutzungsbedingungen."
+      },
+      {
+        "q": "Funktioniert LessonScriptor bei YouTube Shorts?",
+        "a": "Ja, solange das Video in einem Chrome-Tab läuft, transkribiert LessonScriptor den Ton genauso wie bei einem normalen Video."
+      },
+      {
+        "q": "Muss ich das Video erst herunterladen?",
+        "a": "Nein. LessonScriptor transkribiert den Ton live, während das Video in Ihrem Browser-Tab läuft. Es wird nichts heruntergeladen oder hochgeladen."
+      },
+      {
+        "q": "Funktioniert es auch in anderen Sprachen als Englisch?",
+        "a": "Ja. LessonScriptor transkribiert in 14 Sprachen, darunter Französisch, Spanisch, Portugiesisch, Deutsch, Arabisch und Hindi. Stellen Sie die Sprache in den Erweiterungseinstellungen ein, bevor Sie starten."
+      },
+      {
+        "q": "In welchem Format bekomme ich das Transkript?",
+        "a": "Exportieren Sie als Markdown (.md) oder reinen Text (.txt), oder kopieren Sie in die Zwischenablage und fügen Sie es in Notion, Google Docs oder eine beliebige Notizen-App ein. Überschriften, Fettdruck und Markierungen bleiben dabei erhalten."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Jedes YouTube-Video, verwandelt in Text",
+    "body": "Mit oder ohne Untertitel, LessonScriptor transkribiert den Ton direkt, während das Video läuft, und liefert Ihnen ein bearbeitbares Transkript, das Sie aufräumen und exportieren können, bevor das Video überhaupt zu Ende ist. Kostenlos zu installieren, kein Konto, funktioniert im selben Chrome-Tab, aus dem Sie ohnehin schon schauen.",
+    "internal_links": [
+      { "text": "Den vollständigen YouTube-Transkriptions-Workflow ansehen", "url": "/transcribe-video-to-text" }
+    ]
+  },
+  "schemas": [
+    {
+      "type": "Article",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "So verwandeln Sie ein YouTube-Video in Text (kostenlos, Schritt für Schritt)",
+        "description": "Verwandeln Sie jedes YouTube-Video kostenlos in Text mit LessonScriptor. Keine Untertitel nötig, kein Upload, kein Konto.",
+        "datePublished": "2026-09-09",
+        "dateModified": "2026-09-09",
+        "author": [
+          { "@type": "Person", "name": "Victoria", "description": "Anthropologie-Studentin mit ADHS", "url": "https://lessonscriptor.com" },
+          { "@type": "Person", "name": "Pierre Girardot", "description": "Entwicklung & SEO", "url": "https://lessonscriptor.com" }
+        ],
+        "publisher": {
+          "@type": "Organization",
+          "name": "LessonScriptor",
+          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+        }
+      }
+    },
+    {
+      "type": "HowTo",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "So transkribieren Sie ein YouTube-Video mit LessonScriptor",
+        "step": [
+          { "@type": "HowToStep", "name": "Installieren", "text": "Installieren Sie LessonScriptor aus dem Chrome Web Store. Ein Klick, keine Anmeldung." },
+          { "@type": "HowToStep", "name": "Video öffnen", "text": "Öffnen Sie das YouTube-Video in einem Chrome-Tab." },
+          { "@type": "HowToStep", "name": "Aufnehmen", "text": "Klicken Sie auf das LessonScriptor-Symbol, öffnen Sie das Seitenpanel, und drücken Sie Aufnahme, bevor Sie auf Play drücken." },
+          { "@type": "HowToStep", "name": "Exportieren", "text": "Bearbeiten Sie das Transkript, während es sich aufbaut, dann exportieren Sie es als .md oder .txt, oder kopieren Sie es in die Zwischenablage." }
+        ]
+      }
+    },
+    {
+      "type": "FAQPage",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Kann ich ein YouTube-Video ohne Untertitel transkribieren?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja. LessonScriptor hört sich den Ton des Videos direkt an, statt vorhandene Untertitel zu lesen, also funktioniert es bei Videos, die nie Untertitel bekommen haben, oder bei denen die Auto-Untertitel unzuverlässig sind." }
+          },
+          {
+            "@type": "Question",
+            "name": "Funktioniert LessonScriptor bei YouTube Shorts?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Ja, solange das Video in einem Chrome-Tab läuft, transkribiert LessonScriptor den Ton genauso wie bei einem normalen Video." }
+          }
+        ]
+      }
+    },
+    {
+      "type": "BreadcrumbList",
+      "content": {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://lessonscriptor.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
+          { "@type": "ListItem", "position": 3, "name": "So verwandeln Sie ein YouTube-Video in Text", "item": "https://lessonscriptor.com/blog/transcribe-youtube-video-to-text" }
+        ]
+      }
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/transcribe-video-to-text",
+    "related_posts": [
+      "/blog/how-to-download-youtube-transcript",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}
