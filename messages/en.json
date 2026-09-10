@@ -1092,7 +1092,8 @@
     "licenseLabel": "Your license key",
     "copyButton": "Copy",
     "copiedButton": "Copied!",
-    "noKey": "No license key found. Please check your email from LemonSqueezy.",
+    "checkingKey": "Checking your order…",
+    "noKey": "Setting up your credits — check your email in a moment for your license key.",
     "stepsHeading": "Activate your license in 4 steps",
     "steps": [
       {

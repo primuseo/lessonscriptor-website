@@ -1,7 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { Link } from '@/navigation'
-import CopyButton from '@/components/CopyButton'
+import ThankYouLicenseKey from '@/components/ThankYouLicenseKey'
 
 const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
 
@@ -27,14 +27,13 @@ export async function generateStaticParams() {
 
 interface Props {
   params: { locale: string }
-  searchParams: { license_key?: string }
+  searchParams: { session_id?: string }
 }
 
 export default async function ThankYouPage({ params: { locale }, searchParams }: Props) {
   unstable_setRequestLocale(locale)
   const t = await getTranslations('thankYou')
 
-  const licenseKey = searchParams.license_key ?? null
   const steps: { n: string; title: string; desc: string }[] = t.raw('steps') as { n: string; title: string; desc: string }[]
 
   return (
@@ -57,16 +56,13 @@ export default async function ThankYouPage({ params: { locale }, searchParams }:
         {/* License key box */}
         <div className="card p-6 mb-10">
           <p className="text-sm font-semibold text-foreground/60 mb-3">{t('licenseLabel')}</p>
-          {licenseKey ? (
-            <div className="flex items-center gap-3">
-              <code className="flex-1 bg-muted border border-border rounded-lg px-4 py-3 text-foreground font-mono text-sm break-all">
-                {licenseKey}
-              </code>
-              <CopyButton text={licenseKey} label={t('copyButton')} copiedLabel={t('copiedButton')} />
-            </div>
-          ) : (
-            <p className="text-foreground/60 italic text-sm">{t('noKey')}</p>
-          )}
+          <ThankYouLicenseKey
+            sessionId={searchParams.session_id ?? null}
+            copyButton={t('copyButton')}
+            copiedButton={t('copiedButton')}
+            checkingLabel={t('checkingKey')}
+            noKeyYetLabel={t('noKey')}
+          />
         </div>
 
         {/* Steps */}

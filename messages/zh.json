@@ -1104,7 +1104,8 @@
     "licenseLabel": "你的许可证密钥",
     "copyButton": "复制",
     "copiedButton": "已复制！",
-    "noKey": "未找到许可证密钥。请查看 LemonSqueezy 发送的邮件。",
+    "checkingKey": "正在核实您的订单……",
+    "noKey": "正在为您准备额度——请稍后查看邮箱以获取您的许可证密钥。",
     "stepsHeading": "4步激活你的许可证",
     "steps": [
       {
