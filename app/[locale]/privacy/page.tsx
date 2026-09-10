@@ -62,14 +62,14 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
           <h2 className="text-2xl font-bold text-foreground mb-4">{t('paymentsTitle')}</h2>
           <p>{t('paymentsBody1')}</p>
           <p>
-            {t('paymentsBody2')} <a href="https://www.lemonsqueezy.com/privacy" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">LemonSqueezy</a>.
+            {t('paymentsBody2')} <a href="https://stripe.com/privacy" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Stripe</a>.
           </p>
         </section>
 
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">{t('thirdParty')}</h2>
           <p><strong>Groq:</strong> {t('thirdPartyGroq')} <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Groq</a>.</p>
-          <p><strong>LemonSqueezy:</strong> {t('thirdPartyLemon')}</p>
+          <p><strong>Stripe:</strong> {t('thirdPartyStripe')}</p>
           <p><strong>Google Search Console:</strong> {t('thirdPartyGSC')}</p>
           <p>{t('thirdPartyNoShare')}</p>
         </section>
