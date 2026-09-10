@@ -274,8 +274,8 @@
         "Credits never expire — top up whenever you want",
         "10-min grace period if credits run out mid-lecture"
       ],
-      "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Lemon Squeezy at checkout.",
-      "paymentProcessor": "Payments processed securely by Lemon Squeezy.",
+      "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Stripe at checkout.",
+      "paymentProcessor": "Payments processed securely by Stripe.",
       "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters.",
       "installFreeBtn": "Install Free",
       "getAIBtn": "Get AI Hours →"

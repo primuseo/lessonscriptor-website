@@ -274,8 +274,8 @@
         "Guthaben verfällt nie — laden Sie auf, wann immer Sie möchten",
         "10-Minuten-Kulanz, wenn Ihr Guthaben mitten in der Vorlesung aufgebraucht ist"
       ],
-      "currencyDisclaimer": "Angezeigte Preise sind Schätzungen. Der endgültige Betrag wird beim Bezahlen von Lemon Squeezy zum aktuellen Wechselkurs umgerechnet.",
-      "paymentProcessor": "Zahlungen werden sicher über Lemon Squeezy abgewickelt.",
+      "currencyDisclaimer": "Angezeigte Preise sind Schätzungen. Der endgültige Betrag wird beim Bezahlen von Stripe zum aktuellen Wechselkurs umgerechnet.",
+      "paymentProcessor": "Zahlungen werden sicher über Stripe abgewickelt.",
       "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 € — weniger als ein Mensaessen pro Woche.",
       "installFreeBtn": "Kostenlos installieren",
       "getAIBtn": "KI-Stunden erhalten →"

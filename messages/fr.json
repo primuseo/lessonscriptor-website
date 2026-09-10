@@ -274,8 +274,8 @@
         "Les crédits n'expirent jamais — rechargez quand vous voulez",
         "10 min de grâce si vos crédits s'épuisent en plein cours"
       ],
-      "currencyDisclaimer": "Les prix affichés sont des estimations. Le montant final est converti au taux de change en vigueur par Lemon Squeezy lors du paiement.",
-      "paymentProcessor": "Paiements traités de manière sécurisée par Lemon Squeezy.",
+      "currencyDisclaimer": "Les prix affichés sont des estimations. Le montant final est converti au taux de change en vigueur par Stripe lors du paiement.",
+      "paymentProcessor": "Paiements traités de manière sécurisée par Stripe.",
       "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 3h/semaine coûte environ 21 $ — moins cher qu'un repas au CROUS par semaine.",
       "installFreeBtn": "Installer gratuitement",
       "getAIBtn": "Obtenir des heures IA →"

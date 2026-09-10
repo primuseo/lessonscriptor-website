@@ -274,8 +274,8 @@
         "Créditos nunca expiram — recarregue quando quiser",
         "10 min de tolerância se os créditos acabarem no meio da aula"
       ],
-      "currencyDisclaimer": "Os preços mostrados são estimativas. O valor final é convertido pela taxa de câmbio em tempo real pelo Lemon Squeezy no checkout.",
-      "paymentProcessor": "Pagamentos processados com segurança pelo Lemon Squeezy.",
+      "currencyDisclaimer": "Os preços mostrados são estimativas. O valor final é convertido pela taxa de câmbio em tempo real pelo Stripe no checkout.",
+      "paymentProcessor": "Pagamentos processados com segurança pelo Stripe.",
       "footnote": "Compre uma vez, use quando quiser. Um semestre inteiro com 3h/semana custa cerca de $21 — menos que um almoço no bandejão por semana.",
       "installFreeBtn": "Instalar grátis",
       "getAIBtn": "Obter horas IA →"

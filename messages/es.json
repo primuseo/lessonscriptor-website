@@ -274,8 +274,8 @@
         "Los créditos nunca caducan — recarga cuando quieras",
         "10 minutos de gracia si los créditos se agotan a mitad de clase"
       ],
-      "currencyDisclaimer": "Los precios mostrados son estimaciones. El importe final se convierte al tipo de cambio vigente por Lemon Squeezy en el momento del pago.",
-      "paymentProcessor": "Pagos procesados de forma segura por Lemon Squeezy.",
+      "currencyDisclaimer": "Los precios mostrados son estimaciones. El importe final se convierte al tipo de cambio vigente por Stripe en el momento del pago.",
+      "paymentProcessor": "Pagos procesados de forma segura por Stripe.",
       "footnote": "Compra una vez, úsalo cuando quieras. Un semestre completo a 3h/semana cuesta unos 21 € — menos que un menú del día por semana.",
       "installFreeBtn": "Instalar gratis",
       "getAIBtn": "Obtener horas IA →"

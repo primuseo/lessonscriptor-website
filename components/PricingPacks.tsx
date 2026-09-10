@@ -14,6 +14,8 @@ interface Props {
   packs: Pack[]
   currencyDisclaimer: string
   paymentProcessor: string
+  paymentLinkUrls: string[]
+  locale: string
 }
 
 const CURRENCIES: Record<string, { symbol: string; rate: number; decimals?: number; label: string }> = {
@@ -29,17 +31,13 @@ const CURRENCIES: Record<string, { symbol: string; rate: number; decimals?: numb
   TRY: { symbol: '₺', rate: 34.00, decimals: 0, label: 'Turkish Lira' },
 }
 
-// Individual per-pack checkout links were intermittently resolving to LemonSqueezy
-// test mode. Sending buyers to the store front (all three packs, live mode) avoids it.
-const STORE_URL = 'https://lesson-scriptor.lemonsqueezy.com/'
-
 function formatPrice(symbol: string, amount: number, forceDecimals?: number): string {
   const d = forceDecimals !== undefined ? forceDecimals : (amount >= 100 ? 0 : 2)
   const rounded = d > 0 ? amount.toFixed(d) : Math.round(amount).toString()
   return `${symbol}${rounded}`
 }
 
-export default function PricingPacks({ packs, currencyDisclaimer, paymentProcessor }: Props) {
+export default function PricingPacks({ packs, currencyDisclaimer, paymentProcessor, paymentLinkUrls, locale }: Props) {
   const [currency, setCurrency] = useState('USD')
   const { symbol, rate, decimals } = CURRENCIES[currency]
 
@@ -64,7 +62,7 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
         {packs.map((pack, i) => (
           <a
             key={i}
-            href={STORE_URL}
+            href={`${paymentLinkUrls[i]}?client_reference_id=${encodeURIComponent(locale)}`}
             target="_blank"
             rel="noopener noreferrer"
             className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent/30 transition-colors block no-underline ${

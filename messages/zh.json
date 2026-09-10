@@ -274,8 +274,8 @@
         "积分永不过期——随时充值",
         "积分用完时有 10 分钟缓冲期继续转录"
       ],
-      "currencyDisclaimer": "显示价格为估算值。最终金额由 Lemon Squeezy 在结账时按实时汇率换算。",
-      "paymentProcessor": "付款由 Lemon Squeezy 安全处理。",
+      "currencyDisclaimer": "显示价格为估算值。最终金额由 Stripe 在结账时按实时汇率换算。",
+      "paymentProcessor": "付款由 Stripe 安全处理。",
       "footnote": "一次购买，随时使用。按每周 3 小时计算，一整个学期仅需约 $21——比食堂一周午饭还便宜。",
       "installFreeBtn": "免费安装",
       "getAIBtn": "获取 AI 时长 →"

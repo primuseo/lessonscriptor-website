@@ -43,6 +43,12 @@ export default async function HomePage({ params: { locale } }: { params: { local
   const t = await getTranslations('home')
   const site = await getTranslations('site')
 
+  const paymentLinkUrls = [
+    process.env.STRIPE_PACK_STARTER_LINK_URL || '',
+    process.env.STRIPE_PACK_STUDENT_LINK_URL || '',
+    process.env.STRIPE_PACK_HEAVY_LINK_URL || '',
+  ]
+
   const websiteData = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
@@ -436,6 +442,8 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 packs={t.raw('pricing.packs')}
                 currencyDisclaimer={t('pricing.currencyDisclaimer')}
                 paymentProcessor={t('pricing.paymentProcessor')}
+                paymentLinkUrls={paymentLinkUrls}
+                locale={locale}
               />
 
               <ul className="flex flex-col gap-2 mb-6 pt-5 border-t border-white/[0.06] list-none p-0">
