@@ -49,3 +49,27 @@ describe('buildUnsubscribeUrl', () => {
     expect(url).toContain('locale=fr')
   })
 })
+
+describe('buildWelcomeEmail with a license key', () => {
+  it('includes the license key in both text and html when provided', () => {
+    const { text, html } = buildWelcomeEmail('en', 'Stephen', 'buyer@example.com', 'abc-123-key')
+    expect(text).toContain('abc-123-key')
+    expect(html).toContain('abc-123-key')
+  })
+
+  it('omits any key content when licenseKey is null', () => {
+    const { text } = buildWelcomeEmail('en', 'Stephen', 'buyer@example.com', null)
+    expect(text).not.toMatch(/license key/i)
+  })
+
+  it('omits any key content when licenseKey is not passed at all', () => {
+    const { text } = buildWelcomeEmail('en', 'Stephen', 'buyer@example.com')
+    expect(text).not.toMatch(/license key/i)
+  })
+
+  it('localizes the key line for fr', () => {
+    const { text } = buildWelcomeEmail('fr', 'Marie', 'marie@example.com', 'xyz-789')
+    expect(text).toContain('Votre clé de licence')
+    expect(text).toContain('xyz-789')
+  })
+})

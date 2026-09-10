@@ -18,6 +18,7 @@ interface Template {
   greetingAnon: string
   intro: string
   ready: string
+  keyIntro: string // contains {key}
   leadIn: string
   bullets: [string, string, string]
   replies: string
@@ -33,6 +34,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: 'Hi there,',
     intro: "Pierre and Victoria here — the two people behind LessonScriptor. Thank you so much for grabbing a Tab Audio credit pack. We're a tiny team, so every person who trusts us genuinely makes our week.",
     ready: "You're all set — your credits are ready whenever you are.",
+    keyIntro: 'Your license key: {key} — paste it into the LessonScriptor extension to activate AI transcription.',
     leadIn: "You've only just started, so we're not going to ask you for a review yet :) But we build this around what real users tell us, so keep this in the back of your mind:",
     bullets: [
       'Anything confusing or not working right? Just hit reply.',
@@ -50,6 +52,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: 'Bonjour,',
     intro: "Ici Pierre et Victoria — les deux personnes derrière LessonScriptor. Un immense merci d'avoir pris un pack de crédits Tab Audio. Nous sommes une toute petite équipe, alors chaque personne qui nous fait confiance nous touche vraiment.",
     ready: 'Tout est prêt — vos crédits vous attendent dès que vous le souhaitez.',
+    keyIntro: "Votre clé de licence : {key} — collez-la dans l'extension LessonScriptor pour activer la transcription IA.",
     leadIn: "Vous venez tout juste de commencer, donc on ne va pas vous demander un avis complet tout de suite :) Mais nous construisons LessonScriptor à partir des retours de nos utilisateurs, alors gardez ceci en tête :",
     bullets: [
       "Quelque chose n'est pas clair ou ne fonctionne pas comme prévu ? Répondez simplement à cet e-mail.",
@@ -67,6 +70,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: 'Hola:',
     intro: 'Somos Pierre y Victoria, las dos personas detrás de LessonScriptor. Muchísimas gracias por conseguir un paquete de créditos de Tab Audio. Somos un equipo muy pequeño, así que cada persona que confía en nosotros nos alegra el día.',
     ready: 'Ya está todo listo: tus créditos están disponibles cuando quieras.',
+    keyIntro: 'Tu clave de licencia: {key}. Pégala en la extensión de LessonScriptor para activar la transcripción con IA.',
     leadIn: 'Acabas de empezar, así que no vamos a pedirte una opinión completa todavía :) Pero construimos LessonScriptor a partir de lo que nos cuentan los usuarios reales, así que ten esto en mente:',
     bullets: [
       '¿Algo confuso o que no funciona como esperabas? Solo responde a este correo.',
@@ -84,6 +88,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: 'Hallo,',
     intro: 'Hier sind Pierre und Victoria – die zwei Menschen hinter LessonScriptor. Vielen Dank, dass du dir ein Tab-Audio-Guthabenpaket geholt hast. Wir sind ein winziges Team, deshalb freut uns jede Person, die uns vertraut, ganz besonders.',
     ready: 'Alles ist startklar – dein Guthaben steht bereit, wann immer du möchtest.',
+    keyIntro: 'Dein Lizenzschlüssel: {key} – füge ihn in die LessonScriptor-Erweiterung ein, um die KI-Transkription zu aktivieren.',
     leadIn: 'Du hast gerade erst angefangen, deshalb bitten wir dich noch nicht um eine Bewertung :) Aber wir entwickeln LessonScriptor auf Basis von echtem Nutzer-Feedback, also behalte das im Hinterkopf:',
     bullets: [
       'Etwas unklar oder funktioniert nicht wie erwartet? Antworte einfach auf diese E-Mail.',
@@ -101,6 +106,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: 'Olá,',
     intro: 'Aqui são Pierre e Victoria — as duas pessoas por trás do LessonScriptor. Muito obrigado por adquirir um pacote de créditos do Tab Audio. Somos uma equipe pequena, então cada pessoa que confia na gente alegra a nossa semana.',
     ready: 'Está tudo pronto — seus créditos estão disponíveis quando você quiser.',
+    keyIntro: 'A sua chave de licença: {key} — cole-a na extensão do LessonScriptor para ativar a transcrição por IA.',
     leadIn: 'Você acabou de começar, então não vamos pedir uma avaliação completa ainda :) Mas construímos o LessonScriptor com base no que os usuários reais nos contam, então guarde isto:',
     bullets: [
       'Algo confuso ou que não funciona como esperado? É só responder a este e-mail.',
@@ -118,6 +124,7 @@ const TEMPLATES: Record<Locale, Template> = {
     greetingAnon: '你好，',
     intro: '我们是 Pierre 和 Victoria——LessonScriptor 背后的两个人。非常感谢你购买 Tab Audio 额度包。我们是一个很小的团队，所以每一位信任我们的用户都让我们特别开心。',
     ready: '一切都已就绪——你的额度随时可以使用。',
+    keyIntro: '你的许可证密钥：{key}——请粘贴到 LessonScriptor 扩展程序中以启用 AI 转录。',
     leadIn: '你才刚刚开始，所以我们现在不会请你写评价 :) 但我们是根据真实用户的反馈来打造 LessonScriptor 的，所以请记住：',
     bullets: [
       '有什么让你困惑，或运行得不如预期？直接回复这封邮件就好。',
@@ -144,7 +151,8 @@ export function buildUnsubscribeUrl(email: string, locale: Locale): string {
 export function buildWelcomeEmail(
   rawLocale: unknown,
   name: string | null,
-  email: string
+  email: string,
+  licenseKey: string | null = null
 ): { subject: string; html: string; text: string } {
   const locale = resolveLocale(rawLocale)
   const t = TEMPLATES[locale]
@@ -152,6 +160,7 @@ export function buildWelcomeEmail(
   const greeting = trimmed ? t.greetingNamed.replace('{name}', trimmed) : t.greetingAnon
   const unsubscribeUrl = buildUnsubscribeUrl(email, locale)
   const unsubscribeText = t.unsubscribe.replace('{url}', unsubscribeUrl)
+  const keyText = licenseKey ? t.keyIntro.replace('{key}', licenseKey) : null
 
   const text = [
     greeting,
@@ -159,6 +168,7 @@ export function buildWelcomeEmail(
     t.intro,
     '',
     t.ready,
+    ...(keyText ? ['', keyText] : []),
     '',
     t.leadIn,
     `- ${t.bullets[0]}`,
@@ -180,10 +190,15 @@ export function buildWelcomeEmail(
     '{url}',
     `<a href="${e(unsubscribeUrl)}">${e(unsubscribeUrl)}</a>`
   )
+  const keyHtml = licenseKey
+    ? e(t.keyIntro).replace('{key}', `<code style="background:#f0ece6;padding:2px 6px;border-radius:4px;">${e(licenseKey)}</code>`)
+    : null
+
   const html = `<div style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714">
 <p>${e(greeting)}</p>
 <p>${e(t.intro)}</p>
 <p><strong>${e(t.ready)}</strong></p>
+${keyHtml ? `<p>${keyHtml}</p>` : ''}
 <p>${e(t.leadIn)}</p>
 <ul>
 <li>${e(t.bullets[0])}</li>
@@ -203,9 +218,10 @@ interface SendWelcomeArgs {
   email: string
   name: string | null
   locale: unknown
+  licenseKey?: string | null
 }
 
-export async function sendWelcomeEmail({ email, name, locale }: SendWelcomeArgs): Promise<void> {
+export async function sendWelcomeEmail({ email, name, locale, licenseKey = null }: SendWelcomeArgs): Promise<void> {
   const apiKey = process.env.RESEND_API_KEY
   const from = process.env.WELCOME_FROM_EMAIL
   const replyTo = process.env.WELCOME_REPLY_TO
@@ -215,7 +231,7 @@ export async function sendWelcomeEmail({ email, name, locale }: SendWelcomeArgs)
     )
   }
 
-  const { subject, html, text } = buildWelcomeEmail(locale, name, email)
+  const { subject, html, text } = buildWelcomeEmail(locale, name, email, licenseKey)
   const resend = new Resend(apiKey)
   const { error } = await resend.emails.send({ from, to: email, replyTo, subject, html, text })
   if (error) {
