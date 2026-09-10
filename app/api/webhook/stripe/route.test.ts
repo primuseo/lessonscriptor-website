@@ -85,6 +85,43 @@ describe('POST /api/webhook/stripe', () => {
     expect(arg.licenseKey.length).toBeGreaterThan(0)
   })
 
+  it('grants the Student tier its 54000 seconds, not the Starter or Heavy amount', async () => {
+    constructEventMock.mockReturnValue(checkoutSessionCompletedEvent({ payment_link: 'plink_student' }))
+    sqlMock
+      .mockResolvedValueOnce([]) // priorPurchases: none found
+      .mockResolvedValueOnce([]) // existing user license_key lookup: none found
+      .mockResolvedValueOnce([{ id: 1 }]) // credit_transactions insert succeeds
+      .mockResolvedValueOnce([]) // users upsert
+
+    const res = await POST(req('{}'))
+    expect(res.status).toBe(200)
+
+    // sql call order: 0=priorPurchases, 1=existingUser lookup, 2=credit_transactions
+    // insert (inside addCredits), 3=users upsert. The credit_transactions insert's raw
+    // interpolated values include the seconds argument.
+    const insertCallValues = sqlMock.mock.calls[2].flat()
+    expect(insertCallValues).toContain(54000)
+    expect(insertCallValues).not.toContain(18000)
+    expect(insertCallValues).not.toContain(108000)
+  })
+
+  it('grants the Heavy tier its 108000 seconds, not the Starter or Student amount', async () => {
+    constructEventMock.mockReturnValue(checkoutSessionCompletedEvent({ payment_link: 'plink_heavy' }))
+    sqlMock
+      .mockResolvedValueOnce([]) // priorPurchases: none found
+      .mockResolvedValueOnce([]) // existing user license_key lookup: none found
+      .mockResolvedValueOnce([{ id: 1 }]) // credit_transactions insert succeeds
+      .mockResolvedValueOnce([]) // users upsert
+
+    const res = await POST(req('{}'))
+    expect(res.status).toBe(200)
+
+    const insertCallValues = sqlMock.mock.calls[2].flat()
+    expect(insertCallValues).toContain(108000)
+    expect(insertCallValues).not.toContain(18000)
+    expect(insertCallValues).not.toContain(54000)
+  })
+
   it('does not re-email on a second purchase, but reuses the existing key', async () => {
     constructEventMock.mockReturnValue(checkoutSessionCompletedEvent({ id: 'cs_test_456' }))
     sqlMock

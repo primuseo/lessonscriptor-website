@@ -48,6 +48,11 @@ export default async function HomePage({ params: { locale } }: { params: { local
     process.env.STRIPE_PACK_STUDENT_LINK_URL || '',
     process.env.STRIPE_PACK_HEAVY_LINK_URL || '',
   ]
+  if (paymentLinkUrls.some((url) => !url)) {
+    throw new Error(
+      'Missing one or more STRIPE_PACK_*_LINK_URL env vars — set STRIPE_PACK_STARTER_LINK_URL, STRIPE_PACK_STUDENT_LINK_URL, and STRIPE_PACK_HEAVY_LINK_URL before building.'
+    )
+  }
 
   const websiteData = {
     '@context': 'https://schema.org',
