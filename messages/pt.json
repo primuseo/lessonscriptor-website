@@ -1196,10 +1196,10 @@
   },
   "thankYou": {
     "metaTitle": "Obrigado pela sua compra",
-    "metaDesc": "A sua chave de licença LessonScriptor está pronta. Siga estes passos para ativar a transcrição com IA na sua extensão.",
+    "metaDesc": "A sua compra está confirmada. Enviámos-lhe a sua chave de licença LessonScriptor por e-mail — siga estes passos para ativar a transcrição com IA na sua extensão.",
     "eyebrow": "Compra confirmada",
     "h1": "Está tudo pronto.",
-    "subtitle": "A sua chave de licença está abaixo. Siga os passos para ativar a transcrição com IA na sua extensão.",
+    "subtitle": "Enviámos-lhe a sua chave de licença por e-mail. Siga os passos abaixo para ativar a transcrição com IA na sua extensão.",
     "licenseLabel": "A sua chave de licença",
     "copyButton": "Copiar",
     "copiedButton": "Copiado!",
@@ -1209,8 +1209,8 @@
     "steps": [
       {
         "n": "1",
-        "title": "Copie a sua chave de licença",
-        "desc": "Clique no botão Copiar acima para a copiar para a área de transferência."
+        "title": "Encontre a sua chave de licença",
+        "desc": "Verifique o e-mail que acabámos de lhe enviar — ou copie-a acima se já estiver visível."
       },
       {
         "n": "2",

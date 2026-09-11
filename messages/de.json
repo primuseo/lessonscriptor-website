@@ -1097,10 +1097,10 @@
   },
   "thankYou": {
     "metaTitle": "Vielen Dank für Ihren Kauf",
-    "metaDesc": "Ihr LessonScriptor-Lizenzschlüssel ist bereit. Folgen Sie diesen Schritten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
+    "metaDesc": "Ihr Kauf ist bestätigt. Wir haben Ihnen Ihren LessonScriptor-Lizenzschlüssel per E-Mail geschickt — folgen Sie diesen Schritten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
     "eyebrow": "Kauf bestätigt",
     "h1": "Alles bereit.",
-    "subtitle": "Ihr Lizenzschlüssel steht unten. Folgen Sie den Schritten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
+    "subtitle": "Wir haben Ihnen Ihren Lizenzschlüssel per E-Mail geschickt. Folgen Sie den Schritten unten, um die KI-Transkription in Ihrer Erweiterung zu aktivieren.",
     "licenseLabel": "Ihr Lizenzschlüssel",
     "copyButton": "Kopieren",
     "copiedButton": "Kopiert!",
@@ -1110,8 +1110,8 @@
     "steps": [
       {
         "n": "1",
-        "title": "Kopieren Sie Ihren Lizenzschlüssel",
-        "desc": "Klicken Sie auf die Schaltfläche Kopieren oben, um ihn in Ihre Zwischenablage zu kopieren."
+        "title": "Finden Sie Ihren Lizenzschlüssel",
+        "desc": "Prüfen Sie die E-Mail, die wir Ihnen gerade geschickt haben — oder kopieren Sie ihn oben, falls er bereits angezeigt wird."
       },
       {
         "n": "2",

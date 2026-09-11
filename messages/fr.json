@@ -1098,10 +1098,10 @@
   },
   "thankYou": {
     "metaTitle": "Merci pour votre achat",
-    "metaDesc": "Votre clé de licence LessonScriptor est prête. Suivez ces étapes pour activer la transcription IA dans votre extension.",
+    "metaDesc": "Votre achat est confirmé. Nous vous avons envoyé votre clé de licence LessonScriptor par e-mail — suivez ces étapes pour activer la transcription IA dans votre extension.",
     "eyebrow": "Achat confirmé",
     "h1": "Tout est prêt.",
-    "subtitle": "Votre clé de licence est ci-dessous. Suivez les étapes pour activer la transcription IA dans votre extension.",
+    "subtitle": "Nous vous avons envoyé votre clé de licence par e-mail. Suivez les étapes ci-dessous pour activer la transcription IA dans votre extension.",
     "licenseLabel": "Votre clé de licence",
     "copyButton": "Copier",
     "copiedButton": "Copié !",
@@ -1111,8 +1111,8 @@
     "steps": [
       {
         "n": "1",
-        "title": "Copiez votre clé de licence",
-        "desc": "Cliquez sur le bouton Copier ci-dessus pour la copier dans votre presse-papiers."
+        "title": "Trouvez votre clé de licence",
+        "desc": "Consultez l'e-mail que nous venons de vous envoyer — ou copiez-la ci-dessus si elle s'affiche déjà."
       },
       {
         "n": "2",

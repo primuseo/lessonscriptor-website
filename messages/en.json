@@ -1085,10 +1085,10 @@
   },
   "thankYou": {
     "metaTitle": "Thank you for your purchase",
-    "metaDesc": "Your LessonScriptor license key is ready. Follow these steps to activate AI transcription in your extension.",
+    "metaDesc": "Your purchase is confirmed. We've emailed your LessonScriptor license key — follow these steps to activate AI transcription in your extension.",
     "eyebrow": "Purchase confirmed",
     "h1": "You're all set.",
-    "subtitle": "Your license key is below. Follow the steps to activate AI transcription in your extension.",
+    "subtitle": "We've emailed your license key. Follow the steps below to activate AI transcription in your extension.",
     "licenseLabel": "Your license key",
     "copyButton": "Copy",
     "copiedButton": "Copied!",
@@ -1098,8 +1098,8 @@
     "steps": [
       {
         "n": "1",
-        "title": "Copy your license key",
-        "desc": "Click the copy button above to copy it to your clipboard."
+        "title": "Find your license key",
+        "desc": "Check the email we just sent you — or copy it above if it's already showing."
       },
       {
         "n": "2",
