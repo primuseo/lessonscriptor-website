@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import Stripe from 'stripe';
 import crypto from 'crypto';
 import { getDb } from '@/lib/db';
-import { sendWelcomeEmail } from '@/lib/welcome-email';
+import { sendWelcomeEmail, sendRepeatPurchaseEmail } from '@/lib/welcome-email';
 
 function secondsForPaymentLink(paymentLinkId: string): number | null {
   const map: Record<string, number> = {
@@ -20,8 +20,8 @@ async function addCredits(
   referenceId: string,
   licenseKey: string
 ): Promise<boolean> {
-  // Same idempotency gate as the Lemon Squeezy webhook: record the transaction FIRST,
-  // ON CONFLICT DO NOTHING on a duplicate/concurrent delivery of the same session id.
+  // Idempotency gate: record the transaction FIRST, ON CONFLICT DO NOTHING on a
+  // duplicate/concurrent delivery of the same session id.
   const inserted = await sql`
     INSERT INTO credit_transactions (user_email, type, seconds, reference_id)
     VALUES (${email}, 'purchase', ${seconds}, ${referenceId})
@@ -109,17 +109,27 @@ export async function POST(request: NextRequest) {
   const applied = await addCredits(sql, email, seconds, sessionId, licenseKey);
   console.log(`[Stripe Webhook] checkout.session.completed: +${seconds}s for ${email} (session ${sessionId}), applied=${applied}`);
 
-  if (applied && isFirstPurchase) {
+  if (applied) {
     try {
-      await sendWelcomeEmail({
-        email,
-        name: session.customer_details?.name ?? null,
-        locale: session.client_reference_id,
-        licenseKey,
-      });
-      console.log(`[Stripe Webhook] welcome email sent to ${email}`);
+      if (isFirstPurchase) {
+        await sendWelcomeEmail({
+          email,
+          name: session.customer_details?.name ?? null,
+          locale: session.client_reference_id,
+          licenseKey,
+        });
+        console.log(`[Stripe Webhook] welcome email sent to ${email}`);
+      } else {
+        await sendRepeatPurchaseEmail({
+          email,
+          name: session.customer_details?.name ?? null,
+          locale: session.client_reference_id,
+          licenseKey,
+        });
+        console.log(`[Stripe Webhook] repeat-purchase email sent to ${email}`);
+      }
     } catch (err) {
-      console.error(`[Stripe Webhook] welcome email FAILED for ${email}:`, err);
+      console.error(`[Stripe Webhook] purchase email FAILED for ${email}:`, err);
       // Swallow: credits are already granted; never make Stripe retry over an email error.
     }
   }
