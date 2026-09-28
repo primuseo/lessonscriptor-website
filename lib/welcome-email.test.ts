@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { resolveLocale, buildWelcomeEmail, buildUnsubscribeUrl } from '@/lib/welcome-email'
+import { resolveLocale, buildWelcomeEmail, buildRepeatPurchaseEmail, buildUnsubscribeUrl } from '@/lib/welcome-email'
 
 beforeEach(() => {
   process.env.UNSUBSCRIBE_SECRET = 'test-secret'
@@ -71,5 +71,51 @@ describe('buildWelcomeEmail with a license key', () => {
     const { text } = buildWelcomeEmail('fr', 'Marie', 'marie@example.com', 'xyz-789')
     expect(text).toContain('Votre clé de licence')
     expect(text).toContain('xyz-789')
+  })
+})
+
+describe('buildRepeatPurchaseEmail', () => {
+  it('includes the license key and a Chrome Web Store review link', () => {
+    const { text, html } = buildRepeatPurchaseEmail('en', 'Stephen', 'buyer@example.com', 'abc-123-key')
+    expect(text).toContain('abc-123-key')
+    expect(html).toContain('abc-123-key')
+    expect(text).toContain('https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp')
+    expect(html).toContain('https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp')
+  })
+
+  it('uses a distinct subject from the first-purchase welcome email', () => {
+    const welcome = buildWelcomeEmail('en', 'Stephen', 'buyer@example.com', 'abc-123-key')
+    const repeat = buildRepeatPurchaseEmail('en', 'Stephen', 'buyer@example.com', 'abc-123-key')
+    expect(repeat.subject).not.toBe(welcome.subject)
+  })
+
+  it('uses the anonymous greeting when name is missing', () => {
+    const { text } = buildRepeatPurchaseEmail('en', null, 'buyer@example.com', 'abc-123-key')
+    expect(text).toContain('Hi there,')
+  })
+
+  it('escapes HTML-significant characters in the name', () => {
+    const { html } = buildRepeatPurchaseEmail('en', '<b>x</b>', 'buyer@example.com', 'abc-123-key')
+    expect(html).not.toContain('<b>x</b>')
+    expect(html).toContain('&lt;b&gt;x&lt;/b&gt;')
+  })
+
+  it('includes a working unsubscribe link', () => {
+    const { html, text } = buildRepeatPurchaseEmail('en', 'Stephen', 'buyer@example.com', 'abc-123-key')
+    const url = buildUnsubscribeUrl('buyer@example.com', 'en')
+    expect(text).toContain(url)
+    expect(html).toContain(`href="${url.replace(/&/g, '&amp;')}"`)
+  })
+
+  it('localizes the subject and review ask for fr', () => {
+    const { subject, text } = buildRepeatPurchaseEmail('fr', 'Marie', 'marie@example.com', 'xyz-789')
+    expect(subject).toContain('LessonScriptor')
+    expect(text).toContain('xyz-789')
+    expect(text).toContain('Chrome Web Store')
+  })
+
+  it('falls back to the English template for an unknown locale', () => {
+    const { subject } = buildRepeatPurchaseEmail('xx', 'x', 'x@example.com', 'key-1')
+    expect(subject).toContain('LessonScriptor')
   })
 })

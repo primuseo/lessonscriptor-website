@@ -2,6 +2,7 @@ import { Resend } from 'resend'
 import { signUnsubscribeToken } from './unsubscribe-token'
 
 const SITE_URL = 'https://lessonscriptor.com'
+const CHROME_STORE_URL = 'https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp'
 
 export const SUPPORTED_LOCALES = ['en', 'fr', 'es', 'de', 'pt', 'zh'] as const
 export type Locale = (typeof SUPPORTED_LOCALES)[number]
@@ -138,6 +139,87 @@ const TEMPLATES: Record<Locale, Template> = {
   },
 }
 
+interface RepeatTemplate {
+  subject: string
+  greetingNamed: string // contains {name}
+  greetingAnon: string
+  intro: string
+  keyReminder: string // contains {key}
+  reviewAsk: string // contains {storeUrl}
+  closing: string
+  signoff: string
+  unsubscribe: string // contains {url}
+}
+
+const REPEAT_TEMPLATES: Record<Locale, RepeatTemplate> = {
+  en: {
+    subject: 'Thanks for coming back to LessonScriptor 🎓',
+    greetingNamed: 'Hi {name},',
+    greetingAnon: 'Hi there,',
+    intro: "It's Pierre and Victoria again — thank you so much for grabbing another Tab Audio credit pack. Having you come back means a lot to us.",
+    keyReminder: "Here's your license key again, in case you need it: {key}",
+    reviewAsk: "If LessonScriptor's been useful for your classes or work, a short review on the Chrome Web Store would genuinely help us out: {storeUrl}",
+    closing: 'Thanks again for trusting us twice — we really appreciate it.',
+    signoff: 'Pierre & Victoria',
+    unsubscribe: 'Rather not hear from us again? {url}',
+  },
+  fr: {
+    subject: 'Merci de revenir sur LessonScriptor 🎓',
+    greetingNamed: 'Bonjour {name},',
+    greetingAnon: 'Bonjour,',
+    intro: "C'est encore Pierre et Victoria — merci beaucoup d'avoir repris un pack de crédits Tab Audio. Vous revoir nous touche vraiment.",
+    keyReminder: 'Voici à nouveau votre clé de licence, au cas où : {key}',
+    reviewAsk: "Si LessonScriptor vous a été utile, un petit avis sur le Chrome Web Store nous aiderait énormément : {storeUrl}",
+    closing: 'Merci encore de nous faire confiance une deuxième fois — ça compte beaucoup pour nous.',
+    signoff: 'Pierre & Victoria',
+    unsubscribe: 'Vous préférez ne plus recevoir de nos nouvelles ? {url}',
+  },
+  es: {
+    subject: 'Gracias por volver a LessonScriptor 🎓',
+    greetingNamed: 'Hola {name}:',
+    greetingAnon: 'Hola:',
+    intro: 'Otra vez somos Pierre y Victoria — muchas gracias por conseguir otro paquete de créditos de Tab Audio. Que vuelvas significa mucho para nosotros.',
+    keyReminder: 'Aquí tienes de nuevo tu clave de licencia, por si acaso: {key}',
+    reviewAsk: 'Si LessonScriptor te ha sido útil, una breve reseña en la Chrome Web Store nos ayudaría muchísimo: {storeUrl}',
+    closing: 'Gracias de nuevo por confiar en nosotros dos veces — lo valoramos mucho.',
+    signoff: 'Pierre y Victoria',
+    unsubscribe: '¿Prefieres no recibir más correos nuestros? {url}',
+  },
+  de: {
+    subject: 'Danke, dass du zu LessonScriptor zurückgekommen bist 🎓',
+    greetingNamed: 'Hallo {name},',
+    greetingAnon: 'Hallo,',
+    intro: 'Hier sind wieder Pierre und Victoria – vielen Dank, dass du dir ein weiteres Tab-Audio-Guthabenpaket geholt hast. Dass du zurückkommst, bedeutet uns sehr viel.',
+    keyReminder: 'Hier ist dein Lizenzschlüssel noch einmal, falls du ihn brauchst: {key}',
+    reviewAsk: 'Wenn dir LessonScriptor geholfen hat, würde uns eine kurze Bewertung im Chrome Web Store sehr helfen: {storeUrl}',
+    closing: 'Danke, dass du uns ein zweites Mal vertraust – das bedeutet uns wirklich viel.',
+    signoff: 'Pierre & Victoria',
+    unsubscribe: 'Möchtest du keine E-Mails mehr von uns erhalten? {url}',
+  },
+  pt: {
+    subject: 'Obrigado por voltar ao LessonScriptor 🎓',
+    greetingNamed: 'Olá {name},',
+    greetingAnon: 'Olá,',
+    intro: 'Aqui são novamente Pierre e Victoria — muito obrigado por adquirir mais um pacote de créditos do Tab Audio. Você voltar significa muito para nós.',
+    keyReminder: 'Aqui está novamente a sua chave de licença, caso precise: {key}',
+    reviewAsk: 'Se o LessonScriptor tem sido útil, uma breve avaliação na Chrome Web Store ajudaria muito: {storeUrl}',
+    closing: 'Obrigado novamente por confiar em nós pela segunda vez — isso significa muito.',
+    signoff: 'Pierre e Victoria',
+    unsubscribe: 'Prefere não receber mais e-mails nossos? {url}',
+  },
+  zh: {
+    subject: '感谢你再次选择 LessonScriptor 🎓',
+    greetingNamed: '你好 {name}，',
+    greetingAnon: '你好，',
+    intro: '我们是 Pierre 和 Victoria——非常感谢你再次购买 Tab Audio 额度包。你的回归对我们意义重大。',
+    keyReminder: '这是你的许可证密钥，以防你需要：{key}',
+    reviewAsk: '如果 LessonScriptor 对你有帮助，能否在 Chrome Web Store 给我们留个简短的评价？这会帮我们很多：{storeUrl}',
+    closing: '再次感谢你两次信任我们——这对我们意义重大。',
+    signoff: 'Pierre 和 Victoria',
+    unsubscribe: '不想再收到我们的邮件？{url}',
+  },
+}
+
 function escapeHtml(s: string): string {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }
@@ -214,6 +296,65 @@ ${keyHtml ? `<p>${keyHtml}</p>` : ''}
   return { subject: t.subject, html, text }
 }
 
+export function buildRepeatPurchaseEmail(
+  rawLocale: unknown,
+  name: string | null,
+  email: string,
+  licenseKey: string
+): { subject: string; html: string; text: string } {
+  const locale = resolveLocale(rawLocale)
+  const t = REPEAT_TEMPLATES[locale]
+  const trimmed = name && name.trim() ? name.trim() : null
+  const greeting = trimmed ? t.greetingNamed.replace('{name}', trimmed) : t.greetingAnon
+  const unsubscribeUrl = buildUnsubscribeUrl(email, locale)
+  const unsubscribeText = t.unsubscribe.replace('{url}', unsubscribeUrl)
+  const keyText = t.keyReminder.replace('{key}', licenseKey)
+  const reviewText = t.reviewAsk.replace('{storeUrl}', CHROME_STORE_URL)
+
+  const text = [
+    greeting,
+    '',
+    t.intro,
+    '',
+    keyText,
+    '',
+    reviewText,
+    '',
+    t.closing,
+    '',
+    t.signoff,
+    'LessonScriptor',
+    '',
+    unsubscribeText,
+  ].join('\n')
+
+  const e = escapeHtml
+  const unsubscribeHtml = e(t.unsubscribe).replace(
+    '{url}',
+    `<a href="${e(unsubscribeUrl)}">${e(unsubscribeUrl)}</a>`
+  )
+  const keyHtml = e(t.keyReminder).replace(
+    '{key}',
+    `<code style="background:#f0ece6;padding:2px 6px;border-radius:4px;">${e(licenseKey)}</code>`
+  )
+  const reviewHtml = e(t.reviewAsk).replace(
+    '{storeUrl}',
+    `<a href="${e(CHROME_STORE_URL)}">${e(CHROME_STORE_URL)}</a>`
+  )
+
+  const html = `<div style="font-family:-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:15px;line-height:1.6;color:#1a1714">
+<p>${e(greeting)}</p>
+<p>${e(t.intro)}</p>
+<p>${keyHtml}</p>
+<p>${reviewHtml}</p>
+<p>${e(t.closing)}</p>
+<p>${e(t.signoff)}<br/>LessonScriptor</p>
+<p style="margin-top:24px;padding-top:16px;border-top:1px solid #e5ded6;font-size:12px;color:#8a8078">${unsubscribeHtml}</p>
+</div>`
+
+  return { subject: t.subject, html, text }
+}
+
 interface SendWelcomeArgs {
   email: string
   name: string | null
@@ -236,5 +377,30 @@ export async function sendWelcomeEmail({ email, name, locale, licenseKey = null 
   const { error } = await resend.emails.send({ from, to: email, replyTo, subject, html, text })
   if (error) {
     throw new Error(`welcome-email Resend error: ${JSON.stringify(error)}`)
+  }
+}
+
+interface SendRepeatPurchaseArgs {
+  email: string
+  name: string | null
+  locale: unknown
+  licenseKey: string
+}
+
+export async function sendRepeatPurchaseEmail({ email, name, locale, licenseKey }: SendRepeatPurchaseArgs): Promise<void> {
+  const apiKey = process.env.RESEND_API_KEY
+  const from = process.env.WELCOME_FROM_EMAIL
+  const replyTo = process.env.WELCOME_REPLY_TO
+  if (!apiKey || !from || !replyTo || !process.env.UNSUBSCRIBE_SECRET) {
+    throw new Error(
+      'repeat-purchase-email: RESEND_API_KEY, WELCOME_FROM_EMAIL, WELCOME_REPLY_TO and UNSUBSCRIBE_SECRET must be set'
+    )
+  }
+
+  const { subject, html, text } = buildRepeatPurchaseEmail(locale, name, email, licenseKey)
+  const resend = new Resend(apiKey)
+  const { error } = await resend.emails.send({ from, to: email, replyTo, subject, html, text })
+  if (error) {
+    throw new Error(`repeat-purchase-email Resend error: ${JSON.stringify(error)}`)
   }
 }

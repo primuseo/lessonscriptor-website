@@ -1,13 +1,17 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 
-const { sqlMock, constructEventMock, sendWelcomeEmailMock } = vi.hoisted(() => ({
+const { sqlMock, constructEventMock, sendWelcomeEmailMock, sendRepeatPurchaseEmailMock } = vi.hoisted(() => ({
   sqlMock: vi.fn(),
   constructEventMock: vi.fn(),
   sendWelcomeEmailMock: vi.fn(),
+  sendRepeatPurchaseEmailMock: vi.fn(),
 }))
 
 vi.mock('@/lib/db', () => ({ getDb: () => sqlMock }))
-vi.mock('@/lib/welcome-email', () => ({ sendWelcomeEmail: sendWelcomeEmailMock }))
+vi.mock('@/lib/welcome-email', () => ({
+  sendWelcomeEmail: sendWelcomeEmailMock,
+  sendRepeatPurchaseEmail: sendRepeatPurchaseEmailMock,
+}))
 vi.mock('stripe', () => ({
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   default: vi.fn(function (this: any) {
@@ -46,6 +50,7 @@ beforeEach(() => {
   sqlMock.mockReset()
   constructEventMock.mockReset()
   sendWelcomeEmailMock.mockReset().mockResolvedValue(undefined)
+  sendRepeatPurchaseEmailMock.mockReset().mockResolvedValue(undefined)
   process.env.STRIPE_SECRET_KEY = 'sk_test_x'
   process.env.STRIPE_WEBHOOK_SECRET = 'whsec_test'
   process.env.STRIPE_PACK_STARTER_LINK_ID = 'plink_starter'
@@ -122,7 +127,7 @@ describe('POST /api/webhook/stripe', () => {
     expect(insertCallValues).not.toContain(54000)
   })
 
-  it('does not re-email on a second purchase, but reuses the existing key', async () => {
+  it('sends the repeat-purchase email (not the welcome email) on a second purchase, reusing the existing key', async () => {
     constructEventMock.mockReturnValue(checkoutSessionCompletedEvent({ id: 'cs_test_456' }))
     sqlMock
       .mockResolvedValueOnce([{ exists: 1 }]) // priorPurchases: found
@@ -133,6 +138,11 @@ describe('POST /api/webhook/stripe', () => {
     const res = await POST(req('{}'))
     expect(res.status).toBe(200)
     expect(sendWelcomeEmailMock).not.toHaveBeenCalled()
+    expect(sendRepeatPurchaseEmailMock).toHaveBeenCalledTimes(1)
+    const arg = sendRepeatPurchaseEmailMock.mock.calls[0][0]
+    expect(arg.email).toBe('buyer@example.com')
+    expect(arg.locale).toBe('en')
+    expect(arg.licenseKey).toBe('existing-key')
   })
 
   it('is idempotent on a duplicate session id', async () => {
@@ -145,6 +155,7 @@ describe('POST /api/webhook/stripe', () => {
     const res = await POST(req('{}'))
     expect(res.status).toBe(200)
     expect(sendWelcomeEmailMock).not.toHaveBeenCalled()
+    expect(sendRepeatPurchaseEmailMock).not.toHaveBeenCalled()
   })
 
   it('ignores unknown payment_link ids without touching the database', async () => {
