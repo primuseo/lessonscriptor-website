@@ -5,6 +5,7 @@ import { requireAuth, isAuthError } from '@/lib/auth';
 import { handlePreflight, jsonResponse } from '@/lib/cors';
 
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit';
+import { buildWhisperPrompt } from './prompt';
 
 export const maxDuration = 30;
 
@@ -208,15 +209,10 @@ export async function POST(request: NextRequest) {
     transcriptionParams.language = isoLanguage;
   }
 
-  const promptParts: string[] = [];
-  if (previousTranscript && typeof previousTranscript === 'string') {
-    promptParts.push(previousTranscript.slice(-200));
-  }
-  if (customDictionary && typeof customDictionary === 'string') {
-    promptParts.push(customDictionary.slice(0, 200));
-  }
-  if (promptParts.length > 0) {
-    transcriptionParams.prompt = promptParts.join('. ');
+  // Unpunctuated previous output is dropped rather than fed back — see prompt.ts
+  const prompt = buildWhisperPrompt(previousTranscript, customDictionary);
+  if (prompt) {
+    transcriptionParams.prompt = prompt;
   }
 
   let transcription;
