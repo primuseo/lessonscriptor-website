@@ -1,7 +1,8 @@
 'use client'
 import { useTranslations } from 'next-intl'
-import { Link } from '@/navigation'
+import { Link, useRouter } from '@/navigation'
 import { useState } from 'react'
+import { ChevronDownIcon } from '@heroicons/react/24/outline'
 import ThemeToggle from './ThemeToggle'
 
 const LOCALES = [
@@ -17,6 +18,7 @@ export default function Navbar({ locale }: { locale: string }) {
   const t = useTranslations('nav')
   const ts = useTranslations('site')
   const [open, setOpen] = useState(false)
+  const router = useRouter()
 
   return (
     <nav className="sticky top-0 z-50 bg-background backdrop-blur-xl border-b border-border">
@@ -30,46 +32,47 @@ export default function Navbar({ locale }: { locale: string }) {
           </Link>
 
           {/* Desktop nav */}
-          <div className="hidden md:flex items-center gap-7 text-[13px] font-medium">
-            <Link href="/transcribe-video-to-text" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('transcribeVideo')}</Link>
-            <Link href="/transcribe-youtube-video" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('youtube')}</Link>
-            <Link href="/live-captions-chrome" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('liveCaptions')}</Link>
-            <Link href="/for-adhd-students" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forAdhd')}</Link>
-            <Link href="/for-teachers" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forTeachers')}</Link>
-            <Link href="/blog" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('blog')}</Link>
-            <Link href="/contact" className="text-foreground/60 no-underline hover:text-foreground transition-colors">{t('contact')}</Link>
+          <div className="hidden lg:flex items-center gap-4 text-[13px] font-medium">
+            <Link href="/transcribe-video-to-text" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('transcribeVideo')}</Link>
+            <Link href="/transcribe-youtube-video" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('youtube')}</Link>
+            <Link href="/live-captions-chrome" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('liveCaptions')}</Link>
+            <Link href="/for-adhd-students" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forAdhd')}</Link>
+            <Link href="/for-teachers" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('forTeachers')}</Link>
+            <Link href="/blog" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('blog')}</Link>
+            <Link href="/contact" className="whitespace-nowrap text-foreground/60 no-underline hover:text-foreground transition-colors">{t('contact')}</Link>
           </div>
 
           {/* Right side */}
-          <div className="hidden md:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3">
             {/* Locale switcher */}
-            <div className="flex items-center gap-1">
-              {LOCALES.map(l => (
-                <Link
-                  key={l.code}
-                  href="/"
-                  locale={l.code}
-                  className={`text-[10px] px-1.5 py-0.5 rounded font-semibold transition-colors ${
-                    locale === l.code ? 'bg-accent/10 text-accent' : 'text-foreground/30 hover:text-foreground/60'
-                  }`}
-                >
-                  {l.label}
-                </Link>
-              ))}
+            <div className="relative flex items-center">
+              <select
+                aria-label="Language"
+                value={locale}
+                onChange={(e) => router.replace('/', { locale: e.target.value })}
+                className="appearance-none bg-transparent border border-border rounded-full text-[12px] font-semibold text-foreground/60 py-1.5 pl-3 pr-7 cursor-pointer outline-none hover:text-foreground hover:border-foreground/30 transition-colors"
+              >
+                {LOCALES.map(l => (
+                  <option key={l.code} value={l.code} className="bg-background text-foreground">
+                    {l.label}
+                  </option>
+                ))}
+              </select>
+              <ChevronDownIcon className="pointer-events-none absolute right-2.5 w-3 h-3 text-foreground/40" strokeWidth={2} />
             </div>
             <ThemeToggle />
             <a
               href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary text-[13px] py-2 px-5"
+              className="btn-primary whitespace-nowrap text-[13px] py-2 px-5"
             >
               {ts('installCTA').split(' — ')[0]}
             </a>
           </div>
 
           {/* Mobile hamburger */}
-          <button onClick={() => setOpen(!open)} className="md:hidden p-2 text-foreground/60">
+          <button onClick={() => setOpen(!open)} className="lg:hidden p-2 text-foreground/60">
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               {open
                 ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -82,7 +85,7 @@ export default function Navbar({ locale }: { locale: string }) {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden border-t border-border bg-background px-4 py-4 space-y-3">
+        <div className="lg:hidden border-t border-border bg-background px-4 py-4 space-y-3">
           <Link href="/transcribe-video-to-text" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('transcribeVideo')}</Link>
           <Link href="/transcribe-youtube-video" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('youtube')}</Link>
           <Link href="/live-captions-chrome" className="block text-sm text-foreground/60 hover:text-foreground py-2">{t('liveCaptions')}</Link>
