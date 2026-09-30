@@ -92,10 +92,10 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
             <div className="text-xl font-semibold text-primary-foreground font-serif leading-none tracking-tight">
               {pack.hours}
             </div>
-            <div className="text-[10px] text-primary-foreground/40 my-1 leading-snug">
+            <div className="text-[10px] text-primary-foreground/40 my-1 leading-snug tabular-nums">
               {formatPrice(symbol, pack.basePer * rate, decimals !== undefined ? decimals : 2)} / hour
             </div>
-            <div className="text-[26px] font-bold text-accent tracking-tight">
+            <div className="text-[26px] font-bold text-accent tracking-tight tabular-nums">
               {formatPrice(symbol, pack.basePrice * rate, decimals !== undefined ? decimals : 0)}
             </div>
             {pack.save && (

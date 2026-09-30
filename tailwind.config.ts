@@ -45,9 +45,9 @@ const config: Config = {
         full: '9999px',
       },
       boxShadow: {
-        sm: '0 1px 3px rgba(12,10,9,0.04), 0 1px 2px rgba(12,10,9,0.06)',
-        md: '0 4px 16px rgba(12,10,9,0.06), 0 1px 4px rgba(12,10,9,0.04)',
-        lg: '0 8px 32px rgba(12,10,9,0.08), 0 2px 8px rgba(12,10,9,0.04)',
+        sm: 'var(--shadow-sm)',
+        md: 'var(--shadow-md)',
+        lg: 'var(--shadow-lg)',
       },
       transitionTimingFunction: {
         smooth: 'cubic-bezier(0.4, 0, 0.2, 1)',
