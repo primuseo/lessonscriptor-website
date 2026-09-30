@@ -355,76 +355,76 @@ export default async function HomePage({ params: { locale } }: { params: { local
           </div>
 
           {/* Why pay banner */}
-          <div className="max-w-4xl mx-auto -mt-4 mb-11 bg-muted border border-border rounded-2xl py-4 px-6 flex items-start gap-3.5">
+          <div className="max-w-5xl mx-auto -mt-4 mb-11 bg-muted border border-border rounded-2xl py-4 px-6 flex items-start gap-3.5">
             <svg className="flex-shrink-0 mt-0.5 stroke-accent" width="18" height="18" viewBox="0 0 24 24" fill="none" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
               <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
             </svg>
-            <p className="text-[13px] text-foreground/60 leading-relaxed">
+            <p className="text-sm text-foreground/60 leading-relaxed">
               <strong className="text-foreground">{t('pricing.whyPay')}</strong>{' '}
               {t('pricing.whyPayDesc').replace(`${t('pricing.whyPay')} `, '')}
             </p>
           </div>
 
-          <div className="grid md:grid-cols-[1fr_1.6fr] gap-5 max-w-4xl mx-auto items-start">
+          <div className="grid md:grid-cols-[1fr_1.4fr] gap-6 max-w-5xl mx-auto items-start">
             {/* Free plan */}
-            <div className="bg-card border border-border rounded-2xl p-9 shadow-sm">
-              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-accent mb-3">{t('pricing.freeLabel')}</p>
-              <div className="inline-flex items-center gap-1.5 border border-border rounded-full py-1 px-2.5 text-[10px] font-semibold bg-background text-foreground/60 mb-4">
-                <MicrophoneIcon className="w-3 h-3" />
+            <div className="bg-card border border-border rounded-2xl p-10 shadow-sm">
+              <p className="text-xs font-extrabold tracking-[2.5px] uppercase text-accent mb-3.5">{t('pricing.freeLabel')}</p>
+              <div className="inline-flex items-center gap-1.5 border border-border rounded-full py-1.5 px-3 text-xs font-semibold bg-background text-foreground/60 mb-5">
+                <MicrophoneIcon className="w-3.5 h-3.5" />
                 {t('pricing.freeEngine')}
               </div>
-              <div className="font-serif text-5xl font-bold text-foreground leading-none mb-1.5 tracking-tight">
-                {t('pricing.freePrice')} <span className="text-[15px] font-normal text-foreground/40 font-sans">{t('pricing.freePriceSuffix')}</span>
+              <div className="font-serif text-6xl font-bold text-foreground leading-none mb-2 tracking-tight">
+                {t('pricing.freePrice')} <span className="text-base font-normal text-foreground/40 font-sans">{t('pricing.freePriceSuffix')}</span>
               </div>
-              <p className="text-[13px] text-foreground/60 leading-relaxed mb-6 pb-6 border-b border-border">
+              <p className="text-[15px] text-foreground/60 leading-relaxed mb-7 pb-7 border-b border-border">
                 {t('pricing.freeDesc')}
               </p>
-              <ul className="flex flex-col gap-2.5 mb-6 list-none p-0">
+              <ul className="flex flex-col gap-3 mb-7 list-none p-0">
                 {t.raw('pricing.freeFeatures').map((f: string, i: number) => (
-                  <li key={i} className="text-[13px] text-foreground/70 flex items-start gap-2.5 leading-snug">
+                  <li key={i} className="text-[15px] text-foreground/70 flex items-start gap-2.5 leading-snug">
                     <span className="text-accent font-bold flex-shrink-0">✓</span> {f}
                   </li>
                 ))}
                 {t.raw('pricing.freeMuted').map((f: string, i: number) => (
-                  <li key={`m${i}`} className="text-[13px] text-foreground/30 flex items-start gap-2.5 leading-snug">
+                  <li key={`m${i}`} className="text-[15px] text-foreground/30 flex items-start gap-2.5 leading-snug">
                     <span className="text-border font-bold flex-shrink-0">–</span> {f}
                   </li>
                 ))}
               </ul>
-              <div className="text-[11px] text-foreground/40 leading-snug mb-6 py-3 px-3.5 bg-muted border border-border rounded-xl">
+              <div className="text-xs text-foreground/40 leading-snug mb-7 py-3.5 px-4 bg-muted border border-border rounded-xl">
                 <strong>Note:</strong> {t('pricing.freeCaveat')}
               </div>
               <a
                 href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center bg-muted border border-border text-accent text-[13px] font-bold py-3 rounded-full no-underline hover:bg-border transition-colors"
+                className="block text-center bg-muted border border-border text-accent text-[15px] font-bold py-3.5 rounded-full no-underline hover:bg-border transition-colors"
               >
                 {t('pricing.installFreeBtn')}
               </a>
             </div>
 
             {/* Premium plan */}
-            <div className="bg-primary dark:bg-card rounded-2xl p-9 shadow-lg">
+            <div className="bg-primary dark:bg-card rounded-2xl p-10 shadow-lg">
               {/* Label, badge and callout below always sit on the bg-primary/dark:bg-card
                   band, so they always need the dark-surface-safe gold regardless of site theme. */}
-              <p className="text-[11px] font-extrabold tracking-[2.5px] uppercase text-[#D4A017] mb-3">{t('pricing.premiumLabel')}</p>
-              <div className="inline-flex items-center gap-1.5 border border-accent/20 rounded-full py-1 px-2.5 text-[10px] font-semibold bg-accent/10 text-[#D4A017] mb-4">
-                <SparklesIcon className="w-3 h-3" />
+              <p className="text-xs font-extrabold tracking-[2.5px] uppercase text-[#D4A017] mb-3.5">{t('pricing.premiumLabel')}</p>
+              <div className="inline-flex items-center gap-1.5 border border-[#D4A017]/20 rounded-full py-1.5 px-3 text-xs font-semibold bg-[#D4A017]/10 text-[#D4A017] mb-5">
+                <SparklesIcon className="w-3.5 h-3.5" />
                 {t('pricing.premiumEngine')}
               </div>
 
-              <div className="flex items-center gap-2 bg-accent/10 border border-accent/20 rounded-xl py-2.5 px-3.5 mb-4 text-xs text-[#D4A017] font-semibold">
+              <div className="flex items-center gap-2 bg-[#D4A017]/10 border border-[#D4A017]/20 rounded-xl py-3 px-4 mb-4 text-sm text-[#D4A017] font-semibold">
                 {t('pricing.noSubCallout')}
               </div>
 
-              <div className="bg-white/[0.04] border-l-[3px] border-accent rounded-r-xl py-3.5 px-4 mb-4">
-                <p className="text-xs text-primary-foreground/50 dark:text-card-foreground/50 leading-relaxed">{t('pricing.costCallout')}</p>
+              <div className="bg-white/[0.04] border-l-[3px] border-[#D4A017] rounded-r-xl py-4 px-4.5 mb-4">
+                <p className="text-sm text-primary-foreground/50 dark:text-card-foreground/50 leading-relaxed">{t('pricing.costCallout')}</p>
               </div>
 
-              <div className="flex items-start gap-2.5 bg-white/[0.04] border border-accent/[0.12] rounded-xl py-3 px-4 mb-5">
-                <SpeakerWaveIcon className="w-[18px] h-[18px] text-primary-foreground dark:text-card-foreground flex-shrink-0 mt-px" />
-                <p className="text-xs text-primary-foreground/60 dark:text-card-foreground/60 leading-snug">
+              <div className="flex items-start gap-2.5 bg-white/[0.04] border border-[#D4A017]/[0.12] rounded-xl py-3.5 px-4 mb-6">
+                <SpeakerWaveIcon className="w-5 h-5 text-primary-foreground dark:text-card-foreground flex-shrink-0 mt-px" />
+                <p className="text-sm text-primary-foreground/60 dark:text-card-foreground/60 leading-snug">
                   <strong className="text-primary-foreground dark:text-card-foreground">{t('pricing.headphonesCallout').split('.')[0]}.</strong>{' '}
                   {t('pricing.headphonesCallout').split('.').slice(1).join('.').trim()}
                 </p>
@@ -439,9 +439,9 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 locale={locale}
               />
 
-              <ul className="flex flex-col gap-2 pt-5 border-t border-white/[0.06] list-none p-0">
+              <ul className="flex flex-col gap-2.5 pt-6 border-t border-white/[0.06] list-none p-0">
                 {t.raw('pricing.premiumFeatures').map((f: string, i: number) => (
-                  <li key={i} className="text-xs text-primary-foreground/55 dark:text-card-foreground/55 flex items-start gap-2 leading-snug">
+                  <li key={i} className="text-sm text-primary-foreground/55 dark:text-card-foreground/55 flex items-start gap-2 leading-snug">
                     {/* Always on the bg-primary/dark:bg-card band, so always the dark-surface-safe gold. */}
                     <span className="text-[#D4A017] font-bold flex-shrink-0">✓</span> {f}
                   </li>
