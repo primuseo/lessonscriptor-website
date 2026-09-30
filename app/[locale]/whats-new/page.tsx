@@ -37,7 +37,6 @@ export default async function WhatsNewPage({ params: { locale } }: { params: { l
   return (
     <article className="max-w-3xl mx-auto px-4 py-14">
       <header className="mb-12 text-center">
-        <p className="eyebrow">{t('eyebrow')}</p>
         <h1 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
           {t('h1')}
         </h1>

@@ -1,5 +1,20 @@
 'use client'
 import { useState } from 'react'
+import { CursorArrowRaysIcon } from '@heroicons/react/24/outline'
+
+function StripeMark({ className }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" className={className} aria-hidden="true">
+      <rect x="2.5" y="2.5" width="19" height="19" rx="5" stroke="currentColor" strokeWidth="1.5" />
+      <path
+        d="M15.5 9.3c0-1.1-.95-1.7-2.4-1.7-1.6 0-2.9.7-2.9 2 0 2.7 5.1 1.9 5.1 5.3 0 1.6-1.5 2.5-3.4 2.5-1.55 0-2.9-.55-3.4-1.05"
+        stroke="currentColor"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+      />
+    </svg>
+  )
+}
 
 interface Pack {
   hours: string
@@ -58,15 +73,15 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
         </select>
       </div>
 
-      <div className="grid grid-cols-3 gap-2.5 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 mb-4">
         {packs.map((pack, i) => (
           <a
             key={i}
             href={`${paymentLinkUrls[i]}?client_reference_id=${encodeURIComponent(locale)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className={`bg-white/[0.04] border rounded-2xl p-4 text-center relative hover:border-accent/30 transition-colors block no-underline ${
-              pack.badge ? 'border-accent' : 'border-white/[0.08]'
+            className={`group bg-white/[0.04] border rounded-2xl p-5 text-center relative transition-all block no-underline hover:bg-white/[0.07] hover:-translate-y-0.5 ${
+              pack.badge ? 'border-accent hover:border-accent' : 'border-white/[0.08] hover:border-accent/40'
             }`}
           >
             {pack.badge && (
@@ -80,7 +95,7 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
             <div className="text-[10px] text-primary-foreground/40 my-1 leading-snug">
               {formatPrice(symbol, pack.basePer * rate, decimals !== undefined ? decimals : 2)} / hour
             </div>
-            <div className="text-[22px] font-bold text-accent tracking-tight">
+            <div className="text-[26px] font-bold text-accent tracking-tight">
               {formatPrice(symbol, pack.basePrice * rate, decimals !== undefined ? decimals : 0)}
             </div>
             {pack.save && (
@@ -90,7 +105,12 @@ export default function PricingPacks({ packs, currencyDisclaimer, paymentProcess
                 save {formatPrice(symbol, pack.save * rate, decimals !== undefined ? decimals : 0)}
               </div>
             )}
-            <div className="text-[10px] text-primary-foreground/35 mt-[3px]">{pack.per}</div>
+            <div className="text-[10px] text-primary-foreground/35 mt-[3px] mb-3.5">{pack.per}</div>
+            <div className="flex items-center justify-center gap-1.5 pt-3 border-t border-white/[0.08] text-[11px] font-bold text-primary-foreground/60 group-hover:text-accent transition-colors whitespace-nowrap">
+              <CursorArrowRaysIcon className="w-3.5 h-3.5 flex-shrink-0" strokeWidth={2} />
+              Buy now
+              <StripeMark className="w-4 h-4 ml-0.5 flex-shrink-0" />
+            </div>
           </a>
         ))}
       </div>

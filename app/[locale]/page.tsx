@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import FAQSection from '@/components/FAQSection'
 import { getLocalizedSlug } from '@/content/blog/_slug-map'
-import CTASection from '@/components/CTASection'
 import PricingPacks from '@/components/PricingPacks'
 import {
   MicrophoneIcon,
@@ -186,9 +185,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       {/* ── PROBLEM ── */}
       <section className="bg-primary dark:bg-card py-20 px-4 text-center">
         <div className="max-w-6xl mx-auto">
-          {/* This eyebrow always sits on the bg-primary/dark:bg-card band, so it always
-              needs the dark-surface-safe gold regardless of site theme. */}
-          <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-[#D4A017] mb-4">{t('problem.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-primary-foreground dark:text-card-foreground leading-tight tracking-tight mb-5 max-w-2xl mx-auto">
             {t('problem.title_line1')}<br />
             {t('problem.title_line2')}{' '}
@@ -215,7 +211,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       {/* ── ORIGIN STORY ── */}
       <section className="bg-card py-20 px-4 border-b border-border">
         <div className="max-w-2xl mx-auto">
-          <p className="eyebrow">{t('origin.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight mb-9">
             {t('origin.title_line1')}<br />
             <em className="italic text-accent">{t('origin.title_em')}</em>
@@ -239,7 +234,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="bg-background py-20 px-4 border-b border-border" id="features">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="eyebrow">{t('who.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">{t('who.title')}</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5 max-w-5xl mx-auto">
@@ -265,7 +259,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       {/* ── EDITING SHOWCASE ── */}
       <section className="bg-card py-20 px-4 border-b border-border">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="eyebrow">{t('editing.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight mb-4">
             {t('editing.title')}{' '}
             <em className="italic text-accent">{t('editing.titleEm')}</em>
@@ -289,7 +282,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="bg-muted py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="eyebrow">{t('features.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('features.title_line1')}<br />{t('features.title_line2')}
             </h2>
@@ -320,7 +312,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="py-20 px-4" id="works-everywhere">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="eyebrow">{t('worksEverywhere.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('worksEverywhere.title_line1')}<br />{t('worksEverywhere.title_line2')}
             </h2>
@@ -340,9 +331,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
             })}
           </div>
           <div className="bg-primary dark:bg-card rounded-2xl py-9 px-8 md:px-11 max-w-4xl mx-auto">
-            {/* This eyebrow always sits on the bg-primary/dark:bg-card band, so it always
-                needs the dark-surface-safe gold regardless of site theme. */}
-            <p className="text-[10px] font-bold tracking-[2.5px] uppercase text-[#D4A017] mb-4">
+            <p className="font-serif text-lg font-semibold text-primary-foreground dark:text-card-foreground mb-4">
               {t('worksEverywhere.explainerEyebrow')}
             </p>
             <p className="text-sm leading-relaxed text-primary-foreground/70 dark:text-card-foreground/70 mb-3">
@@ -359,7 +348,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="bg-background py-20 px-4 border-b border-border" id="pricing">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="eyebrow">{t('pricing.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('pricing.title_line1')}<br />{t('pricing.title_line2')}
             </h2>
@@ -479,7 +467,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="bg-primary dark:bg-card py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="text-[11px] font-bold tracking-[2.5px] uppercase text-accent mb-4">{t('quickstart.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-primary-foreground dark:text-card-foreground tracking-tight leading-tight">
               {t('quickstart.title_line1')}<br />{t('quickstart.title_line2')}
             </h2>
@@ -507,7 +494,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-14">
-            <p className="eyebrow">{t('resources.eyebrow')}</p>
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
               {t('resources.title_line1')}<br />{t('resources.title_line2')}
             </h2>
@@ -553,7 +539,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
       <section className="bg-muted py-20 px-4 border-t border-border">
         <div className="max-w-4xl mx-auto grid md:grid-cols-[1fr_1.4fr] gap-14 items-start">
           <div>
-            <p className="eyebrow">{t('contact.eyebrow')}</p>
             <h2 className="font-serif text-3xl font-semibold text-foreground tracking-tight leading-tight mb-4">
               {t('contact.title_line1')}<br />
               {t('contact.title_line2')}{' '}
@@ -581,9 +566,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
           </div>
         </div>
       </section>
-
-      {/* ── FOOTER CTA ── */}
-      <CTASection />
     </>
   )
 }

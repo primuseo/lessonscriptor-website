@@ -12,7 +12,6 @@ export default function FAQSection({ title, items }: { title?: string; items: FA
     <section className="py-20 px-4 max-w-3xl mx-auto" id="faq">
       {title && (
         <div className="text-center mb-14">
-          <p className="eyebrow">{t('faqSection.eyebrow')}</p>
           <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground tracking-tight leading-tight">
             {t('faqSection.title')}
             {t('faqSection.titleEm') && (

@@ -76,7 +76,6 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
 
         {/* Hero */}
         <section className="px-4 py-14 max-w-4xl mx-auto">
-          <p className="eyebrow">{t('hero.eyebrow')}</p>
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             {t('hero.h1')}
           </h1>

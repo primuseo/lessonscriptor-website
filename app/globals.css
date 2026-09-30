@@ -70,11 +70,6 @@
     @apply bg-muted scale-[1.02];
   }
 
-  /* ── Eyebrow ── */
-  .eyebrow {
-    @apply text-[11px] font-bold tracking-[2.5px] uppercase text-accent mb-4;
-  }
-
   /* ── Section header ── */
   .section-header {
     @apply text-center mb-14;
