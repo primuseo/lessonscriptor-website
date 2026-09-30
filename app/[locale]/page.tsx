@@ -439,7 +439,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
                 locale={locale}
               />
 
-              <ul className="flex flex-col gap-2 mb-6 pt-5 border-t border-white/[0.06] list-none p-0">
+              <ul className="flex flex-col gap-2 pt-5 border-t border-white/[0.06] list-none p-0">
                 {t.raw('pricing.premiumFeatures').map((f: string, i: number) => (
                   <li key={i} className="text-xs text-primary-foreground/55 dark:text-card-foreground/55 flex items-start gap-2 leading-snug">
                     {/* Always on the bg-primary/dark:bg-card band, so always the dark-surface-safe gold. */}
@@ -447,14 +447,6 @@ export default async function HomePage({ params: { locale } }: { params: { local
                   </li>
                 ))}
               </ul>
-              <a
-                href="https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block text-center bg-accent text-accent-foreground text-[13px] font-extrabold py-3.5 rounded-full no-underline hover:bg-accent-hover transition-colors"
-              >
-                {t('pricing.getAIBtn')}
-              </a>
             </div>
           </div>
           <p className="text-center mt-7 text-xs text-foreground/30 max-w-lg mx-auto leading-relaxed">
