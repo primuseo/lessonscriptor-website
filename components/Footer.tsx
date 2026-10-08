@@ -5,6 +5,7 @@ import { Link } from '@/navigation'
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer')
   const s = useTranslations('site')
+  const updates = useTranslations('whatsNew')
   const base = `/${locale}`
 
   return (
@@ -45,6 +46,7 @@ export default function Footer({ locale }: { locale: string }) {
             <div className="text-primary-foreground dark:text-card-foreground font-semibold text-sm mb-4">{t('resources')}</div>
             <ul className="space-y-2 text-sm">
               <li><Link href="/blog" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{t('blog')}</Link></li>
+              <li><Link href="/whats-new" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{updates('h1')}</Link></li>
               <li><NextLink href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">How to Transcribe Lectures</NextLink></li>
               <li><NextLink href={`${base}/blog/how-to-take-notes-with-adhd`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Note-taking for ADHD</NextLink></li>
               <li><NextLink href={`${base}/blog/best-chrome-extensions-live-captions`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Best Chrome Live Captions</NextLink></li>

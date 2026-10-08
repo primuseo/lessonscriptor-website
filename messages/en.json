@@ -1269,6 +1269,20 @@
     "earlierNote": "Earlier updates focused on core transcription accuracy, account infrastructure, and behind-the-scenes reliability improvements.",
     "releases": [
       {
+        "version": "1.1.4",
+        "date": "October 6, 2026",
+        "headline": "More reliable screenshots, clearer transcription feedback",
+        "bullets": [
+          "Remove unwanted screenshots with the × button, including screenshots in saved transcripts.",
+          "Capture video screenshots more reliably, even when playback started before opening the side panel or the player changes.",
+          "In Microphone mode, screenshots stay at the text position visible when you clicked capture; new speech appears below them.",
+          "Reduced duplicate Microphone passages. Unfinished text stays protected from editing: wait for a pause in speech, or pause the video yourself, then wait for processing to finish.",
+          "The AI processing indicator returns for each upload, including repeated recording sessions.",
+          "More reliable video play/pause sync in AI modes, with clearer feedback when a command fails.",
+          "A larger, labelled Settings button and updated guidance in every interface language."
+        ]
+      },
+      {
         "version": "1.1.0",
         "date": "August 30, 2026",
         "headline": "Add screenshots to your transcript",

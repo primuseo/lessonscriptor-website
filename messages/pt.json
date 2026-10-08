@@ -1380,6 +1380,20 @@
     "earlierNote": "As atualizações anteriores focaram-se na precisão da transcrição, infraestrutura de contas, e melhorias de fiabilidade nos bastidores.",
     "releases": [
       {
+        "version": "1.1.4",
+        "date": "6 de outubro de 2026",
+        "headline": "Capturas mais fiáveis e informação de transcrição mais clara",
+        "bullets": [
+          "Remova capturas desnecessárias com o botão ×, incluindo nas transcrições guardadas.",
+          "Capture o vídeo com mais fiabilidade, mesmo que a reprodução tenha começado antes de abrir o painel lateral ou que o leitor mude.",
+          "No modo Microfone, as capturas mantêm a posição do texto visível no momento do clique; o texto novo aparece por baixo.",
+          "Menos passagens duplicadas no modo Microfone. O texto em processamento continua protegido contra alterações: aguarde uma pausa na fala ou pause o vídeo manualmente e espere que o processamento termine.",
+          "O indicador de processamento por IA volta a aparecer em cada envio, mesmo após várias sessões de gravação.",
+          "Sincronização de reprodução e pausa mais fiável nos modos de IA, com um aviso mais claro se um comando falhar.",
+          "Um botão de Definições maior e com texto, e ajuda atualizada em todos os idiomas da interface."
+        ]
+      },
+      {
         "version": "1.1.0",
         "date": "30 de agosto de 2026",
         "headline": "Adicione capturas de tela à sua transcrição",

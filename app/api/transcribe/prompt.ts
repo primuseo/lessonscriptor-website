@@ -10,13 +10,10 @@ export function buildWhisperPrompt(
   customDictionary: unknown
 ): string | undefined {
   const promptParts: string[] = []
+  const previousTail = typeof previousTranscript === 'string' ? previousTranscript.slice(-200) : ''
 
-  if (
-    previousTranscript &&
-    typeof previousTranscript === 'string' &&
-    SENTENCE_PUNCTUATION.test(previousTranscript)
-  ) {
-    promptParts.push(previousTranscript.slice(-200))
+  if (SENTENCE_PUNCTUATION.test(previousTail)) {
+    promptParts.push(previousTail)
   }
   if (customDictionary && typeof customDictionary === 'string') {
     promptParts.push(customDictionary.slice(0, 200))

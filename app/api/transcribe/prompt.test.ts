@@ -39,6 +39,10 @@ describe('buildWhisperPrompt', () => {
     expect(buildWhisperPrompt('no punctuation here either', '')).toBeUndefined()
   })
 
+  it('drops an unpunctuated tail even if an earlier truncated sentence has punctuation', () => {
+    expect(buildWhisperPrompt('An early sentence. ' + 'unpunctuated tail '.repeat(20), '')).toBeUndefined()
+  })
+
   it('keeps the existing length limits (last 200 of transcript, first 200 of dictionary)', () => {
     const longPrev = 'x'.repeat(300) + ' final punctuated sentence.'
     const longDict = 'y'.repeat(300)

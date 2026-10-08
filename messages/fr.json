@@ -1282,6 +1282,20 @@
     "earlierNote": "Les mises à jour précédentes portaient sur la précision de la transcription, l'infrastructure des comptes, et des améliorations de fiabilité en coulisses.",
     "releases": [
       {
+        "version": "1.1.4",
+        "date": "6 octobre 2026",
+        "headline": "Des captures plus fiables et une transcription plus claire",
+        "bullets": [
+          "Supprimez les captures inutiles avec le bouton ×, y compris dans les transcriptions enregistrées.",
+          "Capturez la vidéo plus facilement, même si la lecture a commencé avant l’ouverture du panneau latéral ou si le lecteur change.",
+          "En mode Microphone, les captures restent à la position du texte visible au moment du clic ; la suite de la transcription apparaît en dessous.",
+          "Moins de passages en double en mode Microphone. Le texte en cours de traitement reste protégé contre les modifications : attendez une pause dans la parole ou mettez vous-même la vidéo en pause, puis laissez le traitement se terminer.",
+          "L’indicateur de traitement IA réapparaît à chaque envoi, même après plusieurs sessions d’enregistrement.",
+          "Une synchronisation lecture/pause plus fiable en modes IA, avec un message plus clair si une commande échoue.",
+          "Un bouton Paramètres plus grand et libellé, et des conseils mis à jour dans toutes les langues de l’interface."
+        ]
+      },
+      {
         "version": "1.1.0",
         "date": "30 août 2026",
         "headline": "Ajoutez des captures d'écran à votre transcription",

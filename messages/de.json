@@ -1281,6 +1281,20 @@
     "earlierNote": "Frühere Updates konzentrierten sich auf die Genauigkeit der Transkription, die Konto-Infrastruktur und Zuverlässigkeitsverbesserungen im Hintergrund.",
     "releases": [
       {
+        "version": "1.1.4",
+        "date": "6. Oktober 2026",
+        "headline": "Zuverlässigere Screenshots und klarere Transkriptionshinweise",
+        "bullets": [
+          "Entferne unerwünschte Screenshots mit der ×-Schaltfläche, auch in gespeicherten Transkripten.",
+          "Erstelle Video-Screenshots zuverlässiger, auch wenn die Wiedergabe bereits vor dem Öffnen der Seitenleiste begonnen hat oder der Player wechselt.",
+          "Im Mikrofonmodus bleiben Screenshots an der beim Klick sichtbaren Textposition; neuer Text erscheint darunter.",
+          "Weniger doppelte Passagen im Mikrofonmodus. Noch nicht fertig verarbeiteter Text bleibt vor Änderungen geschützt: Warte auf eine Sprechpause oder pausiere das Video selbst und warte, bis die Verarbeitung abgeschlossen ist.",
+          "Die KI-Verarbeitungsanzeige erscheint bei jedem Upload erneut, auch nach mehreren Aufnahmesitzungen.",
+          "Zuverlässigere Synchronisierung von Wiedergabe und Pause in den KI-Modi, mit klareren Hinweisen, wenn ein Befehl fehlschlägt.",
+          "Eine größere, beschriftete Einstellungen-Schaltfläche und aktualisierte Hinweise in allen Oberflächensprachen."
+        ]
+      },
+      {
         "version": "1.1.0",
         "date": "30. August 2026",
         "headline": "Füge Screenshots zu deinem Transkript hinzu",
