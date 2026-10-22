@@ -1281,6 +1281,17 @@
     "earlierNote": "Frühere Updates konzentrierten sich auf die Genauigkeit der Transkription, die Konto-Infrastruktur und Zuverlässigkeitsverbesserungen im Hintergrund.",
     "releases": [
       {
+        "version": "1.1.5",
+        "date": "22. Oktober 2026",
+        "headline": "Live-Text in den KI-Modi, Screenshots genau dort, wo du klickst",
+        "bullets": [
+          "Die KI-Modi zeigen Gesprochenes sofort als grauen Live-Text an und ersetzen ihn wenige Sekunden später durch das genaue KI-Transkript. Die Vorschau wird nie gespeichert, exportiert oder berechnet.",
+          "In den KI-Modi bleiben Screenshots genau dort, wo du geklickt hast: Vor dem Klick Gesprochenes steht über dem Bild, später Gesprochenes erscheint darunter.",
+          "Zeitstempel im Transkript folgen jetzt der Videoposition, genau wie Screenshot-Zeitstempel. Ein Klick auf einen Zeitstempel springt so zur richtigen Stelle, auch wenn du mitten im Video begonnen oder zurückgespult hast.",
+          "Die KI-Modi schneiden das Audio an natürlichen Sprechpausen statt mitten im Satz, sodass weniger Wörter auf zwei Segmente verteilt werden."
+        ]
+      },
+      {
         "version": "1.1.4",
         "date": "6. Oktober 2026",
         "headline": "Zuverlässigere Screenshots und klarere Transkriptionshinweise",

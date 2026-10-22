@@ -1269,6 +1269,17 @@
     "earlierNote": "Earlier updates focused on core transcription accuracy, account infrastructure, and behind-the-scenes reliability improvements.",
     "releases": [
       {
+        "version": "1.1.5",
+        "date": "October 22, 2026",
+        "headline": "Live text in AI modes, screenshots exactly where you click",
+        "bullets": [
+          "AI modes show live grey text as words are spoken, then replace it with the accurate AI transcript a few seconds later. The preview is never saved, exported or charged.",
+          "Screenshots in AI modes stay exactly where you clicked: text spoken before the click stays above the image, and later speech appears below it.",
+          "Transcript timestamps now follow the video's position, like screenshot timestamps, so clicking any timestamp jumps to the right moment, even if you started mid-video or rewound.",
+          "AI modes cut audio at natural pauses in speech instead of mid-sentence, so fewer words are split between segments."
+        ]
+      },
+      {
         "version": "1.1.4",
         "date": "October 6, 2026",
         "headline": "More reliable screenshots, clearer transcription feedback",

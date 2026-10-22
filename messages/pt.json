@@ -1380,6 +1380,17 @@
     "earlierNote": "As atualizações anteriores focaram-se na precisão da transcrição, infraestrutura de contas, e melhorias de fiabilidade nos bastidores.",
     "releases": [
       {
+        "version": "1.1.5",
+        "date": "22 de outubro de 2026",
+        "headline": "Texto em direto nos modos de IA e capturas exatamente onde clica",
+        "bullets": [
+          "Os modos de IA mostram texto cinzento em direto à medida que se fala e, alguns segundos depois, substituem-no pela transcrição precisa da IA. A pré-visualização nunca é guardada, exportada nem cobrada.",
+          "Nos modos de IA, as capturas ficam exatamente onde clicou: o texto dito antes do clique fica acima da imagem e o que se diz depois aparece por baixo.",
+          "As marcas de tempo da transcrição passam a seguir a posição do vídeo, tal como as das capturas, por isso clicar em qualquer marca leva-o ao momento certo, mesmo que tenha começado a meio do vídeo ou recuado.",
+          "Os modos de IA cortam o áudio nas pausas naturais da fala em vez de a meio da frase, por isso há menos palavras divididas entre segmentos."
+        ]
+      },
+      {
         "version": "1.1.4",
         "date": "6 de outubro de 2026",
         "headline": "Capturas mais fiáveis e informação de transcrição mais clara",
