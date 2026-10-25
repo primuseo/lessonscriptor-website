@@ -1171,7 +1171,7 @@
       "Each screenshot is stamped with the video time, for example [12:34]. Click the time to jump the video back to that moment.",
       "Hover over a screenshot and click the × in its top-right corner to delete it. Screenshots are saved with the transcript and come back when you load it from History."
     ],
-    "screenshotsNote": "Some streaming services and DRM-protected players block image capture. LessonScriptor then shows a \"protected video\" message instead of an image, and your transcription carries on normally.",
+    "screenshotsNote": "Some streaming services and DRM-protected players block image capture: LessonScriptor either shows an error message or the image comes out blank. Your transcription carries on normally.",
     "settingsHeading": "Settings walkthrough",
     "settingsLangHeading": "Language & Transcription",
     "settingsLangBody": "Set the interface language (what you see in the extension) and the video language (what the AI listens for). Specifying the video language improves transcription accuracy significantly for non-English content.",

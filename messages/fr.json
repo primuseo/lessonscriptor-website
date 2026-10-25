@@ -1184,7 +1184,7 @@
       "Chaque capture porte le minutage de la vidéo, par exemple [12:34]. Cliquez dessus pour revenir à ce moment de la vidéo.",
       "Survolez une capture et cliquez sur le × en haut à droite pour la supprimer. Les captures sont enregistrées avec la transcription et réapparaissent quand vous la rouvrez depuis l'historique."
     ],
-    "screenshotsNote": "Certaines plateformes de streaming et certains lecteurs protégés par DRM bloquent la capture d'image. LessonScriptor affiche alors un message « vidéo protégée » à la place de l'image, et la transcription continue normalement.",
+    "screenshotsNote": "Certaines plateformes de streaming et certains lecteurs protégés par DRM bloquent la capture d’image : LessonScriptor affiche alors un message d’erreur, ou l’image apparaît vide. La transcription continue normalement.",
     "settingsHeading": "Paramètres",
     "settingsLangHeading": "Langue et transcription",
     "settingsLangBody": "Définissez la langue de l'interface (ce que vous voyez dans l'extension) et la langue de la vidéo (ce que l'IA écoute). Préciser la langue de la vidéo améliore significativement la précision pour les contenus non anglophones.",

@@ -1260,29 +1260,29 @@
     "exportOptions": [
       {
         "label": "Copiar para a área de transferência",
-        "desc": "Cole diretamente no Google Docs, Notion, Word ou Gmail. A formatação (negrito, títulos, destaques) e as capturas são mantidas nas aplicações que aceitam imagens; as aplicações de texto simples recebem um marcador [Screenshot at 12:34]."
+        "desc": "Cole direto no Google Docs, Notion, Word ou Gmail. A formatação (negrito, títulos, destaques) e as capturas são mantidas nos apps que aceitam imagens; apps de texto simples recebem uma marcação [Screenshot at 12:34] no lugar."
       },
       {
-        "label": "Transferir como TXT",
-        "desc": "Texto simples, sem formatação. Cada captura torna-se um marcador [Screenshot at 12:34]."
+        "label": "Baixar como TXT",
+        "desc": "Texto simples, sem formatação. Cada captura vira uma marcação [Screenshot at 12:34]."
       },
       {
-        "label": "Transferir como Markdown (.md)",
-        "desc": "Formatação completa, com as capturas incorporadas no próprio ficheiro. Abra com o Obsidian, o Typora ou qualquer leitor de Markdown que mostre imagens."
+        "label": "Baixar como Markdown (.md)",
+        "desc": "Formatação completa, com as capturas incorporadas no próprio arquivo. Abra com Obsidian, Typora ou qualquer leitor de Markdown que exiba imagens."
       }
     ],
     "deleteBody": "Clique no ícone do caixote para eliminar a transcrição atual. Esta ação não pode ser desfeita.",
     "syncHeading": "Sincronização com o leitor de vídeo (beta)",
     "syncBody": "Clique no ícone de ligação para ativar o modo de sincronização. Quando ativo, parar a transcrição também pausa o vídeo. É uma funcionalidade beta — funciona com a maioria dos leitores mas pode não ser fiável em todas as plataformas.",
-    "screenshotsHeading": "Como adiciono capturas de ecrã à minha transcrição?",
-    "screenshotsIntro": "Uma captura do LessonScriptor é um fotograma do vídeo tirado com um clique e inserido na transcrição ao lado das palavras ditas nesse momento, para que diapositivos, esquemas e quadros fiquem no mesmo documento que a aula.",
+    "screenshotsHeading": "Como adiciono capturas de tela à minha transcrição?",
+    "screenshotsIntro": "Uma captura do LessonScriptor é um quadro do vídeo tirado com um clique e inserido na sua transcrição ao lado das palavras ditas naquele momento, para que slides, esquemas e anotações da lousa fiquem no mesmo documento que a aula.",
     "screenshotsSteps": [
-      "Clique no ícone da câmara no topo do painel lateral. O fotograma é capturado de imediato e o vídeo continua a reproduzir.",
-      "A imagem fica exatamente onde clicou: o texto dito antes do clique fica acima e o que vem depois aparece abaixo. Funciona durante a transcrição no Modo Microfone e no Áudio de Aba, e também com a transcrição em pausa.",
-      "Cada captura tem o minuto do vídeo, por exemplo [12:34]. Clique nele para voltar a esse momento do vídeo.",
-      "Passe o cursor sobre uma captura e clique no × no canto superior direito para a eliminar. As capturas são guardadas com a transcrição e voltam a aparecer quando a abre a partir do histórico."
+      "Clique no ícone da câmera no topo do painel lateral. O quadro do vídeo é capturado na hora, e o vídeo continua tocando.",
+      "A imagem aparece exatamente onde você clicou: o texto dito antes do clique fica acima, e o que vem depois aparece abaixo. Funciona durante a transcrição no Modo Microfone e no Áudio de Aba, e também com a transcrição pausada.",
+      "Cada captura mostra o minuto do vídeo, por exemplo [12:34]. Clique nele para voltar o vídeo para aquele momento.",
+      "Passe o mouse sobre uma captura e clique no × no canto superior direito para excluí-la. As capturas são salvas com a transcrição e voltam quando você a abre pelo histórico."
     ],
-    "screenshotsNote": "Alguns serviços de streaming e leitores protegidos por DRM bloqueiam a captura de imagem. Nesse caso, o LessonScriptor mostra uma mensagem de «vídeo protegido» em vez da imagem, e a transcrição continua normalmente.",
+    "screenshotsNote": "Alguns serviços de streaming e players protegidos por DRM bloqueiam a captura de imagem: o LessonScriptor exibe uma mensagem de erro ou a imagem sai em branco. Sua transcrição continua normalmente.",
     "settingsHeading": "Definições",
     "settingsLangHeading": "Idioma e transcrição",
     "settingsLangBody": "Defina o idioma da interface (o que vê na extensão) e o idioma do vídeo (o que a IA ouve). Especificar o idioma do vídeo melhora significativamente a precisão para conteúdo que não está em inglês.",
@@ -1322,7 +1322,7 @@
     "supportHeading": "Precisa de mais ajuda?",
     "supportBody": "Se ainda estiver com dificuldades, envie-nos uma mensagem — normalmente respondemos em 24 horas.",
     "footer": "Guia",
-    "contactCta": "Contacte-nos"
+    "contactCta": "Fale conosco"
   },
   "uninstall": {
     "metaTitle": "Que pena que você está saindo",

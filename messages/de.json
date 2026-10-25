@@ -1183,7 +1183,7 @@
       "Jeder Screenshot trägt die Videozeit, zum Beispiel [12:34]. Ein Klick darauf springt im Video an diese Stelle zurück.",
       "Fahren Sie mit der Maus über einen Screenshot und klicken Sie oben rechts auf das ×, um ihn zu löschen. Screenshots werden mit dem Transkript gespeichert und erscheinen wieder, wenn Sie es aus dem Verlauf laden."
     ],
-    "screenshotsNote": "Manche Streaming-Dienste und DRM-geschützte Player blockieren die Bildaufnahme. LessonScriptor zeigt dann statt eines Bildes den Hinweis „geschütztes Video“ an, und die Transkription läuft normal weiter.",
+    "screenshotsNote": "Manche Streaming-Dienste und DRM-geschützte Player blockieren die Bildaufnahme: LessonScriptor zeigt dann eine Fehlermeldung an, oder das Bild bleibt leer. Die Transkription läuft normal weiter.",
     "settingsHeading": "Einstellungen",
     "settingsLangHeading": "Sprache und Transkription",
     "settingsLangBody": "Stellen Sie die Oberflächensprache (was Sie in der Erweiterung sehen) und die Videosprache (was die KI hört) ein. Die Angabe der Videosprache verbessert die Transkriptionsgenauigkeit für nicht-englische Inhalte erheblich.",
