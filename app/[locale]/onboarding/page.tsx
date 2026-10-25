@@ -1,7 +1,7 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
 import { Link } from '@/navigation'
-import { SaveIcon, TrashIcon, ExportIcon, ClockIcon, SyncIcon } from '@/components/ExtensionIcons'
+import { SaveIcon, TrashIcon, ExportIcon, ClockIcon, SyncIcon, CameraIcon } from '@/components/ExtensionIcons'
 
 const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
 
@@ -33,6 +33,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
   const quickstartSteps: string[] = t.raw('quickstartSteps') as string[]
   const troubleshootingItems: TroubleItem[] = t.raw('troubleshootingItems') as TroubleItem[]
+  const screenshotsSteps: string[] = t.raw('screenshotsSteps') as string[]
 
   return (
     <div className="min-h-screen bg-background">
@@ -157,6 +158,32 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
 
         <hr className="border-border mb-16" />
 
+        {/* Screenshots */}
+        <section className="mb-16">
+          <h2 className="font-serif text-2xl font-semibold text-foreground mb-4">{t('screenshotsHeading')}</h2>
+          <div className="flex items-start gap-3 mb-6">
+            <span className="shrink-0 w-8 h-8 rounded-lg bg-muted flex items-center justify-center mt-0.5">
+              <CameraIcon className="w-4 h-4 text-foreground/50" />
+            </span>
+            <p className="text-foreground/70 leading-relaxed text-sm">{t('screenshotsIntro')}</p>
+          </div>
+          <ol className="space-y-3">
+            {screenshotsSteps.map((step, i) => (
+              <li key={i} className="flex gap-4 items-start">
+                <span className="shrink-0 w-7 h-7 rounded-full bg-accent/10 text-accent text-sm font-bold flex items-center justify-center mt-0.5">
+                  {i + 1}
+                </span>
+                <p className="text-foreground/70 leading-relaxed text-sm">{step}</p>
+              </li>
+            ))}
+          </ol>
+          <p className="mt-6 text-sm bg-accent/8 border border-accent/20 rounded-lg px-4 py-3 text-foreground/70 italic">
+            {t('screenshotsNote')}
+          </p>
+        </section>
+
+        <hr className="border-border mb-16" />
+
         {/* Settings */}
         <section className="mb-16">
           <h2 className="font-serif text-2xl font-semibold text-foreground mb-8">{t('settingsHeading')}</h2>
@@ -207,7 +234,7 @@ export default async function OnboardingPage({ params: { locale } }: { params: {
             href="/contact"
             className="btn-primary inline-block px-8 py-3 rounded-full font-bold"
           >
-            Contact us
+            {t('contactCta')}
           </Link>
         </section>
 

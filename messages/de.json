@@ -1161,20 +1161,29 @@
     "exportOptions": [
       {
         "label": "In Zwischenablage kopieren",
-        "desc": "Direkt in Google Docs, Notion, Word oder einen beliebigen Editor einfügen. Alle Formatierungen (Fett, Überschriften, Hervorhebungen) bleiben erhalten."
+        "desc": "Direkt in Google Docs, Notion, Word oder Gmail einfügen. Formatierung (fett, Überschriften, Markierungen) und Screenshots bleiben in Apps erhalten, die Bilder unterstützen; reine Text-Apps erhalten stattdessen eine Markierung [Screenshot at 12:34]."
       },
       {
         "label": "Als TXT herunterladen",
-        "desc": "Klartext, ohne Formatierung."
+        "desc": "Reiner Text ohne Formatierung. Jeder Screenshot wird zur Markierung [Screenshot at 12:34]."
       },
       {
         "label": "Als Markdown (.md) herunterladen",
-        "desc": "Vollständige Formatierung bleibt erhalten. Öffnen Sie mit Obsidian, Typora oder einem Markdown-Reader."
+        "desc": "Vollständige Formatierung, Screenshots sind direkt in die Datei eingebettet. Öffnen Sie sie mit Obsidian, Typora oder einem anderen Markdown-Reader, der Bilder anzeigt."
       }
     ],
     "deleteBody": "Klicken Sie auf das Papierkorb-Symbol, um die aktuelle Transkription zu löschen. Diese Aktion kann nicht rückgängig gemacht werden.",
     "syncHeading": "Synchronisation mit dem Videoplayer (Beta)",
     "syncBody": "Klicken Sie auf das Link-Symbol, um den Synchronisationsmodus zu aktivieren. Wenn aktiv, wird das Video auch pausiert, wenn die Transkription gestoppt wird. Dies ist eine Beta-Funktion — sie funktioniert mit den meisten Playern, ist aber möglicherweise nicht auf allen Plattformen zuverlässig.",
+    "screenshotsHeading": "Wie füge ich Screenshots in mein Transkript ein?",
+    "screenshotsIntro": "Ein LessonScriptor-Screenshot ist ein Standbild aus dem Video, das Sie mit einem Klick aufnehmen und das direkt neben den Worten im Transkript landet, die in diesem Moment gesprochen werden. So stehen Folien, Diagramme und Tafelbilder im selben Dokument wie die Vorlesung.",
+    "screenshotsSteps": [
+      "Klicken Sie oben im Seitenbereich auf das Kamera-Symbol. Das aktuelle Videobild wird sofort aufgenommen, das Video läuft weiter.",
+      "Das Bild erscheint genau dort, wo Sie geklickt haben: Was vor dem Klick gesagt wurde, steht darüber, alles Weitere darunter. Das funktioniert während der Transkription im Mikrofon-Modus und mit Tab-Audio sowie bei pausierter Transkription.",
+      "Jeder Screenshot trägt die Videozeit, zum Beispiel [12:34]. Ein Klick darauf springt im Video an diese Stelle zurück.",
+      "Fahren Sie mit der Maus über einen Screenshot und klicken Sie oben rechts auf das ×, um ihn zu löschen. Screenshots werden mit dem Transkript gespeichert und erscheinen wieder, wenn Sie es aus dem Verlauf laden."
+    ],
+    "screenshotsNote": "Manche Streaming-Dienste und DRM-geschützte Player blockieren die Bildaufnahme. LessonScriptor zeigt dann statt eines Bildes den Hinweis „geschütztes Video“ an, und die Transkription läuft normal weiter.",
     "settingsHeading": "Einstellungen",
     "settingsLangHeading": "Sprache und Transkription",
     "settingsLangBody": "Stellen Sie die Oberflächensprache (was Sie in der Erweiterung sehen) und die Videosprache (was die KI hört) ein. Die Angabe der Videosprache verbessert die Transkriptionsgenauigkeit für nicht-englische Inhalte erheblich.",
@@ -1213,7 +1222,8 @@
     ],
     "supportHeading": "Benötigen Sie weitere Hilfe?",
     "supportBody": "Wenn Sie immer noch nicht weiterkommen, senden Sie uns eine Nachricht — wir antworten in der Regel innerhalb von 24 Stunden.",
-    "footer": "Anleitung"
+    "footer": "Anleitung",
+    "contactCta": "Kontakt aufnehmen"
   },
   "uninstall": {
     "metaTitle": "Schade, dass du gehst",

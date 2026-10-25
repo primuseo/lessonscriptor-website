@@ -1161,20 +1161,29 @@
     "exportOptions": [
       {
         "label": "复制到剪贴板",
-        "desc": "直接粘贴到 Google 文档、Notion、Word 或任意编辑器。所有格式（加粗、标题、高亮）均保留。"
+        "desc": "直接粘贴到 Google Docs、Notion、Word 或 Gmail。在支持图片的应用中，格式（粗体、标题、高亮）和截图都会保留；纯文本应用则会收到 [Screenshot at 12:34] 标记。"
       },
       {
         "label": "下载为 TXT",
-        "desc": "纯文本，无格式。"
+        "desc": "纯文本，不含格式。每张截图会变成一个 [Screenshot at 12:34] 标记。"
       },
       {
         "label": "下载为 Markdown（.md）",
-        "desc": "完整格式保留。可用 Obsidian、Typora 或任意 Markdown 阅读器打开。"
+        "desc": "完整保留格式，截图直接嵌入文件中。可用 Obsidian、Typora 或任何能显示图片的 Markdown 阅读器打开。"
       }
     ],
     "deleteBody": "点击垃圾桶图标删除当前转录。此操作无法撤销。",
     "syncHeading": "与视频播放器同步（测试版）",
     "syncBody": "点击链接图标启用同步模式。启用后，停止转录也会暂停视频。这是测试版功能——适用于大多数播放器，但在所有平台上可能不完全可靠。",
+    "screenshotsHeading": "如何在转录中添加截图？",
+    "screenshotsIntro": "LessonScriptor 截图是一键截取的视频画面，会直接插入转录中、紧挨着当时讲到的内容。这样，幻灯片、图表和板书都与课程文字保存在同一份文档里。",
+    "screenshotsSteps": [
+      "点击侧边栏顶部的相机图标。当前视频画面会立即被截取，视频照常播放。",
+      "图片会出现在你点击的位置：点击前讲的内容在图片上方，之后的内容显示在下方。无论使用麦克风模式还是标签页音频转录都适用，转录暂停时也可以截图。",
+      "每张截图都标有视频时间，例如 [12:34]。点击该时间即可让视频跳回那一刻。",
+      "将鼠标悬停在截图上，点击右上角的 × 即可删除。截图会随转录一起保存，从历史记录中加载时会一并恢复。"
+    ],
+    "screenshotsNote": "部分流媒体平台和受 DRM 保护的播放器会阻止截图。此时 LessonScriptor 会显示“受保护的视频”提示而不是图片，转录不受影响，照常进行。",
     "settingsHeading": "设置",
     "settingsLangHeading": "语言与转录",
     "settingsLangBody": "设置界面语言（扩展中显示的语言）和视频语言（AI 识别的语言）。指定视频语言可显著提高非英语内容的转录精度。",
@@ -1213,7 +1222,8 @@
     ],
     "supportHeading": "需要更多帮助？",
     "supportBody": "如果仍然遇到问题，给我们发消息——通常在24小时内回复。",
-    "footer": "指南"
+    "footer": "指南",
+    "contactCta": "联系我们"
   },
   "uninstall": {
     "metaTitle": "很遗憾看到你离开",

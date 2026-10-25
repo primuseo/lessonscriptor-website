@@ -1149,20 +1149,29 @@
     "exportOptions": [
       {
         "label": "Copy to clipboard",
-        "desc": "Paste directly into Google Docs, Notion, Word, or any editor. All formatting (bold, headers, highlights) is preserved."
+        "desc": "Paste directly into Google Docs, Notion, Word, or Gmail. Formatting (bold, headers, highlights) and screenshots are preserved in apps that accept images; plain-text apps receive a [Screenshot at 12:34] marker instead."
       },
       {
         "label": "Download as TXT",
-        "desc": "Plain text, no formatting."
+        "desc": "Plain text, no formatting. Each screenshot becomes a [Screenshot at 12:34] marker."
       },
       {
         "label": "Download as Markdown (.md)",
-        "desc": "Full formatting preserved. Open with Obsidian, Typora, or any Markdown reader."
+        "desc": "Full formatting preserved, with screenshots embedded in the file itself. Open it with Obsidian, Typora, or any Markdown reader that displays images."
       }
     ],
     "deleteBody": "Click the trash icon to delete the current transcript. This action cannot be undone.",
     "syncHeading": "Sync with video player (beta)",
     "syncBody": "Click the link icon to enable sync mode. When active, stopping the transcription will also pause the video. This is a beta feature — it works with most players but may not be reliable on all platforms.",
+    "screenshotsHeading": "How do I add screenshots to my transcript?",
+    "screenshotsIntro": "A LessonScriptor screenshot is a frame of the video captured with one click and placed in your transcript right next to the words spoken at that moment, so slides, diagrams and whiteboard notes end up in the same document as the lecture.",
+    "screenshotsSteps": [
+      "Click the camera icon at the top of the side panel. The current video frame is captured instantly, and the video keeps playing.",
+      "The image lands exactly where you clicked: text spoken before the click stays above it, and what comes after appears below. This works while transcribing in Mic Mode and Tab Audio, and also while transcription is paused.",
+      "Each screenshot is stamped with the video time, for example [12:34]. Click the time to jump the video back to that moment.",
+      "Hover over a screenshot and click the × in its top-right corner to delete it. Screenshots are saved with the transcript and come back when you load it from History."
+    ],
+    "screenshotsNote": "Some streaming services and DRM-protected players block image capture. LessonScriptor then shows a \"protected video\" message instead of an image, and your transcription carries on normally.",
     "settingsHeading": "Settings walkthrough",
     "settingsLangHeading": "Language & Transcription",
     "settingsLangBody": "Set the interface language (what you see in the extension) and the video language (what the AI listens for). Specifying the video language improves transcription accuracy significantly for non-English content.",
@@ -1201,7 +1210,8 @@
     ],
     "supportHeading": "Need more help?",
     "supportBody": "If you're still stuck, send us a message — we usually reply within 24 hours.",
-    "footer": "Guide"
+    "footer": "Guide",
+    "contactCta": "Contact us"
   },
   "uninstall": {
     "metaTitle": "Sorry to see you go",
