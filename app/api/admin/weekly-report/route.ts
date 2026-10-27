@@ -53,8 +53,8 @@ async function handleWeeklyReport(request: NextRequest): Promise<NextResponse> {
       sql`SELECT source, count(*) AS c FROM feedback WHERE created_at > NOW() - INTERVAL '7 days' GROUP BY source ORDER BY count(*) DESC`,
     ])
 
-    const newTrial = (newUsersByType as { is_trial: boolean; c: string }[]).find(r => r.is_trial)?.c ?? '0'
-    const newNonTrial = (newUsersByType as { is_trial: boolean; c: string }[]).find(r => !r.is_trial)?.c ?? '0'
+    const newTrial = (newUsersByType as unknown as { is_trial: boolean; c: string }[]).find(r => r.is_trial)?.c ?? '0'
+    const newNonTrial = (newUsersByType as unknown as { is_trial: boolean; c: string }[]).find(r => !r.is_trial)?.c ?? '0'
 
     const peakConcurrent = Number(peakConcurrentRow[0]?.m ?? 0)
     const peakRpm = Number(peakRpmRow[0]?.m ?? 0)
@@ -64,7 +64,7 @@ async function handleWeeklyReport(request: NextRequest): Promise<NextResponse> {
     const ashFlag = peakAsh >= GROQ_ASH_LIMIT * CAPACITY_FLAG_RATIO
     const capacityFlagged = rpmFlag || ashFlag
 
-    const feedbackRows = feedbackWeek as { source: string; c: string }[]
+    const feedbackRows = feedbackWeek as unknown as { source: string; c: string }[]
     const feedbackLine = feedbackRows.length
       ? feedbackRows.map(r => `${r.source || 'unknown'}: ${r.c}`).join(', ')
       : 'none this week'
