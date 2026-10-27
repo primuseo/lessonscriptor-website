@@ -52,11 +52,12 @@ export async function POST(request: NextRequest) {
   }
 
   const rawBody = await request.text();
-  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || '');
 
+  // Signature verification is local (HMAC with the endpoint secret), so no API key is
+  // needed; `new Stripe('')` would throw where STRIPE_SECRET_KEY isn't set.
   let event: Stripe.Event;
   try {
-    event = stripe.webhooks.constructEvent(rawBody, signature, process.env.STRIPE_WEBHOOK_SECRET || '');
+    event = Stripe.webhooks.constructEvent(rawBody, signature, process.env.STRIPE_WEBHOOK_SECRET || '');
   } catch (err) {
     console.warn('[Stripe Webhook] Invalid signature — rejected:', err instanceof Error ? err.message : err);
     return NextResponse.json({ error: 'Invalid signature' }, { status: 401 });

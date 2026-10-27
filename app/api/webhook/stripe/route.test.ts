@@ -12,11 +12,16 @@ vi.mock('@/lib/welcome-email', () => ({
   sendWelcomeEmail: sendWelcomeEmailMock,
   sendRepeatPurchaseEmail: sendRepeatPurchaseEmailMock,
 }))
+// Mirrors the real library: the constructor throws without an API key, while the
+// static Stripe.webhooks helper verifies signatures without one.
 vi.mock('stripe', () => ({
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  default: vi.fn(function (this: any) {
-    this.webhooks = { constructEvent: constructEventMock }
-  }),
+  default: Object.assign(
+    vi.fn(function (this: { webhooks: unknown }, apiKey: string) {
+      if (!apiKey) throw new Error('Neither apiKey nor config.authenticator provided')
+      this.webhooks = { constructEvent: constructEventMock }
+    }),
+    { webhooks: { constructEvent: constructEventMock } },
+  ),
 }))
 
 import { POST } from './route'
@@ -63,6 +68,15 @@ describe('POST /api/webhook/stripe', () => {
     const res = await POST(req('{}', null))
     expect(res.status).toBe(400)
     expect(constructEventMock).not.toHaveBeenCalled()
+  })
+
+  // The self-hosted deploy has no Stripe API key: the webhook only verifies signatures.
+  it('verifies the signature without a Stripe API key', async () => {
+    delete process.env.STRIPE_SECRET_KEY
+    constructEventMock.mockReturnValue({ type: 'payment_intent.created', data: { object: {} } })
+    const res = await POST(req('{}'))
+    expect(res.status).toBe(200)
+    expect(constructEventMock).toHaveBeenCalledTimes(1)
   })
 
   it('rejects a request with an invalid signature', async () => {
