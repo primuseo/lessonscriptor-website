@@ -547,9 +547,9 @@
           "14+ idiomas"
         ],
         [
-          "Funciona com fones de ouvido (Premium)",
-          "Não",
-          "Sim"
+          "Funciona com fones de ouvido",
+          "Sim",
+          "Sim (modo IA)"
         ],
         [
           "Funciona em todas as plataformas de vídeo",
@@ -620,7 +620,7 @@
         },
         {
           "q": "As legendas ao vivo do Chrome funcionam com fones de ouvido?",
-          "a": "As legendas integradas do Chrome não funcionam com fones de ouvido porque dependem do microfone. O modo Premium do LessonScriptor usa a captura de áudio da aba — ele captura o áudio diretamente da aba do navegador, então os fones de ouvido funcionam perfeitamente."
+          "a": "Sim. A Legenda instantânea do Chrome capta o áudio que o próprio Chrome reproduz, não o microfone, então funciona com fones de ouvido. O limite é que o texto some depois de duas linhas. O modo IA do LessonScriptor também capta o áudio da aba e funciona com fones, e ainda mantém uma transcrição editável e exportável. Já o modo gratuito do LessonScriptor escuta pelo microfone, então precisa dos alto-falantes ligados."
         },
         {
           "q": "Posso obter legendas ao vivo em outros idiomas além do inglês no Chrome?",

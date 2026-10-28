@@ -547,9 +547,9 @@
           "14+ idiomas"
         ],
         [
-          "Funciona con auriculares (Premium)",
-          "No",
-          "Sí"
+          "Funciona con auriculares",
+          "Sí",
+          "Sí (modo IA)"
         ],
         [
           "Funciona en todas las plataformas de vídeo",
@@ -620,7 +620,7 @@
         },
         {
           "q": "¿Los subtítulos en vivo de Chrome funcionan con auriculares?",
-          "a": "Los subtítulos integrados de Chrome no funcionan con auriculares porque dependen del micrófono. El modo Premium de LessonScriptor usa la captura de audio de la pestaña — toma el audio directamente desde la pestaña del navegador, por lo que los auriculares funcionan perfectamente."
+          "a": "Sí. Los Subtítulos automáticos de Chrome captan el audio que reproduce el propio Chrome, no el micrófono, así que funcionan con auriculares. Su límite es que el texto desaparece tras dos líneas. El modo IA de LessonScriptor también capta el audio de la pestaña y funciona con auriculares, y además guarda una transcripción editable y exportable. El modo gratuito de LessonScriptor escucha por el micrófono, así que necesita los altavoces encendidos."
         },
         {
           "q": "¿Puedo obtener subtítulos en vivo en otros idiomas además del inglés en Chrome?",

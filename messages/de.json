@@ -547,9 +547,9 @@
           "14+ Sprachen"
         ],
         [
-          "Funktioniert mit Kopfhörern (Premium)",
-          "Nein",
-          "Ja"
+          "Funktioniert mit Kopfhörern",
+          "Ja",
+          "Ja (KI-Modus)"
         ],
         [
           "Funktioniert auf allen Videoplattformen",
@@ -620,7 +620,7 @@
         },
         {
           "q": "Funktionieren Chrome Live-Untertitel mit Kopfhörern?",
-          "a": "Chromes integrierte Live-Untertitel funktionieren nicht mit Kopfhörern, da sie auf das Mikrofon angewiesen sind. LessonScriptors Premium-Modus nutzt die Tab-Audio-Aufnahme — er greift das Audio direkt vom Browser-Tab ab, sodass Kopfhörer einwandfrei funktionieren."
+          "a": "Ja. Chromes Automatische Untertitel erfassen den Ton, den Chrome selbst abspielt, nicht das Mikrofon – sie funktionieren also mit Kopfhörern. Die Grenze: Der Text verschwindet nach zwei Zeilen. Der KI-Modus von LessonScriptor erfasst ebenfalls das Tab-Audio und funktioniert mit Kopfhörern, speichert aber ein bearbeitbares, exportierbares Transkript. Der kostenlose Modus von LessonScriptor hört dagegen über das Mikrofon mit und braucht daher eingeschaltete Lautsprecher."
         },
         {
           "q": "Kann ich Live-Untertitel in anderen Sprachen als Englisch in Chrome erhalten?",

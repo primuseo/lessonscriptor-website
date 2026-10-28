@@ -547,9 +547,9 @@
           "14+ langues"
         ],
         [
-          "Fonctionne avec un casque (Premium)",
-          "Non",
-          "Oui"
+          "Fonctionne avec un casque",
+          "Oui",
+          "Oui (mode IA)"
         ],
         [
           "Fonctionne sur toutes les plateformes vidéo",
@@ -620,7 +620,7 @@
         },
         {
           "q": "Les sous-titres en direct Chrome fonctionnent-ils avec un casque ?",
-          "a": "Les sous-titres intégrés de Chrome ne fonctionnent pas avec un casque car ils s'appuient sur le microphone. Le mode Premium de LessonScriptor utilise la capture audio de l'onglet — il récupère l'audio directement depuis l'onglet du navigateur, donc les casques fonctionnent parfaitement."
+          "a": "Oui. Les Sous-titres instantanés de Chrome captent le son lu par Chrome lui-même, pas le micro : ils fonctionnent donc avec un casque. Leur limite : le texte disparaît après deux lignes. Le mode IA de LessonScriptor capte aussi l'audio de l'onglet et fonctionne avec un casque, tout en conservant une transcription modifiable et exportable. Le mode gratuit de LessonScriptor, lui, écoute via le micro : il faut donc laisser les haut-parleurs allumés."
         },
         {
           "q": "Puis-je obtenir des sous-titres en direct dans d'autres langues que l'anglais dans Chrome ?",

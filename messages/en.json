@@ -531,9 +531,9 @@
           "14+ languages"
         ],
         [
-          "Works with headphones (Premium)",
-          "No",
-          "Yes"
+          "Works with headphones",
+          "Yes",
+          "Yes (AI mode)"
         ],
         [
           "Works on all video platforms",
@@ -604,7 +604,7 @@
         },
         {
           "q": "Do Chrome live captions work with headphones?",
-          "a": "Chrome's built-in live captions do not work with headphones because they rely on the microphone. LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab rather than through a microphone, so headphones work perfectly."
+          "a": "Yes. Chrome's built-in Live Caption captions the audio Chrome itself plays, not the microphone, so it works with headphones. The limit is that its captions disappear after two lines. LessonScriptor's AI mode also captures tab audio and works with headphones, and it keeps an editable, exportable transcript. LessonScriptor's Free mode is different: it listens through your microphone, so it needs your speakers on."
         },
         {
           "q": "Can I get live captions in languages other than English in Chrome?",
