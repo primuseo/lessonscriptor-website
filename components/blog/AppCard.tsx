@@ -1,4 +1,5 @@
 import { InlineText } from './InlineMarkdown'
+import { blogLabels } from './labels'
 
 interface AppCardProps {
   app_name: string
@@ -16,7 +17,8 @@ interface AppCardProps {
   internal_link?: string
 }
 
-export default function AppCard({ section }: { section: AppCardProps }) {
+export default function AppCard({ section, locale = 'en' }: { section: AppCardProps; locale?: string }) {
+  const L = blogLabels(locale)
   return (
     <div className="bg-card rounded-xl border border-border p-6 mb-6">
       <div className="flex items-start justify-between mb-3">
@@ -44,16 +46,16 @@ export default function AppCard({ section }: { section: AppCardProps }) {
 
       <div className="grid grid-cols-2 gap-3 text-xs mb-4">
         {section.platform && (
-          <div><span className="font-semibold text-foreground/50">Platform:</span> <span className="text-foreground/70">{section.platform}</span></div>
+          <div><span className="font-semibold text-foreground/50">{L.platform}:</span> <span className="text-foreground/70">{section.platform}</span></div>
         )}
         {section.free_tier && (
-          <div><span className="font-semibold text-foreground/50">Free tier:</span> <span className="text-foreground/70">{section.free_tier}</span></div>
+          <div><span className="font-semibold text-foreground/50">{L.freeTier}:</span> <span className="text-foreground/70">{section.free_tier}</span></div>
         )}
         {section.price && (
-          <div><span className="font-semibold text-foreground/50">Price:</span> <span className="text-foreground/70">{section.price}</span></div>
+          <div><span className="font-semibold text-foreground/50">{L.price}:</span> <span className="text-foreground/70">{section.price}</span></div>
         )}
         {section.best_for && (
-          <div><span className="font-semibold text-foreground/50">Best for:</span> <span className="text-foreground/70">{section.best_for}</span></div>
+          <div><span className="font-semibold text-foreground/50">{L.bestFor}:</span> <span className="text-foreground/70">{section.best_for}</span></div>
         )}
       </div>
 
@@ -67,7 +69,7 @@ export default function AppCard({ section }: { section: AppCardProps }) {
 
       {section.limitations && (
         <p className="text-xs text-foreground/40 italic">
-          Limitations: {section.limitations}
+          {L.limitations}: {section.limitations}
         </p>
       )}
     </div>

@@ -1457,5 +1457,133 @@
         ]
       }
     ]
+  },
+  "lectureTranscription": {
+    "metaTitle": "Transcrever aulas online: transcrição ao vivo no Chrome",
+    "metaDesc": "Transcreva suas aulas ao vivo no Chrome: AVA/Moodle, Google Classroom, Teams, Meet, YouTube. Texto editável, modo gratuito e IA a partir de US$ 1 por hora.",
+    "h1": "Transcrição de aulas ao vivo, direto no Chrome",
+    "subtitle": "Leia enquanto o professor fala. O LessonScriptor transforma qualquer aula que toca no seu navegador em uma transcrição editável e pesquisável, sem gravação para enviar depois.",
+    "answer": "Transcrição de aulas é a conversão de uma aula falada em texto escrito, e o jeito mais rápido de transcrever aulas online é o LessonScriptor, uma extensão do Chrome que transcreve a aula enquanto ela toca. Ele funciona no AVA da sua faculdade (Moodle), no Google Classroom, no Teams, no Zoom e no Google Meet pelo navegador, e no YouTube ou no Coursera. O modo gratuito usa o reconhecimento de voz do navegador pelo microfone. O modo IA captura o áudio da aba diretamente, funciona com fone de ouvido e entende muito melhor sotaques e vocabulário técnico, por US$ 1 por hora ou menos, sem assinatura.",
+    "compare": {
+      "title": "Gravador de aula ou transcrição ao vivo?",
+      "subtitle": "A maioria dos estudantes que procura gravar uma aula quer, na verdade, o texto, não um arquivo de áudio. Veja como as opções se comparam.",
+      "rows": [
+        [
+          "",
+          "Gravador de voz / app de gravação",
+          "Transcrição por upload (Otter, TurboScribe)",
+          "Legendas automáticas da plataforma (YouTube, Panopto)",
+          "LessonScriptor"
+        ],
+        [
+          "Quando você recebe o texto",
+          "Nunca (só áudio)",
+          "Depois da aula, quando você envia o arquivo",
+          "Só se a legenda estiver disponível no vídeo",
+          "Durante a aula"
+        ],
+        [
+          "Precisa enviar um arquivo",
+          "Gera um",
+          "Sim",
+          "Não",
+          "Não"
+        ],
+        [
+          "Funciona em vídeos protegidos do AVA",
+          "Só gravando a sala ou o alto-falante",
+          "Só se você conseguir baixar o arquivo",
+          "Sim, se houver legenda",
+          "Sim, tudo que toca no Chrome"
+        ],
+        [
+          "Notas editáveis na transcrição",
+          "Não",
+          "Limitado",
+          "Não",
+          "Destaques, negrito, títulos, capturas de tela"
+        ],
+        [
+          "Funciona com fone de ouvido",
+          "Não se aplica",
+          "Não se aplica",
+          "Sim",
+          "Sim (modo IA)"
+        ],
+        [
+          "Preço",
+          "Grátis",
+          "Assinatura, geralmente mensal",
+          "Incluído na plataforma",
+          "Modo gratuito; pacotes IA a partir de US$ 5, sem assinatura"
+        ]
+      ]
+    },
+    "steps": {
+      "title": "Como transcrever uma aula no Chrome",
+      "items": [
+        "Instale o LessonScriptor pela Chrome Web Store e fixe a extensão na barra de ferramentas.",
+        "Abra sua aula: uma aula ao vivo no Google Meet, Teams ou Zoom pelo navegador, uma videoaula do AVA/Moodle ou do Google Classroom, ou um vídeo do YouTube.",
+        "Abra o painel lateral do LessonScriptor e escolha o idioma da aula (são 14 idiomas disponíveis).",
+        "Escolha um modo: o modo gratuito escuta pelo microfone, então deixe o volume das caixas de som em 80% ou mais; o modo IA captura o áudio da aba diretamente e funciona com fone de ouvido.",
+        "Clique em iniciar. A transcrição aparece enquanto a aula avança, em blocos de 10 segundos no modo Normal ou de 30 segundos no modo Ótimo, mais preciso.",
+        "Destaque os pontos principais, adicione títulos e capture os slides durante a aula; depois exporte em .md ou .txt para revisar para a prova."
+      ]
+    },
+    "platforms": {
+      "title": "Funciona nas plataformas que a sua faculdade já usa",
+      "items": [
+        {
+          "title": "AVA, Moodle e Google Classroom",
+          "description": "Videoaulas dentro do AVA muitas vezes não têm botão de download nem legenda. Se o vídeo toca no Chrome, o LessonScriptor consegue transcrever, seja na USP, na Unicamp ou em um curso EAD."
+        },
+        {
+          "title": "Google Meet, Teams e Zoom",
+          "description": "Entre na aula pelo Chrome e o modo IA transcreve a aba, sem nenhum bot entrando na chamada. Se você usa o app de desktop do Zoom ou do Teams, o modo gratuito pode captar o áudio das suas caixas de som."
+        },
+        {
+          "title": "Panopto e Kaltura",
+          "description": "Plataformas de gravação de aulas às vezes oferecem legendas, mas só quando o professor ativa. A transcrição ao vivo entrega o texto de qualquer forma, com os seus próprios destaques."
+        },
+        {
+          "title": "YouTube, Coursera e Udemy",
+          "description": "Cursos livres, MOOCs e aulas gravadas em plataformas públicas funcionam do mesmo jeito, inclusive vídeos sem transcrição e aulas em outro idioma."
+        }
+      ]
+    },
+    "recordingRules": {
+      "title": "É permitido transcrever uma aula?",
+      "body": "As regras dependem da sua instituição, então confira o regulamento do curso e, na dúvida, peça autorização ao professor, já que a aula envolve direito autoral e direito de imagem dele. Transcrever para o seu próprio estudo é amplamente aceito, e estudantes com deficiência ou condição documentada, como TDAH, dislexia ou perda auditiva, costumam ter direito a apoio para anotações por meio do núcleo de acessibilidade da universidade, com base na Lei Brasileira de Inclusão. O LessonScriptor guarda as transcrições no seu dispositivo e não grava nem armazena o áudio da aula, o que facilita seguir a maioria das regras. Nunca compartilhe uma transcrição publicamente sem autorização."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Qual é a melhor forma de transcrever uma aula?",
+          "a": "Para uma aula online ou gravada, a melhor forma é a transcrição ao vivo no navegador: o texto aparece enquanto você assiste, então não há nada para enviar depois. O LessonScriptor faz isso no Chrome no AVA/Moodle, Google Classroom, Teams, Google Meet, YouTube e mais. Para uma aula presencial, grave com o celular (com autorização do professor) e use uma ferramenta de upload depois, ou o modo gratuito com o microfone do notebook se o áudio da sala estiver claro."
+        },
+        {
+          "q": "Existe ferramenta grátis para transcrever aulas?",
+          "a": "Sim. O modo gratuito do LessonScriptor não custa nada, não tem limite mensal e não exige conta. Ele usa o reconhecimento de voz integrado do navegador pelo microfone. O modo IA é mais preciso e funciona com fone de ouvido; custa US$ 1 por hora ou menos em pacotes avulsos e inclui um teste grátis de 30 minutos. Os preços são em dólar americano e a Stripe converte para reais no pagamento."
+        },
+        {
+          "q": "O LessonScriptor grava o áudio da aula?",
+          "a": "Não. O LessonScriptor gera uma transcrição em texto e salva suas notas e capturas de tela, mas não salva nenhuma gravação de áudio ou vídeo. Se você precisa do áudio em si, vai precisar de um gravador separado."
+        },
+        {
+          "q": "Dá para transcrever uma aula usando fone de ouvido?",
+          "a": "Sim, no modo IA, que captura o áudio da aba diretamente. O modo gratuito depende do microfone ouvir as caixas de som, por isso não funciona com fone de ouvido."
+        },
+        {
+          "q": "A transcrição de aulas é precisa?",
+          "a": "A precisão depende da qualidade do áudio e do motor. O reconhecimento de voz do navegador (modo gratuito) funciona bem com áudio claro. O modo IA lida muito melhor com sotaques, ruído de fundo e vocabulário técnico; o modo Ótimo aceita um atraso de 30 segundos em troca da maior precisão."
+        },
+        {
+          "q": "Dá para transcrever aulas em inglês ou outros idiomas?",
+          "a": "Sim. O LessonScriptor suporta 14 idiomas, incluindo português, inglês, espanhol, francês, alemão, chinês, árabe e hindi. Escolha o idioma da aula antes de começar, por exemplo para um curso em inglês ou um intercâmbio."
+        }
+      ]
+    },
+    "relatedHeading": "Guias para transcrever e estudar suas aulas",
+    "readMore": "Ler mais"
   }
 }

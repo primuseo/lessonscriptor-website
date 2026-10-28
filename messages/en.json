@@ -1445,5 +1445,133 @@
     },
     "relatedHeading": "More for teachers",
     "readMore": "Read more"
+  },
+  "lectureTranscription": {
+    "metaTitle": "Lecture Transcription in Chrome — Live, Free to Start",
+    "metaDesc": "Transcribe lectures live in Chrome: Moodle, Canvas, Panopto, Zoom, YouTube. Editable transcript with screenshots, no file upload. Free mode, AI from $1/hour.",
+    "h1": "Lecture Transcription for Students — Live in Chrome",
+    "subtitle": "Read along while your professor speaks. LessonScriptor turns any lecture playing in your browser into an editable, searchable transcript, with no recording to upload afterwards.",
+    "answer": "Lecture transcription is the conversion of a spoken lecture into written text, and the fastest way to do it for an online class is LessonScriptor, a Chrome extension that transcribes the lecture while it plays. It works on Moodle, Canvas, Blackboard, Panopto, Zoom and Google Meet in the browser, and on YouTube or Coursera. Free mode uses your browser's speech recognition through the microphone. AI mode captures the tab's audio directly, works with headphones and handles accents and technical vocabulary far better, for $1 per hour or less with no subscription.",
+    "compare": {
+      "title": "Lecture recorder or live transcription?",
+      "subtitle": "Most students searching for a lecture recorder want the words, not an audio file. Here is how the options differ.",
+      "rows": [
+        [
+          "",
+          "Voice-memo / lecture recorder app",
+          "Upload-based transcription (Otter, TurboScribe)",
+          "LMS auto-captions (Panopto, Canvas)",
+          "LessonScriptor"
+        ],
+        [
+          "When you get text",
+          "Never (audio only)",
+          "After the lecture, once you upload",
+          "Only if the instructor enabled captions",
+          "During the lecture"
+        ],
+        [
+          "Needs a file to upload",
+          "Creates one",
+          "Yes",
+          "No",
+          "No"
+        ],
+        [
+          "Works on protected university videos",
+          "Only by recording the room or speakers",
+          "Only if you can download the file",
+          "Yes, if enabled",
+          "Yes, anything that plays in Chrome"
+        ],
+        [
+          "Editable notes in the transcript",
+          "No",
+          "Limited",
+          "No",
+          "Highlights, bold, headers, screenshots"
+        ],
+        [
+          "Works with headphones",
+          "n/a",
+          "n/a",
+          "Yes",
+          "Yes (AI mode)"
+        ],
+        [
+          "Price",
+          "Free",
+          "Subscription, usually monthly",
+          "Included if your university pays",
+          "Free mode; AI packs from $5, no subscription"
+        ]
+      ]
+    },
+    "steps": {
+      "title": "How to transcribe a lecture in Chrome",
+      "items": [
+        "Install LessonScriptor from the Chrome Web Store and pin it to your toolbar.",
+        "Open your lecture: a live Zoom or Google Meet class in the browser, a Panopto or Moodle recording, or a YouTube video.",
+        "Open the LessonScriptor side panel and choose the lecture's language (14 languages are supported).",
+        "Pick a mode: Free mode listens through your microphone, so keep the speakers at 80% volume or more; AI mode captures the tab audio directly and works with headphones.",
+        "Press start. The transcript appears as the lecture plays, in 10-second chunks in Normal mode or 30-second chunks in Optimal mode for higher accuracy.",
+        "Highlight key points, add headers and take screenshots of slides as you go, then export as .md or .txt for revision."
+      ]
+    },
+    "platforms": {
+      "title": "Works on the platforms your university already uses",
+      "items": [
+        {
+          "title": "Moodle, Canvas and Blackboard",
+          "description": "Recorded lectures embedded in your course page often have no download button and no captions. If the video plays in Chrome, LessonScriptor can transcribe it."
+        },
+        {
+          "title": "Panopto and Kaltura",
+          "description": "Lecture-capture platforms sometimes offer captions, but only when the instructor turns them on. Live transcription gives you text either way, plus your own highlights."
+        },
+        {
+          "title": "Zoom, Google Meet and Teams in the browser",
+          "description": "Join the class in Chrome and AI mode transcribes the tab, with no bot joining the call. For the Zoom desktop app, Free mode can pick up the audio from your speakers."
+        },
+        {
+          "title": "YouTube, Coursera and Udemy",
+          "description": "MOOCs and recorded lectures on public platforms work the same way, including videos with no transcript and lectures in another language."
+        }
+      ]
+    },
+    "recordingRules": {
+      "title": "Is it allowed to transcribe a lecture?",
+      "body": "Rules depend on your university and country, so check your course policy and, when in doubt, ask the lecturer. Transcribing for your own study is widely accepted, and students with a documented disability such as ADHD, dyslexia or hearing loss are often entitled to note-taking support or recordings as a formal accommodation. LessonScriptor keeps transcripts on your device and does not record or store the lecture's audio, which makes it easier to stay within most policies. Never share a transcript publicly without permission."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "What is the best way to transcribe a lecture?",
+          "a": "For an online or recorded lecture, the best way is live transcription in the browser: the text appears while you watch, so there's nothing to upload later. LessonScriptor does this in Chrome on Moodle, Canvas, Panopto, Zoom, YouTube and more. For an in-person lecture, use a phone recorder and an upload-based tool afterwards, or Free mode with your laptop microphone if the room audio is clear."
+        },
+        {
+          "q": "Is there a free lecture transcription tool?",
+          "a": "Yes. LessonScriptor's Free mode costs nothing, has no monthly cap and needs no account. It uses your browser's built-in speech recognition through your microphone. AI mode is more accurate and works with headphones; it costs $1 per hour or less in one-time packs and includes a 30-minute free trial."
+        },
+        {
+          "q": "Does LessonScriptor record the lecture audio?",
+          "a": "No. LessonScriptor produces a text transcript and saves your notes and screenshots, but it does not save an audio or video recording. If you need the audio itself, you'll need a separate recorder."
+        },
+        {
+          "q": "Can I transcribe a lecture with headphones on?",
+          "a": "Yes, in AI mode, which captures the tab's audio directly. Free mode relies on the microphone hearing your speakers, so it doesn't work with headphones."
+        },
+        {
+          "q": "How accurate is lecture transcription?",
+          "a": "Accuracy depends on audio quality and the engine. Browser speech recognition (Free mode) is fine for clear audio. AI mode handles accents, background noise and technical vocabulary much better; Optimal mode trades a 30-second delay for the highest accuracy."
+        },
+        {
+          "q": "Can I transcribe lectures in French, Spanish or other languages?",
+          "a": "Yes. LessonScriptor supports 14 languages, including English, French, Spanish, German, Portuguese, Chinese, Arabic and Hindi. Select the lecture's language before you start."
+        }
+      ]
+    },
+    "relatedHeading": "Guides for transcribing and studying lectures",
+    "readMore": "Read more"
   }
 }

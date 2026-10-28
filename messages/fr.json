@@ -1458,5 +1458,133 @@
     },
     "relatedHeading": "Plus pour les enseignants",
     "readMore": "Lire la suite"
+  },
+  "lectureTranscription": {
+    "metaTitle": "Transcription cours en ligne : transcrire un cours en direct",
+    "metaDesc": "Transcrivez vos cours en direct dans Chrome : Moodle, BigBlueButton, Teams, Panopto, YouTube. Texte modifiable, mode gratuit, IA dès 1 USD/heure.",
+    "h1": "Transcription de cours en ligne, en direct dans Chrome",
+    "subtitle": "Lisez pendant que l'enseignant parle. LessonScriptor transforme le cours qui passe dans votre navigateur en transcription modifiable et consultable, sans enregistrement à importer après coup.",
+    "answer": "La transcription de cours en ligne consiste à convertir un cours oral en texte écrit, et le moyen le plus rapide de transcrire un cours à distance est LessonScriptor, une extension Chrome qui transcrit le cours pendant sa diffusion. Elle fonctionne sur Moodle, BigBlueButton, Teams et Zoom dans le navigateur, sur Panopto, ainsi que sur YouTube, FUN MOOC ou Coursera. Le mode gratuit utilise la reconnaissance vocale du navigateur via le micro. Le mode IA capte directement le son de l'onglet, fonctionne avec un casque et gère bien mieux les accents et le vocabulaire technique, pour 1 USD de l'heure maximum, sans abonnement.",
+    "compare": {
+      "title": "Dictaphone ou transcription en direct ?",
+      "subtitle": "La plupart des étudiants qui cherchent à enregistrer un cours veulent en réalité le texte, pas un fichier audio. Voici ce qui distingue les options.",
+      "rows": [
+        [
+          "",
+          "Dictaphone / appli d'enregistrement",
+          "Transcription par import (Otter, TurboScribe)",
+          "Sous-titres de la plateforme (Panopto, Kaltura)",
+          "LessonScriptor"
+        ],
+        [
+          "Quand vous obtenez le texte",
+          "Jamais (audio seulement)",
+          "Après le cours, une fois le fichier importé",
+          "Seulement si l'enseignant a activé les sous-titres",
+          "Pendant le cours"
+        ],
+        [
+          "Fichier à importer",
+          "En crée un",
+          "Oui",
+          "Non",
+          "Non"
+        ],
+        [
+          "Vidéos protégées de l'université (Moodle, ENT)",
+          "Seulement en enregistrant la salle ou les haut-parleurs",
+          "Seulement si vous pouvez télécharger le fichier",
+          "Oui, s'ils sont activés",
+          "Oui, tout ce qui se lit dans Chrome"
+        ],
+        [
+          "Notes modifiables dans la transcription",
+          "Non",
+          "Limité",
+          "Non",
+          "Surlignage, gras, titres, captures d'écran"
+        ],
+        [
+          "Fonctionne avec un casque",
+          "Sans objet",
+          "Sans objet",
+          "Oui",
+          "Oui (mode IA)"
+        ],
+        [
+          "Prix",
+          "Gratuit",
+          "Abonnement, souvent mensuel",
+          "Inclus si l'université paie la licence",
+          "Mode gratuit ; packs IA dès 5 USD, sans abonnement"
+        ]
+      ]
+    },
+    "steps": {
+      "title": "Comment transcrire un cours dans Chrome",
+      "items": [
+        "Installez LessonScriptor depuis le Chrome Web Store et épinglez-le à votre barre d'outils.",
+        "Ouvrez votre cours : une classe virtuelle BigBlueButton, Teams ou Zoom dans le navigateur, une vidéo Moodle ou Panopto, ou une vidéo YouTube.",
+        "Ouvrez le panneau latéral LessonScriptor et choisissez la langue du cours (14 langues disponibles).",
+        "Choisissez un mode : le mode gratuit écoute par le micro, gardez donc le volume des haut-parleurs à 80 % ou plus ; le mode IA capte directement le son de l'onglet et fonctionne avec un casque.",
+        "Lancez la transcription. Le texte s'affiche au fil du cours, par blocs de 10 secondes en mode Normal ou de 30 secondes en mode Optimal, plus précis.",
+        "Surlignez les points clés, ajoutez des titres et capturez les diapos au fil de l'eau, puis exportez en .md ou .txt pour vos fiches de révision."
+      ]
+    },
+    "platforms": {
+      "title": "Compatible avec les plateformes de votre université",
+      "items": [
+        {
+          "title": "Moodle et l'ENT de votre fac",
+          "description": "Les cours enregistrés intégrés à Moodle n'ont souvent ni bouton de téléchargement ni sous-titres. Si la vidéo se lit dans Chrome, LessonScriptor peut la transcrire, que vous soyez à la Sorbonne, dans une autre université ou inscrit au CNED."
+        },
+        {
+          "title": "BigBlueButton, Teams et Zoom",
+          "description": "Suivez le cours à distance dans Chrome et le mode IA transcrit l'onglet, sans robot qui rejoint la réunion. Avec l'application de bureau Teams ou Zoom, le mode gratuit peut capter le son de vos haut-parleurs."
+        },
+        {
+          "title": "Panopto et Kaltura",
+          "description": "Les plateformes de captation proposent parfois des sous-titres, mais seulement si l'enseignant les active. La transcription en direct vous donne le texte dans tous les cas, avec vos propres surlignages."
+        },
+        {
+          "title": "YouTube, FUN MOOC et Coursera",
+          "description": "Les MOOC et les cours enregistrés sur des plateformes publiques fonctionnent de la même façon, y compris les vidéos sans transcription et les cours en anglais."
+        }
+      ]
+    },
+    "recordingRules": {
+      "title": "A-t-on le droit de transcrire un cours ?",
+      "body": "Les règles dépendent de votre université : consultez le règlement des études et, en cas de doute, demandez l'autorisation de l'enseignant, car son cours relève de son droit d'auteur et de son droit à l'image. Transcrire pour votre usage personnel est largement accepté, et les étudiants en situation de handicap (TDAH, dyslexie, troubles auditifs) peuvent obtenir des aménagements, comme une aide à la prise de notes, auprès du service handicap ou de la Mission handicap de l'université, dans le cadre d'un PAEH. LessonScriptor garde les transcriptions sur votre appareil et n'enregistre pas l'audio du cours, ce qui facilite le respect de la plupart des règlements. Ne diffusez jamais une transcription publiquement sans autorisation."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Comment transcrire un cours en ligne ?",
+          "a": "Pour un cours en ligne ou enregistré, le plus efficace est la transcription en direct dans le navigateur : le texte apparaît pendant que vous suivez le cours, sans rien à importer ensuite. LessonScriptor le fait dans Chrome sur Moodle, BigBlueButton, Teams, Panopto, YouTube et d'autres. Pour un cours en amphi ou en TD, enregistrez avec votre téléphone (avec l'accord de l'enseignant) puis utilisez un outil par import, ou le mode gratuit avec le micro de votre ordinateur si le son de la salle est clair."
+        },
+        {
+          "q": "Existe-t-il un outil gratuit de transcription de cours ?",
+          "a": "Oui. Le mode gratuit de LessonScriptor ne coûte rien, n'a pas de limite mensuelle et ne demande pas de compte. Il utilise la reconnaissance vocale intégrée au navigateur via votre micro. Le mode IA est plus précis et fonctionne avec un casque ; il coûte 1 USD de l'heure maximum en packs sans abonnement, avec 30 minutes d'essai gratuit. Les prix sont en dollars US et Stripe les convertit dans votre devise au paiement."
+        },
+        {
+          "q": "LessonScriptor enregistre-t-il l'audio du cours ?",
+          "a": "Non. LessonScriptor produit une transcription texte et sauvegarde vos notes et captures d'écran, mais n'enregistre aucun fichier audio ou vidéo. Si vous avez besoin de l'audio lui-même, il vous faut un enregistreur séparé."
+        },
+        {
+          "q": "Peut-on transcrire un cours avec un casque ?",
+          "a": "Oui, en mode IA, qui capte directement le son de l'onglet. Le mode gratuit dépend du micro qui entend vos haut-parleurs, il ne fonctionne donc pas avec un casque."
+        },
+        {
+          "q": "La transcription de cours est-elle fiable ?",
+          "a": "La précision dépend de la qualité audio et du moteur. La reconnaissance vocale du navigateur (mode gratuit) suffit pour un son clair. Le mode IA gère bien mieux les accents, le bruit de fond et le vocabulaire technique ; le mode Optimal accepte un délai de 30 secondes en échange de la meilleure précision."
+        },
+        {
+          "q": "Peut-on transcrire des cours en anglais ou dans d'autres langues ?",
+          "a": "Oui. LessonScriptor prend en charge 14 langues, dont le français, l'anglais, l'espagnol, l'allemand, le portugais, le chinois, l'arabe et l'hindi. Choisissez la langue du cours avant de lancer la transcription, par exemple pour un cours en anglais ou un semestre Erasmus."
+        }
+      ]
+    },
+    "relatedHeading": "Guides pour transcrire et réviser vos cours",
+    "readMore": "Lire la suite"
   }
 }

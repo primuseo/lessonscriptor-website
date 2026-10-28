@@ -56,6 +56,30 @@ export async function generateMetadata({
   }
 }
 
+// Older posts store JSON-LD in several wrappers ({ type, content | data | properties |
+// json_ld } or a flat { type, ...fields }). Normalize to a real schema.org object,
+// or drop it, so Google never sees an unparseable block.
+function toJsonLd(raw: Record<string, unknown>): Record<string, unknown> | null {
+  if ('@type' in raw) return raw
+  for (const key of ['content', 'data', 'properties', 'json_ld']) {
+    const inner = raw[key]
+    if (inner && typeof inner === 'object' && !Array.isArray(inner)) {
+      const obj = inner as Record<string, unknown>
+      if ('@type' in obj) return obj
+      return { '@context': 'https://schema.org', '@type': raw.type, ...obj }
+    }
+  }
+  const { type, ref, steps, items, ...rest } = raw
+  if (typeof type !== 'string' || ref !== undefined) return null
+  return {
+    '@context': 'https://schema.org',
+    '@type': type,
+    ...rest,
+    ...(steps !== undefined && { step: steps }),
+    ...(items !== undefined && { itemListElement: items }),
+  }
+}
+
 function FAQBlock({ faq }: { faq: NonNullable<ReturnType<typeof getPost>>['faq'] }) {
   if (!faq) return null
   const questions = faq.questions || faq.items?.map((i) => ({
@@ -111,11 +135,7 @@ export default async function BlogPostPage({
   const post = getPost(canonical, locale)
   if (!post) notFound()
 
-  // Older posts store JSON-LD wrapped as { type, content }; emit only the
-  // schema object itself, or Google can't parse it.
-  const schemas = (post.schemas || []).map((s) =>
-    !('@type' in s) && s.content && typeof s.content === 'object' ? (s.content as Record<string, unknown>) : s
-  )
+  const schemas = (post.schemas || []).map(toJsonLd).filter(Boolean) as Record<string, unknown>[]
   const baseUrl = `https://lessonscriptor.com/${locale}`
 
   return (
@@ -178,11 +198,11 @@ export default async function BlogPostPage({
 
         {/* Sections */}
         {post.sections.map((section, i) => (
-          <BlogSectionRenderer key={i} section={section} />
+          <BlogSectionRenderer key={i} section={section} locale={locale} />
         ))}
 
         {/* Summary */}
-        {post.summary && <SummarySection data={post.summary as never} />}
+        {post.summary && <SummarySection data={post.summary as never} locale={locale} />}
 
         {/* FAQ */}
         <FAQBlock faq={post.faq} />

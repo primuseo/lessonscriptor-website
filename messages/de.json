@@ -1457,5 +1457,133 @@
     },
     "relatedHeading": "Mehr für Lehrende",
     "readMore": "Mehr lesen"
+  },
+  "lectureTranscription": {
+    "metaTitle": "Vorlesung transkribieren: live in Chrome, kostenlos starten",
+    "metaDesc": "Vorlesungen live in Chrome transkribieren: ILIAS, Moodle, Stud.IP, Opencast, BigBlueButton, Zoom. Editierbare Mitschrift, Gratis-Version, KI ab 1 USD/h.",
+    "h1": "Vorlesung transkribieren: Ihre Vorlesungsmitschrift live in Chrome",
+    "subtitle": "Mitlesen, während die Dozentin oder der Dozent spricht. LessonScriptor macht aus jeder Vorlesung, die in Ihrem Browser läuft, ein bearbeitbares, durchsuchbares Transkript, ohne Aufnahme, die Sie später hochladen müssen.",
+    "answer": "Eine Vorlesung zu transkribieren heißt, den gesprochenen Vortrag in geschriebenen Text umzuwandeln, und der schnellste Weg dazu ist LessonScriptor, eine Chrome-Erweiterung, die die Vorlesung transkribiert, während sie läuft. Sie funktioniert in ILIAS, Moodle und Stud.IP, mit Opencast-Aufzeichnungen, in BigBlueButton und Zoom im Browser sowie auf YouTube oder Coursera. Der kostenlose Modus nutzt die Spracherkennung des Browsers über das Mikrofon. Der KI-Modus erfasst den Ton des Tabs direkt, funktioniert mit Kopfhörern und erkennt Akzente und Fachbegriffe deutlich besser, für höchstens 1 USD pro Stunde und ohne Abo.",
+    "compare": {
+      "title": "Vorlesung aufnehmen oder live transkribieren?",
+      "subtitle": "Die meisten Studierenden, die eine Vorlesung aufnehmen wollen, brauchen eigentlich den Text, keine Audiodatei. So unterscheiden sich die Optionen.",
+      "rows": [
+        [
+          "",
+          "Diktiergerät / Aufnahme-App",
+          "Transkription per Upload (Otter, TurboScribe)",
+          "Automatische Untertitel der Plattform (Opencast, Panopto)",
+          "LessonScriptor"
+        ],
+        [
+          "Wann Sie Text bekommen",
+          "Nie (nur Audio)",
+          "Nach der Vorlesung, sobald Sie hochladen",
+          "Nur wenn die Lehrperson Untertitel aktiviert hat",
+          "Während der Vorlesung"
+        ],
+        [
+          "Datei-Upload nötig",
+          "Erzeugt eine Datei",
+          "Ja",
+          "Nein",
+          "Nein"
+        ],
+        [
+          "Funktioniert bei geschützten Uni-Videos",
+          "Nur durch Aufnahme von Raum oder Lautsprechern",
+          "Nur wenn Sie die Datei herunterladen können",
+          "Ja, wenn aktiviert",
+          "Ja, alles, was in Chrome abgespielt wird"
+        ],
+        [
+          "Bearbeitbare Notizen im Transkript",
+          "Nein",
+          "Eingeschränkt",
+          "Nein",
+          "Markierungen, Fettdruck, Überschriften, Screenshots"
+        ],
+        [
+          "Funktioniert mit Kopfhörern",
+          "Entfällt",
+          "Entfällt",
+          "Ja",
+          "Ja (KI-Modus)"
+        ],
+        [
+          "Preis",
+          "Kostenlos",
+          "Abo, meist monatlich",
+          "Inklusive, wenn die Hochschule zahlt",
+          "kostenloser Modus; KI-Pakete ab 5 USD, ohne Abo"
+        ]
+      ]
+    },
+    "steps": {
+      "title": "So transkribieren Sie eine Vorlesung in Chrome",
+      "items": [
+        "Installieren Sie LessonScriptor aus dem Chrome Web Store und heften Sie die Erweiterung an die Symbolleiste an.",
+        "Öffnen Sie Ihre Vorlesung: eine Live-Sitzung in BigBlueButton oder Zoom im Browser, eine Opencast-Aufzeichnung in ILIAS, Moodle oder Stud.IP oder ein YouTube-Video.",
+        "Öffnen Sie die Seitenleiste von LessonScriptor und wählen Sie die Sprache der Vorlesung (14 Sprachen verfügbar).",
+        "Wählen Sie einen Modus: Der kostenlose Modus hört über das Mikrofon mit, stellen Sie die Lautsprecher also auf mindestens 80 % Lautstärke; der KI-Modus erfasst den Ton des Tabs direkt und funktioniert mit Kopfhörern.",
+        "Klicken Sie auf Start. Das Transkript erscheint, während die Vorlesung läuft, in 10-Sekunden-Abschnitten im Normal-Modus oder in 30-Sekunden-Abschnitten im genaueren Optimal-Modus.",
+        "Markieren Sie Kernaussagen, fügen Sie Überschriften ein und machen Sie Screenshots der Folien, dann exportieren Sie die Mitschrift als .md oder .txt für die Klausurvorbereitung."
+      ]
+    },
+    "platforms": {
+      "title": "Funktioniert auf den Plattformen Ihrer Hochschule",
+      "items": [
+        {
+          "title": "ILIAS, Moodle und Stud.IP",
+          "description": "Aufgezeichnete Vorlesungen im Lernmanagementsystem haben oft keinen Download-Button und keine Untertitel. Läuft das Video in Chrome, kann LessonScriptor es transkribieren, auch im Fernstudium an der FernUniversität in Hagen."
+        },
+        {
+          "title": "Opencast und Panopto",
+          "description": "Plattformen für Vorlesungsaufzeichnungen bieten manchmal Untertitel, aber nur, wenn die Lehrperson sie einschaltet. Mit der Live-Transkription haben Sie den Text in jedem Fall, dazu Ihre eigenen Markierungen."
+        },
+        {
+          "title": "BigBlueButton, Zoom und Teams im Browser",
+          "description": "Nehmen Sie in Chrome an der Sitzung teil, und der KI-Modus transkribiert den Tab, ohne dass ein Bot dem Meeting beitritt. Bei der Zoom- oder Teams-Desktop-App kann der kostenlose Modus den Ton über Ihre Lautsprecher aufnehmen."
+        },
+        {
+          "title": "YouTube, Coursera und Udemy",
+          "description": "MOOCs und aufgezeichnete Vorlesungen auf öffentlichen Plattformen funktionieren genauso, auch Videos ohne Transkript und Vorlesungen in einer anderen Sprache."
+        }
+      ]
+    },
+    "recordingRules": {
+      "title": "Darf man eine Vorlesung transkribieren?",
+      "body": "Die Regeln hängen von Ihrer Hochschule ab. Prüfen Sie daher die Vorgaben der Lehrveranstaltung und fragen Sie im Zweifel die Lehrperson, denn Audiomitschnitte ohne Zustimmung berühren das Recht am gesprochenen Wort und das Urheberrecht. Ein Transkript für das eigene Lernen ist weithin akzeptiert, und Studierende mit einer nachgewiesenen Beeinträchtigung wie ADHS, Legasthenie oder Hörschädigung können oft einen Nachteilsausgleich beantragen, etwa Unterstützung beim Mitschreiben, über die Beauftragten für Studierende mit Behinderung oder den Prüfungsausschuss. LessonScriptor speichert Transkripte auf Ihrem Gerät und zeichnet den Ton der Vorlesung nicht auf, was die Einhaltung der meisten Regeln erleichtert. Veröffentlichen Sie ein Transkript nie ohne Erlaubnis."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "Wie transkribiert man eine Vorlesung am besten?",
+          "a": "Bei einer Online- oder aufgezeichneten Vorlesung ist die Live-Transkription im Browser am effizientesten: Der Text erscheint, während Sie zuschauen, und es gibt nichts nachträglich hochzuladen. LessonScriptor macht das in Chrome in ILIAS, Moodle, Stud.IP, Opencast, BigBlueButton, Zoom, YouTube und mehr. Bei einer Präsenzvorlesung im Hörsaal nehmen Sie mit dem Smartphone auf (mit Zustimmung der Lehrperson) und nutzen danach ein Upload-Tool, oder Sie verwenden den kostenlosen Modus mit dem Laptop-Mikrofon, wenn der Ton im Raum klar ist."
+        },
+        {
+          "q": "Gibt es ein kostenloses Tool, um Vorlesungen zu transkribieren?",
+          "a": "Ja. Der kostenlose Modus von LessonScriptor kostet nichts, hat kein Monatslimit und braucht kein Konto. Er nutzt die integrierte Spracherkennung des Browsers über Ihr Mikrofon. Der KI-Modus ist genauer und funktioniert mit Kopfhörern; er kostet höchstens 1 USD pro Stunde in einmaligen Paketen und enthält eine 30-minütige Gratis-Testphase. Die Preise sind in US-Dollar, Stripe rechnet beim Bezahlen in Ihre Währung um."
+        },
+        {
+          "q": "Nimmt LessonScriptor den Ton der Vorlesung auf?",
+          "a": "Nein. LessonScriptor erstellt ein Texttranskript und speichert Ihre Notizen und Screenshots, aber keine Audio- oder Videoaufnahme. Wenn Sie den Ton selbst brauchen, benötigen Sie ein separates Aufnahmegerät."
+        },
+        {
+          "q": "Kann ich eine Vorlesung mit Kopfhörern transkribieren?",
+          "a": "Ja, im KI-Modus, der den Ton des Tabs direkt erfasst. Der kostenlose Modus ist darauf angewiesen, dass das Mikrofon Ihre Lautsprecher hört, und funktioniert deshalb nicht mit Kopfhörern."
+        },
+        {
+          "q": "Wie genau ist eine Vorlesungstranskription?",
+          "a": "Die Genauigkeit hängt von der Tonqualität und der Engine ab. Die Spracherkennung des Browsers (kostenloser Modus) reicht für klaren Ton. Der KI-Modus kommt mit Akzenten, Hintergrundgeräuschen und Fachvokabular deutlich besser zurecht; der Optimal-Modus nimmt 30 Sekunden Verzögerung für die höchste Genauigkeit in Kauf."
+        },
+        {
+          "q": "Kann ich Vorlesungen auf Englisch oder in anderen Sprachen transkribieren?",
+          "a": "Ja. LessonScriptor unterstützt 14 Sprachen, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Chinesisch, Arabisch und Hindi. Wählen Sie vor dem Start die Sprache der Vorlesung, zum Beispiel für ein englischsprachiges Modul oder ein Auslandssemester."
+        }
+      ]
+    },
+    "relatedHeading": "Leitfäden zum Transkribieren und Lernen mit Vorlesungen",
+    "readMore": "Mehr lesen"
   }
 }

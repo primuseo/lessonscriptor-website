@@ -1,12 +1,11 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server'
 import type { Metadata } from 'next'
+import { localizedAlternates, localizedUrl } from '@/lib/seo'
 import FAQSection from '@/components/FAQSection'
 import CTASection from '@/components/CTASection'
 import RelatedPosts from '@/components/RelatedPosts'
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
-  const path = '/live-captions-chrome'
-  const locales = ['en', 'fr', 'es', 'pt', 'de', 'zh']
   const t = await getTranslations({ locale, namespace: 'liveCaptions' })
   return {
     title: t('metaTitle'),
@@ -14,15 +13,9 @@ export async function generateMetadata({ params: { locale } }: { params: { local
     openGraph: {
       title: t('metaTitle'),
       description: t('metaDesc'),
-      url: `https://lessonscriptor.com/${locale}${path}`,
+      url: localizedUrl('/live-captions-chrome', locale),
     },
-    alternates: {
-      canonical: `https://lessonscriptor.com/${locale}${path}`,
-      languages: {
-        'x-default': `https://lessonscriptor.com/en${path}`,
-        ...Object.fromEntries(locales.map(l => [l, `https://lessonscriptor.com/${l}${path}`]))
-      }
-    }
+    alternates: localizedAlternates('/live-captions-chrome', locale)
   }
 }
 
@@ -175,7 +168,7 @@ export default async function LiveCaptionsChromeP({ params: { locale } }: { para
         {/* FAQ */}
         <section className="py-14 px-4">
           <FAQSection
-            title={t('faq') as any}
+            title="FAQ"
             items={t.raw('faq.items')}
           />
         </section>

@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { BLOG_SLUGS } from '@/content/blog/_registry'
 import { getLocalizedSlug } from '@/content/blog/_slug-map'
+import { getPathname } from '@/navigation'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lessonscriptor.com'
@@ -10,6 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/transcribe-youtube-video',
     '/live-captions-chrome',
     '/transcribe-video-to-text',
+    '/lecture-transcription',
     '/compare/otter-ai-alternative',
     '/blog',
     '/contact',
@@ -43,7 +45,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   function getPriority(page: string, locale: string): number {
     let base: number
     if (page === '/') base = 1.0
-    else if (page.includes('youtube') || page.includes('captions') || page.includes('transcribe-video') || page.includes('otter') || page.includes('adhd')) base = 0.9
+    else if (page.includes('youtube') || page.includes('captions') || page.includes('transcribe-video') || page.includes('otter') || page.includes('adhd') || page.includes('lecture')) base = 0.9
     else if (page.includes('blog')) base = 0.8
     else base = 0.7
     return locale === 'en' ? base : base - 0.1
@@ -54,7 +56,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     staticPages.forEach((page) => {
       sitemap.push({
-        url: `${baseUrl}${prefix}${page === '/' ? '' : page}`,
+        // getPathname resolves localized static paths (e.g. /fr/sous-titres-en-direct-chrome)
+        // so the sitemap never lists a URL that redirects.
+        url: page === '/' ? `${baseUrl}${prefix}` : `${baseUrl}${getPathname({ locale: locale as 'en', href: page as '/blog' })}`,
         lastModified: today,
         changeFrequency: page === '/' ? 'weekly' : 'monthly',
         priority: getPriority(page, locale),

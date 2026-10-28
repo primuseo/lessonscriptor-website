@@ -1458,5 +1458,133 @@
     },
     "relatedHeading": "Más para profesores",
     "readMore": "Leer más"
+  },
+  "lectureTranscription": {
+    "metaTitle": "Transcribir clases online: transcripción en vivo en Chrome",
+    "metaDesc": "Transcribe tus clases en vivo en Chrome: Moodle, Campus Virtual, Blackboard, Teams, YouTube. Texto editable, modo gratuito e IA desde 1 USD por hora.",
+    "h1": "Transcripción de clases en tiempo real, directamente en Chrome",
+    "subtitle": "Lee mientras tu profesor habla. LessonScriptor convierte cualquier clase que se reproduce en tu navegador en una transcripción editable y fácil de buscar, sin grabaciones que subir después.",
+    "answer": "La transcripción de clases es la conversión de una clase hablada en texto escrito, y la forma más rápida de transcribir clases online es LessonScriptor, una extensión de Chrome que transcribe la clase mientras se reproduce. Funciona en Moodle, el Campus Virtual de tu universidad, Blackboard Collaborate, Teams, Zoom y Google Meet en el navegador, y en YouTube o Coursera. El modo gratuito usa el reconocimiento de voz del navegador a través del micrófono. El modo IA captura directamente el audio de la pestaña, funciona con auriculares y entiende mucho mejor los acentos y el vocabulario técnico, por 1 USD por hora o menos y sin suscripción.",
+    "compare": {
+      "title": "¿Grabadora de clases o transcripción en vivo?",
+      "subtitle": "La mayoría de los estudiantes que buscan grabar una clase en realidad quieren el texto, no un archivo de audio. Así se comparan las opciones.",
+      "rows": [
+        [
+          "",
+          "Grabadora de voz / app de grabación",
+          "Transcripción por subida de archivo (Otter, TurboScribe)",
+          "Subtítulos automáticos de la plataforma (Panopto, Kaltura)",
+          "LessonScriptor"
+        ],
+        [
+          "Cuándo obtienes el texto",
+          "Nunca (solo audio)",
+          "Después de la clase, al subir el archivo",
+          "Solo si el profesor activó los subtítulos",
+          "Durante la clase"
+        ],
+        [
+          "Necesita subir un archivo",
+          "Genera uno",
+          "Sí",
+          "No",
+          "No"
+        ],
+        [
+          "Funciona con vídeos protegidos de la universidad",
+          "Solo grabando el aula o los altavoces",
+          "Solo si puedes descargar el archivo",
+          "Sí, si están activados",
+          "Sí, todo lo que se reproduce en Chrome"
+        ],
+        [
+          "Notas editables en la transcripción",
+          "No",
+          "Limitado",
+          "No",
+          "Resaltado, negrita, títulos, capturas de pantalla"
+        ],
+        [
+          "Funciona con auriculares",
+          "No aplica",
+          "No aplica",
+          "Sí",
+          "Sí (modo IA)"
+        ],
+        [
+          "Precio",
+          "Gratis",
+          "Suscripción, normalmente mensual",
+          "Incluido si tu universidad paga la licencia",
+          "Modo gratuito; paquetes IA desde 5 USD, sin suscripción"
+        ]
+      ]
+    },
+    "steps": {
+      "title": "Cómo transcribir una clase en Chrome",
+      "items": [
+        "Instala LessonScriptor desde la Chrome Web Store y fíjalo en tu barra de herramientas.",
+        "Abre tu clase: una sesión en vivo de Blackboard Collaborate, Teams, Zoom o Google Meet en el navegador, una grabación de Moodle o del Campus Virtual, o un vídeo de YouTube.",
+        "Abre el panel lateral de LessonScriptor y elige el idioma de la clase (hay 14 idiomas disponibles).",
+        "Elige un modo: el modo gratuito escucha por el micrófono, así que mantén el volumen de los altavoces al 80 % o más; el modo IA captura directamente el audio de la pestaña y funciona con auriculares.",
+        "Pulsa iniciar. La transcripción aparece mientras avanza la clase, en bloques de 10 segundos en modo Normal o de 30 segundos en modo Óptimo, más preciso.",
+        "Resalta las ideas clave, añade títulos y haz capturas de las diapositivas sobre la marcha; luego exporta en .md o .txt para estudiar."
+      ]
+    },
+    "platforms": {
+      "title": "Funciona en las plataformas que ya usa tu universidad",
+      "items": [
+        {
+          "title": "Moodle, Campus Virtual y Blackboard",
+          "description": "Las clases grabadas dentro del aula virtual muchas veces no tienen botón de descarga ni subtítulos. Si el vídeo se reproduce en Chrome, LessonScriptor puede transcribirlo, ya estudies en la UNED, la UNAM o cualquier otra universidad."
+        },
+        {
+          "title": "Teams, Zoom y Blackboard Collaborate",
+          "description": "Entra a la clase desde Chrome y el modo IA transcribe la pestaña, sin ningún bot que se una a la llamada. Si usas la app de escritorio de Zoom o Teams, el modo gratuito puede captar el audio de tus altavoces."
+        },
+        {
+          "title": "Panopto y Kaltura",
+          "description": "Las plataformas de grabación de clases a veces ofrecen subtítulos, pero solo cuando el profesor los activa. Con la transcripción en vivo tienes el texto igualmente, además de tus propios resaltados."
+        },
+        {
+          "title": "YouTube, Coursera y Udemy",
+          "description": "Los MOOC y las clases grabadas en plataformas públicas funcionan igual, incluidos los vídeos sin transcripción y las clases en otro idioma."
+        }
+      ]
+    },
+    "recordingRules": {
+      "title": "¿Está permitido transcribir una clase?",
+      "body": "Las normas dependen de tu universidad y de tu país, así que revisa el reglamento de la asignatura y, si tienes dudas, pide permiso al profesor. Transcribir para tu propio estudio está ampliamente aceptado, y los estudiantes con una discapacidad o condición documentada, como TDAH, dislexia o pérdida auditiva, suelen tener derecho a adaptaciones o ajustes razonables, por ejemplo apoyo para tomar apuntes, a través de la unidad de atención a estudiantes con discapacidad de su universidad. LessonScriptor guarda las transcripciones en tu dispositivo y no graba ni almacena el audio de la clase, lo que facilita cumplir la mayoría de las normas. Nunca compartas una transcripción públicamente sin permiso."
+    },
+    "faq": {
+      "items": [
+        {
+          "q": "¿Cuál es la mejor forma de transcribir una clase?",
+          "a": "Para una clase online o grabada, la mejor forma es la transcripción en vivo en el navegador: el texto aparece mientras ves la clase, así que no hay nada que subir después. LessonScriptor lo hace en Chrome en Moodle, el Campus Virtual, Blackboard, Teams, YouTube y más. Para una clase presencial, graba con el teléfono (con permiso del profesor) y usa después una herramienta de subida de archivos, o el modo gratuito con el micrófono de tu portátil si el audio del aula es claro."
+        },
+        {
+          "q": "¿Hay alguna herramienta gratis para transcribir clases?",
+          "a": "Sí. El modo gratuito de LessonScriptor no cuesta nada, no tiene límite mensual y no requiere cuenta. Usa el reconocimiento de voz integrado del navegador a través de tu micrófono. El modo IA es más preciso y funciona con auriculares; cuesta 1 USD por hora o menos en paquetes de pago único e incluye una prueba gratis de 30 minutos. Los precios están en dólares estadounidenses y Stripe los convierte a tu moneda al pagar."
+        },
+        {
+          "q": "¿LessonScriptor graba el audio de la clase?",
+          "a": "No. LessonScriptor genera una transcripción de texto y guarda tus notas y capturas de pantalla, pero no guarda ninguna grabación de audio ni de vídeo. Si necesitas el audio en sí, tendrás que usar una grabadora aparte."
+        },
+        {
+          "q": "¿Puedo transcribir una clase con auriculares?",
+          "a": "Sí, en el modo IA, que captura directamente el audio de la pestaña. El modo gratuito depende de que el micrófono escuche tus altavoces, así que no funciona con auriculares."
+        },
+        {
+          "q": "¿Es precisa la transcripción de clases?",
+          "a": "La precisión depende de la calidad del audio y del motor. El reconocimiento de voz del navegador (modo gratuito) funciona bien con audio claro. El modo IA entiende mucho mejor los acentos, el ruido de fondo y el vocabulario técnico; el modo Óptimo acepta un retraso de 30 segundos a cambio de la máxima precisión."
+        },
+        {
+          "q": "¿Puedo transcribir clases en inglés u otros idiomas?",
+          "a": "Sí. LessonScriptor admite 14 idiomas, entre ellos español, inglés, francés, alemán, portugués, chino, árabe e hindi. Elige el idioma de la clase antes de empezar, por ejemplo para un curso en inglés o un intercambio en el extranjero."
+        }
+      ]
+    },
+    "relatedHeading": "Guías para transcribir y estudiar tus clases",
+    "readMore": "Leer más"
   }
 }

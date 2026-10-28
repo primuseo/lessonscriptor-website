@@ -158,7 +158,7 @@ export default async function ForAdhdStudentsPage({ params: { locale } }: { para
         {/* FAQ */}
         <section className="py-14 px-4">
           <FAQSection
-            title={t('faq') as any}
+            title="FAQ"
             items={t.raw('faq.items')}
           />
         </section>

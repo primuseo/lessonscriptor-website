@@ -4,7 +4,17 @@ interface TableProps {
   title?: string
 }
 
-export default function ComparisonTable({ data }: { data: TableProps }) {
+export default function ComparisonTable({ data: raw }: { data: TableProps }) {
+  // Some posts store rows as { cells, highlight, badge }; flatten them to plain cell
+  // arrays so they render as a normal table instead of a "cells / highlight" grid.
+  const data: TableProps = {
+    ...raw,
+    rows: (raw.rows || []).map((r) =>
+      r && !Array.isArray(r) && Array.isArray((r as { cells?: unknown }).cells)
+        ? ((r as { cells: string[] }).cells)
+        : r
+    ),
+  }
   if (data.headers && Array.isArray(data.rows?.[0])) {
     return (
       <div className="overflow-x-auto mb-6">

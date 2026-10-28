@@ -10,7 +10,7 @@ const CANONICAL_PATH = '/transcribe-video-to-text'
 const BASE = 'https://lessonscriptor.com'
 
 function localizedUrl(locale: string) {
-  return `${BASE}/${locale}${getPathname({ locale, href: CANONICAL_PATH })}`
+  return `${BASE}${getPathname({ locale: locale as (typeof LOCALES)[number], href: CANONICAL_PATH })}`
 }
 
 export async function generateMetadata({ params: { locale } }: { params: { locale: string } }): Promise<Metadata> {
@@ -206,7 +206,7 @@ export default async function TranscribeVideoToTextPage({ params: { locale } }: 
         {/* FAQ */}
         <section aria-label="FAQ" className="py-14 px-4 bg-muted">
           <FAQSection
-            title={t('faq') as any}
+            title="FAQ"
             items={t.raw('faq.items')}
           />
         </section>

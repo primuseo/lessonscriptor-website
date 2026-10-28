@@ -1,4 +1,5 @@
 import { Paragraphs, InlineText } from './InlineMarkdown'
+import { localizeHref } from '@/lib/seo'
 
 interface SummaryProps {
   heading?: string
@@ -10,7 +11,7 @@ interface SummaryProps {
   next_steps?: string[] | string
 }
 
-export default function SummarySection({ data }: { data: SummaryProps }) {
+export default function SummarySection({ data, locale = 'en' }: { data: SummaryProps; locale?: string }) {
   const heading = data.heading || data.headline || 'Summary'
   const body = data.body || data.content
 
@@ -33,7 +34,7 @@ export default function SummarySection({ data }: { data: SummaryProps }) {
       {data.internal_links && data.internal_links.length > 0 && (
         <div className="mt-4 space-y-1">
           {data.internal_links.map((link, i) => (
-            <a key={i} href={link.url} className="block text-sm text-accent hover:text-accent-hover underline">
+            <a key={i} href={localizeHref(link.url, locale)} className="block text-sm text-accent hover:text-accent-hover underline">
               {link.text}
             </a>
           ))}

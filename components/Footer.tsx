@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import NextLink from 'next/link'
 import { Link } from '@/navigation'
+import { getLocalizedSlug } from '@/content/blog/_slug-map'
 
 export default function Footer({ locale }: { locale: string }) {
   const t = useTranslations('footer')
@@ -35,6 +36,7 @@ export default function Footer({ locale }: { locale: string }) {
               <li><Link href="/transcribe-youtube-video" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">YouTube</Link></li>
               <li><Link href="/live-captions-chrome" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Live Captions</Link></li>
               <li><Link href="/transcribe-video-to-text" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Video to Text</Link></li>
+              <li><Link href="/lecture-transcription" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Lecture Transcription</Link></li>
               <li><Link href="/compare/otter-ai-alternative" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">vs Otter.ai</Link></li>
               <li><Link href="/for-adhd-students" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">For ADHD Students</Link></li>
               <li><Link href="/for-teachers" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">For Teachers</Link></li>
@@ -47,9 +49,9 @@ export default function Footer({ locale }: { locale: string }) {
             <ul className="space-y-2 text-sm">
               <li><Link href="/blog" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{t('blog')}</Link></li>
               <li><Link href="/whats-new" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{updates('h1')}</Link></li>
-              <li><NextLink href={`${base}/blog/how-to-transcribe-lecture-videos`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">How to Transcribe Lectures</NextLink></li>
-              <li><NextLink href={`${base}/blog/how-to-take-notes-with-adhd`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Note-taking for ADHD</NextLink></li>
-              <li><NextLink href={`${base}/blog/best-chrome-extensions-live-captions`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Best Chrome Live Captions</NextLink></li>
+              <li><NextLink href={`${base}/blog/${getLocalizedSlug('how-to-transcribe-lecture-videos', locale)}`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">How to Transcribe Lectures</NextLink></li>
+              <li><NextLink href={`${base}/blog/${getLocalizedSlug('how-to-take-notes-with-adhd', locale)}`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Note-taking for ADHD</NextLink></li>
+              <li><NextLink href={`${base}/blog/${getLocalizedSlug('best-chrome-extensions-live-captions', locale)}`} className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">Best Chrome Live Captions</NextLink></li>
               <li><Link href="/onboarding" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{t('guide')}</Link></li>
               <li><Link href="/contact" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{t('support')}</Link></li>
               <li><Link href="/privacy" className="hover:text-primary-foreground dark:hover:text-card-foreground transition-colors">{t('privacy')}</Link></li>

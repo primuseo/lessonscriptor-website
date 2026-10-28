@@ -1,6 +1,8 @@
 import { Paragraphs, ParagraphArray, InlineText } from './InlineMarkdown'
 import AppCard from './AppCard'
 import ComparisonTable from './ComparisonTable'
+import { localizeHref } from '@/lib/seo'
+import { blogLabels } from './labels'
 
 type Section = Record<string, unknown>
 
@@ -43,7 +45,8 @@ function Steps({ steps }: { steps: Array<string | { step?: number; strategy?: st
   )
 }
 
-function StackRecommendation({ section }: { section: Section }) {
+function StackRecommendation({ section, locale }: { section: Section; locale: string }) {
+  const L = blogLabels(locale)
   const title = section.title as string | undefined
   const layers = section.layers as Array<{ layer: string; app: string; why: string; effort?: string }> | undefined
   const totalCost = section.total_cost as string | undefined
@@ -59,7 +62,7 @@ function StackRecommendation({ section }: { section: Section }) {
               <div>
                 <span className="font-semibold text-foreground text-sm">{l.app}</span>
                 <span className="text-sm text-foreground/60"> — {l.why}</span>
-                {l.effort && <span className="block text-xs text-foreground/40 mt-1">Effort: {l.effort}</span>}
+                {l.effort && <span className="block text-xs text-foreground/40 mt-1">{L.effort}: {l.effort}</span>}
               </div>
             </div>
           ))}
@@ -67,24 +70,24 @@ function StackRecommendation({ section }: { section: Section }) {
       )}
       {(totalCost || timeSetup) && (
         <div className="mt-4 pt-3 border-t border-border text-sm text-foreground/60">
-          {totalCost && <span>Cost: {totalCost}</span>}
+          {totalCost && <span>{L.cost}: {totalCost}</span>}
           {totalCost && timeSetup && <span> · </span>}
-          {timeSetup && <span>Setup: {timeSetup}</span>}
+          {timeSetup && <span>{L.setup}: {timeSetup}</span>}
         </div>
       )}
     </div>
   )
 }
 
-export default function BlogSectionRenderer({ section }: { section: Section }) {
+export default function BlogSectionRenderer({ section, locale = 'en' }: { section: Section; locale?: string }) {
   if (section.type === 'faq_section') return null
 
   if (section.type === 'app_card') {
-    return <AppCard section={section as never} />
+    return <AppCard section={section as never} locale={locale} />
   }
 
   if (section.type === 'stack_recommendation') {
-    return <StackRecommendation section={section} />
+    return <StackRecommendation section={section} locale={locale} />
   }
 
   if (section.type === 'table') {
@@ -162,7 +165,7 @@ export default function BlogSectionRenderer({ section }: { section: Section }) {
       {internalLinks && internalLinks.length > 0 && (
         <div className="mt-3 space-y-1">
           {internalLinks.map((link, i) => (
-            <a key={i} href={link.url} className="block text-sm text-accent hover:text-accent-hover underline">
+            <a key={i} href={localizeHref(link.url, locale)} className="block text-sm text-accent hover:text-accent-hover underline">
               {link.text}
             </a>
           ))}
