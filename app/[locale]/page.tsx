@@ -5,6 +5,7 @@ import Link from 'next/link'
 import FAQSection from '@/components/FAQSection'
 import { getLocalizedSlug } from '@/content/blog/_slug-map'
 import PricingPacks from '@/components/PricingPacks'
+import PricingComparison from '@/components/PricingComparison'
 import {
   MicrophoneIcon,
   PencilSquareIcon,
@@ -452,6 +453,8 @@ export default async function HomePage({ params: { locale } }: { params: { local
           <p className="text-center mt-7 text-xs text-foreground/30 max-w-lg mx-auto leading-relaxed">
             {t('pricing.footnote')}
           </p>
+
+          <PricingComparison copy={t.raw('pricing.comparison')} />
         </div>
       </section>
 

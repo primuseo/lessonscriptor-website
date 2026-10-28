@@ -276,9 +276,49 @@
       ],
       "currencyDisclaimer": "Angezeigte Preise sind Schätzungen. Der endgültige Betrag wird beim Bezahlen von Stripe zum aktuellen Wechselkurs umgerechnet.",
       "paymentProcessor": "Zahlungen werden sicher über Stripe abgewickelt.",
-      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 3 Std./Woche kostet etwa 21 € — weniger als ein Mensaessen pro Woche.",
+      "footnote": "Einmal kaufen, jederzeit nutzen. Ein ganzes Semester mit 2 Std./Woche (30 Std.) ist ein einziges 30-Std.-Paket: 21 $ (≈ 19 €), weniger als ein Mensaessen pro Woche.",
       "installFreeBtn": "Kostenlos installieren",
-      "getAIBtn": "KI-Stunden erhalten →"
+      "getAIBtn": "KI-Stunden erhalten →",
+      "comparison": {
+        "eyebrow": "Vergleich",
+        "title": "Was ein Semester Vorlesungen wirklich kostet",
+        "subtitle": "30 Stunden KI-Transkription: 2 Stunden Vorlesung pro Woche über ein Semester von 15 Wochen. Wettbewerber zum monatlichen Listenpreis.",
+        "semesterRow": "Kosten für ein Semester (30 Std.)",
+        "packsDetail": "Ein 30-Std.-Paket, einmalig bezahlt",
+        "monthsDetail": "{months} Monate × {price}",
+        "rows": [
+          {
+            "label": "Abo",
+            "ls": "Keins, einmal kaufen",
+            "otter": "Monatlich oder jährlich",
+            "notta": "Monatlich oder jährlich",
+            "turboscribe": "Monatlich oder jährlich"
+          },
+          {
+            "label": "Zahlen in den Semesterferien",
+            "ls": "Nie",
+            "otter": "Ja, beim Jahresabo",
+            "notta": "Ja, beim Jahresabo",
+            "turboscribe": "Ja, beim Jahresabo"
+          },
+          {
+            "label": "Ungenutzte Stunden",
+            "ls": "Verfallen nie",
+            "otter": "Verfallen jeden Monat",
+            "notta": "Verfallen jeden Monat",
+            "turboscribe": "Unbegrenzt, solange das Abo läuft"
+          },
+          {
+            "label": "Gratis-Tarif",
+            "ls": "Unbegrenzt (Spracherkennung des Browsers)",
+            "otter": "300 Min./Monat, 30 Min. pro Aufnahme",
+            "notta": "120 Min./Monat, 3 Min. pro Aufnahme",
+            "turboscribe": "3 Dateien pro Tag, je 30 Min."
+          }
+        ],
+        "honestNote": "Sie transkribieren mehr als 30 Stunden im Monat? Dann kann ein unbegrenztes Abo wie TurboScribe günstiger sein. LessonScriptor ist für Studierende gemacht, die in vorlesungsfreien Monaten nichts zahlen wollen.",
+        "sources": "Monatliche Listenpreise in USD, geprüft im Oktober 2026 auf otter.ai, notta.ai und turboscribe.ai. Preise der Wettbewerber können sich ändern. Otter.ai, Notta und TurboScribe sind Marken ihrer jeweiligen Inhaber."
+      }
     },
     "quickstart": {
       "eyebrow": "Erste Schritte",

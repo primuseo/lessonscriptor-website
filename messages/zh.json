@@ -276,9 +276,49 @@
       ],
       "currencyDisclaimer": "显示价格为估算值。最终金额由 Stripe 在结账时按实时汇率换算。",
       "paymentProcessor": "付款由 Stripe 安全处理。",
-      "footnote": "一次购买，随时使用。按每周 3 小时计算，一整个学期仅需约 $21——比食堂一周午饭还便宜。",
+      "footnote": "一次购买，随时使用。按每周 2 小时计算，一整个学期（30 小时）只需一个 30 小时套餐，共 $21——比食堂一周午饭还便宜。",
       "installFreeBtn": "免费安装",
-      "getAIBtn": "获取 AI 时长 →"
+      "getAIBtn": "获取 AI 时长 →",
+      "comparison": {
+        "eyebrow": "对比",
+        "title": "一个学期的课程，到底要花多少钱",
+        "subtitle": "30 小时 AI 转录：每周 2 小时课程，一个学期 15 周。竞品按月付标价计算。",
+        "semesterRow": "一个学期的费用（30 小时）",
+        "packsDetail": "一个 30 小时套餐，一次性付费",
+        "monthsDetail": "{months} 个月 × {price}",
+        "rows": [
+          {
+            "label": "订阅",
+            "ls": "无需订阅，一次购买",
+            "otter": "按月或按年",
+            "notta": "按月或按年",
+            "turboscribe": "按月或按年"
+          },
+          {
+            "label": "寒暑假也要付费",
+            "ls": "从不",
+            "otter": "是（年付方案）",
+            "notta": "是（年付方案）",
+            "turboscribe": "是（年付方案）"
+          },
+          {
+            "label": "未用完的时长",
+            "ls": "永不过期",
+            "otter": "每月清零",
+            "notta": "每月清零",
+            "turboscribe": "订阅期内不限量"
+          },
+          {
+            "label": "免费方案",
+            "ls": "不限量（浏览器语音识别）",
+            "otter": "每月 300 分钟，每次录音最长 30 分钟",
+            "notta": "每月 120 分钟，每次录音最长 3 分钟",
+            "turboscribe": "每天 3 个文件，每个 30 分钟"
+          }
+        ],
+        "honestNote": "每月转录超过 30 小时？像 TurboScribe 这样的无限量订阅可能更划算。LessonScriptor 专为不想在没课的月份付费的学生设计。",
+        "sources": "美元月付标价，于 2026 年 10 月在 otter.ai、notta.ai 和 turboscribe.ai 核对。竞品价格可能变动。Otter.ai、Notta 和 TurboScribe 是其各自所有者的商标。"
+      }
     },
     "quickstart": {
       "eyebrow": "快速开始",

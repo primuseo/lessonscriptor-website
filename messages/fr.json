@@ -276,9 +276,49 @@
       ],
       "currencyDisclaimer": "Les prix affichés sont des estimations. Le montant final est converti au taux de change en vigueur par Stripe lors du paiement.",
       "paymentProcessor": "Paiements traités de manière sécurisée par Stripe.",
-      "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 3h/semaine coûte environ 21 $ — moins cher qu'un repas au CROUS par semaine.",
+      "footnote": "Achetez une fois, utilisez quand vous voulez. Un semestre complet à 2 h/semaine (30 h), c'est un seul pack de 30 h : 21 $ (≈ 19 €), moins qu'un repas au CROUS par semaine.",
       "installFreeBtn": "Installer gratuitement",
-      "getAIBtn": "Obtenir des heures IA →"
+      "getAIBtn": "Obtenir des heures IA →",
+      "comparison": {
+        "eyebrow": "Comparatif",
+        "title": "Ce que coûte vraiment un semestre de cours",
+        "subtitle": "30 heures de transcription IA : 2 heures de cours par semaine sur un semestre de 15 semaines. Concurrents au tarif mensuel affiché.",
+        "semesterRow": "Coût d'un semestre (30 h)",
+        "packsDetail": "Un pack de 30 h, payé une fois",
+        "monthsDetail": "{months} mois × {price}",
+        "rows": [
+          {
+            "label": "Abonnement",
+            "ls": "Aucun, achat unique",
+            "otter": "Mensuel ou annuel",
+            "notta": "Mensuel ou annuel",
+            "turboscribe": "Mensuel ou annuel"
+          },
+          {
+            "label": "Payer pendant l'été et les vacances",
+            "ls": "Jamais",
+            "otter": "Oui, avec l'offre annuelle",
+            "notta": "Oui, avec l'offre annuelle",
+            "turboscribe": "Oui, avec l'offre annuelle"
+          },
+          {
+            "label": "Heures non utilisées",
+            "ls": "N'expirent jamais",
+            "otter": "Remises à zéro chaque mois",
+            "notta": "Remises à zéro chaque mois",
+            "turboscribe": "Illimité tant que l'abonnement court"
+          },
+          {
+            "label": "Offre gratuite",
+            "ls": "Illimitée (reconnaissance vocale du navigateur)",
+            "otter": "300 min/mois, 30 min par enregistrement",
+            "notta": "120 min/mois, 3 min par enregistrement",
+            "turboscribe": "3 fichiers par jour, 30 min chacun"
+          }
+        ],
+        "honestNote": "Vous transcrivez plus de 30 heures par mois ? Un abonnement illimité comme TurboScribe peut revenir moins cher. LessonScriptor est pensé pour les étudiants qui ne veulent pas payer les mois sans cours.",
+        "sources": "Tarifs mensuels affichés en USD, vérifiés en octobre 2026 sur otter.ai, notta.ai et turboscribe.ai. Les prix des concurrents peuvent évoluer. Otter.ai, Notta et TurboScribe sont des marques de leurs propriétaires respectifs."
+      }
     },
     "quickstart": {
       "eyebrow": "Démarrage rapide",

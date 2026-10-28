@@ -276,9 +276,49 @@
       ],
       "currencyDisclaimer": "Prices shown are estimates. Final amount is converted at the live exchange rate by Stripe at checkout.",
       "paymentProcessor": "Payments processed securely by Stripe.",
-      "footnote": "Buy once, use whenever. A full semester at 3h/week costs around $21 — less than two textbook chapters.",
+      "footnote": "Buy once, use whenever. A full semester at 2h/week (30h) is one 30h pack: $21, less than two textbook chapters.",
       "installFreeBtn": "Install Free",
-      "getAIBtn": "Get AI Hours →"
+      "getAIBtn": "Get AI Hours →",
+      "comparison": {
+        "eyebrow": "Compare",
+        "title": "What a semester of lectures actually costs",
+        "subtitle": "30 hours of AI transcription: 2 hours of lectures a week over a 15-week semester. Competitors at their monthly list price.",
+        "semesterRow": "Cost for one semester (30h)",
+        "packsDetail": "One 30h pack, paid once",
+        "monthsDetail": "{months} months × {price}",
+        "rows": [
+          {
+            "label": "Subscription",
+            "ls": "None, buy once",
+            "otter": "Monthly or annual",
+            "notta": "Monthly or annual",
+            "turboscribe": "Monthly or annual"
+          },
+          {
+            "label": "Paying during summer and breaks",
+            "ls": "Never",
+            "otter": "Yes, on the annual plan",
+            "notta": "Yes, on the annual plan",
+            "turboscribe": "Yes, on the annual plan"
+          },
+          {
+            "label": "Unused hours",
+            "ls": "Never expire",
+            "otter": "Reset every month",
+            "notta": "Reset every month",
+            "turboscribe": "Unlimited while subscribed"
+          },
+          {
+            "label": "Free plan",
+            "ls": "Unlimited (browser speech recognition)",
+            "otter": "300 min/month, 30 min per recording",
+            "notta": "120 min/month, 3 min per recording",
+            "turboscribe": "3 files a day, 30 min each"
+          }
+        ],
+        "honestNote": "Transcribing more than 30 hours a month? An unlimited subscription like TurboScribe can cost less. LessonScriptor is built for students who don't want to pay for the months they're not in class.",
+        "sources": "Monthly list prices in USD, checked October 2026 on otter.ai, notta.ai and turboscribe.ai. Competitor prices may change. Otter.ai, Notta and TurboScribe are trademarks of their respective owners."
+      }
     },
     "quickstart": {
       "eyebrow": "Get started",

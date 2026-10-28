@@ -276,9 +276,49 @@
       ],
       "currencyDisclaimer": "Los precios mostrados son estimaciones. El importe final se convierte al tipo de cambio vigente por Stripe en el momento del pago.",
       "paymentProcessor": "Pagos procesados de forma segura por Stripe.",
-      "footnote": "Compra una vez, úsalo cuando quieras. Un semestre completo a 3h/semana cuesta unos 21 € — menos que un menú del día por semana.",
+      "footnote": "Compra una vez, úsalo cuando quieras. Un semestre completo a 2 h/semana (30 h) es un solo pack de 30 h: 21 $ (≈ 19 €), menos que un menú del día por semana.",
       "installFreeBtn": "Instalar gratis",
-      "getAIBtn": "Obtener horas IA →"
+      "getAIBtn": "Obtener horas IA →",
+      "comparison": {
+        "eyebrow": "Comparativa",
+        "title": "Lo que cuesta de verdad un semestre de clases",
+        "subtitle": "30 horas de transcripción con IA: 2 horas de clase a la semana durante un semestre de 15 semanas. Competidores a su precio mensual de lista.",
+        "semesterRow": "Coste de un semestre (30 h)",
+        "packsDetail": "Un pack de 30 h, pago único",
+        "monthsDetail": "{months} meses × {price}",
+        "rows": [
+          {
+            "label": "Suscripción",
+            "ls": "Ninguna, pagas una vez",
+            "otter": "Mensual o anual",
+            "notta": "Mensual o anual",
+            "turboscribe": "Mensual o anual"
+          },
+          {
+            "label": "Pagar en verano y vacaciones",
+            "ls": "Nunca",
+            "otter": "Sí, con el plan anual",
+            "notta": "Sí, con el plan anual",
+            "turboscribe": "Sí, con el plan anual"
+          },
+          {
+            "label": "Horas sin usar",
+            "ls": "No caducan nunca",
+            "otter": "Se reinician cada mes",
+            "notta": "Se reinician cada mes",
+            "turboscribe": "Ilimitado mientras dure la suscripción"
+          },
+          {
+            "label": "Plan gratuito",
+            "ls": "Ilimitado (reconocimiento de voz del navegador)",
+            "otter": "300 min/mes, 30 min por grabación",
+            "notta": "120 min/mes, 3 min por grabación",
+            "turboscribe": "3 archivos al día, 30 min cada uno"
+          }
+        ],
+        "honestNote": "¿Transcribes más de 30 horas al mes? Una suscripción ilimitada como TurboScribe puede salirte más barata. LessonScriptor está pensado para estudiantes que no quieren pagar los meses sin clases.",
+        "sources": "Precios mensuales de lista en USD, consultados en octubre de 2026 en otter.ai, notta.ai y turboscribe.ai. Los precios de la competencia pueden cambiar. Otter.ai, Notta y TurboScribe son marcas de sus respectivos titulares."
+      }
     },
     "quickstart": {
       "eyebrow": "Empezar",
