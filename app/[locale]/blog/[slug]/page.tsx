@@ -111,7 +111,11 @@ export default async function BlogPostPage({
   const post = getPost(canonical, locale)
   if (!post) notFound()
 
-  const schemas = post.schemas || []
+  // Older posts store JSON-LD wrapped as { type, content }; emit only the
+  // schema object itself, or Google can't parse it.
+  const schemas = (post.schemas || []).map((s) =>
+    !('@type' in s) && s.content && typeof s.content === 'object' ? (s.content as Record<string, unknown>) : s
+  )
   const baseUrl = `https://lessonscriptor.com/${locale}`
 
   return (

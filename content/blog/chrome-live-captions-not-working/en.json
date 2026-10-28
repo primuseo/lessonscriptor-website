@@ -2,18 +2,24 @@
   "slug": "chrome-live-captions-not-working",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Chrome Live Captions Not Working? 8 Fixes That Actually Work (2026)",
+  "h1": "Chrome Live Caption Not Working? Troubleshooting Checklist + 8 Fixes (2026)",
   "reading_time_min": 8,
   "published_at": "2026-04-28",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Chrome Live Captions Not Working? 8 Fixes (2026)",
-    "description": "Chrome live captions not working? Here are 8 proven fixes — from toggling the setting to switching to a Chrome extension that actually works with headphones.",
+    "title": "Chrome Live Caption Not Working? Troubleshooting + 8 Fixes",
+    "description": "Live Caption not working in Chrome? Run this troubleshooting checklist: 8 fixes for 'not available', missing language packs, headphones and no captions.",
     "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
     "canonical": "https://lessonscriptor.com/blog/chrome-live-captions-not-working",
     "og_title": "Chrome Live Captions Not Working? 8 Fixes That Actually Work (2026)",
     "og_description": "8 proven fixes for Chrome live captions not working — plus when to switch to a dedicated extension instead.",
-    "twitter_card": "summary_large_image"
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "live caption troubleshooting",
+      "live caption not working",
+      "why is live caption not working",
+      "how to fix live caption not working"
+    ]
   },
   "hero_image": {
     "src": "/images/blog/chrome-live-captions-not-working-hero.png",
@@ -59,6 +65,48 @@
       "id": "why-chrome-live-captions-not-working",
       "h2": "Why have my Chrome live captions stopped working?",
       "body": "Chrome live captions stop working for one of eight reasons: an outdated Chrome version, a missing or corrupted speech recognition model, a conflicting browser extension, an audio output routing issue (common with headphones), a corrupted Chrome profile, disabled experimental flags, insufficient disk space to store the model, or a temporary Google service outage.\n\nThe 'Live Caption is not available right now' error on Windows 10 and Windows 11 is most often caused by the speech recognition model failing to download. Chrome downloads this model silently in the background when you first enable Live Caption — if your internet was slow or interrupted during that download, the model is incomplete and captions won't work.\n\nOn macOS, the most common cause is a permission conflict. macOS Ventura and Sonoma introduced stricter microphone and accessibility permissions, and Chrome sometimes loses access after a system update.\n\nThe fix for 80% of cases is covered in Fix 1 and Fix 2 below."
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Live Caption troubleshooting checklist: what to check first",
+      "body": "Live Caption troubleshooting starts with five checks that take under two minutes, and together they resolve most cases before you need any of the fixes below. Work through them in order: each one rules out a different cause.",
+      "steps": [
+        {
+          "strategy": "Is Live Caption switched on?",
+          "detail": "Open `chrome://settings/accessibility` and confirm the Live Caption toggle is on. Chrome sometimes turns it off after an update."
+        },
+        {
+          "strategy": "Is your Chrome version recent?",
+          "detail": "Go to `chrome://settings/help`. Live Caption needs a current desktop Chrome on Windows, macOS, Linux or ChromeOS."
+        },
+        {
+          "strategy": "Has the speech model finished downloading?",
+          "detail": "Right after you enable it, Chrome shows 'Downloading speech recognition files'. Captions stay blank until that finishes. A stalled download is the usual cause of 'Live Caption is not available right now'."
+        },
+        {
+          "strategy": "Is the language supported?",
+          "detail": "Check the caption language under Live Caption settings. If the video is in a language Chrome doesn't caption, nothing appears."
+        },
+        {
+          "strategy": "Is audio actually playing in Chrome?",
+          "detail": "Live Caption only captions audio from Chrome itself, not from the Zoom desktop app or Spotify. Unmute the tab and make sure the sound isn't routed to a device Chrome can't see."
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "Still blank after all five?",
+        "body": "Move on to Fix 1 below. If the fixes keep failing, an extension that captures tab audio directly, such as LessonScriptor's AI mode, sidesteps the speech-model download entirely."
+      },
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption in other languages",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "Live captions with headphones",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
     },
     {
       "id": "fix-toggle-live-caption",
