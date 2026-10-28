@@ -638,9 +638,9 @@
     "readMore": "Read more"
   },
   "transcribeVideo": {
-    "h1": "YouTube Transcript Generator — Free, No Upload",
-    "subtitle": "Generate a transcript from any YouTube video, lecture recording, or Zoom call in real-time. No file upload, no account, no subscription. Works directly in Chrome.",
-    "answer": "The fastest YouTube transcript generator is LessonScriptor — a free Chrome extension that generates a transcript from any YouTube video in real-time as it plays. No file upload, no account, no subscription. It also works on Coursera, Udemy, Zoom recordings, and university portals like Moodle and Canvas. The free mode uses the Web Speech API (on-device, private); the Premium mode uses OpenAI Whisper for higher accuracy on accents, technical vocabulary, and 14+ languages.",
+    "h1": "Transcribe Video to Text — Free, Live in Chrome",
+    "subtitle": "Turn any video into text as it plays: YouTube, lecture recordings, Coursera, Zoom calls. No file upload, no account, no subscription. Works directly in Chrome.",
+    "answer": "The fastest way to transcribe a video to text is LessonScriptor — a free Chrome extension that converts any video playing in your browser into text in real-time. No file upload, no account, no subscription. It also works on Coursera, Udemy, Zoom recordings, and university portals like Moodle and Canvas. The free mode uses the Web Speech API (on-device, private); the Premium mode uses OpenAI Whisper for higher accuracy on accents, technical vocabulary, and 14+ languages.",
     "useCases": {
       "title": "What types of videos can you transcribe to text?",
       "items": [
@@ -731,8 +731,8 @@
         }
       ]
     },
-    "metaTitle": "YouTube Transcript Generator — Free, No Upload | LessonScriptor",
-    "metaDesc": "Generate a transcript from any YouTube video in real-time with AI. Free Chrome extension — no upload, no account, no subscription. Works on 50+ video platforms.",
+    "metaTitle": "Transcribe Video to Text Free — Live in Chrome, No Upload",
+    "metaDesc": "Transcribe any video to text in real-time with AI — YouTube, lectures, Coursera, Zoom. Free Chrome extension — no upload, no account, no subscription. Works on 50+ video platforms.",
     "relatedHeading": "Learn more about video transcription",
     "readMore": "Read more",
     "heroAriaLabel": "Introduction — transcribe video to text",

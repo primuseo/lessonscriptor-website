@@ -27,6 +27,7 @@ export async function generateMetadata({
   const post = getPost(canonical, locale)
   if (!post) return {}
   const base = `https://lessonscriptor.com/${locale}`
+  const url = `${base}/blog/${getLocalizedSlug(canonical, locale)}`
   return {
     title: post.meta.title,
     description: post.meta.description,
@@ -35,18 +36,22 @@ export async function generateMetadata({
       title: post.meta.title,
       description: post.meta.description,
       type: 'article',
-      url: `${base}/blog/${slug}`,
+      url,
       ...(post.hero_image && {
         images: [{ url: post.hero_image.url, width: post.hero_image.width, height: post.hero_image.height }],
       }),
     },
     alternates: {
-      languages: Object.fromEntries(
-        LOCALES.map((l) => {
-          const localSlug = getLocalizedSlug(canonical, l)
-          return [l, `https://lessonscriptor.com/${l}/blog/${localSlug}`]
-        })
-      ),
+      canonical: url,
+      languages: {
+        ...Object.fromEntries(
+          LOCALES.map((l) => {
+            const localSlug = getLocalizedSlug(canonical, l)
+            return [l, `https://lessonscriptor.com/${l}/blog/${localSlug}`]
+          })
+        ),
+        'x-default': `https://lessonscriptor.com/en/blog/${getLocalizedSlug(canonical, 'en')}`,
+      },
     },
   }
 }

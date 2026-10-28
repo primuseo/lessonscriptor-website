@@ -28,12 +28,16 @@ export async function generateMetadata({
       url: `${base}/blog`,
     },
     alternates: {
-      languages: Object.fromEntries(
-        LOCALES.map((l) => [
-          l,
-          `https://lessonscriptor.com/${l}/blog`,
-        ])
-      ),
+      canonical: `${base}/blog`,
+      languages: {
+        ...Object.fromEntries(
+          LOCALES.map((l) => [
+            l,
+            `https://lessonscriptor.com/${l}/blog`,
+          ])
+        ),
+        'x-default': 'https://lessonscriptor.com/en/blog',
+      },
     },
   }
 }
