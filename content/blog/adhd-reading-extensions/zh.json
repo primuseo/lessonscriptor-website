@@ -1,0 +1,492 @@
+{
+  "slug": "adhd-reading-extensions",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "2026年最适合ADHD的8款Chrome阅读插件推荐",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "ADHD阅读插件推荐：8款Chrome阅读扩展（2026）",
+    "description": "适合ADHD的Chrome阅读插件对比：Chrome阅读模式、Helperbird、BeeLine Reader、Read&Write和Speechify。哪些免费、仿生阅读到底有没有用、PDF文献怎么读、视频网课又该怎么跟上，本文一次讲清楚，帮你挑出真正适合自己的那一款阅读工具。",
+    "keywords": [
+      "ADHD阅读插件",
+      "ADHD Chrome扩展",
+      "注意力缺陷 阅读工具",
+      "ADHD 朗读插件",
+      "仿生阅读 ADHD"
+    ]
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "核心要点",
+    "lead": "最适合ADHD的阅读插件，是能解决你具体卡点的那一款：页面太乱、读着读着串行，或者读完一段却什么都没记住。先从Chrome自带的阅读模式开始，免费且无需安装。",
+    "bullets": [
+      "Chrome阅读模式在侧边栏显示无广告的正文，可调字体、间距和颜色，电脑版还能朗读并高亮当前词。",
+      "Helperbird是功能最全的免费工具箱：阅读标尺、行聚焦、阅读障碍友好字体、彩色滤镜和文字转语音。",
+      "BeeLine Reader用渐变色给每一行上色，让眼睛更容易找到下一行。",
+      "文字转语音（Speechify、NaturalReader、Read&Write）适合容易走神的人：边听边读能带出节奏。",
+      "仿生阅读（Bionic Reading）很火，但两项研究都没发现它能提升阅读速度或理解。",
+      "这些插件都帮不了视频课。那部分可以用实时字幕转录，比如LessonScriptor，对“听”的内容做同样的事。"
+    ]
+  },
+  "intro": "ADHD阅读插件是一类Chrome扩展，它通过改变文字的呈现方式或把文字读出来，让注意力能停留得更久：去掉干扰、引导视线沿着每一行移动，或者直接朗读网页。2026年最好的选择是Chrome自带的阅读模式、Helperbird、BeeLine Reader、Texthelp的Read&Write、Speechify和NaturalReader，其中大多数都有免费版。它们解决的问题各不相同，所以该选哪一款，取决于你为什么会走神：是页面本身（广告、弹窗、排版密集），是眼睛（跳行、同一句反复读），还是注意力（读到段落末尾却不知道刚才说了什么）。我们是Victoria和Pierre：Victoria在线攻读人类学，本身患有注意力缺陷多动障碍（ADHD）。这篇指南是我们调研后的真实结论，也包括仿生阅读在研究中的局限。",
+  "sections": [
+    {
+      "heading": "什么是ADHD阅读插件？它到底能解决什么问题？",
+      "body": "ADHD阅读插件是一种降低“专注在文字上”所需努力的浏览器工具。它不能治疗ADHD，但能减少阻力，让一篇长文或一份40页的PDF讲义不再难以开头、难以读完。\n\n这些工具可以分成四类，先弄清自己需要哪一类，就不用装六个从来不打开的插件：\n\n**1. 阅读视图**（Chrome阅读模式、Just Read）：去掉广告、侧栏、自动播放视频和弹窗。对ADHD来说，页面上每个会动的元素都在抢注意力，去掉它们往往是最大的改善。\n\n**2. 视觉引导**（BeeLine Reader、Helperbird的阅读标尺和行聚焦）：帮助眼睛跟住每一行。适合一分心就找不到读到哪儿的人。\n\n**3. 文字转语音**（Speechify、NaturalReader、Read&Write、Chrome自带朗读）：把文字读给你听，通常会同步高亮当前词。同时听和看同样的词，相当于给注意力两个锚点。\n\n**4. 字体排版调整**（仿生阅读、阅读障碍友好字体、间距设置）：改变字母和词的外观。这一类效果因人而异，而仿生阅读的证据最弱。"
+    },
+    {
+      "heading": "ADHD阅读插件该怎么选？",
+      "body": "下表把每款插件和对应的阅读问题对应起来。ADHD适配度是我们的10分制评分，衡量它能减少多少阻力，同时不增加额外设置或新的干扰。",
+      "table": {
+        "headers": [
+          "插件",
+          "类型",
+          "免费方案",
+          "ADHD适配度",
+          "最适合"
+        ],
+        "rows": [
+          [
+            "Chrome阅读模式",
+            "阅读视图 + 朗读",
+            "有，Chrome内置",
+            "9/10",
+            "页面杂乱的文章，零设置"
+          ],
+          [
+            "Helperbird",
+            "无障碍工具箱",
+            "有，免费版",
+            "8/10",
+            "标尺、行聚焦、字体、滤镜"
+          ],
+          [
+            "BeeLine Reader",
+            "渐变色行引导",
+            "免费试用；付费方案",
+            "8/10",
+            "容易串行、长篇PDF"
+          ],
+          [
+            "Read&Write（Texthelp）",
+            "读写辅助套件",
+            "教师免费；部分学校有机构授权",
+            "7/10",
+            "学校已购买授权的学生"
+          ],
+          [
+            "Speechify",
+            "文字转语音",
+            "有，标准音色",
+            "7/10",
+            "边听边读"
+          ],
+          [
+            "NaturalReader",
+            "文字转语音",
+            "有，免费音色",
+            "7/10",
+            "多语言阅读"
+          ],
+          [
+            "Just Read",
+            "可自定义阅读视图",
+            "有，基础功能免费",
+            "7/10",
+            "阅读模式处理不好的网页"
+          ],
+          [
+            "Bionic Reading",
+            "词首加粗",
+            "有，Discover免费版",
+            "5/10",
+            "仅限个人偏好"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "最适合ADHD的Chrome阅读插件有哪些？",
+      "body": "以下八款插件真实存在、持续维护，截至2026年10月都可以在Chrome网上应用店安装。价格多以美元计（付款时自动换算），而且经常调整，所以我们只引用厂商明确公布的价格。在中国大陆访问Chrome网上应用店可能受网络环境限制；如果你用的是Microsoft Edge，它自带的沉浸式阅读器也能实现类似阅读模式加朗读的效果。",
+      "internal_links": [
+        {
+          "text": "更多适合ADHD学生的Chrome插件",
+          "url": "/blog/best-chrome-extensions-adhd-students"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Chrome阅读模式",
+      "tagline": "Google内置的阅读视图，电脑版支持朗读",
+      "platform": "Windows、Mac、Linux和ChromeOS上的Chrome",
+      "free_tier": "免费，已内置",
+      "price": "免费",
+      "best_for": "今天就想减少视觉干扰的任何人",
+      "adhd_fit": 9,
+      "why_it_wins": "Chrome阅读模式是第一个值得尝试的工具：不花钱，也不用安装。在文章上点右键，选择**以阅读模式打开**，正文就会出现在侧边栏里，没有广告、菜单和自动播放的视频。你可以调整字体、字号、行距、字间距和背景色。在电脑版Chrome上，它还能朗读文字，可选音色和语速，并高亮正在读的词。对ADHD来说，侧边栏有个不显眼的好处：原网页仍在旁边，但你正在读的文字被单独隔离出来。",
+      "key_features": [
+        "一键在侧边栏打开阅读视图",
+        "可调字体、字号、行距、字间距和颜色",
+        "电脑版支持朗读，可选音色、语速并高亮当前词",
+        "无需账号，无需安装插件"
+      ],
+      "limitations": "最适合文章类页面；很多课程平台页面和PDF无法顺利转换。没有阅读标尺。"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Helperbird",
+      "tagline": "面向阅读障碍、ADHD和视觉疲劳的无障碍工具箱",
+      "platform": "Chrome、Firefox、Edge；另有Apple设备应用",
+      "free_tier": "有，永久免费版",
+      "price": "免费；Pro为付费升级",
+      "best_for": "想把标尺、字体、滤镜和朗读集中在一个插件里的学生",
+      "adhd_fit": 8,
+      "why_it_wins": "Helperbird把通常需要四个插件才能实现的功能整合在一起。免费版包括阅读障碍友好字体、间距和对齐设置、阅读模式、彩色滤镜、阅读标尺和行聚焦、基础朗读以及PDF阅读器。阅读标尺和行聚焦是对ADHD最有用的功能：除了你正在读的那一行或那一条，其余部分都会变暗，一整面文字墙就变成了一条可控的窄带。Pro版增加自然音色、能识别图片文字的截图阅读器，以及AI摘要和简化功能。",
+      "key_features": [
+        "阅读标尺和行聚焦",
+        "阅读障碍友好字体、间距和彩色滤镜",
+        "免费版即含阅读模式和基础朗读",
+        "带批注工具的PDF阅读器"
+      ],
+      "limitations": "选项太多，设置本身可能变成新的干扰；挑两个功能用，其余忽略。自然音色和文字识别需要Pro。"
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "BeeLine Reader",
+      "tagline": "用渐变色把视线从一行引到下一行",
+      "platform": "Chrome、Firefox、Edge、Brave；iPhone和iPad上的Safari；支持PDF",
+      "free_tier": "提供免费试用功能；iOS Safari扩展免费",
+      "price": "付费方案每月几美元",
+      "best_for": "经常跳行或重复读同一行的人",
+      "adhd_fit": 8,
+      "why_it_wins": "BeeLine Reader给每一行文字加上柔和的渐变色，让上一行的结尾自然衔接到下一行的开头。它解决的是ADHD读者非常常见的问题：视线一离开再回来，就落到了错误的行上。用了BeeLine，颜色会告诉你刚才读到哪儿。它也支持文本型PDF，这一点很关键，因为从知网下载的论文和老师发的讲义大多是PDF。",
+      "key_features": [
+        "网页渐变色行引导",
+        "支持文本型PDF",
+        "可调配色主题，包括低调配色和深色模式"
+      ],
+      "limitations": "不去除干扰，也不朗读，是单一用途工具。完整使用需要付费。"
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Read&Write for Google Chrome（Texthelp）",
+      "tagline": "部分学校会提供的读写辅助套件",
+      "platform": "Chrome扩展；适用于Google文档、网页和PDF",
+      "free_tier": "教师可免费使用高级版；学生通常需要学校授权",
+      "price": "先问问学校是否已有授权",
+      "best_for": "所在学校已购买Texthelp授权的学生",
+      "adhd_fit": 7,
+      "why_it_wins": "Texthelp的Read&Write会用双色高亮朗读文字，提供文字和图片词典，能把你划的重点汇总成一个列表，还有屏幕遮罩来减少视觉干扰。汇总划线这个功能对ADHD复习特别有用：边读边标出关键句，之后直接得到一份清单，不用在考试前把40页重新翻一遍。它在海外高校更常见，如果你在海外留学，可以问问学校的残障支持或学习支持部门。",
+      "key_features": [
+        "双色高亮朗读",
+        "把划线内容汇总成列表",
+        "屏幕遮罩和色调",
+        "词典、语音输入和单词预测"
+      ],
+      "limitations": "工具栏较拥挤，偏向中小学场景；完整功能通常依赖机构授权。"
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Speechify",
+      "tagline": "适用于网页、Google文档和PDF的热门文字转语音工具",
+      "platform": "Chrome扩展、网页版、iOS、Android、Mac",
+      "free_tier": "有，标准音色，语速受限",
+      "price": "Premium为订阅制",
+      "best_for": "边听边读更容易专注的人",
+      "adhd_fit": 7,
+      "why_it_wins": "Speechify可以朗读任意网页、Google文档或PDF，并同步高亮文字。很多ADHD读者发现，听的时候有一个外部节奏，很难走神：声音在往前走，眼睛也就跟着往前走。免费版够读文章；Premium增加自然音色和更快语速。付费前，先用一篇真实的中文课程材料测试一下中文音色。",
+      "key_features": [
+        "朗读网页、Google文档和PDF",
+        "文字高亮与语音同步",
+        "手机和电脑都有应用，路上也能继续听"
+      ],
+      "limitations": "免费音色比较机械，语速有上限；Premium是本文中价格较高的订阅之一。"
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "NaturalReader",
+      "tagline": "拥有大量多语言音色的文字转语音工具",
+      "platform": "Chrome扩展、网页应用",
+      "free_tier": "有，免费音色",
+      "price": "高级音色需付费",
+      "best_for": "需要读多种语言材料的学生",
+      "adhd_fit": 7,
+      "why_it_wins": "NaturalReader可以朗读网页、Google文档、PDF和邮件，提供20多种语言的150多种音色，包括中文。如果你要读英文文献写论文，它很合适：听到发音也有助于理解。",
+      "key_features": [
+        "20多种语言、150多种音色",
+        "支持网页、Google文档、PDF和网页邮箱",
+        "提供免费音色"
+      ],
+      "limitations": "效果最好的音色需要付费；界面实用但不够安静。"
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "Just Read",
+      "tagline": "延续Mercury Reader思路的可自定义阅读视图",
+      "platform": "Chrome扩展",
+      "free_tier": "有，基础阅读视图免费",
+      "price": "基础免费；可选高级功能",
+      "best_for": "Chrome阅读模式处理不好的网页",
+      "adhd_fit": 7,
+      "why_it_wins": "Just Read填补了Mercury Reader这类插件留下的空位：一键把文章变成干净的正文，配色由你决定。选择模式可以精确指定要读的部分，删除模式可以把残留的杂物清掉。还可以让它在常看的网站上自动启用，又少了一个需要做的决定。",
+      "key_features": [
+        "一键阅读视图，浅色和深色主题",
+        "选择模式和删除模式，处理杂乱页面",
+        "指定网站自动启用，支持快捷键"
+      ],
+      "limitations": "为文章类页面设计，不适合课程首页或PDF。没有朗读功能。"
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Bionic Reading",
+      "tagline": "把每个词的开头字母加粗来引导视线",
+      "platform": "Chrome扩展及其他平台应用",
+      "free_tier": "有，Discover免费版",
+      "price": "Premium和Premium Plus订阅",
+      "best_for": "试过之后就是更喜欢这样读的人",
+      "adhd_fit": 5,
+      "why_it_wins": "Bionic Reading（仿生阅读）由同名瑞士公司开发，会把每个词的前几个字母加粗，让视线在锚点之间跳跃。它作为ADHD阅读技巧走红，很多人说读起来更舒服。但对照研究没有发现它能提升速度或理解（见下一节），所以我们把它排在最后：可以试用免费版，喜欢就留着，但别期待奇迹。另外它主要针对拼音文字，对中文的意义有限。",
+      "key_features": [
+        "把任意网页转换成仿生阅读格式",
+        "加粗强度可调",
+        "一份订阅覆盖多个平台的应用"
+      ],
+      "limitations": "已发表的研究中没有测出任何益处；有些人反而觉得加粗更分散注意力。"
+    },
+    {
+      "heading": "仿生阅读对ADHD真的有用吗？",
+      "body": "根据目前已发表的两项规模最大的测试，仿生阅读既不能提升阅读速度，也不能提升理解。2022年，稍后读应用Readwise对约1,900名读者在同等难度文本上计时：使用仿生阅读时每分钟慢了2.6个词，差距不到1%，两种格式的理解正确率都是88%。2024年，心理学家Joshua Snell在期刊《Acta Psychologica》上发表了一项对照研究，标题就是《No, Bionic Reading does not work》：32名参与者每人读了100个段落，无论读得快还是慢的人，都没有表现出可靠的优势。\n\n为了诚实，有两点需要说明。第一，这两项研究都不是专门针对ADHD人群的，所以目前既没有支持也没有否定它的ADHD专项研究。第二，在Readwise的数据里，大约一半人用仿生阅读略快，另一半略慢，这更像个人偏好，而不是真实效果。\n\n实际结论：仿生阅读是一种舒适度设置，不是提升效率的工具。如果它让你更愿意打开一篇长文，对ADHD来说这本身就是实实在在的好处，即使秒表上没有变化。如果你想要作用机制更明确的工具，行引导（BeeLine）或文字转语音针对的正是ADHD读者最常提到的问题：串行和走神。"
+    },
+    {
+      "heading": "为什么文字转语音能帮到这么多ADHD读者？",
+      "body": "文字转语音之所以对ADHD有帮助，是因为它把“按自己节奏读”变成了“跟着外部节奏读”。默读完全依赖你自己持续推进，而这种持续的、自我驱动的努力恰恰是ADHD最难做到的。匀速朗读的声音提供了节拍，词语高亮给眼睛一个跟着节拍移动的目标。\n\n常见的有效做法是：把语速调得比你平时说话稍快一点，眼睛跟着高亮走，每到一个小标题就停下来记一行笔记。先用Chrome自带的朗读功能测试是否适合自己，再决定要不要为Speechify或NaturalReader的高级音色付费。"
+    },
+    {
+      "heading": "怎样把Chrome设置成适合ADHD的阅读环境？",
+      "body": "精简的配置胜过塞满插件的工具栏。下面是四步版本：",
+      "steps": [
+        {
+          "strategy": "先用Chrome阅读模式。",
+          "detail": "在文章上点右键，以阅读模式打开，调大行距，选一个柔和的背景色。试一次朗读功能。"
+        },
+        {
+          "strategy": "如果容易串行，只加一个视觉引导工具。",
+          "detail": "想要行聚焦就用Helperbird，长篇PDF是主要问题就用BeeLine Reader。二选一。"
+        },
+        {
+          "strategy": "只有在容易走神时才加文字转语音。",
+          "detail": "先用Chrome自带朗读；想要更好的音色或手机应用，再考虑Speechify或NaturalReader。"
+        },
+        {
+          "strategy": "付费前先问问学校。",
+          "detail": "如果你在海外留学，学校的学习支持或残障支持部门可能已经提供相关工具授权。"
+        }
+      ]
+    },
+    {
+      "heading": "阅读只是学习的一半，听课是另一半",
+      "body": "上面所有工具处理的都是文字。它们都帮不了课程的另一半：录播课、线上研讨，以及老师推荐的B站或YouTube视频。对很多ADHD学生来说，这一半更难，因为视频不会等你。走神30秒，重点就过去了；往回拖进度条又会再次打断专注。\n\nLessonScriptor就是我们为这一半做的工具。它是一个Chrome扩展，在课程播放时于侧边栏显示实时转录文字，让你边听老师讲边看文字，就像用文字转语音边听边读一样。凡是在Chrome里有声音的内容它都能用：中国大学MOOC、学堂在线、B站、Moodle、YouTube、Coursera，以及浏览器里的腾讯会议网页版、Zoom或Google Meet。\n\n准确地说：**免费模式**使用Chrome的语音识别，通过麦克风收音，所以扬声器音量要开得比较大（建议80%以上），而且戴耳机时无法使用。**AI模式**直接采集标签页的音频：可以戴耳机，对口音和专业术语的识别准确得多；文字每10秒或30秒成段出现，而不是逐字出现。AI模式含30分钟免费试用，之后是一次性购买的时长包，5小时5美元起（Stripe会显示人民币等本地货币的估算价格）。听课过程中，你可以用五种颜色高亮、添加标题、截取当前课件画面，并导出为.txt或.md文件。\n\n它不做的事：不朗读网页或PDF，也不会自动生成摘要。如果需要摘要，可以自己把导出的文字稿粘贴到ChatGPT或NotebookLM里。阅读的部分，请用上面的插件。",
+      "internal_links": [
+        {
+          "text": "如何在Chrome中实时转录任意视频",
+          "url": "/blog/live-transcribe-chrome"
+        },
+        {
+          "text": "ADHD学生如何专注上网课",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "LessonScriptor：为ADHD学生设计",
+          "url": "/for-adhd-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "一段话总结：最适合ADHD的阅读插件",
+    "body": "先用Chrome阅读模式：免费、内置、还能朗读。需要行聚焦和字体调整就加Helperbird，读PDF老是串行就用BeeLine Reader。如果读到一半注意力就跑掉，用文字转语音（Chrome朗读、Speechify或NaturalReader），付费买授权前先问问学校。把仿生阅读当作个人偏好而不是解决方案：研究没有发现它能提速。至于任何阅读工具都覆盖不到的视频课，改用实时转录文字来跟读。",
+    "internal_links": [
+      {
+        "text": "2026年ADHD学生最佳应用",
+        "url": "/blog/best-apps-adhd-students-2026"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "最适合ADHD的阅读插件是哪款？",
+        "answer": "Chrome自带的阅读模式是最好的起点：免费、无需安装、能去除页面干扰，电脑版还能朗读并高亮当前词。如果你还需要阅读标尺、行聚焦和阅读障碍友好字体，Helperbird是最好的免费补充。"
+      },
+      {
+        "question": "有免费的ADHD阅读Chrome插件吗？",
+        "answer": "有。Chrome阅读模式免费内置，Helperbird有永久免费版，Just Read的基础阅读视图免费，Speechify、NaturalReader和Bionic Reading都有带限制的免费方案。BeeLine Reader提供免费试用功能和付费方案。"
+      },
+      {
+        "question": "仿生阅读对ADHD有帮助吗？",
+        "answer": "目前没有证据表明有帮助。2022年Readwise对约1,900名读者的测试和2024年发表在《Acta Psychologica》上的研究，都没有发现阅读速度或理解有所提升。这两项研究都不是针对ADHD的，也有人喜欢它的阅读感受，所以只适合作为个人偏好去尝试。"
+      },
+      {
+        "question": "Chrome有自带的朗读功能吗？",
+        "answer": "有。在网页上点右键选择以阅读模式打开，然后点击侧边栏里的播放按钮。在电脑版Chrome上可以选择音色、调整语速，并跟着高亮的词阅读。"
+      },
+      {
+        "question": "哪些阅读插件支持PDF？",
+        "answer": "BeeLine Reader支持文本型PDF，Helperbird有自己的PDF阅读器，Read&Write、Speechify和NaturalReader都能朗读PDF。扫描版PDF需要先做文字识别（OCR），例如Helperbird Pro的截图阅读器。"
+      },
+      {
+        "question": "有没有能在看视频课时帮助ADHD的插件？",
+        "answer": "阅读插件只对文字有效。看视频课时，实时转录文字能让你边听边读。LessonScriptor会在Chrome侧边栏为任意标签页中播放的内容显示转录，包括中国大学MOOC、B站和YouTube，提供免费模式和按时长付费的AI模式。"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "2026年最适合ADHD的8款Chrome阅读插件推荐",
+      "description": "适合ADHD的Chrome阅读插件对比：Chrome阅读模式、Helperbird、BeeLine Reader、Read&Write和Speechify。哪些免费、仿生阅读到底有没有用、PDF文献怎么读、视频网课又该怎么跟上，本文一次讲清楚，帮你挑出真正适合自己的那一款阅读工具。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/icon.svg"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "最适合ADHD的阅读插件是哪款？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chrome自带的阅读模式是最好的起点：免费、无需安装、能去除页面干扰，电脑版还能朗读并高亮当前词。如果你还需要阅读标尺、行聚焦和阅读障碍友好字体，Helperbird是最好的免费补充。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有免费的ADHD阅读Chrome插件吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。Chrome阅读模式免费内置，Helperbird有永久免费版，Just Read的基础阅读视图免费，Speechify、NaturalReader和Bionic Reading都有带限制的免费方案。BeeLine Reader提供免费试用功能和付费方案。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "仿生阅读对ADHD有帮助吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "目前没有证据表明有帮助。2022年Readwise对约1,900名读者的测试和2024年发表在《Acta Psychologica》上的研究，都没有发现阅读速度或理解有所提升。这两项研究都不是针对ADHD的，也有人喜欢它的阅读感受，所以只适合作为个人偏好去尝试。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome有自带的朗读功能吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。在网页上点右键选择以阅读模式打开，然后点击侧边栏里的播放按钮。在电脑版Chrome上可以选择音色、调整语速，并跟着高亮的词阅读。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "哪些阅读插件支持PDF？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BeeLine Reader支持文本型PDF，Helperbird有自己的PDF阅读器，Read&Write、Speechify和NaturalReader都能朗读PDF。扫描版PDF需要先做文字识别（OCR），例如Helperbird Pro的截图阅读器。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有没有能在看视频课时帮助ADHD的插件？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "阅读插件只对文字有效。看视频课时，实时转录文字能让你边听边读。LessonScriptor会在Chrome侧边栏为任意标签页中播放的内容显示转录，包括中国大学MOOC、B站和YouTube，提供免费模式和按时长付费的AI模式。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "2026年最适合ADHD的8款Chrome阅读插件推荐",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Chrome阅读模式"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Helperbird"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BeeLine Reader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Read&Write for Google Chrome（Texthelp）"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Speechify"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "NaturalReader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Just Read"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Bionic Reading"
+        }
+      ]
+    }
+  ]
+}

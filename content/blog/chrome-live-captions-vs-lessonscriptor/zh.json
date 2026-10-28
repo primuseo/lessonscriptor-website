@@ -1,0 +1,376 @@
+{
+  "slug": "chrome-live-captions-vs-lessonscriptor",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome实时字幕 vs LessonScriptor：全面对比",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Chrome实时字幕 vs LessonScriptor：哪个更适合上网课？",
+    "description": "Chrome实时字幕和LessonScriptor有什么区别？本文从准确率、能否编辑和导出、戴耳机能否使用、支持语言和价格等方面逐项对比，告诉你上网课、看录播课、复习备考时该用哪一个，并说明在中国大陆网络环境下使用Chrome网上应用店和Google服务时可能遇到的访问限制，以及免费模式与AI模式各自的使用条件。",
+    "og_image": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "canonical": "https://lessonscriptor.com/zh/blog/chrome-zishimu-vs-lessonscriptor",
+    "og_title": "Chrome实时字幕 vs LessonScriptor：全面对比",
+    "og_description": "复习网课该用Chrome自带字幕还是LessonScriptor？",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "Chrome 实时字幕",
+      "Chrome 实时字幕 插件",
+      "Chrome实时字幕 vs LessonScriptor",
+      "网课 转文字 Chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "alt": "Chrome实时字幕气泡与LessonScriptor可编辑侧边栏的对比",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria和Pierre共同开发了LessonScriptor，一款用于视频实时转写的Chrome扩展程序。Victoria在线攻读人类学，并患有注意力缺陷多动障碍（ADHD）。Pierre负责开发和SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "要点速览",
+    "lead": "Chrome自带的实时字幕和LessonScriptor解决的是不同的问题。Chrome的字幕即开即用、转瞬即逝；LessonScriptor是建立在实时转写之上的记笔记工具，增加了编辑、导出和标注功能。",
+    "bullets": [
+      "Chrome实时字幕：免费，无需安装，只读，支持19种语言，不能导出，戴耳机可用，只显示两行，随后消失。",
+      "LessonScriptor：免费模式通过麦克风收音（音量80%以上，不能戴耳机），AI模式采集标签页音频（可戴耳机），文字稿可编辑，可导出.txt/.md，支持14种语言。",
+      "LessonScriptor的AI模式免费试用30分钟后，按一次性小时包付费，不订阅（5小时 = 5美元，15小时 = 12美元，30小时 = 21美元）。",
+      "复习中国大学MOOC、学堂在线或B站的课程时，LessonScriptor更合适；只需临时无障碍字幕时，Chrome自带功能更简单。",
+      "在中国大陆，Chrome网上应用店和Google服务通常无法直接访问，两者都可能受影响。"
+    ]
+  },
+  "intro": "Chrome实时字幕是一项只读的无障碍功能，会为浏览器中播放的任何音频显示一个浮动字幕气泡。LessonScriptor是一款Chrome扩展程序，会把视频音频转写到一个持久保存、可编辑、可导出的侧边栏里。两者都能生成实时字幕，区别在于之后你能拿这些文字做什么。Chrome的字幕随播放随时消失；LessonScriptor的文字稿会保留下来，可以高亮标注，并导出为.txt或.md，放进Notion、Obsidian或飞书文档。本文逐项对比两者对学生而言真正重要的差异。",
+  "stats": [
+    {
+      "number": "0",
+      "label": "Chrome实时字幕中可编辑或保存的字数"
+    },
+    {
+      "number": "100%",
+      "label": "LessonScriptor文字稿均可编辑、高亮和导出"
+    },
+    {
+      "number": "30分钟",
+      "label": "LessonScriptor AI模式的免费试用时长"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-chrome-live-caption",
+      "h2": "什么是Chrome实时字幕？",
+      "body": "Chrome实时字幕是一项无障碍功能，能为Chrome中播放的任何音频实时生成字幕。根据Google帮助中心的说明，音频和字幕都在本地处理，不会被保存，也不会离开你的设备。\n\n开启方法：**设置 > 无障碍功能 > 实时字幕**，或在地址栏输入chrome://settings/accessibility。首次开启时，Chrome需要从Google下载语音识别文件，在中国大陆网络环境下可能下载失败。\n\n开启后，窗口底部会出现一个浮动气泡，显示滚动的两行文字，随后消失。你无法回看、编辑、复制、保存或导出这些文字，它们只存在于当下。由于它转写的是Chrome自身播放的音频，而不是麦克风，所以戴耳机也能正常使用。\n\nChrome实时字幕支持19种语言，包括简体中文、繁体中文、英语、日语、韩语、法语和德语，适用于Chrome中的任何音频来源：视频网站、播客、直播和网页版视频会议。"
+    },
+    {
+      "id": "what-is-lessonscriptor",
+      "h2": "什么是LessonScriptor？",
+      "body": "LessonScriptor是一款Chrome扩展程序，可把视频音频转写到可编辑的侧边栏中，主要面向看视频上课、需要整理文字稿来复习的学生。\n\n安装后，点击LessonScriptor图标，即可在Chrome中播放的任何内容旁打开侧边栏：中国大学MOOC、学堂在线、B站、网页版腾讯会议、Moodle、Canvas、YouTube、Coursera，以及浏览器中的Zoom和Teams。视频播放时，侧边栏会同步填入文字。\n\n文字稿是一个真正的编辑器：5种颜色高亮、加粗、标题、列表、删除片段，还能插入课件截图。看完后可导出为.txt或.md，或复制到剪贴板。\n\nLessonScriptor有两种模式。**免费模式**通过**麦克风**使用浏览器自带的语音识别：扬声器音量需在80%以上，不能戴耳机，也会转写你自己的声音；音频不会发送到LessonScriptor的服务器。**AI模式**采集**标签页音频**，用Whisper级别的云端模型转写，按10秒（Normal）或30秒（Optimal）分段返回。",
+      "internal_links": [
+        {
+          "text": "用LessonScriptor在Chrome中显示实时字幕",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Chrome实时字幕 vs LessonScriptor：完整功能对比表",
+      "body": "下表列出了Chrome自带实时字幕与LessonScriptor之间所有有意义的差异。",
+      "table": {
+        "headers": [
+          "对比项",
+          "Chrome实时字幕",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "是否需要安装",
+            "否（Chrome自带）",
+            "是（Chrome网上应用店）"
+          ],
+          [
+            "是否需要账号",
+            "否",
+            "免费模式不需要（AI模式通过邮件获取许可证密钥）"
+          ],
+          [
+            "文字稿可编辑",
+            "否",
+            "是"
+          ],
+          [
+            "导出",
+            "否",
+            "是：.txt、.md、剪贴板"
+          ],
+          [
+            "高亮和标注",
+            "否",
+            "是：5种颜色、加粗、标题、列表、截图"
+          ],
+          [
+            "会话历史",
+            "否",
+            "是，本地保存"
+          ],
+          [
+            "戴耳机能否使用",
+            "能（转写Chrome自身的音频，不是麦克风）",
+            "AI模式能（标签页音频），免费模式不能（麦克风）"
+          ],
+          [
+            "语言",
+            "19",
+            "14"
+          ],
+          [
+            "准确率（日常语音）",
+            "良好",
+            "良好（免费）/ 优秀（AI）"
+          ],
+          [
+            "准确率（专业术语、口音）",
+            "一般",
+            "高（AI模式）"
+          ],
+          [
+            "B站、中国大学MOOC、Zoom录像",
+            "支持",
+            "支持"
+          ],
+          [
+            "中国大陆访问",
+            "语音文件下载可能失败",
+            "安装和免费模式可能受限"
+          ],
+          [
+            "价格",
+            "免费",
+            "免费 + AI小时包5美元起（不订阅）"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "accuracy-comparison",
+      "h2": "Chrome实时字幕和LessonScriptor哪个更准确？",
+      "body": "对于吐字清晰的日常语音，比如新闻或播客，Chrome实时字幕和LessonScriptor免费模式的准确率相近。免费模式还取决于麦克风收到的声音质量：音量太小或环境嘈杂都会影响效果。\n\n在大学课程中，LessonScriptor AI模式的优势会明显拉开。它使用的Whisper级别模型经过海量多语言语音训练，处理口音、方言腔调、专业术语和背景噪音的能力，都强于为普通电脑优化的Chrome本地模型。\n\n实际体验是：讲得清楚的普通讲座，Chrome和免费模式差不多；而有机化学、法学或人类学这类充满人名和术语的课程，AI模式的错误要少得多。Optimal模式（30秒分段）最准确，但显示延迟稍长。"
+    },
+    {
+      "id": "when-to-use-chrome-captions",
+      "h2": "什么时候该用Chrome实时字幕，而不是LessonScriptor？",
+      "body": "以下三种情况，Chrome实时字幕是更好的选择。\n\n**临时、用完即弃的字幕：**在图书馆、地铁上或通话时，它能立即提供字幕，无需安装插件或打开侧边栏。\n\n**LessonScriptor未覆盖的语言：**Chrome支持19种语言，其中包括日语、韩语、意大利语、荷兰语、波兰语和土耳其语。上小语种课程前，请先确认LessonScriptor的14种语言是否包含该语言。\n\n**无法安装扩展的电脑：**部分学校机房或公司电脑禁止安装浏览器扩展，此时Chrome自带功能是唯一选择。"
+    },
+    {
+      "id": "when-to-use-lessonscriptor",
+      "h2": "什么时候该用LessonScriptor，而不是Chrome实时字幕？",
+      "body": "只要你想保存、复习或引用课堂内容，LessonScriptor就是更好的选择。\n\n**复习备考：**看完录播课或学校平台上的视频后，Chrome字幕什么也不会留下。LessonScriptor会生成带标注的文字稿，并保存在历史记录里。对于有注意力缺陷多动障碍（ADHD）、边听边记很吃力的同学尤其有用。\n\n**戴耳机且要保存文字：**Chrome字幕戴耳机也能用，但会消失。LessonScriptor的AI模式采集标签页音频，任何耳机都能用，还会保留文字。免费模式则通过麦克风收音，需要外放。\n\n**专业内容：**AI模式在学科术语、作者姓名和缩写上更准确。\n\n**同时转写多个视频：**AI模式下每个标签页相互独立。\n\n**学外语：**高亮生词、导出词汇表；如有需要，也可以把文字稿粘贴到ChatGPT、Kimi或NotebookLM中自行总结。",
+      "internal_links": [
+        {
+          "text": "Chrome实时字幕与耳机",
+          "url": "/blog/chrome-live-captions-headphones"
+        },
+        {
+          "text": "ADHD学生如何记笔记",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "在Chrome中使用其他语言的实时字幕",
+          "url": "/blog/live-captions-other-languages-chrome"
+        }
+      ]
+    },
+    {
+      "id": "can-use-both",
+      "h2": "Chrome实时字幕和LessonScriptor可以同时使用吗？",
+      "body": "可以，但通常没必要。两者转写的是同一段音频，你会得到两份相同的文字，而且打开LessonScriptor侧边栏时，Chrome的字幕气泡反而会挡住画面。\n\n更实用的做法是按场景选择：临时看字幕用Chrome自带功能，需要保存文字稿时用LessonScriptor。在中国大陆，如果两者都无法正常使用，可以考虑飞书妙记、讯飞听见或腾讯会议自带的实时字幕，用于会议或录音文件转写。",
+      "internal_links": [
+        {
+          "text": "最佳Chrome实时字幕插件推荐",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "免费试用LessonScriptor，无需注册",
+    "body": "一键安装LessonScriptor，为Chrome中的任何视频生成可编辑、可导出的实时字幕。免费模式装好即用。",
+    "button_label": "免费将LessonScriptor添加到Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "Chrome实时字幕和LessonScriptor有什么区别？",
+        "answer": "Chrome实时字幕是只读的：气泡里显示两行文字，随后消失。LessonScriptor会在侧边栏生成持久保存的文字稿，可以高亮、整理，并导出为.txt或.md。"
+      },
+      {
+        "question": "LessonScriptor比Chrome自带字幕好用吗？",
+        "answer": "如果要保存和复习课程内容，是的：LessonScriptor增加了编辑、导出、标注功能，AI模式的准确率也更高。如果只是临时看字幕、不想安装任何东西，Chrome自带功能更简单。"
+      },
+      {
+        "question": "LessonScriptor和Chrome字幕一样免费吗？",
+        "answer": "是的，LessonScriptor免费模式无需账号，也无需付费。它通过麦克风收音，所以需要外放且音量足够，不能戴耳机。AI模式免费试用30分钟后，按一次性小时包付费，不订阅：5小时 = 5美元，15小时 = 12美元，30小时 = 21美元（Stripe会显示人民币等本地货币的估算金额）。"
+      },
+      {
+        "question": "Chrome实时字幕怎么开启？",
+        "answer": "点击Chrome右上角的“更多”（三个点）> 设置 > 无障碍功能，开启“实时字幕”。也可以直接打开chrome://settings/accessibility，然后选择字幕语言，例如中文。"
+      },
+      {
+        "question": "在中国大陆能用Chrome实时字幕和LessonScriptor吗？",
+        "answer": "可能受限。Chrome实时字幕首次开启时需要从Google下载语音文件；LessonScriptor需要从Chrome网上应用店安装，免费模式依赖浏览器的语音识别服务。在中国大陆网络环境下，这些Google服务通常无法直接访问。只需会议或录音转写时，可考虑飞书妙记、讯飞听见或腾讯会议的实时字幕。"
+      },
+      {
+        "question": "LessonScriptor能取代Chrome实时字幕吗？",
+        "answer": "对于视频和网课，可以：LessonScriptor适用于Chrome标签页中播放的任何内容，并生成可复用的文字。但在临时无障碍字幕场景，或禁止安装扩展的电脑上，它无法取代Chrome自带功能。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome实时字幕 vs LessonScriptor：该用哪个？",
+    "body": "Chrome实时字幕适合即时查看、无需保存的字幕。如果你需要一份可以编辑、标注和导出的文字稿，尤其是在中国大学MOOC、学堂在线、B站、YouTube或Zoom录像上学习时，LessonScriptor是更合适的工具。两者都有免费选项：区别不在价格，而在于视频结束后你能拿这些文字做什么。如果你曾经想过“要是能把刚才的字幕存下来就好了”，LessonScriptor正是为此而做。"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome实时字幕 vs LessonScriptor：全面对比",
+      "description": "Chrome实时字幕和LessonScriptor有什么区别？本文从准确率、能否编辑和导出、戴耳机能否使用、支持语言和价格等方面逐项对比，告诉你上网课、看录播课、复习备考时该用哪一个，并说明在中国大陆网络环境下使用Chrome网上应用店和Google服务时可能遇到的访问限制，以及免费模式与AI模式各自的使用条件。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/chrome-zishimu-vs-lessonscriptor",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "人类学学生，ADHD",
+          "url": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发者与SEO",
+          "url": "https://lessonscriptor.com/zh"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Chrome实时字幕和LessonScriptor有什么区别？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chrome实时字幕是只读的：气泡里显示两行文字，随后消失。LessonScriptor会在侧边栏生成持久保存的文字稿，可以高亮、整理，并导出为.txt或.md。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor比Chrome自带字幕好用吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "如果要保存和复习课程内容，是的：LessonScriptor增加了编辑、导出、标注功能，AI模式的准确率也更高。如果只是临时看字幕、不想安装任何东西，Chrome自带功能更简单。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor和Chrome字幕一样免费吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "是的，LessonScriptor免费模式无需账号，也无需付费。它通过麦克风收音，所以需要外放且音量足够，不能戴耳机。AI模式免费试用30分钟后，按一次性小时包付费，不订阅：5小时 = 5美元，15小时 = 12美元，30小时 = 21美元（Stripe会显示人民币等本地货币的估算金额）。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome实时字幕怎么开启？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "点击Chrome右上角的“更多”（三个点）> 设置 > 无障碍功能，开启“实时字幕”。也可以直接打开chrome://settings/accessibility，然后选择字幕语言，例如中文。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在中国大陆能用Chrome实时字幕和LessonScriptor吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可能受限。Chrome实时字幕首次开启时需要从Google下载语音文件；LessonScriptor需要从Chrome网上应用店安装，免费模式依赖浏览器的语音识别服务。在中国大陆网络环境下，这些Google服务通常无法直接访问。只需会议或录音转写时，可考虑飞书妙记、讯飞听见或腾讯会议的实时字幕。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor能取代Chrome实时字幕吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "对于视频和网课，可以：LessonScriptor适用于Chrome标签页中播放的任何内容，并生成可复用的文字。但在临时无障碍字幕场景，或禁止安装扩展的电脑上，它无法取代Chrome自带功能。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "博客",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome实时字幕 vs LessonScriptor：哪个更适合上网课？",
+          "item": "https://lessonscriptor.com/zh/blog/chrome-zishimu-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome帮助：实时字幕",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=zh-Hans",
+      "external": true
+    },
+    {
+      "text": "OpenAI：Whisper",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/live-captions-other-languages-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

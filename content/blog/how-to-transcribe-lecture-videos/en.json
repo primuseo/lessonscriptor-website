@@ -2,99 +2,276 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "How to Transcribe Lecture Videos Automatically",
-  "reading_time_min": 7,
+  "h1": "How to Transcribe a Lecture Video: 5 Methods Compared",
+  "reading_time_min": 11,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "How to Transcribe a Lecture Video: 5 Methods Compared",
+    "description": "How to transcribe a video lecture on Panopto, Canvas, Moodle, YouTube or Zoom: manual, auto-captions, upload tools and live Chrome transcription compared.",
     "keywords": [
+      "how to transcribe a video",
+      "lecture transcription",
+      "video lecture transcription",
       "transcribe lecture video",
-      "automatic lecture transcription",
+      "best way to record lectures for students",
       "lecture to text"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology online and has ADHD. Pierre handles development and SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "The fastest way to transcribe a lecture video automatically is to use LessonScriptor — a free Chrome extension that transcribes any video in real-time as it plays, directly inside your browser. No upload, no waiting, no subscription.",
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "Lecture transcription is the process of turning the spoken audio of a class into searchable text. The right method depends on one question: do you have the video file, or only a stream you can watch?",
+    "bullets": [
+      "**Manual transcription** takes roughly 4 hours of typing per hour of audio. It's only worth it for a short quote you need word for word.",
+      "**YouTube auto-captions** and **LMS captions** (Panopto, Canvas Studio, Kaltura on Moodle) are free when your university or the uploader has switched them on. You read them in the player, and export options vary.",
+      "**Upload tools** like Otter.ai and TurboScribe are accurate, but they need an audio or video file. Most university streams can't be downloaded.",
+      "**Live in-browser transcription** (LessonScriptor) turns whatever is playing in a Chrome tab into an editable transcript. It needs no file, no download and no recording.",
+      "Recording a lecture usually needs the instructor's permission. A disability accommodation (ADA/Section 504 in the US) can formally grant you transcripts or recordings."
+    ]
+  },
+  "intro": "The fastest way to transcribe a lecture video is to play it in Chrome with a live transcription extension such as LessonScriptor, which turns the audio into an editable text transcript while the video plays, with no file to upload and no download. That matters because most lecture videos live on Panopto, Canvas, Moodle or Zoom, where the download button is usually disabled. Upload-based tools like Otter.ai and TurboScribe can't work without a file. This guide compares the five realistic ways to transcribe a video lecture: manual typing, YouTube auto-captions, built-in LMS captions, upload tools and live in-browser transcription. It then walks through each platform step by step, with tips for accuracy and a note on recording etiquette.",
   "sections": [
     {
-      "h2": "Why manual note-taking during lectures fails",
-      "body": "Writing by hand during a lecture forces you to split your attention between listening, understanding, and writing — often all at the same time. Research consistently shows that students who transcribe lectures word-for-word retain less of the content than those who actively engage with it. The problem isn't discipline. It's the tool. When you're busy writing, you're not learning."
+      "id": "what-is-lecture-transcription",
+      "h2": "What is lecture transcription?",
+      "body": "Lecture transcription is the conversion of a class's spoken content into written text, either as a verbatim transcript or as a cleaned-up version you study from. For students it does three jobs at once. It frees your attention from note-taking during the lecture, it makes a 90-minute recording searchable in seconds, and it gives you raw material for summaries, flashcards or a Cornell template.\n\nWhen people search \"how to transcribe a video\", they usually mean one of two situations. Either they **have the file** (an MP4 from a phone, a downloaded Zoom recording, a podcast), or they **only have a stream** (a Panopto lecture, a Canvas Studio video, a MOOC). The first is easy and many tools handle it. The second is where most students get stuck, because the platform won't let them download anything."
     },
     {
-      "h2": "How AI transcription works in a browser",
-      "body": "LessonScriptor uses two transcription engines. The free mode uses the Web Speech API, which is built into Chrome and processes audio locally on your device — nothing ever leaves your computer. The premium mode captures the audio directly from the browser tab and sends it to a cloud AI model for transcription, returning highly accurate text within seconds."
+      "id": "methods-compared",
+      "h2": "What are the ways to transcribe a lecture video?",
+      "body": "There are five practical methods. They differ mainly in whether they need a file and in what you end up with: a caption track you can only read in the player, or a document you can edit and export.",
+      "table": {
+        "headers": ["Method", "Needs a downloadable file?", "Cost", "What you get", "Best for"],
+        "rows": [
+          ["Manual typing", "No", "Free, about 4h per audio hour", "Exact text, very slow", "Short quotes"],
+          ["YouTube auto-captions", "No, but the video must be on YouTube", "Free", "Transcript panel in YouTube, copy-paste", "Public lectures, MIT OpenCourseWare, Khan Academy"],
+          ["LMS captions (Panopto, Canvas Studio, Kaltura)", "No", "Free if your university enabled them", "Captions in the player, sometimes searchable", "Checking a term in your own course videos"],
+          ["Upload tools (Otter.ai, TurboScribe)", "Yes", "Free tiers, then subscription", "Full transcript after processing", "Phone recordings, downloaded MP4s"],
+          ["Live in-browser (LessonScriptor)", "No", "Free mode, AI mode from $5 one-time", "Editable transcript with highlights and screenshots, .txt/.md export", "Streams you can't download, live classes"]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "The deciding question",
+        "body": "If you can download the video, an upload tool works well. If you can only press play, you need either the platform's own captions or a tool that transcribes what plays in the tab."
+      }
     },
     {
-      "h2": "Step-by-step: how to transcribe a lecture video with LessonScriptor",
+      "id": "manual",
+      "h2": "Is it worth transcribing a lecture manually?",
+      "body": "Manual transcription is rarely worth it for a full lecture. Professional transcribers reckon on about four hours of work per hour of clear audio, and students without a foot pedal or shortcuts are slower. A 90-minute lecture can eat an entire day.\n\nManual typing still has a place for a single definition, a quote for an essay, or a passage where the speaker's exact words matter. Slow the playback to 0.75x in the player settings, type in short bursts, and pause after each sentence."
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "How do I get a transcript from YouTube auto-captions?",
+      "body": "YouTube auto-captions are free speech-to-text captions that YouTube generates for most videos in supported languages. They're the easiest option for public lectures from MIT OpenCourseWare, Stanford Online, Crash Course or Khan Academy. Their limits are that the uploader can turn them off, they lack punctuation in some languages, and they mangle technical terms and names.",
       "steps": [
-        "Install LessonScriptor from the Chrome Web Store — it's free, no sign-up required.",
-        "Open your lecture video in Chrome (YouTube, Coursera, Zoom recording, university portal, or any video platform).",
-        "Click the LessonScriptor icon in your Chrome toolbar to open the side panel.",
-        "Hit play on the video — transcription starts automatically and text appears in real-time.",
-        "Edit as you watch: click to add your own notes, highlight key concepts in color, bold terminology, delete tangents.",
-        "Click any timestamp in the transcript to jump back to that exact moment in the video.",
-        "When done, export to Markdown to get a formatted document with all your highlights and formatting."
+        "Open the video on youtube.com in a desktop browser.",
+        "Click **...more** under the video title to expand the description.",
+        "Scroll down and click **Show transcript**. A panel opens with the timestamped text.",
+        "Use the three-dot menu in the panel to toggle timestamps off, then select and copy the text into your notes."
+      ],
+      "internal_links": [
+        { "text": "Full guide: how to download a YouTube transcript", "url": "/blog/how-to-download-youtube-transcript" }
       ]
     },
     {
-      "h2": "Free mode vs Premium mode — which to use for lectures",
-      "body": "For most students, free mode is enough. It works well in a quiet environment with speakers on. If you prefer headphones, or if you're transcribing content with heavy technical vocabulary, accents, or fast speech, Premium mode gives significantly better accuracy at about €1 per hour. This is also the mode to use for a live Zoom or Google Meet class, not just a recording.",
-      "internal_links": [
+      "id": "lms-captions",
+      "h2": "Do Panopto, Canvas and Moodle have built-in lecture transcription?",
+      "body": "Panopto, Canvas Studio and Kaltura (often embedded in Moodle and Blackboard) can all generate automatic captions. Whether you see them depends on your university's settings and on whether the instructor published them. When they exist, they're the cheapest form of video lecture transcription. They're usually locked inside the player, though, so you can read and sometimes search them but rarely export a clean document.",
+      "subsections": [
         {
-          "text": "How to transcribe a Zoom meeting for free",
-          "url": "/blog/zoom-meeting-transcription-free"
+          "h3": "Panopto",
+          "body": "Look for the **CC** button in the player controls. If captions are available, the side area of the Panopto viewer often lets you search the spoken words and jump to that point. If the CC button is missing, the instructor hasn't published captions. You can politely ask them to, especially if you have an accommodation."
+        },
+        {
+          "h3": "Canvas (Canvas Studio)",
+          "body": "Videos in Canvas Studio show a **CC** control when captions exist. Instructors can request automatic captions and publish them, so an absent button usually means they haven't. Videos that come from YouTube or Panopto embedded in a Canvas page follow the rules of the original platform."
+        },
+        {
+          "h3": "Moodle",
+          "body": "Moodle doesn't caption videos by itself. The player inside your course is usually Kaltura, Panopto, YouTube or a plain HTML5 video, and captions come from that service. Check the player's CC control. If there's nothing, a live transcription tool is the realistic fallback."
         }
       ]
     },
     {
-      "h2": "How to study from your transcript",
-      "body": "Once transcribed, treat your LessonScriptor document like a study guide. Highlight the most important concepts in yellow. Bold key terminology. Add your own interpretation in brackets as you review. Export to Markdown and import into Notion or Obsidian for long-term storage. Search the full text before exams. If you're neurodivergent, automatic transcription removes the cognitive load of simultaneous note-taking — see <a href=\"/blog/neurodivergent-study-tools\">the best study tools for neurodivergent students</a>.",
+      "id": "upload-tools",
+      "h2": "Which tools transcribe a lecture recording file?",
+      "body": "Upload tools are transcription services that process an audio or video file you give them. Otter.ai, TurboScribe, Notta and Descript all work this way. They produce good transcripts, often with speaker labels, and they're the right answer when you already hold the file: a voice memo recorded in an in-person lecture, a Zoom recording the host shared as an MP4, or a podcast episode.\n\nTheir limit for students is the input. Panopto, Canvas Studio and most Moodle players stream video without a download option, so there's nothing to upload. Screen-recording the stream to create a file is slow, doubles the time spent, and may break your university's terms of use.",
       "internal_links": [
+        { "text": "Otter.ai alternatives for students", "url": "/blog/otter-ai-alternative-for-students" }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "How do I transcribe a video lecture without downloading it?",
+      "body": "Live in-browser transcription is the method that works when you can only press play. LessonScriptor is a Chrome extension that transcribes the audio of whatever plays in the current tab (Panopto, Canvas, Moodle, Blackboard, YouTube, Coursera, a Zoom recording in the browser) into a side-panel transcript you can edit while it builds. It doesn't upload files and doesn't record audio. It saves the text, not a recording.\n\nIt has two modes. **Free mode** uses Chrome's built-in speech recognition through your microphone. It costs nothing, needs no account and sends no audio to LessonScriptor's servers, but it needs the speakers on at around 80% volume, it won't work with headphones, and it also picks up your own voice. **AI mode** captures the tab audio directly, so it works with headphones and is far more accurate on accents and jargon. It costs $5 for 5 hours, $12 for 15 hours or $21 for 30 hours, one-time, with a 30-minute free trial. Prices are in USD and Stripe converts them to your currency.",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store. Free mode needs no sign-up.",
+        "Open your lecture in Chrome: Panopto, Canvas, Moodle, YouTube or a Zoom cloud recording.",
+        "Click the LessonScriptor icon to open the side panel and pick the lecture's language (14 are supported).",
+        "Press play. In free mode, turn the speakers up and remove headphones. In AI mode, text arrives in chunks every 10 seconds (Normal) or 30 seconds (Optimal).",
+        "Edit as you watch: highlight key lines in one of five colors, bold terms, add headers, delete tangents, and capture a screenshot of an important slide.",
+        "Export as .md or .txt, or copy to the clipboard into Notion, Obsidian, Google Docs or a Cornell template."
+      ],
+      "internal_links": [
+        { "text": "Lecture transcription in Chrome, explained", "url": "/lecture-transcription" },
+        { "text": "Transcribe any video to text free", "url": "/transcribe-video-to-text" }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "How do I transcribe a lecture on each platform?",
+      "body": "Here is the shortest route for the five platforms students use most, combining the native option with the live fallback.",
+      "subsections": [
         {
-          "text": "Transcribe video to text free",
-          "url": "/transcribe-video-to-text"
+          "h3": "Panopto",
+          "body": "First try the **CC** button. If captions exist and you only need to check a passage, that's enough. For a full editable transcript, open the Panopto session in Chrome, open LessonScriptor and press play. Panopto's speed control (1.25x-1.5x) works fine in AI mode, though accuracy is best at normal speed."
         },
         {
-          "text": "How to take notes with ADHD",
-          "url": "/blog/how-to-take-notes-with-adhd"
+          "h3": "Canvas",
+          "body": "Open the module page and start the video. If it's a Canvas Studio video with captions, read them via **CC**. Otherwise run LessonScriptor in that tab. Embedded YouTube or Panopto videos transcribe the same way."
         },
         {
-          "text": "How to download a YouTube transcript",
-          "url": "/blog/how-to-download-youtube-transcript"
+          "h3": "Moodle",
+          "body": "Moodle courses mix Kaltura, Panopto and plain video. Check the player for captions, then fall back to LessonScriptor in the same tab. It doesn't need to know which player is underneath."
         },
         {
-          "text": "Best study tools for neurodivergent students",
-          "url": "/blog/neurodivergent-study-tools"
+          "h3": "YouTube",
+          "body": "Use **...more → Show transcript** for a quick copy. Use LessonScriptor when captions are disabled or poor, or when you want highlights and screenshots in the transcript as you watch."
+        },
+        {
+          "h3": "Zoom recording",
+          "body": "If the host saved a cloud recording with audio transcripts enabled, the Zoom web player shows a transcript next to the video. If not, play the cloud recording in Chrome and use LessonScriptor. If you only have a local MP4 file, an upload tool such as Otter.ai or TurboScribe is the more direct route."
         }
+      ],
+      "internal_links": [
+        { "text": "Zoom and Google Meet transcripts for students", "url": "/blog/zoom-google-meet-transcript-for-students" }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "How do I get a more accurate lecture transcript?",
+      "body": "Transcript accuracy depends more on the audio than on the tool. These habits make the biggest difference.",
+      "steps": [
+        { "strategy": "Pick the right language first.", "detail": "A French lecture transcribed with English selected produces nonsense. Set the language before you press play." },
+        { "strategy": "Use AI mode for accents, jargon and noise.", "detail": "Browser speech recognition struggles with organic chemistry, legal Latin or a lecturer with a strong accent. Whisper-class cloud models handle them much better." },
+        { "strategy": "In free mode, give the mic clean sound.", "detail": "Speakers at 80% or more, no headphones, a quiet room, and stay silent, because your own voice gets transcribed too." },
+        { "strategy": "Keep playback near 1x.", "detail": "Speech above 1.5x drops words. Watch at normal speed and skim the transcript instead." },
+        { "strategy": "Fix key terms once.", "detail": "Correct a misheard name or formula the first time it appears and bold it, so it's easy to find later." }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "What is the best way to record lectures for students?",
+      "body": "The best way to record a lecture depends on whether it's in person or online. In a lecture hall, a phone voice recorder (Voice Memos on iPhone, Recorder on Android or Pixel) placed near the front, or Notability's audio-synced notes on an iPad, captures the audio. You then transcribe the file with an upload tool. For online or recorded lectures, you usually don't need to record at all, since the university already keeps the video. Live transcription in the browser gives you the text without creating a recording."
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "Is it legal to record or transcribe a lecture?",
+      "body": "Recording a lecture usually requires the instructor's permission, and many universities set this out in their policies. Lectures can be the instructor's intellectual property, and classmates' voices may be captured too. The polite and safe default is to ask the instructor at the start of term, keep recordings and transcripts for your own study, and never share them publicly.\n\nStudents with a disability, including ADHD, dyslexia or hearing loss, often have a formal right to recordings, captions or note-taking support. In the US this falls under the ADA and Section 504 of the Rehabilitation Act, arranged through your campus disability services office. Rules vary by country and institution, so check your university's policy. This isn't legal advice.",
+      "internal_links": [
+        { "text": "ADHD university accommodations and the tech that helps", "url": "/blog/adhd-university-accommodation-tech" }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "How do I study from a lecture transcript?",
+      "body": "A transcript is raw material, not notes. Skim it once and highlight the three to five claims the lecturer repeated. Bold every term that will show up in an exam, and add a header at each topic shift. Then paste the exported .md file into Notion or Obsidian, or ask ChatGPT or NotebookLM to summarize it. That last step happens outside LessonScriptor, which doesn't generate summaries itself. Use the full text to quiz yourself before exams.",
+      "internal_links": [
+        { "text": "The best AI note taker for lectures", "url": "/blog/ai-note-taker-for-lectures" },
+        { "text": "How to take notes with ADHD", "url": "/blog/how-to-take-notes-with-adhd" }
       ]
     }
   ],
+  "summary": {
+    "heading": "The short answer",
+    "body": "If you have the file, use an upload tool. If the lecture is on YouTube or your LMS has captions, read those. If you can only press play on Panopto, Canvas, Moodle or a Zoom recording, LessonScriptor transcribes what plays in the Chrome tab into an editable transcript, free in microphone mode or from $5 one-time in AI mode.",
+    "internal_links": [
+      { "text": "See how lecture transcription works", "url": "/lecture-transcription" }
+    ]
+  },
   "faq": {
-    "heading": "FAQ",
+    "heading": "Frequently asked questions",
     "questions": [
       {
-        "question": "Can I automatically transcribe a Zoom lecture recording?",
-        "answer": "Yes. Open the Zoom recording in Chrome and use LessonScriptor to transcribe it. It works on any video that plays in Chrome, including Zoom, Google Meet, Teams, and university video portals."
+        "question": "How do I transcribe a video for free?",
+        "answer": "To transcribe a video for free, use YouTube's Show transcript panel if the video is on YouTube, the platform's CC captions if your university enabled them, or LessonScriptor's free mode, which transcribes any video playing in Chrome through your microphone with no account."
       },
       {
-        "question": "Does automatic lecture transcription work in French or Spanish?",
-        "answer": "Yes. LessonScriptor supports 14+ languages. Select your language in settings and the transcription will appear in that language."
+        "question": "Can I transcribe a Panopto or Canvas lecture without downloading it?",
+        "answer": "Yes. LessonScriptor transcribes what plays in the Chrome tab, so you don't need a file. Panopto and Canvas Studio may also show built-in captions via the CC button if your instructor published them."
       },
       {
-        "question": "Is it cheating to use a transcription tool for lectures?",
-        "answer": "No. Transcription tools are academic aids, similar to recording devices. They capture what was said — the learning and analysis is still yours. Many universities explicitly permit and encourage accessibility tools for students."
+        "question": "Does LessonScriptor record the lecture audio?",
+        "answer": "No. LessonScriptor saves a text transcript, not an audio or video recording, and it can't take uploaded MP3 or MP4 files. It only transcribes what is playing in the tab."
       },
       {
-        "question": "What's the best transcription tool for students?",
-        "answer": "LessonScriptor is the best transcription tool for students because it works directly in Chrome on any video platform, offers a free mode with no limits, and allows live editing while watching — unlike most tools that only produce a static transcript after the fact."
+        "question": "Can I transcribe a Zoom lecture recording?",
+        "answer": "Yes. Play the Zoom cloud recording in Chrome and use LessonScriptor, or use Zoom's own audio transcript if the host enabled it. For a local MP4 file, an upload tool like Otter.ai or TurboScribe is more direct."
+      },
+      {
+        "question": "Does lecture transcription work in other languages?",
+        "answer": "Yes. LessonScriptor supports 14 languages, including French, Spanish, Portuguese, German, Chinese, Arabic and Hindi. Select the lecture's language before pressing play."
+      },
+      {
+        "question": "Do I need permission to record a lecture?",
+        "answer": "Usually yes. Ask the instructor and check your university's policy. Students with a disability can often request recordings or transcripts as an accommodation, under the ADA and Section 504 in the US."
       }
     ]
   },
-  "schemas": []
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How to Transcribe a Lecture Video: 5 Methods Compared",
+      "description": "How to transcribe a video lecture on Panopto, Canvas, Moodle, YouTube or Zoom: manual, auto-captions, upload tools and live Chrome transcription compared.",
+      "inLanguage": "en",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/en/blog/how-to-transcribe-lecture-videos",
+      "author": [
+        { "@type": "Person", "name": "Victoria", "description": "Anthropology student with ADHD", "url": "https://lessonscriptor.com/en" },
+        { "@type": "Person", "name": "Pierre Girardot", "description": "Developer & SEO", "url": "https://lessonscriptor.com/en" }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to transcribe a lecture video without downloading it",
+      "inLanguage": "en",
+      "tool": [{ "@type": "HowToTool", "name": "Google Chrome" }, { "@type": "HowToTool", "name": "LessonScriptor Chrome extension" }],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Install the extension", "text": "Install LessonScriptor from the Chrome Web Store. Free mode needs no sign-up." },
+        { "@type": "HowToStep", "position": 2, "name": "Open the lecture", "text": "Open your lecture in Chrome: Panopto, Canvas, Moodle, YouTube or a Zoom cloud recording." },
+        { "@type": "HowToStep", "position": 3, "name": "Open the side panel", "text": "Click the LessonScriptor icon to open the side panel and pick the lecture's language." },
+        { "@type": "HowToStep", "position": 4, "name": "Press play", "text": "Press play. In free mode, turn the speakers up and remove headphones. In AI mode, text arrives in 10- or 30-second chunks." },
+        { "@type": "HowToStep", "position": 5, "name": "Edit while you watch", "text": "Highlight key lines, bold terms, add headers and capture screenshots of important slides." },
+        { "@type": "HowToStep", "position": 6, "name": "Export", "text": "Export as .md or .txt, or copy the transcript to the clipboard." }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How do I transcribe a video for free?", "acceptedAnswer": { "@type": "Answer", "text": "To transcribe a video for free, use YouTube's Show transcript panel if the video is on YouTube, the platform's CC captions if your university enabled them, or LessonScriptor's free mode, which transcribes any video playing in Chrome through your microphone with no account." } },
+        { "@type": "Question", "name": "Can I transcribe a Panopto or Canvas lecture without downloading it?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor transcribes what plays in the Chrome tab, so you don't need a file. Panopto and Canvas Studio may also show built-in captions via the CC button if your instructor published them." } },
+        { "@type": "Question", "name": "Does LessonScriptor record the lecture audio?", "acceptedAnswer": { "@type": "Answer", "text": "No. LessonScriptor saves a text transcript, not an audio or video recording, and it can't take uploaded MP3 or MP4 files. It only transcribes what is playing in the tab." } },
+        { "@type": "Question", "name": "Can I transcribe a Zoom lecture recording?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Play the Zoom cloud recording in Chrome and use LessonScriptor, or use Zoom's own audio transcript if the host enabled it. For a local MP4 file, an upload tool like Otter.ai or TurboScribe is more direct." } },
+        { "@type": "Question", "name": "Does lecture transcription work in other languages?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor supports 14 languages, including French, Spanish, Portuguese, German, Chinese, Arabic and Hindi. Select the lecture's language before pressing play." } },
+        { "@type": "Question", "name": "Do I need permission to record a lecture?", "acceptedAnswer": { "@type": "Answer", "text": "Usually yes. Ask the instructor and check your university's policy. Students with a disability can often request recordings or transcripts as an accommodation, under the ADA and Section 504 in the US." } }
+      ]
+    }
+  ]
 }

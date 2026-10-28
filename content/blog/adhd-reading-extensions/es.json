@@ -1,0 +1,492 @@
+{
+  "slug": "adhd-reading-extensions",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Las 8 mejores extensiones de Chrome para leer con TDAH en 2026",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Extensiones de lectura para TDAH en Chrome (2026)",
+    "description": "Las mejores extensiones de lectura para TDAH en Chrome: modo lectura, Helperbird, BeeLine, Read&Write y Speechify. Opciones gratis y lo que dice la evidencia.",
+    "keywords": [
+      "extensión de lectura para TDAH",
+      "extensión chrome TDAH",
+      "leer con TDAH",
+      "lector TDAH extensión",
+      "texto a voz TDAH"
+    ]
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Lo esencial",
+    "lead": "La mejor extensión de lectura para TDAH es la que elimina tu fricción concreta: una página saturada, perder la línea o llegar al final del párrafo sin recordar nada. Empieza por el modo de lectura de Chrome, gratis y ya instalado.",
+    "bullets": [
+      "El modo de lectura de Chrome muestra el texto sin anuncios en el panel lateral, te deja cambiar fuente, espaciado y colores, y lee en voz alta con resaltado en el ordenador.",
+      "Helperbird es la caja de herramientas gratuita más completa: regla de lectura, enfoque de línea, fuentes para dislexia, filtros de color y texto a voz.",
+      "BeeLine Reader colorea cada línea con un degradado para que tu vista encuentre la siguiente.",
+      "El texto a voz (Speechify, NaturalReader, Read&Write) ayuda si te desconectas: escuchar mientras lees marca un ritmo.",
+      "Bionic Reading es popular, pero dos estudios no encontraron mejora de velocidad ni de comprensión.",
+      "Ninguna sirve para clases en vídeo. Para eso, una transcripción en directo como la de LessonScriptor hace el mismo trabajo con la voz."
+    ]
+  },
+  "intro": "Una extensión de lectura para TDAH es un complemento de Chrome que cambia cómo se ve o se escucha un texto para que mantenga tu atención más tiempo: quita lo que sobra, guía la vista por cada línea o lee la página en voz alta. Las mejores opciones en 2026 son el modo de lectura integrado de Chrome, Helperbird, BeeLine Reader, Read&Write de Texthelp, Speechify y NaturalReader, y casi todas tienen versión gratuita. Cada una resuelve un problema distinto, así que la elección depende de por qué te desconectas: por la página (anuncios, ventanas emergentes, diseño denso), por la vista (saltarte líneas, releer la misma frase) o por la atención (terminar el párrafo sin saber qué decía). Somos Victoria y Pierre: Victoria estudia antropología a distancia y tiene TDAH. Esta guía es la versión honesta de lo que encontramos, incluidos los límites de Bionic Reading según la investigación.",
+  "sections": [
+    {
+      "heading": "¿Qué es una extensión de lectura para TDAH y qué soluciona de verdad?",
+      "body": "Una extensión de lectura para TDAH es una herramienta del navegador que reduce el esfuerzo de mantenerse en el texto. No trata el TDAH; reduce la fricción que hace que un artículo largo o un PDF de 40 páginas parezca imposible de empezar o terminar.\n\nEstas herramientas se agrupan en cuatro tipos, y saber cuál necesitas evita instalar seis extensiones que nunca abrirás:\n\n**1. Vistas de lectura** (modo de lectura de Chrome, Just Read): eliminan anuncios, barras laterales, vídeos automáticos y ventanas emergentes. Con TDAH, cada elemento que se mueve compite por tu atención, así que quitarlos suele ser la mayor mejora.\n\n**2. Guías visuales** (BeeLine Reader, la regla de lectura y el enfoque de línea de Helperbird): ayudan a la vista a seguir las líneas. Sirven si pierdes el sitio tras una distracción.\n\n**3. Texto a voz** (Speechify, NaturalReader, Read&Write, la lectura en voz alta de Chrome): lee el texto, normalmente resaltando la palabra actual. Oír y ver las mismas palabras da dos anclas a tu atención.\n\n**4. Ajustes tipográficos** (Bionic Reading, fuentes para dislexia, espaciado): cambian el aspecto de las letras. Aquí los resultados son muy personales y, en el caso de Bionic Reading, la evidencia es débil."
+    },
+    {
+      "heading": "¿Qué extensión de lectura para TDAH deberías elegir?",
+      "body": "Esta tabla relaciona cada extensión con un problema de lectura. La nota TDAH es nuestra puntuación sobre 10: mide cuánta fricción elimina sin añadir configuración ni nuevas distracciones.",
+      "table": {
+        "headers": [
+          "Extensión",
+          "Tipo",
+          "Opción gratis",
+          "Nota TDAH",
+          "Ideal para"
+        ],
+        "rows": [
+          [
+            "Modo de lectura de Chrome",
+            "Vista de lectura + lectura en voz alta",
+            "Sí, integrado en Chrome",
+            "9/10",
+            "Artículos saturados, sin instalar nada"
+          ],
+          [
+            "Helperbird",
+            "Kit de accesibilidad",
+            "Sí, versión gratuita",
+            "8/10",
+            "Regla, enfoque de línea, fuentes, filtros"
+          ],
+          [
+            "BeeLine Reader",
+            "Guía de línea con degradado",
+            "Prueba gratis; planes de pago",
+            "8/10",
+            "Perder la línea, PDF largos"
+          ],
+          [
+            "Read&Write (Texthelp)",
+            "Suite de apoyo a la lectura",
+            "Gratis para docentes; a veces con licencia de la universidad",
+            "7/10",
+            "Estudiantes con licencia del campus"
+          ],
+          [
+            "Speechify",
+            "Texto a voz",
+            "Sí, voces estándar",
+            "7/10",
+            "Escuchar mientras lees"
+          ],
+          [
+            "NaturalReader",
+            "Texto a voz",
+            "Sí, voces gratis",
+            "7/10",
+            "Lectura en varios idiomas"
+          ],
+          [
+            "Just Read",
+            "Vista de lectura personalizable",
+            "Sí, funciones básicas",
+            "7/10",
+            "Páginas donde falla el modo de lectura"
+          ],
+          [
+            "Bionic Reading",
+            "Inicio de palabras en negrita",
+            "Sí, plan Discover",
+            "5/10",
+            "Solo preferencia personal"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "¿Cuáles son las mejores extensiones de Chrome para leer con TDAH?",
+      "body": "Estas ocho extensiones existen, se mantienen y están en Chrome Web Store en octubre de 2026. Los precios suelen estar en dólares estadounidenses (la conversión se hace al pagar) y cambian a menudo, así que solo citamos tarifas que el fabricante publica con claridad.",
+      "internal_links": [
+        {
+          "text": "Más extensiones de Chrome para estudiantes con TDAH",
+          "url": "/blog/best-chrome-extensions-adhd-students"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Modo de lectura de Chrome",
+      "tagline": "La vista de lectura integrada de Google, con lectura en voz alta en el ordenador",
+      "platform": "Chrome en Windows, Mac, Linux y ChromeOS",
+      "free_tier": "Gratis, ya instalado",
+      "price": "Gratis",
+      "best_for": "Cualquiera que quiera menos ruido visual hoy mismo",
+      "adhd_fit": 9,
+      "why_it_wins": "El modo de lectura de Chrome es lo primero que hay que probar: no cuesta nada y no requiere instalación. Haz clic derecho en un artículo y elige **Abrir en modo de lectura**: el texto aparece en el panel lateral sin anuncios, menús ni vídeos automáticos. Puedes cambiar fuente, tamaño, interlineado, espaciado entre letras y color de fondo. En Chrome para ordenador también lee el texto en voz alta, con elección de voz y velocidad y resaltado de palabras. Con TDAH, el panel lateral tiene una ventaja discreta: la página original sigue a la vista, pero el texto que lees queda aislado.",
+      "key_features": [
+        "Vista de lectura con un clic en el panel lateral",
+        "Ajustes de fuente, tamaño, interlineado, espaciado y colores",
+        "Lectura en voz alta con voz, velocidad y resaltado en el ordenador",
+        "Sin cuenta y sin extensiones que instalar"
+      ],
+      "limitations": "Funciona mejor en páginas tipo artículo; muchas páginas del Campus Virtual y muchos PDF no se convierten bien. No tiene regla de lectura."
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Helperbird",
+      "tagline": "Kit de accesibilidad para dislexia, TDAH y estrés visual",
+      "platform": "Chrome, Firefox, Edge; apps para Apple",
+      "free_tier": "Sí, versión gratuita permanente",
+      "price": "Gratis; Pro es una mejora de pago",
+      "best_for": "Regla, fuentes, filtros y texto a voz en un solo sitio",
+      "adhd_fit": 8,
+      "why_it_wins": "Helperbird reúne lo que normalmente requiere cuatro extensiones. La versión gratuita incluye fuentes para dislexia, espaciado y alineación, modo de lectura, filtros de color, regla de lectura y enfoque de línea, texto a voz básico y un lector de PDF. La regla y el enfoque de línea son lo mejor para el TDAH: oscurecen todo salvo la franja que estás leyendo, y un muro de texto se convierte en una tira manejable. Pro añade voces naturales, un lector de capturas que reconoce texto en imágenes y funciones de IA para resumir y simplificar.",
+      "key_features": [
+        "Regla de lectura y enfoque de línea",
+        "Fuentes para dislexia, espaciado y filtros de color",
+        "Modo de lectura y texto a voz básico gratis",
+        "Lector de PDF con anotaciones"
+      ],
+      "limitations": "Tantas opciones que configurarlo puede distraer; elige dos funciones y olvida el resto. Voces naturales y OCR solo en Pro."
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "BeeLine Reader",
+      "tagline": "Degradados de color que llevan la vista de una línea a la siguiente",
+      "platform": "Chrome, Firefox, Edge, Brave; Safari en iPhone y iPad; PDF",
+      "free_tier": "Funciones de prueba gratis; extensión de Safari para iOS gratuita",
+      "price": "Planes de pago de pocos dólares al mes",
+      "best_for": "Quien se salta o relee líneas",
+      "adhd_fit": 8,
+      "why_it_wins": "BeeLine Reader pinta cada línea con un degradado suave, de modo que el final de una línea enlaza con el principio de la siguiente. Resuelve un problema muy común con TDAH: apartas la vista, vuelves y caes en la línea equivocada. Con BeeLine, el color te dice dónde estabas. También funciona con PDF de texto, algo clave cuando casi toda la bibliografía de la asignatura llega en PDF.",
+      "key_features": [
+        "Guía de línea con degradado en páginas web",
+        "Compatible con PDF de texto",
+        "Temas de color ajustables, incluidos discretos y modo oscuro"
+      ],
+      "limitations": "No quita lo que sobra ni lee en voz alta; es de un solo uso. El uso completo es de pago."
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Read&Write para Google Chrome (Texthelp)",
+      "tagline": "La suite de apoyo a la lectura que algunas universidades ofrecen",
+      "platform": "Extensión de Chrome; Google Docs, páginas web y PDF",
+      "free_tier": "Premium gratis para docentes; estudiantes, normalmente con licencia institucional",
+      "price": "Pregunta primero en el servicio de atención a la discapacidad",
+      "best_for": "Estudiantes cuya universidad tiene licencia de Texthelp",
+      "adhd_fit": 7,
+      "why_it_wins": "Read&Write de Texthelp lee el texto con resaltado en dos colores, ofrece diccionarios de texto e imágenes, te deja reunir tus subrayados en una lista y añade máscaras de pantalla para reducir el ruido visual. Reunir subrayados es muy útil para repasar con TDAH: marcas las frases clave mientras lees y luego las tienes en una sola lista, en lugar de buscar en 40 páginas antes del examen. En España, pregunta en UNIDIS si estudias en la UNED, o en la unidad de atención a la diversidad de tu universidad; en México, consulta los servicios de apoyo de la UNAM.",
+      "key_features": [
+        "Texto a voz con resaltado en dos colores",
+        "Reúne subrayados en una lista",
+        "Máscaras y tintes de pantalla",
+        "Diccionarios, dictado por voz y predicción de palabras"
+      ],
+      "limitations": "Barra de herramientas recargada y pensada para colegios; las funciones completas suelen depender de una licencia institucional."
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Speechify",
+      "tagline": "Texto a voz popular para páginas web, Google Docs y PDF",
+      "platform": "Extensión de Chrome, web, iOS, Android, Mac",
+      "free_tier": "Sí, voces estándar y velocidad limitada",
+      "price": "Premium por suscripción",
+      "best_for": "Quien se concentra mejor escuchando y leyendo a la vez",
+      "adhd_fit": 7,
+      "why_it_wins": "Speechify lee en voz alta cualquier página web, Google Doc o PDF y resalta las palabras. Muchas personas con TDAH notan que escuchar marca un ritmo del que es más difícil desconectarse: la voz avanza, así que la vista avanza. La versión gratuita basta para artículos; Premium añade voces naturales y más velocidad. Prueba las voces en español con un texto real de tu asignatura antes de pagar.",
+      "key_features": [
+        "Lee páginas web, Google Docs y PDF",
+        "Resaltado de palabras sincronizado con la voz",
+        "Apps de móvil y ordenador para seguir escuchando"
+      ],
+      "limitations": "Voces gratis robóticas y velocidad limitada; Premium es de las suscripciones más caras de esta lista."
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "NaturalReader",
+      "tagline": "Texto a voz con una gran biblioteca de voces en muchos idiomas",
+      "platform": "Extensión de Chrome, app web",
+      "free_tier": "Sí, voces gratis",
+      "price": "Planes de pago para voces premium",
+      "best_for": "Estudiantes que leen en más de un idioma",
+      "adhd_fit": 7,
+      "why_it_wins": "NaturalReader lee páginas web, Google Docs, PDF y correos con más de 150 voces en más de 20 idiomas, incluido el español. Encaja bien si lees artículos científicos en inglés para el TFG: oír la pronunciación también ayuda a entender.",
+      "key_features": [
+        "Más de 150 voces en más de 20 idiomas",
+        "Páginas web, Google Docs, PDF y correo web",
+        "Voces gratuitas disponibles"
+      ],
+      "limitations": "Las mejores voces son de pago; la interfaz es funcional, no tranquila."
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "Just Read",
+      "tagline": "Una vista de lectura personalizable al estilo de Mercury Reader",
+      "platform": "Extensión de Chrome",
+      "free_tier": "Sí, la vista básica es gratis",
+      "price": "Base gratis; funciones premium opcionales",
+      "best_for": "Páginas donde el modo de lectura de Chrome falla",
+      "adhd_fit": 7,
+      "why_it_wins": "Just Read ocupa el hueco de las extensiones tipo Mercury Reader: un clic convierte un artículo en texto limpio, con tu propio tema. El modo selección te deja elegir qué parte de la página leer, y el modo borrado elimina lo que sobre. También puedes hacer que se active solo en los sitios que lees a menudo: una decisión menos.",
+      "key_features": [
+        "Vista de lectura con un clic, temas claro y oscuro",
+        "Modos selección y borrado para páginas desordenadas",
+        "Activación automática en sitios elegidos y atajo de teclado"
+      ],
+      "limitations": "Pensado para artículos, no para paneles de asignaturas ni PDF. Sin texto a voz."
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Bionic Reading",
+      "tagline": "Pone en negrita el inicio de cada palabra para guiar la vista",
+      "platform": "Extensión de Chrome y apps en otras plataformas",
+      "free_tier": "Sí, plan gratuito Discover",
+      "price": "Suscripciones Premium y Premium Plus",
+      "best_for": "Quien lo ha probado y simplemente prefiere leer así",
+      "adhd_fit": 5,
+      "why_it_wins": "Bionic Reading, de la empresa suiza del mismo nombre, pone en negrita las primeras letras de cada palabra para que la vista salte entre puntos de apoyo. Se hizo viral como truco para el TDAH y mucha gente dice que le resulta más cómodo. Los estudios controlados no encontraron mejora de velocidad ni de comprensión (lo vemos en la siguiente sección), por eso va al final: prueba la versión gratis, quédatela si te gusta y no esperes milagros.",
+      "key_features": [
+        "Convierte cualquier página web al formato Bionic Reading",
+        "Intensidad de negrita ajustable",
+        "Una suscripción cubre sus apps en varias plataformas"
+      ],
+      "limitations": "Ningún beneficio medido en estudios publicados; a algunas personas la negrita les distrae más."
+    },
+    {
+      "heading": "¿Funciona de verdad Bionic Reading para el TDAH?",
+      "body": "Bionic Reading no mejora la velocidad ni la comprensión, según las dos pruebas más grandes publicadas hasta ahora. En 2022, la app Readwise cronometró a unas 1.900 personas con textos equivalentes: leyeron 2,6 palabras por minuto más despacio con Bionic Reading, menos de un 1 % de diferencia, y la comprensión fue idéntica (88 %) en ambos formatos. En 2024, el psicólogo Joshua Snell publicó en la revista Acta Psychologica un estudio controlado titulado «No, Bionic Reading does not work»: 32 participantes leyeron 100 párrafos cada uno, sin ninguna ventaja fiable, ni en lectores rápidos ni en lentos.\n\nDos matices para ser honestos. Primero, ninguno de los estudios se centró en personas con TDAH, así que no hay un ensayo específico ni a favor ni en contra. Segundo, en los datos de Readwise aproximadamente la mitad leyó algo más rápido con Bionic Reading y la otra mitad algo más lento, lo que apunta a preferencias personales más que a un efecto real.\n\nConclusión práctica: Bionic Reading es un ajuste de comodidad, no una herramienta de rendimiento. Si hace que te animes a abrir un texto largo, eso ya es un beneficio real con TDAH, aunque el cronómetro no cambie. Si buscas algo con un mecanismo más claro, una guía de línea (BeeLine) o el texto a voz atacan los problemas que más describen los lectores con TDAH: perder la línea y desconectarse."
+    },
+    {
+      "heading": "¿Por qué el texto a voz ayuda a tantas personas con TDAH?",
+      "body": "El texto a voz ayuda con el TDAH porque convierte la lectura a tu propio ritmo en una lectura con ritmo externo. La lectura en silencio depende de ti para seguir avanzando, y ese esfuerzo sostenido y autodirigido es justo lo que el TDAH más dificulta. Una voz a velocidad constante marca el compás, y el resaltado de palabras da a la vista un objetivo móvil que lo sigue.\n\nEl patrón que suele funcionar: pon la voz un poco más rápida que tu forma de hablar, sigue el resaltado con la vista y para a anotar una línea en cada subtítulo. La lectura en voz alta de Chrome basta para comprobar si te sirve antes de pagar las voces premium de Speechify o NaturalReader."
+    },
+    {
+      "heading": "¿Cómo configurar Chrome para leer con TDAH?",
+      "body": "Una configuración mínima es mejor que una barra de herramientas llena. Aquí tienes una versión en cuatro pasos:",
+      "steps": [
+        {
+          "strategy": "Empieza por el modo de lectura de Chrome.",
+          "detail": "Clic derecho en un artículo, ábrelo en modo de lectura, sube el interlineado y elige un fondo tranquilo. Prueba una vez la lectura en voz alta."
+        },
+        {
+          "strategy": "Añade una sola guía visual si pierdes la línea.",
+          "detail": "Helperbird para el enfoque de línea, o BeeLine Reader si tu problema son los PDF largos. No las dos."
+        },
+        {
+          "strategy": "Añade texto a voz solo si te desconectas.",
+          "detail": "Primero la lectura en voz alta de Chrome; Speechify o NaturalReader si quieres mejores voces o app móvil."
+        },
+        {
+          "strategy": "Consulta los apoyos de tu universidad antes de pagar.",
+          "detail": "UNIDIS en la UNED, la oficina de atención a la discapacidad de tu universidad o los servicios de apoyo de la UNAM pueden ofrecer herramientas y adaptaciones."
+        }
+      ]
+    },
+    {
+      "heading": "Leer es la mitad de estudiar; las clases son la otra mitad",
+      "body": "Todas las herramientas anteriores funcionan con texto. Ninguna ayuda con la otra mitad de una carrera: las clases grabadas, las videoconferencias de la UNED y los vídeos de YouTube que recomienda el profesor. Para muchos estudiantes con TDAH esa mitad es más dura, porque un vídeo no te espera. Te desconectas 30 segundos y la idea ya pasó; volver atrás rompe otra vez la concentración.\n\nLessonScriptor es la herramienta que creamos para esa mitad. Es una extensión de Chrome que muestra una transcripción en directo en el panel lateral mientras se reproduce la clase, para que leas a la vez que habla el profesor, igual que lees con un texto a voz. Funciona con todo lo que suena en Chrome: Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, y Zoom o Google Meet en el navegador.\n\nPara ser precisos: en **modo gratuito**, el reconocimiento de voz de Chrome escucha por el micrófono, así que los altavoces deben estar bastante altos (80 % o más) y no funciona con auriculares. En **modo IA**, captura directamente el audio de la pestaña: los auriculares funcionan y la precisión es mucho mejor con acentos y vocabulario técnico; el texto llega en bloques cada 10 o 30 segundos, no palabra por palabra. El modo IA incluye 30 minutos de prueba gratis y luego paquetes de pago único desde 5 USD por 5 horas (Stripe muestra la conversión a euros o pesos). Durante la clase puedes resaltar en cinco colores, añadir títulos, capturar la diapositiva actual y exportar en .txt o .md.\n\nLo que no hace: no lee páginas web ni PDF en voz alta y no resume. Si quieres un resumen, pega tú la transcripción exportada en ChatGPT o NotebookLM. Para leer, usa las extensiones de arriba.",
+      "internal_links": [
+        {
+          "text": "Cómo transcribir en directo cualquier vídeo en Chrome",
+          "url": "/blog/live-transcribe-chrome"
+        },
+        {
+          "text": "Cómo concentrarte en clases online con TDAH",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "LessonScriptor para estudiantes con TDAH",
+          "url": "/for-adhd-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "La mejor extensión de lectura para TDAH, en un párrafo",
+    "body": "Empieza por el modo de lectura de Chrome: gratis, integrado y con lectura en voz alta. Añade Helperbird si necesitas enfoque de línea y fuentes, o BeeLine Reader si pierdes la línea en los PDF. Usa texto a voz (Chrome, Speechify o NaturalReader) si tu atención se va a mitad de párrafo, y pregunta a tu universidad antes de pagar una licencia. Trata Bionic Reading como una preferencia, no como una solución: los estudios no encontraron mejora. Para las clases en vídeo, que ninguna herramienta de lectura cubre, lee una transcripción en directo.",
+    "internal_links": [
+      {
+        "text": "Las mejores apps para estudiantes con TDAH en 2026",
+        "url": "/blog/best-apps-adhd-students-2026"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Cuál es la mejor extensión de lectura para el TDAH?",
+        "answer": "El modo de lectura integrado de Chrome es el mejor punto de partida: es gratis, no requiere instalación, elimina lo que sobra y lee en voz alta con resaltado en el ordenador. Helperbird es el mejor complemento gratuito si además quieres regla de lectura, enfoque de línea y fuentes para dislexia."
+      },
+      {
+        "question": "¿Hay alguna extensión de Chrome gratis para leer con TDAH?",
+        "answer": "Sí. El modo de lectura de Chrome es gratis e integrado, Helperbird tiene versión gratuita permanente, la vista básica de Just Read es gratis, y Speechify, NaturalReader y Bionic Reading tienen planes gratuitos con límites. BeeLine Reader ofrece funciones de prueba gratis y planes de pago."
+      },
+      {
+        "question": "¿Bionic Reading ayuda con el TDAH?",
+        "answer": "No hay pruebas de que lo haga. Un test de Readwise de 2022 con unas 1.900 personas y un estudio de 2024 en Acta Psychologica no encontraron mejoras de velocidad ni de comprensión. Ninguno se centró en el TDAH y hay quien prefiere cómo se siente, así que vale la pena probarlo solo como preferencia."
+      },
+      {
+        "question": "¿Chrome tiene lectura en voz alta integrada?",
+        "answer": "Sí. Abre la página en modo de lectura desde el clic derecho y usa el botón de reproducir del panel lateral. En Chrome para ordenador puedes elegir voz, cambiar la velocidad y seguir las palabras resaltadas."
+      },
+      {
+        "question": "¿Qué extensión de lectura funciona con PDF?",
+        "answer": "BeeLine Reader admite PDF de texto, Helperbird tiene su propio lector de PDF, y Read&Write, Speechify y NaturalReader leen PDF en voz alta. Los PDF escaneados necesitan antes reconocimiento de texto (OCR), como el lector de capturas de Helperbird Pro."
+      },
+      {
+        "question": "¿Hay alguna extensión que ayude con el TDAH en clases en vídeo?",
+        "answer": "Las extensiones de lectura solo funcionan con texto. Para las clases en vídeo, una transcripción en directo te permite leer mientras habla el profesor. LessonScriptor la muestra en el panel lateral de Chrome para todo lo que se reproduce en una pestaña, incluidos Moodle, Panopto y YouTube, con modo gratuito y modo IA de pago por uso."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Las 8 mejores extensiones de Chrome para leer con TDAH en 2026",
+      "description": "Las mejores extensiones de lectura para TDAH en Chrome: modo lectura, Helperbird, BeeLine, Read&Write y Speechify. Opciones gratis y lo que dice la evidencia.",
+      "inLanguage": "es",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/icon.svg"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuál es la mejor extensión de lectura para el TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El modo de lectura integrado de Chrome es el mejor punto de partida: es gratis, no requiere instalación, elimina lo que sobra y lee en voz alta con resaltado en el ordenador. Helperbird es el mejor complemento gratuito si además quieres regla de lectura, enfoque de línea y fuentes para dislexia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay alguna extensión de Chrome gratis para leer con TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El modo de lectura de Chrome es gratis e integrado, Helperbird tiene versión gratuita permanente, la vista básica de Just Read es gratis, y Speechify, NaturalReader y Bionic Reading tienen planes gratuitos con límites. BeeLine Reader ofrece funciones de prueba gratis y planes de pago."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Bionic Reading ayuda con el TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No hay pruebas de que lo haga. Un test de Readwise de 2022 con unas 1.900 personas y un estudio de 2024 en Acta Psychologica no encontraron mejoras de velocidad ni de comprensión. Ninguno se centró en el TDAH y hay quien prefiere cómo se siente, así que vale la pena probarlo solo como preferencia."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Chrome tiene lectura en voz alta integrada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Abre la página en modo de lectura desde el clic derecho y usa el botón de reproducir del panel lateral. En Chrome para ordenador puedes elegir voz, cambiar la velocidad y seguir las palabras resaltadas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué extensión de lectura funciona con PDF?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BeeLine Reader admite PDF de texto, Helperbird tiene su propio lector de PDF, y Read&Write, Speechify y NaturalReader leen PDF en voz alta. Los PDF escaneados necesitan antes reconocimiento de texto (OCR), como el lector de capturas de Helperbird Pro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay alguna extensión que ayude con el TDAH en clases en vídeo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las extensiones de lectura solo funcionan con texto. Para las clases en vídeo, una transcripción en directo te permite leer mientras habla el profesor. LessonScriptor la muestra en el panel lateral de Chrome para todo lo que se reproduce en una pestaña, incluidos Moodle, Panopto y YouTube, con modo gratuito y modo IA de pago por uso."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Las 8 mejores extensiones de Chrome para leer con TDAH en 2026",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Modo de lectura de Chrome"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Helperbird"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BeeLine Reader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Read&Write para Google Chrome (Texthelp)"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Speechify"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "NaturalReader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Just Read"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Bionic Reading"
+        }
+      ]
+    }
+  ]
+}

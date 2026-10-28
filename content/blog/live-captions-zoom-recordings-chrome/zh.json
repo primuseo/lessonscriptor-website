@@ -1,0 +1,316 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "如何在 Chrome 中为 Zoom 和腾讯会议录像生成实时字幕（2026）",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "在 Chrome 中为 Zoom 和腾讯会议录像生成字幕",
+    "description": "在 Chrome 网页中播放 Zoom 或腾讯会议云录制时，如何生成实时字幕并保存可编辑的课程文字稿，以及中国大陆网络下的使用限制。",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "og_title": "在 Chrome 中为 Zoom 和腾讯会议录像生成字幕",
+    "og_description": "即使老师没有开启转写，也能为在 Chrome 中播放的课程录像生成字幕和文字稿。",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Chrome 浏览器播放课程录像，旁边打开 LessonScriptor 文字稿侧边栏",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一款用于实时转写视频的 Chrome 扩展。Victoria 在线攻读人类学，并患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "要点",
+    "lead": "只要录像在 Chrome 标签页中播放，LessonScriptor 就能为它生成可编辑的文字稿，包括 Zoom 云录制和在网页端回放的腾讯会议云录制，即使主持人没有开启转写也可以。Chrome 自带的实时字幕同样适用，但字幕看完就消失。腾讯会议桌面客户端中的回放不在本文范围内。",
+    "bullets": [
+      "在 Chrome 标签页中播放的 Zoom 或腾讯会议录像，可以使用 Chrome 实时字幕和 LessonScriptor。",
+      "腾讯会议自带云录制的转写和 AI 纪要功能。如果主持人已开启并且你能看到，直接用它往往最方便；LessonScriptor 适合没有转写、或需要边看边改的情况。",
+      "Zoom 的音频转写需要主持人事先开启；没有开启时就没有文字稿。",
+      "在中国大陆网络下，Chrome 网上应用店（安装扩展）、Chrome 实时字幕的语言包下载以及 LessonScriptor 免费模式所用的语音识别都依赖 Google 服务，通常无法使用。",
+      "LessonScriptor 的文字稿可以修改、高亮并导出（.txt、.md），Chrome 的字幕无法保存。"
+    ]
+  },
+  "intro": "LessonScriptor 通过在播放时转写音频，为 Chrome 中的课程录像生成字幕，文字显示在侧边栏中，可以随时修改。对中文用户来说，课程录像主要来自两类工具：海外留学常用的 Zoom，以及国内高校网课常用的腾讯会议。腾讯会议的云录制可以通过分享链接在浏览器中回放，并且自带转写和 AI 纪要；Zoom 则需要主持人开启音频转写。无论平台是否生成了文字稿，LessonScriptor 都会转写正在播放的内容，不依赖预先生成的文件。Chrome 实时字幕（chrome://settings/accessibility）也能为这些网页录像显示字幕，但只有两行，随即消失。本文只讨论在 Chrome 标签页中播放的录像，桌面客户端不在范围内；同时说明中国大陆网络环境下的限制。",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "Chrome 实时字幕能用于 Zoom 或腾讯会议录像吗？",
+      "body": "可以，前提是录像在 Chrome 标签页中播放。Chrome 实时字幕会为浏览器中播放的任何声音生成字幕：比如 zoom.us 上的 Zoom 云录制，或者通过分享链接在网页端回放的腾讯会议云录制。\n\n桌面客户端不适用。如果链接打开的是电脑上的 Zoom 或腾讯会议应用，Chrome 字幕就不起作用，请改在浏览器中打开录像。\n\nLessonScriptor 适用于 Chrome 标签页中播放的任何视频，包括 zoom.us、腾讯会议网页回放、嵌在学校教学平台（如 Moodle、Canvas、Blackboard）中的视频，以及在 Chrome 中打开的 MP4 文件。\n\n**中国大陆的限制**：Chrome 实时字幕的识别本身在本机运行，但首次下载中文语言包需要访问 Google 服务；安装 LessonScriptor 需要访问 Chrome 网上应用店。在大陆网络环境下，这些通常无法完成。",
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕完整指南",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "平台自带的转写与 Chrome 实时字幕有什么区别？",
+      "body": "Zoom 和腾讯会议自带的转写，都是平台在会议结束后根据录像生成的文字。Zoom 需要主持人事先开启云录制的音频转写；腾讯会议的云录制可以提供转写和纪要，但能否查看取决于主持人的设置和账号权限。没有开启就没有文字稿。\n\nChrome 实时字幕和 LessonScriptor 则在播放时实时转写，处理的是录像中实际的声音，与平台是否生成过文字稿无关。\n\n**Zoom / 腾讯会议自带转写**：只有主持人开启并分享时才有。在平台内查看，可下载（Zoom 支持 VTT 或 TXT），通常会标注发言人。\n\n**Chrome 实时字幕**：播放时显示只读的字幕框，结束后消失，无法导出。支持 Chrome 的 19 种语言，包括简体和繁体中文。\n\n**LessonScriptor**：侧边栏中的实时文字稿，可修改、用 5 种颜色高亮，可导出为 .txt 或 .md。支持 14 种语言变体，中文仅支持简体。无论平台是否生成过文字稿都能用，但不能区分发言人。"
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "如何在 Chrome 中获取 Zoom 或腾讯会议录像的文字稿？",
+      "body": "用 LessonScriptor 转写课程录像的步骤：",
+      "steps": [
+        "从 Chrome 网上应用店安装 LessonScriptor。免费，无需注册（需要能访问 Chrome 网上应用店的网络）。",
+        "在 Chrome 中打开录像，可以是 zoom.us 的录像链接、腾讯会议云录制的网页回放链接、学校教学平台中的视频，或拖进标签页的 MP4 文件。",
+        "点击 Chrome 工具栏中的 LessonScriptor 图标打开侧边栏，选择视频语言（中文（简体））。",
+        "选择模式。**Mic** 是免费模式：通过麦克风收音，需要外放（音量建议 80% 以上），不能用耳机。**Normal** 或 **Optimal** 是 AI 模式：直接采集标签页音频，可以戴耳机，其中 Optimal 对录像最准确。",
+        "开始播放。文字稿会出现在侧边栏中，AI 模式有几秒延迟。",
+        "边看边修改：老师姓名、专业术语、听错的词。把重点内容高亮。",
+        "结束后导出为 .txt 或 .md，或复制到剪贴板，粘贴到你的笔记里。"
+      ],
+      "internal_links": [
+        {
+          "text": "戴耳机时能用 Chrome 实时字幕吗？",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "腾讯会议云录制在网页端回放时能生成字幕吗？",
+      "body": "可以，但要说明适用范围。腾讯会议的云录制可以通过分享链接在浏览器中回放。只要回放发生在 Chrome 标签页里，LessonScriptor 的 AI 模式就能采集标签页音频；免费模式则直接听外放的声音。Chrome 实时字幕在语言包已下载的情况下同样可以显示字幕。\n\n需要如实说明的几点：\n\n- **腾讯会议自带转写**：腾讯会议的云录制支持转写和 AI 纪要。如果主持人开启了，并且你有查看权限，用它往往最简单，还能标注发言人。LessonScriptor 更适合没有转写、或想边看边改、边看边高亮的情况。\n- **桌面客户端不在范围内**：在腾讯会议客户端里播放的录像，AI 模式无法采集。\n- **网络**：LessonScriptor 的安装和免费模式依赖 Google 服务。AI 模式通过 LessonScriptor 的服务器转写，但我们尚未在中国大陆网络下测试过，因此不作保证。\n\n嵌在 Canvas、Moodle、Blackboard 等海外高校教学平台中的 Zoom 录像同理：视频在网页中（通常是 iframe）播放，LessonScriptor 在标签页层面采集声音，嵌入方式不影响转写。如果嵌入的视频完全没有声音，请检查 Chrome 是否屏蔽了该网站的声音。",
+      "internal_links": [
+        {
+          "text": "Zoom 和 Google Meet 会议文字稿：学生指南",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "下载到电脑的 Zoom MP4 录像能在 Chrome 中生成字幕吗？",
+      "body": "可以。如果你把 Zoom 或腾讯会议的录像下载成了 MP4 文件，可以在 Chrome 中播放，并在播放时用 LessonScriptor 转写。LessonScriptor 不支持上传文件，它转写的是标签页中正在播放的声音。\n\n**操作方法：**\n1. 把 MP4 文件拖进一个新的 Chrome 标签页，或在地址栏输入 **file:///** 找到该文件。\n2. Chrome 会用内置播放器播放。\n3. 打开 LessonScriptor 侧边栏，开始转写。\n\n免费模式（Mic）通过麦克风收音，请用外放。戴耳机时请使用 AI 模式（Normal 或 Optimal），它直接采集标签页音频。新用户有 30 分钟免费试用。"
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "该用平台自带的转写还是 LessonScriptor？",
+      "body": "如果 Zoom 或腾讯会议已经生成了转写，而且你只需要一份文字，直接用平台自带的功能即可。它通常会标注发言人，适合多人讨论；LessonScriptor 做不到这一点。\n\n如果没有转写（老师分享的课程录像常常如此），或者你想边看边改、边看边高亮，或者视频嵌在学校的教学平台里，就用 LessonScriptor。\n\n对学习来说，边看边整理通常比一份原始文字稿更有用，尤其是有注意力缺陷多动障碍（ADHD）的同学：在看课的同时处理内容，而不是等文件生成。免费模式可直接使用；AI 套餐 5 美元起 5 小时（Stripe 按当地货币换算），无需订阅。",
+      "internal_links": [
+        {
+          "text": "最好用的 Chrome 字幕扩展",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        },
+        {
+          "text": "Chrome 实时字幕与 LessonScriptor 对比",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "在 Chrome 中为课程录像生成文字稿 — 免费",
+    "body": "LessonScriptor 适用于 Zoom 录像、腾讯会议网页回放和教学平台中的任何视频。可修改、可高亮、可导出。",
+    "button_label": "免费添加 LessonScriptor 到 Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "Chrome 实时字幕能为 Zoom 录像生成字幕吗？",
+        "answer": "能，前提是录像在 Chrome 标签页中播放（zoom.us 或嵌在教学平台中的视频）。实时字幕只显示只读的字幕框，看完就消失。LessonScriptor 会生成可修改、可导出的文字稿。"
+      },
+      {
+        "question": "为什么我的 Zoom 录像没有文字稿？",
+        "answer": "Zoom 只有在主持人事先开启云录制音频转写时才会生成文字稿。如果老师没有开启，就没有。LessonScriptor 可以在你用 Chrome 播放录像时实时转写。"
+      },
+      {
+        "question": "腾讯会议的云录制能用 LessonScriptor 转写吗？",
+        "answer": "如果云录制通过分享链接在 Chrome 网页中回放，可以转写；在腾讯会议桌面客户端中播放则不行。腾讯会议本身也提供转写和 AI 纪要，主持人开启后可直接查看。在中国大陆网络下，安装扩展和免费模式依赖 Google 服务，AI 模式尚未测试。"
+      },
+      {
+        "question": "在中国大陆能用这些方法吗？",
+        "answer": "有限制。Chrome 网上应用店、实时字幕语言包下载和 LessonScriptor 免费模式所用的语音识别都依赖 Google 服务，在大陆网络环境下通常无法使用。LessonScriptor 的 AI 模式通过自己的服务器转写，但我们尚未在大陆网络下测试。"
+      },
+      {
+        "question": "能从 Chrome 导出 Zoom 录像的文字稿吗？",
+        "answer": "LessonScriptor 可将文字稿导出为 .txt 或 .md，或复制到剪贴板，再粘贴到 Notion、Obsidian、飞书文档或你的笔记模板中。Chrome 自带的字幕无法导出。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Zoom 和腾讯会议录像字幕：要点回顾",
+    "body": "只要录像在 Chrome 标签页中播放，LessonScriptor 和 Chrome 实时字幕都能使用：zoom.us 上的 Zoom 录像、腾讯会议的网页回放、教学平台中的视频以及在浏览器中打开的 MP4 文件。Chrome 字幕只读且转瞬即逝；LessonScriptor 生成可修改、可导出的文字稿，即使平台从未生成转写。腾讯会议自带转写和纪要，有时直接用它更方便；桌面客户端不在本文范围内。在中国大陆，安装扩展、语言包下载和免费模式都依赖 Google 服务，AI 模式尚未在大陆网络下测试。"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "如何在 Chrome 中为 Zoom 和腾讯会议录像生成实时字幕（2026）",
+      "description": "在 Chrome 网页中播放 Zoom 或腾讯会议云录制时，如何生成实时字幕并保存可编辑的课程文字稿，以及中国大陆网络下的使用限制。",
+      "inLanguage": "zh",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/shishi-zishimu-zoom-luhua-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "患有 ADHD 的人类学学生",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发与 SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "如何在 Chrome 中获取 Zoom 或腾讯会议录像的文字稿？",
+      "inLanguage": "zh",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "从 Chrome 网上应用店安装 LessonScriptor。免费，无需注册（需要能访问 Chrome 网上应用店的网络）。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "在 Chrome 中打开录像，可以是 zoom.us 的录像链接、腾讯会议云录制的网页回放链接、学校教学平台中的视频，或拖进标签页的 MP4 文件。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "点击 Chrome 工具栏中的 LessonScriptor 图标打开侧边栏，选择视频语言（中文（简体））。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "选择模式。Mic 是免费模式：通过麦克风收音，需要外放（音量建议 80% 以上），不能用耳机。Normal 或 Optimal 是 AI 模式：直接采集标签页音频，可以戴耳机，其中 Optimal 对录像最准确。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "开始播放。文字稿会出现在侧边栏中，AI 模式有几秒延迟。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "边看边修改：老师姓名、专业术语、听错的词。把重点内容高亮。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "结束后导出为 .txt 或 .md，或复制到剪贴板，粘贴到你的笔记里。"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕能为 Zoom 录像生成字幕吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "能，前提是录像在 Chrome 标签页中播放（zoom.us 或嵌在教学平台中的视频）。实时字幕只显示只读的字幕框，看完就消失。LessonScriptor 会生成可修改、可导出的文字稿。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么我的 Zoom 录像没有文字稿？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoom 只有在主持人事先开启云录制音频转写时才会生成文字稿。如果老师没有开启，就没有。LessonScriptor 可以在你用 Chrome 播放录像时实时转写。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "腾讯会议的云录制能用 LessonScriptor 转写吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "如果云录制通过分享链接在 Chrome 网页中回放，可以转写；在腾讯会议桌面客户端中播放则不行。腾讯会议本身也提供转写和 AI 纪要，主持人开启后可直接查看。在中国大陆网络下，安装扩展和免费模式依赖 Google 服务，AI 模式尚未测试。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在中国大陆能用这些方法吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有限制。Chrome 网上应用店、实时字幕语言包下载和 LessonScriptor 免费模式所用的语音识别都依赖 Google 服务，在大陆网络环境下通常无法使用。LessonScriptor 的 AI 模式通过自己的服务器转写，但我们尚未在大陆网络下测试。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "能从 Chrome 导出 Zoom 录像的文字稿吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor 可将文字稿导出为 .txt 或 .md，或复制到剪贴板，再粘贴到 Notion、Obsidian、飞书文档或你的笔记模板中。Chrome 自带的字幕无法导出。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "博客",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "在 Chrome 中为 Zoom 和腾讯会议录像生成字幕",
+          "item": "https://lessonscriptor.com/zh/blog/shishi-zishimu-zoom-luhua-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Zoom 支持 — 云录制音频转写",
+      "href": "https://support.zoom.com/hc/zh/article?id=zm_kb&sysparm_article=KB0059762",
+      "external": true
+    },
+    {
+      "text": "Google Chrome 帮助中心 — 实时字幕",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=zh-Hans",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

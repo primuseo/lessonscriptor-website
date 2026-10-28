@@ -1,0 +1,538 @@
+{
+  "slug": "cornell-notes-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Método Cornell: plantilla gratis, ejemplo resuelto y cómo usarla",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Método Cornell: plantilla gratis y ejemplo resuelto",
+    "description": "Plantilla Cornell para copiar en Google Docs, Notion o Word, con un ejemplo resuelto, las 5 R del método Cornell y una versión para estudiantes con TDAH.",
+    "keywords": [
+      "método cornell",
+      "plantilla cornell",
+      "método cornell ejemplo",
+      "plantilla cornell word",
+      "apuntes método cornell",
+      "método cornell tdah"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/es/blog/plantilla-metodo-cornell",
+    "og_title": "Método Cornell: plantilla gratis y ejemplo resuelto",
+    "og_description": "Una plantilla Cornell para copiar en Docs, Notion, Word o GoodNotes, un ejemplo resuelto y una versión adaptada al TDAH.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "bio": "Victoria y Pierre crean LessonScriptor, una extensión de Chrome para transcribir clases en directo. Victoria estudia antropología a distancia y tiene TDAH. Pierre se encarga del desarrollo y el SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Lo esencial",
+    "lead": "El método Cornell organiza cada hoja en tres zonas: una columna estrecha de pistas a la izquierda, una columna ancha de apuntes a la derecha y un recuadro de resumen abajo. La plantilla de esta guía se copia en Google Docs, Notion, Word o GoodNotes en menos de cinco minutos.",
+    "bullets": [
+      "El método lo creó Walter Pauk, director del centro de estudio de la Universidad Cornell, y lo publicó en How to Study in College (primera edición en 1962).",
+      "En hoja carta, la medida clásica es 6,4 cm de pistas, 15 cm de apuntes y 5 cm de resumen; en A4, unos 6 cm, 15 cm y 5 cm.",
+      "Las 5 R (Record, Reduce, Recite, Reflect, Review) importan más que las líneas: la columna de pistas solo funciona si la llenas después de clase y te autoevalúas con ella.",
+      "Si escribir mientras escuchas te satura, algo habitual con TDAH, deja que una transcripción haga el registro y guarda tu energía para las pistas y el resumen."
+    ]
+  },
+  "intro": "El método Cornell es un sistema de toma de apuntes que divide cada hoja en tres zonas: una columna de pistas para preguntas y palabras clave, una columna de apuntes para lo que se explicó en clase y un recuadro de resumen al pie donde condensas la página en pocas frases. Walter Pauk lo diseñó en la Universidad Cornell en los años cincuenta y lo publicó en How to Study in College, un manual que sigue reeditándose. La plantilla es sencilla, pero la mayoría de estudiantes solo usa la mitad: llenan la columna de apuntes y dejan vacía la de pistas, con lo que pierden la autoevaluación que hace funcionar el método. Esta guía te da la plantilla Cornell, una versión para copiar y pegar en Google Docs, Notion, Word y GoodNotes, un ejemplo completo de una clase de economía sobre Raúl Prebisch y la CEPAL, y una versión adaptada para estudiantes con TDAH.",
+  "sections": [
+    {
+      "id": "what-are-cornell-notes",
+      "h2": "¿Qué es el método Cornell?",
+      "body": "El método Cornell es un formato de apuntes que separa **registrar** la información de **procesarla**. Durante la clase solo escribes en la columna de apuntes. Después vuelves a la hoja, sacas preguntas y palabras clave en la columna de pistas y escribes un breve resumen abajo. La página se convierte en un autoexamen: tapas los apuntes, lees las pistas e intentas responder de memoria.\n\nEl sistema lo creó **Walter Pauk**, profesor de educación que dirigía el Reading and Study Center de la Universidad Cornell, en Estados Unidos. Lo describió en **How to Study in College**, publicado por primera vez en 1962 y reeditado más de diez veces. El Learning Strategies Center de Cornell sigue publicando una guía del método para sus estudiantes.\n\nEl método Cornell ha sobrevivido a casi todas las modas porque integra la práctica de recuperación en la propia hoja. Releer apuntes se siente productivo, pero no pone a prueba nada. Responder a tus propias preguntas con los apuntes tapados es recuerdo activo, el mismo principio de las tarjetas de estudio, y es una de las estrategias de aprendizaje con más respaldo en la investigación."
+    },
+    {
+      "id": "cornell-layout",
+      "h2": "¿Cómo es una plantilla del método Cornell?",
+      "body": "Una plantilla Cornell es una hoja con dos columnas y un pie. Las medidas originales de Pauk son en pulgadas (2,5 de pistas, 6 de apuntes y 2 de resumen). En **hoja carta**, la que se usa en México y gran parte de Latinoamérica, equivalen a **6,4 cm**, **15 cm** y **5 cm**; en **A4**, la habitual en España, a unos 6 cm, 15 cm y 5 cm. Lo importante es la proporción: alrededor de un 30 % de pistas y un 70 % de apuntes. Esta es la estructura que debes reproducir:",
+      "table": {
+        "headers": [
+          "Columna de pistas (≈ 6 cm, izquierda)",
+          "Columna de apuntes (≈ 15 cm, derecha)"
+        ],
+        "rows": [
+          [
+            "Encabezado: materia, tema de la clase, fecha",
+            "Encabezado: materia, tema de la clase, fecha"
+          ],
+          [
+            "Se llena DESPUÉS de clase: preguntas, palabras clave, autores, fechas sobre los que quieres que te pregunten",
+            "Se llena DURANTE la clase: ideas principales, definiciones, ejemplos, esquemas; frases cortas, no oraciones completas"
+          ],
+          [
+            "Una pista por idea, alineada junto al apunte al que remite",
+            "Deja una línea en blanco entre ideas para que quepan las pistas"
+          ],
+          [
+            "Resumen (todo el ancho, ≈ 5 cm, abajo)",
+            "3 o 4 frases con tus palabras: de qué trata la página y por qué importa"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Por qué las pistas van a la izquierda",
+        "body": "Pauk puso las pistas a la izquierda para que puedas doblar la hoja o tapar la columna de apuntes y ver solo las preguntas. Si haces la plantilla en digital, conserva esa propiedad: las pistas deben poder leerse con los apuntes ocultos."
+      }
+    },
+    {
+      "id": "five-rs",
+      "h2": "¿Cuáles son las 5 R del método Cornell?",
+      "body": "Las 5 R del método Cornell son los cinco pasos que Pauk propuso para usar la hoja: Record (registrar), Reduce (reducir), Recite (recitar), Reflect (reflexionar) y Review (repasar). La plantilla es solo el recipiente; las 5 R son el método.",
+      "steps": [
+        {
+          "strategy": "Registrar (Record)",
+          "detail": "Durante la clase, presencial o en el Campus Virtual, anota las ideas principales y los datos que las sostienen en la columna de apuntes. Usa abreviaturas y frases cortas, y salta lo que ya está en las diapositivas que el profesor sube a la plataforma."
+        },
+        {
+          "strategy": "Reducir (Reduce)",
+          "detail": "Lo antes posible después de clase, idealmente el mismo día, relee tus apuntes y convierte cada idea en una pregunta o palabra clave en la columna de pistas. Luego escribe el resumen abajo."
+        },
+        {
+          "strategy": "Recitar (Recite)",
+          "detail": "Tapa la columna de apuntes. Lee cada pista y respóndela en voz alta con tus palabras. Destapa para comprobar y marca cada pista que fallaste."
+        },
+        {
+          "strategy": "Reflexionar (Reflect)",
+          "detail": "Pregúntate cómo se conecta esta clase con las anteriores, con las lecturas o con una posible pregunta de examen. Anota esas conexiones en el margen o en el resumen."
+        },
+        {
+          "strategy": "Repasar (Review)",
+          "detail": "Dedica unos diez minutos a la semana a recitar desde las columnas de pistas de hojas anteriores, empezando por las pistas que marcaste como falladas."
+        }
+      ]
+    },
+    {
+      "id": "copy-paste-template",
+      "h2": "Plantilla Cornell para copiar y pegar",
+      "body": "Esta es una plantilla Cornell en texto plano, en formato Markdown. Cópiala en Notion, Obsidian, Google Docs (activa **Herramientas > Preferencias > Habilitar Markdown** y luego clic derecho, **Pegar desde Markdown**) o cualquier app de notas. El Markdown simple no admite columnas lado a lado, así que las pistas van en una sección encima de los apuntes, numeradas para que cada una corresponda a un apunte y el autoexamen siga funcionando.",
+      "callout": {
+        "type": "note",
+        "label": "Plantilla Cornell para copiar (Markdown)",
+        "body": "# [Materia] | [Tema de la clase] | [Fecha]\n\n## Pistas (llenar después de clase)\n\nP1: [Pregunta que responde la primera idea]\n\nP2: [Palabra clave, autor o fecha que recordar]\n\nP3: [Pregunta que podría salir en el examen]\n\n## Apuntes (llenar durante la clase)\n\nA1: [Idea principal, en frases cortas]\n\nA2: [Definición, dato o ejemplo]\n\nA3: [Descripción del esquema, número de diapositiva]\n\n## Resumen (3 o 4 frases, con tus palabras)\n\n[De qué trató la clase y por qué importa]\n\n## Pistas falladas para repasar\n\n[Números de las preguntas que no supiste responder]"
+      }
+    },
+    {
+      "id": "recreate-template",
+      "h2": "¿Cómo hacer una plantilla Cornell en Google Docs, Notion, Word o GoodNotes?",
+      "body": "Puedes crear una plantilla Cornell reutilizable en unos cinco minutos en cualquiera de estas apps. Hazla una vez y duplícala para cada clase.",
+      "subsections": [
+        {
+          "h3": "Google Docs",
+          "body": "Ve a **Insertar > Tabla** y crea una tabla de 2 x 3. En la fila superior pon la materia y la fecha, en la del medio las pistas y los apuntes, y combina la fila inferior (selecciona ambas celdas, clic derecho, **Combinar celdas**) para el resumen. En **Formato > Tabla > Propiedades de la tabla**, deja la columna izquierda en unos 5 cm y la derecha en 11 cm con los márgenes por defecto. Llama al archivo «Plantilla Cornell» y usa **Archivo > Hacer una copia** antes de cada clase."
+        },
+        {
+          "h3": "Notion",
+          "body": "Escribe **/2 columnas** (o /2 columns) para crear dos bloques lado a lado y arrastra el divisor hasta que la columna izquierda ocupe cerca del 30 % del ancho. Pon el título «Pistas» a la izquierda y «Apuntes» a la derecha, y añade un bloque destacado debajo de ambas para el resumen. Para reutilizarla, crea una base de datos «Clases», haz clic en la flecha junto a **Nuevo**, elige **Nueva plantilla** y pega dentro la estructura."
+        },
+        {
+          "h3": "Microsoft Word",
+          "body": "Usa **Insertar > Tabla** para una cuadrícula de 2 x 3, combina la fila inferior con **Disposición > Combinar celdas** y ajusta el ancho de columnas en **Disposición > Propiedades > Columna**. Quita los bordes exteriores si quieres que parezca papel. Después, **Archivo > Guardar como** y elige **Plantilla de Word (.dotx)**: cada documento nuevo partirá del formato Cornell."
+        },
+        {
+          "h3": "GoodNotes y Notability",
+          "body": "**GoodNotes** incluye papel Cornell entre sus plantillas integradas, en tamaño carta y A4. En una libreta, abre el menú **Más** de la barra de herramientas, elige **Cambiar plantilla** y selecciona una hoja Cornell del tamaño y color que quieras. En **Notability**, lo más fiable es exportar a PDF la versión de Word o Google Docs que creaste arriba e importarla, o trazar las dos líneas una vez con la regla y copiar esa página para cada clase."
+        }
+      ]
+    },
+    {
+      "id": "cornell-example",
+      "h2": "¿Cómo se ve un ejemplo del método Cornell resuelto?",
+      "body": "Este es un ejemplo completo del método Cornell a partir de una clase de Economía del Desarrollo sobre Raúl Prebisch y la CEPAL, un tema que aparece en los planes de estudio de la Facultad de Economía de la UNAM, de la UBA o de la Universidad de Chile. Fíjate en que las pistas son preguntas, no títulos. «Prebisch» te dice de qué va el apunte; «¿Qué es el deterioro de los términos de intercambio?» te obliga a recuperar la respuesta.",
+      "table": {
+        "headers": [
+          "Pistas",
+          "Apuntes: Economía del Desarrollo, clase 7, Prebisch y la CEPAL"
+        ],
+        "rows": [
+          [
+            "¿Quién fue Prebisch y qué institución dirigió?",
+            "Raúl Prebisch, economista argentino. Secretario ejecutivo de la CEPAL (Comisión Económica para América Latina, ONU, con sede en Santiago de Chile)."
+          ],
+          [
+            "¿Qué texto fundó el pensamiento cepalino?",
+            "1949, El desarrollo económico de la América Latina y algunos de sus principales problemas, conocido como el Manifiesto de la CEPAL."
+          ],
+          [
+            "¿Qué es el modelo centro-periferia?",
+            "Economía mundial dividida en un centro industrial (EE. UU., Europa) y una periferia que exporta materias primas (América Latina)."
+          ],
+          [
+            "¿Qué es el deterioro de los términos de intercambio?",
+            "Con el tiempo, los precios de las materias primas caen frente a los de los bienes industriales: la periferia debe exportar cada vez más para importar lo mismo. Tesis Prebisch-Singer."
+          ],
+          [
+            "¿Qué política se propuso como respuesta?",
+            "Industrialización por sustitución de importaciones (ISI): aranceles y apoyo estatal para producir localmente lo que antes se importaba."
+          ],
+          [
+            "¿Relación con el examen?",
+            "El profesor adelantó una pregunta: comparar la ISI con las reformas de apertura de los años ochenta y noventa."
+          ],
+          [
+            "RESUMEN",
+            "Prebisch y la CEPAL explicaron el atraso latinoamericano por una relación desigual entre centro y periferia, no por falta de esfuerzo. El deterioro de los términos de intercambio justificó la ISI como estrategia. Relacionar con la próxima clase sobre la teoría de la dependencia."
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "Por qué este ejemplo funciona",
+        "body": "Las pistas están en palabras del estudiante, cada una remite a un solo apunte y el resumen conecta la clase con el resto del curso. Un resumen que solo enumerara temas («centro-periferia, términos de intercambio, ISI») no superaría el paso de Reflexionar."
+      }
+    },
+    {
+      "id": "cornell-from-transcript",
+      "h2": "¿Cómo hacer apuntes Cornell a partir de la transcripción de una clase?",
+      "body": "Se hacen apuntes Cornell a partir de una transcripción usándola como paso de Registrar y haciendo tú mismo los pasos de Reducir, Recitar y Reflexionar. Es una forma de trabajar, no una función automática: LessonScriptor transcribe la clase en un panel lateral de Chrome y tú pasas después las líneas importantes a tu hoja Cornell. Nada te da la página ya formateada, y eso es bueno, porque al reducir es cuando aprendes.\n\nEste flujo sirve para clases grabadas en el Campus Virtual o Moodle de tu universidad, las videoclases de la UNED, cursos de Coursera o YouTube y clases en directo por Zoom, Teams o Google Meet en el navegador.",
+      "steps": [
+        {
+          "strategy": "Transcribir la clase",
+          "detail": "Abre la clase en Chrome e inicia LessonScriptor en el panel lateral. El modo gratuito usa el reconocimiento de voz del navegador a través del micrófono: deja los altavoces en torno al 80 % de volumen y no uses audífonos ni cascos. El modo IA capta directamente el audio de la pestaña, funciona con audífonos y entiende mejor los acentos y la jerga técnica (30 minutos de prueba gratis y luego paquetes de pago único desde 5 USD; Stripe muestra la conversión a tu moneda)."
+        },
+        {
+          "strategy": "Marcar las líneas clave mientras escuchas",
+          "detail": "En vez de escribir, resalta las frases importantes en la transcripción (hay 5 colores), pon en negrita las definiciones y añade un encabezado cuando el profesor cambie de tema. Haz una captura de pantalla de las diapositivas que vayas a necesitar."
+        },
+        {
+          "strategy": "Exportar la transcripción",
+          "detail": "Exporta en .md (o .txt, o copia al portapapeles) y abre tu plantilla Cornell al lado."
+        },
+        {
+          "strategy": "Reducir en la columna de apuntes",
+          "detail": "Pasa solo las líneas resaltadas a la columna de apuntes y acorta cada una a una frase breve. Una clase de una hora genera miles de palabras de transcripción; tu columna de apuntes debería ocupar una o dos hojas."
+        },
+        {
+          "strategy": "Escribir pistas y resumen",
+          "detail": "Escribe una pregunta por apunte en la columna de pistas y después el resumen de 3 o 4 frases. Recita con los apuntes tapados antes de cerrar la página."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Por qué encaja con el TDAH",
+        "body": "El registro ocurre solo, así que tu atención va a los pasos que de verdad construyen memoria: elegir lo importante, convertirlo en preguntas y ponerte a prueba. Ya no repartes tu foco entre escuchar y escribir a mano, que es la parte del método Cornell que más cuesta a muchos estudiantes con TDAH."
+      },
+      "internal_links": [
+        {
+          "text": "Convertir la transcripción de una clase en preguntas de recuerdo activo",
+          "url": "/blog/active-recall-lecture-transcript"
+        },
+        {
+          "text": "Herramientas de IA para tomar apuntes de clases grabadas",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "id": "adhd-cornell",
+      "h2": "¿Cómo adaptar el método Cornell si tienes TDAH?",
+      "body": "Los estudiantes con TDAH pueden usar el método Cornell, pero la versión clásica pide tres cosas a la vez en clase: escuchar, decidir qué importa y escribir rápido. La memoria de trabajo es el cuello de botella. Estos ajustes mantienen la estructura y quitan la sobrecarga.",
+      "subsections": [
+        {
+          "h3": "Separa el registro del procesamiento",
+          "body": "No intentes llenar la columna de apuntes en directo. Deja que una transcripción o la grabación haga el paso de Registrar y programa Reducir como una sesión corta aparte, el mismo día."
+        },
+        {
+          "h3": "Pon tiempo al paso de Reducir",
+          "body": "Pon un temporizador de 25 minutos y procesa una parte de la clase por bloque. Media hoja terminada vale más que una hoja completa abandonada."
+        },
+        {
+          "h3": "Limita el resumen a tres frases",
+          "body": "Un recuadro en blanco invita al perfeccionismo. Tres frases, una para qué es, otra para por qué importa y otra para con qué se conecta, bastan para el paso de Reflexionar."
+        },
+        {
+          "h3": "Usa el color como sistema de pistas",
+          "body": "Da una función a cada color, por ejemplo amarillo para definiciones y azul para lo que puede salir en el examen, y revisar una hoja te llevará segundos en lugar de releerla entera."
+        },
+        {
+          "h3": "Recita en voz alta o en compañía",
+          "body": "Responder a las pistas en voz alta, o con un compañero por WhatsApp o videollamada, evita que Recitar se convierta en una relectura silenciosa."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "La plantilla de apuntes para TDAH (Capturar, Preguntar, Consolidar)",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Cómo tomar apuntes con TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "cornell-vs-other-methods",
+      "h2": "¿Método Cornell u otros métodos de apuntes: cuál conviene?",
+      "body": "El método Cornell es el mejor método general cuando tienes que preparar exámenes, porque el autoexamen viene integrado. Otros métodos ganan en situaciones concretas.",
+      "table": {
+        "headers": [
+          "Método",
+          "Ideal para",
+          "Punto débil"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Clases de las que te van a examinar; autoevaluación integrada",
+            "Necesita una sesión de repaso después de clase"
+          ],
+          [
+            "Esquema (outline)",
+            "Clases muy ordenadas, con apartados claros",
+            "No tiene paso de recuperación; es fácil limitarse a releer"
+          ],
+          [
+            "Mapa mental",
+            "Ver relaciones entre conceptos, preparar ensayos",
+            "Difícil de seguir con un profesor que habla rápido"
+          ],
+          [
+            "Cuadro comparativo",
+            "Comparar varios elementos con los mismos criterios (autores, teorías, países)",
+            "Solo sirve si el contenido cabe en una tabla"
+          ],
+          [
+            "Método de oraciones",
+            "Clases rápidas y poco estructuradas",
+            "Genera apuntes largos y pesados de repasar"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Todos los métodos de toma de apuntes comparados",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En resumen",
+    "body": "Una plantilla Cornell es una columna de pistas, una columna de apuntes y un recuadro de resumen, y el método detrás son las 5 R de Pauk. Copia la plantilla de arriba en Docs, Notion, Word o GoodNotes, llena las pistas después de clase y no durante, y recita desde ellas cada semana. Si lo que falla es escribir mientras escuchas, deja que una transcripción haga el registro y guarda tu concentración para las pistas.",
+    "internal_links": [
+      {
+        "text": "Herramientas de estudio para estudiantes con TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Método Cornell: preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿El método Cornell sirve para estudiantes con TDAH?",
+        "answer": "El método Cornell sirve para el TDAH si separas el registro del procesamiento. La columna de pistas y el resumen dan una estructura clara y un autoexamen integrado. Lo que suele fallar es escribir en directo mientras escuchas, por eso muchos estudiantes con TDAH transcriben la clase y llenan la hoja Cornell después, en sesiones cortas y con temporizador."
+      },
+      {
+        "question": "¿Qué es mejor, el método Cornell o el esquema?",
+        "answer": "El método Cornell es mejor para preparar exámenes porque la columna de pistas convierte tus apuntes en un autoexamen. El esquema es más rápido de escribir y funciona bien en clases muy ordenadas, pero no incluye un paso de recuperación. Muchos estudiantes hacen el esquema en la columna de apuntes y añaden las pistas Cornell después."
+      },
+      {
+        "question": "¿Cuáles son las 5 R del método Cornell?",
+        "answer": "Las 5 R del método Cornell son Record, Reduce, Recite, Reflect y Review: registrar, reducir, recitar, reflexionar y repasar. Registras durante la clase, reduces a pistas y resumen después, recitas con los apuntes tapados, reflexionas sobre cómo se conecta el tema y repasas las hojas antiguas cada semana."
+      },
+      {
+        "question": "¿Qué medidas tiene una plantilla Cornell en hoja carta o A4?",
+        "answer": "En hoja carta, la plantilla Cornell clásica tiene una columna de pistas de 6,4 cm, una de apuntes de 15 cm y un resumen de 5 cm abajo. En A4, usa unos 6 cm, 15 cm y 5 cm. En digital, busca una proporción de 30/70 entre pistas y apuntes."
+      },
+      {
+        "question": "¿Hay una plantilla Cornell en Word o Google Docs?",
+        "answer": "Ni Word ni Google Docs traen una plantilla Cornell integrada, pero puedes crearla en cinco minutos con una tabla de 2 x 3: fila de encabezado, fila de pistas y apuntes, y una fila de resumen combinada. En Word guárdala como .dotx; en Google Docs, guarda un archivo base y usa Archivo > Hacer una copia en cada clase."
+      },
+      {
+        "question": "¿Se pueden hacer apuntes Cornell a partir de una transcripción?",
+        "answer": "Sí. La transcripción hace de paso de Registrar: transcribe la clase con una herramienta como LessonScriptor, resalta las líneas clave, expórtalas en .md, pásalas a la columna de apuntes y escribe tú las pistas y el resumen. La herramienta no crea la hoja Cornell por ti."
+      },
+      {
+        "question": "¿Quién inventó el método Cornell?",
+        "answer": "Walter Pauk inventó el método Cornell en los años cincuenta, cuando dirigía el Reading and Study Center de la Universidad Cornell. Lo publicó en How to Study in College, cuya primera edición salió en 1962."
+      }
+    ]
+  },
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/adhd-note-taking-template",
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/note-taking-methods",
+      "/blog/active-recall-lecture-transcript",
+      "/blog/ai-note-taker-for-lectures"
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Método Cornell: plantilla gratis, ejemplo resuelto y cómo usarla",
+      "description": "Plantilla Cornell para copiar en Google Docs, Notion o Word, con un ejemplo resuelto, las 5 R del método Cornell y una versión para estudiantes con TDAH.",
+      "inLanguage": "es",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/es/blog/plantilla-metodo-cornell"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿El método Cornell sirve para estudiantes con TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El método Cornell sirve para el TDAH si separas el registro del procesamiento. La columna de pistas y el resumen dan una estructura clara y un autoexamen integrado. Lo que suele fallar es escribir en directo mientras escuchas, por eso muchos estudiantes con TDAH transcriben la clase y llenan la hoja Cornell después, en sesiones cortas y con temporizador."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué es mejor, el método Cornell o el esquema?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El método Cornell es mejor para preparar exámenes porque la columna de pistas convierte tus apuntes en un autoexamen. El esquema es más rápido de escribir y funciona bien en clases muy ordenadas, pero no incluye un paso de recuperación. Muchos estudiantes hacen el esquema en la columna de apuntes y añaden las pistas Cornell después."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son las 5 R del método Cornell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Las 5 R del método Cornell son Record, Reduce, Recite, Reflect y Review: registrar, reducir, recitar, reflexionar y repasar. Registras durante la clase, reduces a pistas y resumen después, recitas con los apuntes tapados, reflexionas sobre cómo se conecta el tema y repasas las hojas antiguas cada semana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué medidas tiene una plantilla Cornell en hoja carta o A4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En hoja carta, la plantilla Cornell clásica tiene una columna de pistas de 6,4 cm, una de apuntes de 15 cm y un resumen de 5 cm abajo. En A4, usa unos 6 cm, 15 cm y 5 cm. En digital, busca una proporción de 30/70 entre pistas y apuntes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay una plantilla Cornell en Word o Google Docs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ni Word ni Google Docs traen una plantilla Cornell integrada, pero puedes crearla en cinco minutos con una tabla de 2 x 3: fila de encabezado, fila de pistas y apuntes, y una fila de resumen combinada. En Word guárdala como .dotx; en Google Docs, guarda un archivo base y usa Archivo > Hacer una copia en cada clase."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se pueden hacer apuntes Cornell a partir de una transcripción?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La transcripción hace de paso de Registrar: transcribe la clase con una herramienta como LessonScriptor, resalta las líneas clave, expórtalas en .md, pásalas a la columna de apuntes y escribe tú las pistas y el resumen. La herramienta no crea la hoja Cornell por ti."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quién inventó el método Cornell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walter Pauk inventó el método Cornell en los años cincuenta, cuando dirigía el Reading and Study Center de la Universidad Cornell. Lo publicó en How to Study in College, cuya primera edición salió en 1962."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Cómo tomar apuntes con el método Cornell",
+      "description": "El método Cornell organiza cada hoja en tres zonas: una columna estrecha de pistas a la izquierda, una columna ancha de apuntes a la derecha y un recuadro de resumen abajo. La plantilla de esta guía se copia en Google Docs, Notion, Word o GoodNotes en menos de cinco minutos.",
+      "inLanguage": "es",
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Hoja carta o A4, o una app de notas"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Docs"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Notion"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Microsoft Word"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "GoodNotes"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Dibujar la plantilla",
+          "text": "Divide la hoja en una columna de pistas de unos 6 cm a la izquierda, una columna de apuntes de unos 15 cm a la derecha y un recuadro de resumen de unos 5 cm abajo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Registrar (Record)",
+          "text": "Durante la clase, presencial o en el Campus Virtual, anota las ideas principales y los datos que las sostienen en la columna de apuntes. Usa abreviaturas y frases cortas, y salta lo que ya está en las diapositivas que el profesor sube a la plataforma."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Reducir (Reduce)",
+          "text": "Lo antes posible después de clase, idealmente el mismo día, relee tus apuntes y convierte cada idea en una pregunta o palabra clave en la columna de pistas. Luego escribe el resumen abajo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Recitar (Recite)",
+          "text": "Tapa la columna de apuntes. Lee cada pista y respóndela en voz alta con tus palabras. Destapa para comprobar y marca cada pista que fallaste."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Reflexionar (Reflect)",
+          "text": "Pregúntate cómo se conecta esta clase con las anteriores, con las lecturas o con una posible pregunta de examen. Anota esas conexiones en el margen o en el resumen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Repasar (Review)",
+          "text": "Dedica unos diez minutos a la semana a recitar desde las columnas de pistas de hojas anteriores, empezando por las pistas que marcaste como falladas."
+        }
+      ]
+    }
+  ]
+}

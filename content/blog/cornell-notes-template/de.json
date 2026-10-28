@@ -1,0 +1,538 @@
+{
+  "slug": "cornell-notes-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Cornell-Methode: kostenlose Notizen-Vorlage, ausgefülltes Beispiel und Anleitung",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Cornell-Methode: Notizen-Vorlage und Beispiel",
+    "description": "Cornell Notizen Vorlage zum Kopieren in Google Docs, Notion oder Word, mit ausgefülltem Beispiel, den 5 R der Cornell-Methode und einer Version für ADHS.",
+    "keywords": [
+      "cornell-methode",
+      "cornell notizen vorlage",
+      "cornell methode beispiel",
+      "cornell notizen word",
+      "mitschrift cornell",
+      "cornell methode adhs"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/de/blog/cornell-methode-vorlage",
+    "og_title": "Cornell-Methode: Notizen-Vorlage und Beispiel",
+    "og_description": "Eine Cornell-Vorlage für Docs, Notion, Word oder GoodNotes, ein ausgefülltes Beispiel und eine Version für Studierende mit ADHS.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung zur Live-Transkription von Vorlesungen. Victoria studiert online Anthropologie und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Die Cornell-Methode teilt jede Seite in drei Bereiche: eine schmale Stichwortspalte links, eine breite Notizenspalte rechts und ein Zusammenfassungsfeld unten. Die Vorlage in diesem Artikel überträgst du in unter fünf Minuten nach Google Docs, Notion, Word oder GoodNotes.",
+    "bullets": [
+      "Die Methode stammt von Walter Pauk, der das Lern- und Studienzentrum der Cornell University leitete, und erschien in How to Study in College (Erstausgabe 1962).",
+      "Auf einem DIN-A4-Blatt rechnest du mit etwa 6 cm Stichwortspalte, 15 cm Notizenspalte und 5 cm Zusammenfassung am unteren Rand.",
+      "Die 5 R (Record, Reduce, Recite, Reflect, Review) sind wichtiger als die Linien: Die Stichwortspalte wirkt nur, wenn du sie nach der Vorlesung füllst und dich damit abfragst.",
+      "Wenn dich Mitschreiben und Zuhören gleichzeitig überfordert, was bei ADHS häufig ist, lass ein Transkript die Mitschrift übernehmen und steck deine Energie in Stichworte und Zusammenfassung."
+    ]
+  },
+  "intro": "Die Cornell-Methode ist ein Mitschrift-System, das jede Seite in drei Bereiche teilt: eine Stichwortspalte für Fragen und Schlüsselbegriffe, eine Notizenspalte für den Inhalt der Vorlesung und ein Zusammenfassungsfeld am unteren Rand, in dem du die Seite in wenigen Sätzen verdichtest. Walter Pauk entwickelte sie in den 1950er-Jahren an der Cornell University und veröffentlichte sie in How to Study in College, einem Lehrbuch, das bis heute neu aufgelegt wird. Das Layout ist einfach, doch die meisten Studierenden nutzen nur die Hälfte: Sie füllen die Notizenspalte und lassen die Stichwortspalte leer. Damit fällt genau die Selbstabfrage weg, die die Methode wirksam macht. Dieser Artikel liefert die Cornell Notizen Vorlage, eine Version zum Kopieren für Google Docs, Notion, Word und GoodNotes, ein komplett ausgefülltes Beispiel aus einer Jura-Vorlesung zum Trennungs- und Abstraktionsprinzip und eine Variante für Studierende mit ADHS.",
+  "sections": [
+    {
+      "id": "what-are-cornell-notes",
+      "h2": "Was ist die Cornell-Methode?",
+      "body": "Die Cornell-Methode ist ein Notizformat, das das **Festhalten** von Informationen von ihrer **Verarbeitung** trennt. Während der Vorlesung schreibst du nur in die Notizenspalte. Danach gehst du die Seite noch einmal durch, ziehst Fragen und Schlüsselbegriffe in die Stichwortspalte und schreibst unten eine kurze Zusammenfassung. So wird die Seite zum Selbsttest: Notizen abdecken, Stichworte lesen, aus dem Gedächtnis beantworten.\n\nEntwickelt hat das System **Walter Pauk**, Professor für Erziehungswissenschaft und Leiter des Reading and Study Center der Cornell University in den USA. Er beschrieb es in **How to Study in College**, erstmals 1962 erschienen und seither mehr als zehnmal überarbeitet. Das Learning Strategies Center in Cornell veröffentlicht bis heute einen Leitfaden dazu für Studierende.\n\nDie Cornell-Methode hat die meisten Lernmoden überlebt, weil sie das aktive Abrufen in die Seite selbst einbaut. Notizen wiederzulesen fühlt sich produktiv an, prüft aber nichts. Eigene Fragen bei abgedeckten Notizen zu beantworten ist aktives Erinnern, dasselbe Prinzip wie bei Karteikarten, und gehört zu den am besten belegten Lernstrategien der Forschung."
+    },
+    {
+      "id": "cornell-layout",
+      "h2": "Wie sieht eine Cornell Notizen Vorlage aus?",
+      "body": "Eine Cornell-Vorlage ist eine Seite mit zwei Spalten und einer Fußzeile. Pauks Originalmaße sind in Zoll angegeben (2,5 Zoll Stichworte, 6 Zoll Notizen, 2 Zoll Zusammenfassung). Auf **DIN A4**, also auf Collegeblock oder Druckerpapier, entspricht das etwa **6 cm** Stichwortspalte, **15 cm** Notizenspalte und **5 cm** Zusammenfassung. Das genaue Maß ist weniger wichtig als das Verhältnis: rund 30 % Stichworte, 70 % Notizen. So sieht die Struktur aus:",
+      "table": {
+        "headers": [
+          "Stichwortspalte (≈ 6 cm, links)",
+          "Notizenspalte (≈ 15 cm, rechts)"
+        ],
+        "rows": [
+          [
+            "Kopfzeile: Fach, Thema der Vorlesung, Datum",
+            "Kopfzeile: Fach, Thema der Vorlesung, Datum"
+          ],
+          [
+            "NACH der Vorlesung ausfüllen: Fragen, Schlüsselbegriffe, Namen, Paragrafen, zu denen du abgefragt werden willst",
+            "WÄHREND der Vorlesung ausfüllen: Kernaussagen, Definitionen, Beispiele, Skizzen; Stichpunkte statt ganzer Sätze"
+          ],
+          [
+            "Ein Stichwort pro Gedanke, auf Höhe der zugehörigen Notiz",
+            "Zwischen zwei Gedanken eine Zeile frei lassen, damit die Stichworte Platz haben"
+          ],
+          [
+            "Zusammenfassung (volle Breite, ≈ 5 cm, unten)",
+            "3 bis 4 Sätze in eigenen Worten: worum es auf der Seite geht und warum es wichtig ist"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Warum die Stichworte links stehen",
+        "body": "Pauk hat die Stichworte links platziert, damit du das Blatt knicken oder die Notizenspalte abdecken kannst und nur noch die Fragen siehst. Wenn du die Vorlage digital baust, behalte diese Eigenschaft bei: Die Stichworte müssen lesbar bleiben, während die Notizen verdeckt sind."
+      }
+    },
+    {
+      "id": "five-rs",
+      "h2": "Was sind die 5 R der Cornell-Methode?",
+      "body": "Die 5 R der Cornell-Methode sind die fünf Schritte, die Pauk für die Arbeit mit der Seite vorsah: Record (festhalten), Reduce (verdichten), Recite (aufsagen), Reflect (reflektieren) und Review (wiederholen). Die Vorlage ist nur das Gefäß, die 5 R sind die Methode.",
+      "steps": [
+        {
+          "strategy": "Festhalten (Record)",
+          "detail": "Notiere während der Vorlesung im Hörsaal oder im Livestream die Kernaussagen und die Fakten dazu in der Notizenspalte. Kürze ab, schreib Stichpunkte und lass weg, was ohnehin auf den Folien steht, die im ILIAS oder Stud.IP hochgeladen werden."
+        },
+        {
+          "strategy": "Verdichten (Reduce)",
+          "detail": "So bald wie möglich nach der Vorlesung, am besten am selben Tag, liest du deine Notizen und machst aus jedem Gedanken eine Frage oder einen Schlüsselbegriff in der Stichwortspalte. Danach schreibst du die Zusammenfassung unten."
+        },
+        {
+          "strategy": "Aufsagen (Recite)",
+          "detail": "Deck die Notizenspalte ab. Lies jedes Stichwort und beantworte es laut in eigenen Worten. Aufdecken, prüfen und jedes verpasste Stichwort markieren."
+        },
+        {
+          "strategy": "Reflektieren (Reflect)",
+          "detail": "Frag dich, wie die Vorlesung mit früheren Sitzungen, der Pflichtlektüre oder einer möglichen Klausurfrage zusammenhängt. Schreib diese Verbindungen an den Rand oder in die Zusammenfassung."
+        },
+        {
+          "strategy": "Wiederholen (Review)",
+          "detail": "Nimm dir pro Woche etwa zehn Minuten, um anhand der Stichwortspalten älterer Seiten aufzusagen, zuerst die Stichworte, die du verpasst hast."
+        }
+      ]
+    },
+    {
+      "id": "copy-paste-template",
+      "h2": "Cornell-Vorlage zum Kopieren und Einfügen",
+      "body": "Das ist eine Cornell Notizen Vorlage als reiner Text im Markdown-Format. Kopiere sie in Notion, Obsidian, Google Docs (aktiviere **Tools > Einstellungen > Markdown aktivieren** und wähle dann per Rechtsklick **Aus Markdown einfügen**) oder eine andere Notiz-App. Einfaches Markdown kennt keine Spalten nebeneinander, deshalb stehen die Stichworte als eigener Abschnitt über den Notizen. Jedes Stichwort ist passend zu einer Notiz nummeriert, damit der Selbsttest funktioniert.",
+      "callout": {
+        "type": "note",
+        "label": "Cornell-Vorlage zum Kopieren (Markdown)",
+        "body": "# [Fach] | [Thema der Vorlesung] | [Datum]\n\n## Stichworte (nach der Vorlesung ausfüllen)\n\nF1: [Frage, die der erste Gedanke beantwortet]\n\nF2: [Schlüsselbegriff, Name oder Paragraf zum Merken]\n\nF3: [Frage, die in der Klausur kommen könnte]\n\n## Notizen (während der Vorlesung ausfüllen)\n\nN1: [Kernaussage in Stichpunkten]\n\nN2: [Definition, Fakt oder Beispiel]\n\nN3: [Beschreibung der Skizze, Foliennummer]\n\n## Zusammenfassung (3 bis 4 Sätze, eigene Worte)\n\n[Worum ging es und warum ist es wichtig]\n\n## Verpasste Stichworte zum Wiederholen\n\n[Nummern der Fragen, die du nicht beantworten konntest]"
+      }
+    },
+    {
+      "id": "recreate-template",
+      "h2": "Wie erstellt man eine Cornell-Vorlage in Google Docs, Notion, Word oder GoodNotes?",
+      "body": "Eine wiederverwendbare Cornell-Vorlage baust du in jeder dieser Apps in etwa fünf Minuten. Einmal anlegen, dann für jede Vorlesung duplizieren.",
+      "subsections": [
+        {
+          "h3": "Google Docs",
+          "body": "Geh auf **Einfügen > Tabelle** und leg eine Tabelle mit 2 x 3 Zellen an. In die obere Zeile kommen Fach und Datum, in die mittlere Stichworte und Notizen, und die untere Zeile verbindest du (beide Zellen markieren, Rechtsklick, **Zellen verbinden**) für die Zusammenfassung. Unter **Format > Tabelle > Tabelleneigenschaften** setzt du die linke Spalte auf etwa 5 cm und die rechte auf 11 cm bei Standardrändern. Nenn die Datei „Cornell-Vorlage“ und nutze vor jeder Vorlesung **Datei > Kopie erstellen**."
+        },
+        {
+          "h3": "Notion",
+          "body": "Tippe **/2 columns** (in der deutschen Oberfläche „2 Spalten“), um zwei Blöcke nebeneinander anzulegen, und zieh den Trenner, bis die linke Spalte etwa 30 % breit ist. Setz die Überschrift „Stichworte“ links und „Notizen“ rechts, darunter einen Callout-Block für die Zusammenfassung. Zum Wiederverwenden legst du eine Datenbank „Vorlesungen“ an, klickst auf den Pfeil neben **Neu**, wählst **Neue Vorlage** und fügst das Layout dort ein."
+        },
+        {
+          "h3": "Microsoft Word",
+          "body": "Mit **Einfügen > Tabelle** erstellst du ein 2 x 3-Raster, verbindest die untere Zeile über **Layout > Zellen verbinden** und stellst die Spaltenbreiten unter **Layout > Eigenschaften > Spalte** ein. Entferne die äußeren Rahmenlinien, wenn es wie Papier aussehen soll. Dann **Datei > Speichern unter** und **Word-Vorlage (.dotx)** wählen: Jedes neue Dokument startet im Cornell-Layout."
+        },
+        {
+          "h3": "GoodNotes und Notability",
+          "body": "**GoodNotes** hat Cornell-Papier unter seinen eingebauten Vorlagen, auch in DIN A4. Öffne in einem Notizbuch das Menü **Mehr** in der Symbolleiste, wähle **Vorlage ändern** und such dir eine Cornell-Seite in passender Größe und Farbe aus. In **Notability** exportierst du am zuverlässigsten die oben erstellte Word- oder Google-Docs-Version als PDF und importierst sie, oder du ziehst die zwei Linien einmal mit dem Lineal und kopierst diese Seite für jede Vorlesung."
+        }
+      ]
+    },
+    {
+      "id": "cornell-example",
+      "h2": "Wie sieht ein ausgefülltes Beispiel für die Cornell-Methode aus?",
+      "body": "Hier ist ein vollständiges Beispiel für die Cornell-Methode aus einer Vorlesung BGB Allgemeiner Teil zum Trennungs- und Abstraktionsprinzip, Pflichtstoff im ersten Semester Jura an jeder deutschen Uni und an der FernUni Hagen. Achte darauf, dass die Stichworte Fragen sind, keine Überschriften. „Abstraktionsprinzip“ sagt dir, worum es geht; „Was passiert mit der Übereignung, wenn der Kaufvertrag nichtig ist?“ zwingt dich, die Antwort abzurufen.",
+      "table": {
+        "headers": [
+          "Stichworte",
+          "Notizen: BGB AT, Vorlesung 8, Trennungs- und Abstraktionsprinzip"
+        ],
+        "rows": [
+          [
+            "Was besagt das Trennungsprinzip?",
+            "Verpflichtungsgeschäft und Verfügungsgeschäft sind zwei getrennte Rechtsgeschäfte. Beim Kauf: Kaufvertrag (§ 433 BGB) plus Übereignung der Sache und Übereignung des Geldes."
+          ],
+          [
+            "Wie wird eine bewegliche Sache übereignet?",
+            "§ 929 S. 1 BGB: Einigung über den Eigentumsübergang plus Übergabe."
+          ],
+          [
+            "Was besagt das Abstraktionsprinzip?",
+            "Die Wirksamkeit der Verfügung hängt nicht von der Wirksamkeit des Verpflichtungsgeschäfts ab. Ist der Kaufvertrag nichtig, kann die Übereignung trotzdem wirksam sein."
+          ],
+          [
+            "Klassisches Beispiel?",
+            "Minderjähriger kauft ohne Zustimmung der Eltern: Kaufvertrag schwebend unwirksam (§§ 107, 108 BGB), Übereignung an ihn aber wirksam, weil lediglich rechtlich vorteilhaft."
+          ],
+          [
+            "Wie wird rückabgewickelt?",
+            "Über das Bereicherungsrecht: Leistungskondiktion nach § 812 Abs. 1 S. 1 Alt. 1 BGB, weil der Rechtsgrund fehlt."
+          ],
+          [
+            "Klausurbezug?",
+            "Der Prof hat angekündigt: Fall mit nichtigem Kaufvertrag, Prüfung von Herausgabeanspruch nach § 985 und § 812 BGB."
+          ],
+          [
+            "ZUSAMMENFASSUNG",
+            "Das deutsche Recht trennt Verpflichtung und Verfügung und macht die Verfügung von der Verpflichtung unabhängig. Deshalb bleibt Eigentum auch bei nichtigem Vertrag übertragen; ausgeglichen wird über § 812 BGB. Mit der nächsten Vorlesung zur Geschäftsfähigkeit verknüpfen."
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "Warum dieses Beispiel funktioniert",
+        "body": "Die Stichworte sind in eigenen Worten formuliert, jedes verweist auf genau eine Notiz, und die Zusammenfassung verbindet die Vorlesung mit dem weiteren Semester. Eine Zusammenfassung, die nur Themen aufzählt („Trennung, Abstraktion, § 812“), würde den Schritt Reflektieren nicht bestehen."
+      }
+    },
+    {
+      "id": "cornell-from-transcript",
+      "h2": "Wie erstellt man Cornell-Notizen aus einem Vorlesungstranskript?",
+      "body": "Cornell-Notizen aus einem Transkript entstehen, indem du das Transkript als Schritt Festhalten nutzt und Verdichten, Aufsagen und Reflektieren selbst erledigst. Das ist ein Arbeitsablauf, keine automatische Funktion: LessonScriptor transkribiert die Vorlesung in einem Seitenbereich von Chrome, und du überträgst danach die wichtigen Zeilen in deine Cornell-Seite. Nichts formatiert die Seite für dich, und das ist Absicht, denn beim Verdichten lernst du.\n\nDer Ablauf eignet sich für Vorlesungsaufzeichnungen in ILIAS, Moodle, Stud.IP oder Opencast, für Videos der FernUni Hagen, Kurse auf YouTube oder Coursera sowie für Live-Veranstaltungen über Zoom, Webex im Browser oder BigBlueButton.",
+      "steps": [
+        {
+          "strategy": "Vorlesung transkribieren",
+          "detail": "Öffne die Vorlesung in Chrome und starte LessonScriptor im Seitenbereich. Der kostenlose Modus nutzt die Spracherkennung des Browsers über das Mikrofon: Lautsprecher auf etwa 80 % Lautstärke und keine Kopfhörer. Der KI-Modus nimmt den Ton direkt aus dem Tab auf, funktioniert mit Kopfhörern und kommt besser mit Akzenten und Fachbegriffen zurecht (30 Minuten kostenlos testen, danach einmalige Pakete ab 5 US-Dollar; Stripe zeigt den Betrag in Euro an)."
+        },
+        {
+          "strategy": "Schlüsselzeilen beim Zuhören markieren",
+          "detail": "Statt mitzuschreiben, markierst du wichtige Sätze im Transkript (5 Farben), setzt Definitionen fett und fügst eine Überschrift ein, wenn der Dozent das Thema wechselt. Mach einen Screenshot von Folien, die du brauchst."
+        },
+        {
+          "strategy": "Transkript exportieren",
+          "detail": "Exportiere als .md (oder .txt, oder kopiere in die Zwischenablage) und öffne deine Cornell-Vorlage daneben."
+        },
+        {
+          "strategy": "In die Notizenspalte verdichten",
+          "detail": "Übernimm nur die markierten Zeilen in die Notizenspalte und kürze jede auf einen Stichpunkt. Eine 90-minütige Vorlesung ergibt Tausende Wörter Transkript; deine Notizenspalte sollte auf ein bis zwei Seiten passen."
+        },
+        {
+          "strategy": "Stichworte und Zusammenfassung schreiben",
+          "detail": "Schreib pro Notiz eine Frage in die Stichwortspalte, danach die Zusammenfassung in 3 bis 4 Sätzen. Sag die Antworten bei abgedeckten Notizen auf, bevor du die Seite schließt."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Warum das bei ADHS passt",
+        "body": "Die Mitschrift läuft von allein, also geht deine Aufmerksamkeit an die Schritte, die wirklich Gedächtnis aufbauen: auswählen, was zählt, daraus Fragen machen und dich selbst abfragen. Du musst deinen Fokus nicht mehr zwischen Zuhören und Handschrift aufteilen, und genau das ist der Teil der Cornell-Methode, der vielen Studierenden mit ADHS am schwersten fällt."
+      },
+      "internal_links": [
+        {
+          "text": "Aus einem Vorlesungstranskript Fragen zum aktiven Abrufen machen",
+          "url": "/blog/active-recall-lecture-transcript"
+        },
+        {
+          "text": "KI-Notiz-Tools, die auch bei aufgezeichneten Vorlesungen funktionieren",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "id": "adhd-cornell",
+      "h2": "Wie passt man die Cornell-Methode bei ADHS an?",
+      "body": "Studierende mit ADHS können die Cornell-Methode nutzen, aber die klassische Version verlangt in der Vorlesung drei Dinge gleichzeitig: zuhören, auswählen und schnell schreiben. Das Arbeitsgedächtnis ist der Engpass. Diese Anpassungen behalten die Struktur bei und nehmen die Überlastung heraus.",
+      "subsections": [
+        {
+          "h3": "Festhalten und Verarbeiten trennen",
+          "body": "Versuch nicht, die Notizenspalte live zu füllen. Lass ein Transkript oder die Aufzeichnung den Schritt Festhalten übernehmen und plane Verdichten als eigene kurze Einheit am selben Tag."
+        },
+        {
+          "h3": "Das Verdichten zeitlich begrenzen",
+          "body": "Stell einen 25-Minuten-Timer und bearbeite pro Block einen Abschnitt der Vorlesung. Eine fertige halbe Seite ist mehr wert als eine abgebrochene ganze."
+        },
+        {
+          "h3": "Die Zusammenfassung auf drei Sätze begrenzen",
+          "body": "Ein leeres Feld lädt zum Perfektionismus ein. Drei Sätze, einer für das Was, einer für das Warum und einer für den Zusammenhang, reichen für den Schritt Reflektieren."
+        },
+        {
+          "h3": "Farbe als Stichwortsystem nutzen",
+          "body": "Gib jeder Farbe eine Aufgabe, etwa Gelb für Definitionen und Blau für klausurrelevante Punkte. Dann überfliegst du eine Seite in Sekunden, statt sie neu zu lesen."
+        },
+        {
+          "h3": "Laut oder zu zweit aufsagen",
+          "body": "Wenn du die Stichworte laut beantwortest oder mit einer Lerngruppe per Discord oder Videocall, wird das Aufsagen nicht zum stillen Wiederlesen."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Die ADHS-Notizvorlage (Erfassen, Fragen, Festigen)",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Mitschreiben mit ADHS: so klappt es",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "cornell-vs-other-methods",
+      "h2": "Cornell-Methode oder andere Mitschrift-Methoden: was passt wann?",
+      "body": "Die Cornell-Methode ist die beste Allzweck-Methode, wenn du für Klausuren lernen musst, weil der Selbsttest eingebaut ist. Andere Methoden gewinnen in bestimmten Situationen.",
+      "table": {
+        "headers": [
+          "Methode",
+          "Am besten für",
+          "Schwachstelle"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Vorlesungen mit Klausur; eingebaute Selbstabfrage",
+            "Braucht eine Nachbereitung nach der Vorlesung"
+          ],
+          [
+            "Gliederung",
+            "Gut strukturierte Vorlesungen mit klaren Abschnitten",
+            "Kein Abrufschritt; man liest nur wieder"
+          ],
+          [
+            "Mindmap",
+            "Zusammenhänge zwischen Begriffen sehen, Hausarbeiten planen",
+            "Schwer durchzuhalten, wenn der Dozent schnell spricht"
+          ],
+          [
+            "Tabelle",
+            "Mehrere Dinge nach denselben Kriterien vergleichen (Theorien, Autoren, Länder)",
+            "Funktioniert nur, wenn der Stoff in ein Raster passt"
+          ],
+          [
+            "Fließtext",
+            "Schnelle, wenig strukturierte Vorlesungen",
+            "Ergibt lange, mühsam zu wiederholende Notizen"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Alle Mitschrift-Methoden im Vergleich",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Kurz gesagt",
+    "body": "Eine Cornell Notizen Vorlage besteht aus Stichwortspalte, Notizenspalte und Zusammenfassungsfeld, und die Methode dahinter sind Pauks 5 R. Kopiere die Vorlage oben in Docs, Notion, Word oder GoodNotes, fülle die Stichworte nach der Vorlesung statt währenddessen und sag sie jede Woche auf. Wenn das Mitschreiben beim Zuhören der Schritt ist, der bei dir scheitert, lass ein Transkript die Mitschrift übernehmen und spar deine Konzentration für die Stichworte.",
+    "internal_links": [
+      {
+        "text": "Lern-Tools für Studierende mit ADHS",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Cornell-Methode: häufige Fragen",
+    "questions": [
+      {
+        "question": "Ist die Cornell-Methode gut bei ADHS?",
+        "answer": "Die Cornell-Methode ist gut bei ADHS, wenn du Festhalten und Verarbeiten trennst. Stichwortspalte und Zusammenfassung geben eine klare Struktur und einen eingebauten Selbsttest. Was meist scheitert, ist das Live-Mitschreiben beim Zuhören. Viele Studierende mit ADHS transkribieren deshalb die Vorlesung und füllen die Cornell-Seite danach in kurzen, getimten Einheiten."
+      },
+      {
+        "question": "Cornell-Methode oder Gliederung: was ist besser?",
+        "answer": "Die Cornell-Methode ist besser für die Klausurvorbereitung, weil die Stichwortspalte deine Notizen in einen Selbsttest verwandelt. Die Gliederung ist schneller geschrieben und passt zu klar strukturierten Vorlesungen, hat aber keinen Abrufschritt. Viele Studierende gliedern in der Notizenspalte und ergänzen die Cornell-Stichworte danach."
+      },
+      {
+        "question": "Was sind die 5 R der Cornell-Methode?",
+        "answer": "Die 5 R der Cornell-Methode sind Record, Reduce, Recite, Reflect und Review: festhalten, verdichten, aufsagen, reflektieren und wiederholen. Du hältst in der Vorlesung fest, verdichtest danach zu Stichworten und Zusammenfassung, sagst bei abgedeckten Notizen auf, verknüpfst den Stoff und wiederholst ältere Seiten wöchentlich."
+      },
+      {
+        "question": "Welche Maße hat eine Cornell-Vorlage auf DIN A4?",
+        "answer": "Auf DIN A4 nutzt die Cornell-Vorlage etwa 6 cm für die Stichwortspalte, 15 cm für die Notizenspalte und 5 cm für die Zusammenfassung unten. Das entspricht Pauks Originalmaßen in Zoll (2,5, 6 und 2). Digital reicht ein Verhältnis von etwa 30 zu 70 zwischen Stichworten und Notizen."
+      },
+      {
+        "question": "Gibt es eine Cornell-Vorlage in Word oder Google Docs?",
+        "answer": "Weder Word noch Google Docs haben eine eingebaute Cornell-Vorlage, aber du erstellst sie in fünf Minuten mit einer 2 x 3-Tabelle: Kopfzeile, Zeile für Stichworte und Notizen und eine verbundene Zeile für die Zusammenfassung. In Word speicherst du sie als .dotx, in Google Docs nutzt du eine Master-Datei und Datei > Kopie erstellen."
+      },
+      {
+        "question": "Kann man Cornell-Notizen aus einem Vorlesungstranskript machen?",
+        "answer": "Ja. Das Transkript übernimmt den Schritt Festhalten: Transkribiere die Vorlesung mit einem Tool wie LessonScriptor, markiere die Schlüsselzeilen, exportiere sie als .md, übertrage sie in die Notizenspalte und schreib Stichworte und Zusammenfassung selbst. Das Tool erstellt die Cornell-Seite nicht für dich."
+      },
+      {
+        "question": "Wer hat die Cornell-Methode erfunden?",
+        "answer": "Walter Pauk hat die Cornell-Methode in den 1950er-Jahren entwickelt, als er das Reading and Study Center der Cornell University leitete. Veröffentlicht hat er sie in How to Study in College, das erstmals 1962 erschien."
+      }
+    ]
+  },
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/adhd-note-taking-template",
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/note-taking-methods",
+      "/blog/active-recall-lecture-transcript",
+      "/blog/ai-note-taker-for-lectures"
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Cornell-Methode: kostenlose Notizen-Vorlage, ausgefülltes Beispiel und Anleitung",
+      "description": "Cornell Notizen Vorlage zum Kopieren in Google Docs, Notion oder Word, mit ausgefülltem Beispiel, den 5 R der Cornell-Methode und einer Version für ADHS.",
+      "inLanguage": "de",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/de/blog/cornell-methode-vorlage"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Ist die Cornell-Methode gut bei ADHS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Cornell-Methode ist gut bei ADHS, wenn du Festhalten und Verarbeiten trennst. Stichwortspalte und Zusammenfassung geben eine klare Struktur und einen eingebauten Selbsttest. Was meist scheitert, ist das Live-Mitschreiben beim Zuhören. Viele Studierende mit ADHS transkribieren deshalb die Vorlesung und füllen die Cornell-Seite danach in kurzen, getimten Einheiten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cornell-Methode oder Gliederung: was ist besser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Cornell-Methode ist besser für die Klausurvorbereitung, weil die Stichwortspalte deine Notizen in einen Selbsttest verwandelt. Die Gliederung ist schneller geschrieben und passt zu klar strukturierten Vorlesungen, hat aber keinen Abrufschritt. Viele Studierende gliedern in der Notizenspalte und ergänzen die Cornell-Stichworte danach."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was sind die 5 R der Cornell-Methode?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die 5 R der Cornell-Methode sind Record, Reduce, Recite, Reflect und Review: festhalten, verdichten, aufsagen, reflektieren und wiederholen. Du hältst in der Vorlesung fest, verdichtest danach zu Stichworten und Zusammenfassung, sagst bei abgedeckten Notizen auf, verknüpfst den Stoff und wiederholst ältere Seiten wöchentlich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Maße hat eine Cornell-Vorlage auf DIN A4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Auf DIN A4 nutzt die Cornell-Vorlage etwa 6 cm für die Stichwortspalte, 15 cm für die Notizenspalte und 5 cm für die Zusammenfassung unten. Das entspricht Pauks Originalmaßen in Zoll (2,5, 6 und 2). Digital reicht ein Verhältnis von etwa 30 zu 70 zwischen Stichworten und Notizen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es eine Cornell-Vorlage in Word oder Google Docs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Weder Word noch Google Docs haben eine eingebaute Cornell-Vorlage, aber du erstellst sie in fünf Minuten mit einer 2 x 3-Tabelle: Kopfzeile, Zeile für Stichworte und Notizen und eine verbundene Zeile für die Zusammenfassung. In Word speicherst du sie als .dotx, in Google Docs nutzt du eine Master-Datei und Datei > Kopie erstellen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann man Cornell-Notizen aus einem Vorlesungstranskript machen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Das Transkript übernimmt den Schritt Festhalten: Transkribiere die Vorlesung mit einem Tool wie LessonScriptor, markiere die Schlüsselzeilen, exportiere sie als .md, übertrage sie in die Notizenspalte und schreib Stichworte und Zusammenfassung selbst. Das Tool erstellt die Cornell-Seite nicht für dich."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wer hat die Cornell-Methode erfunden?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walter Pauk hat die Cornell-Methode in den 1950er-Jahren entwickelt, als er das Reading and Study Center der Cornell University leitete. Veröffentlicht hat er sie in How to Study in College, das erstmals 1962 erschien."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Wie man Notizen mit der Cornell-Methode macht",
+      "description": "Die Cornell-Methode teilt jede Seite in drei Bereiche: eine schmale Stichwortspalte links, eine breite Notizenspalte rechts und ein Zusammenfassungsfeld unten. Die Vorlage in diesem Artikel überträgst du in unter fünf Minuten nach Google Docs, Notion, Word oder GoodNotes.",
+      "inLanguage": "de",
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "DIN-A4-Papier oder Notiz-App"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Docs"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Notion"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Microsoft Word"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "GoodNotes"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Layout anlegen",
+          "text": "Teile die Seite in eine etwa 6 cm breite Stichwortspalte links, eine etwa 15 cm breite Notizenspalte rechts und ein etwa 5 cm hohes Zusammenfassungsfeld unten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Festhalten (Record)",
+          "text": "Notiere während der Vorlesung im Hörsaal oder im Livestream die Kernaussagen und die Fakten dazu in der Notizenspalte. Kürze ab, schreib Stichpunkte und lass weg, was ohnehin auf den Folien steht, die im ILIAS oder Stud.IP hochgeladen werden."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Verdichten (Reduce)",
+          "text": "So bald wie möglich nach der Vorlesung, am besten am selben Tag, liest du deine Notizen und machst aus jedem Gedanken eine Frage oder einen Schlüsselbegriff in der Stichwortspalte. Danach schreibst du die Zusammenfassung unten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Aufsagen (Recite)",
+          "text": "Deck die Notizenspalte ab. Lies jedes Stichwort und beantworte es laut in eigenen Worten. Aufdecken, prüfen und jedes verpasste Stichwort markieren."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Reflektieren (Reflect)",
+          "text": "Frag dich, wie die Vorlesung mit früheren Sitzungen, der Pflichtlektüre oder einer möglichen Klausurfrage zusammenhängt. Schreib diese Verbindungen an den Rand oder in die Zusammenfassung."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Wiederholen (Review)",
+          "text": "Nimm dir pro Woche etwa zehn Minuten, um anhand der Stichwortspalten älterer Seiten aufzusagen, zuerst die Stichworte, die du verpasst hast."
+        }
+      ]
+    }
+  ]
+}

@@ -2,81 +2,280 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Comment transcrire automatiquement des vidéos de cours",
-  "reading_time_min": 7,
+  "h1": "Transcription de cours en ligne : comment transcrire une vidéo de cours (5 méthodes)",
+  "reading_time_min": 12,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "Transcription de cours en ligne : 5 méthodes comparées",
+    "description": "Transcription de cours en ligne sur Moodle, Panopto, YouTube ou Zoom : 5 méthodes comparées pour obtenir un texte modifiable sans télécharger la vidéo.",
     "keywords": [
-      "transcribe lecture video",
-      "automatic lecture transcription",
-      "lecture to text"
+      "transcription cours en ligne",
+      "transcrire une vidéo",
+      "transcrire un cours",
+      "transcription vidéo de cours",
+      "transcrire un cours en texte",
+      "enregistrer un cours à la fac"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l’anthropologie et a un TDAH. Pierre s’occupe du développement et du SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct, depuis le sud de la France. Victoria suit des études d'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "La façon la plus rapide de transcrire automatiquement une vidéo de cours est d'utiliser LessonScriptor — une extension Chrome gratuite qui transcrit n'importe quelle vidéo en temps réel, directement dans votre navigateur. Sans upload, sans attente, sans abonnement.",
+  "tldr": {
+    "label": "À retenir",
+    "lead": "La transcription de cours consiste à transformer la parole d'un enseignant en texte que l'on peut relire et chercher. La bonne méthode dépend d'une seule question : avez-vous le fichier vidéo, ou seulement une vidéo en streaming que vous pouvez regarder ?",
+    "bullets": [
+      "**La transcription manuelle** demande environ 4 heures de frappe par heure d'audio. Elle ne vaut le coup que pour une citation courte qu'il vous faut mot pour mot.",
+      "**Les sous-titres automatiques de YouTube** et **ceux de votre plateforme de cours** (Pod, Panopto, Kaltura intégré à Moodle) sont gratuits quand l'établissement ou l'auteur de la vidéo les a activés. On les lit dans le lecteur, et les options d'export varient.",
+      "**Les outils d'import de fichier** comme Otter.ai ou TurboScribe sont précis, mais il leur faut un fichier audio ou vidéo. La plupart des cours en ligne des universités ne se téléchargent pas.",
+      "**La transcription en direct dans le navigateur** (LessonScriptor) transforme ce qui est lu dans un onglet Chrome en transcription modifiable. Pas de fichier, pas de téléchargement, pas d'enregistrement.",
+      "Enregistrer un cours demande en général l'accord de l'enseignant. Un aménagement obtenu via la mission handicap de votre université peut vous donner droit à des supports, à un preneur de notes ou à des enregistrements."
+    ]
+  },
+  "intro": "Le moyen le plus rapide de faire la transcription d'un cours en ligne est de lire la vidéo dans Chrome avec une extension de transcription en direct comme LessonScriptor : l'audio devient un texte modifiable pendant que la vidéo tourne, sans fichier à importer ni téléchargement. C'est important, parce que la plupart des vidéos de cours sont hébergées sur Moodle, Pod, Panopto ou Zoom, où le bouton de téléchargement est généralement désactivé. Les outils qui fonctionnent par import, comme Otter.ai ou TurboScribe, ne peuvent rien faire sans fichier. Ce guide compare les cinq façons réalistes de transcrire une vidéo de cours : la frappe manuelle, les sous-titres automatiques de YouTube, les sous-titres intégrés aux plateformes de cours, les outils d'import et la transcription en direct dans le navigateur. Il détaille ensuite la marche à suivre plateforme par plateforme, avec des conseils de précision et un point sur les règles d'enregistrement à la fac.",
   "sections": [
     {
-      "h2": "Pourquoi la prise de notes manuelle échoue pendant les cours",
-      "body": "Écrire à la main pendant un cours vous oblige à partager votre attention entre écouter, comprendre et écrire — souvent les trois en même temps. Les recherches montrent systématiquement que les étudiants qui transcrivent les cours mot pour mot retiennent moins le contenu que ceux qui s'y engagent activement. Le problème n'est pas la discipline. C'est l'outil. Quand vous êtes occupé à écrire, vous n'apprenez pas."
+      "id": "what-is-lecture-transcription",
+      "h2": "Qu'est-ce que la transcription d'un cours en ligne ?",
+      "body": "La transcription d'un cours, c'est la conversion de ce que dit l'enseignant en texte écrit, soit mot pour mot, soit sous une forme nettoyée dont on se sert pour réviser. Pour un étudiant, elle libère votre attention de la prise de notes pendant le cours, elle rend un CM de 2 heures consultable en quelques secondes avec une simple recherche, et elle fournit une matière première pour les fiches de révision que vous construisez ensuite vous-même.\n\nQuand on cherche « comment transcrire une vidéo », on est en général dans l'une de ces deux situations. Soit vous **avez le fichier** (un MP4 filmé au téléphone, un enregistrement Zoom téléchargé, un podcast). Soit vous **n'avez qu'un flux** (une rediffusion sur Moodle ou Pod, une vidéo Panopto, un MOOC sur FUN MOOC, une classe virtuelle du CNED). Le premier cas est simple et beaucoup d'outils le gèrent. Le second est celui où la plupart des étudiants bloquent, parce que la plateforme ne permet de rien télécharger."
     },
     {
-      "h2": "Comment fonctionne la transcription IA dans un navigateur",
-      "body": "LessonScriptor utilise deux moteurs de transcription. Le mode gratuit utilise la Web Speech API, intégrée à Chrome, qui traite l'audio en local sur votre appareil — rien ne quitte jamais votre ordinateur. Le mode premium capture l'audio directement depuis l'onglet du navigateur et l'envoie à un modèle d'IA cloud pour la transcription, retournant un texte d'une grande précision en quelques secondes."
+      "id": "methods-compared",
+      "h2": "Quelles sont les méthodes pour transcrire une vidéo de cours ?",
+      "body": "Il existe cinq méthodes pratiques. Elles se distinguent surtout sur deux points : ont-elles besoin d'un fichier, et qu'obtenez-vous à la fin ? Une piste de sous-titres que vous ne pouvez lire que dans le lecteur, ou un document que vous pouvez modifier et exporter.",
+      "table": {
+        "headers": ["Méthode", "Fichier téléchargeable nécessaire ?", "Coût", "Ce que vous obtenez", "Idéal pour"],
+        "rows": [
+          ["Frappe manuelle", "Non", "Gratuit, environ 4 h par heure d'audio", "Texte exact, très lent", "Citations courtes"],
+          ["Sous-titres automatiques YouTube", "Non, mais la vidéo doit être sur YouTube", "Gratuit", "Panneau de transcription dans YouTube, copier-coller", "Cours publics, conférences en ligne, chaînes de vulgarisation"],
+          ["Sous-titres des plateformes de cours (Pod, Panopto, Kaltura)", "Non", "Gratuit si l'établissement les a activés", "Sous-titres dans le lecteur, parfois consultables par recherche", "Vérifier un terme dans vos propres vidéos de cours"],
+          ["Outils d'import (Otter.ai, TurboScribe)", "Oui", "Offres gratuites, puis abonnement", "Transcription complète après traitement", "Enregistrements au Dictaphone, MP4 téléchargés"],
+          ["En direct dans le navigateur (LessonScriptor)", "Non", "Mode gratuit, mode IA dès 5 $ en paiement unique", "Transcription modifiable avec surlignages et captures d'écran, export .txt/.md", "Vidéos impossibles à télécharger, cours en direct"]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "La question qui tranche",
+        "body": "Si vous pouvez télécharger la vidéo, un outil d'import fait très bien l'affaire. Si vous pouvez seulement appuyer sur lecture, il vous faut soit les sous-titres de la plateforme, soit un outil qui transcrit ce qui est lu dans l'onglet."
+      }
     },
     {
-      "h2": "Étape par étape : comment transcrire une vidéo de cours avec LessonScriptor",
+      "id": "manual",
+      "h2": "Transcrire un cours à la main, est-ce que ça vaut le coup ?",
+      "body": "Transcrire un cours entier à la main en vaut rarement la peine. Les transcripteurs professionnels comptent environ quatre heures de travail par heure d'audio clair, et un étudiant sans pédale ni raccourcis clavier va plus lentement encore. Un CM d'1 h 30 peut vous prendre la journée.\n\nLa frappe manuelle garde un intérêt pour une définition précise, une citation pour un dossier ou un mémoire, ou un passage où les mots exacts comptent. Ralentissez la lecture à 0,75 dans les paramètres du lecteur, tapez par petites séquences et faites une pause après chaque phrase."
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "Comment récupérer la transcription automatique d'une vidéo YouTube ?",
+      "body": "Les sous-titres automatiques de YouTube sont une transcription gratuite générée par YouTube pour la plupart des vidéos, dans les langues prises en charge, dont le français. C'est l'option la plus simple pour les cours publics, les conférences mises en ligne par les universités, les chaînes de vulgarisation ou les cours en anglais du MIT OpenCourseWare. Leurs limites : l'auteur peut les désactiver, la ponctuation est souvent approximative, et les termes techniques comme les noms propres sont régulièrement déformés.",
       "steps": [
-        "Installez LessonScriptor depuis le Chrome Web Store — c'est gratuit, sans inscription.",
-        "Ouvrez votre vidéo de cours dans Chrome (YouTube, Coursera, enregistrement Zoom, portail universitaire ou toute plateforme vidéo).",
-        "Cliquez sur l'icône LessonScriptor dans la barre d'outils Chrome pour ouvrir le panneau latéral.",
-        "Lancez la lecture de la vidéo — la transcription démarre automatiquement et le texte apparaît en temps réel.",
-        "Modifiez en regardant : cliquez pour ajouter vos propres notes, surlignez les concepts clés en couleur, mettez en gras la terminologie, supprimez les digressions.",
-        "Cliquez sur n'importe quel horodatage dans la transcription pour revenir à ce moment précis de la vidéo.",
-        "Une fois terminé, exportez en Markdown pour obtenir un document formaté avec tous vos surlignages et votre mise en forme."
+        "Ouvrez la vidéo sur youtube.com dans un navigateur d'ordinateur.",
+        "Cliquez sur **...plus** sous le titre de la vidéo pour déplier la description.",
+        "Faites défiler et cliquez sur **Afficher la transcription**. Un panneau s'ouvre avec le texte et ses horodatages YouTube.",
+        "Utilisez le menu à trois points du panneau pour masquer les horodatages, puis sélectionnez le texte et copiez-le dans vos notes."
+      ],
+      "internal_links": [
+        { "text": "Guide complet : télécharger la transcription d'une vidéo YouTube", "url": "/blog/how-to-download-youtube-transcript" }
       ]
     },
     {
-      "h2": "Mode gratuit vs mode Premium — lequel utiliser pour les cours",
-      "body": "Pour la plupart des étudiants, le mode gratuit suffit. Il fonctionne bien dans un environnement calme avec les haut-parleurs allumés. Si vous préférez un casque, ou si vous transcrivez du contenu avec beaucoup de vocabulaire technique, d'accents ou de parole rapide, le mode Premium offre une précision nettement supérieure à environ 1 € de l'heure."
+      "id": "lms-captions",
+      "h2": "Moodle, Pod et Panopto proposent-ils une transcription intégrée ?",
+      "body": "Plusieurs plateformes vidéo utilisées dans l'enseignement supérieur peuvent générer des sous-titres automatiques : Pod (Esup-Pod, très répandu dans les universités françaises), Panopto, Kaltura ou Canvas Studio. Que vous les voyiez ou non dépend des réglages de votre établissement et du fait que l'enseignant les ait publiés. Quand ils existent, c'est la forme de transcription la moins chère. Mais ils restent généralement enfermés dans le lecteur : vous pouvez les lire, parfois y faire une recherche, mais rarement en exporter un document propre.",
+      "subsections": [
+        {
+          "h3": "Moodle (Sorbonne, Lyon, Bordeaux, UCLouvain, UNIGE…)",
+          "body": "Moodle ne sous-titre pas les vidéos lui-même. Que vous soyez sur le Moodle de Sorbonne Université, de l'Université de Lyon, de l'Université de Bordeaux, sur Moodle UCLouvain en Belgique ou sur StudiUM à l'Université de Montréal, le lecteur intégré au cours est presque toujours Pod, Panopto, Kaltura, YouTube ou une simple vidéo HTML5, et les sous-titres viennent de ce service. Cherchez le bouton **CC** dans le lecteur. S'il n'y a rien, un outil de transcription en direct est la solution réaliste."
+        },
+        {
+          "h3": "Pod (Esup-Pod)",
+          "body": "Beaucoup d'universités françaises hébergent leurs rediffusions sur Pod. Selon la configuration de l'établissement, Pod peut proposer une transcription automatique que l'enseignant ajoute à sa vidéo. Pas de bouton de sous-titres dans le lecteur ? Elle n'a pas été générée ou publiée."
+        },
+        {
+          "h3": "Panopto",
+          "body": "Cherchez le bouton **CC** dans les commandes du lecteur. Quand des sous-titres existent, la zone latérale de Panopto permet souvent de chercher un mot prononcé et de sauter à ce passage. Si le bouton CC est absent, l'enseignant n'a pas publié de sous-titres. Vous pouvez lui demander poliment de le faire, surtout si vous bénéficiez d'un aménagement."
+        },
+        {
+          "h3": "Canvas (Canvas Studio)",
+          "body": "Moins courant en France, Canvas est utilisé par certaines écoles, surtout à l'étranger. Les vidéos Canvas Studio affichent un bouton **CC** quand l'enseignant a publié des sous-titres ; les vidéos YouTube ou Panopto intégrées suivent les règles de leur plateforme d'origine."
+        }
+      ]
     },
     {
-      "h2": "Comment réviser à partir de votre transcription",
-      "body": "Une fois le cours transcrit, traitez votre document LessonScriptor comme un guide de révision. Surlignez les concepts les plus importants en jaune. Mettez en gras la terminologie clé. Ajoutez votre propre interprétation entre crochets au fil de votre relecture. Exportez en Markdown et importez dans Notion ou Obsidian pour un archivage à long terme. Faites une recherche plein texte avant les examens. Si vous êtes neurodivergent, la transcription automatique supprime la charge cognitive de la prise de notes simultanée — voir <a href=\"/blog/neurodivergent-study-tools\">les meilleurs outils d'étude pour étudiants neurodivergents</a>."
+      "id": "upload-tools",
+      "h2": "Quels outils transcrivent un fichier d'enregistrement de cours ?",
+      "body": "Les outils d'import sont des services de transcription qui traitent un fichier audio ou vidéo que vous leur fournissez. Otter.ai, TurboScribe, Notta et Descript fonctionnent tous ainsi. Ils produisent de bonnes transcriptions, souvent avec identification des intervenants, et ce sont les bons outils quand vous avez déjà le fichier : un enregistrement fait au Dictaphone pendant un cours en amphi, un enregistrement Zoom que l'enseignant a partagé en MP4, ou un épisode de podcast.\n\nLeur limite pour les étudiants, c'est le fichier d'entrée. Pod, Panopto, Kaltura et la plupart des lecteurs intégrés à Moodle diffusent la vidéo en streaming sans option de téléchargement : il n'y a rien à importer. Filmer son écran pour créer un fichier double le temps passé et peut enfreindre les conditions d'utilisation de votre université.",
+      "internal_links": [
+        { "text": "Alternatives à Otter.ai pour les étudiants", "url": "/blog/otter-ai-alternative-for-students" }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "Comment transcrire un cours en ligne sans télécharger la vidéo ?",
+      "body": "La transcription en direct dans le navigateur est la méthode qui fonctionne quand vous pouvez seulement appuyer sur lecture. LessonScriptor est une extension Chrome qui transcrit l'audio de ce qui est lu dans l'onglet actif (Moodle, Pod, Panopto, Blackboard, YouTube, FUN MOOC, Coursera, un enregistrement Zoom dans le navigateur) dans un panneau latéral, sous forme de transcription que vous pouvez modifier pendant qu'elle se construit. Elle n'importe pas de fichiers et n'enregistre pas l'audio. Elle sauvegarde le texte, pas un enregistrement.\n\nElle propose deux modes. **Le mode gratuit** utilise la reconnaissance vocale intégrée à Chrome, via votre micro. Il ne coûte rien, ne demande aucun compte et n'envoie aucun audio aux serveurs de LessonScriptor. En contrepartie, il faut des haut-parleurs réglés à environ 80 % du volume, il ne fonctionne pas avec un casque ou des écouteurs, et il capte aussi votre propre voix. **Le mode IA** capture directement l'audio de l'onglet : il fonctionne avec un casque et il est bien plus précis sur les accents et le vocabulaire spécialisé. Il coûte 5 $ pour 5 heures, 12 $ pour 15 heures ou 21 $ pour 30 heures, en paiement unique, avec un essai gratuit de 30 minutes. Les prix sont en dollars US et Stripe les convertit en euros (ou dans votre devise) au paiement.",
+      "steps": [
+        "Installez LessonScriptor depuis le Chrome Web Store. Le mode gratuit ne demande aucune inscription.",
+        "Ouvrez votre cours dans Chrome : Moodle, Pod, Panopto, YouTube ou un enregistrement Zoom dans le cloud.",
+        "Cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral et choisissez la langue du cours (14 langues sont prises en charge).",
+        "Lancez la lecture. En mode gratuit, montez le son des haut-parleurs et retirez votre casque. En mode IA, le texte arrive par blocs toutes les 10 secondes (Normal) ou toutes les 30 secondes (Optimal).",
+        "Modifiez en regardant : surlignez les phrases clés dans l'une des cinq couleurs, mettez les termes en gras, ajoutez des titres, supprimez les digressions et faites une capture d'écran d'une diapositive importante.",
+        "Exportez en .md ou .txt, ou copiez le tout dans le presse-papiers pour le coller dans Notion, Obsidian, Google Docs ou un modèle de notes Cornell."
+      ],
+      "internal_links": [
+        { "text": "La transcription de cours dans Chrome, expliquée", "url": "/lecture-transcription" },
+        { "text": "Transcrire une vidéo en texte gratuitement", "url": "/transcribe-video-to-text" }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "Comment transcrire un cours sur chaque plateforme ?",
+      "body": "Voici le chemin le plus court pour les cinq plateformes les plus utilisées par les étudiants francophones, en combinant l'option native et la solution de secours en direct.",
+      "subsections": [
+        {
+          "h3": "Moodle",
+          "body": "Les cours Moodle mélangent Pod, Panopto, Kaltura, YouTube et vidéos simples. Vérifiez d'abord si le lecteur propose des sous-titres, puis passez à LessonScriptor dans le même onglet. L'extension n'a pas besoin de savoir quel lecteur se cache derrière."
+        },
+        {
+          "h3": "Pod et Panopto",
+          "body": "Essayez d'abord le bouton **CC**. Si des sous-titres existent et que vous voulez seulement vérifier un passage, cela suffit. Pour une transcription complète et modifiable, ouvrez la vidéo dans Chrome, ouvrez LessonScriptor et lancez la lecture. Le réglage de vitesse (x1,25 à x1,5) fonctionne en mode IA, même si la précision reste meilleure à vitesse normale."
+        },
+        {
+          "h3": "CNED et FUN MOOC",
+          "body": "Les vidéos et classes virtuelles du CNED, comme les MOOC de FUN MOOC (la plateforme de l'Université Ouverte et des établissements français), se regardent dans le navigateur. Activez les sous-titres s'ils sont proposés. Sinon, ou si vous voulez un texte annoté, lancez LessonScriptor dans l'onglet de la vidéo."
+        },
+        {
+          "h3": "YouTube",
+          "body": "Utilisez **...plus → Afficher la transcription** pour une copie rapide. Passez à LessonScriptor quand les sous-titres sont désactivés ou de mauvaise qualité, ou quand vous voulez des surlignages et des captures d'écran dans la transcription au fil du visionnage."
+        },
+        {
+          "h3": "Enregistrement Zoom",
+          "body": "Si l'enseignant a sauvegardé un enregistrement dans le cloud avec la transcription audio activée, le lecteur web de Zoom affiche une transcription à côté de la vidéo. Sinon, lisez l'enregistrement cloud dans Chrome et utilisez LessonScriptor. Si vous avez seulement un fichier MP4 en local, un outil d'import comme Otter.ai ou TurboScribe est la voie la plus directe."
+        }
+      ],
+      "internal_links": [
+        { "text": "Transcriptions Zoom et Google Meet pour les étudiants", "url": "/blog/zoom-google-meet-transcript-for-students" }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "Comment obtenir une transcription de cours plus précise ?",
+      "body": "La précision d'une transcription dépend davantage de l'audio que de l'outil. Voici les habitudes qui font le plus de différence.",
+      "steps": [
+        { "strategy": "Choisissez d'abord la bonne langue.", "detail": "Un cours en français transcrit avec l'anglais sélectionné donne un texte incompréhensible. Réglez la langue avant d'appuyer sur lecture." },
+        { "strategy": "Passez en mode IA pour les accents, le jargon et le bruit.", "detail": "La reconnaissance vocale du navigateur peine sur la chimie organique, le latin juridique d'un cours de droit ou un enseignant à l'accent marqué. Les modèles cloud de type Whisper s'en sortent beaucoup mieux." },
+        { "strategy": "En mode gratuit, donnez au micro un son propre.", "detail": "Haut-parleurs à 80 % ou plus, pas de casque, une pièce calme, et restez silencieux, car votre propre voix est transcrite elle aussi." },
+        { "strategy": "Restez proche de la vitesse x1.", "detail": "Au-delà de x1,5, des mots sautent. Regardez à vitesse normale et parcourez plutôt la transcription en diagonale ensuite." },
+        { "strategy": "Corrigez les termes clés une fois.", "detail": "Rectifiez un nom ou une formule mal entendus la première fois qu'ils apparaissent et mettez-les en gras, pour les retrouver facilement plus tard." }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "Quelle est la meilleure façon d'enregistrer un cours quand on est étudiant ?",
+      "body": "La meilleure façon d'enregistrer un cours dépend de son format : en présentiel ou en ligne. En amphi, l'application Dictaphone de l'iPhone ou Enregistreur sur Android et Pixel, posée vers le premier rang, capte l'audio. Sur iPad, Notability synchronise l'audio avec vos notes manuscrites. Vous transcrivez ensuite le fichier avec un outil d'import. Pour les cours en ligne ou les rediffusions, vous n'avez généralement pas besoin d'enregistrer quoi que ce soit, puisque l'université conserve déjà la vidéo. La transcription en direct dans le navigateur vous donne le texte sans créer d'enregistrement."
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "A-t-on le droit d'enregistrer ou de transcrire un cours ?",
+      "body": "Enregistrer un cours demande en principe l'autorisation de l'enseignant, et beaucoup d'universités le précisent dans leur règlement intérieur ou leur charte. En France, un cours peut être protégé au titre de la propriété intellectuelle de son auteur, et l'enregistrement touche aussi au droit à l'image et à la voix de l'enseignant et des autres étudiants. Le réflexe poli et sûr : demander l'accord de l'enseignant en début de semestre, garder enregistrements et transcriptions pour votre usage personnel de révision, et ne jamais les diffuser publiquement.\n\nLes étudiants en situation de handicap, y compris avec un TDAH, une dyslexie ou une déficience auditive, peuvent souvent obtenir des **aménagements** : tiers-temps aux examens, preneur de notes, accès aux supports de cours, et parfois autorisation d'enregistrer. La démarche passe par la mission handicap (ou relais handicap) de votre université et le service de santé étudiante, qui établit un plan d'accompagnement. Une RQTH peut appuyer le dossier, mais elle n'est pas toujours exigée pour les aménagements d'études. En Belgique, en Suisse ou au Québec, des services équivalents existent. Les règles varient selon le pays et l'établissement : vérifiez celles de votre université. Ce n'est pas un avis juridique.",
+      "internal_links": [
+        { "text": "TDAH à l'université : aménagements et outils qui aident", "url": "/blog/adhd-university-accommodation-tech" }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "Comment réviser à partir de la transcription d'un cours ?",
+      "body": "Une transcription est une matière première, pas une fiche de révision. Parcourez-la une fois et surlignez les trois à cinq idées que l'enseignant a répétées. Mettez en gras chaque notion qui tombera au partiel, et ajoutez un titre à chaque changement de partie. Collez ensuite le fichier .md exporté dans Notion ou Obsidian, ou demandez à ChatGPT ou NotebookLM d'en faire un résumé. Cette dernière étape se fait en dehors de LessonScriptor, qui ne génère pas de résumés lui-même. Servez-vous enfin du texte complet pour vous interroger avant les examens.",
+      "internal_links": [
+        { "text": "Le meilleur outil de prise de notes IA pour les cours", "url": "/blog/ai-note-taker-for-lectures" },
+        { "text": "Comment prendre des notes avec un TDAH", "url": "/blog/how-to-take-notes-with-adhd" }
+      ]
     }
   ],
+  "summary": {
+    "heading": "La réponse courte",
+    "body": "Si vous avez le fichier, utilisez un outil d'import. Si le cours est sur YouTube ou que votre plateforme propose des sous-titres, lisez-les. Si vous pouvez seulement appuyer sur lecture sur Moodle, Pod, Panopto ou un enregistrement Zoom, LessonScriptor transcrit ce qui est lu dans l'onglet Chrome en transcription modifiable, gratuitement en mode micro ou dès 5 $ en paiement unique en mode IA.",
+    "internal_links": [
+      { "text": "Voir comment fonctionne la transcription de cours", "url": "/lecture-transcription" }
+    ]
+  },
   "faq": {
-    "heading": "FAQ",
+    "heading": "Questions fréquentes",
     "questions": [
       {
-        "question": "Puis-je transcrire automatiquement un enregistrement Zoom ?",
-        "answer": "Oui. Ouvrez l'enregistrement Zoom dans Chrome et utilisez LessonScriptor pour le transcrire. Il fonctionne sur toute vidéo lue dans Chrome, y compris Zoom, Google Meet, Teams et les portails vidéo universitaires."
+        "question": "Comment transcrire une vidéo gratuitement ?",
+        "answer": "Pour transcrire une vidéo gratuitement, utilisez le panneau Afficher la transcription de YouTube si la vidéo est sur YouTube, les sous-titres CC de votre plateforme si votre université les a activés, ou le mode gratuit de LessonScriptor, qui transcrit n'importe quelle vidéo lue dans Chrome via votre micro, sans compte."
       },
       {
-        "question": "La transcription automatique de cours fonctionne-t-elle en français ou en espagnol ?",
-        "answer": "Oui. LessonScriptor prend en charge 14+ langues. Sélectionnez votre langue dans les paramètres et la transcription apparaîtra dans cette langue."
+        "question": "Peut-on transcrire un cours Moodle ou Panopto sans le télécharger ?",
+        "answer": "Oui. LessonScriptor transcrit ce qui est lu dans l'onglet Chrome, vous n'avez donc pas besoin de fichier. Pod, Panopto ou Canvas Studio peuvent aussi afficher des sous-titres intégrés via le bouton CC si l'enseignant les a publiés."
       },
       {
-        "question": "Est-ce de la triche d'utiliser un outil de transcription pour les cours ?",
-        "answer": "Non. Les outils de transcription sont des aides académiques, comme les enregistreurs. Ils capturent ce qui a été dit — l'apprentissage et l'analyse restent les vôtres. De nombreuses universités autorisent et encouragent explicitement les outils d'accessibilité pour les étudiants."
+        "question": "LessonScriptor enregistre-t-il l'audio du cours ?",
+        "answer": "Non. LessonScriptor sauvegarde une transcription texte, pas un enregistrement audio ou vidéo, et il n'accepte pas l'import de fichiers MP3 ou MP4. Il transcrit uniquement ce qui est lu dans l'onglet."
       },
       {
-        "question": "Quel est le meilleur outil de transcription pour les étudiants ?",
-        "answer": "LessonScriptor est le meilleur outil de transcription pour les étudiants car il fonctionne directement dans Chrome sur toute plateforme vidéo, offre un mode gratuit illimité et permet de modifier la transcription en direct pendant le visionnage — contrairement à la plupart des outils qui ne produisent qu'une transcription statique après coup."
+        "question": "Peut-on transcrire l'enregistrement Zoom d'un cours ?",
+        "answer": "Oui. Lisez l'enregistrement Zoom dans le cloud depuis Chrome et utilisez LessonScriptor, ou utilisez la transcription audio de Zoom si l'enseignant l'a activée. Pour un fichier MP4 en local, un outil d'import comme Otter.ai ou TurboScribe est plus direct."
+      },
+      {
+        "question": "La transcription de cours fonctionne-t-elle dans d'autres langues ?",
+        "answer": "Oui. LessonScriptor prend en charge 14 langues, dont le français, l'anglais, l'espagnol, le portugais, l'allemand, le chinois, l'arabe et le hindi. Sélectionnez la langue du cours avant d'appuyer sur lecture."
+      },
+      {
+        "question": "Faut-il une autorisation pour enregistrer un cours ?",
+        "answer": "En général, oui. Demandez l'accord de l'enseignant et consultez le règlement de votre université. Les étudiants en situation de handicap peuvent souvent obtenir des aménagements, comme des supports de cours, un preneur de notes ou des enregistrements, via la mission handicap de leur établissement."
       }
     ]
   },
-  "internal_links": [
+  "schemas": [
     {
-      "text": "Best study tools for neurodivergent students",
-      "url": "/blog/neurodivergent-study-tools"
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Transcription de cours en ligne : comment transcrire une vidéo de cours (5 méthodes)",
+      "description": "Transcription de cours en ligne sur Moodle, Panopto, YouTube ou Zoom : 5 méthodes comparées pour obtenir un texte modifiable sans télécharger la vidéo.",
+      "inLanguage": "fr",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/comment-transcrire-des-videos-de-cours",
+      "author": [
+        { "@type": "Person", "name": "Victoria", "description": "Étudiante en anthropologie avec un TDAH", "url": "https://lessonscriptor.com/en" },
+        { "@type": "Person", "name": "Pierre Girardot", "description": "Développeur et SEO", "url": "https://lessonscriptor.com/en" }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png" }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Comment transcrire un cours en ligne sans télécharger la vidéo",
+      "inLanguage": "fr",
+      "tool": [{ "@type": "HowToTool", "name": "Google Chrome" }, { "@type": "HowToTool", "name": "Extension Chrome LessonScriptor" }],
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Installer l'extension", "text": "Installez LessonScriptor depuis le Chrome Web Store. Le mode gratuit ne demande aucune inscription." },
+        { "@type": "HowToStep", "position": 2, "name": "Ouvrir le cours", "text": "Ouvrez votre cours dans Chrome : Moodle, Pod, Panopto, YouTube ou un enregistrement Zoom dans le cloud." },
+        { "@type": "HowToStep", "position": 3, "name": "Ouvrir le panneau latéral", "text": "Cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral et choisissez la langue du cours." },
+        { "@type": "HowToStep", "position": 4, "name": "Lancer la lecture", "text": "Lancez la lecture. En mode gratuit, montez le son des haut-parleurs et retirez votre casque. En mode IA, le texte arrive par blocs de 10 ou 30 secondes." },
+        { "@type": "HowToStep", "position": 5, "name": "Modifier en regardant", "text": "Surlignez les phrases clés, mettez les termes en gras, ajoutez des titres et faites des captures d'écran des diapositives importantes." },
+        { "@type": "HowToStep", "position": 6, "name": "Exporter", "text": "Exportez en .md ou .txt, ou copiez la transcription dans le presse-papiers." }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Comment transcrire une vidéo gratuitement ?", "acceptedAnswer": { "@type": "Answer", "text": "Pour transcrire une vidéo gratuitement, utilisez le panneau Afficher la transcription de YouTube si la vidéo est sur YouTube, les sous-titres CC de votre plateforme si votre université les a activés, ou le mode gratuit de LessonScriptor, qui transcrit n'importe quelle vidéo lue dans Chrome via votre micro, sans compte." } },
+        { "@type": "Question", "name": "Peut-on transcrire un cours Moodle ou Panopto sans le télécharger ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. LessonScriptor transcrit ce qui est lu dans l'onglet Chrome, vous n'avez donc pas besoin de fichier. Pod, Panopto ou Canvas Studio peuvent aussi afficher des sous-titres intégrés via le bouton CC si l'enseignant les a publiés." } },
+        { "@type": "Question", "name": "LessonScriptor enregistre-t-il l'audio du cours ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. LessonScriptor sauvegarde une transcription texte, pas un enregistrement audio ou vidéo, et il n'accepte pas l'import de fichiers MP3 ou MP4. Il transcrit uniquement ce qui est lu dans l'onglet." } },
+        { "@type": "Question", "name": "Peut-on transcrire l'enregistrement Zoom d'un cours ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. Lisez l'enregistrement Zoom dans le cloud depuis Chrome et utilisez LessonScriptor, ou utilisez la transcription audio de Zoom si l'enseignant l'a activée. Pour un fichier MP4 en local, un outil d'import comme Otter.ai ou TurboScribe est plus direct." } },
+        { "@type": "Question", "name": "La transcription de cours fonctionne-t-elle dans d'autres langues ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui. LessonScriptor prend en charge 14 langues, dont le français, l'anglais, l'espagnol, le portugais, l'allemand, le chinois, l'arabe et le hindi. Sélectionnez la langue du cours avant d'appuyer sur lecture." } },
+        { "@type": "Question", "name": "Faut-il une autorisation pour enregistrer un cours ?", "acceptedAnswer": { "@type": "Answer", "text": "En général, oui. Demandez l'accord de l'enseignant et consultez le règlement de votre université. Les étudiants en situation de handicap peuvent souvent obtenir des aménagements, comme des supports de cours, un preneur de notes ou des enregistrements, via la mission handicap de leur établissement." } }
+      ]
     }
-  ],
-  "schemas": []
+  ]
 }

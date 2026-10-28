@@ -1,0 +1,355 @@
+{
+  "slug": "live-captions-other-languages-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Automatische Untertitel in Chrome auf Deutsch (und 18 weiteren Sprachen)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome: Automatische Untertitel auf Deutsch (+ Übersetzung)",
+    "description": "So aktivieren Sie Chromes Automatische Untertitel auf Deutsch, übersetzen sie mit der Live-Übersetzung und behalten eine Mitschrift Ihrer Vorlesung.",
+    "og_image": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "og_title": "Automatische Untertitel in Chrome auf Deutsch und in anderen Sprachen",
+    "og_description": "Deutsche Untertitel in Chrome, Live-Übersetzung in über 100 Sprachen und was tun, wenn Ihre Sprache fehlt.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "automatische untertitel chrome deutsch",
+      "chrome live übersetzung untertitel",
+      "live untertitel andere sprachen"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "alt": "Chrome-Browser mit automatischen deutschen Untertiteln neben einer aufgezeichneten Vorlesung",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung zur Live-Transkription von Videos. Victoria studiert Anthropologie im Fernstudium und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Chromes Automatische Untertitel (Live Caption) untertiteln Deutsch und 18 weitere Sprachen direkt auf Ihrem Rechner. Die Live-Übersetzung übersetzt diese Untertitel unter Windows, Mac, Linux und auf Chromebook Plus in über 100 Sprachen. LessonScriptor transkribiert 14 Sprachvarianten in eine bearbeitbare, exportierbare Mitschrift, übersetzt aber nicht.",
+    "bullets": [
+      "Für Deutsch: Einstellungen → Bedienungshilfen bzw. Zugänglichkeit (Kurzweg: chrome://settings/accessibility) → **Automatische Untertitel** einschalten → neben „Sprachen verwalten“ auf **Sprachen hinzufügen** klicken → Deutsch im Drop-down wählen.",
+      "Die 19 Chrome-Sprachen laut Google-Hilfe: Englisch, Dänisch, Niederländisch, Französisch, Deutsch, Hindi, Indonesisch, Italienisch, Japanisch, Koreanisch, Norwegisch, Polnisch, Portugiesisch, Spanisch, Chinesisch (vereinfacht), Chinesisch (traditionell), Schwedisch, Thailändisch und Türkisch.",
+      "Die **Live-Übersetzung** zeigt Untertitel in einer anderen Sprache, etwa eine englische Vorlesung mit deutschen Untertiteln. Für Chrome auf Android und iPhone ist sie nicht aufgeführt, und der Untertiteltext wird dafür an Google gesendet.",
+      "Chrome untertitelt weder Arabisch noch Russisch. LessonScriptor schon, dazu Englisch (US/UK), Französisch, Spanisch, Deutsch, Italienisch, Portugiesisch (PT/BR), Chinesisch (vereinfacht), Japanisch, Koreanisch und Hindi.",
+      "LessonScriptor transkribiert in der gesprochenen Sprache und übersetzt nicht. Wer eine englische Vorlesung auf Deutsch lesen will, exportiert die Mitschrift (.txt oder .md) und fügt sie in DeepL oder Google Übersetzer ein."
+    ]
+  },
+  "intro": "Automatische Untertitel sind Chromes eingebaute Untertitelfunktion, und Deutsch ist eine von 19 unterstützten Sprachen, neben Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Polnisch, Japanisch, Koreanisch, Hindi, Thailändisch, Türkisch und beiden Formen des Chinesischen. Sie aktivieren sie unter **chrome://settings/accessibility**, und Chrome lädt ein deutsches Sprachmodell, das danach auf Ihrem Rechner läuft. Eine zweite Funktion, die Live-Übersetzung, übersetzt diese Untertitel in über 100 Sprachen, was vor allem bei englischsprachigen Vorlesungen und MOOCs hilft. Die Grenze für Studierende an der LMU, der Humboldt-Universität oder der FernUniversität in Hagen: Chrome zeigt nur zwei Zeilen, die wieder verschwinden, und das Modell scheitert ausgerechnet an Fachbegriffen, Eigennamen und langen Komposita. LessonScriptor, eine Chrome-Erweiterung, schreibt denselben Ton in eine Mitschrift, die Sie korrigieren, markieren und exportieren können, in 14 Sprachvarianten. Dieser Leitfaden vergleicht beide Werkzeuge Sprache für Sprache und sagt klar, was keines von beiden kann.",
+  "stats": [
+    {
+      "number": "19",
+      "label": "Sprachen, die Chromes Automatische Untertitel erkennen (Google-Hilfe, 2026)"
+    },
+    {
+      "number": "100+",
+      "label": "Zielsprachen der Chrome-Live-Übersetzung"
+    },
+    {
+      "number": "14",
+      "label": "Sprachvarianten, die LessonScriptor transkribiert, inklusive Arabisch und Russisch"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-languages-chrome-live-caption",
+      "h2": "Welche Sprachen unterstützen Chromes Automatische Untertitel?",
+      "body": "Chromes Automatische Untertitel unterstützen laut Google-Hilfe 19 Sprachen: Englisch, Dänisch, Niederländisch, Französisch, Deutsch, Hindi, Indonesisch, Italienisch, Japanisch, Koreanisch, Norwegisch, Polnisch, Portugiesisch, Spanisch, Chinesisch (vereinfacht), Chinesisch (traditionell), Schwedisch, Thailändisch und Türkisch. Google führt je Sprache einen Eintrag, ohne getrennte regionale Varianten: Es gibt kein eigenes „Schweizerdeutsch“ oder „österreichisches Deutsch“.\n\nSo fügen Sie unter Windows oder Mac eine Sprache hinzu:\n\n1. Chrome öffnen, Dreipunkt-Menü → **Einstellungen** → **Bedienungshilfen** (in der Google-Hilfe „Zugänglichkeit“) oder direkt **chrome://settings/accessibility** in die Adressleiste einfügen.\n2. **Automatische Untertitel** einschalten.\n3. Neben **Sprachen verwalten** auf **Sprachen hinzufügen** klicken und Ihre Sprache wählen. Chrome lädt das Sprachpaket automatisch.\n4. Die Untertitelsprache im Drop-down auswählen.\n\nUnter Linux gibt es einen Schritt mehr: Einstellungen → Bedienungshilfen → **Untertitel**, dann derselbe Schalter. Auf dem Chromebook liegt die Einstellung unter Bedienungshilfen → Audio und Untertitel.\n\nIst das Paket geladen, läuft die Erkennung auf Ihrem Gerät: Laut Google werden Audio und Untertitel lokal verarbeitet und verlassen den Rechner nicht. Das ist datenschutzfreundlich und kostenlos, aber das Modell ist deutlich kleiner als ein Cloud-Modell. In der Praxis klappt Alltagssprache gut, Fachvokabular, Autorennamen und schnell sprechende Dozierende deutlich schlechter.\n\nZwei wichtige Sprachen fehlen: **Arabisch** und **Russisch**. Ist Ihre Vorlesung in einer davon, kann Chrome sie nicht untertiteln, und eine Erweiterung wie LessonScriptor ist die praktische Lösung.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome: der komplette Leitfaden",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Chrome-Untertitel funktionieren nicht? Lösungen",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "chrome-live-translate",
+      "h2": "Kann Chrome Live-Untertitel in eine andere Sprache übersetzen?",
+      "body": "Ja. Chromes **Live-Übersetzung** übersetzt den Text der Automatischen Untertitel während der Wiedergabe in über 100 Sprachen. So können Sie eine englische Vorlesung auf Coursera oder einen TED-Talk ansehen und deutsche Untertitel lesen. Die Google-Hilfe nennt die Funktion für **Windows, Mac, Linux und Chromebook Plus**. Für Chrome auf Android oder iPhone ist sie nicht aufgeführt, und normale Chromebooks haben nur die Untertitel. Google hat die Funktion 2023 in Chrome Canary getestet; aktualisieren Sie Chrome auf die aktuelle stabile Version, bevor Sie den Schalter suchen.\n\nSo schalten Sie sie unter Windows oder Mac ein:\n\n1. **chrome://settings/accessibility** öffnen (Dreipunkt-Menü → Einstellungen → Bedienungshilfen).\n2. Prüfen, ob **Automatische Untertitel** aktiv ist und die gesprochene Sprache (zum Beispiel Englisch) hinzugefügt wurde.\n3. **Live-Übersetzung** einschalten.\n4. Neben **Übersetzen in Sprache** Deutsch wählen. Auf Chromebook Plus heißt das Menü **Untertitel übersetzen in**.\n\nZwei Grenzen sollten Sie kennen. Erstens muss die Ausgangssprache zu den 19 Untertitelsprachen gehören: Eine Vorlesung auf Arabisch oder Russisch lässt sich so nicht übersetzen. Zweitens ändert sich der Datenschutz: Einfache Untertitel bleiben auf Ihrem Gerät, für die Übersetzung sendet Chrome den Untertiteltext aber an Google. Außerdem addieren sich bei maschineller Übersetzung gesprochener Sprache die Fehler: Versteht Chrome einen Fachbegriff falsch, ist auch die Übersetzung falsch. Nutzen Sie sie als Verständnishilfe, nicht als Mitschrift.\n\n**Und LessonScriptor?** LessonScriptor übersetzt nicht. Es transkribiert in der gesprochenen Sprache (14 Varianten) und behält den Text. Brauchen Sie eine Übersetzung, exportieren Sie die Mitschrift als .txt oder .md oder kopieren sie und fügen sie in DeepL oder Google Übersetzer ein. Dann haben Sie Original und Übersetzung nebeneinander und können jeden zweifelhaften Begriff prüfen.",
+      "callout": {
+        "type": "tip",
+        "label": "Das Beste aus beiden",
+        "body": "Bei einer englischen Vorlesung nutzen Sie Chromes Live-Übersetzung, um auf Deutsch mitzulesen, und LessonScriptor, um die englische Mitschrift zu behalten. Danach fügen Sie den Export in DeepL ein und gehen die Stellen durch, die Sie nicht verstanden haben."
+      },
+      "internal_links": [
+        {
+          "text": "Chrome-Untertitel vs. LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-french",
+      "h2": "Wie bekomme ich in Chrome französische Untertitel?",
+      "body": "Der Weg ist derselbe: **chrome://settings/accessibility** → **Automatische Untertitel** → **Sprachen hinzufügen** → Französisch, dann im Drop-down auswählen. In einem französischsprachigen Chrome heißt die Funktion **Sous-titres instantanés**.\n\nDas hilft etwa im Erasmus-Semester in Frankreich oder bei einem deutsch-französischen Studiengang. Chrome kommt mit Standardfranzösisch gut zurecht, mit Institutionsnamen und Fachjargon schlechter. LessonScriptor transkribiert ebenfalls Französisch, mit dem Vorteil, dass Sie den Text korrigieren und exportieren können."
+    },
+    {
+      "id": "chrome-captions-spanish",
+      "h2": "Wie bekomme ich in Chrome spanische Untertitel?",
+      "body": "Fügen Sie Spanisch unter **Sprachen verwalten** hinzu und wählen Sie es aus. In einem spanischsprachigen Chrome heißt die Funktion **Subtítulos automáticos**.\n\nGoogle führt einen einzigen Spanisch-Eintrag für alle Akzente, von Madrid bis Buenos Aires. LessonScriptor hat ebenfalls eine Spanisch-Option; sein KI-Modus kommt mit Akzentvielfalt meist besser zurecht als ein lokales Modell."
+    },
+    {
+      "id": "chrome-captions-portuguese",
+      "h2": "Wie bekomme ich in Chrome portugiesische Untertitel?",
+      "body": "Portugiesisch steht als einzelner Eintrag auf Chromes Liste. Fügen Sie es unter **Sprachen verwalten** hinzu. In einem portugiesischsprachigen Chrome heißt die Funktion **Legenda instantânea**.\n\nLessonScriptor bietet zwei getrennte Optionen, **Português (BR)** und **Português (PT)**, was bei Rechtschreibung und Wortschatz hilft."
+    },
+    {
+      "id": "chrome-captions-german",
+      "h2": "Wie bekomme ich in Chrome deutsche Untertitel?",
+      "body": "So erhalten Sie deutsche Untertitel:\n\n1. **chrome://settings/accessibility** öffnen (Einstellungen → Bedienungshilfen).\n2. **Automatische Untertitel** einschalten.\n3. Neben **Sprachen verwalten** auf **Sprachen hinzufügen** klicken und Deutsch wählen.\n4. Deutsch im Drop-down auswählen. Chrome lädt das Paket und untertitelt danach jeden deutschen Ton in einem Tab.\n\nIst Ihr Chrome auf Englisch eingestellt, heißt dieselbe Funktion **Live Caption** unter Settings → Accessibility.\n\nFür eine aufgezeichnete Vorlesung in ILIAS, Stud.IP oder Moodle, ein Opencast-Video Ihrer Hochschule oder ein Lehrvideo der FernUniversität in Hagen funktioniert Chrome bei klarem Hochdeutsch gut. Die typische Schwachstelle sind lange Komposita wie *Universitätsbibliothek*, *Forschungsschwerpunkt* oder *Prüfungsordnung*, die oft getrennt oder falsch erkannt werden, ebenso Institutionsnamen wie Ludwig-Maximilians-Universität München und starke regionale Färbung. Und weil die Untertitel nach zwei Zeilen verschwinden, bleibt für die Klausurvorbereitung nichts übrig.\n\nLessonScriptor transkribiert Deutsch auf zwei Arten. Der kostenlose Modus nutzt Chromes Spracherkennung über das Mikrofon: Er braucht Lautsprecher (Lautstärke 80 % oder mehr), keine Kopfhörer. Der KI-Modus schickt den Tab-Ton an Cloud-Modelle der Whisper-Klasse, die Akzente und Fachbegriffe deutlich besser treffen, und funktioniert mit Kopfhörern. In beiden Fällen ist die Mitschrift bearbeitbar: Sie korrigieren das Kompositum einmal und exportieren die saubere Version.",
+      "internal_links": [
+        {
+          "text": "Chrome-Untertitel mit Kopfhörern",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-mandarin",
+      "h2": "Wie bekomme ich in Chrome chinesische Untertitel (Mandarin)?",
+      "body": "Chrome bietet zwei Einträge: **Chinesisch (vereinfacht)** und **Chinesisch (traditionell)**. Beide untertiteln gesprochenes Mandarin; die Wahl bestimmt die Schrift. Vereinfacht passt für Inhalte vom chinesischen Festland, traditionell für Taiwan oder Hongkong. In einem chinesischsprachigen Chrome heißt die Funktion **实时字幕**.\n\nLessonScriptor unterstützt nur **Chinesisch (vereinfacht)**. Für traditionelle Schriftzeichen sind Chromes eingebaute Untertitel die bessere Wahl. Auf dem chinesischen Festland sind Google-Dienste in der Regel nicht erreichbar. Das betrifft den Chrome Web Store, den Download der Sprachpakete, die Live-Übersetzung und die Spracherkennung hinter dem kostenlosen Modus von LessonScriptor."
+    },
+    {
+      "id": "lessonscriptor-language-learning",
+      "h2": "Kann ich Chromes Untertitel zum Sprachenlernen nutzen?",
+      "body": "Ja, und beide Werkzeuge helfen auf unterschiedliche Weise.\n\n**Chromes Untertitel** sind eine Lesehilfe. Ein englisches Video mit englischen Untertiteln schult das Hörverstehen, und die Live-Übersetzung blendet Deutsch ein, wenn Sie den Faden verlieren. Aber die Untertitel sind schreibgeschützt und verschwinden: Zum Wiederholen bleibt nichts.\n\n**LessonScriptor** behält den Text. Während das Video läuft, entsteht die Mitschrift im Seitenbereich. Sie markieren unbekannte Wörter in fünf Farben, fügen Überschriften ein, löschen Überflüssiges und exportieren als .txt oder .md.\n\nEin einfacher Ablauf, auch für die Vorbereitung auf TOEFL oder IELTS: Video mit LessonScriptor ansehen, neue Vokabeln markieren, exportieren. Danach die Wörter von Hand in Anki übertragen und schwierige Sätze in DeepL prüfen. LessonScriptor erstellt weder Karteikarten noch Übersetzungen: Diese Schritte machen Sie selbst.",
+      "internal_links": [
+        {
+          "text": "Untertitel für Zoom-Aufnahmen in Chrome",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "which-tool-multilingual",
+      "h2": "Welches Tool eignet sich für deutsche oder anderssprachige Untertitel in Chrome?",
+      "body": "**Chromes Automatische Untertitel** reichen, wenn Ihre Sprache zu den 19 gehört, Sie schnelle, flüchtige Untertitel wollen und den Text nicht behalten müssen. Schalten Sie die Live-Übersetzung dazu, um in einer anderen Sprache mitzulesen, unter Windows, Mac, Linux oder auf Chromebook Plus.\n\n**LessonScriptor** ist die richtige Wahl, wenn Sie das Gesagte behalten, korrigieren und exportieren müssen, etwa für die Klausur, oder wenn Ihre Vorlesung auf **Arabisch oder Russisch** ist, was Chrome nicht untertitelt. Die 14 Varianten: Englisch (US und UK), Französisch, Spanisch, Deutsch, Italienisch, Portugiesisch (Portugal und Brasilien), Chinesisch (vereinfacht), Japanisch, Koreanisch, Russisch, Arabisch und Hindi. Der KI-Modus erfasst den Tab-Ton und funktioniert mit Kopfhörern; der kostenlose Modus nutzt das Mikrofon und braucht Lautsprecher.\n\n**Keins von beiden** hilft bei einer Vorlesung auf Niederländisch, Polnisch, Schwedisch, Dänisch, Norwegisch, Türkisch, Thailändisch oder Indonesisch, wenn Sie eine exportierbare Mitschrift brauchen. Chrome untertitelt diese Sprachen, LessonScriptor nicht: Schauen Sie dann nach einem mehrsprachigen Dienst wie Notta, der einen kostenlosen Tarif hat.",
+      "table": {
+        "headers": [
+          "Bedarf",
+          "Chrome Automatische Untertitel",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Sprachen",
+            "19 (inkl. Thailändisch, Türkisch, Niederländisch, traditionelles Chinesisch)",
+            "14 Varianten (inkl. Arabisch, Russisch, PT/BR)"
+          ],
+          [
+            "Untertitel übersetzen",
+            "Ja, Live-Übersetzung (Desktop + Chromebook Plus)",
+            "Nein, exportieren und in DeepL / Google Übersetzer einfügen"
+          ],
+          [
+            "Text behalten und exportieren",
+            "Nein",
+            "Ja (.txt, .md, Zwischenablage)"
+          ],
+          [
+            "Mit Kopfhörern",
+            "Ja",
+            "Nur KI-Modus"
+          ],
+          [
+            "Preis",
+            "Kostenlos",
+            "Kostenloser Modus; KI-Modus ab 5 USD für 5 Std. (Stripe rechnet in Euro um)"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Die besten Chrome-Erweiterungen für Untertitel",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Behalten Sie Ihre Vorlesung als Text, in 14 Sprachen",
+    "body": "LessonScriptor macht aus allem, was in Ihrem Chrome-Tab läuft, eine bearbeitbare Mitschrift, auf Deutsch, Englisch, Französisch, Spanisch, Arabisch und mehr. Kostenloser Modus, ohne Anmeldung.",
+    "button_label": "LessonScriptor zu Chrome hinzufügen — kostenlos",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Funktionieren Chromes Automatische Untertitel auf Deutsch?",
+        "answer": "Ja. Deutsch ist eine der 19 Sprachen. Öffnen Sie chrome://settings/accessibility, schalten Sie Automatische Untertitel ein, klicken Sie neben Sprachen verwalten auf Sprachen hinzufügen, wählen Sie Deutsch und dann im Drop-down aus. In einem englischen Chrome heißt die Funktion Live Caption."
+      },
+      {
+        "question": "Wie ändere ich die Sprache der automatischen Untertitel in Chrome?",
+        "answer": "Öffnen Sie chrome://settings/accessibility, schalten Sie Automatische Untertitel ein und klicken Sie neben Sprachen verwalten auf Sprachen hinzufügen. Chrome lädt das Paket, und Sie wählen die Sprache im Drop-down. Unter Linux öffnen Sie zuerst den Eintrag Untertitel."
+      },
+      {
+        "question": "Wie übersetze ich eine englische Vorlesung in Chrome in deutsche Untertitel?",
+        "answer": "Mit der Live-Übersetzung. Schalten Sie unter chrome://settings/accessibility Automatische Untertitel (mit Englisch als Sprache) und Live-Übersetzung ein und wählen Sie neben Übersetzen in Sprache Deutsch. Sie ist für Windows, Mac, Linux und Chromebook Plus aufgeführt, nicht für Chrome auf Android oder iPhone. Der Untertiteltext wird dafür an Google gesendet."
+      },
+      {
+        "question": "Übersetzt LessonScriptor Transkripte?",
+        "answer": "Nein. LessonScriptor transkribiert in der gesprochenen Sprache, in 14 Sprachvarianten, und übersetzt nicht. Für eine Übersetzung exportieren Sie die Mitschrift als .txt oder .md oder kopieren sie und fügen sie in DeepL oder Google Übersetzer ein."
+      },
+      {
+        "question": "Erkennt Chrome Schweizerdeutsch oder österreichische Akzente?",
+        "answer": "Chrome führt nur einen Eintrag „Deutsch“. Hochdeutsch mit regionaler Färbung klappt meist, Dialekt wie Schweizerdeutsch deutlich schlechter. LessonScriptor hat ebenfalls eine Deutsch-Option, deren KI-Modus mit Akzenten meist besser zurechtkommt."
+      },
+      {
+        "question": "Kann ich mit Chromes Untertiteln Sprachen lernen?",
+        "answer": "Ja, als Lesehilfe. Für Vokabelarbeit behält LessonScriptor eine Mitschrift, in der Sie neue Wörter in fünf Farben markieren; danach exportieren Sie den Text und übertragen die Wörter selbst in Anki."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome-Untertitel auf Deutsch und in anderen Sprachen: das Wichtigste",
+    "body": "Chromes Automatische Untertitel erkennen 19 Sprachen direkt auf Ihrem Gerät, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und beide Formen des Chinesischen. Fügen Sie Ihre Sprache unter chrome://settings/accessibility bei Sprachen verwalten hinzu. Die Live-Übersetzung übersetzt diese Untertitel unter Windows, Mac, Linux und auf Chromebook Plus in über 100 Sprachen und sendet den Text dafür an Google. Chrome untertitelt weder Arabisch noch Russisch, und die Untertitel verschwinden nach zwei Zeilen. LessonScriptor transkribiert 14 Sprachvarianten, Arabisch und Russisch eingeschlossen, in eine Mitschrift, die Sie korrigieren, markieren und exportieren. Es übersetzt nicht, aber der Export lässt sich direkt in DeepL oder Google Übersetzer einfügen."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Automatische Untertitel in Chrome auf Deutsch (und 18 weiteren Sprachen)",
+      "description": "So aktivieren Sie Chromes Automatische Untertitel auf Deutsch, übersetzen sie mit der Live-Übersetzung und behalten eine Mitschrift Ihrer Vorlesung.",
+      "inLanguage": "de",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/live-untertitel-andere-sprachen-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwickler & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Funktionieren Chromes Automatische Untertitel auf Deutsch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Deutsch ist eine der 19 Sprachen. Öffnen Sie chrome://settings/accessibility, schalten Sie Automatische Untertitel ein, klicken Sie neben Sprachen verwalten auf Sprachen hinzufügen, wählen Sie Deutsch und dann im Drop-down aus. In einem englischen Chrome heißt die Funktion Live Caption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie ändere ich die Sprache der automatischen Untertitel in Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öffnen Sie chrome://settings/accessibility, schalten Sie Automatische Untertitel ein und klicken Sie neben Sprachen verwalten auf Sprachen hinzufügen. Chrome lädt das Paket, und Sie wählen die Sprache im Drop-down. Unter Linux öffnen Sie zuerst den Eintrag Untertitel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie übersetze ich eine englische Vorlesung in Chrome in deutsche Untertitel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mit der Live-Übersetzung. Schalten Sie unter chrome://settings/accessibility Automatische Untertitel (mit Englisch als Sprache) und Live-Übersetzung ein und wählen Sie neben Übersetzen in Sprache Deutsch. Sie ist für Windows, Mac, Linux und Chromebook Plus aufgeführt, nicht für Chrome auf Android oder iPhone. Der Untertiteltext wird dafür an Google gesendet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Übersetzt LessonScriptor Transkripte?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. LessonScriptor transkribiert in der gesprochenen Sprache, in 14 Sprachvarianten, und übersetzt nicht. Für eine Übersetzung exportieren Sie die Mitschrift als .txt oder .md oder kopieren sie und fügen sie in DeepL oder Google Übersetzer ein."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Erkennt Chrome Schweizerdeutsch oder österreichische Akzente?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chrome führt nur einen Eintrag „Deutsch“. Hochdeutsch mit regionaler Färbung klappt meist, Dialekt wie Schweizerdeutsch deutlich schlechter. LessonScriptor hat ebenfalls eine Deutsch-Option, deren KI-Modus mit Akzenten meist besser zurechtkommt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich mit Chromes Untertiteln Sprachen lernen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, als Lesehilfe. Für Vokabelarbeit behält LessonScriptor eine Mitschrift, in der Sie neue Wörter in fünf Farben markieren; danach exportieren Sie den Text und übertragen die Wörter selbst in Anki."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/de/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome: Automatische Untertitel auf Deutsch (+ Übersetzung)",
+          "item": "https://lessonscriptor.com/de/blog/live-untertitel-andere-sprachen-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome-Hilfe — Untertitel und Übersetzungen in Chrome verwalten",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=de",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — mehrsprachiges Spracherkennungsmodell",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-headphones"
+    ]
+  }
+}

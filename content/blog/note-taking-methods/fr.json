@@ -1,0 +1,521 @@
+{
+  "slug": "note-taking-methods",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "7 méthodes de prise de notes pour étudiants (et lesquelles marchent avec un TDAH)",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "7 méthodes de prise de notes (et lesquelles pour le TDAH)",
+    "description": "Cornell, plan, carte mentale, tableau, phrases, boxing, Zettelkasten : 7 méthodes de prise de notes comparées, avec exemples et un verdict TDAH honnête.",
+    "keywords": [
+      "méthode de prise de notes",
+      "méthodes de prise de notes",
+      "prise de notes étudiant",
+      "prise de notes TDAH",
+      "méthode Cornell",
+      "méthode Zettelkasten"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/fr/blog/methodes-prise-de-notes",
+    "og_title": "7 méthodes de prise de notes pour étudiants (et lesquelles marchent avec un TDAH)",
+    "og_description": "Cornell, plan, carte mentale, tableau, phrases, boxing et Zettelkasten comparés, avec un verdict TDAH pour chacune.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "À retenir",
+    "lead": "Une méthode de prise de notes est une structure fixe pour consigner l'information afin de la réviser ensuite. La meilleure dépend de la matière et de l'attention dont vous disposez pendant le cours.",
+    "bullets": [
+      "La méthode Cornell est la plus polyvalente pour réviser : la colonne de questions transforme vos notes en auto-évaluation.",
+      "Le plan convient aux cours très structurés (droit, histoire). Le tableau convient aux comparaisons (pharmacologie, économie). La carte mentale convient aux idées reliées entre elles (biologie, lettres).",
+      "La méthode des phrases demande le moins d'effort en amphi, d'où sa popularité chez les étudiants TDAH, mais elle exige un vrai travail de reprise.",
+      "Le Zettelkasten sert aux projets longs comme un mémoire, pas aux partiels de la semaine prochaine.",
+      "Avec un TDAH, l'approche la plus fiable consiste à séparer le travail : capter le cours sous forme de transcription, puis appliquer la méthode ensuite, à votre rythme."
+    ]
+  },
+  "stats": [
+    {
+      "number": "7",
+      "label": "méthodes comparées, de Cornell au Zettelkasten"
+    },
+    {
+      "number": "1950",
+      "label": "années 1950 : Walter Pauk crée la méthode Cornell à l'université Cornell"
+    },
+    {
+      "number": "2",
+      "label": "temps qui fonctionnent le mieux avec un TDAH : capter d'abord, structurer ensuite"
+    }
+  ],
+  "intro": "Les méthodes de prise de notes sont des systèmes structurés pour noter ce que l'on entend ou lit, afin de le comprendre et de le réviser plus tard. Les sept plus enseignées sont la méthode Cornell, la méthode du plan, la carte mentale, la méthode du tableau, la méthode des phrases, la méthode des boîtes (boxing) et le Zettelkasten. Chacune échange un effort pendant le cours contre un bénéfice au moment des révisions. Cornell, mise au point par Walter Pauk à l'université Cornell, intègre l'auto-évaluation dans la page. Le Zettelkasten, rendu célèbre par le sociologue allemand Niklas Luhmann, construit un réseau de connaissances sur le long terme. Pour un étudiant avec un TDAH, la vraie question n'est pas seulement quelle méthode est la meilleure, mais laquelle tient pendant un cours en amphi de deux heures ou une vidéo sur le Moodle de Sorbonne Université quand l'attention décroche. Ce guide donne un mini-exemple de chaque méthode, les matières où elle brille, un verdict TDAH honnête et une façon de l'appliquer à une transcription de cours plutôt que de tout faire en direct.",
+  "sections": [
+    {
+      "id": "what-is-a-note-taking-method",
+      "heading": "Qu'est-ce qu'une méthode de prise de notes, et pourquoi est-ce important ?",
+      "body": "Une méthode de prise de notes est une mise en page répétable qui indique où va chaque type d'information : idées principales, détails, questions, exemples. Sans méthode, les notes deviennent une retranscription de ce que vous avez réussi à attraper, difficile à réviser.\n\nLa méthode compte surtout au moment des partiels. Une page structurée montre la forme d'un chapitre d'un coup d'œil et permet de s'interroger dessus, ce qui est la technique d'étude la mieux validée par la recherche (voir notre guide du rappel actif). Un bloc de texte sans structure pousse à relire, une technique que Dunlosky et ses collègues ont classée « faible utilité » dans leur revue de 2013 sur les stratégies d'apprentissage.\n\nPour les étudiants TDAH, il y a une seconde raison. La plupart des méthodes demandent d'écouter, de trier et d'écrire au bon endroit, tout en même temps. C'est une lourde charge pour la mémoire de travail, et c'est précisément là que l'attention décroche. Choisir une méthode, c'est choisir quelle part de cette charge vous portez en amphi et quelle part vous reportez à plus tard.",
+      "internal_links": [
+        {
+          "text": "Le rappel actif : réviser à partir de ses notes de cours",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Quelle est la meilleure méthode de prise de notes ? Les 7 méthodes comparées",
+      "body": "Aucune méthode n'est la meilleure pour tous les cours. Le tableau compare les sept sur ce qui décide si une méthode tient dans la vraie vie : les matières concernées, l'effort en cours, la résistance au TDAH, et la facilité à l'appliquer à partir d'une transcription.",
+      "table": {
+        "headers": [
+          "Méthode",
+          "Idéale pour",
+          "Effort pendant le cours",
+          "Verdict TDAH",
+          "À partir d'une transcription ?"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Presque tous les cours, surtout avant les partiels",
+            "Moyen",
+            "Très bon, si on la remplit après le cours",
+            "Excellent"
+          ],
+          [
+            "Plan",
+            "Cours structurés : droit, histoire, philosophie",
+            "Moyen à élevé",
+            "Mitigé : casse quand le prof part en digression",
+            "Excellent"
+          ],
+          [
+            "Carte mentale",
+            "Biologie, lettres, psycho, plans de dissertation",
+            "Moyen",
+            "Très bon pour les profils visuels et non linéaires",
+            "Bon"
+          ],
+          [
+            "Tableau",
+            "Comparaisons : médicaments, théories, périodes",
+            "Élevé (colonnes à prévoir)",
+            "Bon une fois les colonnes fixées",
+            "Très bon"
+          ],
+          [
+            "Phrases",
+            "Cours rapides et denses en faits",
+            "Faible",
+            "Facile à démarrer, pénible à réviser",
+            "C'est la transcription"
+          ],
+          [
+            "Boxing",
+            "Prise de notes sur tablette, cours par thèmes",
+            "Moyen",
+            "Bon : découpe l'information visuellement",
+            "Bon"
+          ],
+          [
+            "Zettelkasten",
+            "Mémoire, recherche, projets longs",
+            "Faible en cours, élevé après",
+            "Risqué : la mise en place peut devenir de la procrastination",
+            "Bon comme source"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cornell-method",
+      "heading": "Qu'est-ce que la méthode Cornell ?",
+      "body": "La méthode Cornell est une mise en page en trois zones : une colonne étroite de questions à gauche, une large colonne de notes à droite et une bande de synthèse en bas. Walter Pauk, professeur en sciences de l'éducation à l'université Cornell, l'a mise au point dans les années 1950 et l'a décrite dans son livre How to Study in College. On prend les notes à droite pendant le cours, on écrit les questions ou mots-clés dans la colonne de gauche après, puis on termine par une synthèse de deux ou trois phrases.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "Colonne de notes : **La mitochondrie produit l'ATP par la respiration cellulaire. Les replis de la membrane interne (crêtes) augmentent la surface.** Colonne de questions : **Que produit la mitochondrie ? Pourquoi la membrane est-elle repliée ?** Synthèse : **La mitochondrie est la centrale énergétique de la cellule ; ses crêtes maximisent la production d'ATP.**"
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Presque toutes les matières, et surtout les cours sanctionnés par un écrit en partiel. La colonne de gauche est une liste de questions toute prête, ce qui relie directement la méthode à l'auto-interrogation."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Très bon, avec un ajustement.** Remplir la colonne de questions en direct est difficile quand on peine déjà à suivre, si bien que beaucoup d'étudiants TDAH abandonnent à mi-chemin. Reportez les questions et la synthèse après le cours : Cornell devient alors l'une des méthodes les plus adaptées au TDAH, puisque la structure de révision est intégrée."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Laissez la transcription remplir la colonne de notes à votre place. Pendant qu'elle se construit, ajoutez un titre à chaque changement de sujet. Ensuite, exportez-la en .md, collez chaque partie dans la colonne de droite d'un modèle Cornell, puis rédigez vous-même les questions et la synthèse. LessonScriptor ne met pas en forme les notes Cornell automatiquement ; c'est en écrivant les questions qu'on apprend, donc cette étape reste la vôtre."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Modèle Cornell gratuit (et comment le remplir à partir d'un cours)",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "outline-method",
+      "heading": "Qu'est-ce que la méthode du plan ?",
+      "body": "La méthode du plan organise les notes en hiérarchie : grandes parties en marge, sous-parties en retrait, détails encore plus en retrait. C'est le fameux I. A. 1. a. que l'on apprend au lycée, et il donne des notes très propres quand l'enseignant suit un plan clair.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "**I. Les causes de la Révolution française** / A. La crise financière : la dette héritée de la guerre d'indépendance américaine / B. La société d'ordres / 1. Le tiers état paie l'essentiel de l'impôt / C. La diffusion des idées des Lumières"
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Droit (le fameux plan en deux parties), histoire, science politique, philosophie et tout cours où l'enseignant suit ses diapositives ou un plan écrit."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Mitigé.** Faire un plan en direct oblige à décider sans arrêt du niveau : est-ce une sous-partie ou un détail ? Quand l'enseignant part en digression, la hiérarchie casse, et la concentration avec. La méthode marche beaucoup mieux en second passage, quand on connaît déjà la forme du cours."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Utilisez les titres de la transcription comme grandes parties et les puces comme sous-parties. Après le cours, survolez la transcription, supprimez les digressions et mettez en retrait ce qui reste. Avec le texte complet sous les yeux, le plan se construit en 15 minutes au lieu d'être deviné en temps réel."
+        }
+      ]
+    },
+    {
+      "id": "mapping-method",
+      "heading": "Qu'est-ce que la carte mentale (mind map) ?",
+      "body": "La carte mentale place le sujet principal au centre de la page et fait partir les idées associées en branches, pour que les liens soient visibles plutôt que sous-entendus. L'auteur britannique Tony Buzan l'a popularisée dans les années 1970, et des outils comme XMind, MindMeister ou Miro en ont fait un format numérique courant.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "Centre : **Photosynthèse**. Branches : **Phase claire** (thylakoïdes, photolyse de l'eau, libération d'O2), **Cycle de Calvin** (stroma, fixation du CO2, glucose), **Facteurs limitants** (lumière, CO2, température). Un pointillé relie le cycle de Calvin aux facteurs limitants."
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Biologie, lettres, psychologie, préparation de dissertation et tout sujet où les idées se relient en étoile plutôt qu'en ligne droite."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Très bon pour beaucoup d'étudiants TDAH**, car la carte permet de sauter d'une branche à l'autre comme l'attention le fait déjà. Le piège est le perfectionnisme : 40 minutes passées sur les couleurs et les icônes au lieu du contenu. Fixez une règle : une couleur par branche, aucune décoration tant que le contenu n'est pas fini."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Lisez les titres de la transcription et faites de chacun une branche. Pendant le cours, faites des captures d'écran des diapositives clés dans la transcription, puis servez-vous-en comme repères pour les schémas de votre carte. Cartographier une transcription terminée est plus simple qu'en direct, car on voit toutes les branches avant de tracer la première."
+        }
+      ]
+    },
+    {
+      "id": "charting-method",
+      "heading": "Qu'est-ce que la méthode du tableau ?",
+      "body": "La méthode du tableau consigne l'information dans une grille, avec une ligne par élément et une colonne par critère comparé. Un cours rempli de faits parallèles devient un document qu'on peut lire en ligne et en colonne.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "Colonnes : **Classe | Mécanisme | Exemple | Effet indésirable principal**. Ligne : **Bêtabloquants | Bloquent l'adrénaline sur les récepteurs bêta | Propranolol | Fatigue, extrémités froides**. Ligne : **IEC | Bloquent la conversion de l'angiotensine | Ramipril | Toux sèche**."
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Pharmacologie en PASS ou LAS, économie, politique comparée, périodes historiques, tableaux de grammaire en langues : tout cours qui compare plusieurs éléments sur les mêmes critères."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Bon une fois les colonnes fixées.** La difficulté est qu'il faut connaître les colonnes avant le cours, ce qui est dur si le syllabus est flou. Quand la structure est claire, le tableau réduit chaque décision à remplir une case, ce qui apaise."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "L'éditeur de notes de LessonScriptor propose des surlignages en 5 couleurs. Attribuez une couleur par colonne (vert pour le mécanisme, jaune pour les exemples, etc.) et surlignez en relisant la transcription. Recopiez ensuite chaque couleur dans sa colonne. Le tableau devient une tâche de tri, plus une tâche d'écoute."
+        }
+      ]
+    },
+    {
+      "id": "sentence-method",
+      "heading": "Qu'est-ce que la méthode des phrases ?",
+      "body": "La méthode des phrases note chaque fait ou idée nouvelle sous forme de phrase numérotée, ligne après ligne, sans chercher à organiser pendant le cours. C'est la méthode la plus rapide en direct et la plus lente à réviser.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "1. Pour Keynes, la demande détermine la production à court terme. 2. En récession, les ménages épargnent davantage, ce qui réduit encore la demande. 3. C'est le paradoxe de l'épargne. 4. La dépense publique peut combler l'écart."
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Les cours rapides et denses où l'on n'a pas le temps de structurer : sciences en L1, médecine, cours magistraux d'introduction."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Facile à démarrer, difficile à exploiter.** Son faible coût explique pourquoi tant d'étudiants TDAH y arrivent par défaut. Le problème apparaît en révision : des phrases numérotées n'ont pas de hiérarchie, tout semble aussi important. Elle ne paie que si l'on ajoute un second passage."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Une transcription, c'est la méthode des phrases faite à votre place, sans rien rater. Inutile donc de l'écrire en direct : mettez votre énergie dans le second passage. Passez en gras les 10 à 15 phrases qui comptent, supprimez le remplissage, ajoutez des titres. Vous gardez l'exhaustivité de la méthode sans son problème de révision."
+        }
+      ]
+    },
+    {
+      "id": "boxing-method",
+      "heading": "Qu'est-ce que la méthode des boîtes (boxing) ?",
+      "body": "La méthode des boîtes regroupe les notes liées dans des cadres dessinés, un cadre par thème, pour que chaque morceau du cours soit visuellement séparé du suivant. C'est une méthode récente, née avec les tablettes et des applis comme GoodNotes ou Notability, où l'outil lasso permet de tracer, déplacer et redimensionner les boîtes.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "Boîte 1, **Offre** : loi de l'offre, déplacement de la courbe ou le long de la courbe, exemples. Boîte 2, **Demande** : loi de la demande, biens substituables et complémentaires. Boîte 3, **Équilibre** : intersection des courbes, effet d'un prix plafond."
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Les cours organisés par thèmes, les étudiants qui écrivent à la main sur iPad, et les fiches de révision où l'on veut un thème par bloc."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Bon.** Les boîtes créent des blocs naturels, utiles quand la mémoire de travail sature, et terminer une boîte donne un petit sentiment d'accomplissement. En révision, on peut cacher une boîte et réciter son contenu, une forme simple d'auto-interrogation."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Considérez chaque titre de la transcription comme une boîte. Après le cours, recopiez chaque partie dans une boîte et réduisez-la à 3 à 5 points clés. Les captures d'écran des diapositives vont dans la boîte correspondante."
+        }
+      ]
+    },
+    {
+      "id": "zettelkasten-method",
+      "heading": "Qu'est-ce que la méthode Zettelkasten ?",
+      "body": "Le Zettelkasten (« boîte à fiches » en allemand) est un système de notes courtes, une idée par fiche, reliées entre elles pour former un réseau d'idées sur des mois ou des années. Le sociologue Niklas Luhmann a rédigé des dizaines de livres grâce à une boîte de plusieurs dizaines de milliers de fiches papier. Aujourd'hui, les étudiants l'utilisent surtout dans Obsidian, Logseq ou avec Zotero.",
+      "subsections": [
+        {
+          "h3": "Exemple",
+          "body": "Fiche 23 : **L'habitus est l'ensemble des dispositions acquises selon la position sociale (Bourdieu).** Liens vers la fiche 24 : **Le goût comme marqueur de classe** et la fiche 41 : **Comparer avec la mise en scène de soi chez Goffman**."
+        },
+        {
+          "h3": "Idéale pour",
+          "body": "Les mémoires de master, les articles de recherche, les sciences humaines et sociales, et tous ceux qui construisent un savoir sur plusieurs cours."
+        },
+        {
+          "h3": "Verdict TDAH",
+          "body": "**Risqué pour les partiels, utile pour les gros projets.** Construire le système peut devenir une forme élégante de procrastination, et il n'aide guère pour un partiel jeudi prochain. Pour un mémoire, en revanche, les notes reliées collent à la pensée associative de beaucoup de cerveaux TDAH."
+        },
+        {
+          "h3": "Avec une transcription de cours",
+          "body": "Exportez la transcription en .md et déposez-la dans Obsidian comme note de lecture. Écrivez ensuite quelques notes permanentes avec vos mots, une idée chacune, et reliez-les. La transcription est la matière brute ; les fiches Zettelkasten sont ce que vous en tirez."
+        }
+      ]
+    },
+    {
+      "id": "which-method-should-i-use",
+      "heading": "Quelle méthode de prise de notes choisir ?",
+      "body": "Choisissez d'abord selon le type de cours, puis ajustez selon votre façon de vous concentrer. Ces règles couvrent la plupart des cas.",
+      "steps": [
+        {
+          "strategy": "Si le cours se termine par un partiel écrit",
+          "detail": "Prenez Cornell. La colonne de gauche devient votre liste de questions pour réviser."
+        },
+        {
+          "strategy": "Si l'enseignant suit un plan clair ou des diapositives",
+          "detail": "Prenez le plan, idéalement construit après coup à partir des diapositives ou de la transcription."
+        },
+        {
+          "strategy": "Si le cours compare plusieurs éléments",
+          "detail": "Prenez le tableau. Fixez les colonnes à partir du syllabus avant le cours."
+        },
+        {
+          "strategy": "Si les idées partent dans tous les sens",
+          "detail": "Prenez la carte mentale, avec une limite stricte sur la décoration."
+        },
+        {
+          "strategy": "Si vous prenez vos notes sur tablette",
+          "detail": "Essayez le boxing. Une boîte par thème garde la page lisible."
+        },
+        {
+          "strategy": "Si vous rédigez un mémoire",
+          "detail": "Prenez un Zettelkasten, mais seulement pour ce projet."
+        },
+        {
+          "strategy": "Si vous avez un TDAH et perdez le fil en direct",
+          "detail": "Ne choisissez pas une méthode à appliquer pendant le cours. Captez le cours en transcription, puis appliquez Cornell, le plan ou le tableau ensuite."
+        }
+      ],
+      "callout": {
+        "type": "insight",
+        "label": "Pourquoi combiner deux méthodes fonctionne",
+        "body": "Beaucoup d'étudiants combinent deux méthodes : une capture façon phrases pendant le cours, puis une mise en page Cornell ou en plan après. Une transcription rend cette séparation facile, car la capture ne dépend plus de votre attention pendant deux heures d'amphi."
+      },
+      "internal_links": [
+        {
+          "text": "Prendre des notes avec un TDAH : un système concret",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "adhd-transcript-workflow",
+      "heading": "Comment appliquer une méthode de prise de notes à une transcription de cours ?",
+      "body": "Le principe « capter puis structurer » est la façon la plus pratique pour un étudiant TDAH d'utiliser n'importe laquelle de ces méthodes. Il sépare l'écoute de l'organisation, pour que l'une ne fasse plus concurrence à l'autre. Voici comment cela fonctionne avec LessonScriptor, une extension Chrome qui transcrit tout ce qui joue dans un onglet : Moodle de votre université, cours du CNED, Panopto, YouTube ou Zoom dans le navigateur.",
+      "steps": [
+        {
+          "strategy": "Lancez la transcription avant le cours",
+          "detail": "Ouvrez le panneau latéral de LessonScriptor et appuyez sur démarrer. Le mode gratuit utilise la reconnaissance vocale intégrée de Chrome via votre micro : passez le cours sur les haut-parleurs à 80 % du volume ou plus ; il ne fonctionne pas avec un casque. Le mode IA capte directement le son de l'onglet, fonctionne avec un casque et gère mieux les accents et le vocabulaire technique (essai gratuit de 30 minutes, puis packs à partir de 5 $ pour 5 heures, Stripe convertit en euros)."
+        },
+        {
+          "strategy": "Marquez la structure en écoutant",
+          "detail": "Pas besoin d'écrire. Ajoutez un titre quand le sujet change, et faites une capture d'écran quand une diapositive ou un schéma important apparaît. Ces deux gestes prennent quelques secondes et donnent le squelette de n'importe quelle méthode."
+        },
+        {
+          "strategy": "Surlignez lors d'un second passage",
+          "detail": "Après le cours, relisez la transcription et surlignez avec jusqu'à 5 couleurs : par exemple définitions, exemples, points probables au partiel. Supprimez les digressions."
+        },
+        {
+          "strategy": "Exportez et restructurez",
+          "detail": "Exportez en .md ou .txt, ou copiez dans le presse-papiers, puis collez dans votre modèle Cornell, votre plan, votre tableau ou votre coffre Obsidian. Rédigez vous-même les questions, synthèses ou liens."
+        },
+        {
+          "strategy": "Transformez la structure en questions",
+          "detail": "Terminez par cinq à dix questions qu'on pourrait vous poser sur ce cours. C'est l'étape qui rend les notes utiles pour réviser."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Ce que LessonScriptor fait, et ne fait pas",
+        "body": "LessonScriptor vous donne une transcription en direct et modifiable, avec titres, surlignages, captures d'écran et export. Il ne crée ni résumés, ni fiches, ni mises en page Cornell automatiquement. Pour un premier jet de résumé, vous pouvez coller vous-même la transcription exportée dans ChatGPT, Le Chat de Mistral ou NotebookLM."
+      },
+      "internal_links": [
+        {
+          "text": "Modèle de prise de notes TDAH à remplir depuis une transcription",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Les meilleures applis de prise de notes pour étudiants",
+          "url": "/blog/best-note-taking-apps-for-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En bref",
+    "body": "Cornell est la méthode de prise de notes la plus polyvalente pour préparer les partiels, le plan et le tableau gagnent pour les cours structurés ou comparatifs, la carte mentale et le boxing conviennent aux profils visuels, et le Zettelkasten se réserve aux projets de recherche. Avec un TDAH, le moment compte plus que la méthode : captez d'abord le cours, structurez-le quand votre attention est disponible.",
+    "internal_links": [
+      {
+        "text": "Étape suivante : transformer ses notes en questions de rappel actif",
+        "url": "/blog/active-recall-lecture-transcript"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Quelles sont les principales méthodes de prise de notes ?",
+        "answer": "Les cinq méthodes classiques sont Cornell, le plan, la carte mentale, le tableau et la méthode des phrases. Les listes récentes ajoutent le boxing, populaire sur tablette, et le Zettelkasten pour les notes de recherche à long terme."
+      },
+      {
+        "question": "Quelle est la méthode de prise de notes la plus efficace ?",
+        "answer": "La méthode Cornell est la plus efficace pour préparer un partiel, car sa colonne de gauche transforme les notes en questions d'auto-évaluation. Pour les cours très comparatifs, le tableau est souvent meilleur ; pour un mémoire, le Zettelkasten."
+      },
+      {
+        "question": "Quelle méthode de prise de notes choisir quand on a un TDAH ?",
+        "answer": "Avec un TDAH, le plus efficace est généralement de capter d'abord le cours (transcription ou notes brutes en phrases), puis d'appliquer Cornell, le plan ou la carte mentale après. Les méthodes qui exigent de structurer en continu pendant le cours craquent quand l'attention décroche."
+      },
+      {
+        "question": "Cornell ou plan : quelle méthode est la meilleure ?",
+        "answer": "Cornell est meilleure pour réviser, car elle intègre des questions et une synthèse. Le plan est meilleur pour voir l'architecture d'un cours bien construit. Beaucoup d'étudiants font un plan dans la colonne de notes d'une page Cornell et cumulent les deux."
+      },
+      {
+        "question": "Le Zettelkasten est-il adapté aux étudiants ?",
+        "answer": "Le Zettelkasten convient aux étudiants qui rédigent un mémoire ou un article, car les fiches reliées construisent une argumentation dans la durée. Il est peu adapté aux révisions de partiels à court terme, où Cornell et le rappel actif vont plus vite."
+      },
+      {
+        "question": "Peut-on utiliser une transcription de cours au lieu de prendre des notes ?",
+        "answer": "Une transcription remplace l'étape de capture, pas l'étape de réflexion. Elle enregistre tout, mais il faut encore surligner, structurer et transformer le contenu en questions. Utilisée ainsi, elle libère votre attention pendant le cours et rend n'importe quelle méthode plus facile à appliquer après."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "7 méthodes de prise de notes pour étudiants (et lesquelles marchent avec un TDAH)",
+      "description": "Cornell, plan, carte mentale, tableau, phrases, boxing, Zettelkasten : 7 méthodes de prise de notes comparées, avec exemples et un verdict TDAH honnête.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/fr/blog/methodes-prise-de-notes"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelles sont les principales méthodes de prise de notes ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les cinq méthodes classiques sont Cornell, le plan, la carte mentale, le tableau et la méthode des phrases. Les listes récentes ajoutent le boxing, populaire sur tablette, et le Zettelkasten pour les notes de recherche à long terme."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la méthode de prise de notes la plus efficace ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La méthode Cornell est la plus efficace pour préparer un partiel, car sa colonne de gauche transforme les notes en questions d'auto-évaluation. Pour les cours très comparatifs, le tableau est souvent meilleur ; pour un mémoire, le Zettelkasten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle méthode de prise de notes choisir quand on a un TDAH ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avec un TDAH, le plus efficace est généralement de capter d'abord le cours (transcription ou notes brutes en phrases), puis d'appliquer Cornell, le plan ou la carte mentale après. Les méthodes qui exigent de structurer en continu pendant le cours craquent quand l'attention décroche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cornell ou plan : quelle méthode est la meilleure ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cornell est meilleure pour réviser, car elle intègre des questions et une synthèse. Le plan est meilleur pour voir l'architecture d'un cours bien construit. Beaucoup d'étudiants font un plan dans la colonne de notes d'une page Cornell et cumulent les deux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le Zettelkasten est-il adapté aux étudiants ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le Zettelkasten convient aux étudiants qui rédigent un mémoire ou un article, car les fiches reliées construisent une argumentation dans la durée. Il est peu adapté aux révisions de partiels à court terme, où Cornell et le rappel actif vont plus vite."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on utiliser une transcription de cours au lieu de prendre des notes ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Une transcription remplace l'étape de capture, pas l'étape de réflexion. Elle enregistre tout, mais il faut encore surligner, structurer et transformer le contenu en questions. Utilisée ainsi, elle libère votre attention pendant le cours et rend n'importe quelle méthode plus facile à appliquer après."
+          }
+        }
+      ]
+    }
+  ]
+}

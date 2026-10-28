@@ -1,0 +1,498 @@
+{
+  "slug": "live-transcribe-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Transcrição Instantânea (Live Transcribe) no Chrome e no PC: as alternativas",
+  "reading_time_min": 10,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Live Transcribe no PC e no Chrome: 5 alternativas",
+    "description": "A Transcrição Instantânea do Google só existe no Android. Compare 5 jeitos de transcrever ao vivo no Chrome, Windows ou Mac e guardar o texto para estudar.",
+    "keywords": [
+      "live transcribe pc",
+      "live transcribe chrome",
+      "transcrição instantânea pc",
+      "transcrição instantânea chrome",
+      "extensão chrome transcrição ao vivo",
+      "legenda instantânea chrome",
+      "legendas em tempo real windows"
+    ],
+    "og_title": "Live Transcribe no PC e no Chrome: 5 alternativas",
+    "og_description": "A Transcrição Instantânea do Google não tem versão para Chrome nem para Windows. Veja o que usar no notebook no lugar dela.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Resumo rápido",
+    "lead": "A Transcrição Instantânea (Live Transcribe) do Google só funciona em celulares Android. Não existe extensão para Chrome, programa para Windows nem app para Mac, então no computador você precisa de outra ferramenta.",
+    "bullets": [
+      "A **Legenda instantânea do Chrome** já vem no Chrome para Windows, Mac, Linux e ChromeOS. Ela legenda o áudio que toca no Chrome, mas não salva nada.",
+      "As **Legendas em tempo real do Windows 11** (versão 22H2 ou mais recente) e as do **macOS** (chips Apple) legendam o áudio de qualquer app e também podem ouvir o microfone em conversas presenciais. O macOS ainda não tem português.",
+      "O **LessonScriptor** é uma extensão do Chrome que guarda uma transcrição editável de tudo o que toca numa aba e exporta em .txt ou .md.",
+      "O **modo gratuito** do LessonScriptor ouve pelo microfone, então precisa de volume nas caixas de som e não funciona com fone de ouvido. O **modo IA** captura o áudio da aba, então o fone funciona."
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "apps oficiais da Transcrição Instantânea para Chrome, Windows ou macOS"
+    },
+    {
+      "number": "3 dias",
+      "label": "tempo que a Transcrição Instantânea guarda o histórico no Android"
+    },
+    {
+      "number": "14",
+      "label": "idiomas no LessonScriptor, incluindo português, com exportação .txt e .md"
+    }
+  ],
+  "intro": "A Transcrição Instantânea (Live Transcribe, em inglês) é o app gratuito do Google para Android que transforma fala em texto. Foi criada em parceria com a Universidade Gallaudet e lançada em 2019 para legendar conversas do dia a dia pelo microfone do celular. Não existe Transcrição Instantânea para Chrome, Windows ou Mac: o Google só oferece o app no Android, e procurar uma \"extensão Live Transcribe para Chrome\" não leva a nada oficial. Os equivalentes mais próximos no computador são a Legenda instantânea do Chrome, as Legendas em tempo real do Windows 11, as legendas ao vivo do macOS e extensões do Chrome como o LessonScriptor. Elas fazem dois trabalhos diferentes. As ferramentas nativas mostram o texto na tela e depois descartam. O LessonScriptor mantém uma transcrição que você pode editar e exportar, o que faz toda a diferença quando você estuda a partir de uma aula em vez de só acompanhá-la. Este guia compara as cinco opções (fone de ouvido, transcrição salva, edição, exportação, idiomas e preço) e mostra como configurar o LessonScriptor como um \"Live Transcribe\" no seu PC.",
+  "sections": [
+    {
+      "id": "is-there-live-transcribe-for-pc",
+      "heading": "Existe Live Transcribe (Transcrição Instantânea) para PC ou Chrome?",
+      "body": "Não. A **Transcrição Instantânea e Notificações de som** é um app de Android, pré-instalado nos Pixel e em alguns outros aparelhos Android, e disponível no Google Play. O Google nunca lançou o app como extensão do Chrome, programa para Windows, app para Mac ou para iPhone. Sites que oferecem \"baixar Live Transcribe para PC\" costumam levar a emuladores ou apps sem relação nenhuma: um risco de segurança sem benefício.\n\nO que as pessoas querem do Live Transcribe no computador costuma ser uma de duas coisas. A primeira é legendar alguém falando na sala: um professor, um colega, um médico. A Transcrição Instantânea faz isso muito bem pelo microfone do celular, em mais de 80 idiomas. A segunda é legendar um áudio que já está no computador: uma aula no Zoom, um vídeo do YouTube, uma videoaula no AVA ou no Moodle da USP ou da Unicamp. Esse segundo uso não é para o que o Live Transcribe foi pensado, e as ferramentas de desktop fazem melhor porque leem direto o áudio do computador.\n\nO truque mais simples ainda funciona: colocar um celular Android com a Transcrição Instantânea ao lado da caixa de som do notebook. É grátis e quebra o galho, mas ocupa o celular, pega o barulho do ambiente e o histórico dura no máximo três dias."
+    },
+    {
+      "id": "what-chrome-live-caption-does",
+      "heading": "O que a Legenda instantânea do Chrome faz, e o que ela não faz?",
+      "body": "A **Legenda instantânea** é o recurso de legendas embutido no Chrome. Ela legenda a fala de qualquer áudio ou vídeo que toca no Chrome (YouTube, podcasts, videochamadas no navegador, players de plataformas de ensino) no Windows, Mac, Linux e ChromeOS. Você ativa em **Configurações > Acessibilidade > Legenda instantânea**. O processamento acontece no aparelho, e o Google afirma que o áudio e as legendas nunca são armazenados.\n\nEssa escolha de privacidade é também o maior limite para quem estuda. Ela mostra uma caixinha flutuante com duas linhas que somem. Não há histórico, edição nem exportação: a frase que passou, se perdeu. Além disso, ela só legenda o áudio do Chrome, não o app de desktop do Zoom nem uma pessoa falando na sala. A página de ajuda do Google lista cerca de 19 idiomas, incluindo português, inglês, espanhol, francês, alemão e chinês simplificado, com opção de tradução.\n\nSe a Legenda instantânea não aparece ou para de funcionar, a causa costuma ser um pacote de idioma que não baixou ou a versão do Chrome. Nosso guia de solução de problemas mostra como resolver.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com transcrição salva",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Legenda instantânea do Chrome não funciona: soluções",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "live-transcribe-alternatives-pc",
+      "heading": "Quais são as melhores alternativas ao Live Transcribe para PC?",
+      "body": "Cinco opções cobrem quase todos os casos: três ferramentas gratuitas embutidas no navegador ou no sistema, e duas extensões do Chrome.",
+      "subsections": [
+        {
+          "h3": "1. Legenda instantânea do Chrome (qualquer computador com Chrome)",
+          "body": "É a opção mais rápida: não precisa instalar nada. Funciona com fone de ouvido, porque lê o áudio do Chrome e não o microfone. É ótima para acompanhar um vídeo no ônibus ou na biblioteca com o som baixo. Não serve se você precisa reler o que foi dito, porque nada fica salvo."
+        },
+        {
+          "h3": "2. Legendas em tempo real do Windows 11",
+          "body": "As **Legendas em tempo real** (Live Captions) vêm no Windows 11 versão 22H2 e mais recentes. Atalho: **Windows + Ctrl + L**. Elas legendam o áudio de qualquer aplicativo, inclusive as versões de desktop do Zoom e do Microsoft Teams, e podem incluir o microfone como opção. Por isso são o mais próximo do Live Transcribe para uma conversa presencial num notebook com Windows. A Microsoft processa tudo no aparelho e não guarda as legendas. Antes de contar com elas para aulas em português, confira se o pacote de idioma português está disponível na sua versão do Windows. **O Windows 10 não tem Legendas em tempo real**, então num PC mais antigo as opções reais são a Legenda instantânea do Chrome ou uma extensão."
+        },
+        {
+          "h3": "3. Legendas ao vivo do macOS",
+          "body": "As **legendas ao vivo do macOS** (Live Captions) funcionam em Macs com chip Apple (M1 ou mais recente). Elas ouvem o áudio do computador ou o microfone para quem está na sala, com processamento no aparelho. O ponto fraco para o Brasil: a lista atual da Apple inclui inglês, espanhol, francês, alemão, japonês, coreano, mandarim e cantonês, mas **não inclui português**. As legendas aparecem numa janela redimensionável da qual dá para copiar parte do texto recente. É uma janela de legendas, não uma ferramenta de anotação."
+        },
+        {
+          "h3": "4. LessonScriptor (extensão do Chrome)",
+          "body": "O **LessonScriptor** é uma extensão do Chrome que transforma o que toca numa aba em transcrição ao vivo, no painel lateral do Chrome, e funciona em português. Diferente das ferramentas nativas, o texto fica. Você pode destacar em cinco cores, usar negrito, adicionar títulos e tópicos, apagar trechos inúteis e capturar o slide dentro da transcrição. Depois exporta em .txt ou .md, ou copia para a área de transferência. As sessões são salvas automaticamente no seu computador. Funciona no Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, Udemy, e no Zoom, Google Meet ou Teams pelo navegador. É só para Chrome, não transcreve apps de desktop e não identifica quem está falando."
+        },
+        {
+          "h3": "5. Extensões baseadas em Web Speech",
+          "body": "Muitas extensões gratuitas do Chrome usam a **API Web Speech** do navegador, que ouve pelo microfone. Elas são úteis para ditado ou para captar uma voz perto do notebook. Como ouvem o ambiente e não a aba, precisam de volume e não funcionam com fone, e salvar ou exportar varia muito de uma para outra. O modo gratuito do LessonScriptor usa o mesmo motor, mas acrescenta o editor, o histórico e a exportação."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "As melhores extensões do Chrome de voz para texto",
+          "url": "/blog/best-speech-to-text-chrome-extensions"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Como as alternativas ao Live Transcribe se comparam?",
+      "body": "Esta tabela compara a Transcrição Instantânea do Google com as cinco opções de desktop nos pontos que decidem se você vai conseguir estudar com o resultado.",
+      "table": {
+        "headers": [
+          "Ferramenta",
+          "Plataforma",
+          "Funciona com fone",
+          "Guarda a transcrição",
+          "Editável",
+          "Exportação",
+          "Idiomas",
+          "Preço"
+        ],
+        "rows": [
+          [
+            "Transcrição Instantânea (Google)",
+            "Só celulares Android",
+            "Não se aplica (microfone do celular)",
+            "Histórico de até 3 dias",
+            "Não",
+            "Copiar texto",
+            "80+",
+            "Grátis"
+          ],
+          [
+            "Legenda instantânea do Chrome",
+            "Chrome no Windows, Mac, Linux, ChromeOS",
+            "Sim",
+            "Não",
+            "Não",
+            "Não",
+            "Cerca de 19, inclui português",
+            "Grátis"
+          ],
+          [
+            "Legendas em tempo real do Windows 11",
+            "Windows 11 22H2+",
+            "Sim",
+            "Não",
+            "Não",
+            "Não",
+            "Vários (pacotes de idioma)",
+            "Grátis"
+          ],
+          [
+            "Legendas ao vivo do macOS",
+            "Macs com chip Apple",
+            "Sim (áudio do computador)",
+            "Histórico limitado na janela",
+            "Não",
+            "Copiar da janela",
+            "Cerca de 8, sem português",
+            "Grátis"
+          ],
+          [
+            "LessonScriptor modo gratuito",
+            "Chrome no computador",
+            "Não (usa o microfone)",
+            "Sim, salvamento automático",
+            "Sim",
+            ".txt, .md, área de transferência",
+            "14, inclui português",
+            "US$ 0"
+          ],
+          [
+            "LessonScriptor modo IA",
+            "Chrome no computador",
+            "Sim (áudio da aba)",
+            "Sim, salvamento automático",
+            "Sim",
+            ".txt, .md, área de transferência",
+            "14, inclui português",
+            "Teste grátis de 30 min, depois a partir de US$ 5 por 5 horas"
+          ],
+          [
+            "Extensões Web Speech",
+            "Chrome",
+            "Geralmente não (microfone)",
+            "Varia",
+            "Varia",
+            "Varia",
+            "Varia",
+            "Quase sempre grátis"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "A diferença de verdade",
+        "body": "Todas as ferramentas nativas gratuitas são feitas para **acessibilidade no momento**: ler as palavras agora e não guardar nada. É uma boa escolha de privacidade, mas nenhuma gera anotações. Se você precisa revisar antes da prova, escolha uma ferramenta que guarde a transcrição."
+      }
+    },
+    {
+      "id": "which-one-to-choose",
+      "heading": "Qual alternativa ao Live Transcribe você deve usar?",
+      "body": "A escolha depende de onde vem a fala e se você precisa guardá-la.",
+      "steps": [
+        {
+          "strategy": "Alguém está falando na sala (aula presencial, monitoria, consulta)",
+          "detail": "Use as Legendas em tempo real do Windows 11 com a opção de microfone, ou a Transcrição Instantânea num celular Android, que tem português. As legendas do macOS também ouvem o microfone, mas ainda não têm português."
+        },
+        {
+          "strategy": "Você só quer acompanhar um vídeo agora",
+          "detail": "Ative a Legenda instantânea do Chrome: grátis, funciona com fone e não precisa instalar nada."
+        },
+        {
+          "strategy": "O áudio vem de um app de desktop (Zoom ou Teams instalados)",
+          "detail": "Use as legendas do Windows ou do macOS, que leem o áudio do sistema. As ferramentas do Chrome só enxergam abas: abra a reunião no navegador se quiser uma transcrição salva."
+        },
+        {
+          "strategy": "Você precisa de anotações de uma aula ou vídeo no Chrome",
+          "detail": "Use o LessonScriptor. A transcrição fica no painel lateral, você edita enquanto ela se forma e exporta no fim da aula."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Legenda instantânea do Chrome vs LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "how-to-set-up-lessonscriptor",
+      "heading": "Como usar o LessonScriptor como Live Transcribe no PC?",
+      "body": "O LessonScriptor funciona em qualquer PC com Windows, Mac ou Chromebook que tenha Chrome. A configuração leva uns dois minutos, e o modo gratuito não pede conta.",
+      "steps": [
+        {
+          "strategy": "Instale a extensão",
+          "detail": "Adicione o LessonScriptor pela Chrome Web Store e fixe na barra de ferramentas para ter sempre a um clique."
+        },
+        {
+          "strategy": "Abra sua aula ou vídeo",
+          "detail": "Carregue a aula numa aba do Chrome: o AVA da sua faculdade, uma disciplina no Moodle da USP ou da Unicamp, uma gravação no Panopto, um vídeo do YouTube, ou uma chamada do Zoom ou Google Meet no navegador."
+        },
+        {
+          "strategy": "Abra o painel lateral e escolha o idioma",
+          "detail": "Clique no ícone do LessonScriptor para abrir o painel ao lado do vídeo e escolha o idioma falado entre os 14 disponíveis."
+        },
+        {
+          "strategy": "Escolha modo gratuito ou modo IA",
+          "detail": "O **modo gratuito** ouve pelo seu microfone: toque o áudio nas caixas de som com 80% de volume ou mais e tire o fone. Ele também transcreve a sua própria voz. O **modo IA** captura direto o áudio da aba, então o fone funciona e não precisa de microfone. Os primeiros 30 minutos do modo IA são grátis."
+        },
+        {
+          "strategy": "Clique em iniciar e deixe o texto se formar",
+          "detail": "No modo gratuito, o texto aparece enquanto a pessoa fala. No modo IA, ele chega em blocos de cerca de 10 segundos (Normal) ou 30 segundos (Ótimo, mais preciso), então há um pequeno atraso."
+        },
+        {
+          "strategy": "Edite enquanto escuta",
+          "detail": "Destaque as frases-chave, coloque conceitos em negrito, adicione um título por tema e capture a tela quando aparecer um slide importante. Tudo é salvo automaticamente."
+        },
+        {
+          "strategy": "Exporte no fim da aula",
+          "detail": "Exporte em .txt ou .md, ou copie para a área de transferência e cole no seu app de anotações. Para um resumo, cole você mesmo o texto no ChatGPT ou no NotebookLM."
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "De fone na biblioteca?",
+        "body": "O modo gratuito não ouve um áudio que só toca no seu fone, porque escuta pelo microfone. Use o modo IA, que lê o áudio da aba, ou a Legenda instantânea do Chrome se você só quer acompanhar."
+      }
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "heading": "O modo gratuito do LessonScriptor basta, ou preciso do modo IA?",
+      "body": "O modo gratuito do LessonScriptor basta para uma voz clara, num ambiente silencioso, com o áudio nas caixas de som. Custa US$ 0, sem limite mensal nem conta, e nenhum áudio é enviado aos servidores do LessonScriptor. Os pontos fracos vêm do microfone: o volume importa, o fone não funciona, o barulho de fundo entra e a sua voz também é transcrita.\n\nO modo IA vale a pena quando o professor tem sotaque forte, a aula é cheia de termos técnicos ou o áudio é ruim, ou quando você precisa usar fone. Ele usa transcrição por IA na nuvem (modelos tipo Whisper), muito melhor com jargão e ruído. Cada aba é independente, então dá para transcrever dois vídeos ao mesmo tempo. O pagamento é por pacotes avulsos, sem assinatura: **5 horas por US$ 5, 15 horas por US$ 12 ou 30 horas por US$ 21**. Os créditos não expiram, são consumidos por segundo e chegam por e-mail como uma chave de licença que funciona em qualquer computador. Os preços são em dólar; o Stripe mostra uma estimativa em reais no pagamento. Se os créditos acabarem no meio da aula, há 10 minutos de tolerância para terminar."
+    },
+    {
+      "id": "use-cases",
+      "heading": "Quem usa uma extensão do Chrome de transcrição ao vivo em vez do Live Transcribe?",
+      "body": "Quem procura \"Live Transcribe no Chrome\" está usando o computador para algo que o celular Android não faz bem.",
+      "subsections": [
+        {
+          "h3": "Alunos de EAD e de cursos híbridos",
+          "body": "Quem estuda em EAD, ou assiste às videoaulas gravadas no AVA, no Moodle da USP ou nas plataformas da Unicamp, passa a maior parte do tempo diante de gravações. Uma transcrição salva e pesquisável de uma aula de 90 minutos vale muito mais do que legendas que somem."
+        },
+        {
+          "h3": "Estudantes com TDAH ou dislexia",
+          "body": "Ouvir e escrever ao mesmo tempo divide a atenção. Uma transcrição que se escreve sozinha deixa você acompanhar a aula e marcar o que importa em vez de correr atrás das anotações. É o método que a Victoria, que estuda antropologia a distância e tem TDAH, usa toda semana."
+        },
+        {
+          "h3": "Pessoas surdas ou com deficiência auditiva",
+          "body": "A Transcrição Instantânea é excelente no presencial, e no computador as legendas nativas do Chrome e do Windows são o primeiro passo natural (as do macOS ainda sem português). O LessonScriptor acrescenta uma transcrição que dá para reler depois, útil quando alguém fala mais rápido do que a caixa de legendas."
+        },
+        {
+          "h3": "Quem estuda idiomas ou faz intercâmbio",
+          "body": "Acompanhar uma aula em outro idioma é mais fácil com o texto na frente, e uma transcrição exportada permite pesquisar o vocabulário depois em vez de pausar a cada minuto."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "As melhores extensões do Chrome para legendas ao vivo",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Existe Live Transcribe (Transcrição Instantânea) para PC?",
+        "answer": "Não. A Transcrição Instantânea do Google só está disponível em celulares e tablets Android. No PC, as ferramentas nativas mais próximas são a Legenda instantânea do Chrome e as Legendas em tempo real do Windows 11. Se você quer uma transcrição para guardar, editar e exportar, uma extensão do Chrome como o LessonScriptor faz isso com tudo o que toca numa aba."
+      },
+      {
+        "question": "Dá para usar o Google Live Transcribe no Chrome?",
+        "answer": "Não. Não existe extensão oficial da Transcrição Instantânea para Chrome. O Chrome tem a própria Legenda instantânea (Configurações > Acessibilidade), que legenda o áudio do Chrome mas não salva nada. Para uma transcrição salva, use uma extensão como o LessonScriptor."
+      },
+      {
+        "question": "O Live Transcribe funciona no Windows?",
+        "answer": "Não, a Transcrição Instantânea não tem versão para Windows. O Windows 11 (versão 22H2 ou mais recente) traz as Legendas em tempo real, abertas com Windows + Ctrl + L, que legendam o áudio do sistema e podem usar o microfone como opção. O Windows 10 não tem nada parecido embutido, então a saída prática é a Legenda instantânea do Chrome ou uma extensão."
+      },
+      {
+        "question": "A Legenda instantânea do Chrome salva a transcrição?",
+        "answer": "Não. Ela processa o áudio no aparelho e não armazena as legendas, então o texto some assim que passa. O LessonScriptor guarda a transcrição completa num painel lateral e exporta em .txt ou .md."
+      },
+      {
+        "question": "Existe extensão do Chrome de transcrição ao vivo que funcione com fone de ouvido?",
+        "answer": "Sim. O modo IA do LessonScriptor captura direto o áudio da aba, então funciona com fone e sem microfone. O modo gratuito do LessonScriptor e a maioria das extensões Web Speech ouvem pelo microfone: precisam de volume nas caixas de som e não funcionam com fone."
+      },
+      {
+        "question": "O LessonScriptor é grátis?",
+        "answer": "O modo gratuito do LessonScriptor é grátis para sempre, sem conta e sem limite mensal. O modo IA, que funciona com fone e é mais preciso, tem 30 minutos de teste grátis e depois funciona com pacotes avulsos a partir de US$ 5 por 5 horas, sem assinatura."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Resumindo",
+    "body": "A Transcrição Instantânea do Google é só para Android, então no computador você escolhe entre legendas que somem e uma transcrição que fica. A Legenda instantânea do Chrome e as Legendas em tempo real do Windows 11 são grátis e boas para acompanhar na hora. As do macOS ainda não têm português. O LessonScriptor é a opção para estudar, porque guarda uma transcrição editável de qualquer aula no Chrome. O modo gratuito funciona pelas caixas de som e o modo IA funciona com fone.",
+    "internal_links": [
+      {
+        "text": "Experimente legendas ao vivo com transcrição salva",
+        "url": "/live-captions-chrome"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Transcrição Instantânea (Live Transcribe) no Chrome e no PC: as alternativas",
+      "description": "A Transcrição Instantânea do Google só existe no Android. Compare 5 jeitos de transcrever ao vivo no Chrome, Windows ou Mac e guardar o texto para estudar.",
+      "inLanguage": "pt",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/pt/blog/transcricao-instantanea-chrome-pc"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com/en",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Existe Live Transcribe (Transcrição Instantânea) para PC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A Transcrição Instantânea do Google só está disponível em celulares e tablets Android. No PC, as ferramentas nativas mais próximas são a Legenda instantânea do Chrome e as Legendas em tempo real do Windows 11. Se você quer uma transcrição para guardar, editar e exportar, uma extensão do Chrome como o LessonScriptor faz isso com tudo o que toca numa aba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para usar o Google Live Transcribe no Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Não existe extensão oficial da Transcrição Instantânea para Chrome. O Chrome tem a própria Legenda instantânea (Configurações > Acessibilidade), que legenda o áudio do Chrome mas não salva nada. Para uma transcrição salva, use uma extensão como o LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Live Transcribe funciona no Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não, a Transcrição Instantânea não tem versão para Windows. O Windows 11 (versão 22H2 ou mais recente) traz as Legendas em tempo real, abertas com Windows + Ctrl + L, que legendam o áudio do sistema e podem usar o microfone como opção. O Windows 10 não tem nada parecido embutido, então a saída prática é a Legenda instantânea do Chrome ou uma extensão."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Legenda instantânea do Chrome salva a transcrição?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Ela processa o áudio no aparelho e não armazena as legendas, então o texto some assim que passa. O LessonScriptor guarda a transcrição completa num painel lateral e exporta em .txt ou .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe extensão do Chrome de transcrição ao vivo que funcione com fone de ouvido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O modo IA do LessonScriptor captura direto o áudio da aba, então funciona com fone e sem microfone. O modo gratuito do LessonScriptor e a maioria das extensões Web Speech ouvem pelo microfone: precisam de volume nas caixas de som e não funcionam com fone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor é grátis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O modo gratuito do LessonScriptor é grátis para sempre, sem conta e sem limite mensal. O modo IA, que funciona com fone e é mais preciso, tem 30 minutos de teste grátis e depois funciona com pacotes avulsos a partir de US$ 5 por 5 horas, sem assinatura."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como usar o LessonScriptor como Live Transcribe no PC?",
+      "description": "O LessonScriptor funciona em qualquer PC com Windows, Mac ou Chromebook que tenha Chrome. A configuração leva uns dois minutos, e o modo gratuito não pede conta.",
+      "inLanguage": "pt",
+      "totalTime": "PT2M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instale a extensão",
+          "text": "Adicione o LessonScriptor pela Chrome Web Store e fixe na barra de ferramentas para ter sempre a um clique."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abra sua aula ou vídeo",
+          "text": "Carregue a aula numa aba do Chrome: o AVA da sua faculdade, uma disciplina no Moodle da USP ou da Unicamp, uma gravação no Panopto, um vídeo do YouTube, ou uma chamada do Zoom ou Google Meet no navegador."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Abra o painel lateral e escolha o idioma",
+          "text": "Clique no ícone do LessonScriptor para abrir o painel ao lado do vídeo e escolha o idioma falado entre os 14 disponíveis."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Escolha modo gratuito ou modo IA",
+          "text": "O modo gratuito ouve pelo seu microfone: toque o áudio nas caixas de som com 80% de volume ou mais e tire o fone. Ele também transcreve a sua própria voz. O modo IA captura direto o áudio da aba, então o fone funciona e não precisa de microfone. Os primeiros 30 minutos do modo IA são grátis."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Clique em iniciar e deixe o texto se formar",
+          "text": "No modo gratuito, o texto aparece enquanto a pessoa fala. No modo IA, ele chega em blocos de cerca de 10 segundos (Normal) ou 30 segundos (Ótimo, mais preciso), então há um pequeno atraso."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Edite enquanto escuta",
+          "text": "Destaque as frases-chave, coloque conceitos em negrito, adicione um título por tema e capture a tela quando aparecer um slide importante. Tudo é salvo automaticamente."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Exporte no fim da aula",
+          "text": "Exporte em .txt ou .md, ou copie para a área de transferência e cole no seu app de anotações. Para um resumo, cole você mesmo o texto no ChatGPT ou no NotebookLM."
+        }
+      ]
+    }
+  ]
+}

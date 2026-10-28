@@ -2,204 +2,464 @@
   "slug": "transcribe-youtube-video-to-text",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Como Transcrever um Vídeo do YouTube em Texto (Grátis, Passo a Passo)",
-  "reading_time_min": 7,
+  "h1": "Como transcrever um vídeo do YouTube em texto (mesmo sem transcrição)",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Como Transcrever um Vídeo do YouTube em Texto, de Graça",
-    "description": "Transforme qualquer vídeo do YouTube em texto de graça com o LessonScriptor. Sem legendas necessárias, sem upload, sem conta. Instale, aperte o play e exporte em minutos.",
-    "keywords": ["transcrever vídeo do youtube", "transcrição de vídeo do youtube", "transcrever vídeo do youtube em texto", "transcrever youtube em texto"],
+    "title": "Transcrever vídeo do YouTube em texto, mesmo sem legenda",
+    "description": "Como transcrever vídeo do YouTube em texto quando não há transcrição: lives, vídeos não listados, outros idiomas. 4 métodos grátis comparados, passo a passo.",
+    "keywords": [
+      "transcrever vídeo do youtube",
+      "transcrever vídeo do youtube em texto",
+      "converter vídeo do youtube em texto",
+      "vídeo do youtube para texto",
+      "transcrever live do youtube",
+      "youtube sem transcrição"
+    ],
     "og_image": null,
     "canonical": "https://lessonscriptor.com/pt/blog/transcrever-video-youtube-em-texto",
-    "og_title": "Como Transcrever um Vídeo do YouTube em Texto, de Graça",
-    "og_description": "Transforme qualquer vídeo do YouTube em texto de graça. Sem legendas necessárias, sem upload, sem conta.",
+    "og_title": "Como transcrever um vídeo do YouTube em texto (mesmo sem transcrição)",
+    "og_description": "Não aparece \"Mostrar transcrição\"? É uma live? Um vídeo em português com legenda ruim? Quatro métodos comparados.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
-    "url": "/transcribe-video-to-text"
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
-    "label": "Principais pontos",
-    "lead": "O botão de transcrição do próprio YouTube só funciona se quem fez o upload ativou as legendas. O LessonScriptor transcreve o áudio diretamente, então funciona em qualquer vídeo, com ou sem legenda.",
+    "label": "Resumo",
+    "lead": "Transcrever um vídeo do YouTube é você mesmo gerar o texto a partir do áudio, e isso só é necessário quando a transcrição do YouTube não existe, está errada ou ainda não ficou pronta. Se \"Mostrar transcrição\" funciona, é só baixar.",
     "bullets": [
-      "A transcrição nativa do YouTube (o menu \"...\", depois \"Mostrar transcrição\") só aparece se quem fez o upload adicionou legendas. As legendas automáticas são imprevisíveis e não podem ser editadas nem exportadas.",
-      "O LessonScriptor escuta o áudio do vídeo diretamente. Ele não precisa que exista legenda nenhuma, que é a lacuna em que todo outro método esbarra.",
-      "O modo grátis funciona na hora, sem conta, usando o motor de fala do próprio navegador. O modo IA é um pacote de créditos pré-pago para mais precisão em sotaques e termos técnicos.",
-      "A transcrição é editável enquanto se forma: destaque, deixe em negrito, adicione cabeçalhos, depois exporte como .md ou .txt, ou copie direto para o seu app de anotações."
+      "O painel \"Mostrar transcrição\" só existe se houver legendas. As legendas automáticas falham com áudio ruim, vozes sobrepostas, idioma não suportado, vídeo muito longo, ou simplesmente ainda não foram processadas.",
+      "As legendas automáticas ao vivo do YouTube são só em inglês: uma live em português normalmente não tem transcrição enquanto está no ar.",
+      "Três métodos funcionam sem transcrição: a Digitação por voz do Google Docs (grátis, instável), ferramentas de upload como o Otter (precisa do arquivo) e a transcrição ao vivo no navegador com o LessonScriptor (funciona com tudo o que toca no Chrome).",
+      "O LessonScriptor monta uma transcrição editável num painel lateral enquanto o vídeo toca, em 14 idiomas incluindo o português, e exporta em .txt ou .md. Modo grátis: microfone e caixas de som; modo IA: áudio da aba, funciona com fone."
     ]
   },
   "stats": [
-    { "number": "0", "label": "legendas necessárias, o LessonScriptor transcreve o áudio diretamente" },
-    { "number": "14", "label": "idiomas suportados, incluindo francês, espanhol, árabe e hindi" },
-    { "number": "2", "label": "formatos de exportação (.txt e .md), além de copiar para a área de transferência" }
-  ],
-  "intro": "A forma mais rápida de transcrever um vídeo do YouTube em texto é o LessonScriptor, uma extensão gratuita do Chrome que escuta o vídeo enquanto ele toca e monta uma transcrição editável em um painel lateral. O botão \"Mostrar transcrição\" do próprio YouTube só aparece quando quem fez o upload ativou as legendas, e copiar e colar as legendas automáticas te dá um bloco de texto sem pontuação nem formatação. Este guia mostra três formas de transformar um vídeo do YouTube em texto e quando cada uma realmente funciona.",
-  "sections": [
     {
-      "id": "three-ways",
-      "h2": "3 formas de transcrever um vídeo do YouTube em texto",
-      "body": "**LessonScriptor (recomendado).** Instale a extensão, abra o vídeo, aperte gravar. Ele escuta o áudio diretamente e monta uma transcrição editável em um painel lateral, com ou sem legendas no vídeo.\n\n**Transcrição nativa do YouTube.** Clique no menu de três pontos abaixo do vídeo e depois em \"Mostrar transcrição\". Isso só aparece se quem fez o upload ativou as legendas. O texto vem sem pontuação, sem quebras de parágrafo, e você não consegue editar ou destacar direto ali, precisaria copiar tudo antes.\n\n**Copiar e colar legendas automáticas.** Ativar as legendas automáticas do YouTube e copiar o texto resolve na emergência, mas você recebe um bloco corrido de texto em minúsculas, com marcações de tempo misturadas, e a precisão cai rápido em sotaques ou vocabulário técnico."
+      "number": "1",
+      "label": "idioma (inglês) para as legendas automáticas das lives do YouTube"
     },
     {
-      "id": "how-to-steps",
-      "h2": "Como transcrever um vídeo do YouTube com o LessonScriptor",
-      "body": "Todo o processo acontece na mesma aba do navegador em que o vídeo está.",
-      "steps": [
-        "Instale o LessonScriptor na Chrome Web Store. Um clique, sem cadastro.",
-        "Abra o vídeo do YouTube em uma aba do Chrome.",
-        "Clique no ícone do LessonScriptor para abrir o painel lateral e aperte Gravar antes de dar o play.",
-        "Aperte o play. A transcrição vai se formando palavra por palavra enquanto o vídeo toca.",
-        "Edite ali mesmo: destaque as linhas importantes, deixe termos em negrito, adicione um cabeçalho a cada mudança de assunto.",
-        "Exporte como .md ou .txt, ou copie para a área de transferência e cole no seu app de anotações."
+      "number": "3",
+      "label": "formas de tirar o texto de um vídeo do YouTube quando não há transcrição"
+    },
+    {
+      "number": "14",
+      "label": "idiomas que o LessonScriptor transcreve, entre eles português, espanhol e francês"
+    }
+  ],
+  "intro": "Transcrever um vídeo do YouTube em texto é converter você mesmo a fala do vídeo em texto escrito, e é disso que você precisa quando o YouTube não entrega uma transcrição: o botão \"Mostrar transcrição\" não aparece, as legendas automáticas estão cheias de erro, o vídeo é uma live, é privado ou não listado, ou está num idioma que as legendas tratam mal, o que acontece fácil com uma aula em português cheia de termos técnicos. Se o vídeo já tem uma transcrição boa, não precisa transcrever nada: copie em segundos com o método do nosso guia para baixar a transcrição do YouTube. Para todo o resto, o método mais confiável é a transcrição ao vivo no navegador com uma extensão do Chrome como o LessonScriptor, que escuta o vídeo enquanto ele toca e monta uma transcrição editável num painel lateral. Este guia explica por que as transcrições do YouTube somem, o quanto as legendas automáticas acertam e compara quatro métodos, do truque grátis da Digitação por voz do Google Docs a ferramentas de upload como o Otter.",
+  "sections": [
+    {
+      "id": "transcribe-or-download",
+      "h2": "Você precisa transcrever o vídeo ou só baixar a transcrição?",
+      "body": "Baixar uma transcrição é copiar um texto que o YouTube já gerou. Transcrever é criar esse texto a partir do áudio. O primeiro leva dez segundos; o segundo só vale a pena quando o primeiro falha.",
+      "callout": {
+        "type": "checklist",
+        "label": "Checagem rápida antes de começar",
+        "body": "**Abra o vídeo, clique em \"...mais\" embaixo do título e depois em \"Mostrar transcrição\".**\n\n**O painel aparece e o texto está certo:** baixe, não precisa transcrever.\n\n**O botão não aparece, o painel está vazio ou o texto está cheio de erros:** transcreva o áudio com um dos métodos abaixo.\n\n**É uma live, um vídeo privado ou não listado, ou não está em inglês:** vá direto para a transcrição ao vivo; nesses casos a transcrição do YouTube costuma faltar ou ser fraca."
+      },
+      "internal_links": [
+        {
+          "text": "Como baixar uma transcrição do YouTube que já existe (3 métodos)",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "id": "no-captions",
-      "h2": "E se o vídeo do YouTube não tiver legenda nenhuma?",
-      "body": "Essa é a verdadeira lacuna de todos os outros métodos. Uploads mais antigos, canais menores e muitos vídeos que não estão em inglês nunca tiveram legendas adicionadas, e a qualidade das legendas automáticas do YouTube varia bastante conforme a clareza do áudio e o sotaque.\n\nO LessonScriptor não lê legendas, ele escuta o áudio do vídeo do mesmo jeito que uma pessoa faria. Isso significa que ele funciona tão bem em um vídeo sem legenda, com legenda quebrada ou em outro idioma quanto em um totalmente legendado."
+      "id": "why-missing",
+      "h2": "Por que \"Mostrar transcrição\" não aparece em alguns vídeos do YouTube?",
+      "body": "\"Mostrar transcrição\" não aparece porque o vídeo não tem nenhuma faixa de legendas para o YouTube exibir. O painel de transcrição é só outra forma de ver as legendas: sem legendas, sem transcrição.\n\nA ajuda do YouTube lista os principais motivos para as legendas automáticas não serem geradas:\n\n**O áudio é complexo e ainda está sendo processado.** Um vídeo recém-enviado pode demorar para ganhar legendas automáticas, principalmente se for longo.\n\n**O idioma não é suportado.** As legendas automáticas cobrem mais de 100 idiomas, mas não todos os idiomas e sotaques.\n\n**O vídeo é longo demais**, ou **a qualidade do som é ruim** (música por cima da voz, eco, gravação de celular do fundo da sala).\n\n**Há um silêncio longo no começo**, ou **várias pessoas falam ao mesmo tempo**, ou quem fala mistura idiomas.\n\nOutras duas causas vêm do criador, não do YouTube: ele pode apagar ou despublicar as legendas automáticas, e as lives só têm legendas automáticas ao vivo em inglês. De qualquer forma, o áudio continua lá, e qualquer ferramenta que consiga ouvi-lo pode transformá-lo em texto."
     },
     {
-      "id": "free-vs-ai-mode",
-      "h2": "Modo grátis ou modo IA para vídeos do YouTube?",
-      "body": "O modo grátis usa o microfone do seu aparelho e o motor de reconhecimento de fala do próprio navegador, tudo local, sem cadastro. Funciona bem quando você toca o vídeo pelas caixas de som em um volume razoável. Se você estiver de fone de ouvido, ou se quem fala tiver um sotaque forte ou usar muito vocabulário técnico, o modo IA capta o áudio da aba diretamente em vez de depender do microfone, e usa um modelo de fala na nuvem feito para mais precisão nessas condições. O modo IA é um pacote de créditos pré-pago, não uma assinatura, e os créditos nunca expiram."
+      "id": "auto-captions-accuracy",
+      "h2": "As legendas automáticas do YouTube são precisas?",
+      "body": "As legendas automáticas do YouTube funcionam bem com inglês claro e um só falante, e pioram bastante com sotaques, jargão, música de fundo e fala que não seja em inglês. O próprio YouTube avisa que as legendas automáticas podem distorcer o que foi dito por causa de pronúncia, sotaques, dialetos ou ruído, e recomenda que os criadores revisem antes de publicar. Poucos revisam.\n\nOs erros que mais atrapalham estudantes são nomes próprios e termos técnicos: \"Paulo Freire\" vira outra coisa, \"jurisprudência\" se parte em duas, uma fórmula vira uma sequência de homófonos. O painel ainda entrega texto em minúsculas, em trechos curtos com marcação de tempo, quase sem pontuação e sem parágrafos: serve para achar uma frase, cansa para estudar.\n\nEsse é o argumento prático para transcrever mesmo quando há legendas: se elas erram justamente as palavras que importam, um modelo melhor sobre o mesmo áudio dá uma base mais limpa. O modo IA do LessonScriptor usa modelos na nuvem do tipo Whisper, bem melhores que o reconhecimento do navegador com sotaques, jargão e ruído."
     },
     {
-      "id": "comparison-table",
-      "h2": "Comparação dos métodos de transcrição do YouTube",
-      "body": "Veja como os três métodos se comparam no que realmente importa: precisa de legenda existente, dá para editar e o que você acaba tendo em mãos.",
+      "id": "methods-compared",
+      "h2": "Quais são as formas de converter um vídeo do YouTube em texto?",
+      "body": "Existem quatro formas realistas de transformar um vídeo do YouTube em texto. Só a primeira depende das legendas do YouTube; as outras três escutam o áudio.",
+      "subsections": [
+        {
+          "h3": "1. A transcrição do próprio YouTube (quando existe)",
+          "body": "Clique em \"...mais\" embaixo do vídeo, depois em \"Mostrar transcrição\", desative as marcações de tempo e copie o texto. É instantâneo e grátis, e só é tão bom quanto as legendas por trás. Se estiver lá e correta, use, e pode parar de ler."
+        },
+        {
+          "h3": "2. O truque da Digitação por voz do Google Docs",
+          "body": "O truque é abrir um Google Doc, ativar **Ferramentas > Digitação por voz** e tocar o vídeo do YouTube alto nas caixas de som para o microfone \"ouvir\". É grátis e não precisa instalar nada. Também é instável: a Digitação por voz do Docs foi feita para ditado, não para transcrição, então costuma parar quando você clica fora do documento ou depois de uma pausa, precisa de um ambiente silencioso, e os comandos de pontuação só funcionam em inglês. Serve para um trecho de cinco minutos; é sofrido para uma aula de uma hora e meia."
+        },
+        {
+          "h3": "3. Ferramentas de upload (Otter, Speechnotes e outras)",
+          "body": "Ferramentas de upload transcrevem um arquivo de áudio ou vídeo que você envia. O Otter aceita vídeos dentro dos minutos mensais do plano grátis; o Speechnotes cobra US$ 0,10 por minuto de arquivo. O problema é o arquivo: baixar o vídeo do YouTube de outra pessoa para enviar viola os Termos de Serviço do YouTube, a não ser que o YouTube ofereça um botão de download. Se o vídeo é seu, dá para baixá-lo pelo YouTube Studio de forma legítima. O Otter também sugere tocar o vídeo em voz alta enquanto ele escuta pelo microfone. E essas ferramentas são pensadas principalmente para inglês."
+        },
+        {
+          "h3": "4. Transcrição ao vivo no navegador com o LessonScriptor",
+          "body": "O LessonScriptor é uma extensão do Chrome que transcreve o vídeo enquanto ele toca, num painel lateral ao lado do player: nenhum arquivo para baixar, nenhuma legenda necessária. Funciona com qualquer vídeo do YouTube que você consiga tocar no Chrome, incluindo vídeos não listados, vídeos privados compartilhados com a sua conta, lives e Shorts, e também em plataformas de curso como o Moodle ou o AVA da sua faculdade. A transcrição é editável enquanto se forma (marca-texto em cinco cores, negrito, títulos, tópicos, capturas de slide) e exporta em .txt ou .md. O limite é o tempo: ele transcreve em tempo real, então um vídeo de 60 minutos leva uns 60 minutos, e não existe uma ferramenta para colar URL no nosso site."
+        }
+      ]
+    },
+    {
+      "id": "methods-table",
       "table": {
-        "headers": ["", "Botão de transcrição do YouTube", "Copiar e colar legendas automáticas", "LessonScriptor"],
+        "headers": [
+          "",
+          "Transcrição do YouTube",
+          "Truque da digitação por voz do Docs",
+          "Ferramenta de upload (ex. Otter)",
+          "LessonScriptor"
+        ],
         "rows": [
-          ["Funciona sem legendas", "Não", "Não", "Sim"],
-          ["Transcrição editável", "Não", "Só depois de copiar", "Sim, ao vivo no painel"],
-          ["Formato de exportação", "Nenhum nativo", "Texto simples, sem formatação", ".txt, .md ou área de transferência"],
-          ["Tempo de espera", "Nenhum, se a legenda existir", "Nenhum, se a legenda existir", "Nenhum"],
-          ["Idiomas", "Depende de quem fez o upload", "Depende das legendas automáticas do YouTube", "14"]
+          [
+            "Precisa de legendas existentes",
+            "Sim",
+            "Não",
+            "Não",
+            "Não"
+          ],
+          [
+            "Precisa do arquivo de vídeo",
+            "Não",
+            "Não",
+            "Sim",
+            "Não"
+          ],
+          [
+            "Lives",
+            "Legendas ao vivo só em inglês",
+            "Instável",
+            "Não, só depois de acabar e baixar",
+            "Sim, enquanto está no ar"
+          ],
+          [
+            "Vídeos privados / não listados",
+            "Só se houver legendas",
+            "Sim",
+            "Só se o arquivo for seu",
+            "Sim, se você conseguir tocar"
+          ],
+          [
+            "Editável enquanto se forma",
+            "Não",
+            "Sim, é um Doc",
+            "Depois do processamento",
+            "Sim, no painel lateral"
+          ],
+          [
+            "Tempo necessário",
+            "Segundos",
+            "Duração do vídeo",
+            "Upload + processamento",
+            "Duração do vídeo"
+          ],
+          [
+            "Custo",
+            "Grátis",
+            "Grátis",
+            "Plano grátis, depois pago",
+            "Modo grátis; pacotes IA a partir de US$ 5"
+          ]
         ]
       }
     },
     {
-      "id": "study-from-transcript",
-      "h2": "Como estudar a partir de uma transcrição do YouTube",
-      "body": "Depois que você tem o texto, os mesmos hábitos de edição que ajudam em uma aula ao vivo valem aqui: corte a conversa de abertura, deixe em negrito o que vai cair na prova, adicione um cabeçalho por assunto. Se você está usando aulas do YouTube para uma disciplina, a abordagem de anotações abaixo transforma essa transcrição em algo bem mais parecido com um guia de estudo.",
+      "id": "how-to-steps",
+      "howto": true,
+      "h2": "Como transcrever um vídeo do YouTube com o LessonScriptor?",
+      "body": "Tudo acontece na mesma aba do Chrome em que está o vídeo. Escolha o modo primeiro: o **modo grátis** escuta pelo microfone, então toque o vídeo nas caixas de som com 80% de volume ou mais (não funciona com fone); o **modo IA** captura o áudio direto da aba, então fone não é problema e a precisão é muito maior com sotaques e termos técnicos.",
+      "steps": [
+        "Instale o LessonScriptor pela Chrome Web Store. O modo grátis não pede conta.",
+        "Abra o vídeo do YouTube numa aba do Chrome e clique no ícone do LessonScriptor para abrir o painel lateral.",
+        "Escolha o idioma do vídeo (são 14, incluindo o português) e o modo grátis ou IA.",
+        "No modo grátis, aumente o volume das caixas de som para 80% ou mais e tire o fone. No modo IA, o fone não atrapalha.",
+        "Clique em Gravar e dê play no vídeo. No modo grátis o texto aparece conforme a fala; no modo IA ele chega em blocos a cada 10 ou 30 segundos.",
+        "Edite enquanto o vídeo toca: marque frases importantes, coloque termos em negrito, adicione um título por assunto e capture os slides que quiser guardar.",
+        "Exporte em .md ou .txt, ou copie para a área de transferência e cole no Notion, Google Docs ou Obsidian."
+      ],
       "internal_links": [
-        { "text": "Como fazer anotações com TDAH", "url": "/blog/how-to-take-notes-with-adhd" },
-        { "text": "O modelo de anotações para TDAH", "url": "/blog/adhd-note-taking-template" }
+        {
+          "text": "Transcrever vídeos do YouTube no Chrome com o LessonScriptor",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "live-streams",
+      "h2": "Dá para transcrever uma live do YouTube?",
+      "body": "Sim, uma live do YouTube pode ser transcrita enquanto está no ar por qualquer ferramenta que escute o áudio em vez de esperar legendas. Isso importa porque as legendas automáticas ao vivo do YouTube só existem em inglês, e só quando o criador as ativa. Uma palestra, um aulão de cursinho ou um webinar em português normalmente não tem legenda nenhuma até bem depois de a live acabar, quando tem.\n\nO LessonScriptor trata uma live como qualquer aba tocando áudio: abra a live, comece a gravar e a transcrição se forma conforme as pessoas falam. Ferramentas de upload não ajudam durante a live, porque ainda não existe arquivo. Se você acompanha uma aula ao vivo no YouTube, a transcrição também cobre os momentos em que você está lendo o chat ou tirando print de um slide."
+    },
+    {
+      "id": "other-languages",
+      "h2": "Como transcrever um vídeo do YouTube que não está em inglês?",
+      "body": "Para transcrever um vídeo do YouTube em português, espanhol ou outro idioma, configure o idioma da transcrição para o idioma falado antes de começar. O LessonScriptor suporta 14 idiomas, entre eles português, espanhol, francês, alemão, chinês, árabe e hindi, e o modo IA é a melhor escolha para aulas com vocabulário técnico.\n\nÉ nos vídeos fora do inglês que a transcrição do YouTube mais falha: legendas automáticas menos precisas com sotaques regionais, sem legendas ao vivo fora do inglês, e muitos criadores que nunca sobem legendas de verdade. Uma aula da Univesp ou de um canal de professor da USP, uma revisão para o Enem ou um vídeo de cursinho são casos típicos em que \"Mostrar transcrição\" não aparece ou não serve.\n\nTranscrever não é traduzir. O LessonScriptor escreve o que é dito, no idioma em que é dito. Se precisar de tradução, exporte a transcrição e cole num tradutor, ou use a tradução ao vivo das legendas instantâneas do Chrome para ler legendas traduzidas na hora."
+    },
+    {
+      "id": "private-unlisted",
+      "h2": "Dá para transcrever um vídeo do YouTube privado ou não listado?",
+      "body": "Sim: se você consegue tocar, uma ferramenta que escuta no navegador consegue transcrever. Muitos geradores online de \"YouTube para texto\" trabalham com uma URL pública e precisam buscar as legendas ou o arquivo, então falham com vídeos privados e alguns não listados. E vídeos de aula costumam ser não listados de propósito, compartilhados pelo professor no Moodle ou no AVA.\n\nO LessonScriptor nunca baixa o vídeo: ele transcreve o áudio que toca na sua aba, então um link de aula não listado ou um vídeo privado compartilhado com a sua conta Google funciona igual a um público. No modo grátis, nenhum áudio é enviado aos servidores do LessonScriptor. No modo IA, o áudio é enviado em blocos curtos a um modelo de transcrição na nuvem para gerar o texto."
+    },
+    {
+      "id": "adhd-read-along",
+      "h2": "Uma transcrição do YouTube ajuda quem tem TDAH?",
+      "body": "Uma transcrição ao vivo ajuda muita gente com TDAH a acompanhar um vídeo do YouTube porque oferece dois canais ao mesmo tempo: você ouve quem fala e lê as mesmas palavras no painel. Quando a atenção escapa por trinta segundos, o texto continua lá para você alcançar, sem voltar o vídeo e perder o fio. Marcar o texto enquanto assiste acrescenta uma pequena tarefa física que mantém você engajado, e no fim deixa anotações já destacadas.\n\nO modo grátis basta se você assiste com caixas de som; o modo IA permite usar fone, que muita gente com TDAH prefere para bloquear o barulho. Nosso guia sobre TDAH e YouTube detalha a rotina, e a transcrição que você obtém funciona muito bem como base para estudar com recordação ativa.",
+      "internal_links": [
+        {
+          "text": "TDAH e YouTube: usar uma transcrição para manter o foco",
+          "url": "/blog/adhd-youtube-transcription"
+        },
+        {
+          "text": "Recordação ativa a partir da transcrição de uma aula",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
       ]
     }
   ],
   "faq": {
-    "section_title": "Perguntas frequentes",
-    "items": [
+    "heading": "Perguntas frequentes",
+    "questions": [
       {
-        "q": "Dá para transcrever um vídeo do YouTube sem legendas?",
-        "a": "Sim. O LessonScriptor escuta o áudio do vídeo diretamente em vez de ler legendas existentes, então funciona em vídeos que nunca tiveram legenda ou onde as legendas automáticas não são confiáveis."
+        "question": "Como transcrever um vídeo do YouTube que não tem transcrição?",
+        "answer": "Use uma ferramenta que escute o áudio em vez de ler legendas. O LessonScriptor transcreve o vídeo enquanto ele toca no Chrome, num painel lateral, sem legendas nem download. O truque grátis da Digitação por voz do Google Docs também serve para trechos curtos se você tocar o vídeo nas caixas de som."
       },
       {
-        "q": "É legal transcrever um vídeo do YouTube para minhas próprias anotações?",
-        "a": "Transcrever um vídeo para estudo pessoal, do mesmo jeito que você faria anotações escritas enquanto assiste, é uma prática comum. Se você pretende publicar ou redistribuir a própria transcrição, confira antes a licença do vídeo e os termos do YouTube."
+        "question": "Por que não aparece \"Mostrar transcrição\" no YouTube?",
+        "answer": "O vídeo não tem faixa de legendas. As legendas automáticas podem falhar por áudio ruim, vozes sobrepostas, idioma não suportado, vídeo muito longo ou porque ainda não foram processadas, e o criador também pode apagá-las. As lives só têm legendas ao vivo em inglês."
       },
       {
-        "q": "O LessonScriptor funciona em YouTube Shorts?",
-        "a": "Sim, desde que o vídeo esteja tocando em uma aba do Chrome, o LessonScriptor transcreve o áudio do mesmo jeito que faz com um vídeo comum."
+        "question": "Dá para transcrever uma live do YouTube em tempo real?",
+        "answer": "Sim. Abra a live no Chrome e use uma ferramenta de transcrição ao vivo como o LessonScriptor; o texto se forma conforme as pessoas falam. As legendas ao vivo do YouTube só existem em inglês, então para uma live em português muitas vezes essa é a única forma de ter texto durante a transmissão."
       },
       {
-        "q": "Preciso baixar o vídeo antes?",
-        "a": "Não. O LessonScriptor transcreve o áudio ao vivo enquanto o vídeo toca na aba do navegador. Nada é baixado nem enviado."
+        "question": "É legal transcrever um vídeo do YouTube para minhas anotações?",
+        "answer": "Transcrever um vídeo para estudar é o mesmo que fazer anotações enquanto assiste. Já baixar o arquivo de vídeo de outra pessoa para enviar a uma ferramenta viola os Termos de Serviço do YouTube, a não ser que o YouTube ofereça um botão de download. Para publicar uma transcrição, confira antes os direitos do criador."
       },
       {
-        "q": "Funciona em outros idiomas além do inglês?",
-        "a": "Sim. O LessonScriptor transcreve em 14 idiomas, incluindo francês, espanhol, português, alemão, árabe e hindi. Defina o idioma nas configurações da extensão antes de começar."
+        "question": "As legendas automáticas do YouTube são precisas em português?",
+        "answer": "Funcionam com voz clara, mas falham com sotaques, nomes próprios, jargão e música de fundo, e em geral rendem menos que em inglês. O próprio YouTube avisa que elas podem distorcer o que foi dito. Um modelo na nuvem, como o modo IA do LessonScriptor, costuma ir melhor em aulas técnicas."
       },
       {
-        "q": "Em que formato eu recebo a transcrição?",
-        "a": "Exporte como Markdown (.md) ou texto simples (.txt), ou copie para a área de transferência e cole no Notion, Google Docs ou qualquer app de anotações. Os cabeçalhos, negritos e destaques vão junto."
+        "question": "Dá para transcrever um vídeo do YouTube usando fone de ouvido?",
+        "answer": "Com o modo IA do LessonScriptor, sim: ele captura o áudio direto da aba. O modo grátis e o truque do Google Docs escutam pelo microfone, então o vídeo precisa tocar nas caixas de som com volume alto."
+      },
+      {
+        "question": "Posso colar um link do YouTube para obter a transcrição?",
+        "answer": "Não com o LessonScriptor: ele transcreve o que toca na sua aba do Chrome em vez de processar uma URL. É exatamente isso que permite lidar com lives e vídeos privados ou não listados. Se o vídeo já tem legendas, os métodos para baixar a transcrição do YouTube são mais rápidos."
       }
     ]
   },
   "summary": {
-    "heading": "Qualquer vídeo do YouTube, transformado em texto",
-    "body": "Com ou sem legenda, o LessonScriptor transcreve o áudio diretamente enquanto o vídeo toca, e te dá uma transcrição editável que você pode organizar e exportar antes mesmo do vídeo terminar. Grátis para instalar, sem conta, funciona na mesma aba do Chrome de onde você já está assistindo.",
+    "heading": "Qual método usar?",
+    "body": "Se \"Mostrar transcrição\" funciona e o texto está certo, baixe. Se não existe ou está errado, ou o vídeo é uma live, privado, não listado ou em outro idioma, transcreva o áudio: o truque da Digitação por voz do Google Docs para um trecho curto, uma ferramenta de upload como o Otter se o arquivo for seu, ou o LessonScriptor para qualquer vídeo que você consiga tocar no Chrome, com uma transcrição editável que você exporta antes mesmo de o vídeo acabar.",
     "internal_links": [
-      { "text": "Veja o fluxo completo de transcrição do YouTube", "url": "/transcribe-video-to-text" }
+      {
+        "text": "Baixar uma transcrição do YouTube que já existe",
+        "url": "/blog/how-to-download-youtube-transcript"
+      },
+      {
+        "text": "Transcrever vídeos do YouTube no Chrome",
+        "url": "/transcribe-youtube-video"
+      }
     ]
   },
-  "schemas": [
+  "sources": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Como Transcrever um Vídeo do YouTube em Texto (Grátis, Passo a Passo)",
-        "description": "Transforme qualquer vídeo do YouTube em texto de graça com o LessonScriptor. Sem legendas necessárias, sem upload, sem conta.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Estudante de Antropologia com TDAH", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Desenvolvedor e SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
-        }
-      }
+      "text": "Ajuda do YouTube: legendas automáticas",
+      "href": "https://support.google.com/youtube/answer/6373554?hl=pt-BR",
+      "external": true
     },
     {
-      "type": "HowTo",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "Como transcrever um vídeo do YouTube com o LessonScriptor",
-        "step": [
-          { "@type": "HowToStep", "name": "Instalar", "text": "Instale o LessonScriptor na Chrome Web Store. Um clique, sem cadastro." },
-          { "@type": "HowToStep", "name": "Abrir o vídeo", "text": "Abra o vídeo do YouTube em uma aba do Chrome." },
-          { "@type": "HowToStep", "name": "Gravar", "text": "Clique no ícone do LessonScriptor, abra o painel lateral e aperte Gravar antes de dar o play." },
-          { "@type": "HowToStep", "name": "Exportar", "text": "Edite a transcrição enquanto ela se forma, depois exporte como .md ou .txt, ou copie para a área de transferência." }
-        ]
-      }
+      "text": "Ajuda do Google Docs: digitação por voz",
+      "href": "https://support.google.com/docs/answer/4492226?hl=pt-BR",
+      "external": true
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Dá para transcrever um vídeo do YouTube sem legendas?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sim. O LessonScriptor escuta o áudio do vídeo diretamente em vez de ler legendas existentes, então funciona em vídeos que nunca tiveram legenda ou onde as legendas automáticas não são confiáveis." }
-          },
-          {
-            "@type": "Question",
-            "name": "O LessonScriptor funciona em YouTube Shorts?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Sim, desde que o vídeo esteja tocando em uma aba do Chrome, o LessonScriptor transcreve o áudio do mesmo jeito que faz com um vídeo comum." }
-          }
-        ]
-      }
+      "text": "Otter: gerador de transcrição do YouTube",
+      "href": "https://otter.ai/youtube-transcript-generator",
+      "external": true
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Como Transcrever um Vídeo do YouTube em Texto", "item": "https://lessonscriptor.com/blog/transcribe-youtube-video-to-text" }
-        ]
-      }
+      "text": "Ajuda do Google Chrome: legendas instantâneas",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
     }
   ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/how-to-download-youtube-transcript",
-      "/blog/best-chrome-extensions-live-captions",
-      "/blog/how-to-take-notes-with-adhd"
-    ]
-  }
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Como transcrever um vídeo do YouTube em texto (mesmo sem transcrição)",
+      "description": "Como transcrever vídeo do YouTube em texto quando não há transcrição: lives, vídeos não listados, outros idiomas. 4 métodos grátis comparados, passo a passo.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/transcrever-video-youtube-em-texto",
+      "url": "https://lessonscriptor.com/pt/blog/transcrever-video-youtube-em-texto",
+      "keywords": [
+        "transcrever vídeo do youtube",
+        "transcrever vídeo do youtube em texto",
+        "converter vídeo do youtube em texto",
+        "vídeo do youtube para texto",
+        "transcrever live do youtube",
+        "youtube sem transcrição"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como transcrever um vídeo do YouTube que não tem transcrição?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use uma ferramenta que escute o áudio em vez de ler legendas. O LessonScriptor transcreve o vídeo enquanto ele toca no Chrome, num painel lateral, sem legendas nem download. O truque grátis da Digitação por voz do Google Docs também serve para trechos curtos se você tocar o vídeo nas caixas de som."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que não aparece \"Mostrar transcrição\" no YouTube?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O vídeo não tem faixa de legendas. As legendas automáticas podem falhar por áudio ruim, vozes sobrepostas, idioma não suportado, vídeo muito longo ou porque ainda não foram processadas, e o criador também pode apagá-las. As lives só têm legendas ao vivo em inglês."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para transcrever uma live do YouTube em tempo real?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Abra a live no Chrome e use uma ferramenta de transcrição ao vivo como o LessonScriptor; o texto se forma conforme as pessoas falam. As legendas ao vivo do YouTube só existem em inglês, então para uma live em português muitas vezes essa é a única forma de ter texto durante a transmissão."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "É legal transcrever um vídeo do YouTube para minhas anotações?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transcrever um vídeo para estudar é o mesmo que fazer anotações enquanto assiste. Já baixar o arquivo de vídeo de outra pessoa para enviar a uma ferramenta viola os Termos de Serviço do YouTube, a não ser que o YouTube ofereça um botão de download. Para publicar uma transcrição, confira antes os direitos do criador."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "As legendas automáticas do YouTube são precisas em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Funcionam com voz clara, mas falham com sotaques, nomes próprios, jargão e música de fundo, e em geral rendem menos que em inglês. O próprio YouTube avisa que elas podem distorcer o que foi dito. Um modelo na nuvem, como o modo IA do LessonScriptor, costuma ir melhor em aulas técnicas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para transcrever um vídeo do YouTube usando fone de ouvido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com o modo IA do LessonScriptor, sim: ele captura o áudio direto da aba. O modo grátis e o truque do Google Docs escutam pelo microfone, então o vídeo precisa tocar nas caixas de som com volume alto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso colar um link do YouTube para obter a transcrição?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não com o LessonScriptor: ele transcreve o que toca na sua aba do Chrome em vez de processar uma URL. É exatamente isso que permite lidar com lives e vídeos privados ou não listados. Se o vídeo já tem legendas, os métodos para baixar a transcrição do YouTube são mais rápidos."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como transcrever um vídeo do YouTube com o LessonScriptor?",
+      "inLanguage": "pt-BR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Instale o LessonScriptor pela Chrome Web Store. O modo grátis não pede conta."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Abra o vídeo do YouTube numa aba do Chrome e clique no ícone do LessonScriptor para abrir o painel lateral."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Escolha o idioma do vídeo (são 14, incluindo o português) e o modo grátis ou IA."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "No modo grátis, aumente o volume das caixas de som para 80% ou mais e tire o fone. No modo IA, o fone não atrapalha."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Clique em Gravar e dê play no vídeo. No modo grátis o texto aparece conforme a fala; no modo IA ele chega em blocos a cada 10 ou 30 segundos."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Edite enquanto o vídeo toca: marque frases importantes, coloque termos em negrito, adicione um título por assunto e capture os slides que quiser guardar."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Exporte em .md ou .txt, ou copie para a área de transferência e cole no Notion, Google Docs ou Obsidian."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Como transcrever um vídeo do YouTube em texto (mesmo sem transcrição)",
+          "item": "https://lessonscriptor.com/pt/blog/transcrever-video-youtube-em-texto"
+        }
+      ]
+    }
+  ]
 }

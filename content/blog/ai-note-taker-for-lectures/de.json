@@ -2,169 +2,375 @@
   "slug": "ai-note-taker-for-lectures",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
-  "reading_time_min": 8,
+  "h1": "KI-Notizen in der Vorlesung: Aufnahme-Apps vs. Live-Transkription",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
-    "description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten. Sehen Sie, welcher wirklich bei aufgezeichneten Vorlesungen funktioniert, nicht nur bei Live-Meetings.",
-    "keywords": ["ki notizenassistent für studenten", "bester ki notizenassistent für studenten", "ki notiz-app für studenten kostenlos", "ki notizenassistent für studierende"],
-    "og_image": null,
-    "canonical": "https://lessonscriptor.com/de/blog/bester-ki-notizenassistent-vorlesungen",
-    "og_title": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
-    "og_description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten für Vorlesungen.",
+    "title": "KI-Notizen in der Vorlesung: Aufnahme-App vs. Transkript",
+    "description": "KI-Notizen in der Vorlesung: Otter, Notta, Sprachmemos, Notability und LessonScriptor für Präsenz- und Online-Vorlesungen im Vergleich. Finden Sie, was passt.",
+    "keywords": [
+      "ki notizen vorlesung",
+      "vorlesung aufnehmen",
+      "vorlesung aufnehmen app",
+      "ki notizen app studium",
+      "beste ki notiz app für studierende",
+      "vorlesung mitschrift ki"
+    ],
+    "og_title": "KI-Notizen in der Vorlesung: Aufnahme-Apps vs. Live-Transkription",
+    "og_description": "Aufnahme-Apps oder Live-Transkription: welches KI-Notiz-Tool zu Präsenzvorlesungen, Opencast- und Panopto-Aufzeichnungen und Zoom-Vorlesungen passt.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für die Live-Transkription von Videos. Victoria studiert Anthropologie und lebt mit ADHS. Pierre kümmert sich um Entwicklung und SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für Live-Video-Transkription. Victoria studiert Anthropologie im Fernstudium und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
     "label": "Das Wichtigste in Kürze",
-    "lead": "Die meisten KI-Notizenassistenten sind für Live-Meetings gebaut, nicht für aufgezeichnete Vorlesungen. LessonScriptor ist für beides gebaut: Es transkribiert alles, was in einem Chrome-Tab läuft, live oder aufgezeichnet.",
+    "lead": "Ein KI-Notiz-Tool für Vorlesungen ist ein Werkzeug, das das Gesagte der Lehrperson in Text verwandelt, mit dem Sie lernen können. Welches passt, hängt davon ab, wo die Vorlesung stattfindet: im Hörsaal oder in einem Browser-Tab.",
     "bullets": [
-      "Meeting-Bot-Notizenassistenten (Otter.ai, Fireflies) treten einem Call als Teilnehmer bei. Sie helfen nicht bei einer aufgezeichneten Vorlesung, einem YouTube-Video oder einem Video auf einer Uni-Plattform.",
-      "LessonScriptor transkribiert jeden Ton, der in einem Chrome-Tab läuft: live in Zoom oder Meet, eine aufgezeichnete Vorlesung auf Panopto oder Canvas, ein YouTube-Video.",
-      "Der kostenlose Modus hat kein Konto und kein monatliches Limit. Der KI-Modus ist ein Pay-as-you-go-Guthabenpaket für bessere Genauigkeit bei Akzenten und Fachvokabular, kein Abo.",
-      "Das Transkript ist ein echter Editor, während es sich aufbaut, kein statischer Export: markieren, fett setzen, Überschriften hinzufügen, dann als .md oder .txt exportieren."
+      "**Präsenzvorlesungen:** Nutzen Sie eine Aufnahme-App. Sprachmemos, Googles Pixel-Rekorder, die Audio-Synchronisierung von Notability oder die Otter.ai-App erfassen den Ton im Hörsaal, und Sie transkribieren ihn danach oder schon während der Aufnahme.",
+      "**Online- und aufgezeichnete Vorlesungen:** Meist müssen Sie gar nichts aufnehmen. LessonScriptor transkribiert alles, was in einem Chrome-Tab läuft (Opencast, Panopto, ILIAS, Moodle, YouTube, Zoom), in ein bearbeitbares Transkript.",
+      "**Meeting-Bots** (Otter.ai, Fireflies) treten einem Live-Call in Zoom oder Meet bei. Sie helfen im Live-Seminar, nicht bei einer Vorlesungsaufzeichnung in Opencast.",
+      "**LessonScriptor speichert keinen Ton** und erstellt keine KI-Zusammenfassungen. Es speichert Text, mit Markierungen und Folien-Screenshots, exportierbar als .md oder .txt.",
+      "Der Gratis-Modus braucht kein Konto und hat kein monatliches Limit. Der KI-Modus ist ein einmaliges Guthabenpaket ab 5 $, kein Abo."
     ]
   },
   "stats": [
-    { "number": "0", "label": "monatliches Limit im kostenlosen Modus von LessonScriptor" },
-    { "number": "14", "label": "unterstützte Sprachen, darunter Französisch, Spanisch, Arabisch und Hindi" },
-    { "number": "2", "label": "Exportformate (.txt und .md) plus Kopieren in die Zwischenablage" }
+    {
+      "number": "0",
+      "label": "monatliches Limit im Gratis-Modus von LessonScriptor"
+    },
+    {
+      "number": "14",
+      "label": "unterstützte Sprachen, darunter Deutsch, Französisch, Spanisch, Arabisch und Hindi"
+    },
+    {
+      "number": "30 Min.",
+      "label": "kostenlose Testphase des KI-Modus, ohne Abo"
+    }
   ],
-  "intro": "Der beste KI-Notizenassistent für Vorlesungen ist LessonScriptor, eine kostenlose Chrome-Erweiterung, die jedes Video transkribiert, das in einem Browser-Tab läuft, live oder aufgezeichnet, und daraus ein bearbeitbares Transkript macht. Die meisten bekannten KI-Notizenassistenten, darunter Otter.ai und Fireflies, sind dafür gebaut, einem Live-Meeting als Bot beizutreten. Das ist eine andere Aufgabe als eine aufgezeichnete Vorlesung, ein YouTube-Tutorial oder ein Video auf einer Uni-Plattform zu transkribieren, genau das, was die meisten Studierenden eigentlich brauchen. Diese Anleitung vergleicht die wichtigsten Optionen bei dem, was für Vorlesungsnotizen zählt: Funktioniert es bei einer Aufnahme, nicht nur bei einem Live-Call.",
+  "intro": "Welches KI-Notiz-Tool für Vorlesungen das beste ist, hängt davon ab, wo die Vorlesung stattfindet. Für Präsenzvorlesungen ist eine Aufnahme-App wie Otter.ai, Sprachmemos oder Notability das richtige Werkzeug. Für Online- und aufgezeichnete Vorlesungen ist LessonScriptor eine kostenlose Chrome-Erweiterung, die alles, was in einem Browser-Tab läuft, in ein bearbeitbares Transkript verwandelt, ohne Aufnahme und ohne Upload. Viele Studierende suchen nach „Vorlesung aufnehmen App“, obwohl sie eigentlich den Text wollen. Eine Aufnahme ist nur der erste Schritt: Eine Stunde Audio muss danach noch einmal angehört oder transkribiert werden, bevor Sie damit lernen können. Dieser Leitfaden vergleicht Aufnahme-Apps, Meeting-Bots und Live-Transkription und erklärt, welches Werkzeug zu welcher Art von Vorlesung passt.",
   "sections": [
     {
       "id": "what-is-ai-note-taker",
-      "h2": "Was ist ein KI-Notizenassistent, und welche Art brauchen Studierende?",
-      "body": "KI-Notizenassistenten lassen sich in zwei Kategorien einteilen. Die erste sind Meeting-Bots, Tools wie Otter.ai und Fireflies, die einem Zoom- oder Google-Meet-Call als Teilnehmer beitreten und mitschreiben, was gesagt wird. Sie sind für Live-Meetings gebaut und funktionieren dafür gut, können aber keiner bereits aufgezeichneten Vorlesung beitreten oder ein YouTube-Video transkribieren.\n\nDie zweite Kategorie ist browserbasierte Transkription, Tools wie LessonScriptor, die den Ton von allem erfassen, was in einem Chrome-Tab läuft, egal ob Live-Call oder aufgezeichnetes Video. Für Vorlesungen speziell, von denen die meisten aufgezeichnet sind, auf Panopto, Canvas, YouTube oder einer eigenen Uni-Plattform, ist das die Kategorie, die wirklich hilft."
+      "h2": "Was ist ein KI-Notiz-Tool für Vorlesungen?",
+      "body": "Ein KI-Notiz-Tool für Vorlesungen ist Software, die mit Spracherkennung die Worte der Lehrperson in Text verwandelt und manchmal KI-generierte Zusammenfassungen ergänzt. Es gibt drei Arten, und jede löst ein anderes Problem.\n\n**Aufnahme-Apps** (Sprachmemos, Pixel-Rekorder, Notability, die Otter.ai-App, Knowt) nehmen den Ton im Raum über das Mikrofon von Handy oder Tablet auf. Manche transkribieren ihn, manche speichern ihn nur.\n\n**Meeting-Bots** (OtterPilot von Otter.ai, Fireflies.ai) treten einem Live-Call in Zoom, Google Meet oder Teams als Teilnehmer bei und transkribieren ihn.\n\n**Live-Tab-Transkription** (LessonScriptor) transkribiert den Ton dessen, was in einem Chrome-Tab läuft, live oder aufgezeichnet, ohne irgendwo beizutreten oder eine Datei zu erzeugen. Für Studierende, deren Vorlesungen in Opencast, Panopto oder ILIAS liegen, deckt diese Art den größten Teil der Woche ab."
+    },
+    {
+      "id": "lecture-recorder-vs-transcription",
+      "h2": "Brauche ich eine Vorlesungsaufnahme oder ein Vorlesungstranskript?",
+      "body": "Eine Aufnahme-App speichert Ton, ein Transkript speichert Text. Der Unterschied zeigt sich in der Klausurenphase. Eine 90-minütige Aufnahme bedeutet 90 Minuten erneutes Zuhören, solange sie nichts transkribiert. Ein Transkript überfliegen Sie in fünf Minuten, durchsuchen es nach einem Begriff und kopieren es in Ihre Lernunterlagen.\n\nEine Vorlesung aufzunehmen ist sinnvoll, wenn nichts anderes sie erfasst, also vor allem bei Präsenzvorlesungen, die Ihre Hochschule nicht aufzeichnet. Bei Online-Vorlesungen hat die Hochschule das Video meist schon aufgezeichnet, in Opencast, Panopto oder Kaltura. Eine eigene Audiokopie ist dann nur eine weitere Datei, die Sie verwalten müssen, und die Transkription steht trotzdem noch aus. In diesem Fall überspringt die Transkription direkt aus dem Stream die Aufnahme komplett.",
+      "callout": {
+        "type": "note",
+        "label": "Ehrlicher Hinweis",
+        "body": "LessonScriptor ist keine Aufnahme-App. Es speichert weder Ton noch Video, und Sie können keine Aufnahme hochladen. Wenn Sie den Ton selbst brauchen, nutzen Sie eine Aufnahme-App."
+      }
+    },
+    {
+      "id": "recorder-apps",
+      "h2": "Was sind die besten Apps, um eine Vorlesung aufzunehmen?",
+      "body": "Das sind die Aufnahme-Apps, die Studierende am häufigsten nutzen, und wofür sich jede eignet. Fragen Sie vor dem Aufnehmen immer die Lehrperson: Ohne Zustimmung kann eine Aufnahme das Recht am gesprochenen Wort berühren (keine Rechtsberatung).",
+      "subsections": [
+        {
+          "h3": "Sprachaufnahme auf dem Handy (Sprachmemos, Rekorder)",
+          "body": "Sprachmemos auf dem iPhone und Rekorder auf Android sind kostenlos und vorinstalliert, und im Hörsaal sind sie zuverlässig, wenn Sie weit vorne sitzen. Googles Pixel-Rekorder transkribiert schon während der Aufnahme auf dem Gerät. Neuere iOS-Versionen können für ein Memo je nach Sprache ebenfalls ein Transkript anzeigen. Handyton aus Reihe 20 ist verrauscht, die Qualität des Transkripts sinkt also mit der Entfernung."
+        },
+        {
+          "h3": "Audio-Synchronisierung in Notability",
+          "body": "Notability auf dem iPad nimmt Ton auf, während Sie schreiben, und verknüpft jeden Strich mit dem Moment, in dem er entstand. Tippen Sie bei der Wiedergabe auf eine Notiz, springt die App zu dem, was die Lehrperson gerade sagte. Für handschriftliche Mitschriften in der Präsenzvorlesung ist das hervorragend, das Ergebnis ist aber eine Aufnahme plus Ihre Notizen, kein vollständiges Transkript."
+        },
+        {
+          "h3": "Otter.ai-App",
+          "body": "Otter.ai nimmt Präsenzton auf dem Handy auf und transkribiert ihn, importiert Audiodateien und kann einen Bot in Live-Meetings schicken. Für alle, die Sprecherkennzeichnung und KI-Zusammenfassungen brauchen, ist es ein starker Allrounder. Seine Grenzen: ein Abo jenseits der kostenlosen Stufe und keine Möglichkeit, einen Opencast- oder Panopto-Stream zu transkribieren, den Sie nicht herunterladen können."
+        },
+        {
+          "h3": "Knowt und andere Apps, die aus Aufnahmen Notizen machen",
+          "body": "Der KI-Vorlesungsnotizen-Assistent von Knowt und ähnliche Apps nehmen eine Aufnahme oder einen Upload und erzeugen daraus Notizen und Karteikarten. Sie passen zu Studierenden, die automatisch erstelltes Lernmaterial möchten und bereit sind, zuerst aufzunehmen."
+        }
+      ]
     },
     {
       "id": "comparison-table",
-      "h2": "KI-Notizenassistenten im Vergleich für Vorlesungen",
-      "body": "So schneiden die wichtigsten Optionen bei dem ab, was für Vorlesungsnotizen speziell zählt.",
+      "h2": "Wie schneiden KI-Notiz-Tools für Vorlesungen im Vergleich ab?",
+      "body": "Die Tabelle vergleicht, wie die Tools funktionieren, denn das entscheidet, welche Vorlesungen sie abdecken, nicht die Zahl der Funktionen. Wo sich die Details eines Mitbewerbers häufig ändern, beschreibt die Zelle das Modell statt eines Preises.",
       "table": {
-        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "headers": [
+          "",
+          "LessonScriptor",
+          "Otter.ai",
+          "Notta",
+          "Handy-Aufnahme",
+          "Notability"
+        ],
         "rows": [
-          ["Funktioniert bei aufgezeichneten Vorlesungen", "Ja, jedes Video in Chrome", "Nein, nur Live-Meetings", "Nein, nur Live-Meetings", "Eingeschränkt"],
-          ["Funktioniert bei YouTube", "Ja", "Nein", "Nein", "Nein"],
-          ["Preis", "Kostenlos, KI-Modus ab $5 einmalig", "Etwa $17/Monat", "Etwa $10/Monat", "Etwa $8-9/Monat"],
-          ["Bearbeitbares Transkript", "Ja, live im Panel", "Ja", "Ja", "Ja"],
-          ["Konto nötig", "Nein, für den kostenlosen Modus", "Ja", "Ja", "Ja"],
-          ["Sprachen", "14", "Hauptsächlich Englisch", "Hauptsächlich Englisch", "50+"]
+          [
+            "So funktioniert es",
+            "Transkribiert, was in einem Chrome-Tab läuft",
+            "Meeting-Bot, mobile Aufnahme, Dateiimport",
+            "Datei-Upload, Meeting-Bot, Apps",
+            "Nimmt den Raumton auf",
+            "Nimmt Ton synchron zu handschriftlichen Notizen auf"
+          ],
+          [
+            "Präsenzvorlesung im Hörsaal",
+            "Nicht dafür gedacht",
+            "Ja, per App",
+            "Ja, per App",
+            "Ja",
+            "Ja"
+          ],
+          [
+            "Stream ohne Download (Opencast, Panopto)",
+            "Ja",
+            "Nein",
+            "Eingeschränkt",
+            "Nein",
+            "Nein"
+          ],
+          [
+            "Braucht eine Datei zum Hochladen",
+            "Nein",
+            "Für Aufnahmen ja",
+            "Für Aufnahmen ja",
+            "Erzeugt die Datei",
+            "Erzeugt die Datei"
+          ],
+          [
+            "Speichert Ton",
+            "Nein, nur Text",
+            "Ja",
+            "Ja",
+            "Ja",
+            "Ja"
+          ],
+          [
+            "Vollständiges Transkript",
+            "Ja, live bearbeitbar",
+            "Ja",
+            "Ja",
+            "Je nach Handy",
+            "Nein"
+          ],
+          [
+            "KI-Zusammenfassungen",
+            "Nein (Export zu ChatGPT oder NotebookLM)",
+            "Ja",
+            "Ja",
+            "Nein",
+            "Aktuelle Tarife prüfen"
+          ],
+          [
+            "Preismodell",
+            "Gratis-Modus, KI-Pakete ab 5 $ einmalig",
+            "Kostenlose Stufe, dann Abo",
+            "Kostenlose Stufe, dann Abo",
+            "Kostenlos",
+            "Kostenlose Stufe, dann Abo"
+          ],
+          [
+            "Konto erforderlich",
+            "Nein, im Gratis-Modus",
+            "Ja",
+            "Ja",
+            "Nein",
+            "Ja"
+          ]
         ]
       }
     },
     {
+      "id": "in-person-vs-online",
+      "h2": "KI-Notizen in der Präsenzvorlesung vs. Online-Vorlesung: Was ändert sich?",
+      "body": "Der Rahmen entscheidet über das Werkzeug, weil der Ton auf unterschiedlichem Weg zu Ihnen kommt.",
+      "subsections": [
+        {
+          "h3": "Präsenzvorlesungen",
+          "body": "Im Hörsaal ist die einzige Tonquelle der Raum, Sie brauchen also ein Mikrofon nahe an der sprechenden Person. Legen Sie eine Handy-Aufnahme-App oder die Otter.ai-App auf den Tisch, der dem Rednerpult am nächsten ist, oder nutzen Sie Notability, wenn Sie auf dem iPad handschriftlich mitschreiben. Fragen Sie vorher die Lehrperson. Wenn die Hochschule die Vorlesung zusätzlich aufzeichnet, etwa in Opencast, Panopto oder auf einer eigenen Plattform wie TUM-Live der TU München, lassen Sie die Aufnahme weg und transkribieren Sie die Aufzeichnung später in Chrome. Das liefert saubereren Ton als ein Handy in Reihe 20."
+        },
+        {
+          "h3": "Online- und aufgezeichnete Vorlesungen",
+          "body": "Wenn die Vorlesung in Ihrem Browser läuft, ist der saubere Ton schon auf Ihrem Computer. Der KI-Modus von LessonScriptor greift den Tab-Ton direkt ab, funktioniert deshalb mit Kopfhörern und ist genau bei Akzenten und Fachvokabular. Der Gratis-Modus hört stattdessen über das Mikrofon mit, das heißt Lautsprecher auf etwa 80 % Lautstärke und keine Kopfhörer. Es funktioniert mit Opencast, Panopto, ILIAS, Stud.IP, Moodle, YouTube, Coursera, Udemy und Zoom, Meet oder Teams im Browser, also auch für ein Fernstudium an der FernUniversität in Hagen. Jeder Tab ist unabhängig, Sie können also zwei Videos gleichzeitig transkribieren."
+        },
+        {
+          "h3": "Live-Online-Veranstaltungen und Seminare",
+          "body": "Für ein Live-Seminar in Zoom nimmt ein Meeting-Bot wie Otter.ai oder Fireflies auf und kennzeichnet die Sprecher, aber der Host sieht, dass der Bot beitritt. LessonScriptor läuft in Ihrem eigenen Browser-Tab und transkribiert die Veranstaltung, ohne dass ein Teilnehmer beitritt. Es erkennt keine Sprecher."
+        }
+      ]
+    },
+    {
       "id": "why-lessonscriptor-for-lectures",
-      "h2": "Warum LessonScriptor besser für Vorlesungsnotizen funktioniert",
-      "body": "Die Lücke bei Meeting-Bot-Tools liegt nicht an der Genauigkeit, sondern an der Abdeckung. Die Woche eines Studierenden besteht größtenteils aus aufgezeichnetem Inhalt: eine Panopto-Aufnahme eines Professors, ein als Hausaufgabe zugewiesenes YouTube-Erklärvideo, ein Coursera-Video. Ein Tool, das für Live-Calls gebaut ist, läuft bei nichts davon einfach nicht.\n\nLessonScriptor transkribiert alles, was im Tab läuft, Live-Unterricht oder aufgezeichnetes Video, mit demselben kostenlosen Modus und ohne monatliches Limit. Das Transkript lässt sich schon während des Aufbaus bearbeiten, sodass der größte Teil des Aufräumens, die Schlüsselzeile fett markieren, einen Begriff fett setzen, eine Überschrift hinzufügen, passiert, bevor das Video überhaupt zu Ende ist."
+      "h2": "Warum LessonScriptor für Notizen in Online-Vorlesungen?",
+      "body": "Der Vorteil von LessonScriptor bei Online-Vorlesungen ist Abdeckung plus Bearbeitung. Abdeckung heißt: Es läuft bei jeder Vorlesung, die in Chrome abgespielt wird, aufgezeichnet oder live, auch bei Streams ohne Download-Button. Bearbeitung heißt: Das Transkript ist schon während es entsteht ein Arbeitsdokument. Sie markieren einen Schlüsselsatz in einer von fünf Farben, setzen einen Begriff fett, fügen bei jedem Themenwechsel eine Überschrift ein, löschen eine Abschweifung und nehmen einen Screenshot der Folie auf dem Bildschirm auf. Der Großteil des Aufräumens ist erledigt, bevor das Video endet.\n\nDie ehrlichen Grenzen: Es wird kein Ton gespeichert, es gibt keine KI-Zusammenfassungen oder Karteikarten, keine Sprecherkennzeichnung, keine mobile App, und es läuft nur in Chrome. Für Zusammenfassungen exportieren Sie die .md-Datei und fügen sie selbst in ChatGPT oder NotebookLM ein. Preise: Gratis-Modus ohne Limit, oder KI-Pakete mit 5 Stunden für 5 $, 15 Stunden für 12 $ oder 30 Stunden für 21 $. Das Guthaben verfällt nie, es gibt eine kostenlose Testphase von 30 Minuten, und Stripe rechnet die US-Dollar-Preise in Euro oder Franken um.",
+      "internal_links": [
+        {
+          "text": "Vorlesungstranskription in Chrome",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "Vorlesungsvideo transkribieren: 5 Methoden im Vergleich",
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "h2": "Wie mache ich Vorlesungsnotizen mit einem KI-Notiz-Tool?",
+      "body": "Dieser Ablauf funktioniert für eine Online- oder aufgezeichnete Vorlesung in Chrome.",
+      "steps": [
+        "Öffnen Sie die Vorlesung in Chrome (Opencast, Panopto, ILIAS, Moodle, YouTube oder eine Zoom-Aufzeichnung) und öffnen Sie das Seitenpanel von LessonScriptor.",
+        "Wählen Sie die Sprache der Vorlesung und den Modus: Gratis (Lautsprecher an, keine Kopfhörer) oder KI (Tab-Ton, Kopfhörer kein Problem).",
+        "Drücken Sie auf Play und lassen Sie das Transkript entstehen. Tippen Sie nicht alles mit, hören Sie einfach zu.",
+        "Wenn die Lehrperson einen Punkt betont, markieren Sie ihn. Wenn eine Folie wichtig ist, nehmen Sie einen Screenshot ins Transkript auf.",
+        "Fügen Sie nach der Vorlesung bei jedem Themenwechsel Überschriften ein und löschen Sie die Abschweifungen.",
+        "Exportieren Sie als .md nach Notion oder Obsidian, oder fügen Sie den Text in eine Cornell-Vorlage oder einen KI-Chat ein, um Wiederholungsfragen zu erstellen."
+      ],
+      "internal_links": [
+        {
+          "text": "Cornell-Notizen-Vorlage",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
     },
     {
       "id": "adhd-bridge",
-      "h2": "KI-Notizen und ADHS",
-      "body": "Gleichzeitig zu schreiben und zuzuhören teilt die Aufmerksamkeit auf eine Weise, die bei ADHS besonders schwerfällt. Das Schreiben an ein Transkript abzugeben, das sich von selbst aufbaut, hebt diese Aufteilung komplett auf und lässt den Arbeitsspeicher frei, um einfach der Vorlesung zu folgen.",
+      "h2": "Hilft ein KI-Notiz-Tool Studierenden mit ADHS?",
+      "body": "Ein KI-Notiz-Tool ist bei ADHS besonders nützlich, weil gleichzeitiges Schreiben und Zuhören das Arbeitsgedächtnis aufteilt. Ein Transkript, das von selbst entsteht, hebt diese Aufteilung auf, und Markierungen machen aus passivem Zuhören kleine, aktive Entscheidungen. ADHS-spezifische Tool-Empfehlungen behandeln wir in einem eigenen Leitfaden.",
       "internal_links": [
-        { "text": "Bester KI-Notizenassistent für ADHS-Studierende", "url": "/blog/best-ai-note-taker-adhd" },
-        { "text": "Die ADHS-Notiztechnik", "url": "/blog/adhd-note-taking-template" }
+        {
+          "text": "Das beste KI-Notiz-Tool für Studierende mit ADHS",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
       ]
     }
   ],
-  "faq": {
-    "section_title": "Häufig gestellte Fragen",
-    "items": [
+  "summary": {
+    "heading": "Welches KI-Notiz-Tool sollten Sie nutzen?",
+    "body": "Präsenzvorlesungen nehmen Sie mit einer Handy-Aufnahme-App, Notability oder der Otter.ai-App auf. Für alles, was in Ihrem Browser läuft, ob Opencast, Panopto, ILIAS, Moodle, YouTube oder Zoom, lassen Sie die Aufnahme weg und holen sich mit LessonScriptor direkt ein bearbeitbares Transkript, kostenlos oder ab 5 $ einmalig.",
+    "internal_links": [
       {
-        "q": "Was ist der beste kostenlose KI-Notizenassistent für Studierende?",
-        "a": "Der kostenlose Modus von LessonScriptor braucht kein Konto und hat kein monatliches Limit, und funktioniert sowohl bei Live-Unterricht als auch bei aufgezeichneten Vorlesungsvideos. Meeting-Bot-Tools wie Otter.ai und Fireflies haben auch kostenlose Stufen, sind aber nur für Live-Meetings gebaut."
-      },
-      {
-        "q": "Funktioniert ein KI-Notizenassistent bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
-        "a": "Das hängt vom Tool ab. Meeting-Bots (Otter.ai, Fireflies) treten Live-Calls als Teilnehmer bei und können nichts transkribieren, das bereits aufgezeichnet ist. LessonScriptor transkribiert jedes Video, das in einem Chrome-Tab läuft, live oder aufgezeichnet."
-      },
-      {
-        "q": "Brauche ich ein Konto, um LessonScriptor zu nutzen?",
-        "a": "Nein. Der kostenlose Modus braucht überhaupt keine Anmeldung. Falls Sie ein KI-Modus-Guthabenpaket für bessere Genauigkeit kaufen, bekommen Sie einen Lizenzschlüssel per E-Mail, ohne Konto oder Login."
-      },
-      {
-        "q": "Wird der Ton von Studierenden oder Vorlesungen irgendwohin gesendet?",
-        "a": "Im kostenlosen Modus verlässt nichts Ihren Computer, die Transkription läuft lokal über die Spracherkennung Ihres Browsers. Im KI-Modus wird Ton in kurzen Abschnitten an ein Cloud-Transkriptionsmodell gesendet und nicht gespeichert."
-      },
-      {
-        "q": "Welcher KI-Notizenassistent unterstützt die meisten Sprachen?",
-        "a": "Notta deckt mit 50+ Sprachen die breiteste Auswahl ab. LessonScriptor unterstützt 14, darunter Französisch, Spanisch, Portugiesisch, Deutsch, Arabisch und Hindi, was die meisten Vorlesungssprachen an Universitäten abdeckt."
+        "text": "Vorlesungstranskription in Chrome ansehen",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "summary": {
-    "heading": "Der KI-Notizenassistent, der auch bei Aufnahmen funktioniert",
-    "body": "Falls die meisten Ihrer Vorlesungen aufgezeichnet statt live sind, ist LessonScriptor genau dafür gebaut: Es transkribiert alles, was in Ihrem Chrome-Tab läuft, Unterricht oder Aufnahme, mit bearbeitbarem Transkript und ohne monatliches Limit im kostenlosen Modus.",
-    "internal_links": [
-      { "text": "Den vollständigen Transkriptions-Workflow ansehen", "url": "/transcribe-video-to-text" }
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Welche App eignet sich am besten, um eine Vorlesung aufzunehmen?",
+        "answer": "Für Präsenzvorlesungen ist die beste App zum Vorlesung-Aufnehmen die, die schon auf Ihrem Handy ist (Sprachmemos auf dem iPhone oder Rekorder auf Android), oder Notability, wenn Sie auf dem iPad handschriftlich mitschreiben. Otter.ai ergänzt Transkription und Zusammenfassungen. Für Online-Vorlesungen brauchen Sie meist keine Aufnahme-App: LessonScriptor transkribiert den Stream in Chrome."
+      },
+      {
+        "question": "Nimmt LessonScriptor Vorlesungen auf?",
+        "answer": "Nein. LessonScriptor speichert ein Texttranskript, keine Audio- oder Videoaufnahme, und kann keine hochgeladenen Dateien verarbeiten. Es transkribiert, was in einem Chrome-Tab läuft, live oder aufgezeichnet."
+      },
+      {
+        "question": "Funktioniert ein KI-Notiz-Tool auch in der Präsenzvorlesung?",
+        "answer": "Ja, Aufnahme-Apps wie die Otter.ai-App, der Pixel-Rekorder oder Sprachmemos erfassen den Ton im Hörsaal für die Transkription. LessonScriptor ist nicht für den Hörsaal gedacht. Nutzen Sie es für die Vorlesungsaufzeichnung, wenn Ihre Hochschule die Vorlesung filmt."
+      },
+      {
+        "question": "Was ist das beste kostenlose KI-Notiz-Tool für Studierende?",
+        "answer": "Für Online-Vorlesungen hat der Gratis-Modus von LessonScriptor kein Konto und kein monatliches Limit und funktioniert mit jedem Video in Chrome. Für Präsenzvorlesungen ist die eingebaute Aufnahme-App des Handys kostenlos. Otter.ai und Notta haben kostenlose Stufen mit Einschränkungen."
+      },
+      {
+        "question": "Funktionieren KI-Notiz-Tools auch bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
+        "answer": "Das hängt vom Tool ab. Meeting-Bots wie OtterPilot von Otter.ai und Fireflies treten Live-Calls bei. Otter und Notta können eine Aufnahme transkribieren, wenn Sie die Datei haben. LessonScriptor transkribiert Vorlesungsaufzeichnungen direkt aus dem Stream, ganz ohne Datei."
+      },
+      {
+        "question": "Wird der Ton der Vorlesung irgendwohin gesendet?",
+        "answer": "Im Gratis-Modus von LessonScriptor wird die eingebaute Spracherkennung von Chrome genutzt, und es werden keine Audiodaten an die Server von LessonScriptor gesendet. Im KI-Modus wird der Tab-Ton in Abschnitten von 10 oder 30 Sekunden an ein Cloud-Transkriptionsmodell geschickt."
+      }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Der beste KI-Notizenassistent für Vorlesungen (kostenlos, in Chrome)",
-        "description": "Vergleichen Sie LessonScriptor, Otter.ai, Fireflies und Notta als KI-Notizenassistenten. Sehen Sie, welcher bei aufgezeichneten Vorlesungen funktioniert, nicht nur bei Live-Meetings.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Anthropologie-Studentin mit ADHS", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Entwicklung & SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "KI-Notizen in der Vorlesung: Aufnahme-Apps vs. Live-Transkription",
+      "description": "KI-Notizen in der Vorlesung: Otter, Notta, Sprachmemos, Notability und LessonScriptor für Präsenz- und Online-Vorlesungen im Vergleich. Finden Sie, was passt.",
+      "inLanguage": "de",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/bester-ki-notizenassistent-vorlesungen",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwicklung & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
         }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Was ist der beste kostenlose KI-Notizenassistent für Studierende?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Der kostenlose Modus von LessonScriptor braucht kein Konto und hat kein monatliches Limit, und funktioniert sowohl bei Live-Unterricht als auch bei aufgezeichneten Vorlesungsvideos." }
-          },
-          {
-            "@type": "Question",
-            "name": "Funktioniert ein KI-Notizenassistent bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Das hängt vom Tool ab. Meeting-Bots wie Otter.ai und Fireflies treten Live-Calls als Teilnehmer bei und können nichts transkribieren, das bereits aufgezeichnet ist. LessonScriptor transkribiert jedes Video, das in einem Chrome-Tab läuft, live oder aufgezeichnet." }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche App eignet sich am besten, um eine Vorlesung aufzunehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für Präsenzvorlesungen ist die beste App zum Vorlesung-Aufnehmen die, die schon auf Ihrem Handy ist (Sprachmemos auf dem iPhone oder Rekorder auf Android), oder Notability, wenn Sie auf dem iPad handschriftlich mitschreiben. Otter.ai ergänzt Transkription und Zusammenfassungen. Für Online-Vorlesungen brauchen Sie meist keine Aufnahme-App: LessonScriptor transkribiert den Stream in Chrome."
           }
-        ]
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Der beste KI-Notizenassistent für Vorlesungen", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
-        ]
-      }
+        },
+        {
+          "@type": "Question",
+          "name": "Nimmt LessonScriptor Vorlesungen auf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. LessonScriptor speichert ein Texttranskript, keine Audio- oder Videoaufnahme, und kann keine hochgeladenen Dateien verarbeiten. Es transkribiert, was in einem Chrome-Tab läuft, live oder aufgezeichnet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert ein KI-Notiz-Tool auch in der Präsenzvorlesung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, Aufnahme-Apps wie die Otter.ai-App, der Pixel-Rekorder oder Sprachmemos erfassen den Ton im Hörsaal für die Transkription. LessonScriptor ist nicht für den Hörsaal gedacht. Nutzen Sie es für die Vorlesungsaufzeichnung, wenn Ihre Hochschule die Vorlesung filmt."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Was ist das beste kostenlose KI-Notiz-Tool für Studierende?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für Online-Vorlesungen hat der Gratis-Modus von LessonScriptor kein Konto und kein monatliches Limit und funktioniert mit jedem Video in Chrome. Für Präsenzvorlesungen ist die eingebaute Aufnahme-App des Handys kostenlos. Otter.ai und Notta haben kostenlose Stufen mit Einschränkungen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktionieren KI-Notiz-Tools auch bei aufgezeichneten Vorlesungen, nicht nur bei Live-Calls?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Das hängt vom Tool ab. Meeting-Bots wie OtterPilot von Otter.ai und Fireflies treten Live-Calls bei. Otter und Notta können eine Aufnahme transkribieren, wenn Sie die Datei haben. LessonScriptor transkribiert Vorlesungsaufzeichnungen direkt aus dem Stream, ganz ohne Datei."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wird der Ton der Vorlesung irgendwohin gesendet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Im Gratis-Modus von LessonScriptor wird die eingebaute Spracherkennung von Chrome genutzt, und es werden keine Audiodaten an die Server von LessonScriptor gesendet. Im KI-Modus wird der Tab-Ton in Abschnitten von 10 oder 30 Sekunden an ein Cloud-Transkriptionsmodell geschickt."
+          }
+        }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/best-ai-note-taker-adhd",
-      "/blog/otter-ai-alternative-for-students",
-      "/blog/neurodivergent-study-tools"
-    ]
-  }
+  ]
 }

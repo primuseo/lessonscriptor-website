@@ -1,312 +1,429 @@
 {
   "slug": "zoom-google-meet-transcript-for-students",
   "page_type": "blog_post",
-  "category_tag": "Teaching & Tools",
-  "h1": "怎样获取 Zoom 或 Google Meet 课堂转录文本，分享给学生",
-  "reading_time_min": 8,
+  "category_tag": "Transcription & Tools",
+  "h1": "如何免费转录腾讯会议、Zoom、Teams 和 Google Meet 网课",
+  "reading_time_min": 11,
   "published_at": "2026-09-08",
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Zoom 和 Google Meet 课堂转录文本：教师指南",
-    "description": "在 Zoom 或 Google Meet 上直播教学？用 Chrome 几分钟内获取可编辑的课堂转录文本，分享给学生。免费，无需账户。",
+    "title": "免费转录腾讯会议、Zoom、Teams 网课：学生与老师指南",
+    "description": "免费转录腾讯会议、Zoom、Teams、Google Meet 网课和会议：哪些平台自带转写要付费，钉钉、飞书怎么办，以及如何在 Chrome 中保留可编辑的转录文本。",
     "keywords": [
-      "zoom转录文本",
-      "google meet转录文本",
+      "腾讯会议转写",
       "zoom转录",
-      "zoom聊天记录",
-      "课堂录音"
+      "网课转文字",
+      "会议录音转文字",
+      "teams转录",
+      "钉钉会议转文字"
     ],
     "og_image": null,
     "canonical": "https://lessonscriptor.com/zh/blog/zoom-google-meet-zhuanlu-xuesheng",
-    "og_title": "Zoom 和 Google Meet 课堂转录文本：教师指南",
-    "og_description": "获取您 Zoom 或 Google Meet 课堂的可编辑转录文本，几分钟内分享给学生。免费，无需账户。",
+    "og_title": "免费转录腾讯会议、Zoom、Teams 网课：学生与老师指南",
+    "og_description": "各平台免费给什么、什么要付费，以及学生和老师如何在 Chrome 中保留一份可编辑的课堂转录文本。",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
-    "url": "/for-teachers"
+    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 在线学习人类学，患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
     "label": "要点速览",
-    "lead": "您不需要付费的 Zoom 或 Google Workspace 套餐，也能给学生提供课堂转录文本。一个 Chrome 扩展程序就能在您上课的同一个标签页里完成。",
+    "lead": "腾讯会议、Zoom、Microsoft Teams 和 Google Meet 都提供实时字幕，但免费账户都没法把文字留下来。Chrome 扩展可以做到：从网页标签页或扬声器里直接转录。",
     "bullets": [
-      "Zoom 的转录文本只有云端录制才会保存，而云端录制需要付费套餐和管理员开启的设置。自 2026 年 5 月起，实时字幕已经无法保存。会议一结束，字幕就消失了。",
-      "Google Meet 的转录文件会保存到主持人的 Drive，但仅限付费 Workspace 套餐。大多数学校使用的免费套餐 Education Fundamentals，只有加购 Teaching and Learning 附加组件或升级到 Education Plus 才能获得这项功能。",
-      "LessonScriptor 在您上课的浏览器标签页里直接运行，不需要账户，还能让您在学生看到转录文本之前先编辑一遍。",
-      "可编辑这一点很重要：您可以删掉「大家能听到我说话吗」的那几分钟，把作业加粗，最后发给学生一份真正能拿来复习的资料。"
+      "腾讯会议有网页版：在 Chrome 里入会时，LessonScriptor 的 AI 模式可以直接捕获标签页音频。用桌面客户端时，只能用免费模式通过扬声器收音。",
+      "钉钉和飞书会议主要用桌面客户端，同样只能用免费模式通过扬声器转录；它们自带的转写功能（如飞书妙记）是否可用取决于学校或企业的版本。",
+      "Zoom：所有账户的实时字幕都免费，但会议结束就消失。自 2026 年 5 月起，保存会议转录需要 Pro、Business 或 Enterprise 账户，并由主持人开启。",
+      "Microsoft Teams 的实时字幕从不保存；转录取决于管理员策略。Google Meet 的转录只在付费 Workspace 版本中提供。",
+      "Otter.ai、Fireflies 这类会议机器人会作为参会者出现在名单里。LessonScriptor 不会，所以告知大家是你的责任。"
     ]
   },
   "stats": [
     {
       "number": "0",
-      "label": "使用 LessonScriptor 开始转录所需的账户数"
+      "label": "个机器人加入你的会议，免费模式也无需注册账户"
     },
     {
       "number": "14",
-      "label": "支持的语言数量，包括法语、西班牙语、阿拉伯语和印地语"
+      "label": "种支持语言，包括中文、英语、法语和西班牙语"
     },
     {
-      "number": "2",
-      "label": "导出格式（.txt 和 .md），另外还可以直接复制到剪贴板"
+      "number": "3 分钟",
+      "label": "Zoom 实时字幕可回看的时长，之后文字就没了"
     }
   ],
-  "intro": "想快速拿到一份能直接发给学生的 Zoom 或 Google Meet 转录文本，最简单的办法是用 LessonScriptor。这是一款免费的 Chrome 扩展程序，能在上课时实时转录，下课后给您一份可编辑的文本文件。Zoom 和 Google Meet 都自带转录功能，但它们要么被锁在付费套餐或管理员设置后面，要么只能读不能改，学生往往根本看不到。这篇指南会比较这三种方式，并展示老师们如何在说完再见后五分钟内就把课堂转录文本发出去。",
+  "intro": "免费转录腾讯会议、Zoom、Microsoft Teams 或 Google Meet 网课的方法，是用 LessonScriptor 这类 Chrome 扩展在浏览器里转录，因为这些平台的免费版都只给实时字幕，不让你把文字保存下来。Zoom 的会议转录从 Pro 套餐起步，Google Meet 的转录需要付费 Workspace 版本，Teams 的转录取决于学校管理员的策略，腾讯会议的部分转写功能也可能需要会员或企业版。LessonScriptor 会在上课时把可编辑的转录文本写进侧边栏，不往会议里派机器人，也不需要账户。本文逐个讲清各平台免费能做什么、会议机器人和浏览器转录有什么区别、学生和老师分别该怎么设置，以及如何在尊重他人的前提下分享转录文本。",
   "sections": [
     {
-      "id": "why-share-a-transcript",
-      "h2": "老师为什么要分享课堂转录文本？",
-      "body": "每周都有三类学生会来要这份东西。缺课的学生，他们不想看一整段 50 分钟的录像。用第二语言上课的学生，能一边读一边听，理解得更多。还有患 ADHD、阅读障碍或听力障碍的学生，对他们来说，文字版不是锦上添花，而是让课堂真正可以理解的关键。\n\n转录文本也解决了老师自己的一个问题。「我们周二讲了什么」不再需要凭记忆回复邮件，您只要贴一个链接过去就行。"
+      "id": "free-way-to-transcribe",
+      "h2": "怎样免费转录腾讯会议、Zoom 或 Teams 网课？",
+      "body": "课堂转录文本就是把课上说的话变成文字，下课后可以保存、搜索和编辑。腾讯会议、Zoom、Teams 和 Google Meet 都免费提供实时字幕，但字幕只是显示功能：它在屏幕上滚过，会议一结束就没了。能保存的转录文件，往往要付费套餐或管理员设置才能用。\n\n所以免费的路只有两条。第一条：请主持人打开平台自带的转录，前提是他的套餐有这个功能。第二条：在你自己的电脑上转录。LessonScriptor 这样的 Chrome 扩展会在课程播放时收听，把转录文本写进你自己掌控的侧边栏。第二条路不管主持人用什么套餐都能走，录播课也一样适用。\n\n下面按平台逐个说明，因为细节各不相同，而且“听课的学生”和“讲课的老师”需要的设置也不一样。"
     },
     {
-      "id": "zoom-transcript-how-to",
-      "h2": "怎样获取我课堂的 Zoom 转录文本？",
-      "body": "Zoom 有两个很容易混淆的功能。实时转录（Zoom 称之为「字幕」）在会议进行时显示在屏幕上。音频转录则是云端录制结束后生成的一个文件。这两个都不是 Zoom 聊天记录，聊天记录只保存大家打字的内容，不保存说话的内容。如果您搜索「zoom转录」，会看到这三样东西全混在一起。\n\n实时字幕在免费账户上也能用，但仅限会议进行期间。2026 年 5 月之前，参会者可以在离开前点击「保存转录文本」。Zoom 取消了这个选项。现在字幕只在会议中显示往前滚动几分钟的内容，会议结束后什么都不剩。免费账户已经没有任何原生方式保留转录文本了。\n\n云端录制的音频转录会生成一个 .vtt 文件，可以从 Zoom 网页后台下载。这需要付费套餐、开启云端录制，还需要账户管理员在录制设置里打开「音频转录文本」。处理时间大约和会议本身一样长，两小时的课就要等两小时。然后您还要下载、转换格式、整理、再上传。\n\n如果学校已经给您配齐了这一切，那就用吧。但很多老师没有管理员权限，不录制到云端，或者用的是个人账户上课。"
+      "id": "tencent-meeting",
+      "h2": "腾讯会议能用浏览器转录吗？",
+      "body": "可以，前提是用网页版入会。腾讯会议提供网页版，在 Chrome 里打开会议链接、选择从浏览器加入即可。此时会议音频在 Chrome 标签页里播放，LessonScriptor 的 AI 模式可以直接捕获，戴耳机也没问题。\n\n如果你用的是腾讯会议桌面客户端，AI 模式就拿不到声音，因为它只能捕获 Chrome 标签页里的音频。这时可以用免费模式：它通过麦克风收听，能听到扬声器里播放的客户端声音，音量建议开到 80% 以上，而且不能戴耳机。\n\n腾讯会议自己也有实时转写和录制转写等功能，但具体能不能用、要不要会员，取决于你的账户类型和学校或企业的版本，而且通常由主持人控制。如果学校已经开通，直接用平台自带的就好。"
     },
     {
-      "id": "google-meet-transcript-how-to",
-      "h2": "怎样获取 Google Meet 转录文本？",
-      "body": "Google Meet 在活动面板里有一个「转录文本」按钮，通话结束后会把内容保存成一份 Google 文档，存到主持人的 Drive 里。这项功能包含在付费 Workspace 套餐中（Business Standard 及以上、Education Plus，以及 Teaching and Learning 附加组件）。大多数学校用的免费套餐 Education Fundamentals 并不包含它，除非学校额外购买附加组件。就算学校有这项功能，学生账号默认也是关闭的。\n\n生成的文档还不错，带发言人姓名和时间戳，但终究是一份原始转录文本。每一个「呃」，每一次关于 Wi-Fi 的插话，每一分钟等最后一个学生进入的时间，都会被记下来。"
+      "id": "dingtalk-feishu",
+      "h2": "钉钉和飞书会议怎么转录？",
+      "body": "钉钉和飞书的视频会议主要通过桌面客户端或手机 App 使用，所以 LessonScriptor 只能用免费模式：开着扬声器，让麦克风听到客户端里的声音。安静的房间、较高的音量和清楚的发言，转录效果会好很多。\n\n这两个平台都有自带的转写工具，比如飞书妙记可以为会议录制生成文字，钉钉也有会议转写类功能。它们能否使用、是否收费，取决于你所在组织的版本和管理员设置。实话实说：如果你的学校或公司已经开通了这些功能，它们能给出带发言人的记录，这一点 LessonScriptor 做不到。LessonScriptor 的优势在于不依赖主持人或管理员，而且同一个工具也能用在网页版会议和录播课上。"
     },
     {
-      "id": "lessonscriptor-how-to",
-      "h2": "怎样用 LessonScriptor 转录 Zoom 或 Google Meet 课堂？",
-      "body": "LessonScriptor 直接在您上课的 Chrome 标签页里工作。它不会以机器人的身份加入会议，不会向学生索取任何东西，也不需要升级套餐。",
-      "steps": [
-        "从 Chrome 网上应用店安装 LessonScriptor。一键安装，无需注册。",
-        "在 Chrome 标签页里打开您的 Zoom 或 Google Meet 课堂。Zoom 的「从浏览器加入」链接可以用，Meet 本来就在浏览器里运行。",
-        "点击 LessonScriptor 图标打开侧边栏，开始讲课前点击「录制」。",
-        "正常讲课就好。转录文本会随您说话在侧边栏里实时生成，您可以瞄一眼确认某个术语记录对了没有。",
-        "下课后直接在原地编辑。删掉开头准备工作的那五分钟，把作业加粗，给每个环节加个小标题。",
-        "导出为 .md 或 .txt，或者直接复制到剪贴板，粘贴进 Google Classroom、Moodle 或邮件里。"
-      ]
+      "id": "zoom-builtin",
+      "h2": "Zoom 有免费的转录功能吗？",
+      "body": "Zoom 有免费的实时字幕，但能保存的转录要付费。Zoom 有三个容易混淆的功能，只有一个是免费的。\n\n**实时字幕**在所有 Zoom 账户上都能用，包括免费的 Basic 账户。自 2026 年 5 月底 Zoom 把字幕和转录拆开之后，字幕只在会议中显示：可以往回翻大约三分钟，但不能保存或下载。原来的“保存字幕”按钮已经取消了。\n\n**会议转录**是新的可保存转录，自这次 2026 年 5 月的调整起与字幕分开。它需要 Pro、Business 或 Enterprise 账户，默认关闭，必须由主持人在 Zoom 桌面或手机 App 的“更多”菜单里开启。参会者可以申请查看，由主持人决定是否同意。保存的 .txt 文件会放在“文稿”里的 Zoom 文件夹中。\n\n**云录制音频转录**是在云录制结束后由 Zoom 生成的文件。它需要带云录制的付费账户，还要账户所有者或管理员在录制设置里开启音频转录，会后还需要等待处理。\n\n另外，**Zoom 聊天记录**只保存打字的消息，不是说话内容。在中国大陆，Zoom 更多用于和海外院校的课程或会议；无论在哪里，免费账户或主持人没开功能时，Zoom 都不会让你留下说过的话。"
     },
     {
-      "id": "free-vs-ai-mode",
-      "h2": "直播课用免费模式还是 AI 模式？",
-      "body": "免费模式使用设备的麦克风和浏览器自带的语音引擎，完全在本地运行，无需注册。它直接拾取您的声音，对于大部分以老师讲话为主的课堂已经够用。如果您还想清楚捕捉学生的提问，或者上课时戴着耳机，AI 模式会直接采集标签页的音频，而不依赖麦克风。AI 模式按用量购买积分包，不是订阅制，积分永不过期，30 小时的积分包大约 21 美元，差不多够一整个学期每周三小时课的用量。"
+      "id": "teams-meet-builtin",
+      "h2": "Microsoft Teams 和 Google Meet 有转录吗？",
+      "body": "Microsoft Teams 两样都有，但只有字幕是一定可用的。Teams 的实时字幕会标出发言人，可以在会议菜单里打开；微软明确说明 Teams 不保存字幕。转录是单独的策略，由学校或公司管理员控制，组织者和开启转录的人都必须被允许。转录会和会议录制一起存放在 OneDrive 或 SharePoint 中。翻译字幕和翻译转录需要组织者有 Teams Premium 许可证。Teams 可以在 Chrome 中通过 teams.microsoft.com 使用，所以浏览器转录同样适用。\n\nGoogle Meet 的转录功能会在通话后把 Google 文档存进组织者的 Drive，只在 Business Standard、Business Plus、Enterprise 各版本、Workspace Individual、Education Plus 和 Teaching and Learning 升级版中提供，免费的 Education Fundamentals 没有；学生许可证账户默认关闭转录。Google Meet 在中国大陆通常无法直接访问，主要是海外留学生会用到。它的实时字幕免费，但同样不保存。"
     },
     {
       "id": "comparison-table",
-      "h2": "Zoom 转录文本 vs Google Meet 转录文本 vs LessonScriptor",
-      "body": "这张表把三种方式放在一起比较，重点是真正会影响您周二下午的那些事：需要什么套餐、分享前能不能编辑、要等多久。",
+      "h2": "腾讯会议、钉钉/飞书、Zoom、Teams 和 LessonScriptor：谁能免费保留转录？",
+      "body": "下表比较每种方式对免费用户提供什么，以及由谁来开启。",
       "table": {
         "headers": [
           "",
-          "Zoom 音频转录文本",
-          "Google Meet 转录文本",
+          "腾讯会议",
+          "钉钉 / 飞书",
+          "Zoom",
+          "Microsoft Teams",
           "LessonScriptor"
         ],
         "rows": [
           [
-            "所需套餐",
-            "付费套餐 + 管理员设置",
-            "付费 Workspace 或教育版附加组件",
-            "不需要"
+            "浏览器中入会",
+            "有网页版",
+            "以桌面客户端为主",
+            "有网页客户端",
+            "有，teams.microsoft.com",
+            "在 Chrome 中运行"
           ],
           [
-            "课堂期间可用",
-            "仅字幕，无法保存",
-            "不可以，通话结束后才有",
-            "可以，实时显示在侧边栏"
+            "LessonScriptor 可用模式",
+            "网页版：AI 或免费模式；客户端：免费模式",
+            "免费模式（扬声器）",
+            "网页版：AI 或免费模式；桌面 App：免费模式",
+            "网页版：AI 或免费模式；桌面 App：免费模式",
+            "—"
           ],
           [
-            "分享前可编辑",
-            "不可以（.vtt 文件）",
-            "可以，在 Google 文档里",
-            "可以，边讲边在面板里编辑"
+            "自带可保存转录",
+            "取决于账户和版本",
+            "取决于组织版本",
+            "Pro 及以上套餐",
+            "取决于管理员策略",
+            "有，保存在本地"
           ],
           [
-            "等待时间",
-            "大约和会议时长相同",
-            "几分钟",
-            "不需要等待"
+            "由谁开启",
+            "通常是主持人",
+            "管理员或主持人",
+            "主持人",
+            "组织者和管理员",
+            "你自己"
           ],
           [
-            "也适用于录播课",
-            "仅限云端录制",
-            "不可以",
-            "可以，Chrome 里的任何视频都行"
-          ],
-          [
-            "支持语言",
-            "取决于套餐",
-            "以英语为主，兼顾少数其他语言",
-            "14 种"
+            "适用于录播课",
+            "云录制回放",
+            "取决于版本",
+            "云录制",
+            "随录制保存",
+            "任何在 Chrome 中播放的视频"
           ]
         ]
       }
     },
     {
-      "id": "what-should-transcript-look-like",
-      "h2": "转录文本发给学生之前应该是什么样子？",
-      "body": "原始转录文本只是一份心意，编辑过的才是学习资料。花最少时间、效果最好的编辑方式是：\n\n剪掉正式内容开始之前的所有部分。给每个环节加一个小标题，方便学生跳到自己错过的部分。把作业、考试日期，以及您特意拼读过的术语都加粗。删掉关于打印机的那段闲聊。保留您自己的措辞，因为那才是学生记得的声音。\n\n这在 LessonScriptor 的编辑器里只需要十分钟，而且大部分工作您在课堂进行时就已经顺手做完了。"
-    },
-    {
-      "id": "recorded-lessons-flipped-classrooms",
-      "h2": "这个方法适用于录播课和翻转课堂吗？",
-      "body": "适用。任何在 Chrome 标签页里播放的内容都可以用同样的方式转录：学校课堂录制系统（Panopto、Kaltura、Echo360）里的讲座录像，布置给学生当作业的 YouTube 视频，您周日晚上录的 Loom 视频。打开视频，打开侧边栏，按下播放键。转录文本会随着视频同步生成，导出方式也一样。",
+      "id": "bots-vs-browser",
+      "h2": "会议机器人和浏览器扩展有什么区别？",
+      "body": "会议机器人是一种以额外参会者身份加入会议的转录服务。Otter.ai、Fireflies.ai 等工具会连接你的日历，派一个类似“Otter Notetaker”的机器人进入 Zoom、Teams 或 Meet 会议，在会议内部录音。所有人都能在参会者名单里看到它，主持人有时还要在等候室里放行，很多学校会直接屏蔽陌生机器人。这类工具主要面向英语会议，也基本不支持腾讯会议、钉钉和飞书。\n\n机器人也有真实的优点：能区分谁说了什么，能替你参加你不在场的会议，还能生成摘要。LessonScriptor 不做发言人识别，也不生成摘要。\n\n浏览器扩展的工作方式不同。LessonScriptor 在你自己的电脑上运行，转录 Chrome 标签页或扬声器播放的内容：不会有任何东西加入会议，其他人也不需要安装任何东西。所以它在屏蔽机器人的课上也能用，在没有会议可加入的录播课上也能用，而且不用连接日历、不用注册账户。代价是：它只能听到传到你电脑上的声音，而且你需要开着 Chrome。",
       "internal_links": [
         {
-          "text": "如何转录讲座视频",
+          "text": "适合学生的 Otter.ai 替代工具对比",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
+    },
+    {
+      "id": "which-mode",
+      "h2": "我的上课场景该用 LessonScriptor 的哪种模式？",
+      "body": "LessonScriptor 有两种收听方式，选哪种取决于你是在听课还是在讲课。\n\n**免费模式**通过麦克风使用 Chrome 内置的语音识别。永久免费，无需账户，不会把音频发送到 LessonScriptor 的服务器。因为它通过麦克风收听，所以会同时听到你自己的声音和扬声器里放出的所有声音。它不能配合耳机使用，音量建议在 80% 左右或以上。\n\n**AI 模式**直接捕获 Chrome 标签页的音频，分成短片段发送到云端语音识别模型，所以可以戴耳机，对口音和专业术语的识别也好得多。普通模式每 10 秒出一次文字，优化模式每 30 秒出一次。没有订阅：先免费试用 30 分钟，之后一次性购买 5 小时 5 美元、15 小时 12 美元或 30 小时 21 美元的套餐。额度永不过期，Stripe 结账时会显示折合人民币等本地货币的估算价格。",
+      "subsections": [
+        {
+          "h3": "在浏览器里听直播课的学生",
+          "body": "用腾讯会议网页版、Teams 网页版、Zoom 的“从浏览器加入”链接，或者在 Chrome 中打开 Google Meet。AI 模式捕获标签页，戴耳机没问题，你自己的声音也不会混进转录里。用扬声器的话，免费模式同样可以。"
+        },
+        {
+          "h3": "正在讲课的老师",
+          "body": "用免费模式加扬声器，不要戴耳机。麦克风会直接收到你的声音，也会通过扬声器收到学生的提问。AI 模式只捕获标签页播放的声音，而视频通话不会把你自己的声音回放给你，所以用 AI 模式转录你自己的课，结果里会缺了你自己。"
+        },
+        {
+          "h3": "腾讯会议、钉钉、飞书、Zoom 或 Teams 桌面客户端",
+          "body": "AI 模式拿不到 Chrome 以外的声音。免费模式仍然可用，因为麦克风能通过扬声器听到客户端。把音量调高，尽量保持房间安静。条件允许的话，换成会议的网页版。"
+        },
+        {
+          "h3": "课后看录播",
+          "body": "在 Chrome 标签页里打开录播，用 AI 模式效果最好。每个标签页单独捕获，你可以一边播放一边在别的标签页里做事。"
+        }
+      ]
+    },
+    {
+      "id": "how-to-steps",
+      "h2": "怎样在 Chrome 中转录腾讯会议、Zoom 或 Teams 网课？",
+      "body": "第一次设置大约两分钟，而且对会议里的其他人没有任何影响。",
+      "steps": [
+        "从 Chrome 网上应用店安装 LessonScriptor。免费模式无需注册。",
+        "在 Chrome 中打开课程：腾讯会议选择网页版入会，Teams 使用 teams.microsoft.com，Zoom 在启动页点击“从浏览器加入”。如果只能用钉钉或飞书客户端，就开着扬声器。",
+        "点击 LessonScriptor 图标打开侧边栏，选择课程语言。",
+        "根据场景选模式：讲课或使用桌面客户端时用免费模式加扬声器；戴耳机在浏览器标签页里听课时用 AI 模式。",
+        "上课前点击录制。转录文本会随着发言在侧边栏里逐步生成。",
+        "边听边改或课后再改：把重点术语加粗、每个主题加一个标题、用五种颜色高亮，或者把幻灯片截图插进转录里。",
+        "导出为 .txt 或 .md，或者复制到剪贴板。每次会话也会自动保存在扩展的历史记录中。"
+      ]
+    },
+    {
+      "id": "recordings",
+      "h2": "可以转录会议录播，而不是直播课吗？",
+      "body": "可以。只要在 Chrome 里播放，会议录播就只是一个视频，LessonScriptor 会像转录直播课一样转录它，不需要主持人做任何设置。打开 Zoom 云录制链接、腾讯会议云录制的网页回放，或者学校网络教学平台里嵌入的录播，按下播放即可。如果你下载了 .mp4 文件，可以把它拖进 Chrome 标签页里播放。\n\n中国大学MOOC、学堂在线、B站上的课程视频，以及 YouTube 上的公开课也一样。复习时这往往是更好的选择：可以暂停、回放没听懂的地方，而且 AI 模式的转录比在嘈杂宿舍里用扬声器收音干净得多。",
+      "internal_links": [
+        {
+          "text": "在 Chrome 中为 Zoom 录播生成实时字幕和转录",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        },
+        {
+          "text": "如何转录课程视频",
           "url": "/blog/how-to-transcribe-lecture-videos"
         }
       ]
+    },
+    {
+      "id": "teachers-sharing",
+      "h2": "老师怎样把课堂转录文本分享给学生？",
+      "body": "课堂转录文本在当天整理并发布时最有用。原始文本只是个心意，整理过的版本才是真正的复习资料。在 LessonScriptor 的编辑器里整理大约十分钟，而且很多步骤可以在上课时就完成：\n\n删掉正式内容开始前调试设备的几分钟。每个教学环节加一个标题，方便缺课的学生直接找到漏掉的部分。把作业、考试日期和你特意拼读过的术语加粗。删掉关于投影仪的题外话。保留你自己的说法，因为学生记住的正是这些话。\n\n然后导出，发到学生常看的地方：学习通、雨课堂、学校的网络教学平台、钉钉群、微信群或邮件。Markdown 导出会保留标题和加粗。学生阅读时不需要安装任何东西。",
+      "callout": {
+        "type": "checklist",
+        "label": "分享转录文本之前",
+        "body": "**删掉**与个人问题相关的学生姓名。**修正**识别错误的人名和专业术语。**加上**日期和课程名称。**说明**这是机器生成的文本，提醒学生核对看起来不对的地方。"
+      }
+    },
+    {
+      "id": "accessibility",
+      "h2": "课堂转录对无障碍学习有帮助吗？",
+      "body": "课堂转录主要帮助四类学生：听障学生、有注意力缺陷多动障碍（ADHD）或阅读障碍的学生、用非母语上课的学生（比如在中国读书的留学生，或在海外上网课的中国学生），以及缺课的学生。对有 ADHD 的学生来说，转录省去了边听边记，而这正是注意力最容易断掉的地方。对非母语学生来说，边听边读能把半懂的句子变成可以查的内容。\n\n自动转录是辅助，不是保证。语音识别仍会听错人名和公式，也不会描述幻灯片内容。对需要正式学习支持的学生，学校的相关部门才是决定标准的一方，可能需要人工速记或手语翻译。把转录作为补充，并插入幻灯片截图，让文字和画面保持在一起。",
+      "internal_links": [
+        {
+          "text": "大学 ADHD 学习支持与相关技术工具",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "privacy-consent",
+      "h2": "可以不告诉别人就转录课程或会议吗？",
+      "body": "不可以。转录前请先告知。会议机器人会出现在参会者名单里，腾讯会议、Zoom、Teams 开启自带转写时通常也会有提示。浏览器扩展不会向其他人显示任何东西，所以告知的责任在你。在中国，个人的声音和发言内容可能属于《个人信息保护法》保护的个人信息，很多学校也有关于课堂录音录像的规定。开场一句话（“我会转录这节课，课后分享笔记”）就能解决大多数情况；老师还应该说明转录文本会发布在哪里。\n\n数据方面：免费模式使用 Chrome 的语音识别，不会把音频发送到 LessonScriptor 的服务器。AI 模式会把标签页的短音频片段发送给云端转录服务（Groq 的 Whisper 模型），根据 LessonScriptor 的隐私政策，这些音频在请求完成后不会被保留。两种模式下，转录文本都保存在你的浏览器里，而不是 LessonScriptor 的服务器上。LessonScriptor 从不录制或保存音频、视频，只保存文字。"
     }
   ],
   "faq": {
-    "section_title": "常见问题",
-    "items": [
+    "heading": "常见问题",
+    "questions": [
       {
-        "q": "有没有免费获取 Zoom 转录文本的办法？",
-        "a": "Zoom 本身没有。自 2026 年 5 月起字幕无法保存，云端录制的转录文本又需要付费套餐。LessonScriptor 的免费模式可以直接在您的 Chrome 标签页里转录课堂，不需要账户，也没有时间限制，还能让您在分享前先编辑文本。"
+        "question": "腾讯会议可以用 LessonScriptor 转录吗？",
+        "answer": "可以。用腾讯会议网页版在 Chrome 里入会时，AI 模式能直接捕获标签页音频，戴耳机也行。用桌面客户端时，只能用免费模式，开着扬声器让麦克风收音。"
       },
       {
-        "q": "使用 LessonScriptor 需要账户吗？",
-        "a": "不需要。免费模式完全不需要注册，安装扩展程序就能直接开始转录。如果您购买了 AI 模式的积分包，会通过邮件收到一个许可证密钥，粘贴到扩展程序设置里即可。没有账户，也不用登录，只有一个密钥。"
+        "question": "钉钉或飞书会议能转文字吗？",
+        "answer": "能，但要用免费模式：钉钉和飞书会议主要在桌面客户端里进行，LessonScriptor 的 AI 模式只能捕获 Chrome 标签页，所以需要开着扬声器，让麦克风听到会议声音。平台自带的转写功能是否可用，取决于你所在组织的版本。"
       },
       {
-        "q": "免费账户能获取 Google Meet 转录文本吗？",
-        "a": "Google 本身不行。Meet 的转录功能需要付费 Workspace 套餐，或者学校在 Education Fundamentals 基础上加购 Teaching and Learning 附加组件。LessonScriptor 可以在 Chrome 里播放的任何 Google Meet 通话上使用，不管您用的是什么套餐。"
+        "question": "Zoom 会议可以免费转录吗？",
+        "answer": "用 Zoom 自带功能在免费账户上不行：实时字幕免费但不能保存，会议转录需要 Pro 及以上套餐。LessonScriptor 的免费模式可以通过麦克风和扬声器免费转录，并保留可编辑的文本。"
       },
       {
-        "q": "LessonScriptor 能在浏览器标签页里配合 Zoom 和 Google Meet 使用吗？",
-        "a": "可以。Google Meet 本来就在浏览器里运行。Zoom 请使用「从浏览器加入」链接，而不是桌面应用程序。不管哪种情况，LessonScriptor 都能转录该标签页，也能用于 Panopto、Canvas、YouTube 等平台上的录播课。"
+        "question": "LessonScriptor 会像 Otter 或 Fireflies 一样加入会议吗？",
+        "answer": "不会。LessonScriptor 没有会议机器人，它在你的 Chrome 里运行，转录标签页或扬声器播放的内容，不会出现在参会者名单里。正因如此，你应该告诉其他人你在转录。"
       },
       {
-        "q": "我的学生需要安装什么吗？",
-        "a": "不需要。转录、编辑、分享文本文件或粘贴的文档，这些都是老师做的事。学生只需要阅读就好。"
+        "question": "我在腾讯会议上讲课，哪种模式能录到我自己的声音？",
+        "answer": "免费模式加扬声器。它通过麦克风收听，能直接听到你，也能通过扬声器听到学生。AI 模式只捕获标签页播放的声音，而通话不会回放你自己的声音，所以你讲的部分会缺失。"
       },
       {
-        "q": "学生的声音会被发送到别处吗？",
-        "a": "免费模式下，任何数据都不会离开您的电脑，转录完全通过 Chrome 自带的语音引擎在本地完成。AI 模式下，标签页的音频会以短片段的形式发送给云端转录模型，且不会被保存。在录制学生声音之前，请先查看学校关于录音的相关规定，就像对待任何一次录音一样。"
-      },
-      {
-        "q": "遇到口音或专业术语时，准确率如何？",
-        "a": "AI 模式使用云端语音模型，对各种口音和背景噪音的识别准确率更高，在专业术语上也比免费模式表现得更稳定。免费模式依赖浏览器自带的语音引擎，对靠近麦克风的清晰语音表现不错，但遇到较重的口音时就不太稳定了。"
-      },
-      {
-        "q": "支持法语、西班牙语或阿拉伯语吗？",
-        "a": "支持。开始之前先在扩展程序设置里选好语言。LessonScriptor 支持 14 种语言的转录。每节课选定一种语言，因为课中途切换需要重新开始。"
-      },
-      {
-        "q": "学生收到的是什么格式？",
-        "a": "由您决定。可以导出为 Markdown（.md）或纯文本（.txt），也可以直接复制到剪贴板，粘贴进 Google Classroom、Moodle、Notion 或邮件里。您加的标题、加粗和高亮都会一起保留。"
+        "question": "可以转录中国大学MOOC 或 B站上的录播课吗？",
+        "answer": "可以。任何在 Chrome 标签页里播放的视频都能转录，包括中国大学MOOC、学堂在线、B站和会议云录制回放。录播课建议用 AI 模式，效果最干净。"
       }
     ]
   },
   "summary": {
-    "heading": "今天就把课堂内容用文字发给学生",
-    "body": "您已经把学生需要的一切都讲出来了。LessonScriptor 在您讲课时把它写下来，让您趁学生下线的时候整理一下，再给您一份文件，在下节课开始前就能分享出去。安装免费，无需账户，直接在您上课用的 Chrome 标签页里运行。",
+    "heading": "每节课都有一份转录，不管主持人用什么套餐",
+    "body": "腾讯会议、Zoom、Teams 和 Google Meet 都免费给所有人实时字幕，却把可保存的转录留给付费版本或管理员设置；钉钉和飞书则主要依赖桌面客户端。LessonScriptor 在你自己的 Chrome 里补上这个缺口：老师和桌面客户端用免费模式加扬声器，学生的网页版会议和录播课用 AI 模式，会议里没有机器人，当天就能分享一份可编辑的转录文本。",
     "internal_links": [
       {
-        "text": "了解 LessonScriptor 为教师提供的所有功能，包括如何用自己的转录文本回顾一堂课",
+        "text": "看看老师们如何在课堂上使用 LessonScriptor",
         "url": "/for-teachers"
       }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "怎样获取 Zoom 或 Google Meet 课堂转录文本，分享给学生",
-        "description": "在 Zoom 或 Google Meet 上直播教学？用 Chrome 几分钟内获取可编辑的课堂转录文本，分享给学生。免费，无需账户。",
-        "datePublished": "2026-09-08",
-        "dateModified": "2026-09-08",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "Victoria",
-            "description": "患有 ADHD 的人类学专业学生",
-            "url": "https://lessonscriptor.com"
-          },
-          {
-            "@type": "Person",
-            "name": "Pierre Girardot",
-            "description": "开发者兼 SEO",
-            "url": "https://lessonscriptor.com"
-          }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://lessonscriptor.com/logo.png",
-            "width": 600,
-            "height": 60
-          }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "如何免费转录腾讯会议、Zoom、Teams 和 Google Meet 网课",
+      "description": "免费转录腾讯会议、Zoom、Teams、Google Meet 网课和会议：哪些平台自带转写要付费，钉钉、飞书怎么办，以及如何在 Chrome 中保留可编辑的转录文本。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/zoom-google-meet-zhuanlu-xuesheng",
+      "url": "https://lessonscriptor.com/zh/blog/zoom-google-meet-zhuanlu-xuesheng",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "患有 ADHD 的人类学学生",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发与 SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
         }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "有没有免费获取 Zoom 转录文本的办法？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Zoom 本身没有。自 2026 年 5 月起字幕无法保存，云端录制的转录文本又需要付费套餐。LessonScriptor 的免费模式可以直接在您的 Chrome 标签页里转录课堂，不需要账户，也没有时间限制，还能让您在分享前先编辑文本。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "使用 LessonScriptor 需要账户吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "不需要。免费模式完全不需要注册。如果您购买了 AI 模式的积分包，会通过邮件收到一个许可证密钥，粘贴到扩展程序设置里即可。没有账户，也不用登录，只有一个密钥。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "LessonScriptor 能在浏览器标签页里配合 Zoom 和 Google Meet 使用吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "可以。Google Meet 本来就在浏览器里运行。Zoom 请使用「从浏览器加入」链接，而不是桌面应用程序。不管哪种情况，LessonScriptor 都能转录该标签页，也能用于 Panopto、Canvas、YouTube 等平台上的录播课。"
-            }
-          }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "怎样在 Chrome 中转录腾讯会议、Zoom 或 Teams 网课？",
+      "inLanguage": "zh-CN",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "从 Chrome 网上应用店安装 LessonScriptor。免费模式无需注册。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "在 Chrome 中打开课程：腾讯会议选择网页版入会，Teams 使用 teams.microsoft.com，Zoom 在启动页点击“从浏览器加入”。如果只能用钉钉或飞书客户端，就开着扬声器。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "点击 LessonScriptor 图标打开侧边栏，选择课程语言。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "根据场景选模式：讲课或使用桌面客户端时用免费模式加扬声器；戴耳机在浏览器标签页里听课时用 AI 模式。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "上课前点击录制。转录文本会随着发言在侧边栏里逐步生成。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "边听边改或课后再改：把重点术语加粗、每个主题加一个标题、用五种颜色高亮，或者把幻灯片截图插进转录里。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "导出为 .txt 或 .md，或者复制到剪贴板。每次会话也会自动保存在扩展的历史记录中。"
+        }
+      ]
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "首页",
-            "item": "https://lessonscriptor.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "博客",
-            "item": "https://lessonscriptor.com/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Zoom 和 Google Meet 课堂转录文本",
-            "item": "https://lessonscriptor.com/blog/zoom-google-meet-transcript-for-students"
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "腾讯会议可以用 LessonScriptor 转录吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。用腾讯会议网页版在 Chrome 里入会时，AI 模式能直接捕获标签页音频，戴耳机也行。用桌面客户端时，只能用免费模式，开着扬声器让麦克风收音。"
           }
-        ]
-      }
+        },
+        {
+          "@type": "Question",
+          "name": "钉钉或飞书会议能转文字吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "能，但要用免费模式：钉钉和飞书会议主要在桌面客户端里进行，LessonScriptor 的 AI 模式只能捕获 Chrome 标签页，所以需要开着扬声器，让麦克风听到会议声音。平台自带的转写功能是否可用，取决于你所在组织的版本。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Zoom 会议可以免费转录吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "用 Zoom 自带功能在免费账户上不行：实时字幕免费但不能保存，会议转录需要 Pro 及以上套餐。LessonScriptor 的免费模式可以通过麦克风和扬声器免费转录，并保留可编辑的文本。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor 会像 Otter 或 Fireflies 一样加入会议吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不会。LessonScriptor 没有会议机器人，它在你的 Chrome 里运行，转录标签页或扬声器播放的内容，不会出现在参会者名单里。正因如此，你应该告诉其他人你在转录。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "我在腾讯会议上讲课，哪种模式能录到我自己的声音？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "免费模式加扬声器。它通过麦克风收听，能直接听到你，也能通过扬声器听到学生。AI 模式只捕获标签页播放的声音，而通话不会回放你自己的声音，所以你讲的部分会缺失。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以转录中国大学MOOC 或 B站上的录播课吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。任何在 Chrome 标签页里播放的视频都能转录，包括中国大学MOOC、学堂在线、B站和会议云录制回放。录播课建议用 AI 模式，效果最干净。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "免费转录腾讯会议、Zoom、Teams 网课：学生与老师指南",
+          "item": "https://lessonscriptor.com/zh/blog/zoom-google-meet-zhuanlu-xuesheng"
+        }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/for-teachers",
-    "related_posts": [
-      "/live-captions-chrome",
-      "/blog/how-to-transcribe-lecture-videos"
-    ]
-  }
+  ]
 }

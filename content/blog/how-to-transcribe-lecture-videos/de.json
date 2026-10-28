@@ -2,81 +2,448 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Vorlesungsvideos automatisch transkribieren",
-  "reading_time_min": 7,
+  "h1": "Vorlesungsvideo transkribieren: 5 Methoden im Vergleich",
+  "reading_time_min": 11,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "Vorlesungsvideo transkribieren: 5 Methoden im Vergleich",
+    "description": "Vorlesung transkribieren in ILIAS, Moodle, Opencast, Panopto, YouTube oder Zoom: manuell, Untertitel, Upload-Tools und Live-Transkript in Chrome im Vergleich.",
     "keywords": [
-      "transcribe lecture video",
-      "automatic lecture transcription",
-      "lecture to text"
+      "video transkribieren",
+      "vorlesung transkribieren",
+      "vorlesungsaufzeichnung transkribieren",
+      "vorlesungsvideo transkribieren",
+      "vorlesung in text umwandeln",
+      "vorlesung aufnehmen"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für Live-Video-Transkription. Victoria studiert Anthropologie und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für Live-Video-Transkription. Victoria studiert Anthropologie im Fernstudium und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "Der schnellste Weg, ein Vorlesungsvideo automatisch zu transkribieren, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die jedes Video in Echtzeit während der Wiedergabe transkribiert, direkt in Ihrem Browser. Kein Upload, keine Wartezeit, kein Abo.",
+  "tldr": {
+    "label": "Das Wichtigste in Kürze",
+    "lead": "Vorlesungstranskription ist die Umwandlung des gesprochenen Tons einer Vorlesung in durchsuchbaren Text. Welche Methode passt, hängt von einer einzigen Frage ab: Haben Sie die Videodatei, oder nur einen Stream, den Sie abspielen können?",
+    "bullets": [
+      "**Manuelles Abtippen** kostet rund 4 Stunden pro Stunde Audio. Es lohnt sich nur für ein kurzes Zitat, das Sie wörtlich brauchen.",
+      "**YouTube-Untertitel** und **Untertitel der Lernplattform** (Opencast, Panopto, Kaltura in Moodle) sind kostenlos, wenn Ihre Hochschule oder die Person, die das Video hochgeladen hat, sie aktiviert hat. Sie lesen sie im Player, die Exportmöglichkeiten sind unterschiedlich.",
+      "**Upload-Tools** wie Otter.ai und TurboScribe sind genau, brauchen aber eine Audio- oder Videodatei. Die meisten Vorlesungsaufzeichnungen in ILIAS, Stud.IP oder Moodle lassen sich nicht herunterladen.",
+      "**Live-Transkription im Browser** (LessonScriptor) ist der direkte Weg, eine Vorlesungsaufzeichnung transkribieren zu lassen: Alles, was im Chrome-Tab läuft, wird zum bearbeitbaren Transkript, ohne Datei, Download oder Aufnahme.",
+      "Eine Vorlesung aufzunehmen erfordert in der Regel die Zustimmung der Lehrperson. Über einen **Nachteilsausgleich** können Studierende mit Behinderung oder chronischer Erkrankung, etwa ADHS, Transkripte oder Aufzeichnungen offiziell erhalten."
+    ]
+  },
+  "intro": "Der schnellste Weg, ein Vorlesungsvideo zu transkribieren, ist, es in Chrome mit einer Live-Transkriptions-Erweiterung wie LessonScriptor abzuspielen. Sie wandelt den Ton während der Wiedergabe in ein bearbeitbares Texttranskript um, ohne Datei-Upload und ohne Download. Das ist entscheidend, weil die meisten Vorlesungsaufzeichnungen in ILIAS, Stud.IP, Moodle oder OPAL liegen, oft über Opencast oder Panopto eingebunden, und der Download-Button dort meist deaktiviert ist. Upload-Tools wie Otter.ai und TurboScribe funktionieren ohne Datei nicht. Dieser Leitfaden vergleicht die fünf realistischen Wege, eine Vorlesungsaufzeichnung zu transkribieren, und zeigt sie Plattform für Plattform, mit Tipps zur Genauigkeit und zur Rechtslage.",
   "sections": [
     {
-      "h2": "Warum manuelles Mitschreiben in Vorlesungen scheitert",
-      "body": "Handschriftliches Mitschreiben während einer Vorlesung zwingt Sie, Ihre Aufmerksamkeit zwischen Zuhören, Verstehen und Schreiben aufzuteilen — oft alles gleichzeitig. Studien zeigen durchgängig, dass Studierende, die Vorlesungen Wort für Wort mitschreiben, weniger vom Inhalt behalten als solche, die sich aktiv damit auseinandersetzen. Das Problem ist nicht mangelnde Disziplin. Es ist das Werkzeug. Wenn Sie mit Schreiben beschäftigt sind, lernen Sie nicht."
+      "id": "what-is-lecture-transcription",
+      "h2": "Was ist Vorlesungstranskription?",
+      "body": "Vorlesungstranskription ist die Umwandlung des gesprochenen Inhalts einer Vorlesung in geschriebenen Text, entweder als wörtliches Transkript oder als bereinigte Fassung, mit der Sie lernen. Für Studierende erledigt sie drei Aufgaben: Sie entlastet die Aufmerksamkeit vom Mitschreiben, macht eine 90-minütige Vorlesungsaufzeichnung in Sekunden durchsuchbar und liefert Rohmaterial für Lernzettel oder eine Cornell-Vorlage.\n\nWer „Video transkribieren“ sucht, meint meistens eine von zwei Situationen. Entweder Sie **haben die Datei** (ein MP4 vom Handy, eine heruntergeladene Zoom-Aufzeichnung, eine Podcast-Folge), oder Sie **haben nur einen Stream** (eine Opencast- oder Panopto-Aufzeichnung, ein Video im ILIAS-Kurs, einen MOOC). Der erste Fall ist einfach. Am zweiten scheitern die meisten, weil die Plattform keinen Download erlaubt."
     },
     {
-      "h2": "Wie KI-Transkription im Browser funktioniert",
-      "body": "LessonScriptor nutzt zwei Transkriptions-Engines. Der kostenlose Modus verwendet die Web Speech API, die in Chrome integriert ist und Audio lokal auf Ihrem Gerät verarbeitet — nichts verlässt jemals Ihren Computer. Der Premium-Modus erfasst das Audio direkt aus dem Browser-Tab und sendet es an ein Cloud-KI-Modell zur Transkription, das hochgenauen Text innerhalb von Sekunden liefert."
+      "id": "methods-compared",
+      "h2": "Welche Möglichkeiten gibt es, ein Vorlesungsvideo zu transkribieren?",
+      "body": "Es gibt fünf praktikable Methoden. Sie unterscheiden sich vor allem darin, ob sie eine Datei brauchen, und darin, was Sie am Ende in der Hand haben: eine Untertitelspur, die Sie nur im Player lesen können, oder ein Dokument, das Sie bearbeiten und exportieren können.",
+      "table": {
+        "headers": [
+          "Methode",
+          "Braucht eine herunterladbare Datei?",
+          "Kosten",
+          "Ergebnis",
+          "Am besten für"
+        ],
+        "rows": [
+          [
+            "Manuelles Abtippen",
+            "Nein",
+            "Kostenlos, rund 4 Std. pro Audiostunde",
+            "Exakter Text, sehr langsam",
+            "Kurze Zitate"
+          ],
+          [
+            "YouTube-Untertitel",
+            "Nein, aber das Video muss auf YouTube liegen",
+            "Kostenlos",
+            "Transkript-Bereich in YouTube, Kopieren und Einfügen",
+            "Öffentliche Vorlesungen, MIT OpenCourseWare, Khan Academy, YouTube-Kanäle von Hochschulen"
+          ],
+          [
+            "Untertitel der Plattform (Opencast, Panopto, Kaltura)",
+            "Nein",
+            "Kostenlos, wenn die Hochschule sie aktiviert hat",
+            "Untertitel im Player, teils durchsuchbar",
+            "Einen Begriff in den eigenen Kursvideos nachschlagen"
+          ],
+          [
+            "Upload-Tools (Otter.ai, TurboScribe)",
+            "Ja",
+            "Kostenlose Stufen, dann Abo",
+            "Vollständiges Transkript nach der Verarbeitung",
+            "Handyaufnahmen, heruntergeladene MP4s"
+          ],
+          [
+            "Live im Browser (LessonScriptor)",
+            "Nein",
+            "Gratis-Modus, KI-Modus ab 5 $ einmalig",
+            "Bearbeitbares Transkript mit Markierungen und Screenshots, Export als .txt/.md",
+            "Streams ohne Download, Live-Veranstaltungen"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "Die entscheidende Frage",
+        "body": "Wenn Sie das Video herunterladen können, funktioniert ein Upload-Tool gut. Wenn Sie nur auf Play drücken können, brauchen Sie entweder die Untertitel der Plattform oder ein Tool, das transkribiert, was im Tab läuft."
+      }
     },
     {
-      "h2": "Schritt für Schritt: Vorlesungsvideo mit LessonScriptor transkribieren",
+      "id": "manual",
+      "h2": "Lohnt es sich, eine Vorlesung manuell zu transkribieren?",
+      "body": "Manuelles Transkribieren lohnt sich für eine ganze Vorlesung fast nie. Profis rechnen mit etwa vier Stunden Arbeit pro Stunde klarer Audioaufnahme, Studierende ohne Fußschalter sind langsamer. Eine 90-minütige Vorlesung kostet so leicht einen ganzen Tag.\n\nSinnvoll bleibt es für eine einzelne Definition oder ein Zitat für die Hausarbeit, bei dem der exakte Wortlaut zählt. Stellen Sie die Wiedergabe in den Player-Einstellungen auf 0,75-fach, tippen Sie in kurzen Abschnitten und pausieren Sie nach jedem Satz."
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "Wie bekomme ich ein Transkript aus den automatischen YouTube-Untertiteln?",
+      "body": "Automatische YouTube-Untertitel sind kostenlose Spracherkennungs-Untertitel, die YouTube für die meisten Videos in unterstützten Sprachen erzeugt. Sie sind die einfachste Option für öffentliche Vorlesungen, etwa von MIT OpenCourseWare, Khan Academy oder den YouTube-Kanälen von Hochschulen wie der LMU München. Ihre Grenzen: Sie lassen sich abschalten, in manchen Sprachen fehlt die Zeichensetzung, und Fachbegriffe und Namen werden oft verstümmelt.",
       "steps": [
-        "Installieren Sie LessonScriptor aus dem Chrome Web Store — kostenlos, keine Anmeldung erforderlich.",
-        "Öffnen Sie Ihr Vorlesungsvideo in Chrome (YouTube, Coursera, Zoom-Aufnahme, Universitätsportal oder jede andere Video-Plattform).",
-        "Klicken Sie auf das LessonScriptor-Symbol in Ihrer Chrome-Symbolleiste, um das Seitenpanel zu öffnen.",
-        "Starten Sie die Wiedergabe — die Transkription beginnt automatisch und der Text erscheint in Echtzeit.",
-        "Bearbeiten Sie beim Zuschauen: Klicken Sie, um eigene Notizen hinzuzufügen, markieren Sie Schlüsselkonzepte farbig, heben Sie Fachbegriffe hervor, löschen Sie Abschweifungen.",
-        "Klicken Sie auf einen Zeitstempel im Transkript, um zu genau diesem Moment im Video zu springen.",
-        "Wenn Sie fertig sind, exportieren Sie als Markdown für ein formatiertes Dokument mit all Ihren Markierungen und Formatierungen."
+        "Öffnen Sie das Video auf youtube.com in einem Desktop-Browser.",
+        "Klicken Sie unter dem Videotitel auf **...mehr**, um die Beschreibung aufzuklappen.",
+        "Scrollen Sie nach unten und klicken Sie auf **Transkript anzeigen**. Es öffnet sich ein Bereich mit dem Text und Zeitmarken.",
+        "Blenden Sie über das Drei-Punkte-Menü im Bereich die Zeitmarken aus, markieren Sie dann den Text und kopieren Sie ihn in Ihre Notizen."
+      ],
+      "internal_links": [
+        {
+          "text": "Ausführliche Anleitung: YouTube-Transkript herunterladen",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "h2": "Kostenloser Modus vs. Premium-Modus — was für Vorlesungen besser ist",
-      "body": "Für die meisten Studierenden reicht der kostenlose Modus. Er funktioniert gut in ruhiger Umgebung mit eingeschalteten Lautsprechern. Wenn Sie Kopfhörer bevorzugen oder Inhalte mit viel Fachvokabular, Akzenten oder schneller Sprache transkribieren, bietet der Premium-Modus deutlich bessere Genauigkeit für etwa 1 € pro Stunde."
+      "id": "lms-captions",
+      "h2": "Haben Opencast, Panopto, ILIAS und Moodle eine eingebaute Transkription?",
+      "body": "Opencast, Panopto und Kaltura, die an deutschen Hochschulen häufig in ILIAS, Stud.IP, Moodle oder OPAL eingebettet sind, können je nach Konfiguration automatische Untertitel erzeugen. Ob Sie sie sehen, hängt von den Einstellungen Ihrer Hochschule ab und davon, ob die Lehrperson sie veröffentlicht hat. Wenn es sie gibt, sind sie die günstigste Form der Vorlesungstranskription. Meist bleiben sie aber im Player: lesbar, manchmal durchsuchbar, selten als sauberes Dokument exportierbar.",
+      "subsections": [
+        {
+          "h3": "Opencast",
+          "body": "Opencast ist die Open-Source-Videoplattform, über die viele deutsche Hochschulen Vorlesungsaufzeichnungen bereitstellen, oft direkt in ILIAS oder Stud.IP eingebunden. Ob es Untertitel gibt (**CC**-Symbol im Player), ist von Hochschule zu Hochschule verschieden."
+        },
+        {
+          "h3": "Panopto",
+          "body": "Suchen Sie nach dem **CC**-Button. Sind Untertitel vorhanden, können Sie im Panopto-Viewer oft nach gesprochenen Wörtern suchen. Fehlt der Button, hat die Lehrperson keine veröffentlicht. Fragen Sie höflich nach, besonders wenn Ihnen ein Nachteilsausgleich zusteht."
+        },
+        {
+          "h3": "ILIAS, Stud.IP und Moodle",
+          "body": "ILIAS, Stud.IP und Moodle erzeugen selbst keine Untertitel. Der Player in Ihrem Kurs ist meist Opencast, Panopto, Kaltura, YouTube oder ein einfaches HTML5-Video, und die Untertitel kommen von diesem Dienst. Prüfen Sie die CC-Steuerung des Players. Gibt es dort nichts, ist ein Live-Transkriptions-Tool die realistische Alternative."
+        }
+      ]
     },
     {
-      "h2": "So lernen Sie mit Ihrem Transkript",
-      "body": "Behandeln Sie Ihr LessonScriptor-Dokument nach der Transkription wie einen Lernleitfaden. Markieren Sie die wichtigsten Konzepte gelb. Heben Sie Fachbegriffe fett hervor. Fügen Sie beim Durchlesen Ihre eigene Interpretation in Klammern hinzu. Exportieren Sie als Markdown und importieren Sie in Notion oder Obsidian zur langfristigen Aufbewahrung. Durchsuchen Sie den Volltext vor Prüfungen. Wenn du neurodivergent bist, beseitigt die automatische Transkription die kognitive Belastung durch gleichzeitiges Mitschreiben — siehe <a href=\"/blog/neurodivergent-study-tools\">die besten Lerntools für neurodivergente Studierende</a>."
+      "id": "upload-tools",
+      "h2": "Welche Tools transkribieren eine Datei mit der Vorlesungsaufnahme?",
+      "body": "Upload-Tools sind Transkriptionsdienste, die eine Audio- oder Videodatei verarbeiten, die Sie ihnen geben. Otter.ai, TurboScribe, Notta und Descript funktionieren so. Sie liefern gute Transkripte, oft mit Sprecherkennzeichnung, und sind die richtige Wahl, wenn Sie die Datei bereits haben: ein Sprachmemo aus einer Präsenzvorlesung, eine Zoom-Aufzeichnung, die der Host als MP4 geteilt hat, oder eine Podcast-Folge.\n\nIhre Grenze für Studierende ist das Ausgangsmaterial. Opencast, Panopto und die meisten Player in ILIAS oder Moodle streamen Videos ohne Download-Option, es gibt also nichts hochzuladen. Eine Bildschirmaufnahme des Streams ist langsam und kann gegen die Nutzungsbedingungen Ihrer Hochschule verstoßen.",
+      "internal_links": [
+        {
+          "text": "Otter.ai-Alternativen für Studierende",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "Wie transkribiere ich eine Vorlesungsaufzeichnung, ohne sie herunterzuladen?",
+      "body": "Live-Transkription im Browser ist die Methode, die funktioniert, wenn Sie nur auf Play drücken können. LessonScriptor ist eine Chrome-Erweiterung, die den Ton dessen transkribiert, was im aktuellen Tab läuft (Opencast, Panopto, ILIAS, Moodle, YouTube, Coursera, Zoom im Browser), und zwar in ein Transkript im Seitenpanel, das Sie schon während der Wiedergabe bearbeiten. Es lädt keine Dateien hoch und nimmt keinen Ton auf. Gespeichert wird der Text, keine Aufnahme.\n\nEs gibt zwei Modi. Der **Gratis-Modus** nutzt die eingebaute Spracherkennung von Chrome über Ihr Mikrofon. Er kostet nichts, braucht kein Konto und sendet keine Audiodaten an die Server von LessonScriptor. Dafür müssen die Lautsprecher auf etwa 80 % Lautstärke laufen, er funktioniert nicht mit Kopfhörern, und er erfasst auch Ihre eigene Stimme. Der **KI-Modus** greift den Ton direkt aus dem Tab ab, funktioniert deshalb mit Kopfhörern und ist bei Akzenten und Fachvokabular deutlich genauer. Er kostet einmalig 5 $ für 5 Stunden, 12 $ für 15 Stunden oder 21 $ für 30 Stunden, ohne Abo und mit 30 Minuten kostenloser Testphase. Stripe rechnet die US-Dollar-Preise in Euro oder Franken um.",
+      "steps": [
+        "Installieren Sie LessonScriptor aus dem Chrome Web Store. Der Gratis-Modus braucht keine Anmeldung.",
+        "Öffnen Sie Ihre Vorlesung in Chrome: Opencast oder Panopto in ILIAS, Stud.IP oder Moodle, YouTube oder eine Zoom-Cloud-Aufzeichnung.",
+        "Klicken Sie auf das LessonScriptor-Symbol, um das Seitenpanel zu öffnen, und wählen Sie die Sprache der Vorlesung (14 Sprachen werden unterstützt).",
+        "Drücken Sie auf Play. Im Gratis-Modus drehen Sie die Lautsprecher auf und nehmen die Kopfhörer ab. Im KI-Modus kommt der Text in Abschnitten alle 10 Sekunden (Normal) oder 30 Sekunden (Optimal).",
+        "Bearbeiten Sie beim Zuschauen: Schlüsselsätze in einer von fünf Farben markieren, Begriffe fett setzen, Überschriften einfügen, Abschweifungen löschen und einen Screenshot einer wichtigen Folie aufnehmen.",
+        "Exportieren Sie als .md oder .txt, oder kopieren Sie den Text in die Zwischenablage, um ihn in Notion, Obsidian, Google Docs oder eine Cornell-Vorlage einzufügen."
+      ],
+      "internal_links": [
+        {
+          "text": "Vorlesungstranskription in Chrome erklärt",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "Jedes Video kostenlos in Text umwandeln",
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "Wie transkribiere ich eine Vorlesung auf den einzelnen Plattformen?",
+      "body": "Hier ist der kürzeste Weg für die Plattformen, die Studierende im deutschsprachigen Raum am häufigsten nutzen, jeweils mit der eingebauten Option und der Live-Alternative.",
+      "subsections": [
+        {
+          "h3": "Opencast und Panopto",
+          "body": "Probieren Sie zuerst den **CC**-Button; um eine Passage zu prüfen, reicht das. Für ein vollständiges, bearbeitbares Transkript öffnen Sie die Aufzeichnung in Chrome, öffnen LessonScriptor und drücken auf Play. Eine höhere Wiedergabegeschwindigkeit (1,25- bis 1,5-fach) funktioniert im KI-Modus, die beste Genauigkeit erreichen Sie aber bei normalem Tempo."
+        },
+        {
+          "h3": "ILIAS und Stud.IP",
+          "body": "Öffnen Sie den Kurs oder die Veranstaltung und starten Sie das Video. Meist steckt dahinter ein Opencast-Player. Gibt es Untertitel, lesen Sie sie über **CC**. Andernfalls lassen Sie LessonScriptor im selben Tab laufen. Eingebettete YouTube- oder Panopto-Videos transkribieren Sie auf dieselbe Weise."
+        },
+        {
+          "h3": "Moodle und OPAL",
+          "body": "Moodle-Kurse, etwa an der FernUniversität in Hagen oder der TU München, und OPAL-Kurse an sächsischen Hochschulen mischen Opencast, Panopto, Kaltura und einfache Videodateien. Prüfen Sie den Player auf Untertitel und weichen Sie dann auf LessonScriptor im selben Tab aus. Die Erweiterung muss nicht wissen, welcher Player dahintersteckt."
+        },
+        {
+          "h3": "YouTube",
+          "body": "Nutzen Sie **...mehr → Transkript anzeigen** für eine schnelle Kopie. LessonScriptor lohnt sich, wenn die Untertitel fehlen oder schlecht sind oder Sie Markierungen und Screenshots im Transkript möchten."
+        },
+        {
+          "h3": "Zoom-Aufzeichnung",
+          "body": "Hat der Host das Audio-Transkript aktiviert, zeigt der Zoom-Webplayer es neben dem Video. Falls nicht, spielen Sie die Cloud-Aufzeichnung in Chrome ab und nutzen LessonScriptor. Wenn Sie nur eine lokale MP4-Datei haben, ist ein Upload-Tool wie Otter.ai oder TurboScribe der direktere Weg."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Zoom- und Google-Meet-Transkripte für Studierende",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "Wie bekomme ich ein genaueres Vorlesungstranskript?",
+      "body": "Die Genauigkeit eines Transkripts hängt stärker vom Ton ab als vom Tool. Diese Gewohnheiten machen den größten Unterschied.",
+      "steps": [
+        {
+          "strategy": "Wählen Sie zuerst die richtige Sprache.",
+          "detail": "Eine deutsche Vorlesung, die mit eingestelltem Englisch transkribiert wird, ergibt Unsinn. Stellen Sie die Sprache ein, bevor Sie auf Play drücken."
+        },
+        {
+          "strategy": "Nutzen Sie den KI-Modus für Akzente, Fachjargon und Störgeräusche.",
+          "detail": "Die Browser-Spracherkennung scheitert oft an organischer Chemie, juristischem Latein oder starkem Dialekt. Cloud-Modelle der Whisper-Klasse sind hier deutlich besser."
+        },
+        {
+          "strategy": "Geben Sie dem Mikrofon im Gratis-Modus sauberen Ton.",
+          "detail": "Lautsprecher auf 80 % oder mehr, keine Kopfhörer, ein ruhiger Raum, und bleiben Sie still, denn Ihre eigene Stimme wird mittranskribiert."
+        },
+        {
+          "strategy": "Bleiben Sie nahe an 1-facher Geschwindigkeit.",
+          "detail": "Über 1,5-fach gehen Wörter verloren. Schauen Sie in normalem Tempo und überfliegen Sie stattdessen das Transkript."
+        },
+        {
+          "strategy": "Korrigieren Sie Schlüsselbegriffe einmal.",
+          "detail": "Verbessern Sie einen falsch erkannten Namen beim ersten Auftreten und setzen Sie ihn fett, damit Sie ihn später finden."
+        }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "Wie nehmen Studierende eine Vorlesung am besten auf?",
+      "body": "Wie Sie eine Vorlesung am besten aufnehmen, hängt davon ab, ob sie in Präsenz oder online stattfindet. Im Hörsaal erfasst eine Sprachaufnahme-App auf dem Handy (Sprachmemos auf dem iPhone, Rekorder auf Android oder Pixel), möglichst weit vorne platziert, oder die audiosynchronen Notizen von Notability auf dem iPad den Ton. Die Datei geht danach in ein Upload-Tool. Bei Online- oder aufgezeichneten Vorlesungen müssen Sie meist gar nichts aufnehmen, denn die Hochschule hat das Video bereits, etwa in Opencast. Die Live-Transkription im Browser liefert Ihnen den Text, ohne eine Aufnahme zu erzeugen."
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "Ist es erlaubt, eine Vorlesung aufzunehmen oder zu transkribieren?",
+      "body": "Eine Vorlesung aufzunehmen erfordert in der Regel die Zustimmung der Lehrperson; viele Hochschulen regeln das ausdrücklich. In Deutschland schützt das Strafrecht das nichtöffentlich gesprochene Wort (Recht am gesprochenen Wort, § 201 StGB), was je nach Rahmen auch Lehrveranstaltungen betreffen kann, und die Vorlesung selbst kann als Werk urheberrechtlich geschützt sein. Oft werden auch Stimmen von Kommilitonen mit erfasst. Der sichere Standard: zu Semesterbeginn die Lehrperson fragen, Aufnahmen und Transkripte nur zum eigenen Lernen nutzen und nie öffentlich teilen.\n\nStudierende mit Behinderung oder chronischer Erkrankung, etwa ADHS, Legasthenie oder einer Hörbeeinträchtigung, können einen **Nachteilsausgleich** beantragen, der Aufzeichnungen, Untertitel oder Hilfe beim Mitschreiben umfassen kann. Ansprechpartner sind die oder der Beauftragte für Studierende mit Behinderung oder die Beratungsstelle Ihrer Hochschule. In Österreich (etwa an der Uni Wien) und in der Schweiz gelten eigene Regeln. Prüfen Sie die Vorgaben Ihrer Hochschule. Das ist keine Rechtsberatung.",
+      "internal_links": [
+        {
+          "text": "Nachteilsausgleich bei ADHS und die Technik, die hilft",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "Wie lerne ich mit einem Vorlesungstranskript?",
+      "body": "Ein Transkript ist Rohmaterial, keine fertige Mitschrift. Überfliegen Sie es einmal und markieren Sie die drei bis fünf Aussagen, die die Lehrperson wiederholt hat. Setzen Sie jeden Begriff fett, der in der Klausur auftauchen wird, und fügen Sie bei jedem Themenwechsel eine Überschrift ein. Fügen Sie die exportierte .md-Datei dann in Notion oder Obsidian ein, oder lassen Sie ChatGPT oder NotebookLM eine Zusammenfassung daraus erstellen. Dieser letzte Schritt passiert außerhalb von LessonScriptor, das selbst keine Zusammenfassungen erzeugt. Nutzen Sie den Volltext, um sich vor der Klausurenphase selbst abzufragen.",
+      "internal_links": [
+        {
+          "text": "KI-Notizen in der Vorlesung: Aufnahme-App oder Live-Transkript",
+          "url": "/blog/ai-note-taker-for-lectures"
+        },
+        {
+          "text": "Notizen machen mit ADHS",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
     }
   ],
-  "faq": {
-    "heading": "FAQ",
-    "questions": [
+  "summary": {
+    "heading": "Die kurze Antwort",
+    "body": "Wenn Sie die Datei haben, nutzen Sie ein Upload-Tool. Liegt die Vorlesung auf YouTube oder hat Ihre Lernplattform Untertitel, lesen Sie diese. Wenn Sie in Opencast, Panopto, ILIAS, Moodle oder bei einer Zoom-Aufzeichnung nur auf Play drücken können, transkribiert LessonScriptor, was im Chrome-Tab läuft, in ein bearbeitbares Transkript, kostenlos im Mikrofon-Modus oder ab 5 $ einmalig im KI-Modus.",
+    "internal_links": [
       {
-        "question": "Kann ich eine Zoom-Vorlesungsaufnahme automatisch transkribieren?",
-        "answer": "Ja. Öffnen Sie die Zoom-Aufnahme in Chrome und nutzen Sie LessonScriptor zur Transkription. Es funktioniert mit jedem Video, das in Chrome abgespielt wird, einschließlich Zoom, Google Meet, Teams und Universitäts-Videoportalen."
-      },
-      {
-        "question": "Funktioniert automatische Vorlesungstranskription auf Französisch oder Spanisch?",
-        "answer": "Ja. LessonScriptor unterstützt 14+ Sprachen. Wählen Sie Ihre Sprache in den Einstellungen und die Transkription erscheint in dieser Sprache."
-      },
-      {
-        "question": "Ist es Betrug, ein Transkriptions-Tool für Vorlesungen zu benutzen?",
-        "answer": "Nein. Transkriptions-Tools sind Lernhilfen, ähnlich wie Aufnahmegeräte. Sie erfassen das Gesagte — das Lernen und die Analyse liegen weiterhin bei Ihnen. Viele Universitäten erlauben und fördern ausdrücklich Barrierefreiheits-Tools für Studierende."
-      },
-      {
-        "question": "Was ist das beste Transkriptions-Tool für Studierende?",
-        "answer": "LessonScriptor ist das beste Transkriptions-Tool für Studierende, weil es direkt in Chrome auf jeder Video-Plattform funktioniert, einen kostenlosen Modus ohne Limits bietet und Live-Bearbeitung beim Zuschauen ermöglicht — im Gegensatz zu den meisten Tools, die erst nachträglich ein statisches Transkript erzeugen."
+        "text": "So funktioniert die Vorlesungstranskription",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "internal_links": [
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "questions": [
+      {
+        "question": "Wie kann ich ein Video kostenlos transkribieren?",
+        "answer": "Um ein Video kostenlos zu transkribieren, nutzen Sie bei YouTube-Videos den Bereich „Transkript anzeigen“, bei Ihrer Lernplattform die CC-Untertitel, sofern Ihre Hochschule sie aktiviert hat, oder den Gratis-Modus von LessonScriptor, der jedes in Chrome laufende Video über Ihr Mikrofon transkribiert, ganz ohne Konto."
+      },
+      {
+        "question": "Kann ich eine Vorlesungsaufzeichnung in Opencast, Panopto oder ILIAS transkribieren, ohne sie herunterzuladen?",
+        "answer": "Ja. LessonScriptor transkribiert, was im Chrome-Tab läuft, Sie brauchen also keine Datei. Opencast und Panopto zeigen je nach Hochschule zusätzlich eingebaute Untertitel über den CC-Button, wenn die Lehrperson sie veröffentlicht hat."
+      },
+      {
+        "question": "Nimmt LessonScriptor den Ton der Vorlesung auf?",
+        "answer": "Nein. LessonScriptor speichert ein Texttranskript, keine Audio- oder Videoaufnahme, und kann keine hochgeladenen MP3- oder MP4-Dateien verarbeiten. Es transkribiert nur, was im Tab abgespielt wird."
+      },
+      {
+        "question": "Kann ich eine Zoom-Aufzeichnung einer Vorlesung transkribieren?",
+        "answer": "Ja. Spielen Sie die Zoom-Cloud-Aufzeichnung in Chrome ab und nutzen Sie LessonScriptor, oder verwenden Sie das Audio-Transkript von Zoom, falls der Host es aktiviert hat. Für eine lokale MP4-Datei ist ein Upload-Tool wie Otter.ai oder TurboScribe der direktere Weg."
+      },
+      {
+        "question": "Funktioniert die Vorlesungstranskription auch auf Deutsch und in anderen Sprachen?",
+        "answer": "Ja. LessonScriptor unterstützt 14 Sprachen, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Chinesisch, Arabisch und Hindi. Wählen Sie die Sprache der Vorlesung, bevor Sie auf Play drücken."
+      },
+      {
+        "question": "Darf ich eine Vorlesung aufnehmen?",
+        "answer": "In der Regel nur mit Zustimmung der Lehrperson. § 201 StGB schützt das nichtöffentlich gesprochene Wort, was je nach Veranstaltung auch Vorlesungen betreffen kann, und die Vorlesung kann urheberrechtlich geschützt sein. Studierende mit Behinderung können Aufzeichnungen oder Transkripte oft über einen Nachteilsausgleich erhalten. Das ist keine Rechtsberatung."
+      }
+    ]
+  },
+  "schemas": [
     {
-      "text": "Best study tools for neurodivergent students",
-      "url": "/blog/neurodivergent-study-tools"
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Vorlesungsvideo transkribieren: 5 Methoden im Vergleich",
+      "description": "Vorlesung transkribieren in ILIAS, Moodle, Opencast, Panopto, YouTube oder Zoom: manuell, Untertitel, Upload-Tools und Live-Transkript in Chrome im Vergleich.",
+      "inLanguage": "de",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/wie-man-vorlesungsvideos-transkribiert",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwicklung & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Eine Vorlesungsaufzeichnung transkribieren, ohne sie herunterzuladen",
+      "inLanguage": "de",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor Chrome-Erweiterung"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Erweiterung installieren",
+          "text": "Installieren Sie LessonScriptor aus dem Chrome Web Store. Der Gratis-Modus braucht keine Anmeldung."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Vorlesung öffnen",
+          "text": "Öffnen Sie Ihre Vorlesung in Chrome: Opencast oder Panopto in ILIAS, Stud.IP oder Moodle, YouTube oder eine Zoom-Cloud-Aufzeichnung."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Seitenpanel öffnen",
+          "text": "Klicken Sie auf das LessonScriptor-Symbol, um das Seitenpanel zu öffnen, und wählen Sie die Sprache der Vorlesung (14 Sprachen werden unterstützt)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Play drücken",
+          "text": "Drücken Sie auf Play. Im Gratis-Modus drehen Sie die Lautsprecher auf und nehmen die Kopfhörer ab. Im KI-Modus kommt der Text in Abschnitten alle 10 Sekunden (Normal) oder 30 Sekunden (Optimal)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Beim Zuschauen bearbeiten",
+          "text": "Bearbeiten Sie beim Zuschauen: Schlüsselsätze in einer von fünf Farben markieren, Begriffe fett setzen, Überschriften einfügen, Abschweifungen löschen und einen Screenshot einer wichtigen Folie aufnehmen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Exportieren",
+          "text": "Exportieren Sie als .md oder .txt, oder kopieren Sie den Text in die Zwischenablage, um ihn in Notion, Obsidian, Google Docs oder eine Cornell-Vorlage einzufügen."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Wie kann ich ein Video kostenlos transkribieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Um ein Video kostenlos zu transkribieren, nutzen Sie bei YouTube-Videos den Bereich „Transkript anzeigen“, bei Ihrer Lernplattform die CC-Untertitel, sofern Ihre Hochschule sie aktiviert hat, oder den Gratis-Modus von LessonScriptor, der jedes in Chrome laufende Video über Ihr Mikrofon transkribiert, ganz ohne Konto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich eine Vorlesungsaufzeichnung in Opencast, Panopto oder ILIAS transkribieren, ohne sie herunterzuladen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. LessonScriptor transkribiert, was im Chrome-Tab läuft, Sie brauchen also keine Datei. Opencast und Panopto zeigen je nach Hochschule zusätzlich eingebaute Untertitel über den CC-Button, wenn die Lehrperson sie veröffentlicht hat."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Nimmt LessonScriptor den Ton der Vorlesung auf?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. LessonScriptor speichert ein Texttranskript, keine Audio- oder Videoaufnahme, und kann keine hochgeladenen MP3- oder MP4-Dateien verarbeiten. Es transkribiert nur, was im Tab abgespielt wird."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich eine Zoom-Aufzeichnung einer Vorlesung transkribieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Spielen Sie die Zoom-Cloud-Aufzeichnung in Chrome ab und nutzen Sie LessonScriptor, oder verwenden Sie das Audio-Transkript von Zoom, falls der Host es aktiviert hat. Für eine lokale MP4-Datei ist ein Upload-Tool wie Otter.ai oder TurboScribe der direktere Weg."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert die Vorlesungstranskription auch auf Deutsch und in anderen Sprachen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. LessonScriptor unterstützt 14 Sprachen, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Chinesisch, Arabisch und Hindi. Wählen Sie die Sprache der Vorlesung, bevor Sie auf Play drücken."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Darf ich eine Vorlesung aufnehmen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In der Regel nur mit Zustimmung der Lehrperson. § 201 StGB schützt das nichtöffentlich gesprochene Wort, was je nach Veranstaltung auch Vorlesungen betreffen kann, und die Vorlesung kann urheberrechtlich geschützt sein. Studierende mit Behinderung können Aufzeichnungen oder Transkripte oft über einen Nachteilsausgleich erhalten. Das ist keine Rechtsberatung."
+          }
+        }
+      ]
     }
-  ],
-  "schemas": []
+  ]
 }

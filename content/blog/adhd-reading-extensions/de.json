@@ -1,0 +1,492 @@
+{
+  "slug": "adhd-reading-extensions",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Die 8 besten Chrome-Erweiterungen zum Lesen mit ADHS (2026)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Lese-Erweiterungen für ADHS in Chrome (2026)",
+    "description": "Die besten Lese-Erweiterungen für ADHS in Chrome: Lesemodus, Helperbird, BeeLine, Read&Write, Speechify. Kostenlose Optionen und was die Studien sagen.",
+    "keywords": [
+      "Lese-Erweiterung ADHS",
+      "Chrome Erweiterung ADHS",
+      "lesen mit ADHS",
+      "ADHS Leseprogramm",
+      "Vorlesefunktion ADHS"
+    ]
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Die beste Lese-Erweiterung bei ADHS ist die, die deine konkrete Hürde entfernt: eine überladene Seite, die verlorene Zeile oder einen Absatz, nach dem du nichts mehr weißt. Fang mit dem Lesemodus von Chrome an, kostenlos und schon installiert.",
+    "bullets": [
+      "Der Chrome-Lesemodus zeigt den Text werbefrei in der Seitenleiste, lässt dich Schrift, Abstände und Farben ändern und liest am Computer mit Wortmarkierung vor.",
+      "Helperbird ist das umfangreichste kostenlose Werkzeug: Leselineal, Zeilenfokus, Legasthenie-Schriften, Farbfilter und Vorlesefunktion.",
+      "BeeLine Reader färbt jede Zeile mit einem Farbverlauf, damit dein Auge die nächste findet.",
+      "Text-to-Speech (Speechify, NaturalReader, Read&Write) hilft, wenn du abschweifst: Zuhören beim Lesen gibt ein Tempo vor.",
+      "Bionic Reading ist beliebt, aber zwei Studien fanden keinen Vorteil bei Tempo oder Verständnis.",
+      "Für Vorlesungsvideos hilft keine davon. Dort leistet ein Live-Transkript wie das von LessonScriptor dasselbe für gesprochene Inhalte."
+    ]
+  },
+  "intro": "Eine Lese-Erweiterung für ADHS ist ein Chrome-Add-on, das verändert, wie ein Text aussieht oder klingt, damit er die Aufmerksamkeit länger hält: Sie entfernt Ablenkungen, führt das Auge entlang jeder Zeile oder liest die Seite vor. Die besten Optionen 2026 sind der integrierte Lesemodus von Chrome, Helperbird, BeeLine Reader, Read&Write von Texthelp, Speechify und NaturalReader, und fast alle haben eine kostenlose Version. Sie lösen unterschiedliche Probleme, deshalb hängt die richtige Wahl davon ab, warum du abschweifst: wegen der Seite (Werbung, Pop-ups, dichtes Layout), wegen der Augen (Zeilen überspringen, denselben Satz dreimal lesen) oder wegen der Aufmerksamkeit (am Ende des Absatzes nicht wissen, was drinstand). Wir sind Victoria und Pierre: Victoria studiert Anthropologie im Fernstudium und hat ADHS. Dieser Leitfaden ist die ehrliche Version dessen, was wir gefunden haben, einschließlich der Grenzen von Bionic Reading laut Forschung.",
+  "sections": [
+    {
+      "heading": "Was ist eine Lese-Erweiterung für ADHS, und was behebt sie wirklich?",
+      "body": "Eine Lese-Erweiterung für ADHS ist ein Browser-Werkzeug, das den Aufwand verringert, beim Text zu bleiben. Sie behandelt kein ADHS; sie senkt die Reibung, die einen langen Artikel oder ein 40-seitiges Skript unmöglich zu beginnen oder zu beenden wirken lässt.\n\nDie Werkzeuge fallen in vier Gruppen, und wer weiß, welche er braucht, installiert keine sechs Erweiterungen, die er nie öffnet:\n\n**1. Leseansichten** (Chrome-Lesemodus, Just Read) entfernen Werbung, Seitenleisten, automatisch startende Videos und Pop-ups. Mit ADHS konkurriert jedes bewegte Element um deine Aufmerksamkeit, deshalb ist ihr Entfernen oft der größte Gewinn.\n\n**2. Visuelle Führungen** (BeeLine Reader, Leselineal und Zeilenfokus von Helperbird) helfen dem Auge, Zeilen zu folgen. Sie passen, wenn du nach einer Ablenkung die Stelle verlierst.\n\n**3. Text-to-Speech** (Speechify, NaturalReader, Read&Write, die Vorlesefunktion von Chrome) liest dir den Text vor, meist mit Markierung des aktuellen Wortes. Hören und Sehen derselben Wörter gibt der Aufmerksamkeit zwei Anker.\n\n**4. Typografie-Anpassungen** (Bionic Reading, Legasthenie-Schriften, Abstände) verändern das Schriftbild. Die Ergebnisse sind hier sehr individuell, und bei Bionic Reading ist die Studienlage schwach."
+    },
+    {
+      "heading": "Welche Lese-Erweiterung für ADHS solltest du wählen?",
+      "body": "Diese Tabelle ordnet jeder Erweiterung ein Leseproblem zu. Die ADHS-Eignung ist unsere Bewertung von 0 bis 10: Sie misst, wie viel Reibung ein Werkzeug entfernt, ohne neue Einstellungen oder Ablenkungen zu schaffen.",
+      "table": {
+        "headers": [
+          "Erweiterung",
+          "Typ",
+          "Kostenlos",
+          "ADHS-Eignung",
+          "Am besten für"
+        ],
+        "rows": [
+          [
+            "Chrome-Lesemodus",
+            "Leseansicht + Vorlesen",
+            "Ja, in Chrome integriert",
+            "9/10",
+            "Überladene Artikel, ohne Installation"
+          ],
+          [
+            "Helperbird",
+            "Barrierefreiheits-Toolkit",
+            "Ja, kostenlose Version",
+            "8/10",
+            "Lineal, Zeilenfokus, Schriften, Filter"
+          ],
+          [
+            "BeeLine Reader",
+            "Zeilenführung per Farbverlauf",
+            "Kostenloser Test; bezahlte Tarife",
+            "8/10",
+            "Verlorene Zeilen, lange PDFs"
+          ],
+          [
+            "Read&Write (Texthelp)",
+            "Lese- und Schreibhilfe-Suite",
+            "Kostenlos für Lehrkräfte; teils Hochschullizenz",
+            "7/10",
+            "Studierende mit Campuslizenz"
+          ],
+          [
+            "Speechify",
+            "Text-to-Speech",
+            "Ja, Standardstimmen",
+            "7/10",
+            "Gleichzeitig hören und lesen"
+          ],
+          [
+            "NaturalReader",
+            "Text-to-Speech",
+            "Ja, kostenlose Stimmen",
+            "7/10",
+            "Mehrsprachiges Lesen"
+          ],
+          [
+            "Just Read",
+            "Anpassbare Leseansicht",
+            "Ja, Grundfunktionen",
+            "7/10",
+            "Seiten, an denen der Lesemodus scheitert"
+          ],
+          [
+            "Bionic Reading",
+            "Fette Wortanfänge",
+            "Ja, Discover-Tarif",
+            "5/10",
+            "Nur persönliche Vorliebe"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "Welche Chrome-Erweiterungen helfen beim Lesen mit ADHS am meisten?",
+      "body": "Diese acht Erweiterungen gibt es wirklich, sie werden gepflegt und sind im Oktober 2026 im Chrome Web Store verfügbar. Preise sind meist in US-Dollar angegeben (umgerechnet wird beim Bezahlen) und ändern sich oft, deshalb nennen wir nur Preise, die der Anbieter klar veröffentlicht.",
+      "internal_links": [
+        {
+          "text": "Weitere Chrome-Erweiterungen für Studierende mit ADHS",
+          "url": "/blog/best-chrome-extensions-adhd-students"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Chrome-Lesemodus",
+      "tagline": "Googles eingebaute Leseansicht, mit Vorlesefunktion am Computer",
+      "platform": "Chrome unter Windows, Mac, Linux und ChromeOS",
+      "free_tier": "Kostenlos, bereits installiert",
+      "price": "Kostenlos",
+      "best_for": "Alle, die sofort weniger visuelles Rauschen wollen",
+      "adhd_fit": 9,
+      "why_it_wins": "Der Chrome-Lesemodus ist das Erste, was du ausprobieren solltest: Er kostet nichts und braucht keine Installation. Rechtsklick auf einen Artikel, dann **Im Lesemodus öffnen**: Der Text erscheint in der Seitenleiste, ohne Werbung, Menüs oder Autoplay-Videos. Du stellst Schrift, Größe, Zeilen- und Buchstabenabstand sowie Hintergrundfarbe ein. In Chrome am Computer liest er den Text auch vor, mit Stimmen- und Tempoauswahl und Wortmarkierung. Bei ADHS hat die Seitenleiste einen stillen Vorteil: Die Originalseite bleibt sichtbar, aber der Text, den du liest, ist isoliert.",
+      "key_features": [
+        "Leseansicht per Klick in der Seitenleiste",
+        "Einstellungen für Schrift, Größe, Abstände und Farben",
+        "Vorlesen mit Stimme, Tempo und Wortmarkierung am Computer",
+        "Kein Konto, keine Erweiterung nötig"
+      ],
+      "limitations": "Funktioniert am besten bei Artikelseiten; viele ILIAS- oder Stud.IP-Seiten und viele PDFs werden nicht sauber umgewandelt. Kein Leselineal."
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Helperbird",
+      "tagline": "Barrierefreiheits-Toolkit für Legasthenie, ADHS und visuellen Stress",
+      "platform": "Chrome, Firefox, Edge; Apps für Apple-Geräte",
+      "free_tier": "Ja, dauerhaft kostenlose Version",
+      "price": "Kostenlos; Pro als kostenpflichtiges Upgrade",
+      "best_for": "Lineal, Schriften, Filter und Vorlesen an einem Ort",
+      "adhd_fit": 8,
+      "why_it_wins": "Helperbird bündelt, wofür man sonst vier Erweiterungen braucht. Die kostenlose Version enthält Legasthenie-Schriften, Abstands- und Ausrichtungseinstellungen, einen Lesemodus, Farbfilter, Leselineal und Zeilenfokus, eine einfache Vorlesefunktion und einen PDF-Reader. Lineal und Zeilenfokus sind die ADHS-Stars: Sie dunkeln alles ab außer dem Streifen, den du gerade liest, und aus einer Textwand wird ein überschaubares Band. Pro ergänzt natürliche Stimmen, einen Screenshot-Reader mit Texterkennung und KI-Funktionen zum Zusammenfassen und Vereinfachen.",
+      "key_features": [
+        "Leselineal und Zeilenfokus",
+        "Legasthenie-Schriften, Abstände und Farbfilter",
+        "Lesemodus und einfaches Vorlesen kostenlos",
+        "PDF-Reader mit Anmerkungen"
+      ],
+      "limitations": "So viele Optionen, dass das Einrichten selbst ablenkt; wähle zwei Funktionen und ignoriere den Rest. Natürliche Stimmen und Texterkennung nur in Pro."
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "BeeLine Reader",
+      "tagline": "Farbverläufe, die das Auge von Zeile zu Zeile führen",
+      "platform": "Chrome, Firefox, Edge, Brave; Safari auf iPhone und iPad; PDF",
+      "free_tier": "Kostenlose Testfunktionen; Safari-Erweiterung für iOS kostenlos",
+      "price": "Bezahlte Tarife für wenige Dollar im Monat",
+      "best_for": "Alle, die Zeilen überspringen oder doppelt lesen",
+      "adhd_fit": 8,
+      "why_it_wins": "BeeLine Reader färbt jede Zeile mit einem sanften Farbverlauf, sodass das Zeilenende in den Anfang der nächsten Zeile übergeht. Das löst ein typisches ADHS-Problem: Du schaust weg, kommst zurück und landest in der falschen Zeile. Mit BeeLine zeigt dir die Farbe, wo du warst. Es funktioniert auch bei Text-PDFs, was zählt, wenn fast die ganze Seminarlektüre als PDF in ILIAS oder Moodle liegt.",
+      "key_features": [
+        "Zeilenführung per Farbverlauf auf Webseiten",
+        "Unterstützung für Text-PDFs",
+        "Einstellbare Farbthemen, auch dezent und im Dunkelmodus"
+      ],
+      "limitations": "Entfernt keine Ablenkungen und liest nicht vor; ein Werkzeug für genau einen Zweck. Volle Nutzung ist kostenpflichtig."
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Read&Write für Google Chrome (Texthelp)",
+      "tagline": "Die Lesehilfe-Suite, die manche Hochschulen bereitstellen",
+      "platform": "Chrome-Erweiterung; Google Docs, Webseiten und PDFs",
+      "free_tier": "Premium kostenlos für Lehrkräfte; Studierende meist über eine Hochschullizenz",
+      "price": "Frag zuerst bei der Beratungsstelle nach",
+      "best_for": "Studierende, deren Hochschule Texthelp lizenziert",
+      "adhd_fit": 7,
+      "why_it_wins": "Read&Write von Texthelp liest Text mit zweifarbiger Markierung vor, bietet Text- und Bildwörterbücher, sammelt deine Markierungen in einer Liste und blendet Bildschirmmasken gegen visuelles Rauschen ein. Das Sammeln der Markierungen ist beim Lernen mit ADHS besonders nützlich: Du markierst Kernsätze beim Lesen und hast sie danach in einer Liste, statt vor der Klausur 40 Seiten zu durchsuchen. An deutschen Hochschulen lohnt sich die Frage bei der oder dem Beauftragten für Studierende mit Behinderung und chronischer Erkrankung, auch im Zusammenhang mit einem Nachteilsausgleich.",
+      "key_features": [
+        "Vorlesen mit zweifarbiger Markierung",
+        "Markierungen in einer Liste sammeln",
+        "Bildschirmmasken und Farbtönungen",
+        "Wörterbücher, Spracheingabe und Wortvorhersage"
+      ],
+      "limitations": "Überladene Werkzeugleiste, eher für Schulen gedacht; der volle Funktionsumfang hängt meist von einer Institutionslizenz ab."
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Speechify",
+      "tagline": "Beliebtes Text-to-Speech für Webseiten, Google Docs und PDFs",
+      "platform": "Chrome-Erweiterung, Web, iOS, Android, Mac",
+      "free_tier": "Ja, Standardstimmen mit begrenztem Tempo",
+      "price": "Premium im Abo",
+      "best_for": "Alle, die sich beim gleichzeitigen Hören und Lesen besser konzentrieren",
+      "adhd_fit": 7,
+      "why_it_wins": "Speechify liest jede Webseite, jedes Google Doc oder PDF vor und markiert die Wörter mit. Viele Menschen mit ADHS merken, dass Zuhören ein Tempo vorgibt, von dem man schwerer abschweift: Die Stimme läuft weiter, also läuft das Auge weiter. Die kostenlose Version reicht für Artikel; Premium bringt natürliche Stimmen und höhere Geschwindigkeiten. Teste die deutschen Stimmen mit einem echten Skript, bevor du zahlst.",
+      "key_features": [
+        "Liest Webseiten, Google Docs und PDFs vor",
+        "Wortmarkierung synchron zur Stimme",
+        "Apps für Handy und Computer zum Weiterhören unterwegs"
+      ],
+      "limitations": "Kostenlose Stimmen klingen robotisch, Tempo ist begrenzt; Premium gehört zu den teureren Abos in dieser Liste."
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "NaturalReader",
+      "tagline": "Text-to-Speech mit großer Stimmenbibliothek in vielen Sprachen",
+      "platform": "Chrome-Erweiterung, Web-App",
+      "free_tier": "Ja, kostenlose Stimmen",
+      "price": "Bezahlte Tarife für Premium-Stimmen",
+      "best_for": "Studierende, die in mehreren Sprachen lesen",
+      "adhd_fit": 7,
+      "why_it_wins": "NaturalReader liest Webseiten, Google Docs, PDFs und E-Mails mit über 150 Stimmen in mehr als 20 Sprachen vor, darunter Deutsch. Das passt gut, wenn du für die Hausarbeit englische Fachartikel liest: Die Aussprache zu hören hilft auch beim Verstehen.",
+      "key_features": [
+        "Über 150 Stimmen in mehr als 20 Sprachen",
+        "Webseiten, Google Docs, PDFs und Webmail",
+        "Kostenlose Stimmen verfügbar"
+      ],
+      "limitations": "Die besten Stimmen kosten Geld; die Oberfläche ist funktional, nicht ruhig."
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "Just Read",
+      "tagline": "Eine anpassbare Leseansicht in der Tradition von Mercury Reader",
+      "platform": "Chrome-Erweiterung",
+      "free_tier": "Ja, die Grundansicht ist kostenlos",
+      "price": "Grundfunktionen kostenlos; optionale Premium-Funktionen",
+      "best_for": "Seiten, an denen der Chrome-Lesemodus scheitert",
+      "adhd_fit": 7,
+      "why_it_wins": "Just Read füllt die Lücke der Mercury-Reader-artigen Erweiterungen: Ein Klick macht aus einem Artikel sauberen Text, mit deinem eigenen Design. Im Auswahlmodus bestimmst du genau, welchen Teil der Seite du liest, im Löschmodus entfernst du übrig gebliebenen Ballast. Auf Seiten, die du oft liest, kann es automatisch starten: eine Entscheidung weniger.",
+      "key_features": [
+        "Leseansicht per Klick, helles und dunkles Design",
+        "Auswahl- und Löschmodus für unordentliche Seiten",
+        "Automatischer Start auf gewählten Seiten und Tastenkürzel"
+      ],
+      "limitations": "Für Artikel gebaut, nicht für Kursübersichten oder PDFs. Keine Vorlesefunktion."
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Bionic Reading",
+      "tagline": "Setzt die Anfangsbuchstaben jedes Wortes fett, um das Auge zu führen",
+      "platform": "Chrome-Erweiterung und Apps auf anderen Plattformen",
+      "free_tier": "Ja, kostenloser Discover-Tarif",
+      "price": "Abos Premium und Premium Plus",
+      "best_for": "Alle, die es probiert haben und einfach lieber so lesen",
+      "adhd_fit": 5,
+      "why_it_wins": "Bionic Reading, entwickelt von der gleichnamigen Schweizer Firma, setzt die ersten Buchstaben jedes Wortes fett, sodass das Auge zwischen Ankerpunkten springt. Es wurde als ADHS-Lesetrick viral, und viele empfinden es als angenehmer. Kontrollierte Studien fanden keinen Vorteil bei Tempo oder Verständnis (siehe nächster Abschnitt), deshalb steht es hier am Ende: Probier die kostenlose Version, behalte sie, wenn sie dir gefällt, und erwarte keine Wunder.",
+      "key_features": [
+        "Wandelt jede Webseite ins Bionic-Reading-Format um",
+        "Einstellbare Fettungsstärke",
+        "Ein Abo gilt für die Apps auf mehreren Plattformen"
+      ],
+      "limitations": "Kein messbarer Nutzen in veröffentlichten Studien; manche empfinden die Fettung als ablenkender."
+    },
+    {
+      "heading": "Funktioniert Bionic Reading wirklich bei ADHS?",
+      "body": "Bionic Reading verbessert weder Lesetempo noch Textverständnis, so die beiden größten bisher veröffentlichten Tests. 2022 stoppte die Lese-App Readwise die Zeit von rund 1.900 Lesenden bei vergleichbaren Texten: Mit Bionic Reading lasen sie 2,6 Wörter pro Minute langsamer, ein Unterschied unter 1 %, und das Verständnis war in beiden Formaten gleich (88 %). 2024 veröffentlichte der Psychologe Joshua Snell in der Fachzeitschrift Acta Psychologica eine kontrollierte Studie mit dem Titel „No, Bionic Reading does not work“: 32 Teilnehmende lasen je 100 Absätze, ohne verlässlichen Vorteil, bei schnellen wie langsamen Lesenden.\n\nZwei Einschränkungen gehören zur Ehrlichkeit. Erstens untersuchte keine der Studien gezielt Menschen mit ADHS, es gibt also keine ADHS-spezifische Studie, weder dafür noch dagegen. Zweitens war in den Readwise-Daten etwa die Hälfte mit Bionic Reading etwas schneller und die andere Hälfte etwas langsamer, was eher nach persönlicher Vorliebe als nach echtem Effekt aussieht.\n\nPraktisches Fazit: Bionic Reading ist eine Komforteinstellung, kein Leistungswerkzeug. Wenn es dich eher dazu bringt, einen langen Text zu öffnen, ist das bei ADHS ein echter Gewinn, auch wenn die Stoppuhr nichts zeigt. Wer einen klareren Mechanismus will, greift zu Zeilenführung (BeeLine) oder Text-to-Speech: Sie zielen auf die Probleme, die Lesende mit ADHS tatsächlich beschreiben, nämlich die Zeile verlieren und abschweifen."
+    },
+    {
+      "heading": "Warum hilft Text-to-Speech so vielen Lesenden mit ADHS?",
+      "body": "Text-to-Speech hilft bei ADHS, weil es selbstbestimmtes Lesen in Lesen mit äußerem Takt verwandelt. Stilles Lesen hängt komplett davon ab, dass du dranbleibst, und genau diese anhaltende, selbstgesteuerte Anstrengung fällt mit ADHS am schwersten. Eine Stimme mit gleichmäßigem Tempo gibt den Takt vor, und die Wortmarkierung gibt dem Auge ein bewegtes Ziel, das diesem Takt folgt.\n\nDas Muster, das oft funktioniert: Stell die Stimme etwas schneller als dein eigenes Sprechtempo, folge der Markierung mit den Augen und notiere an jeder Zwischenüberschrift eine Zeile für deine Mitschrift. Die Vorlesefunktion von Chrome reicht, um das zu testen, bevor du für Premium-Stimmen von Speechify oder NaturalReader zahlst."
+    },
+    {
+      "heading": "Wie richtest du Chrome zum Lesen mit ADHS ein?",
+      "body": "Ein minimales Setup schlägt eine überfüllte Werkzeugleiste. Hier eine Version in vier Schritten:",
+      "steps": [
+        {
+          "strategy": "Starte mit dem Chrome-Lesemodus.",
+          "detail": "Rechtsklick auf einen Artikel, im Lesemodus öffnen, Zeilenabstand erhöhen und einen ruhigen Hintergrund wählen. Probier einmal die Vorlesefunktion."
+        },
+        {
+          "strategy": "Ergänze eine einzige visuelle Führung, wenn du Zeilen verlierst.",
+          "detail": "Helperbird für den Zeilenfokus oder BeeLine Reader, wenn lange PDFs dein Hauptproblem sind. Nicht beides."
+        },
+        {
+          "strategy": "Ergänze Text-to-Speech nur, wenn du abschweifst.",
+          "detail": "Zuerst die Vorlesefunktion von Chrome; Speechify oder NaturalReader, wenn du bessere Stimmen oder eine Handy-App willst."
+        },
+        {
+          "strategy": "Frag an deiner Hochschule nach, bevor du zahlst.",
+          "detail": "Die Beratung für Studierende mit Behinderung, auch an der FernUni Hagen, kann Hilfsmittel und einen Nachteilsausgleich unterstützen."
+        }
+      ]
+    },
+    {
+      "heading": "Lesen ist die Hälfte des Studiums, Vorlesungen sind die andere Hälfte",
+      "body": "Alle Werkzeuge oben funktionieren mit Text. Keines hilft bei der anderen Hälfte des Studiums: Vorlesungsaufzeichnungen, Online-Seminare und YouTube-Videos, die die Dozentin empfiehlt. Für viele Studierende mit ADHS ist diese Hälfte schwieriger, denn ein Video wartet nicht. 30 Sekunden abgeschweift und der Punkt ist weg; Zurückspulen unterbricht die Konzentration erneut.\n\nLessonScriptor ist das Werkzeug, das wir für diese Hälfte gebaut haben. Es ist eine Chrome-Erweiterung, die während der Vorlesung ein Live-Transkript in der Seitenleiste anzeigt, sodass du mitlesen kannst, während gesprochen wird, so wie beim Vorlesen per Text-to-Speech. Sie funktioniert mit allem, was in Chrome Ton abspielt: ILIAS, Stud.IP, Moodle, Panopto, YouTube, Coursera sowie Zoom oder Google Meet im Browser.\n\nGenau gesagt: Im **kostenlosen Modus** hört die Spracherkennung von Chrome über das Mikrofon mit, die Lautsprecher müssen also recht laut sein (80 % oder mehr), und mit Kopfhörern funktioniert es nicht. Im **KI-Modus** wird der Ton des Tabs direkt erfasst: Kopfhörer funktionieren, und die Genauigkeit ist bei Akzenten und Fachbegriffen deutlich besser; der Text kommt in Blöcken alle 10 oder 30 Sekunden, nicht Wort für Wort. Der KI-Modus enthält 30 Minuten kostenlosen Test, danach Einmalpakete ab 5 US-Dollar für 5 Stunden (Stripe rechnet in Euro um). Während der Vorlesung markierst du in fünf Farben, setzt Überschriften, hältst die aktuelle Folie als Screenshot fest und exportierst als .txt oder .md.\n\nWas es nicht kann: Es liest keine Webseiten oder PDFs vor und fasst nichts zusammen. Für eine Zusammenfassung fügst du das exportierte Transkript selbst in ChatGPT oder NotebookLM ein. Zum Lesen nimm die Erweiterungen oben.",
+      "internal_links": [
+        {
+          "text": "Jedes Video in Chrome live transkribieren",
+          "url": "/blog/live-transcribe-chrome"
+        },
+        {
+          "text": "Konzentration bei Online-Vorlesungen mit ADHS",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "LessonScriptor für Studierende mit ADHS",
+          "url": "/for-adhd-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Die beste Lese-Erweiterung bei ADHS, in einem Absatz",
+    "body": "Fang mit dem Chrome-Lesemodus an: kostenlos, eingebaut und mit Vorlesefunktion. Ergänze Helperbird, wenn du Zeilenfokus und Schriften brauchst, oder BeeLine Reader, wenn du in PDFs die Zeile verlierst. Nutze Text-to-Speech (Chrome, Speechify oder NaturalReader), wenn deine Aufmerksamkeit mitten im Absatz abreißt, und frag an deiner Hochschule nach, bevor du eine Lizenz kaufst. Sieh Bionic Reading als Vorliebe, nicht als Lösung: Die Studien fanden keinen Vorteil. Für Vorlesungsvideos, die kein Lesewerkzeug abdeckt, lies stattdessen ein Live-Transkript mit.",
+    "internal_links": [
+      {
+        "text": "Die besten Apps für Studierende mit ADHS 2026",
+        "url": "/blog/best-apps-adhd-students-2026"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Welche Lese-Erweiterung ist bei ADHS die beste?",
+        "answer": "Der eingebaute Chrome-Lesemodus ist der beste Einstieg: kostenlos, ohne Installation, entfernt Ablenkungen und liest am Computer mit Wortmarkierung vor. Helperbird ist die beste kostenlose Ergänzung, wenn du zusätzlich Leselineal, Zeilenfokus und Legasthenie-Schriften willst."
+      },
+      {
+        "question": "Gibt es eine kostenlose Chrome-Erweiterung zum Lesen mit ADHS?",
+        "answer": "Ja. Der Chrome-Lesemodus ist kostenlos und eingebaut, Helperbird hat eine dauerhaft kostenlose Version, die Grundansicht von Just Read ist kostenlos, und Speechify, NaturalReader und Bionic Reading bieten begrenzte Gratis-Tarife. BeeLine Reader hat kostenlose Testfunktionen und bezahlte Tarife."
+      },
+      {
+        "question": "Hilft Bionic Reading bei ADHS?",
+        "answer": "Dafür gibt es keine Belege. Ein Readwise-Test von 2022 mit rund 1.900 Lesenden und eine Studie von 2024 in Acta Psychologica fanden keine Verbesserung bei Tempo oder Verständnis. Keine der Studien untersuchte gezielt ADHS, und manche mögen das Gefühl, also lohnt es sich nur als persönliche Vorliebe."
+      },
+      {
+        "question": "Hat Chrome eine eingebaute Vorlesefunktion?",
+        "answer": "Ja. Öffne die Seite per Rechtsklick im Lesemodus und nutze die Wiedergabetaste in der Seitenleiste. In Chrome am Computer wählst du Stimme und Tempo und folgst den markierten Wörtern."
+      },
+      {
+        "question": "Welche Lese-Erweiterung funktioniert mit PDFs?",
+        "answer": "BeeLine Reader unterstützt Text-PDFs, Helperbird hat einen eigenen PDF-Reader, und Read&Write, Speechify und NaturalReader lesen PDFs vor. Eingescannte PDFs brauchen zuerst Texterkennung (OCR), etwa den Screenshot-Reader von Helperbird Pro."
+      },
+      {
+        "question": "Gibt es eine Erweiterung, die bei ADHS in Vorlesungsvideos hilft?",
+        "answer": "Lese-Erweiterungen funktionieren nur mit Text. Bei Vorlesungsvideos lässt dich ein Live-Transkript mitlesen, während gesprochen wird. LessonScriptor zeigt es in der Chrome-Seitenleiste für alles, was in einem Tab läuft, etwa ILIAS, Moodle, Panopto und YouTube, mit kostenlosem Modus und nutzungsbasiertem KI-Modus."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Die 8 besten Chrome-Erweiterungen zum Lesen mit ADHS (2026)",
+      "description": "Die besten Lese-Erweiterungen für ADHS in Chrome: Lesemodus, Helperbird, BeeLine, Read&Write, Speechify. Kostenlose Optionen und was die Studien sagen.",
+      "inLanguage": "de",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/icon.svg"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche Lese-Erweiterung ist bei ADHS die beste?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der eingebaute Chrome-Lesemodus ist der beste Einstieg: kostenlos, ohne Installation, entfernt Ablenkungen und liest am Computer mit Wortmarkierung vor. Helperbird ist die beste kostenlose Ergänzung, wenn du zusätzlich Leselineal, Zeilenfokus und Legasthenie-Schriften willst."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es eine kostenlose Chrome-Erweiterung zum Lesen mit ADHS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Der Chrome-Lesemodus ist kostenlos und eingebaut, Helperbird hat eine dauerhaft kostenlose Version, die Grundansicht von Just Read ist kostenlos, und Speechify, NaturalReader und Bionic Reading bieten begrenzte Gratis-Tarife. BeeLine Reader hat kostenlose Testfunktionen und bezahlte Tarife."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hilft Bionic Reading bei ADHS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dafür gibt es keine Belege. Ein Readwise-Test von 2022 mit rund 1.900 Lesenden und eine Studie von 2024 in Acta Psychologica fanden keine Verbesserung bei Tempo oder Verständnis. Keine der Studien untersuchte gezielt ADHS, und manche mögen das Gefühl, also lohnt es sich nur als persönliche Vorliebe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hat Chrome eine eingebaute Vorlesefunktion?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Öffne die Seite per Rechtsklick im Lesemodus und nutze die Wiedergabetaste in der Seitenleiste. In Chrome am Computer wählst du Stimme und Tempo und folgst den markierten Wörtern."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Lese-Erweiterung funktioniert mit PDFs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BeeLine Reader unterstützt Text-PDFs, Helperbird hat einen eigenen PDF-Reader, und Read&Write, Speechify und NaturalReader lesen PDFs vor. Eingescannte PDFs brauchen zuerst Texterkennung (OCR), etwa den Screenshot-Reader von Helperbird Pro."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es eine Erweiterung, die bei ADHS in Vorlesungsvideos hilft?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lese-Erweiterungen funktionieren nur mit Text. Bei Vorlesungsvideos lässt dich ein Live-Transkript mitlesen, während gesprochen wird. LessonScriptor zeigt es in der Chrome-Seitenleiste für alles, was in einem Tab läuft, etwa ILIAS, Moodle, Panopto und YouTube, mit kostenlosem Modus und nutzungsbasiertem KI-Modus."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Die 8 besten Chrome-Erweiterungen zum Lesen mit ADHS (2026)",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Chrome-Lesemodus"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Helperbird"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BeeLine Reader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Read&Write für Google Chrome (Texthelp)"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Speechify"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "NaturalReader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Just Read"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Bionic Reading"
+        }
+      ]
+    }
+  ]
+}

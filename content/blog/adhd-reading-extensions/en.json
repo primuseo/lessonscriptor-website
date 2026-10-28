@@ -1,0 +1,493 @@
+{
+  "slug": "adhd-reading-extensions",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "The 8 Best Chrome Reading Extensions for ADHD in 2026 (Honest Picks)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Best Reading Extensions for ADHD in Chrome (2026)",
+    "description": "The best reading extensions for ADHD in Chrome, compared: Reading Mode, Helperbird, BeeLine, Read&Write, Speechify. Free options and what the evidence says.",
+    "keywords": [
+      "reading extension for adhd",
+      "adhd reading extension",
+      "adhd reader chrome extension",
+      "adhd reading chrome extension",
+      "adhd reader extension"
+    ]
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "The best reading extension for ADHD is the one that removes the specific friction you hit: clutter, losing your line, or drifting off mid-paragraph. Start with Chrome's built-in Reading Mode, which is free and already installed.",
+    "bullets": [
+      "Chrome Reading Mode strips ads and sidebars into a side panel, lets you change font, spacing and colours, and reads text aloud with word highlighting on desktop.",
+      "Helperbird is the most complete free toolkit: reading rulers, line focus, dyslexia-friendly fonts, overlays and text-to-speech in one extension.",
+      "BeeLine Reader colours each line with a gradient so your eye finds the next line, which helps readers who skip or reread lines.",
+      "Text-to-speech (Speechify, NaturalReader, Read&Write) suits ADHD readers who drift: listening while you read keeps you moving through the page.",
+      "Bionic Reading is popular, but two studies found no reading-speed or comprehension benefit. Use it only if you personally prefer it.",
+      "None of these help with video lectures. That's where a live transcript, such as LessonScriptor's, does the same job for spoken content."
+    ]
+  },
+  "intro": "A reading extension for ADHD is a Chrome add-on that changes how text looks or sounds so it holds attention longer: it removes clutter, guides the eye along each line, or reads the page aloud. The best options in 2026 are Chrome's built-in Reading Mode, Helperbird, BeeLine Reader, Read&Write by Texthelp, Speechify and NaturalReader, and most of them have a free tier. They fix different problems, so the right pick depends on whether you lose focus because of the page (ads, pop-ups, dense layout), because of your eyes (skipping lines, rereading the same sentence), or because of your attention (reaching the bottom of a paragraph with no idea what it said). We are Victoria and Pierre: Victoria studies anthropology online and has ADHD. This guide is the honest version of what we found, including where the popular Bionic Reading falls short in the research.",
+  "sections": [
+    {
+      "heading": "What is a reading extension for ADHD, and what does it actually fix?",
+      "body": "A reading extension for ADHD is a browser tool that reduces the effort of staying on the text. It doesn't treat ADHD; it lowers the friction that makes a long article or a 40-page PDF feel impossible to start or finish.\n\nThe tools fall into four groups, and knowing which group you need saves you from installing six extensions you'll never open:\n\n**1. Reader views** (Chrome Reading Mode, Just Read) remove ads, sidebars, autoplay videos and pop-ups. For ADHD readers, every moving element on a page is a competing stimulus, so removing them is often the single biggest win.\n\n**2. Visual guides** (BeeLine Reader, Helperbird's reading ruler and line focus) help your eye track lines. They suit readers who lose their place or jump to the wrong line after a distraction.\n\n**3. Text-to-speech** (Speechify, NaturalReader, Read&Write, Chrome's own Read aloud) reads the text to you, usually with the current word highlighted. Hearing and seeing the same words gives your attention two anchors instead of one.\n\n**4. Typography tweaks** (Bionic Reading, dyslexia-friendly fonts, spacing controls) change how letters and words look. Results here are the most personal, and in Bionic Reading's case the evidence is weak."
+    },
+    {
+      "heading": "Which ADHD reading extension should you choose?",
+      "body": "Use this table to match the extension to your main reading problem. ADHD fit is our score out of 10, based on how well each tool reduces friction without adding setup or new distractions.",
+      "table": {
+        "headers": [
+          "Extension",
+          "Type",
+          "Free option",
+          "ADHD fit",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Chrome Reading Mode",
+            "Reader view + read aloud",
+            "Yes, built into Chrome",
+            "9/10",
+            "Cluttered articles, zero setup"
+          ],
+          [
+            "Helperbird",
+            "All-in-one accessibility toolkit",
+            "Yes, free tier",
+            "8/10",
+            "Rulers, line focus, fonts, overlays"
+          ],
+          [
+            "BeeLine Reader",
+            "Colour-gradient line guide",
+            "Free trial; paid plans",
+            "8/10",
+            "Losing your line, long PDFs"
+          ],
+          [
+            "Read&Write (Texthelp)",
+            "Literacy suite with text-to-speech",
+            "Free for teachers; often licensed by universities",
+            "7/10",
+            "Students with a campus licence"
+          ],
+          [
+            "Speechify",
+            "Text-to-speech",
+            "Yes, free tier with standard voices",
+            "7/10",
+            "Listening while reading"
+          ],
+          [
+            "NaturalReader",
+            "Text-to-speech",
+            "Yes, free voices",
+            "7/10",
+            "Multilingual reading"
+          ],
+          [
+            "Just Read",
+            "Customisable reader view",
+            "Yes, free core features",
+            "7/10",
+            "Sites where Reading Mode fails"
+          ],
+          [
+            "Bionic Reading",
+            "Bolded word openings",
+            "Yes, free Discover tier",
+            "5/10",
+            "Personal preference only"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What are the best Chrome reading extensions for ADHD?",
+      "body": "These eight extensions are real, maintained and available on the Chrome Web Store as of October 2026. We list free tiers as they stand today; paid plans change often, so we only quote prices where the vendor publishes them clearly.",
+      "internal_links": [
+        {
+          "text": "More Chrome extensions for ADHD students",
+          "url": "/blog/best-chrome-extensions-adhd-students"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Chrome Reading Mode",
+      "tagline": "Google's built-in reader view, with read aloud on desktop",
+      "platform": "Chrome on Windows, Mac, Linux and ChromeOS",
+      "free_tier": "Free, already installed",
+      "price": "Free",
+      "best_for": "Anyone who wants less clutter today, with no install",
+      "adhd_fit": 9,
+      "why_it_wins": "Chrome Reading Mode is the first thing to try because it costs nothing and needs no setup. Right-click any article and choose **Open in reading mode**: the text appears in Chrome's side panel without ads, menus or autoplay videos. You can change the font, text size, line and letter spacing, and background colour. On desktop Chrome you can also have the text read aloud, choose a voice and speed, and follow the highlighted words. For ADHD readers, the side-panel layout is a quiet advantage: the original page stays visible but the text you are reading is isolated.",
+      "key_features": [
+        "One-click reader view in the side panel",
+        "Font, size, line spacing, letter spacing and colour controls",
+        "Read aloud with voice choice, speed control and word highlighting on desktop",
+        "No account, no extension to install"
+      ],
+      "limitations": "Works best on article-style pages; complex course pages, some LMS pages and many PDFs don't convert cleanly. No reading ruler or line guide."
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Helperbird",
+      "tagline": "An accessibility toolkit for dyslexia, ADHD and visual stress",
+      "platform": "Chrome, Firefox, Edge; apps for Apple devices",
+      "free_tier": "Yes, a permanent free tier",
+      "price": "Free; Pro is a paid upgrade",
+      "best_for": "Students who want rulers, fonts, overlays and text-to-speech in one place",
+      "adhd_fit": 8,
+      "why_it_wins": "Helperbird bundles the tools that usually take four extensions into one. The free tier includes dyslexia-friendly fonts, spacing and alignment controls, a reading mode, colour overlays, a reading ruler and line focus, basic text-to-speech and a PDF reader. The reading ruler and line focus are the ADHD stars: they dim everything except the line or band you are reading, which turns a wall of text into one manageable strip. Pro adds natural voices, a screenshot reader that recognises text in images, and AI summarising and simplifying.",
+      "key_features": [
+        "Reading ruler and line focus to isolate the current line",
+        "Dyslexia-friendly fonts, spacing and colour overlays",
+        "Reading mode and basic text-to-speech on the free tier",
+        "PDF reader with annotation tools"
+      ],
+      "limitations": "So many options that setup can become its own distraction; pick two features and ignore the rest. Natural voices and OCR need Pro."
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "BeeLine Reader",
+      "tagline": "Colour gradients that guide your eye from one line to the next",
+      "platform": "Chrome, Firefox, Edge, Brave; Safari on iPhone and iPad; PDF support",
+      "free_tier": "Free trial functionality; the iOS Safari extension is free",
+      "price": "Paid plans of a few dollars a month",
+      "best_for": "Readers who skip lines, reread lines or lose their place",
+      "adhd_fit": 8,
+      "why_it_wins": "BeeLine Reader paints each line of text with a gentle colour gradient, so the end of one line flows into the start of the next. The problem it solves is specific and common in ADHD: you glance away, come back, and land on the wrong line. With BeeLine, the colour tells you where you were. It also works on text-based PDFs, which matters because so much university reading arrives as a PDF rather than a web page.",
+      "key_features": [
+        "Colour-gradient line guide on web pages",
+        "Text-based PDF support",
+        "Adjustable colour themes, including subtle and dark-mode options",
+        "Free education access for teachers to apply for"
+      ],
+      "limitations": "Doesn't remove clutter or read aloud; it's a single-purpose tool. Full use needs a paid plan."
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Read&Write for Google Chrome (Texthelp)",
+      "tagline": "The literacy suite many universities already pay for",
+      "platform": "Chrome extension; works in Google Docs, web pages and PDFs",
+      "free_tier": "Free premium for teachers; students usually get it through a campus licence",
+      "price": "Check your disability or accessibility office first",
+      "best_for": "Students whose university licenses Texthelp",
+      "adhd_fit": 7,
+      "why_it_wins": "Read&Write by Texthelp is the tool your university disability office is most likely to hand you. It reads text aloud with dual-colour highlighting, offers text and picture dictionaries, lets you collect highlights from a document into a summary list, and adds screen masks to cut visual noise. The highlight-collection feature is unusually good for ADHD revision: you mark key sentences as you read, then pull them into one list instead of hunting through 40 pages later.",
+      "key_features": [
+        "Text-to-speech with dual-colour highlighting",
+        "Collect highlights from documents and web pages into a list",
+        "Screen masks and tints to reduce visual stress",
+        "Text and picture dictionaries, speech-to-text, word prediction"
+      ],
+      "limitations": "Toolbar is busy and feels built for schools; full features usually depend on an institutional licence."
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Speechify",
+      "tagline": "Popular text-to-speech for web pages, Google Docs and PDFs",
+      "platform": "Chrome extension, web, iOS, Android, Mac",
+      "free_tier": "Yes, standard voices with limited speed",
+      "price": "Premium is a paid subscription",
+      "best_for": "ADHD readers who focus better when they listen and read together",
+      "adhd_fit": 7,
+      "why_it_wins": "Speechify reads any web page, Google Doc or PDF aloud and highlights the words as it goes. Many ADHD readers find that listening sets a pace they can't drift away from: the voice keeps moving, so your eyes keep moving. The free tier is usable for articles; Premium adds natural voices and faster playback speeds, which is where most heavy users end up.",
+      "key_features": [
+        "Reads web pages, Google Docs and PDFs aloud",
+        "Word highlighting synced with the voice",
+        "Apps on phone and desktop, so you can keep listening on the move"
+      ],
+      "limitations": "Free voices are robotic and speed is capped; Premium is one of the more expensive subscriptions in this list."
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "NaturalReader",
+      "tagline": "Text-to-speech with a large voice library across many languages",
+      "platform": "Chrome extension, web app",
+      "free_tier": "Yes, free voices",
+      "price": "Paid plans for premium voices",
+      "best_for": "Students reading in more than one language",
+      "adhd_fit": 7,
+      "why_it_wins": "NaturalReader reads web pages, Google Docs, PDFs and emails aloud with a library of more than 150 voices in over 20 languages. That makes it a good fit for international students or anyone reading coursework in a second language, where hearing the pronunciation also helps comprehension.",
+      "key_features": [
+        "150+ voices across 20+ languages",
+        "Works on web pages, Google Docs, PDFs and webmail",
+        "Free voices available without paying"
+      ],
+      "limitations": "The best-sounding voices are paid; the interface is functional rather than calm."
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "Just Read",
+      "tagline": "A customisable reader view in the Mercury Reader tradition",
+      "platform": "Chrome extension",
+      "free_tier": "Yes, core reader view is free",
+      "price": "Free core; optional premium features",
+      "best_for": "Pages where Chrome Reading Mode doesn't work well",
+      "adhd_fit": 7,
+      "why_it_wins": "Just Read fills the gap that Mercury Reader-style extensions used to fill: one click turns an article into clean text, with your own theme. Its selection mode lets you pick exactly which part of a page to read, and deletion mode lets you remove leftover junk. You can also set it to run automatically on sites you read often, which removes one more decision.",
+      "key_features": [
+        "One-click reader view with light and dark themes",
+        "Selection mode and deletion mode for messy pages",
+        "Auto-run on chosen sites and keyboard shortcut"
+      ],
+      "limitations": "Built for article pages, not course dashboards or PDFs. No text-to-speech."
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Bionic Reading",
+      "tagline": "Bolds the first letters of each word to guide the eye",
+      "platform": "Chrome extension plus apps on other platforms",
+      "free_tier": "Yes, the free Discover tier",
+      "price": "Premium and Premium Plus subscriptions",
+      "best_for": "People who have tried it and simply prefer reading this way",
+      "adhd_fit": 5,
+      "why_it_wins": "Bionic Reading, made by the Swiss company of the same name, bolds the opening letters of each word so the eye jumps between anchor points. It went viral as an ADHD reading hack, and plenty of people say it feels easier. The controlled studies so far found no speed or comprehension gain (see the next section), so we rank it last: try the free tier, keep it if you like it, and don't expect it to change your reading speed.",
+      "key_features": [
+        "Converts any web page to Bionic Reading format",
+        "Adjustable bolding intensity",
+        "One subscription covers its apps across platforms"
+      ],
+      "limitations": "No measured benefit in published studies; some readers find the bolding more distracting, not less."
+    },
+    {
+      "heading": "Does Bionic Reading actually work for ADHD?",
+      "body": "Bionic Reading does not improve reading speed or comprehension, according to the two largest tests published so far. In 2022, the read-it-later app Readwise timed about 1,900 readers on matched passages: people read 2.6 words per minute slower with Bionic Reading, a difference of under 1%, and comprehension was identical at 88% in both formats. In 2024, psychologist Joshua Snell published a controlled study in the journal Acta Psychologica, titled \"No, Bionic Reading does not work\": 32 participants read 100 paragraphs each and showed no reliable advantage, for fast and slow readers alike.\n\nTwo caveats keep this honest. First, neither study targeted people with ADHD, so there is no ADHD-specific trial either way. Second, in the Readwise data roughly half of readers were slightly faster with Bionic Reading and half slower, which is what you'd expect from personal preference rather than a real effect.\n\nThe practical conclusion: Bionic Reading is a comfort setting, not a performance tool. If it makes you more willing to open a long text, that is a real benefit for ADHD, even if the stopwatch shows no change. If you want something with a clearer mechanism, a line guide (BeeLine) or text-to-speech targets the problems ADHD readers actually report: losing their place and drifting off."
+    },
+    {
+      "heading": "Why does text-to-speech help so many ADHD readers?",
+      "body": "Text-to-speech helps ADHD readers because it turns reading from a self-paced task into a paced one. Silent reading depends on you to keep going, and ADHD makes that sustained, self-directed effort hardest. A voice reading at a steady speed provides an external rhythm, and word highlighting gives your eyes a moving target that matches it.\n\nThe usual pattern that works: set the voice slightly faster than your comfortable speaking speed, follow the highlight with your eyes, and pause to write one line of notes at each heading. Chrome's built-in Read aloud is enough to test whether this suits you before paying for Speechify or NaturalReader's premium voices."
+    },
+    {
+      "heading": "How do you set up an ADHD-friendly reading setup in Chrome?",
+      "body": "A minimal setup beats a crowded toolbar. Here is a four-step version:",
+      "steps": [
+        {
+          "strategy": "Start with Chrome Reading Mode.",
+          "detail": "Right-click an article, open it in reading mode, increase line spacing and pick a calm background colour. Try Read aloud once."
+        },
+        {
+          "strategy": "Add one visual guide if you lose your line.",
+          "detail": "Install Helperbird for line focus, or BeeLine Reader if long PDFs are your main problem. Not both."
+        },
+        {
+          "strategy": "Add text-to-speech only if you drift.",
+          "detail": "Chrome's Read aloud first; Speechify or NaturalReader if you want better voices or a phone app."
+        },
+        {
+          "strategy": "Check your university licence before paying.",
+          "detail": "Ask your disability or accessibility office whether Read&Write or another literacy tool is already licensed for students."
+        }
+      ]
+    },
+    {
+      "heading": "Reading is half of studying, lectures are the other half",
+      "body": "Every tool above works on text. None of them helps with the other half of a course: recorded lectures, seminar videos and YouTube explainers. For many ADHD students, that half is harder, because a video doesn't wait for you. Drift for 30 seconds and the point is gone, and scrubbing back breaks your focus again.\n\nLessonScriptor is the tool we built for that half. It's a Chrome extension that shows a live transcript in the side panel while a lecture plays, so you can read along with the speaker the same way you'd read along with text-to-speech. It works on anything that plays audio in Chrome: Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, and Zoom or Google Meet in the browser.\n\nTo be precise about what it does: in **free mode**, Chrome's speech recognition listens through your microphone, so the speakers need to be fairly loud and it does not work with headphones. In **AI mode**, it captures the tab's audio directly, so headphones work and accuracy is much better on accents and jargon; text arrives in short chunks every 10 or 30 seconds rather than word by word. AI mode includes a 30-minute free trial, then one-time packs from $5 for 5 hours. As you go, you can highlight lines in five colours, add headers, capture the current slide as a screenshot, and export the result as .txt or .md.\n\nWhat it doesn't do: it doesn't read web pages or PDFs aloud, and it doesn't summarise. If you want a summary, paste the exported transcript into ChatGPT or NotebookLM yourself. For reading, use the extensions above.",
+      "internal_links": [
+        {
+          "text": "How to live transcribe any video in Chrome",
+          "url": "/blog/live-transcribe-chrome"
+        },
+        {
+          "text": "How to focus on online lectures with ADHD",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "LessonScriptor for ADHD students",
+          "url": "/for-adhd-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "The best reading extension for ADHD, in one paragraph",
+    "body": "Start with Chrome Reading Mode, because it's free, built in and reads aloud. Add Helperbird if you need line focus and fonts, or BeeLine Reader if you keep losing your line in PDFs. Use text-to-speech (Chrome's Read aloud, Speechify or NaturalReader) if your attention drifts mid-paragraph, and ask your university about a Read&Write licence before paying. Treat Bionic Reading as a preference, not a fix: the studies found no speed gain. For lectures and videos, which no reading tool covers, read along with a live transcript instead.",
+    "internal_links": [
+      {
+        "text": "The best apps for ADHD students in 2026",
+        "url": "/blog/best-apps-adhd-students-2026"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "What is the best reading extension for ADHD?",
+        "answer": "Chrome's built-in Reading Mode is the best starting point because it's free, needs no install, removes page clutter and reads text aloud with word highlighting on desktop. Helperbird is the best free add-on if you also want a reading ruler, line focus and dyslexia-friendly fonts."
+      },
+      {
+        "question": "Is there a free ADHD reader Chrome extension?",
+        "answer": "Yes. Chrome Reading Mode is free and built in, Helperbird has a permanent free tier, Just Read's core reader view is free, and Speechify, NaturalReader and Bionic Reading all offer free tiers with limits. BeeLine Reader offers free trial functionality and paid plans."
+      },
+      {
+        "question": "Does Bionic Reading help with ADHD?",
+        "answer": "There's no evidence it does. A 2022 Readwise test of about 1,900 readers and a 2024 study in Acta Psychologica both found no improvement in reading speed or comprehension. Neither study focused on ADHD, and some people still prefer how it feels, so it's worth trying only as a personal preference."
+      },
+      {
+        "question": "Does Chrome have a built-in read aloud feature?",
+        "answer": "Yes. Open a page in Chrome Reading Mode from the right-click menu, then use the play button in the side panel. On desktop Chrome you can choose a voice, change the speed and follow the highlighted words."
+      },
+      {
+        "question": "Which reading extension works on PDFs?",
+        "answer": "BeeLine Reader supports text-based PDFs, Helperbird has its own PDF reader, and Read&Write, Speechify and NaturalReader can read PDFs aloud. Scanned PDFs need OCR first, such as Helperbird Pro's screenshot reader."
+      },
+      {
+        "question": "Is there an extension that helps with ADHD and video lectures, not just reading?",
+        "answer": "Reading extensions only work on text. For video lectures, a live transcript lets you read along with the speaker. LessonScriptor shows one in Chrome's side panel for anything playing in a tab, including Moodle, Canvas, Panopto and YouTube, with a free mode and a pay-as-you-go AI mode."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "The 8 Best Chrome Reading Extensions for ADHD in 2026 (Honest Picks)",
+      "description": "The best reading extensions for ADHD in Chrome, compared: Reading Mode, Helperbird, BeeLine, Read&Write, Speechify. Free options and what the evidence says.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/icon.svg"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best reading extension for ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chrome's built-in Reading Mode is the best starting point because it's free, needs no install, removes page clutter and reads text aloud with word highlighting on desktop. Helperbird is the best free add-on if you also want a reading ruler, line focus and dyslexia-friendly fonts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free ADHD reader Chrome extension?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Chrome Reading Mode is free and built in, Helperbird has a permanent free tier, Just Read's core reader view is free, and Speechify, NaturalReader and Bionic Reading all offer free tiers with limits. BeeLine Reader offers free trial functionality and paid plans."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Bionic Reading help with ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "There's no evidence it does. A 2022 Readwise test of about 1,900 readers and a 2024 study in Acta Psychologica both found no improvement in reading speed or comprehension. Neither study focused on ADHD, and some people still prefer how it feels, so it's worth trying only as a personal preference."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Chrome have a built-in read aloud feature?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Open a page in Chrome Reading Mode from the right-click menu, then use the play button in the side panel. On desktop Chrome you can choose a voice, change the speed and follow the highlighted words."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which reading extension works on PDFs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "BeeLine Reader supports text-based PDFs, Helperbird has its own PDF reader, and Read&Write, Speechify and NaturalReader can read PDFs aloud. Scanned PDFs need OCR first, such as Helperbird Pro's screenshot reader."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there an extension that helps with ADHD and video lectures, not just reading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reading extensions only work on text. For video lectures, a live transcript lets you read along with the speaker. LessonScriptor shows one in Chrome's side panel for anything playing in a tab, including Moodle, Canvas, Panopto and YouTube, with a free mode and a pay-as-you-go AI mode."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "The 8 Best Chrome Reading Extensions for ADHD in 2026 (Honest Picks)",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Chrome Reading Mode"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Helperbird"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "BeeLine Reader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Read&Write for Google Chrome (Texthelp)"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Speechify"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "NaturalReader"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Just Read"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Bionic Reading"
+        }
+      ]
+    }
+  ]
+}

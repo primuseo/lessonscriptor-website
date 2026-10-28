@@ -1,0 +1,538 @@
+{
+  "slug": "cornell-notes-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Cornell Notes Template: Free Layout, Example and How to Use It",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Cornell Notes Template: Free Layout, Example & Guide",
+    "description": "A free Cornell notes template to copy into Google Docs, Notion or Word, with a filled example, the 5 Rs, and an ADHD-friendly version for lectures.",
+    "keywords": [
+      "cornell notes template",
+      "cornell notes",
+      "cornell note taking method",
+      "cornell notes example",
+      "cornell notes template google docs",
+      "cornell notes adhd"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/en/blog/cornell-notes-template",
+    "og_title": "Cornell Notes Template: Free Layout, Example & Guide",
+    "og_description": "Copy a Cornell notes template into Docs, Notion, Word or GoodNotes, see a filled example, and adapt it for ADHD.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live lecture transcription. Victoria studies anthropology online and has ADHD. Pierre handles development and SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "A Cornell notes template is a page split into three zones: a narrow cue column on the left, a wide notes column on the right, and a summary strip across the bottom. You can copy the version below into Google Docs, Notion, Word or GoodNotes in under five minutes.",
+    "bullets": [
+      "The method comes from Walter Pauk, who directed the Reading and Study Center at Cornell University and published it in How to Study in College (first edition 1962).",
+      "The classic layout on US Letter paper is a 2.5-inch cue column, a 6-inch notes column and a 2-inch summary at the bottom.",
+      "The 5 Rs (Record, Reduce, Recite, Reflect, Review) matter more than the lines. The cue column only works if you fill it after the lecture and then quiz yourself with it.",
+      "If writing while listening overloads you, as it often does with ADHD, let a transcript handle the recording step and spend your energy on the cues and the summary."
+    ]
+  },
+  "intro": "A Cornell notes template is a note-taking page divided into three zones: a cue column for questions and keywords, a notes column for what was said in the lecture, and a summary box at the bottom where you condense the page into a few sentences. Walter Pauk designed the system at Cornell University in the 1950s and published it in How to Study in College, which is still in print. The layout is simple, but most students use only half of it. They fill the notes column and leave the cue column empty, which removes the self-testing step that makes the method work. This guide gives you the template itself, a copy-paste version for Google Docs, Notion, Microsoft Word and GoodNotes, a fully filled example from a psychology lecture, and a version adapted for students with ADHD who struggle to write and listen at the same time.",
+  "sections": [
+    {
+      "id": "what-are-cornell-notes",
+      "h2": "What are Cornell notes?",
+      "body": "Cornell notes are a structured note-taking format that separates **capturing** information from **processing** it. During the lecture you write only in the notes column. After the lecture you go back, pull out questions and keywords into the cue column, and write a short summary at the bottom. The page becomes a self-test: cover the notes column, read the cues, and try to answer them from memory.\n\nThe system was created by **Walter Pauk**, an education professor who ran the Reading and Study Center at Cornell University. He described it in **How to Study in College**, first published in 1962 and revised through more than ten editions. Cornell's Learning Strategies Center still publishes a guide to it for students today.\n\nThe reason Cornell notes have outlived most study fads is that they build retrieval practice into the page itself. Rereading notes feels productive but tests nothing. Answering your own cue questions with the notes covered is active recall, the same technique behind flashcards, and it is one of the most consistently supported study strategies in learning research."
+    },
+    {
+      "id": "cornell-layout",
+      "h2": "What does a Cornell notes template look like?",
+      "body": "A Cornell notes template is one page with two columns and a footer. On US Letter paper (8.5 x 11 inches), Pauk's original measurements are a **2.5-inch cue column** on the left, a **6-inch notes column** on the right, and a **2-inch summary** across the bottom. On A4 paper, the equivalent is roughly 6 cm, 15 cm and 5 cm. The exact numbers matter less than the ratio: about 30% cues, 70% notes. Here is the layout as a template you can mirror:",
+      "table": {
+        "headers": [
+          "Cue column (2.5 in, left)",
+          "Notes column (6 in, right)"
+        ],
+        "rows": [
+          [
+            "Header: course, lecture title, date",
+            "Header: course, lecture title, date"
+          ],
+          [
+            "Filled AFTER class: questions, keywords, names, formulas you want to be quizzed on",
+            "Filled DURING class: main ideas, facts, definitions, examples, diagrams; short phrases, not full sentences"
+          ],
+          [
+            "One cue per idea, lined up next to the note it points to",
+            "Leave a blank line between ideas so cues can sit beside them"
+          ],
+          [
+            "Summary (full width, 2 in, bottom)",
+            "3-4 sentences in your own words: what this page is about and why it matters"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Why the cue column is on the left",
+        "body": "Pauk put the cues on the left so you can fold or cover the notes column and see only the questions. If you build the template digitally, keep that property: the cues must be readable while the notes are hidden."
+      }
+    },
+    {
+      "id": "five-rs",
+      "h2": "What are the 5 Rs of Cornell notes?",
+      "body": "The 5 Rs of Cornell notes are the five steps Pauk prescribed for using the page: Record, Reduce, Recite, Reflect and Review. The template is only the container. The 5 Rs are the method.",
+      "steps": [
+        {
+          "strategy": "Record",
+          "detail": "During the lecture, write the main ideas and supporting facts in the notes column. Use abbreviations and short phrases. Skip anything you can look up later in the slides."
+        },
+        {
+          "strategy": "Reduce",
+          "detail": "As soon as possible after the lecture, ideally the same day, read your notes and condense each idea into a question or keyword in the cue column. Then write the summary at the bottom."
+        },
+        {
+          "strategy": "Recite",
+          "detail": "Cover the notes column. Read each cue and answer it out loud in your own words. Uncover to check. Mark every cue you missed."
+        },
+        {
+          "strategy": "Reflect",
+          "detail": "Ask how this lecture connects to earlier ones, to the reading, or to an exam question. Write those links in the margin or the summary."
+        },
+        {
+          "strategy": "Review",
+          "detail": "Spend about ten minutes a week reciting from the cue columns of older pages. Focus on the cues you marked as missed."
+        }
+      ]
+    },
+    {
+      "id": "copy-paste-template",
+      "h2": "Cornell notes template you can copy and paste",
+      "body": "This is a plain-text Cornell notes template in Markdown. Copy it into Notion, Obsidian, Google Docs (turn on **Tools > Preferences > Enable Markdown**, then right-click and choose **Paste from Markdown**), or any notes app. Plain Markdown has no side-by-side columns, so the cues sit in their own section above the notes. Each cue is numbered to match a note, which keeps the self-test working.",
+      "callout": {
+        "type": "note",
+        "label": "Copy-paste Cornell template (Markdown)",
+        "body": "# [Course] | [Lecture title] | [Date]\n\n## Cues (fill after class)\n\nQ1: [Question the first idea answers]\n\nQ2: [Keyword, name or formula to remember]\n\nQ3: [Question an exam could ask]\n\n## Notes (fill during class)\n\nN1: [Main idea, short phrases]\n\nN2: [Fact, definition or example]\n\nN3: [Diagram description, link to slide]\n\n## Summary (3-4 sentences, your own words)\n\n[What this lecture was about and why it matters]\n\n## Missed cues to review\n\n[Q numbers you could not answer]"
+      }
+    },
+    {
+      "id": "recreate-template",
+      "h2": "How do you make a Cornell notes template in Google Docs, Notion, Word or GoodNotes?",
+      "body": "You can build a reusable Cornell notes template in any of these apps in about five minutes. Build it once, then duplicate it for every lecture.",
+      "subsections": [
+        {
+          "h3": "Google Docs",
+          "body": "Go to **Insert > Table** and create a 2 x 3 table. Put the course and date in the top row, cues and notes in the middle row, and merge the bottom row (select both cells, right-click, **Merge cells**) for the summary. Open **Format > Table > Table properties** and set the left column to about a third of the right column, for example 2 and 4.5 inches with default margins. Name the file \"Cornell master\" and use **File > Make a copy** before each lecture."
+        },
+        {
+          "h3": "Notion",
+          "body": "Type **/2 columns** to create a side-by-side block, then drag the divider until the left column is roughly 30% wide. Put a heading \"Cues\" on the left and \"Notes\" on the right, and add a callout block below both columns for the summary. To reuse it, create a database called \"Lectures\", click the arrow next to **New**, choose **New template**, and paste the layout inside. Every new lecture page will start with the Cornell layout."
+        },
+        {
+          "h3": "Microsoft Word",
+          "body": "Use **Insert > Table** for a 2 x 3 grid, merge the bottom row with **Layout > Merge Cells**, and set column widths under **Layout > Properties > Column**. Remove the vertical border on the outside if you want it to look like paper. Then go to **File > Save As** and pick **Word Template (.dotx)** so every new document opens from the Cornell layout."
+        },
+        {
+          "h3": "GoodNotes and Notability",
+          "body": "**GoodNotes** includes Cornell paper among its built-in templates. In a notebook, open the **More** menu in the toolbar, choose **Change Template**, and pick a Cornell page in the size and color you want. In **Notability**, the most reliable route is to export the Word or Google Docs version above as a PDF and import it, or draw the two lines once with the ruler and copy that page for each new lecture."
+        }
+      ]
+    },
+    {
+      "id": "cornell-example",
+      "h2": "What does a filled Cornell notes example look like?",
+      "body": "Here is a complete Cornell notes example from an introductory psychology lecture on memory and forgetting, the kind of class taught in PSY 101 at most US universities. Notice that the cues are questions, not headings. A heading like \"Ebbinghaus\" tells you what the note is about. A question like \"What did Ebbinghaus find about forgetting?\" makes you retrieve the answer.",
+      "table": {
+        "headers": [
+          "Cues",
+          "Notes: Intro to Psychology, Lecture 9, Memory and Forgetting"
+        ],
+        "rows": [
+          [
+            "Who first measured forgetting, and how?",
+            "Hermann Ebbinghaus, Über das Gedächtnis (On Memory), 1885. Memorized lists of nonsense syllables (e.g. DAX, BOK) and tested himself at intervals."
+          ],
+          [
+            "What does the forgetting curve show?",
+            "Steep drop in recall within the first hours and days, then the curve flattens. Most loss happens early."
+          ],
+          [
+            "What slows forgetting?",
+            "Spaced repetition: reviewing at growing intervals (1 day, 3 days, 1 week). Each review flattens the curve further."
+          ],
+          [
+            "Encoding vs storage vs retrieval?",
+            "Encoding = getting info in; storage = keeping it; retrieval = getting it out. Many 'memory problems' are retrieval failures."
+          ],
+          [
+            "What is the testing effect?",
+            "Roediger and Karpicke, 2006: students who tested themselves remembered more a week later than students who reread the same text."
+          ],
+          [
+            "Link to exam?",
+            "Prof hinted: compare spacing vs massed practice (cramming) in an essay question."
+          ],
+          [
+            "SUMMARY",
+            "Ebbinghaus showed that most forgetting happens soon after learning. Spaced review and self-testing slow it down, because they practise retrieval rather than re-exposure. This is why the Cornell cue column works: reciting from cues is a self-test."
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "What makes this a good example",
+        "body": "The cues are written in the student's words, each one points to a single note, and the summary connects the lecture to how the student will study. A summary that only lists topics (\"Ebbinghaus, spacing, testing effect\") would not pass the Reflect step."
+      }
+    },
+    {
+      "id": "cornell-from-transcript",
+      "h2": "How do you make Cornell notes from a lecture transcript?",
+      "body": "You make Cornell notes from a lecture transcript by treating the transcript as your Record step, then doing Reduce, Recite and Reflect yourself. This is a workflow, not an automatic feature: LessonScriptor transcribes the lecture in a Chrome side panel, and you move the important lines into your Cornell page afterwards. Nothing formats the page for you, and that is the point, because the Reduce step is where learning happens.\n\nThe workflow suits recorded lectures on Canvas, Moodle, Blackboard or Panopto, YouTube course videos, and live classes on Zoom or Google Meet in the browser.",
+      "steps": [
+        {
+          "strategy": "Transcribe the lecture",
+          "detail": "Open the lecture in Chrome and start LessonScriptor in the side panel. Free mode uses your browser's speech engine through the microphone, so keep the speakers at about 80% volume and do not wear headphones. AI mode captures the tab audio directly, works with headphones, and handles accents and jargon better (30-minute free trial, then one-time packs from $5)."
+        },
+        {
+          "strategy": "Mark key lines as you listen",
+          "detail": "Instead of writing, highlight important sentences in the transcript (there are 5 highlight colors), bold definitions, and add a header when the lecturer changes topic. Take a screenshot of any slide you will need."
+        },
+        {
+          "strategy": "Export the transcript",
+          "detail": "Export as .md (or .txt, or copy to clipboard) and open your Cornell template next to it."
+        },
+        {
+          "strategy": "Reduce into the notes column",
+          "detail": "Move only the highlighted lines into the notes column and shorten each one to a phrase. A 60-minute lecture produces thousands of words of transcript; your notes column should hold a page or two."
+        },
+        {
+          "strategy": "Write cues and a summary",
+          "detail": "Write one question per note in the cue column, then the 3-4 sentence summary. Recite with the notes covered before you close the page."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Why this fits students with ADHD",
+        "body": "Recording happens on its own, so your attention goes to the steps that actually build memory: choosing what matters, turning it into questions, and testing yourself. You are no longer splitting focus between listening and handwriting, which is the part of Cornell notes many ADHD students find hardest."
+      },
+      "internal_links": [
+        {
+          "text": "Turn a lecture transcript into active recall questions",
+          "url": "/blog/active-recall-lecture-transcript"
+        },
+        {
+          "text": "AI note takers that work on recorded lectures",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "id": "adhd-cornell",
+      "h2": "How can students with ADHD adapt Cornell notes?",
+      "body": "Students with ADHD can use Cornell notes, but the classic version asks for three things at once during class: listening, deciding what matters, and writing fast. Working memory is the bottleneck. These adjustments keep the structure and remove the overload.",
+      "subsections": [
+        {
+          "h3": "Separate capture from processing",
+          "body": "Do not try to fill the notes column live. Let a transcript or the recording handle Record, and schedule Reduce as its own short session the same day."
+        },
+        {
+          "h3": "Time-box the Reduce step",
+          "body": "Set a 25-minute timer and process one lecture section per block. A finished half-page beats an abandoned full page."
+        },
+        {
+          "h3": "Cap the summary at three sentences",
+          "body": "A blank summary box invites perfectionism. Three sentences, one each for what, why and how it links, is enough to pass Reflect."
+        },
+        {
+          "h3": "Use color as the cue system",
+          "body": "Give each color one job, for example yellow for definitions and blue for likely exam points, so scanning a page takes seconds instead of rereading it."
+        },
+        {
+          "h3": "Recite out loud or with someone",
+          "body": "Answering cues out loud, or with a study partner over a call, keeps the Recite step from becoming silent rereading."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "The ADHD note-taking template (Capture, Cue, Consolidate)",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "How to take notes with ADHD",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "cornell-vs-other-methods",
+      "h2": "How do Cornell notes compare with other note-taking methods?",
+      "body": "Cornell notes are the best general-purpose method when you need to revise for exams, because the self-test is built in. Other methods win in specific situations.",
+      "table": {
+        "headers": [
+          "Method",
+          "Best for",
+          "Weak spot"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Lectures you will be examined on; built-in self-testing",
+            "Needs a review session after class to be useful"
+          ],
+          [
+            "Outline",
+            "Well-structured lectures with clear headings",
+            "No retrieval step; easy to just reread"
+          ],
+          [
+            "Mind mapping",
+            "Seeing links between concepts, brainstorming essays",
+            "Hard to keep up with a fast lecturer"
+          ],
+          [
+            "Charting",
+            "Comparing several items on the same criteria (theories, countries, drugs)",
+            "Only works when the content fits a grid"
+          ],
+          [
+            "Sentence method",
+            "Fast lectures with little structure",
+            "Produces long, hard-to-review notes"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "All the main note-taking methods compared",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "The short version",
+    "body": "A Cornell notes template is a cue column, a notes column and a summary box, and the method behind it is Pauk's 5 Rs. Copy the template above into Docs, Notion, Word or GoodNotes, fill the cues after class rather than during it, and recite from them every week. If writing while listening is the step that breaks for you, let a transcript do the recording and keep your focus for the cues.",
+    "internal_links": [
+      {
+        "text": "Study tools built for ADHD students",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Cornell notes: frequently asked questions",
+    "questions": [
+      {
+        "question": "Are Cornell notes good for ADHD?",
+        "answer": "Cornell notes are good for ADHD when you separate capture from processing. The cue column and summary give a clear structure and a built-in self-test. What usually fails is writing notes live while listening, so many ADHD students record or transcribe the lecture and fill the Cornell page afterwards in short, timed sessions."
+      },
+      {
+        "question": "Cornell notes vs outline method: which is better?",
+        "answer": "The Cornell method is better for exam revision because the cue column turns your notes into a self-test. The outline method is faster to write and works well for clearly structured lectures, but it has no retrieval step. Many students outline in the notes column and add Cornell cues afterwards, which combines both."
+      },
+      {
+        "question": "What are the 5 Rs of Cornell notes?",
+        "answer": "The 5 Rs of Cornell notes are Record, Reduce, Recite, Reflect and Review. You record notes during class, reduce them into cues and a summary after class, recite by answering cues with the notes covered, reflect on how the material connects, and review older pages weekly."
+      },
+      {
+        "question": "How big should the columns be in a Cornell notes template?",
+        "answer": "On US Letter paper, the classic Cornell layout is a 2.5-inch cue column, a 6-inch notes column and a 2-inch summary at the bottom. On A4, use roughly 6 cm, 15 cm and 5 cm. Digitally, aim for about a 30/70 split between cues and notes."
+      },
+      {
+        "question": "Is there a Cornell notes template in Google Docs?",
+        "answer": "Google Docs has no built-in Cornell template, but you can make one in five minutes with a 2 x 3 table: header row, cues and notes row, and a merged summary row. Save it as a master file and use File > Make a copy for each lecture."
+      },
+      {
+        "question": "Can I make Cornell notes from a lecture transcript?",
+        "answer": "Yes. Use the transcript as your Record step: transcribe the lecture with a tool such as LessonScriptor, highlight the key lines, export them as .md, then move the highlights into the notes column and write the cues and summary yourself. The tool does not create the Cornell page for you."
+      },
+      {
+        "question": "Who invented Cornell notes?",
+        "answer": "Walter Pauk invented Cornell notes in the 1950s while directing the Reading and Study Center at Cornell University. He published the system in How to Study in College, first released in 1962."
+      }
+    ]
+  },
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/adhd-note-taking-template",
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/note-taking-methods",
+      "/blog/active-recall-lecture-transcript",
+      "/blog/ai-note-taker-for-lectures"
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Cornell Notes Template: Free Layout, Example and How to Use It",
+      "description": "A free Cornell notes template to copy into Google Docs, Notion or Word, with a filled example, the 5 Rs, and an ADHD-friendly version for lectures.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/en/blog/cornell-notes-template"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are Cornell notes good for ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cornell notes are good for ADHD when you separate capture from processing. The cue column and summary give a clear structure and a built-in self-test. What usually fails is writing notes live while listening, so many ADHD students record or transcribe the lecture and fill the Cornell page afterwards in short, timed sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cornell notes vs outline method: which is better?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Cornell method is better for exam revision because the cue column turns your notes into a self-test. The outline method is faster to write and works well for clearly structured lectures, but it has no retrieval step. Many students outline in the notes column and add Cornell cues afterwards, which combines both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the 5 Rs of Cornell notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The 5 Rs of Cornell notes are Record, Reduce, Recite, Reflect and Review. You record notes during class, reduce them into cues and a summary after class, recite by answering cues with the notes covered, reflect on how the material connects, and review older pages weekly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How big should the columns be in a Cornell notes template?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "On US Letter paper, the classic Cornell layout is a 2.5-inch cue column, a 6-inch notes column and a 2-inch summary at the bottom. On A4, use roughly 6 cm, 15 cm and 5 cm. Digitally, aim for about a 30/70 split between cues and notes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a Cornell notes template in Google Docs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Google Docs has no built-in Cornell template, but you can make one in five minutes with a 2 x 3 table: header row, cues and notes row, and a merged summary row. Save it as a master file and use File > Make a copy for each lecture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I make Cornell notes from a lecture transcript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Use the transcript as your Record step: transcribe the lecture with a tool such as LessonScriptor, highlight the key lines, export them as .md, then move the highlights into the notes column and write the cues and summary yourself. The tool does not create the Cornell page for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who invented Cornell notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walter Pauk invented Cornell notes in the 1950s while directing the Reading and Study Center at Cornell University. He published the system in How to Study in College, first released in 1962."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How to take Cornell notes",
+      "description": "A Cornell notes template is a page split into three zones: a narrow cue column on the left, a wide notes column on the right, and a summary strip across the bottom. You can copy the version below into Google Docs, Notion, Word or GoodNotes in under five minutes.",
+      "inLanguage": "en",
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Paper (Letter or A4) or a notes app"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Docs"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Notion"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Microsoft Word"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "GoodNotes"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Draw the layout",
+          "text": "Split the page into a 2.5-inch cue column on the left, a 6-inch notes column on the right and a 2-inch summary strip at the bottom (about 6 cm, 15 cm and 5 cm on A4)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Record",
+          "text": "During the lecture, write the main ideas and supporting facts in the notes column. Use abbreviations and short phrases. Skip anything you can look up later in the slides."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Reduce",
+          "text": "As soon as possible after the lecture, ideally the same day, read your notes and condense each idea into a question or keyword in the cue column. Then write the summary at the bottom."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Recite",
+          "text": "Cover the notes column. Read each cue and answer it out loud in your own words. Uncover to check. Mark every cue you missed."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Reflect",
+          "text": "Ask how this lecture connects to earlier ones, to the reading, or to an exam question. Write those links in the margin or the summary."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Review",
+          "text": "Spend about ten minutes a week reciting from the cue columns of older pages. Focus on the cues you marked as missed."
+        }
+      ]
+    }
+  ]
+}

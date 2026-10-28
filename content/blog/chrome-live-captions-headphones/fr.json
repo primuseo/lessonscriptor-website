@@ -1,0 +1,349 @@
+{
+  "slug": "chrome-live-captions-headphones",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Sous-titres Chrome avec un casque audio : ce qui marche et ce qui ne marche pas",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Sous-titres instantanés Chrome avec un casque : ça marche ?",
+    "description": "Les sous-titres instantanés de Chrome marchent avec un casque ou des AirPods. Ce qui coince : les outils qui passent par le micro. Explications et solutions.",
+    "og_image": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "canonical": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-casque-audio",
+    "og_title": "Sous-titres Chrome avec un casque audio : ce qui marche et ce qui ne marche pas",
+    "og_description": "Chrome sous-titre son propre audio, casque ou pas. Les outils qui écoutent par le micro, eux, ne marchent pas au casque. Voici comment s'y retrouver.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "sous-titres instantanés chrome casque",
+      "sous-titres chrome avec écouteurs",
+      "sous-titres instantanés airpods",
+      "transcription cours avec casque"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "alt": "Étudiante avec un casque qui suit un cours dans Chrome, transcription affichée dans un panneau latéral",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Student at desk with over-ear headphones, Chrome browser open with a lecture video and caption side panel. Warm, focused study environment. Cream and terra color palette."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l'anthropologie et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Points clés",
+    "lead": "Les sous-titres instantanés de Chrome fonctionnent avec un casque, car Chrome sous-titre le son qu'il lit lui-même, sans micro. Ce qui ne marche pas au casque, ce sont les outils qui écoutent par le micro, dont le mode gratuit de LessonScriptor. Le mode IA de LessonScriptor capte l'audio de l'onglet et marche avec n'importe quel casque.",
+    "bullets": [
+      "Les sous-titres instantanés de Chrome traitent l'audio joué dans le navigateur, sur l'appareil : AirPods, casque Bluetooth, filaire ou USB ne changent rien.",
+      "Si les sous-titres disparaissent au casque, la cause est ailleurs : son joué hors de Chrome (application Zoom ou Teams), onglet muet, modèle vocal incomplet.",
+      "Les outils basés sur le micro (dictée, reconnaissance vocale du navigateur, mode gratuit de LessonScriptor) n'entendent rien quand le son part dans le casque.",
+      "Le mode IA de LessonScriptor capte directement l'audio de l'onglet : il fonctionne au casque et garde une transcription modifiable et exportable. 30 minutes d'essai gratuit.",
+      "Sur Windows 11 (22H2 et plus), les Sous-titres en direct du système (Win+Ctrl+L) sous-titrent tout l'audio du PC, casque compris, y compris en français."
+    ]
+  },
+  "intro": "Les sous-titres instantanés de Chrome fonctionnent avec un casque audio : la fonction sous-titre le son que Chrome lit lui-même, traité localement sur l'appareil, sans passer par le micro. Brancher des AirPods, un Sony WH-1000XM5 ou un casque filaire ne coupe donc pas les sous-titres. La confusion vient d'ailleurs : de nombreux outils de transcription écoutent par le micro, et ceux-là n'entendent plus rien quand le son part dans le casque. C'est le cas du mode gratuit de LessonScriptor. Ce guide explique ce qui marche au casque, ce qui ne marche pas, et comment transcrire un cours en replay sur Moodle ou une vidéo YouTube au casque avec le mode IA de LessonScriptor.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "micro nécessaire pour les sous-titres instantanés de Chrome"
+    },
+    {
+      "number": "19",
+      "label": "langues de sous-titrage Chrome listées par Google, dont le français"
+    },
+    {
+      "number": "30 min",
+      "label": "d'essai gratuit du mode IA de LessonScriptor, qui marche au casque"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-no-chrome-captions-headphones",
+      "h2": "Les sous-titres instantanés de Chrome fonctionnent-ils avec un casque ?",
+      "body": "Oui. Les sous-titres instantanés de Chrome sous-titrent l'audio lu dans les onglets du navigateur, directement dans Chrome, avant qu'il ne parte vers vos haut-parleurs ou votre casque. Google précise que l'audio et les sous-titres sont traités localement et ne quittent jamais l'appareil. Le micro n'intervient pas.\n\nConséquence : un casque filaire, des AirPods, un casque Bluetooth ou un casque USB n'ont aucun effet sur les sous-titres. Vous pouvez même suivre un cours en amphi virtuel sans haut-parleurs, c'est l'un des usages prévus par Google.\n\nSi vos sous-titres disparaissent quand vous mettez votre casque, cherchez une autre cause : le cours tourne dans l'application Zoom ou Teams pour bureau et non dans Chrome, l'onglet est en sourdine, ou le modèle vocal n'est pas complet. Notre guide de dépannage détaille les huit causes connues.",
+      "internal_links": [
+        {
+          "text": "Sous-titres instantanés Chrome qui ne fonctionnent pas : 8 solutions",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "does-it-work-macos",
+      "h2": "Les sous-titres Chrome fonctionnent-ils avec des AirPods sur Mac ?",
+      "body": "Oui, sur macOS comme sur Windows, les sous-titres instantanés de Chrome fonctionnent avec des AirPods et tout autre casque, puisqu'ils ne dépendent pas de la sortie audio.\n\nSi les sous-titres s'arrêtent après la connexion des AirPods, vérifiez trois points : que la vidéo joue bien dans Chrome, que l'option **Sous-titres instantanés** est toujours activée dans **chrome://settings/accessibility**, et que Chrome a été complètement relancé (Cmd+Q) après la dernière mise à jour de macOS ou de Chrome. Déconnecter puis reconnecter le Bluetooth suffit parfois à relancer la lecture audio.\n\nLe problème au casque sur Mac concerne surtout les outils qui écoutent par le micro du MacBook : quand le son part dans les AirPods, le micro n'entend plus la vidéo."
+    },
+    {
+      "id": "what-is-tab-audio-capture",
+      "h2": "Qu'est-ce que la capture audio de l'onglet, et pourquoi marche-t-elle au casque ?",
+      "body": "La capture audio de l'onglet est une API de Chrome qui permet à une extension de recevoir le flux audio d'un onglet précis, quel que soit l'appareil de sortie.\n\nLe mode IA de LessonScriptor utilise cette capture : il reçoit le son de l'onglet avant qu'il ne parte vers le casque, l'envoie par morceaux (10 secondes en mode Normal, 30 secondes en mode Optimal, plus précis) à une IA de transcription de type Whisper, et affiche le texte dans le panneau latéral avec un court décalage. Le son continue d'arriver normalement dans votre casque.\n\nLe pipeline ne dépend donc ni du micro ni de la sortie audio : AirPods, Sony WH-1000XM5, Bose, casque USB ou filaire donnent le même résultat. Chaque onglet est indépendant, ce qui permet de transcrire plusieurs vidéos en même temps.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome avec LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "windows-workaround",
+      "h2": "Existe-t-il une solution gratuite de sous-titres au casque sur Windows ?",
+      "body": "Oui. En plus des sous-titres instantanés de Chrome, Windows 11 (version 22H2 et suivantes) intègre des **Sous-titres en direct** au niveau du système, qui sous-titrent tout l'audio du PC, casque compris, et pas seulement Chrome. C'est utile pour un cours suivi dans l'application Zoom ou Teams pour bureau.\n\n**Activer sur Windows 11 :** appuyez sur **Win+Ctrl+L**, ou passez par Paramètres > Accessibilité > Sous-titres. Une barre de sous-titres s'affiche au-dessus des fenêtres. Le français fait partie des langues proposées.\n\n**Windows 10 :** cette fonction n'existe pas ; restez sur les sous-titres instantanés de Chrome.\n\n**Limite :** comme ceux de Chrome, les Sous-titres en direct de Windows sont en lecture seule, sans modification ni export, et la barre peut masquer une partie de la vidéo. Pour réviser un cours magistral, une transcription que vous pouvez garder reste plus utile.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct pour les enregistrements Zoom",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-headphones-setup",
+      "h2": "Comment utiliser LessonScriptor avec un casque ?",
+      "body": "Utiliser LessonScriptor au casque demande le mode IA, car le mode gratuit écoute par le micro.\n\n1. Installez LessonScriptor depuis le Chrome Web Store.\n2. Ouvrez votre vidéo dans Chrome (cours sur Moodle, YouTube, Zoom dans le navigateur) et cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral.\n3. Choisissez le **mode IA**. Les 30 premières minutes sont offertes, puis vous achetez un pack si besoin.\n4. Lancez la vidéo : la transcription apparaît dans le panneau, avec quelques secondes de décalage.\n\nLe mode IA fonctionne par packs à usage unique, sans abonnement, décomptés à la seconde et sans date d'expiration : 5 h pour 5 $, 15 h pour 12 $, 30 h pour 21 $ (prix en dollars, Stripe affiche une estimation dans votre devise). Si vous préférez le mode gratuit, il faut des haut-parleurs avec un volume d'au moins 80 %, sans casque.",
+      "internal_links": [
+        {
+          "text": "Sous-titres instantanés de Chrome ou LessonScriptor ?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "which-headphones-work",
+      "h2": "Quels casques fonctionnent avec les sous-titres en direct dans Chrome ?",
+      "body": "Tous les casques fonctionnent avec les sous-titres instantanés de Chrome et avec le mode IA de LessonScriptor, parce que ni l'un ni l'autre ne passe par le micro. Seuls les outils basés sur le micro ont besoin de haut-parleurs.",
+      "table": {
+        "headers": [
+          "Outil",
+          "Casque filaire / USB",
+          "AirPods et casques Bluetooth",
+          "Pourquoi"
+        ],
+        "rows": [
+          [
+            "Sous-titres instantanés de Chrome",
+            "Oui",
+            "Oui",
+            "Sous-titre l'audio lu dans Chrome, sans micro"
+          ],
+          [
+            "Sous-titres en direct de Windows 11",
+            "Oui",
+            "Oui",
+            "Sous-titre l'audio du système"
+          ],
+          [
+            "LessonScriptor, mode IA",
+            "Oui",
+            "Oui",
+            "Capture l'audio de l'onglet"
+          ],
+          [
+            "LessonScriptor, mode gratuit",
+            "Non",
+            "Non",
+            "Écoute par le micro : haut-parleurs à 80 % ou plus"
+          ]
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "heading": "Transcrire vos cours au casque",
+    "body": "Le mode IA de LessonScriptor capte l'audio de l'onglet et marche avec n'importe quel casque. 30 minutes d'essai gratuit, puis des packs sans abonnement.",
+    "button_label": "Ajouter LessonScriptor à Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Les sous-titres instantanés de Chrome marchent-ils avec un casque ?",
+        "answer": "Oui. Chrome sous-titre le son qu'il lit lui-même, traité localement, sans passer par le micro. Un casque filaire, Bluetooth ou USB n'empêche pas les sous-titres. S'ils disparaissent, vérifiez que la vidéo joue dans Chrome et que l'onglet n'est pas en sourdine."
+      },
+      {
+        "question": "Les sous-titres Chrome fonctionnent-ils avec des AirPods ?",
+        "answer": "Oui, sur Mac comme sur Windows. Les sous-titres instantanés ne dépendent pas de la sortie audio. Ce sont les outils qui écoutent par le micro, comme le mode gratuit de LessonScriptor, qui ne marchent pas avec des AirPods."
+      },
+      {
+        "question": "Pourquoi ma transcription ne marche plus quand je mets mon casque ?",
+        "answer": "Votre outil écoute sans doute par le micro. Quand le son part dans le casque, le micro n'entend plus la vidéo. Passez à un outil qui capte l'audio de l'onglet, comme le mode IA de LessonScriptor, ou utilisez des haut-parleurs."
+      },
+      {
+        "question": "Comment transcrire un cours Moodle au casque ?",
+        "answer": "Ouvrez le cours dans Chrome, lancez LessonScriptor en mode IA et lisez la vidéo. Le mode IA capte l'audio de l'onglet, donc le casque ne gêne pas, et vous gardez une transcription modifiable et exportable en .txt ou .md."
+      },
+      {
+        "question": "Windows 10 a-t-il des sous-titres en direct comme Windows 11 ?",
+        "answer": "Non. Les Sous-titres en direct du système (Win+Ctrl+L) sont réservés à Windows 11 version 22H2 et suivantes. Sur Windows 10, utilisez les sous-titres instantanés de Chrome, qui marchent au casque, ou le mode IA de LessonScriptor."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Sous-titres Chrome au casque : la réponse courte",
+    "body": "Les sous-titres instantanés de Chrome fonctionnent avec tous les casques, car ils sous-titrent le son lu dans Chrome, sur l'appareil, sans micro. S'ils disparaissent au casque, le problème vient d'ailleurs : son joué hors de Chrome, onglet muet ou modèle vocal incomplet. Ce qui ne marche pas au casque, ce sont les outils basés sur le micro, dont le mode gratuit de LessonScriptor. Pour une transcription à garder, surligner et exporter tout en écoutant au casque, le mode IA de LessonScriptor capte l'audio de l'onglet et fonctionne avec AirPods, casques Bluetooth, filaires ou USB. Sur Windows 11, les Sous-titres en direct du système sont une alternative gratuite en lecture seule."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Sous-titres Chrome avec un casque audio : ce qui marche et ce qui ne marche pas",
+      "description": "Les sous-titres instantanés de Chrome marchent avec un casque ou des AirPods. Ce qui coince : les outils qui passent par le micro. Explications et solutions.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-casque-audio",
+      "url": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-casque-audio",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie avec un TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur et SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les sous-titres instantanés de Chrome marchent-ils avec un casque ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Chrome sous-titre le son qu'il lit lui-même, traité localement, sans passer par le micro. Un casque filaire, Bluetooth ou USB n'empêche pas les sous-titres. S'ils disparaissent, vérifiez que la vidéo joue dans Chrome et que l'onglet n'est pas en sourdine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les sous-titres Chrome fonctionnent-ils avec des AirPods ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, sur Mac comme sur Windows. Les sous-titres instantanés ne dépendent pas de la sortie audio. Ce sont les outils qui écoutent par le micro, comme le mode gratuit de LessonScriptor, qui ne marchent pas avec des AirPods."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi ma transcription ne marche plus quand je mets mon casque ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Votre outil écoute sans doute par le micro. Quand le son part dans le casque, le micro n'entend plus la vidéo. Passez à un outil qui capte l'audio de l'onglet, comme le mode IA de LessonScriptor, ou utilisez des haut-parleurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment transcrire un cours Moodle au casque ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ouvrez le cours dans Chrome, lancez LessonScriptor en mode IA et lisez la vidéo. Le mode IA capte l'audio de l'onglet, donc le casque ne gêne pas, et vous gardez une transcription modifiable et exportable en .txt ou .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Windows 10 a-t-il des sous-titres en direct comme Windows 11 ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Les Sous-titres en direct du système (Win+Ctrl+L) sont réservés à Windows 11 version 22H2 et suivantes. Sur Windows 10, utilisez les sous-titres instantanés de Chrome, qui marchent au casque, ou le mode IA de LessonScriptor."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Transcrire une vidéo au casque avec LessonScriptor",
+      "inLanguage": "fr-FR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Installer LessonScriptor",
+          "text": "Installez l'extension depuis le Chrome Web Store."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Ouvrir le panneau latéral",
+          "text": "Ouvrez la vidéo dans Chrome et cliquez sur l'icône LessonScriptor."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Choisir le mode IA",
+          "text": "Le mode IA capte l'audio de l'onglet ; 30 minutes d'essai gratuit."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Lancer la vidéo",
+          "text": "La transcription s'affiche dans le panneau avec quelques secondes de décalage."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sous-titres Chrome avec un casque audio",
+          "item": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-casque-audio"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Microsoft Support — Use live captions to better understand audio",
+      "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

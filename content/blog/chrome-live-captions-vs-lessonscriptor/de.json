@@ -1,0 +1,359 @@
+{
+  "slug": "chrome-live-captions-vs-lessonscriptor",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome Automatische Untertitel vs LessonScriptor: der komplette Vergleich",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Chrome Live-Untertitel vs LessonScriptor im Vergleich",
+    "description": "Chrome Automatische Untertitel oder LessonScriptor? Genauigkeit, Bearbeitung, Export, Kopfhörer und Sprachen im Vergleich, damit Sie wissen, was passt.",
+    "og_image": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "canonical": "https://lessonscriptor.com/de/blog/chrome-untertitel-vs-lessonscriptor",
+    "og_title": "Chrome Automatische Untertitel vs LessonScriptor: der Vergleich",
+    "og_description": "Für die Vorlesungsmitschrift: Chromes eingebaute Untertitel oder LessonScriptor?",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "Chrome automatische Untertitel",
+      "Chrome Erweiterung Live Untertitel",
+      "Chrome Live Caption vs LessonScriptor",
+      "Vorlesung Mitschrift Chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "alt": "Vergleich der Untertitel-Blase von Chrome mit der bearbeitbaren Seitenleiste von LessonScriptor",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für Live-Transkription von Videos. Victoria studiert Anthropologie im Fernstudium und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Die Automatischen Untertitel von Chrome und LessonScriptor lösen unterschiedliche Probleme. Chromes Untertitel sind sofort da und sofort wieder weg. LessonScriptor ist ein Mitschrift-Tool, das auf Live-Transkription aufbaut: Es ergänzt Bearbeitung, Export und Markierungen.",
+    "bullets": [
+      "Automatische Untertitel in Chrome: kostenlos, ohne Installation, schreibgeschützt, 19 Sprachen, kein Export, funktionieren mit Kopfhörern, zwei Zeilen, die verschwinden.",
+      "LessonScriptor: kostenloser Modus über das Mikrofon (Lautstärke 80 %+, keine Kopfhörer) und KI-Modus über Tab-Audio (mit Kopfhörern), bearbeitbare Mitschrift, Export als .txt/.md, 14 Sprachen.",
+      "Der KI-Modus von LessonScriptor wird nach 30 Minuten Gratis-Test in Paketen ohne Abo bezahlt (5 Std. = 5 US$, 15 Std. = 12 US$, 30 Std. = 21 US$).",
+      "Zum Nacharbeiten einer Vorlesung in ILIAS, Stud.IP oder auf YouTube ist LessonScriptor die bessere Wahl. Für schnelle Barrierefreiheits-Untertitel ist Chromes Funktion einfacher.",
+      "Der eigentliche Unterschied ist nicht kostenlos gegen kostenpflichtig, sondern schreibgeschützt gegen bearbeitbar."
+    ]
+  },
+  "intro": "Die Automatischen Untertitel von Chrome (englisch Live Caption) sind eine schreibgeschützte Bedienungshilfe, die für jedes Audio im Browser eine schwebende Untertitel-Blase anzeigt. LessonScriptor ist eine Chrome-Erweiterung, die den Ton eines Videos in eine dauerhafte, bearbeitbare und exportierbare Seitenleiste transkribiert. Beide erzeugen Live-Untertitel; der Unterschied liegt darin, was Sie danach damit tun können. Chromes Untertitel verschwinden, während das Audio weiterläuft. Die Mitschrift von LessonScriptor bleibt, lässt sich markieren und als .txt oder .md nach Notion, Obsidian oder Google Docs exportieren. Dieser Vergleich zeigt alle Unterschiede, die für Studierende zählen.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "Wörter lassen sich in Chromes Automatischen Untertiteln bearbeiten oder speichern"
+    },
+    {
+      "number": "100 %",
+      "label": "der LessonScriptor-Mitschrift sind bearbeitbar, markierbar und exportierbar"
+    },
+    {
+      "number": "30 Min.",
+      "label": "kostenloser Test des KI-Modus von LessonScriptor"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-chrome-live-caption",
+      "h2": "Was sind die Automatischen Untertitel in Chrome?",
+      "body": "Die Automatischen Untertitel in Chrome sind eine Bedienungshilfe, die in Echtzeit Untertitel für jedes Audio erzeugt, das in Chrome abgespielt wird. Laut Google-Hilfe werden Audio und Untertitel lokal verarbeitet, nicht gespeichert und verlassen das Gerät nie.\n\nSo schalten Sie sie ein: Chrome-Einstellungen über das Dreipunkt-Menü, dann **Bedienungshilfen > Automatische Untertitel**, oder direkt chrome://settings/accessibility in die Adressleiste eingeben.\n\nAm unteren Fensterrand erscheint eine schwebende Blase mit zwei Textzeilen, die weiterlaufen und dann verschwinden. Zurückscrollen, bearbeiten, kopieren, speichern oder exportieren ist nicht möglich: Der Text existiert nur im Moment. Da die Funktion Chromes eigene Audioausgabe untertitelt und nicht das Mikrofon, funktioniert sie auch mit Kopfhörern.\n\nDie Automatischen Untertitel unterstützen 19 Sprachen, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Chinesisch, und funktionieren mit jeder Audioquelle in Chrome: YouTube, Podcasts, Streaming und Videokonferenzen im Browser."
+    },
+    {
+      "id": "what-is-lessonscriptor",
+      "h2": "Was ist LessonScriptor?",
+      "body": "LessonScriptor ist eine Chrome-Erweiterung, die den Ton eines Videos in eine bearbeitbare Seitenleiste transkribiert. Sie ist für Studierende gedacht, die Videovorlesungen schauen und eine gegliederte Mitschrift zum Lernen wollen.\n\nNach der Installation öffnet das LessonScriptor-Symbol eine Seitenleiste neben allem, was in Chrome läuft: ILIAS, Stud.IP, Moodle, Opencast, die Lernumgebung der FernUni Hagen, Panopto, YouTube, Coursera, Udemy sowie Zoom oder Teams im Browser. Die Leiste füllt sich, während das Video läuft.\n\nDie Mitschrift ist ein echter Editor: Markierungen in 5 Farben, Fettdruck, Überschriften, Aufzählungen, Löschen von Passagen und Screenshots der Folie. Am Ende exportieren Sie als .txt oder .md oder kopieren in die Zwischenablage.\n\nLessonScriptor hat zwei Modi. Der **kostenlose Modus** nutzt die Spracherkennung des Browsers über das **Mikrofon**: Er braucht Lautsprecher auf 80 % oder mehr, funktioniert nicht mit Kopfhörern und transkribiert auch Ihre Stimme; es wird kein Audio an die Server von LessonScriptor gesendet. Der **KI-Modus** greift das **Tab-Audio** ab und transkribiert mit Cloud-Modellen der Whisper-Klasse, in Blöcken von 10 Sekunden (Normal) oder 30 Sekunden (Optimal).",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome mit LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Chrome Automatische Untertitel vs LessonScriptor: die komplette Tabelle",
+      "body": "Diese Tabelle vergleicht alle relevanten Unterschiede zwischen der eingebauten Chrome-Funktion und LessonScriptor.",
+      "table": {
+        "headers": [
+          "Kriterium",
+          "Chrome Automatische Untertitel",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Installation",
+            "Nein (in Chrome eingebaut)",
+            "Ja (Chrome Web Store)"
+          ],
+          [
+            "Konto",
+            "Nein",
+            "Nein im kostenlosen Modus (Lizenzschlüssel per E-Mail für den KI-Modus)"
+          ],
+          [
+            "Bearbeitbare Mitschrift",
+            "Nein",
+            "Ja"
+          ],
+          [
+            "Export",
+            "Nein",
+            "Ja: .txt, .md, Zwischenablage"
+          ],
+          [
+            "Markieren und Annotieren",
+            "Nein",
+            "Ja: 5 Farben, Fettdruck, Überschriften, Listen, Screenshots"
+          ],
+          [
+            "Sitzungsverlauf",
+            "Nein",
+            "Ja, lokal gespeichert"
+          ],
+          [
+            "Mit Kopfhörern",
+            "Ja (untertitelt Chromes eigenes Audio, nicht das Mikrofon)",
+            "Ja im KI-Modus (Tab-Audio), nein im kostenlosen Modus (Mikrofon)"
+          ],
+          [
+            "Sprachen",
+            "19",
+            "14"
+          ],
+          [
+            "Genauigkeit (Alltagssprache)",
+            "Gut",
+            "Gut (kostenlos) / sehr gut (KI)"
+          ],
+          [
+            "Genauigkeit (Fachvokabular, Akzente)",
+            "Mittel",
+            "Hoch (KI-Modus)"
+          ],
+          [
+            "YouTube, ILIAS, Zoom-Aufzeichnungen",
+            "Ja",
+            "Ja"
+          ],
+          [
+            "Preis",
+            "Kostenlos",
+            "Kostenlos + KI-Pakete ab 5 US$ (ohne Abo)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "accuracy-comparison",
+      "h2": "Was ist genauer, Chrome oder LessonScriptor?",
+      "body": "Bei klarer Alltagssprache, etwa Nachrichten oder Podcasts, liefern die Automatischen Untertitel von Chrome und der kostenlose Modus von LessonScriptor eine ähnliche Genauigkeit. Der kostenlose Modus hängt zusätzlich davon ab, was das Mikrofon aufnimmt: Zu leise Lautsprecher oder ein lauter Raum verschlechtern das Ergebnis.\n\nIn einer Vorlesung wächst der Abstand mit dem KI-Modus von LessonScriptor. Die genutzten Modelle der Whisper-Klasse wurden mit sehr großen Mengen mehrsprachiger Sprache trainiert und kommen mit Akzenten, Dialekten, Fachjargon und Hintergrundgeräuschen besser zurecht als Chromes lokales Modell, das für normale Rechner optimiert ist.\n\nPraktisch heißt das: Bei einer klar vorgetragenen Vorlesung liegen Chrome und der kostenlose Modus gleichauf. In einer Vorlesung zu organischer Chemie, Jura oder Ethnologie mit vielen Eigennamen und Fachbegriffen macht der KI-Modus deutlich weniger Fehler. Der Modus Optimal (30-Sekunden-Blöcke) ist am genauesten, mit etwas mehr Verzögerung."
+    },
+    {
+      "id": "when-to-use-chrome-captions",
+      "h2": "Wann sind Chromes Automatische Untertitel die bessere Wahl als LessonScriptor?",
+      "body": "Die Automatischen Untertitel von Chrome sind in drei Fällen die bessere Wahl.\n\n**Schnelle Wegwerf-Untertitel:** in der Unibibliothek, in der S-Bahn oder während eines Anrufs bieten sie sofort Barrierefreiheit, ohne Erweiterung und ohne Seitenleiste.\n\n**Sprachen, die LessonScriptor nicht abdeckt:** Chrome bietet 19 Sprachen, darunter Japanisch, Koreanisch, Italienisch, Niederländisch, Polnisch und Türkisch. Prüfen Sie die Liste von LessonScriptor (14 Sprachen) vor einer Vorlesung in einer selteneren Sprache.\n\n**Gesperrte Rechner:** Manche Hochschulen verbieten Erweiterungen auf verwalteten PCs, etwa in CIP-Pools. Dann ist die eingebaute Chrome-Funktion die einzige Option."
+    },
+    {
+      "id": "when-to-use-lessonscriptor",
+      "h2": "Wann ist LessonScriptor die bessere Wahl als Chromes Untertitel?",
+      "body": "LessonScriptor ist immer dann die bessere Wahl, wenn Sie das Gesagte behalten, nacharbeiten oder zitieren wollen.\n\n**Klausurvorbereitung:** Nach einer aufgezeichneten Vorlesung oder einem Opencast-Video bleibt von Chromes Untertiteln nichts übrig. LessonScriptor erstellt eine markierte Mitschrift, die im Verlauf gespeichert wird. Besonders hilfreich bei ADHS, wenn Mitschreiben beim Zuhören erschöpft.\n\n**Kopfhörer und gespeicherter Text:** Chromes Untertitel funktionieren mit Kopfhörern, verschwinden aber. Der KI-Modus von LessonScriptor greift das Tab-Audio ab, funktioniert mit allen Kopfhörern und behält den Text. Der kostenlose Modus nutzt dagegen das Mikrofon und braucht Lautsprecher.\n\n**Fachinhalte:** Der KI-Modus ist genauer bei Fachvokabular, Autorennamen und Abkürzungen.\n\n**Mehrere Videos gleichzeitig:** Im KI-Modus ist jeder Tab unabhängig.\n\n**Sprachenlernen:** Markieren Sie neues Vokabular, exportieren Sie Ihre Liste und fügen Sie die Mitschrift bei Bedarf in ChatGPT oder NotebookLM ein, um sie zusammenzufassen.",
+      "internal_links": [
+        {
+          "text": "Chrome-Untertitel mit Kopfhörern",
+          "url": "/blog/chrome-live-captions-headphones"
+        },
+        {
+          "text": "Mitschriften mit ADHS: so klappt es",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Live-Untertitel in anderen Sprachen in Chrome",
+          "url": "/blog/live-captions-other-languages-chrome"
+        }
+      ]
+    },
+    {
+      "id": "can-use-both",
+      "h2": "Kann ich Chromes Automatische Untertitel und LessonScriptor gleichzeitig nutzen?",
+      "body": "Ja, aber es lohnt sich selten. Beide untertiteln dasselbe Audio, Sie bekommen also denselben Text doppelt, und Chromes Blase stört, wenn die LessonScriptor-Seitenleiste offen ist.\n\nPraktischer ist es, je nach Sitzung zu wählen: Chromes Untertitel für den schnellen Gebrauch, LessonScriptor, sobald Sie die Mitschrift behalten wollen.",
+      "internal_links": [
+        {
+          "text": "Die besten Chrome-Erweiterungen für Live-Untertitel",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "LessonScriptor kostenlos testen, ohne Konto",
+    "body": "Installieren Sie LessonScriptor mit einem Klick. Bearbeitbare, exportierbare Live-Untertitel für jedes Video in Chrome. Der kostenlose Modus funktioniert sofort.",
+    "button_label": "LessonScriptor kostenlos zu Chrome hinzufügen",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Was ist der Unterschied zwischen Chromes Automatischen Untertiteln und LessonScriptor?",
+        "answer": "Chromes Automatische Untertitel sind schreibgeschützt: zwei Zeilen in einer Blase, die mit dem Audio verschwinden. LessonScriptor erstellt eine dauerhafte Mitschrift in einer Seitenleiste, die Sie markieren, gliedern und als .txt oder .md exportieren können."
+      },
+      {
+        "question": "Ist LessonScriptor besser als die eingebauten Chrome-Untertitel?",
+        "answer": "Zum Behalten und Nacharbeiten von Vorlesungen ja: LessonScriptor ergänzt Bearbeitung, Export, Markierungen und im KI-Modus eine höhere Genauigkeit. Für schnelle Untertitel ohne Installation ist Chromes Funktion einfacher."
+      },
+      {
+        "question": "Ist LessonScriptor kostenlos wie Chromes Untertitel?",
+        "answer": "Ja, der kostenlose Modus von LessonScriptor braucht weder Konto noch Zahlung. Er hört über das Mikrofon zu, braucht also ausreichend laute Lautsprecher und keine Kopfhörer. Der KI-Modus wird nach 30 Minuten Test in Paketen ohne Abo bezahlt: 5 Std. = 5 US$, 15 Std. = 12 US$, 30 Std. = 21 US$ (Stripe zeigt eine Schätzung in Euro)."
+      },
+      {
+        "question": "Wie aktiviere ich die Automatischen Untertitel in Chrome?",
+        "answer": "Öffnen Sie über das Dreipunkt-Menü die Einstellungen, wählen Sie Bedienungshilfen und schalten Sie Automatische Untertitel ein. Alternativ chrome://settings/accessibility aufrufen. Danach die Untertitelsprache wählen, zum Beispiel Deutsch."
+      },
+      {
+        "question": "Kann LessonScriptor Chromes Untertitel ersetzen?",
+        "answer": "Für Videos und Online-Vorlesungen ja: LessonScriptor funktioniert mit allem, was in einem Chrome-Tab läuft, und liefert einen wiederverwendbaren Text. Für schnelle Barrierefreiheits-Untertitel oder auf Rechnern, auf denen Erweiterungen gesperrt sind, ersetzt es Chromes Funktion nicht."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome Automatische Untertitel oder LessonScriptor: was soll ich nutzen?",
+    "body": "Chromes Automatische Untertitel sind ideal für sofortige Untertitel, die Sie nicht behalten müssen. LessonScriptor ist das richtige Werkzeug, wenn Sie eine Mitschrift bearbeiten, markieren und exportieren wollen, vor allem bei Vorlesungen in ILIAS, Stud.IP, Opencast, auf YouTube oder bei Zoom-Aufzeichnungen. Beide haben eine kostenlose Option: Der Unterschied ist nicht der Preis, sondern was Sie nach dem Video mit dem Text anfangen können. Wenn Sie schon einmal dachten „hätte ich doch speichern können, was die Untertitel gerade gezeigt haben“, ist LessonScriptor das richtige Tool."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome Automatische Untertitel vs LessonScriptor: der komplette Vergleich",
+      "description": "Chrome Automatische Untertitel oder LessonScriptor? Genauigkeit, Bearbeitung, Export, Kopfhörer und Sprachen im Vergleich, damit Sie wissen, was passt.",
+      "inLanguage": "de-DE",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/chrome-untertitel-vs-lessonscriptor",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwickler und SEO",
+          "url": "https://lessonscriptor.com/de"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist der Unterschied zwischen Chromes Automatischen Untertiteln und LessonScriptor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chromes Automatische Untertitel sind schreibgeschützt: zwei Zeilen in einer Blase, die mit dem Audio verschwinden. LessonScriptor erstellt eine dauerhafte Mitschrift in einer Seitenleiste, die Sie markieren, gliedern und als .txt oder .md exportieren können."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist LessonScriptor besser als die eingebauten Chrome-Untertitel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zum Behalten und Nacharbeiten von Vorlesungen ja: LessonScriptor ergänzt Bearbeitung, Export, Markierungen und im KI-Modus eine höhere Genauigkeit. Für schnelle Untertitel ohne Installation ist Chromes Funktion einfacher."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist LessonScriptor kostenlos wie Chromes Untertitel?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, der kostenlose Modus von LessonScriptor braucht weder Konto noch Zahlung. Er hört über das Mikrofon zu, braucht also ausreichend laute Lautsprecher und keine Kopfhörer. Der KI-Modus wird nach 30 Minuten Test in Paketen ohne Abo bezahlt: 5 Std. = 5 US$, 15 Std. = 12 US$, 30 Std. = 21 US$ (Stripe zeigt eine Schätzung in Euro)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie aktiviere ich die Automatischen Untertitel in Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öffnen Sie über das Dreipunkt-Menü die Einstellungen, wählen Sie Bedienungshilfen und schalten Sie Automatische Untertitel ein. Alternativ chrome://settings/accessibility aufrufen. Danach die Untertitelsprache wählen, zum Beispiel Deutsch."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann LessonScriptor Chromes Untertitel ersetzen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Für Videos und Online-Vorlesungen ja: LessonScriptor funktioniert mit allem, was in einem Chrome-Tab läuft, und liefert einen wiederverwendbaren Text. Für schnelle Barrierefreiheits-Untertitel oder auf Rechnern, auf denen Erweiterungen gesperrt sind, ersetzt es Chromes Funktion nicht."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/de/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome Live-Untertitel vs LessonScriptor im Vergleich",
+          "item": "https://lessonscriptor.com/de/blog/chrome-untertitel-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome-Hilfe: Automatische Untertitel",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=de",
+      "external": true
+    },
+    {
+      "text": "OpenAI: Whisper",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/live-captions-other-languages-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

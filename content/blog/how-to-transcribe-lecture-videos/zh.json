@@ -2,81 +2,448 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "如何自动转录课程视频",
-  "reading_time_min": 7,
+  "h1": "课程视频怎么转文字：5 种网课转录方法对比",
+  "reading_time_min": 11,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "课程视频转文字：5 种网课转录方法对比",
+    "description": "网课、课程视频怎么转文字？对比手动打字、B站与慕课字幕、上传转写工具和 Chrome 实时转录，无需下载视频，也能得到可编辑、可导出的课堂文字稿。",
     "keywords": [
-      "transcribe lecture video",
-      "automatic lecture transcription",
-      "lecture to text"
+      "视频转文字",
+      "网课转文字",
+      "课程视频转录",
+      "讲座视频转文字",
+      "网课视频怎么转文字",
+      "上课录音转文字"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一个用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 在线学习人类学，患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "自动转录课程视频最快的方法是使用 LessonScriptor——一个免费的 Chrome 扩展程序，可在视频播放时直接在浏览器中进行实时转录。无需上传，无需等待，无需订阅。",
+  "tldr": {
+    "label": "核心要点",
+    "lead": "课程视频转录，就是把一堂课里老师讲的话变成可以搜索的文字。选哪种方法，只取决于一个问题：你手上有视频文件，还是只能在线点播放？",
+    "bullets": [
+      "**手动打字**：每 1 小时音频大约要打 4 小时字，只适合需要逐字引用的一小段话。",
+      "**平台字幕**：B站、YouTube 的自动字幕，以及中国大学MOOC、学堂在线等平台部分课程自带的字幕，都是免费的，但大多只能在播放器里看，能否导出因平台而异。",
+      "**上传转写工具**：讯飞听见、通义听悟、Otter.ai、TurboScribe 等准确度不错，但前提是你有音频或视频文件，而大多数网课平台并不提供下载。",
+      "**浏览器实时转录**（LessonScriptor）：把 Chrome 标签页里正在播放的内容直接变成可编辑的文字稿，不需要文件、不需要下载，也不会录音。",
+      "录制或转录课程前，通常应先征得老师同意。有残障的学生（包括 ADHD）一般可以向学校申请合理便利，正式获得录音或文字稿方面的支持。"
+    ]
+  },
+  "intro": "把课程视频转成文字，最快的方法是在 Chrome 里播放视频，同时打开 LessonScriptor 这样的实时转录扩展：视频一边播放，音频就一边变成可编辑的文字稿，不用上传文件，也不用下载视频。这一点很关键，因为大多数网课都放在中国大学MOOC、学堂在线、智慧树、雨课堂，或腾讯会议、钉钉的回放里，通常没有下载按钮；讯飞听见、Otter.ai 这类上传式工具没有文件就无从下手。本文对比五种实际可行的视频转文字方法：手动打字、B站和 YouTube 字幕、网课平台自带字幕、上传转写工具，以及浏览器实时转录。接着按平台逐一给出操作步骤，并附上提高准确度的技巧和录课礼仪提醒。",
   "sections": [
     {
-      "h2": "为什么在课堂上手动记笔记效果不好",
-      "body": "在课堂上手写笔记迫使您在听、理解和写之间分散注意力——通常是同时进行。研究一致表明，逐字转录课程的学生对内容的记忆不如那些主动参与的学生。问题不在于自律，而在于工具。当您忙于书写时，您并没有在学习。"
+      "id": "what-is-lecture-transcription",
+      "h2": "什么是课程视频转录？",
+      "body": "课程视频转录，是把一堂课的讲授内容转换成书面文字，可以是逐字稿，也可以是整理后方便复习的版本。对学生来说，它同时解决三件事：上课时不必分心狂记笔记；一节 90 分钟的录播课几秒钟就能搜到关键词；还能得到一份原始材料，用来自己整理提纲、做复习题，或填进康奈尔笔记模板。\n\n大家搜「视频转文字」时，通常是两种情况之一。要么你**有文件**：手机录的 MP4、下载下来的会议录制、一期播客；要么你**只能在线看**：慕课平台的课程、学校平台上的录播、钉钉群里的直播回放。第一种很好办，很多工具都能处理；第二种才是大多数同学卡住的地方，因为平台根本不让下载。"
     },
     {
-      "h2": "AI 转录在浏览器中如何工作",
-      "body": "LessonScriptor 使用两种转录引擎。免费模式使用 Web Speech API，它内置于 Chrome 中，在您的设备上本地处理音频——不会有任何数据离开您的电脑。高级模式直接从浏览器标签页捕获音频并发送至云端 AI 模型进行转录，在数秒内返回高精度文本。"
+      "id": "methods-compared",
+      "h2": "课程视频转文字有哪几种方法？",
+      "body": "实际可行的方法有五种。它们的主要区别在于：是否需要文件，以及最后得到的是只能在播放器里看的字幕，还是一份可以编辑、导出的文档。",
+      "table": {
+        "headers": [
+          "方法",
+          "需要可下载的文件吗？",
+          "费用",
+          "你得到什么",
+          "最适合"
+        ],
+        "rows": [
+          [
+            "手动打字",
+            "不需要",
+            "免费，但每小时音频约耗时 4 小时",
+            "文字精确，速度极慢",
+            "短引用"
+          ],
+          [
+            "B站 / YouTube 字幕",
+            "不需要，但视频要在对应平台上",
+            "免费",
+            "播放器里的字幕或文字记录面板，可复制",
+            "公开课、B站学习区、MIT 开放课程"
+          ],
+          [
+            "网课平台字幕（中国大学MOOC、学堂在线、海外的 Panopto、Canvas）",
+            "不需要",
+            "如果平台或老师开启了字幕，免费",
+            "播放器内字幕，有时可搜索",
+            "在自己的课程视频里查某个术语"
+          ],
+          [
+            "上传转写工具（讯飞听见、通义听悟、Otter.ai、TurboScribe）",
+            "需要",
+            "有免费额度，之后通常付费",
+            "处理完成后的完整文字稿",
+            "手机录音、已下载的 MP4"
+          ],
+          [
+            "浏览器实时转录（LessonScriptor）",
+            "不需要",
+            "免费模式；AI 模式一次性购买，$5 起",
+            "可编辑文字稿，支持高亮和截图，可导出 .txt / .md",
+            "无法下载的网课、直播课"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "关键判断",
+        "body": "能下载视频，用上传工具就很好；只能点播放，就要么看平台自带的字幕，要么用一个能转录标签页里正在播放内容的工具。"
+      }
     },
     {
-      "h2": "分步指南：如何使用 LessonScriptor 转录课程视频",
+      "id": "manual",
+      "h2": "手动给整节课打字值得吗？",
+      "body": "给一整节课手动打字，几乎从来都不划算。专业速记员估算，清晰的音频每 1 小时大约需要 4 小时工作量，而没有脚踏板、不熟悉快捷键的学生只会更慢。一节 90 分钟的课，可能要花掉你一整天。\n\n不过在某些情况下手动打字仍有价值：只需要一个定义、论文里要逐字引用的一句话，或者某段话老师的原话很重要。把播放器的倍速调到 0.75x，一小段一小段地打，每句话结束就暂停一下。"
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "怎么获取 B站和 YouTube 视频的字幕文本？",
+      "body": "B站和 YouTube 是很多同学看公开课的地方。B站上不少课程视频带有 UP 主上传的 CC 字幕，部分视频还有平台生成的 AI 字幕，在播放器的字幕按钮里就能打开；但网页端能否复制全文，取决于具体视频和页面版本。YouTube 会为大多数受支持语言的视频自动生成字幕，MIT 开放课程、斯坦福在线课程、Crash Course、可汗学院等公开课用它最省事。在海外留学、能正常访问 YouTube 的同学可以按下面的步骤操作。这两类自动字幕的局限都一样：上传者可以关闭字幕，有些语言缺少标点，专业术语和人名经常识别错。",
       "steps": [
-        "从 Chrome 应用商店安装 LessonScriptor——免费，无需注册。",
-        "在 Chrome 中打开课程视频（YouTube、Coursera、Zoom 录制、大学门户网站或任何视频平台）。",
-        "点击 Chrome 工具栏中的 LessonScriptor 图标以打开侧面板。",
-        "播放视频——转录自动开始，文字实时显示。",
-        "边看边编辑：点击添加您自己的笔记，用颜色高亮标注关键概念，加粗术语，删除无关内容。",
-        "点击转录文本中的任意时间戳，跳转到视频中的对应时刻。",
-        "完成后导出为 Markdown，获取包含所有高亮和格式的文档。"
+        "在电脑浏览器中打开 youtube.com 上的视频。",
+        "点击视频标题下方的 **...更多**，展开简介。",
+        "向下滚动，点击 **显示文字记录**（英文界面为 Show transcript），会打开一个带时间戳的文字面板。",
+        "通过面板右上角的三点菜单关闭时间戳，然后全选文字，复制到你的笔记里。"
+      ],
+      "internal_links": [
+        {
+          "text": "完整指南：如何下载 YouTube 视频字幕",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "h2": "免费模式与高级模式——课程转录该选哪个",
-      "body": "对于大多数学生，免费模式就足够了。在安静环境中使用扬声器效果良好。如果您更喜欢使用耳机，或者转录含有大量专业词汇、口音或语速较快的内容，高级模式可以提供显著更高的准确度，每小时约 1 欧元。"
+      "id": "lms-captions",
+      "h2": "中国大学MOOC、雨课堂这些网课平台有自带字幕吗？",
+      "body": "国内主流网课平台和海外大学常用的 Panopto、Canvas、Moodle，都有可能提供字幕，但能不能看到，取决于平台设置、课程制作方，以及老师有没有上传或发布字幕。如果有字幕，这就是成本最低的课程视频转录方式。不过字幕通常被锁在播放器里，你可以看、有时可以搜，却很少能导出一份干净的文档。",
+      "subsections": [
+        {
+          "h3": "中国大学MOOC 与学堂在线",
+          "body": "这类慕课平台上，制作较完整的课程往往配有字幕，播放器里会有字幕开关；但并不是每门课都有，具体以课程页面为准。如果找不到字幕，说明这门课没有提供，可以在课程讨论区礼貌地向课程团队反馈，尤其当你确实有听力或学习方面的需要时。"
+        },
+        {
+          "h3": "雨课堂与智慧树",
+          "body": "雨课堂常和学校的课堂教学结合，课件、直播和回放能否在网页端打开，取决于学校的配置；智慧树的课程视频是否有字幕，也因课程而异。如果网页端能播放、但没有字幕，可以在 Chrome 里用实时转录工具作为替代方案。"
+        },
+        {
+          "h3": "海外大学的 Panopto、Canvas、Moodle",
+          "body": "在海外留学的同学会经常碰到这三个平台。Panopto 和 Canvas Studio 的播放器在有字幕时会显示 **CC** 按钮，Panopto 有时还能在侧栏里搜索讲课内容并跳到对应位置。Moodle 本身不生成字幕，课程里的播放器通常是 Kaltura、Panopto、YouTube 或普通 HTML5 视频，字幕来自这些服务。没有 CC 按钮，就说明老师没有发布字幕。"
+        }
+      ]
     },
     {
-      "h2": "如何利用转录文本进行学习",
-      "body": "转录完成后，将 LessonScriptor 文档当作学习指南使用。用黄色高亮标注最重要的概念。加粗关键术语。复习时在括号中添加您自己的理解。导出为 Markdown 并导入 Notion 或 Obsidian 进行长期保存。考前可以搜索全文。如果你是神经多样性学生，自动转录消除了同时记笔记的认知负担——请参阅<a href=\"/blog/neurodivergent-study-tools\">神经多样性学生最佳学习工具</a>。"
+      "id": "upload-tools",
+      "h2": "有哪些工具可以转写课程录音文件？",
+      "body": "上传式转写工具，是处理你提供的音频或视频文件的服务。国内常见的有讯飞听见、飞书妙记、通义听悟，海外有 Otter.ai、TurboScribe、Notta、Descript，它们大体都是这样工作的：上传录音或会议文件，等待处理，拿到文字稿，有的还会区分说话人。当你已经有文件时，它们就是最合适的选择，比如线下课用手机录的录音、老师分享出来的会议录制 MP4，或者一期播客。\n\n对学生来说，它们的限制在于输入。多数网课平台只提供在线播放，没有下载选项，也就没有东西可上传。为了得到文件而去录屏，既慢又让时间翻倍，还可能违反平台或学校的使用条款。",
+      "internal_links": [
+        {
+          "text": "适合学生的 Otter.ai 替代工具",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "不下载视频，怎么把网课转成文字？",
+      "body": "当你只能点播放的时候，浏览器实时转录就是能用的那个方法。LessonScriptor 是一款 Chrome 扩展，它会把当前标签页里正在播放的音频（中国大学MOOC、学堂在线、B站、腾讯会议网页版、Coursera，或海外大学的 Panopto、Canvas、Moodle）实时转成侧边栏里的文字稿，你可以边生成边编辑。它不上传文件，也不录音：保存的是文字，而不是录音。\n\n它有两种模式。**免费模式**通过麦克风使用 Chrome 内置的语音识别，不花钱、不用注册账号，音频也不会发送到 LessonScriptor 的服务器；但扬声器音量要开到约 80%，不能戴耳机，而且你自己说的话也会被转录进去。另外，Chrome 内置语音识别在中国大陆的部分网络环境下可能无法正常使用，建议先实际测试一下。**AI 模式**直接捕获标签页音频，所以戴耳机也能用，对口音和专业术语的识别准确得多。价格为 5 小时 $5、15 小时 $12、30 小时 $21，一次性购买，不是订阅，并提供 30 分钟免费试用。价格以美元计，Stripe 结账时会换算成你的本地货币。",
+      "steps": [
+        "从 Chrome 网上应用店安装 LessonScriptor（需要能正常访问 Chrome 网上应用店）。免费模式无需注册。",
+        "在 Chrome 中打开你的网课：中国大学MOOC、学堂在线、B站、腾讯会议网页版回放、Coursera 或学校平台上的录播。",
+        "点击 LessonScriptor 图标打开侧边栏，选择课程使用的语言（共支持 14 种语言，包括中文）。",
+        "点击播放。免费模式下请调高扬声器音量并摘下耳机；AI 模式下文字会分段出现，普通模式每 10 秒一段，优化模式每 30 秒一段。",
+        "边看边编辑：用五种颜色之一高亮重点句子、加粗术语、添加小标题、删掉跑题内容，并把重要的课件页面截图插入文字稿。",
+        "导出为 .md 或 .txt，或复制到剪贴板，再粘贴到 Notion、Obsidian、飞书文档或康奈尔笔记模板里。"
+      ],
+      "internal_links": [
+        {
+          "text": "Chrome 课程转录功能详解",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "免费把任意视频转成文字",
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "各个网课平台分别怎么转文字？",
+      "body": "下面是同学们最常用的五类平台的最短路径：先试平台自带的方法，不行再用实时转录兜底。",
+      "subsections": [
+        {
+          "h3": "中国大学MOOC / 学堂在线",
+          "body": "先看播放器里有没有字幕开关。如果有字幕，而你只是想核对某一段，这就够了。如果想要一份完整、可编辑的文字稿，就在 Chrome 中打开课程页面，打开 LessonScriptor 侧边栏，再点播放。平台的倍速播放（1.25x 到 1.5x）在 AI 模式下可以用，不过正常速度下准确度最好。"
+        },
+        {
+          "h3": "雨课堂 / 智慧树",
+          "body": "如果课程回放能在电脑网页端播放，就在 Chrome 里打开，确认有没有字幕；没有的话，直接在同一个标签页里运行 LessonScriptor。如果你的学校只在微信小程序或手机端提供回放，LessonScriptor 就用不上，因为它只能在电脑版 Chrome 里运行。"
+        },
+        {
+          "h3": "B站公开课",
+          "body": "有 CC 字幕或 AI 字幕的视频，打开字幕就能快速查看。没有字幕、字幕质量差，或者你想一边看一边在文字稿里做高亮和截图时，就用 LessonScriptor。"
+        },
+        {
+          "h3": "腾讯会议 / 钉钉直播回放",
+          "body": "这类软件可能自带录制转写或文字记录功能，能否使用取决于主持人的设置和账号权益。如果回放能在浏览器网页里播放，就在 Chrome 中打开并使用 LessonScriptor；如果只能在桌面客户端里看，LessonScriptor 无法转录，因为它只处理 Chrome 标签页里的声音。如果老师分享的是一个本地 MP4 文件，用讯飞听见、通义听悟等上传工具会更直接。"
+        },
+        {
+          "h3": "Coursera、YouTube 与 Zoom（留学生常用）",
+          "body": "YouTube 可以先用 **...更多 → 显示文字记录** 快速复制。Coursera 的不少课程本身带有字幕和文字稿。Zoom 云录制如果主持人开启了音频转录，网页播放器旁会显示文字记录；如果没有，就在 Chrome 中播放云录制并使用 LessonScriptor。"
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "学生如何获取 Zoom 和 Google Meet 文字记录",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "怎样让课程转录更准确？",
+      "body": "转录准确度更多取决于音频质量，而不是工具本身。下面这几个习惯影响最大。",
+      "steps": [
+        {
+          "strategy": "先选对语言。",
+          "detail": "一堂中文课却选了英语，出来的只会是乱码一样的文字。点播放之前，先把语言设好。"
+        },
+        {
+          "strategy": "口音、术语多或有噪音时，用 AI 模式。",
+          "detail": "浏览器自带的语音识别很难应付有机化学、法学术语，或者带浓重地方口音的老师。Whisper 级别的云端模型处理这些情况要好得多。"
+        },
+        {
+          "strategy": "免费模式下，给麦克风干净的声音。",
+          "detail": "扬声器开到 80% 以上，不戴耳机，房间保持安静，自己也别出声，因为你说的话同样会被转录。"
+        },
+        {
+          "strategy": "播放速度尽量保持在 1x 左右。",
+          "detail": "超过 1.5 倍速时会漏字。不如按正常速度看，之后快速浏览文字稿。"
+        },
+        {
+          "strategy": "关键术语改一次就好。",
+          "detail": "某个人名或公式第一次被识别错时就改正并加粗，之后复习时一眼就能找到。"
+        }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "学生上课录音，最好用什么方法？",
+      "body": "最好的上课录音方式，取决于是线下课还是网课。在大教室里，把手机放在靠近讲台的位置，用 iPhone 的语音备忘录或 Android 手机自带的录音机录音；不少安卓手机的录音机本身就带有录音转文字功能，具体看机型。用 iPad 记手写笔记的同学，也可以用 Notability 的录音同步功能。录完之后，再用讯飞听见、通义听悟等上传工具把文件转成文字。至于网课和录播课，通常根本不需要自己录音，因为学校或平台已经保存了视频；在浏览器里实时转录，就能直接拿到文字，而不必额外生成一份录音。"
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "上课录音或转录课程合法吗？",
+      "body": "给课程录音，通常需要先征得老师同意，很多学校的规定里也写明了这一点。课程内容往往受著作权保护，属于老师或课程平台，录音里还可能录进同学的声音，涉及他人隐私。稳妥又礼貌的做法是：学期开始时先问老师，录音和文字稿只用于个人学习，绝不公开发布或转卖。\n\n有残障的学生，包括 ADHD、读写障碍或听力障碍，一般可以向学校申请合理便利，例如获得课程录音、字幕或笔记方面的支持，可以先咨询辅导员、教务处或学校的相关服务部门。各国、各校的规定不同，请以你所在学校的政策为准。本文不构成法律建议。",
+      "internal_links": [
+        {
+          "text": "ADHD 大学生的合理便利与实用工具",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "拿到课程文字稿后，怎么用它来复习？",
+      "body": "文字稿是原材料，不是笔记。先快速通读一遍，高亮老师反复强调的三到五个观点；把每个可能考到的术语加粗，在每次换话题的地方加一个小标题。然后把导出的 .md 文件粘贴到 Notion、Obsidian 或飞书文档里，也可以交给 ChatGPT、NotebookLM、DeepSeek 或 Kimi 这类 AI 助手帮你提炼要点。最后这一步是在 LessonScriptor 之外完成的，它本身不会生成摘要。考前用完整文字稿给自己出题、自测。",
+      "internal_links": [
+        {
+          "text": "课堂讲座最好用的 AI 笔记工具",
+          "url": "/blog/ai-note-taker-for-lectures"
+        },
+        {
+          "text": "ADHD 学生如何记笔记",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
     }
   ],
-  "faq": {
-    "heading": "FAQ",
-    "questions": [
+  "summary": {
+    "heading": "一句话总结",
+    "body": "有文件，就用上传转写工具；视频在 B站、YouTube 上，或者网课平台有字幕，就直接看字幕；如果只能在中国大学MOOC、学堂在线、学校平台或会议回放里点播放，LessonScriptor 可以把 Chrome 标签页里播放的内容转成可编辑的文字稿：麦克风模式免费，AI 模式一次性购买，$5 起。",
+    "internal_links": [
       {
-        "question": "我可以自动转录 Zoom 课程录制吗？",
-        "answer": "可以。在 Chrome 中打开 Zoom 录制并使用 LessonScriptor 转录。它适用于 Chrome 中播放的任何视频，包括 Zoom、Google Meet、Teams 和大学视频门户网站。"
-      },
-      {
-        "question": "自动课程转录支持法语或西班牙语吗？",
-        "answer": "支持。LessonScriptor 支持 14 种以上语言。在设置中选择您的语言，转录将以该语言显示。"
-      },
-      {
-        "question": "使用转录工具听课算作弊吗？",
-        "answer": "不算。转录工具是学习辅助工具，类似于录音设备。它们记录说了什么——学习和分析仍然由您完成。许多大学明确允许并鼓励学生使用无障碍工具。"
-      },
-      {
-        "question": "学生最好用什么转录工具？",
-        "answer": "LessonScriptor 是学生的最佳转录工具，因为它直接在 Chrome 中适用于任何视频平台，提供无限制的免费模式，并支持边看边实时编辑——与大多数只能在结束后生成静态转录文本的工具不同。"
+        "text": "了解 Chrome 课程转录如何工作",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "internal_links": [
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "视频转文字有免费的方法吗？",
+        "answer": "有。如果视频在 B站或 YouTube 上，可以打开字幕或 YouTube 的文字记录面板；如果网课平台开启了字幕，可以直接看平台字幕；也可以用 LessonScriptor 的免费模式，它通过麦克风转录 Chrome 中播放的任何视频，无需注册账号。"
+      },
+      {
+        "question": "不下载视频，能把中国大学MOOC 或学校平台上的网课转成文字吗？",
+        "answer": "可以。LessonScriptor 转录的是 Chrome 标签页里正在播放的内容，所以不需要视频文件。部分慕课和学校平台的课程本身也带有字幕，前提是课程方或老师提供了。"
+      },
+      {
+        "question": "LessonScriptor 会录下课程音频吗？",
+        "answer": "不会。LessonScriptor 保存的是文字稿，而不是音频或视频录音，也不能上传 MP3 或 MP4 文件。它只转录标签页里正在播放的内容。"
+      },
+      {
+        "question": "腾讯会议、钉钉或 Zoom 的课程回放能转文字吗？",
+        "answer": "可以，只要回放能在 Chrome 网页中播放，就能用 LessonScriptor 转录；会议软件自带的转写功能如果被主持人开启，也可以直接使用。如果只有本地 MP4 文件，用讯飞听见、通义听悟或 Otter.ai 等上传工具更直接。"
+      },
+      {
+        "question": "课程转录支持英语等其他语言吗？",
+        "answer": "支持。LessonScriptor 支持 14 种语言，包括中文、英语、法语、西班牙语、葡萄牙语、德语、阿拉伯语和印地语。点播放前先选好课程所用的语言。"
+      },
+      {
+        "question": "上课录音需要老师同意吗？",
+        "answer": "通常需要。请先询问老师，并查看学校的相关规定，录音和文字稿仅限个人学习使用。有残障的学生，一般可以向学校申请合理便利，获得录音或文字稿方面的支持。"
+      }
+    ]
+  },
+  "schemas": [
     {
-      "text": "Best study tools for neurodivergent students",
-      "url": "/blog/neurodivergent-study-tools"
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "课程视频怎么转文字：5 种网课转录方法对比",
+      "description": "网课、课程视频怎么转文字？对比手动打字、B站与慕课字幕、上传转写工具和 Chrome 实时转录，无需下载视频，也能得到可编辑、可导出的课堂文字稿。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/ruhe-zhuanlu-jiangke-shipin",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "患有 ADHD 的人类学学生",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发与 SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "不下载视频，如何把课程视频转成文字",
+      "inLanguage": "zh-CN",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor Chrome 扩展"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "安装扩展",
+          "text": "从 Chrome 网上应用店安装 LessonScriptor。免费模式无需注册。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "打开网课",
+          "text": "在 Chrome 中打开你的网课：中国大学MOOC、学堂在线、B站、会议回放或学校平台上的录播。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "打开侧边栏",
+          "text": "点击 LessonScriptor 图标打开侧边栏，选择课程使用的语言。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "点击播放",
+          "text": "点击播放。免费模式下调高扬声器音量并摘下耳机；AI 模式下文字每 10 秒或 30 秒分段出现。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "边看边编辑",
+          "text": "高亮重点句子、加粗术语、添加小标题，并截取重要的课件页面。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "导出",
+          "text": "导出为 .md 或 .txt，或把文字稿复制到剪贴板。"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "视频转文字有免费的方法吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。如果视频在 B站或 YouTube 上，可以打开字幕或 YouTube 的文字记录面板；如果网课平台开启了字幕，可以直接看平台字幕；也可以用 LessonScriptor 的免费模式，它通过麦克风转录 Chrome 中播放的任何视频，无需注册账号。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "不下载视频，能把中国大学MOOC 或学校平台上的网课转成文字吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。LessonScriptor 转录的是 Chrome 标签页里正在播放的内容，所以不需要视频文件。部分慕课和学校平台的课程本身也带有字幕，前提是课程方或老师提供了。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor 会录下课程音频吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不会。LessonScriptor 保存的是文字稿，而不是音频或视频录音，也不能上传 MP3 或 MP4 文件。它只转录标签页里正在播放的内容。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "腾讯会议、钉钉或 Zoom 的课程回放能转文字吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，只要回放能在 Chrome 网页中播放，就能用 LessonScriptor 转录；会议软件自带的转写功能如果被主持人开启，也可以直接使用。如果只有本地 MP4 文件，用讯飞听见、通义听悟或 Otter.ai 等上传工具更直接。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "课程转录支持英语等其他语言吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支持。LessonScriptor 支持 14 种语言，包括中文、英语、法语、西班牙语、葡萄牙语、德语、阿拉伯语和印地语。点播放前先选好课程所用的语言。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "上课录音需要老师同意吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "通常需要。请先询问老师，并查看学校的相关规定，录音和文字稿仅限个人学习使用。有残障的学生，一般可以向学校申请合理便利，获得录音或文字稿方面的支持。"
+          }
+        }
+      ]
     }
-  ],
-  "schemas": []
+  ]
 }

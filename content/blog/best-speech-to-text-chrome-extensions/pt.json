@@ -2,413 +2,479 @@
   "slug": "best-speech-to-text-chrome-extensions",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "As 5 melhores extensões Chrome de reconhecimento de voz para estudantes em 2026",
-  "reading_time_min": 8,
+  "h1": "Melhores extensões do Chrome de voz para texto (2026): ditado ou transcrição",
+  "reading_time_min": 11,
   "published_at": "2026-04-29",
-  "updated_at": "2026-04-29",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Melhores extensões Chrome reconhecimento de voz 2026 (estudantes e aulas)",
-    "description": "As 5 melhores extensões Chrome de reconhecimento de voz em 2026 — comparadas por precisão, idiomas, transcrição em tempo real e preço. LessonScriptor vence para transcrição de aulas.",
+    "title": "Extensão do Chrome de voz para texto: ditado vs transcrição",
+    "description": "Extensão do Chrome de voz para texto: as melhores para ditado (Voice In, Speechnotes, digitação por voz do Docs) e para transcrever aulas e vídeos, comparadas",
+    "keywords": [
+      "extensão chrome voz para texto",
+      "ditado por voz chrome",
+      "speech to text chrome",
+      "digitação por voz google docs",
+      "extensão de ditado chrome",
+      "transcrever voz em texto chrome"
+    ],
     "og_image": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
-    "canonical": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
-    "og_title": "Melhores extensões Chrome reconhecimento de voz 2026",
-    "og_description": "5 extensões Chrome de reconhecimento de voz comparadas — precisão em tempo real, suporte ao YouTube, exportação e preço.",
+    "canonical": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-fala-para-texto",
+    "og_title": "Melhores extensões do Chrome de voz para texto (2026): ditado ou transcrição",
+    "og_description": "Ditar um e-mail no Gmail ou transcrever uma aula gravada: duas tarefas diferentes, dois grupos de ferramentas.",
     "twitter_card": "summary_large_image"
   },
   "hero_image": {
     "src": "/images/blog/best-speech-to-text-chrome-extensions-hero.png",
-    "alt": "Navegador Chrome exibindo uma transcrição de voz para texto em tempo real ao lado de uma aula em vídeo",
+    "alt": "Navegador Chrome com digitação por voz em um documento e a transcrição ao vivo de uma videoaula",
     "width": 1200,
-    "height": 630,
-    "caption": null,
-    "description_for_designer": "Chrome browser mockup with a side panel showing live speech-to-text transcription of a university lecture video. Clean editorial style, warm cream background, terra-cotta accent colour. Five extension logos arranged in a comparison grid below."
+    "height": 630
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria e Pierre desenvolvem o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
-    "url": "/transcribe-video-to-text"
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
-    "label": "Pontos principais",
-    "lead": "A melhor extensão Chrome de reconhecimento de voz para estudantes é o LessonScriptor para transcrição de aulas e YouTube, e as Legendas ao vivo do Google (integradas ao Chrome, sem instalação) para legendas rápidas somente leitura de qualquer áudio.",
+    "label": "Resumo",
+    "lead": "\"Voz para texto no Chrome\" são dois trabalhos diferentes. O ditado escreve a sua voz num campo de texto (Gmail, Google Docs, um formulário). A transcrição transforma um áudio que já está tocando (uma aula, um vídeo, uma chamada) em um texto que você guarda. Nenhuma ferramenta é a melhor nos dois.",
     "bullets": [
-      "LessonScriptor transcreve qualquer vídeo no Chrome em uma transcrição editável e exportável. O modo gratuito funciona imediatamente — sem necessidade de conta.",
-      "As Legendas ao vivo do Google estão integradas ao Chrome desde a versão 89 — ative em chrome://settings/accessibility. Somente leitura, mas funciona em qualquer áudio sem extensão.",
-      "Speechnotes é ideal para ditado — digitar por voz em um documento — não para transcrever áudio de vídeo.",
-      "Notta cobre mais de 50 idiomas, tornando-a a melhor escolha para transcrição em idiomas asiáticos e do Oriente Médio.",
-      "Tactiq é otimizado para reuniões ao vivo no Google Meet e Zoom, não para vídeos gravados."
+      "Para ditar em qualquer site, o Voice In é a extensão do Chrome mais completa: mais de 50 idiomas, português incluído, e um plano grátis que cobre Gmail, Google Docs e WhatsApp.",
+      "Talvez você nem precise de extensão: a Digitação por voz do Google Docs, a Digitação por voz do Windows (Win+H) e o Ditado do macOS são grátis e já vêm instalados.",
+      "Para transcrever aulas e vídeos que tocam no Chrome, o LessonScriptor guarda uma transcrição editável e exportável. As legendas instantâneas do Chrome mostram o texto, mas não guardam nada.",
+      "O LessonScriptor NÃO digita nos campos de texto de outros sites. É uma ferramenta de transcrição, não de ditado. O modo grátis também ouve a sua voz pelo microfone, mas o texto fica no painel dele.",
+      "Para reuniões ao vivo no Google Meet, Zoom ou Teams, Tactiq e Otter foram feitos para isso."
     ]
   },
-  "intro": "Uma extensão Chrome de reconhecimento de voz é um complemento de navegador que converte áudio falado — de um vídeo, microfone ou reunião ao vivo — em texto legível e pesquisável diretamente no Chrome. Para estudantes assistindo aulas gravadas no YouTube, Canvas ou Coursera, ou profissionais em videochamadas consecutivas, a extensão certa pode eliminar completamente as anotações manuais. Este guia compara as cinco extensões Chrome de reconhecimento de voz mais usadas em 2026: LessonScriptor, as Legendas ao vivo do Google, Speechnotes, Notta e Tactiq. O veredicto antecipado: LessonScriptor vence para transcrição de aulas e vídeos; as Legendas ao vivo do Google vencem para legendagem em todo o sistema sem instalação. Cada ferramenta tem um caso de uso ideal — e saber qual se encaixa no seu é importante.",
   "stats": [
     {
-      "number": "50+",
-      "label": "plataformas de vídeo que o LessonScriptor transcreve em tempo real"
+      "number": "2",
+      "label": "trabalhos diferentes por trás de \"voz para texto\": ditado e transcrição"
+    },
+    {
+      "number": "3",
+      "label": "ferramentas de ditado grátis já integradas ao Docs, Windows e macOS"
     },
     {
       "number": "14",
-      "label": "idiomas suportados pela transcrição IA do LessonScriptor"
-    },
-    {
-      "number": "680K hrs",
-      "label": "de fala com que o OpenAI Whisper (LessonScriptor Premium) foi treinado"
+      "label": "idiomas que o LessonScriptor transcreve, incluindo o português"
     }
   ],
+  "intro": "Uma extensão do Chrome de voz para texto é um complemento que transforma fala em texto, mas a expressão cobre duas necessidades que pedem ferramentas diferentes. O **ditado** (ou digitação por voz) é falar para que as palavras sejam digitadas onde está o cursor: uma resposta no Gmail, um Google Doc, um formulário. A **transcrição** é transformar um áudio que já está tocando, um vídeo do YouTube, uma aula gravada no AVA/Moodle da USP ou da Unicamp, uma chamada no Zoom, em um texto que você pode guardar. A maioria das pessoas que procura uma \"extensão do Chrome para ditado\" quer a primeira coisa, e aí as melhores opções são o Voice In, o Speechnotes e a Digitação por voz do Google Docs, além da Digitação por voz do Windows (Win+H) e do Ditado do macOS, que são grátis. Se você precisa transcrever aulas ou vídeos, compare o LessonScriptor, as legendas instantâneas do Chrome, o Tactiq e o Otter. Nós desenvolvemos o LessonScriptor, então vamos ser claros: ele transcreve o que toca no Chrome e não digita em outros sites.",
   "sections": [
     {
-      "id": "what-is-speech-to-text-chrome-extension",
-      "h2": "O que é uma extensão Chrome de reconhecimento de voz?",
-      "body": "Uma extensão Chrome de reconhecimento de voz é um complemento de navegador que escuta o áudio — do seu microfone, de um vídeo em reprodução ou de uma reunião ao vivo — e o converte em texto em tempo real, dentro do Chrome.\n\nA categoria se divide em dois tipos distintos:\n\n**Ferramentas de ditado** capturam sua voz pelo microfone e permitem que você escreva falando. Speechnotes é o exemplo mais popular. Você abre, fala, e as palavras aparecem em um documento. Útil para redigir e-mails ou anotações com as mãos livres.\n\n**Ferramentas de transcrição** capturam áudio de uma fonte externa — uma aula em vídeo, uma chamada no Zoom, um tutorial do YouTube — e produzem uma transcrição pesquisável e salvável. LessonScriptor, as Legendas ao vivo do Google, Notta e Tactiq pertencem a essa categoria.\n\nA maioria dos estudantes que procuram uma extensão Chrome de reconhecimento de voz precisa do segundo tipo: uma forma de obter uma transcrição de um vídeo ou reunião. Os dois tipos usam pipelines de áudio diferentes e não são intercambiáveis. Uma ferramenta de ditado não consegue transcrever um vídeo do YouTube — ela só ouve o seu microfone.",
-      "internal_links": [
-        {
-          "text": "Saiba como funcionam as Legendas ao vivo do Chrome",
-          "internal": true,
-          "url": "/live-captions-chrome"
-        }
-      ]
+      "id": "dictation-vs-transcription",
+      "h2": "Qual a diferença entre ditado e transcrição no Chrome?",
+      "body": "Ditado é uma forma de digitar: o Chrome (ou o sistema operacional) escuta o microfone e digita o que você fala onde estiver o cursor. O resultado é uma frase no Gmail, um parágrafo no Google Docs, um campo de formulário preenchido. Você fala, ele escreve, você segue.\n\nTranscrição é uma captura: a ferramenta escuta uma fonte, geralmente um vídeo, a gravação de uma aula ou uma chamada, e monta à parte o texto de tudo o que foi dito. O resultado é um documento que você relê, edita e exporta depois, a base do seu resumo.\n\nOs dois usam caminhos de áudio diferentes, por isso não são intercambiáveis. O Voice In espera uma pessoa falando perto do microfone e insere trechos curtos de texto na página. O LessonScriptor espera um áudio longo, muitas vezes um professor ou um vídeo, e guarda tudo num só lugar. Se você escolher a categoria errada, a ferramenta vai \"funcionar\" e ainda assim não servir para o que você queria.",
+      "callout": {
+        "type": "checklist",
+        "label": "Do que você precisa?",
+        "body": "**Você quer falar e ver as palavras aparecerem no Gmail, Google Docs, ChatGPT ou num formulário:** você precisa de ditado. Digitação por voz do Google Docs (dentro do Docs), Win+H no Windows, Ditado no Mac, ou as extensões Voice In / Speechnotes. Dragon se você dita o dia inteiro no trabalho.\n\n**Você quer o texto de uma aula, um vídeo do YouTube ou uma aula gravada no AVA:** você precisa de transcrição. LessonScriptor para uma transcrição editável e exportável, ou as legendas instantâneas do Chrome se você só quer ler na hora.\n\n**Você quer anotações de uma reunião ao vivo no Google Meet, Zoom ou Teams:** Tactiq ou Otter, feitos para reuniões.\n\n**Você quer pensar em voz alta e guardar o texto como anotação:** o modo grátis do LessonScriptor consegue, porque escuta pelo microfone, mas escreve no painel dele. Ele não vai digitar no Docs ou no Gmail por você."
+      }
     },
     {
-      "id": "best-speech-to-text-chrome-extensions-2026",
-      "h2": "Quais são as melhores extensões Chrome de reconhecimento de voz em 2026?",
-      "body": "As cinco melhores extensões Chrome de reconhecimento de voz em 2026, classificadas por adequação ao caso de uso para estudantes e profissionais:",
+      "id": "comparison-table",
+      "h2": "Quais ferramentas de voz para texto funcionam no Chrome?",
+      "body": "Estas são as dez ferramentas do guia, organizadas pelo trabalho que fazem. A coluna \"Digita em qualquer site\" é a que separa ditado de transcrição.",
       "table": {
-        "caption": "Melhores extensões Chrome de reconhecimento de voz 2026 — comparação por precisão, caso de uso e preço.",
         "headers": [
-          "Extensão",
-          "Ideal para",
-          "Transcrição em tempo real",
-          "Transcrição editável",
-          "Exportar",
-          "Idiomas",
+          "Ferramenta",
+          "Trabalho",
+          "Digita em qualquer site",
+          "Guarda uma transcrição",
+          "Funciona com áudio de vídeo/aula",
           "Preço"
         ],
         "rows": [
-          {
-            "cells": [
-              "LessonScriptor",
-              "Aulas em vídeo, YouTube, Canvas, gravações do Zoom",
-              "Sim",
-              "Sim",
-              "Markdown, área de transferência",
-              "14",
-              "Grátis + pagamento por uso"
-            ],
-            "highlight": true,
-            "badge": "Melhor para estudantes"
-          },
-          {
-            "cells": [
-              "Google Live Captions (integrado)",
-              "Qualquer áudio, sem instalação",
-              "Sim",
-              "Não",
-              "Nenhum",
-              "20+",
-              "Grátis (integrado)"
-            ],
-            "highlight": false,
-            "badge": "Mais fácil de ativar"
-          },
-          {
-            "cells": [
-              "Speechnotes",
-              "Ditado de voz / escrita por voz",
-              "Sim (somente microfone)",
-              "Sim",
-              "Google Docs, TXT",
-              "Inglês principalmente",
-              "Grátis + $9,99/mês"
-            ],
-            "highlight": false,
-            "badge": "Melhor para ditado"
-          },
-          {
-            "cells": [
-              "Notta",
-              "Reuniões e uploads multilíngues",
-              "Sim (reuniões)",
-              "Sim",
-              "TXT, DOCX, SRT",
-              "50+",
-              "Grátis (120 min/mês) + $9/mês"
-            ],
-            "highlight": false,
-            "badge": "Melhor cobertura de idiomas"
-          },
-          {
-            "cells": [
-              "Tactiq",
-              "Reuniões ao vivo no Google Meet / Zoom",
-              "Sim",
-              "Sim",
-              "Google Docs, Notion",
-              "Inglês principalmente",
-              "Grátis (10/mês) + $8/mês"
-            ],
-            "highlight": false,
-            "badge": "Melhor para reuniões ao vivo"
-          }
+          [
+            "Voice In",
+            "Ditado (extensão)",
+            "Sim, sites populares no grátis, 1.000+ no Plus",
+            "Não",
+            "Não",
+            "Grátis; Plus US$ 60/ano"
+          ],
+          [
+            "Speechnotes",
+            "Ditado (web + extensão)",
+            "Sim, pela extensão",
+            "Sim, no bloco de notas dele",
+            "Não",
+            "Grátis com anúncios; Premium US$ 1,90/mês"
+          ],
+          [
+            "Digitação por voz do Google Docs",
+            "Ditado (integrado ao Docs)",
+            "Não, só Google Docs",
+            "Sim, é um Doc",
+            "Não",
+            "Grátis"
+          ],
+          [
+            "Digitação por voz do Windows (Win+H)",
+            "Ditado (integrado ao Windows)",
+            "Sim, qualquer caixa de texto",
+            "Não",
+            "Não",
+            "Grátis, precisa de internet"
+          ],
+          [
+            "Ditado do macOS",
+            "Ditado (integrado ao macOS)",
+            "Sim, qualquer campo",
+            "Não",
+            "Não",
+            "Grátis"
+          ],
+          [
+            "Dragon Professional",
+            "Ditado (software de desktop)",
+            "Sim, no Windows",
+            "Não",
+            "Não",
+            "Licença paga única"
+          ],
+          [
+            "LessonScriptor",
+            "Transcrição (extensão)",
+            "Não",
+            "Sim, editável, exporta .txt/.md",
+            "Sim, tudo o que toca no Chrome",
+            "Modo grátis; pacotes IA a partir de US$ 5"
+          ],
+          [
+            "Legendas instantâneas do Chrome",
+            "Legendas (integradas ao Chrome)",
+            "Não",
+            "Não, elas somem",
+            "Sim",
+            "Grátis"
+          ],
+          [
+            "Tactiq",
+            "Transcrição de reuniões (extensão)",
+            "Não",
+            "Sim",
+            "Meet, Zoom, Teams",
+            "10 transcrições/mês grátis; Pro a partir de € 6,67/mês"
+          ],
+          [
+            "Otter",
+            "Transcrição de reuniões (app + extensão)",
+            "Não",
+            "Sim",
+            "Reuniões e arquivos enviados",
+            "Plano grátis com minutos mensais"
+          ]
         ]
       }
     },
     {
-      "id": "lessonscriptor-review",
-      "h2": "LessonScriptor: a melhor extensão de reconhecimento de voz para aulas e YouTube",
-      "body": "LessonScriptor é uma extensão Chrome que transcreve qualquer vídeo reproduzido no Chrome em um painel lateral persistente e editável. Funciona no YouTube, gravações em nuvem do Zoom, Canvas, Coursera, edX, Skillshare, Vimeo, TED Talks e mais de 50 outras plataformas — qualquer vídeo que seja reproduzido no Chrome.\n\nInstalar o LessonScriptor pela Chrome Web Store leva um clique. Nenhuma conta é necessária para usar o modo gratuito. Abra um vídeo, clique no ícone do LessonScriptor na barra de ferramentas e o painel lateral se preenche com uma transcrição ao vivo enquanto o vídeo é reproduzido.\n\n**O modo gratuito** usa a API Web Speech do Chrome, que processa o áudio no dispositivo via microfone. É preciso, privado e ilimitado. O mesmo motor alimenta as Legendas ao vivo integradas do Google.\n\n**O modo Premium** usa a captura de áudio da aba — ele obtém o áudio diretamente da aba do navegador em vez do microfone — e o envia ao OpenAI Whisper para transcrição. O treinamento do Whisper com 680.000 horas de dados de fala o torna substancialmente mais preciso em vocabulário acadêmico, nomes de professores, terminologia técnica e aulas em outros idiomas. Como o Premium captura o áudio da aba, funciona com fones de ouvido; o modo gratuito exige que o áudio saia pelos alto-falantes para que o microfone o capte.\n\n**O que diferencia o LessonScriptor:** A transcrição é totalmente editável. Clique em qualquer palavra para corrigir um termo mal ouvido. Destaque trechos em cinco cores. Adicione negrito e cabeçalhos de seção para transformar uma transcrição bruta em anotações estruturadas. Exporte em Markdown para colar diretamente no Notion, Obsidian ou Google Docs com a formatação preservada.\n\nPara qualquer estudante cujo fluxo de trabalho principal seja assistir conteúdo de vídeo gravado e construir anotações a partir dele, LessonScriptor é a extensão Chrome de reconhecimento de voz mais completa disponível em 2026.",
-      "internal_links": [
+      "id": "best-dictation-extensions",
+      "h2": "Qual é a melhor extensão do Chrome para ditado por voz?",
+      "body": "O Voice In é a melhor extensão de ditado do Chrome para a maioria das pessoas, porque digita direto no campo que você já está usando, num número enorme de sites. O Speechnotes é melhor se você prefere um bloco de ditado limpo, e a Digitação por voz do Google Docs é a melhor opção grátis se você já escreve no Docs.",
+      "subsections": [
         {
-          "text": "Como o LessonScriptor se compara às Legendas ao vivo integradas do Chrome",
-          "internal": true,
-          "url": "/blog/chrome-live-captions-not-working"
+          "h3": "Voice In: ditado em quase qualquer site",
+          "body": "O Voice In é uma extensão do Chrome (também para Edge) que permite ditar em qualquer texto editável: Gmail, Google Docs, ChatGPT, WhatsApp Web, WordPress, Outlook ou Salesforce. Suporta mais de 50 idiomas, português incluído, com comandos de voz para pontuação no plano grátis. O plano grátis cobre sites populares como Gmail, Google Docs e WhatsApp; o **Voice In Plus** (US$ 60/ano) acrescenta um modo avançado para mais de 1.000 sites, comandos personalizados e ditado em várias abas.\n\n**Ideal para:** ter um único atalho que funciona em todas as abas, do e-mail ao WhatsApp Web e aos formulários da faculdade."
         },
         {
-          "text": "Transcrever vídeo para texto com LessonScriptor",
-          "internal": true,
+          "h3": "Speechnotes: bloco de ditado e extensão de digitação por voz",
+          "body": "O Speechnotes é um bloco de ditado online grátis (speechnotes.co/dictate) com uma extensão do Chrome para ditar em formulários e caixas de texto de qualquer site, inclusive o Gmail. O ditado é grátis com anúncios, e o Premium tira os anúncios por US$ 1,90/mês. Ele também vende transcrição de arquivos por minuto (US$ 0,10/minuto) se você tiver um áudio para enviar, que é outro produto, separado do bloco.\n\n**Ideal para:** escrever rascunhos longos com a voz numa página sem distrações e depois copiar para onde precisar."
+        },
+        {
+          "h3": "Digitação por voz do Google Docs: grátis, integrada, só no Docs",
+          "body": "A Digitação por voz do Google Docs é o ditado integrado do Google, aberto em **Ferramentas > Digitação por voz** (ou Ctrl+Shift+S, Cmd+Shift+S no Mac). Funciona nas versões recentes do Chrome, Edge e Safari, reconhece mais de 100 idiomas, português do Brasil incluído, e entende pontuação ditada. Dois limites importam: ela só digita no Google Docs (e nas anotações do apresentador do Slides), e os comandos de voz só funcionam em inglês, então em português você corrige a pontuação na mão. Contas institucionais também podem ter o recurso desativado pelo administrador.\n\n**Ideal para:** estudantes que escrevem trabalhos e resumos no Google Docs sem instalar nada."
+        },
+        {
+          "h3": "Dragon Professional: ditado pesado no Windows",
+          "body": "O Dragon Professional, da Nuance (hoje parte da Microsoft), é um software de ditado para Windows, vendido como licença única, com uma extensão de navegador para controlar campos de texto no Chrome. É a opção mais treinável (vocabulários e comandos próprios) e é exagero, a não ser que você dite horas por dia, por exemplo em direito, medicina ou por necessidades de acessibilidade. Não há versão atual para Mac.\n\n**Ideal para:** profissionais e pessoas com limitações motoras ou LER que ditam o dia todo."
+        }
+      ]
+    },
+    {
+      "id": "built-in-dictation",
+      "h2": "Dá para digitar por voz no Chrome sem extensão?",
+      "body": "Sim. Windows e macOS trazem ditado grátis que digita em qualquer campo de texto, inclusive em todos os sites que você abre no Chrome. Para muita gente, a melhor \"extensão do Chrome de voz para texto\" é a que já está no computador.",
+      "subsections": [
+        {
+          "h3": "Digitação por voz do Windows (Win+H)",
+          "body": "A Digitação por voz do Windows abre com **tecla Windows + H** em qualquer caixa de texto, no Windows 10 e 11. Funciona onde houver cursor: Gmail, Google Docs, Notion, o AVA da faculdade ou um formulário no Chrome, sem extensão. Insere pontuação automaticamente se você ativar a opção, suporta mais de 40 idiomas, português incluído, e entende comandos como \"excluir isso\". O porém: usa o reconhecimento online da Microsoft (Azure Speech), então precisa de internet."
+        },
+        {
+          "h3": "Ditado do macOS",
+          "body": "O Ditado do macOS é ativado em **Ajustes do Sistema > Teclado > Ditado** e iniciado pela tecla Microfone ou pelo atalho que você escolher. A Apple descreve o recurso como uma forma de inserir texto em qualquer lugar onde se possa digitar, Chrome incluído. Ele coloca pontuação automática nos idiomas compatíveis, deixa você continuar digitando enquanto dita nos Macs com Apple silicon e para depois de 30 segundos de silêncio."
+        }
+      ]
+    },
+    {
+      "id": "transcription-tools",
+      "h2": "Qual extensão do Chrome usar para transcrever aulas e vídeos?",
+      "body": "O LessonScriptor é a melhor extensão do Chrome para transcrever aulas e vídeos em anotações que você guarda, porque monta uma transcrição editável num painel lateral a partir de tudo o que toca no Chrome. As legendas instantâneas do Chrome são o mais rápido se você só quer acompanhar, e Tactiq ou Otter servem melhor se o seu foco são reuniões ao vivo.",
+      "subsections": [
+        {
+          "h3": "LessonScriptor: transcrição editável de tudo o que toca no Chrome",
+          "body": "O LessonScriptor é uma extensão do Chrome que transcreve aulas, vídeos do YouTube e chamadas num painel lateral enquanto eles tocam. Funciona em plataformas universitárias (Moodle, Canvas, Blackboard, Panopto), YouTube, Coursera e Udemy, players embutidos, e Zoom, Google Meet ou Teams no navegador, incluindo gravações do Zoom.\n\n**Modo grátis (US$ 0, sem conta):** usa o reconhecimento de voz integrado do navegador pelo **microfone**. Ele ouve o vídeo pelas caixas de som, então o volume precisa estar alto (80% ou mais) e não funciona com fone de ouvido. Nenhum áudio é enviado aos servidores do LessonScriptor. Como escuta pelo microfone, também capta a sua voz: você pode pensar em voz alta e guardar o texto como anotação.\n\n**Modo IA (pague pelo uso):** captura o áudio direto da aba, então funciona com fone e sem microfone. Usa modelos na nuvem do tipo Whisper, muito melhores com sotaques, jargão e ruído de fundo. O texto chega em blocos (a cada 10 segundos no modo Normal, 30 segundos no modo Ótimo, mais preciso), não palavra por palavra. Os pacotes são pagamento único: 5 h por US$ 5, 15 h por US$ 12, 30 h por US$ 21 (o Stripe mostra o valor estimado em reais), créditos que não expiram e 30 minutos de teste grátis.\n\nA transcrição é um editor de anotações: marca-texto em cinco cores, negrito, títulos, tópicos, apagar trechos, captura do slide atual, e exportação em .txt ou .md ou cópia para a área de transferência. 14 idiomas, com português.\n\n**O que o LessonScriptor não é:** uma ferramenta de ditado. Ele não digita no Google Docs, Gmail, ChatGPT ou no campo de texto de outro site. Para isso, use Voice In, Speechnotes, a Digitação por voz do Docs ou Win+H."
+        },
+        {
+          "h3": "Legendas instantâneas do Chrome: grátis, mas não ficam",
+          "body": "As Legendas instantâneas (Live Caption) vêm integradas ao Chrome para Windows, Mac, Linux e ChromeOS, e são ativadas em **Configurações > Acessibilidade > Legendas instantâneas**. Elas legendam qualquer áudio do Chrome, processado localmente, em português, inglês, espanhol, francês, alemão, italiano, japonês, chinês e mais alguns idiomas. O limite: é uma caixinha de duas linhas que somem, sem histórico para salvar, editar ou exportar. Ótimo para acompanhar um vídeo numa biblioteca barulhenta, não para fazer anotações."
+        },
+        {
+          "h3": "Tactiq: transcrição de reuniões ao vivo sem bot",
+          "body": "O Tactiq é uma extensão do Chrome que transcreve chamadas do Google Meet, Zoom e Microsoft Teams em tempo real sem colocar um bot na reunião. O plano grátis inclui 10 transcrições por mês, e o Pro começa em € 6,67/mês no plano anual. É uma boa escolha para trabalhos em grupo e monitorias no Meet, mas não foi pensado para aulas gravadas."
+        },
+        {
+          "h3": "Otter: notas de reunião e envio de arquivos",
+          "body": "O Otter é um app de transcrição com extensão do Chrome, conhecido principalmente por notas de reunião em inglês com identificação de quem fala e resumos. O plano grátis tem uma cota mensal de minutos, e dá para enviar arquivos de áudio ou vídeo. Para um vídeo tocando numa aba, o próprio Otter recomenda tocá-lo em voz alta enquanto ele escuta pelo microfone, o mesmo método do modo grátis do LessonScriptor."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Legendas instantâneas do Chrome vs LessonScriptor: qual usar para anotações?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        },
+        {
+          "text": "Como transcrever um vídeo do YouTube em texto",
+          "url": "/blog/transcribe-youtube-video-to-text"
+        },
+        {
+          "text": "Transcrição de Zoom e Google Meet para estudantes",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "students",
+      "h2": "Qual ferramenta de voz para texto um estudante deve usar?",
+      "body": "Quase todo estudante precisa dos dois trabalhos, em momentos diferentes da semana, e as ferramentas grátis integradas cobrem mais do que parece.\n\n**Escrever um trabalho ou um e-mail com a voz:** a Digitação por voz do Google Docs se você escreve no Docs; Win+H ou o Ditado do macOS para todo o resto; Voice In se você quer uma só extensão para Gmail, Docs e os formulários do AVA.\n\n**Assistir a uma aula gravada no Moodle da USP, no AVA ou a um vídeo do YouTube:** LessonScriptor, para que o texto se monte enquanto você assiste e você possa marcar e organizar antes de acabar. Use o modo IA se você estuda de fone ou se o professor tem sotaque forte ou muito jargão.\n\n**Acompanhar um vídeo na biblioteca sem guardar anotações:** legendas instantâneas do Chrome.\n\n**Reuniões de grupo no Google Meet ou Teams:** Tactiq.\n\nPara estudantes com TDAH, essa diferença pesa ainda mais. Escrever enquanto escuta divide a atenção; deixar a transcrição se montar sozinha libera a memória de trabalho para acompanhar a aula, e o ditado ajuda a tirar uma ideia da cabeça antes que ela fuja. Muitos acabam usando uma ferramenta de cada coluna.",
+      "internal_links": [
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Transcrever vídeo em texto no Chrome",
           "url": "/transcribe-video-to-text"
         }
       ]
     },
     {
-      "id": "google-live-captions-review",
-      "h2": "O Chrome tem reconhecimento de voz integrado?",
-      "body": "Sim. O Chrome tem um recurso de reconhecimento de voz integrado chamado Legendas ao vivo desde o Chrome 89, lançado em 2021. Não é uma extensão — está integrado diretamente ao Chrome e não requer instalação nem visita à Chrome Web Store.\n\nPara ativar as Legendas ao vivo do Chrome: abra **chrome://settings/accessibility** na barra de endereços e ative **Legenda ao vivo**. Uma bolha de legenda flutuante aparecerá na parte inferior do Chrome sempre que um áudio for reproduzido.\n\nAs Legendas ao vivo do Chrome processam todo o áudio completamente no dispositivo. Nada é enviado aos servidores do Google. Isso as torna privadas por padrão e funcionais offline.\n\n**Onde as legendas integradas do Chrome se destacam:**\n- Zero fricção: ative uma vez, funciona em todo o áudio do Chrome automaticamente\n- Suporte a mais de 20 idiomas, incluindo vietnamita, tailandês, hindi e sueco\n- Totalmente grátis, sem conta, sem extensão necessária\n- Funciona em qualquer fonte de áudio: vídeos, podcasts, rádio web, arquivos de áudio\n\n**Onde as legendas integradas do Chrome ficam aquém:**\n- A transcrição é somente leitura — não pode ser editada, salva, copiada ou exportada\n- A bolha de legenda desaparece quando o áudio para; não há histórico\n- A precisão cai em vocabulário acadêmico, sotaques e nomes próprios\n- Pouco confiável com fones de ouvido no Windows (problema de roteamento de áudio — veja nosso [guia de solução](/blog/chrome-live-captions-not-working))\n\nAs Legendas ao vivo do Google são a ferramenta certa quando você precisa de legendas de acessibilidade rápidas e temporárias sem configuração. Não é uma ferramenta para anotações. Para estudantes que precisam guardar o que transcrevem, é o ponto de partida, não o destino.",
-      "internal_links": [
-        {
-          "text": "Legendas ao vivo do Chrome não funcionam? Veja o guia de solução",
-          "internal": true,
-          "url": "/blog/chrome-live-captions-not-working"
-        }
-      ]
-    },
-    {
-      "id": "speechnotes-review",
-      "h2": "Speechnotes: a melhor extensão Chrome para ditado de voz",
-      "body": "Speechnotes é uma extensão de ditado de voz para Chrome — converte suas palavras faladas em texto digitado em tempo real. É uma das extensões Chrome de reconhecimento de voz mais instaladas na Chrome Web Store, com uma interface limpa otimizada para escrita com as mãos livres.\n\nSpeechnotes escuta o seu microfone e produz texto em um documento do Speechnotes, que pode ser salvo no Google Docs, baixado como TXT ou copiado para a área de transferência.\n\n**A limitação principal:** Speechnotes captura apenas áudio do microfone. Não consegue transcrever um vídeo do YouTube, uma aula gravada, uma gravação do Zoom ou qualquer áudio reproduzido pelos alto-falantes. Se você abrir o Speechnotes enquanto um vídeo está sendo reproduzido, ele transcreverá o que ouvir no ambiente — não o áudio do vídeo diretamente.\n\n**Quando o Speechnotes faz sentido:** Ditar anotações, redigir e-mails com as mãos livres, ou descrever observações em laboratório ou campo onde digitar é inconveniente. Para esses casos de uso de ditado, Speechnotes é bem construído e gratuito.\n\nPara transcrição de vídeo — que é o que a maioria dos estudantes buscando uma extensão Chrome de transcrição por IA realmente precisa — LessonScriptor é a ferramenta correta."
-    },
-    {
-      "id": "which-extension-for-students",
-      "h2": "Qual extensão Chrome de reconhecimento de voz funciona melhor para estudantes?",
-      "body": "Para estudantes, a extensão Chrome de reconhecimento de voz correta depende inteiramente do que você está transcrevendo.\n\n**Assistir aulas em vídeo gravadas (YouTube, Canvas, Coursera, edX, gravações do Zoom):** Use o LessonScriptor. É a única extensão nessa comparação construída especificamente para transcrição de vídeo no Chrome. O modo gratuito funciona imediatamente sem conta. O modo Premium adiciona precisão do Whisper e suporte a fones de ouvido por €0,60/hora de áudio transcrito. Estudantes com TDAH se beneficiam especialmente: a transcrição elimina a carga de memória de trabalho de ouvir e escrever simultaneamente. Veja nosso <a href=\"/blog/how-to-take-notes-with-adhd\">guia completo de anotações para TDAH</a> e o <a href=\"/for-adhd-students\">hub para estudantes com TDAH</a>.\n\n**Legendas rápidas enquanto estuda, sem necessidade de anotações:** Use as Legendas ao vivo do Google (integradas ao Chrome). Ative uma vez nas configurações, esqueça que está lá. Perfeito para assistir a um vídeo no campus quando você esqueceu os fones de ouvido ou precisa acompanhar em um ambiente barulhento.\n\n**Participação em aula ao vivo no Google Meet ou Zoom:** Use Tactiq se sua principal necessidade é capturar transcrições de reuniões ao vivo com identificação de locutor. Tactiq integra bem com o feed nativo de legendas do Google Meet e exporta automaticamente para o Google Docs.\n\n**Digitar por voz:** Use Speechnotes para composição com mãos livres — ditar um ensaio, resumir anotações verbalmente, ou escrever em um contexto onde digitar é inconveniente.\n\n**A realidade acadêmica:** A maioria dos estudantes acaba com a ferramenta errada porque pesquisa \"reconhecimento de voz\" quando na verdade precisa de \"transcrição de vídeo\". Uma ferramenta de ditado como Speechnotes e uma ferramenta de transcrição de vídeo como LessonScriptor ambas convertem fala em texto — mas resolvem problemas completamente diferentes. Se o áudio vem de um arquivo de vídeo ou transmissão, você precisa do LessonScriptor ou Notta, não de uma ferramenta de ditado apenas para microfone.",
-      "internal_links": [
-        {
-          "text": "Como transcrever vídeos de aulas passo a passo",
-          "internal": true,
-          "url": "/transcribe-video-to-text"
-        }
-      ]
-    },
-    {
-      "id": "real-time-transcription-chrome",
-      "h2": "Qual extensão oferece a transcrição em tempo real mais precisa no Chrome?",
-      "body": "Para a precisão da transcrição em tempo real no Chrome, a resposta depende do modelo de áudio que está realizando o trabalho.\n\n**Precisão no dispositivo (Google Web Speech API):** As Legendas ao vivo do Chrome, o modo gratuito do LessonScriptor e Speechnotes usam todos a API Web Speech do Chrome para processamento no dispositivo. A precisão é comparável entre os três para fala inglesa padrão — aproximadamente 90-95% de precisão de palavras em áudio claro com um falante nativo. A precisão cai para 70-85% em fala com sotaque, jargão acadêmico ou nomes próprios.\n\n**Precisão com IA (modelos em nuvem):** LessonScriptor Premium e Notta usam modelos de IA em nuvem — OpenAI Whisper e o modelo proprietário da Notta, respectivamente — que produzem precisão notavelmente maior em conteúdo acadêmico. Whisper, que alimenta o LessonScriptor Premium, foi treinado com 680.000 horas de fala multilíngue incluindo aulas universitárias, apresentações de pesquisa e áudio de domínio específico. Em testes práticos com aulas de química, direito e medicina, a transcrição alimentada pelo Whisper produz menos erros em vocabulário técnico do que o modelo do Chrome no dispositivo.\n\n**Precisão em idiomas:** Para conteúdo em outros idiomas, a diferença aumenta. O modelo Whisper do LessonScriptor Premium e a Notta superam o modelo do Chrome no dispositivo em áudio acadêmico em francês, espanhol, alemão, japonês e coreano. O suporte a mais de 50 idiomas da Notta a torna a melhor escolha para idiomas que o LessonScriptor ainda não cobre.\n\n**Em resumo:** Para fala inglesa casual, todas as ferramentas têm desempenho similar. Para aulas acadêmicas — especialmente em outros idiomas ou áreas técnicas — LessonScriptor Premium (Whisper) ou Notta são as escolhas mais precisas."
+      "id": "accuracy",
+      "h2": "Qual opção de voz para texto é mais precisa no Chrome?",
+      "body": "A precisão depende mais do áudio do que da marca. O ditado é preciso porque as condições são ideais: uma só voz, perto do microfone, falando claro e fazendo pausas. Transcrever uma aula é mais difícil: um professor longe do microfone, uma gravação com eco, vocabulário técnico e sotaques.\n\nPara ditar, os motores integrados (o do Google no Docs e no Chrome, a digitação por voz do Windows baseada no Azure, o Ditado da Apple) funcionam bem com voz clara em português. O Dragon é o mais treinável se você usa vocabulário especializado.\n\nPara transcrever, o reconhecimento do navegador vai bem com áudio claro pelas caixas de som e cai com sotaques, jargão e ruído. Modelos na nuvem do tipo Whisper, usados pelo modo IA do LessonScriptor, se saem bem melhor nessas condições, com um pequeno atraso enquanto cada bloco é processado. Numa aula de direito ou medicina cheia de termos técnicos, é aí que o modo IA vale o que custa."
     }
   ],
-  "cta": {
-    "heading": "Transcreva qualquer aula no Chrome — grátis, sem conta",
-    "body": "LessonScriptor funciona no YouTube, Canvas, gravações do Zoom, Coursera e mais de 50 outras plataformas. Editável, exportável, 14 idiomas. O modo gratuito funciona imediatamente.",
-    "button_label": "Adicionar LessonScriptor ao Chrome — grátis",
-    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
-  },
   "faq": {
-    "section_title": "Perguntas frequentes",
-    "items": [
+    "heading": "Perguntas frequentes",
+    "questions": [
       {
-        "q": "Qual é a melhor extensão Chrome de reconhecimento de voz para estudantes?",
-        "a": "LessonScriptor é a melhor extensão Chrome de reconhecimento de voz para estudantes que assistem aulas em vídeo. Ela transcreve qualquer vídeo no Chrome — YouTube, gravações do Zoom, Canvas, Coursera — em uma transcrição editável e exportável. O modo gratuito não requer conta. Para legendas rápidas somente leitura sem instalação, as Legendas ao vivo integradas do Chrome (chrome://settings/accessibility) são a opção mais simples."
+        "question": "Qual é a melhor extensão do Chrome para ditado por voz?",
+        "answer": "O Voice In é a melhor extensão do Chrome para ditar em qualquer site: digita no Gmail, Google Docs, ChatGPT e outros campos de texto, suporta mais de 50 idiomas, português incluído, e tem plano grátis. O Speechnotes é uma boa alternativa grátis com bloco de ditado, e a Digitação por voz do Google Docs é grátis se você só escreve no Docs."
       },
       {
-        "q": "O Chrome tem um recurso de reconhecimento de voz integrado?",
-        "a": "Sim. O Chrome inclui Legendas ao vivo desde a versão 89 (2021). Ative em chrome://settings/accessibility. Gera legendas em tempo real para qualquer áudio no Chrome, processa tudo no dispositivo, suporta mais de 20 idiomas e é totalmente gratuito. A limitação: as legendas são somente leitura e desaparecem quando o áudio para — não há como salvar ou exportar."
+        "question": "O Chrome tem voz para texto integrado?",
+        "answer": "O Chrome tem duas peças integradas. As legendas instantâneas (Configurações > Acessibilidade) legendam um áudio que está tocando, mas não digitam por você. A Digitação por voz do Google Docs (Ferramentas > Digitação por voz) só dita no Google Docs. Para digitar por voz em todos os sites, use Win+H no Windows, o Ditado do macOS ou uma extensão como o Voice In."
       },
       {
-        "q": "Qual é a diferença entre uma extensão Chrome de transcrição por IA e uma de ditado de voz?",
-        "a": "Uma extensão de transcrição (LessonScriptor, Notta, Tactiq) captura áudio de um vídeo, reunião ou transmissão e o converte em texto. Uma extensão de ditado (Speechnotes, digitação por voz do Google Docs) captura apenas o seu microfone e converte o que você diz em texto digitado. Não são intercambiáveis: uma ferramenta de ditado não consegue transcrever um vídeo do YouTube."
+        "question": "Como ditar por voz no Gmail ou num formulário pelo Chrome?",
+        "answer": "Clique no campo e aperte tecla Windows + H no Windows, ou inicie o Ditado do macOS pela tecla Microfone ou pelo seu atalho. Os dois digitam em qualquer campo do Chrome. Se preferir algo só do Chrome, instale o Voice In ou a extensão do Speechnotes."
       },
       {
-        "q": "Posso usar uma extensão Chrome de reconhecimento de voz com fones de ouvido?",
-        "a": "Sim, com LessonScriptor Premium. O modo Premium usa a captura de áudio da aba — obtém o áudio diretamente da aba do navegador, não do microfone — então o uso de fones de ouvido não afeta a transcrição. O modo gratuito do LessonScriptor e o Speechnotes usam o microfone, o que significa que o áudio precisa sair pelos alto-falantes para o microfone captá-lo. As Legendas ao vivo integradas do Chrome têm problemas conhecidos de confiabilidade com fones de ouvido no Windows."
+        "question": "O LessonScriptor consegue digitar no Google Docs ou no Gmail?",
+        "answer": "Não. O LessonScriptor é uma ferramenta de transcrição, não de ditado: escreve no próprio painel lateral, não em outros sites. O modo grátis escuta pelo microfone, então pode captar a sua voz como anotação, que você exporta ou copia depois. Para ditar direto, use a Digitação por voz do Docs, Win+H, o Ditado do macOS ou o Voice In."
       },
       {
-        "q": "Existe uma extensão Chrome de transcrição por IA gratuita?",
-        "a": "Sim. O modo gratuito do LessonScriptor transcreve qualquer vídeo no Chrome usando reconhecimento de voz no dispositivo — sem conta, sem pagamento, sem limite de tempo. As Legendas ao vivo integradas do Chrome também são gratuitas sem necessidade de instalação. Speechnotes oferece um nível de ditado gratuito. Notta e Tactiq têm níveis gratuitos com limites de uso mensais (120 minutos/mês e 10 reuniões/mês respectivamente)."
+        "question": "Qual extensão do Chrome transcreve uma aula ou um vídeo do YouTube?",
+        "answer": "O LessonScriptor transcreve tudo o que toca no Chrome, incluindo Moodle, Canvas, Panopto, YouTube e gravações do Zoom, numa transcrição editável exportável em .txt ou .md. O modo grátis usa microfone e caixas de som; o modo IA captura o áudio da aba, funciona com fone e é mais preciso com sotaques e jargão."
+      },
+      {
+        "question": "Existe extensão do Chrome de voz para texto grátis?",
+        "answer": "Sim. Voice In e Speechnotes têm planos de ditado grátis, e a Digitação por voz do Google Docs, a Digitação por voz do Windows e o Ditado do macOS são grátis e integrados. Para transcrever, o modo grátis do LessonScriptor e as legendas instantâneas do Chrome não custam nada."
+      },
+      {
+        "question": "Voz para texto funciona com fone de ouvido no Chrome?",
+        "answer": "Para ditar, sim: o fone não importa, porque a ferramenta escuta o seu microfone. Para transcrever um vídeo, as ferramentas que usam o microfone, como o modo grátis do LessonScriptor, precisam do som nas caixas de som. O modo IA do LessonScriptor captura o áudio da aba, então funciona com fone."
       }
     ]
   },
   "summary": {
-    "heading": "A melhor extensão Chrome de reconhecimento de voz em 2026",
-    "body": "LessonScriptor é a melhor extensão Chrome de reconhecimento de voz para quem precisa de uma transcrição editável e exportável de uma aula em vídeo, tutorial do YouTube ou gravação do Zoom. As Legendas ao vivo do Google — integradas ao Chrome sem extensão necessária — são a opção mais fácil para legendas temporárias somente leitura em qualquer áudio. Speechnotes lidera para ditado de voz. Notta é a melhor escolha para suporte a mais de 50 idiomas. Tactiq é feito especificamente para reuniões ao vivo no Google Meet e Zoom. O erro comum é escolher uma ferramenta de ditado quando você precisa de uma ferramenta de transcrição — se o áudio vem de um vídeo, LessonScriptor ou Notta é o que você precisa."
+    "heading": "Resumindo: escolha a ferramenta pelo trabalho",
+    "body": "Para ditar no Gmail, Google Docs e formulários, use Voice In ou Speechnotes como extensões do Chrome, ou a digitação por voz grátis que já vem no Google Docs, no Windows (Win+H) e no macOS. Para transcrever em anotações as aulas e vídeos que tocam no Chrome, use o LessonScriptor; para legendas só para ler, as legendas instantâneas do Chrome; para reuniões ao vivo, Tactiq ou Otter. O LessonScriptor não digita em outros sites: se você veio atrás de ditado, comece pelo primeiro grupo.",
+    "internal_links": [
+      {
+        "text": "Legendas instantâneas do Chrome: como funcionam e seus limites",
+        "url": "/live-captions-chrome"
+      }
+    ]
   },
-  "schemas": [
-    {
-      "type": "BlogPosting",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "The 5 Best Speech-to-Text Chrome Extensions for Students in 2026",
-        "description": "Compare the 5 best speech-to-text Chrome extensions in 2026 — LessonScriptor, Google Live Captions, Speechnotes, Notta, and Tactiq — by accuracy, real-time transcription, language support, and price.",
-        "datePublished": "2026-04-29",
-        "dateModified": "2026-04-29",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "Victoria",
-            "description": "Anthropology student with ADHD",
-            "url": "https://lessonscriptor.com"
-          },
-          {
-            "@type": "Person",
-            "name": "Pierre Girardot",
-            "description": "Developer & SEO",
-            "url": "https://lessonscriptor.com"
-          }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://lessonscriptor.com/logo.png",
-            "width": 600,
-            "height": 60
-          }
-        },
-        "image": "https://lessonscriptor.com/images/blog/best-speech-to-text-chrome-extensions-hero.png",
-        "url": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions",
-        "keywords": [
-          "speech to text chrome extension",
-          "ai transcription chrome extension",
-          "real time transcription chrome",
-          "chrome live captions",
-          "lecture transcription chrome"
-        ]
-      }
-    },
-    {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is the best speech-to-text Chrome extension for students?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "LessonScriptor is the best speech-to-text Chrome extension for students who watch video lectures. It transcribes any video in Chrome — YouTube, Zoom recordings, Canvas, Coursera — into an editable, exportable transcript with a free mode that requires no account."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Does Chrome have a built-in speech-to-text feature?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Chrome's Live Captions (available since Chrome 89) generates real-time captions for any audio in Chrome. Enable it at chrome://settings/accessibility. It is completely free, supports 20+ languages, and processes audio on-device — but captions are read-only and cannot be saved or exported."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Can I use a Chrome speech-to-text extension with headphones?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes, with LessonScriptor Premium. It uses tab audio capture — grabbing audio directly from the browser tab — so headphones don't affect transcription. Chrome's built-in Live Captions has known reliability issues with headphones on Windows."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Is there a free AI transcription Chrome extension?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. LessonScriptor's free mode transcribes any video in Chrome using on-device speech recognition with no account, no payment, and no time limit. Chrome's built-in Live Captions is also free but read-only."
-            }
-          }
-        ]
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://lessonscriptor.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": "https://lessonscriptor.com/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Best Speech-to-Text Chrome Extensions 2026",
-            "item": "https://lessonscriptor.com/blog/best-speech-to-text-chrome-extensions"
-          }
-        ]
-      }
-    }
-  ],
   "sources": [
     {
-      "text": "Google Chrome Help — Live Caption",
-      "href": "https://support.google.com/chrome/answer/10538231",
+      "text": "Voice In, da Dictanote",
+      "href": "https://dictanote.co/voicein/",
       "external": true
     },
     {
-      "text": "OpenAI Whisper — Speech recognition research",
-      "href": "https://openai.com/research/whisper",
-      "external": true
-    },
-    {
-      "text": "Chrome Web Store — LessonScriptor",
-      "href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp",
-      "external": true
-    },
-    {
-      "text": "Speechnotes — Voice notes and dictation",
+      "text": "Speechnotes",
       "href": "https://speechnotes.co",
       "external": true
     },
     {
-      "text": "Notta — AI transcription",
-      "href": "https://www.notta.ai",
+      "text": "Ajuda do Google Docs: digitação por voz",
+      "href": "https://support.google.com/docs/answer/4492226?hl=pt-BR",
       "external": true
     },
     {
-      "text": "Tactiq — Meeting transcription",
-      "href": "https://tactiq.io",
+      "text": "Suporte Microsoft: digitação por voz",
+      "href": "https://support.microsoft.com/pt-br/windows/use-voice-typing-to-talk-instead-of-type-on-your-pc-fec94565-c4bd-329d-e59a-af033fa5689f",
+      "external": true
+    },
+    {
+      "text": "Suporte Apple: ditar no Mac",
+      "href": "https://support.apple.com/pt-br/guide/mac-help/mh40584/mac",
+      "external": true
+    },
+    {
+      "text": "Ajuda do Google Chrome: legendas instantâneas",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
+    },
+    {
+      "text": "Preços do Tactiq",
+      "href": "https://tactiq.io/pricing",
       "external": true
     }
   ],
-  "internal_links": [
+  "schemas": [
     {
-      "text": "Como funcionam as Legendas ao vivo do Chrome",
-      "href": "/live-captions-chrome",
-      "internal": true
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Melhores extensões do Chrome de voz para texto (2026): ditado ou transcrição",
+      "description": "Extensão do Chrome de voz para texto: as melhores para ditado (Voice In, Speechnotes, digitação por voz do Docs) e para transcrever aulas e vídeos, comparadas",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-29",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-fala-para-texto",
+      "url": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-fala-para-texto",
+      "keywords": [
+        "extensão chrome voz para texto",
+        "ditado por voz chrome",
+        "speech to text chrome",
+        "digitação por voz google docs",
+        "extensão de ditado chrome",
+        "transcrever voz em texto chrome"
+      ],
+      "image": "https://lessonscriptor.com/images/blog/best-speech-to-text-chrome-extensions-hero.png"
     },
     {
-      "text": "Transcrever vídeo para texto",
-      "href": "/transcribe-video-to-text",
-      "internal": true
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é a melhor extensão do Chrome para ditado por voz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Voice In é a melhor extensão do Chrome para ditar em qualquer site: digita no Gmail, Google Docs, ChatGPT e outros campos de texto, suporta mais de 50 idiomas, português incluído, e tem plano grátis. O Speechnotes é uma boa alternativa grátis com bloco de ditado, e a Digitação por voz do Google Docs é grátis se você só escreve no Docs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Chrome tem voz para texto integrado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Chrome tem duas peças integradas. As legendas instantâneas (Configurações > Acessibilidade) legendam um áudio que está tocando, mas não digitam por você. A Digitação por voz do Google Docs (Ferramentas > Digitação por voz) só dita no Google Docs. Para digitar por voz em todos os sites, use Win+H no Windows, o Ditado do macOS ou uma extensão como o Voice In."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como ditar por voz no Gmail ou num formulário pelo Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clique no campo e aperte tecla Windows + H no Windows, ou inicie o Ditado do macOS pela tecla Microfone ou pelo seu atalho. Os dois digitam em qualquer campo do Chrome. Se preferir algo só do Chrome, instale o Voice In ou a extensão do Speechnotes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor consegue digitar no Google Docs ou no Gmail?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O LessonScriptor é uma ferramenta de transcrição, não de ditado: escreve no próprio painel lateral, não em outros sites. O modo grátis escuta pelo microfone, então pode captar a sua voz como anotação, que você exporta ou copia depois. Para ditar direto, use a Digitação por voz do Docs, Win+H, o Ditado do macOS ou o Voice In."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual extensão do Chrome transcreve uma aula ou um vídeo do YouTube?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O LessonScriptor transcreve tudo o que toca no Chrome, incluindo Moodle, Canvas, Panopto, YouTube e gravações do Zoom, numa transcrição editável exportável em .txt ou .md. O modo grátis usa microfone e caixas de som; o modo IA captura o áudio da aba, funciona com fone e é mais preciso com sotaques e jargão."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe extensão do Chrome de voz para texto grátis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Voice In e Speechnotes têm planos de ditado grátis, e a Digitação por voz do Google Docs, a Digitação por voz do Windows e o Ditado do macOS são grátis e integrados. Para transcrever, o modo grátis do LessonScriptor e as legendas instantâneas do Chrome não custam nada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Voz para texto funciona com fone de ouvido no Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para ditar, sim: o fone não importa, porque a ferramenta escuta o seu microfone. Para transcrever um vídeo, as ferramentas que usam o microfone, como o modo grátis do LessonScriptor, precisam do som nas caixas de som. O modo IA do LessonScriptor captura o áudio da aba, então funciona com fone."
+          }
+        }
+      ]
     },
     {
-      "text": "Legendas ao vivo do Chrome não funcionam — guia de solução",
-      "href": "/blog/chrome-live-captions-not-working",
-      "internal": true
-    },
-    {
-      "text": "How to take notes with ADHD",
-      "href": "/blog/how-to-take-notes-with-adhd",
-      "internal": true
-    },
-    {
-      "text": "ADHD student hub",
-      "href": "/for-adhd-students",
-      "internal": true
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Melhores extensões do Chrome de voz para texto (2026): ditado ou transcrição",
+          "item": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-fala-para-texto"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,498 @@
+{
+  "slug": "live-transcribe-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Live Transcribe for Chrome and PC: The Desktop Alternatives",
+  "reading_time_min": 10,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Live Transcribe for Chrome and PC: 5 Desktop Alternatives",
+    "description": "Google Live Transcribe is Android-only. Compare 5 ways to get live transcription in Chrome or on a Windows or Mac PC, with a transcript you can actually keep.",
+    "keywords": [
+      "live transcribe chrome extension",
+      "live transcribe for pc",
+      "live transcribe for pc extension chrome",
+      "live transcription chrome extension",
+      "live transcript chrome extension",
+      "live transcribe google chrome",
+      "chrome live transcription"
+    ],
+    "og_title": "Live Transcribe for Chrome and PC: 5 Desktop Alternatives",
+    "og_description": "Google Live Transcribe has no Chrome or Windows version. Here is what to use on a laptop instead, compared on headphones, transcripts, export and price.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "Google Live Transcribe only runs on Android phones. There is no Chrome extension, no Windows app and no Mac app, so on a laptop you need a different tool.",
+    "bullets": [
+      "**Chrome Live Caption** is built into Chrome on Windows, Mac, Linux and ChromeOS. It captions audio playing in Chrome, but the captions are never saved.",
+      "**Windows 11 Live Captions** (version 22H2 or later) and **macOS Live Captions** (Apple silicon) caption audio from any app, and can also listen to the microphone for in-person speech.",
+      "**LessonScriptor** is a Chrome extension that keeps an editable transcript of anything playing in a tab and exports it as .txt or .md.",
+      "LessonScriptor's **Free mode** listens through the microphone, so it needs speaker volume and does not work with headphones. **AI mode** captures tab audio, so headphones work."
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "official Live Transcribe apps for Chrome, Windows or macOS"
+    },
+    {
+      "number": "3 days",
+      "label": "how long Live Transcribe on Android keeps transcription history"
+    },
+    {
+      "number": "14",
+      "label": "languages in LessonScriptor, with .txt and .md export"
+    }
+  ],
+  "intro": "Live Transcribe is Google's free speech-to-text app for Android, built with Gallaudet University and released in 2019 to caption real-world conversations through the phone's microphone. There is no Live Transcribe for Chrome, Windows or Mac: Google ships it only on Android, so searching for a \"Live Transcribe Chrome extension\" leads nowhere official. The closest desktop equivalents are Chrome's built-in Live Caption, Windows 11 Live Captions, macOS Live Captions, and Chrome extensions such as LessonScriptor. They split into two jobs. The built-in caption tools show text on screen and then discard it. LessonScriptor keeps a transcript you can edit and export, which matters if you are studying from a lecture rather than just following it. This guide compares all five options on headphones, saved transcripts, editing, export, languages and price, then shows how to set up LessonScriptor as a \"live transcribe\" on your PC.",
+  "sections": [
+    {
+      "id": "is-there-live-transcribe-for-pc",
+      "heading": "Is there a Live Transcribe for PC or Chrome?",
+      "body": "No. **Live Transcribe & Sound Notifications** is an Android app, preinstalled on Pixel phones and available from Google Play for other Android devices. Google has never released it as a Chrome extension, a Windows program, a Mac app or an iOS app. Third-party pages that offer a \"Live Transcribe for PC\" download are usually wrappers, emulators or unrelated apps, and installing them is a security risk with no benefit.\n\nWhat people want from Live Transcribe on a laptop is usually one of two things. The first is captions for speech in the room, like a classmate, a doctor or a lecturer standing in front of you. Live Transcribe does that by listening through the phone's microphone, in more than 80 languages. The second is captions for audio that is already on the computer: a Zoom class, a YouTube video, a recorded lecture on Moodle or Panopto. That second job is not what Live Transcribe was designed for, and desktop tools handle it better because they can read the computer's audio directly.\n\nThe simplest workaround still works: put an Android phone running Live Transcribe next to the laptop speaker. It is free and accurate enough for a quick check, but it ties up your phone, picks up room noise, and its history only lasts up to three days."
+    },
+    {
+      "id": "what-chrome-live-caption-does",
+      "heading": "What does Chrome's Live Caption do, and what doesn't it do?",
+      "body": "**Chrome Live Caption** is Chrome's built-in captioning feature. It captions speech in any audio or video playing in Chrome, including YouTube, podcasts, video calls in the browser and lecture players, and it runs on Windows, Mac, Linux and ChromeOS. You turn it on in **Settings > Accessibility > Live Caption**. Processing happens on your device, and Google says the audio and captions are never stored.\n\nThat privacy design is also its main limit for students. Live Caption shows a small floating box with a couple of lines that scroll away. There is no history, no editing and no export, so once a sentence is gone you can't get it back. It also only captions audio playing inside Chrome. It does not caption a desktop Zoom app or a person talking in the room. Google's help page lists around 19 caption languages, including English, French, German, Spanish, Portuguese, Hindi and Simplified Chinese, with an optional translate feature.\n\nIf Live Caption is missing or stops working, the cause is usually a language pack that has not downloaded or a Chrome version issue. Our troubleshooting guide covers the fixes.",
+      "internal_links": [
+        {
+          "text": "Live captions in Chrome with a saved transcript",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Chrome Live Caption not working? Fixes",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "live-transcribe-alternatives-pc",
+      "heading": "What are the best Live Transcribe alternatives for PC?",
+      "body": "Five options cover nearly every case. Three are free tools built into your browser or operating system. Two are Chrome extensions.",
+      "subsections": [
+        {
+          "h3": "1. Chrome Live Caption (any computer with Chrome)",
+          "body": "Chrome Live Caption is the fastest option because it needs no install. It works with headphones, since it reads Chrome's own audio rather than the microphone. It is best for following a video in a noisy place or with the sound low. It is the wrong tool if you need to reread what was said, because nothing is kept."
+        },
+        {
+          "h3": "2. Windows 11 Live Captions",
+          "body": "**Windows Live Captions** is built into Windows 11 version 22H2 and later. Press **Windows + Ctrl + L** to open it. It captions audio from any app, including the desktop Zoom or Microsoft Teams client, and it can optionally include your microphone, which makes it the closest thing to Live Transcribe for in-person conversation on a Windows laptop. Microsoft processes everything on the device and does not store the captions. Copilot+ PCs on Windows 11 24H2 can also translate captions. **Windows 10 has no Live Captions**, so on an older PC the realistic options are Chrome Live Caption or an extension."
+        },
+        {
+          "h3": "3. macOS Live Captions",
+          "body": "**macOS Live Captions** runs on Macs with Apple silicon (M1 or later). It can listen to computer audio from any app or to the microphone for people in the room, and processing stays on the device. Apple's current list covers English, French, German, Spanish, Japanese, Korean, Mandarin and Cantonese variants, but not Portuguese. The captions appear in a resizable window, and you can copy some recent text from it. It is a caption window, though, not a note-taking tool."
+        },
+        {
+          "h3": "4. LessonScriptor (Chrome extension)",
+          "body": "**LessonScriptor** is a Chrome extension that turns whatever plays in a tab into a live transcript in Chrome's side panel. Unlike the built-in tools, the transcript stays. You can highlight in five colors, bold, add headers and bullets, delete the parts you don't need, and capture a screenshot of the slide into the transcript. You can then export it as .txt or .md or copy it to the clipboard. Sessions are saved automatically on your computer. It works on Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, Udemy, and Zoom, Google Meet or Teams in the browser. It is Chrome-only, it does not transcribe a desktop app, and it does not identify speakers."
+        },
+        {
+          "h3": "5. Web Speech-based extensions",
+          "body": "Many free Chrome extensions use the browser's built-in **Web Speech API**, which listens through the microphone. They are useful for dictation or for catching speech near the laptop. Because they hear the room rather than the tab, they need speaker volume and don't work with headphones, and features like saving or export vary widely from one extension to another. LessonScriptor's Free mode uses the same engine, but adds the editor, history and export."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Best speech-to-text Chrome extensions",
+          "url": "/blog/best-speech-to-text-chrome-extensions"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "How do the Live Transcribe alternatives compare?",
+      "body": "This table compares Google Live Transcribe with the five desktop options on the features that decide whether you can study from the result.",
+      "table": {
+        "headers": [
+          "Tool",
+          "Platform",
+          "Works with headphones",
+          "Keeps a transcript",
+          "Editable",
+          "Export",
+          "Languages",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Google Live Transcribe",
+            "Android phones only",
+            "Not applicable (phone mic)",
+            "History up to 3 days",
+            "No",
+            "Copy text",
+            "80+",
+            "Free"
+          ],
+          [
+            "Chrome Live Caption",
+            "Chrome on Windows, Mac, Linux, ChromeOS",
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "About 19",
+            "Free"
+          ],
+          [
+            "Windows 11 Live Captions",
+            "Windows 11 22H2+",
+            "Yes",
+            "No",
+            "No",
+            "No",
+            "Multiple (language packs)",
+            "Free"
+          ],
+          [
+            "macOS Live Captions",
+            "Apple silicon Macs",
+            "Yes (computer audio)",
+            "Limited window history",
+            "No",
+            "Copy from window",
+            "About 8 languages, no Portuguese",
+            "Free"
+          ],
+          [
+            "LessonScriptor Free mode",
+            "Chrome on desktop",
+            "No (uses the mic)",
+            "Yes, saved automatically",
+            "Yes",
+            ".txt, .md, clipboard",
+            "14",
+            "$0"
+          ],
+          [
+            "LessonScriptor AI mode",
+            "Chrome on desktop",
+            "Yes (tab audio)",
+            "Yes, saved automatically",
+            "Yes",
+            ".txt, .md, clipboard",
+            "14",
+            "30-min free trial, then from $5 for 5 hours"
+          ],
+          [
+            "Web Speech extensions",
+            "Chrome",
+            "Usually no (mic)",
+            "Varies",
+            "Varies",
+            "Varies",
+            "Varies",
+            "Mostly free"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "The real difference",
+        "body": "Every free built-in tool is designed for **accessibility in the moment**: read the words now, keep nothing. That is a good privacy choice, but it means none of them produce notes. If you need something to review before an exam, choose a tool that keeps the transcript."
+      }
+    },
+    {
+      "id": "which-one-to-choose",
+      "heading": "Which Live Transcribe alternative should you use?",
+      "body": "The right choice depends on where the speech comes from and whether you need to keep it.",
+      "steps": [
+        {
+          "strategy": "Someone is speaking in the room",
+          "detail": "Use Windows 11 Live Captions with the microphone option, macOS Live Captions with microphone input, or Live Transcribe on an Android phone. These are designed for in-person speech."
+        },
+        {
+          "strategy": "You only want to follow a video right now",
+          "detail": "Turn on Chrome Live Caption. It is free, works with headphones and needs no install."
+        },
+        {
+          "strategy": "Audio comes from a desktop app such as the Zoom or Teams client",
+          "detail": "Use Windows or macOS Live Captions, which read system audio. Chrome tools only see Chrome tabs, so open the meeting in the browser if you want a saved transcript."
+        },
+        {
+          "strategy": "You need notes from a lecture or video in Chrome",
+          "detail": "Use LessonScriptor. The transcript stays in the side panel, you can edit it as it builds, and you can export it when the class ends."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption vs LessonScriptor, side by side",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "how-to-set-up-lessonscriptor",
+      "heading": "How do I use LessonScriptor as a live transcribe on PC?",
+      "body": "LessonScriptor works on any Windows PC, Mac or Chromebook that runs Chrome. Setup takes about two minutes, and Free mode needs no account.",
+      "steps": [
+        {
+          "strategy": "Install the extension",
+          "detail": "Add LessonScriptor from the Chrome Web Store and pin it to the toolbar so the icon is one click away."
+        },
+        {
+          "strategy": "Open your lecture or video",
+          "detail": "Load the class in a Chrome tab: a Moodle or Canvas page, a Panopto recording, a YouTube video, or a Zoom or Google Meet call in the browser."
+        },
+        {
+          "strategy": "Open the side panel and pick a language",
+          "detail": "Click the LessonScriptor icon to open the panel next to the video, then choose the spoken language from the 14 available."
+        },
+        {
+          "strategy": "Choose Free mode or AI mode",
+          "detail": "**Free mode** listens through your microphone, so play the audio through your speakers at 80% volume or higher and take your headphones off. It also picks up your own voice. **AI mode** captures the tab's audio directly, so headphones work and no microphone is needed. Your first 30 minutes of AI mode are free."
+        },
+        {
+          "strategy": "Press start and let the transcript build",
+          "detail": "In Free mode, text appears as the speaker talks. In AI mode, text arrives in chunks of about 10 seconds (Normal) or 30 seconds (Optimal, more accurate), so expect a short delay."
+        },
+        {
+          "strategy": "Edit while you listen",
+          "detail": "Highlight key lines, bold terms, add a header for each topic, and capture a screenshot when an important slide is on screen. Everything auto-saves."
+        },
+        {
+          "strategy": "Export when the class ends",
+          "detail": "Export as .txt or .md, or copy to the clipboard and paste it into your notes app. To summarize, you can paste the text into ChatGPT or NotebookLM yourself."
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "Headphones in a library?",
+        "body": "Free mode can't hear audio that only plays in your headphones, because it listens through the microphone. Use AI mode, which reads the tab's audio directly, or Chrome Live Caption if you only need to follow along."
+      }
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "heading": "Is LessonScriptor's Free mode enough, or do I need AI mode?",
+      "body": "LessonScriptor's Free mode is enough for clear speech in a quiet room, played through speakers. It costs $0 with no monthly cap and no account, and no audio is sent to LessonScriptor's servers. Its weak points come from the microphone. Volume matters, headphones don't work, background noise gets in, and your own voice is transcribed too.\n\nAI mode is worth it when the lecture has a strong accent, technical vocabulary or poor audio, or when you need headphones. It uses cloud AI transcription (Whisper-class models), which handles jargon and noise much better. Each tab is independent, so two videos can be transcribed at once. Pricing is one-time packs with no subscription: **5 hours for $5, 15 hours for $12, or 30 hours for $21**. Credits never expire, are used second by second, and come as a license key by email that works on any computer. Prices are in USD, and Stripe shows an estimate in your local currency at checkout. If credits run out mid-lecture, a 10-minute grace period lets you finish the thought."
+    },
+    {
+      "id": "use-cases",
+      "heading": "Who uses a live transcription Chrome extension instead of Live Transcribe?",
+      "body": "The people searching for \"Live Transcribe on Chrome\" are mostly using a laptop for something an Android phone can't do well.",
+      "subsections": [
+        {
+          "h3": "Online and hybrid students",
+          "body": "Students at large online programs such as Arizona State University Online, Southern New Hampshire University or the Open University in the UK watch most lectures as recordings on Canvas, Blackboard or Moodle. A saved, searchable transcript of a 90-minute recording is more useful than captions that scroll away."
+        },
+        {
+          "h3": "Students with ADHD or dyslexia",
+          "body": "Listening and writing at the same time is a split-attention task. A transcript that builds by itself lets students follow the lecture and mark what matters, rather than racing to write it down. This is the workflow Victoria, who studies anthropology online and has ADHD, uses every week."
+        },
+        {
+          "h3": "Deaf and hard-of-hearing users",
+          "body": "Live Transcribe is excellent in person, and on a laptop the built-in Chrome, Windows and macOS captions are the natural first step. LessonScriptor adds a transcript that can be reread later, which helps when a fast speaker outpaces the caption box."
+        },
+        {
+          "h3": "Language learners and international students",
+          "body": "Watching a lecture in a second language is easier with the text in front of you, and an exported transcript lets you look up vocabulary afterwards instead of pausing every minute."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Best Chrome extensions for live captions",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "Is there Live Transcribe for PC?",
+        "answer": "No. Google Live Transcribe is only available on Android phones and tablets. On a PC, the closest built-in tools are Chrome Live Caption and Windows 11 Live Captions. If you want a transcript you can keep, edit and export, a Chrome extension such as LessonScriptor does that for anything playing in a Chrome tab."
+      },
+      {
+        "question": "Can I use Google Live Transcribe on Chrome?",
+        "answer": "No. There is no official Live Transcribe Chrome extension. Chrome has its own built-in Live Caption (Settings > Accessibility > Live Caption), which captions audio playing in Chrome but does not save anything. For a saved transcript, use an extension like LessonScriptor."
+      },
+      {
+        "question": "Does Live Transcribe work on Windows?",
+        "answer": "No, Live Transcribe has no Windows version. Windows 11 (version 22H2 or later) includes Live Captions, opened with Windows + Ctrl + L, which captions system audio and can optionally use the microphone. Windows 10 has no equivalent built in, so Chrome Live Caption or a Chrome extension is the practical option there."
+      },
+      {
+        "question": "Does Chrome Live Caption save a transcript?",
+        "answer": "No. Chrome Live Caption processes audio on your device and does not store the captions, so text disappears once it scrolls away. LessonScriptor keeps the full transcript in a side panel and exports it as .txt or .md."
+      },
+      {
+        "question": "Is there a live transcription Chrome extension that works with headphones?",
+        "answer": "Yes. LessonScriptor's AI mode captures the tab's audio directly, so it works with headphones and needs no microphone. LessonScriptor's Free mode and most Web Speech extensions listen through the microphone, so they need speaker volume and don't work with headphones."
+      },
+      {
+        "question": "Is LessonScriptor free?",
+        "answer": "LessonScriptor's Free mode is free forever, with no account and no monthly cap. AI mode, which works with headphones and is more accurate, includes a 30-minute free trial, then uses one-time packs starting at $5 for 5 hours, with no subscription."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "The short answer",
+    "body": "Google Live Transcribe is Android-only, so on a laptop you choose between captions that disappear and a transcript that stays. Chrome Live Caption, Windows 11 Live Captions and macOS Live Captions are free and good for following along in the moment. LessonScriptor is the option for studying, because it keeps an editable transcript of any lecture in Chrome. Free mode works through your speakers, and AI mode works with headphones.",
+    "internal_links": [
+      {
+        "text": "Try live captions with a saved transcript",
+        "url": "/live-captions-chrome"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Live Transcribe for Chrome and PC: The Desktop Alternatives",
+      "description": "Google Live Transcribe is Android-only. Compare 5 ways to get live transcription in Chrome or on a Windows or Mac PC, with a transcript you can actually keep.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/en/blog/live-transcribe-chrome"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com/en",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is there Live Transcribe for PC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Google Live Transcribe is only available on Android phones and tablets. On a PC, the closest built-in tools are Chrome Live Caption and Windows 11 Live Captions. If you want a transcript you can keep, edit and export, a Chrome extension such as LessonScriptor does that for anything playing in a Chrome tab."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Google Live Transcribe on Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. There is no official Live Transcribe Chrome extension. Chrome has its own built-in Live Caption (Settings > Accessibility > Live Caption), which captions audio playing in Chrome but does not save anything. For a saved transcript, use an extension like LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Live Transcribe work on Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, Live Transcribe has no Windows version. Windows 11 (version 22H2 or later) includes Live Captions, opened with Windows + Ctrl + L, which captions system audio and can optionally use the microphone. Windows 10 has no equivalent built in, so Chrome Live Caption or a Chrome extension is the practical option there."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Chrome Live Caption save a transcript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Chrome Live Caption processes audio on your device and does not store the captions, so text disappears once it scrolls away. LessonScriptor keeps the full transcript in a side panel and exports it as .txt or .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a live transcription Chrome extension that works with headphones?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. LessonScriptor's AI mode captures the tab's audio directly, so it works with headphones and needs no microphone. LessonScriptor's Free mode and most Web Speech extensions listen through the microphone, so they need speaker volume and don't work with headphones."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is LessonScriptor free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor's Free mode is free forever, with no account and no monthly cap. AI mode, which works with headphones and is more accurate, includes a 30-minute free trial, then uses one-time packs starting at $5 for 5 hours, with no subscription."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How do I use LessonScriptor as a live transcribe on PC?",
+      "description": "LessonScriptor works on any Windows PC, Mac or Chromebook that runs Chrome. Setup takes about two minutes, and Free mode needs no account.",
+      "inLanguage": "en",
+      "totalTime": "PT2M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Install the extension",
+          "text": "Add LessonScriptor from the Chrome Web Store and pin it to the toolbar so the icon is one click away."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Open your lecture or video",
+          "text": "Load the class in a Chrome tab: a Moodle or Canvas page, a Panopto recording, a YouTube video, or a Zoom or Google Meet call in the browser."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Open the side panel and pick a language",
+          "text": "Click the LessonScriptor icon to open the panel next to the video, then choose the spoken language from the 14 available."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Choose Free mode or AI mode",
+          "text": "Free mode listens through your microphone, so play the audio through your speakers at 80% volume or higher and take your headphones off. It also picks up your own voice. AI mode captures the tab's audio directly, so headphones work and no microphone is needed. Your first 30 minutes of AI mode are free."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Press start and let the transcript build",
+          "text": "In Free mode, text appears as the speaker talks. In AI mode, text arrives in chunks of about 10 seconds (Normal) or 30 seconds (Optimal, more accurate), so expect a short delay."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Edit while you listen",
+          "text": "Highlight key lines, bold terms, add a header for each topic, and capture a screenshot when an important slide is on screen. Everything auto-saves."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Export when the class ends",
+          "text": "Export as .txt or .md, or copy to the clipboard and paste it into your notes app. To summarize, you can paste the text into ChatGPT or NotebookLM yourself."
+        }
+      ]
+    }
+  ]
+}

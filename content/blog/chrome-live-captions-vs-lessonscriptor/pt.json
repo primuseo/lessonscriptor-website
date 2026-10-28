@@ -1,0 +1,359 @@
+{
+  "slug": "chrome-live-captions-vs-lessonscriptor",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Legenda instantânea do Chrome vs LessonScriptor: comparativo completo",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Legenda instantânea do Chrome vs LessonScriptor",
+    "description": "Legenda instantânea do Chrome ou LessonScriptor? Comparamos precisão, edição, exportação, fone de ouvido e idiomas para você saber qual usar nas aulas.",
+    "og_image": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "canonical": "https://lessonscriptor.com/pt/blog/legendas-chrome-vs-lessonscriptor",
+    "og_title": "Legenda instantânea do Chrome vs LessonScriptor: comparativo",
+    "og_description": "Para revisar suas aulas, o que vale mais: a legenda nativa do Chrome ou o LessonScriptor?",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "legenda instantânea chrome",
+      "extensão legendas ao vivo chrome",
+      "legendas chrome vs lessonscriptor",
+      "transcrever aulas chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "alt": "Comparação entre o balão da Legenda instantânea do Chrome e o painel lateral editável do LessonScriptor",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrever vídeos ao vivo. Victoria estuda antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Pontos-chave",
+    "lead": "A Legenda instantânea do Chrome e o LessonScriptor resolvem problemas diferentes. A do Chrome é imediata e passageira. O LessonScriptor é uma ferramenta de anotações construída sobre a transcrição ao vivo: acrescenta edição, exportação e destaques.",
+    "bullets": [
+      "Legenda instantânea do Chrome: grátis, sem instalação, só leitura, 19 idiomas, sem exportação, funciona com fone de ouvido, duas linhas que somem.",
+      "LessonScriptor: modo gratuito pelo microfone (volume em 80%+, sem fone) e modo IA pelo áudio da aba (com fone), transcrição editável, exportação .txt/.md, 14 idiomas.",
+      "O modo IA do LessonScriptor é pago em pacotes sem assinatura (5 h = US$ 5, 15 h = US$ 12, 30 h = US$ 21), depois de 30 minutos de teste grátis.",
+      "Para revisar uma aula no AVA, no e-Disciplinas ou no YouTube, o LessonScriptor é a melhor escolha. Para legendas de acessibilidade pontuais, o recurso do Chrome é mais simples.",
+      "A diferença real não é grátis contra pago, e sim só leitura contra texto editável."
+    ]
+  },
+  "intro": "A Legenda instantânea do Chrome é um recurso de acessibilidade só de leitura que mostra um balão com legendas para qualquer áudio que toca no navegador. O LessonScriptor é uma extensão do Chrome que transcreve o áudio de um vídeo num painel lateral persistente, editável e exportável. Os dois geram legendas ao vivo; a diferença está no que você pode fazer com elas depois. As legendas do Chrome somem conforme o áudio avança. A transcrição do LessonScriptor fica, pode ser destacada e é exportada em .txt ou .md para Notion, Obsidian ou Google Docs. Este comparativo passa por todas as diferenças que importam para um estudante.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "palavras que você pode editar ou salvar na Legenda instantânea do Chrome"
+    },
+    {
+      "number": "100%",
+      "label": "da transcrição do LessonScriptor é editável, destacável e exportável"
+    },
+    {
+      "number": "30 min",
+      "label": "de teste grátis do modo IA do LessonScriptor"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-chrome-live-caption",
+      "h2": "O que é a Legenda instantânea do Chrome?",
+      "body": "A Legenda instantânea do Chrome é um recurso de acessibilidade que gera legendas em tempo real para qualquer áudio que toca no Chrome. Segundo a ajuda do Google, o áudio e as legendas são processados localmente, não são armazenados e nunca saem do dispositivo.\n\nPara ativar: **Mais > Configurações > Acessibilidade > Legenda instantânea**, ou digite chrome://settings/accessibility na barra de endereço.\n\nUm balão flutuante aparece na parte de baixo da janela com duas linhas de texto que rolam e depois somem. Não dá para voltar, editar, copiar, salvar nem exportar o texto: ele só existe no momento. Como o recurso legenda o áudio reproduzido pelo próprio Chrome, e não o microfone, ele funciona com fone de ouvido.\n\nA Legenda instantânea suporta 19 idiomas, entre eles português, inglês, espanhol, francês, alemão e chinês, e funciona com qualquer fonte de áudio no Chrome: YouTube, podcasts, streaming e videochamadas no navegador."
+    },
+    {
+      "id": "what-is-lessonscriptor",
+      "h2": "O que é o LessonScriptor?",
+      "body": "O LessonScriptor é uma extensão do Chrome que transcreve o áudio de um vídeo num painel lateral editável. Foi pensado para estudantes que assistem aulas em vídeo e querem uma transcrição organizada para estudar.\n\nDepois de instalado, o ícone do LessonScriptor abre um painel ao lado de tudo o que toca no Chrome: e-Disciplinas da USP, AVA/Moodle da Unicamp, Panopto, Canvas, YouTube, Coursera, Udemy, e Zoom ou Teams no navegador. O painel se preenche enquanto o vídeo avança.\n\nA transcrição é um editor de verdade: destaques em 5 cores, negrito, títulos, listas, exclusão de trechos e capturas do slide. No fim, exporte em .txt ou .md ou copie para a área de transferência.\n\nO LessonScriptor tem dois modos. O **modo gratuito** usa o reconhecimento de voz do navegador pelo **microfone**: precisa das caixas de som em 80% ou mais, não funciona com fone de ouvido e também transcreve a sua voz; nenhum áudio é enviado aos servidores do LessonScriptor. O **modo IA** capta o **áudio da aba** e transcreve com modelos em nuvem do tipo Whisper, em blocos de 10 segundos (Normal) ou 30 segundos (Optimal).",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com o LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Legenda instantânea do Chrome vs LessonScriptor: tabela completa",
+      "body": "Esta tabela compara todas as diferenças relevantes entre o recurso nativo do Chrome e o LessonScriptor.",
+      "table": {
+        "headers": [
+          "Critério",
+          "Legenda instantânea do Chrome",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Instalação",
+            "Não (nativo do Chrome)",
+            "Sim (Chrome Web Store)"
+          ],
+          [
+            "Conta",
+            "Não",
+            "Não no modo gratuito (chave de licença por e-mail para o modo IA)"
+          ],
+          [
+            "Transcrição editável",
+            "Não",
+            "Sim"
+          ],
+          [
+            "Exportação",
+            "Não",
+            "Sim: .txt, .md, área de transferência"
+          ],
+          [
+            "Destaques e anotações",
+            "Não",
+            "Sim: 5 cores, negrito, títulos, listas, capturas"
+          ],
+          [
+            "Histórico de sessões",
+            "Não",
+            "Sim, salvo localmente"
+          ],
+          [
+            "Com fone de ouvido",
+            "Sim (legenda o áudio do Chrome, não o microfone)",
+            "Sim no modo IA (áudio da aba), não no modo gratuito (microfone)"
+          ],
+          [
+            "Idiomas",
+            "19",
+            "14"
+          ],
+          [
+            "Precisão (fala comum)",
+            "Boa",
+            "Boa (grátis) / excelente (IA)"
+          ],
+          [
+            "Precisão (vocabulário acadêmico, sotaques)",
+            "Média",
+            "Alta (modo IA)"
+          ],
+          [
+            "YouTube, Moodle, gravações do Zoom",
+            "Sim",
+            "Sim"
+          ],
+          [
+            "Preço",
+            "Grátis",
+            "Grátis + pacotes IA a partir de US$ 5 (sem assinatura)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "accuracy-comparison",
+      "h2": "Qual é mais preciso, o Chrome ou o LessonScriptor?",
+      "body": "Para fala comum e bem articulada, como um telejornal ou um podcast, a Legenda instantânea do Chrome e o modo gratuito do LessonScriptor têm precisão parecida. O modo gratuito ainda depende da qualidade do som que o microfone capta: volume baixo ou ambiente barulhento pioram o resultado.\n\nNuma aula de faculdade, a diferença cresce com o modo IA do LessonScriptor. Os modelos do tipo Whisper que ele usa foram treinados com enormes volumes de fala multilíngue e lidam melhor com sotaques (paulista, carioca, nordestino ou de Portugal), jargão e ruído de fundo do que o modelo local do Chrome, otimizado para rodar num computador comum.\n\nNa prática: numa aula expositiva clara, o Chrome e o modo gratuito se equivalem. Numa aula de química orgânica, direito ou antropologia cheia de nomes próprios e termos técnicos, o modo IA erra bem menos. O modo Optimal (blocos de 30 segundos) é o mais preciso, com um atraso um pouco maior."
+    },
+    {
+      "id": "when-to-use-chrome-captions",
+      "h2": "Quando usar a Legenda instantânea do Chrome em vez do LessonScriptor?",
+      "body": "A Legenda instantânea do Chrome é a melhor escolha em três casos.\n\n**Legendas rápidas e descartáveis:** na biblioteca, no ônibus ou durante uma ligação, ela dá acessibilidade imediata sem instalar nada nem abrir painel.\n\n**Idiomas que o LessonScriptor não cobre:** o Chrome oferece 19 idiomas, entre eles japonês, coreano, italiano, holandês, polonês e turco. Confira a lista do LessonScriptor (14 idiomas) antes de uma aula num idioma menos comum.\n\n**Computadores bloqueados:** alguns laboratórios de informática impedem a instalação de extensões. Nesse caso, o recurso nativo do Chrome é a única opção."
+    },
+    {
+      "id": "when-to-use-lessonscriptor",
+      "h2": "Quando usar o LessonScriptor em vez das legendas do Chrome?",
+      "body": "O LessonScriptor é a melhor escolha sempre que você quer guardar, revisar ou citar o que foi dito.\n\n**Estudo:** depois de uma aula gravada ou de um vídeo no AVA, as legendas do Chrome não deixam nada. O LessonScriptor gera uma transcrição anotada que fica no histórico. Isso ajuda especialmente quem tem TDAH, para quem escrever enquanto escuta é exaustivo.\n\n**Fone de ouvido com transcrição salva:** as legendas do Chrome funcionam com fone, mas somem. O modo IA do LessonScriptor capta o áudio da aba, funciona com qualquer fone e guarda o texto. O modo gratuito usa o microfone e precisa de caixas de som.\n\n**Conteúdo técnico:** o modo IA é mais preciso com vocabulário da área, nomes de autores e siglas.\n\n**Vários vídeos ao mesmo tempo:** no modo IA, cada aba é independente.\n\n**Aprender idiomas:** destaque o vocabulário novo, exporte sua lista e, se quiser, cole a transcrição no ChatGPT ou no NotebookLM para resumir.",
+      "internal_links": [
+        {
+          "text": "Legendas do Chrome com fone de ouvido",
+          "url": "/blog/chrome-live-captions-headphones"
+        },
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Legendas ao vivo em outros idiomas no Chrome",
+          "url": "/blog/live-captions-other-languages-chrome"
+        }
+      ]
+    },
+    {
+      "id": "can-use-both",
+      "h2": "Posso usar a Legenda instantânea do Chrome e o LessonScriptor ao mesmo tempo?",
+      "body": "Pode, mas raramente vale a pena. Os dois legendam o mesmo áudio, então você recebe o mesmo texto duas vezes, e o balão do Chrome atrapalha quando o painel do LessonScriptor está aberto.\n\nO mais prático é escolher conforme a sessão: as legendas do Chrome para algo descartável e o LessonScriptor quando você quiser guardar a transcrição.",
+      "internal_links": [
+        {
+          "text": "As melhores extensões do Chrome para legendas ao vivo",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Experimente o LessonScriptor grátis, sem conta",
+    "body": "Instale o LessonScriptor com um clique. Legendas ao vivo editáveis e exportáveis para qualquer vídeo no Chrome. O modo gratuito funciona na hora.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome, grátis",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Qual a diferença entre a Legenda instantânea do Chrome e o LessonScriptor?",
+        "answer": "A Legenda instantânea do Chrome é só de leitura: duas linhas num balão que somem com o áudio. O LessonScriptor cria uma transcrição persistente num painel lateral que você pode destacar, organizar e exportar em .txt ou .md."
+      },
+      {
+        "question": "O LessonScriptor é melhor que a legenda nativa do Chrome?",
+        "answer": "Para guardar e revisar suas aulas, sim: o LessonScriptor acrescenta edição, exportação, destaques e, no modo IA, mais precisão. Para legendas pontuais sem instalar nada, o recurso do Chrome é mais simples."
+      },
+      {
+        "question": "O LessonScriptor é grátis como a legenda do Chrome?",
+        "answer": "Sim, o modo gratuito do LessonScriptor não pede conta nem pagamento. Ele escuta pelo microfone, então precisa de caixas de som com bom volume e sem fone. O modo IA, depois de 30 minutos de teste, é pago em pacotes sem assinatura: 5 h = US$ 5, 15 h = US$ 12, 30 h = US$ 21 (o Stripe mostra uma estimativa em reais)."
+      },
+      {
+        "question": "Como ativar a Legenda instantânea do Chrome?",
+        "answer": "Clique em Mais (os três pontos) > Configurações > Acessibilidade e ative Legenda instantânea. Você também pode abrir chrome://settings/accessibility. Depois escolha o idioma da legenda, por exemplo português."
+      },
+      {
+        "question": "O LessonScriptor pode substituir a legenda do Chrome?",
+        "answer": "Para vídeos e aulas online, sim: o LessonScriptor funciona com tudo o que toca numa aba do Chrome e gera um texto reaproveitável. Ele não substitui a legenda do Chrome para acessibilidade pontual nem em computadores onde extensões são bloqueadas."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Legenda instantânea do Chrome ou LessonScriptor: qual escolher?",
+    "body": "A Legenda instantânea do Chrome é ideal para legendas imediatas que você não precisa guardar. O LessonScriptor é a ferramenta certa quando você quer uma transcrição para editar, anotar e exportar, principalmente em aulas no AVA, no e-Disciplinas, no Panopto, no YouTube ou em gravações do Zoom. Os dois têm opção gratuita: a diferença não é o preço, e sim o que você pode fazer com o texto quando o vídeo acaba. Se você já pensou “queria ter salvado o que a legenda acabou de mostrar”, o LessonScriptor é para você."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Legenda instantânea do Chrome vs LessonScriptor: comparativo completo",
+      "description": "Legenda instantânea do Chrome ou LessonScriptor? Comparamos precisão, edição, exportação, fone de ouvido e idiomas para você saber qual usar nas aulas.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/legendas-chrome-vs-lessonscriptor",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com/pt"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual a diferença entre a Legenda instantânea do Chrome e o LessonScriptor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A Legenda instantânea do Chrome é só de leitura: duas linhas num balão que somem com o áudio. O LessonScriptor cria uma transcrição persistente num painel lateral que você pode destacar, organizar e exportar em .txt ou .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor é melhor que a legenda nativa do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para guardar e revisar suas aulas, sim: o LessonScriptor acrescenta edição, exportação, destaques e, no modo IA, mais precisão. Para legendas pontuais sem instalar nada, o recurso do Chrome é mais simples."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor é grátis como a legenda do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, o modo gratuito do LessonScriptor não pede conta nem pagamento. Ele escuta pelo microfone, então precisa de caixas de som com bom volume e sem fone. O modo IA, depois de 30 minutos de teste, é pago em pacotes sem assinatura: 5 h = US$ 5, 15 h = US$ 12, 30 h = US$ 21 (o Stripe mostra uma estimativa em reais)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como ativar a Legenda instantânea do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clique em Mais (os três pontos) > Configurações > Acessibilidade e ative Legenda instantânea. Você também pode abrir chrome://settings/accessibility. Depois escolha o idioma da legenda, por exemplo português."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor pode substituir a legenda do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para vídeos e aulas online, sim: o LessonScriptor funciona com tudo o que toca numa aba do Chrome e gera um texto reaproveitável. Ele não substitui a legenda do Chrome para acessibilidade pontual nem em computadores onde extensões são bloqueadas."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Legenda instantânea do Chrome vs LessonScriptor",
+          "item": "https://lessonscriptor.com/pt/blog/legendas-chrome-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Ajuda do Google Chrome: Legenda instantânea",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
+    },
+    {
+      "text": "OpenAI: Whisper",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/live-captions-other-languages-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

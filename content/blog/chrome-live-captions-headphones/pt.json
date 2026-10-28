@@ -1,0 +1,349 @@
+{
+  "slug": "chrome-live-captions-headphones",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Legendas do Chrome com fone de ouvido: o que funciona e o que não funciona",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Legenda Instantânea do Chrome com fone de ouvido funciona?",
+    "description": "A Legenda Instantânea do Chrome funciona com fone de ouvido e AirPods. O que falha são as ferramentas que usam o microfone. Entenda o motivo e as soluções.",
+    "og_image": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "canonical": "https://lessonscriptor.com/pt/blog/legendas-chrome-fones-de-ouvido",
+    "og_title": "Legendas do Chrome com fone de ouvido: o que funciona e o que não funciona",
+    "og_description": "O Chrome legenda o próprio áudio, com ou sem fone. Ferramentas que escutam pelo microfone, não. Veja como diferenciar.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "legenda instantânea chrome fone de ouvido",
+      "legendas chrome com fone",
+      "legenda instantânea airpods",
+      "transcrever aula com fone de ouvido"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "alt": "Estudante de fone de ouvido assistindo a uma aula no Chrome com a transcrição em um painel lateral",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Student at desk with over-ear headphones, Chrome browser open with a lecture video and caption side panel. Warm, focused study environment. Cream and terra color palette."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeos ao vivo. Victoria estuda antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Pontos principais",
+    "lead": "A Legenda Instantânea do Chrome funciona com fone de ouvido, porque o Chrome legenda o áudio que ele mesmo reproduz, sem microfone. O que não funciona com fone são as ferramentas que escutam pelo microfone, incluindo o modo gratuito do LessonScriptor. O modo IA do LessonScriptor capta o áudio da aba e funciona com qualquer fone.",
+    "bullets": [
+      "A Legenda Instantânea processa no próprio aparelho o áudio que toca no navegador: AirPods, Bluetooth, com fio ou USB, tanto faz.",
+      "Se as legendas somem com o fone, a causa é outra: áudio tocando fora do Chrome (app do Zoom ou do Teams), aba no mudo, modelo de voz incompleto.",
+      "Ferramentas baseadas no microfone (ditado, reconhecimento de voz do navegador, modo gratuito do LessonScriptor) não ouvem nada quando o som vai para o fone.",
+      "O modo IA do LessonScriptor capta direto o áudio da aba: funciona com fone e guarda uma transcrição editável e exportável. 30 minutos de teste grátis.",
+      "No Windows 11 (22H2 ou mais recente), as Legendas ao vivo do sistema (Win+Ctrl+L) legendam todo o áudio do PC, fone incluso, também em português."
+    ]
+  },
+  "intro": "A Legenda Instantânea do Chrome funciona com fone de ouvido: o recurso legenda o áudio que o próprio Chrome reproduz, processado no aparelho, sem passar pelo microfone. Conectar AirPods, um JBL Tune, um Sony WH-1000XM5 ou um fone com fio não desliga as legendas. A confusão vem de outro lugar: muitas ferramentas de transcrição escutam pelo microfone, e essas deixam de ouvir quando o som vai para o fone. É o caso do modo gratuito do LessonScriptor. Este guia explica o que funciona com fone, o que não funciona e como transcrever uma videoaula do AVA ou um vídeo do YouTube de fone usando o modo IA do LessonScriptor.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "microfones necessários para a Legenda Instantânea do Chrome"
+    },
+    {
+      "number": "19",
+      "label": "idiomas de legenda do Chrome listados pelo Google, incluindo o português"
+    },
+    {
+      "number": "30 min",
+      "label": "de teste grátis do modo IA do LessonScriptor, que funciona com fone"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-no-chrome-captions-headphones",
+      "h2": "A Legenda Instantânea do Chrome funciona com fone de ouvido?",
+      "body": "Sim. A Legenda Instantânea do Chrome legenda o áudio que toca nas abas do navegador, dentro do Chrome, antes de ele sair para as caixas de som ou para o fone. O Google informa que o áudio e as legendas são processados localmente e nunca saem do dispositivo. O microfone não participa.\n\nPor isso, fone com fio, AirPods, fone Bluetooth ou headset USB não afetam as legendas. Dá até para assistir a uma aula sem caixas de som: é um dos usos previstos pelo Google.\n\nSe as legendas somem quando você coloca o fone, procure outra causa: a aula está no app do Zoom ou do Teams para computador, e não no Chrome; a aba está no mudo; ou o modelo de voz não está completo. Nosso guia de solução de problemas detalha as oito causas conhecidas.",
+      "internal_links": [
+        {
+          "text": "Legenda Instantânea do Chrome não funciona: 8 soluções",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "does-it-work-macos",
+      "h2": "A legenda do Chrome funciona com AirPods no Mac?",
+      "body": "Sim. No macOS, assim como no Windows, a Legenda Instantânea do Chrome funciona com AirPods e com qualquer outro fone, porque não depende da saída de áudio.\n\nSe as legendas pararem depois de conectar os AirPods, confira três pontos: se o vídeo está tocando no Chrome, se a **Legenda instantânea** continua ativada em **chrome://settings/accessibility** e se o Chrome foi reiniciado de verdade (Cmd+Q) depois da última atualização do macOS ou do Chrome. Às vezes, desconectar e reconectar o Bluetooth basta para o áudio voltar.\n\nO problema com fone no Mac atinge principalmente as ferramentas que escutam pelo microfone do MacBook: quando o som vai para os AirPods, o microfone para de ouvir o vídeo."
+    },
+    {
+      "id": "what-is-tab-audio-capture",
+      "h2": "O que é a captura de áudio da aba e por que ela funciona com fone?",
+      "body": "A captura de áudio da aba é uma API do Chrome que permite a uma extensão receber o áudio de uma aba específica, seja qual for o dispositivo de saída.\n\nO modo IA do LessonScriptor usa essa captura: recebe o som da aba antes de ele chegar ao fone, envia em trechos (10 segundos no modo Normal, 30 segundos no modo Ótimo, mais preciso) para uma IA de transcrição do tipo Whisper e mostra o texto no painel lateral com um pequeno atraso. Enquanto isso, o som continua chegando normalmente ao seu fone.\n\nO processo não depende do microfone nem da saída de áudio: AirPods, JBL, Sony WH-1000XM5, headset USB ou fone com fio dão o mesmo resultado. Cada aba é independente, então dá para transcrever vários vídeos ao mesmo tempo.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com o LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "windows-workaround",
+      "h2": "Existe uma alternativa grátis de legendas com fone no Windows?",
+      "body": "Sim. Além da Legenda Instantânea do Chrome, o Windows 11 (versão 22H2 e posteriores) tem **Legendas ao vivo** no nível do sistema, que legendam todo o áudio do PC, fone incluso, e não só o Chrome. Isso ajuda em aulas no app do Zoom ou do Teams para computador.\n\n**Como ativar no Windows 11:** pressione **Win+Ctrl+L** ou vá em Configurações > Acessibilidade > Legendas. Uma barra de legendas aparece sobre as janelas. O português do Brasil está entre os idiomas disponíveis.\n\n**Windows 10:** não tem esse recurso; use a Legenda Instantânea do Chrome.\n\n**Limitação:** assim como as do Chrome, as Legendas ao vivo do Windows são só para leitura, sem edição nem exportação, e a barra pode cobrir parte do vídeo. Para estudar uma aula, uma transcrição que você pode guardar continua sendo mais útil.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo para gravações do Zoom",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-headphones-setup",
+      "h2": "Como usar o LessonScriptor com fone de ouvido?",
+      "body": "Para usar o LessonScriptor com fone, você precisa do modo IA, porque o modo gratuito escuta pelo microfone.\n\n1. Instale o LessonScriptor pela Chrome Web Store.\n2. Abra o vídeo no Chrome (uma aula no AVA ou no Moodle, YouTube, Zoom no navegador) e clique no ícone do LessonScriptor para abrir o painel lateral.\n3. Escolha o **modo IA**. Os primeiros 30 minutos são grátis; depois, compre um pacote se precisar.\n4. Dê play no vídeo: a transcrição aparece no painel com alguns segundos de atraso.\n\nO modo IA funciona com pacotes de pagamento único, sem assinatura, descontados por segundo e sem validade: 5 h por US$ 5, 15 h por US$ 12, 30 h por US$ 21 (preços em dólar; o Stripe mostra uma estimativa em reais). Se preferir o modo gratuito, use caixas de som com pelo menos 80% de volume, sem fone.",
+      "internal_links": [
+        {
+          "text": "Legenda Instantânea do Chrome ou LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "which-headphones-work",
+      "h2": "Quais fones funcionam com legendas ao vivo no Chrome?",
+      "body": "Todos os fones funcionam com a Legenda Instantânea do Chrome e com o modo IA do LessonScriptor, porque nenhum dos dois usa o microfone. Só as ferramentas baseadas no microfone precisam de caixas de som.",
+      "table": {
+        "headers": [
+          "Ferramenta",
+          "Fone com fio / USB",
+          "AirPods e Bluetooth",
+          "Por quê"
+        ],
+        "rows": [
+          [
+            "Legenda Instantânea do Chrome",
+            "Sim",
+            "Sim",
+            "Legenda o áudio que toca no Chrome, sem microfone"
+          ],
+          [
+            "Legendas ao vivo do Windows 11",
+            "Sim",
+            "Sim",
+            "Legenda o áudio do sistema"
+          ],
+          [
+            "LessonScriptor, modo IA",
+            "Sim",
+            "Sim",
+            "Capta o áudio da aba"
+          ],
+          [
+            "LessonScriptor, modo gratuito",
+            "Não",
+            "Não",
+            "Escuta pelo microfone: caixas de som a 80% ou mais"
+          ]
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "heading": "Transcreva suas aulas de fone de ouvido",
+    "body": "O modo IA do LessonScriptor capta o áudio da aba e funciona com qualquer fone. 30 minutos de teste grátis e depois pacotes sem assinatura.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "A Legenda Instantânea do Chrome funciona com fone de ouvido?",
+        "answer": "Sim. O Chrome legenda o áudio que ele mesmo reproduz, processado no aparelho, sem usar o microfone. Fone com fio, Bluetooth ou USB não impede as legendas. Se elas sumirem, confira se o vídeo está tocando no Chrome e se a aba não está no mudo."
+      },
+      {
+        "question": "A legenda do Chrome funciona com AirPods?",
+        "answer": "Sim, no Mac e no Windows. A Legenda Instantânea não depende da saída de áudio. Quem não funciona com AirPods são as ferramentas que escutam pelo microfone, como o modo gratuito do LessonScriptor."
+      },
+      {
+        "question": "Por que minha transcrição para de funcionar quando coloco o fone?",
+        "answer": "Provavelmente sua ferramenta escuta pelo microfone. Quando o som vai para o fone, o microfone não ouve mais o vídeo. Use uma ferramenta que capte o áudio da aba, como o modo IA do LessonScriptor, ou use caixas de som."
+      },
+      {
+        "question": "Como transcrever uma videoaula do AVA de fone de ouvido?",
+        "answer": "Abra a aula no Chrome, inicie o LessonScriptor no modo IA e dê play no vídeo. O modo IA capta o áudio da aba, então o fone não atrapalha, e você fica com uma transcrição editável e exportável em .txt ou .md."
+      },
+      {
+        "question": "O Windows 10 tem legendas ao vivo como o Windows 11?",
+        "answer": "Não. As Legendas ao vivo do sistema (Win+Ctrl+L) são exclusivas do Windows 11 versão 22H2 e posteriores. No Windows 10, use a Legenda Instantânea do Chrome, que funciona com fone, ou o modo IA do LessonScriptor."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Legendas do Chrome com fone de ouvido: a resposta curta",
+    "body": "A Legenda Instantânea do Chrome funciona com qualquer fone de ouvido, porque legenda o áudio que toca no Chrome, no próprio aparelho, sem microfone. Se as legendas somem com o fone, o problema está em outro lugar: áudio fora do Chrome, aba no mudo ou modelo de voz incompleto. O que não funciona com fone são as ferramentas baseadas no microfone, incluindo o modo gratuito do LessonScriptor. Para uma transcrição que você pode guardar, destacar e exportar enquanto ouve de fone, o modo IA do LessonScriptor capta o áudio da aba e funciona com AirPods, Bluetooth, fio ou USB. No Windows 11, as Legendas ao vivo do sistema são uma alternativa grátis, só para leitura."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Legendas do Chrome com fone de ouvido: o que funciona e o que não funciona",
+      "description": "A Legenda Instantânea do Chrome funciona com fone de ouvido e AirPods. O que falha são as ferramentas que usam o microfone. Entenda o motivo e as soluções.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/legendas-chrome-fones-de-ouvido",
+      "url": "https://lessonscriptor.com/pt/blog/legendas-chrome-fones-de-ouvido",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A Legenda Instantânea do Chrome funciona com fone de ouvido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O Chrome legenda o áudio que ele mesmo reproduz, processado no aparelho, sem usar o microfone. Fone com fio, Bluetooth ou USB não impede as legendas. Se elas sumirem, confira se o vídeo está tocando no Chrome e se a aba não está no mudo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A legenda do Chrome funciona com AirPods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, no Mac e no Windows. A Legenda Instantânea não depende da saída de áudio. Quem não funciona com AirPods são as ferramentas que escutam pelo microfone, como o modo gratuito do LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que minha transcrição para de funcionar quando coloco o fone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Provavelmente sua ferramenta escuta pelo microfone. Quando o som vai para o fone, o microfone não ouve mais o vídeo. Use uma ferramenta que capte o áudio da aba, como o modo IA do LessonScriptor, ou use caixas de som."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como transcrever uma videoaula do AVA de fone de ouvido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abra a aula no Chrome, inicie o LessonScriptor no modo IA e dê play no vídeo. O modo IA capta o áudio da aba, então o fone não atrapalha, e você fica com uma transcrição editável e exportável em .txt ou .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Windows 10 tem legendas ao vivo como o Windows 11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. As Legendas ao vivo do sistema (Win+Ctrl+L) são exclusivas do Windows 11 versão 22H2 e posteriores. No Windows 10, use a Legenda Instantânea do Chrome, que funciona com fone, ou o modo IA do LessonScriptor."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Transcrever um vídeo de fone de ouvido com o LessonScriptor",
+      "inLanguage": "pt-BR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instalar o LessonScriptor",
+          "text": "Instale a extensão pela Chrome Web Store."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abrir o painel lateral",
+          "text": "Abra o vídeo no Chrome e clique no ícone do LessonScriptor."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Escolher o modo IA",
+          "text": "O modo IA capta o áudio da aba; 30 minutos de teste grátis."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Dar play no vídeo",
+          "text": "A transcrição aparece no painel com alguns segundos de atraso."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Legendas do Chrome com fone de ouvido",
+          "item": "https://lessonscriptor.com/pt/blog/legendas-chrome-fones-de-ouvido"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Microsoft Support — Use live captions to better understand audio",
+      "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

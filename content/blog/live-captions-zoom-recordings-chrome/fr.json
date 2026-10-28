@@ -1,0 +1,321 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Sous-titres pour les enregistrements Zoom, BigBlueButton et Teams dans Chrome (2026)",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Sous-titres pour enregistrements Zoom, BBB et Teams",
+    "description": "Sous-titrez un enregistrement Zoom, BigBlueButton ou Teams dans Chrome, même sans transcription fournie, et gardez un texte modifiable de votre cours.",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "og_title": "Sous-titres pour les enregistrements Zoom, BigBlueButton et Teams dans Chrome",
+    "og_description": "Des sous-titres pour vos cours enregistrés dans Chrome, même quand l'enseignant n'a pas activé la transcription.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Navigateur Chrome affichant un enregistrement de cours avec le panneau de transcription LessonScriptor ouvert",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct. Victoria étudie l'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "L'essentiel",
+    "lead": "LessonScriptor ajoute une transcription modifiable à tout enregistrement de cours lu dans Chrome : Zoom, BigBlueButton (souvent intégré à Moodle) ou Teams via OneDrive et SharePoint. Cela marche même si l'enseignant n'a pas activé la transcription. Les Sous-titres instantanés de Chrome fonctionnent aussi sur ces vidéos, mais le texte disparaît.",
+    "bullets": [
+      "Un enregistrement Zoom, BigBlueButton ou Teams lu dans un onglet Chrome fonctionne avec les Sous-titres instantanés de Chrome et avec LessonScriptor.",
+      "La transcription intégrée de Zoom ou Teams dépend de l'organisateur : s'il ne l'a pas activée, elle n'existe pas. C'est fréquent pour les cours en amphi enregistrés.",
+      "LessonScriptor fonctionne aussi sur les vidéos intégrées dans Moodle, Canvas ou Blackboard, pas seulement sur zoom.us.",
+      "Un fichier MP4 téléchargé peut être ouvert dans Chrome puis transcrit pendant la lecture.",
+      "La transcription LessonScriptor se corrige, se surligne et s'exporte (.txt, .md) ; les sous-titres de Chrome ne s'enregistrent pas."
+    ]
+  },
+  "intro": "LessonScriptor sous-titre les enregistrements de cours dans Chrome en transcrivant l'audio pendant la lecture, dans un panneau latéral où le texte reste modifiable. Pour un étudiant en France, ces enregistrements viennent surtout de trois outils : Zoom, BigBlueButton (la classe virtuelle intégrée à de nombreux Moodle universitaires) et Microsoft Teams, dont les enregistrements se lisent dans OneDrive ou SharePoint. Que l'enseignant ait activé ou non la transcription, LessonScriptor transcrit ce qui est joué, sans dépendre d'un fichier généré à l'avance. Les Sous-titres instantanés de Chrome (chrome://settings/accessibility) sous-titrent aussi ces vidéos dans un onglet, mais n'affichent que deux lignes, qui disparaissent. Ce guide explique quand utiliser chaque option et couvre les cas particuliers : vidéos intégrées à Moodle, fichiers MP4 téléchargés et enregistrements sans transcription.",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "Les sous-titres de Chrome fonctionnent-ils sur un enregistrement Zoom ou BigBlueButton ?",
+      "body": "Oui, tant que l'enregistrement est lu dans un onglet Chrome. Les Sous-titres instantanés de Chrome sous-titrent tout son joué dans le navigateur : un enregistrement Zoom sur zoom.us, la lecture d'une session BigBlueButton depuis Moodle, ou un enregistrement Teams ouvert dans OneDrive, SharePoint ou Stream.\n\nIls ne fonctionnent pas dans les applications de bureau. Si le lien ouvre l'application Zoom ou Teams sur votre ordinateur, les sous-titres de Chrome ne s'appliquent pas. Ouvrez plutôt l'enregistrement dans le navigateur.\n\nLessonScriptor fonctionne sur toute vidéo jouée dans un onglet Chrome. Cela inclut zoom.us, les lectures BigBlueButton, les enregistrements Teams dans le navigateur, les vidéos intégrées à Moodle, Canvas ou Blackboard, et les fichiers MP4 ouverts dans Chrome.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome : le guide complet",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "Quelle différence entre la transcription de Zoom ou Teams et les sous-titres de Chrome ?",
+      "body": "La transcription de Zoom ou de Teams est un fichier texte généré par la plateforme après la réunion. L'organisateur doit l'avoir activée : la transcription audio des enregistrements cloud chez Zoom, la transcription de réunion chez Teams. Sinon, rien n'existe. La langue prise en charge dépend aussi du compte et de la configuration de l'établissement.\n\nLes sous-titres de Chrome et LessonScriptor transcrivent en temps réel pendant la lecture. Ils travaillent sur l'audio réel de l'enregistrement, que la plateforme ait produit une transcription ou non.\n\n**Transcription Zoom ou Teams :** disponible seulement si l'organisateur l'a activée. Elle s'affiche dans la plateforme, se télécharge (VTT ou TXT chez Zoom) et indique qui parle.\n\n**Sous-titres instantanés de Chrome :** une bulle de sous-titres en lecture seule pendant la vidéo. Elle disparaît ensuite et ne s'exporte pas. Elle couvre les 19 langues de Chrome, dont le français.\n\n**LessonScriptor :** une transcription en temps réel dans le panneau latéral. Elle se corrige, se surligne en 5 couleurs et s'exporte en .txt ou .md, en 14 variantes de langues dont le français, que la plateforme ait produit une transcription ou non. LessonScriptor n'identifie pas les intervenants."
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "Comment obtenir la transcription d'un enregistrement Zoom, BigBlueButton ou Teams dans Chrome ?",
+      "body": "Pour transcrire un cours enregistré avec LessonScriptor :",
+      "steps": [
+        "Installez LessonScriptor depuis le Chrome Web Store. C'est gratuit et sans compte.",
+        "Ouvrez l'enregistrement dans Chrome. Cela peut être le lien zoom.us, la lecture BigBlueButton depuis votre cours Moodle, l'enregistrement Teams dans OneDrive ou SharePoint, ou un fichier MP4 glissé dans un onglet.",
+        "Cliquez sur l'icône LessonScriptor dans la barre d'outils de Chrome pour ouvrir le panneau latéral, puis choisissez la langue de la vidéo (Français).",
+        "Choisissez le mode. **Mic** est le mode gratuit : il écoute par le micro, donc il faut des haut-parleurs (volume à 80 % ou plus), pas de casque. **Normal** ou **Optimal** est le mode IA : il capte l'audio de l'onglet et marche avec un casque. Optimal est le plus précis pour les enregistrements.",
+        "Lancez la lecture. La transcription apparaît dans le panneau, avec quelques secondes de décalage en mode IA.",
+        "Corrigez la transcription au fil de l'eau : noms de professeurs, termes techniques, mots mal entendus. Surlignez les passages importants.",
+        "À la fin, exportez en .txt ou .md, ou copiez le texte dans le presse-papiers pour votre prise de notes."
+      ],
+      "internal_links": [
+        {
+          "text": "Sous-titres Chrome avec un casque audio",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "Les sous-titres fonctionnent-ils sur un enregistrement intégré à Moodle, BigBlueButton ou Teams ?",
+      "body": "Oui. Dans les universités françaises, un cours enregistré se trouve souvent dans un espace Moodle, sous trois formes : une activité BigBlueButton avec ses enregistrements, une vidéo Zoom ou Teams intégrée, ou un lien vers OneDrive ou SharePoint. Dans tous ces cas, la vidéo est lue dans la page web, souvent dans un cadre intégré (iframe). LessonScriptor capte l'audio au niveau de l'onglet, donc l'intégration ne pose pas de problème. Le mode gratuit, lui, entend simplement ce qui sort des haut-parleurs.\n\n**BigBlueButton :** la lecture des enregistrements fonctionne dans Chrome. Si l'enseignant avait activé les sous-titres automatiques pendant la session, ils peuvent apparaître via le bouton CC du lecteur. Sinon, il n'y a rien, et LessonScriptor ou les sous-titres de Chrome prennent le relais.\n\n**Teams :** les enregistrements sont stockés dans OneDrive ou SharePoint et se lisent dans le navigateur. La transcription Teams n'existe que si elle a été lancée pendant la réunion.\n\nLes mêmes principes valent pour Canvas, Blackboard ou Brightspace. Si une vidéo intégrée ne produit aucun son, vérifiez que Chrome n'a pas bloqué le son pour le domaine de votre Moodle.",
+      "internal_links": [
+        {
+          "text": "Transcriptions Zoom et Google Meet pour étudiants",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "Peut-on sous-titrer un fichier MP4 Zoom téléchargé dans Chrome ?",
+      "body": "Oui. Si vous avez un enregistrement Zoom ou Teams en MP4 sur votre ordinateur, vous pouvez le lire dans Chrome et le transcrire avec LessonScriptor pendant la lecture. LessonScriptor ne prend pas de fichier en import : c'est la lecture dans l'onglet qui est transcrite.\n\n**Comment faire :**\n1. Glissez le fichier MP4 dans un nouvel onglet Chrome, ou tapez **file:///** dans la barre d'adresse et naviguez jusqu'au fichier.\n2. Chrome lit le fichier dans son lecteur intégré.\n3. Ouvrez le panneau LessonScriptor et lancez la transcription.\n\nEn mode gratuit (Mic), LessonScriptor écoute par le micro : mettez le son sur les haut-parleurs. Avec un casque, utilisez le mode IA (Normal ou Optimal), qui capte l'audio de l'onglet directement. Un essai gratuit de 30 minutes est inclus."
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "Faut-il utiliser la transcription de Zoom ou Teams, ou LessonScriptor ?",
+      "body": "Utilisez la transcription intégrée de Zoom ou Teams quand elle existe et qu'un simple texte suffit. Elle indique qui parle, ce qui est utile pour une réunion à plusieurs voix ; LessonScriptor ne le fait pas.\n\nUtilisez LessonScriptor quand il n'y a pas de transcription, ce qui est fréquent pour les cours en amphi enregistrés et les sessions BigBlueButton. Il sert aussi quand vous voulez corriger et surligner pendant le visionnage, ou quand la vidéo est intégrée à Moodle.\n\nPour les études, l'approche « je corrige en regardant » est souvent plus utile qu'une transcription brute, en particulier avec un TDAH : vous travaillez le contenu pendant le cours au lieu d'attendre un fichier. Mode gratuit, ou packs IA dès 5 $ les 5 heures (prix en USD, Stripe convertit en euros), sans abonnement.",
+      "internal_links": [
+        {
+          "text": "Meilleures extensions Chrome de sous-titres",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        },
+        {
+          "text": "Sous-titres Chrome ou LessonScriptor : le comparatif",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Sous-titrez vos cours enregistrés dans Chrome — gratuit",
+    "body": "LessonScriptor fonctionne sur les enregistrements Zoom, BigBlueButton, Teams et toute vidéo de votre Moodle. Corrigez, surlignez, exportez.",
+    "button_label": "Ajouter LessonScriptor à Chrome — gratuit",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Les sous-titres instantanés de Chrome fonctionnent-ils sur un enregistrement Zoom ?",
+        "answer": "Oui, si l'enregistrement est lu dans un onglet Chrome (zoom.us ou une vidéo intégrée à Moodle). Les Sous-titres instantanés affichent une bulle en lecture seule qui disparaît. LessonScriptor produit une transcription modifiable et exportable."
+      },
+      {
+        "question": "Pourquoi mon enregistrement Zoom n'a-t-il pas de transcription ?",
+        "answer": "Zoom ne génère une transcription audio des enregistrements cloud que si l'organisateur a activé l'option. Si votre enseignant ne l'a pas fait, il n'y en a pas. LessonScriptor transcrit l'enregistrement pendant que vous le lisez dans Chrome."
+      },
+      {
+        "question": "Comment sous-titrer un enregistrement BigBlueButton sur Moodle ?",
+        "answer": "Ouvrez la lecture de l'enregistrement depuis votre cours Moodle dans Chrome. Si les sous-titres n'avaient pas été activés pendant la session, utilisez les Sous-titres instantanés de Chrome pour un affichage rapide, ou LessonScriptor pour une transcription en français que vous pouvez corriger et exporter."
+      },
+      {
+        "question": "LessonScriptor fonctionne-t-il sur les enregistrements Teams ?",
+        "answer": "Oui, quand l'enregistrement Teams est lu dans Chrome (OneDrive, SharePoint ou Stream). Il ne fonctionne pas dans l'application de bureau Teams. Si la transcription Teams n'a pas été lancée pendant la réunion, LessonScriptor la remplace."
+      },
+      {
+        "question": "Peut-on exporter la transcription d'un enregistrement Zoom depuis Chrome ?",
+        "answer": "LessonScriptor exporte la transcription en .txt ou .md, ou la copie dans le presse-papiers, pour la coller dans Notion, Google Docs, Obsidian ou votre modèle de prise de notes. Les sous-titres intégrés de Chrome ne s'exportent pas."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Sous-titres pour enregistrements Zoom, BigBlueButton et Teams : en bref",
+    "body": "LessonScriptor et les Sous-titres instantanés de Chrome fonctionnent tous deux sur les enregistrements lus dans un onglet Chrome : Zoom sur zoom.us, BigBlueButton depuis Moodle, Teams dans OneDrive ou SharePoint, et fichiers MP4 ouverts dans le navigateur. Les sous-titres de Chrome sont en lecture seule et temporaires. LessonScriptor produit une transcription modifiable et exportable, même quand la plateforme n'en a jamais créé. Pour les étudiants dont les cours enregistrés n'ont pas de transcription, c'est le moyen le plus fiable de garder le contenu du cours par écrit."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Sous-titres pour les enregistrements Zoom, BigBlueButton et Teams dans Chrome (2026)",
+      "description": "Sous-titrez un enregistrement Zoom, BigBlueButton ou Teams dans Chrome, même sans transcription fournie, et gardez un texte modifiable de votre cours.",
+      "inLanguage": "fr",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/sous-titres-live-enregistrements-zoom-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie avec un TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Comment obtenir la transcription d'un enregistrement Zoom, BigBlueButton ou Teams dans Chrome ?",
+      "inLanguage": "fr",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Installez LessonScriptor depuis le Chrome Web Store. C'est gratuit et sans compte."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Ouvrez l'enregistrement dans Chrome. Cela peut être le lien zoom.us, la lecture BigBlueButton depuis votre cours Moodle, l'enregistrement Teams dans OneDrive ou SharePoint, ou un fichier MP4 glissé dans un onglet."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Cliquez sur l'icône LessonScriptor dans la barre d'outils de Chrome pour ouvrir le panneau latéral, puis choisissez la langue de la vidéo (Français)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Choisissez le mode. Mic est le mode gratuit : il écoute par le micro, donc il faut des haut-parleurs (volume à 80 % ou plus), pas de casque. Normal ou Optimal est le mode IA : il capte l'audio de l'onglet et marche avec un casque. Optimal est le plus précis pour les enregistrements."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Lancez la lecture. La transcription apparaît dans le panneau, avec quelques secondes de décalage en mode IA."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Corrigez la transcription au fil de l'eau : noms de professeurs, termes techniques, mots mal entendus. Surlignez les passages importants."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "À la fin, exportez en .txt ou .md, ou copiez le texte dans le presse-papiers pour votre prise de notes."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les sous-titres instantanés de Chrome fonctionnent-ils sur un enregistrement Zoom ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, si l'enregistrement est lu dans un onglet Chrome (zoom.us ou une vidéo intégrée à Moodle). Les Sous-titres instantanés affichent une bulle en lecture seule qui disparaît. LessonScriptor produit une transcription modifiable et exportable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi mon enregistrement Zoom n'a-t-il pas de transcription ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoom ne génère une transcription audio des enregistrements cloud que si l'organisateur a activé l'option. Si votre enseignant ne l'a pas fait, il n'y en a pas. LessonScriptor transcrit l'enregistrement pendant que vous le lisez dans Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment sous-titrer un enregistrement BigBlueButton sur Moodle ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ouvrez la lecture de l'enregistrement depuis votre cours Moodle dans Chrome. Si les sous-titres n'avaient pas été activés pendant la session, utilisez les Sous-titres instantanés de Chrome pour un affichage rapide, ou LessonScriptor pour une transcription en français que vous pouvez corriger et exporter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor fonctionne-t-il sur les enregistrements Teams ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, quand l'enregistrement Teams est lu dans Chrome (OneDrive, SharePoint ou Stream). Il ne fonctionne pas dans l'application de bureau Teams. Si la transcription Teams n'a pas été lancée pendant la réunion, LessonScriptor la remplace."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on exporter la transcription d'un enregistrement Zoom depuis Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor exporte la transcription en .txt ou .md, ou la copie dans le presse-papiers, pour la coller dans Notion, Google Docs, Obsidian ou votre modèle de prise de notes. Les sous-titres intégrés de Chrome ne s'exportent pas."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sous-titres pour enregistrements Zoom, BBB et Teams",
+          "item": "https://lessonscriptor.com/fr/blog/sous-titres-live-enregistrements-zoom-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Assistance Zoom — Transcription audio des enregistrements cloud",
+      "href": "https://support.zoom.com/hc/fr/article?id=zm_kb&sysparm_article=KB0059762",
+      "external": true
+    },
+    {
+      "text": "BigBlueButton — Sous-titres (documentation)",
+      "href": "https://bigbluebutton.com/docs/help/user-guide/view-closed-captions",
+      "external": true
+    },
+    {
+      "text": "Aide Google Chrome — Sous-titres instantanés",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=fr",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

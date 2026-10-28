@@ -1,0 +1,355 @@
+{
+  "slug": "live-captions-other-languages-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Legenda instantânea do Chrome em português (e mais 18 idiomas)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Legenda instantânea do Chrome em português (+ tradução)",
+    "description": "Ative a Legenda instantânea do Chrome em português, traduza com a Tradução instantânea e guarde uma transcrição editável das suas aulas gravadas no AVA.",
+    "og_image": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "og_title": "Legenda instantânea do Chrome em português e outros idiomas",
+    "og_description": "Legendas em português no Chrome, Tradução instantânea para mais de 100 idiomas e o que fazer quando seu idioma não está na lista.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "legenda instantânea chrome português",
+      "tradução instantânea chrome legendas",
+      "legendas ao vivo outros idiomas"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "alt": "Navegador Chrome exibindo legendas instantâneas em português ao lado de uma videoaula universitária",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrever vídeos ao vivo. Victoria estuda antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "O essencial",
+    "lead": "A Legenda instantânea do Chrome (Live Caption) legenda o português e mais 18 idiomas no seu próprio computador. A Tradução instantânea traduz essas legendas para mais de 100 idiomas no Windows, Mac, Linux e Chromebook Plus. O LessonScriptor transcreve 14 variantes de idioma, incluindo português do Brasil e de Portugal, numa transcrição editável e exportável, mas não traduz.",
+    "bullets": [
+      "Para o português: Configurações → Acessibilidade (atalho: chrome://settings/accessibility) → ative **Legenda instantânea** → ao lado de \"Gerenciar idiomas\", clique em **Adicionar idiomas** → escolha Português na lista.",
+      "Os 19 idiomas do Chrome segundo a Ajuda do Google: inglês, dinamarquês, holandês, francês, alemão, hindi, indonésio, italiano, japonês, coreano, norueguês, polonês, português, espanhol, chinês simplificado, chinês tradicional, sueco, tailandês e turco.",
+      "A **Tradução instantânea** mostra as legendas em outro idioma (por exemplo, uma aula em inglês legendada em português). Ela não aparece para o Chrome no Android nem no iPhone, e o texto das legendas é enviado ao Google.",
+      "O Chrome não legenda árabe nem russo. O LessonScriptor sim, além de inglês (EUA/Reino Unido), francês, espanhol, alemão, italiano, português (PT/BR), chinês simplificado, japonês, coreano e hindi.",
+      "O LessonScriptor transcreve no idioma falado e não traduz. Para ler em português uma aula em inglês, exporte a transcrição (.txt ou .md) e cole no DeepL ou no Google Tradutor."
+    ]
+  },
+  "intro": "A Legenda instantânea é o recurso de legendagem integrado ao Chrome, e o português é um dos seus 19 idiomas, ao lado do inglês, espanhol, francês, alemão, italiano, holandês, polonês, japonês, coreano, hindi, tailandês, turco e das duas formas do chinês. Você ativa em **chrome://settings/accessibility**, e o Chrome baixa um modelo de voz em português que depois roda no seu computador. Um segundo recurso, a Tradução instantânea, traduz essas legendas para mais de 100 idiomas, o que ajuda muito numa aula ou num MOOC em inglês. O limite, para quem estuda na USP, na Unicamp ou numa graduação EAD, é que o Chrome mostra só duas linhas que somem, e o modelo erra justamente o vocabulário técnico e os nomes próprios. O LessonScriptor, uma extensão do Chrome, escreve esse mesmo áudio numa transcrição que você pode corrigir, destacar e exportar, em 14 variantes de idioma. Este guia compara as duas ferramentas idioma por idioma e deixa claro o que nenhuma delas faz.",
+  "stats": [
+    {
+      "number": "19",
+      "label": "idiomas legendados pela Legenda instantânea do Chrome (Ajuda do Google, 2026)"
+    },
+    {
+      "number": "100+",
+      "label": "idiomas de destino da Tradução instantânea do Chrome"
+    },
+    {
+      "number": "14",
+      "label": "variantes de idioma transcritas pelo LessonScriptor, incluindo PT-BR, PT-PT, árabe e russo"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-languages-chrome-live-caption",
+      "h2": "Quais idiomas a Legenda instantânea do Chrome suporta?",
+      "body": "A Legenda instantânea do Chrome suporta 19 idiomas, segundo a página de Ajuda do Google: inglês, dinamarquês, holandês, francês, alemão, hindi, indonésio, italiano, japonês, coreano, norueguês, polonês, português, espanhol, chinês simplificado, chinês tradicional, sueco, tailandês e turco. O Google lista uma única entrada por idioma, sem variantes regionais separadas: não há \"português do Brasil\" à parte.\n\nPara adicionar um idioma no Windows ou Mac:\n\n1. Abra o Chrome, menu de três pontos → **Configurações** → **Acessibilidade** (ou cole **chrome://settings/accessibility** na barra de endereços).\n2. Ative **Legenda instantânea**.\n3. Ao lado de **Gerenciar idiomas**, clique em **Adicionar idiomas** e escolha o seu. O Chrome baixa o pacote de idioma automaticamente.\n4. Selecione o idioma da legenda na lista suspensa.\n\nNo Linux há um passo a mais: Configurações → Acessibilidade → **Legendas**, e depois o mesmo botão. No Chromebook, a opção fica em Configurações → Acessibilidade → Gerenciar recursos de acessibilidade → Áudio e legendas.\n\nCom o pacote baixado, a legendagem acontece no seu aparelho: o Google diz que o áudio e as legendas são processados localmente e não saem do computador. É privado e gratuito, mas o modelo é bem menor que um modelo na nuvem. Na prática, a fala do dia a dia sai bem; o vocabulário de aula, nomes de autores e professores que falam rápido, bem pior.\n\nFaltam dois idiomas importantes: **árabe** e **russo**. Se a sua aula está num deles, o Chrome não legenda, e uma extensão como o LessonScriptor é a opção prática.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome: guia completo",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Legenda instantânea do Chrome não funciona? Soluções",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "chrome-live-translate",
+      "h2": "O Chrome consegue traduzir as legendas ao vivo para outro idioma?",
+      "body": "Sim. A **Tradução instantânea** do Chrome traduz o texto da Legenda instantânea para mais de 100 idiomas enquanto o áudio toca. Assim você assiste a uma aula em inglês no Coursera ou a uma palestra TED e lê as legendas em português. A Ajuda do Google lista o recurso para **Windows, Mac, Linux e Chromebook Plus**. Ele não aparece para o Chrome no Android nem no iPhone, e Chromebooks comuns têm só a legenda. O Google testou o recurso no Chrome Canary em 2023; atualize o Chrome para a versão estável atual antes de procurar a opção.\n\nPara ativar no Windows ou Mac:\n\n1. Abra **chrome://settings/accessibility** (menu de três pontos → Configurações → Acessibilidade).\n2. Confira se a **Legenda instantânea** está ativada e se o idioma falado (por exemplo, inglês) foi adicionado.\n3. Ative **Tradução instantânea**.\n4. Ao lado de **Traduzir para o**, escolha Português. No Chromebook Plus, a lista se chama **Traduzir legendas para o**.\n\nDois limites. Primeiro, o áudio de origem precisa estar entre os 19 idiomas legendados: uma aula em árabe ou russo não pode ser traduzida assim. Segundo, a privacidade muda: as legendas comuns ficam no seu aparelho, mas para traduzi-las o Chrome envia o texto ao Google. Além disso, a tradução automática da fala soma erros: se o Chrome entende errado um termo técnico, a tradução também sai errada. Use para entender, não como anotação.\n\n**E o LessonScriptor?** O LessonScriptor não traduz. Ele transcreve no idioma falado (14 variantes) e guarda o texto. Se precisar de tradução, exporte a transcrição em .txt ou .md, ou copie, e cole no DeepL ou no Google Tradutor. Você fica com o original e a tradução lado a lado para conferir qualquer termo duvidoso.",
+      "callout": {
+        "type": "tip",
+        "label": "O melhor dos dois",
+        "body": "Numa aula em inglês, use a Tradução instantânea do Chrome para acompanhar em português e o LessonScriptor para guardar a transcrição original. Depois, cole a exportação no DeepL e revise os trechos que você não entendeu."
+      },
+      "internal_links": [
+        {
+          "text": "Legendas do Chrome x LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-french",
+      "h2": "Como ativar legendas em francês no Chrome?",
+      "body": "O mesmo caminho: **chrome://settings/accessibility** → **Legenda instantânea** → **Adicionar idiomas** → Francês, e selecione na lista. Num Chrome em francês, a opção se chama **Sous-titres instantanés**.\n\nÉ útil para um intercâmbio na França ou um MOOC do FUN-MOOC. O Chrome lida bem com o francês padrão e pior com nomes de instituições e jargão de cada área. O LessonScriptor também transcreve francês, com a vantagem de você poder corrigir e exportar o texto."
+    },
+    {
+      "id": "chrome-captions-spanish",
+      "h2": "Como ativar legendas em espanhol no Chrome?",
+      "body": "Adicione o espanhol em **Gerenciar idiomas** e selecione na lista. Num Chrome em espanhol, a opção se chama **Subtítulos automáticos**.\n\nO Google lista uma única entrada de espanhol, usada para sotaques da Espanha, do México ou da Argentina. Útil para aulas com professores convidados do Mercosul ou intercâmbio na UBA. O LessonScriptor também tem uma opção de espanhol."
+    },
+    {
+      "id": "chrome-captions-portuguese",
+      "h2": "Como ativar legendas em português no Chrome?",
+      "body": "Para ter legendas em português:\n\n1. Abra **chrome://settings/accessibility** (Configurações → Acessibilidade).\n2. Ative **Legenda instantânea**.\n3. Ao lado de **Gerenciar idiomas**, clique em **Adicionar idiomas** e escolha Português.\n4. Selecione Português na lista suspensa. O Chrome baixa o pacote e legenda qualquer áudio em português de uma aba.\n\nSe o seu Chrome estiver em inglês, a mesma opção se chama **Live Caption**, em Settings → Accessibility.\n\nO Google tem uma única entrada de português para o Brasil e Portugal. Ela funciona bem numa videoaula gravada clara no AVA (Moodle) da sua universidade, numa aula do e-Disciplinas da USP ou num curso EAD, e pior com professores que falam rápido, sotaques regionais fortes e vocabulário de Direito, Medicina ou Engenharia. E como a legenda some depois de duas linhas, não sobra nada para revisar antes da prova.\n\nO LessonScriptor oferece duas opções separadas, **Português (BR)** e **Português (PT)**. Escolher a variante certa ajuda na grafia e no vocabulário (*ônibus* e *autocarro*, *registro* e *registo*). O modo gratuito usa o reconhecimento de voz do Chrome pelo microfone: precisa de caixas de som (volume em 80 % ou mais), não de fone. O modo IA envia o áudio da aba para modelos na nuvem do tipo Whisper, bem mais precisos com sotaques e jargão, e funciona com fone de ouvido. Nos dois casos a transcrição é editável: você corrige uma vez o nome mal ouvido e exporta a versão certa para as suas anotações.",
+      "internal_links": [
+        {
+          "text": "Legendas do Chrome com fone de ouvido",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-german",
+      "h2": "Como ativar legendas em alemão no Chrome?",
+      "body": "Adicione o alemão em **Gerenciar idiomas** e selecione na lista. Num Chrome em alemão, a opção se chama **Automatische Untertitel**.\n\nO ponto fraco do alemão são as palavras compostas longas (*Universitätsbibliothek*, *Forschungsschwerpunkt*), muitas vezes cortadas ou mal reconhecidas. Com o LessonScriptor você corrige a palavra uma vez na transcrição e exporta o texto limpo."
+    },
+    {
+      "id": "chrome-captions-mandarin",
+      "h2": "Como ativar legendas em chinês mandarim no Chrome?",
+      "body": "O Chrome oferece duas entradas: **chinês simplificado** e **chinês tradicional**. As duas legendam o mandarim falado; a escolha define a escrita. Use simplificado para conteúdo da China continental e tradicional para Taiwan ou Hong Kong. Num Chrome em chinês, a opção se chama **实时字幕**.\n\nO LessonScriptor suporta apenas **chinês simplificado**. Para caracteres tradicionais, a legenda integrada do Chrome é a melhor opção. Na China continental, os serviços do Google em geral não estão acessíveis, o que afeta a Chrome Web Store, o download dos pacotes de idioma, a Tradução instantânea e o reconhecimento de voz do modo gratuito do LessonScriptor."
+    },
+    {
+      "id": "lessonscriptor-language-learning",
+      "h2": "Dá para usar as legendas do Chrome para aprender idiomas?",
+      "body": "Sim, e cada ferramenta ajuda de um jeito.\n\n**As legendas do Chrome** funcionam como apoio de leitura. Assistir a um vídeo em inglês com legenda em inglês treina o ouvido, e a Tradução instantânea mostra o português quando você se perde. Mas a legenda é só leitura e some: não sobra nada para revisar.\n\n**O LessonScriptor** guarda o texto. Enquanto o vídeo toca, a transcrição vai se formando no painel lateral. Você destaca as palavras novas (5 cores), adiciona títulos, apaga o que não precisa e exporta em .txt ou .md.\n\nUm método simples, que também serve para estudar para o TOEFL ou o IELTS: assista com o LessonScriptor, destaque o vocabulário novo e exporte. Depois copie as palavras para o Anki e cole as frases difíceis no DeepL. O LessonScriptor não gera flashcards nem traduções: esses passos são seus.",
+      "internal_links": [
+        {
+          "text": "Legendas para gravações do Zoom no Chrome",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "which-tool-multilingual",
+      "h2": "Qual ferramenta usar para legendas em português ou outro idioma?",
+      "body": "**A Legenda instantânea do Chrome** basta se o seu idioma está entre os 19, se você quer legendas rápidas que somem e não precisa guardar o texto. Ative a Tradução instantânea para ler em outro idioma no Windows, Mac, Linux ou Chromebook Plus.\n\n**O LessonScriptor** é a escolha se você precisa guardar, corrigir e exportar o que foi dito, por exemplo para estudar para a prova, se quer separar português do Brasil e de Portugal, ou se a aula está em **árabe ou russo**, que o Chrome não legenda. As 14 variantes: inglês (EUA e Reino Unido), francês, espanhol, alemão, italiano, português (Portugal e Brasil), chinês simplificado, japonês, coreano, russo, árabe e hindi. O modo IA capta o áudio da aba e funciona com fone; o modo gratuito usa o microfone e precisa de caixas de som.\n\n**Nenhum dos dois** atende uma aula em holandês, polonês, sueco, dinamarquês, norueguês, turco, tailandês ou indonésio se você quer uma transcrição exportável. O Chrome legenda esses idiomas, mas o LessonScriptor não: nesse caso, veja um serviço multilíngue como o Notta, que tem plano gratuito.",
+      "table": {
+        "headers": [
+          "Necessidade",
+          "Legenda instantânea do Chrome",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Idiomas",
+            "19 (incl. tailandês, turco, holandês, chinês tradicional)",
+            "14 variantes (incl. árabe, russo, PT-BR e PT-PT separados)"
+          ],
+          [
+            "Traduzir legendas",
+            "Sim, Tradução instantânea (computador + Chromebook Plus)",
+            "Não, exporte e cole no DeepL / Google Tradutor"
+          ],
+          [
+            "Guardar e exportar o texto",
+            "Não",
+            "Sim (.txt, .md, área de transferência)"
+          ],
+          [
+            "Funciona com fone de ouvido",
+            "Sim",
+            "Só no modo IA"
+          ],
+          [
+            "Preço",
+            "Grátis",
+            "Modo gratuito; modo IA a partir de US$ 5 por 5 h (o Stripe converte para reais)"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Melhores extensões do Chrome para legendas",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Guarde suas aulas em texto, em 14 idiomas",
+    "body": "O LessonScriptor transforma o que toca na sua aba do Chrome numa transcrição editável, em português (BR e PT), inglês, espanhol, francês, árabe e mais. Modo gratuito, sem cadastro.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome — grátis",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "A Legenda instantânea do Chrome funciona em português?",
+        "answer": "Sim. O português é um dos 19 idiomas. Abra chrome://settings/accessibility, ative Legenda instantânea, clique em Adicionar idiomas ao lado de Gerenciar idiomas, escolha Português e selecione na lista. Num Chrome em inglês, a opção se chama Live Caption."
+      },
+      {
+        "question": "Como mudar o idioma da legenda instantânea do Chrome?",
+        "answer": "Vá em chrome://settings/accessibility, ative Legenda instantânea e, ao lado de Gerenciar idiomas, clique em Adicionar idiomas. O Chrome baixa o pacote e você escolhe o idioma na lista suspensa. No Linux, abra antes a entrada Legendas."
+      },
+      {
+        "question": "Como traduzir uma aula em inglês para legendas em português no Chrome?",
+        "answer": "Com a Tradução instantânea. Em chrome://settings/accessibility, ative Legenda instantânea (com o inglês adicionado) e Tradução instantânea, e escolha Português ao lado de Traduzir para o. Está disponível no Windows, Mac, Linux e Chromebook Plus, não no Chrome para Android nem iPhone. O texto das legendas é enviado ao Google para tradução."
+      },
+      {
+        "question": "O LessonScriptor traduz as transcrições?",
+        "answer": "Não. O LessonScriptor transcreve no idioma falado, em 14 variantes de idioma, e não traduz. Para ter uma tradução, exporte a transcrição em .txt ou .md, ou copie, e cole no DeepL ou no Google Tradutor."
+      },
+      {
+        "question": "O Chrome diferencia português do Brasil e de Portugal nas legendas?",
+        "answer": "Não. A Ajuda do Google lista uma única entrada de português para a Legenda instantânea. O LessonScriptor tem duas opções separadas, Português (BR) e Português (PT)."
+      },
+      {
+        "question": "Dá para aprender idiomas com as legendas do Chrome?",
+        "answer": "Sim, como apoio de leitura. Para trabalhar vocabulário, o LessonScriptor guarda uma transcrição em que você destaca palavras novas em 5 cores; depois exporta o texto e copia as palavras para o Anki você mesmo."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Legendas do Chrome em português e outros idiomas: o essencial",
+    "body": "A Legenda instantânea do Chrome legenda 19 idiomas no seu aparelho, entre eles português, inglês, espanhol, francês, alemão e as duas formas do chinês. Adicione o seu em chrome://settings/accessibility, em Gerenciar idiomas. A Tradução instantânea traduz essas legendas para mais de 100 idiomas no Windows, Mac, Linux e Chromebook Plus, enviando o texto ao Google. O Chrome não legenda árabe nem russo, e a legenda some depois de duas linhas. O LessonScriptor transcreve 14 variantes de idioma, com PT-BR e PT-PT separados, árabe e russo, numa transcrição que você corrige, destaca e exporta. Ele não traduz, mas a exportação cola direto no DeepL ou no Google Tradutor."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Legenda instantânea do Chrome em português (e mais 18 idiomas)",
+      "description": "Ative a Legenda instantânea do Chrome em português, traduza com a Tradução instantânea e guarde uma transcrição editável das suas aulas gravadas no AVA.",
+      "inLanguage": "pt",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/legendas-ao-vivo-outros-idiomas-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A Legenda instantânea do Chrome funciona em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O português é um dos 19 idiomas. Abra chrome://settings/accessibility, ative Legenda instantânea, clique em Adicionar idiomas ao lado de Gerenciar idiomas, escolha Português e selecione na lista. Num Chrome em inglês, a opção se chama Live Caption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como mudar o idioma da legenda instantânea do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vá em chrome://settings/accessibility, ative Legenda instantânea e, ao lado de Gerenciar idiomas, clique em Adicionar idiomas. O Chrome baixa o pacote e você escolhe o idioma na lista suspensa. No Linux, abra antes a entrada Legendas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como traduzir uma aula em inglês para legendas em português no Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com a Tradução instantânea. Em chrome://settings/accessibility, ative Legenda instantânea (com o inglês adicionado) e Tradução instantânea, e escolha Português ao lado de Traduzir para o. Está disponível no Windows, Mac, Linux e Chromebook Plus, não no Chrome para Android nem iPhone. O texto das legendas é enviado ao Google para tradução."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor traduz as transcrições?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O LessonScriptor transcreve no idioma falado, em 14 variantes de idioma, e não traduz. Para ter uma tradução, exporte a transcrição em .txt ou .md, ou copie, e cole no DeepL ou no Google Tradutor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Chrome diferencia português do Brasil e de Portugal nas legendas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. A Ajuda do Google lista uma única entrada de português para a Legenda instantânea. O LessonScriptor tem duas opções separadas, Português (BR) e Português (PT)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para aprender idiomas com as legendas do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, como apoio de leitura. Para trabalhar vocabulário, o LessonScriptor guarda uma transcrição em que você destaca palavras novas em 5 cores; depois exporta o texto e copia as palavras para o Anki você mesmo."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Legenda instantânea do Chrome em português (+ tradução)",
+          "item": "https://lessonscriptor.com/pt/blog/legendas-ao-vivo-outros-idiomas-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Ajuda do Google Chrome — Gerenciar legendas e traduções no Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — modelo de reconhecimento de fala multilíngue",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-headphones"
+    ]
+  }
+}

@@ -1,0 +1,349 @@
+{
+  "slug": "chrome-live-captions-headphones",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome-Untertitel mit Kopfhörern: Was funktioniert und was nicht",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome Live Caption mit Kopfhörern: Funktioniert das?",
+    "description": "Chrome Live Caption funktioniert mit Kopfhörern und AirPods. Probleme machen nur Tools, die über das Mikrofon zuhören. Hier steht, warum, und was hilft.",
+    "og_image": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "canonical": "https://lessonscriptor.com/de/blog/chrome-untertitel-kopfhoerer",
+    "og_title": "Chrome-Untertitel mit Kopfhörern: Was funktioniert und was nicht",
+    "og_description": "Chrome untertitelt seinen eigenen Ton, mit oder ohne Kopfhörer. Tools, die über das Mikrofon zuhören, nicht. So unterscheiden Sie beides.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "chrome live caption kopfhörer",
+      "chrome automatische untertitel kopfhörer",
+      "live untertitel airpods chrome",
+      "vorlesung transkribieren mit kopfhörern"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "alt": "Studentin mit Kopfhörern verfolgt eine Vorlesung in Chrome, das Transkript erscheint in einer Seitenleiste",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Student at desk with over-ear headphones, Chrome browser open with a lecture video and caption side panel. Warm, focused study environment. Cream and terra color palette."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für die Live-Transkription von Videos. Victoria studiert Anthropologie und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Chrome Live Caption funktioniert mit Kopfhörern, denn Chrome untertitelt den Ton, den es selbst abspielt, ohne Mikrofon. Mit Kopfhörern scheitern nur Tools, die über das Mikrofon zuhören, darunter der kostenlose Modus von LessonScriptor. Der KI-Modus von LessonScriptor nimmt den Ton aus dem Tab auf und funktioniert mit jedem Kopfhörer.",
+    "bullets": [
+      "Chromes automatische Untertitel verarbeiten den im Browser abgespielten Ton direkt auf dem Gerät: AirPods, Bluetooth, Kabel oder USB spielen keine Rolle.",
+      "Verschwinden die Untertitel mit Kopfhörern, liegt es an etwas anderem: Ton läuft außerhalb von Chrome (Zoom- oder Teams-App), Tab stummgeschaltet, Sprachmodell unvollständig.",
+      "Mikrofonbasierte Tools (Diktierfunktion, Spracherkennung des Browsers, kostenloser Modus von LessonScriptor) hören nichts, wenn der Ton in den Kopfhörer geht.",
+      "Der KI-Modus von LessonScriptor nimmt den Tab-Ton direkt auf: Er funktioniert mit Kopfhörern und speichert ein bearbeitbares, exportierbares Transkript. 30 Minuten kostenlos testen.",
+      "Unter Windows 11 (ab 22H2) untertiteln die Liveuntertitel des Systems (Win+Strg+L) den gesamten PC-Ton, Kopfhörer eingeschlossen, auch auf Deutsch."
+    ]
+  },
+  "intro": "Chrome Live Caption funktioniert mit Kopfhörern: Die Funktion untertitelt den Ton, den Chrome selbst abspielt, verarbeitet ihn auf dem Gerät und braucht dafür kein Mikrofon. AirPods, ein Sony WH-1000XM5, ein Sennheiser oder ein Kabelkopfhörer schalten die Untertitel also nicht ab. Die Verwirrung hat einen anderen Grund: Viele Transkriptions-Tools hören über das Mikrofon zu, und die hören nichts mehr, wenn der Ton in den Kopfhörer geht. Das gilt auch für den kostenlosen Modus von LessonScriptor. Dieser Leitfaden erklärt, was mit Kopfhörern funktioniert, was nicht, und wie Sie eine Vorlesungsaufzeichnung in ILIAS oder ein YouTube-Video mit dem KI-Modus von LessonScriptor über Kopfhörer transkribieren.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "Mikrofone, die Chrome Live Caption braucht"
+    },
+    {
+      "number": "19",
+      "label": "Untertitelsprachen in Chrome laut Google, darunter Deutsch"
+    },
+    {
+      "number": "30 Min.",
+      "label": "kostenlose Testzeit für den KI-Modus von LessonScriptor, der mit Kopfhörern funktioniert"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-no-chrome-captions-headphones",
+      "h2": "Funktioniert Chrome Live Caption mit Kopfhörern?",
+      "body": "Ja. Chromes automatische Untertitel erfassen den Ton, der in den Browser-Tabs läuft, innerhalb von Chrome, bevor er an Lautsprecher oder Kopfhörer geht. Laut Google werden Ton und Untertitel lokal verarbeitet und verlassen das Gerät nie. Das Mikrofon ist nicht beteiligt.\n\nDeshalb haben Kabelkopfhörer, AirPods, Bluetooth-Kopfhörer oder ein USB-Headset keinen Einfluss auf die Untertitel. Sie können sogar ganz ohne Lautsprecher einer Vorlesung folgen, genau dafür hat Google die Funktion unter anderem gedacht.\n\nVerschwinden die Untertitel, sobald Sie die Kopfhörer aufsetzen, suchen Sie eine andere Ursache: Die Vorlesung läuft in der Zoom- oder Teams-Desktop-App statt in Chrome, der Tab ist stummgeschaltet oder das Sprachmodell ist unvollständig. Unser Leitfaden zur Fehlerbehebung beschreibt alle acht bekannten Ursachen.",
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption funktioniert nicht: 8 Lösungen",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "does-it-work-macos",
+      "h2": "Funktionieren Chrome-Untertitel mit AirPods auf dem Mac?",
+      "body": "Ja. Unter macOS funktionieren Chromes automatische Untertitel wie unter Windows mit AirPods und jedem anderen Kopfhörer, weil sie nicht vom Audioausgang abhängen.\n\nHören die Untertitel nach dem Verbinden der AirPods auf, prüfen Sie drei Dinge: ob das Video wirklich in Chrome läuft, ob **Automatische Untertitel** unter **chrome://settings/accessibility** noch aktiv ist und ob Chrome nach dem letzten macOS- oder Chrome-Update komplett neu gestartet wurde (Cmd+Q). Manchmal reicht es, Bluetooth kurz zu trennen und neu zu verbinden, damit die Wiedergabe wieder anläuft.\n\nDas eigentliche Kopfhörerproblem auf dem Mac betrifft Tools, die über das MacBook-Mikrofon zuhören: Geht der Ton in die AirPods, hört das Mikrofon das Video nicht mehr."
+    },
+    {
+      "id": "what-is-tab-audio-capture",
+      "h2": "Was ist Tab-Audioaufnahme und warum funktioniert sie mit Kopfhörern?",
+      "body": "Tab-Audioaufnahme ist eine Chrome-API, mit der eine Erweiterung den Ton eines bestimmten Tabs empfangen kann, unabhängig vom Ausgabegerät.\n\nDer KI-Modus von LessonScriptor nutzt diese Aufnahme: Er erhält den Tab-Ton, bevor er den Kopfhörer erreicht, schickt ihn in Abschnitten (10 Sekunden im Modus Normal, 30 Sekunden im genaueren Modus Optimal) an eine Transkriptions-KI der Whisper-Klasse und zeigt den Text mit kurzer Verzögerung in der Seitenleiste. Der Ton kommt währenddessen ganz normal in Ihrem Kopfhörer an.\n\nDer Ablauf hängt weder vom Mikrofon noch vom Audioausgang ab: AirPods, Sony WH-1000XM5, Sennheiser, ein USB-Headset oder Kabelkopfhörer liefern dasselbe Ergebnis. Jeder Tab ist unabhängig, sodass Sie mehrere Videos gleichzeitig transkribieren können.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome mit LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "windows-workaround",
+      "h2": "Gibt es unter Windows eine kostenlose Alternative für Untertitel mit Kopfhörern?",
+      "body": "Ja. Neben Chromes automatischen Untertiteln bringt Windows 11 (ab Version 22H2) systemweite **Liveuntertitel** mit, die den gesamten PC-Ton untertiteln, Kopfhörer eingeschlossen, und nicht nur Chrome. Das hilft bei Vorlesungen in der Zoom- oder Teams-Desktop-App.\n\n**Unter Windows 11 aktivieren:** Drücken Sie **Win+Strg+L** oder gehen Sie zu Einstellungen > Barrierefreiheit > Untertitel. Über den Fenstern erscheint eine Untertitelleiste. Deutsch gehört zu den verfügbaren Sprachen.\n\n**Windows 10:** Dort gibt es diese Funktion nicht; bleiben Sie bei Chromes automatischen Untertiteln.\n\n**Einschränkung:** Wie die Chrome-Untertitel sind auch die Windows-Liveuntertitel nur zum Lesen da, ohne Bearbeiten oder Export, und die Leiste kann einen Teil des Videos verdecken. Für die Prüfungsvorbereitung ist ein Transkript, das Sie behalten können, nützlicher.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel für Zoom-Aufnahmen",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-headphones-setup",
+      "h2": "Wie nutze ich LessonScriptor mit Kopfhörern?",
+      "body": "Für LessonScriptor mit Kopfhörern brauchen Sie den KI-Modus, denn der kostenlose Modus hört über das Mikrofon zu.\n\n1. Installieren Sie LessonScriptor aus dem Chrome Web Store.\n2. Öffnen Sie Ihr Video in Chrome (Vorlesung in ILIAS, Stud.IP oder Moodle, YouTube, Zoom im Browser) und klicken Sie auf das LessonScriptor-Symbol, um die Seitenleiste zu öffnen.\n3. Wählen Sie den **KI-Modus**. Die ersten 30 Minuten sind kostenlos, danach kaufen Sie bei Bedarf ein Paket.\n4. Starten Sie das Video: Das Transkript erscheint mit einigen Sekunden Verzögerung in der Seitenleiste.\n\nDer KI-Modus läuft über Einmalpakete ohne Abo, die sekundengenau abgerechnet werden und nicht verfallen: 5 Std. für 5 $, 15 Std. für 12 $, 30 Std. für 21 $ (Preise in US-Dollar; Stripe zeigt eine Schätzung in Euro). Wer den kostenlosen Modus bevorzugt, braucht Lautsprecher mit mindestens 80 % Lautstärke und keine Kopfhörer.",
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption oder LessonScriptor?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "which-headphones-work",
+      "h2": "Welche Kopfhörer funktionieren mit Live-Untertiteln in Chrome?",
+      "body": "Alle Kopfhörer funktionieren mit Chromes automatischen Untertiteln und mit dem KI-Modus von LessonScriptor, weil keins von beiden das Mikrofon nutzt. Nur mikrofonbasierte Tools brauchen Lautsprecher.",
+      "table": {
+        "headers": [
+          "Tool",
+          "Kabel- / USB-Kopfhörer",
+          "AirPods und Bluetooth",
+          "Warum"
+        ],
+        "rows": [
+          [
+            "Chrome Automatische Untertitel",
+            "Ja",
+            "Ja",
+            "Untertitelt den Ton in Chrome, ohne Mikrofon"
+          ],
+          [
+            "Windows 11 Liveuntertitel",
+            "Ja",
+            "Ja",
+            "Untertitelt den Systemton"
+          ],
+          [
+            "LessonScriptor, KI-Modus",
+            "Ja",
+            "Ja",
+            "Nimmt den Tab-Ton auf"
+          ],
+          [
+            "LessonScriptor, kostenloser Modus",
+            "Nein",
+            "Nein",
+            "Hört über das Mikrofon: Lautsprecher auf 80 % oder mehr"
+          ]
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "heading": "Vorlesungen mit Kopfhörern transkribieren",
+    "body": "Der KI-Modus von LessonScriptor nimmt den Tab-Ton auf und funktioniert mit jedem Kopfhörer. 30 Minuten kostenlos testen, danach Pakete ohne Abo.",
+    "button_label": "LessonScriptor zu Chrome hinzufügen",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Funktioniert Chrome Live Caption mit Kopfhörern?",
+        "answer": "Ja. Chrome untertitelt den Ton, den es selbst abspielt, lokal auf dem Gerät und ohne Mikrofon. Kabel-, Bluetooth- oder USB-Kopfhörer verhindern die Untertitel nicht. Verschwinden sie, prüfen Sie, ob das Video in Chrome läuft und der Tab nicht stummgeschaltet ist."
+      },
+      {
+        "question": "Funktionieren Chrome-Untertitel mit AirPods?",
+        "answer": "Ja, auf dem Mac und unter Windows. Die automatischen Untertitel hängen nicht vom Audioausgang ab. Mit AirPods scheitern nur Tools, die über das Mikrofon zuhören, etwa der kostenlose Modus von LessonScriptor."
+      },
+      {
+        "question": "Warum funktioniert meine Transkription nicht mehr, sobald ich Kopfhörer trage?",
+        "answer": "Ihr Tool hört vermutlich über das Mikrofon zu. Geht der Ton in den Kopfhörer, hört das Mikrofon das Video nicht mehr. Nutzen Sie ein Tool, das den Tab-Ton aufnimmt, etwa den KI-Modus von LessonScriptor, oder Lautsprecher."
+      },
+      {
+        "question": "Wie transkribiere ich eine ILIAS-Vorlesung mit Kopfhörern?",
+        "answer": "Öffnen Sie die Vorlesung in Chrome, starten Sie LessonScriptor im KI-Modus und spielen Sie das Video ab. Der KI-Modus nimmt den Tab-Ton auf, Kopfhörer stören also nicht, und Sie erhalten ein bearbeitbares Transkript, das Sie als .txt oder .md exportieren."
+      },
+      {
+        "question": "Hat Windows 10 Liveuntertitel wie Windows 11?",
+        "answer": "Nein. Die systemweiten Liveuntertitel (Win+Strg+L) gibt es nur unter Windows 11 ab Version 22H2. Unter Windows 10 nutzen Sie Chromes automatische Untertitel, die mit Kopfhörern funktionieren, oder den KI-Modus von LessonScriptor."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome-Untertitel mit Kopfhörern: die kurze Antwort",
+    "body": "Chromes automatische Untertitel funktionieren mit allen Kopfhörern, weil sie den in Chrome abgespielten Ton direkt auf dem Gerät untertiteln, ohne Mikrofon. Verschwinden sie mit Kopfhörern, liegt das Problem woanders: Ton außerhalb von Chrome, stummgeschalteter Tab oder unvollständiges Sprachmodell. Mit Kopfhörern scheitern nur mikrofonbasierte Tools, darunter der kostenlose Modus von LessonScriptor. Für ein Transkript zum Behalten, Markieren und Exportieren, während Sie über Kopfhörer zuhören, nimmt der KI-Modus von LessonScriptor den Tab-Ton auf und funktioniert mit AirPods, Bluetooth, Kabel oder USB. Unter Windows 11 sind die systemweiten Liveuntertitel eine kostenlose Alternative zum reinen Mitlesen."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome-Untertitel mit Kopfhörern: Was funktioniert und was nicht",
+      "description": "Chrome Live Caption funktioniert mit Kopfhörern und AirPods. Probleme machen nur Tools, die über das Mikrofon zuhören. Hier steht, warum, und was hilft.",
+      "inLanguage": "de-DE",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/chrome-untertitel-kopfhoerer",
+      "url": "https://lessonscriptor.com/de/blog/chrome-untertitel-kopfhoerer",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwickler und SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Funktioniert Chrome Live Caption mit Kopfhörern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Chrome untertitelt den Ton, den es selbst abspielt, lokal auf dem Gerät und ohne Mikrofon. Kabel-, Bluetooth- oder USB-Kopfhörer verhindern die Untertitel nicht. Verschwinden sie, prüfen Sie, ob das Video in Chrome läuft und der Tab nicht stummgeschaltet ist."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktionieren Chrome-Untertitel mit AirPods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, auf dem Mac und unter Windows. Die automatischen Untertitel hängen nicht vom Audioausgang ab. Mit AirPods scheitern nur Tools, die über das Mikrofon zuhören, etwa der kostenlose Modus von LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum funktioniert meine Transkription nicht mehr, sobald ich Kopfhörer trage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ihr Tool hört vermutlich über das Mikrofon zu. Geht der Ton in den Kopfhörer, hört das Mikrofon das Video nicht mehr. Nutzen Sie ein Tool, das den Tab-Ton aufnimmt, etwa den KI-Modus von LessonScriptor, oder Lautsprecher."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie transkribiere ich eine ILIAS-Vorlesung mit Kopfhörern?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öffnen Sie die Vorlesung in Chrome, starten Sie LessonScriptor im KI-Modus und spielen Sie das Video ab. Der KI-Modus nimmt den Tab-Ton auf, Kopfhörer stören also nicht, und Sie erhalten ein bearbeitbares Transkript, das Sie als .txt oder .md exportieren."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Hat Windows 10 Liveuntertitel wie Windows 11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Die systemweiten Liveuntertitel (Win+Strg+L) gibt es nur unter Windows 11 ab Version 22H2. Unter Windows 10 nutzen Sie Chromes automatische Untertitel, die mit Kopfhörern funktionieren, oder den KI-Modus von LessonScriptor."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Ein Video mit Kopfhörern mit LessonScriptor transkribieren",
+      "inLanguage": "de-DE",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "LessonScriptor installieren",
+          "text": "Die Erweiterung aus dem Chrome Web Store installieren."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Seitenleiste öffnen",
+          "text": "Das Video in Chrome öffnen und auf das LessonScriptor-Symbol klicken."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "KI-Modus wählen",
+          "text": "Der KI-Modus nimmt den Tab-Ton auf; 30 Minuten kostenlos testen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Video abspielen",
+          "text": "Das Transkript erscheint mit einigen Sekunden Verzögerung in der Seitenleiste."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/de/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome-Untertitel mit Kopfhörern",
+          "item": "https://lessonscriptor.com/de/blog/chrome-untertitel-kopfhoerer"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Microsoft Support — Use live captions to better understand audio",
+      "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

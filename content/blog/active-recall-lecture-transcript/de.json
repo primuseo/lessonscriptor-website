@@ -1,0 +1,460 @@
+{
+  "slug": "active-recall-lecture-transcript",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Active Recall: So lernst du aus deiner Vorlesungsmitschrift (Schritt für Schritt)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Active Recall: So lernst du aus deiner Mitschrift",
+    "description": "Active Recall heißt: dich selbst abfragen statt nochmal lesen. Die Studienlage und der Ablauf vom Vorlesungstranskript bis zur verteilten Wiederholung.",
+    "keywords": [
+      "Active Recall",
+      "Active Recall Methode",
+      "aktives Erinnern",
+      "Abrufübung",
+      "Klausurenphase lernen",
+      "Lernen mit ADHS"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/de/blog/active-recall-vorlesung-transkript",
+    "og_title": "Active Recall: So lernst du aus deiner Vorlesungsmitschrift (Schritt für Schritt)",
+    "og_description": "Was die Forschung zu Active Recall zeigt, und ein Ablauf vom Vorlesungstranskript bis zur verteilten Wiederholung.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Active Recall heißt, Wissen aktiv aus dem Gedächtnis abzurufen, meist indem du Fragen bei geschlossener Mitschrift beantwortest, statt den Stoff durch erneutes Lesen wieder hineinzustopfen.",
+    "bullets": [
+      "In der Studie von Roediger und Karpicke (2006) erinnerten Studierende, die sich dreimal selbst getestet hatten, eine Woche später 61 % eines Textes; wer ihn in vier Lerneinheiten nur wiederlas, nur 40 %.",
+      "Die Übersichtsarbeit von Dunlosky und Kollegen (2013) bewertete 10 Lerntechniken und gab nur zweien einen hohen Nutzen: Selbsttests und verteiltes Lernen. Wiederlesen und Markieren schnitten schlecht ab.",
+      "Der Ablauf: Vorlesung als Transkript festhalten, daraus eine Fragenliste machen, dich ohne Unterlagen abfragen, dann verteilte Wiederholungen in Anki, RemNote, Quizlet oder einer Lernkartei planen.",
+      "LessonScriptor erfasst und strukturiert das Transkript. Es erstellt keine Fragen oder Karteikarten; die schreibst du selbst oder lässt dir per ChatGPT oder NotebookLM einen Entwurf aus dem Export machen.",
+      "Die Forschung zu Studierenden mit ADHS ist kleiner und uneinheitlich, aber die meisten Studien zeigen, dass sie etwa genauso profitieren wie andere."
+    ]
+  },
+  "stats": [
+    {
+      "number": "61 % vs. 40 %",
+      "label": "Erinnerung nach einer Woche: Selbsttest statt Wiederlesen (Roediger & Karpicke, 2006)"
+    },
+    {
+      "number": "2 von 10",
+      "label": "Lerntechniken mit hohem Nutzen laut Dunlosky et al. (2013): Selbsttests und verteiltes Lernen"
+    },
+    {
+      "number": "317",
+      "label": "Experimente in der Metaanalyse von Cepeda et al. (2006) zum verteilten Lernen"
+    }
+  ],
+  "intro": "Active Recall ist eine Lerntechnik, bei der du Informationen aus dem Gedächtnis abrufst, etwa indem du Fragen bei geschlossener Mitschrift beantwortest, statt den Stoff noch einmal zu lesen oder zu markieren. Sie ist die am besten belegte Lernmethode der kognitiven Psychologie: In einem Experiment von Henry Roediger und Jeffrey Karpicke an der Washington University in St. Louis (2006) erinnerten Studierende, die sich selbst getestet hatten, eine Woche später rund die Hälfte mehr als jene, die denselben Text wiedergelesen hatten. Der Haken: Für Active Recall brauchst du etwas, woraus du abfragen kannst. Bei einer Vorlesung heißt das eine verlässliche Aufzeichnung dessen, was gesagt wurde, und die ist schwer zu bekommen, wenn deine Aufmerksamkeit abdriftet, wie bei vielen Studierenden mit ADHS. Dieser Guide zeigt, was die Forschung belegt, und gibt dir einen Ablauf für die Klausurenphase: Vorlesungstranskript, Fragenliste, Selbsttest, verteilte Wiederholung in Anki, RemNote oder Quizlet.",
+  "sections": [
+    {
+      "id": "what-is-active-recall",
+      "heading": "Was ist Active Recall?",
+      "body": "Active Recall bedeutet, Informationen aus dem Gedächtnis zurückzuholen, ohne hinzusehen. In der Forschung heißt das Abrufübung (retrieval practice), der Lerngewinn heißt Testeffekt. Eine Karteikarte beantworten, einen Begriff laut erklären, alles Erinnerte auf ein leeres Blatt schreiben oder Altklausuren durchrechnen: All das ist Active Recall.\n\nDas Gegenteil ist passives Wiederholen: Skript nochmal lesen, die Vorlesungsaufzeichnung nochmal ansehen, das Lehrbuch markieren. Das fühlt sich produktiv an, weil der Stoff vertraut wirkt, aber Vertrautheit ist Wiedererkennen, nicht Abrufen. In der Klausur musst du die Antwort selbst produzieren, also solltest du genau das üben.\n\nWichtig für Studierende: Active Recall prüft nicht nur, was du weißt. Der Abruf selbst verändert die Gedächtnisspur und macht sie beim nächsten Mal leichter zugänglich."
+    },
+    {
+      "id": "does-active-recall-work",
+      "heading": "Funktioniert Active Recall wirklich? Was die Forschung sagt",
+      "body": "Active Recall stützt sich auf jahrzehntelange Forschung, und drei Quellen solltest du beim Namen kennen.\n\n**Roediger und Karpicke (2006), Psychological Science.** Studierende lasen kurze Sachtexte. Ein Teil las sie erneut, ein anderer Teil schrieb freie Erinnerungstests ohne Rückmeldung. Im zweiten Experiment lernte eine Gruppe den Text in vier 5-minütigen Lerneinheiten (rund 14 Lesedurchgänge), eine in drei Einheiten plus ein Test, eine in einer Einheit plus drei Tests (rund 3 Lesedurchgänge insgesamt). Nach fünf Minuten gewann das Wiederlesen: 83 % Erinnerung in der Nur-Lesen-Gruppe gegenüber 71 % in der Gruppe mit drei Tests. Nach einer Woche drehte sich das Bild: 61 % bei drei Tests, 56 % bei einem Test, 40 % bei reinem Wiederlesen. Ausgerechnet die Nur-Lesen-Gruppe hatte vorhergesagt, sich am meisten zu merken.\n\n**Dunlosky, Rawson, Marsh, Nathan und Willingham (2013), Psychological Science in the Public Interest.** Die Übersichtsarbeit bewertete 10 verbreitete Lerntechniken danach, wie gut sie über Altersgruppen, Stoffe und Prüfungsformen hinweg wirken. Nur Selbsttests und verteiltes Lernen bekamen einen hohen Nutzen. Markieren, Wiederlesen und Zusammenfassen bekamen einen geringen Nutzen, und das sind genau die Techniken, die die meisten Studierenden nutzen.\n\n**Karpicke und Blunt (2011), Science.** Studierende, die Abrufen übten, erinnerten in einem späteren Test mehr als jene, die Concept Maps zum selben Stoff erstellten, auch bei Fragen, die Schlussfolgerungen verlangten.",
+      "callout": {
+        "type": "insight",
+        "label": "Was das für deine Klausurvorbereitung heißt",
+        "body": "Das 5-Minuten-Ergebnis erklärt, warum Wiederlesen so beliebt ist: Kurzfristig fühlt es sich wirklich besser an. Das 1-Wochen-Ergebnis ist das, was deine Klausur misst. Wenn du nur Zeit für eine Technik hast, nimm Selbsttests statt Wiederlesen."
+      },
+      "internal_links": [
+        {
+          "text": "7 Mitschrift-Methoden im Vergleich (und welche mit ADHS funktionieren)",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    },
+    {
+      "id": "active-recall-vs-spaced-repetition",
+      "heading": "Was ist der Unterschied zwischen Active Recall und Spaced Repetition?",
+      "body": "Active Recall ist, wie du wiederholst: durch Abrufen statt Lesen. Spaced Repetition (verteilte Wiederholung) ist, wann du wiederholst: in Einheiten über Tage und Wochen verteilt statt in einer Nacht vor der Klausur. Es sind zwei getrennte Techniken, und zusammen wirken sie am besten.\n\nDie Belege für das Verteilen sind so stark wie die für das Testen. Die Metaanalyse von Cepeda, Pashler, Vul, Wixted und Rohrer (2006) in Psychological Bulletin fasste 317 Experimente zusammen und zeigte, dass verteilte Lerneinheiten das Langzeitbehalten verbessern. Außerdem wächst der optimale Abstand mit der Zeit, die du dir etwas merken musst: für eine Prüfung in einer Woche etwa nach einem Tag wiederholen, für eine Klausur in drei Monaten sollten die Abstände auf Wochen anwachsen.\n\nIm deutschsprachigen Raum kennen viele das Prinzip aus der Lernkartei nach Sebastian Leitner: Karten wandern bei richtiger Antwort ins nächste Fach und kommen seltener dran. Apps wie Anki, RemNote und Quizlet verbinden beides: Jede Karte ist eine Abruffrage, und der Algorithmus entscheidet, wann sie wiederkommt."
+    },
+    {
+      "id": "why-rereading-feels-effective",
+      "heading": "Warum fühlt sich Wiederlesen wirksam an, obwohl es das nicht ist?",
+      "body": "Wiederlesen fühlt sich wirksam an, weil der Text beim zweiten Mal flüssiger zu lesen ist und das Gehirn diese Leichtigkeit mit Können verwechselt. Die Nur-Lesen-Gruppe bei Roediger und Karpicke war sich am sichersten, den Text in einer Woche noch zu können, und behielt am wenigsten.\n\nActive Recall fühlt sich schlechter an, weil Abrufen anstrengend ist und du jede Lücke bemerkst. Dieses Unbehagen ist nützlich: Eine Frage, die du nicht beantworten kannst, zeigt dir genau, was du lernen musst. Wiederlesen zeigt dir das nie."
+    },
+    {
+      "id": "how-to-steps",
+      "heading": "Wie nutze ich Active Recall mit einem Vorlesungstranskript?",
+      "body": "Dieser Ablauf macht aus einer einzigen Vorlesung eine Fragensammlung, mit der du dich in den folgenden Wochen abfragst. Rechne mit 30 bis 45 Minuten pro Vorlesung, verteilt auf mehrere kurze Einheiten.",
+      "steps": [
+        {
+          "strategy": "Halte die Vorlesung als Transkript fest",
+          "detail": "Nutze ein Transkriptionstool, damit du nicht von handschriftlicher Mitschrift abhängst. LessonScriptor, eine Chrome-Erweiterung, transkribiert alles, was in einem Browser-Tab läuft: Aufzeichnungen auf ILIAS, Stud.IP oder Moodle, Videos der FernUni Hagen, YouTube oder Zoom im Browser. Setz bei Themenwechseln eine Überschrift und mach Screenshots wichtiger Folien. Der kostenlose Modus hört über das Mikrofon mit, also Ton über Lautsprecher mit mindestens 80 % Lautstärke; der KI-Modus erfasst den Tab-Ton und funktioniert mit Kopfhörern."
+        },
+        {
+          "strategy": "Bereinige und markiere das Transkript",
+          "detail": "Lies das Transkript innerhalb von 24 Stunden einmal zügig durch. Lösch Abschweifungen und markiere Definitionen, Ursachen, Beispiele und alles, was der Dozent als klausurrelevant angekündigt hat. Das ist das einzige Wiederlesen im ganzen Ablauf, und es dient dazu, Fragen zu finden, nicht zum Lernen."
+        },
+        {
+          "strategy": "Schreib eine Fragenliste",
+          "detail": "Mach aus jedem markierten Punkt eine Frage. Ziel: 10 bis 20 pro Vorlesung. Eine Frage pro Zeile, die Antwort bleibt im Transkript, damit du sie abrufen musst."
+        },
+        {
+          "strategy": "Optional: Fragen per KI-Chatbot entwerfen lassen",
+          "detail": "Wenn du beim Fragenschreiben hängst, exportiere das Transkript als .txt oder .md und füg es selbst in ChatGPT oder NotebookLM ein, mit der Bitte um Fragen, die sich eng an den Text halten. Prüf jede Frage am Transkript, bevor du sie behältst."
+        },
+        {
+          "strategy": "Frag dich ohne Unterlagen ab",
+          "detail": "Beantworte jede Frage laut oder auf Papier, ohne nachzusehen. Prüf danach am Transkript und markier jede Frage als richtig, halb richtig oder falsch. Die falschen sind deine Lernliste."
+        },
+        {
+          "strategy": "Plane verteilte Wiederholungen",
+          "detail": "Übertrag die Fragen als Karteikarten in Anki, RemNote oder Quizlet, in eine Leitner-Lernkartei oder führ eine datierte Liste. Wiederhole nach etwa 1 Tag, 3 Tagen, 1 Woche und 2 bis 3 Wochen, und noch einmal in der Woche vor der Klausur."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Was LessonScriptor kann und was nicht",
+        "body": "LessonScriptor erfasst das Live-Transkript, du kannst Überschriften, Markierungen in 5 Farben und Folien-Screenshots hinzufügen und als .txt oder .md exportieren. Es erstellt keine Karteikarten, Quiz oder Zusammenfassungen. Fragen schreiben, oder einen Chatbot aus deinem exportierten Transkript Entwürfe machen lassen, ist ein Schritt, den du selbst machst."
+      },
+      "internal_links": [
+        {
+          "text": "Cornell-Vorlage: Die Stichwortspalte ist eine fertige Fragenliste",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "how-to-write-questions",
+      "heading": "Wie schreibe ich gute Active-Recall-Fragen?",
+      "body": "Gute Abruffragen fragen nach genau einer Sache, lassen sich in unter einer Minute aus dem Gedächtnis beantworten und mischen einfache Fakten mit Erklärungen. „Was hat der Prof über Mitochondrien gesagt?“ ist zu vage zum Abfragen; „Warum erhöht die gefaltete Innenmembran die ATP-Ausbeute?“ funktioniert.",
+      "table": {
+        "headers": [
+          "Fragetyp",
+          "Beispiel",
+          "Ideal für"
+        ],
+        "rows": [
+          [
+            "Definition",
+            "Was sind Opportunitätskosten?",
+            "Grundbegriffe, erste Wiederholung"
+          ],
+          [
+            "Ursache und Wirkung",
+            "Warum verschärfte die Weltwirtschaftskrise 1929 die Krise der Weimarer Republik?",
+            "Geschichte, VWL, Biologie"
+          ],
+          [
+            "Vergleich",
+            "Worin unterscheiden sich Betablocker und ACE-Hemmer?",
+            "Pharmakologie, Theorien, Epochen"
+          ],
+          [
+            "Anwendung",
+            "Ein Höchstpreis liegt unter dem Gleichgewichtspreis. Was passiert mit dem Angebot?",
+            "Klausuren mit Rechenaufgaben"
+          ],
+          [
+            "Erklär es einer Freundin",
+            "Erkläre den Calvin-Zyklus in drei Sätzen.",
+            "Hausarbeiten und mündliche Prüfungen"
+          ],
+          [
+            "Leeres Blatt",
+            "Schreib alles auf, was du von Vorlesung 6 noch weißt.",
+            "Wochenwiederholung"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Nutze die Cornell-Stichwortspalte",
+        "body": "Wenn du schon nach Cornell mitschreibst, ist die Stichwortspalte deine Fragenliste. Deck die Notizspalte ab und beantworte jedes Stichwort aus dem Gedächtnis."
+      }
+    },
+    {
+      "id": "chatgpt-notebooklm-questions",
+      "heading": "Können ChatGPT oder NotebookLM Active-Recall-Fragen aus meinem Transkript erstellen?",
+      "body": "ChatGPT und NotebookLM können aus einem eingefügten Transkript Fragen entwerfen, und das ist eine vernünftige Abkürzung, wenn dich das leere Blatt am Anfangen hindert. Googles NotebookLM ist hier praktisch, weil es aus den hochgeladenen Quellen antwortet und zeigt, woher jede Antwort stammt.\n\nDrei Regeln halten das ehrlich. Erstens: Bitte nur um Fragen aus dem Text, etwa: Schreib 15 Kurzantwort-Fragen ausschließlich auf Basis dieses Vorlesungstranskripts und zitiere den Satz, aus dem jede Antwort stammt. Zweitens: Prüf jede Frage am Transkript, denn Chatbots können Details erfinden. Drittens: Schreib zumindest ein paar Fragen selbst, denn zu entscheiden, was wichtig ist, gehört zum Lernen.\n\nDas ist ein Arbeitsablauf für dich, keine Funktion von LessonScriptor. Die Aufgabe von LessonScriptor ist, dir ein genaues, strukturiertes Transkript zum Einfügen zu liefern."
+    },
+    {
+      "id": "spaced-review-schedule",
+      "heading": "Wie oft sollte ich mit Active Recall wiederholen?",
+      "body": "Für die meisten Module reicht ein einfacher Plan. Jede Wiederholung ist kurz, weil du nur Fragen beantwortest und die Vorlesung nicht noch einmal liest.",
+      "table": {
+        "headers": [
+          "Wann",
+          "Was du tust",
+          "Zeit"
+        ],
+        "rows": [
+          [
+            "Tag 0 (Vorlesungstag)",
+            "Transkript erfassen, Überschriften und Screenshots setzen",
+            "Während der Vorlesung"
+          ],
+          [
+            "Tag 1",
+            "Transkript bereinigen, Fragen schreiben, erster Selbsttest",
+            "20 bis 30 Min."
+          ],
+          [
+            "Tag 3",
+            "Alle Fragen beantworten, Fehler markieren",
+            "10 Min."
+          ],
+          [
+            "Tag 7",
+            "Die Fehler plus eine zufällige Hälfte der übrigen",
+            "10 Min."
+          ],
+          [
+            "Tag 14 bis 21",
+            "Leeres-Blatt-Abruf der ganzen Vorlesung, dann prüfen",
+            "15 Min."
+          ],
+          [
+            "Klausurenphase",
+            "Alle Fragen, gemischt mit anderen Vorlesungen",
+            "Je nach Modul"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "h3": "Anki",
+          "body": "Anki ist am Computer kostenlos und Open Source. Es plant Karten automatisch und hat eine große Community mit geteilten Stapeln, besonders beliebt im Medizinstudium für das Physikum und das Staatsexamen. Die Oberfläche ist schlicht, was manche beruhigt und andere abschreckt."
+        },
+        {
+          "h3": "RemNote",
+          "body": "RemNote verbindet Notizen und Karteikarten in einer App: Eine Zeile deiner Mitschrift kann zur Karte werden. Gut für alle, die ihre Fragen direkt neben der Mitschrift haben wollen."
+        },
+        {
+          "h3": "Quizlet",
+          "body": "Quizlet ist am einfachsten für den Einstieg und bietet spielerische Lernmodi. Gut für Vokabeln und Definitionen; Anki und RemNote geben mehr Kontrolle über die Abstände."
+        }
+      ]
+    },
+    {
+      "id": "active-recall-adhd",
+      "heading": "Funktioniert Active Recall mit ADHS, und wie passe ich es an?",
+      "body": "Active Recall funktioniert für die meisten Studierenden mit ADHS, auch wenn die Forschung noch klein ist. Eine Studie von 2023 in Frontiers in Psychology zählte nur drei frühere Arbeiten zu Studierenden mit ADHS: Zwei von Knouse und Kollegen (2016 und 2020) fanden einen genauso großen Nutzen wie bei anderen Studierenden, eine von Dudukovic und Kollegen (2015) fand keinen. Die Studie von 2023 selbst zeigte, dass Abrufübung Studierenden mit ADHS half, ein schwächeres Erstlernen bei nicht medikamentös behandelten Studierenden aber nicht ausglich. Die praktische Folge: Das Festhalten zählt. Du kannst nichts abrufen, was nie angekommen ist, und das ist ein Grund, warum ein vollständiges Transkript hilft.\n\nAußerdem muss die Technik an die Funktionsweise von ADHS-Aufmerksamkeit angepasst werden.",
+      "steps": [
+        {
+          "strategy": "Halte Einheiten klein",
+          "detail": "Zehn Fragen mit 10-Minuten-Timer schlagen eine 2-Stunden-Session, die du nie anfängst. Hör auf, solange es sich noch leicht anfühlt, morgen weiterzumachen."
+        },
+        {
+          "strategy": "Begrenze neue Karten",
+          "detail": "Senk in Anki die Zahl neuer Karten pro Tag. Ein Rückstau von 400 fälligen Karten ist ein klassischer Grund, warum Studierende mit ADHS Spaced Repetition aufgeben."
+        },
+        {
+          "strategy": "Antworte laut oder in Bewegung",
+          "detail": "Antworten laut sagen, beim Abrufen herumlaufen oder jemandem etwas erklären hält das Erregungsniveau oben und macht Abdriften schwerer."
+        },
+        {
+          "strategy": "Starte mit einem leichten Erfolg",
+          "detail": "Beginne jede Einheit mit einer Frage, die du sicher kannst. Anfangen ist mit ADHS oft der schwerste Teil, und ein früher Erfolg senkt die Hürde."
+        },
+        {
+          "strategy": "Nutze Body Doubling",
+          "detail": "Lern mit jemandem im selben Raum oder per Videocall, jeder an seiner eigenen Aufgabe. Vielen Studierenden mit ADHS fällt es leichter dranzubleiben, wenn eine andere Person dabei ist."
+        },
+        {
+          "strategy": "Kläre zuerst das Festhalten",
+          "detail": "Wenn du in Vorlesungen den Faden verlierst, arbeite zuerst daran. Unser Guide zur Konzentration in Online-Vorlesungen mit ADHS geht darauf im Detail ein."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Konzentriert bleiben in Online-Vorlesungen mit ADHS",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "Mitschreiben mit ADHS",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Kurz gesagt",
+    "body": "Active Recall heißt, dich selbst abzufragen statt wiederzulesen, und die Belege von Roediger und Karpicke (2006), Dunlosky et al. (2013) und Cepeda et al. (2006) zeigen, dass es zusammen mit verteilter Wiederholung am besten wirkt. Für Vorlesungen ist der verlässlichste Ablauf: Transkript, Fragenliste, Selbsttest ohne Unterlagen, verteilte Wiederholung in Anki, RemNote, Quizlet oder der Lernkartei. Mit ADHS: kurze Einheiten und zuerst ein solides Festhalten der Vorlesung.",
+    "internal_links": [
+      {
+        "text": "Tools und Strategien für Studierende mit ADHS",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Was ist Active Recall einfach erklärt?",
+        "answer": "Active Recall heißt, dich selbst abzufragen statt wiederzulesen. Du schließt deine Mitschrift, versuchst Fragen zu beantworten, einen Begriff zu erklären oder alles Erinnerte aufzuschreiben, und prüfst dann, was falsch war."
+      },
+      {
+        "question": "Ist Active Recall besser als Wiederlesen?",
+        "answer": "Ja, für das Langzeitbehalten. In der Studie von Roediger und Karpicke (2006) erinnerten Studierende mit Selbsttests nach einer Woche 61 % eines Textes, Wiederlesende 40 %. Wiederlesen lag nur bei einem Test nach 5 Minuten vorn."
+      },
+      {
+        "question": "Wie mache ich Active Recall mit meiner Vorlesungsmitschrift?",
+        "answer": "Mach aus jedem Kernpunkt deiner Mitschrift oder deines Transkripts eine kurze Frage, verdeck die Antworten, frag dich ab, prüf an der Mitschrift und wiederhole die verfehlten Fragen nach 1 Tag, 3 Tagen und 1 Woche."
+      },
+      {
+        "question": "Ist Active Recall dasselbe wie Spaced Repetition?",
+        "answer": "Nein. Active Recall ist, wie du wiederholst (durch Abrufen); Spaced Repetition ist, wann du wiederholst (über die Zeit verteilt, wie bei der Leitner-Lernkartei). Apps wie Anki verbinden beides."
+      },
+      {
+        "question": "Kann ChatGPT Karteikarten aus meiner Vorlesung erstellen?",
+        "answer": "ChatGPT oder NotebookLM können Fragen entwerfen, wenn du ein Vorlesungstranskript einfügst, aber prüf jede am Original, weil sie Details erfinden können. LessonScriptor selbst erstellt keine Karteikarten; es liefert dir das Transkript als Grundlage."
+      },
+      {
+        "question": "Funktioniert Active Recall bei ADHS?",
+        "answer": "Die meisten Studien mit Studierenden mit ADHS zeigen, dass Abrufübung ihnen etwa genauso hilft wie anderen, auch wenn eine Studie keinen Nutzen fand und die Forschung klein ist. Kurze Einheiten, ein Limit für neue Karten und ein solides Festhalten der Vorlesung helfen beim Dranbleiben."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Active Recall: So lernst du aus deiner Vorlesungsmitschrift (Schritt für Schritt)",
+      "description": "Active Recall heißt: dich selbst abfragen statt nochmal lesen. Die Studienlage und der Ablauf vom Vorlesungstranskript bis zur verteilten Wiederholung.",
+      "inLanguage": "de-DE",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/de/blog/active-recall-vorlesung-transkript"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Was ist Active Recall einfach erklärt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Active Recall heißt, dich selbst abzufragen statt wiederzulesen. Du schließt deine Mitschrift, versuchst Fragen zu beantworten, einen Begriff zu erklären oder alles Erinnerte aufzuschreiben, und prüfst dann, was falsch war."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Active Recall besser als Wiederlesen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, für das Langzeitbehalten. In der Studie von Roediger und Karpicke (2006) erinnerten Studierende mit Selbsttests nach einer Woche 61 % eines Textes, Wiederlesende 40 %. Wiederlesen lag nur bei einem Test nach 5 Minuten vorn."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie mache ich Active Recall mit meiner Vorlesungsmitschrift?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Mach aus jedem Kernpunkt deiner Mitschrift oder deines Transkripts eine kurze Frage, verdeck die Antworten, frag dich ab, prüf an der Mitschrift und wiederhole die verfehlten Fragen nach 1 Tag, 3 Tagen und 1 Woche."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ist Active Recall dasselbe wie Spaced Repetition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nein. Active Recall ist, wie du wiederholst (durch Abrufen); Spaced Repetition ist, wann du wiederholst (über die Zeit verteilt, wie bei der Leitner-Lernkartei). Apps wie Anki verbinden beides."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ChatGPT Karteikarten aus meiner Vorlesung erstellen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT oder NotebookLM können Fragen entwerfen, wenn du ein Vorlesungstranskript einfügst, aber prüf jede am Original, weil sie Details erfinden können. LessonScriptor selbst erstellt keine Karteikarten; es liefert dir das Transkript als Grundlage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert Active Recall bei ADHS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die meisten Studien mit Studierenden mit ADHS zeigen, dass Abrufübung ihnen etwa genauso hilft wie anderen, auch wenn eine Studie keinen Nutzen fand und die Forschung klein ist. Kurze Einheiten, ein Limit für neue Karten und ein solides Festhalten der Vorlesung helfen beim Dranbleiben."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Wie nutze ich Active Recall mit einem Vorlesungstranskript?",
+      "inLanguage": "de-DE",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Halte die Vorlesung als Transkript fest",
+          "text": "Nutze ein Transkriptionstool, damit du nicht von handschriftlicher Mitschrift abhängst. LessonScriptor, eine Chrome-Erweiterung, transkribiert alles, was in einem Browser-Tab läuft: Aufzeichnungen auf ILIAS, Stud.IP oder Moodle, Videos der FernUni Hagen, YouTube oder Zoom im Browser. Setz bei Themenwechseln eine Überschrift und mach Screenshots wichtiger Folien. Der kostenlose Modus hört über das Mikrofon mit, also Ton über Lautsprecher mit mindestens 80 % Lautstärke; der KI-Modus erfasst den Tab-Ton und funktioniert mit Kopfhörern."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Bereinige und markiere das Transkript",
+          "text": "Lies das Transkript innerhalb von 24 Stunden einmal zügig durch. Lösch Abschweifungen und markiere Definitionen, Ursachen, Beispiele und alles, was der Dozent als klausurrelevant angekündigt hat. Das ist das einzige Wiederlesen im ganzen Ablauf, und es dient dazu, Fragen zu finden, nicht zum Lernen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Schreib eine Fragenliste",
+          "text": "Mach aus jedem markierten Punkt eine Frage. Ziel: 10 bis 20 pro Vorlesung. Eine Frage pro Zeile, die Antwort bleibt im Transkript, damit du sie abrufen musst."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Optional: Fragen per KI-Chatbot entwerfen lassen",
+          "text": "Wenn du beim Fragenschreiben hängst, exportiere das Transkript als .txt oder .md und füg es selbst in ChatGPT oder NotebookLM ein, mit der Bitte um Fragen, die sich eng an den Text halten. Prüf jede Frage am Transkript, bevor du sie behältst."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Frag dich ohne Unterlagen ab",
+          "text": "Beantworte jede Frage laut oder auf Papier, ohne nachzusehen. Prüf danach am Transkript und markier jede Frage als richtig, halb richtig oder falsch. Die falschen sind deine Lernliste."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Plane verteilte Wiederholungen",
+          "text": "Übertrag die Fragen als Karteikarten in Anki, RemNote oder Quizlet, in eine Leitner-Lernkartei oder führ eine datierte Liste. Wiederhole nach etwa 1 Tag, 3 Tagen, 1 Woche und 2 bis 3 Wochen, und noch einmal in der Woche vor der Klausur."
+        }
+      ]
+    }
+  ]
+}

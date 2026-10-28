@@ -2,169 +2,226 @@
   "slug": "ai-note-taker-for-lectures",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "The Best AI Note Taker for Lectures (Free, in Chrome)",
-  "reading_time_min": 8,
+  "h1": "AI Note Taker for Lectures: Recorder Apps vs Live Transcription",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "The Best AI Note Taker for Lectures (Free, in Chrome)",
-    "description": "Compare LessonScriptor, Otter.ai, Fireflies and Notta as AI note takers. See which one actually works on recorded lectures, not just live meetings.",
-    "keywords": ["ai note taker for students", "best ai note taker for students", "ai note taking app for students free", "ai note taker for college students"],
-    "og_image": null,
-    "canonical": "https://lessonscriptor.com/en/blog/ai-note-taker-for-lectures",
-    "og_title": "The Best AI Note Taker for Lectures (Free, in Chrome)",
-    "og_description": "Compare LessonScriptor, Otter.ai, Fireflies and Notta as AI note takers for lectures.",
+    "title": "AI Note Taker for Lectures: Recorder vs Live Transcript",
+    "description": "Compare AI note takers and lecture recorder apps (Otter, Notta, Voice Memos, Notability, LessonScriptor) for in-person and online lectures. Find what fits.",
+    "keywords": [
+      "ai note taker for lectures",
+      "lecture recorder",
+      "ai lecture note taker",
+      "ai note taker for students",
+      "best ai note taker for students",
+      "lecture recorder app"
+    ],
+    "og_title": "AI Note Taker for Lectures: Recorder Apps vs Live Transcription",
+    "og_description": "Recorder apps vs live transcription for lectures: which AI note taker fits in-person classes, Panopto replays and Zoom lectures.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology online and has ADHD. Pierre handles development and SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
     "label": "Key takeaways",
-    "lead": "Most AI note takers are built for live meetings, not recorded lectures. LessonScriptor is built for both: it transcribes anything playing in a Chrome tab, live or recorded.",
+    "lead": "An AI note taker for lectures is a tool that turns what a lecturer says into text you can study from. The right one depends on where the lecture happens: in a room, or in a browser tab.",
     "bullets": [
-      "Meeting-bot note takers (Otter.ai, Fireflies) join a call as a participant. They don't help with a lecture recording, a YouTube video, or a university platform video.",
-      "LessonScriptor transcribes any audio playing in a Chrome tab: live Zoom or Meet, a recorded lecture on Panopto or Canvas, a YouTube video.",
-      "Free mode has no account and no monthly cap. AI mode is a pay-as-you-go credit pack for better accuracy on accents and technical vocabulary, not a subscription.",
-      "The transcript is a real editor as it builds, not a static export: highlight, bold, add headers, then export as .md or .txt."
+      "**In-person lectures:** use a recorder. Voice Memos, Google's Pixel Recorder, Notability's audio sync or the Otter.ai mobile app capture the room, and you transcribe the audio afterwards or as you record.",
+      "**Online and recorded lectures:** you usually don't need to record anything. LessonScriptor transcribes whatever plays in a Chrome tab (Panopto, Canvas, Moodle, YouTube, Zoom) into an editable transcript.",
+      "**Meeting bots** (Otter.ai, Fireflies) join a live Zoom or Meet call. They help in live seminars, not on a Panopto replay.",
+      "**LessonScriptor doesn't save audio** and doesn't make AI summaries. It saves text, with highlights and slide screenshots, exportable as .md or .txt.",
+      "Free mode has no account and no monthly cap. AI mode is a one-time credit pack from $5, not a subscription."
     ]
   },
   "stats": [
     { "number": "0", "label": "monthly cap on LessonScriptor's free mode" },
     { "number": "14", "label": "languages supported, including French, Spanish, Arabic and Hindi" },
-    { "number": "2", "label": "export formats (.txt and .md) plus copy to clipboard" }
+    { "number": "30 min", "label": "free AI mode trial, no subscription" }
   ],
-  "intro": "The best AI note taker for lectures is LessonScriptor, a free Chrome extension that transcribes any video playing in a browser tab, live or recorded, and turns it into an editable transcript. Most well-known AI note takers, Otter.ai and Fireflies among them, are built to join a live meeting as a bot. That's a different job from transcribing a recorded lecture, a YouTube tutorial, or a video on a university platform, which is what most students actually need. This guide compares the main options on the thing that matters for lecture notes: does it work on a recording, not just a live call.",
+  "intro": "The best AI note taker for lectures depends on where the lecture is. For in-person classes, a recorder app such as Otter.ai, Voice Memos or Notability is the right tool. For online and recorded lectures, LessonScriptor is a free Chrome extension that turns whatever plays in a browser tab into an editable transcript, with nothing to record or upload. Many students search for a \"lecture recorder\" when what they really want is the text. A recording is only the first step, and an hour of audio still has to be re-listened to or transcribed before you can study from it. This guide compares recorder apps, meeting bots and live transcription, and explains which one fits which kind of lecture.",
   "sections": [
     {
       "id": "what-is-ai-note-taker",
-      "h2": "What is an AI note taker, and which kind do students need?",
-      "body": "AI note takers fall into two categories. The first is meeting bots, tools like Otter.ai and Fireflies that join a Zoom or Google Meet call as a participant and record what's said. They're built for live meetings and work well for that, but they can't join a lecture that's already recorded, or transcribe a YouTube video.\n\nThe second category is browser-based transcription, tools like LessonScriptor that capture audio from whatever is playing in a Chrome tab, whether that's a live call or a recorded video. For lectures specifically, most of which are recorded, on Panopto, Canvas, YouTube, or a university's own platform, this is the category that actually helps."
+      "h2": "What is an AI note taker for lectures?",
+      "body": "An AI note taker for lectures is software that uses speech recognition to turn a lecturer's words into text, sometimes adding AI-generated summaries on top. There are three kinds, and each solves a different problem.\n\n**Recorder apps** (Voice Memos, Pixel Recorder, Notability, the Otter.ai mobile app, Knowt) capture audio from the room through your phone or tablet microphone. Some transcribe it, some just store it.\n\n**Meeting bots** (Otter.ai's OtterPilot, Fireflies.ai) join a live Zoom, Google Meet or Teams call as a participant and transcribe it.\n\n**Live tab transcription** (LessonScriptor) transcribes the audio of whatever plays in a Chrome tab, live or recorded, without joining anything or creating a file. For a student whose lectures sit on Panopto or Canvas, this is the kind that covers the most of their week."
+    },
+    {
+      "id": "lecture-recorder-vs-transcription",
+      "h2": "Do I need a lecture recorder or a lecture transcript?",
+      "body": "A lecture recorder saves audio; a lecture transcript saves text. The difference matters at revision time. A 90-minute recording is 90 minutes of re-listening unless something transcribes it. A transcript can be skimmed in five minutes, searched for a term, and pasted into a study document.\n\nRecording makes sense when nothing else captures the lecture, which mostly means in-person classes your university doesn't film. For online lectures, the university has usually recorded the video already, on Panopto, Canvas Studio or Kaltura. Making your own audio copy adds a file to manage, and it still leaves the transcription to do. In that case, transcribing directly from the stream skips the recorder entirely.",
+      "callout": {
+        "type": "note",
+        "label": "Honest note",
+        "body": "LessonScriptor is not a recorder. It doesn't save audio or video, and you can't upload a recording to it. If you need the audio itself, use a recorder app."
+      }
+    },
+    {
+      "id": "recorder-apps",
+      "h2": "What are the best lecture recorder apps?",
+      "body": "These are the recorder apps students use most, and what each is good at.",
+      "subsections": [
+        {
+          "h3": "Phone voice recorders (Voice Memos, Pixel Recorder)",
+          "body": "Voice Memos on iPhone and Recorder on Android are free and already installed, and they're reliable for a lecture hall if you sit near the front. Google's Pixel Recorder transcribes on the device as it records. Recent iOS versions can also show a transcript for a memo in supported languages. Phone audio from row 20 is noisy, so the transcript quality drops with distance."
+        },
+        {
+          "h3": "Notability audio sync",
+          "body": "Notability on iPad records audio while you write and links each stroke to the moment it was written. Tap a note during playback and it jumps to what the lecturer was saying. It's excellent for handwritten notes in an in-person class, but the output is a recording plus your notes, not a full transcript."
+        },
+        {
+          "h3": "Otter.ai mobile app",
+          "body": "Otter.ai records and transcribes in-person audio on a phone, imports audio files, and can send a bot to live meetings. It's a strong all-rounder for anyone who needs speaker labels and AI summaries. Its limits are a subscription beyond the free tier, and no way to transcribe a Panopto or Canvas stream you can't download."
+        },
+        {
+          "h3": "Knowt and other record-to-notes apps",
+          "body": "Knowt's AI lecture note taker and similar apps take a recording or an upload and generate notes and flashcards from it. They suit students who want auto-generated study material and are happy to record first."
+        }
+      ]
     },
     {
       "id": "comparison-table",
-      "h2": "AI note takers compared for lecture use",
-      "body": "Here's how the main options compare on what matters for lecture notes specifically.",
+      "h2": "How do AI note takers for lectures compare?",
+      "body": "The table compares how each tool works, since that decides which lectures it can handle, rather than feature counts. Where a competitor's details change often, the cell describes the model, not a price.",
       "table": {
-        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "headers": ["", "LessonScriptor", "Otter.ai", "Notta", "Phone recorder", "Notability"],
         "rows": [
-          ["Works on recorded lectures", "Yes, any video in Chrome", "No, live meetings only", "No, live meetings only", "Limited"],
-          ["Works on YouTube", "Yes", "No", "No", "No"],
-          ["Price", "Free, AI mode from $5 one-time", "Around $17/mo", "Around $10/mo", "Around $8-9/mo"],
-          ["Editable transcript", "Yes, live in the panel", "Yes", "Yes", "Yes"],
-          ["Account required", "No, for free mode", "Yes", "Yes", "Yes"],
-          ["Languages", "14", "Mainly English", "Mainly English", "50+"]
+          ["How it works", "Transcribes what plays in a Chrome tab", "Meeting bot, mobile recorder, file import", "File upload, meeting bot, apps", "Records room audio", "Records audio synced to handwritten notes"],
+          ["In-person lecture hall", "Not designed for it", "Yes, via mobile app", "Yes, via mobile app", "Yes", "Yes"],
+          ["Stream you can't download (Panopto, Canvas)", "Yes", "No", "Limited", "No", "No"],
+          ["Needs a file to upload", "No", "For recordings, yes", "For recordings, yes", "Creates the file", "Creates the file"],
+          ["Saves audio", "No, text only", "Yes", "Yes", "Yes", "Yes"],
+          ["Full transcript", "Yes, editable live", "Yes", "Yes", "Depends on the phone", "No"],
+          ["AI summaries", "No (export to ChatGPT or NotebookLM)", "Yes", "Yes", "No", "Check current plans"],
+          ["Pricing model", "Free mode, AI packs from $5 one-time", "Free tier, then subscription", "Free tier, then subscription", "Free", "Free tier, then subscription"],
+          ["Account required", "No, for free mode", "Yes", "Yes", "No", "Yes"]
         ]
       }
     },
     {
+      "id": "in-person-vs-online",
+      "h2": "AI note taker for in-person lectures vs online lectures: what changes?",
+      "body": "The setting decides the tool, because the audio reaches you differently.",
+      "subsections": [
+        {
+          "h3": "In-person lectures",
+          "body": "In an amphitheatre, the only audio source is the room, so you need a microphone close to the speaker. Use a phone recorder or the Otter.ai app on the desk nearest the lectern, or Notability if you take handwritten notes on an iPad. Ask the lecturer first. If the university also films the lecture on Panopto or Echo360, skip the recorder and transcribe the replay later in Chrome, which gives cleaner audio than a phone in row 20."
+        },
+        {
+          "h3": "Online and recorded lectures",
+          "body": "When the lecture plays in your browser, the clean audio is already on your computer. LessonScriptor's AI mode captures the tab audio directly, so it works with headphones and is accurate on accents and technical vocabulary. Free mode listens through the microphone instead, which means speakers on at around 80% volume and no headphones. It works on Panopto, Canvas, Moodle, Blackboard, YouTube, Coursera, Udemy and Zoom, Meet or Teams in the browser. Each tab is independent, so two videos can be transcribed at once."
+        },
+        {
+          "h3": "Live online classes and seminars",
+          "body": "For a live Zoom seminar, a meeting bot like Otter.ai or Fireflies records and labels speakers, but the host sees the bot join. LessonScriptor runs in your own browser tab and transcribes the class without a participant joining. It doesn't identify speakers."
+        }
+      ]
+    },
+    {
       "id": "why-lessonscriptor-for-lectures",
-      "h2": "Why LessonScriptor works better for lecture notes",
-      "body": "The gap with meeting-bot tools isn't accuracy, it's coverage. A student's week is mostly recorded content: a professor's Panopto capture, a YouTube explainer assigned as homework, a Coursera video. A tool built to join live calls simply doesn't run on any of that.\n\nLessonScriptor transcribes whatever is playing in the tab, live class or recorded video, with the same free mode and no monthly limit. The transcript is editable while it builds, so most of the tidying, highlighting the key line, bolding a term, adding a header, happens before the video even ends."
+      "h2": "Why use LessonScriptor for online lecture notes?",
+      "body": "LessonScriptor's advantage for online lectures is coverage plus editing. Coverage means it runs on any lecture that plays in Chrome, recorded or live, including streams with no download button. Editing means the transcript is a working document while it builds. You highlight a key line in one of five colors, bold a term, add a header at each topic change, delete a tangent, and capture a screenshot of the slide on screen. Most of the tidying is done before the video ends.\n\nThe honest limits: no audio is saved, there are no AI summaries or flashcards, no speaker labels, no mobile app, and it runs in Chrome only. For summaries, export the .md file and paste it into ChatGPT or NotebookLM yourself. Pricing is free mode with no cap, or AI mode packs of 5h for $5, 15h for $12 or 30h for $21. Credits never expire, there's a 30-minute free trial, and prices in USD are converted by Stripe.",
+      "internal_links": [
+        { "text": "Lecture transcription in Chrome", "url": "/lecture-transcription" },
+        { "text": "How to transcribe lecture videos: 5 methods compared", "url": "/blog/how-to-transcribe-lecture-videos" }
+      ]
+    },
+    {
+      "id": "workflow",
+      "h2": "How do I take lecture notes with an AI note taker?",
+      "body": "This workflow works for an online or recorded lecture in Chrome.",
+      "steps": [
+        "Open the lecture in Chrome (Panopto, Canvas, Moodle, YouTube or a Zoom recording) and open the LessonScriptor side panel.",
+        "Choose the lecture's language and the mode: free (speakers on, no headphones) or AI (tab audio, headphones fine).",
+        "Press play and let the transcript build. Don't type everything, just listen.",
+        "When the lecturer stresses a point, highlight it. When a slide matters, take a screenshot into the transcript.",
+        "After the lecture, add headers at each topic shift and delete the asides.",
+        "Export as .md into Notion or Obsidian, or paste it into a Cornell template or an AI chat to generate review questions."
+      ],
+      "internal_links": [
+        { "text": "Cornell notes template", "url": "/blog/cornell-notes-template" }
+      ]
     },
     {
       "id": "adhd-bridge",
-      "h2": "AI note taking and ADHD",
-      "body": "Writing and listening at the same time splits attention in a way that's especially hard with ADHD. Handing the writing over to a transcript that builds itself removes that split entirely, leaving working memory free to just follow the lecture.",
+      "h2": "Is an AI note taker useful for students with ADHD?",
+      "body": "An AI note taker is especially useful with ADHD, because writing and listening at the same time splits working memory. A transcript that builds itself removes the split, and highlights turn passive listening into small, active decisions. We cover ADHD-specific tool choices in a separate guide.",
       "internal_links": [
-        { "text": "Best AI note taker for ADHD students", "url": "/blog/best-ai-note-taker-adhd" },
-        { "text": "The ADHD note-taking template", "url": "/blog/adhd-note-taking-template" }
+        { "text": "Best AI note taker for ADHD students", "url": "/blog/best-ai-note-taker-adhd" }
       ]
     }
   ],
-  "faq": {
-    "section_title": "Frequently asked questions",
-    "items": [
-      {
-        "q": "What's the best free AI note taker for students?",
-        "a": "LessonScriptor's free mode has no account requirement and no monthly cap, and works on both live classes and recorded lecture videos. Meeting-bot tools like Otter.ai and Fireflies have free tiers too, but they're built for live meetings only."
-      },
-      {
-        "q": "Does an AI note taker work on recorded lectures, not just live calls?",
-        "a": "It depends on the tool. Meeting bots (Otter.ai, Fireflies) join live calls as a participant and can't transcribe something already recorded. LessonScriptor transcribes any video playing in a Chrome tab, live or recorded."
-      },
-      {
-        "q": "Do I need an account to use LessonScriptor?",
-        "a": "No. Free mode has no signup at all. If you buy an AI mode credit pack for better accuracy, you get a license key by email, no account or login."
-      },
-      {
-        "q": "Is student or lecture audio sent anywhere?",
-        "a": "In free mode, nothing leaves your computer, transcription runs locally through your browser's speech engine. In AI mode, audio is sent to a cloud transcription model in short chunks and is not stored."
-      },
-      {
-        "q": "Which AI note taker supports the most languages?",
-        "a": "Notta covers the widest range at 50+ languages. LessonScriptor supports 14, including French, Spanish, Portuguese, German, Arabic and Hindi, which covers most university lecture languages."
-      }
+  "summary": {
+    "heading": "Which AI note taker should you use?",
+    "body": "Record in-person lectures with a phone recorder, Notability or the Otter.ai app. For anything that plays in your browser, whether Panopto, Canvas, Moodle, YouTube or Zoom, skip the recorder and use LessonScriptor to get an editable transcript directly, free or from $5 one-time.",
+    "internal_links": [
+      { "text": "See lecture transcription in Chrome", "url": "/lecture-transcription" }
     ]
   },
-  "summary": {
-    "heading": "The AI note taker that also works on recordings",
-    "body": "If most of your lectures are recorded rather than live, LessonScriptor is built for that: it transcribes whatever is playing in your Chrome tab, class or recording, with an editable transcript and no monthly cap on the free mode.",
-    "internal_links": [
-      { "text": "See the full transcription workflow", "url": "/transcribe-video-to-text" }
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "What is the best lecture recorder app for students?",
+        "answer": "For in-person lectures, the best lecture recorder is the one already on your phone (Voice Memos or Pixel Recorder), or Notability if you handwrite notes on an iPad. Otter.ai adds transcription and summaries. For online lectures you usually don't need a recorder: LessonScriptor transcribes the stream in Chrome."
+      },
+      {
+        "question": "Does LessonScriptor record lectures?",
+        "answer": "No. LessonScriptor saves a text transcript, not audio or video, and it can't take uploaded files. It transcribes whatever plays in a Chrome tab, live or recorded."
+      },
+      {
+        "question": "Can an AI note taker work in an in-person lecture?",
+        "answer": "Yes, recorder apps like the Otter.ai mobile app, Pixel Recorder or Voice Memos capture room audio for transcription. LessonScriptor isn't designed for lecture halls. Use it on the recorded replay if your university films the lecture."
+      },
+      {
+        "question": "What's the best free AI note taker for students?",
+        "answer": "For online lectures, LessonScriptor's free mode has no account and no monthly cap and works on any video in Chrome. For in-person lectures, a phone's built-in recorder is free. Otter.ai and Notta have free tiers with limits."
+      },
+      {
+        "question": "Do AI note takers work on recorded lectures, not just live calls?",
+        "answer": "It depends on the tool. Meeting bots like Otter.ai's OtterPilot and Fireflies join live calls. Otter and Notta can transcribe a recording if you have the file. LessonScriptor transcribes recorded lectures directly from the stream, with no file needed."
+      },
+      {
+        "question": "Is lecture audio sent anywhere?",
+        "answer": "In LessonScriptor's free mode, Chrome's built-in speech recognition is used and no audio is sent to LessonScriptor's servers. In AI mode, tab audio is sent in 10- or 30-second chunks to a cloud transcription model."
+      }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "The Best AI Note Taker for Lectures (Free, in Chrome)",
-        "description": "Compare LessonScriptor, Otter.ai, Fireflies and Notta as AI note takers. See which one works on recorded lectures, not just live meetings.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Anthropology student with ADHD", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Developer & SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
-        }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "AI Note Taker for Lectures: Recorder Apps vs Live Transcription",
+      "description": "Compare AI note takers and lecture recorder apps (Otter, Notta, Voice Memos, Notability, LessonScriptor) for in-person and online lectures. Find what fits.",
+      "inLanguage": "en",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/en/blog/ai-note-taker-for-lectures",
+      "author": [
+        { "@type": "Person", "name": "Victoria", "description": "Anthropology student with ADHD", "url": "https://lessonscriptor.com/en" },
+        { "@type": "Person", "name": "Pierre Girardot", "description": "Developer & SEO", "url": "https://lessonscriptor.com/en" }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png" }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What's the best free AI note taker for students?",
-            "acceptedAnswer": { "@type": "Answer", "text": "LessonScriptor's free mode has no account requirement and no monthly cap, and works on both live classes and recorded lecture videos." }
-          },
-          {
-            "@type": "Question",
-            "name": "Does an AI note taker work on recorded lectures, not just live calls?",
-            "acceptedAnswer": { "@type": "Answer", "text": "It depends on the tool. Meeting bots like Otter.ai and Fireflies join live calls as a participant and can't transcribe something already recorded. LessonScriptor transcribes any video playing in a Chrome tab, live or recorded." }
-          }
-        ]
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "The Best AI Note Taker for Lectures", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "What is the best lecture recorder app for students?", "acceptedAnswer": { "@type": "Answer", "text": "For in-person lectures, the best lecture recorder is the one already on your phone (Voice Memos or Pixel Recorder), or Notability if you handwrite notes on an iPad. Otter.ai adds transcription and summaries. For online lectures you usually don't need a recorder: LessonScriptor transcribes the stream in Chrome." } },
+        { "@type": "Question", "name": "Does LessonScriptor record lectures?", "acceptedAnswer": { "@type": "Answer", "text": "No. LessonScriptor saves a text transcript, not audio or video, and it can't take uploaded files. It transcribes whatever plays in a Chrome tab, live or recorded." } },
+        { "@type": "Question", "name": "Can an AI note taker work in an in-person lecture?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, recorder apps like the Otter.ai mobile app, Pixel Recorder or Voice Memos capture room audio for transcription. LessonScriptor isn't designed for lecture halls. Use it on the recorded replay if your university films the lecture." } },
+        { "@type": "Question", "name": "What's the best free AI note taker for students?", "acceptedAnswer": { "@type": "Answer", "text": "For online lectures, LessonScriptor's free mode has no account and no monthly cap and works on any video in Chrome. For in-person lectures, a phone's built-in recorder is free. Otter.ai and Notta have free tiers with limits." } },
+        { "@type": "Question", "name": "Do AI note takers work on recorded lectures, not just live calls?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the tool. Meeting bots like Otter.ai's OtterPilot and Fireflies join live calls. Otter and Notta can transcribe a recording if you have the file. LessonScriptor transcribes recorded lectures directly from the stream, with no file needed." } },
+        { "@type": "Question", "name": "Is lecture audio sent anywhere?", "acceptedAnswer": { "@type": "Answer", "text": "In LessonScriptor's free mode, Chrome's built-in speech recognition is used and no audio is sent to LessonScriptor's servers. In AI mode, tab audio is sent in 10- or 30-second chunks to a cloud transcription model." } }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/best-ai-note-taker-adhd",
-      "/blog/otter-ai-alternative-for-students",
-      "/blog/neurodivergent-study-tools"
-    ]
-  }
+  ]
 }

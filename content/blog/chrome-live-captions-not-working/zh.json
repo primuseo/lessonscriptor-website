@@ -1,0 +1,412 @@
+{
+  "slug": "chrome-live-captions-not-working",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome 实时字幕无法使用？排查清单 + 8 种解决方法（2026）",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome 实时字幕无法使用？8 种解决方法",
+    "description": "Chrome 实时字幕无法使用、一直显示“不可用”或卡在下载？2 分钟排查清单加 8 种解决方法，涵盖语音模型下载、中国大陆网络限制、语言设置与扩展冲突。",
+    "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "canonical": "https://lessonscriptor.com/zh/blog/chrome-zishimu-wufa-gongzuo",
+    "og_title": "Chrome 实时字幕无法使用？8 种真正有效的解决方法（2026）",
+    "og_description": "Chrome 实时字幕一片空白时的排查清单和 8 种解决方法，包括中国大陆网络导致的语音模型下载失败。",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "chrome 实时字幕 无法使用",
+      "chrome 实时字幕 不能用",
+      "chrome 实时字幕 不可用",
+      "chrome 实时字幕 下载失败",
+      "chrome 实时字幕 怎么开"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "alt": "Chrome 窗口显示“实时字幕”设置和错误提示，旁边是排查步骤",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一款用于视频实时转录的 Chrome 扩展程序。Victoria 在读人类学，患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "要点",
+    "lead": "Chrome 实时字幕（Live Caption）失效有八个常见原因，大多数两分钟内就能解决。在中国大陆，最常见的原因是语音识别模型需要从 Google 服务器下载，而 Google 服务在大陆受限，下载经常失败。",
+    "bullets": [
+      "最常见的解决方法：关闭“实时字幕”，等 10 秒，再打开，然后彻底重启 Chrome。",
+      "实时字幕从 Chrome 89 开始提供，需要先把语音识别模型下载到电脑上；下载卡住是大多数“不可用”提示的根源。",
+      "中国大陆用户注意：模型和语言包从 Google 服务器下载，在大陆网络下常常失败。换一个能访问 Google 服务的网络下载一次，之后即可离线使用。",
+      "简体中文受支持：它是 Google 列出的 19 种字幕语言之一，另外还有英语、法语、西班牙语、德语和葡萄牙语。",
+      "戴耳机几乎从来不是原因：Chrome 为自己播放的声音生成字幕，完全不经过麦克风。"
+    ]
+  },
+  "intro": "Chrome 实时字幕无法使用，通常是因为语音识别模型没有下载成功、Chrome 版本过旧，或者某个扩展程序干扰了音频播放。典型症状是提示实时字幕“目前不可用”，或者一直停在“正在下载语音识别文件”，在 Windows 10、Windows 11 和 macOS 上都很常见。对中国大陆用户来说，还有一个最常见的原因：模型要从 Google 服务器下载，而 Google 服务在大陆受限。本指南先给出五项排查清单，再按从快到慢的顺序给出八种解决方法，并以 B站 课程视频、中国大学MOOC、学堂在线和腾讯会议网页版为例说明。最后也会说明，什么时候改用 LessonScriptor 这类字幕扩展更省事。",
+  "stats": [
+    {
+      "number": "89+",
+      "label": "支持实时字幕的最低 Chrome 版本"
+    },
+    {
+      "number": "8",
+      "label": "已知的失效原因，均可解决"
+    },
+    {
+      "number": "19",
+      "label": "Google 列出的字幕语言数量，含简体中文"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-chrome-live-captions-not-working",
+      "h2": "Chrome 实时字幕为什么突然不能用了？",
+      "body": "Chrome 实时字幕失效通常出于以下八个原因之一：Chrome 版本过旧、语音识别模型缺失或损坏、扩展程序冲突、声音并不是由 Chrome 播放的、Chrome 用户资料损坏、实验性 flags 被改动、磁盘空间不足以保存模型，或者模型下载被网络拦截。\n\n在中国大陆，最后一条是头号原因。实时字幕的识别在本地完成，但语音模型和语言包要先从 Google 的更新服务器下载，而 Google 服务在中国大陆受限，下载往往一直卡住或直接失败，于是字幕框一片空白或提示“不可用”。校园网、公司网络的防火墙或代理也可能造成同样的问题。\n\n在 Windows 10 和 Windows 11 上，“不可用”提示最常见的原因就是模型没有下载完整：首次开启时 Chrome 会在后台下载，如果当时网络慢或中断，模型就会不完整。在 macOS 上，常见原因是更新后没有真正重启 Chrome。另外，基于 Chromium 的其他浏览器（例如一些国产双核浏览器、Brave）不一定提供这项功能，它属于 Google Chrome。\n\n下面的解决方法 1、2、3 能处理绝大多数情况。"
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Chrome 实时字幕排查清单：先检查什么？",
+      "body": "排查 Chrome 实时字幕，先做下面五项检查，总共不到两分钟，大多数问题在这一步就能解决。请按顺序检查，每一项排除一个不同的原因。",
+      "steps": [
+        {
+          "strategy": "实时字幕打开了吗？",
+          "detail": "打开 **chrome://settings/accessibility**（右上角“更多”⋮ > 设置 > 无障碍），确认 **实时字幕** 已开启。Chrome 更新后有时会把它关掉。"
+        },
+        {
+          "strategy": "Chrome 是最新版本吗？",
+          "detail": "打开 **chrome://settings/help**（帮助 > 关于 Google Chrome）。这项功能适用于 Windows、macOS、Linux 和 ChromeOS 上的 Chrome。"
+        },
+        {
+          "strategy": "语音模型下载完了吗？",
+          "detail": "开启后 Chrome 会下载语音识别文件，下载完成前字幕不会出现。下载卡住是“不可用”提示最常见的原因；在中国大陆，这一步失败的概率最高。"
+        },
+        {
+          "strategy": "语言受支持吗？",
+          "detail": "在实时字幕设置里打开 **管理语言**，需要时添加简体中文。简体中文、繁体中文、英语、法语、西班牙语、德语和葡萄牙语都受支持；视频语言不在列表里时不会显示字幕。"
+        },
+        {
+          "strategy": "声音真的是在 Chrome 里播放的吗？",
+          "detail": "Chrome 只为在 Chrome 中播放的声音生成字幕，不包括腾讯会议、Zoom 等桌面客户端或网易云音乐客户端的声音。请取消标签页静音；对于自动播放的视频，Google 说明需要打开视频音量。"
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "五项都检查过还是没有字幕？",
+        "body": "继续看解决方法 1。如果在中国大陆，优先看解决方法 3 中关于网络的说明。直接捕获标签页音频的扩展程序（例如 LessonScriptor 的 AI 模式）不依赖 Chrome 的语音模型下载，但它也有自己的网络要求，见解决方法 8。"
+      },
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕的其他语言",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "戴耳机时使用 Chrome 实时字幕",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "fix-toggle-live-caption",
+      "h2": "解决方法 1：关闭再重新打开实时字幕",
+      "body": "关闭再重新打开实时字幕，会强制 Chrome 重新加载语音识别模型并清除损坏的状态，大多数“不可用”错误这样就能解决。\n\n**操作步骤：**\n1. 打开 Chrome，进入 **chrome://settings/accessibility**。\n2. 关闭 **实时字幕**。\n3. 等待 10 秒，不要关闭 Chrome。\n4. 重新打开该选项。\n5. 关闭所有 Chrome 窗口（Mac 上按 Cmd+Q），然后重新启动。\n\n如果字幕出现了，问题就解决了；如果没有，请看解决方法 2。"
+    },
+    {
+      "id": "fix-update-chrome",
+      "h2": "解决方法 2：把 Chrome 更新到最新版本",
+      "body": "实时字幕需要 Chrome 89 或更高版本。版本过旧是第二常见的原因，尤其是由学校或公司统一管理、禁止自动更新的电脑。\n\n**查看版本：**“更多”⋮ > 帮助 > 关于 Google Chrome，Chrome 会在这个页面自动检查更新。在中国大陆，自动更新同样依赖 Google 服务器，可能失败；可以从 Google 中国官网 www.google.cn/chrome 下载最新安装包覆盖安装。\n\n更新后点击 **重新启动**，彻底退出 Chrome 再打开，而不只是关闭标签页。很多用户发现，仅仅这样重启一次，就消除了持续数周的“不可用”错误。"
+    },
+    {
+      "id": "fix-speech-model-download",
+      "h2": "解决方法 3：重新下载语音识别模型（中国大陆用户重点看）",
+      "body": "实时字幕依赖保存在电脑本地的语音识别模型：Google 表示，所有音频和字幕都在本地处理，不会离开设备。模型损坏或不完整时，字幕会无声无息地失效。你可以强制重新下载。\n\n**方法一，通过设置：**\n1. 在 **chrome://settings/accessibility** 中关闭 **实时字幕**。\n2. 在 **管理语言** 下删除简体中文，再通过 **添加语言** 重新添加，Chrome 会重新下载语言包。\n3. 重新开启实时字幕并重启 Chrome。\n\n**方法二，通过组件页面：** 打开 **chrome://components**，找到语音识别组件（不同版本中显示为“Speech On-Device API”或 SODA，以及对应的语言包），点击 **检查是否有更新**。网络慢时需要 2 到 5 分钟。\n\n**中国大陆的网络问题：** 如果下载始终卡住，多半是因为无法连接 Google 的下载服务器。可以在遵守当地法规和学校、单位网络规定的前提下，换用一个能访问 Google 服务的网络（例如可用的代理或在境外时的网络）完成一次下载。模型下载成功后，实时字幕在本地运行，之后断网也能用。"
+    },
+    {
+      "id": "fix-disable-conflicting-extensions",
+      "h2": "解决方法 4：停用拦截脚本或音频的扩展程序",
+      "body": "拦截脚本或修改音频的扩展程序，例如 uBlock Origin、Privacy Badger、NoScript 以及部分代理扩展，可能让某些网页无法正常播放声音，从而影响字幕。\n\n**如何检测：** 打开无痕窗口（Windows 上按 Ctrl+Shift+N，Mac 上按 Cmd+Shift+N）。大多数扩展在无痕模式下默认停用。如果实时字幕在无痕窗口里正常、在普通窗口里不正常，就是某个扩展导致的。\n\n**如何解决：** 打开 **chrome://extensions**，逐个停用扩展，每停用一个就测试一次字幕。对于 uBlock Origin，更好的做法是只对需要字幕的网站（例如 B站、中国大学MOOC）放行，而不是全局停用。"
+    },
+    {
+      "id": "fix-audio-routing-headphones",
+      "h2": "解决方法 5：戴耳机时 Chrome 实时字幕不显示",
+      "body": "Chrome 实时字幕在戴耳机时可以正常工作，包括 AirPods、华为 FreeBuds 等蓝牙耳机：Chrome 为它自己在浏览器内播放的声音生成字幕，不会通过麦克风收音。如果一戴上耳机字幕就消失，原因几乎总在别处。\n\n**检查以下几点：**\n- 声音来自 Chrome 吗？在腾讯会议或 Zoom 桌面客户端里上的课，Chrome 无法加字幕；请改用浏览器打开会议或录屏。\n- 标签页静音了吗？右键点击标签页 > 取消网站静音。\n- 蓝牙重新连接打断了播放吗？断开并重新连接耳机，再重新播放视频。\n- 语音模型完整吗？重做解决方法 3。\n\n**真正和耳机有关的坑：** 通过麦克风收音的工具在戴耳机时才会失效，例如 LessonScriptor 的免费模式，它通过麦克风使用浏览器的语音识别。想戴耳机用 LessonScriptor 转录，需要用 AI 模式，它直接捕获标签页音频。",
+      "internal_links": [
+        {
+          "text": "用 LessonScriptor 在 Chrome 中显示实时字幕",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "fix-reset-chrome-flags",
+      "h2": "解决方法 6：重置 Chrome 实验性 flags",
+      "body": "**chrome://flags** 页面里是会改变浏览器默认行为的实验性设置。如果你或学校、公司的 IT 部门改动过与音频、无障碍或语音识别相关的 flags，就可能与实时字幕冲突。\n\n**全部重置：** 打开 **chrome://flags**，点击右上角的 **全部重置**，按提示重新启动 Chrome。\n\n这个方法比较粗暴但有效，唯一的缺点是你有意开启的其他 flags 也会被还原。"
+    },
+    {
+      "id": "fix-clear-profile-data",
+      "h2": "解决方法 7：清除缓存和浏览数据",
+      "body": "缓存损坏可能导致部分网页无法正常播放声音。清除数据会让 Chrome 重建本地状态。这很少是真正原因，建议最后再试。\n\n**操作步骤：** 打开 **chrome://settings/clearBrowserData**，时间范围选择 **时间不限**，勾选 **缓存的图片和文件** 以及 **Cookie 及其他网站数据**，然后点击 **删除数据**。\n\n注意：这会让你退出各个网站的登录，包括学习平台和 B站。之后请确认 **chrome://settings/accessibility** 中的 **实时字幕** 仍然开启，再测试一次。"
+    },
+    {
+      "id": "fix-switch-to-extension",
+      "h2": "解决方法 8：内置字幕仍然失效时，改用 LessonScriptor",
+      "body": "Chrome 自带的实时字幕方便，但功能有限：只显示两行，随即消失，不能编辑、标注或导出文字。如果上面七种方法都试过，字幕依然不稳定，用一款专门的扩展程序更可靠。\n\nLessonScriptor 是一款 Chrome 扩展程序，视频播放时会在侧边栏显示实时转录文本，适用于 B站 课程视频、中国大学MOOC、学堂在线、Moodle、YouTube、Coursera，以及在浏览器中打开的 Zoom 和 Google Meet。转录文本本身就是笔记编辑器：5 种颜色高亮、加粗、标题、列表、删除片段、截取幻灯片画面，并可导出为 .txt 或 .md。支持 14 种语言，包括中文、英语、法语、西班牙语、德语和葡萄牙语。\n\n它有两种模式。**免费模式** 通过麦克风使用 Chrome 内置的语音识别，需要外放音量够大（80% 以上），戴耳机时无法使用。**AI 模式** 捕获标签页音频，戴耳机也能用，对口音和专业术语的识别明显更准；按量付费，一次性购买时长包，无需订阅（5 小时 5 美元、15 小时 12 美元、30 小时 21 美元，以美元计价，Stripe 结账时会换算成你的币种），另有 30 分钟免费试用。\n\n**中国大陆用户请注意：** Chrome 网上应用店在大陆无法直接访问，安装扩展本身就需要能访问 Google 服务的网络；免费模式依赖的 Chrome 内置语音识别同样由 Google 提供，在大陆网络下也可能失效。AI 模式使用我们自己的云端转录服务，但我们尚未在中国大陆网络环境下做过测试，无法保证可用。",
+      "internal_links": [
+        {
+          "text": "用 LessonScriptor 在 Chrome 中显示实时字幕",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "转录 YouTube 视频",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-extension-vs-builtin",
+      "h2": "该用 Chrome 自带字幕还是扩展程序？",
+      "body": "Chrome 自带的实时字幕适合快速、临时地看字幕，不需要保存或编辑文字的场景。它无需安装，模型下载后可离线使用，并支持简体中文。\n\n如果你需要可编辑、可导出的转录文本来复习，想给录播课做笔记，或者想戴耳机使用 AI 模式，LessonScriptor 这类扩展更合适。\n\n两者可以互补。很多学生平时用 Chrome 实时字幕顺手看视频，到了认真学习、需要高亮、整理并导出笔记的时候，再打开 LessonScriptor。",
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕与 LessonScriptor 对比",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "能保存下来的实时转录",
+    "body": "LessonScriptor 为 Chrome 中的任何视频提供可编辑、可导出的转录文本。免费模式无需注册；AI 模式支持戴耳机使用。",
+    "button_label": "免费将 LessonScriptor 添加到 Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "Chrome 为什么提示实时字幕不可用？",
+        "answer": "这表示 Chrome 的语音识别模型没有下载成功或已损坏。关闭实时字幕，在“管理语言”中删除再重新添加简体中文以强制重新下载，或在 chrome://components 中点击“检查是否有更新”，然后重启 Chrome。在中国大陆，下载失败通常是因为无法连接 Google 服务器。"
+      },
+      {
+        "question": "在中国大陆能用 Chrome 实时字幕吗？",
+        "answer": "可以用，但首次下载语音模型和语言包需要连接 Google 服务器，而 Google 服务在中国大陆受限，下载常常失败。在遵守当地法规的前提下，用能访问 Google 服务的网络下载一次后，实时字幕在本地运行，之后无需联网。"
+      },
+      {
+        "question": "Chrome 实时字幕可以离线使用吗？",
+        "answer": "可以，前提是模型已经下载。Google 表示，所有音频和字幕都在本地处理，不会离开设备。但首次下载模型和语言包需要联网。"
+      },
+      {
+        "question": "为什么有些网站上 Chrome 实时字幕不工作？",
+        "answer": "部分带 DRM 保护的播放器（例如一些流媒体平台）可能不允许 Chrome 获取音频来生成字幕。此外，这项功能还需要较新的 Chrome 和完整的语音模型。LessonScriptor 在受保护的内容上也可能有同样的限制。"
+      },
+      {
+        "question": "Chromebook 上能用实时字幕吗？",
+        "answer": "可以。ChromeOS 有自己的版本：设置 > 无障碍 > 管理无障碍功能 > 音频和字幕 > 实时字幕。"
+      },
+      {
+        "question": "Chrome 实时字幕支持中文吗？",
+        "answer": "支持。简体中文和繁体中文都在 Google 列出的 19 种字幕语言之中，另外还有英语、法语、德语、西班牙语、葡萄牙语、日语和韩语。在实时字幕设置的“管理语言”中添加即可。如果需要可编辑、可导出的文字，LessonScriptor 也支持包括中文在内的 14 种语言。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome 实时字幕无法使用：简要总结",
+    "body": "Chrome 实时字幕失效有八个原因，大多数五分钟内可以解决。先做排查清单，然后关闭再打开实时字幕（方法 1）、更新 Chrome（方法 2）、重新下载语音模型（方法 3），这三步能解决大多数情况。在中国大陆，模型下载失败是最常见的原因，需要用能访问 Google 服务的网络完成一次下载。戴耳机几乎从来不是问题，因为 Chrome 为自己的声音生成字幕，不使用麦克风。如果你需要能保存、高亮和导出的转录文本，LessonScriptor 可以为 Chrome 中的任何视频添加实时转录侧边栏：免费模式通过麦克风，AI 模式通过标签页音频。"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome 实时字幕无法使用？排查清单 + 8 种解决方法（2026）",
+      "description": "Chrome 实时字幕无法使用、一直显示“不可用”或卡在下载？2 分钟排查清单加 8 种解决方法，涵盖语音模型下载、中国大陆网络限制、语言设置与扩展冲突。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/chrome-zishimu-wufa-gongzuo",
+      "url": "https://lessonscriptor.com/zh/blog/chrome-zishimu-wufa-gongzuo",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "患有注意力缺陷多动障碍（ADHD）的人类学学生",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发者与 SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Chrome 为什么提示实时字幕不可用？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "这表示 Chrome 的语音识别模型没有下载成功或已损坏。关闭实时字幕，在“管理语言”中删除再重新添加简体中文以强制重新下载，或在 chrome://components 中点击“检查是否有更新”，然后重启 Chrome。在中国大陆，下载失败通常是因为无法连接 Google 服务器。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在中国大陆能用 Chrome 实时字幕吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以用，但首次下载语音模型和语言包需要连接 Google 服务器，而 Google 服务在中国大陆受限，下载常常失败。在遵守当地法规的前提下，用能访问 Google 服务的网络下载一次后，实时字幕在本地运行，之后无需联网。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕可以离线使用吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，前提是模型已经下载。Google 表示，所有音频和字幕都在本地处理，不会离开设备。但首次下载模型和语言包需要联网。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么有些网站上 Chrome 实时字幕不工作？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "部分带 DRM 保护的播放器（例如一些流媒体平台）可能不允许 Chrome 获取音频来生成字幕。此外，这项功能还需要较新的 Chrome 和完整的语音模型。LessonScriptor 在受保护的内容上也可能有同样的限制。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chromebook 上能用实时字幕吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。ChromeOS 有自己的版本：设置 > 无障碍 > 管理无障碍功能 > 音频和字幕 > 实时字幕。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕支持中文吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支持。简体中文和繁体中文都在 Google 列出的 19 种字幕语言之中，另外还有英语、法语、德语、西班牙语、葡萄牙语、日语和韩语。在实时字幕设置的“管理语言”中添加即可。如果需要可编辑、可导出的文字，LessonScriptor 也支持包括中文在内的 14 种语言。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "修复 Chrome 实时字幕",
+      "inLanguage": "zh-CN",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "关闭再打开实时字幕",
+          "text": "在 chrome://settings/accessibility 中关闭实时字幕，等 10 秒后重新打开，然后重启 Chrome。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "更新 Chrome",
+          "text": "“更多” > 帮助 > 关于 Google Chrome，然后点击重新启动；大陆用户可从 google.cn/chrome 下载安装包。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "重新下载语音模型",
+          "text": "在“管理语言”中删除并重新添加语言，或在 chrome://components 中检查更新；在中国大陆需使用能访问 Google 服务的网络。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "停用冲突的扩展",
+          "text": "在无痕窗口中测试，并在 chrome://extensions 中逐个停用扩展。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "确认声音来自 Chrome",
+          "text": "在浏览器中播放视频并取消静音；戴耳机不影响字幕。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "重置 flags",
+          "text": "在 chrome://flags 中点击全部重置并重启 Chrome。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "清除缓存",
+          "text": "在 chrome://settings/clearBrowserData 中删除缓存的图片和文件。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "改用扩展程序",
+          "text": "如果仍然无效，可使用 LessonScriptor 等提供可编辑、可导出转录文本的扩展。"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome 实时字幕无法使用",
+          "item": "https://lessonscriptor.com/zh/blog/chrome-zishimu-wufa-gongzuo"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

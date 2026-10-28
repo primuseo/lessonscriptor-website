@@ -1,0 +1,538 @@
+{
+  "slug": "cornell-notes-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Método Cornell: modelo grátis, exemplo preenchido e como usar",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Método Cornell: modelo grátis e exemplo preenchido",
+    "description": "Modelo Cornell para copiar no Google Docs, Notion ou Word, com exemplo preenchido, os 5 R do método Cornell e uma versão pensada para estudantes com TDAH.",
+    "keywords": [
+      "método cornell",
+      "modelo cornell",
+      "método cornell exemplo",
+      "anotações método cornell",
+      "modelo cornell word",
+      "método cornell tdah"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/pt/blog/modelo-metodo-cornell",
+    "og_title": "Método Cornell: modelo grátis e exemplo preenchido",
+    "og_description": "Um modelo Cornell para copiar no Docs, Notion, Word ou GoodNotes, um exemplo preenchido e uma versão adaptada ao TDAH.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrever aulas ao vivo. Victoria estuda antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "O essencial",
+    "lead": "O método Cornell divide cada folha em três áreas: uma coluna estreita de pistas à esquerda, uma coluna larga de anotações à direita e um quadro de resumo embaixo. O modelo deste guia pode ser copiado para o Google Docs, Notion, Word ou GoodNotes em menos de cinco minutos.",
+    "bullets": [
+      "O método foi criado por Walter Pauk, diretor do centro de estudos da Universidade Cornell, e publicado em How to Study in College (primeira edição em 1962).",
+      "Numa folha A4, use cerca de 6 cm para a coluna de pistas, 15 cm para as anotações e 5 cm para o resumo no rodapé.",
+      "Os 5 R (Record, Reduce, Recite, Reflect, Review) importam mais que as linhas: a coluna de pistas só funciona se você preenchê-la depois da aula e se testar com ela.",
+      "Se escrever enquanto escuta te sobrecarrega, o que é comum com TDAH, deixe uma transcrição cuidar do registro e guarde sua energia para as pistas e o resumo."
+    ]
+  },
+  "intro": "O método Cornell é um sistema de anotações que divide cada folha em três áreas: uma coluna de pistas para perguntas e palavras-chave, uma coluna de anotações para o conteúdo da aula e um quadro de resumo no rodapé, onde você condensa a página em poucas frases. Walter Pauk desenvolveu o sistema na Universidade Cornell nos anos 1950 e o publicou em How to Study in College, livro que continua sendo reeditado. O modelo é simples, mas a maioria dos estudantes usa só metade dele: preenche a coluna de anotações e deixa a de pistas vazia, perdendo justamente o autoteste que faz o método funcionar. Este guia traz o modelo Cornell, uma versão para copiar e colar no Google Docs, Notion, Word e GoodNotes, um exemplo completo de uma aula de sociologia sobre Raízes do Brasil, de Sérgio Buarque de Holanda, e uma versão adaptada para estudantes com TDAH.",
+  "sections": [
+    {
+      "id": "what-are-cornell-notes",
+      "h2": "O que é o método Cornell?",
+      "body": "O método Cornell é um formato de anotações que separa **registrar** a informação de **processá-la**. Durante a aula, você escreve apenas na coluna de anotações. Depois, volta à folha, tira perguntas e palavras-chave para a coluna de pistas e escreve um resumo curto embaixo. A página vira um autoteste: você cobre as anotações, lê as pistas e tenta responder de memória.\n\nO sistema foi criado por **Walter Pauk**, professor de educação que dirigia o Reading and Study Center da Universidade Cornell, nos Estados Unidos. Ele o descreveu em **How to Study in College**, publicado pela primeira vez em 1962 e reeditado mais de dez vezes. O Learning Strategies Center de Cornell ainda publica um guia do método para seus estudantes.\n\nO método Cornell sobreviveu à maioria das modas porque coloca a prática de recuperação dentro da própria folha. Reler anotações parece produtivo, mas não testa nada. Responder às próprias perguntas com as anotações cobertas é recordação ativa, o mesmo princípio dos flashcards, e é uma das estratégias de estudo com mais respaldo na pesquisa."
+    },
+    {
+      "id": "cornell-layout",
+      "h2": "Como é um modelo do método Cornell?",
+      "body": "Um modelo Cornell é uma folha com duas colunas e um rodapé. As medidas originais de Pauk são em polegadas (2,5 de pistas, 6 de anotações e 2 de resumo). Numa folha **A4**, o padrão no Brasil, isso dá cerca de **6 cm** para a coluna de pistas, **15 cm** para as anotações e **5 cm** para o resumo. O número exato importa menos que a proporção: uns 30% de pistas e 70% de anotações. Esta é a estrutura a reproduzir:",
+      "table": {
+        "headers": [
+          "Coluna de pistas (≈ 6 cm, esquerda)",
+          "Coluna de anotações (≈ 15 cm, direita)"
+        ],
+        "rows": [
+          [
+            "Cabeçalho: disciplina, tema da aula, data",
+            "Cabeçalho: disciplina, tema da aula, data"
+          ],
+          [
+            "Preenchida DEPOIS da aula: perguntas, palavras-chave, autores, datas sobre os quais você quer ser testado",
+            "Preenchida DURANTE a aula: ideias principais, definições, exemplos, esquemas; frases curtas, não orações completas"
+          ],
+          [
+            "Uma pista por ideia, alinhada ao lado da anotação correspondente",
+            "Pule uma linha entre as ideias para caber as pistas"
+          ],
+          [
+            "Resumo (largura total, ≈ 5 cm, embaixo)",
+            "3 ou 4 frases com suas palavras: do que trata a página e por que importa"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Por que as pistas ficam à esquerda",
+        "body": "Pauk colocou as pistas à esquerda para que você possa dobrar a folha ou cobrir a coluna de anotações e ver só as perguntas. Se montar o modelo no digital, mantenha isso: as pistas precisam ficar legíveis com as anotações escondidas."
+      }
+    },
+    {
+      "id": "five-rs",
+      "h2": "Quais são os 5 R do método Cornell?",
+      "body": "Os 5 R do método Cornell são as cinco etapas que Pauk definiu para usar a folha: Record (registrar), Reduce (reduzir), Recite (recitar), Reflect (refletir) e Review (revisar). O modelo é só o recipiente; os 5 R são o método.",
+      "steps": [
+        {
+          "strategy": "Registrar (Record)",
+          "detail": "Durante a aula, presencial ou no AVA, anote as ideias principais e os dados que as sustentam na coluna de anotações. Abrevie, use frases curtas e pule o que já está nos slides que o professor posta no Moodle."
+        },
+        {
+          "strategy": "Reduzir (Reduce)",
+          "detail": "O quanto antes depois da aula, de preferência no mesmo dia, releia as anotações e transforme cada ideia numa pergunta ou palavra-chave na coluna de pistas. Depois escreva o resumo embaixo."
+        },
+        {
+          "strategy": "Recitar (Recite)",
+          "detail": "Cubra a coluna de anotações. Leia cada pista e responda em voz alta com suas palavras. Descubra para conferir e marque cada pista que errou."
+        },
+        {
+          "strategy": "Refletir (Reflect)",
+          "detail": "Pergunte-se como essa aula se liga às anteriores, aos textos da disciplina ou a uma possível questão de prova. Anote essas ligações na margem ou no resumo."
+        },
+        {
+          "strategy": "Revisar (Review)",
+          "detail": "Reserve uns dez minutos por semana para recitar a partir das colunas de pistas das folhas antigas, começando pelas pistas que você errou."
+        }
+      ]
+    },
+    {
+      "id": "copy-paste-template",
+      "h2": "Modelo Cornell para copiar e colar",
+      "body": "Este é um modelo Cornell em texto simples, no formato Markdown. Copie para o Notion, Obsidian, Google Docs (ative **Ferramentas > Preferências > Ativar Markdown** e depois clique com o botão direito em **Colar do Markdown**) ou qualquer app de notas. O Markdown simples não tem colunas lado a lado, então as pistas ficam numa seção acima das anotações, numeradas para corresponder a cada anotação e manter o autoteste.",
+      "callout": {
+        "type": "note",
+        "label": "Modelo Cornell para copiar (Markdown)",
+        "body": "# [Disciplina] | [Tema da aula] | [Data]\n\n## Pistas (preencher depois da aula)\n\nP1: [Pergunta que a primeira ideia responde]\n\nP2: [Palavra-chave, autor ou data para lembrar]\n\nP3: [Pergunta que pode cair na prova]\n\n## Anotações (preencher durante a aula)\n\nA1: [Ideia principal, em frases curtas]\n\nA2: [Definição, dado ou exemplo]\n\nA3: [Descrição do esquema, número do slide]\n\n## Resumo (3 ou 4 frases, com suas palavras)\n\n[Do que tratou a aula e por que importa]\n\n## Pistas erradas para revisar\n\n[Números das perguntas que você não soube responder]"
+      }
+    },
+    {
+      "id": "recreate-template",
+      "h2": "Como fazer um modelo Cornell no Google Docs, Notion, Word ou GoodNotes?",
+      "body": "Dá para montar um modelo Cornell reutilizável em uns cinco minutos em qualquer um desses apps. Faça uma vez e duplique a cada aula.",
+      "subsections": [
+        {
+          "h3": "Google Docs",
+          "body": "Vá em **Inserir > Tabela** e crie uma tabela 2 x 3. Na linha de cima ficam a disciplina e a data, na do meio as pistas e as anotações, e a linha de baixo, mesclada (selecione as duas células, botão direito, **Mesclar células**), recebe o resumo. Em **Formatar > Tabela > Propriedades da tabela**, deixe a coluna esquerda com cerca de 5 cm e a direita com 11 cm nas margens padrão. Chame o arquivo de \"Modelo Cornell\" e use **Arquivo > Fazer uma cópia** antes de cada aula."
+        },
+        {
+          "h3": "Notion",
+          "body": "Digite **/2 colunas** (ou /2 columns) para criar dois blocos lado a lado e arraste o divisor até a coluna esquerda ocupar cerca de 30% da largura. Coloque o título \"Pistas\" à esquerda e \"Anotações\" à direita, e adicione um bloco de destaque abaixo das duas para o resumo. Para reutilizar, crie um banco de dados \"Aulas\", clique na seta ao lado de **Novo**, escolha **Novo modelo** e cole a estrutura dentro."
+        },
+        {
+          "h3": "Microsoft Word",
+          "body": "Use **Inserir > Tabela** para uma grade 2 x 3, mescle a linha de baixo em **Layout > Mesclar Células** e ajuste a largura das colunas em **Layout > Propriedades > Coluna**. Tire as bordas externas se quiser um visual de papel. Depois, **Arquivo > Salvar como** e escolha **Modelo do Word (.dotx)**: todo documento novo vai começar no formato Cornell."
+        },
+        {
+          "h3": "GoodNotes e Notability",
+          "body": "O **GoodNotes** traz papel Cornell entre os modelos nativos, inclusive em A4. Num caderno, abra o menu **Mais** da barra de ferramentas, escolha **Alterar modelo** e selecione uma folha Cornell no tamanho e na cor que quiser. No **Notability**, o caminho mais confiável é exportar em PDF a versão do Word ou do Google Docs que você criou acima e importar, ou traçar as duas linhas uma vez com a régua e copiar essa página a cada aula."
+        }
+      ]
+    },
+    {
+      "id": "cornell-example",
+      "h2": "Como fica um exemplo do método Cornell preenchido?",
+      "body": "Este é um exemplo completo do método Cornell a partir de uma aula de Pensamento Social Brasileiro sobre Raízes do Brasil, de Sérgio Buarque de Holanda, leitura obrigatória nos cursos de Ciências Sociais da USP, da Unicamp e de boa parte das federais. Repare que as pistas são perguntas, não títulos. \"Homem cordial\" diz do que trata a anotação; \"O que Sérgio Buarque quer dizer com homem cordial?\" obriga você a buscar a resposta.",
+      "table": {
+        "headers": [
+          "Pistas",
+          "Anotações: Pensamento Social Brasileiro, aula 5, Raízes do Brasil"
+        ],
+        "rows": [
+          [
+            "Quando e por quem foi publicado?",
+            "Sérgio Buarque de Holanda, 1936. Um dos \"intérpretes do Brasil\", ao lado de Gilberto Freyre (Casa-Grande & Senzala, 1933) e Caio Prado Jr."
+          ],
+          [
+            "O que é o homem cordial?",
+            "\"Cordial\" vem de cor, coração: age pela emoção e pela intimidade, não pela polidez. Pode ser afeto ou inimizade."
+          ],
+          [
+            "Por que a cordialidade é um problema político?",
+            "O brasileiro tende a tratar relações públicas como pessoais. Dificulta regras impessoais e instituições."
+          ],
+          [
+            "O que é patrimonialismo?",
+            "Confusão entre público e privado: quem ocupa um cargo o trata como bem próprio. Oposto do Estado burocrático de Max Weber."
+          ],
+          [
+            "Trabalhador x aventureiro?",
+            "Tipos ideais do livro: o aventureiro busca ganho rápido sem esforço metódico; o trabalhador valoriza o esforço lento. A colonização portuguesa teria sido mais aventureira."
+          ],
+          [
+            "Ligação com a prova?",
+            "A professora adiantou: comparar a leitura de Sérgio Buarque com a de Freyre sobre a herança colonial."
+          ],
+          [
+            "RESUMO",
+            "Em Raízes do Brasil, Sérgio Buarque explica as dificuldades da democracia brasileira pela herança ibérica: cordialidade, personalismo e patrimonialismo misturam o público e o privado. O homem cordial não é o homem gentil, e sim o que age pelo coração. Ligar com a próxima aula sobre Freyre."
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "Por que este exemplo funciona",
+        "body": "As pistas estão nas palavras do estudante, cada uma aponta para uma única anotação e o resumo liga a aula ao resto da disciplina. Um resumo que só listasse temas (\"homem cordial, patrimonialismo, aventureiro\") não passaria na etapa Refletir."
+      }
+    },
+    {
+      "id": "cornell-from-transcript",
+      "h2": "Como fazer anotações Cornell a partir da transcrição de uma aula?",
+      "body": "Você faz anotações Cornell a partir de uma transcrição usando-a como a etapa Registrar e fazendo você mesmo as etapas Reduzir, Recitar e Refletir. É um jeito de trabalhar, não um recurso automático: o LessonScriptor transcreve a aula num painel lateral do Chrome e depois você leva as linhas importantes para sua folha Cornell. Nada formata a página por você, e isso é bom, porque é ao reduzir que você aprende.\n\nO fluxo serve para aulas gravadas no AVA ou no Moodle da sua universidade, videoaulas da Univesp, cursos no YouTube ou na Coursera e aulas ao vivo no Zoom, Teams ou Google Meet pelo navegador.",
+      "steps": [
+        {
+          "strategy": "Transcrever a aula",
+          "detail": "Abra a aula no Chrome e inicie o LessonScriptor no painel lateral. O modo gratuito usa o reconhecimento de voz do navegador pelo microfone: deixe as caixas de som em torno de 80% do volume e não use fone de ouvido. O modo IA capta o áudio da aba diretamente, funciona com fone e entende melhor sotaques e termos técnicos (30 minutos de teste grátis, depois pacotes avulsos a partir de US$ 5; o Stripe mostra a conversão para reais)."
+        },
+        {
+          "strategy": "Marcar as linhas-chave enquanto escuta",
+          "detail": "Em vez de escrever, destaque as frases importantes na transcrição (são 5 cores), coloque as definições em negrito e adicione um título quando o professor mudar de assunto. Tire um print dos slides de que vai precisar."
+        },
+        {
+          "strategy": "Exportar a transcrição",
+          "detail": "Exporte em .md (ou .txt, ou copie para a área de transferência) e abra seu modelo Cornell ao lado."
+        },
+        {
+          "strategy": "Reduzir na coluna de anotações",
+          "detail": "Leve só as linhas destacadas para a coluna de anotações e encurte cada uma até virar uma frase breve. Uma aula de uma hora e meia gera milhares de palavras de transcrição; sua coluna de anotações deve caber em uma ou duas folhas."
+        },
+        {
+          "strategy": "Escrever as pistas e o resumo",
+          "detail": "Escreva uma pergunta por anotação na coluna de pistas e depois o resumo de 3 ou 4 frases. Recite com as anotações cobertas antes de fechar a página."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Por que isso combina com TDAH",
+        "body": "O registro acontece sozinho, então sua atenção vai para as etapas que realmente constroem memória: escolher o que importa, transformar em perguntas e se testar. Você deixa de dividir o foco entre ouvir e escrever à mão, a parte do método Cornell que mais pesa para muitos estudantes com TDAH."
+      },
+      "internal_links": [
+        {
+          "text": "Transformar a transcrição de uma aula em perguntas de recordação ativa",
+          "url": "/blog/active-recall-lecture-transcript"
+        },
+        {
+          "text": "Ferramentas de IA para anotar aulas gravadas",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "id": "adhd-cornell",
+      "h2": "Como adaptar o método Cornell para quem tem TDAH?",
+      "body": "Estudantes com TDAH podem usar o método Cornell, mas a versão clássica pede três coisas ao mesmo tempo na aula: ouvir, decidir o que importa e escrever rápido. A memória de trabalho é o gargalo. Estes ajustes mantêm a estrutura e tiram a sobrecarga.",
+      "subsections": [
+        {
+          "h3": "Separe o registro do processamento",
+          "body": "Não tente preencher a coluna de anotações ao vivo. Deixe uma transcrição ou a gravação fazer a etapa Registrar e agende Reduzir como uma sessão curta à parte, no mesmo dia."
+        },
+        {
+          "h3": "Cronometre a etapa Reduzir",
+          "body": "Coloque um timer de 25 minutos e processe uma parte da aula por bloco. Meia folha pronta vale mais que uma folha inteira abandonada."
+        },
+        {
+          "h3": "Limite o resumo a três frases",
+          "body": "Um quadro em branco convida ao perfeccionismo. Três frases, uma para o que é, uma para por que importa e uma para com o que se liga, bastam para a etapa Refletir."
+        },
+        {
+          "h3": "Use a cor como sistema de pistas",
+          "body": "Dê uma função a cada cor, por exemplo amarelo para definições e azul para o que pode cair na prova, e revisar uma folha passa a levar segundos em vez de uma releitura."
+        },
+        {
+          "h3": "Recite em voz alta ou com alguém",
+          "body": "Responder às pistas em voz alta, ou com um colega por chamada no WhatsApp ou no Discord, evita que Recitar vire uma releitura silenciosa."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "O modelo de anotações para TDAH (Capturar, Perguntar, Consolidar)",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "cornell-vs-other-methods",
+      "h2": "Método Cornell ou outros métodos de anotação: qual escolher?",
+      "body": "O método Cornell é o melhor método geral quando você precisa estudar para provas, porque o autoteste já vem embutido. Outros métodos ganham em situações específicas.",
+      "table": {
+        "headers": [
+          "Método",
+          "Ideal para",
+          "Ponto fraco"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Aulas que vão cair em prova; autoteste embutido",
+            "Exige uma sessão de revisão depois da aula"
+          ],
+          [
+            "Tópicos (esquema)",
+            "Aulas bem estruturadas, com partes claras",
+            "Não tem etapa de recuperação; é fácil só reler"
+          ],
+          [
+            "Mapa mental",
+            "Ver relações entre conceitos, preparar redações e seminários",
+            "Difícil de acompanhar um professor que fala rápido"
+          ],
+          [
+            "Quadro comparativo",
+            "Comparar vários itens pelos mesmos critérios (autores, teorias, países)",
+            "Só funciona se o conteúdo couber numa tabela"
+          ],
+          [
+            "Frases corridas",
+            "Aulas rápidas e pouco estruturadas",
+            "Gera anotações longas e cansativas de revisar"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Todos os métodos de anotação comparados",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Resumindo",
+    "body": "Um modelo Cornell é uma coluna de pistas, uma coluna de anotações e um quadro de resumo, e o método por trás são os 5 R de Pauk. Copie o modelo acima no Docs, Notion, Word ou GoodNotes, preencha as pistas depois da aula e não durante, e recite a partir delas toda semana. Se o que trava é escrever enquanto escuta, deixe uma transcrição fazer o registro e guarde sua concentração para as pistas.",
+    "internal_links": [
+      {
+        "text": "Ferramentas de estudo para estudantes com TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Método Cornell: perguntas frequentes",
+    "questions": [
+      {
+        "question": "O método Cornell funciona para quem tem TDAH?",
+        "answer": "O método Cornell funciona para TDAH quando você separa o registro do processamento. A coluna de pistas e o resumo dão uma estrutura clara e um autoteste embutido. O que costuma falhar é escrever ao vivo enquanto ouve, por isso muitos estudantes com TDAH transcrevem a aula e preenchem a folha Cornell depois, em sessões curtas e cronometradas."
+      },
+      {
+        "question": "O que é melhor: método Cornell ou anotação em tópicos?",
+        "answer": "O método Cornell é melhor para estudar para provas, porque a coluna de pistas transforma suas anotações num autoteste. A anotação em tópicos é mais rápida e funciona bem em aulas bem estruturadas, mas não tem etapa de recuperação. Muitos estudantes fazem tópicos na coluna de anotações e acrescentam as pistas Cornell depois."
+      },
+      {
+        "question": "Quais são os 5 R do método Cornell?",
+        "answer": "Os 5 R do método Cornell são Record, Reduce, Recite, Reflect e Review: registrar, reduzir, recitar, refletir e revisar. Você registra durante a aula, reduz em pistas e resumo depois, recita com as anotações cobertas, reflete sobre como o tema se conecta e revisa as folhas antigas toda semana."
+      },
+      {
+        "question": "Quais as medidas de um modelo Cornell em folha A4?",
+        "answer": "Numa folha A4, o modelo Cornell usa cerca de 6 cm para a coluna de pistas, 15 cm para a coluna de anotações e 5 cm para o resumo embaixo. Essas medidas vêm das originais de Pauk em polegadas (2,5, 6 e 2). No digital, busque uma proporção de 30/70 entre pistas e anotações."
+      },
+      {
+        "question": "Existe modelo Cornell no Word ou no Google Docs?",
+        "answer": "Nem o Word nem o Google Docs têm um modelo Cornell nativo, mas dá para criar um em cinco minutos com uma tabela 2 x 3: linha de cabeçalho, linha de pistas e anotações, e uma linha de resumo mesclada. No Word, salve como .dotx; no Google Docs, mantenha um arquivo base e use Arquivo > Fazer uma cópia a cada aula."
+      },
+      {
+        "question": "Dá para fazer anotações Cornell a partir de uma transcrição?",
+        "answer": "Sim. A transcrição faz o papel da etapa Registrar: transcreva a aula com uma ferramenta como o LessonScriptor, destaque as linhas-chave, exporte em .md, leve-as para a coluna de anotações e escreva você mesmo as pistas e o resumo. A ferramenta não monta a folha Cornell por você."
+      },
+      {
+        "question": "Quem criou o método Cornell?",
+        "answer": "Walter Pauk criou o método Cornell nos anos 1950, quando dirigia o Reading and Study Center da Universidade Cornell. Ele o publicou em How to Study in College, cuja primeira edição saiu em 1962."
+      }
+    ]
+  },
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/adhd-note-taking-template",
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/note-taking-methods",
+      "/blog/active-recall-lecture-transcript",
+      "/blog/ai-note-taker-for-lectures"
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Método Cornell: modelo grátis, exemplo preenchido e como usar",
+      "description": "Modelo Cornell para copiar no Google Docs, Notion ou Word, com exemplo preenchido, os 5 R do método Cornell e uma versão pensada para estudantes com TDAH.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/pt/blog/modelo-metodo-cornell"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O método Cornell funciona para quem tem TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O método Cornell funciona para TDAH quando você separa o registro do processamento. A coluna de pistas e o resumo dão uma estrutura clara e um autoteste embutido. O que costuma falhar é escrever ao vivo enquanto ouve, por isso muitos estudantes com TDAH transcrevem a aula e preenchem a folha Cornell depois, em sessões curtas e cronometradas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O que é melhor: método Cornell ou anotação em tópicos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O método Cornell é melhor para estudar para provas, porque a coluna de pistas transforma suas anotações num autoteste. A anotação em tópicos é mais rápida e funciona bem em aulas bem estruturadas, mas não tem etapa de recuperação. Muitos estudantes fazem tópicos na coluna de anotações e acrescentam as pistas Cornell depois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais são os 5 R do método Cornell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os 5 R do método Cornell são Record, Reduce, Recite, Reflect e Review: registrar, reduzir, recitar, refletir e revisar. Você registra durante a aula, reduz em pistas e resumo depois, recita com as anotações cobertas, reflete sobre como o tema se conecta e revisa as folhas antigas toda semana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quais as medidas de um modelo Cornell em folha A4?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Numa folha A4, o modelo Cornell usa cerca de 6 cm para a coluna de pistas, 15 cm para a coluna de anotações e 5 cm para o resumo embaixo. Essas medidas vêm das originais de Pauk em polegadas (2,5, 6 e 2). No digital, busque uma proporção de 30/70 entre pistas e anotações."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe modelo Cornell no Word ou no Google Docs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nem o Word nem o Google Docs têm um modelo Cornell nativo, mas dá para criar um em cinco minutos com uma tabela 2 x 3: linha de cabeçalho, linha de pistas e anotações, e uma linha de resumo mesclada. No Word, salve como .dotx; no Google Docs, mantenha um arquivo base e use Arquivo > Fazer uma cópia a cada aula."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para fazer anotações Cornell a partir de uma transcrição?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A transcrição faz o papel da etapa Registrar: transcreva a aula com uma ferramenta como o LessonScriptor, destaque as linhas-chave, exporte em .md, leve-as para a coluna de anotações e escreva você mesmo as pistas e o resumo. A ferramenta não monta a folha Cornell por você."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quem criou o método Cornell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walter Pauk criou o método Cornell nos anos 1950, quando dirigia o Reading and Study Center da Universidade Cornell. Ele o publicou em How to Study in College, cuja primeira edição saiu em 1962."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como fazer anotações com o método Cornell",
+      "description": "O método Cornell divide cada folha em três áreas: uma coluna estreita de pistas à esquerda, uma coluna larga de anotações à direita e um quadro de resumo embaixo. O modelo deste guia pode ser copiado para o Google Docs, Notion, Word ou GoodNotes em menos de cinco minutos.",
+      "inLanguage": "pt-BR",
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Folha A4 ou app de notas"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Docs"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Notion"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Microsoft Word"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "GoodNotes"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Desenhar o modelo",
+          "text": "Divida a folha em uma coluna de pistas de cerca de 6 cm à esquerda, uma coluna de anotações de cerca de 15 cm à direita e um quadro de resumo de cerca de 5 cm embaixo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Registrar (Record)",
+          "text": "Durante a aula, presencial ou no AVA, anote as ideias principais e os dados que as sustentam na coluna de anotações. Abrevie, use frases curtas e pule o que já está nos slides que o professor posta no Moodle."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Reduzir (Reduce)",
+          "text": "O quanto antes depois da aula, de preferência no mesmo dia, releia as anotações e transforme cada ideia numa pergunta ou palavra-chave na coluna de pistas. Depois escreva o resumo embaixo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Recitar (Recite)",
+          "text": "Cubra a coluna de anotações. Leia cada pista e responda em voz alta com suas palavras. Descubra para conferir e marque cada pista que errou."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Refletir (Reflect)",
+          "text": "Pergunte-se como essa aula se liga às anteriores, aos textos da disciplina ou a uma possível questão de prova. Anote essas ligações na margem ou no resumo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Revisar (Review)",
+          "text": "Reserve uns dez minutos por semana para recitar a partir das colunas de pistas das folhas antigas, começando pelas pistas que você errou."
+        }
+      ]
+    }
+  ]
+}

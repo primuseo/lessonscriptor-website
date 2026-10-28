@@ -1,0 +1,400 @@
+{
+  "slug": "chrome-live-captions-not-working",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Sous-titres instantanés Chrome qui ne fonctionnent pas ? Check-list + 8 solutions (2026)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Sous-titres instantanés Chrome ne marchent pas : 8 solutions",
+    "description": "Sous-titres instantanés Chrome qui ne fonctionnent pas ou « indisponibles » ? Check-list en 2 minutes et 8 solutions : modèle vocal, langue, extensions.",
+    "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "canonical": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-ne-fonctionnent-pas",
+    "og_title": "Sous-titres instantanés Chrome qui ne fonctionnent pas ? 8 solutions (2026)",
+    "og_description": "Check-list et 8 solutions concrètes quand les sous-titres instantanés de Chrome restent vides, plus le moment où une extension devient plus simple.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "sous-titres instantanés chrome ne fonctionnent pas",
+      "sous-titres instantanés indisponibles",
+      "sous-titres instantanés chrome",
+      "activer sous-titres instantanés chrome",
+      "live caption chrome ne marche pas"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "alt": "Fenêtre Chrome affichant le réglage Sous-titres instantanés et un message d'erreur, avec les étapes de dépannage",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l'anthropologie et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Points clés",
+    "lead": "Les sous-titres instantanés de Chrome (Live Caption) tombent en panne pour huit raisons connues, et la plupart se règlent en moins de deux minutes. Si la fonction native reste capricieuse, une extension comme LessonScriptor capte l'audio de l'onglet sans dépendre du modèle vocal de Chrome.",
+    "bullets": [
+      "La solution la plus fréquente : désactiver Sous-titres instantanés, attendre 10 secondes, le réactiver puis redémarrer complètement Chrome.",
+      "Les sous-titres instantanés existent depuis Chrome 89 et ont besoin d'un modèle de reconnaissance vocale téléchargé sur l'ordinateur : un téléchargement bloqué explique la plupart des messages « indisponible ».",
+      "Le français est bien pris en charge : il fait partie des 19 langues de sous-titrage listées par Google, avec l'anglais, l'espagnol, l'allemand, le portugais et le chinois.",
+      "Le casque n'est presque jamais la cause : Chrome sous-titre le son qu'il lit lui-même, sans passer par le micro.",
+      "Les extensions qui bloquent des scripts (uBlock Origin, Privacy Badger) ou un VPN peuvent perturber certaines pages : testez en navigation privée."
+    ]
+  },
+  "intro": "Les sous-titres instantanés de Chrome ne fonctionnent pas, le plus souvent, parce que le modèle de reconnaissance vocale ne s'est pas téléchargé, parce que Chrome n'est pas à jour, ou parce qu'une extension perturbe la lecture audio. Le symptôme typique est un message indiquant que les sous-titres instantanés ne sont pas disponibles pour le moment, fréquent sur Windows 10, Windows 11 et macOS. Ce guide propose d'abord une check-list en cinq points, puis huit solutions classées de la plus rapide à la plus lourde, avec des exemples concrets : un cours en replay sur Moodle à l'Université de Lyon, une vidéo YouTube ou un MOOC sur FUN. Il explique aussi quand une extension de sous-titrage comme LessonScriptor devient la solution la plus simple.",
+  "stats": [
+    {
+      "number": "89+",
+      "label": "version minimale de Chrome pour les sous-titres instantanés"
+    },
+    {
+      "number": "8",
+      "label": "causes connues de panne, toutes corrigeables"
+    },
+    {
+      "number": "19",
+      "label": "langues de sous-titrage listées par Google, dont le français"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-chrome-live-captions-not-working",
+      "h2": "Pourquoi mes sous-titres instantanés Chrome ne fonctionnent plus ?",
+      "body": "Les sous-titres instantanés de Chrome cessent de fonctionner pour l'une de ces huit raisons : une version de Chrome trop ancienne, un modèle de reconnaissance vocale manquant ou corrompu, une extension qui interfère, un son qui ne provient pas de Chrome, un profil Chrome corrompu, des flags expérimentaux modifiés, un manque d'espace disque pour stocker le modèle, ou un téléchargement bloqué par le réseau (pare-feu d'entreprise ou d'université, VPN).\n\nLe message « sous-titres instantanés indisponibles » sur Windows 10 et Windows 11 vient le plus souvent d'un modèle vocal qui ne s'est pas téléchargé en entier. Chrome télécharge ce modèle en arrière-plan la première fois que vous activez la fonction : si la connexion était lente ou coupée (un Wi-Fi eduroam saturé en amphi, par exemple), le modèle reste incomplet et rien ne s'affiche.\n\nSur macOS, la cause la plus fréquente est un Chrome qui n'a pas été vraiment relancé après une mise à jour. Autre piège courant : les navigateurs basés sur Chromium comme Brave ou Vivaldi n'offrent pas toujours cette fonction, qui est propre à Google Chrome.\n\nLes solutions 1 et 2 ci-dessous règlent la grande majorité des cas."
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Check-list de dépannage des sous-titres instantanés : que vérifier en premier ?",
+      "body": "Le dépannage des sous-titres instantanés commence par cinq vérifications qui prennent moins de deux minutes et qui, ensemble, résolvent la plupart des cas avant même les solutions détaillées. Faites-les dans l'ordre : chacune écarte une cause différente.",
+      "steps": [
+        {
+          "strategy": "Les sous-titres instantanés sont-ils activés ?",
+          "detail": "Ouvrez **chrome://settings/accessibility** (menu Plus ⋮ > Paramètres > Accessibilité) et vérifiez que l'option **Sous-titres instantanés** est activée. Chrome la désactive parfois après une mise à jour."
+        },
+        {
+          "strategy": "Votre version de Chrome est-elle récente ?",
+          "detail": "Allez sur **chrome://settings/help** (Aide > À propos de Google Chrome). La fonction existe sur Chrome pour Windows, macOS, Linux et ChromeOS."
+        },
+        {
+          "strategy": "Le modèle vocal a-t-il fini de se télécharger ?",
+          "detail": "Juste après l'activation, Chrome télécharge des fichiers de reconnaissance vocale. Tant que ce n'est pas terminé, les sous-titres restent vides. Un téléchargement bloqué est la cause habituelle du message « indisponible »."
+        },
+        {
+          "strategy": "La langue est-elle prise en charge ?",
+          "detail": "Dans les réglages Sous-titres instantanés, ouvrez **Gérer les langues** et ajoutez le français si besoin. Le français, l'anglais, l'espagnol, l'allemand, le portugais et le chinois sont pris en charge ; une langue absente de la liste ne donnera rien."
+        },
+        {
+          "strategy": "Le son est-il vraiment lu par Chrome ?",
+          "detail": "Chrome ne sous-titre que l'audio joué dans Chrome, pas celui de l'application Zoom ou Teams pour bureau ni de Spotify. Réactivez le son de l'onglet : pour les vidéos en lecture automatique, Google précise que le volume doit être activé."
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "Toujours rien après ces cinq points ?",
+        "body": "Passez à la solution 1. Si les solutions échouent les unes après les autres, une extension qui capte directement l'audio de l'onglet, comme le mode IA de LessonScriptor, contourne complètement le téléchargement du modèle vocal de Chrome."
+      },
+      "internal_links": [
+        {
+          "text": "Les sous-titres instantanés dans d'autres langues",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "Sous-titres Chrome avec un casque audio",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "fix-toggle-live-caption",
+      "h2": "Solution 1 : désactiver puis réactiver les sous-titres instantanés",
+      "body": "Désactiver puis réactiver les sous-titres instantanés force Chrome à recharger le modèle de reconnaissance vocale et à effacer un éventuel état corrompu. C'est ce qui règle la majorité des erreurs « indisponible ».\n\n**Comment faire :**\n1. Ouvrez Chrome et allez sur **chrome://settings/accessibility**.\n2. Désactivez **Sous-titres instantanés**.\n3. Attendez 10 secondes sans fermer Chrome.\n4. Réactivez l'option.\n5. Fermez toutes les fenêtres Chrome (sur Mac, Chrome > Quitter Google Chrome, ou Cmd+Q) et relancez.\n\nSi les sous-titres apparaissent, c'est réglé. Sinon, passez à la solution 2."
+    },
+    {
+      "id": "fix-update-chrome",
+      "h2": "Solution 2 : mettre Chrome à jour",
+      "body": "Les sous-titres instantanés demandent Chrome 89 ou une version plus récente, et une version obsolète est la deuxième cause la plus fréquente de panne, notamment sur les ordinateurs gérés par une université ou une entreprise qui bloquent les mises à jour automatiques.\n\n**Vérifier sa version :** menu Plus ⋮ > Aide > À propos de Google Chrome. Chrome cherche automatiquement les mises à jour sur cette page.\n\nAprès la mise à jour, cliquez sur **Relancer** et redémarrez Chrome complètement, pas seulement l'onglet. Beaucoup d'utilisateurs constatent que ce simple redémarrage fait disparaître une erreur « indisponible » qui durait depuis des semaines."
+    },
+    {
+      "id": "fix-speech-model-download",
+      "h2": "Solution 3 : retélécharger le modèle de reconnaissance vocale",
+      "body": "Les sous-titres instantanés reposent sur un modèle de reconnaissance vocale stocké sur votre ordinateur : Google indique que l'audio et les sous-titres sont traités localement et ne quittent jamais l'appareil. Si ce modèle est corrompu ou incomplet, les sous-titres échouent sans message clair. Vous pouvez forcer un nouveau téléchargement.\n\n**Méthode 1, par les réglages :**\n1. Désactivez **Sous-titres instantanés** dans **chrome://settings/accessibility**.\n2. Sous **Gérer les langues**, retirez le français, puis cliquez sur **Ajouter des langues** pour l'ajouter de nouveau : Chrome retélécharge le pack de langue.\n3. Réactivez l'option et redémarrez Chrome.\n\n**Méthode 2, par les composants :** allez sur **chrome://components**, repérez le composant de reconnaissance vocale (il s'appelle « Speech On-Device API » ou SODA, suivi des packs de langue, selon la version) et cliquez sur **Rechercher une mise à jour**. Comptez 2 à 5 minutes sur une connexion lente.\n\nCette solution est particulièrement efficace si l'erreur est apparue après un changement de réseau Wi-Fi ou une mise à jour automatique de Chrome. Sur un réseau d'université ou d'entreprise filtré, faites le téléchargement depuis une autre connexion (partage de connexion du téléphone, par exemple)."
+    },
+    {
+      "id": "fix-disable-conflicting-extensions",
+      "h2": "Solution 4 : désactiver les extensions qui bloquent des scripts ou l'audio",
+      "body": "Les extensions qui interceptent les scripts ou modifient l'audio, comme uBlock Origin, Privacy Badger, NoScript ou certaines extensions VPN, peuvent empêcher la lecture audio normale sur certaines pages, et donc le sous-titrage.\n\n**Comment le vérifier :** ouvrez une fenêtre de navigation privée (Ctrl+Maj+N sous Windows, Cmd+Maj+N sur Mac). La plupart des extensions y sont désactivées par défaut. Si les sous-titres instantanés fonctionnent en navigation privée mais pas en mode normal, une extension est en cause.\n\n**Comment corriger :** allez sur **chrome://extensions**, désactivez les extensions une par une en testant les sous-titres après chaque désactivation. Pour uBlock Origin, mieux vaut autoriser uniquement les sites concernés (votre Moodle, YouTube) plutôt que de désactiver l'extension partout."
+    },
+    {
+      "id": "fix-audio-routing-headphones",
+      "h2": "Solution 5 : sous-titres instantanés qui ne marchent pas avec un casque",
+      "body": "Les sous-titres instantanés de Chrome fonctionnent normalement avec un casque, y compris des AirPods ou un casque Bluetooth : Chrome sous-titre le son qu'il lit lui-même, à l'intérieur du navigateur, sans écouter le micro. Si les sous-titres disparaissent quand vous branchez votre casque, la cause est presque toujours ailleurs.\n\n**À vérifier :**\n- Le son vient-il bien de Chrome ? Un cours suivi dans l'application Zoom pour bureau n'est pas sous-titré par Chrome ; ouvrez la réunion ou l'enregistrement dans le navigateur.\n- L'onglet est-il en sourdine ? Clic droit sur l'onglet > Réactiver le son du site.\n- Une reconnexion Bluetooth a-t-elle coupé la lecture ? Déconnectez puis reconnectez le casque et relancez la vidéo.\n- Le modèle vocal est-il complet ? Reprenez la solution 3.\n\n**Le vrai piège du casque :** ce sont les outils qui écoutent par le micro qui ne marchent pas avec un casque, par exemple le mode gratuit de LessonScriptor, qui s'appuie sur la reconnaissance vocale du navigateur via le micro. Pour transcrire au casque avec LessonScriptor, utilisez le mode IA, qui capte directement l'audio de l'onglet.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome avec LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "fix-reset-chrome-flags",
+      "h2": "Solution 6 : réinitialiser les flags expérimentaux de Chrome",
+      "body": "La page **chrome://flags** regroupe des réglages expérimentaux qui modifient le comportement par défaut du navigateur. Si vous, ou le service informatique de votre établissement, avez modifié des flags liés à l'audio, à l'accessibilité ou à la reconnaissance vocale, ils peuvent entrer en conflit avec les sous-titres instantanés.\n\n**Tout réinitialiser :** allez sur **chrome://flags**, cliquez sur **Tout réinitialiser** en haut à droite, puis relancez Chrome quand il vous le propose.\n\nC'est une solution radicale mais efficace. Seul inconvénient : elle annule aussi les autres flags que vous aviez activés volontairement."
+    },
+    {
+      "id": "fix-clear-profile-data",
+      "h2": "Solution 7 : vider le cache et les données de navigation",
+      "body": "Un cache corrompu peut empêcher certaines pages de lire l'audio correctement. Vider les données force Chrome à reconstruire son état local. C'est rarement la cause, gardez cette solution pour la fin.\n\n**Comment faire :** allez sur **chrome://settings/clearBrowserData**, choisissez **Toutes les périodes**, cochez **Images et fichiers en cache** et **Cookies et autres données de site**, puis cliquez sur **Effacer les données**.\n\nAttention : vous serez déconnecté des sites, y compris de votre ENT et de Moodle. Ensuite, vérifiez que **Sous-titres instantanés** est toujours activé dans **chrome://settings/accessibility** et testez de nouveau."
+    },
+    {
+      "id": "fix-switch-to-extension",
+      "h2": "Solution 8 : passer à LessonScriptor si les sous-titres natifs échouent encore",
+      "body": "Les sous-titres instantanés de Chrome sont pratiques mais limités : ils affichent deux lignes qui disparaissent aussitôt, sans possibilité de modifier, surligner ou exporter le texte. Si vous avez essayé les sept solutions ci-dessus et que les sous-titres restent instables, une extension dédiée est le choix le plus solide à long terme.\n\nLessonScriptor est une extension Chrome qui affiche une transcription en direct dans un panneau latéral pendant que la vidéo joue : cours en replay sur Moodle, Canvas ou Panopto, vidéos YouTube, MOOC sur Coursera ou FUN, Zoom et Google Meet dans le navigateur. La transcription est un éditeur de notes : surlignage en 5 couleurs, gras, titres, listes, suppression de passages, captures d'écran des diapositives, puis export en .txt ou .md. Elle gère 14 langues, dont le français, l'anglais, l'espagnol, l'allemand, le portugais et le chinois.\n\nDeux modes existent. Le **mode gratuit** utilise la reconnaissance vocale du navigateur via le micro : il faut des haut-parleurs assez forts (80 % ou plus) et il ne fonctionne pas au casque. Le **mode IA** capte l'audio de l'onglet, fonctionne au casque et reconnaît mieux les accents et le vocabulaire technique ; il est payé à l'usage par packs sans abonnement (5 h pour 5 $, 15 h pour 12 $, 30 h pour 21 $, prix en dollars convertis par Stripe dans votre devise), avec 30 minutes d'essai gratuit.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome avec LessonScriptor",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Transcrire une vidéo YouTube",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-extension-vs-builtin",
+      "h2": "Faut-il utiliser les sous-titres intégrés de Chrome ou une extension ?",
+      "body": "Les sous-titres instantanés intégrés à Chrome sont le meilleur choix pour des sous-titres rapides et éphémères, quand vous n'avez pas besoin de garder ou de modifier le texte. Ils ne demandent aucune installation, fonctionnent hors connexion une fois le modèle téléchargé et prennent en charge le français.\n\nUne extension comme LessonScriptor est préférable quand vous voulez une transcription modifiable et exportable pour réviser, quand vous voulez annoter un cours magistral en replay, ou quand vous travaillez au casque avec le mode IA.\n\nLes deux approches se complètent. Beaucoup d'étudiants gardent les sous-titres instantanés de Chrome pour suivre une vidéo au passage, et lancent LessonScriptor pour les vraies séances de travail où ils surlignent, structurent et exportent leurs notes.",
+      "internal_links": [
+        {
+          "text": "Sous-titres instantanés de Chrome ou LessonScriptor ?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Une transcription en direct que vous pouvez garder",
+    "body": "LessonScriptor affiche une transcription modifiable et exportable de n'importe quelle vidéo dans Chrome. Mode gratuit sans compte ; mode IA pour travailler au casque.",
+    "button_label": "Ajouter LessonScriptor à Chrome (gratuit)",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Pourquoi Chrome indique que les sous-titres instantanés ne sont pas disponibles ?",
+        "answer": "Ce message signifie que le modèle de reconnaissance vocale de Chrome ne s'est pas téléchargé ou est corrompu. Désactivez Sous-titres instantanés, retirez puis rajoutez le français sous Gérer les langues pour forcer un nouveau téléchargement, ou utilisez Rechercher une mise à jour dans chrome://components. Redémarrez ensuite Chrome."
+      },
+      {
+        "question": "Les sous-titres instantanés de Chrome fonctionnent-ils hors connexion ?",
+        "answer": "Oui, une fois le modèle téléchargé. Google indique que l'audio et les sous-titres sont traités localement et ne quittent jamais votre appareil. Le premier téléchargement du modèle et des packs de langue demande en revanche une connexion internet."
+      },
+      {
+        "question": "Pourquoi les sous-titres instantanés ne marchent pas sur certains sites ?",
+        "answer": "Certains lecteurs protégés par DRM, comme ceux des plateformes de streaming, peuvent ne pas laisser Chrome accéder au son pour le sous-titrer. La fonction a aussi besoin d'un Chrome à jour et d'un modèle vocal complet. LessonScriptor peut rencontrer la même limite sur les contenus protégés."
+      },
+      {
+        "question": "Les sous-titres instantanés fonctionnent-ils sur Chromebook ?",
+        "answer": "Oui. ChromeOS a sa propre version de la fonction : Paramètres > Accessibilité > Gérer les fonctionnalités d'accessibilité > Audio et sous-titres > Sous-titres instantanés."
+      },
+      {
+        "question": "Peut-on avoir les sous-titres instantanés Chrome en français ?",
+        "answer": "Oui. Le français fait partie des 19 langues de sous-titrage listées par Google, avec l'anglais, l'allemand, l'espagnol, le portugais, l'italien, le japonais, le coréen et le chinois. Ajoutez-le sous Gérer les langues dans les réglages Sous-titres instantanés. Pour garder un texte modifiable et exportable, LessonScriptor gère aussi 14 langues, dont le français."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Sous-titres instantanés Chrome en panne : l'essentiel",
+    "body": "Les sous-titres instantanés de Chrome échouent pour huit raisons, et la plupart se corrigent en moins de cinq minutes. Commencez par la check-list, désactivez puis réactivez l'option (solution 1), mettez Chrome à jour (solution 2) et retéléchargez le modèle vocal (solution 3) : ces trois étapes règlent la majorité des cas. Le casque n'est presque jamais en cause, puisque Chrome sous-titre son propre audio sans passer par le micro. Si vous avez besoin d'une transcription à garder, surligner et exporter, LessonScriptor ajoute un panneau de transcription en direct à n'importe quelle vidéo dans Chrome, en mode gratuit via le micro ou en mode IA via l'audio de l'onglet."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Sous-titres instantanés Chrome qui ne fonctionnent pas ? Check-list + 8 solutions (2026)",
+      "description": "Sous-titres instantanés Chrome qui ne fonctionnent pas ou « indisponibles » ? Check-list en 2 minutes et 8 solutions : modèle vocal, langue, extensions.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-ne-fonctionnent-pas",
+      "url": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-ne-fonctionnent-pas",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie avec un TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur et SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Pourquoi Chrome indique que les sous-titres instantanés ne sont pas disponibles ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ce message signifie que le modèle de reconnaissance vocale de Chrome ne s'est pas téléchargé ou est corrompu. Désactivez Sous-titres instantanés, retirez puis rajoutez le français sous Gérer les langues pour forcer un nouveau téléchargement, ou utilisez Rechercher une mise à jour dans chrome://components. Redémarrez ensuite Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les sous-titres instantanés de Chrome fonctionnent-ils hors connexion ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, une fois le modèle téléchargé. Google indique que l'audio et les sous-titres sont traités localement et ne quittent jamais votre appareil. Le premier téléchargement du modèle et des packs de langue demande en revanche une connexion internet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Pourquoi les sous-titres instantanés ne marchent pas sur certains sites ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Certains lecteurs protégés par DRM, comme ceux des plateformes de streaming, peuvent ne pas laisser Chrome accéder au son pour le sous-titrer. La fonction a aussi besoin d'un Chrome à jour et d'un modèle vocal complet. LessonScriptor peut rencontrer la même limite sur les contenus protégés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les sous-titres instantanés fonctionnent-ils sur Chromebook ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. ChromeOS a sa propre version de la fonction : Paramètres > Accessibilité > Gérer les fonctionnalités d'accessibilité > Audio et sous-titres > Sous-titres instantanés."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on avoir les sous-titres instantanés Chrome en français ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Le français fait partie des 19 langues de sous-titrage listées par Google, avec l'anglais, l'allemand, l'espagnol, le portugais, l'italien, le japonais, le coréen et le chinois. Ajoutez-le sous Gérer les langues dans les réglages Sous-titres instantanés. Pour garder un texte modifiable et exportable, LessonScriptor gère aussi 14 langues, dont le français."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Réparer les sous-titres instantanés de Chrome",
+      "inLanguage": "fr-FR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Désactiver puis réactiver les sous-titres instantanés",
+          "text": "Dans chrome://settings/accessibility, désactivez Sous-titres instantanés, attendez 10 secondes, réactivez et redémarrez Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Mettre Chrome à jour",
+          "text": "Menu Plus > Aide > À propos de Google Chrome, puis Relancer."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Retélécharger le modèle vocal",
+          "text": "Retirez puis rajoutez la langue sous Gérer les langues, ou utilisez Rechercher une mise à jour dans chrome://components."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Désactiver les extensions en conflit",
+          "text": "Testez en navigation privée puis désactivez les extensions une par une dans chrome://extensions."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Vérifier que le son vient de Chrome",
+          "text": "Lisez la vidéo dans le navigateur, onglet non muet ; le casque n'empêche pas le sous-titrage."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Réinitialiser les flags",
+          "text": "Dans chrome://flags, cliquez sur Tout réinitialiser puis relancez Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Vider le cache",
+          "text": "Dans chrome://settings/clearBrowserData, effacez les images et fichiers en cache."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Passer à une extension",
+          "text": "Si rien ne marche, utilisez une extension comme LessonScriptor qui affiche une transcription modifiable et exportable."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sous-titres instantanés Chrome qui ne fonctionnent pas",
+          "item": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-ne-fonctionnent-pas"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

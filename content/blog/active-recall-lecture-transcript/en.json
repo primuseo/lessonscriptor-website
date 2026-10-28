@@ -1,0 +1,460 @@
+{
+  "slug": "active-recall-lecture-transcript",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Active Recall: How to Study From Your Lecture Notes (Step by Step)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Active Recall: How to Study From Your Lecture Notes",
+    "description": "Active recall means testing yourself instead of rereading. See the evidence, then turn a lecture transcript into questions, self-tests and spaced reviews.",
+    "keywords": [
+      "active recall",
+      "active recall studying",
+      "how to use active recall",
+      "active recall method",
+      "retrieval practice",
+      "active recall adhd"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/en/blog/active-recall-lecture-transcript",
+    "og_title": "Active Recall: How to Study From Your Lecture Notes (Step by Step)",
+    "og_description": "The evidence behind active recall, and a step-by-step workflow from lecture transcript to spaced review.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "Active recall is studying by pulling information out of memory, usually by answering questions with your notes closed, instead of putting it back in by rereading.",
+    "bullets": [
+      "In Roediger and Karpicke's 2006 study, students who tested themselves three times recalled 61% of a text a week later; students who spent four study sessions rereading it recalled 40%.",
+      "Dunlosky and colleagues' 2013 review of 10 study techniques gave only two a high-utility rating: practice testing and distributed (spaced) practice. Rereading and highlighting were rated low.",
+      "The workflow: capture the lecture as a transcript, turn it into a question list, test yourself closed-book, then schedule spaced reviews in Anki, RemNote or Quizlet.",
+      "LessonScriptor captures and structures the transcript. It does not generate questions or flashcards; you write them, or paste the export into ChatGPT or NotebookLM to draft them.",
+      "Research on students with ADHD is smaller and mixed, but most studies find retrieval practice helps them about as much as other students."
+    ]
+  },
+  "stats": [
+    {
+      "number": "61% vs 40%",
+      "label": "recall after one week: repeated testing vs repeated rereading (Roediger & Karpicke, 2006)"
+    },
+    {
+      "number": "2 of 10",
+      "label": "study techniques rated high utility by Dunlosky et al. (2013): practice testing and spaced practice"
+    },
+    {
+      "number": "317",
+      "label": "experiments in Cepeda et al.'s 2006 meta-analysis of spaced practice"
+    }
+  ],
+  "intro": "Active recall is a study technique in which you retrieve information from memory, for example by answering questions with your notes closed, rather than rereading or highlighting the material. It is the most consistently supported study method in cognitive psychology: in a 2006 experiment by Henry Roediger and Jeffrey Karpicke at Washington University in St. Louis, students who tested themselves remembered roughly half as much again a week later as students who reread the same text. The catch is that active recall needs something to recall from. For a lecture, that means a reliable record of what was said, which is hard to produce if your attention drifts, as it does for many students with ADHD. This guide explains what the evidence shows and gives a step-by-step workflow: lecture transcript, question list, self-test, spaced review in Anki, RemNote or Quizlet.",
+  "sections": [
+    {
+      "id": "what-is-active-recall",
+      "heading": "What is active recall?",
+      "body": "Active recall is the act of bringing information back from memory without looking at it. Researchers call it retrieval practice, and the improvement it produces is called the testing effect. Answering a flashcard, explaining a concept out loud, writing everything you remember on a blank page, or doing a past exam paper are all forms of active recall.\n\nThe opposite is passive review: rereading notes, rewatching a lecture, highlighting a textbook. Passive review feels productive because the material looks familiar, but familiarity is recognition, not recall. In an exam you have to produce the answer, so practising production is what transfers.\n\nThe key point for students is that active recall is not only a way to check what you know. The act of retrieving changes the memory itself, making it easier to retrieve the next time."
+    },
+    {
+      "id": "does-active-recall-work",
+      "heading": "Does active recall actually work? What the research says",
+      "body": "Active recall is backed by decades of experiments, and three sources are worth knowing by name.\n\n**Roediger and Karpicke (2006), Psychological Science.** Undergraduates read short prose passages. Some reread them; others took free-recall tests with no feedback. In the second experiment, one group studied a passage in four 5-minute sessions (about 14 readings in total), one studied it in three sessions and was tested once, and one studied it in a single session and was tested three times (about 3 readings in total). Five minutes later, rereading won: 83% recall for the reread-only group against 71% for the group tested three times. One week later the result flipped: 61% for the group tested three times, 56% for the group tested once, and 40% for the group that only reread. The reread-only group had also predicted they would remember the most.\n\n**Dunlosky, Rawson, Marsh, Nathan and Willingham (2013), Psychological Science in the Public Interest.** This review rated 10 common study techniques on how well they work across ages, materials and test types. Only practice testing and distributed practice received a high-utility rating. Highlighting, rereading and summarization were rated low utility, which matters because those are the techniques most students use.\n\n**Karpicke and Blunt (2011), Science.** Students who practised retrieval remembered more on a later test than students who built concept maps of the same material, even on questions that asked them to make inferences.",
+      "callout": {
+        "type": "insight",
+        "label": "What this means for your revision",
+        "body": "The 5-minute result explains why rereading is so persistent: it really does feel better in the short term. The 1-week result is what your exam measures. If you only have time for one technique, choose testing over rereading."
+      },
+      "internal_links": [
+        {
+          "text": "7 note-taking methods compared (and which work with ADHD)",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    },
+    {
+      "id": "active-recall-vs-spaced-repetition",
+      "heading": "What is the difference between active recall and spaced repetition?",
+      "body": "Active recall is how you review: by retrieving instead of rereading. Spaced repetition is when you review: in sessions spread out over days and weeks instead of crammed into one night. The two are separate techniques, and they work best together.\n\nThe evidence for spacing is as strong as the evidence for testing. Cepeda, Pashler, Vul, Wixted and Rohrer's 2006 meta-analysis in Psychological Bulletin pooled 317 experiments and found that spreading out study sessions improves long-term retention. It also found that the best gap between sessions grows with how long you need to remember: to remember for a week, review after a day or so; to remember until a final exam months away, the gaps should stretch to weeks.\n\nFlashcard apps such as Anki, RemNote and Quizlet combine both techniques: each card is a recall prompt, and the app's scheduler decides when you see it again."
+    },
+    {
+      "id": "why-rereading-feels-effective",
+      "heading": "Why does rereading feel like it works when it doesn't?",
+      "body": "Rereading feels effective because of fluency: the second time you read a page, it reads more easily, and the brain mistakes that ease for knowing. Roediger and Karpicke's reread-only students were the most confident they would remember the passage a week later, and they remembered the least.\n\nActive recall feels worse because retrieval is effortful and you notice every gap. That discomfort is useful information. A question you cannot answer tells you exactly what to study, which rereading never does."
+    },
+    {
+      "id": "how-to-steps",
+      "heading": "How do I use active recall with a lecture transcript?",
+      "body": "This workflow turns a single lecture into a set of questions you test yourself on over the following weeks. It takes about 30 to 45 minutes per lecture, spread across several short sessions.",
+      "steps": [
+        {
+          "strategy": "Capture the lecture as a transcript",
+          "detail": "Use a transcription tool so you are not relying on handwritten notes. LessonScriptor, a Chrome extension, transcribes whatever plays in a browser tab: Moodle, Canvas or Panopto recordings, YouTube, or Zoom in the browser. Add a header when the topic changes and take a screenshot of important slides. Free mode listens through the microphone, so play audio on speakers at 80% volume or more; AI mode captures tab audio and works with headphones."
+        },
+        {
+          "strategy": "Clean and mark the transcript",
+          "detail": "Within 24 hours, reread the transcript once, quickly. Delete tangents and highlight definitions, causes, examples and anything the lecturer said would be on the exam. This is the only rereading in the workflow, and its purpose is to find questions, not to learn."
+        },
+        {
+          "strategy": "Write a question list",
+          "detail": "Turn each highlighted point into a question. Aim for 10 to 20 per lecture. Put the question on one line and leave the answer in the transcript, so you have to retrieve it."
+        },
+        {
+          "strategy": "Optional: draft questions with an AI chatbot",
+          "detail": "If writing questions is where you stall, export the transcript as .txt or .md and paste it into ChatGPT or NotebookLM yourself, asking for questions that stick to the text. Check every question against the transcript before you keep it."
+        },
+        {
+          "strategy": "Test yourself with your notes closed",
+          "detail": "Answer each question out loud or on paper without looking. Then check against the transcript and mark each question right, partly right or wrong. The wrong ones are your study list."
+        },
+        {
+          "strategy": "Schedule spaced reviews",
+          "detail": "Move the questions into Anki, RemNote or Quizlet as flashcards, or keep a dated list. Review after about 1 day, 3 days, 1 week and 2 to 3 weeks, and once more in the week before the exam."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "What LessonScriptor does and doesn't do",
+        "body": "LessonScriptor captures the live transcript and lets you add headers, highlights in 5 colors and slide screenshots, then export to .txt or .md. It does not generate flashcards, quizzes or summaries. Writing questions, or asking a chatbot to draft them from your exported transcript, is a step you do yourself."
+      },
+      "internal_links": [
+        {
+          "text": "Cornell notes template: the cue column is a ready-made question list",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "how-to-write-questions",
+      "heading": "How do I write good active recall questions?",
+      "body": "Good recall questions ask for one thing, can be answered from memory in under a minute, and mix simple facts with explanations. A question like 'What did the lecture say about mitochondria?' is too vague to test; 'Why does the folded inner membrane increase ATP output?' is not.",
+      "table": {
+        "headers": [
+          "Question type",
+          "Example",
+          "Best for"
+        ],
+        "rows": [
+          [
+            "Definition",
+            "What is opportunity cost?",
+            "Key terms, first review"
+          ],
+          [
+            "Cause and effect",
+            "Why did the 1929 crash deepen the Weimar crisis?",
+            "History, economics, biology"
+          ],
+          [
+            "Compare",
+            "How do beta blockers differ from ACE inhibitors?",
+            "Pharmacology, theories, periods"
+          ],
+          [
+            "Apply",
+            "A price ceiling is set below equilibrium. What happens to supply?",
+            "Problem-based exams"
+          ],
+          [
+            "Explain to a friend",
+            "Explain the Calvin cycle in three sentences.",
+            "Essays and oral exams"
+          ],
+          [
+            "Blank page",
+            "Write everything you remember about lecture 6.",
+            "Weekly review"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Use the Cornell cue column",
+        "body": "If you already take Cornell notes, the cue column is your question list. Cover the notes column and answer each cue from memory."
+      }
+    },
+    {
+      "id": "chatgpt-notebooklm-questions",
+      "heading": "Can ChatGPT or NotebookLM make active recall questions from my transcript?",
+      "body": "ChatGPT and NotebookLM can draft questions from a pasted transcript, and this is a reasonable shortcut when blank-page paralysis stops you from starting. Google's NotebookLM is useful here because it answers from the sources you upload and shows where each answer comes from.\n\nThree rules keep it honest. First, ask for questions only from the text, for example: write 15 short-answer questions using only this lecture transcript, and quote the sentence each answer comes from. Second, check every question against the transcript, because chatbots can invent details. Third, write at least a few questions yourself: deciding what matters is part of the learning.\n\nThis is a user workflow, not a LessonScriptor feature. LessonScriptor's role is to give you an accurate, structured transcript to paste."
+    },
+    {
+      "id": "spaced-review-schedule",
+      "heading": "How often should I review with active recall?",
+      "body": "A simple schedule is enough for most courses. Each review is short because you only answer questions, not reread the lecture.",
+      "table": {
+        "headers": [
+          "When",
+          "What you do",
+          "Time"
+        ],
+        "rows": [
+          [
+            "Day 0 (lecture day)",
+            "Capture transcript, mark headers and screenshots",
+            "During the lecture"
+          ],
+          [
+            "Day 1",
+            "Clean transcript, write questions, first self-test",
+            "20 to 30 min"
+          ],
+          [
+            "Day 3",
+            "Answer all questions; mark the misses",
+            "10 min"
+          ],
+          [
+            "Day 7",
+            "Answer the misses plus a random half of the rest",
+            "10 min"
+          ],
+          [
+            "Day 14 to 21",
+            "Blank-page recall of the whole lecture, then check",
+            "15 min"
+          ],
+          [
+            "Exam week",
+            "Full question set, mixed with other lectures",
+            "Varies"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "h3": "Anki",
+          "body": "Anki is free on desktop and open source. It schedules cards automatically and has a large community of shared decks, especially for medicine and languages. The interface is plain, which some students find calming and others find off-putting."
+        },
+        {
+          "h3": "RemNote",
+          "body": "RemNote combines notes and flashcards in one app: you can turn a line of your notes into a card. It suits students who want their questions to live next to their notes."
+        },
+        {
+          "h3": "Quizlet",
+          "body": "Quizlet is the easiest to start with and offers game-style study modes. It is good for vocabulary and definitions; Anki and RemNote give more control over spacing."
+        }
+      ]
+    },
+    {
+      "id": "active-recall-adhd",
+      "heading": "Does active recall work with ADHD, and how should I adapt it?",
+      "body": "Active recall works for most students with ADHD, though the research is still small. A 2023 study in Frontiers in Psychology counted only three earlier studies on college students with ADHD: two by Knouse and colleagues (2016 and 2020) found that students with ADHD benefited from retrieval practice as much as other students, and one by Dudukovic and colleagues (2015) found no benefit. The 2023 study found that retrieval practice helped students with ADHD, but did not make up for weaker initial learning in unmedicated students. The practical implication is that the capture step matters: you cannot recall what you never took in, which is one reason a complete transcript is useful.\n\nThe technique also needs adapting to how ADHD attention works.",
+      "steps": [
+        {
+          "strategy": "Keep sessions small",
+          "detail": "Ten questions with a 10-minute timer beats a 2-hour session you never start. Stop while it still feels easy to start again tomorrow."
+        },
+        {
+          "strategy": "Cap new cards",
+          "detail": "In Anki, lower the number of new cards per day. A backlog of 400 due cards is a classic reason ADHD students abandon spaced repetition."
+        },
+        {
+          "strategy": "Answer out loud or by moving",
+          "detail": "Saying answers aloud, pacing while you recall, or explaining to a friend keeps arousal up and makes it harder to drift."
+        },
+        {
+          "strategy": "Start with an easy win",
+          "detail": "Open each session with one question you know you can answer. Getting started is often the hardest part with ADHD, and an early success lowers the barrier."
+        },
+        {
+          "strategy": "Use body doubling",
+          "detail": "Study with someone else in the room or on a video call, each doing your own work. Many ADHD students find it easier to stay on task with another person present."
+        },
+        {
+          "strategy": "Fix the capture first",
+          "detail": "If you lose the thread during lectures, work on that before anything else. Our guide to focusing in online lectures with ADHD covers it in detail."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "How to focus during online lectures with ADHD",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "How to take notes with ADHD",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "The short version",
+    "body": "Active recall means testing yourself instead of rereading, and the evidence from Roediger and Karpicke (2006), Dunlosky et al. (2013) and Cepeda et al. (2006) shows it works best combined with spaced review. For lectures, the most reliable workflow is: transcript, question list, closed-book self-test, spaced review in Anki, RemNote or Quizlet. With ADHD, keep sessions small and make sure the capture step is solid first.",
+    "internal_links": [
+      {
+        "text": "Tools and strategies for ADHD students",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "What is active recall in simple terms?",
+        "answer": "Active recall is testing yourself instead of rereading. You close your notes and try to answer questions, explain a concept or write down everything you remember, then check what you got wrong."
+      },
+      {
+        "question": "Is active recall better than rereading?",
+        "answer": "Yes, for long-term retention. In Roediger and Karpicke's 2006 study, students who tested themselves recalled 61% of a text after one week versus 40% for students who reread it. Rereading only came out ahead on a test 5 minutes later."
+      },
+      {
+        "question": "How do I do active recall from lecture notes?",
+        "answer": "Turn each key point in your notes or lecture transcript into a short question, keep the answers out of sight, test yourself, check against the notes, and review the questions you missed after 1 day, 3 days and 1 week."
+      },
+      {
+        "question": "Is active recall the same as spaced repetition?",
+        "answer": "No. Active recall is how you review (retrieving from memory); spaced repetition is when you review (spread out over time). Flashcard apps such as Anki combine both."
+      },
+      {
+        "question": "Can ChatGPT make flashcards from my lecture?",
+        "answer": "ChatGPT or NotebookLM can draft questions if you paste in a lecture transcript, but check every one against the source because they can invent details. LessonScriptor itself does not generate flashcards; it gives you the transcript to work from."
+      },
+      {
+        "question": "Does active recall work for ADHD?",
+        "answer": "Most studies on college students with ADHD find retrieval practice helps them about as much as other students, though one study found no benefit and the research base is small. Short sessions, a cap on new cards and a solid capture step make it easier to stick with."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Active Recall: How to Study From Your Lecture Notes (Step by Step)",
+      "description": "Active recall means testing yourself instead of rereading. See the evidence, then turn a lecture transcript into questions, self-tests and spaced reviews.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/en/blog/active-recall-lecture-transcript"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is active recall in simple terms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Active recall is testing yourself instead of rereading. You close your notes and try to answer questions, explain a concept or write down everything you remember, then check what you got wrong."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is active recall better than rereading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for long-term retention. In Roediger and Karpicke's 2006 study, students who tested themselves recalled 61% of a text after one week versus 40% for students who reread it. Rereading only came out ahead on a test 5 minutes later."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I do active recall from lecture notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Turn each key point in your notes or lecture transcript into a short question, keep the answers out of sight, test yourself, check against the notes, and review the questions you missed after 1 day, 3 days and 1 week."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is active recall the same as spaced repetition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Active recall is how you review (retrieving from memory); spaced repetition is when you review (spread out over time). Flashcard apps such as Anki combine both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can ChatGPT make flashcards from my lecture?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT or NotebookLM can draft questions if you paste in a lecture transcript, but check every one against the source because they can invent details. LessonScriptor itself does not generate flashcards; it gives you the transcript to work from."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does active recall work for ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most studies on college students with ADHD find retrieval practice helps them about as much as other students, though one study found no benefit and the research base is small. Short sessions, a cap on new cards and a solid capture step make it easier to stick with."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How do I use active recall with a lecture transcript?",
+      "inLanguage": "en",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Capture the lecture as a transcript",
+          "text": "Use a transcription tool so you are not relying on handwritten notes. LessonScriptor, a Chrome extension, transcribes whatever plays in a browser tab: Moodle, Canvas or Panopto recordings, YouTube, or Zoom in the browser. Add a header when the topic changes and take a screenshot of important slides. Free mode listens through the microphone, so play audio on speakers at 80% volume or more; AI mode captures tab audio and works with headphones."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Clean and mark the transcript",
+          "text": "Within 24 hours, reread the transcript once, quickly. Delete tangents and highlight definitions, causes, examples and anything the lecturer said would be on the exam. This is the only rereading in the workflow, and its purpose is to find questions, not to learn."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Write a question list",
+          "text": "Turn each highlighted point into a question. Aim for 10 to 20 per lecture. Put the question on one line and leave the answer in the transcript, so you have to retrieve it."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Optional: draft questions with an AI chatbot",
+          "text": "If writing questions is where you stall, export the transcript as .txt or .md and paste it into ChatGPT or NotebookLM yourself, asking for questions that stick to the text. Check every question against the transcript before you keep it."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Test yourself with your notes closed",
+          "text": "Answer each question out loud or on paper without looking. Then check against the transcript and mark each question right, partly right or wrong. The wrong ones are your study list."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Schedule spaced reviews",
+          "text": "Move the questions into Anki, RemNote or Quizlet as flashcards, or keep a dated list. Review after about 1 day, 3 days, 1 week and 2 to 3 weeks, and once more in the week before the exam."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "slug": "note-taking-methods",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "7 Mitschrift-Methoden für Studierende (und welche mit ADHS funktionieren)",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "7 Mitschrift-Methoden im Vergleich (mit ADHS-Check)",
+    "description": "Cornell, Gliederung, Mindmap, Tabelle, Satzmethode, Boxing, Zettelkasten: 7 Methoden zum Mitschreiben in der Vorlesung, mit Beispiel und ADHS-Urteil.",
+    "keywords": [
+      "Mitschrift Methoden",
+      "Notizen Methoden",
+      "Mitschreiben Vorlesung",
+      "Cornell Methode",
+      "Zettelkasten Methode",
+      "Mitschrift ADHS"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/de/blog/mitschrift-methoden",
+    "og_title": "7 Mitschrift-Methoden für Studierende (und welche mit ADHS funktionieren)",
+    "og_description": "Cornell, Gliederung, Mindmap, Tabelle, Satzmethode, Boxing und Zettelkasten im Vergleich, jeweils mit ADHS-Urteil.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Eine Mitschrift-Methode ist eine feste Struktur, mit der du Informationen so festhältst, dass du sie später wiederholen kannst. Welche am besten passt, hängt vom Fach ab und davon, wie viel Aufmerksamkeit du in der Vorlesung übrig hast.",
+    "bullets": [
+      "Cornell ist die beste Allround-Methode für die Klausurvorbereitung, weil die Stichwortspalte deine Mitschrift in einen Selbsttest verwandelt.",
+      "Die Gliederung passt zu klar aufgebauten Vorlesungen (Jura, Geschichte). Die Tabelle passt zu Vergleichen (Pharmakologie, VWL). Die Mindmap passt zu vernetzten Themen (Biologie, Germanistik).",
+      "Die Satzmethode kostet in der Vorlesung am wenigsten Kraft, deshalb landen viele Studierende mit ADHS dort, aber sie muss nachbearbeitet werden.",
+      "Der Zettelkasten ist für lange Projekte wie die Bachelor- oder Masterarbeit, nicht für die Klausur nächste Woche.",
+      "Mit ADHS funktioniert am zuverlässigsten die Arbeitsteilung: erst die Vorlesung als Transkript festhalten, dann die Methode in Ruhe anwenden."
+    ]
+  },
+  "stats": [
+    {
+      "number": "7",
+      "label": "Methoden im Vergleich, von Cornell bis Zettelkasten"
+    },
+    {
+      "number": "1950er",
+      "label": "Jahre, in denen Walter Pauk an der Cornell University die Cornell-Methode entwickelte"
+    },
+    {
+      "number": "2",
+      "label": "Phasen, die mit ADHS am besten funktionieren: erst festhalten, dann strukturieren"
+    }
+  ],
+  "intro": "Mitschrift-Methoden sind feste Systeme, mit denen du festhältst, was du hörst oder liest, damit du es später verstehst und wiederholst. Die sieben bekanntesten sind die Cornell-Methode, die Gliederungsmethode, die Mindmap, die Tabellenmethode, die Satzmethode, die Boxing-Methode und der Zettelkasten. Jede tauscht Aufwand während der Vorlesung gegen Nutzen in der Klausurenphase. Cornell, entwickelt von Walter Pauk an der Cornell University, baut den Selbsttest direkt in die Seite ein. Der Zettelkasten, berühmt geworden durch den Bielefelder Soziologen Niklas Luhmann, baut über Jahre ein Wissensnetz auf. Für Studierende mit ADHS geht es aber nicht nur um die beste Methode, sondern um die, die eine 90-minütige Vorlesung im Hörsaal, auf ILIAS oder in einer Aufzeichnung der FernUni Hagen übersteht, wenn die Aufmerksamkeit abdriftet. Dieser Guide zeigt zu jeder Methode ein kleines Beispiel, die passenden Fächer, ein ehrliches ADHS-Urteil und wie du sie auf ein Vorlesungstranskript anwendest, statt alles live zu schaffen.",
+  "sections": [
+    {
+      "id": "what-is-a-note-taking-method",
+      "heading": "Was ist eine Mitschrift-Methode, und warum ist sie wichtig?",
+      "body": "Eine Mitschrift-Methode ist ein wiederholbares Layout, das festlegt, wohin welche Information gehört: Hauptgedanken, Details, Fragen, Beispiele. Ohne Methode wird die Mitschrift zu einem Protokoll dessen, was du gerade noch mitbekommen hast, und das lässt sich schlecht lernen.\n\nAm wichtigsten ist die Methode in der Klausurenphase. Eine strukturierte Seite zeigt die Form eines Themas auf einen Blick und lässt dich dich selbst abfragen, die Lerntechnik mit der stärksten Evidenz (siehe unseren Guide zu Active Recall). Ein unstrukturierter Textblock verleitet zum erneuten Durchlesen, das Dunlosky und Kollegen in ihrer Übersichtsarbeit von 2013 als Technik mit geringem Nutzen eingestuft haben.\n\nFür Studierende mit ADHS gibt es einen zweiten Grund. Die meisten Methoden verlangen, gleichzeitig zuzuhören, zu entscheiden, was wichtig ist, und es an die richtige Stelle zu schreiben. Das belastet das Arbeitsgedächtnis stark, und genau dort reißt die Aufmerksamkeit ab. Eine Methode zu wählen heißt also zu entscheiden, wie viel davon du in der Vorlesung trägst und wie viel du auf später verschiebst.",
+      "internal_links": [
+        {
+          "text": "Active Recall: So lernst du aus deiner Vorlesungsmitschrift",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Welche Mitschrift-Methode ist die beste? Die 7 Methoden im Vergleich",
+      "body": "Keine Methode ist für jede Veranstaltung die beste. Die Tabelle vergleicht alle sieben nach dem, was im Alltag zählt: passende Fächer, Aufwand während der Vorlesung, Alltagstauglichkeit mit ADHS und wie gut sie sich nachträglich aus einem Transkript aufbauen lässt.",
+      "table": {
+        "headers": [
+          "Methode",
+          "Ideal für",
+          "Aufwand in der Vorlesung",
+          "ADHS-Urteil",
+          "Aus einem Transkript?"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Fast jede Veranstaltung, besonders vor Klausuren",
+            "Mittel",
+            "Stark, wenn nach der Vorlesung ausgefüllt",
+            "Sehr gut"
+          ],
+          [
+            "Gliederung",
+            "Strukturierte Vorlesungen: Jura, Geschichte, Theorie",
+            "Mittel bis hoch",
+            "Gemischt: bricht, wenn der Dozent abschweift",
+            "Sehr gut"
+          ],
+          [
+            "Mindmap",
+            "Biologie, Germanistik, Psychologie, Hausarbeiten",
+            "Mittel",
+            "Stark für visuelle, sprunghafte Denker",
+            "Gut"
+          ],
+          [
+            "Tabelle",
+            "Vergleiche: Wirkstoffe, Theorien, Epochen",
+            "Hoch (Spalten vorab nötig)",
+            "Gut, sobald die Spalten stehen",
+            "Sehr gut"
+          ],
+          [
+            "Satzmethode",
+            "Schnelle, faktenreiche Vorlesungen",
+            "Niedrig",
+            "Leicht zu starten, mühsam zu lernen",
+            "Das Transkript ist sie"
+          ],
+          [
+            "Boxing",
+            "Mitschrift auf dem Tablet, themenbasierte Vorlesungen",
+            "Mittel",
+            "Gut: zerlegt Stoff in sichtbare Blöcke",
+            "Gut"
+          ],
+          [
+            "Zettelkasten",
+            "Abschlussarbeit, Forschung, lange Projekte",
+            "Niedrig live, hoch danach",
+            "Riskant: der Aufbau wird schnell zur Prokrastination",
+            "Gut als Quelle"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cornell-method",
+      "heading": "Was ist die Cornell-Methode?",
+      "body": "Die Cornell-Methode teilt die Seite in drei Bereiche: eine schmale Stichwortspalte links, eine breite Notizspalte rechts und einen Zusammenfassungsstreifen unten. Walter Pauk, Bildungswissenschaftler an der Cornell University, entwickelte sie in den 1950er-Jahren und beschrieb sie in seinem Buch How to Study in College. In der Vorlesung schreibst du rechts mit, danach trägst du links Fragen oder Stichworte ein und schließt mit zwei, drei Sätzen Zusammenfassung ab.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "Notizspalte: **Mitochondrien bilden ATP durch Zellatmung. Die Falten der inneren Membran (Cristae) vergrößern die Oberfläche.** Stichwortspalte: **Was bilden Mitochondrien? Warum ist die Membran gefaltet?** Zusammenfassung: **Mitochondrien sind das Kraftwerk der Zelle; ihre Cristae maximieren die ATP-Ausbeute.**"
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Fast jedes Fach, besonders Module mit schriftlicher Klausur. Die Stichwortspalte ist eine fertige Fragenliste, die Methode führt also direkt zum Selbstabfragen."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Stark, mit einer Änderung.** Die Stichwortspalte live zu füllen ist schwer, wenn du ohnehin kaum hinterherkommst, deshalb geben viele Studierende mit ADHS nach der Hälfte auf. Verlege Fragen und Zusammenfassung auf nach der Vorlesung, dann wird Cornell zu einer der ADHS-freundlichsten Methoden, weil die Wiederholungsstruktur eingebaut ist."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Lass das Transkript die Notizspalte für dich füllen. Während es entsteht, setzt du bei jedem Themenwechsel eine Überschrift. Danach exportierst du es als .md, fügst jeden Abschnitt in die rechte Spalte einer Cornell-Vorlage ein und schreibst Fragen und Zusammenfassung selbst. LessonScriptor formatiert keine Cornell-Notizen automatisch; beim Formulieren der Fragen passiert das Lernen, also bleibt dieser Schritt bei dir."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Kostenlose Cornell-Vorlage (und wie du sie aus einer Vorlesung füllst)",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "outline-method",
+      "heading": "Was ist die Gliederungsmethode?",
+      "body": "Die Gliederungsmethode ordnet die Mitschrift hierarchisch: Hauptpunkte am linken Rand, Unterpunkte eingerückt darunter, Details noch weiter eingerückt. Sie spiegelt den Aufbau einer gut geplanten Vorlesung und liefert sehr saubere Notizen, wenn der Dozent einem klaren Plan folgt.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "**A. Scheitern der Weimarer Republik** / I. Wirtschaft: Inflation 1923, Weltwirtschaftskrise ab 1929 / II. Verfassung: Artikel 48 und Notverordnungen / 1. Präsidialkabinette ab 1930 / III. Politische Kultur: Republik ohne Republikaner"
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Jura (das Gutachten denkt ohnehin in Gliederungen), Geschichte, Politikwissenschaft, Philosophie und jede Vorlesung, die Folien oder einem Skript folgt."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Gemischt.** Live zu gliedern zwingt zu ständigen Ebenen-Entscheidungen: Unterpunkt oder Detail? Wenn der Dozent abschweift, bricht die Hierarchie und mit ihr die Konzentration. Als zweiter Durchgang, wenn du die Form der Vorlesung schon kennst, funktioniert die Methode viel besser."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Nutze die Überschriften im Transkript als oberste Ebene und Aufzählungspunkte als zweite. Überfliege das Transkript nach der Vorlesung, lösche Abschweifungen und rücke den Rest ein. Mit dem vollständigen Text vor dir steht die Gliederung in 15 Minuten, statt dass du die Struktur in Echtzeit erraten musst."
+        }
+      ]
+    },
+    {
+      "id": "mapping-method",
+      "heading": "Was ist die Mindmap-Methode?",
+      "body": "Die Mindmap setzt das Hauptthema in die Mitte der Seite und lässt verwandte Gedanken als Äste davon ausgehen, sodass Verbindungen sichtbar statt nur mitgedacht sind. Der britische Autor Tony Buzan machte die Mindmap in den 1970er-Jahren populär; Tools wie XMind, MindMeister (aus München) oder Miro haben sie zum gängigen digitalen Format gemacht.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "Mitte: **Fotosynthese**. Äste: **Lichtreaktion** (Thylakoide, Wasserspaltung, Sauerstoff), **Calvin-Zyklus** (Stroma, CO2-Fixierung, Glucose), **Limitierende Faktoren** (Licht, CO2, Temperatur). Eine gestrichelte Linie verbindet Calvin-Zyklus und limitierende Faktoren."
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Biologie, Germanistik, Psychologie, Planung von Hausarbeiten und jedes Thema, bei dem sich Ideen seitwärts statt linear verbinden."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Stark für viele Studierende mit ADHS**, weil du zwischen Ästen springen kannst, wie deine Aufmerksamkeit es ohnehin tut. Das Risiko ist Perfektionismus: 40 Minuten für Farben und Icons statt für Inhalt. Regel: eine Farbe pro Ast, keine Deko, bevor der Inhalt steht."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Lies die Überschriften des Transkripts und mach aus jeder einen Ast. Mach während der Vorlesung Screenshots wichtiger Folien ins Transkript und nutze sie als Anker für die Skizzen auf deiner Map. Aus einem fertigen Transkript zu mappen ist leichter als live, weil du alle Äste siehst, bevor du den ersten zeichnest."
+        }
+      ]
+    },
+    {
+      "id": "charting-method",
+      "heading": "Was ist die Tabellenmethode?",
+      "body": "Die Tabellenmethode hält Informationen in einem Raster fest: eine Zeile pro Element, eine Spalte pro Vergleichskriterium. So wird eine Vorlesung voller paralleler Fakten zu etwas, das du quer und längs lesen kannst.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "Spalten: **Wirkstoffklasse | Wirkmechanismus | Beispiel | Hauptnebenwirkung**. Zeile: **Betablocker | Blockieren Adrenalin an Beta-Rezeptoren | Propranolol | Müdigkeit, kalte Hände**. Zeile: **ACE-Hemmer | Hemmen die Umwandlung von Angiotensin | Ramipril | Reizhusten**."
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Pharmakologie im Medizinstudium, VWL, vergleichende Politikwissenschaft, Epochen in Geschichte, Grammatiktabellen in Sprachen: jede Vorlesung, die mehrere Dinge nach denselben Kriterien vergleicht."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Gut, sobald die Spalten stehen.** Schwierig ist, dass du die Spalten vor der Vorlesung kennen musst, was bei einem vagen Modulhandbuch schwer ist. Ist die Struktur klar, reduziert die Tabelle jede Entscheidung auf das Ausfüllen eines Kästchens, und das beruhigt."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Der Notiz-Editor von LessonScriptor bietet Markierungen in 5 Farben. Gib jeder Spalte eine Farbe (grün für Mechanismus, gelb für Beispiele usw.) und markiere beim Nachlesen des Transkripts. Übertrage dann jede Farbe in ihre Spalte. Aus Zuhören wird Sortieren."
+        }
+      ]
+    },
+    {
+      "id": "sentence-method",
+      "heading": "Was ist die Satzmethode?",
+      "body": "Die Satzmethode hält jede neue Information als eigenen nummerierten Satz fest, Zeile für Zeile, ohne sie in der Vorlesung zu ordnen. Live ist sie die schnellste Methode, beim Lernen die langsamste.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "1. Keynes zufolge bestimmt kurzfristig die Nachfrage die Produktion. 2. In der Rezession sparen Haushalte mehr, was die Nachfrage weiter senkt. 3. Das ist das Sparparadoxon. 4. Staatsausgaben können die Lücke schließen."
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Schnelle, faktendichte Vorlesungen ohne Zeit zum Strukturieren: Grundlagenfächer in den Naturwissenschaften, Vorklinik, Einführungsvorlesungen."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Leicht zu starten, schwer zu nutzen.** Der geringe Aufwand ist der Grund, warum viele Studierende mit ADHS automatisch so mitschreiben. Das Problem kommt beim Lernen: Nummerierte Sätze haben keine Hierarchie, alles wirkt gleich wichtig. Ohne zweiten Durchgang lohnt sie sich nicht."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Ein Transkript ist im Grunde die Satzmethode, für dich erledigt und lückenlos. Spar dir also das Live-Mitschreiben und steck die Energie in den zweiten Durchgang: Setz die 10 bis 15 wichtigen Sätze fett, lösch Füllwerk, füg Überschriften ein. So hast du die Vollständigkeit der Satzmethode ohne ihr Lernproblem."
+        }
+      ]
+    },
+    {
+      "id": "boxing-method",
+      "heading": "Was ist die Boxing-Methode?",
+      "body": "Die Boxing-Methode fasst zusammengehörige Notizen in gezeichneten Kästen zusammen, ein Kasten pro Thema, sodass jeder Abschnitt der Vorlesung optisch vom nächsten getrennt ist. Sie ist eine neuere Methode aus der Tablet-Ära und verbreitete sich mit Apps wie GoodNotes und Notability, in denen das Lasso-Werkzeug Kästen leicht zeichnen, verschieben und skalieren lässt.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "Kasten 1, **Angebot**: Gesetz des Angebots, Verschiebung vs. Bewegung auf der Kurve, Beispiele. Kasten 2, **Nachfrage**: Gesetz der Nachfrage, Substitute und Komplemente. Kasten 3, **Gleichgewicht**: Schnittpunkt der Kurven, Wirkung eines Höchstpreises."
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Themenbasierte Vorlesungen, Studierende, die auf dem iPad handschriftlich mitschreiben, und Lernzettel mit einem Thema pro Block."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Gut.** Kästen schaffen natürliche Häppchen, was bei knappem Arbeitsgedächtnis hilft, und ein fertiger Kasten gibt ein kleines Erfolgserlebnis. Beim Lernen kannst du einen Kasten abdecken und den Inhalt aufsagen, eine einfache Form des Selbstabfragens."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Behandle jede Überschrift im Transkript als einen Kasten. Kopiere nach der Vorlesung jeden Abschnitt in einen Kasten und kürze ihn auf 3 bis 5 Kernpunkte. Screenshots von Folien kommen in den passenden Kasten."
+        }
+      ]
+    },
+    {
+      "id": "zettelkasten-method",
+      "heading": "Was ist die Zettelkasten-Methode?",
+      "body": "Der Zettelkasten ist ein System kurzer Notizen mit je einem Gedanken, die miteinander verknüpft werden, sodass über Monate oder Jahre ein Netz von Ideen wächst. Der Soziologe Niklas Luhmann schrieb mit einem Papier-Zettelkasten aus zehntausenden Karteikarten Dutzende Bücher; sein Nachlass liegt an der Universität Bielefeld. Heute nutzen Studierende meist Obsidian, Logseq oder Zotero dafür.",
+      "subsections": [
+        {
+          "h3": "Beispiel",
+          "body": "Zettel 23: **Habitus ist die Gesamtheit der Dispositionen, die Menschen aus ihrer sozialen Position erwerben (Bourdieu).** Verweist auf Zettel 24: **Geschmack als Klassenmerkmal** und Zettel 41: **Vergleich mit Goffmans Selbstdarstellung**."
+        },
+        {
+          "h3": "Ideal für",
+          "body": "Bachelor- und Masterarbeiten, Hausarbeiten, Geistes- und Sozialwissenschaften und alle, die Wissen über mehrere Module hinweg aufbauen."
+        },
+        {
+          "h3": "ADHS-Urteil",
+          "body": "**Riskant für Klausuren, nützlich für große Projekte.** Das System aufzubauen kann zur eleganten Form der Prokrastination werden, und für die Klausur am Donnerstag bringt es wenig. Für eine Abschlussarbeit passen verknüpfte Notizen dagegen gut zum assoziativen Denken vieler ADHS-Gehirne."
+        },
+        {
+          "h3": "Mit einem Vorlesungstranskript",
+          "body": "Exportiere das Transkript als .md und leg es in Obsidian als Literaturnotiz ab. Schreib dann einige dauerhafte Notizen in eigenen Worten, je ein Gedanke, und verknüpfe sie. Das Transkript ist das Rohmaterial; die Zettel sind, was du daraus baust."
+        }
+      ]
+    },
+    {
+      "id": "which-method-should-i-use",
+      "heading": "Welche Mitschrift-Methode soll ich nehmen?",
+      "body": "Wähle zuerst nach Art der Veranstaltung und passe dann an, wie deine Aufmerksamkeit funktioniert. Diese Regeln decken die meisten Fälle ab.",
+      "steps": [
+        {
+          "strategy": "Wenn das Modul mit einer Klausur endet",
+          "detail": "Nimm Cornell. Die Stichwortspalte wird zu deiner Fragenliste für die Klausurenphase."
+        },
+        {
+          "strategy": "Wenn der Dozent Folien oder einem klaren Plan folgt",
+          "detail": "Nimm die Gliederung, am besten nachträglich aus Folien oder Transkript gebaut."
+        },
+        {
+          "strategy": "Wenn die Vorlesung mehrere Dinge vergleicht",
+          "detail": "Nimm die Tabelle. Leg die Spalten vorab anhand des Modulhandbuchs fest."
+        },
+        {
+          "strategy": "Wenn Ideen in viele Richtungen gehen",
+          "detail": "Nimm eine Mindmap, mit strenger Deko-Grenze."
+        },
+        {
+          "strategy": "Wenn du auf dem Tablet mitschreibst",
+          "detail": "Probier Boxing. Ein Kasten pro Thema hält die Seite lesbar."
+        },
+        {
+          "strategy": "Wenn du eine Abschlussarbeit schreibst",
+          "detail": "Nimm einen Zettelkasten, aber nur für dieses Projekt."
+        },
+        {
+          "strategy": "Wenn du ADHS hast und live den Faden verlierst",
+          "detail": "Wähl keine Methode für die Vorlesung selbst. Halte die Vorlesung als Transkript fest und wende Cornell, Gliederung oder Tabelle danach an."
+        }
+      ],
+      "callout": {
+        "type": "insight",
+        "label": "Warum Kombinieren funktioniert",
+        "body": "Viele Studierende kombinieren zwei Methoden: eine Satzmethoden-Mitschrift in der Vorlesung und ein Cornell- oder Gliederungslayout danach. Ein Transkript macht diese Trennung einfach, weil das Festhalten nicht mehr davon abhängt, dass deine Aufmerksamkeit 90 Minuten durchhält."
+      },
+      "internal_links": [
+        {
+          "text": "Mitschreiben mit ADHS: ein praktisches System",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "adhd-transcript-workflow",
+      "heading": "Wie wende ich eine Mitschrift-Methode auf ein Vorlesungstranskript an?",
+      "body": "Erst festhalten, dann strukturieren: Das ist für Studierende mit ADHS der praktischste Weg, jede dieser Methoden zu nutzen. Zuhören und Ordnen werden getrennt und konkurrieren nicht mehr. So funktioniert es mit LessonScriptor, einer Chrome-Erweiterung, die alles transkribiert, was in einem Browser-Tab läuft: Aufzeichnungen auf ILIAS, Stud.IP oder Moodle, die Lernplattform der FernUni Hagen, YouTube oder Zoom im Browser.",
+      "steps": [
+        {
+          "strategy": "Starte das Transkript vor der Vorlesung",
+          "detail": "Öffne das LessonScriptor-Seitenpanel und drück auf Start. Der kostenlose Modus nutzt die eingebaute Spracherkennung von Chrome über dein Mikrofon: Spiel die Vorlesung über Lautsprecher mit mindestens 80 % Lautstärke ab; mit Kopfhörern funktioniert er nicht. Der KI-Modus erfasst den Tab-Ton direkt, funktioniert mit Kopfhörern und kommt mit Akzenten und Fachbegriffen besser klar (30 Minuten gratis testen, danach Pakete ab 5 $ für 5 Stunden; Stripe rechnet in Euro um)."
+        },
+        {
+          "strategy": "Markiere beim Zuhören nur die Struktur",
+          "detail": "Du musst nicht mitschreiben. Setz eine Überschrift, wenn das Thema wechselt, und mach einen Screenshot, wenn eine wichtige Folie oder Grafik kommt. Beides dauert Sekunden und liefert das Gerüst für jede Methode."
+        },
+        {
+          "strategy": "Markiere im zweiten Durchgang",
+          "detail": "Lies das Transkript nach der Vorlesung und markiere in bis zu 5 Farben: etwa Definitionen, Beispiele, wahrscheinliche Klausurthemen. Lösch Abschweifungen."
+        },
+        {
+          "strategy": "Exportieren und umbauen",
+          "detail": "Exportiere als .md oder .txt oder kopiere in die Zwischenablage und füg es in deine Cornell-Vorlage, Gliederung, Tabelle oder deinen Obsidian-Vault ein. Fragen, Zusammenfassungen oder Verknüpfungen schreibst du selbst."
+        },
+        {
+          "strategy": "Mach aus der Struktur Fragen",
+          "detail": "Schließ mit fünf bis zehn Fragen ab, die man dir zu dieser Vorlesung stellen könnte. Erst dieser Schritt macht die Mitschrift prüfungstauglich."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Was LessonScriptor kann und was nicht",
+        "body": "LessonScriptor liefert ein bearbeitbares Live-Transkript mit Überschriften, Markierungen, Screenshots und Export. Es erstellt keine Zusammenfassungen, Karteikarten oder Cornell-Layouts automatisch. Wenn du einen Entwurf für eine Zusammenfassung willst, kannst du das exportierte Transkript selbst in ChatGPT oder NotebookLM einfügen."
+      },
+      "internal_links": [
+        {
+          "text": "ADHS-Mitschriftvorlage zum Ausfüllen aus einem Transkript",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Die besten Notiz-Apps für Studierende im Vergleich",
+          "url": "/blog/best-note-taking-apps-for-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Kurz gesagt",
+    "body": "Cornell ist die beste Allround-Methode für die Klausurvorbereitung, Gliederung und Tabelle gewinnen bei strukturierten oder vergleichenden Vorlesungen, Mindmap und Boxing passen zu visuellen Typen, und der Zettelkasten gehört zu langen Forschungsprojekten. Mit ADHS zählt der Zeitpunkt mehr als die Methode: erst die Vorlesung festhalten, dann strukturieren, wenn deine Aufmerksamkeit frei ist.",
+    "internal_links": [
+      {
+        "text": "Als Nächstes: Mitschrift in Active-Recall-Fragen verwandeln",
+        "url": "/blog/active-recall-lecture-transcript"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Welche Mitschrift-Methoden gibt es?",
+        "answer": "Die fünf klassischen Mitschrift-Methoden sind Cornell, Gliederung, Mindmap, Tabelle und Satzmethode. Neuere Listen ergänzen die Boxing-Methode, beliebt auf dem Tablet, und den Zettelkasten für langfristige Forschungsnotizen."
+      },
+      {
+        "question": "Welche Mitschrift-Methode ist am effektivsten?",
+        "answer": "Die Cornell-Methode ist für die Klausurvorbereitung die effektivste Allround-Methode, weil die Stichwortspalte die Notizen in Selbsttest-Fragen verwandelt. Bei vergleichslastigen Fächern ist oft die Tabelle besser, bei Abschlussarbeiten der Zettelkasten."
+      },
+      {
+        "question": "Welche Mitschrift-Methode ist bei ADHS am besten?",
+        "answer": "Bei ADHS funktioniert meist am besten, die Vorlesung zuerst festzuhalten (als Transkript oder grobe Sätze) und Cornell, Gliederung oder Mindmap danach anzuwenden. Methoden, die während der Vorlesung ständiges Strukturieren verlangen, brechen weg, sobald die Aufmerksamkeit abdriftet."
+      },
+      {
+        "question": "Cornell oder Gliederung: was ist besser?",
+        "answer": "Cornell ist besser zum Lernen, weil Fragen und Zusammenfassung eingebaut sind. Die Gliederung ist besser, um den Aufbau einer gut strukturierten Vorlesung zu sehen. Viele gliedern in der Notizspalte einer Cornell-Seite und haben so beides."
+      },
+      {
+        "question": "Lohnt sich der Zettelkasten im Studium?",
+        "answer": "Der Zettelkasten lohnt sich für Abschluss- und Hausarbeiten, weil verknüpfte Einzelnotizen über die Zeit Argumente aufbauen. Für die kurzfristige Klausurvorbereitung passt er schlecht; dort sind Cornell und Active Recall schneller."
+      },
+      {
+        "question": "Kann ich ein Vorlesungstranskript statt einer Mitschrift nutzen?",
+        "answer": "Ein Transkript ersetzt das Festhalten, nicht das Denken. Es erfasst alles, aber du musst trotzdem markieren, strukturieren und den Stoff in Fragen verwandeln. So genutzt, entlastet es deine Aufmerksamkeit in der Vorlesung und macht jede Methode danach leichter."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "7 Mitschrift-Methoden für Studierende (und welche mit ADHS funktionieren)",
+      "description": "Cornell, Gliederung, Mindmap, Tabelle, Satzmethode, Boxing, Zettelkasten: 7 Methoden zum Mitschreiben in der Vorlesung, mit Beispiel und ADHS-Urteil.",
+      "inLanguage": "de-DE",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/de/blog/mitschrift-methoden"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Welche Mitschrift-Methoden gibt es?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die fünf klassischen Mitschrift-Methoden sind Cornell, Gliederung, Mindmap, Tabelle und Satzmethode. Neuere Listen ergänzen die Boxing-Methode, beliebt auf dem Tablet, und den Zettelkasten für langfristige Forschungsnotizen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Mitschrift-Methode ist am effektivsten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Cornell-Methode ist für die Klausurvorbereitung die effektivste Allround-Methode, weil die Stichwortspalte die Notizen in Selbsttest-Fragen verwandelt. Bei vergleichslastigen Fächern ist oft die Tabelle besser, bei Abschlussarbeiten der Zettelkasten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Welche Mitschrift-Methode ist bei ADHS am besten?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bei ADHS funktioniert meist am besten, die Vorlesung zuerst festzuhalten (als Transkript oder grobe Sätze) und Cornell, Gliederung oder Mindmap danach anzuwenden. Methoden, die während der Vorlesung ständiges Strukturieren verlangen, brechen weg, sobald die Aufmerksamkeit abdriftet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cornell oder Gliederung: was ist besser?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cornell ist besser zum Lernen, weil Fragen und Zusammenfassung eingebaut sind. Die Gliederung ist besser, um den Aufbau einer gut strukturierten Vorlesung zu sehen. Viele gliedern in der Notizspalte einer Cornell-Seite und haben so beides."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Lohnt sich der Zettelkasten im Studium?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Der Zettelkasten lohnt sich für Abschluss- und Hausarbeiten, weil verknüpfte Einzelnotizen über die Zeit Argumente aufbauen. Für die kurzfristige Klausurvorbereitung passt er schlecht; dort sind Cornell und Active Recall schneller."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich ein Vorlesungstranskript statt einer Mitschrift nutzen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ein Transkript ersetzt das Festhalten, nicht das Denken. Es erfasst alles, aber du musst trotzdem markieren, strukturieren und den Stoff in Fragen verwandeln. So genutzt, entlastet es deine Aufmerksamkeit in der Vorlesung und macht jede Methode danach leichter."
+          }
+        }
+      ]
+    }
+  ]
+}

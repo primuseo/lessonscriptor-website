@@ -1,0 +1,360 @@
+{
+  "slug": "live-captions-other-languages-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome 实时字幕如何显示中文（普通话）及其他 17 种语言",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome 实时字幕中文设置与实时翻译指南",
+    "description": "Chrome 实时字幕支持简体与繁体中文：本文讲解如何开启中文字幕、用实时翻译把英文课程译成中文、中国大陆使用限制，以及如何保存可编辑的课程文字稿，方便课后复习与整理笔记。",
+    "og_image": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "og_title": "Chrome 实时字幕：中文及其他语言设置",
+    "og_description": "在 Chrome 中开启中文实时字幕，用实时翻译译成 100 多种语言，并了解中国大陆的访问限制。",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "chrome 实时字幕 中文",
+      "chrome 实时翻译 字幕",
+      "实时字幕 其他语言"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "alt": "Chrome 浏览器在网课视频旁显示中文实时字幕",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 开发了 LessonScriptor，一款用于实时转写视频的 Chrome 扩展。Victoria 在线攻读人类学，并患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "要点",
+    "lead": "Chrome 的“实时字幕”（Live Caption）可在本机为普通话及另外 17 种语言生成字幕，中文分为简体和繁体两个选项。“实时翻译”可在 Windows、Mac、Linux 和 Chromebook Plus 上把字幕译成 100 多种语言。LessonScriptor 支持 14 种语言变体，生成可编辑、可导出的文字稿，但不提供翻译。在中国大陆，这些功能都依赖能访问 Google 服务的网络。",
+    "bullets": [
+      "开启中文字幕：设置 → 无障碍（快捷入口：chrome://settings/accessibility）→ 打开**实时字幕** → 在“管理语言”旁点击**添加语言** → 在下拉菜单中选择简体中文或繁体中文。",
+      "根据 Google 帮助中心，Chrome 实时字幕支持 19 种语言：英语、丹麦语、荷兰语、法语、德语、印地语、印尼语、意大利语、日语、韩语、挪威语、波兰语、葡萄牙语、西班牙语、简体中文、繁体中文、瑞典语、泰语和土耳其语。",
+      "**实时翻译**可把英文网课的字幕实时显示为中文。帮助中心未列出 Android 或 iPhone 版 Chrome，而且翻译时字幕文本会发送给 Google。",
+      "中国大陆的限制：Chrome 网上应用店、语言包下载和实时翻译都需要访问 Google 服务，在大陆网络环境下通常无法使用。",
+      "LessonScriptor 只支持**简体中文**（另有英、法、西、德、意、葡 PT/BR、日、韩、俄、阿拉伯语、印地语），按原语言转写，不翻译。需要译文时，可导出文字稿（.txt 或 .md）后粘贴到 DeepL 或 Google 翻译。"
+    ]
+  },
+  "intro": "“实时字幕”是 Chrome 内置的字幕功能，目前支持 19 种语言，中文分为简体中文和繁体中文两个选项，二者都识别普通话，区别在于字幕的书写形式；其余语言包括英语、法语、西班牙语、德语、葡萄牙语、日语、韩语、印地语、泰语、土耳其语等。在 **chrome://settings/accessibility** 中开启后，Chrome 会下载对应的语音模型，之后在本机运行。另一项功能“实时翻译”可把字幕译成 100 多种语言，适合看 Coursera 上的英文课程或 TED 演讲。需要提前说明的是，在中国大陆，Chrome 网上应用店、语言包下载和实时翻译都依赖 Google 服务，通常无法直接使用。对学生而言，实时字幕的另一个局限是只显示两行、随即消失，而且在专业术语和人名上最容易出错。LessonScriptor 是一款 Chrome 扩展，它把同样的音频写成可编辑、可高亮、可导出的文字稿，支持 14 种语言变体。本文逐一比较两种工具，并说明它们各自做不到的事情。",
+  "stats": [
+    {
+      "number": "19",
+      "label": "Chrome 实时字幕支持的语言数（Google 帮助中心，2026 年）"
+    },
+    {
+      "number": "100+",
+      "label": "Chrome 实时翻译可译成的目标语言"
+    },
+    {
+      "number": "14",
+      "label": "LessonScriptor 支持的语言变体（中文仅简体）"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-languages-chrome-live-caption",
+      "h2": "Chrome 实时字幕支持哪些语言？",
+      "body": "根据 Google 帮助中心，Chrome 实时字幕支持 19 种语言：英语、丹麦语、荷兰语、法语、德语、印地语、印尼语、意大利语、日语、韩语、挪威语、波兰语、葡萄牙语、西班牙语、简体中文、繁体中文、瑞典语、泰语和土耳其语。粤语不在列表中。\n\n在 Windows 或 Mac 上添加语言：\n\n1. 打开 Chrome，点击右上角的三点菜单 → **设置** → **无障碍**（也可直接在地址栏粘贴 **chrome://settings/accessibility**）。\n2. 打开**实时字幕**。\n3. 在**管理语言**旁点击**添加语言**，选择所需语言，Chrome 会自动下载语言包。\n4. 在下拉菜单中选择字幕语言。\n\nLinux 上多一步：设置 → 无障碍 → **字幕**，再打开同一个开关。Chromebook 上的入口在无障碍 → 音频和字幕。\n\n语言包下载完成后，识别在本机进行：Google 表示音频和字幕在本地处理，不会离开设备。这样既保护隐私又免费，但本地模型比云端模型小得多。实际效果是：日常对话准确，课堂术语、学者人名和语速很快的老师则明显更容易出错。\n\n有两种常用语言不在列表中：**阿拉伯语**和**俄语**。如果课程使用这两种语言，Chrome 无法生成字幕，LessonScriptor 这类扩展是更实际的选择。",
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕完整指南",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Chrome 实时字幕无法使用？解决方法",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "chrome-live-translate",
+      "h2": "Chrome 能把实时字幕翻译成其他语言吗？",
+      "body": "可以。Chrome 的**实时翻译**会在播放时把实时字幕译成 100 多种语言。比如看 Coursera 上的英文课程或 TED 演讲时，可以直接读中文字幕。Google 帮助中心列出的平台是 **Windows、Mac、Linux 和 Chromebook Plus**；Android 和 iPhone 版 Chrome 不在其中，普通 Chromebook 只有实时字幕。Google 在 2023 年于 Chrome Canary 中测试了这项功能。找不到开关时，请先把 Chrome 更新到当前的稳定版。\n\n在 Windows 或 Mac 上开启：\n\n1. 打开 **chrome://settings/accessibility**（三点菜单 → 设置 → 无障碍）。\n2. 确认**实时字幕**已打开，并已添加课程所用的语言（例如英语）。\n3. 打开**实时翻译**。\n4. 在**将字幕翻译为**下拉菜单中选择简体中文。\n\n有两点限制需要了解。第一，原音频必须属于 19 种字幕语言，阿拉伯语或俄语课程无法这样翻译。第二，隐私方式会改变：普通字幕留在本机，但翻译时 Chrome 会把字幕文本发送给 Google。在中国大陆，这一步通常无法完成。另外，语音的机器翻译会叠加错误：Chrome 听错一个术语，译文也会跟着错。实时翻译适合帮助理解，不适合当作笔记。\n\n**LessonScriptor 能翻译吗？**不能。LessonScriptor 按所说的语言转写（14 种语言变体），并保留文字。需要译文时，可将文字稿导出为 .txt 或 .md，或复制到剪贴板，再粘贴到 DeepL 或 Google 翻译中。这样原文和译文可以对照，遇到可疑的术语也能逐一核对。",
+      "callout": {
+        "type": "tip",
+        "label": "两者结合",
+        "body": "看英文网课时，用 Chrome 实时翻译跟上中文意思，同时用 LessonScriptor 保留英文原文文字稿。课后把导出的文字粘贴到 DeepL，逐段核对没听懂的部分。"
+      },
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕与 LessonScriptor 对比",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-french",
+      "h2": "如何在 Chrome 中显示法语字幕？",
+      "body": "方法相同：**chrome://settings/accessibility** → **实时字幕** → **添加语言** → 法语，然后在下拉菜单中选择。法语版 Chrome 中该功能名为 **Sous-titres instantanés**。\n\n这适合留学法国或学习法语课程的同学。Chrome 对标准法语表现不错，对机构名称和专业术语较弱。LessonScriptor 也支持法语，而且文字稿可以修改和导出。"
+    },
+    {
+      "id": "chrome-captions-spanish",
+      "h2": "如何在 Chrome 中显示西班牙语字幕？",
+      "body": "在**管理语言**中添加西班牙语并选中即可。西班牙语版 Chrome 中该功能名为 **Subtítulos automáticos**。Google 只列出一个西班牙语选项，西班牙和拉美口音共用同一模型。LessonScriptor 同样提供西班牙语。"
+    },
+    {
+      "id": "chrome-captions-portuguese",
+      "h2": "如何在 Chrome 中显示葡萄牙语字幕？",
+      "body": "在**管理语言**中添加葡萄牙语并选中。葡萄牙语版 Chrome 中该功能名为 **Legenda instantânea**。LessonScriptor 分别提供**葡萄牙语（巴西）**和**葡萄牙语（葡萄牙）**两个选项，有助于拼写和用词的区分。"
+    },
+    {
+      "id": "chrome-captions-german",
+      "h2": "如何在 Chrome 中显示德语字幕？",
+      "body": "在**管理语言**中添加德语并选中。德语版 Chrome 中该功能名为 **Automatische Untertitel**。德语的难点是很长的复合词（如 *Universitätsbibliothek*），经常被拆错或识别错误。用 LessonScriptor 时，只需在文字稿中改正一次，再导出干净的版本。"
+    },
+    {
+      "id": "chrome-captions-mandarin",
+      "h2": "如何在 Chrome 中开启中文（普通话）实时字幕？",
+      "body": "开启中文实时字幕的步骤：\n\n1. 打开 **chrome://settings/accessibility**（设置 → 无障碍）。\n2. 打开**实时字幕**。\n3. 在**管理语言**旁点击**添加语言**，选择**简体中文**或**繁体中文**。\n4. 在下拉菜单中选中该语言。Chrome 下载语言包后，标签页中播放的普通话音频都会显示字幕。\n\n如果 Chrome 界面是英文，同一功能叫 **Live Caption**，位于 Settings → Accessibility。\n\n两个中文选项都识别普通话，区别只在字幕的书写形式：大陆内容选简体，台湾或香港内容选繁体。对于 B 站上的公开课、中国大学MOOC 或学堂在线的课程视频，Chrome 对标准普通话的识别不错；遇到地方口音、同音字、专业术语（医学、法学、工科）时，准确率明显下降。字幕两行后就消失，复习时也没有可回看的文字。\n\n**中国大陆的访问限制**：Chrome 网上应用店、实时字幕语言包的下载以及实时翻译都依赖 Google 服务，在大陆网络环境下通常无法使用。LessonScriptor 的免费模式基于 Chrome 内置的语音识别，同样依赖 Google 服务。AI 模式通过 LessonScriptor 的服务器转写，但我们尚未在中国大陆网络下测试过，因此不作保证。\n\n**LessonScriptor 的中文支持**：只支持**简体中文**，不支持繁体中文输出，也不支持粤语。免费模式通过麦克风收音，需要外放（音量建议 80% 以上），不能用耳机。AI 模式直接采集标签页音频，交给 Whisper 级别的云端模型，对口音和术语更准确，也可以戴耳机使用。无论哪种模式，文字稿都可以编辑：人名听错了，改一次，导出的就是正确版本。",
+      "internal_links": [
+        {
+          "text": "戴耳机时能用 Chrome 实时字幕吗？",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-language-learning",
+      "h2": "可以用 Chrome 实时字幕学外语吗？",
+      "body": "可以，两种工具的用法不同。\n\n**Chrome 实时字幕**是阅读辅助。看英文视频时配英文字幕能练听力，跟不上时用实时翻译显示中文。但字幕只能看、不能存，看完什么也留不下。\n\n**LessonScriptor** 会保留文字。视频播放时，文字稿在侧边栏中逐步生成。你可以用 5 种颜色高亮生词、添加标题、删除无关内容，最后导出为 .txt 或 .md。\n\n一个简单的流程（备考雅思、托福或四六级听力也适用）：开着 LessonScriptor 看视频，边听边高亮生词，然后导出。之后把生词手动录入 Anki，把难句粘贴到 DeepL 核对。LessonScriptor 不会自动生成单词卡或翻译，这些步骤需要你自己完成。",
+      "internal_links": [
+        {
+          "text": "在 Chrome 中为 Zoom 录像生成字幕",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "which-tool-multilingual",
+      "h2": "中文或其他语言的实时字幕，应该选哪个工具？",
+      "body": "**选 Chrome 实时字幕**：你的语言在 19 种之内，只需要临时看字幕，不需要保存文字；需要繁体中文字幕时也选它。想看其他语言的译文，可在 Windows、Mac、Linux 或 Chromebook Plus 上打开实时翻译。\n\n**选 LessonScriptor**：需要保存、修改、导出课程内容（比如期末复习），或者课程是 Chrome 不支持的**阿拉伯语或俄语**。它的 14 种语言变体是：英语（美国、英国）、法语、西班牙语、德语、意大利语、葡萄牙语（葡萄牙、巴西）、简体中文、日语、韩语、俄语、阿拉伯语和印地语。AI 模式采集标签页音频，可戴耳机；免费模式用麦克风，需要外放。\n\n**两者都不合适**：课程是荷兰语、波兰语、瑞典语、丹麦语、挪威语、土耳其语、泰语或印尼语，并且需要可导出的文字稿。Chrome 能显示这些语言的字幕，但 LessonScriptor 不支持，可以考虑 Notta 这类多语言转写服务（有免费版）。在中国大陆网络环境下，腾讯会议、飞书妙记等本地工具自带的转写功能可能更容易使用。",
+      "table": {
+        "headers": [
+          "需求",
+          "Chrome 实时字幕",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "语言",
+            "19 种（含简体、繁体中文，泰语，土耳其语）",
+            "14 种变体（中文仅简体；含阿拉伯语、俄语）"
+          ],
+          [
+            "翻译字幕",
+            "支持，实时翻译（电脑 + Chromebook Plus）",
+            "不支持，可导出后粘贴到 DeepL / Google 翻译"
+          ],
+          [
+            "保存和导出文字",
+            "不支持",
+            "支持（.txt、.md、剪贴板）"
+          ],
+          [
+            "戴耳机可用",
+            "可以",
+            "仅 AI 模式"
+          ],
+          [
+            "中国大陆",
+            "需要能访问 Google 服务",
+            "安装和免费模式需要能访问 Google 服务；AI 模式未经测试"
+          ],
+          [
+            "价格",
+            "免费",
+            "免费模式；AI 模式 5 美元起 5 小时（Stripe 按当地货币换算）"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "最好用的 Chrome 字幕扩展",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "把网课变成文字稿，支持 14 种语言",
+    "body": "LessonScriptor 把 Chrome 标签页中播放的内容转成可编辑的文字稿，支持简体中文、英语、日语、韩语、法语等。免费模式，无需注册。",
+    "button_label": "免费添加 LessonScriptor 到 Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "Chrome 实时字幕支持中文吗？",
+        "answer": "支持。Chrome 提供简体中文和繁体中文两个选项，都识别普通话，按对应字体显示字幕。打开 chrome://settings/accessibility，开启实时字幕，在管理语言旁点击添加语言，选择简体中文或繁体中文即可。"
+      },
+      {
+        "question": "Chrome 实时字幕怎么切换语言？",
+        "answer": "进入 chrome://settings/accessibility，开启实时字幕，在管理语言旁点击添加语言并选择所需语言。Chrome 下载语言包后，在下拉菜单中选中即可。Linux 上需要先进入字幕选项。"
+      },
+      {
+        "question": "Chrome 能把英文视频的字幕实时翻译成中文吗？",
+        "answer": "能，使用实时翻译。在 chrome://settings/accessibility 中开启实时字幕（并添加英语）和实时翻译，然后在将字幕翻译为中选择简体中文。该功能适用于 Windows、Mac、Linux 和 Chromebook Plus，不适用于 Android 或 iPhone 版 Chrome。翻译时字幕文本会发送给 Google。"
+      },
+      {
+        "question": "在中国大陆能用 Chrome 实时字幕吗？",
+        "answer": "本地识别本身不需要联网，但语言包下载、Chrome 网上应用店和实时翻译都依赖 Google 服务，在中国大陆网络环境下通常无法使用。LessonScriptor 的免费模式同样依赖 Chrome 的语音识别服务；AI 模式在大陆网络下的表现我们尚未测试。"
+      },
+      {
+        "question": "LessonScriptor 能翻译文字稿吗？",
+        "answer": "不能。LessonScriptor 按所说的语言转写，支持 14 种语言变体，不提供翻译。需要译文时，可将文字稿导出为 .txt 或 .md，或直接复制，再粘贴到 DeepL 或 Google 翻译。"
+      },
+      {
+        "question": "可以用 Chrome 实时字幕学外语吗？",
+        "answer": "可以，作为阅读辅助。如果要积累词汇，LessonScriptor 会保留文字稿，可用 5 种颜色高亮生词，导出后再自己把生词录入 Anki。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome 中文及多语言实时字幕：要点回顾",
+    "body": "Chrome 实时字幕在本机支持 19 种语言，包括简体中文、繁体中文（均识别普通话）、英语、法语、西班牙语、德语和葡萄牙语。在 chrome://settings/accessibility 的管理语言中添加即可。实时翻译可在 Windows、Mac、Linux 和 Chromebook Plus 上把字幕译成 100 多种语言，但需要把文字发送给 Google。在中国大陆，语言包下载、应用店和实时翻译通常无法使用。Chrome 不支持阿拉伯语和俄语，字幕两行后就会消失。LessonScriptor 支持 14 种语言变体（中文仅简体），生成可修改、可高亮、可导出的文字稿；它不提供翻译，但导出的文字可以直接粘贴到 DeepL 或 Google 翻译。"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome 实时字幕如何显示中文（普通话）及其他 17 种语言",
+      "description": "Chrome 实时字幕支持简体与繁体中文：本文讲解如何开启中文字幕、用实时翻译把英文课程译成中文、中国大陆使用限制，以及如何保存可编辑的课程文字稿，方便课后复习与整理笔记。",
+      "inLanguage": "zh",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/shishi-zishimu-qita-yuyan-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "患有 ADHD 的人类学学生",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发与 SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕支持中文吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支持。Chrome 提供简体中文和繁体中文两个选项，都识别普通话，按对应字体显示字幕。打开 chrome://settings/accessibility，开启实时字幕，在管理语言旁点击添加语言，选择简体中文或繁体中文即可。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕怎么切换语言？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "进入 chrome://settings/accessibility，开启实时字幕，在管理语言旁点击添加语言并选择所需语言。Chrome 下载语言包后，在下拉菜单中选中即可。Linux 上需要先进入字幕选项。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome 能把英文视频的字幕实时翻译成中文吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "能，使用实时翻译。在 chrome://settings/accessibility 中开启实时字幕（并添加英语）和实时翻译，然后在将字幕翻译为中选择简体中文。该功能适用于 Windows、Mac、Linux 和 Chromebook Plus，不适用于 Android 或 iPhone 版 Chrome。翻译时字幕文本会发送给 Google。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在中国大陆能用 Chrome 实时字幕吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "本地识别本身不需要联网，但语言包下载、Chrome 网上应用店和实时翻译都依赖 Google 服务，在中国大陆网络环境下通常无法使用。LessonScriptor 的免费模式同样依赖 Chrome 的语音识别服务；AI 模式在大陆网络下的表现我们尚未测试。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor 能翻译文字稿吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不能。LessonScriptor 按所说的语言转写，支持 14 种语言变体，不提供翻译。需要译文时，可将文字稿导出为 .txt 或 .md，或直接复制，再粘贴到 DeepL 或 Google 翻译。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以用 Chrome 实时字幕学外语吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以，作为阅读辅助。如果要积累词汇，LessonScriptor 会保留文字稿，可用 5 种颜色高亮生词，导出后再自己把生词录入 Anki。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "博客",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome 实时字幕中文设置与实时翻译指南",
+          "item": "https://lessonscriptor.com/zh/blog/shishi-zishimu-qita-yuyan-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome 帮助中心 — 在 Chrome 中管理字幕和翻译",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=zh-Hans",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — 多语言语音识别模型",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-headphones"
+    ]
+  }
+}

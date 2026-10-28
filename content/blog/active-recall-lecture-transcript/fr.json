@@ -1,0 +1,460 @@
+{
+  "slug": "active-recall-lecture-transcript",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Le rappel actif : comment réviser à partir de ses notes de cours (étape par étape)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Rappel actif : réviser à partir de ses notes de cours",
+    "description": "Le rappel actif, c'est s'interroger au lieu de relire. Les preuves scientifiques, puis la méthode : transcription, questions, auto-test et révisions espacées.",
+    "keywords": [
+      "rappel actif",
+      "méthode du rappel actif",
+      "active recall",
+      "réviser efficacement",
+      "méthode des J",
+      "réviser ses partiels"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/fr/blog/rappel-actif-transcription-cours",
+    "og_title": "Le rappel actif : comment réviser à partir de ses notes de cours (étape par étape)",
+    "og_description": "Ce que prouve la recherche sur le rappel actif, et une méthode pas à pas de la transcription de cours aux révisions espacées.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "À retenir",
+    "lead": "Le rappel actif consiste à réviser en allant chercher l'information dans sa mémoire, en général en répondant à des questions cours fermé, plutôt qu'en relisant.",
+    "bullets": [
+      "Dans l'étude de Roediger et Karpicke (2006), les étudiants qui s'étaient testés trois fois retenaient 61 % d'un texte une semaine plus tard, contre 40 % pour ceux qui l'avaient étudié en quatre séances de relecture.",
+      "La revue de Dunlosky et ses collègues (2013) sur 10 techniques d'étude n'en classe que deux en « forte utilité » : l'auto-test et la pratique espacée. Relire et surligner sont classés « faible utilité ».",
+      "La méthode : capter le cours en transcription, en tirer une liste de questions, s'interroger cours fermé, puis planifier des révisions espacées dans Anki, RemNote ou Quizlet (ou avec la méthode des J).",
+      "LessonScriptor capte et structure la transcription. Il ne génère ni questions ni flashcards : vous les écrivez, ou vous collez l'export dans ChatGPT, Le Chat ou NotebookLM pour en obtenir un premier jet.",
+      "La recherche sur les étudiants TDAH est plus réduite et nuancée, mais la plupart des études montrent qu'ils en profitent à peu près autant que les autres."
+    ]
+  },
+  "stats": [
+    {
+      "number": "61 % vs 40 %",
+      "label": "de rétention après une semaine : s'interroger plutôt que relire (Roediger & Karpicke, 2006)"
+    },
+    {
+      "number": "2 sur 10",
+      "label": "techniques classées « forte utilité » par Dunlosky et al. (2013) : auto-test et pratique espacée"
+    },
+    {
+      "number": "317",
+      "label": "expériences dans la méta-analyse de Cepeda et al. (2006) sur la pratique espacée"
+    }
+  ],
+  "intro": "Le rappel actif est une technique de révision qui consiste à faire revenir l'information de mémoire, par exemple en répondant à des questions cours fermé, au lieu de relire ou de surligner. C'est la méthode d'étude la plus solidement validée en psychologie cognitive : dans une expérience publiée en 2006 par Henry Roediger et Jeffrey Karpicke (Washington University à Saint-Louis), les étudiants qui s'étaient interrogés retenaient environ moitié plus d'informations une semaine après que ceux qui avaient relu le même texte. Le hic, c'est qu'il faut une matière fiable sur laquelle s'interroger. Pour un cours en amphi ou une vidéo sur Moodle, cela veut dire une trace complète de ce qui a été dit, difficile à obtenir quand l'attention décroche, comme chez beaucoup d'étudiants avec un TDAH. Ce guide explique ce que montrent les études et propose une méthode pas à pas pour préparer partiels et concours : transcription du cours, liste de questions, auto-test, révisions espacées dans Anki, RemNote ou Quizlet.",
+  "sections": [
+    {
+      "id": "what-is-active-recall",
+      "heading": "Qu'est-ce que le rappel actif ?",
+      "body": "Le rappel actif est le fait de faire revenir une information de mémoire sans la regarder. Les chercheurs parlent de pratique de récupération (retrieval practice), et du gain qu'elle produit comme de l'effet de test. Répondre à une flashcard, expliquer une notion à voix haute, écrire tout ce dont on se souvient sur une feuille blanche ou refaire des annales sont autant de formes de rappel actif.\n\nL'inverse, c'est la révision passive : relire ses fiches, revoir la vidéo du cours, surligner le polycopié. Elle donne l'impression d'avancer parce que le contenu paraît familier, mais la familiarité relève de la reconnaissance, pas du rappel. Le jour du partiel, il faut produire la réponse : c'est donc la production qu'il faut entraîner.\n\nLe point clé pour un étudiant : le rappel actif ne sert pas qu'à vérifier ce que l'on sait. L'acte de se rappeler modifie la trace en mémoire et la rend plus facile à retrouver la fois suivante."
+    },
+    {
+      "id": "does-active-recall-work",
+      "heading": "Le rappel actif fonctionne-t-il vraiment ? Ce que dit la recherche",
+      "body": "Le rappel actif s'appuie sur des décennies d'expériences, et trois sources méritent d'être connues par leur nom.\n\n**Roediger et Karpicke (2006), Psychological Science.** Des étudiants lisaient de courts textes. Certains les relisaient ; d'autres passaient des tests de rappel libre, sans correction. Dans la seconde expérience, un groupe étudiait le texte pendant quatre séances de 5 minutes (environ 14 lectures au total), un autre l'étudiait trois séances puis était testé une fois, un troisième l'étudiait une seule séance puis était testé trois fois (environ 3 lectures au total). Cinq minutes après, la relecture gagnait : 83 % de rappel pour le groupe « relecture seule » contre 71 % pour le groupe testé trois fois. Une semaine plus tard, tout s'inversait : 61 % pour le groupe testé trois fois, 56 % pour celui testé une fois, 40 % pour celui qui avait seulement relu. Et c'est le groupe « relecture seule » qui pensait retenir le plus.\n\n**Dunlosky, Rawson, Marsh, Nathan et Willingham (2013), Psychological Science in the Public Interest.** Cette revue évalue 10 techniques d'étude courantes selon leur efficacité quels que soient l'âge, la matière et le type d'examen. Seuls l'auto-test et la pratique espacée obtiennent la note « forte utilité ». Surligner, relire et résumer sont classés « faible utilité », ce qui est parlant puisque ce sont les techniques que la plupart des étudiants utilisent.\n\n**Karpicke et Blunt (2011), Science.** Les étudiants qui s'entraînaient à se rappeler retenaient davantage lors d'un test ultérieur que ceux qui construisaient des cartes conceptuelles du même contenu, y compris sur des questions demandant de faire des déductions.",
+      "callout": {
+        "type": "insight",
+        "label": "Ce que cela change pour vos révisions",
+        "body": "Le résultat à 5 minutes explique pourquoi la relecture résiste si bien : à court terme, elle donne vraiment l'impression de mieux marcher. Le résultat à une semaine, c'est ce que mesure votre partiel. Si vous n'avez le temps que pour une technique, choisissez l'auto-test plutôt que la relecture."
+      },
+      "internal_links": [
+        {
+          "text": "7 méthodes de prise de notes comparées (et lesquelles marchent avec un TDAH)",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    },
+    {
+      "id": "active-recall-vs-spaced-repetition",
+      "heading": "Quelle différence entre rappel actif et répétition espacée ?",
+      "body": "Le rappel actif, c'est comment vous révisez : en vous rappelant plutôt qu'en relisant. La répétition espacée, c'est quand vous révisez : en séances étalées sur des jours et des semaines plutôt qu'en une nuit blanche avant le partiel. Ce sont deux techniques distinctes, et elles fonctionnent mieux ensemble.\n\nLes preuves en faveur de l'espacement sont aussi solides que celles en faveur du test. La méta-analyse de Cepeda, Pashler, Vul, Wixted et Rohrer, publiée en 2006 dans Psychological Bulletin, regroupe 317 expériences et montre qu'étaler les séances améliore la rétention à long terme. Elle montre aussi que l'intervalle idéal augmente avec la durée pendant laquelle il faut retenir : pour un oral la semaine prochaine, revoir au bout d'un jour environ ; pour un concours dans plusieurs mois, les intervalles doivent s'étirer sur des semaines.\n\nEn France, beaucoup d'étudiants en santé appliquent ce principe avec la méthode des J (J0, J1, J3, J7, J15, J30…). Les applis de flashcards comme Anki, RemNote ou Quizlet combinent les deux techniques : chaque carte est une question de rappel, et l'algorithme décide quand vous la revoyez."
+    },
+    {
+      "id": "why-rereading-feels-effective",
+      "heading": "Pourquoi relire donne-t-il l'impression de marcher alors que non ?",
+      "body": "Relire donne une impression d'efficacité à cause de la fluidité : à la deuxième lecture, la page se lit plus facilement, et le cerveau confond cette aisance avec la maîtrise. Dans l'étude de Roediger et Karpicke, les étudiants qui avaient seulement relu étaient les plus sûrs de se souvenir du texte une semaine plus tard, et ce sont eux qui en ont retenu le moins.\n\nLe rappel actif paraît plus désagréable parce que se rappeler demande un effort et qu'on remarque chaque trou. Cet inconfort est une information utile : une question à laquelle vous ne savez pas répondre vous dit exactement quoi travailler, ce que la relecture ne fait jamais."
+    },
+    {
+      "id": "how-to-steps",
+      "heading": "Comment pratiquer le rappel actif à partir d'une transcription de cours ?",
+      "body": "Cette méthode transforme un cours en une série de questions sur lesquelles vous vous interrogez pendant les semaines suivantes. Comptez 30 à 45 minutes par cours, réparties en plusieurs séances courtes.",
+      "steps": [
+        {
+          "strategy": "Captez le cours en transcription",
+          "detail": "Utilisez un outil de transcription pour ne pas dépendre de notes manuscrites. LessonScriptor, une extension Chrome, transcrit tout ce qui joue dans un onglet : vidéos Moodle de votre université, cours du CNED, Panopto, YouTube ou Zoom dans le navigateur. Ajoutez un titre à chaque changement de sujet et faites une capture des diapositives importantes. Le mode gratuit écoute via le micro : passez le son sur les haut-parleurs à 80 % ou plus. Le mode IA capte le son de l'onglet et fonctionne avec un casque."
+        },
+        {
+          "strategy": "Nettoyez et balisez la transcription",
+          "detail": "Dans les 24 heures, relisez la transcription une fois, rapidement. Supprimez les digressions et surlignez définitions, causes, exemples et tout ce que l'enseignant a annoncé « pour le partiel ». C'est la seule relecture de la méthode, et elle sert à trouver des questions, pas à apprendre."
+        },
+        {
+          "strategy": "Rédigez une liste de questions",
+          "detail": "Transformez chaque point surligné en question. Visez 10 à 20 questions par cours. Une question par ligne, la réponse reste dans la transcription : vous devez aller la chercher en mémoire."
+        },
+        {
+          "strategy": "Facultatif : faites rédiger un premier jet par un chatbot",
+          "detail": "Si c'est l'écriture des questions qui vous bloque, exportez la transcription en .txt ou .md et collez-la vous-même dans ChatGPT, Le Chat de Mistral ou NotebookLM en demandant des questions fidèles au texte. Vérifiez chaque question avec la transcription avant de la garder."
+        },
+        {
+          "strategy": "Interrogez-vous cours fermé",
+          "detail": "Répondez à chaque question à voix haute ou sur papier sans regarder. Vérifiez ensuite avec la transcription et notez chaque question juste, partielle ou fausse. Les fausses forment votre liste de travail."
+        },
+        {
+          "strategy": "Planifiez les révisions espacées",
+          "detail": "Mettez les questions dans Anki, RemNote ou Quizlet sous forme de flashcards, ou tenez une liste datée façon méthode des J. Révisez au bout d'environ 1 jour, 3 jours, 1 semaine et 2 à 3 semaines, puis une dernière fois la semaine du partiel."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Ce que LessonScriptor fait, et ne fait pas",
+        "body": "LessonScriptor capte la transcription en direct et vous permet d'ajouter titres, surlignages en 5 couleurs et captures de diapositives, puis d'exporter en .txt ou .md. Il ne génère ni flashcards, ni quiz, ni résumés. Écrire les questions, ou demander à un chatbot d'en proposer à partir de votre transcription exportée, est une étape que vous faites vous-même."
+      },
+      "internal_links": [
+        {
+          "text": "Modèle Cornell : la colonne de gauche est une liste de questions toute prête",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "how-to-write-questions",
+      "heading": "Comment écrire de bonnes questions de rappel actif ?",
+      "body": "Une bonne question de rappel demande une seule chose, se répond de mémoire en moins d'une minute, et mélange faits simples et explications. « Qu'a dit le prof sur les mitochondries ? » est trop vague pour tester quoi que ce soit ; « Pourquoi les replis de la membrane interne augmentent-ils la production d'ATP ? » fonctionne.",
+      "table": {
+        "headers": [
+          "Type de question",
+          "Exemple",
+          "Idéal pour"
+        ],
+        "rows": [
+          [
+            "Définition",
+            "Qu'est-ce que le coût d'opportunité ?",
+            "Notions clés, première révision"
+          ],
+          [
+            "Cause et effet",
+            "Pourquoi la crise de 1929 a-t-elle aggravé la crise de Weimar ?",
+            "Histoire, économie, biologie"
+          ],
+          [
+            "Comparaison",
+            "En quoi les bêtabloquants diffèrent-ils des IEC ?",
+            "Pharmacologie, théories, périodes"
+          ],
+          [
+            "Application",
+            "Un prix plafond est fixé sous l'équilibre. Que devient l'offre ?",
+            "Partiels à exercices"
+          ],
+          [
+            "Expliquer à un ami",
+            "Explique le cycle de Calvin en trois phrases.",
+            "Dissertations et oraux"
+          ],
+          [
+            "Feuille blanche",
+            "Écris tout ce dont tu te souviens du cours 6.",
+            "Révision hebdomadaire"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Servez-vous de la colonne Cornell",
+        "body": "Si vous prenez déjà vos notes en Cornell, la colonne de gauche est votre liste de questions. Cachez la colonne de notes et répondez à chaque question de mémoire."
+      }
+    },
+    {
+      "id": "chatgpt-notebooklm-questions",
+      "heading": "ChatGPT ou NotebookLM peuvent-ils créer des questions à partir de ma transcription ?",
+      "body": "ChatGPT, Le Chat de Mistral et NotebookLM peuvent proposer des questions à partir d'une transcription collée, et c'est un raccourci raisonnable quand l'angoisse de la page blanche empêche de démarrer. NotebookLM de Google est utile ici, car il répond à partir des sources que vous importez et indique d'où vient chaque réponse.\n\nTrois règles pour rester honnête. D'abord, demandez des questions tirées uniquement du texte, par exemple : écris 15 questions à réponse courte en utilisant seulement cette transcription de cours, et cite la phrase d'où vient chaque réponse. Ensuite, vérifiez chaque question avec la transcription, car les chatbots peuvent inventer des détails. Enfin, écrivez au moins quelques questions vous-même : décider de ce qui compte fait partie de l'apprentissage.\n\nIl s'agit d'une méthode de travail de l'utilisateur, pas d'une fonction de LessonScriptor. Le rôle de LessonScriptor est de vous fournir une transcription fidèle et structurée à coller."
+    },
+    {
+      "id": "spaced-review-schedule",
+      "heading": "À quelle fréquence réviser avec le rappel actif ?",
+      "body": "Un calendrier simple suffit pour la plupart des cours. Chaque révision est courte, puisque vous répondez aux questions sans relire le cours.",
+      "table": {
+        "headers": [
+          "Quand",
+          "Ce que vous faites",
+          "Durée"
+        ],
+        "rows": [
+          [
+            "J0 (jour du cours)",
+            "Capter la transcription, poser titres et captures",
+            "Pendant le cours"
+          ],
+          [
+            "J1",
+            "Nettoyer la transcription, écrire les questions, premier auto-test",
+            "20 à 30 min"
+          ],
+          [
+            "J3",
+            "Répondre à toutes les questions ; repérer les erreurs",
+            "10 min"
+          ],
+          [
+            "J7",
+            "Reprendre les erreurs et la moitié des autres au hasard",
+            "10 min"
+          ],
+          [
+            "J15 à J21",
+            "Rappel feuille blanche de tout le cours, puis vérification",
+            "15 min"
+          ],
+          [
+            "Semaine des partiels",
+            "Toutes les questions, mélangées avec les autres cours",
+            "Variable"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "h3": "Anki",
+          "body": "Anki est gratuit sur ordinateur et open source. Il planifie les cartes automatiquement et dispose d'une grande communauté de paquets partagés, très utilisée par les étudiants en médecine pour préparer l'EDN. L'interface est austère, ce qui apaise certains et rebute d'autres."
+        },
+        {
+          "h3": "RemNote",
+          "body": "RemNote réunit notes et flashcards dans la même appli : une ligne de vos notes peut devenir une carte. Il convient à ceux qui veulent garder leurs questions à côté de leurs notes."
+        },
+        {
+          "h3": "Quizlet",
+          "body": "Quizlet est le plus simple pour démarrer et propose des modes de révision ludiques. Il est pratique pour le vocabulaire et les définitions ; Anki et RemNote donnent plus de contrôle sur l'espacement."
+        }
+      ]
+    },
+    {
+      "id": "active-recall-adhd",
+      "heading": "Le rappel actif fonctionne-t-il avec un TDAH, et comment l'adapter ?",
+      "body": "Le rappel actif fonctionne pour la plupart des étudiants avec un TDAH, même si la recherche reste limitée. Une étude publiée en 2023 dans Frontiers in Psychology ne recensait que trois travaux antérieurs sur des étudiants TDAH : deux de Knouse et ses collègues (2016 et 2020) montraient un bénéfice équivalent à celui des autres étudiants, un de Dudukovic et ses collègues (2015) ne trouvait aucun bénéfice. L'étude de 2023 a constaté que la pratique de récupération aidait les étudiants TDAH, sans compenser un apprentissage initial plus faible chez ceux qui ne prenaient pas de traitement. Conséquence pratique : l'étape de capture compte. On ne peut pas se rappeler ce qu'on n'a jamais enregistré, et c'est une des raisons pour lesquelles une transcription complète est utile.\n\nLa technique doit aussi s'adapter au fonctionnement de l'attention TDAH.",
+      "steps": [
+        {
+          "strategy": "Faites des séances courtes",
+          "detail": "Dix questions avec un minuteur de 10 minutes valent mieux qu'une séance de 2 heures jamais commencée. Arrêtez-vous tant qu'il est encore facile de recommencer demain."
+        },
+        {
+          "strategy": "Limitez les nouvelles cartes",
+          "detail": "Dans Anki, baissez le nombre de nouvelles cartes par jour. Une pile de 400 cartes en retard est une raison classique d'abandon de la répétition espacée chez les étudiants TDAH."
+        },
+        {
+          "strategy": "Répondez à voix haute ou en bougeant",
+          "detail": "Dire les réponses à voix haute, marcher pendant qu'on se rappelle ou expliquer à quelqu'un maintient l'éveil et rend la dérive plus difficile."
+        },
+        {
+          "strategy": "Commencez par une victoire facile",
+          "detail": "Ouvrez chaque séance avec une question que vous savez réussir. Avec un TDAH, démarrer est souvent le plus dur, et un succès d'entrée abaisse la barrière."
+        },
+        {
+          "strategy": "Révisez en binôme silencieux",
+          "detail": "Travaillez avec quelqu'un dans la pièce ou en visio, chacun sur son travail (le body doubling). Beaucoup d'étudiants TDAH restent plus facilement concentrés en présence d'une autre personne."
+        },
+        {
+          "strategy": "Réglez d'abord la capture",
+          "detail": "Si vous perdez le fil pendant les cours, travaillez ce point en priorité. Notre guide pour rester concentré pendant les cours en ligne avec un TDAH le détaille."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Rester concentré pendant les cours en ligne avec un TDAH",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "Prendre des notes avec un TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En bref",
+    "body": "Le rappel actif consiste à s'interroger au lieu de relire, et les travaux de Roediger et Karpicke (2006), Dunlosky et al. (2013) et Cepeda et al. (2006) montrent qu'il est le plus efficace combiné à des révisions espacées. Pour un cours, la méthode la plus fiable est : transcription, liste de questions, auto-test cours fermé, révisions espacées dans Anki, RemNote, Quizlet ou avec la méthode des J. Avec un TDAH, gardez des séances courtes et assurez d'abord une bonne capture.",
+    "internal_links": [
+      {
+        "text": "Outils et stratégies pour les étudiants TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "C'est quoi le rappel actif, simplement ?",
+        "answer": "Le rappel actif, c'est s'interroger au lieu de relire. Vous fermez vos notes et essayez de répondre à des questions, d'expliquer une notion ou d'écrire tout ce dont vous vous souvenez, puis vous vérifiez ce qui était faux."
+      },
+      {
+        "question": "Le rappel actif est-il plus efficace que la relecture ?",
+        "answer": "Oui, pour retenir à long terme. Dans l'étude de Roediger et Karpicke (2006), les étudiants qui s'étaient testés retenaient 61 % d'un texte après une semaine, contre 40 % pour ceux qui l'avaient relu. La relecture ne gagnait que sur un test passé 5 minutes après."
+      },
+      {
+        "question": "Comment faire du rappel actif à partir de ses notes de cours ?",
+        "answer": "Transformez chaque point clé de vos notes ou de votre transcription en question courte, cachez les réponses, interrogez-vous, vérifiez avec vos notes, puis reprenez les questions ratées à J1, J3 et J7."
+      },
+      {
+        "question": "Rappel actif et répétition espacée, c'est pareil ?",
+        "answer": "Non. Le rappel actif, c'est comment vous révisez (en allant chercher en mémoire) ; la répétition espacée, c'est quand vous révisez (étalé dans le temps, comme la méthode des J). Les applis comme Anki combinent les deux."
+      },
+      {
+        "question": "ChatGPT peut-il créer des flashcards à partir de mon cours ?",
+        "answer": "ChatGPT, Le Chat ou NotebookLM peuvent proposer des questions si vous leur collez une transcription de cours, mais vérifiez chacune avec la source car ils peuvent inventer des détails. LessonScriptor ne génère pas de flashcards ; il vous fournit la transcription de départ."
+      },
+      {
+        "question": "Le rappel actif marche-t-il avec un TDAH ?",
+        "answer": "La plupart des études sur des étudiants TDAH montrent un bénéfice à peu près équivalent à celui des autres étudiants, même si une étude n'en a trouvé aucun et que la recherche reste limitée. Des séances courtes, un plafond de nouvelles cartes et une bonne capture du cours aident à tenir dans la durée."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Le rappel actif : comment réviser à partir de ses notes de cours (étape par étape)",
+      "description": "Le rappel actif, c'est s'interroger au lieu de relire. Les preuves scientifiques, puis la méthode : transcription, questions, auto-test et révisions espacées.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/fr/blog/rappel-actif-transcription-cours"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "C'est quoi le rappel actif, simplement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le rappel actif, c'est s'interroger au lieu de relire. Vous fermez vos notes et essayez de répondre à des questions, d'expliquer une notion ou d'écrire tout ce dont vous vous souvenez, puis vous vérifiez ce qui était faux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le rappel actif est-il plus efficace que la relecture ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, pour retenir à long terme. Dans l'étude de Roediger et Karpicke (2006), les étudiants qui s'étaient testés retenaient 61 % d'un texte après une semaine, contre 40 % pour ceux qui l'avaient relu. La relecture ne gagnait que sur un test passé 5 minutes après."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment faire du rappel actif à partir de ses notes de cours ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transformez chaque point clé de vos notes ou de votre transcription en question courte, cachez les réponses, interrogez-vous, vérifiez avec vos notes, puis reprenez les questions ratées à J1, J3 et J7."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Rappel actif et répétition espacée, c'est pareil ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. Le rappel actif, c'est comment vous révisez (en allant chercher en mémoire) ; la répétition espacée, c'est quand vous révisez (étalé dans le temps, comme la méthode des J). Les applis comme Anki combinent les deux."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "ChatGPT peut-il créer des flashcards à partir de mon cours ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT, Le Chat ou NotebookLM peuvent proposer des questions si vous leur collez une transcription de cours, mais vérifiez chacune avec la source car ils peuvent inventer des détails. LessonScriptor ne génère pas de flashcards ; il vous fournit la transcription de départ."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Le rappel actif marche-t-il avec un TDAH ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La plupart des études sur des étudiants TDAH montrent un bénéfice à peu près équivalent à celui des autres étudiants, même si une étude n'en a trouvé aucun et que la recherche reste limitée. Des séances courtes, un plafond de nouvelles cartes et une bonne capture du cours aident à tenir dans la durée."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Comment pratiquer le rappel actif à partir d'une transcription de cours ?",
+      "inLanguage": "fr-FR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Captez le cours en transcription",
+          "text": "Utilisez un outil de transcription pour ne pas dépendre de notes manuscrites. LessonScriptor, une extension Chrome, transcrit tout ce qui joue dans un onglet : vidéos Moodle de votre université, cours du CNED, Panopto, YouTube ou Zoom dans le navigateur. Ajoutez un titre à chaque changement de sujet et faites une capture des diapositives importantes. Le mode gratuit écoute via le micro : passez le son sur les haut-parleurs à 80 % ou plus. Le mode IA capte le son de l'onglet et fonctionne avec un casque."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Nettoyez et balisez la transcription",
+          "text": "Dans les 24 heures, relisez la transcription une fois, rapidement. Supprimez les digressions et surlignez définitions, causes, exemples et tout ce que l'enseignant a annoncé « pour le partiel ». C'est la seule relecture de la méthode, et elle sert à trouver des questions, pas à apprendre."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Rédigez une liste de questions",
+          "text": "Transformez chaque point surligné en question. Visez 10 à 20 questions par cours. Une question par ligne, la réponse reste dans la transcription : vous devez aller la chercher en mémoire."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Facultatif : faites rédiger un premier jet par un chatbot",
+          "text": "Si c'est l'écriture des questions qui vous bloque, exportez la transcription en .txt ou .md et collez-la vous-même dans ChatGPT, Le Chat de Mistral ou NotebookLM en demandant des questions fidèles au texte. Vérifiez chaque question avec la transcription avant de la garder."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Interrogez-vous cours fermé",
+          "text": "Répondez à chaque question à voix haute ou sur papier sans regarder. Vérifiez ensuite avec la transcription et notez chaque question juste, partielle ou fausse. Les fausses forment votre liste de travail."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Planifiez les révisions espacées",
+          "text": "Mettez les questions dans Anki, RemNote ou Quizlet sous forme de flashcards, ou tenez une liste datée façon méthode des J. Révisez au bout d'environ 1 jour, 3 jours, 1 semaine et 2 à 3 semaines, puis une dernière fois la semaine du partiel."
+        }
+      ]
+    }
+  ]
+}

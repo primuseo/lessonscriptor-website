@@ -1,0 +1,400 @@
+{
+  "slug": "chrome-live-captions-not-working",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Legenda Instantânea do Chrome não funciona? Checklist + 8 soluções (2026)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Legenda Instantânea do Chrome não funciona: 8 soluções",
+    "description": "A Legenda Instantânea do Chrome não funciona ou aparece como indisponível? Checklist de 2 minutos e 8 soluções: modelo de voz, idioma, extensões e mais.",
+    "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "canonical": "https://lessonscriptor.com/pt/blog/legendas-chrome-nao-funcionam",
+    "og_title": "Legenda Instantânea do Chrome não funciona? 8 soluções (2026)",
+    "og_description": "Checklist e 8 soluções práticas quando a Legenda Instantânea do Chrome fica em branco, e quando vale a pena usar uma extensão.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "legenda instantânea chrome não funciona",
+      "legenda instantânea indisponível",
+      "legenda instantânea chrome",
+      "ativar legenda instantânea chrome",
+      "live caption chrome não funciona"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "alt": "Janela do Chrome com a opção Legenda instantânea e uma mensagem de erro, ao lado dos passos para resolver",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeos ao vivo. Victoria estuda antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Pontos principais",
+    "lead": "A Legenda Instantânea do Chrome (Live Caption) para de funcionar por oito motivos conhecidos, e a maioria se resolve em menos de dois minutos. Se o recurso nativo continuar falhando, uma extensão como o LessonScriptor capta o áudio da aba sem depender do modelo de voz do Chrome.",
+    "bullets": [
+      "A solução mais comum: desativar a Legenda instantânea, esperar 10 segundos, ativar de novo e reiniciar o Chrome por completo.",
+      "A Legenda Instantânea existe desde o Chrome 89 e precisa de um modelo de reconhecimento de voz baixado no computador: um download travado explica a maioria das mensagens de indisponível.",
+      "O português é compatível: é um dos 19 idiomas de legenda listados pelo Google, ao lado de inglês, espanhol, francês, alemão e chinês.",
+      "O fone de ouvido quase nunca é a causa: o Chrome legenda o áudio que ele mesmo reproduz, sem usar o microfone.",
+      "Extensões que bloqueiam scripts (uBlock Origin, Privacy Badger) ou uma VPN podem atrapalhar algumas páginas: teste em uma janela anônima."
+    ]
+  },
+  "intro": "A Legenda Instantânea do Chrome não funciona, na maioria dos casos, porque o modelo de reconhecimento de voz não foi baixado, porque o Chrome está desatualizado ou porque uma extensão está interferindo no áudio. O sintoma típico é um aviso de que a legenda instantânea não está disponível no momento, comum no Windows 10, no Windows 11 e no macOS. Este guia começa com um checklist de cinco itens e segue com oito soluções, da mais rápida à mais trabalhosa, com exemplos reais: uma videoaula no e-Disciplinas da USP, uma aula gravada no AVA da faculdade ou um vídeo do YouTube. Também explica quando uma extensão de legendas como o LessonScriptor é a saída mais simples.",
+  "stats": [
+    {
+      "number": "89+",
+      "label": "versão mínima do Chrome para a Legenda Instantânea"
+    },
+    {
+      "number": "8",
+      "label": "causas conhecidas de falha, todas com solução"
+    },
+    {
+      "number": "19",
+      "label": "idiomas de legenda listados pelo Google, incluindo o português"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-chrome-live-captions-not-working",
+      "h2": "Por que a Legenda Instantânea do Chrome parou de funcionar?",
+      "body": "A Legenda Instantânea do Chrome para de funcionar por um destes oito motivos: versão antiga do Chrome, modelo de reconhecimento de voz ausente ou corrompido, extensão em conflito, áudio que não está tocando no Chrome, perfil do Chrome corrompido, flags experimentais alteradas, falta de espaço em disco para guardar o modelo, ou download bloqueado pela rede (firewall da universidade ou da empresa, VPN).\n\nO aviso de indisponível no Windows 10 e no Windows 11 costuma vir de um modelo de voz que não terminou de baixar. O Chrome faz esse download em segundo plano na primeira vez que você ativa o recurso: se a conexão estava lenta ou caiu (uma rede eduroam lotada no campus, por exemplo), o modelo fica incompleto e nada aparece.\n\nNo macOS, a causa mais comum é o Chrome não ter sido reiniciado de verdade depois de uma atualização. Outra armadilha: navegadores baseados em Chromium, como Brave ou Opera, nem sempre têm esse recurso, que é do Google Chrome.\n\nAs soluções 1 e 2 abaixo resolvem a grande maioria dos casos."
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Checklist da Legenda Instantânea: o que verificar primeiro?",
+      "body": "Resolver a Legenda Instantânea começa com cinco verificações que levam menos de dois minutos e que, juntas, resolvem a maioria dos casos antes das soluções detalhadas. Siga a ordem: cada uma descarta uma causa diferente.",
+      "steps": [
+        {
+          "strategy": "A Legenda instantânea está ativada?",
+          "detail": "Abra **chrome://settings/accessibility** (menu Mais ⋮ > Configurações > Acessibilidade) e confira se **Legenda instantânea** está ativada. O Chrome às vezes desativa a opção depois de uma atualização."
+        },
+        {
+          "strategy": "Seu Chrome está atualizado?",
+          "detail": "Acesse **chrome://settings/help** (Ajuda > Sobre o Google Chrome). O recurso existe no Chrome para Windows, macOS, Linux e ChromeOS."
+        },
+        {
+          "strategy": "O modelo de voz terminou de baixar?",
+          "detail": "Logo depois de ativar, o Chrome baixa arquivos de reconhecimento de voz. Até terminar, as legendas ficam em branco. Um download travado é a causa habitual do aviso de indisponível."
+        },
+        {
+          "strategy": "O idioma é compatível?",
+          "detail": "Nas configurações da Legenda instantânea, abra **Gerenciar idiomas** e adicione o português, se precisar. Português, inglês, espanhol, francês, alemão e chinês são compatíveis; se o vídeo estiver em um idioma que o Chrome não legenda, nada aparece."
+        },
+        {
+          "strategy": "O áudio está mesmo tocando no Chrome?",
+          "detail": "O Chrome só legenda o áudio que toca no Chrome, não o do app do Zoom ou do Teams para computador, nem o do Spotify. Tire a aba do mudo: para vídeos com reprodução automática, o Google avisa que o volume precisa estar ligado."
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "Continua em branco depois dos cinco itens?",
+        "body": "Passe para a solução 1. Se as soluções falharem uma atrás da outra, uma extensão que capta diretamente o áudio da aba, como o modo IA do LessonScriptor, evita por completo o download do modelo de voz do Chrome."
+      },
+      "internal_links": [
+        {
+          "text": "Legenda Instantânea em outros idiomas",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "Legendas do Chrome com fone de ouvido",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "fix-toggle-live-caption",
+      "h2": "Solução 1: desativar e ativar de novo a Legenda instantânea",
+      "body": "Desativar e ativar de novo a Legenda instantânea força o Chrome a recarregar o modelo de reconhecimento de voz e a limpar qualquer estado corrompido. Isso resolve a maioria dos erros de indisponível.\n\n**Como fazer:**\n1. Abra o Chrome e acesse **chrome://settings/accessibility**.\n2. Desative **Legenda instantânea**.\n3. Espere 10 segundos sem fechar o Chrome.\n4. Ative de novo.\n5. Feche todas as janelas do Chrome (no Mac, Cmd+Q) e abra novamente.\n\nSe as legendas aparecerem, pronto. Se não, siga para a solução 2."
+    },
+    {
+      "id": "fix-update-chrome",
+      "h2": "Solução 2: atualizar o Chrome para a versão mais recente",
+      "body": "A Legenda Instantânea exige o Chrome 89 ou mais recente, e uma versão desatualizada é a segunda causa mais comum de falha, principalmente em computadores gerenciados por universidade ou empresa que bloqueiam atualizações automáticas.\n\n**Como ver sua versão:** menu Mais ⋮ > Ajuda > Sobre o Google Chrome. O Chrome procura atualizações automaticamente nessa tela.\n\nDepois de atualizar, clique em **Reiniciar** e feche o Chrome por completo, não só a aba. Muitos usuários percebem que esse reinício basta para sumir com um erro de indisponível que durava semanas."
+    },
+    {
+      "id": "fix-speech-model-download",
+      "h2": "Solução 3: baixar de novo o modelo de reconhecimento de voz",
+      "body": "A Legenda Instantânea depende de um modelo de reconhecimento de voz salvo no seu computador: o Google informa que o áudio e as legendas são processados localmente e nunca saem do dispositivo. Se esse modelo estiver corrompido ou incompleto, as legendas falham sem aviso claro. Dá para forçar um novo download.\n\n**Método 1, pelas configurações:**\n1. Desative **Legenda instantânea** em **chrome://settings/accessibility**.\n2. Em **Gerenciar idiomas**, remova o português e adicione de novo em **Adicionar idiomas**: o Chrome baixa o pacote de idioma outra vez.\n3. Ative a opção de novo e reinicie o Chrome.\n\n**Método 2, pelos componentes:** acesse **chrome://components**, encontre o componente de reconhecimento de voz (aparece como «Speech On-Device API» ou SODA, junto com os pacotes de idioma, dependendo da versão) e clique em **Verificar se há atualizações**. Conte de 2 a 5 minutos em uma conexão lenta.\n\nEssa solução funciona muito bem quando o erro surgiu depois de trocar de rede Wi-Fi ou de uma atualização automática do Chrome. Em rede de universidade ou empresa com filtro, faça o download em outra conexão, por exemplo roteando a internet do celular."
+    },
+    {
+      "id": "fix-disable-conflicting-extensions",
+      "h2": "Solução 4: desativar extensões que bloqueiam scripts ou áudio",
+      "body": "Extensões que interceptam scripts ou mexem no áudio, como uBlock Origin, Privacy Badger, NoScript e algumas VPNs, podem impedir que o áudio toque normalmente em certas páginas e, com isso, a legenda.\n\n**Como testar:** abra uma janela anônima (Ctrl+Shift+N no Windows, Cmd+Shift+N no Mac). Por padrão, a maioria das extensões fica desativada nela. Se a Legenda Instantânea funcionar na janela anônima, mas não na janela normal, uma extensão é a culpada.\n\n**Como resolver:** acesse **chrome://extensions** e desative as extensões uma por uma, testando a legenda a cada vez. No uBlock Origin, é melhor liberar só os sites que você usa (o AVA da faculdade, o YouTube) do que desativar a extensão em todo lugar."
+    },
+    {
+      "id": "fix-audio-routing-headphones",
+      "h2": "Solução 5: Legenda Instantânea do Chrome que não funciona com fone de ouvido",
+      "body": "A Legenda Instantânea do Chrome funciona com fone de ouvido, inclusive AirPods e fones Bluetooth: o Chrome legenda o áudio que ele mesmo reproduz, dentro do navegador, sem ouvir o microfone. Se as legendas somem quando você conecta o fone, a causa quase sempre está em outro lugar.\n\n**O que verificar:**\n- O áudio vem do Chrome? Uma aula no app do Zoom para computador não é legendada pelo Chrome; abra a reunião ou a gravação no navegador.\n- A aba está no mudo? Clique com o botão direito na aba > Ativar som do site.\n- Uma reconexão do Bluetooth interrompeu a reprodução? Desconecte e reconecte o fone e dê play de novo.\n- O modelo de voz está completo? Repita a solução 3.\n\n**A verdadeira armadilha do fone:** as ferramentas que escutam pelo microfone é que não funcionam com fone, por exemplo o modo gratuito do LessonScriptor, que usa o reconhecimento de voz do navegador pelo microfone. Para transcrever de fone no LessonScriptor, use o modo IA, que capta diretamente o áudio da aba.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com o LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "fix-reset-chrome-flags",
+      "h2": "Solução 6: redefinir as flags experimentais do Chrome",
+      "body": "A página **chrome://flags** reúne configurações experimentais que mudam o comportamento padrão do navegador. Se você, ou a TI da sua instituição, alterou flags ligadas a áudio, acessibilidade ou reconhecimento de voz, elas podem entrar em conflito com a Legenda Instantânea.\n\n**Como redefinir tudo:** acesse **chrome://flags**, clique em **Redefinir tudo** no canto superior direito e reinicie o Chrome quando ele pedir.\n\nÉ uma solução radical, mas eficaz. A única desvantagem é que ela também desfaz outras flags que você tenha ativado de propósito."
+    },
+    {
+      "id": "fix-clear-profile-data",
+      "h2": "Solução 7: limpar o cache e os dados de navegação",
+      "body": "Um cache corrompido pode impedir que algumas páginas reproduzam o áudio direito. Limpar os dados força o Chrome a reconstruir o estado local. Raramente é a causa, então deixe esta solução para o fim.\n\n**Como fazer:** acesse **chrome://settings/clearBrowserData**, escolha **Todo o período**, marque **Imagens e arquivos armazenados em cache** e **Cookies e outros dados do site** e clique em **Excluir dados**.\n\nAtenção: você vai sair das suas contas nos sites, inclusive do AVA. Depois, confira se **Legenda instantânea** continua ativada em **chrome://settings/accessibility** e teste de novo."
+    },
+    {
+      "id": "fix-switch-to-extension",
+      "h2": "Solução 8: mudar para o LessonScriptor se a legenda nativa continuar falhando",
+      "body": "A Legenda Instantânea do Chrome é prática, mas limitada: mostra duas linhas que somem logo em seguida, sem opção de editar, destacar ou exportar o texto. Se você tentou as sete soluções acima e as legendas continuam instáveis, uma extensão dedicada é a escolha mais sólida a longo prazo.\n\nO LessonScriptor é uma extensão do Chrome que mostra uma transcrição ao vivo em um painel lateral enquanto o vídeo toca: aulas gravadas no Moodle (como o e-Disciplinas da USP), Canvas ou Blackboard, vídeos do YouTube, cursos da Coursera ou da Udemy, e Zoom ou Google Meet no navegador. A transcrição é um editor de notas: destaque em 5 cores, negrito, títulos, listas, exclusão de trechos, capturas de tela dos slides e exportação em .txt ou .md. São 14 idiomas, entre eles português, inglês, espanhol, francês, alemão e chinês.\n\nExistem dois modos. O **modo gratuito** usa o reconhecimento de voz do navegador pelo microfone: precisa de caixas de som com volume alto (80% ou mais) e não funciona com fone de ouvido. O **modo IA** capta o áudio da aba, funciona com fone e reconhece melhor sotaques e vocabulário técnico; é pago por uso em pacotes sem assinatura (5 h por US$ 5, 15 h por US$ 12, 30 h por US$ 21; preços em dólar, convertidos pelo Stripe para a sua moeda), com 30 minutos de teste grátis.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com o LessonScriptor",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Transcrever um vídeo do YouTube",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-extension-vs-builtin",
+      "h2": "Vale mais usar a legenda nativa do Chrome ou uma extensão?",
+      "body": "A Legenda Instantânea nativa do Chrome é a melhor opção para legendas rápidas e passageiras, quando você não precisa guardar nem editar o texto. Não exige instalação, funciona offline depois que o modelo é baixado e é compatível com o português.\n\nUma extensão como o LessonScriptor é melhor quando você quer uma transcrição editável e exportável para estudar, quando quer anotar uma videoaula ou quando estuda de fone usando o modo IA.\n\nAs duas abordagens se completam. Muitos estudantes usam a legenda do Chrome para acompanhar um vídeo de passagem e abrem o LessonScriptor nas sessões de estudo de verdade, em que destacam, organizam e exportam as anotações.",
+      "internal_links": [
+        {
+          "text": "Legenda Instantânea do Chrome ou LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Uma transcrição ao vivo que você pode guardar",
+    "body": "O LessonScriptor mostra uma transcrição editável e exportável de qualquer vídeo no Chrome. Modo gratuito sem conta; modo IA para estudar de fone de ouvido.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome (grátis)",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Por que o Chrome diz que a Legenda instantânea não está disponível?",
+        "answer": "Esse aviso significa que o modelo de reconhecimento de voz do Chrome não foi baixado ou está corrompido. Desative a Legenda instantânea, remova e adicione de novo o português em Gerenciar idiomas para forçar um novo download, ou use a verificação de atualização em chrome://components. Depois, reinicie o Chrome."
+      },
+      {
+        "question": "A Legenda Instantânea do Chrome funciona offline?",
+        "answer": "Sim, depois que o modelo é baixado. O Google informa que o áudio e as legendas são processados localmente e nunca saem do seu dispositivo. O primeiro download do modelo e dos pacotes de idioma, porém, precisa de internet."
+      },
+      {
+        "question": "Por que a Legenda Instantânea não funciona em alguns sites?",
+        "answer": "Alguns players com DRM, como os de plataformas de streaming, podem não deixar o Chrome acessar o áudio para legendar. O recurso também precisa de um Chrome atualizado e de um modelo de voz completo. O LessonScriptor pode ter a mesma limitação em conteúdos protegidos."
+      },
+      {
+        "question": "A Legenda Instantânea funciona no Chromebook?",
+        "answer": "Sim. O ChromeOS tem a sua própria versão: Configurações > Acessibilidade > Gerenciar recursos de acessibilidade > Áudio e legendas > Legenda instantânea."
+      },
+      {
+        "question": "Dá para usar a Legenda Instantânea do Chrome em português?",
+        "answer": "Sim. O português é um dos 19 idiomas de legenda listados pelo Google, junto com inglês, espanhol, francês, alemão, italiano, japonês, coreano e chinês. Adicione o idioma em Gerenciar idiomas, nas configurações da Legenda instantânea. Para guardar um texto editável e exportável, o LessonScriptor também oferece 14 idiomas, incluindo o português."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Legenda Instantânea do Chrome não funciona: o essencial",
+    "body": "A Legenda Instantânea do Chrome falha por oito motivos, e a maioria se resolve em menos de cinco minutos. Comece pelo checklist, desative e ative de novo a opção (solução 1), atualize o Chrome (solução 2) e baixe de novo o modelo de voz (solução 3): esses três passos resolvem a maioria dos casos. O fone de ouvido quase nunca é o problema, porque o Chrome legenda o próprio áudio sem usar o microfone. Se você precisa de uma transcrição para guardar, destacar e exportar, o LessonScriptor adiciona um painel de transcrição ao vivo a qualquer vídeo no Chrome, no modo gratuito pelo microfone ou no modo IA pelo áudio da aba."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Legenda Instantânea do Chrome não funciona? Checklist + 8 soluções (2026)",
+      "description": "A Legenda Instantânea do Chrome não funciona ou aparece como indisponível? Checklist de 2 minutos e 8 soluções: modelo de voz, idioma, extensões e mais.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/legendas-chrome-nao-funcionam",
+      "url": "https://lessonscriptor.com/pt/blog/legendas-chrome-nao-funcionam",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Por que o Chrome diz que a Legenda instantânea não está disponível?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Esse aviso significa que o modelo de reconhecimento de voz do Chrome não foi baixado ou está corrompido. Desative a Legenda instantânea, remova e adicione de novo o português em Gerenciar idiomas para forçar um novo download, ou use a verificação de atualização em chrome://components. Depois, reinicie o Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Legenda Instantânea do Chrome funciona offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, depois que o modelo é baixado. O Google informa que o áudio e as legendas são processados localmente e nunca saem do seu dispositivo. O primeiro download do modelo e dos pacotes de idioma, porém, precisa de internet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que a Legenda Instantânea não funciona em alguns sites?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Alguns players com DRM, como os de plataformas de streaming, podem não deixar o Chrome acessar o áudio para legendar. O recurso também precisa de um Chrome atualizado e de um modelo de voz completo. O LessonScriptor pode ter a mesma limitação em conteúdos protegidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A Legenda Instantânea funciona no Chromebook?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O ChromeOS tem a sua própria versão: Configurações > Acessibilidade > Gerenciar recursos de acessibilidade > Áudio e legendas > Legenda instantânea."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para usar a Legenda Instantânea do Chrome em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O português é um dos 19 idiomas de legenda listados pelo Google, junto com inglês, espanhol, francês, alemão, italiano, japonês, coreano e chinês. Adicione o idioma em Gerenciar idiomas, nas configurações da Legenda instantânea. Para guardar um texto editável e exportável, o LessonScriptor também oferece 14 idiomas, incluindo o português."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Consertar a Legenda Instantânea do Chrome",
+      "inLanguage": "pt-BR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Desativar e ativar a Legenda instantânea",
+          "text": "Em chrome://settings/accessibility, desative a Legenda instantânea, espere 10 segundos, ative de novo e reinicie o Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Atualizar o Chrome",
+          "text": "Menu Mais > Ajuda > Sobre o Google Chrome e depois Reiniciar."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Baixar de novo o modelo de voz",
+          "text": "Remova e adicione o idioma em Gerenciar idiomas, ou verifique atualizações em chrome://components."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Desativar extensões em conflito",
+          "text": "Teste em uma janela anônima e desative as extensões uma por uma em chrome://extensions."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Confirmar que o áudio vem do Chrome",
+          "text": "Reproduza o vídeo no navegador, com a aba fora do mudo; o fone de ouvido não impede a legenda."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Redefinir as flags",
+          "text": "Em chrome://flags, clique em Redefinir tudo e reinicie o Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Limpar o cache",
+          "text": "Em chrome://settings/clearBrowserData, exclua as imagens e arquivos armazenados em cache."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Mudar para uma extensão",
+          "text": "Se nada funcionar, use uma extensão como o LessonScriptor, que mostra uma transcrição editável e exportável."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Legenda Instantânea do Chrome não funciona",
+          "item": "https://lessonscriptor.com/pt/blog/legendas-chrome-nao-funcionam"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

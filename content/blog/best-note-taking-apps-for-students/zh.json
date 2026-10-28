@@ -1,0 +1,596 @@
+{
+  "slug": "best-note-taking-apps-for-students",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "2026 大学生笔记软件推荐：按听课方式评测对比",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "2026 大学生笔记软件推荐：9 款听课笔记 App 对比",
+    "description": "2026 年大学生笔记软件推荐：按听课方式分为打字、手写和自动转写三类，对比 OneNote、Notion、Goodnotes、印象笔记等的免费额度、价格、平台与 ADHD 友好度。",
+    "keywords": [
+      "大学生笔记软件推荐",
+      "最好用的笔记软件",
+      "免费笔记软件 学生",
+      "上课记笔记 app",
+      "网课笔记软件"
+    ],
+    "canonical": "https://lessonscriptor.com/zh/blog/best-note-taking-apps-for-students",
+    "og_title": "2026 大学生笔记软件推荐：按听课方式评测对比",
+    "og_description": "OneNote、Notion、Obsidian、Google Docs、Goodnotes、Notability、LessonScriptor、Otter、Notion AI 会议记录，只看一件事：能不能记好一节 90 分钟的课。",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria 和 Pierre 是 LessonScriptor 的开发者，这是一款为课程提供实时转写的 Chrome 扩展。Victoria 在线攻读人类学，患有注意力缺陷多动障碍（ADHD）。Pierre 负责开发和 SEO。",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "核心结论",
+    "lead": "哪款笔记软件最好，取决于课程以什么方式到达你：打字、手写还是自动转写。大多数学生最后会用两款 App：一款负责记录，一款负责整理。",
+    "bullets": [
+      "最佳免费打字笔记：**Microsoft OneNote**。免费、全平台，在国内可以正常使用，不少高校还通过学校邮箱提供 Microsoft 365。",
+      "最适合整理整个学期：**Notion**。用学校邮箱可免费使用 Plus 套餐，但国内访问速度可能不稳定。",
+      "最佳手写笔记：**Goodnotes** 适合在课件上批注，**Notability** 适合线下课手写并同步录音。",
+      "网课和录播课首选：**LessonScriptor**。它把 Chrome 标签页里播放的任何课程（中国大学MOOC、学堂在线、B站、网页版腾讯会议）实时转成可编辑的文字稿。",
+      "国内替代：**印象笔记**、**有道云笔记**、**flomo** 适合日常整理；中文录音转写可以看看 **通义听悟**、**飞书妙记**、**讯飞听见**。"
+    ]
+  },
+  "stats": [
+    {
+      "number": "9",
+      "label": "款主流笔记 App 对比：打字、手写、自动转写"
+    },
+    {
+      "number": "30 分钟",
+      "label": "Otter 免费版单次录音上限"
+    },
+    {
+      "number": "0 美元",
+      "label": "OneNote、Obsidian 的使用价格"
+    }
+  ],
+  "intro": "最好用的大学生笔记软件，是和你听课方式相匹配的那一款。Microsoft OneNote 是最好的免费打字笔记软件。Notion 最适合整理整个学期。Goodnotes 和 Notability 是 iPad 手写笔记的首选。LessonScriptor 是网课和录播课的最佳选择，因为它能把 Chrome 里播放的任何课程实时转成可编辑的文字稿。\n\n大多数推荐榜单（包括 Goodnotes 官方的 15 款免费 App 清单）都是泛泛地比较功能。本文只用一个标准评估 9 款 App：能不能把一节 60 到 90 分钟的课，无论是线下大课还是中国大学MOOC、学堂在线上的录播课，变成真正能用来复习的笔记。这件事可以分成三种记录方式：打字、手写、自动转写，每种方式的最佳 App 都不一样。文末还单独介绍了国内学生常用的印象笔记、有道云笔记和 flomo。",
+  "sections": [
+    {
+      "id": "best-app-overall",
+      "heading": "2026 年大学生最好用的笔记软件是哪款？",
+      "body": "2026 年最好用的大学生笔记软件不是某一款 App，而是一对组合：一款负责记录，一款负责整理。这份榜单里没有任何一款工具能在上课时同时把两件事做好。Notion 整理能力很强，但会在你写到一半时拖慢速度。Goodnotes 手写记录很快，但不适合作为整个学期的资料库。\n\n按场景给出简短答案：\n\n**上课打字、想要免费：** Microsoft OneNote。支持 Windows、Mac、iOS、Android 和网页版，在国内可以直接使用；如果学校提供 Microsoft 365 教育版，用学校邮箱即可登录。\n\n**想要一个管理所有课程的总控台：** Notion。学生和教师用学校邮箱可以免费使用 Plus 套餐。\n\n**在 iPad 上手写：** 在课件上批注选 Goodnotes，想要录音和笔记同步选 Notability。\n\n**网课或录播课（中国大学MOOC、学堂在线、B站、网页版腾讯会议）：** LessonScriptor 在 Chrome 里把课程实时转成文字，让你专心听，而不是拼命追着老师记。\n\n**线下课、只有手机：** 中文课堂可以先看看通义听悟、飞书妙记等国内转写工具；英文授课可以用 Otter，但免费版单次录音最长 30 分钟。录音前请先征得老师同意。"
+    },
+    {
+      "id": "how-we-rated",
+      "heading": "我们如何评估这些笔记软件的听课表现？",
+      "body": "我们按照在教室里或看网课时真正重要的五个标准打分，而不是比较功能数量。\n\n**1. 记录速度。** 能不能跟上老师的语速？英文授课大约每分钟 120 到 150 个单词，中文授课往往更快。打字类 App 对打字快的人最有优势，手写更慢，自动转写则直接帮你解决速度问题。\n\n**2. 课程类型。** 这款 App 能否同时应对线下课、腾讯会议或 Zoom 直播课，以及中国大学MOOC、B站上的录播课？能三者兼顾的 App 很少。\n\n**3. 学期中途就会用完的免费额度。** 免费版只有 3 个文件（Goodnotes）或 5 条笔记（Notability），开学第一周就会用完。单次录音 30 分钟的上限（Otter 免费版）会把一节 90 分钟的课切成三段。\n\n**4. 平台与网络。** Notability 直到 2026 年 8 月才上线 Android。LessonScriptor 只能在电脑端 Chrome 使用。Google Docs 在中国大陆需要境外网络环境。App 必须在你学习的地方能用。\n\n**5. ADHD 友好度。** 我们按使用门槛、分心风险和复习辅助为每款 App 打出 10 分制分数。在线攻读人类学、患有注意力缺陷多动障碍（ADHD）的 Victoria 对这一项的权重有决定权。"
+    },
+    {
+      "id": "typing-apps",
+      "heading": "哪些 App 最适合上课打字记笔记？",
+      "body": "打字类 App 最适合打字比写字快、课程按 PPT 或清晰提纲推进的学生。下面四款都可以免费开始使用，其中三款对普通学生来说可以一直免费。"
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Microsoft OneNote",
+      "tagline": "免费的数字活页夹，国内可直接使用",
+      "url": "https://www.onenote.com",
+      "platform": "Windows、Mac、iOS、Android、网页版",
+      "free_tier": "使用微软账号免费（5 GB OneDrive）",
+      "price": "0 美元；学校提供 Microsoft 365 教育版时用学校邮箱即可使用",
+      "best_for": "学校已提供 Microsoft 365 的学生，或需要国内稳定访问的学生",
+      "adhd_fit": 7,
+      "why_it_wins": "**听课适配度：** 高。OneNote 的自由页面可以在任何位置打字、插入一页课件，在触屏笔记本或 iPad 上还能直接切换到手写，无需换 App。笔记本、分区、页面三级结构正好对应课程、周次和每节课。\n\n**ADHD 友好度：** 较好。所有内容都在一个活页夹里，熟悉的 Office 界面几乎不需要设置，避免了“花几小时搭系统却没学习”的拖延陷阱。",
+      "key_features": [
+        "笔记本、分区、页面的层级结构，正好映射一个学期",
+        "同一页面混合打字、手写和图片",
+        "符合条件的学生使用有效学校邮箱可免费获得 Microsoft 365 教育版"
+      ],
+      "limitations": "自由页面缺少结构时容易变乱。Windows、Mac 和网页版功能不完全一致。"
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Notion",
+      "tagline": "学期总控台：课程、作业截止日和笔记集中管理",
+      "url": "https://www.notion.com",
+      "platform": "网页版、Windows、Mac、iOS、Android",
+      "free_tier": "免费版；用学校邮箱可免费使用 Plus 套餐",
+      "price": "Plus 约 10 美元/月（学生免费）；Business 约 20 美元/月",
+      "best_for": "整理整个学期：课程主页、阅读清单、考试日期数据库",
+      "adhd_fit": 6,
+      "why_it_wins": "**听课适配度：** 中等。Markdown 快捷键和折叠块让打字很快，但 Notion 的各种模块容易让人在课上忙着排版而不是听讲。它真正的价值在课后：把原始笔记整理成课程主页。\n\n**ADHD 友好度：** 有利有弊。搭好之后，Notion 是很好的“外置大脑”；但搭建过程本身就是常见的拖延陷阱，建议直接套用现成的学生模板。",
+      "key_features": [
+        "学生和教师使用学校邮箱可免费使用 Plus 套餐",
+        "用数据库管理作业、阅读和考试日期",
+        "大量免费学生模板，包括中文模板"
+      ],
+      "limitations": "不支持真正的手写。AI 会议记录需要 Business 套餐。国内访问速度可能不稳定，大页面加载较慢。"
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "Obsidian",
+      "tagline": "本地 Markdown 笔记，用双向链接串起各门课的知识点",
+      "url": "https://obsidian.md",
+      "platform": "Windows、Mac、Linux、iOS、Android",
+      "free_tier": "完整 App 免费，无需注册",
+      "price": "0 美元；可选 Sync 同步服务每月 4 美元起（学生 6 折）",
+      "best_for": "打字快、想把不同课程的概念连起来、希望文件保存在本地的学生",
+      "adhd_fit": 5,
+      "why_it_wins": "**听课适配度：** 对打字快的人很高。Obsidian 打开即用、完全离线，每条笔记都是保存在你硬盘上的 Markdown 文件，不依赖任何境外云服务。双向链接能把第 2 周的概念和第 10 周的考点连起来。\n\n**ADHD 友好度：** 偏低到中等。插件生态容易让人陷进去，空白的库也没有任何结构。适合喜欢自己搭系统的人。",
+      "key_features": [
+        "属于你自己的 Markdown 文件，任何编辑器都能打开",
+        "双向链接和关系图谱，覆盖所有课程",
+        "学生购买 Sync 和 Publish 享受 6 折优惠"
+      ],
+      "limitations": "多设备同步需要付费，或者自己用坚果云等方式搭建。没有内置手写和录音功能。"
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Google Docs",
+      "tagline": "海外留学生做小组笔记最简单的选择",
+      "url": "https://docs.google.com",
+      "platform": "网页版、iOS、Android",
+      "free_tier": "使用 Google 账号免费（15 GB 共享空间）",
+      "price": "0 美元",
+      "best_for": "海外留学的小组作业与共享笔记；国内学生可用腾讯文档、石墨文档代替",
+      "adhd_fit": 6,
+      "why_it_wins": "**听课适配度：** 良好。Docs 就是一张白纸，没有学习成本，同学们可以实时共同编辑同一份笔记。Chrome 中的语音输入通过麦克风听写，能准确记录你自己的声音，但无法可靠识别从扬声器播放的老师讲课。\n\n**ADHD 友好度：** 中等。上手零门槛，但每门课一份长文档，到期中复习时会很难翻找。",
+      "key_features": [
+        "与同学实时协作编辑",
+        "评论和建议模式，方便互相批改",
+        "任何浏览器都能打开，无需安装"
+      ],
+      "limitations": "在中国大陆需要境外网络环境才能访问。线性文档不适合整理整个学期，离线使用需要提前开启。"
+    },
+    {
+      "id": "handwriting-apps",
+      "heading": "哪些 App 最适合手写听课笔记？",
+      "body": "手写类 App 最适合需要写公式和画图的理工科学生，以及边写边记得更牢的人。手写比打字慢，反而会逼你概括重点，这一点在笔记方法的研究中有详细讨论。下面两款 App 在配合 Apple Pencil 的 iPad 上体验最好。"
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Goodnotes",
+      "tagline": "直接在课件上写笔记",
+      "url": "https://www.goodnotes.com",
+      "platform": "iPad、iPhone、Mac、Android、Windows、网页版",
+      "free_tier": "最多 3 个文件，20 分钟录音",
+      "price": "Essential 11.99 美元/年，Pro 35.99 美元/年；部分地区 Apple 设备提供一次性买断的 Special Edition",
+      "best_for": "线下课上在 PPT 课件 PDF 上做批注",
+      "adhd_fit": 7,
+      "why_it_wins": "**听课适配度：** 有课件的课程很高。课前把老师发在学习通、雨课堂或班级群里的 PDF 导入，上课时直接在每一页上写。手写内容可搜索，旧笔记也能快速找到。\n\n**ADHD 友好度：** 较好。在课件上书写能把注意力锚定在屏幕内容上，免费版的录音功能也能让你回放没听清的部分。",
+      "key_features": [
+        "导入 PDF 课件并批注",
+        "笔记旁同步录音（免费版 20 分钟）",
+        "支持 Apple、Android 和 Windows 设备"
+      ],
+      "limitations": "免费版 3 个文件开学第一周就会用完。体验以平板加手写笔为核心。"
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "Notability",
+      "tagline": "手写笔记与课堂录音同步",
+      "url": "https://notability.com",
+      "platform": "iPad、iPhone、Mac、Android（2026 年 8 月起）、网页版",
+      "free_tier": "Starter 免费版，5 条笔记",
+      "price": "Lite 11.99 美元/年，Plus 15.99 美元/年（有限转写），Pro 79.99 美元/年（无限实时转写）",
+      "best_for": "线下课，既想手写又想录音",
+      "adhd_fit": 8,
+      "why_it_wins": "**听课适配度：** 线下课很高。Notability 在你书写时同步录音，点一下笔记里的某个词，就能回放老师当时说的话。笔记里的空白可以补回来，而不是永远缺失。\n\n**ADHD 友好度：** 很好。录音同步是注意力飘走时的安全网，能减轻“漏听了怎么办”的焦虑。",
+      "key_features": [
+        "录音与手写笔迹同步",
+        "付费版提供实时语音转写（Plus 有限额，Pro 无限）",
+        "2026 年 8 月推出 Android 版"
+      ],
+      "limitations": "免费版只有 5 条笔记。没有 Windows 版。无限转写需要 79.99 美元/年的 Pro 套餐。中文课堂请先试用确认转写效果。"
+    },
+    {
+      "id": "auto-transcript-apps",
+      "heading": "哪些 App 能自动把课程转成文字？",
+      "body": "自动转写类 App 最适合跟不上语速、老师语速快或口音重，或者因注意力缺陷多动障碍（ADHD）难以边听边写的学生。文字稿是你的原材料，复习时用的是你整理过的版本。\n\n下面三款工具的采集方式各不相同：来自 Chrome 标签页、来自手机麦克风，或来自电脑系统音频。本节刻意写得简短，我们的 AI 笔记工具完整对比（包括 Fireflies 和 Notta）详细比较了准确率、语言和价格。",
+      "internal_links": [
+        {
+          "text": "AI 听课笔记工具对比",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "LessonScriptor",
+      "tagline": "把 Chrome 里播放的任何课程实时转成文字",
+      "url": "https://lessonscriptor.com",
+      "platform": "电脑端 Chrome 扩展（仅支持 Chrome/Chromium）",
+      "free_tier": "免费模式永久可用，无需账号；AI 模式免费试用 30 分钟",
+      "price": "AI 时长包一次性购买：5 小时 5 美元，15 小时 12 美元，30 小时 21 美元；额度永不过期",
+      "best_for": "网课和录播课：中国大学MOOC、学堂在线、B站、Coursera、YouTube、网页版腾讯会议或 Zoom",
+      "adhd_fit": 9,
+      "why_it_wins": "**听课适配度：** 网课和录播课很高，线下课不适用。LessonScriptor 在视频播放时，把文字稿实时写进 Chrome 侧边栏。你可以用 5 种颜色高亮、添加标题，把课件画面截图插进文字稿，再导出为 .md 或 .txt。\n\n**ADHD 友好度：** 很好。你可以专心听课，而不是追着老师记，文字稿还能直接编辑，复习从完整笔记开始，而不是零散片段。",
+      "key_features": [
+        "免费模式通过麦克风使用 Chrome 内置语音识别：无需账号，但需要外放（不能戴耳机），且依赖 Chrome 的语音识别服务，部分网络环境下可能不可用",
+        "AI 模式直接采集标签页音频，可以戴耳机，对口音和专业术语识别更准",
+        "支持 14 种语言，包括中文；会话记录自动保存在本地电脑"
+      ],
+      "limitations": "仅限电脑端 Chrome：不能用于线下课，没有手机 App。没有 AI 摘要，也不保存音频：保存的是文字，不是录音。"
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Otter",
+      "tagline": "用手机转写英文线下课",
+      "url": "https://otter.ai",
+      "platform": "网页版、iOS、Android",
+      "free_tier": "每月 300 分钟，单次 30 分钟，累计 3 次文件导入",
+      "price": "Pro 16.99 美元/月，按年付约 8.33 美元/月；.edu 邮箱学生享 8 折",
+      "best_for": "海外留学生的英文线下课",
+      "adhd_fit": 7,
+      "why_it_wins": "**听课适配度：** 英文线下课良好，网课较弱。把手机放在桌上，Otter 就能转写整个教室。免费版单次 30 分钟的上限会把 90 分钟的课切成三段，Pro 提升到 90 分钟。\n\n**ADHD 友好度：** 较好。一键开始录音，文字稿可搜索。",
+      "key_features": [
+        "通过手机麦克风录音并转写",
+        "可作为会议助手加入 Zoom、Meet 和 Teams 会议",
+        "跨录音全文搜索"
+      ],
+      "limitations": "按月订阅。主要面向英文，中文课堂请先确认语言支持。优先为会议设计，录播课需要文件导入，免费版和 Pro 都有次数限制。"
+    },
+    {
+      "type": "app_card",
+      "rank": 9,
+      "app_name": "Notion AI 会议记录（AI Meeting Notes）",
+      "tagline": "在 Notion 工作区内直接生成文字稿，无需机器人入会",
+      "url": "https://www.notion.com",
+      "platform": "Mac 和 Windows 版 Notion 桌面 App（采集系统音频）；网页版和手机端只能用麦克风",
+      "free_tier": "Free 和 Plus 套餐（含学生免费 Plus）只有有限试用",
+      "price": "需要 Business 套餐，按年付约 20 美元/成员/月",
+      "best_for": "已经重度使用 Notion、并能使用 Business 套餐的学生",
+      "adhd_fit": 6,
+      "why_it_wins": "**听课适配度：** 中等。Notion 桌面 App 能录制麦克风和系统音频，不需要机器人加入会议，因此可以记录网课。文字稿和摘要会直接出现在 Notion 页面里，和其他课程笔记放在一起。\n\n**ADHD 友好度：** 中等。所有内容集中在一处有帮助，但学生免费套餐只有试用，完整功能的价格超出大多数学生的预算。",
+      "key_features": [
+        "无需机器人入会：桌面 App 采集系统音频",
+        "文字稿和摘要保存在 Notion 页面中",
+        "支持的套餐可上传音频文件（AAC、M4A、MP3、WAV）"
+      ],
+      "limitations": "为会议设计，按团队定价。网页版和手机端无法采集同一设备上其他 App 的声音。"
+    },
+    {
+      "id": "domestic-apps",
+      "heading": "国内大学生还有哪些笔记软件可以选？",
+      "body": "国内笔记软件的最大优势是访问稳定、中文体验好、和微信等国内生态打通。下面几款都提供免费版，适合放在“整理”这一层，或者用来做中文课堂的录音转写。",
+      "subsections": [
+        {
+          "h3": "印象笔记：资料收集和长期归档",
+          "body": "印象笔记是 Evernote 在中国的独立运营版本，擅长网页剪藏、文档扫描和按笔记本归档，适合把课件、论文和课堂笔记集中保存。免费版有上传流量和设备数量限制，重度使用需要付费会员。"
+        },
+        {
+          "h3": "有道云笔记：轻量的全平台笔记",
+          "body": "有道云笔记支持 Markdown、文档扫描和多端同步，上手门槛低，适合整理文字版课堂笔记。它可以作为 OneNote 之外的国内替代，免费版即可满足多数学生需求。"
+        },
+        {
+          "h3": "flomo：碎片想法和复习卡片",
+          "body": "flomo（浮墨笔记）是一款卡片式笔记工具，用标签代替文件夹，适合随手记下课上冒出的问题和灵感。对注意力缺陷多动障碍（ADHD）学生来说，它的低门槛很友好，但不适合记录完整的一节课。"
+        },
+        {
+          "h3": "中文录音转写：通义听悟、飞书妙记、讯飞听见",
+          "body": "如果是中文线下课，需要用手机或电脑录音转写，通义听悟、飞书妙记和讯飞听见都比 Otter 更适合中文场景，均提供免费额度或试用。录音前请先征得老师同意，并遵守学校的课堂录音规定。"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "最好用的大学生笔记软件横向对比",
+      "body": "下表从听课最关键的维度对比 9 款 App：记录方式、免费额度、起步价格、平台和适配度。价格以美元计，取自各官网 2026 年 10 月的价格页。LessonScriptor 通过 Stripe 结账，会显示人民币等本地货币的估算价格。",
+      "table": {
+        "headers": [
+          "App",
+          "记录方式",
+          "免费额度",
+          "付费起价",
+          "平台",
+          "听课适配度",
+          "ADHD"
+        ],
+        "rows": [
+          [
+            "OneNote",
+            "打字 + 手写",
+            "完整功能免费",
+            "0 美元（Microsoft 365 教育版）",
+            "全平台 + 网页",
+            "高",
+            "7/10"
+          ],
+          [
+            "Notion",
+            "打字",
+            "免费；学生免费 Plus",
+            "约 10 美元/月",
+            "全平台 + 网页",
+            "中",
+            "6/10"
+          ],
+          [
+            "Obsidian",
+            "打字",
+            "完整功能免费",
+            "Sync 4 美元/月",
+            "桌面 + 手机",
+            "高（打字快）",
+            "5/10"
+          ],
+          [
+            "Google Docs",
+            "打字",
+            "免费，15 GB",
+            "0 美元",
+            "网页 + 手机（大陆需境外网络）",
+            "良好",
+            "6/10"
+          ],
+          [
+            "Goodnotes",
+            "手写",
+            "3 个文件，20 分钟录音",
+            "11.99 美元/年",
+            "Apple、Android、Windows、网页",
+            "高（课件）",
+            "7/10"
+          ],
+          [
+            "Notability",
+            "手写 + 录音",
+            "5 条笔记",
+            "11.99 美元/年",
+            "Apple、Android、网页",
+            "高（线下课）",
+            "8/10"
+          ],
+          [
+            "LessonScriptor",
+            "自动转写（Chrome 标签页）",
+            "免费模式不限时长",
+            "5 美元一次性（5 小时 AI）",
+            "电脑端 Chrome",
+            "高（网课/录播）",
+            "9/10"
+          ],
+          [
+            "Otter",
+            "自动转写（手机麦克风）",
+            "每月 300 分钟，单次 30 分钟",
+            "按年付 8.33 美元/月",
+            "网页、iOS、Android",
+            "良好（英文线下课）",
+            "7/10"
+          ],
+          [
+            "Notion AI 会议记录",
+            "自动转写（系统音频）",
+            "有限试用",
+            "约 20 美元/月（Business）",
+            "Notion 桌面 App",
+            "中",
+            "6/10"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "best-free-app",
+      "heading": "大学生最好用的免费笔记软件是哪款？",
+      "body": "大学生最好用的免费笔记软件是 Microsoft OneNote，因为免费版没有笔记数量限制，全平台可用，国内访问也稳定。想要本地文件和离线速度，Obsidian 是最好的免费选择。国内生态里，有道云笔记的免费版也足够日常使用。\n\n要特别注意的是手写类 App 的免费额度：Goodnotes 免费版只有 3 个文件，Notability 只有 5 条笔记，够试用，不够用一个学期。转写方面，LessonScriptor 免费模式没有每月时长上限；Otter 免费版每月 300 分钟，大约是三节 90 分钟的课，而且每节要切成 30 分钟一段。"
+    },
+    {
+      "id": "best-stack",
+      "heading": "听课笔记用什么 App 组合最好？",
+      "body": "最高效的做法分两步：用一款 App 记录，用另一款整理。上课时想在同一个 App 里同时记录和整理，正是大多数学生掉队的地方。按照你上课的场景选择组合。"
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "组合一：网课和录播课（中国大学MOOC、学堂在线、B站、网页版腾讯会议）",
+      "layers": [
+        {
+          "layer": "记录",
+          "app": "LessonScriptor",
+          "why": "课程播放时在 Chrome 侧边栏实时生成文字稿，关键课件页可截图插入文字稿。",
+          "effort": "安装 2 分钟"
+        },
+        {
+          "layer": "提炼",
+          "app": "OneNote 或有道云笔记",
+          "why": "粘贴导出的 .md 文字稿，保留高亮部分，用自己的话按康奈尔笔记格式重写。",
+          "effort": "每节课 15-20 分钟"
+        },
+        {
+          "layer": "整理",
+          "app": "Notion（学生免费 Plus）、Obsidian 或印象笔记",
+          "why": "每门课一个页面，关联作业截止日期和阅读材料。",
+          "effort": "每学期一次，约 1 小时"
+        }
+      ],
+      "total_cost": "0 美元，或一次性 5-21 美元获得 AI 模式的更高准确率",
+      "time_setup": "约 1 小时"
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "组合二：线下课",
+      "layers": [
+        {
+          "layer": "记录",
+          "app": "iPad 上的 Notability 或 Goodnotes",
+          "why": "直接在课件上书写，Notability 还能把录音和笔记同步。",
+          "effort": "每节课前 5 分钟导入课件"
+        },
+        {
+          "layer": "备份",
+          "app": "通义听悟或飞书妙记（中文课）/ Otter（英文课）",
+          "why": "在老师允许录音的前提下，得到一份可搜索的课堂文字稿。",
+          "effort": "一键开始"
+        },
+        {
+          "layer": "整理",
+          "app": "OneNote 或 Notion",
+          "why": "把手写页面导出为 PDF，放进每门课的笔记本。",
+          "effort": "每周 10 分钟"
+        }
+      ],
+      "total_cost": "每年 0-36 美元起，视转写工具而定",
+      "time_setup": "约 30 分钟"
+    },
+    {
+      "id": "adhd-students",
+      "heading": "注意力缺陷多动障碍（ADHD）学生用哪款笔记软件最好？",
+      "body": "对 ADHD 学生最有效的方案，是把“听”和“写”分开。能录音或转写课程的 App，比如网课用 LessonScriptor、线下课用 Notability 或国内转写工具，可以让你不必一边在工作记忆里记着这句话，一边写上一句。\n\n整理类 App 的选择，关键不在功能而在门槛。OneNote 和 Goodnotes 得分高，因为装好就能用。Notion 和 Obsidian 得分较低，并不是它们更差，而是灵活性容易让人花几个小时搭系统而不是学习。我们的 ADHD 学生 AI 笔记工具指南对转写工具有更深入的介绍。",
+      "internal_links": [
+        {
+          "text": "ADHD 学生最佳 AI 笔记工具",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
+      ]
+    },
+    {
+      "id": "method-vs-app",
+      "heading": "笔记方法比笔记软件更重要吗？",
+      "body": "笔记方法比笔记软件更重要。同一节课，无论用 OneNote 还是 Goodnotes，如果只是逐字照抄、从不复习，得到的笔记一样没用。康奈尔笔记法、大纲法和思维导图会逼你加工信息，而且在这份榜单的任何 App 里都能用。\n\n一个实用规则：按课程到达你的方式选 App，按学科选方法。康奈尔笔记法适合概念密集的课程，比如历史或生物；大纲法适合按 PPT 推进的结构化讲授课。如果你有完整的文字稿，把它当作原材料，在 24 小时内提炼成一页康奈尔笔记。",
+      "internal_links": [
+        {
+          "text": "常见笔记方法对比",
+          "url": "/blog/note-taking-methods"
+        },
+        {
+          "text": "免费康奈尔笔记模板",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "总结：2026 大学生笔记软件怎么选",
+    "body": "打字笔记，OneNote 是最好的免费选择，Notion 是最好的学期总控台。手写笔记，Goodnotes 适合课件批注，Notability 胜在录音同步。网课和录播课，LessonScriptor 能把 Chrome 里播放的任何课程变成可编辑的文字稿；中文线下课可以用通义听悟、飞书妙记等国内转写工具。用一款 App 记录，用另一款整理，再用成熟的笔记方法提炼重点。",
+    "internal_links": [
+      {
+        "text": "了解课程转写如何运作",
+        "url": "/lecture-transcription"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "大学生用什么笔记软件最好？",
+        "answer": "大学生打字记笔记最好用的是 Microsoft OneNote，免费、全平台、国内访问稳定，学校提供 Microsoft 365 时还可以用学校邮箱登录。在 iPad 上手写选 Goodnotes 或 Notability，网课和录播课选 LessonScriptor。"
+      },
+      {
+        "question": "有没有好用的免费笔记软件推荐？",
+        "answer": "Microsoft OneNote 是最好用的免费笔记软件，没有笔记数量限制，支持 Windows、Mac、iOS、Android 和网页版。Obsidian 适合本地离线笔记，有道云笔记和 flomo 的免费版也适合国内学生日常使用。"
+      },
+      {
+        "question": "Notion 和 OneNote 哪个更适合记课堂笔记？",
+        "answer": "OneNote 更适合课上记录，自由页面速度快，还支持手写。Notion 更适合课后整理整个学期，可以用数据库管理课程、阅读和作业。很多学生用 OneNote 记录，用 Notion 整理。"
+      },
+      {
+        "question": "Goodnotes 和 Notability 哪个更适合学生？",
+        "answer": "Goodnotes 更适合在课件上批注，支持的平台更多，包括 Windows。Notability 更适合线下课，因为它能把录音和手写同步。两者免费版都有限制：Goodnotes 3 个文件，Notability 5 条笔记。"
+      },
+      {
+        "question": "有什么软件能把上课内容自动转成文字？",
+        "answer": "网课和录播课可以用 LessonScriptor，它能把 Chrome 里播放的课程实时转成文字，有免费模式和一次性 AI 时长包。中文线下课可以用通义听悟、飞书妙记或讯飞听见；英文线下课可以用 Otter，免费版单次最长 30 分钟。"
+      },
+      {
+        "question": "注意力缺陷多动障碍（ADHD）学生适合用什么笔记软件？",
+        "answer": "ADHD 学生最适合能替你记录课程的笔记软件，这样你可以专心听，而不用边听边写。网课用 LessonScriptor，线下课用 Notability 或国内转写工具，再搭配 OneNote 这类上手简单的整理工具。"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "2026 大学生笔记软件推荐：按听课方式评测对比",
+      "description": "2026 年大学生笔记软件推荐：按听课方式分为打字、手写和自动转写三类，对比 OneNote、Notion、Goodnotes、印象笔记等的免费额度、价格、平台与 ADHD 友好度。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/best-note-taking-apps-for-students",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "大学生用什么笔记软件最好？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "大学生打字记笔记最好用的是 Microsoft OneNote，免费、全平台、国内访问稳定，学校提供 Microsoft 365 时还可以用学校邮箱登录。在 iPad 上手写选 Goodnotes 或 Notability，网课和录播课选 LessonScriptor。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有没有好用的免费笔记软件推荐？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft OneNote 是最好用的免费笔记软件，没有笔记数量限制，支持 Windows、Mac、iOS、Android 和网页版。Obsidian 适合本地离线笔记，有道云笔记和 flomo 的免费版也适合国内学生日常使用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Notion 和 OneNote 哪个更适合记课堂笔记？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OneNote 更适合课上记录，自由页面速度快，还支持手写。Notion 更适合课后整理整个学期，可以用数据库管理课程、阅读和作业。很多学生用 OneNote 记录，用 Notion 整理。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Goodnotes 和 Notability 哪个更适合学生？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Goodnotes 更适合在课件上批注，支持的平台更多，包括 Windows。Notability 更适合线下课，因为它能把录音和手写同步。两者免费版都有限制：Goodnotes 3 个文件，Notability 5 条笔记。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有什么软件能把上课内容自动转成文字？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "网课和录播课可以用 LessonScriptor，它能把 Chrome 里播放的课程实时转成文字，有免费模式和一次性 AI 时长包。中文线下课可以用通义听悟、飞书妙记或讯飞听见；英文线下课可以用 Otter，免费版单次最长 30 分钟。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "注意力缺陷多动障碍（ADHD）学生适合用什么笔记软件？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ADHD 学生最适合能替你记录课程的笔记软件，这样你可以专心听，而不用边听边写。网课用 LessonScriptor，线下课用 Notability 或国内转写工具，再搭配 OneNote 这类上手简单的整理工具。"
+          }
+        }
+      ]
+    }
+  ]
+}

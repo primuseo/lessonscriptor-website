@@ -2,204 +2,464 @@
   "slug": "transcribe-youtube-video-to-text",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "How to Transcribe a YouTube Video to Text (Free, Step by Step)",
-  "reading_time_min": 7,
+  "h1": "How to Transcribe a YouTube Video to Text (Even With No Transcript)",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe a YouTube Video to Text, Free",
-    "description": "Turn any YouTube video into text for free with LessonScriptor. No captions required, no upload, no account. Install, press play, export in minutes.",
-    "keywords": ["transcribe youtube video", "youtube video transcription", "transcribe youtube video to text", "transcribe youtube to text"],
+    "title": "Transcribe a YouTube Video to Text, Even With No Transcript",
+    "description": "How to transcribe a YouTube video to text when there's no transcript: live streams, unlisted videos, other languages. 4 free methods compared, step by step.",
+    "keywords": [
+      "transcribe youtube video",
+      "transcribe youtube video to text",
+      "convert youtube video to text",
+      "youtube video to text",
+      "transcribe youtube live stream",
+      "youtube no transcript"
+    ],
     "og_image": null,
     "canonical": "https://lessonscriptor.com/en/blog/transcribe-youtube-video-to-text",
-    "og_title": "How to Transcribe a YouTube Video to Text, Free",
-    "og_description": "Turn any YouTube video into text for free. No captions required, no upload, no account.",
+    "og_title": "How to Transcribe a YouTube Video to Text (Even With No Transcript)",
+    "og_description": "No \"Show transcript\" button? Live stream? Not in English? Four ways to turn a YouTube video into text, compared.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live video transcription. Victoria studies Anthropology and has ADHD. Pierre handles development and SEO.",
-    "url": "/transcribe-video-to-text"
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
     "label": "Key takeaways",
-    "lead": "YouTube's own transcript button only works if the uploader turned captions on. LessonScriptor transcribes the audio directly, so it works on any video, captioned or not.",
+    "lead": "Transcribing a YouTube video means turning its audio into text yourself, which you only need when YouTube's own transcript is missing, wrong, or not available yet. If \"Show transcript\" already works, just download it.",
     "bullets": [
-      "YouTube's built-in transcript (the \"...\" menu, then \"Show transcript\") only appears if the uploader added captions. Auto-generated captions are hit or miss and can't be edited or exported.",
-      "LessonScriptor listens to the video's audio directly. It doesn't need captions to exist at all, which is the gap every other method runs into.",
-      "Free mode works immediately, no account, using your browser's built-in speech engine. AI mode is a pay-as-you-go credit pack for better accuracy on accents and technical terms.",
-      "The transcript is editable as it builds: highlight, bold, add headers, then export as .md or .txt, or copy straight into your notes app."
+      "YouTube's \"Show transcript\" panel only exists when captions exist. Auto-captions can fail on poor audio, overlapping speakers, unsupported languages, long videos, or simply not be processed yet.",
+      "YouTube's live auto-captions are English-only, so a live stream in French, Spanish or German usually has no transcript while it's on air.",
+      "Three methods work without a transcript: Google Docs voice typing (free, fragile), upload tools like Otter (needs the file), and live in-browser transcription with LessonScriptor (works on whatever plays in Chrome).",
+      "LessonScriptor builds an editable transcript in a side panel as the video plays, in 14 languages, then exports as .txt or .md. Free mode uses the mic and speakers; AI mode captures tab audio and works with headphones."
     ]
   },
   "stats": [
-    { "number": "0", "label": "captions required, LessonScriptor transcribes the audio directly" },
-    { "number": "14", "label": "languages supported, including French, Spanish, Arabic and Hindi" },
-    { "number": "2", "label": "export formats (.txt and .md) plus copy to clipboard" }
-  ],
-  "intro": "The fastest way to transcribe a YouTube video to text is LessonScriptor, a free Chrome extension that listens to the video as it plays and builds an editable transcript in a side panel. YouTube's own \"Show transcript\" button only appears when the uploader added captions, and copy-pasting auto-captions gives you a wall of text with no punctuation or formatting. This guide covers three ways to get a YouTube video into text and when each one actually works.",
-  "sections": [
     {
-      "id": "three-ways",
-      "h2": "3 ways to transcribe a YouTube video to text",
-      "body": "**LessonScriptor (recommended).** Install the extension, open the video, press record. It listens to the audio directly and builds an editable transcript in a side panel, whether or not the video has captions.\n\n**YouTube's built-in transcript.** Click the three-dot menu under the video, then \"Show transcript.\" This only appears if the uploader enabled captions. The text has no punctuation, no paragraph breaks, and you can't edit or highlight it in place, you'd need to copy it out first.\n\n**Copy-pasting auto-captions.** Turning on YouTube's auto-generated captions and copying the text works in a pinch, but you get one run-on block of lowercase text with timestamps mixed in, and accuracy drops fast on accents or technical vocabulary."
+      "number": "1",
+      "label": "language (English) for YouTube's live auto-captions"
     },
     {
-      "id": "how-to-steps",
-      "h2": "How to transcribe a YouTube video with LessonScriptor",
-      "body": "The whole process happens in the same browser tab as the video.",
-      "steps": [
-        "Install LessonScriptor from the Chrome Web Store. One click, no sign-up.",
-        "Open the YouTube video in a Chrome tab.",
-        "Click the LessonScriptor icon to open the side panel, then hit Record before you press play.",
-        "Press play. The transcript builds word by word as the video plays.",
-        "Edit in place: highlight key lines, bold terms, add a header for each topic change.",
-        "Export as .md or .txt, or copy to clipboard and paste into your notes app."
+      "number": "3",
+      "label": "ways to get text from a YouTube video when there is no transcript"
+    },
+    {
+      "number": "14",
+      "label": "languages LessonScriptor transcribes, including French, Spanish, German, Portuguese and Chinese"
+    }
+  ],
+  "intro": "Transcribing a YouTube video to text means converting the video's spoken audio into written text yourself, and it's the job you need when YouTube can't give you a transcript: the \"Show transcript\" button is missing, the auto-captions are garbled, the video is a live stream, it's private or unlisted, or it's in a language YouTube's captions handle badly. If the video already has a working transcript, you don't need to transcribe anything, you can copy it out in seconds with the method in our guide to downloading a YouTube transcript. For everything else, the most reliable method is live in-browser transcription with a Chrome extension like LessonScriptor, which listens to the video as it plays and builds an editable transcript in a side panel. This guide explains why YouTube transcripts go missing, how accurate auto-captions really are, and compares four methods, from the free Google Docs voice-typing hack to upload tools like Otter.",
+  "sections": [
+    {
+      "id": "transcribe-or-download",
+      "h2": "Do you need to transcribe the video, or just download its transcript?",
+      "body": "Downloading a transcript means copying text YouTube already generated. Transcribing means creating that text from the audio. The first takes ten seconds; the second is only worth it when the first fails.",
+      "callout": {
+        "type": "checklist",
+        "label": "Quick check before you start",
+        "body": "**Open the video, click \"...more\" under the title, then \"Show transcript\".**\n\n**The panel appears and the text looks right:** download it, no transcription needed.\n\n**The button is missing, the panel is empty, or the text is full of errors:** transcribe the audio with one of the methods below.\n\n**It's a live stream, a private or unlisted video, or not in English:** go straight to live transcription; YouTube's own transcript is often unavailable or poor in those cases."
+      },
+      "internal_links": [
+        {
+          "text": "How to download an existing YouTube transcript (3 methods)",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "id": "no-captions",
-      "h2": "What if the YouTube video has no captions at all?",
-      "body": "This is the actual gap in every other method. Older uploads, smaller channels, and many non-English videos never had captions added, and YouTube's auto-caption quality varies a lot by audio clarity and accent.\n\nLessonScriptor doesn't read captions at all, it listens to the video's audio the same way a person would. That means it works on a video with no captions, broken captions, or captions in the wrong language just as well as it works on a fully captioned one."
+      "id": "why-missing",
+      "h2": "Why is \"Show transcript\" missing on some YouTube videos?",
+      "body": "\"Show transcript\" is missing because the video has no captions track for YouTube to display. The transcript panel is just a different view of the captions, so no captions means no transcript.\n\nYouTube's own help pages list the main reasons automatic captions don't get generated:\n\n**The audio is complex and still processing.** New uploads can take a while to get auto-captions, especially long ones.\n\n**The language isn't supported.** YouTube auto-captions cover 100+ languages, but not every language or dialect.\n\n**The video is too long**, or **the sound quality is poor** (music over speech, echo, a phone recording from the back of a lecture hall).\n\n**There's a long silence at the start**, or **several people talk over each other**, or the speaker switches between languages.\n\nTwo more causes come from the uploader rather than YouTube: the creator can delete or unpublish auto-captions, and live streams only get live auto-captions in English. Either way, the audio is still there, and anything that can listen to the audio can turn it into text."
     },
     {
-      "id": "free-vs-ai-mode",
-      "h2": "Free mode or AI mode for YouTube videos?",
-      "body": "Free mode uses your device's microphone and your browser's built-in speech engine, fully local, no signup. It works well when you play the video through your speakers at a reasonable volume. If you're wearing headphones, or the speaker has a strong accent or uses a lot of technical vocabulary, AI mode captures the tab's audio directly instead of relying on a microphone, and uses a cloud speech model built for higher accuracy in those conditions. AI mode is a pay-as-you-go credit pack, not a subscription, and credits never expire."
+      "id": "auto-captions-accuracy",
+      "h2": "How accurate are YouTube's auto-generated captions?",
+      "body": "YouTube's auto-generated captions are good on clear, single-speaker English and get noticeably worse with accents, jargon, background music and non-English speech. YouTube itself warns that automatic captions may misrepresent the spoken content because of mispronunciations, accents, dialects or background noise, and recommends that creators review them before publishing. Most don't.\n\nThe errors that hurt students most are names and technical terms: a lecturer's \"Bourdieu\" turns into \"boredom\", \"mitochondrial\" loses a syllable, an equation becomes a string of homophones. The transcript panel also gives you lowercase text in short timed fragments, with little or no punctuation and no paragraphs, which is fine for searching a phrase and tiring for studying.\n\nThat's the practical case for transcribing even when captions exist: if the auto-captions are wrong on the words that matter, a better speech model on the same audio gives you a cleaner starting point. LessonScriptor's AI mode uses Whisper-class cloud models that handle accents, jargon and background noise much better than browser speech recognition."
     },
     {
-      "id": "comparison-table",
-      "h2": "YouTube transcript methods compared",
-      "body": "Here's how the three methods stack up on the things that actually matter: does it need captions to exist, can you edit it, and what do you end up with.",
+      "id": "methods-compared",
+      "h2": "What are the ways to convert a YouTube video to text?",
+      "body": "There are four realistic ways to turn a YouTube video into text. Only the first depends on YouTube's captions; the other three listen to the audio.",
+      "subsections": [
+        {
+          "h3": "1. YouTube's own transcript (when it exists)",
+          "body": "Click \"...more\" under the video, then \"Show transcript\", toggle off timestamps, and copy the text. It's instant and free, and it's only as good as the captions behind it. If it's there and accurate, use it, and stop reading."
+        },
+        {
+          "h3": "2. The Google Docs voice typing hack",
+          "body": "The Google Docs voice typing hack means opening a Google Doc, starting **Tools > Voice typing**, and playing the YouTube video loudly through your speakers so the microphone \"hears\" it. It's free and needs nothing installed. It's also fragile: Docs Voice Typing is built for dictation, not transcription, so it tends to stop when you click away from the Doc or after a pause, it needs the room to be quiet, and voice commands and punctuation work best in English. Useful for a five-minute clip; painful for a 90-minute lecture."
+        },
+        {
+          "h3": "3. Upload tools (Otter, Speechnotes and others)",
+          "body": "Upload tools transcribe an audio or video file you give them. Otter accepts video uploads on its free plan's monthly minutes; Speechnotes sells file transcription at $0.10 per minute. The catch is the file: downloading someone else's YouTube video to upload it breaks YouTube's Terms of Service unless YouTube shows you a download option. If it's your own video, you can download it from YouTube Studio and upload it legitimately. Otter's YouTube page also suggests the alternative of playing the video aloud while Otter listens through the mic."
+        },
+        {
+          "h3": "4. Live in-browser transcription with LessonScriptor",
+          "body": "LessonScriptor is a Chrome extension that transcribes the video while it plays, in a side panel next to the player, so there's no file to download and no captions needed. It works on any YouTube video you can play in Chrome, including unlisted videos, private videos shared with your account, live streams and Shorts, and on lecture platforms like Moodle, Canvas and Panopto. The transcript is editable as it builds (highlights in five colours, bold, headers, bullets, slide screenshots) and exports as .txt or .md. The limitation is time: it transcribes in real time, so a 60-minute video takes about 60 minutes, and there's no URL-paste tool on our website."
+        }
+      ]
+    },
+    {
+      "id": "methods-table",
       "table": {
-        "headers": ["", "YouTube's transcript button", "Copy-paste auto-captions", "LessonScriptor"],
+        "headers": [
+          "",
+          "YouTube transcript",
+          "Docs voice typing hack",
+          "Upload tool (e.g. Otter)",
+          "LessonScriptor"
+        ],
         "rows": [
-          ["Works without captions", "No", "No", "Yes"],
-          ["Editable transcript", "No", "Only after copying out", "Yes, live in the panel"],
-          ["Export format", "None built-in", "Plain text, no formatting", ".txt, .md, or clipboard"],
-          ["Wait time", "None, if captions exist", "None, if captions exist", "None"],
-          ["Languages", "Depends on uploader", "Depends on YouTube's auto-captions", "14"]
+          [
+            "Needs existing captions",
+            "Yes",
+            "No",
+            "No",
+            "No"
+          ],
+          [
+            "Needs the video file",
+            "No",
+            "No",
+            "Yes",
+            "No"
+          ],
+          [
+            "Live streams",
+            "English live captions only",
+            "Fragile",
+            "No, until it's over and downloaded",
+            "Yes, while it plays"
+          ],
+          [
+            "Private / unlisted videos",
+            "Only if captions exist",
+            "Yes",
+            "Only if you own the file",
+            "Yes, if you can play it"
+          ],
+          [
+            "Editable while it builds",
+            "No",
+            "Yes, it's a Doc",
+            "After processing",
+            "Yes, in the side panel"
+          ],
+          [
+            "Time needed",
+            "Seconds",
+            "Video length",
+            "Upload + processing",
+            "Video length"
+          ],
+          [
+            "Cost",
+            "Free",
+            "Free",
+            "Free tier, then paid",
+            "Free mode; AI packs from $5"
+          ]
         ]
       }
     },
     {
-      "id": "study-from-transcript",
-      "h2": "How to study from a YouTube transcript",
-      "body": "Once you have the text, the same editing habits that help with a live lecture apply here: cut the intro chatter, bold anything you'll be tested on, add a header per topic. If you're working through YouTube lectures for a class, the note-taking approach below turns this transcript into something closer to a study guide.",
+      "id": "how-to-steps",
+      "howto": true,
+      "h2": "How do you transcribe a YouTube video with LessonScriptor?",
+      "body": "The whole process happens in the same Chrome tab as the video. Choose the mode first: **free mode** listens through your microphone, so play the video on speakers at 80%+ volume (it won't work with headphones); **AI mode** captures the tab's audio directly, so headphones are fine and accuracy is much higher on accents and technical terms.",
+      "steps": [
+        "Install LessonScriptor from the Chrome Web Store. Free mode needs no account.",
+        "Open the YouTube video in a Chrome tab and click the LessonScriptor icon to open the side panel.",
+        "Pick the video's language (14 are supported) and choose free mode or AI mode.",
+        "In free mode, turn your speakers up to 80% or more and take your headphones off. In AI mode, headphones are fine.",
+        "Click Record, then press play on the video. In free mode the text appears as it's spoken; in AI mode it arrives in short chunks every 10 or 30 seconds.",
+        "Edit while it plays: highlight key lines, bold terms, add a header per topic, and take a screenshot of any slide you want to keep.",
+        "Export as .md or .txt, or copy to the clipboard and paste into Notion, Google Docs or Obsidian."
+      ],
       "internal_links": [
-        { "text": "How to take notes with ADHD", "url": "/blog/how-to-take-notes-with-adhd" },
-        { "text": "The ADHD note-taking template", "url": "/blog/adhd-note-taking-template" }
+        {
+          "text": "Transcribe YouTube videos in Chrome with LessonScriptor",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "live-streams",
+      "h2": "Can you transcribe a YouTube live stream?",
+      "body": "Yes, a YouTube live stream can be transcribed while it airs by any tool that listens to the audio rather than waiting for captions. That matters because YouTube's live automatic captions are only available in English, and only when the creator turns them on. A live lecture, conference keynote or Q&A in another language usually has no captions at all until well after the stream ends, if ever.\n\nLessonScriptor treats a live stream like any other tab playing audio: open the stream, start recording, and the transcript builds as people speak. Upload tools can't help during the stream, since there's no file yet. If you're following a live class on YouTube, the transcript also covers the moments you'd otherwise miss while reading the chat or taking a slide screenshot."
+    },
+    {
+      "id": "other-languages",
+      "h2": "How do you transcribe a YouTube video that isn't in English?",
+      "body": "To transcribe a non-English YouTube video, set the transcription language to the language being spoken before you start. LessonScriptor supports 14 languages, including French, Spanish, German, Portuguese, Chinese, Arabic and Hindi, and AI mode is the better choice for non-English lectures with technical vocabulary.\n\nNon-English videos are where YouTube's own transcript fails most often: auto-captions for smaller languages and accents are less accurate, live captions don't exist outside English, and many creators never upload proper subtitles. A French philosophy seminar, a Spanish economics class on a university channel or a German Vorlesung recording are typical cases where \"Show transcript\" is either missing or unusable.\n\nTranscription is not translation. LessonScriptor writes down what's said in the language it's said in. If you need a translation, export the transcript and paste it into a translator, or use Chrome Live Caption's Live Translate feature to read translated captions in the moment."
+    },
+    {
+      "id": "private-unlisted",
+      "h2": "Can you transcribe a private or unlisted YouTube video?",
+      "body": "Yes, if you can play it, you can transcribe it with a tool that listens in the browser. Many online \"YouTube to text\" generators work from a public URL and need to fetch the captions or the file, so private videos and some unlisted videos fail. Course videos are often unlisted on purpose, shared by a lecturer through Moodle or Canvas.\n\nLessonScriptor never fetches the video itself: it transcribes the audio that's playing in your tab, so an unlisted lecture link or a private video shared with your Google account works the same as a public one. In free mode, no audio is sent to LessonScriptor's servers. In AI mode, audio is sent in short chunks to a cloud transcription model to produce the text."
+    },
+    {
+      "id": "adhd-read-along",
+      "h2": "Does a YouTube transcript help with ADHD?",
+      "body": "A live transcript helps many people with ADHD follow a YouTube video because it gives you two channels at once: you hear the speaker and read the same words in the side panel. When your attention drifts for thirty seconds, the text is still there to catch up on, instead of rewinding and losing your place. Highlighting as you go adds a small physical task that keeps you engaged, and it leaves you with marked-up notes when the video ends.\n\nFree mode is enough for this if you watch on speakers; AI mode keeps it working with headphones, which many people with ADHD prefer to block out noise. Our ADHD guide to YouTube transcription goes into the routine in more detail, and the transcript you end up with works well as raw material for active recall.",
+      "internal_links": [
+        {
+          "text": "ADHD and YouTube: using a transcript to stay focused",
+          "url": "/blog/adhd-youtube-transcription"
+        },
+        {
+          "text": "Active recall from a lecture transcript",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
       ]
     }
   ],
   "faq": {
-    "section_title": "Frequently asked questions",
-    "items": [
+    "heading": "Frequently asked questions",
+    "questions": [
       {
-        "q": "Can I transcribe a YouTube video without captions or subtitles?",
-        "a": "Yes. LessonScriptor listens to the video's audio directly rather than reading existing captions, so it works on videos that never had captions added, or where the auto-captions are unreliable."
+        "question": "How do I transcribe a YouTube video that has no transcript?",
+        "answer": "Use a tool that listens to the audio instead of reading captions. LessonScriptor transcribes the video as it plays in Chrome, in a side panel, with no captions or download needed. The free Google Docs voice typing hack also works for short clips if you play the video through speakers."
       },
       {
-        "q": "Is it legal to transcribe a YouTube video for my own notes?",
-        "a": "Transcribing a video for personal study, the same way you'd take written notes while watching, is standard practice. If you plan to publish or redistribute the transcript itself, check the video's license and YouTube's terms first."
+        "question": "Why can't I see \"Show transcript\" on YouTube?",
+        "answer": "The video has no captions track. Auto-captions can fail because of poor audio, overlapping speakers, an unsupported language, a very long video, or because they haven't been processed yet, and the uploader can also remove them. Live streams only get live captions in English."
       },
       {
-        "q": "Does LessonScriptor work on YouTube Shorts?",
-        "a": "Yes, as long as the video is playing in a Chrome tab, LessonScriptor transcribes the audio the same way it does for a standard video."
+        "question": "Can I transcribe a YouTube live stream in real time?",
+        "answer": "Yes. Open the stream in Chrome and run a live transcription tool such as LessonScriptor; the transcript builds as people speak. YouTube's own live captions are English-only, so for other languages this is often the only way to get text during the stream."
       },
       {
-        "q": "Do I need to download the video first?",
-        "a": "No. LessonScriptor transcribes the audio live as the video plays in your browser tab. Nothing is downloaded or uploaded."
+        "question": "Is it legal to transcribe a YouTube video for my notes?",
+        "answer": "Transcribing a video for personal study is the same as taking written notes while watching. Downloading someone else's video file to upload it to a tool breaks YouTube's Terms of Service unless YouTube offers a download option. If you want to publish a transcript, check the creator's rights first."
       },
       {
-        "q": "Will it work in languages other than English?",
-        "a": "Yes. LessonScriptor transcribes in 14 languages, including French, Spanish, Portuguese, German, Arabic and Hindi. Set the language in the extension settings before you start."
+        "question": "How accurate are YouTube auto-generated captions?",
+        "answer": "They're good on clear English with one speaker and weaker on accents, names, jargon, background music and non-English speech. YouTube itself warns that automatic captions can misrepresent what's said. A cloud speech model, like LessonScriptor's AI mode, usually does better on lectures with technical vocabulary."
       },
       {
-        "q": "What format do I get the transcript in?",
-        "a": "Export as Markdown (.md) or plain text (.txt), or copy to clipboard and paste into Notion, Google Docs, or any notes app. Headers, bold and highlights come with it."
+        "question": "Can I transcribe a YouTube video with headphones on?",
+        "answer": "With LessonScriptor's AI mode, yes: it captures the tab's audio directly. Free mode and the Google Docs hack listen through the microphone, so the video has to play through your speakers at a high volume."
+      },
+      {
+        "question": "Can I paste a YouTube link to get a transcript?",
+        "answer": "Not with LessonScriptor: it transcribes what plays in your Chrome tab rather than processing a URL. That's what lets it handle live streams and private or unlisted videos. If the video already has captions, the YouTube transcript download methods are faster."
       }
     ]
   },
   "summary": {
-    "heading": "Any YouTube video, turned into text",
-    "body": "Captions or no captions, LessonScriptor transcribes the audio directly while the video plays, and gives you an editable transcript you can tidy and export before the video even ends. Free to install, no account, works in the same Chrome tab you're already watching from.",
+    "heading": "Which method should you use?",
+    "body": "If \"Show transcript\" works and the text is right, download it. If it's missing or wrong, or the video is a live stream, private or unlisted, or in another language, transcribe the audio: the Google Docs voice typing hack for a short clip, an upload tool like Otter if you own the file, or LessonScriptor for any video you can play in Chrome, with an editable transcript you can export before the video ends.",
     "internal_links": [
-      { "text": "See the full YouTube transcription workflow", "url": "/transcribe-video-to-text" }
+      {
+        "text": "Download a YouTube transcript that already exists",
+        "url": "/blog/how-to-download-youtube-transcript"
+      },
+      {
+        "text": "Transcribe YouTube videos in Chrome",
+        "url": "/transcribe-youtube-video"
+      }
     ]
   },
-  "schemas": [
+  "sources": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "How to Transcribe a YouTube Video to Text (Free, Step by Step)",
-        "description": "Turn any YouTube video into text for free with LessonScriptor. No captions required, no upload, no account.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Anthropology student with ADHD", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Developer & SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
-        }
-      }
+      "text": "YouTube Help: Use automatic captioning",
+      "href": "https://support.google.com/youtube/answer/6373554",
+      "external": true
     },
     {
-      "type": "HowTo",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "How to transcribe a YouTube video with LessonScriptor",
-        "step": [
-          { "@type": "HowToStep", "name": "Install", "text": "Install LessonScriptor from the Chrome Web Store. One click, no sign-up." },
-          { "@type": "HowToStep", "name": "Open the video", "text": "Open the YouTube video in a Chrome tab." },
-          { "@type": "HowToStep", "name": "Record", "text": "Click the LessonScriptor icon, open the side panel, and hit Record before you press play." },
-          { "@type": "HowToStep", "name": "Export", "text": "Edit the transcript as it builds, then export as .md or .txt, or copy to clipboard." }
-        ]
-      }
+      "text": "Google Docs Help: Type with your voice",
+      "href": "https://support.google.com/docs/answer/4492226",
+      "external": true
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can I transcribe a YouTube video without captions or subtitles?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes. LessonScriptor listens to the video's audio directly rather than reading existing captions, so it works on videos that never had captions added, or where the auto-captions are unreliable." }
-          },
-          {
-            "@type": "Question",
-            "name": "Does LessonScriptor work on YouTube Shorts?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Yes, as long as the video is playing in a Chrome tab, LessonScriptor transcribes the audio the same way it does for a standard video." }
-          }
-        ]
-      }
+      "text": "Otter: YouTube transcript generator",
+      "href": "https://otter.ai/youtube-transcript-generator",
+      "external": true
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "How to Transcribe a YouTube Video to Text", "item": "https://lessonscriptor.com/blog/transcribe-youtube-video-to-text" }
-        ]
-      }
+      "text": "Google Chrome Help: Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
     }
   ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/how-to-download-youtube-transcript",
-      "/blog/best-chrome-extensions-live-captions",
-      "/blog/how-to-take-notes-with-adhd"
-    ]
-  }
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "How to Transcribe a YouTube Video to Text (Even With No Transcript)",
+      "description": "How to transcribe a YouTube video to text when there's no transcript: live streams, unlisted videos, other languages. 4 free methods compared, step by step.",
+      "inLanguage": "en",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": "https://lessonscriptor.com/en/blog/transcribe-youtube-video-to-text",
+      "url": "https://lessonscriptor.com/en/blog/transcribe-youtube-video-to-text",
+      "keywords": [
+        "transcribe youtube video",
+        "transcribe youtube video to text",
+        "convert youtube video to text",
+        "youtube video to text",
+        "transcribe youtube live stream",
+        "youtube no transcript"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I transcribe a YouTube video that has no transcript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use a tool that listens to the audio instead of reading captions. LessonScriptor transcribes the video as it plays in Chrome, in a side panel, with no captions or download needed. The free Google Docs voice typing hack also works for short clips if you play the video through speakers."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why can't I see \"Show transcript\" on YouTube?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The video has no captions track. Auto-captions can fail because of poor audio, overlapping speakers, an unsupported language, a very long video, or because they haven't been processed yet, and the uploader can also remove them. Live streams only get live captions in English."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I transcribe a YouTube live stream in real time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Open the stream in Chrome and run a live transcription tool such as LessonScriptor; the transcript builds as people speak. YouTube's own live captions are English-only, so for other languages this is often the only way to get text during the stream."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is it legal to transcribe a YouTube video for my notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transcribing a video for personal study is the same as taking written notes while watching. Downloading someone else's video file to upload it to a tool breaks YouTube's Terms of Service unless YouTube offers a download option. If you want to publish a transcript, check the creator's rights first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How accurate are YouTube auto-generated captions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "They're good on clear English with one speaker and weaker on accents, names, jargon, background music and non-English speech. YouTube itself warns that automatic captions can misrepresent what's said. A cloud speech model, like LessonScriptor's AI mode, usually does better on lectures with technical vocabulary."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I transcribe a YouTube video with headphones on?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "With LessonScriptor's AI mode, yes: it captures the tab's audio directly. Free mode and the Google Docs hack listen through the microphone, so the video has to play through your speakers at a high volume."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I paste a YouTube link to get a transcript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not with LessonScriptor: it transcribes what plays in your Chrome tab rather than processing a URL. That's what lets it handle live streams and private or unlisted videos. If the video already has captions, the YouTube transcript download methods are faster."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How do you transcribe a YouTube video with LessonScriptor?",
+      "inLanguage": "en",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Install LessonScriptor from the Chrome Web Store. Free mode needs no account."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Open the YouTube video in a Chrome tab and click the LessonScriptor icon to open the side panel."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Pick the video's language (14 are supported) and choose free mode or AI mode."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "In free mode, turn your speakers up to 80% or more and take your headphones off. In AI mode, headphones are fine."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Click Record, then press play on the video. In free mode the text appears as it's spoken; in AI mode it arrives in short chunks every 10 or 30 seconds."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Edit while it plays: highlight key lines, bold terms, add a header per topic, and take a screenshot of any slide you want to keep."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Export as .md or .txt, or copy to the clipboard and paste into Notion, Google Docs or Obsidian."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to Transcribe a YouTube Video to Text (Even With No Transcript)",
+          "item": "https://lessonscriptor.com/en/blog/transcribe-youtube-video-to-text"
+        }
+      ]
+    }
+  ]
 }

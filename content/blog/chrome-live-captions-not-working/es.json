@@ -1,0 +1,400 @@
+{
+  "slug": "chrome-live-captions-not-working",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "¿Los subtítulos automáticos de Chrome no funcionan? Checklist + 8 soluciones (2026)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Subtítulos automáticos de Chrome no funcionan: 8 soluciones",
+    "description": "¿Los subtítulos automáticos de Chrome no funcionan o dicen «no disponible»? Checklist de 2 minutos y 8 soluciones: modelo de voz, idioma, extensiones.",
+    "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "canonical": "https://lessonscriptor.com/es/blog/subtitulos-chrome-no-funcionan",
+    "og_title": "¿Los subtítulos automáticos de Chrome no funcionan? 8 soluciones (2026)",
+    "og_description": "Checklist y 8 soluciones concretas cuando los subtítulos automáticos de Chrome se quedan en blanco, y cuándo conviene usar una extensión.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "subtítulos automáticos chrome no funcionan",
+      "subtítulos automáticos chrome no disponible",
+      "subtítulos en vivo chrome no funcionan",
+      "activar subtítulos automáticos chrome",
+      "live caption chrome no funciona"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "alt": "Ventana de Chrome con el ajuste Subtítulos automáticos y un mensaje de error, junto a los pasos para solucionarlo",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria y Pierre crean LessonScriptor, una extensión de Chrome para transcribir videos en directo. Victoria estudia antropología y tiene TDAH. Pierre se encarga del desarrollo y del SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Puntos clave",
+    "lead": "Los subtítulos automáticos de Chrome (Live Caption) fallan por ocho motivos conocidos, y la mayoría se arregla en menos de dos minutos. Si la función nativa sigue fallando, una extensión como LessonScriptor capta el audio de la pestaña sin depender del modelo de voz de Chrome.",
+    "bullets": [
+      "La solución más habitual: desactivar Subtítulos automáticos, esperar 10 segundos, volver a activarlo y reiniciar Chrome por completo.",
+      "Los subtítulos automáticos existen desde Chrome 89 y necesitan un modelo de reconocimiento de voz descargado en el equipo: una descarga atascada explica casi todos los mensajes de «no disponible».",
+      "El español está admitido: es uno de los 19 idiomas de subtítulos que lista Google, junto con el inglés, el francés, el alemán, el portugués y el chino.",
+      "Los auriculares casi nunca son la causa: Chrome subtitula el audio que reproduce él mismo, sin usar el micrófono.",
+      "Las extensiones que bloquean scripts (uBlock Origin, Privacy Badger) o una VPN pueden interferir en algunas páginas: prueba en una ventana de incógnito."
+    ]
+  },
+  "intro": "Los subtítulos automáticos de Chrome no funcionan, en la mayoría de los casos, porque el modelo de reconocimiento de voz no se ha descargado, porque Chrome no está actualizado o porque una extensión interfiere con el audio. El síntoma típico es un aviso de que los subtítulos automáticos no están disponibles en este momento, frecuente en Windows 10, Windows 11 y macOS. Esta guía empieza con un checklist de cinco puntos y sigue con ocho soluciones ordenadas de la más rápida a la más laboriosa, con ejemplos reales: una clase grabada en el Campus Virtual de la UNAM, un video de Canal UNED o un video de YouTube. También explica cuándo una extensión de subtítulos como LessonScriptor es la solución más sencilla.",
+  "stats": [
+    {
+      "number": "89+",
+      "label": "versión mínima de Chrome para los subtítulos automáticos"
+    },
+    {
+      "number": "8",
+      "label": "causas conocidas de fallo, todas con solución"
+    },
+    {
+      "number": "19",
+      "label": "idiomas de subtítulos que lista Google, incluido el español"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-chrome-live-captions-not-working",
+      "h2": "¿Por qué han dejado de funcionar los subtítulos automáticos de Chrome?",
+      "body": "Los subtítulos automáticos de Chrome dejan de funcionar por uno de estos ocho motivos: una versión antigua de Chrome, un modelo de reconocimiento de voz que falta o está dañado, una extensión que interfiere, un audio que no se reproduce en Chrome, un perfil de Chrome dañado, flags experimentales modificados, falta de espacio en disco para guardar el modelo, o una descarga bloqueada por la red (firewall de la universidad o de la empresa, VPN).\n\nEl aviso de «no disponible» en Windows 10 y Windows 11 suele deberse a un modelo de voz que no terminó de descargarse. Chrome lo descarga en segundo plano la primera vez que activas la función: si la conexión era lenta o se cortó (una red eduroam saturada en el campus, por ejemplo), el modelo queda incompleto y no aparece nada.\n\nEn macOS, la causa más común es que Chrome no se reinició del todo tras una actualización. Otra trampa habitual: navegadores basados en Chromium como Brave u Opera no siempre incluyen esta función, que es propia de Google Chrome.\n\nLas soluciones 1 y 2 resuelven la gran mayoría de los casos."
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Checklist para solucionar los subtítulos automáticos: ¿qué revisar primero?",
+      "body": "Solucionar los subtítulos automáticos empieza con cinco comprobaciones que llevan menos de dos minutos y que, juntas, resuelven la mayoría de los casos antes de pasar a las soluciones. Hazlas en orden: cada una descarta una causa distinta.",
+      "steps": [
+        {
+          "strategy": "¿Están activados los subtítulos automáticos?",
+          "detail": "Abre **chrome://settings/accessibility** (menú Más ⋮ > Configuración > Accesibilidad) y comprueba que **Subtítulos automáticos** está activado. Chrome a veces lo desactiva tras una actualización."
+        },
+        {
+          "strategy": "¿Tu versión de Chrome es reciente?",
+          "detail": "Ve a **chrome://settings/help** (Ayuda > Información de Google Chrome). La función está disponible en Chrome para Windows, macOS, Linux y ChromeOS."
+        },
+        {
+          "strategy": "¿Ha terminado de descargarse el modelo de voz?",
+          "detail": "Justo después de activarlo, Chrome descarga archivos de reconocimiento de voz. Hasta que termina, los subtítulos salen en blanco. Una descarga atascada es la causa habitual del aviso de «no disponible»."
+        },
+        {
+          "strategy": "¿El idioma está admitido?",
+          "detail": "En los ajustes de Subtítulos automáticos, abre **Gestionar idiomas** y añade el español si hace falta. El español, el inglés, el francés, el alemán, el portugués y el chino están admitidos; si el video está en un idioma que Chrome no subtitula, no aparecerá nada."
+        },
+        {
+          "strategy": "¿El audio se reproduce de verdad en Chrome?",
+          "detail": "Chrome solo subtitula el audio que suena en Chrome, no el de la app de escritorio de Zoom o Teams ni el de Spotify. Quita el silencio de la pestaña: para videos con reproducción automática, Google indica que hay que activar el volumen."
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "¿Siguen en blanco después de los cinco puntos?",
+        "body": "Pasa a la solución 1. Si las soluciones fallan una tras otra, una extensión que capta directamente el audio de la pestaña, como el modo IA de LessonScriptor, evita por completo la descarga del modelo de voz de Chrome."
+      },
+      "internal_links": [
+        {
+          "text": "Subtítulos automáticos en otros idiomas",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "Subtítulos de Chrome con auriculares",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "fix-toggle-live-caption",
+      "h2": "Solución 1: desactivar y volver a activar los subtítulos automáticos",
+      "body": "Desactivar y volver a activar los subtítulos automáticos obliga a Chrome a recargar el modelo de reconocimiento de voz y a borrar cualquier estado dañado. Así se resuelve la mayoría de los errores de «no disponible».\n\n**Cómo hacerlo:**\n1. Abre Chrome y ve a **chrome://settings/accessibility**.\n2. Desactiva **Subtítulos automáticos**.\n3. Espera 10 segundos sin cerrar Chrome.\n4. Vuelve a activarlo.\n5. Cierra todas las ventanas de Chrome (en Mac, Cmd+Q) y ábrelo de nuevo.\n\nSi aparecen los subtítulos, listo. Si no, pasa a la solución 2."
+    },
+    {
+      "id": "fix-update-chrome",
+      "h2": "Solución 2: actualizar Chrome a la última versión",
+      "body": "Los subtítulos automáticos requieren Chrome 89 o posterior, y una versión desactualizada es la segunda causa más frecuente de fallo, sobre todo en equipos gestionados por una universidad o una empresa que bloquean las actualizaciones automáticas.\n\n**Cómo ver tu versión:** menú Más ⋮ > Ayuda > Información de Google Chrome. Chrome busca actualizaciones automáticamente en esa pantalla.\n\nDespués de actualizar, haz clic en **Reiniciar** y cierra Chrome por completo, no solo la pestaña. Muchos usuarios comprueban que este reinicio basta para quitar un error de «no disponible» que llevaba semanas."
+    },
+    {
+      "id": "fix-speech-model-download",
+      "h2": "Solución 3: volver a descargar el modelo de reconocimiento de voz",
+      "body": "Los subtítulos automáticos dependen de un modelo de reconocimiento de voz guardado en tu equipo: Google indica que el audio y los subtítulos se procesan de forma local y nunca salen del dispositivo. Si el modelo está dañado o incompleto, los subtítulos fallan sin avisar. Puedes forzar una nueva descarga.\n\n**Método 1, desde los ajustes:**\n1. Desactiva **Subtítulos automáticos** en **chrome://settings/accessibility**.\n2. En **Gestionar idiomas**, quita el español y vuelve a añadirlo con **Añadir idiomas**: Chrome descarga de nuevo el paquete de idioma.\n3. Vuelve a activar la opción y reinicia Chrome.\n\n**Método 2, desde los componentes:** ve a **chrome://components**, localiza el componente de reconocimiento de voz (aparece como «Speech On-Device API» o SODA, junto con los paquetes de idioma, según la versión) y haz clic en **Buscar actualización**. Cuenta con 2 a 5 minutos en una conexión lenta.\n\nEsta solución funciona especialmente bien si el error apareció tras cambiar de red Wi-Fi o tras una actualización automática de Chrome. En una red universitaria o corporativa filtrada, haz la descarga desde otra conexión, por ejemplo compartiendo datos desde tu teléfono."
+    },
+    {
+      "id": "fix-disable-conflicting-extensions",
+      "h2": "Solución 4: desactivar extensiones que bloquean scripts o audio",
+      "body": "Las extensiones que interceptan scripts o modifican el audio, como uBlock Origin, Privacy Badger, NoScript o algunas VPN, pueden impedir que el audio se reproduzca con normalidad en ciertas páginas y, con ello, el subtitulado.\n\n**Cómo comprobarlo:** abre una ventana de incógnito (Ctrl+Mayús+N en Windows, Cmd+Mayús+N en Mac). Por defecto, la mayoría de las extensiones están desactivadas en incógnito. Si los subtítulos automáticos funcionan ahí pero no en una ventana normal, la culpa es de una extensión.\n\n**Cómo arreglarlo:** ve a **chrome://extensions** y desactiva las extensiones de una en una, probando los subtítulos cada vez. Con uBlock Origin, es mejor permitir solo los sitios que necesitas (tu Campus Virtual, YouTube) que desactivarla en todas partes."
+    },
+    {
+      "id": "fix-audio-routing-headphones",
+      "h2": "Solución 5: subtítulos automáticos de Chrome que no funcionan con auriculares",
+      "body": "Los subtítulos automáticos de Chrome funcionan con auriculares, incluidos los AirPods y los auriculares Bluetooth: Chrome subtitula el audio que reproduce él mismo, dentro del navegador, sin escuchar el micrófono. Si los subtítulos desaparecen al conectar los auriculares, la causa casi siempre está en otro sitio.\n\n**Qué revisar:**\n- ¿El audio viene de Chrome? Una clase en la app de escritorio de Zoom no la subtitula Chrome; abre la reunión o la grabación en el navegador.\n- ¿La pestaña está silenciada? Clic derecho en la pestaña > Dejar de silenciar sitio.\n- ¿Una reconexión Bluetooth cortó la reproducción? Desconecta y vuelve a conectar los auriculares y reproduce el video de nuevo.\n- ¿El modelo de voz está completo? Repite la solución 3.\n\n**La verdadera trampa de los auriculares:** las herramientas que escuchan por el micrófono no funcionan con auriculares, por ejemplo el modo gratuito de LessonScriptor, que usa el reconocimiento de voz del navegador a través del micrófono. Para transcribir con auriculares en LessonScriptor, usa el modo IA, que capta directamente el audio de la pestaña.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en vivo en Chrome con LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "fix-reset-chrome-flags",
+      "h2": "Solución 6: restablecer los flags experimentales de Chrome",
+      "body": "La página **chrome://flags** reúne ajustes experimentales que cambian el comportamiento predeterminado del navegador. Si tú o el departamento de informática de tu universidad cambiaron flags relacionados con el audio, la accesibilidad o el reconocimiento de voz, pueden chocar con los subtítulos automáticos.\n\n**Cómo restablecerlos:** ve a **chrome://flags**, haz clic en **Restablecer todo** arriba a la derecha y reinicia Chrome cuando te lo pida.\n\nEs una solución drástica pero eficaz. El único inconveniente es que también deshace los demás flags que hubieras activado a propósito."
+    },
+    {
+      "id": "fix-clear-profile-data",
+      "h2": "Solución 7: borrar la caché y los datos de navegación",
+      "body": "Una caché dañada puede impedir que algunas páginas reproduzcan el audio correctamente. Borrar los datos obliga a Chrome a reconstruir su estado local. Rara vez es la causa, así que deja esta solución para el final.\n\n**Cómo hacerlo:** ve a **chrome://settings/clearBrowserData**, elige **Desde siempre**, marca **Archivos e imágenes almacenados en caché** y **Cookies y otros datos de sitios**, y haz clic en **Borrar datos**.\n\nOjo: se cerrará tu sesión en los sitios web, incluido el Campus Virtual. Después, comprueba que **Subtítulos automáticos** sigue activado en **chrome://settings/accessibility** y vuelve a probar."
+    },
+    {
+      "id": "fix-switch-to-extension",
+      "h2": "Solución 8: cambiar a LessonScriptor si los subtítulos nativos siguen fallando",
+      "body": "Los subtítulos automáticos de Chrome son prácticos pero limitados: muestran dos líneas que desaparecen enseguida, sin opción de editar, resaltar ni exportar el texto. Si has probado las siete soluciones anteriores y los subtítulos siguen siendo inestables, una extensión dedicada es la opción más sólida a largo plazo.\n\nLessonScriptor es una extensión de Chrome que muestra una transcripción en directo en un panel lateral mientras se reproduce el video: clases grabadas en Moodle, Canvas o Blackboard, el Campus Virtual de la UNAM, videos de YouTube, cursos de Coursera o Udemy, y Zoom o Google Meet en el navegador. La transcripción es un editor de notas: resaltado en 5 colores, negrita, títulos, viñetas, borrar fragmentos, capturas de pantalla de las diapositivas y exportación en .txt o .md. Admite 14 idiomas, entre ellos español, inglés, francés, alemán, portugués y chino.\n\nHay dos modos. El **modo gratuito** usa el reconocimiento de voz del navegador a través del micrófono: necesitas altavoces con volumen alto (80 % o más) y no funciona con auriculares. El **modo IA** capta el audio de la pestaña, funciona con auriculares y reconoce mejor los acentos y el vocabulario técnico; se paga por uso con paquetes sin suscripción (5 h por 5 US$, 15 h por 12 US$, 30 h por 21 US$; precios en dólares que Stripe convierte a tu moneda), con 30 minutos de prueba gratis.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en vivo en Chrome con LessonScriptor",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Transcribir un video de YouTube",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-extension-vs-builtin",
+      "h2": "¿Conviene usar los subtítulos de Chrome o una extensión?",
+      "body": "Los subtítulos automáticos integrados en Chrome son la mejor opción para subtítulos rápidos y efímeros, cuando no necesitas guardar ni editar el texto. No requieren instalación, funcionan sin conexión una vez descargado el modelo y admiten el español.\n\nUna extensión como LessonScriptor es mejor cuando quieres una transcripción editable y exportable para estudiar, cuando quieres anotar una clase grabada o cuando trabajas con auriculares usando el modo IA.\n\nLos dos enfoques se complementan. Muchos estudiantes usan los subtítulos de Chrome para seguir un video de pasada y abren LessonScriptor en las sesiones de estudio serias, donde resaltan, estructuran y exportan sus apuntes.",
+      "internal_links": [
+        {
+          "text": "Subtítulos automáticos de Chrome o LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Una transcripción en directo que puedes guardar",
+    "body": "LessonScriptor muestra una transcripción editable y exportable de cualquier video en Chrome. Modo gratuito sin cuenta; modo IA para estudiar con auriculares.",
+    "button_label": "Añadir LessonScriptor a Chrome (gratis)",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Por qué Chrome dice que los subtítulos automáticos no están disponibles?",
+        "answer": "Ese aviso significa que el modelo de reconocimiento de voz de Chrome no se ha descargado o está dañado. Desactiva Subtítulos automáticos, quita y vuelve a añadir el español en Gestionar idiomas para forzar una nueva descarga, o usa Buscar actualización en chrome://components. Después reinicia Chrome."
+      },
+      {
+        "question": "¿Los subtítulos automáticos de Chrome funcionan sin conexión?",
+        "answer": "Sí, una vez descargado el modelo. Google indica que el audio y los subtítulos se procesan de forma local y nunca salen de tu dispositivo. La primera descarga del modelo y de los paquetes de idioma sí necesita conexión a internet."
+      },
+      {
+        "question": "¿Por qué los subtítulos automáticos no funcionan en algunas páginas?",
+        "answer": "Algunos reproductores con DRM, como los de plataformas de streaming, pueden no dejar que Chrome acceda al audio para subtitularlo. La función también necesita un Chrome actualizado y un modelo de voz completo. LessonScriptor puede tener la misma limitación con contenidos protegidos."
+      },
+      {
+        "question": "¿Funcionan los subtítulos automáticos en un Chromebook?",
+        "answer": "Sí. ChromeOS tiene su propia versión: Configuración > Accesibilidad > Gestionar funciones de accesibilidad > Audio y subtítulos > Subtítulos automáticos."
+      },
+      {
+        "question": "¿Se pueden poner los subtítulos automáticos de Chrome en español?",
+        "answer": "Sí. El español es uno de los 19 idiomas de subtítulos que lista Google, junto con el inglés, el francés, el alemán, el portugués, el italiano, el japonés, el coreano y el chino. Añádelo en Gestionar idiomas dentro de los ajustes de Subtítulos automáticos. Si quieres conservar un texto editable y exportable, LessonScriptor también admite 14 idiomas, incluido el español."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Subtítulos automáticos de Chrome que no funcionan: lo esencial",
+    "body": "Los subtítulos automáticos de Chrome fallan por ocho motivos, y la mayoría se arregla en menos de cinco minutos. Empieza por el checklist, desactiva y vuelve a activar la opción (solución 1), actualiza Chrome (solución 2) y vuelve a descargar el modelo de voz (solución 3): estos tres pasos resuelven la mayoría de los casos. Los auriculares casi nunca son la causa, porque Chrome subtitula su propio audio sin usar el micrófono. Si necesitas una transcripción para guardar, resaltar y exportar, LessonScriptor añade un panel de transcripción en directo a cualquier video en Chrome, en modo gratuito por micrófono o en modo IA con el audio de la pestaña."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "¿Los subtítulos automáticos de Chrome no funcionan? Checklist + 8 soluciones (2026)",
+      "description": "¿Los subtítulos automáticos de Chrome no funcionan o dicen «no disponible»? Checklist de 2 minutos y 8 soluciones: modelo de voz, idioma, extensiones.",
+      "inLanguage": "es",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/es/blog/subtitulos-chrome-no-funcionan",
+      "url": "https://lessonscriptor.com/es/blog/subtitulos-chrome-no-funcionan",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudiante de antropología con TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desarrollador y SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Por qué Chrome dice que los subtítulos automáticos no están disponibles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ese aviso significa que el modelo de reconocimiento de voz de Chrome no se ha descargado o está dañado. Desactiva Subtítulos automáticos, quita y vuelve a añadir el español en Gestionar idiomas para forzar una nueva descarga, o usa Buscar actualización en chrome://components. Después reinicia Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Los subtítulos automáticos de Chrome funcionan sin conexión?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, una vez descargado el modelo. Google indica que el audio y los subtítulos se procesan de forma local y nunca salen de tu dispositivo. La primera descarga del modelo y de los paquetes de idioma sí necesita conexión a internet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué los subtítulos automáticos no funcionan en algunas páginas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Algunos reproductores con DRM, como los de plataformas de streaming, pueden no dejar que Chrome acceda al audio para subtitularlo. La función también necesita un Chrome actualizado y un modelo de voz completo. LessonScriptor puede tener la misma limitación con contenidos protegidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Funcionan los subtítulos automáticos en un Chromebook?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. ChromeOS tiene su propia versión: Configuración > Accesibilidad > Gestionar funciones de accesibilidad > Audio y subtítulos > Subtítulos automáticos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se pueden poner los subtítulos automáticos de Chrome en español?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El español es uno de los 19 idiomas de subtítulos que lista Google, junto con el inglés, el francés, el alemán, el portugués, el italiano, el japonés, el coreano y el chino. Añádelo en Gestionar idiomas dentro de los ajustes de Subtítulos automáticos. Si quieres conservar un texto editable y exportable, LessonScriptor también admite 14 idiomas, incluido el español."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Arreglar los subtítulos automáticos de Chrome",
+      "inLanguage": "es",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Desactivar y activar los subtítulos automáticos",
+          "text": "En chrome://settings/accessibility, desactiva Subtítulos automáticos, espera 10 segundos, actívalo y reinicia Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Actualizar Chrome",
+          "text": "Menú Más > Ayuda > Información de Google Chrome y luego Reiniciar."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Volver a descargar el modelo de voz",
+          "text": "Quita y vuelve a añadir el idioma en Gestionar idiomas, o usa Buscar actualización en chrome://components."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Desactivar extensiones conflictivas",
+          "text": "Prueba en incógnito y desactiva las extensiones una a una en chrome://extensions."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Comprobar que el audio viene de Chrome",
+          "text": "Reproduce el video en el navegador, sin silenciar la pestaña; los auriculares no impiden los subtítulos."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Restablecer los flags",
+          "text": "En chrome://flags, haz clic en Restablecer todo y reinicia Chrome."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Borrar la caché",
+          "text": "En chrome://settings/clearBrowserData, borra los archivos e imágenes almacenados en caché."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Cambiar a una extensión",
+          "text": "Si nada funciona, usa una extensión como LessonScriptor que muestra una transcripción editable y exportable."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://lessonscriptor.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/es/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Subtítulos automáticos de Chrome no funcionan",
+          "item": "https://lessonscriptor.com/es/blog/subtitulos-chrome-no-funcionan"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

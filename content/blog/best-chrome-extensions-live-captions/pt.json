@@ -1,0 +1,374 @@
+{
+  "slug": "best-chrome-extensions-live-captions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Melhores extensões do Chrome para legendas ao vivo em 2026 (grátis e pagas, testadas)",
+  "reading_time_min": 9,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Extensão de legendas ao vivo no Chrome: as 5 melhores",
+    "description": "Qual extensão de legendas ao vivo para Chrome usar em 2026? LessonScriptor, Legenda instantânea, Tactiq e Notta comparados em precisão, fones e preço.",
+    "og_image": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "canonical": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-legendas-ao-vivo",
+    "og_title": "Extensão de legendas ao vivo no Chrome: as 5 melhores em 2026",
+    "og_description": "5 ferramentas de legendas ao vivo para Chrome comparadas: precisão, idiomas, fones de ouvido, exportação e preço.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "extensão legendas ao vivo chrome",
+      "legenda instantânea chrome",
+      "extensão de legenda chrome",
+      "transcrever aula online chrome",
+      "legendas em tempo real chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "alt": "Navegador Chrome com painel lateral de legendas mostrando a transcrição em tempo real de uma videoaula",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrever vídeos ao vivo. Victoria estuda antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Pontos-chave",
+    "lead": "O LessonScriptor é a melhor extensão de legendas ao vivo para Chrome para estudantes que querem guardar uma transcrição editável e exportável das aulas. A Legenda instantânea nativa do Chrome resolve no uso pontual, mas o texto some conforme o áudio avança.",
+    "bullets": [
+      "O LessonScriptor transcreve tudo o que toca no Chrome: YouTube, e-Disciplinas da USP, AVA/Moodle da Unicamp, Panopto, Zoom. Modo gratuito sem conta e modo IA em pacotes, sem assinatura.",
+      "A Legenda instantânea do Chrome (Mais > Configurações > Acessibilidade) não exige instalação e funciona com fone de ouvido, mas mostra só duas linhas, sem histórico nem exportação.",
+      "O Tactiq é bom para reuniões ao vivo no Google Meet, Zoom e Teams, não para aulas gravadas.",
+      "O Notta capta o áudio de uma aba e cobre 58 idiomas, mas o plano gratuito limita cada gravação a 3 minutos.",
+      "O Captions for Live Presentations é para quem apresenta: legenda a sua própria voz pelo microfone, não um vídeo. O Speechify, que aparece em muitas listas, faz o contrário (texto para fala) e não é uma ferramenta de legendas."
+    ]
+  },
+  "intro": "A melhor extensão de legendas ao vivo para Chrome, para quem assiste aulas online, é o LessonScriptor: ele transcreve em tempo real o vídeo que toca na aba e guarda o texto num painel lateral que você pode anotar e exportar. Para legendas rápidas, só de leitura e sem instalar nada, a Legenda instantânea do próprio Chrome (chrome://settings/accessibility) basta. Este comparativo testa as cinco ferramentas de legendas mais usadas no Chrome em 2026, incluindo Tactiq e Notta, nos critérios que importam tanto na EAD quanto no presencial: precisão, idiomas, uso com fone de ouvido, exportação e preço.",
+  "stats": [
+    {
+      "number": "14",
+      "label": "idiomas suportados pelo LessonScriptor, incluindo português"
+    },
+    {
+      "number": "19",
+      "label": "idiomas suportados pela Legenda instantânea do Chrome"
+    },
+    {
+      "number": "30 min",
+      "label": "de teste grátis do modo IA do LessonScriptor"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-best-live-caption-extension",
+      "h2": "Qual é a melhor extensão do Chrome para legendas ao vivo?",
+      "body": "O LessonScriptor é a melhor extensão do Chrome para legendas ao vivo para estudantes, pesquisadores e profissionais que assistem conteúdo em vídeo. Ele transcreve em tempo real o que toca no Chrome, mostra o texto num painel lateral e deixa você destacar, organizar e exportar a transcrição, coisa que a Legenda instantânea do Chrome não faz.\n\nO LessonScriptor se instala pela Chrome Web Store com um clique e o **modo gratuito** funciona sem conta. Ele usa o reconhecimento de voz embutido no navegador e escuta pelo **microfone**: capta o som das caixas de som, então o volume precisa estar alto (80% ou mais), não funciona com fone de ouvido e também transcreve a sua própria voz. Nenhum áudio é enviado aos servidores do LessonScriptor.\n\nO **modo IA** capta diretamente o **áudio da aba**: funciona com fone, sem microfone, e usa modelos de transcrição em nuvem do tipo Whisper, bem mais precisos com sotaques, jargão técnico e ruído de fundo. Para fazer anotações de aulas no Moodle, Panopto, YouTube ou de videoaulas gravadas, é a solução mais completa no Chrome em 2026."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Extensões de legendas para Chrome: comparativo",
+      "body": "Esta tabela compara as cinco ferramentas de legendas mais usadas no Chrome nos critérios que mais pesam no dia a dia de um estudante.",
+      "table": {
+        "headers": [
+          "Ferramenta",
+          "Funciona em",
+          "Transcrição editável",
+          "Exportação",
+          "Com fone de ouvido",
+          "Idiomas",
+          "Preço"
+        ],
+        "rows": [
+          [
+            "LessonScriptor (ideal para estudantes)",
+            "Tudo o que toca no Chrome",
+            "Sim: destaques, títulos, capturas",
+            ".txt, .md, área de transferência",
+            "Sim no modo IA (não no modo gratuito)",
+            "14",
+            "Grátis + pacotes IA a partir de US$ 5"
+          ],
+          [
+            "Legenda instantânea do Chrome (nativa)",
+            "Qualquer áudio no Chrome",
+            "Não",
+            "Nenhuma",
+            "Sim (legenda o áudio do Chrome, não o microfone)",
+            "19",
+            "Grátis"
+          ],
+          [
+            "Tactiq (reuniões ao vivo)",
+            "Google Meet, Zoom, Teams",
+            "Sim",
+            "Google Docs, Notion, arquivo",
+            "Sim",
+            "30+ conforme a plataforma",
+            "10 transcrições/mês grátis; Pro a partir de US$ 8/mês (anual)"
+          ],
+          [
+            "Captions for Live Presentations (apresentadores)",
+            "Sua voz pelo microfone",
+            "Não",
+            "Nenhuma",
+            "Não se aplica",
+            "Muitos",
+            "Grátis; tradução paga"
+          ],
+          [
+            "Notta (cobertura de idiomas)",
+            "Áudio de uma aba, Zoom, Meet",
+            "Sim",
+            "TXT, DOCX, SRT, PDF",
+            "Sim",
+            "58",
+            "120 min/mês grátis (máx. 3 min por gravação); Pro a partir de ~US$ 8/mês"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor: a melhor opção para transcrever videoaulas",
+      "body": "O LessonScriptor é uma extensão do Chrome que abre um painel lateral ao lado do vídeo e transcreve o áudio ao vivo. Funciona com tudo o que toca no Chrome: e-Disciplinas da USP, AVA/Moodle da Unicamp e de outras universidades, Canvas, Blackboard, Panopto, YouTube, Coursera, Udemy, e Zoom, Google Meet ou Teams no navegador.\n\n**Modo gratuito (US$ 0, para sempre):** reconhecimento de voz do navegador pelo microfone. Aumente o volume das caixas de som (80% ou mais); não é compatível com fone de ouvido e também transcreve a sua voz. Sem conta e sem enviar áudio aos servidores do LessonScriptor.\n\n**Modo IA (pague pelo uso):** captura o áudio da aba, funciona com fone e transcreve na nuvem com modelos do tipo Whisper. O texto chega em blocos de 10 segundos (modo Normal) ou 30 segundos (modo Optimal, mais preciso), então aparece com um pequeno atraso. Teste grátis de 30 minutos e depois pacotes sem assinatura: 5 h = US$ 5, 15 h = US$ 12, 30 h = US$ 21. Os preços são em dólar; o Stripe mostra uma estimativa em reais. Os créditos nunca expiram e são descontados por segundo.\n\n**Anotações:** destaques em 5 cores, negrito, títulos, listas, exclusão de trechos e capturas do slide dentro da transcrição. Exporte em .txt ou .md, ou copie para a área de transferência e cole no Notion, Obsidian ou Google Docs.\n\n**Ideal para:** estudantes que revisam aulas gravadas, pesquisadores que assistem palestras, quem está aprendendo um idioma e quem usa fone de ouvido (no modo IA).",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome com o LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "chrome-builtin-review",
+      "h2": "Legenda instantânea do Chrome: o mais simples para uso pontual",
+      "body": "A Legenda instantânea do Chrome não é uma extensão: é um recurso do navegador, ativado em **Mais > Configurações > Acessibilidade > Legenda instantânea** (ou direto em chrome://settings/accessibility). Um balão flutuante mostra legendas de qualquer áudio que toca no Chrome. Segundo o Google, o áudio e as legendas são processados localmente e nunca saem do dispositivo.\n\n**Pontos fortes:** nada para instalar, grátis, funciona com qualquer áudio no Chrome, privado, 19 idiomas incluindo português, inglês, espanhol, francês e chinês. Como legenda o áudio reproduzido pelo próprio Chrome, e não o microfone, também funciona com fone de ouvido.\n\n**Limitações:** a transcrição é só de leitura. Não dá para editar, salvar, copiar nem exportar, e o balão mostra só duas linhas que depois somem. A precisão cai com sotaques, vocabulário técnico e nomes próprios.\n\n**Ideal para:** entender um vídeo na hora, quando você não precisa guardar nada. Não serve para revisar nem para pesquisa.",
+      "internal_links": [
+        {
+          "text": "Legendas do Chrome não funcionam? Soluções",
+          "url": "/blog/chrome-live-captions-not-working"
+        },
+        {
+          "text": "Legendas do Chrome com fone de ouvido",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "tactiq-review",
+      "h2": "Tactiq: a melhor extensão para transcrever reuniões ao vivo",
+      "body": "O Tactiq é uma extensão do Chrome feita para reuniões ao vivo no Google Meet, Zoom (versão navegador) e Microsoft Teams. Ele se apoia nas legendas da reunião e as salva como uma transcrição exportável para Google Docs ou Notion, ou como arquivo de texto. O Tactiq suporta mais de 30 idiomas, com variações conforme a plataforma.\n\nO plano gratuito do Tactiq inclui 10 transcrições por mês. O plano Pro custa US$ 8 por mês no plano anual (US$ 12 no mensal) e remove o limite, com créditos de IA para resumos.\n\n**Onde deixa a desejar para estudantes:** o Tactiq só funciona em reuniões ao vivo. Para uma gravação do Zoom, uma aula no YouTube ou um vídeo postado no AVA, ele não ajuda. Para participar de uma aula síncrona no Google Meet ou Zoom, o Tactiq resolve; para todo o resto, o LessonScriptor se encaixa melhor."
+    },
+    {
+      "id": "notta-review",
+      "h2": "Notta: a maior cobertura de idiomas",
+      "body": "O Notta é um serviço de transcrição cuja extensão do Chrome grava e transcreve o áudio de uma aba (vídeos online, aulas por videochamada) e reuniões do Zoom e Google Meet. O ponto forte é a cobertura de idiomas: 58, a maior deste comparativo, com exportação em TXT, DOCX, SRT e PDF.\n\nO plano gratuito do Notta é limitado a 120 minutos por mês e, principalmente, a **3 minutos por gravação**, o que não dá para uma aula inteira. Exige conta e grava o áudio. O plano Pro começa em torno de US$ 8 por mês no plano anual.\n\n**Ideal para:** profissionais ou pesquisadores que precisam de idiomas que o LessonScriptor não cobre, como japonês ou coreano. Para português e os principais idiomas europeus, o LessonScriptor é a opção sem assinatura."
+    },
+    {
+      "id": "which-extension-should-i-use",
+      "h2": "Qual extensão de legendas para Chrome devo usar?",
+      "body": "A extensão de legendas ao vivo para Chrome certa depende do seu uso principal.\n\n**Use o LessonScriptor se** você assiste aulas gravadas (e-Disciplinas, AVA/Moodle, Panopto, YouTube, gravações do Zoom), quer anotações editáveis ou usa fone de ouvido (modo IA). O modo gratuito funciona na hora, sem conta. Se você tem TDAH, a transcrição editável poupa o esforço de escrever enquanto escuta: você anota depois.\n\n**Use a Legenda instantânea do Chrome se** não quer instalar nada e não precisa guardar o texto, por exemplo num podcast ou num vídeo assistido na biblioteca.\n\n**Use o Tactiq se** você participa principalmente de reuniões ao vivo no Google Meet ou Zoom. Os recursos de reunião dele vão além do LessonScriptor nesse caso específico.\n\n**Use o Notta se** precisa de idiomas que o LessonScriptor não cobre, como japonês ou coreano, e gravações curtas ou uma assinatura não são problema.",
+      "internal_links": [
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Legendas ao vivo para gravações do Zoom",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        },
+        {
+          "text": "Legenda instantânea do Chrome ou LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Experimente grátis a melhor extensão de legendas para Chrome",
+    "body": "O LessonScriptor transcreve qualquer vídeo no Chrome. Transcrição editável e exportável, 14 idiomas. Modo gratuito sem conta e 30 minutos de teste do modo IA.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome, grátis",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Existe extensão de legendas ao vivo para Chrome grátis?",
+        "answer": "Sim. O LessonScriptor tem um modo gratuito, sem conta e sem limite de tempo, que funciona pelo microfone em qualquer vídeo no Chrome. A Legenda instantânea do Chrome também é grátis e não exige instalação, mas o texto não pode ser salvo."
+      },
+      {
+        "question": "Como ativar a Legenda instantânea no Chrome?",
+        "answer": "Abra o Chrome, clique em Mais (os três pontos), depois em Configurações > Acessibilidade, e ative Legenda instantânea. Você também pode digitar chrome://settings/accessibility na barra de endereço. O Chrome baixa os arquivos de reconhecimento de fala."
+      },
+      {
+        "question": "Qual extensão de legendas para Chrome funciona com fone de ouvido?",
+        "answer": "O modo IA do LessonScriptor capta direto o áudio da aba, então funciona com qualquer fone. O modo gratuito do LessonScriptor usa o microfone e não funciona com fone. A Legenda instantânea do Chrome também funciona com fone, porque legenda o áudio reproduzido pelo Chrome, mas o texto não fica salvo."
+      },
+      {
+        "question": "As extensões de legendas funcionam no YouTube e no AVA?",
+        "answer": "O LessonScriptor funciona no YouTube, Moodle, e-Disciplinas, Panopto, Canvas e tudo o que toca no Chrome. A Legenda instantânea do Chrome também, sem exportação. O Notta capta o áudio de uma aba, com no máximo 3 minutos por gravação no plano gratuito. O Tactiq se limita a reuniões ao vivo."
+      },
+      {
+        "question": "Dá para exportar as legendas de uma extensão do Chrome?",
+        "answer": "O LessonScriptor exporta a transcrição em .txt ou .md, ou copia para a área de transferência para colar no Notion, Google Docs ou Obsidian. A Legenda instantânea do Chrome não pode ser exportada. O Tactiq exporta para Google Docs e Notion, e o Notta em TXT, DOCX, SRT ou PDF."
+      },
+      {
+        "question": "As legendas ao vivo funcionam em português?",
+        "answer": "Sim. A Legenda instantânea do Chrome inclui o português entre seus 19 idiomas e o LessonScriptor transcreve português entre seus 14 idiomas. Numa aula com muito jargão ou sotaque forte, o modo IA do LessonScriptor é bem mais preciso."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "A melhor extensão de legendas ao vivo para Chrome em 2026",
+    "body": "O LessonScriptor é a melhor extensão de legendas ao vivo para Chrome para estudantes e pesquisadores que querem guardar uma transcrição editável e exportável das aulas. Funciona com tudo o que toca no Chrome, do e-Disciplinas da USP ao YouTube, tem modo gratuito sem conta e modo IA em pacotes sem assinatura, em 14 idiomas. A Legenda instantânea do Chrome continua sendo a opção mais simples para uso pontual, sem como salvar. O Tactiq é mais forte em reuniões ao vivo e o Notta em cobertura de idiomas."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Melhores extensões do Chrome para legendas ao vivo em 2026 (grátis e pagas, testadas)",
+      "description": "Qual extensão de legendas ao vivo para Chrome usar em 2026? LessonScriptor, Legenda instantânea, Tactiq e Notta comparados em precisão, fones e preço.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-legendas-ao-vivo",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com/pt"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Existe extensão de legendas ao vivo para Chrome grátis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O LessonScriptor tem um modo gratuito, sem conta e sem limite de tempo, que funciona pelo microfone em qualquer vídeo no Chrome. A Legenda instantânea do Chrome também é grátis e não exige instalação, mas o texto não pode ser salvo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como ativar a Legenda instantânea no Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abra o Chrome, clique em Mais (os três pontos), depois em Configurações > Acessibilidade, e ative Legenda instantânea. Você também pode digitar chrome://settings/accessibility na barra de endereço. O Chrome baixa os arquivos de reconhecimento de fala."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual extensão de legendas para Chrome funciona com fone de ouvido?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O modo IA do LessonScriptor capta direto o áudio da aba, então funciona com qualquer fone. O modo gratuito do LessonScriptor usa o microfone e não funciona com fone. A Legenda instantânea do Chrome também funciona com fone, porque legenda o áudio reproduzido pelo Chrome, mas o texto não fica salvo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "As extensões de legendas funcionam no YouTube e no AVA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O LessonScriptor funciona no YouTube, Moodle, e-Disciplinas, Panopto, Canvas e tudo o que toca no Chrome. A Legenda instantânea do Chrome também, sem exportação. O Notta capta o áudio de uma aba, com no máximo 3 minutos por gravação no plano gratuito. O Tactiq se limita a reuniões ao vivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para exportar as legendas de uma extensão do Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O LessonScriptor exporta a transcrição em .txt ou .md, ou copia para a área de transferência para colar no Notion, Google Docs ou Obsidian. A Legenda instantânea do Chrome não pode ser exportada. O Tactiq exporta para Google Docs e Notion, e o Notta em TXT, DOCX, SRT ou PDF."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "As legendas ao vivo funcionam em português?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. A Legenda instantânea do Chrome inclui o português entre seus 19 idiomas e o LessonScriptor transcreve português entre seus 14 idiomas. Numa aula com muito jargão ou sotaque forte, o modo IA do LessonScriptor é bem mais preciso."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Extensão de legendas ao vivo no Chrome: as 5 melhores",
+          "item": "https://lessonscriptor.com/pt/blog/melhores-extensoes-chrome-legendas-ao-vivo"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Ajuda do Google Chrome: Legenda instantânea",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
+    },
+    {
+      "text": "Chrome Web Store: LessonScriptor",
+      "href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp",
+      "external": true
+    },
+    {
+      "text": "Tactiq: extensão do Chrome para transcrever reuniões",
+      "href": "https://tactiq.io",
+      "external": true
+    },
+    {
+      "text": "Notta: serviço de transcrição com IA",
+      "href": "https://www.notta.ai",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

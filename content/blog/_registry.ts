@@ -24,8 +24,14 @@ export const BLOG_SLUGS = [
   'zoom-google-meet-transcript-for-students',
   // Phase D content briefs
   'transcribe-youtube-video-to-text',
-  'zoom-meeting-transcription-free',
   'ai-note-taker-for-lectures',
+  // 2026-10-28 GSC + competitor batch
+  'live-transcribe-chrome',
+  'cornell-notes-template',
+  'best-note-taking-apps-for-students',
+  'note-taking-methods',
+  'active-recall-lecture-transcript',
+  'adhd-reading-extensions',
 ] as const
 
 export type BlogSlug = (typeof BLOG_SLUGS)[number]

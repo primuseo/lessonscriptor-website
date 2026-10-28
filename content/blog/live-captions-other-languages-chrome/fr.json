@@ -1,0 +1,355 @@
+{
+  "slug": "live-captions-other-languages-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Sous-titres instantanés en français dans Chrome (et 18 autres langues)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Sous-titres instantanés Chrome en français (+ traduction)",
+    "description": "Activez les Sous-titres instantanés de Chrome en français, traduisez-les avec la Traduction instantanée et gardez une transcription de vos cours en amphi.",
+    "og_image": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "og_title": "Sous-titres instantanés Chrome en français et autres langues",
+    "og_description": "Sous-titres en français dans Chrome, Traduction instantanée vers 100+ langues, et quoi faire quand votre langue manque.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "sous-titres instantanés chrome français",
+      "traduction instantanée chrome sous-titres",
+      "sous-titres automatiques autres langues"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-other-languages-chrome-hero.png",
+    "alt": "Navigateur Chrome affichant des sous-titres instantanés en français à côté d'un cours vidéo d'une université française",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct. Victoria étudie l'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "L'essentiel",
+    "lead": "Les Sous-titres instantanés de Chrome (Live Caption) sous-titrent le français et 18 autres langues, directement sur votre ordinateur. La Traduction instantanée les traduit vers plus de 100 langues sur Windows, Mac, Linux et Chromebook Plus. LessonScriptor transcrit 14 variantes de langues dans une transcription modifiable et exportable, mais ne traduit pas.",
+    "bullets": [
+      "Pour le français : Paramètres → Accessibilité (raccourci : chrome://settings/accessibility) → activez **Sous-titres instantanés** → à côté de « Gérer les langues », cliquez sur **Ajouter des langues** → choisissez Français dans la liste.",
+      "Les 19 langues de Chrome selon l'aide Google : anglais, danois, néerlandais, français, allemand, hindi, indonésien, italien, japonais, coréen, norvégien, polonais, portugais, espagnol, chinois simplifié, chinois traditionnel, suédois, thaï et turc.",
+      "La **Traduction instantanée** affiche les sous-titres dans une autre langue (par exemple un cours en anglais sous-titré en français). Elle n'est pas proposée sur Chrome Android ou iPhone, et le texte des sous-titres est alors envoyé à Google.",
+      "Chrome ne sous-titre ni l'arabe ni le russe. LessonScriptor oui, ainsi que l'anglais (US/UK), le français, l'espagnol, l'allemand, l'italien, le portugais (PT/BR), le chinois simplifié, le japonais, le coréen et le hindi.",
+      "LessonScriptor transcrit dans la langue parlée et ne traduit pas. Pour lire un cours en anglais en français, exportez la transcription (.txt ou .md) et collez-la dans DeepL ou Google Traduction."
+    ]
+  },
+  "intro": "Les Sous-titres instantanés sont la fonction de sous-titrage intégrée à Chrome, et le français fait partie des 19 langues prises en charge, avec l'anglais, l'espagnol, l'allemand, le portugais, l'italien, le néerlandais, le polonais, le japonais, le coréen, le hindi, le thaï, le turc et les deux formes du chinois. Vous l'activez dans **chrome://settings/accessibility**, et Chrome télécharge un modèle vocal français qui tourne ensuite sur votre ordinateur. Une seconde fonction, la Traduction instantanée, traduit ces sous-titres vers plus de 100 langues, ce qui sert surtout pour un cours ou un MOOC en anglais. La limite, pour un étudiant de la Sorbonne, de l'Université de Lyon ou du CNED, est que Chrome n'affiche que deux lignes qui disparaissent, et que son modèle bute sur le vocabulaire de cours et les noms propres. LessonScriptor, une extension Chrome, écrit le même son dans une transcription que vous pouvez corriger, surligner et exporter, en 14 variantes de langues. Ce guide couvre les deux outils, langue par langue, en disant clairement ce qu'aucun des deux ne fait.",
+  "stats": [
+    {
+      "number": "19",
+      "label": "langues sous-titrées par les Sous-titres instantanés de Chrome (aide Google, 2026)"
+    },
+    {
+      "number": "100+",
+      "label": "langues cibles pour la Traduction instantanée de Chrome"
+    },
+    {
+      "number": "14",
+      "label": "variantes de langues transcrites par LessonScriptor, dont l'arabe et le russe"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-languages-chrome-live-caption",
+      "h2": "Quelles langues les Sous-titres instantanés de Chrome prennent-ils en charge ?",
+      "body": "Les Sous-titres instantanés de Chrome prennent en charge 19 langues, selon la page d'aide Google : anglais, danois, néerlandais, français, allemand, hindi, indonésien, italien, japonais, coréen, norvégien, polonais, portugais, espagnol, chinois simplifié, chinois traditionnel, suédois, thaï et turc. Google indique une seule entrée par langue, sans variante régionale séparée (pas de « français du Canada » distinct).\n\nPour ajouter une langue sur Windows ou Mac :\n\n1. Ouvrez Chrome, menu à trois points → **Paramètres** → **Accessibilité** (ou collez **chrome://settings/accessibility** dans la barre d'adresse).\n2. Activez **Sous-titres instantanés**.\n3. À côté de **Gérer les langues**, cliquez sur **Ajouter des langues** et choisissez la vôtre. Chrome télécharge le pack de langue automatiquement.\n4. Sélectionnez la langue des sous-titres dans la liste déroulante.\n\nSous Linux, il y a une étape de plus : Paramètres → Accessibilité → **Sous-titres**, puis le même interrupteur. Sur Chromebook, le réglage se trouve dans Paramètres → Accessibilité → Gérer les fonctionnalités d'accessibilité → Audio et sous-titres.\n\nUne fois le pack téléchargé, le sous-titrage se fait sur votre appareil : Google indique que l'audio et les sous-titres sont traités localement et ne quittent pas l'ordinateur. C'est privé et gratuit, mais le modèle est bien plus petit qu'un modèle cloud. Résultat : le français courant passe bien, le vocabulaire de cours, les noms de chercheurs et les débits rapides beaucoup moins.\n\nDeux langues manquent : l'**arabe** et le **russe**. Si vous suivez un cours dans l'une d'elles, Chrome ne peut pas le sous-titrer, et une extension comme LessonScriptor devient l'option pratique.",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome : le guide complet",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Sous-titres instantanés qui ne marchent pas : solutions",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "chrome-live-translate",
+      "h2": "Chrome peut-il traduire les sous-titres en direct dans une autre langue ?",
+      "body": "Oui. La **Traduction instantanée** de Chrome traduit le texte des Sous-titres instantanés vers plus de 100 langues pendant la lecture. Concrètement, vous pouvez suivre un cours en anglais sur Coursera ou une conférence TED et lire les sous-titres en français. L'aide Google la liste pour **Windows, Mac, Linux et Chromebook Plus**. Elle n'est pas listée pour Chrome sur Android ou iPhone, et les Chromebook standard n'ont que le sous-titrage. Google l'a testée dans Chrome Canary en 2023 ; mettez Chrome à jour (version stable actuelle) avant de chercher l'interrupteur.\n\nPour l'activer sur Windows ou Mac :\n\n1. Ouvrez **chrome://settings/accessibility** (menu à trois points → Paramètres → Accessibilité).\n2. Vérifiez que **Sous-titres instantanés** est activé et que la langue parlée (par exemple l'anglais) est ajoutée.\n3. Activez **Traduction instantanée**.\n4. À côté de **Traduire en**, choisissez Français. Sur Chromebook Plus, la liste s'appelle **Traduire les sous-titres en**.\n\nDeux limites à connaître. D'abord, l'audio source doit faire partie des 19 langues sous-titrées : un cours en arabe ou en russe ne peut pas être traduit ainsi. Ensuite, la confidentialité change : les sous-titres simples restent sur votre appareil, mais pour les traduire, Chrome envoie leur texte à Google. Et une traduction automatique de la parole cumule les erreurs : si Chrome entend mal un terme technique, la traduction sera fausse aussi. Prenez-la comme une aide à la compréhension, pas comme une prise de notes.\n\n**Et LessonScriptor ?** LessonScriptor ne traduit pas. Il transcrit dans la langue parlée (14 variantes) et garde le texte. Pour une traduction, exportez la transcription en .txt ou .md, ou copiez-la, puis collez-la dans DeepL ou Google Traduction. Vous avez alors l'original et la traduction côte à côte, et vous pouvez vérifier chaque terme douteux.",
+      "callout": {
+        "type": "tip",
+        "label": "Le meilleur des deux",
+        "body": "Pour un cours en anglais, lancez la Traduction instantanée de Chrome pour suivre en français, et LessonScriptor pour garder la transcription en anglais. Après le cours, collez l'export dans DeepL et relisez les passages que vous n'avez pas compris."
+      },
+      "internal_links": [
+        {
+          "text": "Sous-titres Chrome ou LessonScriptor : le comparatif",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-french",
+      "h2": "Comment avoir des sous-titres en français dans Chrome ?",
+      "body": "Le français fait partie des 19 langues des Sous-titres instantanés. Pour l'activer :\n\n1. Ouvrez **chrome://settings/accessibility** (Paramètres → Accessibilité).\n2. Activez **Sous-titres instantanés**.\n3. À côté de **Gérer les langues**, cliquez sur **Ajouter des langues** et choisissez Français.\n4. Sélectionnez Français dans la liste déroulante. Chrome télécharge le pack français, puis sous-titre tout son en français joué dans un onglet.\n\nSi votre Chrome est en anglais, la même option s'appelle **Live Caption**, sous Settings → Accessibility.\n\nPour un cours en amphi enregistré et déposé sur le Moodle de votre université, un MOOC sur FUN-MOOC, un cours du CNED ou un podcast de France Culture, Chrome gère bien le français parlé standard. Il bute en revanche sur les termes de discipline, les noms de professeurs et les institutions comme Sciences Po, l'EHESS ou le CNRS. Et comme les sous-titres disparaissent après deux lignes, il ne vous reste rien pour réviser.\n\nLessonScriptor transcrit le français de deux façons. Le mode gratuit utilise la reconnaissance vocale de Chrome via le micro : il faut donc des haut-parleurs (volume à 80 % ou plus), pas de casque. Le mode IA envoie l'audio de l'onglet à des modèles cloud de type Whisper, nettement plus précis sur les accents et le jargon, et il fonctionne avec un casque. Dans les deux cas, la transcription est modifiable : vous corrigez une fois le nom mal entendu, et c'est la version corrigée que vous exportez pour votre prise de notes.",
+      "internal_links": [
+        {
+          "text": "Sous-titres Chrome avec un casque audio",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "chrome-captions-spanish",
+      "h2": "Comment avoir des sous-titres en espagnol dans Chrome ?",
+      "body": "Même procédure : **chrome://settings/accessibility** → **Sous-titres instantanés** → **Ajouter des langues** → Espagnol, puis sélectionnez-le dans la liste. Dans un Chrome en espagnol, l'option s'appelle **Subtítulos automáticos**.\n\nGoogle ne liste qu'une entrée espagnole : le même modèle gère les accents d'Espagne, du Mexique ou d'Argentine. C'est utile pour un semestre Erasmus à Madrid ou un cours de LLCER espagnol, avec les limites habituelles sur les débits rapides et le vocabulaire juridique ou médical.\n\nLessonScriptor propose une option Español. Son mode IA gère en général mieux la variété des accents qu'un modèle embarqué."
+    },
+    {
+      "id": "chrome-captions-portuguese",
+      "h2": "Comment avoir des sous-titres en portugais dans Chrome ?",
+      "body": "Le portugais figure dans la liste de Chrome sous une seule entrée. Ajoutez-le dans **Gérer les langues**, puis sélectionnez-le. Dans un Chrome en portugais, l'option s'appelle **Legenda instantânea**.\n\nLe modèle couvre le portugais du Brésil et du Portugal. LessonScriptor propose deux options séparées, **Português (BR)** et **Português (PT)** : choisir la bonne variante aide sur l'orthographe et le vocabulaire (*ônibus* contre *autocarro*)."
+    },
+    {
+      "id": "chrome-captions-german",
+      "h2": "Comment avoir des sous-titres en allemand dans Chrome ?",
+      "body": "Ajoutez l'allemand dans **Gérer les langues** et sélectionnez-le. Dans un Chrome en allemand, l'option s'appelle **Automatische Untertitel**.\n\nLe point faible propre à l'allemand, ce sont les mots composés (*Universitätsbibliothek*, *Forschungsschwerpunkt*), souvent coupés ou mal reconnus, tout comme les noms d'établissements. Pour un cursus franco-allemand (Université franco-allemande, Sciences Po Nancy), LessonScriptor permet de corriger le mot une fois dans la transcription et de l'exporter propre."
+    },
+    {
+      "id": "chrome-captions-mandarin",
+      "h2": "Comment avoir des sous-titres en chinois (mandarin) dans Chrome ?",
+      "body": "Chrome propose deux entrées : **chinois simplifié** et **chinois traditionnel**. Les deux sous-titrent le mandarin parlé ; le choix détermine l'écriture affichée. Prenez le simplifié pour un contenu de Chine continentale, le traditionnel pour Taïwan ou Hong Kong. Dans un Chrome en chinois, l'option s'appelle **实时字幕**.\n\nLe mandarin est difficile pour un modèle embarqué (tons, homophones, termes techniques). Chrome s'en sort sur le putonghua standard, moins sur les accents régionaux.\n\nLessonScriptor ne gère que le **chinois simplifié**. Pour les caractères traditionnels, les sous-titres intégrés de Chrome conviennent mieux. En Chine continentale, les services Google ne sont généralement pas accessibles, ce qui touche le Chrome Web Store, le téléchargement des packs de langue, la Traduction instantanée et la reconnaissance vocale du mode gratuit de LessonScriptor."
+    },
+    {
+      "id": "lessonscriptor-language-learning",
+      "h2": "Peut-on utiliser les sous-titres de Chrome pour apprendre une langue ?",
+      "body": "Oui, et les deux outils aident différemment.\n\n**Les sous-titres de Chrome** servent d'aide à la lecture. Regarder une vidéo en anglais ou en espagnol avec des sous-titres dans la même langue entraîne l'oreille, et la Traduction instantanée peut afficher le français quand vous décrochez. Mais les sous-titres sont en lecture seule et disparaissent : rien à réviser ensuite.\n\n**LessonScriptor** garde le texte. Pendant la vidéo, la transcription se construit dans le panneau latéral. Vous surlignez les mots inconnus (5 couleurs), ajoutez des titres, supprimez le superflu, puis exportez en .txt ou .md.\n\nUn workflow simple, utile aussi pour préparer le TOEIC ou le TOEFL : regardez avec LessonScriptor, surlignez le vocabulaire nouveau, exportez. Recopiez ensuite les mots dans Anki, et collez les phrases difficiles dans DeepL. LessonScriptor ne génère ni fiches ni traductions : ces étapes sont les vôtres.",
+      "internal_links": [
+        {
+          "text": "Sous-titres pour les enregistrements Zoom dans Chrome",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "which-tool-multilingual",
+      "h2": "Quel outil choisir pour des sous-titres en français ou dans une autre langue ?",
+      "body": "**Les Sous-titres instantanés de Chrome** suffisent si votre langue fait partie des 19, si vous voulez des sous-titres rapides et éphémères, et si vous n'avez pas besoin de garder le texte. Ajoutez la Traduction instantanée pour lire dans une autre langue, sur Windows, Mac, Linux ou Chromebook Plus.\n\n**LessonScriptor** est le bon choix si vous devez garder, corriger et exporter ce qui a été dit, par exemple pour réviser un partiel, ou si votre cours est en **arabe ou en russe**, que Chrome ne sous-titre pas. Ses 14 variantes : anglais (US et UK), français, espagnol, allemand, italien, portugais (Portugal et Brésil), chinois simplifié, japonais, coréen, russe, arabe et hindi. Le mode IA capte l'audio de l'onglet et fonctionne avec un casque ; le mode gratuit passe par le micro et demande des haut-parleurs.\n\n**Aucun des deux** ne couvre un cours en néerlandais, polonais, suédois, danois, norvégien, turc, thaï ou indonésien si vous voulez une transcription exportable. Chrome les sous-titre mais LessonScriptor non : regardez alors un service multilingue comme Notta, qui a une offre gratuite.",
+      "table": {
+        "headers": [
+          "Besoin",
+          "Sous-titres instantanés Chrome",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Langues",
+            "19 (dont thaï, turc, néerlandais, chinois traditionnel)",
+            "14 variantes (dont arabe, russe, PT/BR)"
+          ],
+          [
+            "Traduire les sous-titres",
+            "Oui, Traduction instantanée (ordinateur + Chromebook Plus)",
+            "Non, exportez et collez dans DeepL / Google Traduction"
+          ],
+          [
+            "Garder et exporter le texte",
+            "Non",
+            "Oui (.txt, .md, presse-papiers)"
+          ],
+          [
+            "Fonctionne avec un casque",
+            "Oui",
+            "Mode IA uniquement"
+          ],
+          [
+            "Prix",
+            "Gratuit",
+            "Mode gratuit ; mode IA dès 5 $ les 5 h (prix en USD, Stripe convertit en euros)"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Meilleures extensions Chrome de sous-titres",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Gardez vos cours en texte, en 14 langues",
+    "body": "LessonScriptor transforme ce qui joue dans votre onglet Chrome en transcription modifiable, en français, anglais, espagnol, allemand, arabe et plus. Mode gratuit, sans inscription.",
+    "button_label": "Ajouter LessonScriptor à Chrome — gratuit",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Les Sous-titres instantanés de Chrome fonctionnent-ils en français ?",
+        "answer": "Oui. Le français fait partie des 19 langues. Ouvrez chrome://settings/accessibility, activez Sous-titres instantanés, cliquez sur Ajouter des langues à côté de Gérer les langues, choisissez Français puis sélectionnez-le dans la liste. Dans un Chrome en anglais, l'option s'appelle Live Caption."
+      },
+      {
+        "question": "Comment changer la langue des sous-titres instantanés de Chrome ?",
+        "answer": "Allez dans chrome://settings/accessibility, activez Sous-titres instantanés, puis à côté de Gérer les langues cliquez sur Ajouter des langues. Chrome télécharge le pack, et vous choisissez la langue dans la liste déroulante. Sous Linux, ouvrez d'abord l'entrée Sous-titres."
+      },
+      {
+        "question": "Comment traduire un cours en anglais en sous-titres français dans Chrome ?",
+        "answer": "Avec la Traduction instantanée. Dans chrome://settings/accessibility, activez Sous-titres instantanés (avec l'anglais ajouté) et Traduction instantanée, puis choisissez Français à côté de Traduire en. Elle est proposée sur Windows, Mac, Linux et Chromebook Plus, pas sur Chrome Android ou iPhone. Le texte des sous-titres est envoyé à Google pour la traduction."
+      },
+      {
+        "question": "LessonScriptor traduit-il les transcriptions ?",
+        "answer": "Non. LessonScriptor transcrit dans la langue parlée, en 14 variantes de langues, et ne traduit pas. Pour une traduction, exportez la transcription en .txt ou .md, ou copiez-la, et collez-la dans DeepL ou Google Traduction."
+      },
+      {
+        "question": "Chrome sous-titre-t-il l'arabe ?",
+        "answer": "Non. L'arabe et le russe ne font pas partie des 19 langues des Sous-titres instantanés. LessonScriptor transcrit l'arabe et le russe dans une transcription modifiable et exportable."
+      },
+      {
+        "question": "Peut-on apprendre une langue avec les sous-titres de Chrome ?",
+        "answer": "Oui, comme aide à la lecture. Pour travailler le vocabulaire, LessonScriptor garde une transcription où vous surlignez les mots nouveaux en 5 couleurs, puis vous exportez le texte et recopiez les mots dans Anki vous-même."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Sous-titres Chrome en français et autres langues : l'essentiel",
+    "body": "Les Sous-titres instantanés de Chrome sous-titrent 19 langues sur votre appareil, dont le français, l'anglais, l'espagnol, l'allemand, le portugais et les deux formes du chinois. Ajoutez la vôtre dans chrome://settings/accessibility, sous Gérer les langues. La Traduction instantanée traduit ensuite ces sous-titres vers plus de 100 langues sur Windows, Mac, Linux et Chromebook Plus, en envoyant le texte à Google. Chrome ne sous-titre ni l'arabe ni le russe, et ses sous-titres disparaissent après deux lignes. LessonScriptor transcrit 14 variantes de langues, arabe et russe compris, dans une transcription à corriger, surligner et exporter. Il ne traduit pas, mais son export se colle directement dans DeepL ou Google Traduction."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Sous-titres instantanés en français dans Chrome (et 18 autres langues)",
+      "description": "Activez les Sous-titres instantanés de Chrome en français, traduisez-les avec la Traduction instantanée et gardez une transcription de vos cours en amphi.",
+      "inLanguage": "fr",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/sous-titres-live-autres-langues-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie avec un TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Les Sous-titres instantanés de Chrome fonctionnent-ils en français ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Le français fait partie des 19 langues. Ouvrez chrome://settings/accessibility, activez Sous-titres instantanés, cliquez sur Ajouter des langues à côté de Gérer les langues, choisissez Français puis sélectionnez-le dans la liste. Dans un Chrome en anglais, l'option s'appelle Live Caption."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment changer la langue des sous-titres instantanés de Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Allez dans chrome://settings/accessibility, activez Sous-titres instantanés, puis à côté de Gérer les langues cliquez sur Ajouter des langues. Chrome télécharge le pack, et vous choisissez la langue dans la liste déroulante. Sous Linux, ouvrez d'abord l'entrée Sous-titres."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment traduire un cours en anglais en sous-titres français dans Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avec la Traduction instantanée. Dans chrome://settings/accessibility, activez Sous-titres instantanés (avec l'anglais ajouté) et Traduction instantanée, puis choisissez Français à côté de Traduire en. Elle est proposée sur Windows, Mac, Linux et Chromebook Plus, pas sur Chrome Android ou iPhone. Le texte des sous-titres est envoyé à Google pour la traduction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor traduit-il les transcriptions ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. LessonScriptor transcrit dans la langue parlée, en 14 variantes de langues, et ne traduit pas. Pour une traduction, exportez la transcription en .txt ou .md, ou copiez-la, et collez-la dans DeepL ou Google Traduction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome sous-titre-t-il l'arabe ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. L'arabe et le russe ne font pas partie des 19 langues des Sous-titres instantanés. LessonScriptor transcrit l'arabe et le russe dans une transcription modifiable et exportable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on apprendre une langue avec les sous-titres de Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, comme aide à la lecture. Pour travailler le vocabulaire, LessonScriptor garde une transcription où vous surlignez les mots nouveaux en 5 couleurs, puis vous exportez le texte et recopiez les mots dans Anki vous-même."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sous-titres instantanés Chrome en français (+ traduction)",
+          "item": "https://lessonscriptor.com/fr/blog/sous-titres-live-autres-langues-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Aide Google Chrome — Gérer les sous-titres et les traductions dans Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=fr",
+      "external": true
+    },
+    {
+      "text": "OpenAI Whisper — modèle de reconnaissance vocale multilingue",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-headphones"
+    ]
+  }
+}

@@ -2,8 +2,8 @@
   "slug": "live-captions-other-languages-chrome",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Chrome Live Captions in French, Spanish, German and 17 Other Languages",
-  "reading_time_min": 7,
+  "h1": "Chrome Live Captions in French, Spanish, German and 16 Other Languages",
+  "reading_time_min": 8,
   "published_at": "2026-04-28",
   "updated_at": "2026-10-28",
   "meta": {
@@ -12,7 +12,7 @@
     "og_image": "/images/blog/live-captions-other-languages-chrome-hero.png",
     "canonical": "https://lessonscriptor.com/blog/live-captions-other-languages-chrome",
     "og_title": "Chrome Live Captions in French, Spanish, German and Other Languages",
-    "og_description": "Get live captions in French, Spanish, German, Mandarin and more in Chrome — comparison of built-in and extension options.",
+    "og_description": "Get live captions in French, Spanish, German, Chinese and more in Chrome, translate them with Live Translate, and know what to do when your language is missing.",
     "twitter_card": "summary_large_image",
     "keywords": [
       "live caption translate chrome",
@@ -35,212 +35,284 @@
   },
   "tldr": {
     "label": "Key takeaways",
-    "lead": "Chrome's built-in Live Caption now supports 20+ languages including French, Spanish, German, and Mandarin. For academic content where accuracy on technical vocabulary matters, LessonScriptor supports 14 languages with a personal vocabulary dictionary.",
+    "lead": "Chrome's built-in Live Caption captions 19 languages, including French, Spanish, German, Portuguese and both Simplified and Traditional Chinese. Its Live Translate option can translate those captions into 100+ languages on Windows, Mac, Linux and Chromebook Plus. LessonScriptor transcribes 14 language variants into an editable, exportable transcript, but it does not translate.",
     "bullets": [
-      "Chrome's built-in Live Caption supports 20+ languages: English, French, Spanish, German, Portuguese, Italian, Japanese, Korean, Mandarin, Dutch, Polish, Hindi, Indonesian, Swedish, Turkish, Danish, Norwegian, and more.",
-      "To change language in Chrome's Live Caption: chrome://settings/accessibility → Live Caption → Language.",
-      "Chrome's multilingual captions are accurate for everyday speech but degrade on academic vocabulary, proper nouns, and technical terminology in non-English languages.",
-      "LessonScriptor supports 14 languages and adds a personal vocabulary dictionary — you can add French professor names, Spanish academic terms, or German compounds that Chrome's model consistently misrecognises.",
-      "For language learning, LessonScriptor's editable transcript lets you annotate vocabulary, highlight unfamiliar terms, and export flashcard-ready notes."
+      "Chrome Live Caption languages (per Google's help page): English, Danish, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Spanish, Simplified Chinese, Traditional Chinese, Swedish, Thai and Turkish.",
+      "To add a language: Chrome Settings → Accessibility (shortcut: chrome://settings/accessibility) → turn on Live Caption → next to \"Manage languages\", click Add languages → pick the caption language from the dropdown.",
+      "Live Translate turns Chrome's captions into another language in real time. It is listed for Windows, Mac, Linux and Chromebook Plus, not Chrome on Android or iPhone. Translated captions are sent to Google; plain captions stay on your device.",
+      "Chrome does not caption Arabic or Russian. LessonScriptor does, along with English (US/UK), French, Spanish, German, Italian, Portuguese (PT/BR), Simplified Chinese, Japanese, Korean and Hindi.",
+      "LessonScriptor transcribes in the language being spoken and does not translate. To read a lecture in another language, export the transcript (.txt or .md) and paste it into DeepL or Google Translate."
     ]
   },
-  "intro": "Chrome's built-in Live Caption supports more than 20 languages as of 2026 — including French, Spanish, German, Portuguese, Italian, Japanese, Korean, Mandarin Chinese, and others. The language is selectable in chrome://settings/accessibility → Live Caption → Language. For students and professionals who need higher accuracy on academic or technical content in these languages, LessonScriptor supports 14 languages with an AI model (OpenAI Whisper) that performs significantly better than Chrome's on-device speech recognition on academic vocabulary, proper nouns, and accented speech. This guide explains both options and helps you choose the right one for your use case.",
+  "intro": "Chrome Live Caption is Chrome's built-in, on-device captioning feature, and it now covers 19 languages: English, French, Spanish, German, Portuguese, Italian, Dutch, Polish, Danish, Norwegian, Swedish, Turkish, Hindi, Indonesian, Thai, Japanese, Korean, Simplified Chinese and Traditional Chinese. You add a language in **chrome://settings/accessibility**, and Chrome downloads a speech model for it. A second feature, Live Translate, translates those captions into 100+ languages on Windows, Mac, Linux and Chromebook Plus. The catch for students is that Live Caption shows two lines of text that disappear, and its on-device models struggle most with lecture jargon and proper nouns. LessonScriptor, a Chrome extension, writes the same audio into a transcript you can edit and export, in 14 language variants, including Arabic and Russian, which Chrome does not caption. This guide covers both tools, language by language, and is honest about what neither one does.",
   "stats": [
     {
-      "number": "20+",
-      "label": "languages supported by Chrome's built-in Live Caption"
+      "number": "19",
+      "label": "languages Chrome Live Caption can caption (Google help page, 2026)"
+    },
+    {
+      "number": "100+",
+      "label": "target languages for Chrome's Live Translate"
     },
     {
       "number": "14",
-      "label": "languages supported by LessonScriptor with AI model"
-    },
-    {
-      "number": "~85%",
-      "label": "accuracy of Chrome's on-device model for academic French content (vs ~94% for LessonScriptor Premium)"
+      "label": "language variants LessonScriptor transcribes, including Arabic and Russian"
     }
   ],
   "sections": [
     {
       "id": "what-languages-chrome-live-caption",
       "h2": "What languages does Chrome's Live Caption support?",
-      "body": "Chrome's built-in Live Caption supports the following languages as of 2026: English (US, UK, Australia, India), French, Spanish (Spain, Latin America), German, Portuguese (Brazil, Portugal), Italian, Japanese, Korean, Mandarin Chinese (Simplified and Traditional), Dutch, Polish, Hindi, Indonesian, Swedish, Turkish, Danish, Norwegian, Thai, and Vietnamese.\n\nTo select a language, go to `chrome://settings/accessibility`, click 'Live Caption', and use the Language dropdown. Chrome downloads the speech recognition model for your selected language — the initial download takes 1–3 minutes and requires an internet connection. After downloading, captions process entirely on-device.\n\nNote: Chrome's multilingual caption models are trained primarily on broadcast speech and general conversation. Academic content — lectures, conference presentations, scientific papers — contains vocabulary, phrasing, and speaking styles that differ significantly from the training data. This reduces accuracy on specialised terms, proper nouns, and cross-disciplinary content."
+      "body": "Chrome's Live Caption supports 19 languages, according to Google's Chrome Help page: English, Danish, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Norwegian, Polish, Portuguese, Spanish, Simplified Chinese, Traditional Chinese, Swedish, Thai and Turkish. Google lists one entry per language, with no separate regional variants such as Canadian French or Latin American Spanish.\n\nTo add a caption language on Windows or Mac:\n\n1. Open Chrome, click the three-dot menu → **Settings** → **Accessibility** (or paste **chrome://settings/accessibility** in the address bar).\n2. Turn on **Live Caption**.\n3. Next to **Manage languages**, click **Add languages** and choose yours. Chrome downloads the language pack automatically.\n4. Select the language you want captions in from the dropdown.\n\nOn Linux there is one extra step: Settings → Accessibility → **Captions**, then the same toggle. On a Chromebook, the switch lives under Settings → Accessibility → Manage accessibility features → **Audio and captions**.\n\nOnce the pack is downloaded, Live Caption runs on your device: Google says the audio and captions are processed locally and never leave the computer. That makes it private and free, but it also means the speech model is far smaller than a cloud model. In practice, everyday speech comes out well, while lecture vocabulary, names of researchers and institutions, and fast or accented speakers come out worst.\n\nTwo languages that many students need are missing: **Arabic** and **Russian**. If your lectures are in either, Chrome cannot caption them, and an extension such as LessonScriptor is the practical option.",
+      "internal_links": [
+        {
+          "text": "Live captions in Chrome: the complete guide",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Chrome Live Caption not working? Fixes",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "chrome-live-translate",
+      "h2": "Can Chrome translate live captions into another language?",
+      "body": "Yes. Chrome's **Live Translate** feature translates Live Caption text into more than 100 languages as the audio plays. You could watch a German lecture and read English captions, or watch an English talk and read French ones. Google's help page lists Live Translate for **Windows, Mac, Linux and Chromebook Plus**. It is not listed for Chrome on Android or iPhone, and standard Chromebooks only get Live Caption. Google first tested the feature in Chrome Canary in 2023. Update to the current stable Chrome before looking for the switch, because older versions don't have it.\n\nTo turn on Live Translate on Windows or Mac:\n\n1. Go to **chrome://settings/accessibility** (three-dot menu → Settings → Accessibility).\n2. Make sure **Live Caption** is on, and that the language being spoken is added as a caption language.\n3. Turn on **Live Translate**.\n4. Next to **Translate to**, pick the language you want to read. On Chromebook Plus, the dropdown is called **Translate captions to**.\n\nThere are two limits worth knowing. First, the source audio must be one of the 19 Live Caption languages, so an Arabic or Russian lecture can't be translated this way. Second, the privacy model changes: plain captions stay on your device, but to translate them Chrome sends the caption text to Google. Machine translation of live speech also compounds errors. If Chrome mishears a technical term, the translation will be wrong too, so treat translated captions as a comprehension aid, not a study record.\n\n**What about LessonScriptor?** LessonScriptor does not translate. It transcribes in the language being spoken (14 language variants) and keeps the text. If you need a translation, a reliable workflow is to export the transcript as .txt or .md, or copy it to the clipboard, then paste it into DeepL or Google Translate. You then have the original and the translation side by side, and you can check any term that looks wrong.",
+      "callout": {
+        "type": "tip",
+        "label": "Best of both",
+        "body": "For a foreign-language lecture, run Chrome's Live Translate to follow along, and LessonScriptor to keep a transcript in the original language. After class, paste the export into DeepL and check the passages you didn't understand."
+      },
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption vs LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
     },
     {
       "id": "chrome-captions-french",
       "h2": "How do I get live captions in French in Chrome?",
-      "body": "To enable French live captions in Chrome:\n\n1. Open Chrome and go to `chrome://settings/accessibility`.\n2. Find 'Live Caption' and ensure it's turned on.\n3. Click on 'Live Caption' to expand the settings.\n4. Under 'Language', select 'French (France)' or 'French (Canada)'.\n5. Chrome will download the French speech recognition model (about 30–50MB).\n6. Once downloaded, Chrome's caption bubble will appear in French for any French-language audio.\n\nFor French academic content — university lectures, French MOOCs on Coursera or FUN-MOOC, French podcast transcription — Chrome's French model performs well on standard spoken French but struggles with domain-specific terminology, professor names, and institutional names (Sciences Po, EHESS, CNRS).\n\nLessonScriptor's Premium mode uses OpenAI's Whisper model for French, which was trained on a broader range of French content including academic and professional speech, and produces noticeably higher accuracy on these terms. You can also add specific terms to LessonScriptor's vocabulary dictionary — for example, adding your professor's name ensures it's always transcribed correctly."
+      "body": "French is one of Chrome's 19 Live Caption languages. To get French captions:\n\n1. Open **chrome://settings/accessibility**.\n2. Turn on **Live Caption**.\n3. Next to **Manage languages**, click **Add languages** and pick French.\n4. Select French in the caption language dropdown. Chrome downloads the French pack, then captions any French audio in a tab.\n\nIf Chrome is set to French, the same switch is called **Sous-titres instantanés**, under Paramètres → Accessibilité.\n\nFor French academic content, such as lectures on Moodle, MOOCs on FUN-MOOC or Coursera, or France Culture podcasts, Chrome handles standard spoken French well. It struggles with domain terms, professors' names and institutions such as Sciences Po, EHESS or CNRS.\n\nLessonScriptor transcribes French in its free mode (Chrome's speech recognition via the microphone) or in AI mode, which sends tab audio to Whisper-class cloud models. AI mode is noticeably more accurate on accents and jargon. Because the transcript is editable, you can fix a misheard name once and keep the corrected text."
     },
     {
       "id": "chrome-captions-spanish",
       "h2": "How do I get live captions in Spanish in Chrome?",
-      "body": "The process for Spanish is identical to French: go to `chrome://settings/accessibility` → Live Caption → Language → select 'Spanish (Spain)' or 'Spanish (Latin America)'.\n\nChrome distinguishes between Castilian Spanish (Spain) and Latin American Spanish, which matters for accent recognition. If you're watching content from a Spanish university, select 'Spanish (Spain)'. For Mexican, Argentinian, Colombian, or other Latin American content, select 'Spanish (Latin America)'.\n\nFor Spanish academic content, Chrome's model handles standard lecture speech well. It degrades on rapid-speech professors, regional accents (Catalan Spanish, Rioplatense), and technical vocabulary in fields like law, medicine, and engineering.\n\nLessonScriptor's Spanish support covers both variants and uses Whisper's multilingual model, which has substantially more training data for Spanish academic content than Chrome's on-device model."
+      "body": "Spanish works the same way. Go to **chrome://settings/accessibility**, turn on **Live Caption**, add Spanish under **Manage languages**, then select it in the dropdown. In a Spanish-language Chrome, the feature is called **Subtítulos automáticos**, under Configuración → Accesibilidad.\n\nGoogle lists a single Spanish entry, so the same model handles Castilian, Mexican, Argentine or Colombian speakers. It does well on clear lecture speech and less well on fast speakers, strong regional accents (Rioplatense, Andalusian, Caribbean) and technical vocabulary in law, medicine or engineering.\n\nLessonScriptor has one Spanish option (Español). Its AI mode uses cloud Whisper-class models, which generally handle accent variety and jargon better than an on-device model."
+    },
+    {
+      "id": "chrome-captions-portuguese",
+      "h2": "How do I get live captions in Portuguese in Chrome?",
+      "body": "Portuguese is on Chrome's Live Caption list as a single entry. Add it under **Manage languages** in **chrome://settings/accessibility**, then select it in the dropdown. In a Portuguese-language Chrome, the feature is called **Legenda instantânea**, under Configurações → Acessibilidade.\n\nThe model handles both Brazilian and European Portuguese, with the usual on-device weak spots: technical terms, names, and fast or overlapping speech.\n\nLessonScriptor offers two separate options, **Português (BR)** and **Português (PT)**. Choosing the matching variant helps with spelling and vocabulary differences such as *ônibus* and *autocarro*, or *registro* and *registo*."
     },
     {
       "id": "chrome-captions-german",
       "h2": "How do I get live captions in German in Chrome?",
-      "body": "For German captions, select 'German' in Chrome's Live Caption language settings. German is one of Chrome's stronger non-English caption languages because German-language broadcast media provided substantial training data.\n\nGerman-specific accuracy issues: compound nouns (Universitätsbibliothek, Forschungsschwerpunkt) are frequently split incorrectly or misrecognised. Academic institutions (Humboldt-Universität, Ludwig-Maximilians-Universität München) are often transcribed with errors.\n\nFor German academic or professional content, LessonScriptor's vocabulary dictionary is particularly useful — you can add long compound nouns and institution names that Chrome consistently gets wrong."
+      "body": "For German captions, add German under **Manage languages** in **chrome://settings/accessibility** and select it in the Live Caption dropdown. In a German-language Chrome, the feature is called **Automatische Untertitel**.\n\nGerman has a specific weak spot: long compound nouns such as *Universitätsbibliothek* or *Forschungsschwerpunkt* are often split or misheard, and so are institution names such as Humboldt-Universität or Ludwig-Maximilians-Universität München.\n\nWith LessonScriptor, the fix is manual but lasting. Correct the compound once in the editable transcript, highlight it, and the corrected version is what you export. AI mode tends to get long compounds right more often than on-device recognition does."
     },
     {
       "id": "chrome-captions-mandarin",
       "h2": "How do I get live captions in Mandarin (Chinese) in Chrome?",
-      "body": "Chrome supports both Simplified Chinese and Traditional Chinese for Live Caption. Select 'Chinese (Simplified)' for Mainland Chinese content and 'Chinese (Traditional)' for Taiwanese or Hong Kong content.\n\nMandarin is technically the most challenging language for on-device speech recognition due to tonal speech and the complexity of the writing system. Chrome's Mandarin model performs adequately for standard Putonghua (standard Mandarin) from Mainland Chinese broadcast sources, but accuracy drops significantly for Taiwanese Mandarin, Cantonese-influenced Mandarin, and academic content with technical terminology.\n\nLessonScriptor's Whisper model for Mandarin is significantly more accurate on academic and professional content — Whisper was trained on a substantially larger and more diverse Mandarin dataset than Chrome's on-device model.",
-      "links": [
+      "body": "Chrome's Live Caption offers two Chinese entries, **Simplified Chinese** and **Traditional Chinese**. In practice, both caption spoken Mandarin, and the choice decides which script the captions appear in. Pick Simplified Chinese for mainland content and Traditional Chinese for content from Taiwan or Hong Kong. In a Chinese-language Chrome, the feature is called **实时字幕**, under 设置 → 无障碍.\n\nMandarin is hard for on-device recognition because of tones, homophones and technical vocabulary. Chrome copes with standard Putonghua and drops on regional accents and specialised terms.\n\nLessonScriptor supports **Chinese (Simplified)** only. If you need Traditional characters, Chrome's built-in captions are the better fit. In mainland China, Google services are not generally reachable. That affects the Chrome Web Store, Live Caption language downloads and Live Translate, as well as the speech recognition behind LessonScriptor's free mode.",
+      "internal_links": [
         {
-          "text": "Live Captions in Chrome",
-          "href": "/live-captions-chrome",
-          "internal": true
+          "text": "Do Chrome live captions work with headphones?",
+          "url": "/blog/chrome-live-captions-headphones"
         }
       ]
     },
     {
       "id": "lessonscriptor-language-learning",
       "h2": "Can I use Chrome live captions for language learning?",
-      "body": "Yes. Both Chrome's built-in Live Caption and LessonScriptor are useful for language learning, but in different ways.\n\n**Chrome's built-in captions for language learning:** Useful as a reading aid when watching foreign-language videos. The real-time caption bubble helps you follow along with content in French, Spanish, German, or another target language. The limitation for language learning is that the captions are read-only — you can't highlight vocabulary, add notes, or export a word list.\n\n**LessonScriptor for language learning:** The editable transcript is significantly more useful for active language learning. As you watch a French video, you can highlight vocabulary you don't know, add your own translation notes in the margin, and export the annotated transcript as a vocabulary study list. The ability to pause, edit, and annotate turns passive caption-reading into active vocabulary acquisition.\n\nFor language learners, LessonScriptor's workflow is: watch the video with live captions → highlight unknown vocabulary as it appears → export the annotated transcript → paste into Anki or your flashcard app to study.",
-      "links": [
+      "body": "Yes, and the two tools help in different ways.\n\n**Chrome's built-in captions** work as a reading aid. Following a French or Spanish video with captions in the same language trains your ear, and Live Translate can show your native language when you're lost. The limit is that captions are read-only and vanish after two lines, so nothing is left to review.\n\n**LessonScriptor** keeps the text. As the video plays, the transcript builds in the side panel. You can highlight unfamiliar words in one of five colours, add headers, and delete what you don't need. Afterwards, export the transcript as .txt or .md.\n\nA simple study workflow is to watch with LessonScriptor running, highlight new vocabulary as it appears, then export. Copy the highlighted words into Anki or your flashcard app by hand, and paste tricky sentences into DeepL to check meaning. LessonScriptor doesn't generate flashcards or translations itself; those steps are yours.",
+      "internal_links": [
         {
-          "text": "Live Captions in Chrome",
-          "href": "/live-captions-chrome",
-          "internal": true
+          "text": "Live captions for Zoom recordings in Chrome",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
         }
       ]
     },
     {
       "id": "which-tool-multilingual",
       "h2": "Which tool should I use for non-English live captions in Chrome?",
-      "body": "Use Chrome's built-in Live Caption if: you need quick, temporary captions in French, Spanish, German, Italian, Japanese, Korean, or another of the 20+ supported languages; you don't need to save or export the transcript; and you're watching general-purpose content rather than academic or technical material.\n\nUse LessonScriptor if: you're watching academic or professional content in a non-English language where accuracy on technical terms matters; you're learning a language and want to annotate vocabulary; you use headphones; or you need to export the transcript for study. LessonScriptor supports French, Spanish, German, Portuguese, Italian, Dutch, Polish, Japanese, Korean, Mandarin, Russian, Arabic, Hindi, and Turkish.\n\nUse Notta if: you need live captions or transcription in languages beyond what LessonScriptor supports — particularly Vietnamese, Thai, Indonesian, or other Southeast Asian languages where Notta has stronger coverage.",
-      "links": [
+      "body": "**Use Chrome's built-in Live Caption** if your language is one of its 19, you want quick captions that disappear, and you don't need to keep the text. Turn on Live Translate if you want to read the captions in another language on Windows, Mac, Linux or Chromebook Plus.\n\n**Use LessonScriptor** if you need to keep, edit and export what was said, or if your lecture is in **Arabic or Russian**, which Chrome does not caption. LessonScriptor's 14 variants are English (US and UK), French, Spanish, German, Italian, Portuguese (Portugal and Brazil), Simplified Chinese, Japanese, Korean, Russian, Arabic and Hindi. AI mode captures tab audio, so it works with headphones. Free mode listens through the microphone, so it needs speakers.\n\n**Neither covers it** if your lecture is in Dutch, Polish, Swedish, Danish, Norwegian, Turkish, Thai or Indonesian and you need an exportable transcript. Chrome captions those languages but LessonScriptor doesn't, so look at a multilingual transcription service such as Notta, which has a free tier.",
+      "table": {
+        "headers": ["Need", "Chrome Live Caption", "LessonScriptor"],
+        "rows": [
+          ["Languages", "19 (incl. Thai, Turkish, Dutch, Traditional Chinese)", "14 variants (incl. Arabic, Russian, PT/BR)"],
+          ["Translate captions", "Yes, Live Translate (desktop + Chromebook Plus)", "No, export and paste into DeepL / Google Translate"],
+          ["Keep and export text", "No", "Yes (.txt, .md, clipboard)"],
+          ["Works with headphones", "Yes", "AI mode only"],
+          ["Price", "Free", "Free mode; AI mode from $5 for 5 hours"]
+        ]
+      },
+      "internal_links": [
         {
-          "text": "Best Chrome Extensions for Live Captions",
-          "href": "/blog/best-chrome-extensions-live-captions",
-          "internal": true
+          "text": "Best Chrome extensions for live captions",
+          "url": "/blog/best-chrome-extensions-live-captions"
         }
       ]
     }
   ],
   "cta": {
-    "heading": "Live captions in 14 languages — free to start",
-    "body": "LessonScriptor supports French, Spanish, German, Portuguese, Mandarin, and 9 more languages. Editable, exportable. Free mode, no sign-up.",
+    "heading": "Keep your lecture captions, in 14 languages",
+    "body": "LessonScriptor turns what plays in your Chrome tab into an editable transcript in French, Spanish, German, Portuguese, Chinese, Arabic and more. Free mode, no sign-up.",
     "button_label": "Add LessonScriptor to Chrome — free",
     "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
   },
   "faq": {
-    "section_title": "Frequently asked questions",
-    "items": [
+    "heading": "Frequently asked questions",
+    "questions": [
       {
-        "q": "Does Chrome live caption work in French?",
-        "a": "Yes. Chrome's built-in Live Caption supports French (France) and French (Canada). Go to chrome://settings/accessibility → Live Caption → Language to select French. Chrome downloads a French speech recognition model for on-device processing. For higher accuracy on academic French content, LessonScriptor uses OpenAI Whisper for French transcription."
+        "question": "Does Chrome live caption work in French?",
+        "answer": "Yes. French is one of Chrome Live Caption's 19 languages. Open chrome://settings/accessibility, turn on Live Caption, click Add languages next to Manage languages, choose French, then select it in the dropdown. In French-language Chrome the feature is called Sous-titres instantanés."
       },
       {
-        "q": "How do I change the language for Chrome live captions?",
-        "a": "Go to chrome://settings/accessibility, click 'Live Caption', and use the Language dropdown to select your target language. Chrome will download the required model for that language (30–50MB). The download requires internet access; after that, captions process on-device."
+        "question": "How do I change the language for Chrome live captions?",
+        "answer": "Go to chrome://settings/accessibility, turn on Live Caption, then next to Manage languages click Add languages and pick your language. Chrome downloads the language pack, and you select it from the caption language dropdown. On Linux, open the Captions entry first."
       },
       {
-        "q": "Does Chrome live caption support Mandarin Chinese?",
-        "a": "Yes. Chrome supports both Simplified Chinese and Traditional Chinese. Select 'Chinese (Simplified)' or 'Chinese (Traditional)' in the Live Caption language settings. LessonScriptor also supports Mandarin with OpenAI Whisper, which typically produces higher accuracy on academic and technical Mandarin content."
+        "question": "Does Chrome live caption support Mandarin Chinese?",
+        "answer": "Yes. Chrome offers Simplified Chinese and Traditional Chinese, which caption spoken Mandarin in the matching script. LessonScriptor supports Simplified Chinese only, so for Traditional characters Chrome's built-in captions are the better fit."
       },
       {
-        "q": "Can I use Chrome live captions to learn a language?",
-        "a": "Yes, as a reading aid while watching foreign-language videos. For active vocabulary learning, LessonScriptor is more useful because its transcript is editable and exportable — you can highlight vocabulary, add notes, and export a word list for flashcard study."
+        "question": "Can Chrome translate live captions into English or another language?",
+        "answer": "Yes, with Live Translate. In chrome://settings/accessibility, turn on Live Caption and Live Translate, then choose a language next to Translate to. It translates into 100+ languages and is listed for Windows, Mac, Linux and Chromebook Plus, not Chrome on Android or iPhone. Translated captions are sent to Google."
+      },
+      {
+        "question": "Does LessonScriptor translate transcripts?",
+        "answer": "No. LessonScriptor transcribes in the language being spoken, in 14 language variants, and does not translate. To get a translation, export the transcript as .txt or .md, or copy it, and paste it into DeepL or Google Translate."
+      },
+      {
+        "question": "Can I use Chrome live captions to learn a language?",
+        "answer": "Yes, as a reading aid while watching foreign-language videos. For vocabulary work, LessonScriptor keeps an editable transcript where you can highlight new words in five colours and export the text, then copy words into Anki yourself."
       }
     ]
   },
   "summary": {
     "heading": "Chrome live captions in other languages: what you need to know",
-    "body": "Chrome's built-in Live Caption supports 20+ languages including French, Spanish, German, Portuguese, Italian, Japanese, Korean, and Mandarin. Select your language in chrome://settings/accessibility → Live Caption → Language. Chrome downloads an on-device model for each language — accurate for everyday speech, less so for academic or technical content. LessonScriptor supports 14 languages using OpenAI Whisper, with higher accuracy on academic vocabulary, proper nouns, and accented speech. For language learners, LessonScriptor's editable, exportable transcript turns passive caption-reading into active vocabulary acquisition. For casual multilingual caption needs, Chrome's built-in feature requires zero installation and works well."
+    "body": "Chrome Live Caption captions 19 languages on your device, including French, Spanish, German, Portuguese and Simplified and Traditional Chinese. Add yours in chrome://settings/accessibility under Manage languages. Live Translate then translates those captions into 100+ languages on Windows, Mac, Linux and Chromebook Plus, sending the caption text to Google. Chrome does not caption Arabic or Russian, and its captions vanish after two lines. LessonScriptor transcribes 14 language variants, Arabic and Russian included, into a transcript you can edit, highlight and export. It doesn't translate, but its export pastes straight into DeepL or Google Translate."
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Chrome Live Captions in French, Spanish, German and 17 Other Languages",
-        "description": "Chrome's built-in Live Caption supports 20+ languages. For academic accuracy in French, Spanish, and other languages, LessonScriptor adds AI-powered multilingual captions with a vocabulary dictionary.",
-        "datePublished": "2026-04-28",
-        "dateModified": "2026-04-28",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "Victoria",
-            "description": "Anthropology student with ADHD",
-            "url": "https://lessonscriptor.com"
-          },
-          {
-            "@type": "Person",
-            "name": "Pierre Girardot",
-            "description": "Developer & SEO",
-            "url": "https://lessonscriptor.com"
-          }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://lessonscriptor.com/logo.png",
-            "width": 600,
-            "height": 60
-          }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome Live Captions in French, Spanish, German and 16 Other Languages",
+      "description": "Chrome Live Caption supports 19 languages and Live Translate translates captions into 100+. How to set both up, and when to use LessonScriptor for an editable, exportable transcript.",
+      "inLanguage": "en",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/en/blog/live-captions-other-languages-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
         }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Does Chrome live caption work in French?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Chrome's Live Caption supports French (France) and French (Canada). Go to chrome://settings/accessibility → Live Caption → Language to select French."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "How do I change the language for Chrome live captions?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Go to chrome://settings/accessibility, click Live Caption, and use the Language dropdown. Chrome downloads the model for your selected language."
-            }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does Chrome live caption work in French?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. French is one of Chrome Live Caption's 19 languages. Open chrome://settings/accessibility, turn on Live Caption, click Add languages next to Manage languages, choose French, then select it in the dropdown. In French-language Chrome the feature is called Sous-titres instantanés."
           }
-        ]
-      }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I change the language for Chrome live captions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Go to chrome://settings/accessibility, turn on Live Caption, then next to Manage languages click Add languages and pick your language. Chrome downloads the language pack, and you select it from the caption language dropdown. On Linux, open the Captions entry first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Chrome live caption support Mandarin Chinese?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Chrome offers Simplified Chinese and Traditional Chinese, which caption spoken Mandarin in the matching script. LessonScriptor supports Simplified Chinese only, so for Traditional characters Chrome's built-in captions are the better fit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Chrome translate live captions into English or another language?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with Live Translate. In chrome://settings/accessibility, turn on Live Caption and Live Translate, then choose a language next to Translate to. It translates into 100+ languages and is listed for Windows, Mac, Linux and Chromebook Plus, not Chrome on Android or iPhone. Translated captions are sent to Google."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does LessonScriptor translate transcripts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. LessonScriptor transcribes in the language being spoken, in 14 language variants, and does not translate. To get a translation, export the transcript as .txt or .md, or copy it, and paste it into DeepL or Google Translate."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use Chrome live captions to learn a language?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, as a reading aid while watching foreign-language videos. For vocabulary work, LessonScriptor keeps an editable transcript where you can highlight new words in five colours and export the text, then copy words into Anki yourself."
+          }
+        }
+      ]
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Home",
-            "item": "https://lessonscriptor.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Blog",
-            "item": "https://lessonscriptor.com/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "Chrome Live Captions in Other Languages",
-            "item": "https://lessonscriptor.com/blog/live-captions-other-languages-chrome"
-          }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/en/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome Live Captions in Other Languages",
+          "item": "https://lessonscriptor.com/en/blog/live-captions-other-languages-chrome"
+        }
+      ]
     }
   ],
   "sources": [
     {
-      "text": "Google Chrome Help — Manage captions and translations",
-      "href": "https://support.google.com/chrome/answer/10538231",
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=en",
       "external": true
     },
     {

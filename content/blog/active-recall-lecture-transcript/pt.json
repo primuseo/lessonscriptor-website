@@ -1,0 +1,460 @@
+{
+  "slug": "active-recall-lecture-transcript",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Recordação ativa: como estudar a partir das anotações da aula (passo a passo)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Active recall: como estudar com as anotações da aula",
+    "description": "Active recall é se testar em vez de reler. Veja as evidências e transforme a transcrição da aula em perguntas, autotestes e revisões espaçadas para a prova.",
+    "keywords": [
+      "active recall",
+      "recordação ativa",
+      "método active recall",
+      "prática de recuperação",
+      "como estudar para o ENEM",
+      "estudar com TDAH"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/pt/blog/active-recall-transcricao-aulas",
+    "og_title": "Recordação ativa: como estudar a partir das anotações da aula (passo a passo)",
+    "og_description": "O que a pesquisa mostra sobre active recall e um passo a passo da transcrição da aula até a revisão espaçada.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Resumo rápido",
+    "lead": "Recordação ativa (active recall) é estudar puxando a informação da memória, normalmente respondendo perguntas com o caderno fechado, em vez de tentar colocá-la de volta relendo.",
+    "bullets": [
+      "No estudo de Roediger e Karpicke (2006), quem se testou três vezes lembrava 61 % de um texto uma semana depois; quem estudou em quatro sessões de releitura, 40 %.",
+      "A revisão de Dunlosky e colegas (2013) sobre 10 técnicas de estudo deu utilidade alta a apenas duas: autoteste e prática espaçada. Reler e grifar ficaram com utilidade baixa.",
+      "O método: capturar a aula como transcrição, transformar em uma lista de perguntas, se testar de caderno fechado e programar revisões espaçadas no Anki, RemNote ou Quizlet.",
+      "O LessonScriptor captura e estrutura a transcrição. Ele não gera perguntas nem flashcards: você escreve, ou cola a exportação no ChatGPT ou NotebookLM para ter um rascunho.",
+      "A pesquisa com estudantes com TDAH é menor e mista, mas a maioria dos estudos mostra que eles se beneficiam quase tanto quanto os outros."
+    ]
+  },
+  "stats": [
+    {
+      "number": "61 % vs 40 %",
+      "label": "de lembrança após uma semana: autoteste versus releitura (Roediger e Karpicke, 2006)"
+    },
+    {
+      "number": "2 de 10",
+      "label": "técnicas de estudo com utilidade alta segundo Dunlosky et al. (2013): autoteste e prática espaçada"
+    },
+    {
+      "number": "317",
+      "label": "experimentos na meta-análise de Cepeda et al. (2006) sobre prática espaçada"
+    }
+  ],
+  "intro": "Recordação ativa (active recall) é uma técnica de estudo em que você recupera a informação da memória, por exemplo respondendo perguntas com o caderno fechado, em vez de reler ou grifar o conteúdo. É o método de estudo mais bem comprovado da psicologia cognitiva: em um experimento de 2006 de Henry Roediger e Jeffrey Karpicke, da Washington University em St. Louis, os estudantes que se testaram lembravam, uma semana depois, cerca de metade a mais do que quem releu o mesmo texto. O problema é que a recordação ativa precisa de algo de onde puxar. Numa aula, isso significa um registro confiável do que foi dito, difícil de conseguir quando a atenção escapa, como acontece com muitos estudantes com TDAH. Este guia mostra o que as evidências dizem e traz um passo a passo para as provas da faculdade, o vestibular, o ENEM ou concursos: transcrição da aula, lista de perguntas, autoteste e revisão espaçada no Anki, RemNote ou Quizlet.",
+  "sections": [
+    {
+      "id": "what-is-active-recall",
+      "heading": "O que é recordação ativa (active recall)?",
+      "body": "Recordação ativa é trazer a informação de volta da memória sem olhar. Os pesquisadores chamam isso de prática de recuperação (retrieval practice), e o ganho que ela gera de efeito de teste. Responder um flashcard, explicar um conceito em voz alta, escrever numa folha em branco tudo o que você lembra ou resolver provas anteriores do vestibular são formas de recordação ativa.\n\nO oposto é a revisão passiva: reler o resumo, rever a videoaula, grifar a apostila. Dá a sensação de progresso porque o conteúdo parece familiar, mas familiaridade é reconhecimento, não recordação. Na prova você precisa produzir a resposta, então é isso que vale treinar.\n\nO ponto-chave para o estudante: a recordação ativa não serve só para checar o que você sabe. O próprio ato de lembrar muda a memória e a torna mais fácil de recuperar da próxima vez."
+    },
+    {
+      "id": "does-active-recall-work",
+      "heading": "Active recall funciona mesmo? O que a pesquisa diz",
+      "body": "A recordação ativa tem décadas de experimentos por trás, e vale conhecer três fontes pelo nome.\n\n**Roediger e Karpicke (2006), Psychological Science.** Universitários liam textos curtos. Alguns reliam; outros faziam testes de recordação livre, sem correção. No segundo experimento, um grupo estudou o texto em quatro sessões de 5 minutos (cerca de 14 leituras no total), outro estudou em três sessões e fez um teste, e outro estudou em uma única sessão e fez três testes (cerca de 3 leituras no total). Cinco minutos depois, a releitura ganhava: 83 % de lembrança no grupo que só releu contra 71 % no grupo que fez três testes. Uma semana depois, o resultado se invertia: 61 % para quem fez três testes, 56 % para quem fez um e 40 % para quem só releu. E justamente o grupo que só releu era o que achava que ia lembrar mais.\n\n**Dunlosky, Rawson, Marsh, Nathan e Willingham (2013), Psychological Science in the Public Interest.** Essa revisão avaliou 10 técnicas de estudo comuns pela eficácia em diferentes idades, conteúdos e tipos de prova. Só o autoteste e a prática espaçada receberam utilidade alta. Grifar, reler e resumir receberam utilidade baixa, e essas são justamente as técnicas que a maioria dos estudantes usa.\n\n**Karpicke e Blunt (2011), Science.** Estudantes que praticaram a recuperação lembraram mais num teste posterior do que os que fizeram mapas conceituais do mesmo conteúdo, inclusive em questões que pediam inferências.",
+      "callout": {
+        "type": "insight",
+        "label": "O que isso muda no seu estudo",
+        "body": "O resultado dos 5 minutos explica por que a releitura é tão persistente: no curto prazo, ela realmente parece funcionar melhor. O resultado de uma semana é o que a sua prova mede. Se só der tempo para uma técnica, escolha se testar em vez de reler."
+      },
+      "internal_links": [
+        {
+          "text": "7 métodos de anotação comparados (e quais funcionam com TDAH)",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    },
+    {
+      "id": "active-recall-vs-spaced-repetition",
+      "heading": "Qual a diferença entre active recall e repetição espaçada?",
+      "body": "A recordação ativa é como você revisa: recuperando em vez de relendo. A repetição espaçada é quando você revisa: em sessões espalhadas por dias e semanas em vez de concentradas na véspera da prova. São técnicas diferentes, e funcionam melhor juntas.\n\nA evidência a favor do espaçamento é tão forte quanto a do autoteste. A meta-análise de Cepeda, Pashler, Vul, Wixted e Rohrer, publicada em 2006 no Psychological Bulletin, reuniu 317 experimentos e concluiu que espaçar as sessões melhora a retenção no longo prazo. Também mostrou que o intervalo ideal cresce com o tempo que você precisa lembrar: para uma prova na semana que vem, revise depois de mais ou menos um dia; para o ENEM ou uma prova de residência daqui a meses, os intervalos devem se esticar para semanas.\n\nApps de flashcards como Anki, RemNote e Quizlet combinam as duas técnicas: cada cartão é uma pergunta de recordação, e o algoritmo decide quando ele volta."
+    },
+    {
+      "id": "why-rereading-feels-effective",
+      "heading": "Por que reler parece funcionar se não funciona?",
+      "body": "Reler parece eficaz por causa da fluência: na segunda leitura, a página flui melhor, e o cérebro confunde essa facilidade com domínio do conteúdo. No estudo de Roediger e Karpicke, quem só releu era quem mais tinha certeza de que lembraria do texto uma semana depois, e foi quem menos lembrou.\n\nA recordação ativa parece pior porque recuperar dá trabalho e você percebe cada lacuna. Esse desconforto é uma informação útil: uma pergunta que você não consegue responder mostra exatamente o que estudar, coisa que a releitura nunca faz."
+    },
+    {
+      "id": "how-to-steps",
+      "heading": "Como usar active recall com a transcrição de uma aula?",
+      "body": "Este método transforma uma aula em um conjunto de perguntas para você se testar nas semanas seguintes. Conte com 30 a 45 minutos por aula, divididos em várias sessões curtas.",
+      "steps": [
+        {
+          "strategy": "Capture a aula como transcrição",
+          "detail": "Use uma ferramenta de transcrição para não depender de anotações à mão. O LessonScriptor, uma extensão do Chrome, transcreve o que toca numa aba: o AVA ou Moodle da faculdade, o e-Disciplinas da USP, aulas da Unicamp, videoaulas de cursinho no YouTube ou Zoom e Google Meet no navegador. Adicione um título quando o assunto mudar e tire capturas de tela dos slides importantes. O modo gratuito escuta pelo microfone, então toque o áudio nos alto-falantes com 80 % de volume ou mais; o modo IA captura o áudio da aba e funciona com fone de ouvido."
+        },
+        {
+          "strategy": "Limpe e marque a transcrição",
+          "detail": "Em até 24 horas, releia a transcrição uma vez, rápido. Apague as digressões e marque definições, causas, exemplos e tudo o que o professor disse que cai na prova. É a única releitura do método, e serve para achar perguntas, não para aprender."
+        },
+        {
+          "strategy": "Escreva uma lista de perguntas",
+          "detail": "Transforme cada ponto marcado em uma pergunta. Mire em 10 a 20 por aula. Uma pergunta por linha; a resposta fica na transcrição, para você ter que puxá-la da memória."
+        },
+        {
+          "strategy": "Opcional: peça um rascunho de perguntas a um chatbot",
+          "detail": "Se escrever perguntas é onde você trava, exporte a transcrição em .txt ou .md e cole você mesmo no ChatGPT ou no NotebookLM, pedindo perguntas fiéis ao texto. Confira cada pergunta na transcrição antes de ficar com ela."
+        },
+        {
+          "strategy": "Teste-se com o caderno fechado",
+          "detail": "Responda cada pergunta em voz alta ou no papel sem olhar. Depois confira na transcrição e marque cada uma como certa, meio certa ou errada. As erradas são a sua lista de estudo."
+        },
+        {
+          "strategy": "Programe revisões espaçadas",
+          "detail": "Passe as perguntas para o Anki, RemNote ou Quizlet como flashcards, ou mantenha uma lista com datas. Revise depois de cerca de 1 dia, 3 dias, 1 semana e 2 a 3 semanas, e mais uma vez na semana da prova."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "O que o LessonScriptor faz e não faz",
+        "body": "O LessonScriptor captura a transcrição ao vivo e permite adicionar títulos, marcações em 5 cores e capturas de slides, e exportar em .txt ou .md. Ele não gera flashcards, simulados nem resumos. Escrever as perguntas, ou pedir a um chatbot que as proponha a partir da transcrição exportada, é um passo que você faz."
+      },
+      "internal_links": [
+        {
+          "text": "Modelo Cornell: a coluna de perguntas é uma lista pronta",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "how-to-write-questions",
+      "heading": "Como escrever boas perguntas de active recall?",
+      "body": "Uma boa pergunta de recordação pede uma coisa só, dá para responder de memória em menos de um minuto e mistura fatos simples com explicações. “O que o professor falou sobre mitocôndrias?” é vaga demais para testar; “Por que as dobras da membrana interna aumentam a produção de ATP?” funciona.",
+      "table": {
+        "headers": [
+          "Tipo de pergunta",
+          "Exemplo",
+          "Ideal para"
+        ],
+        "rows": [
+          [
+            "Definição",
+            "O que é custo de oportunidade?",
+            "Conceitos-chave, primeira revisão"
+          ],
+          [
+            "Causa e efeito",
+            "Por que a crise de 1929 enfraqueceu a República Velha?",
+            "História, Economia, Biologia"
+          ],
+          [
+            "Comparação",
+            "Em que os betabloqueadores diferem dos IECA?",
+            "Farmacologia, teorias, períodos"
+          ],
+          [
+            "Aplicação",
+            "Um preço máximo é fixado abaixo do equilíbrio. O que acontece com a oferta?",
+            "Provas com questões de cálculo"
+          ],
+          [
+            "Explique para um amigo",
+            "Explique o ciclo de Calvin em três frases.",
+            "Questões dissertativas e redação"
+          ],
+          [
+            "Folha em branco",
+            "Escreva tudo o que lembra da aula 6.",
+            "Revisão semanal"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Use a coluna Cornell",
+        "body": "Se você já faz anotações no método Cornell, a coluna de perguntas é a sua lista. Cubra a coluna de anotações e responda cada pergunta de memória."
+      }
+    },
+    {
+      "id": "chatgpt-notebooklm-questions",
+      "heading": "ChatGPT ou NotebookLM conseguem criar perguntas de active recall da minha transcrição?",
+      "body": "ChatGPT e NotebookLM conseguem propor perguntas a partir de uma transcrição colada, e é um atalho razoável quando o bloqueio da página em branco impede você de começar. O NotebookLM, do Google, é útil aqui porque responde a partir das fontes que você envia e mostra de onde vem cada resposta.\n\nTrês regras para manter isso honesto. Primeiro, peça perguntas só do texto, por exemplo: escreva 15 perguntas de resposta curta usando apenas esta transcrição de aula e cite a frase de onde vem cada resposta. Segundo, confira cada pergunta na transcrição, porque chatbots podem inventar detalhes. Terceiro, escreva pelo menos algumas perguntas você mesmo: decidir o que importa faz parte do aprendizado.\n\nIsso é um fluxo de trabalho seu, não uma função do LessonScriptor. O papel do LessonScriptor é entregar uma transcrição fiel e estruturada para você colar."
+    },
+    {
+      "id": "spaced-review-schedule",
+      "heading": "Com que frequência revisar com active recall?",
+      "body": "Um cronograma simples basta para a maioria das matérias. Cada revisão é curta, porque você só responde perguntas e não relê a aula.",
+      "table": {
+        "headers": [
+          "Quando",
+          "O que fazer",
+          "Tempo"
+        ],
+        "rows": [
+          [
+            "Dia 0 (dia da aula)",
+            "Capturar a transcrição, colocar títulos e capturas",
+            "Durante a aula"
+          ],
+          [
+            "Dia 1",
+            "Limpar a transcrição, escrever perguntas, primeiro autoteste",
+            "20 a 30 min"
+          ],
+          [
+            "Dia 3",
+            "Responder todas as perguntas; marcar os erros",
+            "10 min"
+          ],
+          [
+            "Dia 7",
+            "Os erros mais metade das outras, sorteadas",
+            "10 min"
+          ],
+          [
+            "Dia 14 a 21",
+            "Folha em branco sobre a aula inteira, depois conferir",
+            "15 min"
+          ],
+          [
+            "Semana da prova",
+            "Todas as perguntas, misturadas com outras aulas",
+            "Varia"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "h3": "Anki",
+          "body": "O Anki é gratuito no computador e de código aberto. Ele programa os cartões automaticamente e tem uma grande comunidade de baralhos compartilhados, muito usada por quem estuda Medicina, residência e concursos. A interface é simples, o que acalma alguns e afasta outros."
+        },
+        {
+          "h3": "RemNote",
+          "body": "O RemNote junta anotações e flashcards no mesmo app: uma linha das suas anotações pode virar cartão. Combina com quem quer as perguntas ao lado das anotações."
+        },
+        {
+          "h3": "Quizlet",
+          "body": "O Quizlet é o mais fácil para começar e tem modos de estudo em formato de jogo. É bom para vocabulário e definições; Anki e RemNote dão mais controle sobre os intervalos."
+        }
+      ]
+    },
+    {
+      "id": "active-recall-adhd",
+      "heading": "Active recall funciona com TDAH, e como adaptar?",
+      "body": "A recordação ativa funciona para a maioria dos estudantes com TDAH, embora a pesquisa ainda seja pequena. Um estudo de 2023 na Frontiers in Psychology contou apenas três trabalhos anteriores com universitários com TDAH: dois de Knouse e colegas (2016 e 2020) encontraram benefício igual ao dos outros estudantes, e um de Dudukovic e colegas (2015) não encontrou benefício. O próprio estudo de 2023 viu que a prática de recuperação ajudava os estudantes com TDAH, mas não compensava um aprendizado inicial mais fraco em quem não usava medicação. A consequência prática é que a captura importa: você não consegue lembrar o que nunca registrou, e por isso uma transcrição completa ajuda.\n\nA técnica também precisa se adaptar ao jeito como a atenção funciona no TDAH.",
+      "steps": [
+        {
+          "strategy": "Faça sessões pequenas",
+          "detail": "Dez perguntas com um timer de 10 minutos valem mais do que uma sessão de 2 horas que nunca começa. Pare enquanto ainda parece fácil voltar amanhã."
+        },
+        {
+          "strategy": "Limite os cartões novos",
+          "detail": "No Anki, diminua o número de cartões novos por dia. Uma fila de 400 cartões atrasados é um motivo clássico para estudantes com TDAH abandonarem a repetição espaçada."
+        },
+        {
+          "strategy": "Responda em voz alta ou em movimento",
+          "detail": "Falar as respostas em voz alta, andar enquanto lembra ou explicar para alguém mantém a ativação alta e dificulta a dispersão."
+        },
+        {
+          "strategy": "Comece com uma vitória fácil",
+          "detail": "Abra cada sessão com uma pergunta que você sabe responder. Com TDAH, começar costuma ser a parte mais difícil, e um acerto logo de cara baixa a barreira."
+        },
+        {
+          "strategy": "Use body doubling",
+          "detail": "Estude com alguém no mesmo cômodo ou numa chamada de vídeo, cada um na sua tarefa. Muitos estudantes com TDAH ficam mais focados com outra pessoa presente."
+        },
+        {
+          "strategy": "Resolva a captura primeiro",
+          "detail": "Se você perde o fio durante as aulas, trabalhe isso antes de tudo. Nosso guia sobre foco em aulas online com TDAH explica em detalhes."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Como manter o foco em aulas online com TDAH",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Resumindo",
+    "body": "Recordação ativa é se testar em vez de reler, e as evidências de Roediger e Karpicke (2006), Dunlosky et al. (2013) e Cepeda et al. (2006) mostram que ela funciona melhor junto com revisão espaçada. Para aulas, o método mais confiável é: transcrição, lista de perguntas, autoteste de caderno fechado e revisão espaçada no Anki, RemNote ou Quizlet. Com TDAH, mantenha sessões curtas e garanta primeiro uma boa captura.",
+    "internal_links": [
+      {
+        "text": "Ferramentas e estratégias para estudantes com TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "O que é active recall, de forma simples?",
+        "answer": "Active recall, ou recordação ativa, é se testar em vez de reler. Você fecha o caderno e tenta responder perguntas, explicar um conceito ou escrever tudo o que lembra, e depois confere o que errou."
+      },
+      {
+        "question": "Active recall é melhor do que reler?",
+        "answer": "Sim, para lembrar no longo prazo. No estudo de Roediger e Karpicke (2006), quem se testou lembrava 61 % de um texto após uma semana, contra 40 % de quem releu. A releitura só ganhou num teste feito 5 minutos depois."
+      },
+      {
+        "question": "Como fazer active recall com as anotações da aula?",
+        "answer": "Transforme cada ponto-chave das anotações ou da transcrição em uma pergunta curta, esconda as respostas, teste-se, confira nas anotações e revise as perguntas que errou depois de 1 dia, 3 dias e 1 semana."
+      },
+      {
+        "question": "Active recall é a mesma coisa que repetição espaçada?",
+        "answer": "Não. Active recall é como você revisa (puxando da memória); repetição espaçada é quando você revisa (espalhado no tempo). Apps de flashcards como o Anki combinam os dois."
+      },
+      {
+        "question": "O ChatGPT consegue criar flashcards da minha aula?",
+        "answer": "ChatGPT ou NotebookLM conseguem propor perguntas se você colar a transcrição de uma aula, mas confira cada uma na fonte porque eles podem inventar detalhes. O LessonScriptor não gera flashcards; ele entrega a transcrição de onde partir."
+      },
+      {
+        "question": "Active recall funciona para quem tem TDAH?",
+        "answer": "A maioria dos estudos com universitários com TDAH mostra que a prática de recuperação ajuda quase tanto quanto nos outros estudantes, embora um estudo não tenha encontrado benefício e a pesquisa seja pequena. Sessões curtas, limite de cartões novos e uma boa captura da aula ajudam a manter o hábito."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Recordação ativa: como estudar a partir das anotações da aula (passo a passo)",
+      "description": "Active recall é se testar em vez de reler. Veja as evidências e transforme a transcrição da aula em perguntas, autotestes e revisões espaçadas para a prova.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/pt/blog/active-recall-transcricao-aulas"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "O que é active recall, de forma simples?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Active recall, ou recordação ativa, é se testar em vez de reler. Você fecha o caderno e tenta responder perguntas, explicar um conceito ou escrever tudo o que lembra, e depois confere o que errou."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Active recall é melhor do que reler?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, para lembrar no longo prazo. No estudo de Roediger e Karpicke (2006), quem se testou lembrava 61 % de um texto após uma semana, contra 40 % de quem releu. A releitura só ganhou num teste feito 5 minutos depois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como fazer active recall com as anotações da aula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transforme cada ponto-chave das anotações ou da transcrição em uma pergunta curta, esconda as respostas, teste-se, confira nas anotações e revise as perguntas que errou depois de 1 dia, 3 dias e 1 semana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Active recall é a mesma coisa que repetição espaçada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. Active recall é como você revisa (puxando da memória); repetição espaçada é quando você revisa (espalhado no tempo). Apps de flashcards como o Anki combinam os dois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O ChatGPT consegue criar flashcards da minha aula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT ou NotebookLM conseguem propor perguntas se você colar a transcrição de uma aula, mas confira cada uma na fonte porque eles podem inventar detalhes. O LessonScriptor não gera flashcards; ele entrega a transcrição de onde partir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Active recall funciona para quem tem TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A maioria dos estudos com universitários com TDAH mostra que a prática de recuperação ajuda quase tanto quanto nos outros estudantes, embora um estudo não tenha encontrado benefício e a pesquisa seja pequena. Sessões curtas, limite de cartões novos e uma boa captura da aula ajudam a manter o hábito."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como usar active recall com a transcrição de uma aula?",
+      "inLanguage": "pt-BR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Capture a aula como transcrição",
+          "text": "Use uma ferramenta de transcrição para não depender de anotações à mão. O LessonScriptor, uma extensão do Chrome, transcreve o que toca numa aba: o AVA ou Moodle da faculdade, o e-Disciplinas da USP, aulas da Unicamp, videoaulas de cursinho no YouTube ou Zoom e Google Meet no navegador. Adicione um título quando o assunto mudar e tire capturas de tela dos slides importantes. O modo gratuito escuta pelo microfone, então toque o áudio nos alto-falantes com 80 % de volume ou mais; o modo IA captura o áudio da aba e funciona com fone de ouvido."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Limpe e marque a transcrição",
+          "text": "Em até 24 horas, releia a transcrição uma vez, rápido. Apague as digressões e marque definições, causas, exemplos e tudo o que o professor disse que cai na prova. É a única releitura do método, e serve para achar perguntas, não para aprender."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Escreva uma lista de perguntas",
+          "text": "Transforme cada ponto marcado em uma pergunta. Mire em 10 a 20 por aula. Uma pergunta por linha; a resposta fica na transcrição, para você ter que puxá-la da memória."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Opcional: peça um rascunho de perguntas a um chatbot",
+          "text": "Se escrever perguntas é onde você trava, exporte a transcrição em .txt ou .md e cole você mesmo no ChatGPT ou no NotebookLM, pedindo perguntas fiéis ao texto. Confira cada pergunta na transcrição antes de ficar com ela."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Teste-se com o caderno fechado",
+          "text": "Responda cada pergunta em voz alta ou no papel sem olhar. Depois confira na transcrição e marque cada uma como certa, meio certa ou errada. As erradas são a sua lista de estudo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Programe revisões espaçadas",
+          "text": "Passe as perguntas para o Anki, RemNote ou Quizlet como flashcards, ou mantenha uma lista com datas. Revise depois de cerca de 1 dia, 3 dias, 1 semana e 2 a 3 semanas, e mais uma vez na semana da prova."
+        }
+      ]
+    }
+  ]
+}

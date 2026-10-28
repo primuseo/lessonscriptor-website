@@ -2,81 +2,448 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Cómo transcribir vídeos de clase automáticamente",
-  "reading_time_min": 7,
+  "h1": "Cómo transcribir un video de clase: 5 métodos comparados",
+  "reading_time_min": 11,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "Cómo transcribir un video de clase: 5 métodos comparados",
+    "description": "Cómo transcribir un video de clase de Moodle, Canvas, YouTube o Zoom sin descargarlo: métodos manuales, subtítulos, apps de subida y Chrome, comparados.",
     "keywords": [
-      "transcribe lecture video",
-      "automatic lecture transcription",
-      "lecture to text"
+      "cómo transcribir un video",
+      "transcribir clases",
+      "transcripción de clases",
+      "transcribir video de clase",
+      "mejor forma de grabar clases",
+      "pasar una clase grabada a texto"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria y Pierre desarrollan LessonScriptor, una extensión de Chrome para la transcripción de vídeo en tiempo real. Victoria estudia Antropología y tiene TDAH. Pierre se encarga del desarrollo y el SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria y Pierre desarrollan LessonScriptor, una extensión de Chrome para transcribir video en vivo. Victoria estudia Antropología a distancia y tiene TDAH. Pierre se encarga del desarrollo y del SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "La forma más rápida de transcribir un vídeo de clase automáticamente es usar LessonScriptor — una extensión de Chrome gratuita que transcribe cualquier vídeo en tiempo real mientras se reproduce, directamente en tu navegador. Sin subir archivos, sin esperas, sin suscripción.",
+  "tldr": {
+    "label": "Puntos clave",
+    "lead": "La transcripción de clases es el proceso de convertir el audio de una clase en texto en el que puedes buscar. El método adecuado depende de una sola pregunta: ¿tienes el archivo de video o solo una transmisión que puedes ver?",
+    "bullets": [
+      "**Transcribir a mano** lleva unas 4 horas de tecleo por cada hora de audio. Solo compensa para una cita breve que necesitas palabra por palabra.",
+      "**Los subtítulos automáticos de YouTube** y **los subtítulos del campus virtual** (Panopto, Canvas Studio, Kaltura dentro de Moodle) son gratis cuando tu universidad o quien subió el video los ha activado. Se leen en el reproductor y las opciones de exportación varían.",
+      "**Las herramientas de subida** como Otter.ai y TurboScribe son precisas, pero necesitan un archivo de audio o video. La mayoría de las clases grabadas en plataformas universitarias no se pueden descargar.",
+      "**La transcripción en vivo en el navegador** (LessonScriptor) convierte lo que suena en una pestaña de Chrome en una transcripción editable. No necesita archivo, ni descarga, ni grabación.",
+      "Grabar una clase suele requerir el permiso del profesor. Si tienes una discapacidad o TDAH, el servicio de apoyo de tu universidad (por ejemplo, UNIDIS en la UNED) puede concederte **adaptaciones** como grabaciones o transcripciones."
+    ]
+  },
+  "intro": "La forma más rápida de transcribir un video de clase es reproducirlo en Chrome con una extensión de transcripción en vivo como LessonScriptor, que convierte el audio en una transcripción de texto editable mientras el video avanza, sin archivo que subir y sin descargas. Esto importa porque la mayoría de las clases grabadas están en el Campus Virtual de tu universidad (Moodle, Canvas o Blackboard), en Panopto o en Zoom, donde el botón de descarga suele estar desactivado. Las herramientas de subida como Otter.ai y TurboScribe no pueden hacer nada sin un archivo. Esta guía compara las cinco formas realistas de transcribir clases en video: tecleo manual, subtítulos automáticos de YouTube, subtítulos integrados del campus virtual, herramientas de subida y transcripción en vivo en el navegador. Después explica paso a paso cada plataforma, con consejos de precisión y una nota sobre los permisos para grabar.",
   "sections": [
     {
-      "h2": "Por qué tomar apuntes a mano durante las clases no funciona",
-      "body": "Escribir a mano durante una clase te obliga a dividir tu atención entre escuchar, comprender y escribir — a menudo todo al mismo tiempo. Los estudios demuestran sistemáticamente que los estudiantes que transcriben las clases palabra por palabra retienen menos contenido que los que se involucran activamente. El problema no es la disciplina. Es la herramienta. Cuando estás ocupado escribiendo, no estás aprendiendo."
+      "id": "what-is-lecture-transcription",
+      "h2": "¿Qué es la transcripción de clases?",
+      "body": "La transcripción de clases es la conversión del contenido hablado de una clase en texto escrito, ya sea una transcripción literal o una versión limpia para estudiar. Para un estudiante cumple tres funciones a la vez. Libera tu atención de tomar apuntes durante la clase, permite buscar en segundos dentro de una grabación de 90 minutos y te da materia prima para hacer tus propios resúmenes, tarjetas de estudio o una plantilla Cornell.\n\nCuando alguien busca \"cómo transcribir un video\", suele estar en una de dos situaciones. O **tiene el archivo** (un MP4 grabado con el teléfono, una grabación de Zoom descargada, un pódcast), o **solo tiene una transmisión** (una clase en Panopto, un video del Campus Virtual, un MOOC de Coursera). La primera es fácil y muchas herramientas la resuelven. La segunda es donde se atasca la mayoría de los estudiantes, porque la plataforma no deja descargar nada."
     },
     {
-      "h2": "Cómo funciona la transcripción con IA en un navegador",
-      "body": "LessonScriptor usa dos motores de transcripción. El modo gratuito usa la Web Speech API, que está integrada en Chrome y procesa el audio localmente en tu dispositivo — nada sale nunca de tu ordenador. El modo premium captura el audio directamente de la pestaña del navegador y lo envía a un modelo de IA en la nube para la transcripción, devolviendo texto de alta precisión en cuestión de segundos."
+      "id": "methods-compared",
+      "h2": "¿Qué formas hay de transcribir un video de clase?",
+      "body": "Hay cinco métodos prácticos. Se diferencian sobre todo en si necesitan un archivo y en lo que obtienes al final: una pista de subtítulos que solo puedes leer en el reproductor, o un documento que puedes editar y exportar.",
+      "table": {
+        "headers": [
+          "Método",
+          "¿Necesita un archivo descargable?",
+          "Precio",
+          "Qué obtienes",
+          "Ideal para"
+        ],
+        "rows": [
+          [
+            "Tecleo manual",
+            "No",
+            "Gratis, unas 4 h por hora de audio",
+            "Texto exacto, muy lento",
+            "Citas breves"
+          ],
+          [
+            "Subtítulos automáticos de YouTube",
+            "No, pero el video debe estar en YouTube",
+            "Gratis",
+            "Panel de transcripción en YouTube, copiar y pegar",
+            "Clases públicas, MIT OpenCourseWare, Khan Academy en español"
+          ],
+          [
+            "Subtítulos del campus virtual (Panopto, Canvas Studio, Kaltura)",
+            "No",
+            "Gratis si tu universidad los activó",
+            "Subtítulos en el reproductor, a veces con búsqueda",
+            "Comprobar un término en los videos de tu asignatura"
+          ],
+          [
+            "Herramientas de subida (Otter.ai, TurboScribe)",
+            "Sí",
+            "Planes gratuitos y luego suscripción",
+            "Transcripción completa tras el procesamiento",
+            "Grabaciones del teléfono, MP4 descargados"
+          ],
+          [
+            "En vivo en el navegador (LessonScriptor)",
+            "No",
+            "Modo gratuito; modo IA desde 5 USD en pago único",
+            "Transcripción editable con resaltados y capturas, exportación .txt/.md",
+            "Transmisiones que no se pueden descargar, clases en vivo"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "La pregunta decisiva",
+        "body": "Si puedes descargar el video, una herramienta de subida funciona bien. Si solo puedes darle al play, necesitas los subtítulos de la propia plataforma o una herramienta que transcriba lo que suena en la pestaña."
+      }
     },
     {
-      "h2": "Paso a paso: cómo transcribir un vídeo de clase con LessonScriptor",
+      "id": "manual",
+      "h2": "¿Vale la pena transcribir una clase a mano?",
+      "body": "Transcribir a mano casi nunca compensa para una clase entera. Los transcriptores profesionales calculan unas cuatro horas de trabajo por cada hora de audio claro, y un estudiante sin pedal ni atajos de teclado va más lento. Una clase de 90 minutos puede llevarte un día entero.\n\nAun así, el tecleo manual tiene su lugar para una definición concreta, una cita para un trabajo o un pasaje donde importan las palabras exactas del profesor. Baja la velocidad de reproducción a 0,75x en los ajustes del reproductor, escribe en ráfagas cortas y pausa después de cada frase."
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "¿Cómo saco la transcripción de los subtítulos automáticos de YouTube?",
+      "body": "Los subtítulos automáticos de YouTube son subtítulos gratuitos de voz a texto que YouTube genera para la mayoría de los videos en los idiomas compatibles. Son la opción más fácil para clases públicas: MIT OpenCourseWare, Khan Academy en español o las conferencias que universidades como la UNAM o la UNED publican en sus canales oficiales. Sus límites: quien sube el video puede desactivarlos, en algunos idiomas les falta puntuación y suelen destrozar los términos técnicos y los nombres propios.",
       "steps": [
-        "Instala LessonScriptor desde la Chrome Web Store — es gratis, sin registro.",
-        "Abre tu vídeo de clase en Chrome (YouTube, Coursera, grabación de Zoom, portal universitario o cualquier plataforma de vídeo).",
-        "Haz clic en el icono de LessonScriptor en la barra de herramientas de Chrome para abrir el panel lateral.",
-        "Dale al play en el vídeo — la transcripción empieza automáticamente y el texto aparece en tiempo real.",
-        "Edita mientras miras: haz clic para añadir tus propias notas, resalta conceptos clave en color, pon en negrita la terminología, elimina divagaciones.",
-        "Haz clic en cualquier marca de tiempo de la transcripción para volver a ese momento exacto del vídeo.",
-        "Cuando termines, exporta a Markdown para obtener un documento formateado con todos tus resaltados y formato."
+        "Abre el video en youtube.com desde un navegador de escritorio.",
+        "Haz clic en **...más** debajo del título para desplegar la descripción.",
+        "Baja y haz clic en **Mostrar transcripción**. Se abre un panel con el texto del video.",
+        "Usa el menú de tres puntos del panel para ocultar las marcas de tiempo de YouTube y luego selecciona y copia el texto en tus apuntes."
+      ],
+      "internal_links": [
+        {
+          "text": "Guía completa: cómo descargar la transcripción de un video de YouTube",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "h2": "Modo gratuito vs modo Premium — cuál usar para las clases",
-      "body": "Para la mayoría de estudiantes, el modo gratuito es suficiente. Funciona bien en un entorno tranquilo con los altavoces encendidos. Si prefieres auriculares, o si estás transcribiendo contenido con mucho vocabulario técnico, acentos o habla rápida, el modo Premium ofrece una precisión significativamente mayor a unos 1 €/hora."
+      "id": "lms-captions",
+      "h2": "¿Panopto, Canvas y Moodle tienen transcripción de clases integrada?",
+      "body": "Panopto, Canvas Studio y Kaltura (a menudo integrado en Moodle y Blackboard) pueden generar subtítulos automáticos. Que los veas depende de la configuración de tu universidad y de si el profesor los publicó. Cuando existen, son la forma más barata de transcripción de clases en video. Eso sí, suelen quedarse encerrados en el reproductor: puedes leerlos y a veces buscar en ellos, pero rara vez exportar un documento limpio.",
+      "subsections": [
+        {
+          "h3": "Panopto",
+          "body": "Busca el botón **CC** en los controles del reproductor. Si hay subtítulos, el panel lateral del visor de Panopto suele permitir buscar las palabras pronunciadas y saltar a ese punto del video. Si no aparece el botón CC, el profesor no ha publicado subtítulos. Puedes pedírselo con amabilidad, sobre todo si tienes una adaptación reconocida."
+        },
+        {
+          "h3": "Canvas (Canvas Studio)",
+          "body": "Canvas es la plataforma de universidades como el Tec de Monterrey. Los videos de Canvas Studio muestran un control **CC** cuando hay subtítulos. Los profesores pueden solicitar subtítulos automáticos y publicarlos, así que si falta el botón, normalmente es que no lo han hecho. Los videos de YouTube o Panopto incrustados en una página de Canvas siguen las reglas de la plataforma original."
+        },
+        {
+          "h3": "Moodle (Campus Virtual)",
+          "body": "Moodle es la base de muchos campus virtuales, como el Campus Virtual de la Universidad Complutense o los campus de muchas facultades de la UBA. Moodle no subtitula los videos por sí mismo. El reproductor de tu asignatura suele ser Kaltura, Panopto, YouTube o un video HTML5 sencillo, y los subtítulos dependen de ese servicio. Revisa el control CC del reproductor. Si no hay nada, una herramienta de transcripción en vivo es la alternativa realista."
+        }
+      ]
     },
     {
-      "h2": "Cómo estudiar a partir de tu transcripción",
-      "body": "Una vez transcrita, trata tu documento de LessonScriptor como una guía de estudio. Resalta los conceptos más importantes en amarillo. Pon en negrita la terminología clave. Añade tu propia interpretación entre corchetes mientras repasas. Exporta a Markdown e impórtalo en Notion u Obsidian para almacenamiento a largo plazo. Busca en el texto completo antes de los exámenes. Si eres neurodivergente, la transcripción automática elimina la carga cognitiva de tomar notas simultáneamente — consulta <a href=\"/blog/neurodivergent-study-tools\">las mejores herramientas de estudio para estudiantes neurodivergentes</a>."
+      "id": "upload-tools",
+      "h2": "¿Qué herramientas transcriben el archivo de una clase grabada?",
+      "body": "Las herramientas de subida son servicios de transcripción que procesan un archivo de audio o video que tú les entregas. Otter.ai, TurboScribe, Notta y Descript funcionan así. Producen buenas transcripciones, a menudo con etiquetas de quién habla, y son la respuesta correcta cuando ya tienes el archivo: una nota de voz grabada en una clase presencial, una grabación de Zoom que el profesor compartió como MP4 o un episodio de pódcast.\n\nSu límite para los estudiantes es la entrada. Panopto, Canvas Studio y la mayoría de los reproductores de Moodle transmiten el video sin opción de descarga, así que no hay nada que subir. Grabar la pantalla para crear un archivo es lento, duplica el tiempo invertido y puede incumplir las condiciones de uso de tu universidad.",
+      "internal_links": [
+        {
+          "text": "Alternativas a Otter.ai para estudiantes",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "¿Cómo transcribo un video de clase sin descargarlo?",
+      "body": "La transcripción en vivo en el navegador es el método que funciona cuando solo puedes darle al play. LessonScriptor es una extensión de Chrome que transcribe el audio de lo que suena en la pestaña actual (Panopto, Canvas, Moodle, Blackboard, YouTube, Coursera, una grabación de Zoom en el navegador) en un panel lateral, con una transcripción que puedes editar mientras se va escribiendo. No sube archivos ni graba audio: guarda el texto, no una grabación.\n\nTiene dos modos. **El modo gratuito** usa el reconocimiento de voz integrado en Chrome a través de tu micrófono. No cuesta nada, no necesita cuenta y no envía audio a los servidores de LessonScriptor, pero necesita los altavoces encendidos a un 80 % del volumen aproximadamente, no funciona con auriculares y también capta tu propia voz. **El modo IA** captura directamente el audio de la pestaña, así que funciona con auriculares y es mucho más preciso con acentos y jerga técnica. Cuesta 5 USD por 5 horas, 12 USD por 15 horas o 21 USD por 30 horas, en pago único y sin suscripción, con una prueba gratuita de 30 minutos. Los precios están en dólares estadounidenses y Stripe los convierte a tu moneda local (euros, pesos mexicanos, pesos argentinos, etc.).",
+      "steps": [
+        "Instala LessonScriptor desde la Chrome Web Store. El modo gratuito no necesita registro.",
+        "Abre tu clase en Chrome: Panopto, Canvas, el Campus Virtual en Moodle, YouTube o una grabación de Zoom en la nube.",
+        "Haz clic en el icono de LessonScriptor para abrir el panel lateral y elige el idioma de la clase (hay 14 disponibles).",
+        "Dale al play. En modo gratuito, sube el volumen de los altavoces y quítate los auriculares. En modo IA, el texto llega en bloques cada 10 segundos (Normal) o cada 30 segundos (Óptimo).",
+        "Edita mientras ves la clase: resalta frases clave en uno de los cinco colores, pon términos en negrita, añade encabezados, borra las digresiones y haz una captura de una diapositiva importante.",
+        "Exporta en .md o .txt, o copia al portapapeles para pegarlo en Notion, Obsidian, Google Docs o una plantilla Cornell."
+      ],
+      "internal_links": [
+        {
+          "text": "La transcripción de clases en Chrome, explicada",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "Transcribe cualquier video a texto gratis",
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "¿Cómo transcribo una clase en cada plataforma?",
+      "body": "Esta es la ruta más corta para las cinco plataformas que más usan los estudiantes, combinando la opción nativa con la alternativa en vivo.",
+      "subsections": [
+        {
+          "h3": "Panopto",
+          "body": "Prueba primero el botón **CC**. Si hay subtítulos y solo necesitas comprobar un pasaje, basta con eso. Para una transcripción completa y editable, abre la sesión de Panopto en Chrome, abre LessonScriptor y dale al play. El control de velocidad de Panopto (1,25x-1,5x) funciona bien en modo IA, aunque la precisión es mejor a velocidad normal."
+        },
+        {
+          "h3": "Canvas",
+          "body": "Abre la página del módulo e inicia el video. Si es un video de Canvas Studio con subtítulos, léelos con **CC**. Si no, usa LessonScriptor en esa misma pestaña. Los videos de YouTube o Panopto incrustados se transcriben igual."
+        },
+        {
+          "h3": "Moodle y otros campus virtuales (incluida la UNED)",
+          "body": "Los cursos de Moodle mezclan Kaltura, Panopto y video simple. Revisa si el reproductor tiene subtítulos y, si no, usa LessonScriptor en la misma pestaña: no necesita saber qué reproductor hay debajo. Lo mismo vale para otras plataformas que se ven en el navegador, como las tutorías grabadas de la UNED (aLF, AVIP) o los videos de Canal UNED."
+        },
+        {
+          "h3": "YouTube",
+          "body": "Usa **...más → Mostrar transcripción** para copiar el texto rápido. Usa LessonScriptor cuando los subtítulos estén desactivados o sean malos, o cuando quieras resaltados y capturas de pantalla en la transcripción mientras ves el video."
+        },
+        {
+          "h3": "Grabación de Zoom",
+          "body": "Si el anfitrión guardó una grabación en la nube con la transcripción de audio activada, el reproductor web de Zoom muestra la transcripción junto al video. Si no, reproduce la grabación en la nube en Chrome y usa LessonScriptor. Si solo tienes un archivo MP4 local, una herramienta de subida como Otter.ai o TurboScribe es el camino más directo."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Transcripciones de Zoom y Google Meet para estudiantes",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "¿Cómo consigo una transcripción de clase más precisa?",
+      "body": "La precisión de la transcripción depende más del audio que de la herramienta. Estos hábitos son los que más se notan.",
+      "steps": [
+        {
+          "strategy": "Elige primero el idioma correcto.",
+          "detail": "Una clase en inglés transcrita con el español seleccionado da un texto sin sentido. Configura el idioma antes de darle al play, sobre todo si tienes asignaturas o lecturas en inglés."
+        },
+        {
+          "strategy": "Usa el modo IA para acentos, jerga y ruido.",
+          "detail": "El reconocimiento de voz del navegador sufre con la química orgánica, los latinismos del derecho romano o un profesor con un acento regional muy marcado. Los modelos en la nube de tipo Whisper los manejan mucho mejor."
+        },
+        {
+          "strategy": "En modo gratuito, dale al micrófono un sonido limpio.",
+          "detail": "Altavoces al 80 % o más, sin auriculares, una habitación tranquila y tú en silencio, porque tu propia voz también se transcribe."
+        },
+        {
+          "strategy": "Mantén la reproducción cerca de 1x.",
+          "detail": "Por encima de 1,5x se pierden palabras. Mira la clase a velocidad normal y repasa la transcripción por encima."
+        },
+        {
+          "strategy": "Corrige los términos clave una sola vez.",
+          "detail": "Corrige un nombre o una fórmula mal transcritos la primera vez que aparezcan y ponlos en negrita, para encontrarlos fácilmente después."
+        }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "¿Cuál es la mejor forma de grabar las clases?",
+      "body": "La mejor forma de grabar una clase depende de si es presencial u online. En un aula o un anfiteatro, la grabadora del teléfono (Notas de voz en iPhone, Grabadora en Android o Pixel) colocada cerca de la primera fila, o las notas con audio sincronizado de Notability en un iPad, captan el audio. Después transcribes el archivo con una herramienta de subida. Para clases online o grabadas normalmente no hace falta grabar nada, porque la universidad ya guarda el video en su Campus Virtual o en su plataforma de video. La transcripción en vivo en el navegador te da el texto sin crear ninguna grabación."
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "¿Es legal grabar o transcribir una clase?",
+      "body": "Grabar una clase suele requerir el permiso del profesor, y muchas universidades lo recogen en su normativa. Las clases pueden ser propiedad intelectual del docente, y la grabación también puede captar la voz de tus compañeros. Lo más educado y seguro es preguntar al profesor al empezar el curso, usar las grabaciones y transcripciones solo para tu estudio personal y no compartirlas nunca públicamente.\n\nLos estudiantes con discapacidad o con necesidades específicas, como TDAH, dislexia o pérdida auditiva, suelen poder solicitar **adaptaciones** a través del servicio de apoyo de su universidad, y esas adaptaciones pueden incluir grabaciones, subtítulos o transcripciones. En España, por ejemplo, la UNED cuenta con UNIDIS, y la mayoría de las universidades tienen una oficina de atención a la diversidad. En México y Argentina, muchas universidades tienen oficinas o programas de inclusión y accesibilidad. Las normas varían según el país y la institución, así que consulta la normativa de tu universidad y habla primero con tu profesor. Esto no es asesoramiento legal.",
+      "internal_links": [
+        {
+          "text": "Adaptaciones universitarias para el TDAH y la tecnología que ayuda",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "¿Cómo estudio a partir de la transcripción de una clase?",
+      "body": "Una transcripción es materia prima, no apuntes. Léela por encima una vez y resalta las tres a cinco ideas que el profesor repitió. Pon en negrita cada término que pueda caer en el examen y añade un encabezado en cada cambio de tema. Luego pega el archivo .md exportado en Notion u Obsidian, o pídele a ChatGPT o NotebookLM que lo resuma. Ese último paso ocurre fuera de LessonScriptor, que no genera resúmenes por sí mismo. Usa el texto completo para ponerte a prueba antes de los exámenes.",
+      "internal_links": [
+        {
+          "text": "El mejor tomador de notas con IA para clases",
+          "url": "/blog/ai-note-taker-for-lectures"
+        },
+        {
+          "text": "Cómo tomar apuntes con TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
     }
   ],
-  "faq": {
-    "heading": "FAQ",
-    "questions": [
+  "summary": {
+    "heading": "La respuesta corta",
+    "body": "Si tienes el archivo, usa una herramienta de subida. Si la clase está en YouTube o tu campus virtual tiene subtítulos, léelos ahí. Si solo puedes darle al play en Panopto, Canvas, Moodle o una grabación de Zoom, LessonScriptor transcribe lo que suena en la pestaña de Chrome en una transcripción editable, gratis en modo micrófono o desde 5 USD en pago único en modo IA.",
+    "internal_links": [
       {
-        "question": "¿Puedo transcribir automáticamente una grabación de clase en Zoom?",
-        "answer": "Sí. Abre la grabación de Zoom en Chrome y usa LessonScriptor para transcribirla. Funciona con cualquier vídeo que se reproduzca en Chrome, incluidos Zoom, Google Meet, Teams y portales de vídeo universitarios."
-      },
-      {
-        "question": "¿La transcripción automática de clases funciona en francés o español?",
-        "answer": "Sí. LessonScriptor soporta más de 14 idiomas. Selecciona tu idioma en los ajustes y la transcripción aparecerá en ese idioma."
-      },
-      {
-        "question": "¿Es hacer trampa usar una herramienta de transcripción para las clases?",
-        "answer": "No. Las herramientas de transcripción son ayudas académicas, similares a los dispositivos de grabación. Capturan lo que se dijo — el aprendizaje y el análisis siguen siendo tuyos. Muchas universidades permiten y fomentan explícitamente las herramientas de accesibilidad para estudiantes."
-      },
-      {
-        "question": "¿Cuál es la mejor herramienta de transcripción para estudiantes?",
-        "answer": "LessonScriptor es la mejor herramienta de transcripción para estudiantes porque funciona directamente en Chrome en cualquier plataforma de vídeo, ofrece un modo gratuito sin límites y permite editar en vivo mientras miras — a diferencia de la mayoría de herramientas que solo producen una transcripción estática después."
+        "text": "Mira cómo funciona la transcripción de clases",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "internal_links": [
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Cómo transcribir un video gratis?",
+        "answer": "Para transcribir un video gratis, usa el panel Mostrar transcripción de YouTube si el video está en YouTube, los subtítulos CC de la plataforma si tu universidad los activó, o el modo gratuito de LessonScriptor, que transcribe cualquier video que se reproduzca en Chrome a través de tu micrófono y sin cuenta."
+      },
+      {
+        "question": "¿Puedo transcribir una clase de Panopto o Canvas sin descargarla?",
+        "answer": "Sí. LessonScriptor transcribe lo que suena en la pestaña de Chrome, así que no necesitas un archivo. Panopto y Canvas Studio también pueden mostrar subtítulos integrados con el botón CC si el profesor los publicó."
+      },
+      {
+        "question": "¿LessonScriptor graba el audio de la clase?",
+        "answer": "No. LessonScriptor guarda una transcripción de texto, no una grabación de audio o video, y no acepta archivos MP3 o MP4 subidos. Solo transcribe lo que se reproduce en la pestaña."
+      },
+      {
+        "question": "¿Puedo transcribir la grabación de una clase de Zoom?",
+        "answer": "Sí. Reproduce la grabación en la nube de Zoom en Chrome y usa LessonScriptor, o usa la transcripción de audio de Zoom si el anfitrión la activó. Para un archivo MP4 local, una herramienta de subida como Otter.ai o TurboScribe es más directa."
+      },
+      {
+        "question": "¿La transcripción de clases funciona en otros idiomas?",
+        "answer": "Sí. LessonScriptor admite 14 idiomas, entre ellos español, inglés, francés, portugués, alemán, chino, árabe e hindi. Selecciona el idioma de la clase antes de darle al play."
+      },
+      {
+        "question": "¿Necesito permiso para grabar una clase?",
+        "answer": "Normalmente sí. Pregunta al profesor y revisa la normativa de tu universidad. Los estudiantes con discapacidad o TDAH a menudo pueden pedir grabaciones o transcripciones como adaptación a través del servicio de apoyo de su universidad, como UNIDIS en la UNED. Esto no es asesoramiento legal."
+      }
+    ]
+  },
+  "schemas": [
     {
-      "text": "Best study tools for neurodivergent students",
-      "url": "/blog/neurodivergent-study-tools"
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Cómo transcribir un video de clase: 5 métodos comparados",
+      "description": "Cómo transcribir un video de clase de Moodle, Canvas, YouTube o Zoom sin descargarlo: métodos manuales, subtítulos, apps de subida y Chrome, comparados.",
+      "inLanguage": "es",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/es/blog/como-transcribir-videos-de-clases",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudiante de Antropología con TDAH",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desarrollo y SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Cómo transcribir un video de clase sin descargarlo",
+      "inLanguage": "es",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Extensión de Chrome LessonScriptor"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instala la extensión",
+          "text": "Instala LessonScriptor desde la Chrome Web Store. El modo gratuito no necesita registro."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abre la clase",
+          "text": "Abre tu clase en Chrome: Panopto, Canvas, el Campus Virtual en Moodle, YouTube o una grabación de Zoom en la nube."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Abre el panel lateral",
+          "text": "Haz clic en el icono de LessonScriptor para abrir el panel lateral y elige el idioma de la clase."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Dale al play",
+          "text": "Dale al play. En modo gratuito, sube el volumen de los altavoces y quítate los auriculares. En modo IA, el texto llega en bloques de 10 o 30 segundos."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Edita mientras ves la clase",
+          "text": "Resalta frases clave, pon términos en negrita, añade encabezados y haz capturas de las diapositivas importantes."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Exporta",
+          "text": "Exporta en .md o .txt, o copia la transcripción al portapapeles."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cómo transcribir un video gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para transcribir un video gratis, usa el panel Mostrar transcripción de YouTube si el video está en YouTube, los subtítulos CC de la plataforma si tu universidad los activó, o el modo gratuito de LessonScriptor, que transcribe cualquier video que se reproduzca en Chrome a través de tu micrófono y sin cuenta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo transcribir una clase de Panopto o Canvas sin descargarla?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. LessonScriptor transcribe lo que suena en la pestaña de Chrome, así que no necesitas un archivo. Panopto y Canvas Studio también pueden mostrar subtítulos integrados con el botón CC si el profesor los publicó."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿LessonScriptor graba el audio de la clase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. LessonScriptor guarda una transcripción de texto, no una grabación de audio o video, y no acepta archivos MP3 o MP4 subidos. Solo transcribe lo que se reproduce en la pestaña."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo transcribir la grabación de una clase de Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Reproduce la grabación en la nube de Zoom en Chrome y usa LessonScriptor, o usa la transcripción de audio de Zoom si el anfitrión la activó. Para un archivo MP4 local, una herramienta de subida como Otter.ai o TurboScribe es más directa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿La transcripción de clases funciona en otros idiomas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. LessonScriptor admite 14 idiomas, entre ellos español, inglés, francés, portugués, alemán, chino, árabe e hindi. Selecciona el idioma de la clase antes de darle al play."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Necesito permiso para grabar una clase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normalmente sí. Pregunta al profesor y revisa la normativa de tu universidad. Los estudiantes con discapacidad o TDAH a menudo pueden pedir grabaciones o transcripciones como adaptación a través del servicio de apoyo de su universidad, como UNIDIS en la UNED. Esto no es asesoramiento legal."
+          }
+        }
+      ]
     }
-  ],
-  "schemas": []
+  ]
 }

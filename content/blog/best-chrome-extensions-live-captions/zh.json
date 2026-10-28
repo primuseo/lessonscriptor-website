@@ -1,0 +1,386 @@
+{
+  "slug": "best-chrome-extensions-live-captions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "2026年最佳Chrome实时字幕插件（免费与付费，实测对比）",
+  "reading_time_min": 9,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome实时字幕插件推荐：2026年5款实测对比",
+    "description": "Chrome实时字幕插件怎么选？本文实测对比LessonScriptor、Chrome自带的实时字幕、Tactiq和Notta，从准确率、耳机使用、导出、语言和价格五个维度逐项分析，帮你为网课和录播课找到最合适的工具，并说明在中国大陆使用Chrome网上应用店和Google服务时可能遇到的限制与可行的国内替代方案。",
+    "og_image": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "canonical": "https://lessonscriptor.com/zh/blog/zuijia-chrome-kuozhan-shishi-zishimu",
+    "og_title": "Chrome实时字幕插件推荐：2026年5款实测对比",
+    "og_description": "5款Chrome实时字幕工具对比：准确率、语言、耳机、导出和价格。",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "Chrome 实时字幕 插件",
+      "Chrome 实时字幕",
+      "浏览器实时字幕插件",
+      "网课 实时转文字",
+      "视频 实时字幕 扩展程序"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "alt": "Chrome浏览器侧边栏实时显示网课视频的转写文字",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria和Pierre共同开发了LessonScriptor，一款用于视频实时转写的Chrome扩展程序。Victoria在线攻读人类学，并患有注意力缺陷多动障碍（ADHD）。Pierre负责开发和SEO。",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "要点速览",
+    "lead": "对需要保存可编辑、可导出课堂文字稿的学生来说，LessonScriptor是最好的Chrome实时字幕插件。Chrome自带的“实时字幕”适合临时使用，但文字会随播放随时消失。",
+    "bullets": [
+      "LessonScriptor可以转写Chrome里播放的任何内容：中国大学MOOC、学堂在线、B站课程、网页版腾讯会议、YouTube、Moodle、Coursera。免费模式无需注册，AI模式按小时包付费，不订阅。",
+      "Chrome自带的实时字幕（设置 > 无障碍功能）无需安装，戴耳机也能用，但只显示两行，没有历史记录，也不能导出。",
+      "Tactiq擅长Google Meet、Zoom和Teams的实时会议，不适合录播课。",
+      "Notta能录制标签页音频，支持58种语言，但免费版每段录音最长3分钟。",
+      "在中国大陆，Chrome网上应用店和Google的语音服务通常无法直接访问，安装插件和使用Chrome自带字幕都可能受限；只需会议或录音转写时，飞书妙记、讯飞听见等国内工具是可行替代。"
+    ]
+  },
+  "intro": "最适合上网课的Chrome实时字幕插件是LessonScriptor：它能实时转写当前标签页里播放的视频，并把文字保存在侧边栏中，方便标注和导出。如果只是想临时看看字幕、不需要保存，也不想安装任何东西，Chrome自带的“实时字幕”功能（chrome://settings/accessibility）就够用了。本文实测对比了2026年Chrome上最常用的五款字幕工具，包括Tactiq和Notta，比较维度是网课和录播课最看重的几点：准确率、支持语言、能否戴耳机使用、导出方式和价格。中国大陆用户请特别留意文中关于网络访问限制的说明。",
+  "stats": [
+    {
+      "number": "14",
+      "label": "LessonScriptor支持的语言数量，包括中文"
+    },
+    {
+      "number": "19",
+      "label": "Chrome自带实时字幕支持的语言数量，包括简体和繁体中文"
+    },
+    {
+      "number": "30分钟",
+      "label": "LessonScriptor AI模式的免费试用时长"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-best-live-caption-extension",
+      "h2": "最好的Chrome实时字幕插件是哪一款？",
+      "body": "LessonScriptor是面向学生、研究人员和职场人士的最佳Chrome实时字幕插件。它能实时转写Chrome中播放的内容，在侧边栏显示文字，并支持高亮、整理和导出文字稿，而这些都是Chrome自带实时字幕做不到的。\n\nLessonScriptor可以从Chrome网上应用店一键安装，**免费模式**无需注册账号。它使用浏览器内置的语音识别，通过**麦克风**收音：它听的是扬声器外放的声音，所以音量要足够大（建议80%以上），戴耳机时无法使用，而且会把你自己说的话也转写进去。音频不会发送到LessonScriptor的服务器。\n\n**AI模式**直接采集**标签页音频**：戴耳机也能用，不需要麦克风，并使用Whisper级别的云端转写模型，在口音、专业术语和背景噪音方面明显更准确。无论是中国大学MOOC、学堂在线的课程视频，还是B站上的公开课、腾讯会议的回放，它都是2026年Chrome上功能最完整的记笔记方案。"
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Chrome实时字幕插件横向对比",
+      "body": "下表从学生日常最关心的几个维度，对比Chrome上最常用的五款字幕工具。",
+      "table": {
+        "headers": [
+          "工具",
+          "适用内容",
+          "可编辑文字稿",
+          "导出",
+          "戴耳机能否使用",
+          "语言",
+          "价格"
+        ],
+        "rows": [
+          [
+            "LessonScriptor（最适合学生）",
+            "Chrome中播放的任何内容",
+            "可以：高亮、标题、截图",
+            ".txt、.md、复制到剪贴板",
+            "AI模式可以（免费模式不行）",
+            "14",
+            "免费 + AI小时包5美元起"
+          ],
+          [
+            "Chrome实时字幕（浏览器自带）",
+            "Chrome中的任何音频",
+            "不可以",
+            "无",
+            "可以（转写的是Chrome自身的音频，不是麦克风）",
+            "19",
+            "免费"
+          ],
+          [
+            "Tactiq（实时会议）",
+            "Google Meet、Zoom、Teams",
+            "可以",
+            "Google Docs、Notion、文件",
+            "可以",
+            "30多种，因平台而异",
+            "每月10份免费转写；Pro按年付8美元/月起"
+          ],
+          [
+            "Captions for Live Presentations（演讲者）",
+            "通过麦克风转写你自己的声音",
+            "不可以",
+            "无",
+            "不适用",
+            "多种",
+            "免费；翻译功能付费"
+          ],
+          [
+            "Notta（语言覆盖最广）",
+            "标签页音频、Zoom、Meet",
+            "可以",
+            "TXT、DOCX、SRT、PDF",
+            "可以",
+            "58",
+            "每月免费120分钟（每段最长3分钟）；Pro约8美元/月起"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor：转写网课视频的最佳选择",
+      "body": "LessonScriptor是一款Chrome扩展程序，会在视频旁打开侧边栏，实时转写音频。只要能在Chrome里播放，它就能用：中国大学MOOC、学堂在线、B站、网页版腾讯会议、Moodle、Canvas、Blackboard、Panopto、YouTube、Coursera、Udemy，以及浏览器中的Zoom、Google Meet和Teams。\n\n**免费模式（永久0元）：**通过麦克风使用浏览器自带的语音识别。请把扬声器音量调到80%以上；不支持耳机，也会转写你自己的声音。无需账号，音频不会发送到LessonScriptor的服务器。\n\n**AI模式（按量付费）：**采集标签页音频，支持耳机，使用Whisper级别的云端模型转写。文字按10秒（Normal模式）或30秒（Optimal模式，更准确）分段返回，所以会有短暂延迟，不是逐字出现。新用户可免费试用30分钟，之后购买一次性小时包，不订阅：5小时 = 5美元，15小时 = 12美元，30小时 = 21美元。价格以美元计，Stripe结账时会显示人民币等本地货币的估算金额。额度永不过期，按秒扣费。\n\n**记笔记功能：**5种颜色高亮、加粗、标题、列表、删除片段，还能把课件画面截图插入文字稿。可导出为.txt或.md，或复制到剪贴板，粘贴到Notion、Obsidian、飞书文档或Google Docs。\n\n**适合人群：**复习录播课的学生、观看学术报告的研究人员、学外语的人，以及习惯戴耳机学习的人（使用AI模式）。",
+      "internal_links": [
+        {
+          "text": "用LessonScriptor在Chrome中显示实时字幕",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "chrome-builtin-review",
+      "h2": "Chrome自带实时字幕：临时使用最省事",
+      "body": "Chrome的“实时字幕”严格来说不是插件，而是浏览器自带功能，在**设置 > 无障碍功能 > 实时字幕**中开启（也可以直接在地址栏输入chrome://settings/accessibility）。开启后，Chrome中播放的任何音频都会在浮动气泡里显示字幕。根据Google官方说明，音频和字幕都在本地处理，不会离开你的设备。\n\n**优点：**无需安装，免费，适用于Chrome中的任何音频，隐私性好，支持19种语言，包括简体中文、繁体中文、英语、日语和韩语。因为它转写的是Chrome自身播放的音频而不是麦克风，所以戴耳机也能正常使用。\n\n**局限：**字幕只读，无法编辑、保存、复制或导出，气泡只显示两行，随后就消失。遇到口音、专业词汇和人名地名时，准确率会明显下降。另外，开启时Chrome需要从Google下载语音识别文件，在中国大陆网络环境下可能下载失败。\n\n**适合场景：**只想当下看懂视频、不需要留下记录的时候。不适合复习备考或做研究。",
+      "internal_links": [
+        {
+          "text": "Chrome实时字幕无法使用？解决方法",
+          "url": "/blog/chrome-live-captions-not-working"
+        },
+        {
+          "text": "Chrome实时字幕与耳机",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "tactiq-review",
+      "h2": "Tactiq：最适合实时会议转写的Chrome插件",
+      "body": "Tactiq是一款专为实时会议设计的Chrome扩展程序，支持Google Meet、Zoom（网页版）和Microsoft Teams。它基于会议自带的字幕生成文字稿，可导出到Google Docs、Notion或下载为文本文件，支持30多种语言，具体因平台而异。\n\nTactiq免费版每月可生成10份会议文字稿。Pro版按年付费每月8美元（按月付费12美元），取消数量限制，并提供用于AI总结的额度。\n\n**对学生的不足：**Tactiq只能用于实时会议，无法转写Zoom录像、B站课程或上传到学校平台的视频。在国内，Google Meet本身也难以直接访问。如果是参加实时线上课，Tactiq够用；其他场景，LessonScriptor更合适。"
+    },
+    {
+      "id": "notta-review",
+      "h2": "Notta：语言覆盖最广",
+      "body": "Notta是一项转写服务，其Chrome扩展程序可以录制并转写标签页音频（在线视频、视频会议课堂），也支持Zoom和Google Meet会议。最大优势是语言覆盖：58种语言，是本次对比中最多的，并支持导出TXT、DOCX、SRT和PDF。\n\nNotta免费版每月限120分钟，更关键的是**每段录音最长3分钟**，录不完一节完整的课。需要注册账号，并会保存录音。Pro版按年付费约每月8美元起。\n\n**适合人群：**需要LessonScriptor未覆盖语言（例如日语、韩语）的职场人士和研究人员。对于中文和英文课程，LessonScriptor是不需要订阅的选择。"
+    },
+    {
+      "id": "which-extension-should-i-use",
+      "h2": "我应该选哪款Chrome实时字幕插件？",
+      "body": "选哪款Chrome实时字幕插件，取决于你的主要用途。\n\n**选LessonScriptor，如果**你主要看录播课（中国大学MOOC、学堂在线、B站、Zoom录像），需要可编辑的笔记，或习惯戴耳机（AI模式）。免费模式装好就能用，无需注册。如果你有注意力缺陷多动障碍（ADHD），可编辑的文字稿能让你专心听讲，课后再标注重点。\n\n**选Chrome自带实时字幕，如果**你不想装任何东西，也不需要保存文字，比如听播客或在图书馆看视频。\n\n**选Tactiq，如果**你主要参加Google Meet或Zoom的实时会议，它在会议场景下的功能比LessonScriptor更强。\n\n**选Notta，如果**你需要日语、韩语等LessonScriptor未覆盖的语言，并且能接受短时录音或订阅。\n\n**在中国大陆、无法访问Google服务时，**Chrome网上应用店和Chrome的语音服务都可能用不了。如果你只需要转写会议或录音文件，可以考虑国内工具：飞书妙记（内置于飞书会议，也支持上传音视频文件转写）、讯飞听见（录音和音视频转文字），或腾讯会议自带的实时字幕。它们都不是Chrome插件，适用范围也各不相同。",
+      "internal_links": [
+        {
+          "text": "ADHD学生如何记笔记",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "为Zoom录像生成实时字幕",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        },
+        {
+          "text": "Chrome实时字幕和LessonScriptor有什么区别",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "免费试用最好的Chrome实时字幕插件",
+    "body": "LessonScriptor可转写Chrome中的任何视频，文字稿可编辑、可导出，支持14种语言。免费模式无需注册，AI模式可免费试用30分钟。",
+    "button_label": "免费将LessonScriptor添加到Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "有免费的Chrome实时字幕插件吗？",
+        "answer": "有。LessonScriptor的免费模式无需注册、不限时长，通过麦克风转写Chrome中的任何视频。Chrome自带的实时字幕也免费，无需安装，但文字无法保存。"
+      },
+      {
+        "question": "Chrome实时字幕怎么开启？",
+        "answer": "打开Chrome，点击右上角的“更多”（三个点），进入“设置 > 无障碍功能”，开启“实时字幕”。也可以在地址栏输入chrome://settings/accessibility。首次开启时Chrome会下载语音识别文件。"
+      },
+      {
+        "question": "戴耳机能用哪款Chrome字幕插件？",
+        "answer": "LessonScriptor的AI模式直接采集标签页音频，任何耳机都能用。LessonScriptor的免费模式通过麦克风收音，戴耳机时无法使用。Chrome自带实时字幕转写的是Chrome自身播放的音频，戴耳机也能用，但文字不会保存。"
+      },
+      {
+        "question": "Chrome实时字幕插件能用在B站和中国大学MOOC上吗？",
+        "answer": "LessonScriptor适用于B站、中国大学MOOC、学堂在线、YouTube以及Chrome中播放的任何内容。Chrome自带实时字幕同样适用，但不能导出。Notta可以录制标签页音频，免费版每段最长3分钟。Tactiq只支持实时会议。"
+      },
+      {
+        "question": "在中国大陆能用Chrome实时字幕插件吗？",
+        "answer": "可能受限。在中国大陆网络环境下，Chrome网上应用店和Google的语音服务通常无法直接访问，因此安装插件、使用LessonScriptor免费模式所依赖的浏览器语音识别，以及下载Chrome实时字幕的语音文件都可能失败。只需会议或录音转写时，可以考虑飞书妙记、讯飞听见或腾讯会议的实时字幕。"
+      },
+      {
+        "question": "Chrome字幕插件的文字可以导出吗？",
+        "answer": "LessonScriptor可将文字稿导出为.txt或.md，或复制到剪贴板粘贴到Notion、飞书文档或Obsidian。Chrome自带实时字幕无法导出。Tactiq可导出到Google Docs和Notion，Notta支持TXT、DOCX、SRT和PDF。"
+      },
+      {
+        "question": "实时字幕支持中文吗？",
+        "answer": "支持。Chrome自带实时字幕支持简体和繁体中文，LessonScriptor的14种语言中也包括中文。遇到术语多或口音重的课程，LessonScriptor的AI模式准确率明显更高。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "2026年最佳Chrome实时字幕插件",
+    "body": "对于想保存可编辑、可导出课堂文字稿的学生和研究人员，LessonScriptor是最好的Chrome实时字幕插件。它适用于Chrome中播放的任何内容，从中国大学MOOC到B站和YouTube，提供无需注册的免费模式和不订阅的AI小时包，支持14种语言。Chrome自带实时字幕仍是临时使用最简单的选择，但无法保存。Tactiq在实时会议上更强，Notta语言覆盖最广。在中国大陆，请先确认能访问Chrome网上应用店和Google服务。"
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "2026年最佳Chrome实时字幕插件（免费与付费，实测对比）",
+      "description": "Chrome实时字幕插件怎么选？本文实测对比LessonScriptor、Chrome自带的实时字幕、Tactiq和Notta，从准确率、耳机使用、导出、语言和价格五个维度逐项分析，帮你为网课和录播课找到最合适的工具，并说明在中国大陆使用Chrome网上应用店和Google服务时可能遇到的限制与可行的国内替代方案。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/zuijia-chrome-kuozhan-shishi-zishimu",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "人类学学生，ADHD",
+          "url": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "开发者与SEO",
+          "url": "https://lessonscriptor.com/zh"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "有免费的Chrome实时字幕插件吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。LessonScriptor的免费模式无需注册、不限时长，通过麦克风转写Chrome中的任何视频。Chrome自带的实时字幕也免费，无需安装，但文字无法保存。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome实时字幕怎么开启？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "打开Chrome，点击右上角的“更多”（三个点），进入“设置 > 无障碍功能”，开启“实时字幕”。也可以在地址栏输入chrome://settings/accessibility。首次开启时Chrome会下载语音识别文件。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "戴耳机能用哪款Chrome字幕插件？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor的AI模式直接采集标签页音频，任何耳机都能用。LessonScriptor的免费模式通过麦克风收音，戴耳机时无法使用。Chrome自带实时字幕转写的是Chrome自身播放的音频，戴耳机也能用，但文字不会保存。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome实时字幕插件能用在B站和中国大学MOOC上吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor适用于B站、中国大学MOOC、学堂在线、YouTube以及Chrome中播放的任何内容。Chrome自带实时字幕同样适用，但不能导出。Notta可以录制标签页音频，免费版每段最长3分钟。Tactiq只支持实时会议。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "在中国大陆能用Chrome实时字幕插件吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可能受限。在中国大陆网络环境下，Chrome网上应用店和Google的语音服务通常无法直接访问，因此安装插件、使用LessonScriptor免费模式所依赖的浏览器语音识别，以及下载Chrome实时字幕的语音文件都可能失败。只需会议或录音转写时，可以考虑飞书妙记、讯飞听见或腾讯会议的实时字幕。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome字幕插件的文字可以导出吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor可将文字稿导出为.txt或.md，或复制到剪贴板粘贴到Notion、飞书文档或Obsidian。Chrome自带实时字幕无法导出。Tactiq可导出到Google Docs和Notion，Notta支持TXT、DOCX、SRT和PDF。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "实时字幕支持中文吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "支持。Chrome自带实时字幕支持简体和繁体中文，LessonScriptor的14种语言中也包括中文。遇到术语多或口音重的课程，LessonScriptor的AI模式准确率明显更高。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "首页",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "博客",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome实时字幕插件推荐：2026年5款实测对比",
+          "item": "https://lessonscriptor.com/zh/blog/zuijia-chrome-kuozhan-shishi-zishimu"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome帮助：实时字幕",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=zh-Hans",
+      "external": true
+    },
+    {
+      "text": "Chrome网上应用店：LessonScriptor",
+      "href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp",
+      "external": true
+    },
+    {
+      "text": "Tactiq：Chrome会议转写插件",
+      "href": "https://tactiq.io",
+      "external": true
+    },
+    {
+      "text": "Notta：AI转写服务",
+      "href": "https://www.notta.ai",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

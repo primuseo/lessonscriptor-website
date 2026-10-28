@@ -2,169 +2,226 @@
   "slug": "ai-note-taker-for-lectures",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Le meilleur preneur de notes IA pour les cours (gratuit, dans Chrome)",
-  "reading_time_min": 8,
+  "h1": "Prise de notes IA en cours : enregistreur ou transcription en direct ?",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Le meilleur preneur de notes IA pour les cours (gratuit, dans Chrome)",
-    "description": "Comparez LessonScriptor, Otter.ai, Fireflies et Notta comme preneurs de notes IA. Découvrez lequel fonctionne vraiment sur les cours enregistrés, pas seulement les réunions en direct.",
-    "keywords": ["preneur de notes ia pour étudiants", "meilleur preneur de notes ia étudiants", "application de prise de notes ia gratuite étudiants", "preneur de notes ia pour étudiants universitaires"],
-    "og_image": null,
-    "canonical": "https://lessonscriptor.com/fr/blog/meilleur-preneur-de-notes-ia-cours",
-    "og_title": "Le meilleur preneur de notes IA pour les cours (gratuit, dans Chrome)",
-    "og_description": "Comparez LessonScriptor, Otter.ai, Fireflies et Notta comme preneurs de notes IA pour les cours.",
+    "title": "Prise de notes IA en cours : dictaphone ou transcription ?",
+    "description": "Prise de notes IA en cours : Otter, Notta, Dictaphone, Notability et LessonScriptor comparés pour l'amphi et les cours en ligne. Trouvez l'outil adapté.",
+    "keywords": [
+      "prise de notes ia",
+      "ia prise de notes cours",
+      "enregistreur de cours",
+      "dictaphone cours",
+      "application prise de notes ia étudiant",
+      "enregistrer un cours en amphi"
+    ],
+    "og_title": "Prise de notes IA en cours : enregistreur ou transcription en direct ?",
+    "og_description": "Enregistreur ou transcription en direct : quel outil de prise de notes IA pour les cours en amphi, les rediffusions Moodle et les cours sur Zoom.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l'anthropologie et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct, depuis le sud de la France. Victoria suit des études d'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
-    "label": "Points clés",
-    "lead": "La plupart des preneurs de notes IA sont conçus pour les réunions en direct, pas les cours enregistrés. LessonScriptor est conçu pour les deux : il transcrit tout ce qui joue dans un onglet Chrome, en direct ou enregistré.",
+    "label": "À retenir",
+    "lead": "Un outil de prise de notes IA pour les cours transforme ce que dit l'enseignant en texte que vous pouvez réviser. Le bon outil dépend de l'endroit où se passe le cours : dans une salle, ou dans un onglet du navigateur.",
     "bullets": [
-      "Les preneurs de notes IA de type bot de réunion (Otter.ai, Fireflies) rejoignent un appel en tant que participant. Ils ne servent à rien pour un cours enregistré, une vidéo YouTube, ou une vidéo sur une plateforme universitaire.",
-      "LessonScriptor transcrit n'importe quel audio joué dans un onglet Chrome : un Zoom ou Meet en direct, un cours enregistré sur Panopto ou Canvas, une vidéo YouTube.",
-      "Le mode gratuit n'a ni compte ni plafond mensuel. Le mode IA est un pack de crédits prépayé pour une meilleure précision sur les accents et le vocabulaire technique, pas un abonnement.",
-      "La transcription est un véritable éditeur pendant qu'elle se construit, pas un export statique : surlignez, mettez en gras, ajoutez des titres, puis exportez en .md ou .txt."
+      "**Cours en amphi :** utilisez un enregistreur. Le Dictaphone de l'iPhone, l'Enregistreur des Pixel, la synchronisation audio de Notability ou l'application mobile Otter.ai captent la salle, puis vous transcrivez l'audio ensuite ou pendant l'enregistrement.",
+      "**Cours en ligne et rediffusions :** inutile d'enregistrer quoi que ce soit, en général. LessonScriptor transcrit ce qui est lu dans un onglet Chrome (Moodle, Pod, Panopto, YouTube, Zoom) en transcription modifiable.",
+      "**Les bots de réunion** (Otter.ai, Fireflies) rejoignent un appel Zoom ou Meet en direct. Ils servent pour un TD ou un séminaire en visio, pas pour une rediffusion Panopto.",
+      "**LessonScriptor ne sauvegarde pas l'audio** et ne génère pas de résumés par IA. Il sauvegarde du texte, avec surlignages et captures d'écran des diapositives, exportable en .md ou .txt.",
+      "Le mode gratuit ne demande aucun compte et n'a pas de plafond mensuel. Le mode IA fonctionne avec un pack de crédits payé une fois, dès 5 $, sans abonnement."
     ]
   },
   "stats": [
     { "number": "0", "label": "plafond mensuel sur le mode gratuit de LessonScriptor" },
-    { "number": "14", "label": "langues prises en charge, dont le français, l'espagnol, l'arabe et l'hindi" },
-    { "number": "2", "label": "formats d'export (.txt et .md), plus la copie dans le presse-papiers" }
+    { "number": "14", "label": "langues prises en charge, dont le français, l'espagnol, l'arabe et le hindi" },
+    { "number": "30 min", "label": "d'essai gratuit du mode IA, sans abonnement" }
   ],
-  "intro": "Le meilleur preneur de notes IA pour les cours, c'est LessonScriptor, une extension Chrome gratuite qui transcrit n'importe quelle vidéo jouée dans un onglet de navigateur, en direct ou enregistrée, et la transforme en transcription modifiable. La plupart des preneurs de notes IA connus, Otter.ai et Fireflies parmi eux, sont conçus pour rejoindre une réunion en direct en tant que bot. C'est un travail différent de transcrire un cours enregistré, un tutoriel YouTube, ou une vidéo sur une plateforme universitaire, ce dont la plupart des étudiants ont réellement besoin. Ce guide compare les principales options sur ce qui compte pour des notes de cours : est-ce que ça fonctionne sur un enregistrement, pas seulement un appel en direct.",
+  "intro": "Le meilleur outil de prise de notes IA pour les cours dépend de l'endroit où se déroule le cours. Pour un cours en amphi, une application d'enregistrement comme Otter.ai, le Dictaphone de l'iPhone ou Notability est le bon choix. Pour les cours en ligne et les rediffusions, LessonScriptor est une extension Chrome gratuite qui transforme ce qui est lu dans un onglet du navigateur en transcription modifiable, sans rien enregistrer ni importer. Beaucoup d'étudiants cherchent un « enregistreur de cours » ou un « dictaphone pour les cours » alors que ce qu'ils veulent vraiment, c'est le texte. Un enregistrement n'est qu'une première étape : une heure d'audio doit encore être réécoutée ou transcrite avant de pouvoir réviser. Ce guide compare les applications d'enregistrement, les bots de réunion et la transcription en direct, et explique lequel convient à quel type de cours.",
   "sections": [
     {
       "id": "what-is-ai-note-taker",
-      "h2": "Qu'est-ce qu'un preneur de notes IA, et quel type faut-il aux étudiants ?",
-      "body": "Les preneurs de notes IA se répartissent en deux catégories. La première, ce sont les bots de réunion, des outils comme Otter.ai et Fireflies qui rejoignent un appel Zoom ou Google Meet en tant que participant et enregistrent ce qui se dit. Ils sont conçus pour les réunions en direct et font bien ce travail, mais ils ne peuvent pas rejoindre un cours déjà enregistré, ni transcrire une vidéo YouTube.\n\nLa deuxième catégorie, c'est la transcription depuis le navigateur, des outils comme LessonScriptor qui captent l'audio de tout ce qui joue dans un onglet Chrome, que ce soit un appel en direct ou une vidéo enregistrée. Pour les cours spécifiquement, dont la plupart sont enregistrés, sur Panopto, Canvas, YouTube, ou une plateforme universitaire, c'est cette catégorie qui aide vraiment."
+      "h2": "Qu'est-ce qu'un outil de prise de notes IA pour les cours ?",
+      "body": "Un outil de prise de notes IA pour les cours est un logiciel qui utilise la reconnaissance vocale pour transformer les paroles de l'enseignant en texte, en y ajoutant parfois des résumés générés par IA. Il en existe trois familles, et chacune répond à un problème différent.\n\n**Les applications d'enregistrement** (Dictaphone, Enregistreur sur Pixel, Notability, l'application mobile Otter.ai, Knowt) captent l'audio de la salle avec le micro de votre téléphone ou de votre tablette. Certaines le transcrivent, d'autres se contentent de le stocker.\n\n**Les bots de réunion** (OtterPilot d'Otter.ai, Fireflies.ai) rejoignent un appel Zoom, Google Meet ou Teams en direct comme participant et le transcrivent.\n\n**La transcription d'onglet en direct** (LessonScriptor) transcrit l'audio de ce qui est lu dans un onglet Chrome, en direct ou en différé, sans rejoindre quoi que ce soit ni créer de fichier. Pour un étudiant dont les cours sont sur Moodle, Pod ou Panopto, c'est la famille qui couvre la plus grande partie de la semaine."
+    },
+    {
+      "id": "lecture-recorder-vs-transcription",
+      "h2": "Ai-je besoin d'un enregistreur de cours ou d'une transcription ?",
+      "body": "Un enregistreur de cours sauvegarde de l'audio ; une transcription sauvegarde du texte. La différence se fait sentir au moment des révisions. Un enregistrement d'1 h 30, c'est 1 h 30 de réécoute, sauf si quelque chose le transcrit. Une transcription se parcourt en cinq minutes, se fouille avec une recherche et se colle dans un document de révision.\n\nEnregistrer a du sens quand rien d'autre ne capture le cours, c'est-à-dire surtout les cours en présentiel que votre université ne filme pas. Pour les cours en ligne, l'université a généralement déjà la vidéo, sur Pod, Panopto, Kaltura ou directement dans Moodle. Faire votre propre copie audio ajoute un fichier à gérer, et la transcription reste à faire. Dans ce cas, transcrire directement depuis le flux vidéo évite complètement l'étape de l'enregistreur.",
+      "callout": {
+        "type": "note",
+        "label": "En toute honnêteté",
+        "body": "LessonScriptor n'est pas un enregistreur. Il ne sauvegarde ni audio ni vidéo, et vous ne pouvez pas y importer un enregistrement. Si c'est l'audio lui-même qu'il vous faut, utilisez une application d'enregistrement."
+      }
+    },
+    {
+      "id": "recorder-apps",
+      "h2": "Quelles sont les meilleures applications pour enregistrer un cours ?",
+      "body": "Voici les applications d'enregistrement que les étudiants utilisent le plus, et ce que chacune fait bien.",
+      "subsections": [
+        {
+          "h3": "Les dictaphones du téléphone (Dictaphone, Enregistreur)",
+          "body": "Le Dictaphone sur iPhone et l'Enregistreur sur Android sont gratuits et déjà installés, et ils suffisent en amphi si vous vous asseyez devant. L'Enregistreur des Google Pixel transcrit sur l'appareil pendant l'enregistrement, selon la langue. Les versions récentes d'iOS peuvent aussi afficher la transcription d'un mémo dans les langues prises en charge. Depuis le vingtième rang, l'audio du téléphone est bruité, et la qualité de la transcription baisse avec la distance."
+        },
+        {
+          "h3": "La synchronisation audio de Notability",
+          "body": "Sur iPad, Notability enregistre l'audio pendant que vous écrivez et relie chaque trait au moment où il a été tracé. Touchez une note pendant la lecture, et l'application revient à ce que disait l'enseignant à cet instant. C'est excellent pour des notes manuscrites en cours en présentiel, mais le résultat est un enregistrement plus vos notes, pas une transcription complète."
+        },
+        {
+          "h3": "L'application mobile Otter.ai",
+          "body": "Otter.ai enregistre et transcrit l'audio en présentiel sur téléphone, importe des fichiers audio et peut envoyer un bot dans les réunions en direct. C'est un très bon outil polyvalent pour qui a besoin d'identifier les intervenants et de résumés par IA. Ses limites : un abonnement au-delà de l'offre gratuite, et aucun moyen de transcrire un flux Moodle ou Panopto que vous ne pouvez pas télécharger."
+        },
+        {
+          "h3": "Knowt et les autres applis enregistrement-vers-notes",
+          "body": "Le preneur de notes IA de Knowt et les applications du même genre partent d'un enregistrement ou d'un fichier importé pour générer des notes et des fiches de révision. Elles conviennent aux étudiants qui veulent du matériel de révision généré automatiquement et qui acceptent d'enregistrer d'abord."
+        }
+      ]
     },
     {
       "id": "comparison-table",
-      "h2": "Comparatif des preneurs de notes IA pour les cours",
-      "body": "Voici comment les principales options se comparent sur ce qui compte spécifiquement pour des notes de cours.",
+      "h2": "Comment se comparent les outils de prise de notes IA pour les cours ?",
+      "body": "Le tableau compare le fonctionnement de chaque outil, puisque c'est lui qui décide des cours qu'il peut gérer, plutôt que le nombre de fonctionnalités. Quand les détails d'un concurrent changent souvent, la case décrit le modèle, pas un prix.",
       "table": {
-        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "headers": ["", "LessonScriptor", "Otter.ai", "Notta", "Dictaphone du téléphone", "Notability"],
         "rows": [
-          ["Fonctionne sur les cours enregistrés", "Oui, n'importe quelle vidéo dans Chrome", "Non, réunions en direct uniquement", "Non, réunions en direct uniquement", "Limité"],
-          ["Fonctionne sur YouTube", "Oui", "Non", "Non", "Non"],
-          ["Prix", "Gratuit, mode IA à partir de 5 $ paiement unique", "Environ 17 $/mois", "Environ 10 $/mois", "Environ 8-9 $/mois"],
-          ["Transcription modifiable", "Oui, en direct dans le panneau", "Oui", "Oui", "Oui"],
-          ["Compte requis", "Non, en mode gratuit", "Oui", "Oui", "Oui"],
-          ["Langues", "14", "Principalement l'anglais", "Principalement l'anglais", "50+"]
+          ["Fonctionnement", "Transcrit ce qui est lu dans un onglet Chrome", "Bot de réunion, enregistreur mobile, import de fichier", "Import de fichier, bot de réunion, applis", "Enregistre l'audio de la salle", "Enregistre l'audio synchronisé aux notes manuscrites"],
+          ["Cours en amphi", "Pas conçu pour ça", "Oui, via l'appli mobile", "Oui, via l'appli mobile", "Oui", "Oui"],
+          ["Vidéo non téléchargeable (Moodle, Pod, Panopto)", "Oui", "Non", "Limité", "Non", "Non"],
+          ["Fichier à importer nécessaire", "Non", "Pour les enregistrements, oui", "Pour les enregistrements, oui", "Crée le fichier", "Crée le fichier"],
+          ["Sauvegarde l'audio", "Non, texte uniquement", "Oui", "Oui", "Oui", "Oui"],
+          ["Transcription complète", "Oui, modifiable en direct", "Oui", "Oui", "Selon le téléphone", "Non"],
+          ["Résumés par IA", "Non (export vers ChatGPT ou NotebookLM)", "Oui", "Oui", "Non", "Voir les offres actuelles"],
+          ["Modèle tarifaire", "Mode gratuit, packs IA dès 5 $ en paiement unique", "Offre gratuite, puis abonnement", "Offre gratuite, puis abonnement", "Gratuit", "Offre gratuite, puis abonnement"],
+          ["Compte obligatoire", "Non, en mode gratuit", "Oui", "Oui", "Non", "Oui"]
         ]
       }
     },
     {
+      "id": "in-person-vs-online",
+      "h2": "Prise de notes IA en amphi ou en cours en ligne : qu'est-ce qui change ?",
+      "body": "C'est le contexte qui choisit l'outil, parce que l'audio ne vous parvient pas de la même façon.",
+      "subsections": [
+        {
+          "h3": "Cours en amphi",
+          "body": "En amphi, la seule source audio est la salle : il vous faut un micro proche de l'enseignant. Posez le Dictaphone ou l'application Otter.ai sur la table la plus proche de l'estrade, ou utilisez Notability si vous prenez des notes manuscrites sur iPad. Demandez d'abord l'accord de l'enseignant. Si l'université filme aussi le cours et le met en rediffusion sur Pod ou Panopto, oubliez l'enregistreur et transcrivez la rediffusion plus tard dans Chrome : l'audio sera bien plus propre qu'un téléphone au vingtième rang."
+        },
+        {
+          "h3": "Cours en ligne et rediffusions",
+          "body": "Quand le cours est lu dans votre navigateur, l'audio propre est déjà sur votre ordinateur. Le mode IA de LessonScriptor capture directement l'audio de l'onglet : il fonctionne avec un casque et reste précis sur les accents et le vocabulaire technique. Le mode gratuit, lui, écoute par le micro, ce qui veut dire haut-parleurs allumés à environ 80 % du volume et pas de casque. LessonScriptor fonctionne sur Moodle (celui de Sorbonne Université, de l'Université de Lyon ou de Bordeaux), Pod, Panopto, Blackboard, YouTube, FUN MOOC, Coursera, Udemy, les classes virtuelles du CNED et Zoom, Meet ou Teams dans le navigateur. Chaque onglet est indépendant, vous pouvez donc transcrire deux vidéos en même temps."
+        },
+        {
+          "h3": "Cours en visio et séminaires en direct",
+          "body": "Pour un TD ou un séminaire en direct sur Zoom, un bot de réunion comme Otter.ai ou Fireflies enregistre et identifie les intervenants, mais l'enseignant voit le bot rejoindre l'appel. LessonScriptor tourne dans votre propre onglet et transcrit le cours sans qu'aucun participant ne rejoigne la réunion. Il n'identifie pas les intervenants."
+        }
+      ]
+    },
+    {
       "id": "why-lessonscriptor-for-lectures",
-      "h2": "Pourquoi LessonScriptor fonctionne mieux pour les notes de cours",
-      "body": "L'écart avec les outils de type bot de réunion, ce n'est pas la précision, c'est la couverture. La semaine d'un étudiant est surtout faite de contenu enregistré : la capture Panopto d'un professeur, un tutoriel YouTube donné en devoir, une vidéo Coursera. Un outil conçu pour rejoindre des appels en direct ne fonctionne tout simplement sur rien de tout ça.\n\nLessonScriptor transcrit tout ce qui joue dans l'onglet, cours en direct ou vidéo enregistrée, avec le même mode gratuit et aucune limite mensuelle. La transcription est modifiable pendant qu'elle se construit, donc l'essentiel de la mise en forme, surligner la ligne clé, mettre un terme en gras, ajouter un titre, se fait avant même la fin de la vidéo."
+      "h2": "Pourquoi utiliser LessonScriptor pour la prise de notes en cours en ligne ?",
+      "body": "L'atout de LessonScriptor pour les cours en ligne tient en deux mots : couverture et édition. Couverture, parce qu'il fonctionne sur n'importe quel cours lu dans Chrome, en direct ou en rediffusion, y compris les vidéos sans bouton de téléchargement. Édition, parce que la transcription est un document de travail pendant qu'elle se construit. Vous surlignez une phrase clé dans l'une des cinq couleurs, mettez un terme en gras, ajoutez un titre à chaque changement de partie, supprimez une digression et faites une capture d'écran de la diapositive affichée. L'essentiel de la mise en ordre est fait avant la fin de la vidéo.\n\nLes limites, en toute honnêteté : aucun audio n'est sauvegardé, pas de résumés ni de fiches générés par IA, pas d'identification des intervenants, pas d'application mobile, et l'extension fonctionne uniquement dans Chrome. Pour obtenir un résumé, exportez le fichier .md et collez-le vous-même dans ChatGPT ou NotebookLM. Côté prix : un mode gratuit sans plafond, ou des packs pour le mode IA à 5 $ les 5 h, 12 $ les 15 h ou 21 $ les 30 h. Les crédits n'expirent jamais, l'essai gratuit dure 30 minutes, et les prix en dollars US sont convertis en euros par Stripe au moment du paiement.",
+      "internal_links": [
+        { "text": "La transcription de cours dans Chrome", "url": "/lecture-transcription" },
+        { "text": "Transcription de cours en ligne : 5 méthodes comparées", "url": "/blog/how-to-transcribe-lecture-videos" }
+      ]
+    },
+    {
+      "id": "workflow",
+      "h2": "Comment prendre ses notes de cours avec un outil de prise de notes IA ?",
+      "body": "Cette méthode fonctionne pour un cours en ligne ou une rediffusion dans Chrome.",
+      "steps": [
+        "Ouvrez le cours dans Chrome (Moodle, Pod, Panopto, YouTube ou un enregistrement Zoom) et ouvrez le panneau latéral de LessonScriptor.",
+        "Choisissez la langue du cours et le mode : gratuit (haut-parleurs allumés, pas de casque) ou IA (audio de l'onglet, casque possible).",
+        "Lancez la lecture et laissez la transcription se construire. Ne tapez pas tout, écoutez.",
+        "Quand l'enseignant insiste sur un point, surlignez-le. Quand une diapositive compte, faites-en une capture dans la transcription.",
+        "Après le cours, ajoutez des titres à chaque changement de partie et supprimez les apartés.",
+        "Exportez en .md vers Notion ou Obsidian, ou collez le texte dans un modèle de notes Cornell ou dans un assistant IA pour qu'il vous prépare des questions de révision."
+      ],
+      "internal_links": [
+        { "text": "Modèle de prise de notes Cornell", "url": "/blog/cornell-notes-template" }
+      ]
     },
     {
       "id": "adhd-bridge",
-      "h2": "Prise de notes IA et TDAH",
-      "body": "Écrire et écouter en même temps divise l'attention d'une façon particulièrement difficile avec un TDAH. Confier l'écriture à une transcription qui se construit toute seule supprime complètement cette division, laissant la mémoire de travail libre pour simplement suivre le cours.",
+      "h2": "La prise de notes IA est-elle utile aux étudiants avec un TDAH ?",
+      "body": "Un outil de prise de notes IA est particulièrement utile avec un TDAH, parce qu'écrire et écouter en même temps divise la mémoire de travail. Une transcription qui se construit toute seule supprime ce partage, et les surlignages transforment l'écoute passive en petites décisions actives. Si vous avez obtenu un preneur de notes ou un accès aux supports via la mission handicap de votre université, la transcription peut compléter ces aménagements. Nous détaillons les choix d'outils adaptés au TDAH dans un guide à part.",
       "internal_links": [
-        { "text": "Meilleur preneur de notes IA pour les étudiants TDAH", "url": "/blog/best-ai-note-taker-adhd" },
-        { "text": "Le modèle de prise de notes TDAH", "url": "/blog/adhd-note-taking-template" }
+        { "text": "Meilleur outil de prise de notes IA pour les étudiants TDAH", "url": "/blog/best-ai-note-taker-adhd" }
       ]
     }
   ],
-  "faq": {
-    "section_title": "Questions fréquentes",
-    "items": [
-      {
-        "q": "Quel est le meilleur preneur de notes IA gratuit pour les étudiants ?",
-        "a": "Le mode gratuit de LessonScriptor ne demande aucun compte ni plafond mensuel, et fonctionne aussi bien sur les cours en direct que sur les vidéos de cours enregistrées. Les outils de type bot de réunion comme Otter.ai et Fireflies ont aussi des formules gratuites, mais ils sont conçus uniquement pour les réunions en direct."
-      },
-      {
-        "q": "Est-ce qu'un preneur de notes IA fonctionne sur des cours enregistrés, pas seulement des appels en direct ?",
-        "a": "Ça dépend de l'outil. Les bots de réunion (Otter.ai, Fireflies) rejoignent les appels en direct en tant que participant et ne peuvent pas transcrire quelque chose déjà enregistré. LessonScriptor transcrit n'importe quelle vidéo jouée dans un onglet Chrome, en direct ou enregistrée."
-      },
-      {
-        "q": "Ai-je besoin d'un compte pour utiliser LessonScriptor ?",
-        "a": "Non. Le mode gratuit ne nécessite aucune inscription. Si vous achetez un pack de crédits en mode IA pour une meilleure précision, vous recevez une clé de licence par e-mail, sans compte ni connexion."
-      },
-      {
-        "q": "Est-ce que l'audio des étudiants ou du cours est envoyé quelque part ?",
-        "a": "En mode gratuit, rien ne quitte votre ordinateur, la transcription se fait localement via le moteur vocal de votre navigateur. En mode IA, l'audio est envoyé à un modèle de transcription cloud par petits segments et n'est pas stocké."
-      },
-      {
-        "q": "Quel preneur de notes IA prend en charge le plus de langues ?",
-        "a": "Notta couvre la plus large gamme avec plus de 50 langues. LessonScriptor prend en charge 14 langues, dont le français, l'espagnol, le portugais, l'allemand, l'arabe et l'hindi, ce qui couvre la plupart des langues de cours universitaires."
-      }
+  "summary": {
+    "heading": "Quel outil de prise de notes IA choisir ?",
+    "body": "Enregistrez les cours en amphi avec le Dictaphone ou l'Enregistreur de votre téléphone, Notability ou l'application Otter.ai. Pour tout ce qui est lu dans votre navigateur, que ce soit Moodle, Pod, Panopto, YouTube ou Zoom, passez-vous d'enregistreur et utilisez LessonScriptor pour obtenir directement une transcription modifiable, gratuitement ou dès 5 $ en paiement unique.",
+    "internal_links": [
+      { "text": "Découvrir la transcription de cours dans Chrome", "url": "/lecture-transcription" }
     ]
   },
-  "summary": {
-    "heading": "Le preneur de notes IA qui fonctionne aussi sur les enregistrements",
-    "body": "Si la plupart de vos cours sont enregistrés plutôt qu'en direct, LessonScriptor est fait pour ça : il transcrit tout ce qui joue dans votre onglet Chrome, cours ou enregistrement, avec une transcription modifiable et aucun plafond mensuel sur le mode gratuit.",
-    "internal_links": [
-      { "text": "Voir le workflow complet de transcription", "url": "/transcribe-video-to-text" }
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Quelle est la meilleure application pour enregistrer un cours quand on est étudiant ?",
+        "answer": "Pour un cours en amphi, le meilleur enregistreur de cours est celui qui est déjà sur votre téléphone (Dictaphone sur iPhone ou Enregistreur sur Android), ou Notability si vous prenez des notes manuscrites sur iPad. Otter.ai ajoute la transcription et des résumés. Pour les cours en ligne, un enregistreur est généralement inutile : LessonScriptor transcrit la vidéo dans Chrome."
+      },
+      {
+        "question": "LessonScriptor enregistre-t-il les cours ?",
+        "answer": "Non. LessonScriptor sauvegarde une transcription texte, pas de l'audio ni de la vidéo, et il n'accepte pas l'import de fichiers. Il transcrit ce qui est lu dans un onglet Chrome, en direct ou en rediffusion."
+      },
+      {
+        "question": "Un outil de prise de notes IA fonctionne-t-il en cours en amphi ?",
+        "answer": "Oui, des applications d'enregistrement comme l'appli mobile Otter.ai, l'Enregistreur des Pixel ou le Dictaphone de l'iPhone captent l'audio de la salle pour le transcrire. LessonScriptor n'est pas conçu pour les amphis. Utilisez-le sur la rediffusion si votre université filme le cours."
+      },
+      {
+        "question": "Quel est le meilleur outil gratuit de prise de notes IA pour les étudiants ?",
+        "answer": "Pour les cours en ligne, le mode gratuit de LessonScriptor ne demande aucun compte, n'a pas de plafond mensuel et fonctionne sur n'importe quelle vidéo dans Chrome. Pour les cours en amphi, le dictaphone intégré au téléphone est gratuit. Otter.ai et Notta proposent des offres gratuites limitées."
+      },
+      {
+        "question": "Les outils de prise de notes IA fonctionnent-ils sur des cours enregistrés, pas seulement en direct ?",
+        "answer": "Cela dépend de l'outil. Les bots de réunion comme OtterPilot d'Otter.ai et Fireflies rejoignent des appels en direct. Otter et Notta peuvent transcrire un enregistrement si vous avez le fichier. LessonScriptor transcrit les cours enregistrés directement depuis le flux vidéo, sans fichier."
+      },
+      {
+        "question": "L'audio du cours est-il envoyé quelque part ?",
+        "answer": "En mode gratuit, LessonScriptor utilise la reconnaissance vocale intégrée à Chrome et aucun audio n'est envoyé aux serveurs de LessonScriptor. En mode IA, l'audio de l'onglet est envoyé par blocs de 10 ou 30 secondes à un modèle de transcription dans le cloud."
+      }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Le meilleur preneur de notes IA pour les cours (gratuit, dans Chrome)",
-        "description": "Comparez LessonScriptor, Otter.ai, Fireflies et Notta comme preneurs de notes IA. Découvrez lequel fonctionne sur les cours enregistrés, pas seulement les réunions en direct.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Étudiante en anthropologie avec un TDAH", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Développeur et SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
-        }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Prise de notes IA en cours : enregistreur ou transcription en direct ?",
+      "description": "Prise de notes IA en cours : Otter, Notta, Dictaphone, Notability et LessonScriptor comparés pour l'amphi et les cours en ligne. Trouvez l'outil adapté.",
+      "inLanguage": "fr",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/meilleur-preneur-de-notes-ia-cours",
+      "author": [
+        { "@type": "Person", "name": "Victoria", "description": "Étudiante en anthropologie avec un TDAH", "url": "https://lessonscriptor.com/en" },
+        { "@type": "Person", "name": "Pierre Girardot", "description": "Développeur et SEO", "url": "https://lessonscriptor.com/en" }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png" }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Quel est le meilleur preneur de notes IA gratuit pour les étudiants ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Le mode gratuit de LessonScriptor ne demande aucun compte ni plafond mensuel, et fonctionne aussi bien sur les cours en direct que sur les vidéos de cours enregistrées." }
-          },
-          {
-            "@type": "Question",
-            "name": "Est-ce qu'un preneur de notes IA fonctionne sur des cours enregistrés, pas seulement des appels en direct ?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Ça dépend de l'outil. Les bots de réunion comme Otter.ai et Fireflies rejoignent les appels en direct en tant que participant et ne peuvent pas transcrire quelque chose déjà enregistré. LessonScriptor transcrit n'importe quelle vidéo jouée dans un onglet Chrome, en direct ou enregistrée." }
-          }
-        ]
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Le meilleur preneur de notes IA pour les cours", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Quelle est la meilleure application pour enregistrer un cours quand on est étudiant ?", "acceptedAnswer": { "@type": "Answer", "text": "Pour un cours en amphi, le meilleur enregistreur de cours est celui qui est déjà sur votre téléphone (Dictaphone sur iPhone ou Enregistreur sur Android), ou Notability si vous prenez des notes manuscrites sur iPad. Otter.ai ajoute la transcription et des résumés. Pour les cours en ligne, un enregistreur est généralement inutile : LessonScriptor transcrit la vidéo dans Chrome." } },
+        { "@type": "Question", "name": "LessonScriptor enregistre-t-il les cours ?", "acceptedAnswer": { "@type": "Answer", "text": "Non. LessonScriptor sauvegarde une transcription texte, pas de l'audio ni de la vidéo, et il n'accepte pas l'import de fichiers. Il transcrit ce qui est lu dans un onglet Chrome, en direct ou en rediffusion." } },
+        { "@type": "Question", "name": "Un outil de prise de notes IA fonctionne-t-il en cours en amphi ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui, des applications d'enregistrement comme l'appli mobile Otter.ai, l'Enregistreur des Pixel ou le Dictaphone de l'iPhone captent l'audio de la salle pour le transcrire. LessonScriptor n'est pas conçu pour les amphis. Utilisez-le sur la rediffusion si votre université filme le cours." } },
+        { "@type": "Question", "name": "Quel est le meilleur outil gratuit de prise de notes IA pour les étudiants ?", "acceptedAnswer": { "@type": "Answer", "text": "Pour les cours en ligne, le mode gratuit de LessonScriptor ne demande aucun compte, n'a pas de plafond mensuel et fonctionne sur n'importe quelle vidéo dans Chrome. Pour les cours en amphi, le dictaphone intégré au téléphone est gratuit. Otter.ai et Notta proposent des offres gratuites limitées." } },
+        { "@type": "Question", "name": "Les outils de prise de notes IA fonctionnent-ils sur des cours enregistrés, pas seulement en direct ?", "acceptedAnswer": { "@type": "Answer", "text": "Cela dépend de l'outil. Les bots de réunion comme OtterPilot d'Otter.ai et Fireflies rejoignent des appels en direct. Otter et Notta peuvent transcrire un enregistrement si vous avez le fichier. LessonScriptor transcrit les cours enregistrés directement depuis le flux vidéo, sans fichier." } },
+        { "@type": "Question", "name": "L'audio du cours est-il envoyé quelque part ?", "acceptedAnswer": { "@type": "Answer", "text": "En mode gratuit, LessonScriptor utilise la reconnaissance vocale intégrée à Chrome et aucun audio n'est envoyé aux serveurs de LessonScriptor. En mode IA, l'audio de l'onglet est envoyé par blocs de 10 ou 30 secondes à un modèle de transcription dans le cloud." } }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/best-ai-note-taker-adhd",
-      "/blog/otter-ai-alternative-for-students",
-      "/blog/neurodivergent-study-tools"
-    ]
-  }
+  ]
 }

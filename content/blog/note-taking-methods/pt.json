@@ -1,0 +1,521 @@
+{
+  "slug": "note-taking-methods",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "7 métodos de anotação para estudantes (e quais funcionam com TDAH)",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "7 métodos de anotação para estudar (e quais servem no TDAH)",
+    "description": "Cornell, tópicos, mapa mental, tabela, frases, boxing e Zettelkasten: 7 métodos de anotação comparados, com exemplos, matérias ideais e veredito para TDAH.",
+    "keywords": [
+      "métodos de anotação",
+      "como fazer anotações",
+      "métodos de estudo anotações",
+      "método Cornell",
+      "anotações TDAH",
+      "método Zettelkasten"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/pt/blog/metodos-de-anotacao",
+    "og_title": "7 métodos de anotação para estudantes (e quais funcionam com TDAH)",
+    "og_description": "Cornell, tópicos, mapa mental, tabela, frases, boxing e Zettelkasten comparados, com um veredito para TDAH em cada um.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Resumo rápido",
+    "lead": "Um método de anotação é uma estrutura fixa para registrar informações e revisar depois. O melhor depende da matéria e de quanta atenção sobra para você durante a aula.",
+    "bullets": [
+      "Cornell é o método mais completo para revisar, porque a coluna de perguntas transforma suas anotações em um autoteste.",
+      "Tópicos funcionam em aulas bem organizadas (Direito, História). A tabela funciona para comparações (Farmacologia, Economia). O mapa mental funciona para ideias conectadas (Biologia, Literatura).",
+      "O método de frases exige o menor esforço durante a aula, por isso muitos estudantes com TDAH acabam nele, mas precisa de uma boa revisão depois.",
+      "O Zettelkasten é para projetos longos como o TCC, não para a prova da semana que vem.",
+      "Com TDAH, o caminho mais confiável é dividir o trabalho: capturar a aula como transcrição e aplicar o método depois, no seu ritmo."
+    ]
+  },
+  "stats": [
+    {
+      "number": "7",
+      "label": "métodos comparados, do Cornell ao Zettelkasten"
+    },
+    {
+      "number": "Anos 1950",
+      "label": "quando Walter Pauk criou o método Cornell na Universidade Cornell"
+    },
+    {
+      "number": "2",
+      "label": "fases que funcionam melhor com TDAH: capturar primeiro, organizar depois"
+    }
+  ],
+  "intro": "Métodos de anotação são sistemas estruturados para registrar o que você ouve ou lê, de modo a entender e revisar depois. Os sete mais ensinados são o método Cornell, o método de tópicos, o mapa mental, o método de tabela, o método de frases, o método boxing (caixas) e o Zettelkasten. Cada um troca esforço durante a aula por valor na hora da revisão. O Cornell, criado por Walter Pauk na Universidade Cornell, coloca o autoteste dentro da própria página. O Zettelkasten, famoso graças ao sociólogo alemão Niklas Luhmann, constrói uma rede de conhecimento a longo prazo. Para quem tem TDAH, a questão não é só qual método é o melhor, mas qual aguenta uma aula de 90 minutos no AVA da faculdade, uma videoaula no Moodle da USP ou da Unicamp ou um cursinho pré-vestibular no YouTube quando a atenção escapa. Este guia traz um mini exemplo de cada método, as matérias em que ele funciona, um veredito honesto para TDAH e um jeito de aplicá-lo a uma transcrição da aula em vez de fazer tudo ao vivo.",
+  "sections": [
+    {
+      "id": "what-is-a-note-taking-method",
+      "heading": "O que é um método de anotação e por que ele importa?",
+      "body": "Um método de anotação é um layout repetível que diz onde vai cada tipo de informação: ideias principais, detalhes, perguntas, exemplos. Sem método, a anotação vira uma cópia do que você conseguiu pegar, e isso é difícil de revisar.\n\nO método importa principalmente na revisão para a prova. Uma página estruturada mostra o formato de um tema de relance e deixa você se testar sobre ele, que é a técnica de estudo com a evidência científica mais forte (veja nosso guia de recordação ativa). Um bloco de texto sem estrutura empurra você para a releitura, técnica que Dunlosky e colegas classificaram como de baixa utilidade em sua revisão de 2013 sobre estratégias de estudo.\n\nPara estudantes com TDAH há um segundo motivo. A maioria dos métodos pede para ouvir, decidir o que importa e escrever no lugar certo, tudo ao mesmo tempo. É uma carga pesada para a memória de trabalho, e é exatamente aí que a atenção escapa. Escolher um método é escolher quanto dessa carga você carrega na aula e quanto deixa para depois.",
+      "internal_links": [
+        {
+          "text": "Recordação ativa: como estudar a partir das anotações da aula",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Qual é o melhor método de anotação? Os 7 métodos comparados",
+      "body": "Nenhum método é o melhor para todas as matérias. A tabela compara os sete no que decide se funcionam na prática: matérias em que se encaixam, esforço durante a aula, como se saem com TDAH e quão bem funcionam a partir de uma transcrição.",
+      "table": {
+        "headers": [
+          "Método",
+          "Ideal para",
+          "Esforço na aula",
+          "Veredito TDAH",
+          "A partir de uma transcrição?"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Quase qualquer matéria, principalmente com prova escrita",
+            "Médio",
+            "Ótimo, se feito depois da aula",
+            "Excelente"
+          ],
+          [
+            "Tópicos",
+            "Aulas organizadas: Direito, História, Filosofia",
+            "Médio-alto",
+            "Misto: quebra quando o professor sai do roteiro",
+            "Excelente"
+          ],
+          [
+            "Mapa mental",
+            "Biologia, Literatura, Psicologia, redação",
+            "Médio",
+            "Ótimo para mentes visuais e não lineares",
+            "Bom"
+          ],
+          [
+            "Tabela",
+            "Comparações: fármacos, teorias, períodos",
+            "Alto (colunas definidas antes)",
+            "Bom depois que as colunas estão fixas",
+            "Muito bom"
+          ],
+          [
+            "Frases",
+            "Aulas rápidas e cheias de dados",
+            "Baixo",
+            "Fácil de começar, chato de revisar",
+            "É a própria transcrição"
+          ],
+          [
+            "Boxing",
+            "Anotação no tablet, aulas por tema",
+            "Médio",
+            "Bom: divide o conteúdo em blocos visuais",
+            "Bom"
+          ],
+          [
+            "Zettelkasten",
+            "TCC, mestrado, pesquisa",
+            "Baixo na aula, alto depois",
+            "Arriscado: montar o sistema vira procrastinação",
+            "Bom como fonte"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cornell-method",
+      "heading": "O que é o método Cornell?",
+      "body": "O método Cornell divide a folha em três áreas: uma coluna estreita de perguntas à esquerda, uma coluna larga de anotações à direita e uma faixa de resumo embaixo. Walter Pauk, professor de educação da Universidade Cornell, criou o método nos anos 1950 e o descreveu no livro How to Study in College. Você anota à direita durante a aula, escreve perguntas ou palavras-chave à esquerda depois e fecha com um resumo de duas ou três frases.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "Coluna de anotações: **As mitocôndrias produzem ATP pela respiração celular. As dobras da membrana interna (cristas) aumentam a superfície.** Coluna de perguntas: **O que as mitocôndrias produzem? Por que a membrana é dobrada?** Resumo: **A mitocôndria é a usina de energia da célula; as cristas maximizam a produção de ATP.**"
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Quase todas as matérias, e principalmente as avaliadas com prova escrita. A coluna de perguntas é uma lista pronta, então o método leva direto ao autoteste."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Ótimo, com um ajuste.** Preencher a coluna de perguntas ao vivo é difícil quando já está complicado acompanhar, e muitos estudantes com TDAH desistem no meio. Deixe as perguntas e o resumo para depois da aula e o Cornell vira um dos métodos mais amigáveis ao TDAH, porque a estrutura de revisão já vem embutida."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Deixe a transcrição preencher a coluna de anotações por você. Enquanto ela é gerada, adicione um título sempre que o assunto mudar. Depois, exporte em .md, cole cada parte na coluna da direita de um modelo Cornell e escreva você mesmo as perguntas e o resumo. O LessonScriptor não formata anotações Cornell automaticamente; é ao escrever as perguntas que o aprendizado acontece, então esse passo é seu."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Modelo Cornell grátis (e como preencher a partir de uma aula)",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "outline-method",
+      "heading": "O que é o método de tópicos?",
+      "body": "O método de tópicos organiza as anotações em hierarquia: temas principais na margem, subtemas recuados embaixo e detalhes mais recuados ainda. Ele espelha a estrutura de uma aula bem planejada e gera anotações bem limpas quando o professor segue um roteiro claro.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "**1. Era Vargas (1930-1945)** / a. Revolução de 1930: fim da República Velha / b. Estado Novo (1937) / i. Centralização e censura (DIP) / c. Legislação trabalhista: CLT de 1943"
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Direito, História, Ciência Política, Filosofia e qualquer aula que siga slides ou um plano de ensino escrito."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Misto.** Fazer tópicos ao vivo exige decidir o nível o tempo todo: isso é subtema ou detalhe? Quando o professor sai do roteiro, a hierarquia quebra e a concentração vai junto. Funciona muito melhor como segunda passada, quando você já conhece o formato da aula."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Use os títulos da transcrição como tópicos de primeiro nível e os marcadores como segundo nível. Depois da aula, passe os olhos pela transcrição, apague as digressões e recue o que sobrou. Com o texto completo na frente, os tópicos ficam prontos em 15 minutos, em vez de você adivinhar a estrutura em tempo real."
+        }
+      ]
+    },
+    {
+      "id": "mapping-method",
+      "heading": "O que é o método do mapa mental?",
+      "body": "O mapa mental coloca o tema principal no centro da página e faz as ideias relacionadas saírem dele em galhos, para que as conexões fiquem visíveis em vez de implícitas. O autor britânico Tony Buzan popularizou o mapa mental nos anos 1970, e ferramentas como XMind, MindMeister e Miro fizeram dele um formato digital comum.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "Centro: **Fotossíntese**. Galhos: **Fase clara** (tilacoides, fotólise da água, liberação de oxigênio), **Ciclo de Calvin** (estroma, fixação de CO2, glicose), **Fatores limitantes** (luz, CO2, temperatura). Uma linha pontilhada liga o ciclo de Calvin aos fatores limitantes."
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Biologia, Literatura, Psicologia, planejamento da redação do ENEM e qualquer tema em que as ideias se conectam em estrela, não em linha reta."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Ótimo para muitos estudantes com TDAH**, porque o mapa deixa você pular entre galhos do jeito que a atenção já pula. O risco é o perfeccionismo: 40 minutos com cores e ícones em vez de conteúdo. Crie uma regra: uma cor por galho e nada de enfeite antes de terminar o conteúdo."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Leia os títulos da transcrição e transforme cada um em um galho. Durante a aula, tire capturas de tela dos slides importantes dentro da transcrição e use-as como âncoras para os desenhos do mapa. Montar o mapa a partir de uma transcrição pronta é mais fácil do que ao vivo, porque você vê todos os galhos antes de desenhar o primeiro."
+        }
+      ]
+    },
+    {
+      "id": "charting-method",
+      "heading": "O que é o método de tabela?",
+      "body": "O método de tabela registra a informação em uma grade, com uma linha por item e uma coluna por critério comparado. Ele transforma uma aula cheia de fatos paralelos em algo que dá para ler na horizontal e na vertical.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "Colunas: **Classe | Mecanismo | Exemplo | Principal efeito adverso**. Linha: **Betabloqueadores | Bloqueiam a adrenalina nos receptores beta | Propranolol | Cansaço, mãos frias**. Linha: **IECA | Bloqueiam a conversão da angiotensina | Captopril | Tosse seca**."
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Farmacologia em Medicina, Economia, Ciência Política comparada, períodos da História, tabelas de gramática em idiomas: qualquer aula que compare vários itens pelos mesmos critérios."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Bom depois que as colunas estão fixas.** A dificuldade é que você precisa saber as colunas antes da aula, o que é difícil se o plano de ensino é vago. Com a estrutura clara, a tabela reduz cada decisão a preencher uma célula, e isso acalma."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "O editor de notas do LessonScriptor tem marcações em 5 cores. Dê uma cor para cada coluna (verde para mecanismo, amarelo para exemplos e assim por diante) e marque ao reler a transcrição. Depois, copie cada cor para a sua coluna. A tabela vira uma tarefa de classificar, não de ouvir."
+        }
+      ]
+    },
+    {
+      "id": "sentence-method",
+      "heading": "O que é o método de frases?",
+      "body": "O método de frases registra cada fato ou ideia nova como uma frase numerada separada, linha por linha, sem tentar organizar durante a aula. É o método mais rápido ao vivo e o mais lento na revisão.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "1. Para Keynes, no curto prazo a demanda determina a produção. 2. Na recessão, as famílias poupam mais, o que reduz ainda mais a demanda. 3. É o paradoxo da poupança. 4. O gasto público pode cobrir a diferença."
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Aulas rápidas e densas, sem tempo para organizar: ciências básicas, Medicina, disciplinas introdutórias e aulões de cursinho."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Fácil de começar, difícil de aproveitar.** O baixo esforço explica por que tantos estudantes com TDAH acabam nele por padrão. O problema aparece na revisão: frases numeradas não têm hierarquia, tudo parece igualmente importante. Só compensa com uma segunda passada."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Uma transcrição é, no fundo, o método de frases feito por você e sem buracos. Então não escreva ao vivo e gaste sua energia na segunda passada: coloque em negrito as 10 a 15 frases que importam, apague o enchimento e adicione títulos. Você fica com a completude do método sem o problema da revisão."
+        }
+      ]
+    },
+    {
+      "id": "boxing-method",
+      "heading": "O que é o método boxing (caixas)?",
+      "body": "O método boxing agrupa anotações relacionadas dentro de caixas desenhadas, uma por tema, para que cada parte da aula fique visualmente separada da seguinte. É um método recente, da era digital, que se espalhou com apps de tablet como GoodNotes e Notability, em que a ferramenta laço facilita desenhar, mover e redimensionar caixas.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "Caixa 1, **Oferta**: lei da oferta, deslocamento da curva versus movimento ao longo dela, exemplos. Caixa 2, **Demanda**: lei da demanda, bens substitutos e complementares. Caixa 3, **Equilíbrio**: cruzamento das curvas, efeito de um preço máximo."
+        },
+        {
+          "h3": "Ideal para",
+          "body": "Aulas organizadas por tema, estudantes que escrevem à mão no iPad e resumos de revisão com um tema por bloco."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Bom.** As caixas criam blocos naturais, o que ajuda quando a memória de trabalho está no limite, e terminar uma caixa dá uma pequena sensação de conquista. Na revisão, você pode cobrir uma caixa e recitar o conteúdo, uma forma simples de autoteste."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Trate cada título da transcrição como uma caixa. Depois da aula, copie cada parte para uma caixa e reduza a 3 a 5 pontos principais. As capturas de tela dos slides vão dentro da caixa correspondente."
+        }
+      ]
+    },
+    {
+      "id": "zettelkasten-method",
+      "heading": "O que é o método Zettelkasten?",
+      "body": "O Zettelkasten (caixa de fichas, em alemão) é um sistema de notas curtas, uma ideia por nota, ligadas entre si para que as ideias formem uma rede ao longo de meses ou anos. O sociólogo Niklas Luhmann escreveu dezenas de livros com uma caixa de dezenas de milhares de fichas de papel. Hoje os estudantes costumam usar Obsidian, Logseq ou Zotero para isso.",
+      "subsections": [
+        {
+          "h3": "Exemplo",
+          "body": "Nota 23: **Habitus é o conjunto de disposições que as pessoas adquirem pela sua posição social (Bourdieu).** Liga com a nota 24: **O gosto como marcador de classe** e a nota 41: **Comparar com a representação do eu em Goffman**."
+        },
+        {
+          "h3": "Ideal para",
+          "body": "TCC, dissertações de mestrado, artigos científicos, humanas e sociais, e quem constrói conhecimento ao longo de várias disciplinas."
+        },
+        {
+          "h3": "Veredito TDAH",
+          "body": "**Arriscado para provas, útil para projetos grandes.** Montar o sistema pode virar uma forma elegante de procrastinar, e ajuda pouco na prova de quinta. Já para um TCC, as notas interligadas combinam com o jeito associativo de pensar de muitos cérebros com TDAH."
+        },
+        {
+          "h3": "Com a transcrição da aula",
+          "body": "Exporte a transcrição em .md e coloque no Obsidian como nota de leitura. Depois, escreva algumas notas permanentes com suas palavras, uma ideia cada, e ligue umas às outras. A transcrição é a matéria-prima; as notas do Zettelkasten são o que você constrói com ela."
+        }
+      ]
+    },
+    {
+      "id": "which-method-should-i-use",
+      "heading": "Qual método de anotação devo usar?",
+      "body": "Escolha primeiro pelo tipo de matéria e depois ajuste ao jeito que sua atenção funciona. Estas regras cobrem a maioria dos casos.",
+      "steps": [
+        {
+          "strategy": "Se a matéria termina com prova escrita",
+          "detail": "Use Cornell. A coluna de perguntas vira sua lista de revisão."
+        },
+        {
+          "strategy": "Se o professor segue slides ou um roteiro claro",
+          "detail": "Use tópicos, de preferência montados depois a partir dos slides ou da transcrição."
+        },
+        {
+          "strategy": "Se a aula compara vários itens",
+          "detail": "Use a tabela. Defina as colunas pelo plano de ensino antes da aula."
+        },
+        {
+          "strategy": "Se as ideias vão para todo lado",
+          "detail": "Use um mapa mental, com limite rígido de enfeites."
+        },
+        {
+          "strategy": "Se você anota no tablet",
+          "detail": "Teste o boxing. Uma caixa por tema mantém a página legível."
+        },
+        {
+          "strategy": "Se você está no TCC ou no mestrado",
+          "detail": "Use um Zettelkasten, mas só para esse projeto."
+        },
+        {
+          "strategy": "Se você tem TDAH e perde o fio ao vivo",
+          "detail": "Não escolha um método para aplicar durante a aula. Capture a aula como transcrição e aplique Cornell, tópicos ou tabela depois."
+        }
+      ],
+      "callout": {
+        "type": "insight",
+        "label": "Por que combinar métodos funciona",
+        "body": "Muitos estudantes combinam dois métodos: uma captura no estilo frases durante a aula e um formato Cornell ou de tópicos depois. Uma transcrição facilita essa divisão, porque a captura não depende mais de a sua atenção aguentar 90 minutos."
+      },
+      "internal_links": [
+        {
+          "text": "Como fazer anotações com TDAH: um sistema prático",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "adhd-transcript-workflow",
+      "heading": "Como aplicar um método de anotação à transcrição de uma aula?",
+      "body": "Capturar primeiro e organizar depois é o jeito mais prático de usar qualquer um desses métodos com TDAH. Separa ouvir de organizar, para que um não dispute com o outro. Veja como funciona com o LessonScriptor, uma extensão do Chrome que transcreve o que toca em uma aba do navegador: o AVA ou Moodle da sua faculdade, o e-Disciplinas da USP, videoaulas no YouTube ou Zoom e Google Meet no navegador.",
+      "steps": [
+        {
+          "strategy": "Comece a transcrição antes da aula",
+          "detail": "Abra o painel lateral do LessonScriptor e clique em iniciar. O modo gratuito usa o reconhecimento de voz embutido do Chrome pelo microfone: toque a aula nos alto-falantes com 80 % de volume ou mais; ele não funciona com fone de ouvido. O modo IA captura o áudio da aba diretamente, funciona com fone e entende melhor sotaques e termos técnicos (teste grátis de 30 minutos, depois pacotes a partir de US$ 5 por 5 horas; o Stripe converte para reais)."
+        },
+        {
+          "strategy": "Marque a estrutura enquanto ouve",
+          "detail": "Você não precisa anotar. Adicione um título quando o assunto mudar e tire uma captura de tela quando aparecer um slide ou esquema importante. São gestos de segundos que dão o esqueleto para qualquer método."
+        },
+        {
+          "strategy": "Marque em uma segunda passada",
+          "detail": "Depois da aula, releia a transcrição e marque com até 5 cores: por exemplo definições, exemplos e pontos que podem cair na prova. Apague as digressões."
+        },
+        {
+          "strategy": "Exporte e reorganize",
+          "detail": "Exporte em .md ou .txt, ou copie para a área de transferência, e cole no seu modelo Cornell, nos tópicos, na tabela ou no seu cofre do Obsidian. As perguntas, resumos e ligações você escreve."
+        },
+        {
+          "strategy": "Transforme a estrutura em perguntas",
+          "detail": "Termine com cinco a dez perguntas que poderiam cair sobre essa aula. É o passo que torna as anotações úteis para a prova."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "O que o LessonScriptor faz e não faz",
+        "body": "O LessonScriptor dá uma transcrição ao vivo e editável, com títulos, marcações, capturas de tela e exportação. Ele não cria resumos, flashcards nem formatos Cornell automaticamente. Se quiser um rascunho de resumo, você mesmo pode colar a transcrição exportada no ChatGPT ou no NotebookLM."
+      },
+      "internal_links": [
+        {
+          "text": "Modelo de anotações para TDAH para preencher a partir de uma transcrição",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Os melhores apps de anotação para estudantes, comparados",
+          "url": "/blog/best-note-taking-apps-for-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Resposta curta",
+    "body": "Cornell é o método de anotação mais completo para revisar para a prova, tópicos e tabela ganham em aulas estruturadas ou comparativas, mapa mental e boxing combinam com mentes visuais, e o Zettelkasten é para projetos longos de pesquisa. Com TDAH, o momento importa mais que o método: capture a aula primeiro e organize quando sua atenção estiver livre.",
+    "internal_links": [
+      {
+        "text": "Próximo passo: transforme suas anotações em perguntas de recordação ativa",
+        "url": "/blog/active-recall-lecture-transcript"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Quais são os principais métodos de anotação?",
+        "answer": "Os cinco métodos clássicos de anotação são Cornell, tópicos, mapa mental, tabela e frases. Listas mais recentes incluem o boxing, popular no tablet, e o Zettelkasten para notas de pesquisa de longo prazo."
+      },
+      {
+        "question": "Qual é o método de anotação mais eficaz?",
+        "answer": "O método Cornell é o mais eficaz para revisar para provas, porque a coluna de perguntas transforma as anotações em um autoteste. Em matérias muito comparativas, a tabela costuma ser melhor; para o TCC, o Zettelkasten."
+      },
+      {
+        "question": "Qual o melhor método de anotação para quem tem TDAH?",
+        "answer": "Com TDAH, costuma funcionar melhor capturar a aula primeiro (como transcrição ou frases soltas) e aplicar Cornell, tópicos ou mapa mental depois. Métodos que exigem organizar o tempo todo durante a aula quebram quando a atenção escapa."
+      },
+      {
+        "question": "Cornell ou tópicos: qual é melhor?",
+        "answer": "Cornell é melhor para revisar, porque já inclui perguntas e resumo. Tópicos são melhores para ver a estrutura de uma aula bem organizada. Muitos estudantes fazem os tópicos dentro da coluna de anotações de uma página Cornell e ficam com os dois."
+      },
+      {
+        "question": "O Zettelkasten serve para estudantes?",
+        "answer": "O Zettelkasten serve para quem está escrevendo TCC, dissertação ou artigo, porque as notas interligadas constroem argumentos ao longo do tempo. Combina mal com a revisão de curto prazo para provas, vestibular ou ENEM, em que Cornell e a recordação ativa são mais rápidos."
+      },
+      {
+        "question": "Posso usar a transcrição da aula em vez de fazer anotações?",
+        "answer": "A transcrição substitui a captura, não o raciocínio. Ela registra tudo, mas você ainda precisa marcar, organizar e transformar o conteúdo em perguntas. Usada assim, ela libera sua atenção na aula e facilita aplicar qualquer método depois."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "7 métodos de anotação para estudantes (e quais funcionam com TDAH)",
+      "description": "Cornell, tópicos, mapa mental, tabela, frases, boxing e Zettelkasten: 7 métodos de anotação comparados, com exemplos, matérias ideais e veredito para TDAH.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/pt/blog/metodos-de-anotacao"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt-BR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quais são os principais métodos de anotação?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Os cinco métodos clássicos de anotação são Cornell, tópicos, mapa mental, tabela e frases. Listas mais recentes incluem o boxing, popular no tablet, e o Zettelkasten para notas de pesquisa de longo prazo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o método de anotação mais eficaz?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O método Cornell é o mais eficaz para revisar para provas, porque a coluna de perguntas transforma as anotações em um autoteste. Em matérias muito comparativas, a tabela costuma ser melhor; para o TCC, o Zettelkasten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual o melhor método de anotação para quem tem TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Com TDAH, costuma funcionar melhor capturar a aula primeiro (como transcrição ou frases soltas) e aplicar Cornell, tópicos ou mapa mental depois. Métodos que exigem organizar o tempo todo durante a aula quebram quando a atenção escapa."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Cornell ou tópicos: qual é melhor?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cornell é melhor para revisar, porque já inclui perguntas e resumo. Tópicos são melhores para ver a estrutura de uma aula bem organizada. Muitos estudantes fazem os tópicos dentro da coluna de anotações de uma página Cornell e ficam com os dois."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O Zettelkasten serve para estudantes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Zettelkasten serve para quem está escrevendo TCC, dissertação ou artigo, porque as notas interligadas constroem argumentos ao longo do tempo. Combina mal com a revisão de curto prazo para provas, vestibular ou ENEM, em que Cornell e a recordação ativa são mais rápidos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Posso usar a transcrição da aula em vez de fazer anotações?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A transcrição substitui a captura, não o raciocínio. Ela registra tudo, mas você ainda precisa marcar, organizar e transformar o conteúdo em perguntas. Usada assim, ela libera sua atenção na aula e facilita aplicar qualquer método depois."
+          }
+        }
+      ]
+    }
+  ]
+}

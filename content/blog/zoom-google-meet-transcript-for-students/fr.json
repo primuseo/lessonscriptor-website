@@ -1,241 +1,429 @@
 {
   "slug": "zoom-google-meet-transcript-for-students",
   "page_type": "blog_post",
-  "category_tag": "Teaching & Tools",
-  "h1": "Comment obtenir une transcription Zoom ou Google Meet à partager avec vos élèves",
-  "reading_time_min": 8,
+  "category_tag": "Transcription & Tools",
+  "h1": "Transcrire gratuitement un cours sur Zoom, Google Meet, Teams ou BigBlueButton",
+  "reading_time_min": 11,
   "published_at": "2026-09-08",
-  "updated_at": "2026-09-08",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "Transcription Zoom et Google Meet pour étudiants : guide enseignant",
-    "description": "Vous enseignez en direct sur Zoom ou Google Meet ? Obtenez une transcription modifiable de votre cours dans Chrome et partagez-la avec vos élèves en quelques minutes. Gratuit, sans compte.",
-    "keywords": ["transcription zoom", "transcription google meet", "transcrire zoom", "transcription chat zoom", "enregistrement de cours"],
+    "title": "Transcrire un cours Zoom, Meet, Teams ou BBB gratuitement",
+    "description": "Transcrivez gratuitement un cours Zoom, Google Meet, Teams ou BigBlueButton dans Chrome : ce que chaque outil offre, et comment garder un texte modifiable.",
+    "keywords": [
+      "transcription zoom",
+      "transcrire une réunion zoom gratuitement",
+      "transcription google meet",
+      "transcription teams",
+      "transcription bigbluebutton",
+      "transcrire un cours en ligne"
+    ],
     "og_image": null,
     "canonical": "https://lessonscriptor.com/fr/blog/transcription-zoom-google-meet-etudiants",
-    "og_title": "Transcription Zoom et Google Meet pour étudiants : guide enseignant",
-    "og_description": "Obtenez une transcription modifiable de votre cours Zoom ou Google Meet et partagez-la avec vos élèves en quelques minutes. Gratuit, sans compte.",
+    "og_title": "Transcrire un cours Zoom, Meet, Teams ou BBB gratuitement",
+    "og_description": "Ce que Zoom, Google Meet, Teams et BigBlueButton offrent gratuitement, ce qui est payant, et comment étudiants et enseignants gardent une transcription modifiable.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l'anthropologie et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
-    "url": "/for-teachers"
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome pour la transcription vidéo en direct. Victoria étudie l'anthropologie à distance et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
-    "label": "À retenir",
-    "lead": "Vous n'avez pas besoin d'un plan Zoom ou Google Workspace payant pour donner à vos élèves une transcription de votre cours. Une extension Chrome peut le faire depuis l'onglet même où vous enseignez.",
+    "label": "L'essentiel",
+    "lead": "Zoom, Google Meet, Microsoft Teams et BigBlueButton affichent tous des sous-titres en direct, mais aucun ne permet à un compte gratuit de garder le texte. Une extension Chrome le peut, depuis l'onglet ou les haut-parleurs par lesquels passe le cours.",
     "bullets": [
-      "La transcription Zoom n'est sauvegardée que pour les enregistrements cloud, qui demandent un plan payant et une option activée par un administrateur. Les sous-titres en direct ne peuvent plus être sauvegardés du tout depuis mai 2026. Quand la réunion se termine, ils disparaissent.",
-      "Les fichiers de transcription Google Meet vont dans le Drive de l'hôte sur les plans Workspace payants. Education Fundamentals, le plan gratuit utilisé par la plupart des écoles, ne les obtient qu'avec le module complémentaire Teaching and Learning ou Education Plus.",
-      "LessonScriptor fonctionne dans l'onglet de navigateur où votre cours se joue, ne demande aucun compte, et produit une transcription modifiable avant que les élèves ne la lisent.",
-      "La partie modifiable compte : vous retirez les minutes de « est-ce que tout le monde m'entend », mettez les devoirs en gras, et envoyez quelque chose sur lequel les élèves peuvent vraiment réviser."
+      "Zoom : les sous-titres en direct sont gratuits sur tous les comptes mais disparaissent à la fin de la réunion. Depuis mai 2026, une transcription enregistrée exige un compte Pro, Business ou Enterprise et un hôte qui l'active.",
+      "Google Meet : la transcription n'arrive dans le Drive de l'organisateur que sur les éditions Workspace payantes. Education Fundamentals, l'offre gratuite de la plupart des établissements, ne l'inclut pas.",
+      "Microsoft Teams : les sous-titres en direct ne sont jamais enregistrés. La transcription dépend de la stratégie fixée par la DSI et est stockée avec l'enregistrement dans OneDrive ou SharePoint.",
+      "BigBlueButton, la classe virtuelle de nombreuses universités et d'apps.education.fr, tourne entièrement dans le navigateur : le mode IA de LessonScriptor capte l'onglet directement.",
+      "Les bots de réunion comme Otter.ai ou Fireflies rejoignent l'appel comme participant visible. LessonScriptor non, donc prévenir la classe vous revient."
     ]
   },
   "stats": [
-    { "number": "0", "label": "compte nécessaire pour commencer à transcrire avec LessonScriptor" },
-    { "number": "14", "label": "langues prises en charge, dont le français, l'espagnol, l'arabe et l'hindi" },
-    { "number": "2", "label": "formats d'export (.txt et .md) plus la copie dans le presse-papiers" }
+    {
+      "number": "0",
+      "label": "bot dans votre réunion, et aucun compte pour le mode gratuit"
+    },
+    {
+      "number": "14",
+      "label": "langues prises en charge, dont le français, l'anglais, l'espagnol et l'arabe"
+    },
+    {
+      "number": "3 min",
+      "label": "d'historique dans les sous-titres Zoom avant que le texte ne disparaisse"
+    }
   ],
-  "intro": "Le moyen le plus rapide d'obtenir une transcription Zoom ou une transcription Google Meet à remettre à vos élèves, c'est LessonScriptor, une extension Chrome gratuite qui transcrit votre cours pendant qu'il se déroule et vous donne un fichier texte modifiable une fois terminé. Zoom et Google Meet proposent tous les deux une transcription intégrée, mais elle se cache derrière des plans payants ou des réglages d'administrateur, elle est en lecture seule, et les élèves ne la voient souvent jamais. Ce guide compare les trois options et montre le flux de travail que les enseignants utilisent pour publier une transcription de cours dans les cinq minutes après avoir dit au revoir.",
+  "intro": "La façon gratuite de transcrire un cours sur Zoom, Google Meet, Microsoft Teams ou BigBlueButton est de le capter dans Chrome avec une extension comme LessonScriptor, car les offres gratuites de ces plateformes affichent des sous-titres en direct sans permettre de les conserver. Les transcriptions enregistrées de Zoom commencent à l'offre Pro, celles de Google Meet exigent une édition Workspace payante, et celles de Teams dépendent de la DSI de votre université. LessonScriptor construit une transcription modifiable dans un panneau latéral pendant le cours, sans bot dans l'appel et sans compte. Ce guide détaille ce que chaque outil offre gratuitement, la différence entre bot de réunion et capture dans le navigateur, le bon réglage pour un étudiant et pour un enseignant, et comment partager une transcription en respectant tout le monde.",
   "sections": [
     {
-      "id": "why-share-a-transcript",
-      "h2": "Pourquoi un enseignant partagerait-il une transcription de cours ?",
-      "body": "Trois groupes d'élèves en demandent une, chaque semaine. Les élèves absents qui ne veulent pas d'un enregistrement de 50 minutes. Les élèves qui suivent le cours dans leur deuxième langue, qui comprennent davantage quand ils peuvent lire en même temps. Les élèves avec un TDAH, une dyslexie ou un handicap auditif, pour qui une version texte n'est pas un bonus mais ce qui rend le cours accessible.\n\nUne transcription résout aussi un problème de votre côté. « Qu'est-ce qu'on a vu mardi » n'est plus un e-mail auquel vous répondez de mémoire. Vous collez un lien."
+      "id": "free-way-to-transcribe",
+      "h2": "Comment transcrire gratuitement un cours sur Zoom, Meet, Teams ou BigBlueButton ?",
+      "body": "Une transcription de cours est une copie texte de ce qui a été dit, que l'on peut garder, chercher et modifier après l'appel. Zoom, Google Meet, Microsoft Teams et BigBlueButton proposent tous des sous-titres en direct sans frais, mais ce sont des sous-titres d'affichage : ils défilent à l'écran et disparaissent quand la réunion se ferme. La version enregistrée, le fichier de transcription, est réservée à une offre payante ou à un réglage administrateur.\n\nIl reste donc deux voies gratuites. La première : demander à l'hôte du cours d'activer la transcription intégrée, si son offre la propose. La seconde : transcrire sur votre propre ordinateur. Une extension Chrome comme LessonScriptor écoute le cours pendant qu'il se joue et écrit la transcription dans un panneau latéral que vous contrôlez. Cette seconde voie fonctionne quelle que soit l'offre de l'hôte, et aussi sur les enregistrements.\n\nLa suite du guide passe plateforme par plateforme, parce que les détails changent, et parce qu'un étudiant qui écoute et un enseignant qui parle n'ont pas besoin du même réglage."
     },
     {
-      "id": "zoom-transcript-how-to",
-      "h2": "Comment obtenir une transcription Zoom de mon cours ?",
-      "body": "Zoom propose deux choses qu'on confond facilement. La transcription en direct (Zoom appelle ça des « sous-titres ») apparaît à l'écran pendant la réunion. La transcription audio est un fichier généré après qu'un enregistrement cloud se termine. Aucune des deux n'est la même chose que la transcription du chat Zoom, qui ne sauvegarde que ce que les gens ont tapé, pas ce qui a été dit. Si vous cherchez « transcrire Zoom », vous trouverez les trois mélangés ensemble.\n\nLes sous-titres en direct fonctionnent sur les comptes gratuits, mais seulement pendant que la réunion se déroule. Jusqu'à mai 2026, un participant pouvait cliquer sur « Enregistrer la transcription » avant de partir. Zoom a supprimé cette option. Les sous-titres montrent maintenant quelques minutes de défilement pendant l'appel et rien après. Sur un compte gratuit, il n'existe plus aucun moyen natif de conserver une transcription.\n\nLa transcription audio d'un enregistrement cloud produit un fichier .vtt que vous pouvez télécharger depuis le portail web de Zoom. Elle exige un plan payant, l'enregistrement cloud activé, et un administrateur de compte qui a activé « Transcription audio » dans les réglages d'enregistrement. Le traitement prend à peu près aussi longtemps que la réunion elle-même, donc un cours de deux heures veut dire une attente de deux heures. Ensuite, vous téléchargez, convertissez, nettoyez et publiez.\n\nSi votre école vous donne tout ça, utilisez-le. Beaucoup d'enseignants n'ont pas d'accès administrateur, n'enregistrent pas dans le cloud, ou enseignent sur un compte personnel."
+      "id": "zoom-builtin",
+      "h2": "Zoom propose-t-il une transcription gratuite ?",
+      "body": "Zoom propose des sous-titres en direct gratuits, mais ses transcriptions enregistrées sont payantes. Trois fonctions se ressemblent, et une seule est gratuite.\n\n**Les sous-titres en direct** fonctionnent sur tous les comptes Zoom, y compris le compte gratuit Basic. Depuis que Zoom a séparé sous-titres et transcriptions fin mai 2026, les sous-titres sont uniquement en direct : on peut remonter environ trois minutes, sans pouvoir les enregistrer ni les télécharger. L'ancien bouton « Enregistrer les sous-titres » a disparu.\n\n**La transcription de réunion** est la nouvelle transcription enregistrée, distincte des sous-titres depuis ce changement de mai 2026. Elle exige un compte Pro, Business ou Enterprise, elle est désactivée par défaut, et l'hôte doit la lancer depuis le menu Plus de l'application Zoom de bureau ou mobile. Les participants peuvent en demander l'accès, l'hôte décide. Le fichier .txt est enregistré dans le dossier Zoom de vos Documents.\n\n**La transcription audio des enregistrements cloud** est un fichier généré par Zoom après la fin d'un enregistrement cloud. Elle demande un compte payant avec enregistrement cloud, et un propriétaire ou administrateur qui a activé la transcription audio dans les paramètres. Le traitement prend du temps après la réunion.\n\n**L'historique du chat Zoom** est une quatrième chose qui remonte dans les recherches : il garde les messages écrits, pas la parole. Sur un compte gratuit, ou dans un cours où l'hôte n'a rien activé, Zoom ne vous laisse rien garder de ce qui a été dit."
     },
     {
-      "id": "google-meet-transcript-how-to",
-      "h2": "Comment obtenir une transcription Google Meet ?",
-      "body": "Google Meet a un bouton « Transcriptions » dans le panneau Activités qui enregistre un Google Doc dans le Drive de l'hôte après l'appel. C'est inclus dans les plans Workspace payants (Business Standard et au-dessus, Education Plus, et le module complémentaire Teaching and Learning). Education Fundamentals, le plan gratuit sur lequel se trouvent la plupart des écoles, ne l'inclut pas sauf si l'école achète le module. Les licences élèves ont les transcriptions désactivées par défaut, même quand l'école les a.\n\nLe Doc produit est correct, avec les noms des intervenants et des horodatages, mais ça reste une transcription brute. Chaque « euh », chaque question à côté sur le Wi-Fi, chaque minute d'attente que le dernier élève rejoigne."
+      "id": "google-meet-builtin",
+      "h2": "Google Meet propose-t-il une transcription gratuite ?",
+      "body": "La transcription Google Meet n'est pas gratuite. La fonction Transcriptions enregistre un Google Doc dans le Drive de l'organisateur après l'appel, avec noms des intervenants et horodatage. Elle est incluse dans Business Standard, Business Plus, Enterprise Starter, Standard et Plus, Workspace Individual, Education Plus et la mise à niveau Teaching and Learning.\n\nElle n'est pas disponible dans Education Fundamentals, l'édition gratuite de la plupart des écoles et universités, ni dans Education Standard, Business Starter, Essentials ou un compte Gmail personnel. Même quand l'établissement paie, les comptes avec une licence étudiant ont la transcription désactivée par défaut. En pratique, un étudiant ne peut presque jamais lancer une transcription Meet, et un enseignant seulement si son établissement a acheté la bonne édition.\n\nLes sous-titres en direct de Google Meet, eux, sont gratuits sur tous les comptes. Comme ceux de Zoom, ils se lisent pendant l'appel et ne sont pas enregistrés."
     },
     {
-      "id": "lessonscriptor-how-to",
-      "h2": "Comment transcrire un cours Zoom ou Google Meet avec LessonScriptor ?",
-      "body": "LessonScriptor fonctionne depuis l'onglet Chrome où votre cours se joue. Il ne rejoint pas la réunion comme un bot, il ne demande rien à vos élèves, et il ne nécessite aucune mise à niveau de plan.",
-      "steps": [
-        "Installez LessonScriptor depuis le Chrome Web Store. Un clic, aucune inscription.",
-        "Ouvrez votre cours Zoom ou Google Meet dans un onglet Chrome. Le lien « Rejoindre depuis votre navigateur » de Zoom fonctionne. Meet fonctionne déjà dans le navigateur.",
-        "Cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral et appuyez sur Enregistrer avant de commencer à enseigner.",
-        "Enseignez. La transcription se construit dans le panneau latéral pendant que vous parlez. Vous pouvez y jeter un œil pour vérifier qu'un terme a bien été capté.",
-        "Quand le cours se termine, modifiez sur place. Supprimez les cinq premières minutes d'installation, mettez les devoirs en gras, ajoutez un titre pour chaque partie du cours.",
-        "Exportez en .md ou .txt, ou copiez dans le presse-papiers et collez dans Google Classroom, Moodle, ou un e-mail."
-      ]
+      "id": "teams-builtin",
+      "h2": "Microsoft Teams propose-t-il sous-titres et transcription ?",
+      "body": "Microsoft Teams propose les deux, mais seuls les sous-titres sont garantis. Les sous-titres en direct, avec le nom de la personne qui parle, s'activent depuis le menu de la réunion. Microsoft précise que Teams n'enregistre pas les sous-titres.\n\nLa transcription est une stratégie distincte, contrôlée par l'administrateur de l'établissement. L'organisateur et la personne qui lance la transcription doivent tous deux y être autorisés. La transcription est ensuite stockée avec l'enregistrement dans OneDrive ou SharePoint, consultable après la réunion avec horodatage et noms. Les sous-titres et transcriptions traduits exigent une licence Teams Premium pour l'organisateur.\n\nTeams est très présent dans l'enseignement en France, dans de nombreuses universités et académies qui utilisent Microsoft 365 Éducation. Si l'option est grisée dans votre réunion, c'est un choix de la DSI, et la voie du navigateur ci-dessous reste possible, car Teams fonctionne dans Chrome sur teams.microsoft.com."
     },
     {
-      "id": "free-vs-ai-mode",
-      "h2": "Mode gratuit ou mode IA pour un cours en direct ?",
-      "body": "Le mode gratuit utilise le microphone de votre appareil et le moteur vocal intégré à votre navigateur, entièrement local, sans inscription. Il capte directement votre voix, ce qui suffit pour la plupart des cours où c'est surtout vous qui parlez. Si vous voulez aussi capter clairement les questions des élèves, ou si vous enseignez avec un casque, le mode IA capte l'audio de l'onglet lui-même plutôt que de dépendre d'un micro. Le mode IA est un pack de crédits payé à l'usage, pas un abonnement, les crédits n'expirent jamais, et un pack de 30 heures coûte environ 21 $, ce qui couvre à peu près un semestre complet à trois heures de cours par semaine."
+      "id": "bigbluebutton",
+      "h2": "Peut-on transcrire une classe virtuelle BigBlueButton ?",
+      "body": "Oui, et BigBlueButton est même le cas le plus simple. BigBlueButton est la classe virtuelle libre utilisée par de nombreuses universités françaises, souvent intégrée à Moodle, et c'est aussi la « Classe virtuelle » proposée aux enseignants sur apps.education.fr. Elle fonctionne entièrement dans le navigateur, sans application à installer, donc le mode IA de LessonScriptor capte l'audio de l'onglet directement, casque compris.\n\nBigBlueButton a aussi ses propres sous-titres automatiques, basés sur la reconnaissance vocale du navigateur. Ils doivent être activés par l'administrateur du serveur, chaque participant transcrit sa propre voix, et ce sont des sous-titres de séance, pas un document à garder. Si votre établissement les a activés, ils aident pendant le cours ; pour réviser ensuite, il vous faut une transcription que vous conservez."
     },
     {
       "id": "comparison-table",
-      "h2": "Transcription Zoom vs transcription Google Meet vs LessonScriptor",
-      "body": "Ce tableau aligne les trois options sur ce qui change vraiment votre mardi après-midi : quel plan il vous faut, si vous pouvez modifier avant de partager, et combien de temps vous attendez.",
+      "h2": "Zoom, Meet, Teams, BigBlueButton ou LessonScriptor : qui garde une transcription gratuitement ?",
+      "body": "Ce tableau compare ce que chaque option offre à un utilisateur gratuit, et qui doit l'activer.",
       "table": {
-        "headers": ["", "Transcription audio Zoom", "Transcription Google Meet", "LessonScriptor"],
+        "headers": [
+          "",
+          "Zoom",
+          "Google Meet",
+          "Microsoft Teams",
+          "BigBlueButton",
+          "LessonScriptor"
+        ],
         "rows": [
-          ["Plan nécessaire", "Payant + réglage admin", "Workspace payant ou module Education", "Aucun"],
-          ["Disponible pendant le cours", "Sous-titres uniquement, non sauvegardables", "Non, après l'appel", "Oui, en direct dans un panneau latéral"],
-          ["Modifiable avant partage", "Non (fichier .vtt)", "Oui, dans Google Docs", "Oui, dans le panneau au fur et à mesure"],
-          ["Temps d'attente", "À peu près la durée de la réunion", "Quelques minutes", "Aucun"],
-          ["Fonctionne aussi pour les cours enregistrés", "Enregistrements cloud uniquement", "Non", "Oui, toute vidéo dans Chrome"],
-          ["Langues", "Selon le plan", "Anglais en premier, quelques autres", "14"]
+          [
+            "Sous-titres en direct gratuits",
+            "Oui, tous les comptes",
+            "Oui, tous les comptes",
+            "Oui",
+            "Si l'administrateur les active",
+            "Oui, dans un panneau latéral"
+          ],
+          [
+            "Transcription enregistrée",
+            "Offre Pro ou supérieure",
+            "Éditions Workspace payantes",
+            "Si la stratégie de la DSI l'autorise",
+            "Non, sous-titres de séance",
+            "Oui, enregistrée localement"
+          ],
+          [
+            "Qui l'active",
+            "L'hôte",
+            "L'organisateur",
+            "Organisateur et DSI",
+            "L'administrateur du serveur",
+            "Vous"
+          ],
+          [
+            "Modifiable avant partage",
+            "Non, fichier .txt",
+            "Oui, dans Google Docs",
+            "Dans Stream ou Teams",
+            "Non",
+            "Oui, en direct"
+          ],
+          [
+            "Fonctionne sur les enregistrements",
+            "Enregistrements cloud",
+            "Non",
+            "Avec l'enregistrement",
+            "Non",
+            "Toute vidéo lue dans Chrome"
+          ]
         ]
       }
     },
     {
-      "id": "what-should-transcript-look-like",
-      "h2": "À quoi doit ressembler la transcription avant que les élèves ne la reçoivent ?",
-      "body": "Une transcription brute est une gentillesse. Une transcription modifiée est une ressource d'étude. Les modifications qui prennent le moins de temps et aident le plus :\n\nCoupez tout ce qui précède la première phrase de contenu. Ajoutez un titre par section du cours pour que les élèves puissent aller directement à la partie qu'ils ont manquée. Mettez en gras les devoirs, la date du contrôle, et tout terme que vous avez épelé à voix haute. Supprimez la digression sur l'imprimante. Gardez vos propres mots, parce que c'est ce dont les élèves se souviennent avoir entendu.\n\nCe sont dix minutes de travail dans l'éditeur de LessonScriptor, et vous en avez déjà fait la plus grande partie pendant que le cours se déroulait encore."
+      "id": "bots-vs-browser",
+      "h2": "Bot de réunion ou extension de navigateur : quelle différence ?",
+      "body": "Un bot de réunion est un service de transcription qui rejoint votre appel comme participant supplémentaire. Otter.ai, Fireflies.ai et leurs équivalents se connectent à votre agenda, envoient un bot du type « Otter Notetaker » dans la réunion Zoom, Meet ou Teams et enregistrent depuis l'intérieur. Tout le monde le voit dans la liste des participants, l'hôte doit parfois l'admettre depuis la salle d'attente, et beaucoup d'universités bloquent les bots inconnus.\n\nLes bots ont de vrais atouts. Ils indiquent qui a dit quoi, peuvent assister à une réunion où vous n'êtes pas, et produisent des résumés. Pour une réunion d'équipe à cinq voix, c'est souvent ce qu'on veut, et LessonScriptor ne fait ni identification des intervenants ni résumé. Ces outils sont aussi pensés d'abord pour l'anglais.\n\nUne extension de navigateur fonctionne autrement. LessonScriptor tourne sur votre ordinateur et transcrit ce que joue votre onglet Chrome, ou vos haut-parleurs : rien ne rejoint l'appel et personne d'autre n'installe quoi que ce soit. C'est pour cela qu'il fonctionne dans les cours où les bots sont bloqués, sur les cours enregistrés où il n'y a pas de réunion à rejoindre, et sans connecter d'agenda ni créer de compte. La contrepartie : il n'entend que ce qui arrive à votre ordinateur, et Chrome doit être ouvert.",
+      "internal_links": [
+        {
+          "text": "Les alternatives à Otter.ai pour les étudiants, comparées",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
     },
     {
-      "id": "recorded-lessons-flipped-classrooms",
-      "h2": "Est-ce que ça marche aussi pour les cours enregistrés et les classes inversées ?",
-      "body": "Oui. Tout ce qui se joue dans un onglet Chrome peut être transcrit de la même façon : un enregistrement de conférence depuis le système de capture de cours de votre université (Panopto, Kaltura, Echo360), une vidéo YouTube donnée en devoir, un Loom enregistré dimanche soir. Ouvrez la vidéo, ouvrez le panneau latéral, appuyez sur lecture. La transcription se construit en même temps que la vidéo et s'exporte de la même façon.",
-      "internal_links": [
-        { "text": "Comment transcrire des vidéos de cours", "url": "/blog/how-to-transcribe-lecture-videos" }
+      "id": "which-mode",
+      "h2": "Quel mode de LessonScriptor choisir selon votre situation ?",
+      "body": "LessonScriptor écoute de deux façons, et le bon choix dépend de si vous suivez le cours ou si vous le donnez.\n\n**Le mode gratuit** utilise la reconnaissance vocale intégrée de Chrome via votre micro. Il est gratuit pour toujours, sans compte, et n'envoie aucun audio aux serveurs de LessonScriptor. Comme il écoute par le micro, il entend votre voix et tout ce qui sort de vos haut-parleurs. Il ne fonctionne pas avec un casque, et le volume doit être d'environ 80 % ou plus.\n\n**Le mode IA** capte directement l'audio de l'onglet Chrome et l'envoie par courts segments à un modèle de reconnaissance vocale dans le cloud : il fonctionne avec un casque et gère bien mieux les accents et le vocabulaire technique. Le texte arrive toutes les 10 secondes en mode Normal, toutes les 30 secondes en mode Optimal. C'est sans abonnement : 30 minutes d'essai gratuit, puis des packs uniques de 5 heures pour 5 $, 15 heures pour 12 $ ou 30 heures pour 21 $. Les crédits n'expirent jamais, et Stripe affiche le prix en euros au moment du paiement.",
+      "subsections": [
+        {
+          "h3": "Étudiant qui suit un cours en direct dans le navigateur",
+          "body": "Rejoignez le cours via Google Meet dans Chrome, Teams sur le web, BigBlueButton depuis Moodle, ou le lien « Rejoindre depuis votre navigateur » de Zoom. Le mode IA capte l'onglet : le casque ne pose aucun problème et votre propre voix ne se mélange pas au cours. Le mode gratuit fonctionne aussi avec des haut-parleurs."
+        },
+        {
+          "h3": "Enseignant qui donne le cours",
+          "body": "Utilisez le mode gratuit avec des haut-parleurs, pas de casque. Le micro capte votre voix directement, et les questions des étudiants via les haut-parleurs. Le mode IA ne capte que ce que joue l'onglet, et un appel vidéo ne vous renvoie pas votre propre voix : une transcription en mode IA de votre propre cours serait donc sans vous."
+        },
+        {
+          "h3": "Application de bureau Zoom, Teams ou Webex",
+          "body": "Le mode IA n'a pas accès au son en dehors de Chrome. Le mode gratuit fonctionne quand même, car le micro entend l'application par vos haut-parleurs. Montez le volume et limitez le bruit ambiant. Si possible, passez plutôt à la version navigateur de la réunion."
+        },
+        {
+          "h3": "Enregistrement après le cours",
+          "body": "Ouvrez l'enregistrement dans un onglet Chrome et utilisez le mode IA pour le résultat le plus propre. Chaque onglet est capté séparément, vous pouvez donc laisser tourner l'enregistrement et travailler dans un autre onglet."
+        }
       ]
+    },
+    {
+      "id": "how-to-steps",
+      "h2": "Comment transcrire un cours Zoom, Meet, Teams ou BigBlueButton dans Chrome ?",
+      "body": "La mise en place prend environ deux minutes la première fois, et rien ne change pour les autres participants.",
+      "steps": [
+        "Installez LessonScriptor depuis le Chrome Web Store. Le mode gratuit ne demande aucune inscription.",
+        "Ouvrez le cours dans Chrome : Google Meet et BigBlueButton tournent déjà dans le navigateur, Teams fonctionne sur teams.microsoft.com, et les réunions Zoom proposent un lien « Rejoindre depuis votre navigateur ».",
+        "Cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral et choisissez la langue du cours.",
+        "Choisissez le mode adapté : mode gratuit avec haut-parleurs si vous enseignez ou utilisez une application de bureau, mode IA si vous écoutez dans un onglet avec un casque.",
+        "Lancez l'enregistrement avant le début du cours. La transcription se construit dans le panneau au fil de la parole.",
+        "Modifiez pendant ou après : mettez en gras les notions clés, ajoutez un titre par partie, surlignez en cinq couleurs, ou insérez une capture de la diapositive dans la transcription.",
+        "Exportez en .txt ou .md, ou copiez dans le presse-papiers. Chaque séance est aussi enregistrée automatiquement dans l'historique de l'extension."
+      ]
+    },
+    {
+      "id": "recordings",
+      "h2": "Peut-on transcrire l'enregistrement Zoom plutôt que le cours en direct ?",
+      "body": "Oui. Une fois lu dans Chrome, un enregistrement Zoom n'est qu'une vidéo : LessonScriptor le transcrit comme un cours en direct, sans réglage côté hôte. Ouvrez le lien d'enregistrement cloud sur zoom.us dans un onglet, ou l'enregistrement intégré à votre Moodle, et lancez la lecture. Si vous avez téléchargé le fichier .mp4, glissez-le dans un onglet Chrome et lisez-le là.\n\nC'est pareil pour les enregistrements BigBlueButton déposés sur Moodle, les vidéos Pod de nombreuses universités, les ressources du CNED, les enregistrements Teams dans Microsoft Stream et YouTube. Pour réviser, c'est souvent la meilleure option : vous pouvez mettre en pause, revenir sur un passage confus de l'amphi, et la transcription en mode IA est plus propre qu'une captation par haut-parleurs dans une pièce bruyante.",
+      "internal_links": [
+        {
+          "text": "Sous-titres et transcriptions des enregistrements Zoom dans Chrome",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        },
+        {
+          "text": "Comment transcrire des vidéos de cours",
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
+    },
+    {
+      "id": "teachers-sharing",
+      "h2": "Comment un enseignant peut-il partager la transcription d'un cours ?",
+      "body": "Une transcription de cours est la plus utile quand elle est relue et déposée le jour même. Le texte brut est une politesse ; une version nettoyée est un vrai support de révision. Ces retouches prennent dix minutes dans l'éditeur de LessonScriptor, et une bonne partie peut se faire pendant le cours :\n\nCoupez les minutes d'installation avant la première phrase de contenu. Ajoutez un titre par partie du cours, pour que les absents trouvent ce qu'ils ont manqué. Mettez en gras les devoirs, la date du partiel et chaque terme que vous avez épelé. Supprimez la digression sur le vidéoprojecteur. Gardez vos formulations, car ce sont celles dont les étudiants se souviennent.\n\nEnsuite, exportez et déposez la transcription là où les étudiants regardent déjà : une page ou une ressource Moodle, Google Classroom, un canal Teams, l'ENT ou un e-mail. L'export Markdown garde vos titres et le gras. Les étudiants n'ont rien à installer pour la lire.",
+      "callout": {
+        "type": "checklist",
+        "label": "Avant de partager une transcription",
+        "body": "**Retirez** les noms d'étudiants liés à des questions personnelles. **Corrigez** les noms propres et le vocabulaire disciplinaire mal reconnus. **Ajoutez** la date et l'intitulé du cours en haut. **Précisez** que le texte est généré automatiquement, pour que les étudiants vérifient ce qui semble étrange."
+      }
+    },
+    {
+      "id": "accessibility",
+      "h2": "La transcription des cours aide-t-elle l'accessibilité ?",
+      "body": "La transcription aide surtout quatre groupes : les étudiants sourds ou malentendants, les étudiants avec un TDAH ou une dyslexie, les étudiants qui suivent en français langue étrangère, et ceux qui ont manqué la séance. Pour un étudiant avec un TDAH, la transcription supprime le besoin d'écouter et de prendre des notes en même temps, là où l'attention décroche le plus souvent. Pour un étudiant Erasmus, lire en même temps transforme des phrases à moitié comprises en quelque chose qu'il peut chercher.\n\nUne transcription automatique est un soutien, pas une garantie. La reconnaissance vocale se trompe encore sur les noms et les formules, et elle ne décrit pas les diapositives. Quand un étudiant bénéficie d'un aménagement formel, le service handicap de l'université ou la Mission handicap décide de ce qui convient, et ce peut être un preneur de notes humain ou un vélotypiste. Utilisez la transcription en complément, et ajoutez-y des captures des diapositives pour garder texte et visuels ensemble.",
+      "internal_links": [
+        {
+          "text": "Aménagements TDAH à l'université et outils qui les accompagnent",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "privacy-consent",
+      "h2": "Peut-on transcrire un cours ou une réunion sans prévenir ?",
+      "body": "Non. Prévenez avant de transcrire. Un bot de réunion s'annonce dans la liste des participants, et Zoom, Meet et Teams affichent une bannière quand leur propre transcription démarre. Une extension de navigateur n'affiche rien aux autres participants, donc c'est à vous d'informer. En France, la voix d'une personne est une donnée personnelle au sens du RGPD, et la plupart des universités ont une charte sur la captation des cours. Un message d'une ligne au début (« Je transcris la séance pour partager les notes ensuite ») couvre la plupart des situations, et un enseignant doit dire où la transcription sera publiée.\n\nCôté données, le mode gratuit utilise la reconnaissance vocale de Chrome et n'envoie aucun audio aux serveurs de LessonScriptor. En mode IA, de courts segments audio de l'onglet sont envoyés à un service de transcription cloud (le modèle Whisper de Groq), qui ne les conserve pas au-delà de la requête, selon la politique de confidentialité de LessonScriptor. Dans les deux modes, la transcription est stockée dans votre navigateur, pas sur un serveur de LessonScriptor. LessonScriptor n'enregistre jamais l'audio ni la vidéo, seulement le texte."
     }
   ],
   "faq": {
-    "section_title": "Questions fréquentes",
-    "items": [
+    "heading": "Questions fréquentes",
+    "questions": [
       {
-        "q": "Existe-t-il un moyen gratuit d'obtenir une transcription Zoom ?",
-        "a": "Pas depuis Zoom lui-même. Depuis mai 2026, les sous-titres ne peuvent plus être sauvegardés, et les transcriptions d'enregistrement cloud demandent un plan payant. Le mode gratuit de LessonScriptor transcrit le cours depuis votre onglet Chrome sans compte et sans limite de temps, et vous laisse modifier le texte avant de le partager."
+        "question": "Comment transcrire une réunion Zoom gratuitement ?",
+        "answer": "Pas avec les outils de Zoom sur un compte gratuit : les sous-titres en direct sont gratuits mais ne s'enregistrent pas, et la transcription de réunion exige l'offre Pro ou supérieure. Le mode gratuit de LessonScriptor transcrit la réunion par le micro et les haut-parleurs, sans frais, et garde un texte modifiable."
       },
       {
-        "q": "Ai-je besoin d'un compte pour utiliser LessonScriptor ?",
-        "a": "Non. Le mode gratuit ne demande aucune inscription du tout, installez l'extension et commencez à transcrire. Si vous achetez un pack de crédits en mode IA, vous recevez une clé de licence par e-mail à coller dans les paramètres de l'extension. Il n'y a aucun compte ni connexion, juste une clé."
+        "question": "Peut-on obtenir une transcription Zoom sans enregistrer la réunion ?",
+        "answer": "Oui. Depuis mai 2026, la transcription de réunion Zoom ne dépend plus d'un enregistrement cloud, mais elle exige un compte Pro ou supérieur et c'est l'hôte qui la lance. LessonScriptor n'a pas besoin d'enregistrement non plus : il transcrit l'audio en direct."
       },
       {
-        "q": "Puis-je obtenir une transcription Google Meet sur un compte gratuit ?",
-        "a": "Pas depuis Google. La fonction de transcription de Meet demande un plan Workspace payant, ou le module Teaching and Learning pour les écoles sur Education Fundamentals. LessonScriptor fonctionne sur tout appel Google Meet qui se joue dans Chrome, quel que soit votre plan."
+        "question": "La transcription Google Meet est-elle disponible avec Education Fundamentals ?",
+        "answer": "Non. La transcription Meet exige une édition payante comme Education Plus ou la mise à niveau Teaching and Learning. LessonScriptor fonctionne sur tout appel Meet ouvert dans Chrome, quelle que soit l'édition de l'établissement."
       },
       {
-        "q": "Est-ce que LessonScriptor fonctionne avec Zoom et Google Meet dans un onglet de navigateur ?",
-        "a": "Oui. Google Meet fonctionne déjà dans le navigateur. Pour Zoom, utilisez le lien « Rejoindre depuis votre navigateur » plutôt que l'application de bureau. LessonScriptor transcrit l'onglet dans les deux cas, et fonctionne aussi sur les cours enregistrés depuis Panopto, Canvas, YouTube et des plateformes similaires."
+        "question": "LessonScriptor fonctionne-t-il avec BigBlueButton ?",
+        "answer": "Oui. BigBlueButton tourne entièrement dans le navigateur, que ce soit depuis Moodle ou la Classe virtuelle d'apps.education.fr. Le mode IA capte l'onglet directement, casque compris, et le mode gratuit fonctionne avec des haut-parleurs."
       },
       {
-        "q": "Mes élèves doivent-ils installer quelque chose ?",
-        "a": "Non. Vous transcrivez, vous modifiez, vous partagez un fichier texte ou un document collé. Les élèves n'ont qu'à le lire."
+        "question": "LessonScriptor fonctionne-t-il avec l'application de bureau Zoom ou Teams ?",
+        "answer": "Seulement en mode gratuit, qui écoute par le micro et entend donc l'application par vos haut-parleurs. Le mode IA capte l'audio d'un onglet Chrome : il faut ouvrir la réunion dans le navigateur, par exemple avec le lien « Rejoindre depuis votre navigateur » de Zoom ou Teams sur le web."
       },
       {
-        "q": "L'audio des élèves est-il envoyé quelque part ?",
-        "a": "En mode gratuit, rien ne quitte votre ordinateur, la transcription tourne en local grâce au moteur vocal de Chrome. En mode IA, l'audio de l'onglet est envoyé par petits morceaux à un modèle de transcription cloud et n'est pas conservé. Vérifiez la politique de votre école sur l'enregistrement avant de capter la voix de vos élèves, comme pour tout enregistrement."
-      },
-      {
-        "q": "Quelle est sa précision avec les accents ou le vocabulaire technique ?",
-        "a": "Le mode IA utilise un modèle vocal cloud conçu pour une meilleure précision face aux accents et au bruit de fond, et tient mieux la route sur les termes propres à une matière que le mode gratuit. Le mode gratuit repose sur le moteur vocal intégré à votre navigateur, qui est solide pour une parole claire près du micro mais moins régulier avec de forts accents."
-      },
-      {
-        "q": "Est-ce que ça fonctionnera en français, en espagnol ou en arabe ?",
-        "a": "Oui. Définissez la langue dans les paramètres de l'extension avant de commencer. LessonScriptor transcrit dans 14 langues. Choisissez une langue par session, puisque changer en plein cours demande un redémarrage."
-      },
-      {
-        "q": "Quel format reçoivent les élèves ?",
-        "a": "Celui que vous choisissez. Exportez en Markdown (.md) ou en texte brut (.txt), ou copiez dans le presse-papiers et collez dans Google Classroom, Moodle, Notion, ou un e-mail. Vos titres, votre gras et vos surlignages suivent."
+        "question": "J'enseigne sur Teams ou Meet : quel mode capte ma propre voix ?",
+        "answer": "Le mode gratuit avec haut-parleurs. Il écoute par le micro, donc il vous entend directement et entend les étudiants par les haut-parleurs. Le mode IA ne capte que ce que joue l'onglet, et l'appel ne vous renvoie pas votre voix : votre partie manquerait."
       }
     ]
   },
   "summary": {
-    "heading": "Donnez le cours en texte à vos élèves, dès aujourd'hui",
-    "body": "Vous dites déjà tout ce dont les élèves ont besoin. LessonScriptor l'écrit pendant que vous enseignez, vous laisse le ranger pendant qu'ils se déconnectent, et vous donne un fichier à partager avant le début du prochain cours. Gratuit à installer, sans compte, fonctionne dans l'onglet Chrome où vous enseignez déjà.",
+    "heading": "Une transcription de chaque cours, quelle que soit l'offre de l'hôte",
+    "body": "Zoom, Google Meet, Teams et BigBlueButton offrent à tous des sous-titres en direct et réservent la transcription enregistrée aux offres payantes ou aux réglages de la DSI. LessonScriptor comble ce manque depuis votre propre Chrome : mode gratuit par les haut-parleurs pour les enseignants et les applications de bureau, mode IA sur l'onglet pour les étudiants et les enregistrements, aucun bot dans l'appel, et une transcription modifiable à partager le jour même.",
     "internal_links": [
-      { "text": "Voyez tout ce que LessonScriptor fait pour les enseignants, y compris comment utiliser votre propre transcription pour analyser un cours", "url": "/for-teachers" }
+      {
+        "text": "Découvrir comment les enseignants utilisent LessonScriptor pour leurs cours",
+        "url": "/for-teachers"
+      }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "Comment obtenir une transcription Zoom ou Google Meet à partager avec vos élèves",
-        "description": "Vous enseignez en direct sur Zoom ou Google Meet ? Obtenez une transcription modifiable de votre cours dans Chrome et partagez-la avec vos élèves en quelques minutes. Gratuit, sans compte.",
-        "datePublished": "2026-09-08",
-        "dateModified": "2026-09-08",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "Victoria",
-            "description": "Étudiante en anthropologie avec un TDAH",
-            "url": "https://lessonscriptor.com"
-          },
-          {
-            "@type": "Person",
-            "name": "Pierre Girardot",
-            "description": "Développeur & SEO",
-            "url": "https://lessonscriptor.com"
-          }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://lessonscriptor.com/logo.png",
-            "width": 600,
-            "height": 60
-          }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Transcrire gratuitement un cours sur Zoom, Google Meet, Teams ou BigBlueButton",
+      "description": "Transcrivez gratuitement un cours Zoom, Google Meet, Teams ou BigBlueButton dans Chrome : ce que chaque outil offre, et comment garder un texte modifiable.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-09-08",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/transcription-zoom-google-meet-etudiants",
+      "url": "https://lessonscriptor.com/fr/blog/transcription-zoom-google-meet-etudiants",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie avec un TDAH",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
         }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Existe-t-il un moyen gratuit d'obtenir une transcription Zoom ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Pas depuis Zoom lui-même. Depuis mai 2026, les sous-titres ne peuvent plus être sauvegardés, et les transcriptions d'enregistrement cloud demandent un plan payant. Le mode gratuit de LessonScriptor transcrit le cours depuis votre onglet Chrome sans compte et sans limite de temps, et vous laisse modifier le texte avant de le partager."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Ai-je besoin d'un compte pour utiliser LessonScriptor ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Non. Le mode gratuit ne demande aucune inscription du tout. Si vous achetez un pack de crédits en mode IA, vous recevez une clé de licence par e-mail à coller dans les paramètres de l'extension. Il n'y a aucun compte ni connexion, juste une clé."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Est-ce que LessonScriptor fonctionne avec Zoom et Google Meet dans un onglet de navigateur ?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Oui. Google Meet fonctionne déjà dans le navigateur. Pour Zoom, utilisez le lien « Rejoindre depuis votre navigateur » plutôt que l'application de bureau. LessonScriptor transcrit l'onglet dans les deux cas, et fonctionne aussi sur les cours enregistrés depuis Panopto, Canvas, YouTube et des plateformes similaires."
-            }
-          }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Comment transcrire un cours Zoom, Meet, Teams ou BigBlueButton dans Chrome ?",
+      "inLanguage": "fr-FR",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Installez LessonScriptor depuis le Chrome Web Store. Le mode gratuit ne demande aucune inscription."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Ouvrez le cours dans Chrome : Google Meet et BigBlueButton tournent déjà dans le navigateur, Teams fonctionne sur teams.microsoft.com, et les réunions Zoom proposent un lien « Rejoindre depuis votre navigateur »."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Cliquez sur l'icône LessonScriptor pour ouvrir le panneau latéral et choisissez la langue du cours."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Choisissez le mode adapté : mode gratuit avec haut-parleurs si vous enseignez ou utilisez une application de bureau, mode IA si vous écoutez dans un onglet avec un casque."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Lancez l'enregistrement avant le début du cours. La transcription se construit dans le panneau au fil de la parole."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Modifiez pendant ou après : mettez en gras les notions clés, ajoutez un titre par partie, surlignez en cinq couleurs, ou insérez une capture de la diapositive dans la transcription."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Exportez en .txt ou .md, ou copiez dans le presse-papiers. Chaque séance est aussi enregistrée automatiquement dans l'historique de l'extension."
+        }
+      ]
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "Transcription Zoom et Google Meet pour étudiants", "item": "https://lessonscriptor.com/blog/zoom-google-meet-transcript-for-students" }
-        ]
-      }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Comment transcrire une réunion Zoom gratuitement ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pas avec les outils de Zoom sur un compte gratuit : les sous-titres en direct sont gratuits mais ne s'enregistrent pas, et la transcription de réunion exige l'offre Pro ou supérieure. Le mode gratuit de LessonScriptor transcrit la réunion par le micro et les haut-parleurs, sans frais, et garde un texte modifiable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on obtenir une transcription Zoom sans enregistrer la réunion ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Depuis mai 2026, la transcription de réunion Zoom ne dépend plus d'un enregistrement cloud, mais elle exige un compte Pro ou supérieur et c'est l'hôte qui la lance. LessonScriptor n'a pas besoin d'enregistrement non plus : il transcrit l'audio en direct."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "La transcription Google Meet est-elle disponible avec Education Fundamentals ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Non. La transcription Meet exige une édition payante comme Education Plus ou la mise à niveau Teaching and Learning. LessonScriptor fonctionne sur tout appel Meet ouvert dans Chrome, quelle que soit l'édition de l'établissement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor fonctionne-t-il avec BigBlueButton ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. BigBlueButton tourne entièrement dans le navigateur, que ce soit depuis Moodle ou la Classe virtuelle d'apps.education.fr. Le mode IA capte l'onglet directement, casque compris, et le mode gratuit fonctionne avec des haut-parleurs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor fonctionne-t-il avec l'application de bureau Zoom ou Teams ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Seulement en mode gratuit, qui écoute par le micro et entend donc l'application par vos haut-parleurs. Le mode IA capte l'audio d'un onglet Chrome : il faut ouvrir la réunion dans le navigateur, par exemple avec le lien « Rejoindre depuis votre navigateur » de Zoom ou Teams sur le web."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "J'enseigne sur Teams ou Meet : quel mode capte ma propre voix ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le mode gratuit avec haut-parleurs. Il écoute par le micro, donc il vous entend directement et entend les étudiants par les haut-parleurs. Le mode IA ne capte que ce que joue l'onglet, et l'appel ne vous renvoie pas votre voix : votre partie manquerait."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Transcrire un cours Zoom, Meet, Teams ou BBB gratuitement",
+          "item": "https://lessonscriptor.com/fr/blog/transcription-zoom-google-meet-etudiants"
+        }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/for-teachers",
-    "related_posts": [
-      "/live-captions-chrome",
-      "/blog/how-to-transcribe-lecture-videos"
-    ]
-  }
+  ]
 }

@@ -1,0 +1,316 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Como colocar legendas em gravações do Zoom, Meet e Teams no Chrome (2026)",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Legendas para gravações do Zoom, Meet e Teams",
+    "description": "Coloque legendas numa gravação do Zoom, Google Meet ou Teams no Chrome, mesmo sem transcrição, e guarde um texto editável da sua aula gravada no AVA.",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "og_title": "Legendas para gravações do Zoom, Google Meet e Teams no Chrome",
+    "og_description": "Legendas para as suas aulas gravadas no Chrome, mesmo quando o professor não ativou a transcrição.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Navegador Chrome com uma aula gravada e o painel de transcrição do LessonScriptor aberto",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrever vídeos ao vivo. Victoria estuda antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "O essencial",
+    "lead": "O LessonScriptor adiciona uma transcrição editável a qualquer aula gravada que toque no Chrome: Zoom, Google Meet (gravações no Google Drive) ou Teams (OneDrive ou SharePoint). Funciona mesmo que o professor não tenha ativado a transcrição. A Legenda instantânea do Chrome também funciona nesses vídeos, mas o texto some.",
+    "bullets": [
+      "Uma gravação do Zoom, Meet ou Teams reproduzida numa aba do Chrome funciona com a Legenda instantânea do Chrome e com o LessonScriptor.",
+      "A transcrição própria do Zoom, Meet ou Teams depende do organizador: se ele não ativou, ela não existe. Isso é comum em aulas gravadas compartilhadas pelo professor.",
+      "O LessonScriptor também funciona em vídeos dentro do AVA da sua universidade (Moodle, Canvas, Blackboard), não só no zoom.us.",
+      "Um MP4 baixado pode ser aberto no Chrome e transcrito enquanto toca.",
+      "A transcrição do LessonScriptor pode ser corrigida, destacada e exportada (.txt, .md); a legenda do Chrome não fica salva."
+    ]
+  },
+  "intro": "O LessonScriptor legenda aulas gravadas no Chrome transcrevendo o áudio enquanto ele toca, num painel lateral em que o texto pode ser editado. No Brasil, essas gravações costumam vir de três ferramentas: Google Meet, muito usado com o Google Workspace for Education e com gravações salvas no Google Drive, Zoom e Microsoft Teams, que guarda as gravações no OneDrive ou SharePoint. Com ou sem a transcrição ativada pelo professor, o LessonScriptor transcreve o que está tocando, sem depender de um arquivo gerado antes. A Legenda instantânea do Chrome (chrome://settings/accessibility) também legenda esses vídeos numa aba, mas mostra só duas linhas que somem. Este guia explica quando usar cada opção e cobre os casos especiais: vídeos dentro do AVA, MP4 baixados e gravações sem transcrição.",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "A legenda do Chrome funciona em gravações do Zoom ou do Meet?",
+      "body": "Sim, desde que a gravação toque numa aba do Chrome. A Legenda instantânea do Chrome legenda qualquer áudio do navegador: uma gravação do Zoom no zoom.us, uma gravação do Meet aberta no Google Drive ou uma do Teams no OneDrive ou SharePoint.\n\nEla não funciona nos aplicativos de desktop. Se o link abre o app do Zoom ou do Teams no seu computador, a legenda do Chrome não se aplica. Abra a gravação no navegador.\n\nO LessonScriptor funciona em qualquer vídeo de uma aba do Chrome. Isso inclui zoom.us, Google Drive, OneDrive, vídeos dentro do Moodle, Canvas ou Blackboard, e MP4 abertos no Chrome.",
+      "internal_links": [
+        {
+          "text": "Legendas ao vivo no Chrome: guia completo",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "Qual a diferença entre a transcrição do Zoom e a legenda do Chrome?",
+      "body": "A transcrição do Zoom, Meet ou Teams é um arquivo de texto que a plataforma gera depois da reunião. O organizador precisa ter ativado: a transcrição de áudio das gravações na nuvem no Zoom, a transcrição da reunião no Meet ou no Teams, conforme a edição da conta. Se não ativou, não há nada. Os idiomas disponíveis também dependem da conta e da configuração da universidade.\n\nA legenda do Chrome e o LessonScriptor transcrevem em tempo real enquanto o vídeo toca. Eles trabalham sobre o áudio real, tenha a plataforma gerado uma transcrição ou não.\n\n**Transcrição do Zoom, Meet ou Teams:** só existe se o organizador ativou. Aparece na plataforma, pode ser baixada (VTT ou TXT no Zoom) e indica quem fala.\n\n**Legenda instantânea do Chrome:** um balão de legenda só para leitura durante o vídeo. Some depois e não pode ser exportado. Cobre os 19 idiomas do Chrome, incluindo o português.\n\n**LessonScriptor:** uma transcrição em tempo real no painel lateral. Pode ser corrigida, destacada em 5 cores e exportada em .txt ou .md, em 14 variantes de idioma, com Português (BR) e Português (PT) separados, haja ou não transcrição da plataforma. O LessonScriptor não identifica quem está falando."
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "Como tirar a transcrição de uma gravação do Zoom, Meet ou Teams no Chrome?",
+      "body": "Para transcrever uma aula gravada com o LessonScriptor:",
+      "steps": [
+        "Instale o LessonScriptor pela Chrome Web Store. É grátis e não precisa de conta.",
+        "Abra a gravação no Chrome. Pode ser o link do zoom.us, a gravação do Meet no Google Drive, a do Teams no OneDrive ou SharePoint, o vídeo dentro do AVA ou um MP4 arrastado para uma aba.",
+        "Clique no ícone do LessonScriptor na barra do Chrome para abrir o painel lateral e escolha o idioma do vídeo (Português (BR) ou Português (PT)).",
+        "Escolha o modo. **Mic** é o modo gratuito: escuta pelo microfone, então precisa de caixas de som (volume em 80 % ou mais), não de fone. **Normal** ou **Optimal** é o modo IA: capta o áudio da aba e funciona com fone de ouvido. Optimal é o mais preciso para gravações.",
+        "Dê play. A transcrição aparece no painel, com alguns segundos de atraso no modo IA.",
+        "Corrija a transcrição durante a aula: nomes de professores, termos técnicos, palavras mal ouvidas. Destaque o que for importante.",
+        "No fim, exporte em .txt ou .md, ou copie o texto para a área de transferência e cole nas suas anotações."
+      ],
+      "internal_links": [
+        {
+          "text": "Legendas do Chrome com fone de ouvido",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "A legenda funciona em gravações dentro do AVA (Moodle, Canvas ou Blackboard)?",
+      "body": "Sim. Muitas universidades brasileiras, da USP e da Unicamp aos cursos EAD privados, publicam as aulas gravadas dentro do AVA, geralmente Moodle, às vezes Canvas ou Blackboard. A gravação pode vir como vídeo do Zoom incorporado, link do Google Drive ou gravação do Teams. Em todos os casos, o vídeo toca dentro da página, muitas vezes num quadro incorporado (iframe). O LessonScriptor capta o áudio no nível da aba, então a incorporação não atrapalha. O modo gratuito, por sua vez, ouve o que sai das caixas de som.\n\nA Legenda instantânea do Chrome também funciona nesses vídeos, com o mesmo limite: o texto é só leitura e some.\n\nSe um vídeo incorporado não tiver som, verifique se o Chrome não bloqueou o áudio para o domínio do seu AVA.",
+      "internal_links": [
+        {
+          "text": "Transcrições do Zoom e Google Meet para estudantes",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "Dá para legendar um MP4 do Zoom baixado no Chrome?",
+      "body": "Sim. Se você tem uma gravação do Zoom, Meet ou Teams em MP4 no computador, pode tocá-la no Chrome e transcrevê-la com o LessonScriptor enquanto ela toca. O LessonScriptor não aceita upload de arquivos: o que ele transcreve é a reprodução na aba.\n\n**Como fazer:**\n1. Arraste o MP4 para uma nova aba do Chrome, ou digite **file:///** na barra de endereços e procure o arquivo.\n2. O Chrome toca o arquivo no player integrado.\n3. Abra o painel do LessonScriptor e comece a transcrever.\n\nNo modo gratuito (Mic), o LessonScriptor escuta pelo microfone, então deixe o som nas caixas de som. Com fone de ouvido, use o modo IA (Normal ou Optimal), que capta o áudio da aba diretamente. Há um teste grátis de 30 minutos."
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "Uso a transcrição do Zoom ou o LessonScriptor?",
+      "body": "Use a transcrição do Zoom, Meet ou Teams quando ela existir e um texto simples bastar. Ela indica quem fala, o que ajuda em reuniões com várias vozes; o LessonScriptor não faz isso.\n\nUse o LessonScriptor quando não houver transcrição, algo comum em aulas gravadas compartilhadas pelo professor. Ele também serve quando você quer corrigir e destacar enquanto assiste, ou quando o vídeo está no AVA.\n\nPara estudar, corrigir enquanto assiste costuma ser mais útil do que uma transcrição bruta, principalmente com TDAH: você trabalha o conteúdo durante a aula em vez de esperar um arquivo. Modo gratuito ou pacotes IA a partir de US$ 5 por 5 horas (o Stripe converte para reais), sem assinatura.",
+      "internal_links": [
+        {
+          "text": "Melhores extensões do Chrome para legendas",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        },
+        {
+          "text": "Legendas do Chrome x LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Legende suas aulas gravadas no Chrome — grátis",
+    "body": "O LessonScriptor funciona com gravações do Zoom, Google Meet, Teams e qualquer vídeo do seu AVA. Corrija, destaque e exporte.",
+    "button_label": "Adicionar o LessonScriptor ao Chrome — grátis",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "A legenda instantânea do Chrome funciona numa gravação do Zoom?",
+        "answer": "Sim, se a gravação tocar numa aba do Chrome (zoom.us ou um vídeo dentro do AVA). A Legenda instantânea mostra um balão só para leitura que some. O LessonScriptor gera uma transcrição editável e exportável."
+      },
+      {
+        "question": "Por que minha gravação do Zoom não tem transcrição?",
+        "answer": "O Zoom só gera a transcrição de áudio das gravações na nuvem se o organizador ativou a opção. Se o seu professor não ativou, ela não existe. O LessonScriptor transcreve a gravação enquanto você a reproduz no Chrome."
+      },
+      {
+        "question": "Como colocar legenda numa gravação do Google Meet?",
+        "answer": "Abra a gravação no Google Drive pelo Chrome. Se não houver transcrição do Meet, use a Legenda instantânea do Chrome para ver na hora, ou o LessonScriptor para uma transcrição em português que você pode corrigir e exportar."
+      },
+      {
+        "question": "O LessonScriptor funciona em gravações do Moodle ou do AVA?",
+        "answer": "Sim. O LessonScriptor funciona com gravações dentro do Moodle, Canvas, Blackboard e qualquer AVA que toque o vídeo numa aba do Chrome, incluindo vídeos em iframe."
+      },
+      {
+        "question": "Dá para exportar a transcrição de uma gravação do Zoom pelo Chrome?",
+        "answer": "O LessonScriptor exporta a transcrição em .txt ou .md, ou copia para a área de transferência, para colar no Notion, Google Docs, Obsidian ou no seu modelo de anotações. A legenda integrada do Chrome não pode ser exportada."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Legendas para gravações do Zoom, Meet e Teams: resumo",
+    "body": "O LessonScriptor e a Legenda instantânea do Chrome funcionam com gravações tocadas numa aba do Chrome: Zoom no zoom.us, Meet no Google Drive, Teams no OneDrive ou SharePoint, vídeos do AVA e MP4 abertos no navegador. A legenda do Chrome é só leitura e temporária. O LessonScriptor gera uma transcrição editável e exportável, mesmo quando a plataforma nunca criou uma. Para estudantes cujas aulas gravadas não têm transcrição, é o jeito mais confiável de guardar o conteúdo por escrito."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Como colocar legendas em gravações do Zoom, Meet e Teams no Chrome (2026)",
+      "description": "Coloque legendas numa gravação do Zoom, Google Meet ou Teams no Chrome, mesmo sem transcrição, e guarde um texto editável da sua aula gravada no AVA.",
+      "inLanguage": "pt",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/legendas-ao-vivo-gravacoes-zoom-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de antropologia com TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como tirar a transcrição de uma gravação do Zoom, Meet ou Teams no Chrome?",
+      "inLanguage": "pt",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Instale o LessonScriptor pela Chrome Web Store. É grátis e não precisa de conta."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Abra a gravação no Chrome. Pode ser o link do zoom.us, a gravação do Meet no Google Drive, a do Teams no OneDrive ou SharePoint, o vídeo dentro do AVA ou um MP4 arrastado para uma aba."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Clique no ícone do LessonScriptor na barra do Chrome para abrir o painel lateral e escolha o idioma do vídeo (Português (BR) ou Português (PT))."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Escolha o modo. Mic é o modo gratuito: escuta pelo microfone, então precisa de caixas de som (volume em 80 % ou mais), não de fone. Normal ou Optimal é o modo IA: capta o áudio da aba e funciona com fone de ouvido. Optimal é o mais preciso para gravações."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Dê play. A transcrição aparece no painel, com alguns segundos de atraso no modo IA."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Corrija a transcrição durante a aula: nomes de professores, termos técnicos, palavras mal ouvidas. Destaque o que for importante."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "No fim, exporte em .txt ou .md, ou copie o texto para a área de transferência e cole nas suas anotações."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "pt",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "A legenda instantânea do Chrome funciona numa gravação do Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, se a gravação tocar numa aba do Chrome (zoom.us ou um vídeo dentro do AVA). A Legenda instantânea mostra um balão só para leitura que some. O LessonScriptor gera uma transcrição editável e exportável."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Por que minha gravação do Zoom não tem transcrição?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O Zoom só gera a transcrição de áudio das gravações na nuvem se o organizador ativou a opção. Se o seu professor não ativou, ela não existe. O LessonScriptor transcreve a gravação enquanto você a reproduz no Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Como colocar legenda numa gravação do Google Meet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abra a gravação no Google Drive pelo Chrome. Se não houver transcrição do Meet, use a Legenda instantânea do Chrome para ver na hora, ou o LessonScriptor para uma transcrição em português que você pode corrigir e exportar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor funciona em gravações do Moodle ou do AVA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O LessonScriptor funciona com gravações dentro do Moodle, Canvas, Blackboard e qualquer AVA que toque o vídeo numa aba do Chrome, incluindo vídeos em iframe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para exportar a transcrição de uma gravação do Zoom pelo Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "O LessonScriptor exporta a transcrição em .txt ou .md, ou copia para a área de transferência, para colar no Notion, Google Docs, Obsidian ou no seu modelo de anotações. A legenda integrada do Chrome não pode ser exportada."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://lessonscriptor.com/pt"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/pt/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Legendas para gravações do Zoom, Meet e Teams",
+          "item": "https://lessonscriptor.com/pt/blog/legendas-ao-vivo-gravacoes-zoom-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Suporte do Zoom — Transcrição de áudio de gravações na nuvem",
+      "href": "https://support.zoom.com/hc/pt/article?id=zm_kb&sysparm_article=KB0059762",
+      "external": true
+    },
+    {
+      "text": "Ajuda do Google Chrome — Legenda instantânea",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=pt-BR",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

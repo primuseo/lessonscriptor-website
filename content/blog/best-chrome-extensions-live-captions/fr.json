@@ -1,0 +1,374 @@
+{
+  "slug": "best-chrome-extensions-live-captions",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Meilleures extensions Chrome de sous-titres en direct en 2026 (gratuites et payantes, testées)",
+  "reading_time_min": 9,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Extension sous-titres Chrome : les 5 meilleures en 2026",
+    "description": "Quelle extension sous-titres Chrome choisir en 2026 ? LessonScriptor, Sous-titres instantanés, Tactiq, Notta : précision, casque, export et prix comparés.",
+    "og_image": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "canonical": "https://lessonscriptor.com/fr/blog/meilleures-extensions-chrome-sous-titres-live",
+    "og_title": "Extension sous-titres Chrome : les 5 meilleures en 2026",
+    "og_description": "5 outils de sous-titres en direct pour Chrome comparés : précision, langues, casque, export, prix.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "extension sous-titres chrome",
+      "sous-titres instantanés chrome",
+      "extension sous-titres en direct",
+      "sous-titrage automatique chrome",
+      "transcription cours en ligne chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/best-chrome-extensions-live-captions-hero.png",
+    "alt": "Navigateur Chrome avec un panneau latéral de sous-titres affichant la transcription en direct d'un cours vidéo",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct. Victoria étudie l'anthropologie à distance et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Points clés",
+    "lead": "LessonScriptor est la meilleure extension sous-titres Chrome pour les étudiants qui veulent garder une transcription modifiable et exportable de leurs cours. Les Sous-titres instantanés intégrés à Chrome suffisent pour un usage ponctuel, mais le texte disparaît au fur et à mesure.",
+    "bullets": [
+      "LessonScriptor transcrit tout ce qui joue dans Chrome : YouTube, Moodle de la Sorbonne ou de l'Université de Lyon, Panopto, Zoom, cours du CNED. Mode gratuit sans compte, mode IA en packs sans abonnement.",
+      "Les Sous-titres instantanés de Chrome (Plus > Paramètres > Accessibilité) ne demandent aucune installation, mais n'affichent que deux lignes, sans historique ni export.",
+      "Tactiq est solide pour les réunions Google Meet, Zoom et Teams en direct, pas pour les cours enregistrés.",
+      "Notta capte l'audio d'un onglet et couvre 58 langues, mais son offre gratuite plafonne chaque enregistrement à 3 minutes.",
+      "Captions for Live Presentations sert aux personnes qui présentent : il sous-titre votre propre voix au micro, pas une vidéo. Speechify, souvent cité, fait l'inverse (synthèse vocale) et n'est pas un outil de sous-titres."
+    ]
+  },
+  "intro": "La meilleure extension sous-titres Chrome pour suivre un cours en ligne est LessonScriptor : elle transcrit en direct la vidéo qui joue dans l'onglet et garde le texte dans un panneau latéral que vous pouvez annoter et exporter. Pour des sous-titres rapides, en lecture seule et sans rien installer, la fonction Sous-titres instantanés de Chrome (chrome://settings/accessibility) suffit. Ce comparatif teste les cinq outils de sous-titres les plus utilisés dans Chrome en 2026, dont Tactiq et Notta, sur les critères qui comptent en amphi comme à distance : précision, langues, compatibilité avec le casque, export et prix.",
+  "stats": [
+    {
+      "number": "14",
+      "label": "langues prises en charge par LessonScriptor, dont le français"
+    },
+    {
+      "number": "19",
+      "label": "langues prises en charge par les Sous-titres instantanés de Chrome"
+    },
+    {
+      "number": "30 min",
+      "label": "d'essai gratuit du mode IA de LessonScriptor"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-best-live-caption-extension",
+      "h2": "Quelle est la meilleure extension Chrome de sous-titres en direct ?",
+      "body": "LessonScriptor est la meilleure extension Chrome de sous-titres en direct pour les étudiants, chercheurs et professionnels qui regardent des vidéos. Elle transcrit en temps réel ce qui joue dans Chrome, affiche le texte dans un panneau latéral et vous laisse surligner, structurer et exporter la transcription, ce que les Sous-titres instantanés de Chrome ne permettent pas.\n\nLessonScriptor s'installe depuis le Chrome Web Store en un clic et son **mode gratuit** fonctionne sans compte. Il utilise la reconnaissance vocale intégrée au navigateur et écoute par le **micro** : il entend le son des haut-parleurs, donc le volume doit être assez fort (80 % ou plus), il ne fonctionne pas avec un casque, et il transcrit aussi votre propre voix. Aucun audio n'est envoyé aux serveurs de LessonScriptor.\n\nLe **mode IA** capte directement l'**audio de l'onglet** : il fonctionne avec un casque, sans micro, et s'appuie sur des modèles de transcription cloud de type Whisper, bien plus précis sur les accents, le jargon et les salles bruyantes. Pour une prise de notes à partir de cours sur Moodle, Panopto, YouTube ou de cours en visio enregistrés, c'est la solution la plus complète dans Chrome en 2026."
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Extensions de sous-titres pour Chrome : le comparatif",
+      "body": "Ce tableau compare les cinq outils de sous-titres les plus utilisés dans Chrome sur les critères qui pèsent au quotidien pour un étudiant.",
+      "table": {
+        "headers": [
+          "Outil",
+          "Fonctionne sur",
+          "Transcription modifiable",
+          "Export",
+          "Avec un casque",
+          "Langues",
+          "Prix"
+        ],
+        "rows": [
+          [
+            "LessonScriptor (idéal pour les étudiants)",
+            "Tout ce qui joue dans Chrome",
+            "Oui, surlignage, titres, captures",
+            ".txt, .md, presse-papiers",
+            "Oui en mode IA (pas en mode gratuit)",
+            "14",
+            "Gratuit + packs IA dès 5 $"
+          ],
+          [
+            "Sous-titres instantanés de Chrome (intégré)",
+            "Tout audio lu dans Chrome",
+            "Non",
+            "Aucun",
+            "Oui (sous-titre l'audio de Chrome, pas le micro)",
+            "19",
+            "Gratuit"
+          ],
+          [
+            "Tactiq (réunions en direct)",
+            "Google Meet, Zoom, Teams",
+            "Oui",
+            "Google Docs, Notion, fichier",
+            "Oui",
+            "30+ selon la plateforme",
+            "10 transcriptions/mois gratuites, Pro dès 8 $/mois (annuel)"
+          ],
+          [
+            "Captions for Live Presentations (présentateurs)",
+            "Votre voix au micro",
+            "Non",
+            "Aucun",
+            "Sans objet",
+            "Nombreuses",
+            "Gratuit, traduction payante"
+          ],
+          [
+            "Notta (couverture linguistique)",
+            "Audio d'un onglet, Zoom, Meet",
+            "Oui",
+            "TXT, DOCX, SRT, PDF",
+            "Oui",
+            "58",
+            "120 min/mois gratuites (3 min max par enregistrement), Pro dès ~8 $/mois"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lessonscriptor-review",
+      "h2": "LessonScriptor : le meilleur choix pour transcrire un cours vidéo",
+      "body": "LessonScriptor est une extension Chrome qui ouvre un panneau latéral à côté de la vidéo et transcrit l'audio en direct. Elle fonctionne sur tout ce qui joue dans Chrome : Moodle (Sorbonne, Université de Lyon), Canvas, Blackboard, Panopto, YouTube, Coursera, Udemy, les classes virtuelles du CNED, ainsi que Zoom, Google Meet et Teams dans le navigateur.\n\n**Mode gratuit (0 €, pour toujours) :** reconnaissance vocale intégrée au navigateur, via le micro. Montez le volume des haut-parleurs (80 % ou plus) ; le casque n'est pas compatible et votre propre voix est aussi transcrite. Aucun compte, aucun audio envoyé aux serveurs de LessonScriptor.\n\n**Mode IA (à l'usage) :** capture de l'audio de l'onglet, compatible casque, transcription cloud par des modèles de type Whisper. Le texte arrive par blocs de 10 secondes (mode Normal) ou 30 secondes (mode Optimal, plus précis), donc avec un léger décalage. Essai gratuit de 30 minutes, puis packs sans abonnement : 5 h = 5 $, 15 h = 12 $, 30 h = 21 $. Les prix sont en dollars US ; Stripe affiche une estimation dans votre devise. Les crédits n'expirent jamais et sont décomptés à la seconde.\n\n**Prise de notes :** surlignage en 5 couleurs, gras, titres, listes, suppression de passages, captures d'écran de la diapositive insérées dans la transcription. Export en .txt ou .md, ou copie dans le presse-papiers pour coller dans Notion, Obsidian ou Google Docs.\n\n**Idéal pour :** les étudiants qui révisent des cours enregistrés, les chercheurs qui regardent des conférences, les personnes en apprentissage d'une langue et tous ceux qui travaillent au casque (en mode IA).",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome avec LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "chrome-builtin-review",
+      "h2": "Sous-titres instantanés de Chrome : le plus simple pour un usage ponctuel",
+      "body": "Les Sous-titres instantanés de Chrome ne sont pas une extension : c'est une fonction du navigateur, à activer dans **Plus > Paramètres > Accessibilité > Sous-titres instantanés** (ou directement via chrome://settings/accessibility). Une bulle flottante affiche alors des sous-titres pour tout audio lu dans Chrome. Selon Google, l'audio et les sous-titres sont traités localement et ne quittent pas l'appareil.\n\n**Points forts :** aucune installation, gratuit, fonctionne sur tout audio dans Chrome, privé, 19 langues dont le français, l'espagnol, l'allemand, le portugais et le chinois.\n\n**Limites :** la transcription est en lecture seule. Impossible de la modifier, de l'enregistrer, de la copier ou de l'exporter, et la bulle n'affiche que deux lignes qui disparaissent ensuite. Comme la fonction sous-titre l'audio diffusé par Chrome et non le micro, elle marche aussi au casque ; en revanche, la précision baisse sur les accents, le vocabulaire technique et les noms propres.\n\n**Idéal pour :** comprendre une vidéo sur le moment quand vous n'avez pas besoin d'en garder une trace. Pas adapté aux révisions ni à la recherche.",
+      "internal_links": [
+        {
+          "text": "Les sous-titres de Chrome ne fonctionnent pas ? Les solutions",
+          "url": "/blog/chrome-live-captions-not-working"
+        },
+        {
+          "text": "Sous-titres Chrome et casque audio",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "tactiq-review",
+      "h2": "Tactiq : la meilleure extension pour transcrire une réunion en direct",
+      "body": "Tactiq est une extension Chrome conçue pour les réunions en direct sur Google Meet, Zoom (version navigateur) et Microsoft Teams. Elle s'appuie sur les sous-titres de la réunion et les enregistre sous forme de transcription exportable vers Google Docs ou Notion, ou en fichier texte. Tactiq prend en charge plus de 30 langues, avec des variations selon la plateforme.\n\nL'offre gratuite de Tactiq couvre 10 transcriptions par mois. L'offre Pro coûte 8 $ par mois en facturation annuelle (12 $ au mois) et lève la limite, avec des crédits d'IA pour les résumés.\n\n**Limite pour les étudiants :** Tactiq ne fonctionne que sur des réunions en direct. Pour un enregistrement Zoom, un cours sur YouTube ou une vidéo déposée sur Moodle, il ne sert à rien. Pour participer à un TD sur Google Meet ou Zoom, Tactiq tient la route ; pour le reste, LessonScriptor est plus adapté."
+    },
+    {
+      "id": "notta-review",
+      "h2": "Notta : la meilleure couverture linguistique",
+      "body": "Notta est un service de transcription dont l'extension Chrome enregistre et transcrit l'audio d'un onglet (vidéos en ligne, cours en visio) ainsi que les réunions Zoom et Google Meet. Son point fort est la couverture linguistique : 58 langues, la plus large de ce comparatif, avec des exports TXT, DOCX, SRT et PDF.\n\nL'offre gratuite de Notta est limitée à 120 minutes par mois et, surtout, à **3 minutes par enregistrement**, ce qui ne suffit pas pour un cours magistral. Un compte est obligatoire et Notta enregistre l'audio. L'offre Pro démarre autour de 8 $ par mois en facturation annuelle.\n\n**Idéal pour :** les professionnels ou chercheurs qui ont besoin de langues que LessonScriptor ne couvre pas, notamment le japonais ou le coréen. Pour le français et les principales langues européennes, LessonScriptor est la solution sans abonnement."
+    },
+    {
+      "id": "which-extension-should-i-use",
+      "h2": "Quelle extension de sous-titres Chrome choisir ?",
+      "body": "La bonne extension sous-titres Chrome dépend de votre usage principal.\n\n**Choisissez LessonScriptor si** vous suivez des cours enregistrés (Moodle, Panopto, YouTube, CNED, enregistrements Zoom), si vous voulez une prise de notes modifiable, ou si vous travaillez au casque (mode IA). Le mode gratuit marche tout de suite, sans compte. Avec un TDAH, la transcription modifiable évite d'écrire en écoutant : vous annotez après coup.\n\n**Choisissez les Sous-titres instantanés de Chrome si** vous ne voulez rien installer et n'avez pas besoin de garder le texte, par exemple pour un podcast ou une vidéo regardée en bibliothèque.\n\n**Choisissez Tactiq si** vous participez surtout à des réunions en direct sur Google Meet ou Zoom. Ses fonctions de réunion sont plus poussées que LessonScriptor pour ce cas précis.\n\n**Choisissez Notta si** vous avez besoin de langues que LessonScriptor ne couvre pas, comme le japonais ou le coréen, et que des enregistrements courts ou un abonnement vous conviennent.",
+      "internal_links": [
+        {
+          "text": "Comment prendre des notes avec un TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Sous-titres en direct pour les enregistrements Zoom",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        },
+        {
+          "text": "Sous-titres instantanés de Chrome ou LessonScriptor ?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Essayez la meilleure extension de sous-titres pour Chrome, gratuitement",
+    "body": "LessonScriptor transcrit n'importe quelle vidéo dans Chrome. Transcription modifiable et exportable, 14 langues. Mode gratuit sans compte, 30 minutes d'essai du mode IA.",
+    "button_label": "Ajouter LessonScriptor à Chrome, gratuit",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Existe-t-il une extension sous-titres Chrome gratuite ?",
+        "answer": "Oui. LessonScriptor a un mode gratuit, sans compte et sans limite de durée, qui fonctionne via le micro sur n'importe quelle vidéo dans Chrome. Les Sous-titres instantanés de Chrome sont aussi gratuits et ne demandent aucune installation, mais le texte ne peut pas être enregistré."
+      },
+      {
+        "question": "Comment activer les Sous-titres instantanés dans Chrome ?",
+        "answer": "Ouvrez Chrome, cliquez sur Plus (les trois points), puis Paramètres > Accessibilité, et activez Sous-titres instantanés. Vous pouvez aussi taper chrome://settings/accessibility dans la barre d'adresse. Chrome télécharge alors les fichiers de reconnaissance vocale."
+      },
+      {
+        "question": "Quelle extension de sous-titres Chrome fonctionne avec un casque ?",
+        "answer": "Le mode IA de LessonScriptor capte directement l'audio de l'onglet, il fonctionne donc avec n'importe quel casque. Le mode gratuit de LessonScriptor passe par le micro et ne fonctionne pas avec un casque. Les Sous-titres instantanés de Chrome fonctionnent aussi au casque, car ils sous-titrent l'audio diffusé par Chrome, mais le texte n'est pas conservé."
+      },
+      {
+        "question": "Les extensions de sous-titres Chrome fonctionnent-elles sur YouTube et Moodle ?",
+        "answer": "LessonScriptor fonctionne sur YouTube, Moodle, Panopto, Canvas et tout ce qui joue dans Chrome. Les Sous-titres instantanés de Chrome aussi, sans export. Notta capte l'audio d'un onglet, avec 3 minutes maximum par enregistrement en gratuit. Tactiq se limite aux réunions en direct."
+      },
+      {
+        "question": "Peut-on exporter les sous-titres d'une extension Chrome ?",
+        "answer": "LessonScriptor exporte la transcription en .txt ou .md, ou la copie dans le presse-papiers pour Notion, Google Docs ou Obsidian. Les Sous-titres instantanés de Chrome ne s'exportent pas. Tactiq exporte vers Google Docs et Notion, Notta en TXT, DOCX, SRT ou PDF."
+      },
+      {
+        "question": "Les sous-titres en direct fonctionnent-ils en français ?",
+        "answer": "Oui. Les Sous-titres instantanés de Chrome prennent en charge le français parmi 19 langues, et LessonScriptor le transcrit parmi ses 14 langues. Pour un cours avec beaucoup de jargon ou un accent marqué, le mode IA de LessonScriptor est nettement plus précis."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "La meilleure extension de sous-titres Chrome en 2026",
+    "body": "LessonScriptor est la meilleure extension sous-titres Chrome pour les étudiants et chercheurs qui veulent garder une transcription modifiable et exportable de leurs cours. Elle fonctionne sur tout ce qui joue dans Chrome, de Moodle à YouTube, propose un mode gratuit sans compte et un mode IA en packs sans abonnement, en 14 langues. Les Sous-titres instantanés de Chrome restent l'option la plus simple pour un usage ponctuel, sans enregistrement possible. Tactiq est plus fort pour les réunions en direct, Notta pour la couverture linguistique."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Meilleures extensions Chrome de sous-titres en direct en 2026 (gratuites et payantes, testées)",
+      "description": "Quelle extension sous-titres Chrome choisir en 2026 ? LessonScriptor, Sous-titres instantanés, Tactiq, Notta : précision, casque, export et prix comparés.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/meilleures-extensions-chrome-sous-titres-live",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie, TDAH",
+          "url": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur et SEO",
+          "url": "https://lessonscriptor.com/fr"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Existe-t-il une extension sous-titres Chrome gratuite ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. LessonScriptor a un mode gratuit, sans compte et sans limite de durée, qui fonctionne via le micro sur n'importe quelle vidéo dans Chrome. Les Sous-titres instantanés de Chrome sont aussi gratuits et ne demandent aucune installation, mais le texte ne peut pas être enregistré."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment activer les Sous-titres instantanés dans Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ouvrez Chrome, cliquez sur Plus (les trois points), puis Paramètres > Accessibilité, et activez Sous-titres instantanés. Vous pouvez aussi taper chrome://settings/accessibility dans la barre d'adresse. Chrome télécharge alors les fichiers de reconnaissance vocale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle extension de sous-titres Chrome fonctionne avec un casque ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le mode IA de LessonScriptor capte directement l'audio de l'onglet, il fonctionne donc avec n'importe quel casque. Le mode gratuit de LessonScriptor passe par le micro et ne fonctionne pas avec un casque. Les Sous-titres instantanés de Chrome fonctionnent aussi au casque, car ils sous-titrent l'audio diffusé par Chrome, mais le texte n'est pas conservé."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les extensions de sous-titres Chrome fonctionnent-elles sur YouTube et Moodle ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor fonctionne sur YouTube, Moodle, Panopto, Canvas et tout ce qui joue dans Chrome. Les Sous-titres instantanés de Chrome aussi, sans export. Notta capte l'audio d'un onglet, avec 3 minutes maximum par enregistrement en gratuit. Tactiq se limite aux réunions en direct."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on exporter les sous-titres d'une extension Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor exporte la transcription en .txt ou .md, ou la copie dans le presse-papiers pour Notion, Google Docs ou Obsidian. Les Sous-titres instantanés de Chrome ne s'exportent pas. Tactiq exporte vers Google Docs et Notion, Notta en TXT, DOCX, SRT ou PDF."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Les sous-titres en direct fonctionnent-ils en français ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. Les Sous-titres instantanés de Chrome prennent en charge le français parmi 19 langues, et LessonScriptor le transcrit parmi ses 14 langues. Pour un cours avec beaucoup de jargon ou un accent marqué, le mode IA de LessonScriptor est nettement plus précis."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Extension sous-titres Chrome : les 5 meilleures en 2026",
+          "item": "https://lessonscriptor.com/fr/blog/meilleures-extensions-chrome-sous-titres-live"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Aide Google Chrome : Sous-titres instantanés",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=fr",
+      "external": true
+    },
+    {
+      "text": "Chrome Web Store : LessonScriptor",
+      "href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp",
+      "external": true
+    },
+    {
+      "text": "Tactiq : extension Chrome de transcription de réunions",
+      "href": "https://tactiq.io",
+      "external": true
+    },
+    {
+      "text": "Notta : service de transcription IA",
+      "href": "https://www.notta.ai",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "slug": "live-transcribe-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Live Transcribe（实时转写）有电脑版和 Chrome 版吗？桌面替代方案",
+  "reading_time_min": 9,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Live Transcribe 电脑版与 Chrome：5 个替代方案",
+    "description": "谷歌实时转写（Live Transcribe）只有安卓版。本文对比 5 种在 Chrome、Windows 和 Mac 上实时转写的方法，并告诉你哪一种能把文字稿保存下来用于复习。",
+    "keywords": [
+      "live transcribe 电脑版",
+      "live transcribe chrome",
+      "实时转写 电脑版",
+      "chrome 实时转写插件",
+      "chrome 实时字幕",
+      "windows 实时字幕",
+      "网课 实时转文字"
+    ],
+    "og_title": "Live Transcribe 电脑版与 Chrome：5 个替代方案",
+    "og_description": "谷歌实时转写没有 Chrome 版和 Windows 版。在笔记本电脑上，可以改用这些工具。",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "要点速览",
+    "lead": "谷歌的实时转写（Live Transcribe）只能在安卓手机上运行，没有 Chrome 扩展、没有 Windows 程序、也没有 Mac 应用，所以在电脑上需要换一种工具。",
+    "bullets": [
+      "**Chrome 实时字幕**内置于 Windows、Mac、Linux 和 ChromeOS 版 Chrome，可为 Chrome 中播放的音频生成字幕，但不会保存任何内容。",
+      "**Windows 11 实时字幕**（22H2 及以上）和 **macOS 实时字幕**（Apple 芯片）可为任何应用的声音生成字幕，也可以通过麦克风识别面对面的讲话。",
+      "**LessonScriptor** 是一款 Chrome 扩展，能把标签页中播放的内容转成可编辑的文字稿，并导出为 .txt 或 .md。",
+      "LessonScriptor 的**免费模式**通过麦克风收音，需要外放音量，戴耳机时无法使用；**AI 模式**直接捕获标签页音频，戴耳机也能用。"
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "款官方的实时转写 Chrome、Windows 或 macOS 版"
+    },
+    {
+      "number": "3 天",
+      "label": "安卓版实时转写保留转写记录的最长时间"
+    },
+    {
+      "number": "14",
+      "label": "种 LessonScriptor 支持的语言，含中文，可导出 .txt 和 .md"
+    }
+  ],
+  "intro": "实时转写（英文名 Live Transcribe）是谷歌为安卓推出的免费语音转文字应用，由谷歌与加劳德特大学（Gallaudet University）合作开发，2019 年发布，用手机麦克风为日常对话实时生成字幕。实时转写没有 Chrome 版、Windows 版或 Mac 版：谷歌只在安卓上提供，搜索「Live Transcribe Chrome 插件」找不到任何官方产品。电脑上最接近的替代品是 Chrome 实时字幕、Windows 11 实时字幕、macOS 实时字幕，以及 LessonScriptor 这类 Chrome 扩展。它们做的是两件不同的事：系统自带工具把文字显示在屏幕上，随后就丢弃；LessonScriptor 会保留一份可以编辑和导出的文字稿。如果你是要靠一节课来复习，而不只是跟着听，这一点就决定了选哪个。本文从耳机支持、是否保存文字稿、可否编辑、导出、语言和价格六个方面对比这五种方案，再演示如何在电脑上把 LessonScriptor 当作「电脑版实时转写」来用。",
+  "sections": [
+    {
+      "id": "is-there-live-transcribe-for-pc",
+      "heading": "Live Transcribe（实时转写）有电脑版或 Chrome 版吗？",
+      "body": "没有。**实时转写和声音通知**是一款安卓应用，预装在 Pixel 和部分安卓设备上，也可以从 Google Play 下载。谷歌从未推出它的 Chrome 扩展、Windows 程序、Mac 应用或 iPhone 版。网上所谓的「Live Transcribe 电脑版下载」，多半是模拟器或毫不相关的应用，安装它们只有安全风险，没有任何好处。\n\n大家想在电脑上用实时转写，通常是为了两件事。第一，为现场说话的人生成字幕，比如老师、同学或医生。实时转写通过手机麦克风就能做到，支持 80 多种语言。第二，为电脑里已经在播放的声音生成字幕，比如腾讯会议网页版上的网课、B站上的公开课、中国大学MOOC或学堂在线的课程视频。实时转写不是为第二种场景设计的，桌面工具能直接读取电脑音频，效果更好。\n\n最简单的变通办法依然有效：把装有实时转写的安卓手机放在笔记本扬声器旁边。这样免费，临时应急也够用，但会占用手机、收进环境噪音，而且转写记录最多只保留三天。"
+    },
+    {
+      "id": "what-chrome-live-caption-does",
+      "heading": "Chrome 实时字幕能做什么，不能做什么？",
+      "body": "**Chrome 实时字幕**（Live Caption）是 Chrome 内置的字幕功能。它可以为 Chrome 中播放的任何音视频生成字幕，包括 B站视频、播客、网页版视频会议和网课平台的播放器，支持 Windows、Mac、Linux 和 ChromeOS。开启路径是 **设置 > 无障碍 > 实时字幕**。识别在本机完成，谷歌表示音频和字幕都不会被存储。\n\n这种隐私设计恰恰也是它对学生最大的限制。它只显示一个两行的小悬浮框，文字滚动后就消失，没有历史记录、不能编辑、也不能导出，错过的句子就找不回来了。它也只识别 Chrome 里的声音，不支持桌面版会议软件，也不能识别现场有人说话。谷歌帮助页面列出约 19 种语言，包括简体中文、繁体中文、英语、日语、韩语等，还有翻译选项。需要注意：首次使用需要下载语言包，在无法访问谷歌服务的网络环境下可能下载失败。\n\n如果实时字幕不出现或突然失效，常见原因是语言包没下载好或 Chrome 版本问题，可以参考我们的排查指南。",
+      "internal_links": [
+        {
+          "text": "在 Chrome 中使用可保存文字稿的实时字幕",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Chrome 实时字幕不工作？解决方法",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "live-transcribe-alternatives-pc",
+      "heading": "电脑上有哪些好用的 Live Transcribe 替代方案？",
+      "body": "下面五种方案几乎覆盖所有场景：三种是浏览器或系统自带的免费工具，两种是 Chrome 扩展。",
+      "subsections": [
+        {
+          "h3": "1. Chrome 实时字幕（任何装有 Chrome 的电脑）",
+          "body": "这是最快的选择，无需安装。它读取的是 Chrome 自身的音频而不是麦克风，所以戴耳机也能用。适合在地铁或图书馆里调低音量看视频。如果你需要回看说过的内容，它就不合适，因为什么都不保存。"
+        },
+        {
+          "h3": "2. Windows 11 实时字幕",
+          "body": "**Windows 实时字幕**内置于 Windows 11 22H2 及以上版本，快捷键是 **Windows + Ctrl + L**。它可以为任何应用的声音生成字幕，包括桌面版的 Zoom、Microsoft Teams 和腾讯会议，还可以选择加入麦克风，因此是 Windows 笔记本上最接近实时转写、适合面对面交流的工具。微软在本机完成所有处理，不保存字幕，并支持简体中文。搭载 Windows 11 24H2 的 Copilot+ PC 还能把多种语言翻译成简体中文字幕。**Windows 10 没有实时字幕**，旧电脑上可用的就是 Chrome 实时字幕或扩展。"
+        },
+        {
+          "h3": "3. macOS 实时字幕",
+          "body": "**macOS 实时字幕**（Live Captions）适用于搭载 Apple 芯片（M1 及以后）的 Mac，可以识别电脑音频，也可以通过麦克风识别现场说话的人，全部在本机处理。苹果目前的语言列表包括普通话（中国大陆）、粤语（中国大陆、香港）、英语、法语、德语、西班牙语、日语和韩语。字幕显示在一个可调整大小的窗口里，可以复制部分最近的文字，但它只是字幕窗口，不是记笔记的工具。"
+        },
+        {
+          "h3": "4. LessonScriptor（Chrome 扩展）",
+          "body": "**LessonScriptor** 是一款 Chrome 扩展，可以把标签页里播放的内容实时转成文字，显示在 Chrome 侧边栏中。和系统自带工具不同，文字会一直保留：你可以用五种颜色高亮、加粗、添加标题和列表、删掉无用部分，还能把当前幻灯片截图插入文字稿，最后导出为 .txt 或 .md，或复制到剪贴板。每次会话都会自动保存在你的电脑上。它支持 Moodle、Canvas、Panopto、YouTube、Coursera、Udemy、B站、中国大学MOOC、学堂在线，以及浏览器中的 Zoom、Google Meet、Teams 和腾讯会议网页版。它只支持 Chrome，不能转写桌面应用，也不区分说话人。"
+        },
+        {
+          "h3": "5. 基于 Web Speech 的扩展",
+          "body": "很多免费 Chrome 扩展使用浏览器内置的 **Web Speech API**，通过麦克风收音，适合口述输入或识别电脑附近的人声。因为它们听的是房间里的声音而不是标签页，所以需要外放音量，戴耳机不能用，保存和导出功能也因扩展而异。LessonScriptor 的免费模式使用同一引擎，但多了编辑器、历史记录和导出。"
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "最佳语音转文字 Chrome 扩展",
+          "url": "/blog/best-speech-to-text-chrome-extensions"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "这些 Live Transcribe 替代方案怎么比较？",
+      "body": "下表把谷歌实时转写和五种桌面方案放在一起，对比那些决定你能否拿结果来复习的关键功能。",
+      "table": {
+        "headers": [
+          "工具",
+          "平台",
+          "能否配合耳机",
+          "是否保存文字稿",
+          "可编辑",
+          "导出",
+          "语言",
+          "价格"
+        ],
+        "rows": [
+          [
+            "谷歌实时转写",
+            "仅安卓手机",
+            "不适用（手机麦克风）",
+            "记录最多保留 3 天",
+            "否",
+            "复制文字",
+            "80+",
+            "免费"
+          ],
+          [
+            "Chrome 实时字幕",
+            "Windows、Mac、Linux、ChromeOS 上的 Chrome",
+            "能",
+            "否",
+            "否",
+            "否",
+            "约 19 种",
+            "免费"
+          ],
+          [
+            "Windows 11 实时字幕",
+            "Windows 11 22H2+",
+            "能",
+            "否",
+            "否",
+            "否",
+            "多种（需语言包）",
+            "免费"
+          ],
+          [
+            "macOS 实时字幕",
+            "Apple 芯片 Mac",
+            "能（电脑音频）",
+            "窗口内有限记录",
+            "否",
+            "从窗口复制",
+            "约 8 种语言，含普通话和粤语",
+            "免费"
+          ],
+          [
+            "LessonScriptor 免费模式",
+            "电脑版 Chrome",
+            "不能（使用麦克风）",
+            "是，自动保存",
+            "是",
+            ".txt、.md、剪贴板",
+            "14",
+            "0 美元"
+          ],
+          [
+            "LessonScriptor AI 模式",
+            "电脑版 Chrome",
+            "能（标签页音频）",
+            "是，自动保存",
+            "是",
+            ".txt、.md、剪贴板",
+            "14",
+            "免费试用 30 分钟，之后 5 美元起（5 小时）"
+          ],
+          [
+            "Web Speech 类扩展",
+            "Chrome",
+            "通常不能（麦克风）",
+            "因扩展而异",
+            "因扩展而异",
+            "因扩展而异",
+            "因扩展而异",
+            "多为免费"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "真正的区别",
+        "body": "所有免费的系统自带工具都是为**即时无障碍**设计的：现在看清字幕，什么也不保留。这对隐私很好，但没有一个能生成笔记。如果你要在考试前复习，就选一个能保存文字稿的工具。"
+      }
+    },
+    {
+      "id": "which-one-to-choose",
+      "heading": "应该选哪种 Live Transcribe 替代方案？",
+      "body": "怎么选取决于声音从哪里来，以及你是否需要保存下来。",
+      "steps": [
+        {
+          "strategy": "有人在现场说话（线下课堂、答疑、就诊）",
+          "detail": "使用开启麦克风选项的 Windows 11 实时字幕、使用麦克风输入的 macOS 实时字幕，或安卓手机上的实时转写。这些工具专为面对面讲话设计。"
+        },
+        {
+          "strategy": "只想现在跟着看一个视频",
+          "detail": "打开 Chrome 实时字幕：免费、支持耳机、无需安装。"
+        },
+        {
+          "strategy": "声音来自桌面应用（已安装的腾讯会议、Zoom 或 Teams）",
+          "detail": "使用读取系统音频的 Windows 或 macOS 实时字幕。Chrome 工具只能识别标签页，如果想保存文字稿，就用浏览器打开会议。"
+        },
+        {
+          "strategy": "需要为 Chrome 里的网课或视频做笔记",
+          "detail": "使用 LessonScriptor。文字稿保留在侧边栏，你可以边生成边编辑，下课后导出。"
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Chrome 实时字幕与 LessonScriptor 对比",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "how-to-set-up-lessonscriptor",
+      "heading": "如何在电脑上把 LessonScriptor 当作实时转写来用？",
+      "body": "LessonScriptor 适用于任何装有 Chrome 的 Windows 电脑、Mac 或 Chromebook。设置大约两分钟，免费模式无需注册账号。",
+      "steps": [
+        {
+          "strategy": "安装扩展",
+          "detail": "从 Chrome 网上应用店添加 LessonScriptor，并固定到工具栏，方便一键打开。"
+        },
+        {
+          "strategy": "打开网课或视频",
+          "detail": "在 Chrome 标签页中打开课程：中国大学MOOC 或学堂在线的课程、B站公开课、YouTube 视频，或浏览器中的腾讯会议、Zoom 课堂。"
+        },
+        {
+          "strategy": "打开侧边栏并选择语言",
+          "detail": "点击 LessonScriptor 图标，在视频旁打开侧边栏，从 14 种语言中选择讲课所用的语言。"
+        },
+        {
+          "strategy": "选择免费模式或 AI 模式",
+          "detail": "**免费模式**通过麦克风收音：用扬声器外放，音量调到 80% 以上，并摘下耳机。它也会把你自己的声音转写进去。**AI 模式**直接捕获标签页音频，戴耳机也能用，不需要麦克风。AI 模式前 30 分钟免费。"
+        },
+        {
+          "strategy": "点击开始，让文字稿自动生成",
+          "detail": "免费模式下，文字随讲话即时出现。AI 模式下，文字按约 10 秒（标准）或 30 秒（优化，更准确）一段返回，会有短暂延迟。"
+        },
+        {
+          "strategy": "边听边编辑",
+          "detail": "高亮重点句子、加粗关键词、为每个主题加标题，遇到重要幻灯片时截图插入。所有内容自动保存。"
+        },
+        {
+          "strategy": "下课后导出",
+          "detail": "导出为 .txt 或 .md，或复制到剪贴板，粘贴到你的笔记软件中。如需摘要，可以自己把文字粘贴到 ChatGPT 或 NotebookLM。"
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "在图书馆戴着耳机？",
+        "body": "免费模式通过麦克风收音，听不到只在耳机里播放的声音。请改用直接读取标签页音频的 AI 模式；如果只是想跟着看，也可以用 Chrome 实时字幕。"
+      }
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "heading": "LessonScriptor 免费模式够用吗，还是需要 AI 模式？",
+      "body": "LessonScriptor 免费模式适合安静环境下、用扬声器外放的清晰讲话。它完全免费，没有月度上限，也不需要账号，不会向 LessonScriptor 服务器发送任何音频。它的短板都来自麦克风：音量很关键，耳机不能用，背景噪音会混进来，你自己的声音也会被转写。另外，免费模式依赖 Chrome 内置的语音识别服务，在无法访问谷歌服务的网络环境下可能无法正常使用。\n\n当老师口音较重、课程术语很多、音质较差，或者你需要戴耳机时，AI 模式更值得。它使用云端 AI 转写（Whisper 级模型），对专业术语和噪音的处理好得多。每个标签页相互独立，可以同时转写两个视频。付费方式是一次性套餐，没有订阅：**5 小时 5 美元、15 小时 12 美元、30 小时 21 美元**。额度永不过期，按秒扣除，以许可证密钥形式通过邮件发送，可在任何电脑上使用。价格以美元计，Stripe 结账时会显示人民币等本地货币的估算金额。如果上课途中额度用完，还有 10 分钟宽限时间。"
+    },
+    {
+      "id": "use-cases",
+      "heading": "哪些人用 Chrome 实时转写扩展代替 Live Transcribe？",
+      "body": "搜索「Chrome 版实时转写」的人，大多是在用电脑做安卓手机不擅长的事。",
+      "subsections": [
+        {
+          "h3": "上网课和混合式课程的学生",
+          "body": "在中国大学MOOC、学堂在线上学习，或通过腾讯会议上课的学生，大部分时间面对的是录播或直播网课。一节 90 分钟课程的可保存、可搜索文字稿，比一闪而过的字幕有用得多。"
+        },
+        {
+          "h3": "有注意力缺陷多动障碍（ADHD）或阅读障碍的学生",
+          "body": "一边听一边写会分散注意力。文字稿自动生成，你就能专心听课、标记重点，而不是忙着追着记笔记。Victoria 在线学习人类学，本身有 ADHD，她每周都是这样上课的。"
+        },
+        {
+          "h3": "聋人和听障人士",
+          "body": "实时转写在面对面场景中非常出色；在电脑上，Chrome、Windows 和 macOS 自带的字幕是最自然的第一步。LessonScriptor 额外提供一份可以事后重读的文字稿，在讲话人语速快于字幕框时尤其有用。"
+        },
+        {
+          "h3": "语言学习者和留学生",
+          "body": "用第二语言听课时，眼前有文字会轻松很多；导出的文字稿还能让你课后查生词，不用每分钟都暂停。"
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "最佳实时字幕 Chrome 扩展",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "heading": "常见问题",
+    "questions": [
+      {
+        "question": "Live Transcribe（实时转写）有电脑版吗？",
+        "answer": "没有。谷歌实时转写只适用于安卓手机和平板。在电脑上，最接近的自带工具是 Chrome 实时字幕和 Windows 11 实时字幕。如果你需要一份可以保存、编辑和导出的文字稿，LessonScriptor 这样的 Chrome 扩展可以为标签页中播放的任何内容生成文字稿。"
+      },
+      {
+        "question": "能在 Chrome 上使用谷歌 Live Transcribe 吗？",
+        "answer": "不能。实时转写没有官方 Chrome 扩展。Chrome 有自己的实时字幕（设置 > 无障碍），可以为 Chrome 中的音频生成字幕，但不保存任何内容。需要保存文字稿的话，请使用 LessonScriptor 等扩展。"
+      },
+      {
+        "question": "Live Transcribe 能在 Windows 上用吗？",
+        "answer": "不能，实时转写没有 Windows 版。Windows 11（22H2 及以上）自带实时字幕，按 Windows + Ctrl + L 打开，可以为系统音频生成字幕，也可选择使用麦克风。Windows 10 没有类似的内置功能，可行的选择是 Chrome 实时字幕或 Chrome 扩展。"
+      },
+      {
+        "question": "Chrome 实时字幕会保存文字稿吗？",
+        "answer": "不会。Chrome 实时字幕在本机处理音频，不存储字幕，文字滚动后就消失。LessonScriptor 会在侧边栏保留完整文字稿，并可导出为 .txt 或 .md。"
+      },
+      {
+        "question": "有没有戴耳机也能用的 Chrome 实时转写扩展？",
+        "answer": "有。LessonScriptor 的 AI 模式直接捕获标签页音频，戴耳机也能用，不需要麦克风。LessonScriptor 免费模式和大多数 Web Speech 类扩展通过麦克风收音，需要外放音量，戴耳机时无法使用。"
+      },
+      {
+        "question": "LessonScriptor 免费吗？",
+        "answer": "LessonScriptor 免费模式永久免费，无需账号，没有月度上限。AI 模式支持耳机、准确率更高，提供 30 分钟免费试用，之后使用一次性套餐，5 美元起可用 5 小时，无需订阅。"
+      }
+    ]
+  },
+  "summary": {
+    "heading": "一句话总结",
+    "body": "谷歌实时转写只有安卓版，所以在电脑上，你要在会消失的字幕和能保留的文字稿之间做选择。Chrome 实时字幕、Windows 11 实时字幕和 macOS 实时字幕都免费，适合当下跟着看。LessonScriptor 适合用来复习，因为它能为 Chrome 中的任何课程保留一份可编辑的文字稿。免费模式通过扬声器外放使用，AI 模式戴耳机也能用。",
+    "internal_links": [
+      {
+        "text": "试试可保存文字稿的实时字幕",
+        "url": "/live-captions-chrome"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Live Transcribe（实时转写）有电脑版和 Chrome 版吗？桌面替代方案",
+      "description": "谷歌实时转写（Live Transcribe）只有安卓版。本文对比 5 种在 Chrome、Windows 和 Mac 上实时转写的方法，并告诉你哪一种能把文字稿保存下来用于复习。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/zh/blog/shishi-zhuanxie-chrome-diannao"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com/en",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Live Transcribe（实时转写）有电脑版吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "没有。谷歌实时转写只适用于安卓手机和平板。在电脑上，最接近的自带工具是 Chrome 实时字幕和 Windows 11 实时字幕。如果你需要一份可以保存、编辑和导出的文字稿，LessonScriptor 这样的 Chrome 扩展可以为标签页中播放的任何内容生成文字稿。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "能在 Chrome 上使用谷歌 Live Transcribe 吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不能。实时转写没有官方 Chrome 扩展。Chrome 有自己的实时字幕（设置 > 无障碍），可以为 Chrome 中的音频生成字幕，但不保存任何内容。需要保存文字稿的话，请使用 LessonScriptor 等扩展。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Live Transcribe 能在 Windows 上用吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不能，实时转写没有 Windows 版。Windows 11（22H2 及以上）自带实时字幕，按 Windows + Ctrl + L 打开，可以为系统音频生成字幕，也可选择使用麦克风。Windows 10 没有类似的内置功能，可行的选择是 Chrome 实时字幕或 Chrome 扩展。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Chrome 实时字幕会保存文字稿吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "不会。Chrome 实时字幕在本机处理音频，不存储字幕，文字滚动后就消失。LessonScriptor 会在侧边栏保留完整文字稿，并可导出为 .txt 或 .md。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "有没有戴耳机也能用的 Chrome 实时转写扩展？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "有。LessonScriptor 的 AI 模式直接捕获标签页音频，戴耳机也能用，不需要麦克风。LessonScriptor 免费模式和大多数 Web Speech 类扩展通过麦克风收音，需要外放音量，戴耳机时无法使用。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor 免费吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor 免费模式永久免费，无需账号，没有月度上限。AI 模式支持耳机、准确率更高，提供 30 分钟免费试用，之后使用一次性套餐，5 美元起可用 5 小时，无需订阅。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "如何在电脑上把 LessonScriptor 当作实时转写来用？",
+      "description": "LessonScriptor 适用于任何装有 Chrome 的 Windows 电脑、Mac 或 Chromebook。设置大约两分钟，免费模式无需注册账号。",
+      "inLanguage": "zh-CN",
+      "totalTime": "PT2M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "安装扩展",
+          "text": "从 Chrome 网上应用店添加 LessonScriptor，并固定到工具栏，方便一键打开。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "打开网课或视频",
+          "text": "在 Chrome 标签页中打开课程：中国大学MOOC 或学堂在线的课程、B站公开课、YouTube 视频，或浏览器中的腾讯会议、Zoom 课堂。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "打开侧边栏并选择语言",
+          "text": "点击 LessonScriptor 图标，在视频旁打开侧边栏，从 14 种语言中选择讲课所用的语言。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "选择免费模式或 AI 模式",
+          "text": "免费模式通过麦克风收音：用扬声器外放，音量调到 80% 以上，并摘下耳机。它也会把你自己的声音转写进去。AI 模式直接捕获标签页音频，戴耳机也能用，不需要麦克风。AI 模式前 30 分钟免费。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "点击开始，让文字稿自动生成",
+          "text": "免费模式下，文字随讲话即时出现。AI 模式下，文字按约 10 秒（标准）或 30 秒（优化，更准确）一段返回，会有短暂延迟。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "边听边编辑",
+          "text": "高亮重点句子、加粗关键词、为每个主题加标题，遇到重要幻灯片时截图插入。所有内容自动保存。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "下课后导出",
+          "text": "导出为 .txt 或 .md，或复制到剪贴板，粘贴到你的笔记软件中。如需摘要，可以自己把文字粘贴到 ChatGPT 或 NotebookLM。"
+        }
+      ]
+    }
+  ]
+}

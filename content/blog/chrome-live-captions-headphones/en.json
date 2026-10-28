@@ -5,19 +5,19 @@
   "h1": "Chrome Live Captions with Headphones: What Works and What Doesn't",
   "reading_time_min": 7,
   "published_at": "2026-04-28",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
     "title": "Chrome Live Captions with Headphones: Does It Work?",
-    "description": "Chrome's built-in live captions don't work reliably with headphones. Here's why — and how to get live captions in Chrome that actually work with any headphones.",
+    "description": "Chrome's Live Caption works with headphones and AirPods, because it doesn't use the mic. Mic-based tools are what fail. Here's why, and how to transcribe.",
     "og_image": "/images/blog/chrome-live-captions-headphones-hero.png",
     "canonical": "https://lessonscriptor.com/blog/chrome-live-captions-headphones",
     "og_title": "Chrome Live Captions with Headphones: What Works and What Doesn't",
-    "og_description": "Chrome's built-in captions don't work with headphones. Here's the fix.",
+    "og_description": "Chrome captions its own audio, headphones or not. Tools that listen through the microphone don't. Here's how to tell them apart.",
     "twitter_card": "summary_large_image"
   },
   "hero_image": {
     "src": "/images/blog/chrome-live-captions-headphones-hero.png",
-    "alt": "Student wearing headphones watching a lecture in Chrome with live captions displayed in a side panel",
+    "alt": "Student wearing headphones watching a lecture in Chrome with a live transcript in a side panel",
     "width": 1200,
     "height": 630,
     "caption": null,
@@ -30,86 +30,123 @@
   },
   "tldr": {
     "label": "Key takeaways",
-    "lead": "Chrome's built-in live captions do not work reliably when audio is routed through headphones. LessonScriptor's Premium mode uses tab audio capture and works with any headphones or audio output device.",
+    "lead": "Chrome's built-in Live Caption works with headphones, because it captions the audio Chrome itself plays, without a microphone. What fails with headphones are tools that listen through the mic, including LessonScriptor's free mode. LessonScriptor's AI mode captures tab audio and works with any headphones.",
     "bullets": [
-      "Chrome's built-in Live Caption uses the system microphone as its primary audio source — when headphones route audio away from the speakers, the microphone hears nothing.",
-      "This affects wired headphones, Bluetooth headphones (AirPods, Sony WH-1000XM5, Bose QC45), and USB headsets on Windows 10 and Windows 11.",
-      "The workaround: LessonScriptor's Premium mode uses tab audio capture — it grabs audio directly from the browser tab's audio stream, bypassing the microphone and audio routing entirely.",
-      "On macOS, Chrome's built-in Live Caption uses a different audio pipeline and may work with headphones — test your specific setup.",
-      "Free alternative: on Windows 10+, Windows Narrator and the built-in Live Captions feature in Settings → Accessibility uses system audio and works with headphones."
+      "Chrome's Live Caption processes audio played in the browser on-device: wired, Bluetooth, AirPods or USB headsets make no difference.",
+      "If captions vanish with headphones, the cause is elsewhere: audio playing outside Chrome (Zoom or Teams desktop app), a muted tab, a Bluetooth reconnect interrupting playback, or an incomplete speech model.",
+      "Mic-based tools (dictation, browser speech recognition, LessonScriptor's free mode) hear nothing when the sound goes into your headphones.",
+      "LessonScriptor's AI mode captures the tab's audio directly: it works with headphones and keeps an editable, exportable transcript. 30-minute free trial.",
+      "On Windows 11 (22H2+), system-wide Live Captions (Win+Ctrl+L) caption all PC audio, headphones included. Windows 10 doesn't have it."
     ]
   },
-  "intro": "Chrome's built-in live captions do not work with headphones because the feature relies on microphone input as its audio source — when you wear headphones, audio plays directly into your ears and the microphone receives no signal to transcribe. This is a known architectural limitation of Chrome's Live Caption feature on Windows 10 and Windows 11. On macOS, Chrome uses a different audio capture path and headphone compatibility is better. This guide explains exactly why this happens, what the current workarounds are, and how LessonScriptor solves the problem permanently with tab audio capture.",
+  "intro": "Chrome's built-in live captions work with headphones: Live Caption captions the audio Chrome itself plays, processed on-device, without going through the microphone. Plugging in AirPods, Sony WH-1000XM5s or wired headphones doesn't turn captions off. The confusion comes from elsewhere: many transcription tools listen through the microphone, and those stop hearing anything once the sound goes into your headphones. LessonScriptor's free mode is one of them. This guide explains what works with headphones, what doesn't, and how to transcribe a lecture on Moodle or a YouTube video with headphones using LessonScriptor's AI mode.",
   "stats": [
     {
-      "number": "~65%",
-      "label": "of students use headphones while studying online (Stanford Learning Lab, 2024)"
-    },
-    {
       "number": "0",
-      "label": "audio signal Chrome's mic-based captions receive when headphones are used"
+      "label": "microphones Chrome's Live Caption needs"
     },
     {
-      "number": "1",
-      "label": "click to switch LessonScriptor to tab audio capture mode"
+      "number": "19",
+      "label": "caption languages Google lists for Chrome's Live Caption"
+    },
+    {
+      "number": "30 min",
+      "label": "free trial of LessonScriptor's AI mode, which works with headphones"
     }
   ],
   "sections": [
     {
       "id": "why-no-chrome-captions-headphones",
-      "h2": "Why don't Chrome's live captions work with headphones?",
-      "body": "Chrome's built-in Live Caption uses the Web Speech API's microphone input as its primary audio source on Windows. When you're wearing headphones, the audio from the video plays directly into your ears through the headphone driver — it never passes through the computer's speakers, and it never reaches the microphone input that Chrome's caption engine is listening to.\n\nThis isn't a bug — it's an architectural decision. Chrome's Live Caption was designed as an accessibility feature to help users who are deaf or hard of hearing follow along with audio that plays through speakers in a room. It was not designed for the use case of a student studying alone with headphones, where there are no speakers broadcasting audio for the microphone to pick up.\n\nThe result: Chrome's caption bubble appears but shows no text, or shows only background noise incorrectly transcribed as words. On some Windows 10 systems, Chrome falls back to using the headphone's built-in microphone if one exists (common on gaming headsets), which partially resolves the issue but produces lower-quality transcription than direct audio capture."
+      "h2": "Do Chrome's live captions work with headphones?",
+      "body": "Yes. Chrome's Live Caption captions the audio playing in browser tabs, inside Chrome, before it's sent to your speakers or headphones. Google says all audio and captions are processed locally and never leave your device. The microphone isn't involved.\n\nSo wired headphones, AirPods, Bluetooth headphones or a USB headset have no effect on captions. You can even follow a lecture with no speakers at all, which is one of the use cases Google designed the feature for.\n\nIf captions disappear when you put your headphones on, look for another cause: the lecture is running in the Zoom or Teams desktop app rather than in Chrome, the tab is muted, a Bluetooth reconnect interrupted playback, or the speech model is incomplete. Our troubleshooting guide covers all eight known causes.",
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption not working: 8 fixes",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
     },
     {
       "id": "does-it-work-macos",
-      "h2": "Do Chrome live captions work with headphones on macOS?",
-      "body": "On macOS Ventura and Sonoma, Chrome's Live Caption uses a different audio capture method that taps into the CoreAudio session — the same audio stream that powers the system's audio output. This means Chrome's captions can, in some configurations, access audio that's routed to headphones rather than speakers.\n\nIn practice, this works inconsistently. Many macOS users report that Live Caption works correctly with AirPods and wired headphones via the 3.5mm jack, while Bluetooth headphones that use the HSP/HFP profile (headset mode rather than A2DP stereo mode) can cause Chrome to lose the audio signal.\n\nIf you're on macOS and experiencing the issue: toggle Bluetooth off and back on, or reconnect your headphones, before testing. If captions still don't appear, the macOS fix is the same as Windows — use LessonScriptor's tab audio capture."
+      "h2": "Do Chrome live captions work with AirPods on a Mac?",
+      "body": "Yes. On macOS, as on Windows, Chrome's Live Caption works with AirPods and any other headphones, because it doesn't depend on the audio output device.\n\nIf captions stop after you connect AirPods, check three things: that the video is actually playing in Chrome, that **Live Caption** is still on in **chrome://settings/accessibility**, and that Chrome was fully relaunched (Cmd+Q) after the last macOS or Chrome update. Disconnecting and reconnecting Bluetooth sometimes restarts playback.\n\nThe real headphone problem on a Mac affects tools that listen through the MacBook's microphone: once the sound goes into your AirPods, the mic can no longer hear the video."
     },
     {
       "id": "what-is-tab-audio-capture",
       "h2": "What is tab audio capture and why does it work with headphones?",
-      "body": "Tab audio capture is a browser API that allows a Chrome extension to access the raw audio stream being played by a specific browser tab — independently of where that audio is routed for playback.\n\nWhen LessonScriptor's Premium mode activates tab audio capture, it receives the audio signal before Chrome routes it to any output device — speakers, headphones, Bluetooth, or USB. The caption engine processes this pre-routing audio stream and generates the transcript. The audio routing to your headphones happens separately, in parallel.\n\nThis means the tab audio capture pipeline is completely independent of your audio output device. You can use AirPods, Sony WH-1000XM5, Bose QC45, USB headsets, or any other headphones — LessonScriptor's transcription quality is identical in all cases because it never touches the microphone or the audio routing layer.",
-      "links": [
+      "body": "Tab audio capture is a Chrome API that lets an extension receive the audio stream of a specific browser tab, regardless of the output device.\n\nLessonScriptor's AI mode uses tab audio capture: it receives the tab's sound before it reaches your headphones, sends it in chunks (10 seconds in Normal mode, 30 seconds in the more accurate Optimal mode) to a Whisper-class AI transcription model, and shows the text in the side panel with a short delay. The sound keeps playing in your headphones as usual.\n\nThe pipeline depends on neither the microphone nor the output device: AirPods, Sony WH-1000XM5, Bose, a USB headset or wired headphones give the same result. Each tab is independent, so you can transcribe several videos at once.",
+      "internal_links": [
         {
           "text": "Live Captions in Chrome",
-          "href": "/live-captions-chrome",
-          "internal": true
+          "url": "/live-captions-chrome"
         }
       ]
     },
     {
       "id": "windows-workaround",
-      "h2": "Is there a free workaround for Chrome captions with headphones on Windows?",
-      "body": "Yes. Windows 10 (version 1903+) and Windows 11 both include a system-level Live Captions feature that uses WASAPI audio capture — the same technology as tab audio capture — and works correctly with headphones.\n\n**How to enable it on Windows 11:** Settings → Accessibility → Captions → Live Captions. Turn on Live Captions. A caption window appears over all applications, including Chrome.\n\n**How to enable it on Windows 10:** Press the Windows key, search for 'Live Captions', and enable it from the Accessibility settings.\n\nWindows Live Captions work with headphones because they capture system-level audio output rather than microphone input. The captions appear in a floating window over the desktop, not inside Chrome.\n\n**Limitation:** Windows Live Captions are English-only, read-only (no editing or export), and the floating window can cover parts of the video you're watching. For study sessions where you need to annotate and export your notes, LessonScriptor remains the more complete solution.",
-      "links": [
+      "h2": "Is there a free headphone-friendly caption option on Windows?",
+      "body": "Yes. Besides Chrome's own Live Caption, Windows 11 (version 22H2 and later) includes system-wide **Live Captions** that caption all PC audio, headphones included, not just Chrome. That helps for lectures in the Zoom or Teams desktop app.\n\n**How to enable it on Windows 11:** press **Win+Ctrl+L**, or go to Settings > Accessibility > Captions. A caption bar appears above your windows. Several languages are available, including English, French, German, Spanish, Portuguese and Chinese.\n\n**Windows 10:** this feature isn't available; use Chrome's Live Caption instead.\n\n**Limitation:** like Chrome's captions, Windows Live Captions are read-only (no editing or export), and the bar can cover part of the video. For study sessions where you need to annotate and export notes, a transcript you can keep is more useful.",
+      "internal_links": [
         {
-          "text": "Chrome Live Captions Not Working",
-          "href": "/blog/chrome-live-captions-not-working",
-          "internal": true
+          "text": "Live captions for Zoom recordings",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
         }
       ]
     },
     {
       "id": "lessonscriptor-headphones-setup",
       "h2": "How do I set up LessonScriptor to work with headphones?",
-      "body": "Setting up LessonScriptor to work with headphones takes three steps.\n\n1. Install LessonScriptor from the Chrome Web Store. No account required.\n2. Open any video in Chrome and click the LessonScriptor icon in your Chrome toolbar to open the side panel.\n3. In the side panel, switch the audio source from 'Microphone' to 'Tab audio'. This activates tab audio capture mode.\n\nOnce you're in Tab audio mode, play the video. LessonScriptor captures audio directly from the browser tab — your headphone routing is irrelevant. The transcript appears in real time alongside the video.\n\nTab audio mode is part of LessonScriptor's Premium tier (pay-as-you-go per minute of transcription). If you prefer the free mode, it uses microphone input — which means you'd need to use speakers or use a workaround like the Windows Live Captions feature described above.",
-      "links": [
+      "body": "Using LessonScriptor with headphones requires AI mode, because free mode listens through the microphone.\n\n1. Install LessonScriptor from the Chrome Web Store.\n2. Open your video in Chrome (a lecture on Moodle or Canvas, YouTube, Zoom in the browser) and click the LessonScriptor icon to open the side panel.\n3. Choose **AI mode**. The first 30 minutes are free; after that, buy a pack if you need one.\n4. Play the video: the transcript appears in the panel with a delay of a few seconds.\n\nAI mode uses one-time packs with no subscription, consumed second by second, and credits never expire: 5h for $5, 15h for $12, 30h for $21 (Stripe shows a local-currency estimate). If you prefer free mode, use speakers at 80% volume or higher, without headphones.",
+      "internal_links": [
         {
-          "text": "Live Captions in Chrome",
-          "href": "/live-captions-chrome",
-          "internal": true
+          "text": "Chrome Live Caption vs LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
         }
       ]
     },
     {
       "id": "which-headphones-work",
       "h2": "Which headphones work with Chrome live captions?",
-      "body": "For Chrome's built-in Live Caption on Windows, headphones with a built-in microphone (gaming headsets, some AirPods in HSP mode) may partially work because Chrome falls back to the headset microphone. However, the audio quality from a headset microphone picking up the headphone driver is poor, and accuracy suffers.\n\nFor LessonScriptor in Tab audio mode, all headphones work equally well because the audio source is the browser tab, not the microphone:\n\n- **AirPods (1st, 2nd, 3rd gen, Pro, Max)** — full support in Tab audio mode\n- **Sony WH-1000XM5, XM4, XM3** — full support in Tab audio mode\n- **Bose QC45, QC35, 700** — full support in Tab audio mode\n- **Wired headphones (3.5mm)** — full support in Tab audio mode\n- **USB headsets (Logitech, HyperX, SteelSeries)** — full support in Tab audio mode\n- **Bluetooth earbuds (Samsung Galaxy Buds, Jabra)** — full support in Tab audio mode\n\nTab audio capture is headphone-agnostic. The model that produces the transcript only receives the clean audio stream from the video — your output device has no effect on transcription quality."
+      "body": "All headphones work with Chrome's Live Caption and with LessonScriptor's AI mode, because neither uses the microphone. Only mic-based tools need speakers.",
+      "table": {
+        "headers": [
+          "Tool",
+          "Wired / USB headphones",
+          "AirPods and Bluetooth",
+          "Why"
+        ],
+        "rows": [
+          [
+            "Chrome Live Caption",
+            "Yes",
+            "Yes",
+            "Captions audio played in Chrome, no mic"
+          ],
+          [
+            "Windows 11 Live Captions",
+            "Yes",
+            "Yes",
+            "Captions system audio"
+          ],
+          [
+            "LessonScriptor, AI mode",
+            "Yes",
+            "Yes",
+            "Captures tab audio"
+          ],
+          [
+            "LessonScriptor, free mode",
+            "No",
+            "No",
+            "Listens via the mic: speakers at 80%+"
+          ]
+        ]
+      }
     }
   ],
   "cta": {
-    "heading": "Get live captions that work with your headphones — free to start",
-    "body": "LessonScriptor's free mode works on any video in Chrome. Upgrade to Premium for tab audio capture and full headphone support.",
+    "heading": "Transcribe your lectures with headphones",
+    "body": "LessonScriptor's AI mode captures tab audio and works with any headphones. 30-minute free trial, then packs with no subscription.",
     "button_label": "Add LessonScriptor to Chrome",
     "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
   },
@@ -117,26 +154,30 @@
     "section_title": "Frequently asked questions",
     "items": [
       {
-        "q": "Why do Chrome live captions not work with headphones?",
-        "a": "Chrome's built-in Live Caption uses microphone input on Windows. When you wear headphones, audio plays directly into your ears and never reaches the microphone. LessonScriptor's Premium mode solves this with tab audio capture, which grabs audio directly from the browser tab before it's routed to any output device."
+        "q": "Do Chrome live captions work with headphones?",
+        "a": "Yes. Chrome captions the audio it plays itself, on-device, without using the microphone. Wired, Bluetooth or USB headphones don't stop captions. If they disappear, check that the video is playing in Chrome and that the tab isn't muted."
       },
       {
         "q": "Do Chrome live captions work with AirPods?",
-        "a": "Inconsistently. On macOS, AirPods often work with Chrome's built-in Live Caption because macOS uses a system-level audio capture. On Windows, AirPods in Bluetooth mode bypass the microphone and Chrome's captions don't receive audio. LessonScriptor's tab audio capture works with AirPods on both macOS and Windows."
+        "a": "Yes, on Mac and Windows. Live Caption doesn't depend on the audio output device. What fails with AirPods are tools that listen through the microphone, such as LessonScriptor's free mode."
       },
       {
-        "q": "What is the best way to get live captions with Bluetooth headphones in Chrome?",
-        "a": "Use LessonScriptor in Tab audio mode. Tab audio capture grabs audio from the browser tab's stream, independent of your Bluetooth headphone routing. It works with AirPods, Sony WH-1000XM5, Bose QC45, and any other Bluetooth headphones."
+        "q": "Why does my transcription stop working when I wear headphones?",
+        "a": "Your tool probably listens through the microphone. When the sound goes into your headphones, the mic can't hear the video. Use a tool that captures tab audio, such as LessonScriptor's AI mode, or use speakers."
       },
       {
-        "q": "Do Chrome live captions work on Windows 10 with headphones?",
-        "a": "Chrome's built-in feature doesn't work reliably. Use Windows 10's built-in Live Captions (Settings → Accessibility → Captions) for a free English-only solution, or use LessonScriptor's tab audio capture for a full-featured, multilingual, editable solution."
+        "q": "How do I transcribe a Moodle lecture with headphones?",
+        "a": "Open the lecture in Chrome, start LessonScriptor in AI mode and play the video. AI mode captures tab audio, so headphones don't matter, and you get an editable transcript you can export as .txt or .md."
+      },
+      {
+        "q": "Does Windows 10 have Live Captions like Windows 11?",
+        "a": "No. System-wide Live Captions (Win+Ctrl+L) are only in Windows 11 version 22H2 and later. On Windows 10, use Chrome's Live Caption, which works with headphones, or LessonScriptor's AI mode."
       }
     ]
   },
   "summary": {
     "heading": "Chrome live captions with headphones: the short answer",
-    "body": "Chrome's built-in Live Caption doesn't work with headphones on Windows because it relies on microphone input — when headphones are used, the microphone hears nothing. On macOS, it sometimes works depending on your headphone type and Bluetooth profile. The cleanest solution is LessonScriptor's tab audio capture mode, which grabs audio directly from the browser tab before it reaches your headphones. This works with any headphones — AirPods, Sony WH-1000XM5, Bose, wired, USB, or Bluetooth — on both Windows and macOS. For a free Windows-only alternative, Windows 10 and 11's system-level Live Captions feature works with headphones but is English-only and read-only."
+    "body": "Chrome's Live Caption works with all headphones, because it captions audio played in Chrome, on-device, without a microphone. If captions vanish with headphones, the problem is elsewhere: audio outside Chrome, a muted tab or an incomplete speech model. What fails with headphones are mic-based tools, including LessonScriptor's free mode. For a transcript you can keep, highlight and export while listening on headphones, LessonScriptor's AI mode captures tab audio and works with AirPods, Bluetooth, wired or USB headphones. On Windows 11, system-wide Live Captions are a free, read-only alternative."
   },
   "schemas": [
     {
@@ -145,9 +186,9 @@
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Chrome Live Captions with Headphones: What Works and What Doesn't",
-        "description": "Chrome's built-in live captions don't work reliably with headphones. Explains why and how LessonScriptor's tab audio capture solves the problem.",
+        "description": "Chrome's Live Caption works with headphones because it captions Chrome's own audio. Explains which tools fail with headphones and how LessonScriptor's AI mode handles them.",
         "datePublished": "2026-04-28",
-        "dateModified": "2026-04-28",
+        "dateModified": "2026-10-28",
         "author": [
           {
             "@type": "Person",
@@ -182,10 +223,10 @@
         "mainEntity": [
           {
             "@type": "Question",
-            "name": "Why do Chrome live captions not work with headphones?",
+            "name": "Do Chrome live captions work with headphones?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Chrome's built-in Live Caption uses microphone input on Windows. When headphones are used, audio plays directly into your ears and never reaches the microphone. LessonScriptor's Premium mode solves this with tab audio capture."
+              "text": "Yes. Chrome captions the audio it plays itself, on-device, without using the microphone. Wired, Bluetooth or USB headphones don't stop captions. If they disappear, check that the video is playing in Chrome and that the tab isn't muted."
             }
           },
           {
@@ -193,7 +234,31 @@
             "name": "Do Chrome live captions work with AirPods?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Inconsistently. On macOS, AirPods often work. On Windows, they typically don't because Bluetooth audio bypasses the microphone. LessonScriptor's tab audio capture works with AirPods on both platforms."
+              "text": "Yes, on Mac and Windows. Live Caption doesn't depend on the audio output device. What fails with AirPods are tools that listen through the microphone, such as LessonScriptor's free mode."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does my transcription stop working when I wear headphones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Your tool probably listens through the microphone. When the sound goes into your headphones, the mic can't hear the video. Use a tool that captures tab audio, such as LessonScriptor's AI mode, or use speakers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I transcribe a Moodle lecture with headphones?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Open the lecture in Chrome, start LessonScriptor in AI mode and play the video. AI mode captures tab audio, so headphones don't matter, and you get an editable transcript you can export as .txt or .md."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does Windows 10 have Live Captions like Windows 11?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. System-wide Live Captions (Win+Ctrl+L) are only in Windows 11 version 22H2 and later. On Windows 10, use Chrome's Live Caption, which works with headphones, or LessonScriptor's AI mode."
             }
           }
         ]
@@ -234,7 +299,7 @@
       "external": true
     },
     {
-      "text": "Microsoft Support — Live Captions in Windows 11",
+      "text": "Microsoft Support — Use live captions to better understand audio",
       "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
       "external": true
     }

@@ -1,0 +1,538 @@
+{
+  "slug": "cornell-notes-template",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Prise de notes Cornell : le modèle gratuit, un exemple rempli et la méthode",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Prise de notes Cornell : modèle gratuit et exemple",
+    "description": "Méthode Cornell expliquée : un modèle à copier dans Google Docs, Notion ou Word, un exemple rempli (cours sur Bourdieu) et une version adaptée au TDAH.",
+    "keywords": [
+      "prise de notes cornell",
+      "méthode cornell",
+      "modèle cornell",
+      "méthode cornell exemple",
+      "prise de notes cornell word",
+      "méthode cornell tdah"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/fr/blog/methode-cornell-modele",
+    "og_title": "Prise de notes Cornell : modèle gratuit et exemple",
+    "og_description": "Un modèle Cornell à copier dans Docs, Notion, Word ou GoodNotes, un exemple rempli et une version adaptée au TDAH.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "bio": "Victoria et Pierre conçoivent LessonScriptor, une extension Chrome de transcription de cours en direct. Victoria étudie l'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "L'essentiel",
+    "lead": "La prise de notes Cornell est une page découpée en trois zones : une colonne étroite d'indices à gauche, une large colonne de notes à droite et un encadré de synthèse en bas. Le modèle ci-dessous se recopie dans Google Docs, Notion, Word ou GoodNotes en moins de cinq minutes.",
+    "bullets": [
+      "La méthode vient de Walter Pauk, qui dirigeait le centre d'aide à l'étude de l'université Cornell, et a été publiée dans How to Study in College (première édition en 1962).",
+      "Sur une feuille A4, comptez environ 6 cm pour la colonne d'indices, 15 cm pour les notes et 5 cm pour la synthèse en bas de page.",
+      "Les 5 R (Record, Reduce, Recite, Reflect, Review) comptent plus que le quadrillage : la colonne d'indices ne sert que si vous la remplissez après le cours et vous interrogez avec.",
+      "Si écrire en écoutant vous submerge, ce qui est fréquent avec un TDAH, laissez une transcription s'occuper de la prise brute et gardez votre énergie pour les indices et la synthèse."
+    ]
+  },
+  "intro": "La prise de notes Cornell est une méthode qui divise chaque page en trois zones : une colonne d'indices pour les questions et les mots-clés, une colonne de notes pour le contenu du cours, et un encadré de synthèse en bas où l'on résume la page en quelques phrases. Walter Pauk l'a mise au point à l'université Cornell dans les années 1950 et l'a publiée dans How to Study in College, un manuel toujours réédité. Le principe est simple, mais la plupart des étudiants n'en utilisent que la moitié : ils remplissent la colonne de notes en amphi et laissent la colonne d'indices vide, ce qui supprime justement l'auto-interrogation qui fait l'efficacité de la méthode. Ce guide vous donne le modèle Cornell, une version à copier-coller pour Google Docs, Notion, Word et GoodNotes, un exemple entièrement rempli à partir d'un cours de sociologie sur Bourdieu, et une version adaptée aux étudiants avec un TDAH.",
+  "sections": [
+    {
+      "id": "what-are-cornell-notes",
+      "h2": "Qu'est-ce que la méthode Cornell ?",
+      "body": "La méthode Cornell est un format de prise de notes qui sépare la **capture** de l'information de son **traitement**. Pendant le cours, vous n'écrivez que dans la colonne de notes. Après le cours, vous revenez sur la page, vous en tirez des questions et des mots-clés dans la colonne d'indices, puis vous rédigez une courte synthèse en bas. La page devient un auto-test : on cache les notes, on lit les indices et on essaie d'y répondre de mémoire.\n\nLe système a été créé par **Walter Pauk**, professeur en sciences de l'éducation qui dirigeait le Reading and Study Center de l'université Cornell, aux États-Unis. Il l'a décrit dans **How to Study in College**, publié pour la première fois en 1962 et réédité plus de dix fois depuis. Le Learning Strategies Center de Cornell publie encore un guide sur la méthode pour ses étudiants.\n\nSi la méthode Cornell a survécu à la plupart des modes, c'est qu'elle intègre la récupération active dans la page elle-même. Relire ses notes donne l'impression de travailler mais ne teste rien. Répondre à ses propres questions en cachant les notes, c'est le même mécanisme que les fiches de révision, et c'est l'une des stratégies d'apprentissage les mieux étayées par la recherche."
+    },
+    {
+      "id": "cornell-layout",
+      "h2": "À quoi ressemble un modèle de prise de notes Cornell ?",
+      "body": "Un modèle Cornell tient sur une page : deux colonnes et un bandeau en bas. Les mesures d'origine de Pauk sont en pouces (2,5 pouces d'indices, 6 pouces de notes, 2 pouces de synthèse). Sur une feuille **A4** ou une copie double à grands carreaux, cela donne environ **6 cm** pour la colonne d'indices, **15 cm** pour les notes et **5 cm** pour la synthèse. Le chiffre exact compte moins que la proportion : environ 30 % d'indices, 70 % de notes. Voici la structure à reproduire :",
+      "table": {
+        "headers": [
+          "Colonne d'indices (≈ 6 cm, à gauche)",
+          "Colonne de notes (≈ 15 cm, à droite)"
+        ],
+        "rows": [
+          [
+            "En-tête : matière, titre du cours, date",
+            "En-tête : matière, titre du cours, date"
+          ],
+          [
+            "Remplie APRÈS le cours : questions, mots-clés, auteurs, dates sur lesquels vous voulez être interrogé",
+            "Remplie PENDANT le cours : idées principales, définitions, exemples, schémas ; des formules courtes, pas des phrases complètes"
+          ],
+          [
+            "Un indice par idée, aligné en face de la note qu'il résume",
+            "Sautez une ligne entre deux idées pour laisser la place aux indices"
+          ],
+          [
+            "Synthèse (toute la largeur, ≈ 5 cm, en bas)",
+            "3 ou 4 phrases avec vos mots : de quoi parle la page et pourquoi c'est important"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Pourquoi les indices sont à gauche",
+        "body": "Pauk a placé les indices à gauche pour qu'on puisse plier la feuille ou cacher la colonne de notes et ne voir que les questions. Si vous construisez le modèle sur ordinateur, gardez cette propriété : les indices doivent rester lisibles quand les notes sont masquées."
+      }
+    },
+    {
+      "id": "five-rs",
+      "h2": "Quels sont les 5 R de la méthode Cornell ?",
+      "body": "Les 5 R de la méthode Cornell sont les cinq étapes prévues par Pauk pour exploiter la page : Record (noter), Reduce (condenser), Recite (réciter), Reflect (réfléchir) et Review (réviser). Le modèle n'est que le contenant ; les 5 R sont la méthode.",
+      "steps": [
+        {
+          "strategy": "Noter (Record)",
+          "detail": "Pendant le cours en amphi ou en visio, notez les idées principales et les faits qui les appuient dans la colonne de notes. Abrégez, écrivez des bouts de phrase et laissez de côté ce que vous retrouverez dans le diaporama déposé sur Moodle."
+        },
+        {
+          "strategy": "Condenser (Reduce)",
+          "detail": "Le plus tôt possible après le cours, idéalement le jour même, relisez vos notes et transformez chaque idée en question ou en mot-clé dans la colonne d'indices. Rédigez ensuite la synthèse en bas."
+        },
+        {
+          "strategy": "Réciter (Recite)",
+          "detail": "Cachez la colonne de notes. Lisez chaque indice et répondez à voix haute avec vos propres mots. Vérifiez, puis cochez chaque indice raté."
+        },
+        {
+          "strategy": "Réfléchir (Reflect)",
+          "detail": "Demandez-vous comment ce cours se relie aux séances précédentes, aux lectures obligatoires ou à un sujet de partiel. Notez ces liens dans la marge ou dans la synthèse."
+        },
+        {
+          "strategy": "Réviser (Review)",
+          "detail": "Consacrez une dizaine de minutes par semaine à réciter à partir des colonnes d'indices des pages plus anciennes, en commençant par les indices ratés."
+        }
+      ]
+    },
+    {
+      "id": "copy-paste-template",
+      "h2": "Un modèle Cornell à copier-coller",
+      "body": "Voici un modèle de prise de notes Cornell en texte brut, au format Markdown. Copiez-le dans Notion, Obsidian, Google Docs (activez **Outils > Préférences > Activer Markdown**, puis clic droit et **Coller à partir de Markdown**) ou n'importe quelle application de notes. Le Markdown simple ne gère pas les colonnes côte à côte : les indices forment donc une section au-dessus des notes, numérotée pour correspondre à chaque note, ce qui préserve l'auto-test.",
+      "callout": {
+        "type": "note",
+        "label": "Modèle Cornell à copier (Markdown)",
+        "body": "# [Matière] | [Titre du cours] | [Date]\n\n## Indices (à remplir après le cours)\n\nQ1 : [Question à laquelle répond la première idée]\n\nQ2 : [Mot-clé, auteur ou date à retenir]\n\nQ3 : [Question qui pourrait tomber au partiel]\n\n## Notes (à remplir pendant le cours)\n\nN1 : [Idée principale, en formules courtes]\n\nN2 : [Définition, fait ou exemple]\n\nN3 : [Description du schéma, numéro de diapositive]\n\n## Synthèse (3 ou 4 phrases, avec vos mots)\n\n[De quoi parlait le cours et pourquoi c'est important]\n\n## Indices ratés à revoir\n\n[Numéros des questions sans réponse]"
+      }
+    },
+    {
+      "id": "recreate-template",
+      "h2": "Comment créer un modèle Cornell dans Google Docs, Notion, Word ou GoodNotes ?",
+      "body": "Un modèle Cornell réutilisable se construit en cinq minutes environ dans chacune de ces applications. Créez-le une fois, puis dupliquez-le à chaque cours.",
+      "subsections": [
+        {
+          "h3": "Google Docs",
+          "body": "Allez dans **Insertion > Tableau** et créez un tableau de 2 x 3. La ligne du haut accueille la matière et la date, celle du milieu les indices et les notes, et la ligne du bas, fusionnée (sélectionnez les deux cellules, clic droit, **Fusionner les cellules**), la synthèse. Dans **Format > Tableau > Propriétés du tableau**, réglez la colonne de gauche à environ 5 cm et celle de droite à 11 cm avec les marges par défaut. Nommez le fichier « Cornell modèle » et faites **Fichier > Créer une copie** avant chaque cours."
+        },
+        {
+          "h3": "Notion",
+          "body": "Tapez **/2 colonnes** (ou /2 columns) pour créer deux blocs côte à côte, puis faites glisser le séparateur jusqu'à ce que la colonne de gauche occupe environ 30 % de la largeur. Mettez un titre « Indices » à gauche et « Notes » à droite, et ajoutez un bloc encadré sous les deux colonnes pour la synthèse. Pour le réutiliser, créez une base de données « Cours », cliquez sur la flèche à côté de **Nouveau**, choisissez **Nouveau modèle** et collez-y la mise en page."
+        },
+        {
+          "h3": "Microsoft Word",
+          "body": "Utilisez **Insertion > Tableau** pour une grille de 2 x 3, fusionnez la ligne du bas avec **Disposition > Fusionner les cellules**, puis réglez la largeur des colonnes dans **Disposition > Propriétés > Colonne**. Supprimez les bordures extérieures si vous voulez un rendu proche du papier. Enfin, **Fichier > Enregistrer sous** et choisissez **Modèle Word (.dotx)** : chaque nouveau document partira de la mise en page Cornell."
+        },
+        {
+          "h3": "GoodNotes et Notability",
+          "body": "**GoodNotes** propose du papier Cornell parmi ses modèles intégrés, en A4 notamment. Dans un carnet, ouvrez le menu **Plus** de la barre d'outils, choisissez **Changer de modèle** et sélectionnez une page Cornell dans la taille et la couleur souhaitées. Dans **Notability**, le plus fiable est d'exporter en PDF la version Word ou Google Docs créée ci-dessus et de l'importer, ou de tracer les deux lignes une fois à la règle et de dupliquer la page pour chaque cours."
+        }
+      ]
+    },
+    {
+      "id": "cornell-example",
+      "h2": "À quoi ressemble un exemple de prise de notes Cornell rempli ?",
+      "body": "Voici un exemple complet de méthode Cornell à partir d'un cours magistral de L1 de sociologie sur Pierre Bourdieu, le genre de séance qu'on suit en amphi à l'université Lumière Lyon 2 ou à la Sorbonne. Remarquez que les indices sont des questions, pas des titres. « Bourdieu » vous dit de quoi parle la note ; « Comment l'école reproduit-elle les inégalités selon Bourdieu ? » vous oblige à aller chercher la réponse.",
+      "table": {
+        "headers": [
+          "Indices",
+          "Notes : Sociologie L1, CM 6, Bourdieu et la reproduction sociale"
+        ],
+        "rows": [
+          [
+            "Quels sont les quatre capitaux chez Bourdieu ?",
+            "Capital économique (revenus, patrimoine), culturel (savoirs, diplômes, goûts), social (réseau de relations), symbolique (prestige, reconnaissance)."
+          ],
+          [
+            "Sous quelles formes existe le capital culturel ?",
+            "Trois états (article de 1979) : incorporé (langage, manières), objectivé (livres, œuvres), institutionnalisé (diplômes)."
+          ],
+          [
+            "Qu'est-ce que l'habitus ?",
+            "Ensemble de dispositions durables acquises par la socialisation, surtout familiale. Oriente goûts et pratiques sans calcul conscient."
+          ],
+          [
+            "Que montrent Les Héritiers ?",
+            "Bourdieu et Passeron, 1964 : les étudiants issus des milieux favorisés réussissent mieux car l'université valorise une culture qu'ils ont reçue en famille."
+          ],
+          [
+            "Comment l'école reproduit-elle les inégalités ?",
+            "La Reproduction, 1970 : l'école présente comme « don » ce qui est un héritage culturel. Violence symbolique : les dominés acceptent ce classement comme légitime."
+          ],
+          [
+            "Lien avec La Distinction ?",
+            "1979 : les goûts (musique, cuisine, sport) marquent la position sociale. La prof l'a annoncé comme sujet possible de dissertation au partiel."
+          ],
+          [
+            "SYNTHÈSE",
+            "Pour Bourdieu, la position sociale dépend de plusieurs capitaux, pas seulement de l'argent. Le capital culturel transmis en famille et l'habitus expliquent pourquoi l'école, censée être neutre, reproduit les inégalités. À relier au cours sur Durkheim et l'école comme institution."
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "Pourquoi cet exemple fonctionne",
+        "body": "Les indices sont rédigés avec les mots de l'étudiant, chacun renvoie à une seule note, et la synthèse relie le cours à la suite du semestre. Une synthèse qui se contenterait d'énumérer (« capitaux, habitus, reproduction ») ne passerait pas l'étape Réfléchir."
+      }
+    },
+    {
+      "id": "cornell-from-transcript",
+      "h2": "Comment faire des notes Cornell à partir de la transcription d'un cours ?",
+      "body": "On fait des notes Cornell à partir d'une transcription en utilisant celle-ci comme étape Noter, puis en réalisant soi-même les étapes Condenser, Réciter et Réfléchir. Il s'agit d'une méthode de travail, pas d'une fonction automatique : LessonScriptor transcrit le cours dans un panneau latéral de Chrome, et c'est vous qui déplacez ensuite les passages importants dans votre page Cornell. Rien ne met la page en forme à votre place, et c'est voulu, car c'est en condensant qu'on apprend.\n\nCette méthode convient aux cours enregistrés sur Moodle (celui de Sorbonne Université ou de l'université de Lyon, par exemple), aux vidéos du CNED, aux cours en ligne sur YouTube et aux visios en direct sur Zoom, Teams ou Google Meet dans le navigateur.",
+      "steps": [
+        {
+          "strategy": "Transcrire le cours",
+          "detail": "Ouvrez le cours dans Chrome et lancez LessonScriptor dans le panneau latéral. Le mode gratuit utilise la reconnaissance vocale du navigateur via le micro : gardez les haut-parleurs vers 80 % du volume et pas de casque. Le mode IA capte directement le son de l'onglet, fonctionne avec un casque et gère mieux les accents et le vocabulaire technique (30 minutes d'essai gratuit, puis des packs sans abonnement à partir de 5 $, Stripe convertit en euros)."
+        },
+        {
+          "strategy": "Repérer les passages clés en écoutant",
+          "detail": "Au lieu d'écrire, surlignez les phrases importantes dans la transcription (5 couleurs disponibles), mettez les définitions en gras et ajoutez un titre quand l'enseignant change de partie. Faites une capture d'écran des diapositives dont vous aurez besoin."
+        },
+        {
+          "strategy": "Exporter la transcription",
+          "detail": "Exportez en .md (ou en .txt, ou copiez dans le presse-papiers) et ouvrez votre modèle Cornell à côté."
+        },
+        {
+          "strategy": "Condenser dans la colonne de notes",
+          "detail": "Ne reprenez que les passages surlignés et réduisez chacun à une formule courte. Un CM de deux heures produit des milliers de mots de transcription ; votre colonne de notes doit tenir sur une ou deux pages."
+        },
+        {
+          "strategy": "Écrire les indices et la synthèse",
+          "detail": "Rédigez une question par note dans la colonne d'indices, puis la synthèse en 3 ou 4 phrases. Récitez notes cachées avant de fermer la page."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Pourquoi c'est adapté au TDAH",
+        "body": "La prise brute se fait toute seule, votre attention va donc aux étapes qui construisent vraiment la mémoire : choisir ce qui compte, le transformer en questions et vous tester. Vous n'êtes plus partagé entre écouter et écrire à la main, la partie de la méthode Cornell que beaucoup d'étudiants avec un TDAH trouvent la plus difficile."
+      },
+      "internal_links": [
+        {
+          "text": "Transformer une transcription de cours en questions de récupération active",
+          "url": "/blog/active-recall-lecture-transcript"
+        },
+        {
+          "text": "Les outils IA de prise de notes qui fonctionnent sur les cours enregistrés",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "id": "adhd-cornell",
+      "h2": "Comment adapter la méthode Cornell quand on a un TDAH ?",
+      "body": "Les étudiants avec un TDAH peuvent utiliser la méthode Cornell, mais la version classique demande trois choses à la fois en amphi : écouter, trier et écrire vite. La mémoire de travail est le goulot d'étranglement. Ces ajustements gardent la structure et retirent la surcharge.",
+      "subsections": [
+        {
+          "h3": "Séparer la capture du traitement",
+          "body": "N'essayez pas de remplir la colonne de notes en direct. Laissez une transcription ou l'enregistrement du cours faire l'étape Noter, et programmez l'étape Condenser comme une courte séance à part, le jour même."
+        },
+        {
+          "h3": "Minuter l'étape Condenser",
+          "body": "Mettez un minuteur de 25 minutes et traitez une partie du cours par bloc. Une demi-page terminée vaut mieux qu'une page complète abandonnée."
+        },
+        {
+          "h3": "Limiter la synthèse à trois phrases",
+          "body": "Un encadré vide pousse au perfectionnisme. Trois phrases suffisent pour valider l'étape Réfléchir : de quoi il s'agit, pourquoi c'est important, avec quoi ça se relie."
+        },
+        {
+          "h3": "Utiliser la couleur comme système d'indices",
+          "body": "Donnez un rôle à chaque couleur, par exemple jaune pour les définitions et bleu pour ce qui peut tomber au partiel : parcourir une page prend alors quelques secondes au lieu d'une relecture."
+        },
+        {
+          "h3": "Réciter à voix haute ou à deux",
+          "body": "Répondre aux indices à voix haute, ou avec un camarade sur Discord ou en visio, empêche l'étape Réciter de se transformer en simple relecture silencieuse."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Le modèle de prise de notes pour TDAH (Capturer, Questionner, Consolider)",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Comment prendre des notes avec un TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "cornell-vs-other-methods",
+      "h2": "Méthode Cornell ou autres méthodes de prise de notes : laquelle choisir ?",
+      "body": "La méthode Cornell est la meilleure méthode généraliste quand il faut réviser pour des partiels, parce que l'auto-test est intégré à la page. D'autres méthodes l'emportent dans des cas précis.",
+      "table": {
+        "headers": [
+          "Méthode",
+          "Idéale pour",
+          "Point faible"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Les CM sur lesquels vous serez évalué ; auto-interrogation intégrée",
+            "Demande une séance de reprise après le cours"
+          ],
+          [
+            "Prise de notes structurée (plan I, A, 1)",
+            "Les cours très construits, avec un plan annoncé",
+            "Pas d'étape de récupération ; on se contente de relire"
+          ],
+          [
+            "Carte mentale",
+            "Voir les liens entre notions, préparer une dissertation",
+            "Difficile à tenir face à un enseignant qui parle vite"
+          ],
+          [
+            "Tableau",
+            "Comparer plusieurs éléments sur les mêmes critères (auteurs, théories, pays)",
+            "Ne marche que si le contenu entre dans une grille"
+          ],
+          [
+            "Prise de notes linéaire (phrases)",
+            "Les cours rapides et peu structurés",
+            "Donne des notes longues et pénibles à réviser"
+          ]
+        ]
+      },
+      "internal_links": [
+        {
+          "text": "Toutes les méthodes de prise de notes comparées",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En résumé",
+    "body": "Un modèle de prise de notes Cornell, c'est une colonne d'indices, une colonne de notes et un encadré de synthèse, et la méthode qui va avec, ce sont les 5 R de Pauk. Copiez le modèle ci-dessus dans Docs, Notion, Word ou GoodNotes, remplissez les indices après le cours et non pendant, et récitez à partir d'eux chaque semaine. Si c'est l'écriture en écoutant qui coince, laissez une transcription faire la prise brute et gardez votre concentration pour les indices.",
+    "internal_links": [
+      {
+        "text": "Les outils d'étude pensés pour les étudiants avec un TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Méthode Cornell : questions fréquentes",
+    "questions": [
+      {
+        "question": "La méthode Cornell est-elle adaptée au TDAH ?",
+        "answer": "La méthode Cornell est adaptée au TDAH à condition de séparer la capture du traitement. La colonne d'indices et la synthèse donnent une structure claire et un auto-test intégré. Ce qui coince le plus souvent, c'est d'écrire en direct en écoutant : beaucoup d'étudiants avec un TDAH transcrivent donc le cours et remplissent la page Cornell ensuite, par séances courtes et minutées."
+      },
+      {
+        "question": "Méthode Cornell ou prise de notes structurée en plan : laquelle est la meilleure ?",
+        "answer": "La méthode Cornell est meilleure pour réviser les partiels, car la colonne d'indices transforme les notes en auto-test. La prise de notes en plan (I, A, 1) est plus rapide et convient aux cours très construits, mais elle n'a pas d'étape de récupération. Beaucoup d'étudiants prennent leurs notes en plan dans la colonne de droite et ajoutent les indices Cornell après coup."
+      },
+      {
+        "question": "Quels sont les 5 R de la méthode Cornell ?",
+        "answer": "Les 5 R de la méthode Cornell sont Record, Reduce, Recite, Reflect et Review, soit noter, condenser, réciter, réfléchir et réviser. On note pendant le cours, on condense en indices et en synthèse après, on récite notes cachées, on relie la matière au reste du programme et on révise les anciennes pages chaque semaine."
+      },
+      {
+        "question": "Quelles dimensions pour un modèle Cornell sur une feuille A4 ?",
+        "answer": "Sur une feuille A4, comptez environ 6 cm pour la colonne d'indices, 15 cm pour la colonne de notes et 5 cm pour la synthèse en bas. Ces valeurs reprennent les mesures d'origine de Pauk en pouces (2,5, 6 et 2). Sur ordinateur, visez une répartition d'environ 30/70 entre indices et notes."
+      },
+      {
+        "question": "Existe-t-il un modèle Cornell dans Word ou Google Docs ?",
+        "answer": "Ni Word ni Google Docs ne proposent de modèle Cornell intégré, mais on en crée un en cinq minutes avec un tableau de 2 x 3 : une ligne d'en-tête, une ligne indices et notes, et une ligne de synthèse fusionnée. Dans Word, enregistrez-le en .dotx ; dans Google Docs, gardez un fichier modèle et faites Fichier > Créer une copie à chaque cours."
+      },
+      {
+        "question": "Peut-on faire des notes Cornell à partir d'une transcription de cours ?",
+        "answer": "Oui. La transcription sert d'étape Noter : transcrivez le cours avec un outil comme LessonScriptor, surlignez les passages clés, exportez-les en .md, puis déplacez-les dans la colonne de notes et rédigez vous-même les indices et la synthèse. L'outil ne crée pas la page Cornell à votre place."
+      },
+      {
+        "question": "Qui a inventé la méthode Cornell ?",
+        "answer": "Walter Pauk a inventé la méthode Cornell dans les années 1950, alors qu'il dirigeait le Reading and Study Center de l'université Cornell. Il l'a publiée dans How to Study in College, paru pour la première fois en 1962."
+      }
+    ]
+  },
+  "internal_links_map": {
+    "pillar": "/for-adhd-students",
+    "related_posts": [
+      "/blog/adhd-note-taking-template",
+      "/blog/how-to-take-notes-with-adhd",
+      "/blog/note-taking-methods",
+      "/blog/active-recall-lecture-transcript",
+      "/blog/ai-note-taker-for-lectures"
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Prise de notes Cornell : le modèle gratuit, un exemple rempli et la méthode",
+      "description": "Méthode Cornell expliquée : un modèle à copier dans Google Docs, Notion ou Word, un exemple rempli (cours sur Bourdieu) et une version adaptée au TDAH.",
+      "inLanguage": "fr",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/fr/blog/methode-cornell-modele"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "La méthode Cornell est-elle adaptée au TDAH ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La méthode Cornell est adaptée au TDAH à condition de séparer la capture du traitement. La colonne d'indices et la synthèse donnent une structure claire et un auto-test intégré. Ce qui coince le plus souvent, c'est d'écrire en direct en écoutant : beaucoup d'étudiants avec un TDAH transcrivent donc le cours et remplissent la page Cornell ensuite, par séances courtes et minutées."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Méthode Cornell ou prise de notes structurée en plan : laquelle est la meilleure ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La méthode Cornell est meilleure pour réviser les partiels, car la colonne d'indices transforme les notes en auto-test. La prise de notes en plan (I, A, 1) est plus rapide et convient aux cours très construits, mais elle n'a pas d'étape de récupération. Beaucoup d'étudiants prennent leurs notes en plan dans la colonne de droite et ajoutent les indices Cornell après coup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quels sont les 5 R de la méthode Cornell ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les 5 R de la méthode Cornell sont Record, Reduce, Recite, Reflect et Review, soit noter, condenser, réciter, réfléchir et réviser. On note pendant le cours, on condense en indices et en synthèse après, on récite notes cachées, on relie la matière au reste du programme et on révise les anciennes pages chaque semaine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles dimensions pour un modèle Cornell sur une feuille A4 ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sur une feuille A4, comptez environ 6 cm pour la colonne d'indices, 15 cm pour la colonne de notes et 5 cm pour la synthèse en bas. Ces valeurs reprennent les mesures d'origine de Pauk en pouces (2,5, 6 et 2). Sur ordinateur, visez une répartition d'environ 30/70 entre indices et notes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Existe-t-il un modèle Cornell dans Word ou Google Docs ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ni Word ni Google Docs ne proposent de modèle Cornell intégré, mais on en crée un en cinq minutes avec un tableau de 2 x 3 : une ligne d'en-tête, une ligne indices et notes, et une ligne de synthèse fusionnée. Dans Word, enregistrez-le en .dotx ; dans Google Docs, gardez un fichier modèle et faites Fichier > Créer une copie à chaque cours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Peut-on faire des notes Cornell à partir d'une transcription de cours ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui. La transcription sert d'étape Noter : transcrivez le cours avec un outil comme LessonScriptor, surlignez les passages clés, exportez-les en .md, puis déplacez-les dans la colonne de notes et rédigez vous-même les indices et la synthèse. L'outil ne crée pas la page Cornell à votre place."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qui a inventé la méthode Cornell ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Walter Pauk a inventé la méthode Cornell dans les années 1950, alors qu'il dirigeait le Reading and Study Center de l'université Cornell. Il l'a publiée dans How to Study in College, paru pour la première fois en 1962."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Comment prendre des notes avec la méthode Cornell",
+      "description": "La prise de notes Cornell est une page découpée en trois zones : une colonne étroite d'indices à gauche, une large colonne de notes à droite et un encadré de synthèse en bas. Le modèle ci-dessous se recopie dans Google Docs, Notion, Word ou GoodNotes en moins de cinq minutes.",
+      "inLanguage": "fr",
+      "totalTime": "PT30M",
+      "supply": [
+        {
+          "@type": "HowToSupply",
+          "name": "Feuille A4 ou application de notes"
+        }
+      ],
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Docs"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Notion"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Microsoft Word"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "GoodNotes"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Tracer la mise en page",
+          "text": "Divisez la page en une colonne d'indices d'environ 6 cm à gauche, une colonne de notes d'environ 15 cm à droite et un encadré de synthèse d'environ 5 cm en bas."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Noter (Record)",
+          "text": "Pendant le cours en amphi ou en visio, notez les idées principales et les faits qui les appuient dans la colonne de notes. Abrégez, écrivez des bouts de phrase et laissez de côté ce que vous retrouverez dans le diaporama déposé sur Moodle."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Condenser (Reduce)",
+          "text": "Le plus tôt possible après le cours, idéalement le jour même, relisez vos notes et transformez chaque idée en question ou en mot-clé dans la colonne d'indices. Rédigez ensuite la synthèse en bas."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Réciter (Recite)",
+          "text": "Cachez la colonne de notes. Lisez chaque indice et répondez à voix haute avec vos propres mots. Vérifiez, puis cochez chaque indice raté."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Réfléchir (Reflect)",
+          "text": "Demandez-vous comment ce cours se relie aux séances précédentes, aux lectures obligatoires ou à un sujet de partiel. Notez ces liens dans la marge ou dans la synthèse."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Réviser (Review)",
+          "text": "Consacrez une dizaine de minutes par semaine à réciter à partir des colonnes d'indices des pages plus anciennes, en commençant par les indices ratés."
+        }
+      ]
+    }
+  ]
+}

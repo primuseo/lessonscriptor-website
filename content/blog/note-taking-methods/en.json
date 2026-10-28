@@ -1,0 +1,521 @@
+{
+  "slug": "note-taking-methods",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "7 Note-Taking Methods for Students (and Which Work With ADHD)",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "7 Note-Taking Methods for Students (+ ADHD Verdicts)",
+    "description": "Compare 7 note-taking methods: Cornell, outline, mind map, charting, sentence, boxing and Zettelkasten, with examples, best subjects and an ADHD verdict.",
+    "keywords": [
+      "note taking methods",
+      "note-taking methods for students",
+      "best note taking method",
+      "note taking methods for adhd",
+      "cornell method",
+      "zettelkasten method"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/en/blog/note-taking-methods",
+    "og_title": "7 Note-Taking Methods for Students (and Which Work With ADHD)",
+    "og_description": "Cornell, outline, mind map, charting, sentence, boxing and Zettelkasten compared, with an honest ADHD verdict for each.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "A note-taking method is a fixed structure for recording information so you can review it later. The best one depends on the subject and on how much attention you can spare during the lecture.",
+    "bullets": [
+      "Cornell is the best all-round method for review because the cue column turns your notes into a self-test.",
+      "Outline suits well-organized lectures (law, history). Charting suits comparisons (pharmacology, economics). Mind maps suit connected ideas (biology, literature).",
+      "The sentence method has the lowest load during a lecture, which is why many ADHD students default to it, but it needs cleanup afterwards.",
+      "Zettelkasten is for long projects such as a thesis, not for next week's exam.",
+      "With ADHD, the most reliable approach is to split the work: capture the lecture as a transcript, then apply the method afterwards at your own pace."
+    ]
+  },
+  "stats": [
+    {
+      "number": "7",
+      "label": "methods compared, from Cornell to Zettelkasten"
+    },
+    {
+      "number": "1950s",
+      "label": "when Walter Pauk created the Cornell method at Cornell University"
+    },
+    {
+      "number": "2",
+      "label": "phases that work best with ADHD: capture first, structure later"
+    }
+  ],
+  "intro": "Note-taking methods are structured systems for writing down what you hear or read so you can understand and review it later. The seven most widely taught are the Cornell method, the outline method, the mapping (mind map) method, the charting method, the sentence method, the boxing method and the Zettelkasten method. Each one trades effort during the lecture for value during revision. Cornell, developed by Walter Pauk at Cornell University, builds a self-test into the page. Zettelkasten, made famous by the German sociologist Niklas Luhmann, builds a long-term knowledge network. For students with ADHD, the question is not only which method is best, but which one survives a 90-minute lecture on Zoom, Moodle or Panopto when attention drifts. This guide gives a small example of each method, the subjects it fits, an honest ADHD verdict, and a workflow for applying it to a lecture transcript instead of trying to do everything live.",
+  "sections": [
+    {
+      "id": "what-is-a-note-taking-method",
+      "heading": "What is a note-taking method, and why does it matter?",
+      "body": "A note-taking method is a repeatable layout that tells you where each type of information goes: main ideas, details, questions, examples. Without one, notes become a transcript of whatever you managed to catch, which is hard to review.\n\nThe method matters most at revision time. A structured page lets you see the shape of a topic at a glance and test yourself on it, which is the study technique with the strongest evidence behind it (see our guide to active recall). A wall of unstructured text pushes you towards rereading, which Dunlosky and colleagues rated a low-utility technique in their 2013 review of study strategies.\n\nFor ADHD students there is a second reason. Most methods ask you to listen, decide what matters, and write in the right place, all at once. That is a heavy working-memory load, and it is exactly where attention slips. Choosing a method means choosing how much of that load you carry during the lecture and how much you move to later.",
+      "internal_links": [
+        {
+          "text": "Active recall: how to study from your lecture notes",
+          "url": "/blog/active-recall-lecture-transcript"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Which note-taking method is best? The 7 methods compared",
+      "body": "No single method is best for every course. The table compares the seven on the factors that decide whether a method works in practice: the subjects it fits, the effort it takes during a live lecture, how it holds up with ADHD, and how well it works when you build it from a transcript afterwards.",
+      "table": {
+        "headers": [
+          "Method",
+          "Best for",
+          "Effort during the lecture",
+          "ADHD verdict",
+          "Works from a transcript?"
+        ],
+        "rows": [
+          [
+            "Cornell",
+            "Almost any course, especially exam revision",
+            "Medium",
+            "Strong, if done after the lecture",
+            "Excellent"
+          ],
+          [
+            "Outline",
+            "Structured lectures: law, history, theory",
+            "Medium-high",
+            "Mixed: breaks when the lecturer jumps around",
+            "Excellent"
+          ],
+          [
+            "Mapping (mind map)",
+            "Biology, literature, brainstorming, essays",
+            "Medium",
+            "Strong for visual, non-linear thinkers",
+            "Good"
+          ],
+          [
+            "Charting",
+            "Comparisons: drugs, theories, historical periods",
+            "High (needs the structure up front)",
+            "Good once the columns are set",
+            "Very good"
+          ],
+          [
+            "Sentence",
+            "Fast lectures with lots of facts",
+            "Low",
+            "Easy to start, messy to review",
+            "It is the transcript"
+          ],
+          [
+            "Boxing",
+            "Tablet note-takers, topic-based lectures",
+            "Medium",
+            "Good: chunks information visually",
+            "Good"
+          ],
+          [
+            "Zettelkasten",
+            "Thesis, research, long-term projects",
+            "Low live, high afterwards",
+            "Risky: setup can become procrastination",
+            "Good as a source"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cornell-method",
+      "heading": "What is the Cornell note-taking method?",
+      "body": "The Cornell method is a page layout split into three areas: a narrow cue column on the left, a wide notes column on the right, and a summary strip at the bottom. Walter Pauk, an education professor at Cornell University, developed it in the 1950s and described it in his book How to Study in College. You take notes on the right during the lecture, write questions or keywords in the cue column afterwards, and finish with a two- or three-sentence summary.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "Notes column: **Mitochondria produce ATP through cellular respiration. Inner membrane folds (cristae) increase surface area.** Cue column: **What do mitochondria produce? Why are cristae folded?** Summary: **Mitochondria are the cell's energy site; their folded inner membrane maximizes ATP output.**"
+        },
+        {
+          "h3": "Best for",
+          "body": "Almost every subject, and especially courses with a written exam. The cue column is a ready-made question list, so the method connects directly to self-testing."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Strong, with one change.** Filling the cue column live is hard when you are also trying to keep up, so many ADHD students give up halfway through. Move the cue and summary steps to after the lecture and Cornell becomes one of the most ADHD-friendly methods, because the review structure is built in."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "Let the transcript capture the notes column for you. While it builds, add a header in the transcript each time the topic changes. Afterwards, export it as .md, paste each section into the right-hand column of a Cornell template, then write your cue questions and summary by hand. LessonScriptor does not format Cornell notes automatically; the cue questions are where the learning happens, so that step stays yours."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Free Cornell notes template (and how to fill it from a lecture)",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "outline-method",
+      "heading": "What is the outline method of note-taking?",
+      "body": "The outline method organizes notes as a hierarchy: main topics on the left margin, subtopics indented beneath them, and supporting details indented further. It mirrors the way a well-planned lecture is built, so it produces very clean notes when the lecturer follows a clear plan.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "**1. Causes of the French Revolution** / a. Fiscal crisis: debt from the American War of Independence / b. Social structure: the three Estates / i. Third Estate paid most taxes / c. Enlightenment ideas"
+        },
+        {
+          "h3": "Best for",
+          "body": "Law, history, political science, philosophy and any course where the lecturer follows slides or a written plan."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Mixed.** Outlining live forces constant decisions about levels: is this a subtopic or a detail? When the lecturer goes off on a tangent, the hierarchy breaks and so does focus. It works much better as a second pass, when you already know the shape of the lecture."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "Use the transcript's headers as your level-1 topics and bullets as level 2. After the lecture, skim the transcript, delete the tangents, and indent what is left. Because the full text is there, you can build the outline in 15 minutes rather than trying to guess the structure in real time."
+        }
+      ]
+    },
+    {
+      "id": "mapping-method",
+      "heading": "What is the mapping or mind map method?",
+      "body": "The mapping method places the main topic in the center of the page and branches related ideas out from it, so connections are visible rather than implied. The British author Tony Buzan popularized the mind map in the 1970s, and apps such as XMind, MindMeister and Miro have made it a common digital format.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "Center: **Photosynthesis**. Branches: **Light reactions** (thylakoids, water split, oxygen released), **Calvin cycle** (stroma, CO2 fixed, glucose), **Limiting factors** (light, CO2, temperature). A dotted line links Calvin cycle to Limiting factors."
+        },
+        {
+          "h3": "Best for",
+          "body": "Biology, literature, psychology, essay planning and any topic where ideas connect sideways rather than in a straight line."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Strong for many ADHD students**, because a map lets you jump between branches the way your attention already jumps. The risk is perfectionism: spending 40 minutes on colors and icons instead of content. Set a rule of one color per branch and no decoration until the content is done."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "Read the transcript's headers and turn each one into a branch. Take screenshots of key slides into the transcript during the lecture, then use them as anchors for the diagrams on your map. Mapping from a finished transcript is easier than mapping live, because you can see every branch before you draw the first one."
+        }
+      ]
+    },
+    {
+      "id": "charting-method",
+      "heading": "What is the charting method of note-taking?",
+      "body": "The charting method records information in a table, with one row per item and one column per attribute you are comparing. It turns a lecture full of parallel facts into something you can scan across and down.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "Columns: **Drug class | Mechanism | Example | Main side effect**. Row: **Beta blockers | Block adrenaline at beta receptors | Propranolol | Fatigue, cold hands**. Row: **ACE inhibitors | Block angiotensin conversion | Ramipril | Dry cough**."
+        },
+        {
+          "h3": "Best for",
+          "body": "Pharmacology, economics, comparative politics, history periods, language grammar tables: any lecture that compares several items on the same criteria."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Good once the columns are set.** The difficulty is that you need to know the columns before the lecture starts, which is hard if the syllabus is vague. When the structure is clear, charting reduces decisions to filling in a box, which is calming."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "LessonScriptor's note editor has highlights in 5 colors. Assign one color per column (green for mechanism, yellow for examples, and so on) and highlight as you reread the transcript. Then copy each color into its column. This turns the chart into a sorting task rather than a listening task."
+        }
+      ]
+    },
+    {
+      "id": "sentence-method",
+      "heading": "What is the sentence method of note-taking?",
+      "body": "The sentence method records each new fact or idea as a separate numbered sentence, line by line, without trying to organize it during the lecture. It is the fastest method to run live and the slowest to review.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "1. Keynes argued demand drives output in the short run. 2. In a recession, households save more, which lowers demand further. 3. He called this the paradox of thrift. 4. Government spending can fill the gap."
+        },
+        {
+          "h3": "Best for",
+          "body": "Fast, fact-dense lectures where there is no time to structure anything: introductory sciences, medicine, survey courses."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Easy to start, hard to use.** The low effort is why many ADHD students end up with this method by default. The problem shows up at revision: numbered sentences have no hierarchy, so everything looks equally important. It only pays off if you add a second pass."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "A transcript is essentially the sentence method done for you, with every sentence captured. So skip writing it live and spend your effort on the second pass instead: bold the 10 to 15 sentences that matter, delete the filler, and add headers. You get the completeness of the sentence method without its review problem."
+        }
+      ]
+    },
+    {
+      "id": "boxing-method",
+      "heading": "What is the boxing method of note-taking?",
+      "body": "The boxing method groups related notes inside drawn boxes, one box per topic, so each chunk of a lecture is visually separate from the next. It is a newer, digital-era method that spread with tablet apps such as GoodNotes and Notability, where the lasso tool makes it easy to draw, move and resize boxes.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "Box 1, **Supply**: law of supply, shifts vs movements, examples. Box 2, **Demand**: law of demand, substitutes and complements. Box 3, **Equilibrium**: where the curves meet, what happens with a price ceiling."
+        },
+        {
+          "h3": "Best for",
+          "body": "Topic-based lectures, students who take handwritten notes on an iPad, and revision sheets where you want one topic per visual block."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Good.** Boxes create natural chunks, which helps when working memory is short, and finishing a box gives a small sense of completion. During revision you can cover a box and recall what is inside, which is a simple form of self-testing."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "Treat each header in the transcript as one box. After the lecture, copy each section into a box on your page and reduce it to 3 to 5 key points. Screenshots of slides can go inside the relevant box."
+        }
+      ]
+    },
+    {
+      "id": "zettelkasten-method",
+      "heading": "What is the Zettelkasten method?",
+      "body": "The Zettelkasten (German for slip box) is a system of short, single-idea notes that are linked to one another, so ideas build into a network over months or years. The sociologist Niklas Luhmann used a paper slip box of tens of thousands of index cards to write dozens of books. Today students usually run it in Obsidian, Logseq or Zotero-linked notes.",
+      "subsections": [
+        {
+          "h3": "Example",
+          "body": "Note 23: **Habitus is the set of dispositions people acquire from their social position (Bourdieu).** Links to Note 24: **Taste as a marker of class** and Note 41: **Compare with Goffman's presentation of self**."
+        },
+        {
+          "h3": "Best for",
+          "body": "Dissertations, research papers, humanities and social sciences, and anyone building knowledge across several courses."
+        },
+        {
+          "h3": "ADHD verdict",
+          "body": "**Risky for exams, useful for big projects.** Building the system can become a polished form of procrastination, and it does little for a test next Thursday. For a thesis, though, linked notes match the associative way many ADHD brains already work."
+        },
+        {
+          "h3": "With a lecture transcript",
+          "body": "Export the transcript as .md and drop it into Obsidian as a literature note. Then write a few permanent notes in your own words, one idea each, and link them. The transcript is the raw source; the Zettelkasten notes are what you build from it."
+        }
+      ]
+    },
+    {
+      "id": "which-method-should-i-use",
+      "heading": "Which note-taking method should I use?",
+      "body": "Choose by the type of course first, then adjust for how your attention works. These rules cover most situations.",
+      "steps": [
+        {
+          "strategy": "If the course ends in a written exam",
+          "detail": "Use Cornell. The cue column becomes your question list for revision."
+        },
+        {
+          "strategy": "If the lecturer follows a clear plan or slides",
+          "detail": "Use the outline method, ideally built from the slides or transcript after class."
+        },
+        {
+          "strategy": "If the lecture compares several items",
+          "detail": "Use charting. Set the columns from the syllabus before class."
+        },
+        {
+          "strategy": "If ideas connect in many directions",
+          "detail": "Use a mind map, with a strict limit on decoration."
+        },
+        {
+          "strategy": "If you take notes on a tablet",
+          "detail": "Try boxing. One box per topic keeps the page readable."
+        },
+        {
+          "strategy": "If you are writing a thesis or long paper",
+          "detail": "Use a Zettelkasten, but only for that project."
+        },
+        {
+          "strategy": "If you have ADHD and lose the thread live",
+          "detail": "Do not pick a method to run during the lecture. Capture the lecture as a transcript, then apply Cornell, outline or charting afterwards."
+        }
+      ],
+      "callout": {
+        "type": "insight",
+        "label": "Why combining methods works",
+        "body": "Many students combine two methods: a sentence-style capture during the lecture and a Cornell or outline layout afterwards. A transcript makes that split easy, because the capture step no longer depends on your attention holding for 90 minutes."
+      },
+      "internal_links": [
+        {
+          "text": "How to take notes with ADHD: a practical system",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    },
+    {
+      "id": "adhd-transcript-workflow",
+      "heading": "How do I use a note-taking method with a lecture transcript?",
+      "body": "The capture-then-structure workflow is the most practical way for ADHD students to use any of these methods. It separates listening from organizing, so neither has to compete with the other. Here is how it works with LessonScriptor, a Chrome extension that transcribes whatever plays in a browser tab, including Moodle, Canvas, Panopto, YouTube and Zoom in the browser.",
+      "steps": [
+        {
+          "strategy": "Start the transcript before the lecture",
+          "detail": "Open the LessonScriptor side panel and press start. Free mode uses Chrome's built-in speech recognition through your microphone, so play the lecture on speakers at 80% volume or more; it does not work with headphones. AI mode captures the tab audio directly, works with headphones and handles accents and technical terms better (30-minute free trial, then packs from $5 for 5 hours)."
+        },
+        {
+          "strategy": "Mark the structure while you listen",
+          "detail": "You do not need to write notes. Add a header when the topic changes, and take a screenshot when a key slide or diagram appears. These two actions take seconds and give you the skeleton for any method."
+        },
+        {
+          "strategy": "Highlight on a second pass",
+          "detail": "After the lecture, reread the transcript and highlight in up to 5 colors: for example, definitions, examples, likely exam points. Delete tangents."
+        },
+        {
+          "strategy": "Export and restructure",
+          "detail": "Export as .md or .txt, or copy to clipboard, and paste it into your Cornell template, outline document, chart or Obsidian vault. Write the cue questions, summaries or links yourself."
+        },
+        {
+          "strategy": "Turn the structure into questions",
+          "detail": "End with five to ten questions you could be asked about the lecture. This is the step that makes the notes useful for revision."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "What LessonScriptor does and doesn't do",
+        "body": "LessonScriptor gives you a live, editable transcript with headers, highlights, screenshots and export. It does not create summaries, flashcards or Cornell layouts automatically. If you want a draft summary, you can paste the exported transcript into ChatGPT or NotebookLM yourself."
+      },
+      "internal_links": [
+        {
+          "text": "ADHD note-taking template you can fill from a transcript",
+          "url": "/blog/adhd-note-taking-template"
+        },
+        {
+          "text": "Best note-taking apps for students, compared",
+          "url": "/blog/best-note-taking-apps-for-students"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "The short answer",
+    "body": "Cornell is the best all-round note-taking method for exam revision, outline and charting win for structured or comparative lectures, mind maps and boxing suit visual thinkers, and Zettelkasten belongs to long research projects. With ADHD, the method matters less than the timing: capture the lecture first, then structure it when your attention is free.",
+    "internal_links": [
+      {
+        "text": "Next: turn your notes into active recall questions",
+        "url": "/blog/active-recall-lecture-transcript"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "What are the 5 main note-taking methods?",
+        "answer": "The five classic note-taking methods are Cornell, outline, mapping (mind map), charting and sentence. Newer lists add the boxing method, popular on tablets, and the Zettelkasten method for long-term research notes."
+      },
+      {
+        "question": "What is the most effective note-taking method?",
+        "answer": "The Cornell method is the most effective all-round method for exam revision because its cue column turns notes into self-test questions. For comparison-heavy courses, charting is often better; for theses, a Zettelkasten."
+      },
+      {
+        "question": "What is the best note-taking method for ADHD?",
+        "answer": "For ADHD, the best approach is usually to capture the lecture first (as a transcript or rough sentence notes) and apply Cornell, outline or mind mapping afterwards. Methods that demand constant structuring during the lecture tend to break down when attention drifts."
+      },
+      {
+        "question": "Is Cornell or outline better for note-taking?",
+        "answer": "Cornell is better for revision because it builds in questions and a summary. Outline is better for seeing the structure of a well-organized lecture. Many students outline in the notes column of a Cornell page and get both."
+      },
+      {
+        "question": "Is the Zettelkasten method good for students?",
+        "answer": "The Zettelkasten method is good for students writing a thesis or research paper, because linked single-idea notes build arguments over time. It is a poor fit for short-term exam revision, where Cornell or active recall work faster."
+      },
+      {
+        "question": "Can I use a lecture transcript instead of taking notes?",
+        "answer": "A transcript replaces the capture step, not the thinking step. It records everything, but you still need to highlight, structure and turn the content into questions. Used that way, it frees your attention during the lecture and makes any note-taking method easier to apply afterwards."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "7 Note-Taking Methods for Students (and Which Work With ADHD)",
+      "description": "Compare 7 note-taking methods: Cornell, outline, mind map, charting, sentence, boxing and Zettelkasten, with examples, best subjects and an ADHD verdict.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/en/blog/note-taking-methods"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are the 5 main note-taking methods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The five classic note-taking methods are Cornell, outline, mapping (mind map), charting and sentence. Newer lists add the boxing method, popular on tablets, and the Zettelkasten method for long-term research notes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the most effective note-taking method?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Cornell method is the most effective all-round method for exam revision because its cue column turns notes into self-test questions. For comparison-heavy courses, charting is often better; for theses, a Zettelkasten."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best note-taking method for ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For ADHD, the best approach is usually to capture the lecture first (as a transcript or rough sentence notes) and apply Cornell, outline or mind mapping afterwards. Methods that demand constant structuring during the lecture tend to break down when attention drifts."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cornell or outline better for note-taking?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cornell is better for revision because it builds in questions and a summary. Outline is better for seeing the structure of a well-organized lecture. Many students outline in the notes column of a Cornell page and get both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the Zettelkasten method good for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Zettelkasten method is good for students writing a thesis or research paper, because linked single-idea notes build arguments over time. It is a poor fit for short-term exam revision, where Cornell or active recall work faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a lecture transcript instead of taking notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A transcript replaces the capture step, not the thinking step. It records everything, but you still need to highlight, structure and turn the content into questions. Used that way, it frees your attention during the lecture and makes any note-taking method easier to apply afterwards."
+          }
+        }
+      ]
+    }
+  ]
+}

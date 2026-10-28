@@ -1,0 +1,498 @@
+{
+  "slug": "live-transcribe-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Transcripción instantánea (Live Transcribe) en Chrome y PC: las alternativas",
+  "reading_time_min": 10,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Live Transcribe en PC y Chrome: 5 alternativas",
+    "description": "Transcripción instantánea de Google solo existe en Android. Compara 5 vías para transcribir en directo en Chrome, Windows o Mac y guardar el texto de clase.",
+    "keywords": [
+      "live transcribe pc",
+      "live transcribe chrome",
+      "transcripción instantánea pc",
+      "transcripción instantánea chrome",
+      "extensión chrome transcripción en vivo",
+      "subtítulos automáticos chrome",
+      "transcripción en tiempo real windows"
+    ],
+    "og_title": "Live Transcribe en PC y Chrome: 5 alternativas",
+    "og_description": "Transcripción instantánea de Google no tiene versión para Chrome ni Windows. Esto es lo que puedes usar en un portátil en su lugar.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Lo esencial",
+    "lead": "Transcripción instantánea (Live Transcribe) de Google solo funciona en móviles Android. No hay extensión de Chrome, ni programa para Windows, ni app para Mac, así que en el ordenador necesitas otra herramienta.",
+    "bullets": [
+      "Los **Subtítulos automáticos de Chrome** vienen integrados en Chrome para Windows, Mac, Linux y ChromeOS. Subtitulan el audio que suena en Chrome, pero no guardan nada.",
+      "Los **Subtítulos en directo de Windows 11** (versión 22H2 o posterior) y los de **macOS** (chips de Apple) subtitulan el audio de cualquier app y también pueden escuchar el micrófono para conversaciones en persona.",
+      "**LessonScriptor** es una extensión de Chrome que guarda una transcripción editable de todo lo que suena en una pestaña y la exporta en .txt o .md.",
+      "El **modo gratuito** de LessonScriptor escucha por el micrófono, así que necesita volumen en los altavoces y no funciona con auriculares. El **modo IA** capta el audio de la pestaña, por lo que los auriculares sí funcionan."
+    ]
+  },
+  "stats": [
+    {
+      "number": "0",
+      "label": "apps oficiales de Transcripción instantánea para Chrome, Windows o macOS"
+    },
+    {
+      "number": "3 días",
+      "label": "lo que Transcripción instantánea guarda el historial en Android"
+    },
+    {
+      "number": "14",
+      "label": "idiomas en LessonScriptor, con exportación .txt y .md"
+    }
+  ],
+  "intro": "Transcripción instantánea (Live Transcribe en inglés) es la app gratuita de Google para Android que convierte la voz en texto. Se creó junto con la Universidad Gallaudet y se lanzó en 2019 para subtitular conversaciones reales a través del micrófono del móvil. No existe Transcripción instantánea para Chrome, Windows ni Mac: Google solo la ofrece en Android, y buscar una «extensión de Chrome Live Transcribe» no lleva a nada oficial. Los equivalentes más cercanos en el ordenador son los Subtítulos automáticos de Chrome, los Subtítulos en directo de Windows 11, los de macOS y extensiones de Chrome como LessonScriptor. Hacen dos trabajos distintos. Las herramientas integradas muestran el texto en pantalla y luego lo descartan. LessonScriptor conserva una transcripción que puedes editar y exportar, algo clave si estudias a partir de una clase en lugar de solo seguirla. Esta guía compara las cinco opciones (auriculares, transcripción guardada, edición, exportación, idiomas y precio) y explica cómo configurar LessonScriptor como un «Live Transcribe» en tu PC.",
+  "sections": [
+    {
+      "id": "is-there-live-transcribe-for-pc",
+      "heading": "¿Existe Live Transcribe (Transcripción instantánea) para PC o Chrome?",
+      "body": "No. **Transcripción instantánea y notificaciones de sonido** es una app de Android, preinstalada en los Pixel y en algunos otros dispositivos Android, y disponible en Google Play. Google nunca la ha publicado como extensión de Chrome, programa para Windows, app para Mac ni para iPhone. Las webs que ofrecen «descargar Live Transcribe para PC» suelen llevar a emuladores o apps sin relación: un riesgo de seguridad sin ninguna ventaja.\n\nLo que la gente busca de Live Transcribe en un ordenador suele ser una de dos cosas. La primera, subtitular a alguien que habla en la sala: un profesor, un compañero, un médico. Transcripción instantánea lo hace muy bien con el micrófono del móvil, en más de 80 idiomas. La segunda, subtitular un audio que ya está en el ordenador: una clase por Zoom, un vídeo de YouTube, una grabación en el Campus Virtual de la UNED o en la plataforma de la UNAM. Ese segundo uso no es para lo que se diseñó Live Transcribe, y las herramientas de escritorio lo hacen mejor porque leen directamente el audio del equipo.\n\nEl truco más sencillo sigue funcionando: poner un móvil Android con Transcripción instantánea junto al altavoz del portátil. Es gratis y sirve para salir del paso, pero te deja sin móvil, capta el ruido de la sala y el historial dura como mucho tres días."
+    },
+    {
+      "id": "what-chrome-live-caption-does",
+      "heading": "¿Qué hacen los Subtítulos automáticos de Chrome y qué no hacen?",
+      "body": "Los **Subtítulos automáticos** son la función de subtitulado integrada en Chrome. Subtitulan la voz de cualquier audio o vídeo que se reproduzca en Chrome (YouTube, pódcasts, videollamadas en el navegador, reproductores de plataformas educativas) en Windows, Mac, Linux y ChromeOS. Se activan en **Configuración > Accesibilidad > Subtítulos automáticos**. El procesamiento se hace en el dispositivo, y Google indica que el audio y los subtítulos nunca se almacenan.\n\nEsa decisión de privacidad es también su gran límite para un estudiante. Muestran un pequeño recuadro flotante con un par de líneas que desaparecen. No hay historial, ni edición, ni exportación: una frase que pasa se pierde. Además, solo subtitulan el audio de Chrome, no la app de escritorio de Zoom ni a una persona que habla en la sala. La página de ayuda de Google enumera unos 19 idiomas, entre ellos español, inglés, francés, alemán, portugués y chino simplificado, con opción de traducción.\n\nSi los Subtítulos automáticos no aparecen o dejan de funcionar, la causa suele ser un paquete de idioma sin descargar o la versión de Chrome. Nuestra guía de solución de problemas explica cómo arreglarlo.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en directo en Chrome con transcripción guardada",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "Los subtítulos de Chrome no funcionan: soluciones",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "live-transcribe-alternatives-pc",
+      "heading": "¿Cuáles son las mejores alternativas a Live Transcribe para PC?",
+      "body": "Cinco opciones cubren casi todos los casos: tres herramientas gratuitas integradas en el navegador o el sistema, y dos extensiones de Chrome.",
+      "subsections": [
+        {
+          "h3": "1. Subtítulos automáticos de Chrome (cualquier ordenador con Chrome)",
+          "body": "Es la opción más rápida porque no hay nada que instalar. Funciona con auriculares, ya que lee el audio de Chrome y no el micrófono. Es ideal para seguir un vídeo en el metro o en la biblioteca con el volumen bajo. No sirve si necesitas releer lo que se dijo, porque no guarda nada."
+        },
+        {
+          "h3": "2. Subtítulos en directo de Windows 11",
+          "body": "Los **Subtítulos en directo** (subtítulos en vivo) vienen en Windows 11 versión 22H2 y posteriores. Atajo: **Windows + Ctrl + L**. Subtitulan el audio de cualquier aplicación, incluidas las versiones de escritorio de Zoom y Microsoft Teams, y pueden incluir el micrófono de forma opcional. Por eso son lo más parecido a Live Transcribe para una conversación en persona en un portátil con Windows. Microsoft lo procesa todo en el dispositivo y no guarda los subtítulos. Los PC Copilot+ con Windows 11 24H2 también traducen. **Windows 10 no tiene Subtítulos en directo**, así que en un PC antiguo las opciones reales son los Subtítulos automáticos de Chrome o una extensión."
+        },
+        {
+          "h3": "3. Subtítulos en directo de macOS",
+          "body": "Los **Subtítulos en directo de macOS** (Live Captions) funcionan en Mac con chip de Apple (M1 o posterior). Escuchan el audio del ordenador o el micrófono para las personas presentes, con procesamiento en el dispositivo. La lista actual de Apple incluye español de España, México y Estados Unidos, además de inglés, francés, alemán, japonés, coreano, mandarín y cantonés. Los subtítulos aparecen en una ventana redimensionable de la que se puede copiar parte del texto reciente. Es una ventana de subtítulos, no una herramienta para tomar apuntes."
+        },
+        {
+          "h3": "4. LessonScriptor (extensión de Chrome)",
+          "body": "**LessonScriptor** es una extensión de Chrome que convierte lo que suena en una pestaña en una transcripción en vivo dentro del panel lateral de Chrome. A diferencia de las herramientas integradas, el texto se queda. Puedes subrayar en cinco colores, poner negritas, añadir títulos y viñetas, borrar lo que no te sirva y capturar la diapositiva dentro de la transcripción. Después exportas en .txt o .md, o copias al portapapeles. Las sesiones se guardan automáticamente en tu ordenador. Funciona en Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, Udemy, y en Zoom, Google Meet o Teams desde el navegador. Solo funciona en Chrome, no transcribe apps de escritorio y no identifica a los hablantes."
+        },
+        {
+          "h3": "5. Extensiones basadas en Web Speech",
+          "body": "Muchas extensiones gratuitas de Chrome usan la **API Web Speech** del navegador, que escucha por el micrófono. Son útiles para dictar o para captar una voz cerca del portátil. Como oyen la sala y no la pestaña, necesitan volumen y no funcionan con auriculares, y el guardado o la exportación cambian mucho de una a otra. El modo gratuito de LessonScriptor usa el mismo motor, pero añade el editor, el historial y la exportación."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Las mejores extensiones de Chrome de voz a texto",
+          "url": "/blog/best-speech-to-text-chrome-extensions"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "heading": "¿Cómo se comparan las alternativas a Live Transcribe?",
+      "body": "Esta tabla compara Transcripción instantánea de Google con las cinco opciones de escritorio en lo que decide si podrás estudiar con el resultado.",
+      "table": {
+        "headers": [
+          "Herramienta",
+          "Plataforma",
+          "Funciona con auriculares",
+          "Guarda la transcripción",
+          "Editable",
+          "Exportación",
+          "Idiomas",
+          "Precio"
+        ],
+        "rows": [
+          [
+            "Transcripción instantánea (Google)",
+            "Solo móviles Android",
+            "No aplica (micrófono del móvil)",
+            "Historial hasta 3 días",
+            "No",
+            "Copiar texto",
+            "80+",
+            "Gratis"
+          ],
+          [
+            "Subtítulos automáticos de Chrome",
+            "Chrome en Windows, Mac, Linux, ChromeOS",
+            "Sí",
+            "No",
+            "No",
+            "No",
+            "Unos 19",
+            "Gratis"
+          ],
+          [
+            "Subtítulos en directo de Windows 11",
+            "Windows 11 22H2+",
+            "Sí",
+            "No",
+            "No",
+            "No",
+            "Varios (paquetes de idioma)",
+            "Gratis"
+          ],
+          [
+            "Subtítulos en directo de macOS",
+            "Mac con chip de Apple",
+            "Sí (audio del ordenador)",
+            "Historial limitado en la ventana",
+            "No",
+            "Copiar desde la ventana",
+            "Unos 8 idiomas, sin portugués",
+            "Gratis"
+          ],
+          [
+            "LessonScriptor modo gratuito",
+            "Chrome en ordenador",
+            "No (usa el micrófono)",
+            "Sí, guardado automático",
+            "Sí",
+            ".txt, .md, portapapeles",
+            "14",
+            "0 $"
+          ],
+          [
+            "LessonScriptor modo IA",
+            "Chrome en ordenador",
+            "Sí (audio de la pestaña)",
+            "Sí, guardado automático",
+            "Sí",
+            ".txt, .md, portapapeles",
+            "14",
+            "Prueba gratis de 30 min, luego desde 5 $ por 5 horas"
+          ],
+          [
+            "Extensiones Web Speech",
+            "Chrome",
+            "Normalmente no (micrófono)",
+            "Depende",
+            "Depende",
+            "Depende",
+            "Depende",
+            "Casi siempre gratis"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "La diferencia real",
+        "body": "Todas las herramientas integradas gratuitas están pensadas para la **accesibilidad en el momento**: leer las palabras ahora y no guardar nada. Es una buena decisión de privacidad, pero ninguna genera apuntes. Si necesitas repasar antes de un examen, elige una herramienta que conserve la transcripción."
+      }
+    },
+    {
+      "id": "which-one-to-choose",
+      "heading": "¿Qué alternativa a Live Transcribe deberías usar?",
+      "body": "La elección depende de dónde viene la voz y de si necesitas guardarla.",
+      "steps": [
+        {
+          "strategy": "Alguien habla en la sala (clase presencial, tutoría, consulta)",
+          "detail": "Usa los Subtítulos en directo de Windows 11 con la opción de micrófono, los de macOS con entrada de micrófono, o Transcripción instantánea en un móvil Android. Están diseñados para voz en persona."
+        },
+        {
+          "strategy": "Solo quieres seguir un vídeo ahora",
+          "detail": "Activa los Subtítulos automáticos de Chrome: gratis, compatibles con auriculares y sin instalación."
+        },
+        {
+          "strategy": "El audio viene de una app de escritorio (Zoom o Teams instalados)",
+          "detail": "Usa los Subtítulos en directo de Windows o macOS, que leen el audio del sistema. Las herramientas de Chrome solo ven pestañas: abre la reunión en el navegador si quieres una transcripción guardada."
+        },
+        {
+          "strategy": "Necesitas apuntes de una clase o un vídeo en Chrome",
+          "detail": "Usa LessonScriptor. La transcripción se queda en el panel lateral, la editas mientras se genera y la exportas al terminar la clase."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Subtítulos de Chrome vs LessonScriptor, comparados",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "how-to-set-up-lessonscriptor",
+      "heading": "¿Cómo usar LessonScriptor como Live Transcribe en el PC?",
+      "body": "LessonScriptor funciona en cualquier PC con Windows, Mac o Chromebook que tenga Chrome. La configuración lleva unos dos minutos, y el modo gratuito no pide cuenta.",
+      "steps": [
+        {
+          "strategy": "Instala la extensión",
+          "detail": "Añade LessonScriptor desde la Chrome Web Store y fíjala en la barra de herramientas para tenerla a un clic."
+        },
+        {
+          "strategy": "Abre tu clase o vídeo",
+          "detail": "Carga la clase en una pestaña de Chrome: el Campus Virtual de la UNED, un curso de la UNAM en Moodle, una grabación de Panopto, un vídeo de YouTube, o una llamada de Zoom o Google Meet en el navegador."
+        },
+        {
+          "strategy": "Abre el panel lateral y elige el idioma",
+          "detail": "Haz clic en el icono de LessonScriptor para abrir el panel junto al vídeo y elige el idioma hablado entre los 14 disponibles."
+        },
+        {
+          "strategy": "Elige modo gratuito o modo IA",
+          "detail": "El **modo gratuito** escucha por tu micrófono: reproduce el audio por los altavoces al 80 % de volumen o más y quítate los auriculares. También transcribe tu propia voz. El **modo IA** capta directamente el audio de la pestaña, así que los auriculares funcionan y no hace falta micrófono. Los primeros 30 minutos del modo IA son gratis."
+        },
+        {
+          "strategy": "Pulsa iniciar y deja que se genere el texto",
+          "detail": "En modo gratuito, el texto aparece mientras se habla. En modo IA llega en bloques de unos 10 segundos (Normal) o 30 segundos (Óptimo, más preciso), así que hay un pequeño retraso."
+        },
+        {
+          "strategy": "Edita mientras escuchas",
+          "detail": "Subraya las frases clave, pon en negrita los conceptos, añade un título por tema y captura la pantalla cuando aparezca una diapositiva importante. Todo se guarda solo."
+        },
+        {
+          "strategy": "Exporta al acabar la clase",
+          "detail": "Exporta en .txt o .md, o copia al portapapeles y pégalo en tu app de apuntes. Si quieres un resumen, pega tú mismo el texto en ChatGPT o NotebookLM."
+        }
+      ],
+      "callout": {
+        "type": "tip",
+        "label": "¿Con auriculares en la biblioteca?",
+        "body": "El modo gratuito no oye un audio que solo suena en tus auriculares, porque escucha por el micrófono. Usa el modo IA, que lee el audio de la pestaña, o los Subtítulos automáticos de Chrome si solo quieres seguir la clase."
+      }
+    },
+    {
+      "id": "free-vs-ai-mode",
+      "heading": "¿Basta con el modo gratuito de LessonScriptor o necesito el modo IA?",
+      "body": "El modo gratuito de LessonScriptor basta para una voz clara, en una sala tranquila y con el audio por altavoces. Cuesta 0 $, sin límite mensual ni cuenta, y no se envía audio a los servidores de LessonScriptor. Sus puntos débiles vienen del micrófono: el volumen importa, los auriculares no funcionan, entra el ruido de fondo y también se transcribe tu voz.\n\nEl modo IA compensa cuando el profesor tiene un acento marcado, hay mucho vocabulario técnico o el audio es malo, o cuando necesitas auriculares. Usa transcripción con IA en la nube (modelos tipo Whisper), mucho mejor con la jerga y el ruido. Cada pestaña es independiente, así que puedes transcribir dos vídeos a la vez. Se paga con packs de pago único, sin suscripción: **5 horas por 5 $, 15 horas por 12 $ o 30 horas por 21 $**. Los créditos no caducan, se consumen por segundos y llegan por correo como clave de licencia válida en cualquier ordenador. Los precios están en dólares; Stripe muestra una estimación en euros o pesos al pagar. Si te quedas sin créditos en mitad de una clase, tienes 10 minutos de margen para terminar."
+    },
+    {
+      "id": "use-cases",
+      "heading": "¿Quién usa una extensión de Chrome de transcripción en vivo en lugar de Live Transcribe?",
+      "body": "Quienes buscan «Live Transcribe en Chrome» usan sobre todo el ordenador para algo que un móvil Android no hace bien.",
+      "subsections": [
+        {
+          "h3": "Estudiantes a distancia y en modalidad híbrida",
+          "body": "Los alumnos de la UNED en España o del SUAyED de la UNAM en México ven gran parte de sus clases como grabaciones en el Campus Virtual o en Moodle. Una transcripción guardada y buscable de una clase de 90 minutos es mucho más útil que unos subtítulos que se desvanecen."
+        },
+        {
+          "h3": "Estudiantes con TDAH o dislexia",
+          "body": "Escuchar y escribir a la vez divide la atención. Una transcripción que se escribe sola permite seguir la clase y marcar lo importante en lugar de correr detrás de los apuntes. Es el método que usa cada semana Victoria, que estudia antropología a distancia y tiene TDAH."
+        },
+        {
+          "h3": "Personas sordas o con discapacidad auditiva",
+          "body": "Transcripción instantánea es excelente en persona, y en el ordenador los subtítulos integrados de Chrome, Windows y macOS son el primer paso lógico. LessonScriptor añade una transcripción que se puede releer después, útil cuando alguien habla más rápido que el recuadro de subtítulos."
+        },
+        {
+          "h3": "Estudiantes de idiomas e intercambio",
+          "body": "Seguir una clase en otro idioma es más fácil con el texto delante, y una transcripción exportada te permite buscar vocabulario después en lugar de pausar cada minuto."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Las mejores extensiones de Chrome para subtítulos en directo",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Existe Live Transcribe (Transcripción instantánea) para PC?",
+        "answer": "No. Transcripción instantánea de Google solo está disponible en móviles y tabletas Android. En PC, las herramientas integradas más parecidas son los Subtítulos automáticos de Chrome y los Subtítulos en directo de Windows 11. Si quieres una transcripción para guardar, editar y exportar, una extensión de Chrome como LessonScriptor lo hace con todo lo que suena en una pestaña."
+      },
+      {
+        "question": "¿Puedo usar Google Live Transcribe en Chrome?",
+        "answer": "No. No hay ninguna extensión oficial de Transcripción instantánea para Chrome. Chrome tiene sus propios Subtítulos automáticos (Configuración > Accesibilidad), que subtitulan el audio de Chrome pero no guardan nada. Para una transcripción guardada, usa una extensión como LessonScriptor."
+      },
+      {
+        "question": "¿Funciona Live Transcribe en Windows?",
+        "answer": "No, Transcripción instantánea no tiene versión para Windows. Windows 11 (versión 22H2 o posterior) incluye Subtítulos en directo, que se abren con Windows + Ctrl + L, subtitulan el audio del sistema y pueden usar el micrófono de forma opcional. Windows 10 no tiene un equivalente integrado, así que la opción práctica son los Subtítulos automáticos de Chrome o una extensión."
+      },
+      {
+        "question": "¿Los Subtítulos automáticos de Chrome guardan la transcripción?",
+        "answer": "No. Procesan el audio en el dispositivo y no almacenan los subtítulos, así que el texto desaparece en cuanto pasa. LessonScriptor conserva la transcripción completa en un panel lateral y la exporta en .txt o .md."
+      },
+      {
+        "question": "¿Hay alguna extensión de Chrome de transcripción en vivo que funcione con auriculares?",
+        "answer": "Sí. El modo IA de LessonScriptor capta directamente el audio de la pestaña, así que funciona con auriculares y sin micrófono. El modo gratuito de LessonScriptor y la mayoría de extensiones Web Speech escuchan por el micrófono: necesitan volumen en los altavoces y no funcionan con auriculares."
+      },
+      {
+        "question": "¿LessonScriptor es gratis?",
+        "answer": "El modo gratuito de LessonScriptor es gratis para siempre, sin cuenta ni límite mensual. El modo IA, compatible con auriculares y más preciso, incluye 30 minutos de prueba gratis y luego funciona con packs de pago único desde 5 $ por 5 horas, sin suscripción."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "En resumen",
+    "body": "Transcripción instantánea de Google es solo para Android, así que en el ordenador eliges entre subtítulos que desaparecen y una transcripción que se queda. Los Subtítulos automáticos de Chrome y los Subtítulos en directo de Windows 11 y macOS son gratis y sirven para seguir en el momento. LessonScriptor es la opción para estudiar, porque guarda una transcripción editable de cualquier clase en Chrome. El modo gratuito funciona con altavoces y el modo IA con auriculares.",
+    "internal_links": [
+      {
+        "text": "Prueba los subtítulos en directo con transcripción guardada",
+        "url": "/live-captions-chrome"
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Transcripción instantánea (Live Transcribe) en Chrome y PC: las alternativas",
+      "description": "Transcripción instantánea de Google solo existe en Android. Compara 5 vías para transcribir en directo en Chrome, Windows o Mac y guardar el texto de clase.",
+      "inLanguage": "es",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/es/blog/transcripcion-instantanea-chrome-pc"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com/en",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Existe Live Transcribe (Transcripción instantánea) para PC?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Transcripción instantánea de Google solo está disponible en móviles y tabletas Android. En PC, las herramientas integradas más parecidas son los Subtítulos automáticos de Chrome y los Subtítulos en directo de Windows 11. Si quieres una transcripción para guardar, editar y exportar, una extensión de Chrome como LessonScriptor lo hace con todo lo que suena en una pestaña."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo usar Google Live Transcribe en Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. No hay ninguna extensión oficial de Transcripción instantánea para Chrome. Chrome tiene sus propios Subtítulos automáticos (Configuración > Accesibilidad), que subtitulan el audio de Chrome pero no guardan nada. Para una transcripción guardada, usa una extensión como LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Funciona Live Transcribe en Windows?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, Transcripción instantánea no tiene versión para Windows. Windows 11 (versión 22H2 o posterior) incluye Subtítulos en directo, que se abren con Windows + Ctrl + L, subtitulan el audio del sistema y pueden usar el micrófono de forma opcional. Windows 10 no tiene un equivalente integrado, así que la opción práctica son los Subtítulos automáticos de Chrome o una extensión."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Los Subtítulos automáticos de Chrome guardan la transcripción?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Procesan el audio en el dispositivo y no almacenan los subtítulos, así que el texto desaparece en cuanto pasa. LessonScriptor conserva la transcripción completa en un panel lateral y la exporta en .txt o .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Hay alguna extensión de Chrome de transcripción en vivo que funcione con auriculares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El modo IA de LessonScriptor capta directamente el audio de la pestaña, así que funciona con auriculares y sin micrófono. El modo gratuito de LessonScriptor y la mayoría de extensiones Web Speech escuchan por el micrófono: necesitan volumen en los altavoces y no funcionan con auriculares."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿LessonScriptor es gratis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El modo gratuito de LessonScriptor es gratis para siempre, sin cuenta ni límite mensual. El modo IA, compatible con auriculares y más preciso, incluye 30 minutos de prueba gratis y luego funciona con packs de pago único desde 5 $ por 5 horas, sin suscripción."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "¿Cómo usar LessonScriptor como Live Transcribe en el PC?",
+      "description": "LessonScriptor funciona en cualquier PC con Windows, Mac o Chromebook que tenga Chrome. La configuración lleva unos dos minutos, y el modo gratuito no pide cuenta.",
+      "inLanguage": "es",
+      "totalTime": "PT2M",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "LessonScriptor"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instala la extensión",
+          "text": "Añade LessonScriptor desde la Chrome Web Store y fíjala en la barra de herramientas para tenerla a un clic."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abre tu clase o vídeo",
+          "text": "Carga la clase en una pestaña de Chrome: el Campus Virtual de la UNED, un curso de la UNAM en Moodle, una grabación de Panopto, un vídeo de YouTube, o una llamada de Zoom o Google Meet en el navegador."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Abre el panel lateral y elige el idioma",
+          "text": "Haz clic en el icono de LessonScriptor para abrir el panel junto al vídeo y elige el idioma hablado entre los 14 disponibles."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Elige modo gratuito o modo IA",
+          "text": "El modo gratuito escucha por tu micrófono: reproduce el audio por los altavoces al 80 % de volumen o más y quítate los auriculares. También transcribe tu propia voz. El modo IA capta directamente el audio de la pestaña, así que los auriculares funcionan y no hace falta micrófono. Los primeros 30 minutos del modo IA son gratis."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Pulsa iniciar y deja que se genere el texto",
+          "text": "En modo gratuito, el texto aparece mientras se habla. En modo IA llega en bloques de unos 10 segundos (Normal) o 30 segundos (Óptimo, más preciso), así que hay un pequeño retraso."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Edita mientras escuchas",
+          "text": "Subraya las frases clave, pon en negrita los conceptos, añade un título por tema y captura la pantalla cuando aparezca una diapositiva importante. Todo se guarda solo."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Exporta al acabar la clase",
+          "text": "Exporta en .txt o .md, o copia al portapapeles y pégalo en tu app de apuntes. Si quieres un resumen, pega tú mismo el texto en ChatGPT o NotebookLM."
+        }
+      ]
+    }
+  ]
+}

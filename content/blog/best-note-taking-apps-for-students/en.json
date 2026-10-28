@@ -1,0 +1,573 @@
+{
+  "slug": "best-note-taking-apps-for-students",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "The Best Note-Taking Apps for Students in 2026, Rated for Lectures",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Best Note-Taking Apps for Students, Rated for Lectures",
+    "description": "The best note-taking apps for students in 2026, grouped by how they capture a lecture: typing, handwriting or auto-transcript. Free tiers, prices, ADHD fit.",
+    "keywords": [
+      "best note taking apps for students",
+      "best apps for note taking",
+      "best free note taking app for students",
+      "note taking app for lectures",
+      "best note taking app for college"
+    ],
+    "canonical": "https://lessonscriptor.com/en/blog/best-note-taking-apps-for-students",
+    "og_title": "The Best Note-Taking Apps for Students in 2026, Rated for Lectures",
+    "og_description": "Notion, OneNote, Obsidian, Google Docs, Goodnotes, Notability, LessonScriptor, Otter and Notion AI Meeting Notes, rated on one job: capturing a 90-minute lecture.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria and Pierre build LessonScriptor, a Chrome extension for live lecture transcription. Victoria studies anthropology online and has ADHD. Pierre handles development and SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Key takeaways",
+    "lead": "The best note-taking app for a student depends on how the lecture reaches you: typed, handwritten or transcribed. Most students end up with a two-app stack: one app to capture, one to organize.",
+    "bullets": [
+      "Best free typing app: **Microsoft OneNote**. It costs nothing, runs everywhere, and many universities already include it in Microsoft 365 Education.",
+      "Best for organizing a semester: **Notion**. Its Plus plan is free for students with a school email.",
+      "Best handwriting apps: **Goodnotes** for annotating slides, **Notability** for handwriting synced to audio in in-person lectures.",
+      "Best for online and recorded lectures: **LessonScriptor**. It transcribes whatever plays in a Chrome tab (Moodle, Canvas, Panopto, YouTube, Zoom in the browser) into an editable transcript.",
+      "Best for in-person lectures on a phone: **Otter**. But the free plan stops each recording at 30 minutes."
+    ]
+  },
+  "stats": [
+    {
+      "number": "9",
+      "label": "apps compared across typing, handwriting and auto-transcript"
+    },
+    {
+      "number": "30 min",
+      "label": "per-recording cap on Otter's free Basic plan"
+    },
+    {
+      "number": "$0",
+      "label": "price of OneNote, Obsidian and Google Docs for note-taking"
+    }
+  ],
+  "intro": "The best note-taking app for students is the one that matches how a lecture reaches you. Microsoft OneNote is the best free typing app. Notion is the best for organizing a whole semester. Goodnotes and Notability lead for handwriting on an iPad. LessonScriptor is the best option for online and recorded lectures, because it turns any lecture playing in Chrome into a live, editable transcript.\n\nMost roundups, Goodnotes' own list of 15 free apps included, rate note-taking apps as general-purpose tools. As a list of the best apps for note taking, this guide rates nine of them on one job: getting a 60 to 90 minute lecture into notes you can actually study from. That job splits into three capture methods (typing, handwriting and automatic transcription), and the right app changes with each one.",
+  "sections": [
+    {
+      "id": "best-app-overall",
+      "heading": "What is the best note-taking app for students in 2026?",
+      "body": "The best note-taking app for students in 2026 is not a single app. It is a pairing of a capture app with an organizing app. No tool on this list does both jobs well during a live lecture. Notion organizes beautifully but slows you down mid-sentence. Goodnotes captures handwriting fast but makes a poor semester-long database.\n\nHere are the short answers by situation:\n\n**You type in class and want it free:** Microsoft OneNote. It works on Windows, Mac, iOS, Android and the web, and students with a school email get it as part of Microsoft 365 Education.\n\n**You want one hub for every course:** Notion. Its Plus plan is free for students and educators with a school email address.\n\n**You write by hand on an iPad:** Goodnotes for slide annotation, Notability if you want audio synced to your handwriting.\n\n**Your lectures are online or recorded:** LessonScriptor captures the lecture as a live transcript in Chrome, so you listen instead of racing to type.\n\n**Your lectures are in person and you only have a phone:** Otter records and transcribes the room. Budget for Pro if lectures run past 30 minutes."
+    },
+    {
+      "id": "how-we-rated",
+      "heading": "How did we rate note-taking apps for lectures?",
+      "body": "We rated each app on five criteria that matter in a lecture hall or a Moodle video, rather than on feature count.\n\n**1. Capture speed.** Can you get words down at the pace a lecturer speaks, which averages roughly 120 to 150 words per minute? Typing apps win here for fast typists. Handwriting is slower. Transcription takes the speed problem off your plate.\n\n**2. Lecture source.** Does the app work for an in-person lecture, a live Zoom or Teams class, and a recorded Panopto or YouTube video? Few apps handle all three.\n\n**3. Free-tier limits that bite mid-semester.** A free plan capped at 3 files (Goodnotes) or 5 notes (Notability) runs out in the first week of term. A 30-minute recording cap (Otter Basic) splits a 90-minute lecture into three pieces.\n\n**4. Platforms.** Notability only added Android in August 2026. LessonScriptor runs only in Chrome on desktop. The app has to live where you study.\n\n**5. ADHD fit.** We scored each app out of 10 on friction, distraction risk and how well it supports review later. Victoria, who studies anthropology online and has ADHD, weighted this one."
+    },
+    {
+      "id": "typing-apps",
+      "heading": "Which apps are best for typing lecture notes?",
+      "body": "Typing apps are the best choice for students who type faster than they write and whose lectures follow slides or a clear outline. All four apps below are free to start, and three of them stay free for typical student use."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Microsoft OneNote",
+      "tagline": "Free digital binder, often already paid for by your university",
+      "url": "https://www.onenote.com",
+      "platform": "Windows, Mac, iOS, Android, web",
+      "free_tier": "Free with a Microsoft account (5 GB OneDrive)",
+      "price": "$0; included in Microsoft 365 Education with a school email",
+      "best_for": "Students whose university already provides Microsoft 365",
+      "adhd_fit": 7,
+      "why_it_wins": "**Lecture fit:** high. OneNote's free-form pages let you type anywhere, drop in a slide, and switch to pen ink on a touchscreen laptop or iPad without changing apps. The notebook, section and page structure maps cleanly onto course, week and lecture.\n\n**ADHD fit:** good. Everything is in one binder, and the familiar Office look leaves little to configure, which removes the setup-procrastination trap of more flexible tools.",
+      "key_features": [
+        "Notebook, section and page hierarchy that mirrors a semester",
+        "Typed text, ink and images on the same page",
+        "Microsoft 365 Education is free for eligible students with a valid school email"
+      ],
+      "limitations": "Free-form pages turn messy without a structure. Feature parity varies between the Windows, Mac and web versions."
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Notion",
+      "tagline": "The semester hub: courses, deadlines and notes in one workspace",
+      "url": "https://www.notion.com",
+      "platform": "Web, Windows, Mac, iOS, Android",
+      "free_tier": "Free plan; Plus plan free for students with a school email",
+      "price": "Plus about $10/month (free for students); Business about $20/month",
+      "best_for": "Organizing a whole semester: course pages, reading lists, deadline databases",
+      "adhd_fit": 6,
+      "why_it_wins": "**Lecture fit:** medium. Markdown shortcuts and toggles make typing fast, but Notion's blocks tempt you to format during the lecture instead of listening. It shines after class, when you turn raw notes into a course hub.\n\n**ADHD fit:** mixed. Once set up, Notion is a strong external brain. The setup itself is a well-known procrastination trap, so start from a ready-made student template.",
+      "key_features": [
+        "Plus plan free for students and educators with a school email",
+        "Databases for deadlines, readings and exam dates",
+        "Thousands of free student templates"
+      ],
+      "limitations": "No real handwriting. AI Meeting Notes requires the Business plan. Large pages can feel slow."
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "Obsidian",
+      "tagline": "Local Markdown notes that link ideas across courses",
+      "url": "https://obsidian.md",
+      "platform": "Windows, Mac, Linux, iOS, Android",
+      "free_tier": "Core app free without limits, no sign-up",
+      "price": "$0; optional Sync from $4/month (40% student discount)",
+      "best_for": "Fast typists who want to link concepts across modules and keep files offline",
+      "adhd_fit": 5,
+      "why_it_wins": "**Lecture fit:** high for fast typists. Obsidian opens instantly, works offline, and stores every note as a plain Markdown file on your own disk. Backlinks connect a concept from Week 2 to the exam topic in Week 10.\n\n**ADHD fit:** low to medium. The plugin ecosystem is a rabbit hole, and the blank vault gives no structure. It suits students who enjoy building their own system.",
+      "key_features": [
+        "Plain Markdown files you own, readable by any editor",
+        "Backlinks and graph view across all your courses",
+        "Students get 40% off Sync and Publish"
+      ],
+      "limitations": "Syncing between devices costs money or requires your own setup. No built-in handwriting or audio capture."
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Google Docs",
+      "tagline": "The simplest option for shared and group notes",
+      "url": "https://docs.google.com",
+      "platform": "Web, iOS, Android",
+      "free_tier": "Free with a Google account (15 GB shared storage)",
+      "price": "$0",
+      "best_for": "Group projects and shared class notes",
+      "adhd_fit": 6,
+      "why_it_wins": "**Lecture fit:** good. Docs is a blank page with no learning curve, and classmates can co-write the same notes live. Voice typing in Chrome uses your microphone for dictation, which captures your own voice reliably but not a lecturer through speakers.\n\n**ADHD fit:** medium. Low friction to start, but one long scrolling document per course gets hard to review by midterms.",
+      "key_features": [
+        "Real-time co-editing with classmates",
+        "Comments and suggestions for peer review",
+        "Works in any browser with no install"
+      ],
+      "limitations": "Linear documents organize poorly across a semester. Offline use needs to be enabled in advance."
+    },
+    {
+      "id": "handwriting-apps",
+      "heading": "Which apps are best for handwritten lecture notes?",
+      "body": "Handwriting apps are the best choice for STEM students who need equations and diagrams, and for anyone who remembers better by writing. Writing by hand is slower than typing, which forces you to summarize, a trade-off the research on note-taking method covers in depth. Both apps below work best on an iPad with an Apple Pencil."
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Goodnotes",
+      "tagline": "Write directly on the lecture slides",
+      "url": "https://www.goodnotes.com",
+      "platform": "iPad, iPhone, Mac, Android, Windows, web",
+      "free_tier": "Up to 3 files and 20 minutes of audio recording",
+      "price": "Essential $11.99/year, Pro $35.99/year; one-time Special Edition on Apple devices in some regions",
+      "best_for": "Annotating lecture slide PDFs during in-person classes",
+      "adhd_fit": 7,
+      "why_it_wins": "**Lecture fit:** high for slide-based lectures. Import the lecturer's PDF before class, then write on the slides as they appear. Handwriting search makes old notes findable.\n\n**ADHD fit:** good. Writing on the slides keeps your attention anchored to what is on screen, and the free plan's audio recording lets you replay a part you missed.",
+      "key_features": [
+        "PDF import and annotation for lecture slides",
+        "Audio recording alongside notes (20 minutes on the free plan)",
+        "Available on Apple, Android and Windows devices"
+      ],
+      "limitations": "The 3-file free limit runs out in the first week of term. The experience is built around a tablet and stylus."
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "Notability",
+      "tagline": "Handwriting synced to the lecture audio",
+      "url": "https://notability.com",
+      "platform": "iPad, iPhone, Mac, Android (since August 2026), web",
+      "free_tier": "Starter plan with 5 notes",
+      "price": "Lite $11.99/year, Plus $15.99/year (limited transcription), Pro $79.99/year (unlimited live transcription)",
+      "best_for": "In-person lectures where you want handwriting plus a recording",
+      "adhd_fit": 8,
+      "why_it_wins": "**Lecture fit:** high for in-person lectures. Notability records audio while you write, and tapping a word in your notes replays what the lecturer said at that moment. That makes gaps in your notes recoverable instead of permanent.\n\n**ADHD fit:** strong. Audio sync is a safety net for the moments your attention drifts, which lowers the anxiety of missing something.",
+      "key_features": [
+        "Audio recording synced to handwriting",
+        "Live audio transcription on paid plans (limited on Plus, unlimited on Pro)",
+        "Android app launched in August 2026"
+      ],
+      "limitations": "Only 5 notes on the free plan. No Windows app. Unlimited transcription needs the $79.99/year Pro tier."
+    },
+    {
+      "id": "auto-transcript-apps",
+      "heading": "Which note-taking apps transcribe a lecture automatically?",
+      "body": "Auto-transcript apps are the best choice when you cannot type or write fast enough, when the lecturer speaks quickly or with a strong accent, or when ADHD makes simultaneous listening and writing hard. The transcript becomes your raw material, and you study from an edited version of it.\n\nThe three options below capture lectures in different ways: from a Chrome tab, from a phone microphone, or from your computer's system audio. We keep this section short on purpose. Our full comparison of AI note takers, including Fireflies and Notta, covers accuracy, languages and pricing in depth.",
+      "internal_links": [
+        {
+          "text": "Compare AI note takers for lectures",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "LessonScriptor",
+      "tagline": "Live transcript of any lecture playing in Chrome",
+      "url": "https://lessonscriptor.com",
+      "platform": "Chrome extension on desktop (Chrome/Chromium only)",
+      "free_tier": "Free mode forever, no account; 30-minute free trial of AI mode",
+      "price": "AI packs one-time: 5h $5, 15h $12, 30h $21; credits never expire",
+      "best_for": "Online and recorded lectures: Moodle, Canvas, Blackboard, Panopto, YouTube, Coursera, Zoom or Teams in the browser",
+      "adhd_fit": 9,
+      "why_it_wins": "**Lecture fit:** high for online and recorded lectures, none for in-person ones. LessonScriptor writes a live transcript in Chrome's side panel while the video plays. You can highlight in 5 colors, add headers, capture a slide as a screenshot into the transcript, then export to .md or .txt.\n\n**ADHD fit:** strong. You listen instead of racing to type, and the transcript is already editable, so review starts from complete notes rather than fragments.",
+      "key_features": [
+        "Free mode uses Chrome's built-in speech recognition through your microphone: no account, but speakers must be on (no headphones)",
+        "AI mode captures tab audio directly, works with headphones, and handles accents and jargon better",
+        "14 languages; session history saved automatically on your computer"
+      ],
+      "limitations": "Desktop Chrome only, so no in-person lectures and no mobile app. No AI summaries and no audio recording: it saves the text, not the sound."
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Otter",
+      "tagline": "Phone-based transcription for in-person lectures",
+      "url": "https://otter.ai",
+      "platform": "Web, iOS, Android",
+      "free_tier": "300 minutes/month, 30 minutes per recording, 3 lifetime file imports",
+      "price": "Pro $16.99/month or $8.33/month billed yearly; 20% student discount with a .edu email",
+      "best_for": "In-person lectures recorded on a phone",
+      "adhd_fit": 7,
+      "why_it_wins": "**Lecture fit:** good for in-person lectures, weaker for online ones. Put a phone on the desk and Otter transcribes the room. The free plan's 30-minute cap splits a 90-minute lecture into three recordings. Pro raises it to 90 minutes.\n\n**ADHD fit:** good. Recording is one tap, and searchable transcripts make review easier.",
+      "key_features": [
+        "Records and transcribes from a phone microphone",
+        "Joins Zoom, Meet and Teams calls as a meeting assistant",
+        "Searchable transcripts across recordings"
+      ],
+      "limitations": "Monthly subscription. Built for meetings first, so recorded lecture videos need file imports, which are capped on the free and Pro plans."
+    },
+    {
+      "type": "app_card",
+      "rank": 9,
+      "app_name": "Notion AI Meeting Notes",
+      "tagline": "Transcripts inside your Notion workspace, with no bot",
+      "url": "https://www.notion.com",
+      "platform": "Notion desktop app for Mac and Windows (system audio); web and mobile use the microphone only",
+      "free_tier": "Limited trial on the Free and Plus plans, including the free student Plus plan",
+      "price": "Requires Business, about $20/member/month billed yearly",
+      "best_for": "Students who already live in Notion and have Business access",
+      "adhd_fit": 6,
+      "why_it_wins": "**Lecture fit:** medium. The Notion desktop app records your microphone and system audio without a bot joining the call, so it can capture an online class. The transcript and summary land directly in a Notion page, next to the rest of your course notes.\n\n**ADHD fit:** medium. Having everything in one workspace helps, but the free student plan only includes a trial, and the full feature costs more than most students will pay.",
+      "key_features": [
+        "No bot in the call: system audio capture on the desktop app",
+        "Transcript and summary saved into a Notion page",
+        "Upload of audio files (AAC, M4A, MP3, WAV) on supported plans"
+      ],
+      "limitations": "Built for meetings, priced for teams. Browser and mobile versions cannot capture audio from another app on the same device."
+    },
+    {
+      "id": "comparison-table",
+      "heading": "How do the best note-taking apps for students compare?",
+      "body": "This table compares all nine apps on what decides lecture use: capture method, free tier, starting price, platforms and fit. Prices are in USD, based on each vendor's pricing page in October 2026 (Notion converted from its EUR listing). LessonScriptor checks out with Stripe, which shows an estimate in your local currency.",
+      "table": {
+        "headers": [
+          "App",
+          "Capture",
+          "Free tier",
+          "Paid from",
+          "Platforms",
+          "Lecture fit",
+          "ADHD fit"
+        ],
+        "rows": [
+          [
+            "OneNote",
+            "Typing + ink",
+            "Full app free",
+            "$0 (Microsoft 365 Education)",
+            "All major + web",
+            "High",
+            "7/10"
+          ],
+          [
+            "Notion",
+            "Typing",
+            "Free; Plus free for students",
+            "~$10/mo",
+            "All major + web",
+            "Medium",
+            "6/10"
+          ],
+          [
+            "Obsidian",
+            "Typing",
+            "Full app free",
+            "Sync $4/mo",
+            "Desktop + mobile",
+            "High (fast typists)",
+            "5/10"
+          ],
+          [
+            "Google Docs",
+            "Typing",
+            "Free, 15 GB",
+            "$0",
+            "Web + mobile",
+            "Good",
+            "6/10"
+          ],
+          [
+            "Goodnotes",
+            "Handwriting",
+            "3 files, 20 min audio",
+            "$11.99/yr",
+            "Apple, Android, Windows, web",
+            "High (slides)",
+            "7/10"
+          ],
+          [
+            "Notability",
+            "Handwriting + audio",
+            "5 notes",
+            "$11.99/yr",
+            "Apple, Android, web",
+            "High (in person)",
+            "8/10"
+          ],
+          [
+            "LessonScriptor",
+            "Auto-transcript (Chrome tab)",
+            "Free mode, no cap",
+            "$5 one-time (5h AI)",
+            "Desktop Chrome",
+            "High (online/recorded)",
+            "9/10"
+          ],
+          [
+            "Otter",
+            "Auto-transcript (phone mic)",
+            "300 min/mo, 30 min each",
+            "$8.33/mo yearly",
+            "Web, iOS, Android",
+            "Good (in person)",
+            "7/10"
+          ],
+          [
+            "Notion AI Meeting Notes",
+            "Auto-transcript (system audio)",
+            "Limited trial",
+            "~$20/mo (Business)",
+            "Notion desktop app",
+            "Medium",
+            "6/10"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "best-free-app",
+      "heading": "What is the best free note-taking app for students?",
+      "body": "The best free note-taking app for students is Microsoft OneNote, because its free version has no note limit and runs on every major platform. Obsidian is the best free option for students who want local files and offline speed. Google Docs is the best free option for group notes.\n\nThe free tiers to watch are the handwriting apps. Goodnotes caps free users at 3 files and Notability at 5 notes, which is enough to test them but not enough for a semester. Among transcription tools, LessonScriptor's free mode has no monthly cap. Otter's free plan gives 300 minutes a month, which covers about three 90-minute lectures once you split each one into 30-minute recordings."
+    },
+    {
+      "id": "best-stack",
+      "heading": "Which note-taking app stack works best for lectures?",
+      "body": "The most effective setup is a two-step stack: capture with one app, organize with another. Trying to capture and organize in the same app during a live lecture is where most students fall behind. Pick the stack that matches where your lectures happen."
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "Stack 1: online and recorded lectures (Moodle, Canvas, Panopto, YouTube, Zoom in the browser)",
+      "layers": [
+        {
+          "layer": "Capture",
+          "app": "LessonScriptor",
+          "why": "Live transcript in Chrome's side panel while the lecture plays. Screenshot key slides into the transcript.",
+          "effort": "2 minutes to install"
+        },
+        {
+          "layer": "Condense",
+          "app": "OneNote or Notion",
+          "why": "Paste the exported .md transcript, keep the highlighted parts, and rewrite them in your own words in a Cornell layout.",
+          "effort": "15-20 minutes per lecture"
+        },
+        {
+          "layer": "Organize",
+          "app": "Notion (free student Plus) or Obsidian",
+          "why": "One page per course, linked to deadlines and readings.",
+          "effort": "1 hour once per semester"
+        }
+      ],
+      "total_cost": "$0, or $5-21 one-time for AI mode accuracy",
+      "time_setup": "About 1 hour"
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "Stack 2: in-person lectures",
+      "layers": [
+        {
+          "layer": "Capture",
+          "app": "Notability or Goodnotes on an iPad",
+          "why": "Handwrite on the slides. Notability syncs the audio to your notes.",
+          "effort": "5 minutes before each class to import slides"
+        },
+        {
+          "layer": "Backup",
+          "app": "Otter on your phone",
+          "why": "A searchable transcript of the room, if your lecturer allows recording.",
+          "effort": "One tap"
+        },
+        {
+          "layer": "Organize",
+          "app": "OneNote or Notion",
+          "why": "Export your handwritten pages as PDF into a course notebook.",
+          "effort": "10 minutes per week"
+        }
+      ],
+      "total_cost": "$0-36 per year, plus Otter Pro if lectures exceed 30 minutes",
+      "time_setup": "About 30 minutes"
+    },
+    {
+      "id": "adhd-students",
+      "heading": "Which note-taking app is best for students with ADHD?",
+      "body": "The best note-taking setup for students with ADHD separates listening from writing. Apps that record or transcribe the lecture, such as LessonScriptor for online lectures and Notability or Otter for in-person ones, remove the need to hold a sentence in working memory while writing the previous one.\n\nThe organizing app matters less than its friction. OneNote and Goodnotes score well because they work out of the box. Notion and Obsidian score lower, not because they are worse, but because their flexibility invites hours of setup instead of studying. Our guide to AI note takers for ADHD goes deeper on transcription tools specifically.",
+      "internal_links": [
+        {
+          "text": "Best AI note taker for ADHD students",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
+      ]
+    },
+    {
+      "id": "method-vs-app",
+      "heading": "Does the note-taking method matter more than the app?",
+      "body": "The note-taking method matters more than the app. The same lecture captured in OneNote or Goodnotes produces equally weak notes if you transcribe word for word and never review. Methods like the Cornell system, outlining and mapping force you to process the material, and they work in any app on this list.\n\nA practical rule: choose the app by how the lecture reaches you, then choose the method by the subject. Cornell suits concept-heavy courses like history or biology. Outlining suits structured lectures that follow slides. If you capture a full transcript, use it as raw material and condense it into a Cornell page within 24 hours.",
+      "internal_links": [
+        {
+          "text": "Note-taking methods compared",
+          "url": "/blog/note-taking-methods"
+        },
+        {
+          "text": "Free Cornell notes template",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "Summary: the best note-taking apps for students",
+    "body": "For typing, OneNote is the best free app and Notion the best semester hub. For handwriting, Goodnotes leads on slides and Notability on audio sync. For online and recorded lectures, LessonScriptor turns whatever plays in Chrome into an editable transcript, while Otter covers in-person lectures from a phone. Capture with one app, organize with another, and condense your notes with a proven method.",
+    "internal_links": [
+      {
+        "text": "See how lecture transcription works",
+        "url": "/lecture-transcription"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "questions": [
+      {
+        "question": "What is the best note-taking app for college students?",
+        "answer": "The best note-taking app for college students is Microsoft OneNote for typed notes, because it is free and often included in your university's Microsoft 365 license. Goodnotes or Notability are better if you handwrite on an iPad, and LessonScriptor is best for online and recorded lectures in Chrome."
+      },
+      {
+        "question": "What is the best free note-taking app for students?",
+        "answer": "Microsoft OneNote is the best free note-taking app for students, with no note limit and apps for Windows, Mac, iOS, Android and the web. Obsidian is a strong free alternative for offline, local notes, and Notion's Plus plan is free with a school email."
+      },
+      {
+        "question": "Is Notion or OneNote better for lecture notes?",
+        "answer": "OneNote is better for capturing notes during a lecture, because its free-form pages are fast and support ink. Notion is better for organizing a semester afterwards, with databases for courses, readings and deadlines. Many students use OneNote to capture and Notion to organize."
+      },
+      {
+        "question": "Is Goodnotes or Notability better for students?",
+        "answer": "Goodnotes is better for annotating lecture slides and runs on more platforms, including Windows. Notability is better for in-person lectures, because it syncs an audio recording to your handwriting. Both free plans are limited: 3 files for Goodnotes and 5 notes for Notability."
+      },
+      {
+        "question": "Which note-taking app can transcribe lectures automatically?",
+        "answer": "LessonScriptor transcribes online and recorded lectures playing in Chrome, with a free mode and one-time AI packs. Otter transcribes in-person lectures from a phone, capped at 30 minutes per recording on the free plan. Notability Pro and Notion AI Meeting Notes on the Business plan also transcribe."
+      },
+      {
+        "question": "What is the best note-taking app for students with ADHD?",
+        "answer": "The best note-taking app for students with ADHD is one that captures the lecture for you, so you can listen instead of writing. LessonScriptor fits online lectures, and Notability or Otter fit in-person ones. Pair it with a low-setup organizer like OneNote."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "The Best Note-Taking Apps for Students in 2026, Rated for Lectures",
+      "description": "The best note-taking apps for students in 2026, grouped by how they capture a lecture: typing, handwriting or auto-transcript. Free tiers, prices, ADHD fit.",
+      "inLanguage": "en",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/en/blog/best-note-taking-apps-for-students",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "en",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best note-taking app for college students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best note-taking app for college students is Microsoft OneNote for typed notes, because it is free and often included in your university's Microsoft 365 license. Goodnotes or Notability are better if you handwrite on an iPad, and LessonScriptor is best for online and recorded lectures in Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best free note-taking app for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft OneNote is the best free note-taking app for students, with no note limit and apps for Windows, Mac, iOS, Android and the web. Obsidian is a strong free alternative for offline, local notes, and Notion's Plus plan is free with a school email."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Notion or OneNote better for lecture notes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OneNote is better for capturing notes during a lecture, because its free-form pages are fast and support ink. Notion is better for organizing a semester afterwards, with databases for courses, readings and deadlines. Many students use OneNote to capture and Notion to organize."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Goodnotes or Notability better for students?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Goodnotes is better for annotating lecture slides and runs on more platforms, including Windows. Notability is better for in-person lectures, because it syncs an audio recording to your handwriting. Both free plans are limited: 3 files for Goodnotes and 5 notes for Notability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which note-taking app can transcribe lectures automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor transcribes online and recorded lectures playing in Chrome, with a free mode and one-time AI packs. Otter transcribes in-person lectures from a phone, capped at 30 minutes per recording on the free plan. Notability Pro and Notion AI Meeting Notes on the Business plan also transcribe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best note-taking app for students with ADHD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The best note-taking app for students with ADHD is one that captures the lecture for you, so you can listen instead of writing. LessonScriptor fits online lectures, and Notability or Otter fit in-person ones. Pair it with a low-setup organizer like OneNote."
+          }
+        }
+      ]
+    }
+  ]
+}

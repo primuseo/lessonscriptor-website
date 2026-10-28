@@ -1,0 +1,316 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Cómo poner subtítulos a grabaciones de Zoom, Meet y Teams en Chrome (2026)",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Subtítulos para grabaciones de Zoom, Meet y Teams",
+    "description": "Pon subtítulos a una grabación de Zoom, Google Meet o Teams en Chrome, aunque no tenga transcripción, y guarda un texto editable de tu clase grabada.",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "og_title": "Subtítulos para grabaciones de Zoom, Google Meet y Teams en Chrome",
+    "og_description": "Subtítulos para tus clases grabadas en Chrome, incluso cuando el profesor no activó la transcripción.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Navegador Chrome con una clase grabada y el panel de transcripción de LessonScriptor abierto",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria y Pierre crean LessonScriptor, una extensión de Chrome para transcribir vídeo en directo. Victoria estudia antropología a distancia y tiene TDAH. Pierre se encarga del desarrollo y el SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Lo esencial",
+    "lead": "LessonScriptor añade una transcripción editable a cualquier clase grabada que se reproduzca en Chrome: Zoom, Google Meet (grabaciones en Google Drive) o Teams (OneDrive o SharePoint). Funciona aunque el profesor no haya activado la transcripción. Los Subtítulos automáticos de Chrome también funcionan en estos vídeos, pero el texto desaparece.",
+    "bullets": [
+      "Una grabación de Zoom, Meet o Teams reproducida en una pestaña de Chrome funciona con los Subtítulos automáticos de Chrome y con LessonScriptor.",
+      "La transcripción propia de Zoom, Meet o Teams depende del organizador: si no la activó, no existe. Es habitual en clases grabadas que comparte el profesor.",
+      "LessonScriptor funciona también en vídeos integrados en el Campus Virtual de tu universidad (Moodle, Canvas, Blackboard), no solo en zoom.us.",
+      "Un MP4 descargado se puede abrir en Chrome y transcribir mientras se reproduce.",
+      "La transcripción de LessonScriptor se corrige, se resalta y se exporta (.txt, .md); los subtítulos de Chrome no se guardan."
+    ]
+  },
+  "intro": "LessonScriptor subtitula las clases grabadas en Chrome transcribiendo el audio mientras se reproduce, en un panel lateral donde el texto se puede editar. Si estudias en España o Latinoamérica, esas grabaciones suelen venir de tres herramientas: Zoom, Google Meet, cuyas grabaciones se guardan en Google Drive, y Microsoft Teams, que las guarda en OneDrive o SharePoint. Haya activado o no el profesor la transcripción, LessonScriptor transcribe lo que suena, sin depender de un archivo generado antes. Los Subtítulos automáticos de Chrome (chrome://settings/accessibility) también subtitulan estos vídeos en una pestaña, pero solo muestran dos líneas que desaparecen. Esta guía explica cuándo usar cada opción y cubre los casos especiales: vídeos integrados en el Campus Virtual, MP4 descargados y grabaciones sin transcripción.",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "¿Funcionan los subtítulos de Chrome en grabaciones de Zoom o Meet?",
+      "body": "Sí, siempre que la grabación se reproduzca en una pestaña de Chrome. Los Subtítulos automáticos de Chrome subtitulan cualquier audio del navegador: una grabación de Zoom en zoom.us, una grabación de Meet abierta en Google Drive o una de Teams en OneDrive o SharePoint.\n\nNo funcionan en las aplicaciones de escritorio. Si el enlace abre la app de Zoom o de Teams en tu ordenador, los subtítulos de Chrome no se aplican. Abre la grabación en el navegador.\n\nLessonScriptor funciona en cualquier vídeo de una pestaña de Chrome. Eso incluye zoom.us, Google Drive, OneDrive, los vídeos integrados en Moodle, Canvas o Blackboard, y los MP4 abiertos en Chrome.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en directo en Chrome: guía completa",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "¿Qué diferencia hay entre la transcripción de Zoom y los subtítulos de Chrome?",
+      "body": "La transcripción de Zoom, Meet o Teams es un archivo de texto que la plataforma genera después de la reunión. El organizador debe haberla activado: la transcripción de audio de las grabaciones en la nube en Zoom, la transcripción de reunión en Meet o Teams, según la edición de la cuenta. Si no, no hay nada. Los idiomas disponibles también dependen de la cuenta y de la configuración de la universidad.\n\nLos subtítulos de Chrome y LessonScriptor transcriben en tiempo real mientras se reproduce el vídeo. Trabajan sobre el audio real, haya generado la plataforma una transcripción o no.\n\n**Transcripción de Zoom, Meet o Teams:** solo existe si el organizador la activó. Se ve en la plataforma, se puede descargar (VTT o TXT en Zoom) e indica quién habla.\n\n**Subtítulos automáticos de Chrome:** una burbuja de subtítulos de solo lectura durante el vídeo. Desaparece después y no se exporta. Cubre los 19 idiomas de Chrome, incluido el español.\n\n**LessonScriptor:** una transcripción en tiempo real en el panel lateral. Se corrige, se resalta en 5 colores y se exporta en .txt o .md, en 14 variantes de idioma, incluido el español, haya transcripción de la plataforma o no. LessonScriptor no identifica a los hablantes."
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "¿Cómo saco la transcripción de una grabación de Zoom, Meet o Teams en Chrome?",
+      "body": "Para transcribir una clase grabada con LessonScriptor:",
+      "steps": [
+        "Instala LessonScriptor desde la Chrome Web Store. Es gratis y no necesita cuenta.",
+        "Abre la grabación en Chrome. Puede ser el enlace de zoom.us, la grabación de Meet en Google Drive, la de Teams en OneDrive o SharePoint, el vídeo dentro del Campus Virtual o un MP4 arrastrado a una pestaña.",
+        "Haz clic en el icono de LessonScriptor en la barra de Chrome para abrir el panel lateral y elige el idioma del vídeo (Español).",
+        "Elige el modo. **Mic** es el modo gratuito: escucha por el micrófono, así que necesitas altavoces (volumen al 80 % o más), no auriculares. **Normal** u **Optimal** es el modo IA: capta el audio de la pestaña y funciona con auriculares. Optimal es el más preciso para grabaciones.",
+        "Dale a reproducir. La transcripción aparece en el panel, con unos segundos de retraso en modo IA.",
+        "Corrige la transcripción sobre la marcha: nombres de profesores, términos técnicos, palabras mal oídas. Resalta lo importante.",
+        "Al terminar, exporta en .txt o .md, o copia el texto al portapapeles para tus apuntes."
+      ],
+      "internal_links": [
+        {
+          "text": "Subtítulos de Chrome con auriculares",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "¿Funcionan los subtítulos en grabaciones integradas en el Campus Virtual (Moodle, Canvas o Blackboard)?",
+      "body": "Sí. Muchas universidades de España y Latinoamérica publican las clases grabadas dentro del aula virtual, sea Moodle, Canvas o Blackboard. Puede ser como vídeo de Zoom integrado, como enlace a Google Drive o como grabación de Teams. En todos los casos, el vídeo se reproduce dentro de la página, a menudo en un marco integrado (iframe). LessonScriptor capta el audio a nivel de pestaña, así que la integración no le afecta. El modo gratuito, por su parte, oye lo que sale por los altavoces.\n\nLos Subtítulos automáticos de Chrome también funcionan en esos vídeos integrados, con el mismo límite: el texto es de solo lectura y desaparece.\n\nSi un vídeo integrado no suena, revisa que Chrome no haya bloqueado el sonido para el dominio de tu Campus Virtual.",
+      "internal_links": [
+        {
+          "text": "Transcripciones de Zoom y Google Meet para estudiantes",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "¿Puedo poner subtítulos a un MP4 de Zoom descargado en Chrome?",
+      "body": "Sí. Si tienes una grabación de Zoom, Meet o Teams en MP4 en tu ordenador, puedes reproducirla en Chrome y transcribirla con LessonScriptor mientras suena. LessonScriptor no admite subir archivos: lo que transcribe es la reproducción en la pestaña.\n\n**Cómo hacerlo:**\n1. Arrastra el MP4 a una pestaña nueva de Chrome, o escribe **file:///** en la barra de direcciones y busca el archivo.\n2. Chrome lo reproduce en su reproductor integrado.\n3. Abre el panel de LessonScriptor y empieza a transcribir.\n\nEn modo gratuito (Mic), LessonScriptor escucha por el micrófono, así que pon el sonido por los altavoces. Con auriculares, usa el modo IA (Normal u Optimal), que capta el audio de la pestaña directamente. Incluye una prueba gratuita de 30 minutos."
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "¿Uso la transcripción de Zoom o LessonScriptor?",
+      "body": "Usa la transcripción de Zoom, Meet o Teams cuando exista y te baste con un texto plano. Indica quién habla, algo útil en reuniones con varias voces; LessonScriptor no lo hace.\n\nUsa LessonScriptor cuando no haya transcripción, algo frecuente en clases grabadas que comparte el profesor. También cuando quieras corregir y resaltar mientras ves la clase, o cuando el vídeo esté en el Campus Virtual.\n\nPara estudiar, corregir mientras ves suele ser más útil que una transcripción en bruto, sobre todo con TDAH: trabajas el contenido durante la clase en lugar de esperar un archivo. Modo gratuito o paquetes IA desde 5 USD por 5 horas (Stripe convierte a tu moneda), sin suscripción.",
+      "internal_links": [
+        {
+          "text": "Mejores extensiones de Chrome para subtítulos",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        },
+        {
+          "text": "Subtítulos de Chrome frente a LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Subtitula tus clases grabadas en Chrome — gratis",
+    "body": "LessonScriptor funciona con grabaciones de Zoom, Google Meet, Teams y cualquier vídeo de tu Campus Virtual. Corrige, resalta y exporta.",
+    "button_label": "Añadir LessonScriptor a Chrome — gratis",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Los subtítulos automáticos de Chrome funcionan en una grabación de Zoom?",
+        "answer": "Sí, si la grabación se reproduce en una pestaña de Chrome (zoom.us o un vídeo integrado en el Campus Virtual). Los Subtítulos automáticos muestran una burbuja de solo lectura que desaparece. LessonScriptor genera una transcripción editable y exportable."
+      },
+      {
+        "question": "¿Por qué mi grabación de Zoom no tiene transcripción?",
+        "answer": "Zoom solo genera la transcripción de audio de las grabaciones en la nube si el organizador activó la opción. Si tu profesor no lo hizo, no existe. LessonScriptor transcribe la grabación mientras la reproduces en Chrome."
+      },
+      {
+        "question": "¿Cómo pongo subtítulos a una grabación de Google Meet?",
+        "answer": "Abre la grabación en Google Drive desde Chrome. Si no hay transcripción de Meet, usa los Subtítulos automáticos de Chrome para verlos al momento, o LessonScriptor para una transcripción en español que puedes corregir y exportar."
+      },
+      {
+        "question": "¿LessonScriptor funciona en grabaciones del Campus Virtual?",
+        "answer": "Sí. LessonScriptor funciona con grabaciones integradas en Moodle, Canvas, Blackboard y cualquier aula virtual que reproduzca el vídeo en una pestaña de Chrome, incluidos los vídeos en iframe."
+      },
+      {
+        "question": "¿Puedo exportar la transcripción de una grabación de Zoom desde Chrome?",
+        "answer": "LessonScriptor exporta la transcripción en .txt o .md, o la copia al portapapeles, para pegarla en Notion, Google Docs, Obsidian o tu plantilla de apuntes. Los subtítulos integrados de Chrome no se pueden exportar."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Subtítulos para grabaciones de Zoom, Meet y Teams: en resumen",
+    "body": "LessonScriptor y los Subtítulos automáticos de Chrome funcionan con grabaciones reproducidas en una pestaña de Chrome: Zoom en zoom.us, Meet en Google Drive, Teams en OneDrive o SharePoint, vídeos del Campus Virtual y MP4 abiertos en el navegador. Los subtítulos de Chrome son de solo lectura y temporales. LessonScriptor genera una transcripción editable y exportable, incluso cuando la plataforma nunca creó una. Para estudiantes cuyas clases grabadas no tienen transcripción, es la forma más fiable de conservar el contenido por escrito."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Cómo poner subtítulos a grabaciones de Zoom, Meet y Teams en Chrome (2026)",
+      "description": "Pon subtítulos a una grabación de Zoom, Google Meet o Teams en Chrome, aunque no tenga transcripción, y guarda un texto editable de tu clase grabada.",
+      "inLanguage": "es",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/es/blog/subtitulos-live-grabaciones-zoom-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudiante de antropología con TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desarrollador y SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "¿Cómo saco la transcripción de una grabación de Zoom, Meet o Teams en Chrome?",
+      "inLanguage": "es",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Instala LessonScriptor desde la Chrome Web Store. Es gratis y no necesita cuenta."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Abre la grabación en Chrome. Puede ser el enlace de zoom.us, la grabación de Meet en Google Drive, la de Teams en OneDrive o SharePoint, el vídeo dentro del Campus Virtual o un MP4 arrastrado a una pestaña."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Haz clic en el icono de LessonScriptor en la barra de Chrome para abrir el panel lateral y elige el idioma del vídeo (Español)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Elige el modo. Mic es el modo gratuito: escucha por el micrófono, así que necesitas altavoces (volumen al 80 % o más), no auriculares. Normal u Optimal es el modo IA: capta el audio de la pestaña y funciona con auriculares. Optimal es el más preciso para grabaciones."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Dale a reproducir. La transcripción aparece en el panel, con unos segundos de retraso en modo IA."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Corrige la transcripción sobre la marcha: nombres de profesores, términos técnicos, palabras mal oídas. Resalta lo importante."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Al terminar, exporta en .txt o .md, o copia el texto al portapapeles para tus apuntes."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Los subtítulos automáticos de Chrome funcionan en una grabación de Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, si la grabación se reproduce en una pestaña de Chrome (zoom.us o un vídeo integrado en el Campus Virtual). Los Subtítulos automáticos muestran una burbuja de solo lectura que desaparece. LessonScriptor genera una transcripción editable y exportable."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué mi grabación de Zoom no tiene transcripción?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoom solo genera la transcripción de audio de las grabaciones en la nube si el organizador activó la opción. Si tu profesor no lo hizo, no existe. LessonScriptor transcribe la grabación mientras la reproduces en Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo pongo subtítulos a una grabación de Google Meet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abre la grabación en Google Drive desde Chrome. Si no hay transcripción de Meet, usa los Subtítulos automáticos de Chrome para verlos al momento, o LessonScriptor para una transcripción en español que puedes corregir y exportar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿LessonScriptor funciona en grabaciones del Campus Virtual?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. LessonScriptor funciona con grabaciones integradas en Moodle, Canvas, Blackboard y cualquier aula virtual que reproduzca el vídeo en una pestaña de Chrome, incluidos los vídeos en iframe."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puedo exportar la transcripción de una grabación de Zoom desde Chrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor exporta la transcripción en .txt o .md, o la copia al portapapeles, para pegarla en Notion, Google Docs, Obsidian o tu plantilla de apuntes. Los subtítulos integrados de Chrome no se pueden exportar."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://lessonscriptor.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/es/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Subtítulos para grabaciones de Zoom, Meet y Teams",
+          "item": "https://lessonscriptor.com/es/blog/subtitulos-live-grabaciones-zoom-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Soporte de Zoom — Transcripción de audio de grabaciones en la nube",
+      "href": "https://support.zoom.com/hc/es/article?id=zm_kb&sysparm_article=KB0059762",
+      "external": true
+    },
+    {
+      "text": "Ayuda de Google Chrome — Subtítulos automáticos",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=es",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

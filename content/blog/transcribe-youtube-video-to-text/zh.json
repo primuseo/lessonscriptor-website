@@ -2,309 +2,464 @@
   "slug": "transcribe-youtube-video-to-text",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "如何将 YouTube 视频转换为文字（免费，分步讲解）",
-  "reading_time_min": 7,
+  "h1": "如何把YouTube视频转成文字（即使没有字幕文稿）",
+  "reading_time_min": 9,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "如何免费将 YouTube 视频转换为文字",
-    "description": "用 LessonScriptor 免费把任何 YouTube 视频转换成文字。不需要字幕，不用上传，不用注册账号。安装、播放、几分钟内导出。",
+    "title": "没有字幕也能把YouTube视频转成文字：4种方法对比",
+    "description": "YouTube视频没有字幕文稿怎么转文字？直播、不公开视频、中文等非英语视频都适用。4种免费方法对比，附LessonScriptor分步教程，B站视频同样适用。",
     "keywords": [
-      "transcribe youtube video",
-      "youtube video transcription",
-      "transcribe youtube video to text",
-      "transcribe youtube to text"
+      "youtube视频转文字",
+      "youtube转文字",
+      "视频转文字",
+      "youtube直播转文字",
+      "youtube没有字幕",
+      "b站视频转文字"
     ],
     "og_image": null,
     "canonical": "https://lessonscriptor.com/zh/blog/youtube-shipin-zhuanwenzi",
-    "og_title": "如何免费将 YouTube 视频转换为文字",
-    "og_description": "免费把任何 YouTube 视频转换成文字。不需要字幕，不用上传，不用注册账号。",
+    "og_title": "如何把YouTube视频转成文字（即使没有字幕文稿）",
+    "og_description": "找不到“显示转写文稿”？是直播？中文视频字幕错得离谱？四种方法一次讲清。",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria 和 Pierre 一起开发 LessonScriptor，一款用于实时视频转录的 Chrome 扩展程序。Victoria 学习人类学，患有 ADHD。Pierre 负责开发和 SEO。",
-    "url": "/transcribe-video-to-text"
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
-    "label": "关键要点",
-    "lead": "YouTube 自带的转录字幕按钮，只有在上传者开启字幕后才能用。LessonScriptor 直接转录音频，所以不管视频有没有字幕，它都能用。",
+    "label": "要点速览",
+    "lead": "把YouTube视频转成文字，是你自己从音频生成文本，只有在YouTube自带的文稿缺失、出错或还没生成时才需要这么做。如果“显示转写文稿”能用，直接复制就行。",
     "bullets": [
-      "YouTube 自带的转录功能（点击「···」菜单，再点「显示转录」）只有上传者添加了字幕才会出现。自动生成的字幕时好时坏，也没法编辑或导出。",
-      "LessonScriptor 直接监听视频的音频。它完全不需要字幕存在，而这正是其他方法都绕不过去的坎。",
-      "免费模式无需注册，立即可用，使用浏览器自带的语音引擎。AI 模式是按次付费的额度包，对口音和专业术语的识别更准确。",
-      "转录内容边生成边可以编辑：高亮、加粗、添加标题，然后导出为 .md 或 .txt，或者直接复制到你的笔记应用里。"
+      "“显示转写文稿”面板只有在视频有字幕时才会出现。自动字幕会因为音质差、多人同时说话、语言不支持、视频太长而失败，或者只是还没处理完。",
+      "YouTube直播的自动实时字幕只支持英语：中文直播在播出期间通常没有任何文稿。",
+      "不依赖字幕的方法有三种：Google文档语音输入（免费但不稳定）、Otter等上传工具（需要视频文件），以及用LessonScriptor在浏览器里实时转录（Chrome里能播放的都能转）。",
+      "LessonScriptor在视频播放时于侧边栏生成可编辑文字稿，支持包括中文在内的14种语言，可导出.txt或.md。免费模式用麦克风和扬声器；AI模式直接捕获标签页音频，戴耳机也能用。"
     ]
   },
   "stats": [
     {
-      "number": "0",
-      "label": "需要的字幕数量，LessonScriptor 直接转录音频"
+      "number": "1",
+      "label": "种语言（英语）支持YouTube直播自动字幕"
+    },
+    {
+      "number": "3",
+      "label": "种在没有文稿时获取YouTube视频文字的方法"
     },
     {
       "number": "14",
-      "label": "支持的语言数量，包括法语、西班牙语、阿拉伯语和印地语"
-    },
-    {
-      "number": "2",
-      "label": "种导出格式（.txt 和 .md），另外还能复制到剪贴板"
+      "label": "种LessonScriptor支持转录的语言，包括中文、英语、法语和西班牙语"
     }
   ],
-  "intro": "把 YouTube 视频转换成文字最快的方法是 LessonScriptor，一款免费的 Chrome 扩展程序，它在视频播放时监听音频，并在侧边栏里生成可编辑的转录文本。YouTube 自带的「显示转录」按钮只有在上传者添加了字幕时才会出现，而复制粘贴自动字幕得到的只是一大段没有标点、没有格式的文字。这篇文章介绍三种把 YouTube 视频转成文字的方法，以及每种方法真正好用的场景。",
+  "intro": "把YouTube视频转成文字，是指你自己把视频里说的话转换成书面文本，适用于YouTube给不了文稿的情况：找不到“显示转写文稿”按钮、自动字幕错漏百出、视频是直播、视频是私享或不公开的，或者视频语言是字幕处理不好的语种，比如带口音、满是专业术语的中文课程。如果视频本身已经有靠谱的文稿，就没必要转录，用我们“如何下载YouTube字幕文稿”指南里的方法几秒钟就能复制出来。其他情况下，最可靠的方法是用LessonScriptor这类Chrome扩展在浏览器里实时转录：它在视频播放时同步收听，在侧边栏生成可编辑的文字稿。同样的方法也适用于B站、中国大学MOOC和学堂在线等平台的视频。本文会解释YouTube文稿为什么会缺失、自动字幕到底准不准，并对比四种方法，从免费的Google文档语音输入技巧到Otter这样的上传工具。",
   "sections": [
     {
-      "id": "three-ways",
-      "h2": "把 YouTube 视频转成文字的 3 种方法",
-      "body": "**LessonScriptor（推荐）。** 安装扩展程序，打开视频，点击录制。不管视频有没有字幕，它都会直接监听音频，并在侧边栏里生成可编辑的转录文本。\n\n**YouTube 自带的转录功能。** 点击视频下方的三个点菜单，再点「显示转录」。这个功能只有上传者开启了字幕才会出现。文字没有标点、没有分段，也没法直接编辑或高亮，你得先把它复制出来才行。\n\n**复制粘贴自动字幕。** 打开 YouTube 的自动生成字幕并复制文字，应急可以用，但你得到的是一整段没有分段的小写文字，时间戳也混在里面，遇到口音或专业词汇准确率会明显下降。"
-    },
-    {
-      "id": "how-to-steps",
-      "h2": "如何用 LessonScriptor 转录 YouTube 视频",
-      "body": "整个过程都在播放视频的同一个浏览器标签页里完成。",
-      "steps": [
-        "从 Chrome 网上应用店安装 LessonScriptor。一键安装，无需注册。",
-        "在 Chrome 标签页里打开 YouTube 视频。",
-        "点击 LessonScriptor 图标打开侧边栏，在按下播放键之前先点击录制。",
-        "按下播放键。转录文本会随着视频播放逐字生成。",
-        "直接编辑：高亮重点句子，给术语加粗，每次话题变化时添加标题。",
-        "导出为 .md 或 .txt，或者复制到剪贴板粘贴进你的笔记应用。"
+      "id": "transcribe-or-download",
+      "h2": "你需要转录视频，还是只需下载现成的文稿？",
+      "body": "下载文稿是复制YouTube已经生成好的文字；转录是从音频重新生成文字。前者只要十秒，后者只有在前者行不通时才值得做。",
+      "callout": {
+        "type": "checklist",
+        "label": "开始前先快速检查",
+        "body": "**打开视频，点击标题下方的“...更多”，再点“显示转写文稿”。**\n\n**面板出现且文字准确：**直接下载，不用转录。\n\n**没有按钮、面板是空的，或者文字错误很多：**用下面的方法转录音频。\n\n**是直播、私享或不公开视频，或者不是英语：**直接用实时转录；这些情况下YouTube自带文稿经常缺失或质量很差。"
+      },
+      "internal_links": [
+        {
+          "text": "如何下载YouTube已有的字幕文稿（3种方法）",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "id": "no-captions",
-      "h2": "如果 YouTube 视频完全没有字幕怎么办？",
-      "body": "这正是其他方法真正的短板。较早上传的视频、小众频道，以及许多非英语视频，从来就没有添加过字幕，而 YouTube 自动字幕的质量也会因音频清晰度和口音而波动很大。\n\nLessonScriptor 完全不读取字幕，它像人一样直接听视频的音频。这意味着不管视频是没有字幕、字幕损坏，还是字幕语言不对，它的效果都和处理有完整字幕的视频一样好。"
+      "id": "why-missing",
+      "h2": "为什么有些YouTube视频没有“显示转写文稿”？",
+      "body": "没有“显示转写文稿”，是因为视频没有可供YouTube显示的字幕轨。文稿面板只是字幕的另一种展示方式：没有字幕，就没有文稿。\n\nYouTube帮助中心列出了自动字幕无法生成的主要原因：\n\n**音频复杂，仍在处理中。**新上传的视频可能要过一段时间才有自动字幕，长视频尤其如此。\n\n**语言不受支持。**自动字幕覆盖100多种语言，但并非所有语言和方言都支持。\n\n**视频太长**，或**音质太差**（背景音乐盖过人声、回声大、在教室后排用手机录的）。\n\n**开头有很长的静音**，或**多人同时说话**，或说话人在多种语言之间切换。\n\n另外两个原因来自上传者而不是YouTube：上传者可以删除或取消发布自动字幕，而直播只有英语才有实时自动字幕。无论哪种情况，音频都还在，任何能“听”音频的工具都能把它变成文字。"
     },
     {
-      "id": "free-vs-ai-mode",
-      "h2": "YouTube 视频该用免费模式还是 AI 模式？",
-      "body": "免费模式使用你设备的麦克风和浏览器自带的语音引擎，完全本地运行，无需注册。当你用扬声器以适当音量播放视频时，效果就很好。如果你戴着耳机，或者说话者口音较重、用了大量专业词汇，AI 模式会直接捕捉标签页的音频而不依赖麦克风，并使用专为这些情况打造、准确率更高的云端语音模型。AI 模式是按次付费的额度包，不是订阅制，额度也不会过期。"
+      "id": "auto-captions-accuracy",
+      "h2": "YouTube自动生成的字幕准确吗？",
+      "body": "YouTube自动字幕在发音清晰、单人讲话的英语视频上表现不错，遇到口音、术语、背景音乐和非英语内容时明显变差。YouTube自己也提醒，自动字幕可能因为发音、口音、方言或背景噪音而曲解原意，并建议上传者发布前先校对。但大多数人不会校对。\n\n对学生影响最大的是人名和专业术语的错误：中文课程里的“边际效用”可能被识别成同音词，带口音的普通话错得更多，公式变成一串同音字。面板给出的还是按时间切碎的短句，几乎没有标点、没有分段：用来搜某句话还行，拿来复习很累。\n\n这正是即使有字幕也值得转录的现实理由：如果字幕在关键词上出错，用更好的模型重新处理同一段音频，能得到更干净的底稿。LessonScriptor的AI模式使用Whisper级别的云端模型，在口音、术语和噪音方面比浏览器语音识别好得多。"
     },
     {
-      "id": "comparison-table",
-      "h2": "YouTube 转录方法对比",
-      "body": "以下是这三种方法在真正重要的地方的对比：是否需要已有字幕、能不能编辑，以及你最终得到的是什么。",
+      "id": "methods-compared",
+      "h2": "把YouTube视频转成文字有哪些方法？",
+      "body": "现实可行的方法有四种。只有第一种依赖YouTube字幕，另外三种都是直接“听”音频。",
+      "subsections": [
+        {
+          "h3": "1. YouTube自带文稿（如果有的话）",
+          "body": "点击视频下方的“...更多”，再点“显示转写文稿”，关闭时间戳后复制文字。即时、免费，但质量完全取决于背后的字幕。如果文稿存在且准确，就用它，不用往下看了。"
+        },
+        {
+          "h3": "2. Google文档语音输入技巧",
+          "body": "做法是打开一个Google文档，启动**工具 > 语音输入**，然后用扬声器大声播放YouTube视频，让麦克风“听到”。免费，无需安装。但很不稳定：文档语音输入是为口述设计的，不是为转录设计的，点到文档外面或者停顿一下它就容易停止，需要安静的环境，标点语音指令也只支持英语。转五分钟的片段还行，转一个半小时的课就很折磨。"
+        },
+        {
+          "h3": "3. 上传工具（Otter、Speechnotes等）",
+          "body": "上传工具转录你提供的音视频文件。Otter免费版在每月分钟数内可以上传视频；Speechnotes的文件转录按每分钟0.10美元收费。问题在于文件本身：下载别人的YouTube视频再上传，违反YouTube服务条款，除非YouTube本身提供下载按钮。如果是你自己的视频，可以从YouTube Studio合法下载。Otter也建议另一种做法：外放视频，让它通过麦克风收听。而且这类工具主要针对英语，中文效果参差不齐。"
+        },
+        {
+          "h3": "4. 用LessonScriptor在浏览器里实时转录",
+          "body": "LessonScriptor是一款Chrome扩展，在视频播放的同时，于播放器旁的侧边栏里转录：不需要下载文件，也不需要字幕。只要能在Chrome里播放的YouTube视频都可以，包括不公开视频、分享给你账号的私享视频、直播和Shorts，也包括B站、中国大学MOOC、学堂在线以及Moodle等课程平台。文字稿在生成过程中就能编辑（5种颜色高亮、加粗、标题、项目符号、幻灯片截图），可导出为.txt或.md。限制在于时间：它是实时转录，60分钟的视频大约需要60分钟，我们的网站上也没有粘贴链接的工具。"
+        }
+      ]
+    },
+    {
+      "id": "methods-table",
       "table": {
         "headers": [
           "",
-          "YouTube 的转录按钮",
-          "复制粘贴自动字幕",
+          "YouTube自带文稿",
+          "Google文档语音输入技巧",
+          "上传工具（如Otter）",
           "LessonScriptor"
         ],
         "rows": [
           [
-            "不需要字幕也能用",
+            "需要已有字幕",
+            "是",
             "否",
             "否",
-            "是"
+            "否"
           ],
           [
-            "转录内容可编辑",
+            "需要视频文件",
             "否",
-            "只有复制出来后才行",
-            "是，在侧边栏里实时编辑"
+            "否",
+            "是",
+            "否"
           ],
           [
-            "导出格式",
-            "没有内置导出",
-            "纯文本，无格式",
-            ".txt、.md 或剪贴板"
+            "直播",
+            "实时字幕仅限英语",
+            "不稳定",
+            "不行，要等结束并下载",
+            "可以，边播边转"
           ],
           [
-            "等待时间",
-            "如果字幕已存在则为零",
-            "如果字幕已存在则为零",
-            "无需等待"
+            "私享/不公开视频",
+            "仅当有字幕时",
+            "可以",
+            "仅当文件属于你",
+            "可以，只要你能播放"
           ],
           [
-            "支持语言",
-            "取决于上传者",
-            "取决于 YouTube 的自动字幕",
-            "14 种"
+            "生成过程中可编辑",
+            "否",
+            "可以，就是一个文档",
+            "处理完成后",
+            "可以，在侧边栏里"
+          ],
+          [
+            "所需时间",
+            "几秒",
+            "视频时长",
+            "上传+处理",
+            "视频时长"
+          ],
+          [
+            "费用",
+            "免费",
+            "免费",
+            "有免费额度，之后付费",
+            "免费模式；AI套餐5美元起"
           ]
         ]
       }
     },
     {
-      "id": "study-from-transcript",
-      "h2": "如何利用 YouTube 转录文本来学习",
-      "body": "拿到文字之后，处理现场讲座时用的那套编辑习惯同样适用：删掉开场的闲聊，把会考的内容加粗，每换一个话题就加个标题。如果你是为了上课在啃 YouTube 讲座，下面这套笔记方法能把这份转录文本变成更接近学习指南的东西。",
+      "id": "how-to-steps",
+      "howto": true,
+      "h2": "如何用LessonScriptor把YouTube视频转成文字？",
+      "body": "整个过程都在视频所在的Chrome标签页里完成。先选模式：**免费模式**通过麦克风收音，所以要用扬声器播放、音量80%以上（戴耳机无法使用）；**AI模式**直接捕获标签页音频，戴耳机没问题，对口音和专业术语的准确率也高得多。",
+      "steps": [
+        "从Chrome应用商店安装LessonScriptor。免费模式无需注册账号。",
+        "在Chrome标签页中打开YouTube视频，点击LessonScriptor图标打开侧边栏。",
+        "选择视频的语言（支持14种，包括中文），再选择免费模式或AI模式。",
+        "免费模式下，把扬声器音量调到80%以上并摘下耳机；AI模式下戴耳机不受影响。",
+        "点击录制，然后播放视频。免费模式下文字随说话出现；AI模式下文字每10秒或30秒分段出现。",
+        "边看边编辑：高亮关键句、加粗术语、按主题加标题，并截取想保留的幻灯片。",
+        "导出为.md或.txt，或复制到剪贴板，粘贴进Notion、Google文档、Obsidian或飞书文档。"
+      ],
       "internal_links": [
         {
-          "text": "如何用 ADHD 的方式做笔记",
-          "url": "/blog/how-to-take-notes-with-adhd"
+          "text": "用LessonScriptor在Chrome里转录YouTube视频",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "live-streams",
+      "h2": "YouTube直播可以转成文字吗？",
+      "body": "可以。任何直接收听音频、而不是等字幕的工具，都能在直播进行时转录。这一点很重要，因为YouTube的直播自动字幕只支持英语，而且只有在主播开启后才有。中文讲座、发布会或问答直播，通常要到直播结束很久以后才有字幕，甚至一直没有。\n\nLessonScriptor把直播当作普通的有声标签页来处理：打开直播，开始录制，文字稿就会随着讲话实时生成。上传工具在直播期间帮不上忙，因为还没有文件。如果你在YouTube上听直播课，文字稿还能补上你看弹幕或截图时错过的内容。"
+    },
+    {
+      "id": "other-languages",
+      "h2": "非英语的YouTube视频怎么转成文字？",
+      "body": "要转录中文或其他语言的YouTube视频，开始前把转录语言设为视频实际说的语言即可。LessonScriptor支持14种语言，包括中文、英语、法语、德语、西班牙语、葡萄牙语、阿拉伯语和印地语；专业术语多的课程建议用AI模式。\n\n非英语视频恰恰是YouTube文稿最容易失效的地方：带口音的自动字幕准确率更低，英语以外没有直播字幕，很多频道也从不上传正式字幕。高校频道上传的专业课录像、考研或留学备考讲解、外文原版公开课，都是“显示转写文稿”缺失或不可用的典型场景。在中国大陆访问YouTube需要相应的网络环境；如果你主要看B站，部分视频提供AI字幕，没有的话同样可以用LessonScriptor转录，因为它转的是Chrome里正在播放的声音。\n\n转录不等于翻译。LessonScriptor按原语言记录说了什么。需要翻译的话，可以导出文字稿再粘贴到翻译工具里，或者使用Chrome实时字幕的实时翻译功能，当场阅读翻译后的字幕。"
+    },
+    {
+      "id": "private-unlisted",
+      "h2": "私享或不公开的YouTube视频能转成文字吗？",
+      "body": "能。只要你能播放，在浏览器里收听的工具就能转录。很多在线“YouTube转文字”生成器依赖公开链接，需要抓取字幕或文件，所以私享视频和部分不公开视频会失败。而课程视频往往故意设为不公开，由老师通过课程平台或微信群分享链接。\n\nLessonScriptor从不抓取视频本身：它转录的是你标签页里正在播放的声音，所以不公开的课程链接、分享给你Google账号的私享视频，和公开视频一样能用。免费模式下，音频不会发送到LessonScriptor的服务器；AI模式下，音频会被分成短片段发送到云端转录模型来生成文字。"
+    },
+    {
+      "id": "adhd-read-along",
+      "h2": "YouTube文字稿对注意力缺陷多动障碍（ADHD）有帮助吗？",
+      "body": "对很多有注意力缺陷多动障碍（ADHD）的人来说，实时文字稿能帮助他们跟上YouTube视频，因为它同时提供两个通道：耳朵听讲者，眼睛看侧边栏里同样的内容。注意力飘走三十秒，文字还在那里，可以直接追上，而不用倒回去、丢掉思路。边看边高亮又增加了一个小小的动手任务，让人保持投入，视频结束时还能留下已经标注好的笔记。\n\n用扬声器看视频的话，免费模式就够了；AI模式允许戴耳机，很多ADHD人士更喜欢戴耳机隔绝噪音。我们的ADHD与YouTube转录指南详细介绍了这个流程，而得到的文字稿也非常适合用来做主动回忆练习。",
+      "internal_links": [
+        {
+          "text": "ADHD与YouTube：用文字稿保持专注",
+          "url": "/blog/adhd-youtube-transcription"
         },
         {
-          "text": "ADHD 笔记模板",
-          "url": "/blog/adhd-note-taking-template"
+          "text": "用课程文字稿做主动回忆",
+          "url": "/blog/active-recall-lecture-transcript"
         }
       ]
     }
   ],
   "faq": {
-    "section_title": "常见问题",
-    "items": [
+    "heading": "常见问题",
+    "questions": [
       {
-        "q": "我可以在没有字幕的情况下转录 YouTube 视频吗？",
-        "a": "可以。LessonScriptor 直接监听视频的音频，而不是读取已有的字幕，所以对那些从来没有字幕，或者自动字幕不可靠的视频，它同样适用。"
+        "question": "YouTube视频没有文稿，怎么转成文字？",
+        "answer": "用直接收听音频、而不是读取字幕的工具。LessonScriptor在Chrome里视频播放时于侧边栏转录，不需要字幕，也不需要下载。免费的Google文档语音输入技巧也能处理短片段，前提是用扬声器外放视频。"
       },
       {
-        "q": "为了自己做笔记而转录 YouTube 视频合法吗？",
-        "a": "为个人学习转录视频，就像你一边看一边手写笔记一样，是很常见的做法。但如果你打算发布或转发这份转录文本本身，请先查看视频的许可协议和 YouTube 的服务条款。"
+        "question": "为什么YouTube上看不到“显示转写文稿”？",
+        "answer": "因为视频没有字幕轨。自动字幕可能因音质差、多人同时说话、语言不支持、视频太长或尚未处理完而缺失，上传者也可以删除字幕。直播只有英语才有实时字幕。"
       },
       {
-        "q": "LessonScriptor 支持 YouTube Shorts 短视频吗？",
-        "a": "支持。只要视频是在 Chrome 标签页里播放的，LessonScriptor 转录音频的方式和处理普通视频完全一样。"
+        "question": "YouTube直播能实时转成文字吗？",
+        "answer": "能。在Chrome里打开直播，运行LessonScriptor这样的实时转录工具，文字会随讲话实时生成。YouTube直播字幕只支持英语，所以对于中文直播，这往往是播出期间获得文字的唯一方式。"
       },
       {
-        "q": "我需要先下载视频吗？",
-        "a": "不需要。LessonScriptor 会在视频于浏览器标签页播放时实时转录音频，不会下载也不会上传任何内容。"
+        "question": "为了做笔记转录YouTube视频合法吗？",
+        "answer": "为个人学习转录视频，和边看边做笔记没有区别。但下载别人的视频文件再上传到工具，违反YouTube服务条款，除非YouTube本身提供下载按钮。如果要公开发布文字稿，请先确认创作者的授权。"
       },
       {
-        "q": "除了英语之外，其他语言也能用吗？",
-        "a": "可以。LessonScriptor 支持 14 种语言的转录，包括法语、西班牙语、葡萄牙语、德语、阿拉伯语和印地语。开始之前先在扩展程序设置里选好语言。"
+        "question": "YouTube的中文自动字幕准确吗？",
+        "answer": "发音清晰时还算可用，但遇到口音、人名、术语和背景音乐时错误较多，整体通常不如英语。YouTube自己也提醒自动字幕可能曲解原意。像LessonScriptor AI模式这样的云端模型，在专业课程上通常表现更好。"
       },
       {
-        "q": "转录文本会以什么格式导出？",
-        "a": "可以导出为 Markdown（.md）或纯文本（.txt），也可以复制到剪贴板，粘贴进 Notion、Google 文档或任何笔记应用。标题、加粗和高亮都会一起保留。"
+        "question": "戴耳机能转录YouTube视频吗？",
+        "answer": "用LessonScriptor的AI模式可以，它直接捕获标签页音频。免费模式和Google文档技巧都通过麦克风收音，所以视频必须用扬声器大声播放。"
+      },
+      {
+        "question": "能粘贴YouTube链接直接获取文字稿吗？",
+        "answer": "LessonScriptor不行：它转录的是Chrome标签页里正在播放的内容，而不是处理链接。也正因如此，它能处理直播以及私享、不公开的视频。如果视频已经有字幕，用下载YouTube文稿的方法会更快。"
       }
     ]
   },
   "summary": {
-    "heading": "任何 YouTube 视频，都能变成文字",
-    "body": "不管有没有字幕，LessonScriptor 都会在视频播放时直接转录音频，给你一份可编辑的转录文本，视频还没播完你就能整理好并导出。免费安装，无需注册账号，就在你正在观看的那个 Chrome 标签页里运行。",
+    "heading": "该选哪种方法？",
+    "body": "如果“显示转写文稿”能用且内容准确，直接下载。如果没有文稿或错误很多，或者视频是直播、私享、不公开、非英语的，就转录音频：短片段用Google文档语音输入技巧，文件属于你的话用Otter等上传工具，而对于任何能在Chrome里播放的视频（包括B站），用LessonScriptor，在视频结束前就能拿到可编辑、可导出的文字稿。",
     "internal_links": [
       {
-        "text": "查看完整的 YouTube 转录工作流程",
-        "url": "/transcribe-video-to-text"
+        "text": "下载YouTube已有的文稿",
+        "url": "/blog/how-to-download-youtube-transcript"
+      },
+      {
+        "text": "在Chrome里转录YouTube视频",
+        "url": "/transcribe-youtube-video"
       }
     ]
   },
-  "schemas": [
+  "sources": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "如何将 YouTube 视频转换为文字（免费，分步讲解）",
-        "description": "用 LessonScriptor 免费把任何 YouTube 视频转换成文字。不需要字幕，不用上传，不用注册账号。",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          {
-            "@type": "Person",
-            "name": "Victoria",
-            "description": "患有 ADHD 的人类学学生",
-            "url": "https://lessonscriptor.com"
-          },
-          {
-            "@type": "Person",
-            "name": "Pierre Girardot",
-            "description": "开发者兼 SEO",
-            "url": "https://lessonscriptor.com"
-          }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": {
-            "@type": "ImageObject",
-            "url": "https://lessonscriptor.com/logo.png",
-            "width": 600,
-            "height": 60
-          }
-        }
-      }
+      "text": "YouTube帮助：自动字幕",
+      "href": "https://support.google.com/youtube/answer/6373554?hl=zh-Hans",
+      "external": true
     },
     {
-      "type": "HowTo",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "HowTo",
-        "name": "如何用 LessonScriptor 转录 YouTube 视频",
-        "step": [
-          {
-            "@type": "HowToStep",
-            "name": "安装",
-            "text": "从 Chrome 网上应用店安装 LessonScriptor。一键安装，无需注册。"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "打开视频",
-            "text": "在 Chrome 标签页里打开 YouTube 视频。"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "录制",
-            "text": "点击 LessonScriptor 图标，打开侧边栏，在按下播放键之前先点击录制。"
-          },
-          {
-            "@type": "HowToStep",
-            "name": "导出",
-            "text": "在转录文本生成的过程中编辑它，然后导出为 .md 或 .txt，或者复制到剪贴板。"
-          }
-        ]
-      }
+      "text": "Google文档帮助：语音输入",
+      "href": "https://support.google.com/docs/answer/4492226?hl=zh-Hans",
+      "external": true
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "我可以在没有字幕的情况下转录 YouTube 视频吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "可以。LessonScriptor 直接监听视频的音频，而不是读取已有的字幕，所以对那些从来没有字幕，或者自动字幕不可靠的视频，它同样适用。"
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "LessonScriptor 支持 YouTube Shorts 短视频吗？",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "支持。只要视频是在 Chrome 标签页里播放的，LessonScriptor 转录音频的方式和处理普通视频完全一样。"
-            }
-          }
-        ]
-      }
+      "text": "Otter：YouTube文字稿生成器",
+      "href": "https://otter.ai/youtube-transcript-generator",
+      "external": true
     },
     {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "首页",
-            "item": "https://lessonscriptor.com/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "博客",
-            "item": "https://lessonscriptor.com/blog"
-          },
-          {
-            "@type": "ListItem",
-            "position": 3,
-            "name": "如何将 YouTube 视频转换为文字",
-            "item": "https://lessonscriptor.com/blog/transcribe-youtube-video-to-text"
-          }
-        ]
-      }
+      "text": "Google Chrome帮助：实时字幕",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=zh-Hans",
+      "external": true
     }
   ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/how-to-download-youtube-transcript",
-      "/blog/best-chrome-extensions-live-captions",
-      "/blog/how-to-take-notes-with-adhd"
-    ]
-  }
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "如何把YouTube视频转成文字（即使没有字幕文稿）",
+      "description": "YouTube视频没有字幕文稿怎么转文字？直播、不公开视频、中文等非英语视频都适用。4种免费方法对比，附LessonScriptor分步教程，B站视频同样适用。",
+      "inLanguage": "zh-CN",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer & SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      },
+      "mainEntityOfPage": "https://lessonscriptor.com/zh/blog/youtube-shipin-zhuanwenzi",
+      "url": "https://lessonscriptor.com/zh/blog/youtube-shipin-zhuanwenzi",
+      "keywords": [
+        "youtube视频转文字",
+        "youtube转文字",
+        "视频转文字",
+        "youtube直播转文字",
+        "youtube没有字幕",
+        "b站视频转文字"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "zh-CN",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "YouTube视频没有文稿，怎么转成文字？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "用直接收听音频、而不是读取字幕的工具。LessonScriptor在Chrome里视频播放时于侧边栏转录，不需要字幕，也不需要下载。免费的Google文档语音输入技巧也能处理短片段，前提是用扬声器外放视频。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为什么YouTube上看不到“显示转写文稿”？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "因为视频没有字幕轨。自动字幕可能因音质差、多人同时说话、语言不支持、视频太长或尚未处理完而缺失，上传者也可以删除字幕。直播只有英语才有实时字幕。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube直播能实时转成文字吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "能。在Chrome里打开直播，运行LessonScriptor这样的实时转录工具，文字会随讲话实时生成。YouTube直播字幕只支持英语，所以对于中文直播，这往往是播出期间获得文字的唯一方式。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "为了做笔记转录YouTube视频合法吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "为个人学习转录视频，和边看边做笔记没有区别。但下载别人的视频文件再上传到工具，违反YouTube服务条款，除非YouTube本身提供下载按钮。如果要公开发布文字稿，请先确认创作者的授权。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "YouTube的中文自动字幕准确吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "发音清晰时还算可用，但遇到口音、人名、术语和背景音乐时错误较多，整体通常不如英语。YouTube自己也提醒自动字幕可能曲解原意。像LessonScriptor AI模式这样的云端模型，在专业课程上通常表现更好。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "戴耳机能转录YouTube视频吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "用LessonScriptor的AI模式可以，它直接捕获标签页音频。免费模式和Google文档技巧都通过麦克风收音，所以视频必须用扬声器大声播放。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "能粘贴YouTube链接直接获取文字稿吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor不行：它转录的是Chrome标签页里正在播放的内容，而不是处理链接。也正因如此，它能处理直播以及私享、不公开的视频。如果视频已经有字幕，用下载YouTube文稿的方法会更快。"
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "如何用LessonScriptor把YouTube视频转成文字？",
+      "inLanguage": "zh-CN",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "从Chrome应用商店安装LessonScriptor。免费模式无需注册账号。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "在Chrome标签页中打开YouTube视频，点击LessonScriptor图标打开侧边栏。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "选择视频的语言（支持14种，包括中文），再选择免费模式或AI模式。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "免费模式下，把扬声器音量调到80%以上并摘下耳机；AI模式下戴耳机不受影响。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "点击录制，然后播放视频。免费模式下文字随说话出现；AI模式下文字每10秒或30秒分段出现。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "边看边编辑：高亮关键句、加粗术语、按主题加标题，并截取想保留的幻灯片。"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "导出为.md或.txt，或复制到剪贴板，粘贴进Notion、Google文档、Obsidian或飞书文档。"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "LessonScriptor",
+          "item": "https://lessonscriptor.com/zh"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/zh/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "如何把YouTube视频转成文字（即使没有字幕文稿）",
+          "item": "https://lessonscriptor.com/zh/blog/youtube-shipin-zhuanwenzi"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,400 @@
+{
+  "slug": "chrome-live-captions-not-working",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Chrome Live Caption funktioniert nicht? Checkliste + 8 Lösungen (2026)",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Chrome Live Caption funktioniert nicht? 8 Lösungen",
+    "description": "Chrome Live Caption funktioniert nicht oder ist nicht verfügbar? Checkliste in 2 Minuten und 8 Lösungen: Sprachmodell, Sprache, Erweiterungen, Kopfhörer.",
+    "og_image": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "canonical": "https://lessonscriptor.com/de/blog/chrome-untertitel-funktionieren-nicht",
+    "og_title": "Chrome Live Caption funktioniert nicht? 8 Lösungen, die wirklich helfen (2026)",
+    "og_description": "Checkliste und 8 konkrete Lösungen, wenn die automatischen Untertitel in Chrome leer bleiben, und wann eine Erweiterung die bessere Wahl ist.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "chrome live caption funktioniert nicht",
+      "chrome automatische untertitel funktionieren nicht",
+      "automatische untertitel chrome nicht verfügbar",
+      "chrome automatische untertitel aktivieren",
+      "live caption chrome deutsch"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-not-working-hero.png",
+    "alt": "Chrome-Fenster mit der Einstellung Automatische Untertitel und einer Fehlermeldung, daneben die Lösungsschritte",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Split-screen: left shows Chrome settings page with the Live Caption toggle, right shows an error state. Clean, minimal UI illustration. Colors: warm cream and terra. Mood: helpful troubleshooting guide, not alarming."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung für die Live-Transkription von Videos. Victoria studiert Anthropologie und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "Chrome Live Caption, auf Deutsch „Automatische Untertitel“, fällt aus acht bekannten Gründen aus, und die meisten lassen sich in unter zwei Minuten beheben. Streikt die eingebaute Funktion weiter, nimmt eine Erweiterung wie LessonScriptor den Ton direkt aus dem Tab auf, ohne Chromes Sprachmodell.",
+    "bullets": [
+      "Die häufigste Lösung: Automatische Untertitel ausschalten, 10 Sekunden warten, wieder einschalten und Chrome komplett neu starten.",
+      "Live Caption gibt es seit Chrome 89, und es braucht ein heruntergeladenes Spracherkennungsmodell: Ein hängender Download steckt hinter den meisten Meldungen, die Funktion sei nicht verfügbar.",
+      "Deutsch wird unterstützt: Es gehört zu den 19 Untertitelsprachen, die Google auflistet, neben Englisch, Französisch, Spanisch, Portugiesisch und Chinesisch.",
+      "Kopfhörer sind fast nie die Ursache: Chrome untertitelt den Ton, den es selbst abspielt, ganz ohne Mikrofon.",
+      "Erweiterungen, die Skripte blockieren (uBlock Origin, Privacy Badger), oder ein VPN können einzelne Seiten stören: Im Inkognitofenster testen."
+    ]
+  },
+  "intro": "Chrome Live Caption funktioniert meistens dann nicht, wenn das Spracherkennungsmodell nicht heruntergeladen wurde, Chrome veraltet ist oder eine Erweiterung die Audiowiedergabe stört. Das typische Symptom ist der Hinweis, dass automatische Untertitel gerade nicht verfügbar sind, häufig unter Windows 10, Windows 11 und macOS. Dieser Leitfaden beginnt mit einer Checkliste aus fünf Punkten und zeigt dann acht Lösungen, von der schnellsten bis zur aufwendigsten, mit echten Beispielen: eine Vorlesungsaufzeichnung in ILIAS oder Opencast, ein Moodle-Kurs an der FernUni Hagen oder ein YouTube-Video. Außerdem erklärt er, wann eine Untertitel-Erweiterung wie LessonScriptor die einfachere Lösung ist.",
+  "stats": [
+    {
+      "number": "89+",
+      "label": "Chrome-Mindestversion für Live Caption"
+    },
+    {
+      "number": "8",
+      "label": "bekannte Ursachen für Ausfälle, alle behebbar"
+    },
+    {
+      "number": "19",
+      "label": "Untertitelsprachen laut Google, darunter Deutsch"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-chrome-live-captions-not-working",
+      "h2": "Warum funktionieren die automatischen Untertitel in Chrome nicht mehr?",
+      "body": "Die automatischen Untertitel in Chrome fallen aus einem von acht Gründen aus: eine veraltete Chrome-Version, ein fehlendes oder beschädigtes Spracherkennungsmodell, eine störende Erweiterung, Ton, der gar nicht in Chrome läuft, ein beschädigtes Chrome-Profil, geänderte experimentelle Flags, zu wenig Speicherplatz für das Modell oder ein Download, den das Netzwerk blockiert (Firewall der Hochschule oder des Arbeitgebers, VPN).\n\nDie Meldung „nicht verfügbar“ unter Windows 10 und Windows 11 kommt meist von einem Sprachmodell, das nicht vollständig heruntergeladen wurde. Chrome lädt das Modell beim ersten Einschalten im Hintergrund herunter: War die Verbindung langsam oder brach sie ab (etwa im überlasteten eduroam im Hörsaal), bleibt das Modell unvollständig und es erscheint nichts.\n\nUnter macOS ist die häufigste Ursache ein Chrome, das nach einem Update nicht wirklich neu gestartet wurde. Eine weitere Falle: Chromium-basierte Browser wie Brave oder Vivaldi bieten diese Funktion nicht immer, denn sie gehört zu Google Chrome.\n\nLösung 1 und 2 unten beheben die große Mehrheit der Fälle."
+    },
+    {
+      "id": "live-caption-troubleshooting-checklist",
+      "h2": "Checkliste für Chrome Live Caption: Was zuerst prüfen?",
+      "body": "Die Fehlersuche bei Live Caption beginnt mit fünf Prüfungen, die weniger als zwei Minuten dauern und zusammen die meisten Fälle lösen, bevor Sie zu den Lösungen unten kommen. Gehen Sie sie der Reihe nach durch: Jede schließt eine andere Ursache aus.",
+      "steps": [
+        {
+          "strategy": "Sind die automatischen Untertitel eingeschaltet?",
+          "detail": "Öffnen Sie **chrome://settings/accessibility** (Dreipunkt-Menü ⋮ > Einstellungen > Zugänglichkeit) und prüfen Sie, ob **Automatische Untertitel** aktiviert ist. Chrome schaltet die Option nach Updates manchmal ab."
+        },
+        {
+          "strategy": "Ist Ihre Chrome-Version aktuell?",
+          "detail": "Rufen Sie **chrome://settings/help** auf (Hilfe > Über Google Chrome). Die Funktion gibt es in Chrome für Windows, macOS, Linux und ChromeOS."
+        },
+        {
+          "strategy": "Ist das Sprachmodell fertig heruntergeladen?",
+          "detail": "Direkt nach dem Einschalten lädt Chrome Spracherkennungsdateien herunter. Bis das abgeschlossen ist, bleiben die Untertitel leer. Ein hängender Download ist die übliche Ursache für die Meldung „nicht verfügbar“."
+        },
+        {
+          "strategy": "Wird die Sprache unterstützt?",
+          "detail": "Öffnen Sie in den Einstellungen für automatische Untertitel **Sprachen verwalten** und fügen Sie bei Bedarf Deutsch hinzu. Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Chinesisch werden unterstützt; läuft das Video in einer Sprache, die Chrome nicht untertitelt, erscheint nichts."
+        },
+        {
+          "strategy": "Läuft der Ton wirklich in Chrome?",
+          "detail": "Chrome untertitelt nur Ton, der in Chrome abgespielt wird, nicht den der Zoom- oder Teams-Desktop-App oder von Spotify. Heben Sie die Stummschaltung des Tabs auf: Für automatisch abgespielte Videos muss laut Google die Videolautstärke eingeschaltet sein."
+        }
+      ],
+      "callout": {
+        "type": "checklist",
+        "label": "Nach allen fünf Punkten immer noch leer?",
+        "body": "Weiter mit Lösung 1. Scheitern die Lösungen nacheinander, umgeht eine Erweiterung, die den Ton direkt aus dem Tab aufnimmt, etwa der KI-Modus von LessonScriptor, den Download von Chromes Sprachmodell komplett."
+      },
+      "internal_links": [
+        {
+          "text": "Automatische Untertitel in anderen Sprachen",
+          "url": "/blog/live-captions-other-languages-chrome"
+        },
+        {
+          "text": "Chrome-Untertitel mit Kopfhörern",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "fix-toggle-live-caption",
+      "h2": "Lösung 1: Automatische Untertitel aus- und wieder einschalten",
+      "body": "Automatische Untertitel aus- und wieder einzuschalten zwingt Chrome, das Spracherkennungsmodell neu zu laden und einen beschädigten Zustand zu verwerfen. Das behebt die meisten „nicht verfügbar“-Fehler.\n\n**So geht's:**\n1. Öffnen Sie Chrome und rufen Sie **chrome://settings/accessibility** auf.\n2. Schalten Sie **Automatische Untertitel** aus.\n3. Warten Sie 10 Sekunden, ohne Chrome zu schließen.\n4. Schalten Sie die Option wieder ein.\n5. Schließen Sie alle Chrome-Fenster (auf dem Mac mit Cmd+Q) und starten Sie Chrome neu.\n\nErscheinen die Untertitel, ist das Problem gelöst. Wenn nicht, weiter mit Lösung 2."
+    },
+    {
+      "id": "fix-update-chrome",
+      "h2": "Lösung 2: Chrome auf die neueste Version aktualisieren",
+      "body": "Live Caption setzt Chrome 89 oder neuer voraus, und eine veraltete Version ist die zweithäufigste Ursache für Ausfälle, besonders auf Rechnern, die eine Hochschule oder ein Unternehmen verwaltet und auf denen automatische Updates gesperrt sind.\n\n**Version prüfen:** Dreipunkt-Menü ⋮ > Hilfe > Über Google Chrome. Auf dieser Seite sucht Chrome automatisch nach Updates.\n\nKlicken Sie nach dem Update auf **Neu starten** und beenden Sie Chrome vollständig, nicht nur den Tab. Viele Nutzer stellen fest, dass allein dieser Neustart einen „nicht verfügbar“-Fehler beseitigt, der wochenlang bestand."
+    },
+    {
+      "id": "fix-speech-model-download",
+      "h2": "Lösung 3: Das Spracherkennungsmodell neu herunterladen",
+      "body": "Live Caption arbeitet mit einem Spracherkennungsmodell, das lokal auf Ihrem Rechner liegt: Laut Google werden Ton und Untertitel lokal verarbeitet und verlassen das Gerät nie. Ist das Modell beschädigt oder unvollständig, scheitern die Untertitel ohne klare Meldung. Sie können einen neuen Download erzwingen.\n\n**Methode 1, über die Einstellungen:**\n1. Schalten Sie **Automatische Untertitel** unter **chrome://settings/accessibility** aus.\n2. Entfernen Sie unter **Sprachen verwalten** Deutsch und fügen Sie es über **Sprachen hinzufügen** wieder hinzu: Chrome lädt das Sprachpaket neu herunter.\n3. Schalten Sie die Option wieder ein und starten Sie Chrome neu.\n\n**Methode 2, über die Komponenten:** Rufen Sie **chrome://components** auf, suchen Sie die Spracherkennungskomponente (je nach Version „Speech On-Device API“ bzw. SODA, dazu die Sprachpakete) und klicken Sie auf **Nach Update suchen**. Bei langsamer Verbindung dauert das 2 bis 5 Minuten.\n\nDas hilft besonders, wenn der Fehler nach einem WLAN-Wechsel oder einem automatischen Chrome-Update aufgetreten ist. In einem gefilterten Hochschul- oder Firmennetz laden Sie das Modell besser über eine andere Verbindung, etwa den Hotspot Ihres Smartphones."
+    },
+    {
+      "id": "fix-disable-conflicting-extensions",
+      "h2": "Lösung 4: Erweiterungen deaktivieren, die Skripte oder Ton blockieren",
+      "body": "Erweiterungen, die Skripte abfangen oder den Ton verändern, etwa uBlock Origin, Privacy Badger, NoScript oder manche VPN-Erweiterungen, können die normale Audiowiedergabe auf bestimmten Seiten verhindern und damit auch die Untertitel.\n\n**So testen Sie es:** Öffnen Sie ein Inkognitofenster (Strg+Umschalt+N unter Windows, Cmd+Umschalt+N auf dem Mac). Dort sind die meisten Erweiterungen standardmäßig deaktiviert. Funktioniert Live Caption im Inkognitofenster, im normalen Fenster aber nicht, ist eine Erweiterung schuld.\n\n**So beheben Sie es:** Rufen Sie **chrome://extensions** auf und deaktivieren Sie die Erweiterungen einzeln, mit einem Test nach jedem Schritt. Bei uBlock Origin ist es besser, nur die betroffenen Seiten freizugeben (Ihr ILIAS oder Stud.IP, YouTube), statt die Erweiterung überall abzuschalten."
+    },
+    {
+      "id": "fix-audio-routing-headphones",
+      "h2": "Lösung 5: Chrome Live Caption funktioniert nicht mit Kopfhörern",
+      "body": "Chrome Live Caption funktioniert ganz normal mit Kopfhörern, auch mit AirPods oder Bluetooth-Kopfhörern: Chrome untertitelt den Ton, den es selbst im Browser abspielt, und hört dabei nicht über das Mikrofon mit. Verschwinden die Untertitel, sobald Sie Kopfhörer anschließen, liegt die Ursache fast immer woanders.\n\n**Das sollten Sie prüfen:**\n- Kommt der Ton aus Chrome? Eine Vorlesung in der Zoom-Desktop-App untertitelt Chrome nicht; öffnen Sie das Meeting oder die Aufzeichnung im Browser.\n- Ist der Tab stummgeschaltet? Rechtsklick auf den Tab > Stummschaltung der Website aufheben.\n- Hat ein Bluetooth-Neuverbinden die Wiedergabe unterbrochen? Kopfhörer trennen, neu verbinden und das Video erneut starten.\n- Ist das Sprachmodell vollständig? Wiederholen Sie Lösung 3.\n\n**Die eigentliche Kopfhörer-Falle:** Tools, die über das Mikrofon zuhören, funktionieren mit Kopfhörern nicht, zum Beispiel der kostenlose Modus von LessonScriptor, der die Spracherkennung des Browsers über das Mikrofon nutzt. Wer mit LessonScriptor über Kopfhörer transkribieren will, nimmt den KI-Modus, der den Ton direkt aus dem Tab aufnimmt.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome mit LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "fix-reset-chrome-flags",
+      "h2": "Lösung 6: Experimentelle Chrome-Flags zurücksetzen",
+      "body": "Die Seite **chrome://flags** enthält experimentelle Einstellungen, die das Standardverhalten des Browsers ändern. Haben Sie oder die IT Ihrer Hochschule Flags zu Audio, Bedienungshilfen oder Spracherkennung geändert, können sie mit Live Caption kollidieren.\n\n**Alle zurücksetzen:** Rufen Sie **chrome://flags** auf, klicken Sie oben rechts auf **Alle zurücksetzen** und starten Sie Chrome neu, wenn Sie dazu aufgefordert werden.\n\nDas ist eine grobe, aber wirksame Lösung. Einziger Nachteil: Auch Flags, die Sie absichtlich aktiviert hatten, werden zurückgesetzt."
+    },
+    {
+      "id": "fix-clear-profile-data",
+      "h2": "Lösung 7: Cache und Browserdaten löschen",
+      "body": "Ein beschädigter Cache kann verhindern, dass einzelne Seiten den Ton korrekt abspielen. Wenn Sie die Daten löschen, baut Chrome seinen lokalen Zustand neu auf. Das ist selten die Ursache, heben Sie sich diese Lösung also für den Schluss auf.\n\n**So geht's:** Rufen Sie **chrome://settings/clearBrowserData** auf, wählen Sie **Gesamte Zeit**, setzen Sie Häkchen bei **Bilder und Dateien im Cache** sowie **Cookies und andere Websitedaten** und klicken Sie auf **Daten löschen**.\n\nAchtung: Sie werden auf Websites abgemeldet, auch in ILIAS, Stud.IP oder Moodle. Prüfen Sie danach, ob **Automatische Untertitel** unter **chrome://settings/accessibility** noch aktiv ist, und testen Sie erneut."
+    },
+    {
+      "id": "fix-switch-to-extension",
+      "h2": "Lösung 8: Zu LessonScriptor wechseln, wenn die eingebauten Untertitel weiter streiken",
+      "body": "Die automatischen Untertitel von Chrome sind praktisch, aber begrenzt: Sie zeigen zwei Zeilen, die sofort wieder verschwinden, ohne den Text bearbeiten, markieren oder exportieren zu können. Haben Sie die sieben Lösungen oben probiert und bleiben die Untertitel unzuverlässig, ist eine eigene Erweiterung langfristig die robustere Wahl.\n\nLessonScriptor ist eine Chrome-Erweiterung, die während der Wiedergabe ein Live-Transkript in einer Seitenleiste anzeigt: Vorlesungsaufzeichnungen in ILIAS, Moodle oder Panopto, YouTube-Videos, Kurse auf Coursera oder Udemy sowie Zoom und Google Meet im Browser. Das Transkript ist ein Notizeditor: Markierungen in 5 Farben, Fettdruck, Überschriften, Aufzählungen, Passagen löschen, Screenshots der Folien und Export als .txt oder .md. Es unterstützt 14 Sprachen, darunter Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Chinesisch.\n\nEs gibt zwei Modi. Der **kostenlose Modus** nutzt die Spracherkennung des Browsers über das Mikrofon: Er braucht laut gestellte Lautsprecher (80 % oder mehr) und funktioniert nicht mit Kopfhörern. Der **KI-Modus** nimmt den Ton aus dem Tab auf, funktioniert mit Kopfhörern und erkennt Akzente und Fachvokabular deutlich besser; er wird nach Verbrauch über Pakete ohne Abo bezahlt (5 Std. für 5 $, 15 Std. für 12 $, 30 Std. für 21 $; Preise in US-Dollar, Stripe rechnet in Ihre Währung um), mit 30 Minuten kostenloser Testzeit.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome mit LessonScriptor",
+          "url": "/live-captions-chrome"
+        },
+        {
+          "text": "YouTube-Video transkribieren",
+          "url": "/transcribe-youtube-video"
+        }
+      ]
+    },
+    {
+      "id": "when-to-use-extension-vs-builtin",
+      "h2": "Eingebaute Chrome-Untertitel oder eine Erweiterung: Was ist besser?",
+      "body": "Die eingebauten automatischen Untertitel von Chrome sind die beste Wahl für schnelle, flüchtige Untertitel, wenn Sie den Text weder speichern noch bearbeiten müssen. Sie brauchen keine Installation, funktionieren nach dem Modell-Download offline und unterstützen Deutsch.\n\nEine Erweiterung wie LessonScriptor ist besser, wenn Sie ein bearbeitbares, exportierbares Transkript zum Lernen wollen, eine Vorlesungsaufzeichnung mitschreiben und annotieren möchten oder mit Kopfhörern im KI-Modus arbeiten.\n\nBeide Ansätze ergänzen sich. Viele Studierende nutzen die Chrome-Untertitel, um nebenbei einem Video zu folgen, und starten LessonScriptor für die echten Lerneinheiten, in denen sie ihre Mitschrift markieren, gliedern und exportieren.",
+      "internal_links": [
+        {
+          "text": "Chrome Live Caption oder LessonScriptor?",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Ein Live-Transkript, das Sie behalten können",
+    "body": "LessonScriptor zeigt ein bearbeitbares, exportierbares Transkript jedes Videos in Chrome. Kostenloser Modus ohne Konto; KI-Modus für das Lernen mit Kopfhörern.",
+    "button_label": "LessonScriptor zu Chrome hinzufügen (kostenlos)",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Warum sagt Chrome, dass automatische Untertitel nicht verfügbar sind?",
+        "answer": "Die Meldung bedeutet, dass Chromes Spracherkennungsmodell nicht heruntergeladen wurde oder beschädigt ist. Schalten Sie Automatische Untertitel aus, entfernen Sie Deutsch unter Sprachen verwalten und fügen Sie es wieder hinzu, um einen neuen Download zu erzwingen, oder nutzen Sie Nach Update suchen unter chrome://components. Starten Sie Chrome danach neu."
+      },
+      {
+        "question": "Funktioniert Chrome Live Caption offline?",
+        "answer": "Ja, sobald das Modell heruntergeladen ist. Laut Google werden Ton und Untertitel lokal verarbeitet und verlassen Ihr Gerät nie. Der erste Download des Modells und der Sprachpakete braucht allerdings eine Internetverbindung."
+      },
+      {
+        "question": "Warum funktioniert Live Caption auf manchen Websites nicht?",
+        "answer": "Manche DRM-geschützten Player, etwa von Streamingdiensten, lassen Chrome womöglich nicht auf den Ton zugreifen. Außerdem braucht die Funktion ein aktuelles Chrome und ein vollständiges Sprachmodell. LessonScriptor kann bei geschützten Inhalten dieselbe Einschränkung haben."
+      },
+      {
+        "question": "Funktioniert Live Caption auf dem Chromebook?",
+        "answer": "Ja. ChromeOS hat eine eigene Version: Einstellungen > Zugänglichkeit > Bedienungshilfen verwalten > Audio und Untertitel > Automatische Untertitel verwenden."
+      },
+      {
+        "question": "Gibt es Chrome Live Caption auf Deutsch?",
+        "answer": "Ja. Deutsch gehört zu den 19 Untertitelsprachen, die Google auflistet, zusammen mit Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Japanisch, Koreanisch und Chinesisch. Fügen Sie Deutsch unter Sprachen verwalten in den Einstellungen für automatische Untertitel hinzu. Wer einen bearbeitbaren, exportierbaren Text braucht: LessonScriptor unterstützt ebenfalls 14 Sprachen, darunter Deutsch."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Chrome Live Caption funktioniert nicht: das Wichtigste",
+    "body": "Chrome Live Caption fällt aus acht Gründen aus, und die meisten sind in unter fünf Minuten behoben. Beginnen Sie mit der Checkliste, schalten Sie die Option aus und wieder ein (Lösung 1), aktualisieren Sie Chrome (Lösung 2) und laden Sie das Sprachmodell neu herunter (Lösung 3): Diese drei Schritte lösen die meisten Fälle. Kopfhörer sind fast nie das Problem, denn Chrome untertitelt seinen eigenen Ton ohne Mikrofon. Brauchen Sie ein Transkript zum Behalten, Markieren und Exportieren, ergänzt LessonScriptor jedes Video in Chrome um eine Live-Transkript-Seitenleiste, im kostenlosen Modus über das Mikrofon oder im KI-Modus über den Tab-Ton."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Chrome Live Caption funktioniert nicht? Checkliste + 8 Lösungen (2026)",
+      "description": "Chrome Live Caption funktioniert nicht oder ist nicht verfügbar? Checkliste in 2 Minuten und 8 Lösungen: Sprachmodell, Sprache, Erweiterungen, Kopfhörer.",
+      "inLanguage": "de-DE",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/chrome-untertitel-funktionieren-nicht",
+      "url": "https://lessonscriptor.com/de/blog/chrome-untertitel-funktionieren-nicht",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwickler und SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de-DE",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Warum sagt Chrome, dass automatische Untertitel nicht verfügbar sind?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Die Meldung bedeutet, dass Chromes Spracherkennungsmodell nicht heruntergeladen wurde oder beschädigt ist. Schalten Sie Automatische Untertitel aus, entfernen Sie Deutsch unter Sprachen verwalten und fügen Sie es wieder hinzu, um einen neuen Download zu erzwingen, oder nutzen Sie Nach Update suchen unter chrome://components. Starten Sie Chrome danach neu."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert Chrome Live Caption offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, sobald das Modell heruntergeladen ist. Laut Google werden Ton und Untertitel lokal verarbeitet und verlassen Ihr Gerät nie. Der erste Download des Modells und der Sprachpakete braucht allerdings eine Internetverbindung."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum funktioniert Live Caption auf manchen Websites nicht?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Manche DRM-geschützten Player, etwa von Streamingdiensten, lassen Chrome womöglich nicht auf den Ton zugreifen. Außerdem braucht die Funktion ein aktuelles Chrome und ein vollständiges Sprachmodell. LessonScriptor kann bei geschützten Inhalten dieselbe Einschränkung haben."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert Live Caption auf dem Chromebook?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. ChromeOS hat eine eigene Version: Einstellungen > Zugänglichkeit > Bedienungshilfen verwalten > Audio und Untertitel > Automatische Untertitel verwenden."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Gibt es Chrome Live Caption auf Deutsch?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja. Deutsch gehört zu den 19 Untertitelsprachen, die Google auflistet, zusammen mit Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Japanisch, Koreanisch und Chinesisch. Fügen Sie Deutsch unter Sprachen verwalten in den Einstellungen für automatische Untertitel hinzu. Wer einen bearbeitbaren, exportierbaren Text braucht: LessonScriptor unterstützt ebenfalls 14 Sprachen, darunter Deutsch."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Chrome Live Caption reparieren",
+      "inLanguage": "de-DE",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Automatische Untertitel aus- und einschalten",
+          "text": "Unter chrome://settings/accessibility Automatische Untertitel ausschalten, 10 Sekunden warten, einschalten und Chrome neu starten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Chrome aktualisieren",
+          "text": "Dreipunkt-Menü > Hilfe > Über Google Chrome, dann Neu starten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Sprachmodell neu herunterladen",
+          "text": "Sprache unter Sprachen verwalten entfernen und wieder hinzufügen oder unter chrome://components nach Updates suchen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Störende Erweiterungen deaktivieren",
+          "text": "Im Inkognitofenster testen und Erweiterungen unter chrome://extensions einzeln deaktivieren."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Prüfen, ob der Ton aus Chrome kommt",
+          "text": "Video im Browser abspielen, Tab nicht stummgeschaltet; Kopfhörer verhindern die Untertitel nicht."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Flags zurücksetzen",
+          "text": "Unter chrome://flags auf Alle zurücksetzen klicken und Chrome neu starten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "name": "Cache leeren",
+          "text": "Unter chrome://settings/clearBrowserData die Bilder und Dateien im Cache löschen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "name": "Zu einer Erweiterung wechseln",
+          "text": "Wenn nichts hilft, eine Erweiterung wie LessonScriptor nutzen, die ein bearbeitbares, exportierbares Transkript anzeigt."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/de/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Chrome Live Caption funktioniert nicht",
+          "item": "https://lessonscriptor.com/de/blog/chrome-untertitel-funktionieren-nicht"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Manage captions and translations in Chrome",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Chromium Issues — Live caption architectural limitations",
+      "href": "https://issues.chromium.org/issues/40268358",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/transcribe-youtube-video"
+    ]
+  }
+}

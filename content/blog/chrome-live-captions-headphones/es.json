@@ -1,0 +1,349 @@
+{
+  "slug": "chrome-live-captions-headphones",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Subtítulos de Chrome con auriculares: qué funciona y qué no",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Subtítulos automáticos Chrome con auriculares: ¿funcionan?",
+    "description": "Los subtítulos automáticos de Chrome sí funcionan con auriculares o AirPods. Lo que falla son las herramientas que usan el micrófono. Te explicamos por qué.",
+    "og_image": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "canonical": "https://lessonscriptor.com/es/blog/subtitulos-chrome-auriculares",
+    "og_title": "Subtítulos de Chrome con auriculares: qué funciona y qué no",
+    "og_description": "Chrome subtitula su propio audio, con o sin auriculares. Las herramientas que escuchan por el micrófono, no. Así puedes distinguirlas.",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "subtítulos automáticos chrome auriculares",
+      "subtítulos chrome con audífonos",
+      "subtítulos en vivo airpods chrome",
+      "transcribir clases con auriculares"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-headphones-hero.png",
+    "alt": "Estudiante con auriculares siguiendo una clase en Chrome con la transcripción en un panel lateral",
+    "width": 1200,
+    "height": 630,
+    "caption": null,
+    "description_for_designer": "Student at desk with over-ear headphones, Chrome browser open with a lecture video and caption side panel. Warm, focused study environment. Cream and terra color palette."
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria y Pierre crean LessonScriptor, una extensión de Chrome para transcribir videos en directo. Victoria estudia antropología y tiene TDAH. Pierre se encarga del desarrollo y del SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Puntos clave",
+    "lead": "Los subtítulos automáticos de Chrome funcionan con auriculares, porque Chrome subtitula el audio que reproduce él mismo, sin micrófono. Lo que no funciona con auriculares son las herramientas que escuchan por el micrófono, incluido el modo gratuito de LessonScriptor. El modo IA de LessonScriptor capta el audio de la pestaña y funciona con cualquier auricular.",
+    "bullets": [
+      "Los subtítulos automáticos de Chrome procesan en el propio dispositivo el audio que suena en el navegador: AirPods, Bluetooth, con cable o USB, da igual.",
+      "Si los subtítulos desaparecen con auriculares, la causa es otra: audio que suena fuera de Chrome (app de Zoom o Teams), pestaña silenciada, modelo de voz incompleto.",
+      "Las herramientas basadas en el micrófono (dictado, reconocimiento de voz del navegador, modo gratuito de LessonScriptor) no oyen nada cuando el sonido va a los auriculares.",
+      "El modo IA de LessonScriptor capta directamente el audio de la pestaña: funciona con auriculares y guarda una transcripción editable y exportable. 30 minutos de prueba gratis.",
+      "En Windows 11 (22H2 o posterior), los subtítulos en directo del sistema (Win+Ctrl+L) subtitulan todo el audio del PC, auriculares incluidos, también en español."
+    ]
+  },
+  "intro": "Los subtítulos automáticos de Chrome funcionan con auriculares: la función subtitula el audio que Chrome reproduce él mismo, procesado en el dispositivo, sin pasar por el micrófono. Conectar unos AirPods, unos Sony WH-1000XM5 o unos auriculares con cable no desactiva los subtítulos. La confusión viene de otro lado: muchas herramientas de transcripción escuchan por el micrófono, y esas dejan de oír cuando el sonido va a los auriculares. Es el caso del modo gratuito de LessonScriptor. Esta guía explica qué funciona con auriculares, qué no, y cómo transcribir una clase grabada en el Campus Virtual o un video de YouTube con auriculares usando el modo IA de LessonScriptor.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "micrófonos necesarios para los subtítulos automáticos de Chrome"
+    },
+    {
+      "number": "19",
+      "label": "idiomas de subtítulos de Chrome que lista Google, incluido el español"
+    },
+    {
+      "number": "30 min",
+      "label": "de prueba gratis del modo IA de LessonScriptor, que funciona con auriculares"
+    }
+  ],
+  "sections": [
+    {
+      "id": "why-no-chrome-captions-headphones",
+      "h2": "¿Funcionan los subtítulos automáticos de Chrome con auriculares?",
+      "body": "Sí. Los subtítulos automáticos de Chrome subtitulan el audio que suena en las pestañas del navegador, dentro de Chrome, antes de que salga hacia los altavoces o los auriculares. Google indica que el audio y los subtítulos se procesan de forma local y nunca salen del dispositivo. El micrófono no interviene.\n\nPor eso, unos auriculares con cable, unos AirPods, unos auriculares Bluetooth o un headset USB no afectan a los subtítulos. Incluso puedes seguir una clase sin altavoces: es uno de los usos que Google tiene previstos.\n\nSi los subtítulos desaparecen al ponerte los auriculares, busca otra causa: la clase está en la app de escritorio de Zoom o Teams y no en Chrome, la pestaña está silenciada o el modelo de voz no está completo. Nuestra guía de solución de problemas detalla las ocho causas conocidas.",
+      "internal_links": [
+        {
+          "text": "Subtítulos automáticos de Chrome no funcionan: 8 soluciones",
+          "url": "/blog/chrome-live-captions-not-working"
+        }
+      ]
+    },
+    {
+      "id": "does-it-work-macos",
+      "h2": "¿Los subtítulos de Chrome funcionan con AirPods en Mac?",
+      "body": "Sí. En macOS, igual que en Windows, los subtítulos automáticos de Chrome funcionan con AirPods y con cualquier otro auricular, porque no dependen de la salida de audio.\n\nSi los subtítulos se detienen al conectar los AirPods, revisa tres cosas: que el video se reproduce en Chrome, que **Subtítulos automáticos** sigue activado en **chrome://settings/accessibility** y que Chrome se reinició del todo (Cmd+Q) tras la última actualización de macOS o de Chrome. A veces basta con desconectar y volver a conectar el Bluetooth para que se reanude el audio.\n\nEl problema con auriculares en Mac afecta sobre todo a las herramientas que escuchan por el micrófono del MacBook: cuando el sonido va a los AirPods, el micrófono deja de oír el video."
+    },
+    {
+      "id": "what-is-tab-audio-capture",
+      "h2": "¿Qué es la captura de audio de la pestaña y por qué funciona con auriculares?",
+      "body": "La captura de audio de la pestaña es una API de Chrome que permite a una extensión recibir el audio de una pestaña concreta, sea cual sea el dispositivo de salida.\n\nEl modo IA de LessonScriptor usa esta captura: recibe el sonido de la pestaña antes de que llegue a los auriculares, lo envía por fragmentos (10 segundos en modo Normal, 30 segundos en modo Óptimo, más preciso) a una IA de transcripción tipo Whisper y muestra el texto en el panel lateral con un pequeño retraso. Mientras tanto, el sonido sigue llegando con normalidad a tus auriculares.\n\nEl proceso no depende del micrófono ni de la salida de audio: AirPods, Sony WH-1000XM5, Bose, un headset USB o auriculares con cable dan el mismo resultado. Cada pestaña es independiente, así que puedes transcribir varios videos a la vez.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en vivo en Chrome con LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "windows-workaround",
+      "h2": "¿Hay una alternativa gratuita de subtítulos con auriculares en Windows?",
+      "body": "Sí. Además de los subtítulos automáticos de Chrome, Windows 11 (versión 22H2 y posteriores) incluye **subtítulos en directo** a nivel de sistema, que subtitulan todo el audio del PC, auriculares incluidos, y no solo Chrome. Son útiles para una clase en la app de escritorio de Zoom o Teams.\n\n**Cómo activarlos en Windows 11:** pulsa **Win+Ctrl+L** o ve a Configuración > Accesibilidad > Subtítulos. Aparece una barra de subtítulos sobre las ventanas. El español está entre los idiomas disponibles.\n\n**Windows 10:** no tiene esta función; usa los subtítulos automáticos de Chrome.\n\n**Limitación:** como los de Chrome, los subtítulos en directo de Windows son de solo lectura, sin edición ni exportación, y la barra puede tapar parte del video. Para estudiar una clase, una transcripción que puedas guardar sigue siendo más útil.",
+      "internal_links": [
+        {
+          "text": "Subtítulos en vivo para grabaciones de Zoom",
+          "url": "/blog/live-captions-zoom-recordings-chrome"
+        }
+      ]
+    },
+    {
+      "id": "lessonscriptor-headphones-setup",
+      "h2": "¿Cómo uso LessonScriptor con auriculares?",
+      "body": "Para usar LessonScriptor con auriculares necesitas el modo IA, porque el modo gratuito escucha por el micrófono.\n\n1. Instala LessonScriptor desde Chrome Web Store.\n2. Abre tu video en Chrome (una clase en Moodle o en el Campus Virtual, YouTube, Zoom en el navegador) y haz clic en el icono de LessonScriptor para abrir el panel lateral.\n3. Elige el **modo IA**. Los primeros 30 minutos son gratis; después compras un paquete si lo necesitas.\n4. Reproduce el video: la transcripción aparece en el panel con unos segundos de retraso.\n\nEl modo IA funciona con paquetes de pago único, sin suscripción, que se descuentan por segundo y no caducan: 5 h por 5 US$, 15 h por 12 US$, 30 h por 21 US$ (precios en dólares; Stripe muestra una estimación en tu moneda). Si prefieres el modo gratuito, necesitas altavoces con al menos un 80 % de volumen y sin auriculares.",
+      "internal_links": [
+        {
+          "text": "Subtítulos automáticos de Chrome o LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    },
+    {
+      "id": "which-headphones-work",
+      "h2": "¿Qué auriculares funcionan con los subtítulos en vivo en Chrome?",
+      "body": "Todos los auriculares funcionan con los subtítulos automáticos de Chrome y con el modo IA de LessonScriptor, porque ninguno de los dos usa el micrófono. Solo las herramientas basadas en el micrófono necesitan altavoces.",
+      "table": {
+        "headers": [
+          "Herramienta",
+          "Auriculares con cable / USB",
+          "AirPods y Bluetooth",
+          "Por qué"
+        ],
+        "rows": [
+          [
+            "Subtítulos automáticos de Chrome",
+            "Sí",
+            "Sí",
+            "Subtitula el audio que suena en Chrome, sin micrófono"
+          ],
+          [
+            "Subtítulos en directo de Windows 11",
+            "Sí",
+            "Sí",
+            "Subtitula el audio del sistema"
+          ],
+          [
+            "LessonScriptor, modo IA",
+            "Sí",
+            "Sí",
+            "Capta el audio de la pestaña"
+          ],
+          [
+            "LessonScriptor, modo gratuito",
+            "No",
+            "No",
+            "Escucha por el micrófono: altavoces al 80 % o más"
+          ]
+        ]
+      }
+    }
+  ],
+  "cta": {
+    "heading": "Transcribe tus clases con auriculares",
+    "body": "El modo IA de LessonScriptor capta el audio de la pestaña y funciona con cualquier auricular. 30 minutos de prueba gratis y luego paquetes sin suscripción.",
+    "button_label": "Añadir LessonScriptor a Chrome",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Los subtítulos automáticos de Chrome funcionan con auriculares?",
+        "answer": "Sí. Chrome subtitula el audio que reproduce él mismo, procesado en el dispositivo, sin usar el micrófono. Los auriculares con cable, Bluetooth o USB no impiden los subtítulos. Si desaparecen, comprueba que el video suena en Chrome y que la pestaña no está silenciada."
+      },
+      {
+        "question": "¿Los subtítulos de Chrome funcionan con AirPods?",
+        "answer": "Sí, en Mac y en Windows. Los subtítulos automáticos no dependen de la salida de audio. Las que no funcionan con AirPods son las herramientas que escuchan por el micrófono, como el modo gratuito de LessonScriptor."
+      },
+      {
+        "question": "¿Por qué mi transcripción deja de funcionar cuando me pongo los auriculares?",
+        "answer": "Lo más probable es que tu herramienta escuche por el micrófono. Cuando el sonido va a los auriculares, el micrófono ya no oye el video. Usa una herramienta que capte el audio de la pestaña, como el modo IA de LessonScriptor, o usa altavoces."
+      },
+      {
+        "question": "¿Cómo transcribo una clase del Campus Virtual con auriculares?",
+        "answer": "Abre la clase en Chrome, inicia LessonScriptor en modo IA y reproduce el video. El modo IA capta el audio de la pestaña, así que los auriculares no molestan, y obtienes una transcripción editable y exportable en .txt o .md."
+      },
+      {
+        "question": "¿Windows 10 tiene subtítulos en directo como Windows 11?",
+        "answer": "No. Los subtítulos en directo del sistema (Win+Ctrl+L) son exclusivos de Windows 11 versión 22H2 y posteriores. En Windows 10, usa los subtítulos automáticos de Chrome, que funcionan con auriculares, o el modo IA de LessonScriptor."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Subtítulos de Chrome con auriculares: la respuesta corta",
+    "body": "Los subtítulos automáticos de Chrome funcionan con cualquier auricular, porque subtitulan el audio que suena en Chrome, en el propio dispositivo, sin micrófono. Si desaparecen con auriculares, el problema está en otro sitio: audio fuera de Chrome, pestaña silenciada o modelo de voz incompleto. Lo que no funciona con auriculares son las herramientas basadas en el micrófono, incluido el modo gratuito de LessonScriptor. Para una transcripción que puedas guardar, resaltar y exportar mientras escuchas con auriculares, el modo IA de LessonScriptor capta el audio de la pestaña y funciona con AirPods, Bluetooth, cable o USB. En Windows 11, los subtítulos en directo del sistema son una alternativa gratuita de solo lectura."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Subtítulos de Chrome con auriculares: qué funciona y qué no",
+      "description": "Los subtítulos automáticos de Chrome sí funcionan con auriculares o AirPods. Lo que falla son las herramientas que usan el micrófono. Te explicamos por qué.",
+      "inLanguage": "es",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/es/blog/subtitulos-chrome-auriculares",
+      "url": "https://lessonscriptor.com/es/blog/subtitulos-chrome-auriculares",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudiante de antropología con TDAH",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desarrollador y SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Los subtítulos automáticos de Chrome funcionan con auriculares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. Chrome subtitula el audio que reproduce él mismo, procesado en el dispositivo, sin usar el micrófono. Los auriculares con cable, Bluetooth o USB no impiden los subtítulos. Si desaparecen, comprueba que el video suena en Chrome y que la pestaña no está silenciada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Los subtítulos de Chrome funcionan con AirPods?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, en Mac y en Windows. Los subtítulos automáticos no dependen de la salida de audio. Las que no funcionan con AirPods son las herramientas que escuchan por el micrófono, como el modo gratuito de LessonScriptor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Por qué mi transcripción deja de funcionar cuando me pongo los auriculares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lo más probable es que tu herramienta escuche por el micrófono. Cuando el sonido va a los auriculares, el micrófono ya no oye el video. Usa una herramienta que capte el audio de la pestaña, como el modo IA de LessonScriptor, o usa altavoces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo transcribo una clase del Campus Virtual con auriculares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Abre la clase en Chrome, inicia LessonScriptor en modo IA y reproduce el video. El modo IA capta el audio de la pestaña, así que los auriculares no molestan, y obtienes una transcripción editable y exportable en .txt o .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Windows 10 tiene subtítulos en directo como Windows 11?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Los subtítulos en directo del sistema (Win+Ctrl+L) son exclusivos de Windows 11 versión 22H2 y posteriores. En Windows 10, usa los subtítulos automáticos de Chrome, que funcionan con auriculares, o el modo IA de LessonScriptor."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Transcribir un video con auriculares usando LessonScriptor",
+      "inLanguage": "es",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instalar LessonScriptor",
+          "text": "Instala la extensión desde Chrome Web Store."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abrir el panel lateral",
+          "text": "Abre el video en Chrome y haz clic en el icono de LessonScriptor."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Elegir el modo IA",
+          "text": "El modo IA capta el audio de la pestaña; 30 minutos de prueba gratis."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Reproducir el video",
+          "text": "La transcripción aparece en el panel con unos segundos de retraso."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://lessonscriptor.com/es"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/es/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Subtítulos de Chrome con auriculares",
+          "item": "https://lessonscriptor.com/es/blog/subtitulos-chrome-auriculares"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Google Chrome Help — Live Caption",
+      "href": "https://support.google.com/chrome/answer/10538231",
+      "external": true
+    },
+    {
+      "text": "Microsoft Support — Use live captions to better understand audio",
+      "href": "https://support.microsoft.com/en-us/windows/use-live-captions-to-better-understand-audio-b52da59c-14b8-4031-aeeb-f6a47e6055df",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/chrome-live-captions-vs-lessonscriptor"
+    ]
+  }
+}

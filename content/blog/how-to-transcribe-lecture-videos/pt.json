@@ -2,81 +2,448 @@
   "slug": "how-to-transcribe-lecture-videos",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "Como transcrever videoaulas automaticamente",
-  "reading_time_min": 7,
+  "h1": "Como transcrever um vídeo de aula: 5 métodos comparados",
+  "reading_time_min": 12,
   "published_at": "2026-04-25",
-  "updated_at": "2026-04-28",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "How to Transcribe Lecture Videos Automatically",
-    "description": "Learn how to transcribe lecture videos automatically using AI. Free Chrome extension, no upload needed. Step-by-step guide for students.",
+    "title": "Como transcrever um vídeo de aula: 5 métodos comparados",
+    "description": "Como transcrever um vídeo de aula no Moodle, Classroom, YouTube ou Zoom: compare 5 métodos e tenha um texto editável sem precisar baixar o arquivo.",
     "keywords": [
-      "transcribe lecture video",
-      "automatic lecture transcription",
-      "lecture to text"
+      "como transcrever um vídeo",
+      "transcrever videoaula",
+      "transcrição de aulas",
+      "transcrever aula gravada",
+      "como gravar aulas",
+      "aula em texto"
     ]
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria e Pierre desenvolvem o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria e Pierre desenvolvem o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
-  "intro": "A forma mais rápida de transcrever uma videoaula automaticamente é usar o LessonScriptor — uma extensão Chrome gratuita que transcreve qualquer vídeo em tempo real enquanto toca, diretamente no seu navegador. Sem upload, sem espera, sem assinatura.",
+  "tldr": {
+    "label": "Principais pontos",
+    "lead": "Transcrição de aulas é o processo de transformar o áudio falado de uma aula em texto pesquisável. O método certo depende de uma pergunta só: você tem o arquivo do vídeo ou só um player onde pode assistir?",
+    "bullets": [
+      "**Transcrever à mão** leva cerca de 4 horas de digitação para cada hora de áudio. Só compensa para uma citação curta que você precisa palavra por palavra.",
+      "**Legendas automáticas do YouTube** e **legendas do AVA** (Panopto, Canvas Studio, Kaltura no Moodle) são grátis quando a universidade ou quem publicou o vídeo as ativou. Você lê no player, e as opções de exportação variam.",
+      "**Ferramentas de upload** como TurboScribe, Notta e Otter.ai são precisas, mas exigem um arquivo de áudio ou vídeo. A maioria das videoaulas do AVA não pode ser baixada.",
+      "**Transcrição ao vivo no navegador** (LessonScriptor) transforma o que toca numa aba do Chrome em uma transcrição editável. Não precisa de arquivo, de download nem de gravação.",
+      "Gravar uma aula normalmente exige autorização do professor. Estudantes com deficiência ou TDAH podem pedir adaptações, como transcrições ou gravações, ao núcleo de acessibilidade da universidade."
+    ]
+  },
+  "intro": "O jeito mais rápido de transcrever um vídeo de aula é tocá-lo no Chrome com uma extensão de transcrição ao vivo como o LessonScriptor, que transforma o áudio em uma transcrição editável enquanto o vídeo roda, sem enviar arquivo e sem baixar nada. Isso faz diferença porque a maioria das videoaulas no Brasil fica dentro do AVA (quase sempre Moodle, como o e-Disciplinas da USP), do Google Classroom, de um Google Drive compartilhado pelo professor ou do Zoom, onde o botão de download costuma estar desativado. Ferramentas de upload como TurboScribe e Otter.ai não funcionam sem arquivo. Este guia compara os cinco jeitos realistas de transcrever uma videoaula: digitação manual, legendas automáticas do YouTube, legendas do próprio AVA, ferramentas de upload e transcrição ao vivo no navegador. Depois mostra o passo a passo em cada plataforma, com dicas de precisão e uma nota sobre gravar aulas com respeito às regras.",
   "sections": [
     {
-      "h2": "Por que fazer anotações manuais durante as aulas não funciona",
-      "body": "Escrever à mão durante uma aula obriga você a dividir a atenção entre ouvir, entender e escrever — muitas vezes tudo ao mesmo tempo. Pesquisas mostram consistentemente que estudantes que transcrevem aulas palavra por palavra retêm menos conteúdo do que aqueles que se envolvem ativamente com ele. O problema não é disciplina. É a ferramenta. Quando você está ocupado escrevendo, não está aprendendo."
+      "id": "what-is-lecture-transcription",
+      "h2": "O que é transcrição de aulas?",
+      "body": "Transcrição de aulas é a conversão do conteúdo falado de uma aula em texto escrito, seja uma transcrição literal, seja uma versão limpa para estudar. Para quem estuda, ela resolve três coisas de uma vez. Libera sua atenção das anotações durante a aula, torna uma gravação de 90 minutos pesquisável em segundos e entrega a matéria-prima para resumos, revisões ou um modelo Cornell.\n\nQuando alguém pesquisa “como transcrever um vídeo”, normalmente está em uma de duas situações. Ou **tem o arquivo** (um MP4 gravado no celular, uma gravação do Zoom baixada, um podcast), ou **só tem o player** (uma aula gravada no AVA, um vídeo do Google Classroom, um curso do Coursera, a videoaula da UNIVESP). A primeira é fácil e muitas ferramentas resolvem. A segunda é onde a maioria trava, porque a plataforma não deixa baixar nada."
     },
     {
-      "h2": "Como a transcrição por IA funciona no navegador",
-      "body": "O LessonScriptor usa dois motores de transcrição. O modo gratuito usa a Web Speech API, que é integrada ao Chrome e processa o áudio localmente no seu dispositivo — nada sai do seu computador. O modo premium captura o áudio diretamente da aba do navegador e o envia para um modelo de IA na nuvem para transcrição, retornando texto altamente preciso em segundos."
+      "id": "methods-compared",
+      "h2": "Quais são os jeitos de transcrever uma videoaula?",
+      "body": "Existem cinco métodos práticos. Eles se diferenciam principalmente em duas coisas: se precisam de um arquivo e o que você recebe no final, uma legenda que só dá para ler no player ou um documento que você edita e exporta.",
+      "table": {
+        "headers": [
+          "Método",
+          "Precisa de arquivo para baixar?",
+          "Custo",
+          "O que você recebe",
+          "Melhor para"
+        ],
+        "rows": [
+          [
+            "Digitação manual",
+            "Não",
+            "Grátis, cerca de 4h por hora de áudio",
+            "Texto exato, muito lento",
+            "Citações curtas"
+          ],
+          [
+            "Legendas automáticas do YouTube",
+            "Não, mas o vídeo precisa estar no YouTube",
+            "Grátis",
+            "Painel de transcrição no YouTube, copiar e colar",
+            "Aulas abertas, UNIVESP no YouTube, e-Aulas da USP, Khan Academy em português"
+          ],
+          [
+            "Legendas do AVA (Panopto, Canvas Studio, Kaltura)",
+            "Não",
+            "Grátis se a universidade ativou",
+            "Legendas no player, às vezes pesquisáveis",
+            "Conferir um termo nas videoaulas do seu curso"
+          ],
+          [
+            "Ferramentas de upload (TurboScribe, Notta, Otter.ai)",
+            "Sim",
+            "Planos gratuitos, depois assinatura",
+            "Transcrição completa após o processamento",
+            "Gravações do celular, MP4 baixados"
+          ],
+          [
+            "Ao vivo no navegador (LessonScriptor)",
+            "Não",
+            "Modo gratuito, modo IA a partir de US$ 5 em pagamento único",
+            "Transcrição editável com destaques e prints, exportação .txt/.md",
+            "Vídeos que não podem ser baixados, aulas ao vivo"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "insight",
+        "label": "A pergunta que decide",
+        "body": "Se você consegue baixar o vídeo, uma ferramenta de upload funciona bem. Se só consegue dar play, você precisa das legendas da própria plataforma ou de uma ferramenta que transcreva o que toca na aba."
+      }
     },
     {
-      "h2": "Passo a passo: como transcrever uma videoaula com o LessonScriptor",
+      "id": "manual",
+      "h2": "Vale a pena transcrever uma aula à mão?",
+      "body": "Transcrever uma aula inteira à mão quase nunca compensa. Transcritores profissionais contam com cerca de quatro horas de trabalho por hora de áudio limpo, e estudantes sem pedal nem atalhos são mais lentos. Uma aula de 90 minutos pode consumir um dia inteiro.\n\nA digitação manual ainda tem lugar para uma definição, uma citação para o TCC ou um trecho em que as palavras exatas do professor importam. Diminua a velocidade para 0,75x nas configurações do player, digite em blocos curtos e pause depois de cada frase."
+    },
+    {
+      "id": "youtube-captions",
+      "h2": "Como pegar a transcrição das legendas automáticas do YouTube?",
+      "body": "As legendas automáticas do YouTube são legendas de reconhecimento de fala geradas de graça para a maioria dos vídeos em idiomas suportados, incluindo o português. São a opção mais simples para aulas abertas como as da UNIVESP no YouTube, as e-Aulas da USP, o Khan Academy em português ou cursos internacionais como o MIT OpenCourseWare. Os limites: quem publicou pode desativá-las, a pontuação costuma faltar e elas erram termos técnicos e nomes próprios.",
       "steps": [
-        "Instale o LessonScriptor pela Chrome Web Store — é grátis, sem cadastro.",
-        "Abra sua videoaula no Chrome (YouTube, Coursera, gravação de Zoom, portal universitário ou qualquer plataforma de vídeo).",
-        "Clique no ícone do LessonScriptor na barra de ferramentas do Chrome para abrir o painel lateral.",
-        "Dê play no vídeo — a transcrição começa automaticamente e o texto aparece em tempo real.",
-        "Edite enquanto assiste: clique para adicionar suas próprias notas, destaque conceitos-chave em cores, negrite terminologia, apague divagações.",
-        "Clique em qualquer timestamp na transcrição para voltar exatamente àquele momento do vídeo.",
-        "Quando terminar, exporte para Markdown para obter um documento formatado com todos os seus destaques e formatação."
+        "Abra o vídeo em youtube.com num navegador de computador.",
+        "Clique em **...mais** abaixo do título para abrir a descrição.",
+        "Role para baixo e clique em **Mostrar transcrição**. Abre um painel com o texto e os tempos de cada trecho.",
+        "No menu de três pontos do painel, desative a exibição dos tempos, depois selecione e copie o texto para as suas anotações."
+      ],
+      "internal_links": [
+        {
+          "text": "Guia completo: como baixar a transcrição de um vídeo do YouTube",
+          "url": "/blog/how-to-download-youtube-transcript"
+        }
       ]
     },
     {
-      "h2": "Modo gratuito vs Modo premium — qual usar para aulas",
-      "body": "Para a maioria dos estudantes, o modo gratuito é suficiente. Funciona bem em um ambiente silencioso com alto-falantes ligados. Se você prefere fones de ouvido, ou se está transcrevendo conteúdo com vocabulário técnico pesado, sotaques ou fala rápida, o modo Premium oferece precisão significativamente melhor a cerca de €1 por hora."
+      "id": "lms-captions",
+      "h2": "O Moodle, o Google Classroom e o Canvas têm transcrição de aulas embutida?",
+      "body": "Panopto, Canvas Studio e Kaltura (muitas vezes embutido no Moodle) conseguem gerar legendas automáticas. Se você vai vê-las depende da configuração da universidade e de o professor tê-las publicado. Quando existem, são a forma mais barata de transcrição de aulas. Mas geralmente ficam presas dentro do player: dá para ler e às vezes pesquisar, raramente exportar um documento limpo. No Brasil, muitos professores também postam a aula gravada como vídeo do Google Drive ou do YouTube (não listado) dentro do AVA ou do Google Classroom, e aí valem as regras dessas plataformas.",
+      "subsections": [
+        {
+          "h3": "Panopto",
+          "body": "Procure o botão **CC** nos controles do player. Se houver legendas, a área lateral do Panopto costuma permitir pesquisar as palavras faladas e ir até aquele ponto. Sem o botão CC, o professor não publicou legendas. Você pode pedir com educação, principalmente se tiver uma adaptação aprovada pelo núcleo de acessibilidade."
+        },
+        {
+          "h3": "Canvas e Google Classroom",
+          "body": "Vídeos do Canvas Studio mostram um controle **CC** quando há legendas. O Google Classroom não tem player próprio: os vídeos abrem no YouTube ou no Google Drive, que pode exibir legendas automáticas em alguns casos. Vídeos do YouTube ou do Panopto incorporados numa página seguem as regras da plataforma original."
+        },
+        {
+          "h3": "Moodle (AVA)",
+          "body": "O Moodle não legenda vídeos sozinho. É ele que está por trás do AVA de muitas universidades, como o e-Disciplinas da USP e os ambientes de EAD da Unicamp, da UNESP e da UFRJ. O player dentro da disciplina costuma ser Kaltura, Panopto, YouTube, Google Drive ou um vídeo HTML5 simples, e as legendas vêm desse serviço. Confira o controle CC do player. Se não houver nada, uma ferramenta de transcrição ao vivo é a alternativa realista."
+        }
+      ]
     },
     {
-      "h2": "Como estudar a partir da sua transcrição",
-      "body": "Depois de transcrita, trate seu documento do LessonScriptor como um guia de estudo. Destaque os conceitos mais importantes em amarelo. Negrite a terminologia-chave. Adicione sua própria interpretação entre colchetes enquanto revisa. Exporte para Markdown e importe no Notion ou Obsidian para armazenamento de longo prazo. Pesquise o texto completo antes das provas. Se você é neurodivergente, a transcrição automática remove a carga cognitiva de fazer anotações simultaneamente — veja <a href=\"/blog/neurodivergent-study-tools\">as melhores ferramentas de estudo para estudantes neurodivergentes</a>."
+      "id": "upload-tools",
+      "h2": "Quais ferramentas transcrevem um arquivo de gravação de aula?",
+      "body": "Ferramentas de upload são serviços de transcrição que processam um arquivo de áudio ou vídeo que você envia. TurboScribe, Notta, Otter.ai e Descript funcionam assim. Geram boas transcrições, muitas vezes com identificação de quem fala, e são a resposta certa quando você já tem o arquivo: um áudio gravado no Gravador do celular numa aula presencial, uma gravação do Zoom que o professor compartilhou em MP4 ou um episódio de podcast. Para aulas em português, confira o suporte de idioma antes de pagar: TurboScribe e Notta aceitam português, enquanto o Otter.ai por muito tempo trabalhou só com inglês, espanhol e francês.\n\nO limite para estudantes é a entrada. A maioria dos players do AVA, do Panopto e do Canvas Studio transmite o vídeo sem opção de download, então não há o que enviar. Gravar a tela para criar um arquivo é lento, dobra o tempo gasto e pode violar os termos de uso da sua universidade.",
+      "internal_links": [
+        {
+          "text": "Alternativas ao Otter.ai para estudantes",
+          "url": "/blog/otter-ai-alternative-for-students"
+        }
+      ]
+    },
+    {
+      "id": "live-in-browser",
+      "h2": "Como transcrever uma videoaula sem baixar o vídeo?",
+      "body": "A transcrição ao vivo no navegador é o método que funciona quando você só pode dar play. O LessonScriptor é uma extensão do Chrome que transcreve o áudio de qualquer coisa tocando na aba atual (AVA em Moodle, Google Classroom, Canvas, Blackboard, Panopto, YouTube, Coursera, uma gravação do Zoom no navegador) num painel lateral que você edita enquanto o texto se forma. Ele não recebe arquivos e não grava áudio. Salva o texto, não uma gravação.\n\nSão dois modos. O **modo gratuito** usa o reconhecimento de fala embutido do Chrome pelo microfone. Não custa nada, não pede conta e não envia áudio para os servidores do LessonScriptor, mas precisa das caixas de som ligadas em cerca de 80% do volume, não funciona com fones de ouvido e também capta a sua própria voz. O **modo IA** captura o áudio da aba diretamente, então funciona com fones e é muito mais preciso com sotaques e jargão. Custa US$ 5 por 5 horas, US$ 12 por 15 horas ou US$ 21 por 30 horas, em pagamento único, com 30 minutos de teste grátis. Os preços estão em dólar e o Stripe converte para reais no pagamento.",
+      "steps": [
+        "Instale o LessonScriptor pela Chrome Web Store. O modo gratuito não pede cadastro.",
+        "Abra a videoaula no Chrome: AVA em Moodle, Google Classroom, Canvas, Panopto, YouTube ou uma gravação do Zoom em nuvem.",
+        "Clique no ícone do LessonScriptor para abrir o painel lateral e escolha o idioma da aula (são 14 suportados, incluindo português).",
+        "Dê play. No modo gratuito, aumente o volume das caixas de som e tire os fones. No modo IA, o texto chega em blocos a cada 10 segundos (Normal) ou 30 segundos (Optimal).",
+        "Edite enquanto assiste: destaque as frases principais em uma de cinco cores, coloque termos em negrito, adicione títulos, apague digressões e capture um print de um slide importante.",
+        "Exporte em .md ou .txt, ou copie para a área de transferência e cole no Notion, no Obsidian, no Google Docs ou num modelo Cornell."
+      ],
+      "internal_links": [
+        {
+          "text": "Transcrição de aulas no Chrome, explicada",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "Transcreva qualquer vídeo em texto de graça",
+          "url": "/transcribe-video-to-text"
+        }
+      ]
+    },
+    {
+      "id": "platform-steps",
+      "h2": "Como transcrever uma aula em cada plataforma?",
+      "body": "Aqui está o caminho mais curto nas cinco plataformas que estudantes mais usam, combinando a opção nativa com a alternativa ao vivo.",
+      "subsections": [
+        {
+          "h3": "Panopto",
+          "body": "Primeiro tente o botão **CC**. Se houver legendas e você só precisa conferir um trecho, basta. Para uma transcrição completa e editável, abra a sessão do Panopto no Chrome, abra o LessonScriptor e dê play. O controle de velocidade do Panopto (1,25x a 1,5x) funciona bem no modo IA, mas a precisão é maior na velocidade normal."
+        },
+        {
+          "h3": "Canvas e Google Classroom",
+          "body": "Abra a página do módulo ou o material da turma e inicie o vídeo. Se for um vídeo do Canvas Studio com legendas, leia pelo **CC**. Se o professor postou um link do Google Drive ou do YouTube no Classroom, abra o vídeo no Chrome e rode o LessonScriptor nessa aba. Vídeos incorporados se transcrevem do mesmo jeito."
+        },
+        {
+          "h3": "Moodle (AVA)",
+          "body": "As disciplinas no Moodle misturam Kaltura, Panopto, YouTube, Google Drive e vídeo simples, seja no e-Disciplinas da USP, seja no AVA de um curso EAD. Confira se o player tem legendas e, se não tiver, use o LessonScriptor na mesma aba. Ele não precisa saber qual player está por baixo."
+        },
+        {
+          "h3": "YouTube",
+          "body": "Use **...mais → Mostrar transcrição** para uma cópia rápida. Use o LessonScriptor quando as legendas estiverem desativadas ou ruins, ou quando você quiser destaques e prints na transcrição enquanto assiste."
+        },
+        {
+          "h3": "Gravação do Zoom",
+          "body": "Se o anfitrião salvou uma gravação em nuvem com a transcrição de áudio ativada, o player web do Zoom mostra a transcrição ao lado do vídeo. Se não, abra a gravação em nuvem no Chrome e use o LessonScriptor. Se você tem só um arquivo MP4 no computador, uma ferramenta de upload como o TurboScribe ou o Notta é o caminho mais direto. Aulas ao vivo no Google Meet ou no Teams pelo navegador também funcionam."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Transcrições do Zoom e do Google Meet para estudantes",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "accuracy",
+      "h2": "Como conseguir uma transcrição de aula mais precisa?",
+      "body": "A precisão da transcrição depende mais do áudio do que da ferramenta. Estes hábitos fazem a maior diferença.",
+      "steps": [
+        {
+          "strategy": "Escolha o idioma certo primeiro.",
+          "detail": "Uma aula em português transcrita com inglês selecionado vira um texto sem sentido. O contrário também: se a disciplina usa um vídeo em inglês, troque o idioma antes de dar play."
+        },
+        {
+          "strategy": "Use o modo IA para sotaques, jargão e ruído.",
+          "detail": "O reconhecimento de fala do navegador sofre com química orgânica, latim jurídico do Direito ou um professor com sotaque forte. Modelos na nuvem do tipo Whisper lidam muito melhor com isso."
+        },
+        {
+          "strategy": "No modo gratuito, dê ao microfone um som limpo.",
+          "detail": "Caixas de som em 80% ou mais, sem fones, um cômodo silencioso, e fique em silêncio, porque a sua voz também é transcrita."
+        },
+        {
+          "strategy": "Mantenha a velocidade perto de 1x.",
+          "detail": "Acima de 1,5x, palavras se perdem. Assista na velocidade normal e leia a transcrição na diagonal depois."
+        },
+        {
+          "strategy": "Corrija os termos-chave uma vez.",
+          "detail": "Corrija um nome ou uma fórmula mal entendida na primeira vez que aparece e coloque em negrito, para achar fácil depois."
+        }
+      ]
+    },
+    {
+      "id": "best-way-to-record",
+      "h2": "Qual é o melhor jeito de gravar aulas sendo estudante?",
+      "body": "O melhor jeito de gravar uma aula depende de ela ser presencial ou online. Numa aula presencial, o Gravador do iPhone ou o app Gravador do Android (ou do Pixel) perto da frente da sala, ou as anotações com áudio sincronizado do Notability no iPad, capturam o som. Depois você transcreve o arquivo com uma ferramenta de upload. Para aulas online, EAD ou aulas gravadas, normalmente você nem precisa gravar, porque a universidade já guarda o vídeo no AVA. A transcrição ao vivo no navegador entrega o texto sem criar uma gravação."
+    },
+    {
+      "id": "legality-etiquette",
+      "h2": "É permitido gravar ou transcrever uma aula?",
+      "body": "Gravar uma aula normalmente exige a autorização do professor, e muitas universidades tratam disso no regimento ou em normas internas. A aula pode ser protegida por direito autoral, e a gravação capta também a voz e a imagem do professor e dos colegas. O padrão educado e seguro é pedir ao professor no começo do semestre, usar gravações e transcrições só para o seu estudo e nunca publicá-las, nem em grupos de WhatsApp da turma sem permissão.\n\nEstudantes com deficiência, incluindo TDAH, dislexia ou perda auditiva, muitas vezes podem pedir adaptações como gravações, legendas ou apoio nas anotações. No Brasil, a Lei Brasileira de Inclusão (Lei 13.146/2015) prevê recursos de acessibilidade no ensino, e o pedido normalmente passa pelo núcleo de acessibilidade da universidade, que pode combinar as adaptações com os professores. As regras variam conforme a instituição, então confira a política da sua universidade. Isso não é aconselhamento jurídico.",
+      "internal_links": [
+        {
+          "text": "Adaptações para TDAH na universidade e a tecnologia que ajuda",
+          "url": "/blog/adhd-university-accommodation-tech"
+        }
+      ]
+    },
+    {
+      "id": "study-from-transcript",
+      "h2": "Como estudar a partir da transcrição de uma aula?",
+      "body": "Uma transcrição é matéria-prima, não anotação pronta. Leia uma vez e destaque as três a cinco ideias que o professor repetiu. Coloque em negrito cada termo que pode cair na prova e adicione um título a cada mudança de assunto. Depois cole o arquivo .md exportado no Notion ou no Obsidian, ou peça ao ChatGPT ou ao NotebookLM que o resuma. Esse último passo acontece fora do LessonScriptor, que não gera resumos sozinho. Use o texto completo para se testar antes das provas.",
+      "internal_links": [
+        {
+          "text": "O melhor anotador com IA para aulas",
+          "url": "/blog/ai-note-taker-for-lectures"
+        },
+        {
+          "text": "Como fazer anotações com TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
     }
   ],
-  "faq": {
-    "heading": "FAQ",
-    "questions": [
+  "summary": {
+    "heading": "A resposta curta",
+    "body": "Se você tem o arquivo, use uma ferramenta de upload. Se a aula está no YouTube ou o seu AVA tem legendas, leia essas legendas. Se você só pode dar play no Moodle, no Google Classroom, no Canvas ou numa gravação do Zoom, o LessonScriptor transcreve o que toca na aba do Chrome numa transcrição editável, de graça no modo microfone ou a partir de US$ 5 em pagamento único no modo IA.",
+    "internal_links": [
       {
-        "question": "Posso transcrever automaticamente uma gravação de aula no Zoom?",
-        "answer": "Sim. Abra a gravação do Zoom no Chrome e use o LessonScriptor para transcrevê-la. Funciona com qualquer vídeo reproduzido no Chrome, incluindo Zoom, Google Meet, Teams e portais de vídeo universitários."
-      },
-      {
-        "question": "A transcrição automática de aulas funciona em francês ou espanhol?",
-        "answer": "Sim. O LessonScriptor suporta mais de 14 idiomas. Selecione seu idioma nas configurações e a transcrição aparecerá nesse idioma."
-      },
-      {
-        "question": "É trapaça usar uma ferramenta de transcrição para aulas?",
-        "answer": "Não. Ferramentas de transcrição são recursos acadêmicos, semelhantes a dispositivos de gravação. Elas capturam o que foi dito — a aprendizagem e a análise ainda são suas. Muitas universidades permitem e incentivam explicitamente o uso de ferramentas de acessibilidade por estudantes."
-      },
-      {
-        "question": "Qual é a melhor ferramenta de transcrição para estudantes?",
-        "answer": "O LessonScriptor é a melhor ferramenta de transcrição para estudantes porque funciona diretamente no Chrome em qualquer plataforma de vídeo, oferece um modo gratuito sem limites e permite edição ao vivo enquanto assiste — diferente da maioria das ferramentas que só produzem uma transcrição estática depois."
+        "text": "Veja como funciona a transcrição de aulas",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "internal_links": [
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Como transcrever um vídeo de graça?",
+        "answer": "Para transcrever um vídeo de graça, use o painel Mostrar transcrição do YouTube se a videoaula estiver no YouTube, as legendas CC da plataforma se a sua universidade as ativou, ou o modo gratuito do LessonScriptor, que transcreve qualquer vídeo tocando no Chrome pelo microfone, sem criar conta."
+      },
+      {
+        "question": "Dá para transcrever uma aula do Moodle ou do Google Classroom sem baixar o vídeo?",
+        "answer": "Sim. O LessonScriptor transcreve o que toca na aba do Chrome, então você não precisa do arquivo. Isso vale para o AVA em Moodle, o e-Disciplinas da USP, o Google Classroom, o Canvas e o Panopto. Alguns players também mostram legendas próprias no botão CC, se o professor as publicou."
+      },
+      {
+        "question": "O LessonScriptor grava o áudio da aula?",
+        "answer": "Não. O LessonScriptor salva uma transcrição em texto, não uma gravação de áudio ou vídeo, e não aceita o envio de arquivos MP3 ou MP4. Ele só transcreve o que está tocando na aba."
+      },
+      {
+        "question": "Dá para transcrever a gravação de uma aula no Zoom?",
+        "answer": "Sim. Abra a gravação em nuvem do Zoom no Chrome e use o LessonScriptor, ou use a transcrição de áudio do próprio Zoom, se o anfitrião a ativou. Se você tem só um arquivo MP4 no computador, uma ferramenta de upload como o TurboScribe ou o Notta é o caminho mais direto."
+      },
+      {
+        "question": "A transcrição de aulas funciona em português e em outros idiomas?",
+        "answer": "Sim. O LessonScriptor suporta 14 idiomas, entre eles português, inglês, espanhol, francês, alemão, chinês, árabe e hindi. Escolha o idioma da aula antes de dar play, o que também ajuda quando a disciplina usa vídeos em inglês."
+      },
+      {
+        "question": "Preciso de autorização para gravar uma aula?",
+        "answer": "Normalmente, sim. Peça ao professor e confira o regulamento da sua universidade. Estudantes com deficiência ou TDAH podem solicitar adaptações, como gravações ou transcrições, pelo núcleo de acessibilidade da instituição, com base na Lei Brasileira de Inclusão (Lei 13.146/2015). Isso não é aconselhamento jurídico."
+      }
+    ]
+  },
+  "schemas": [
     {
-      "text": "Best study tools for neurodivergent students",
-      "url": "/blog/neurodivergent-study-tools"
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Como transcrever um vídeo de aula: 5 métodos comparados",
+      "description": "Como transcrever um vídeo de aula no Moodle, Classroom, YouTube ou Zoom: compare 5 métodos e tenha um texto editável sem precisar baixar o arquivo.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-04-25",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/como-transcrever-videos-de-aulas",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de Antropologia com TDAH",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Como transcrever uma videoaula sem baixar o vídeo",
+      "inLanguage": "pt-BR",
+      "tool": [
+        {
+          "@type": "HowToTool",
+          "name": "Google Chrome"
+        },
+        {
+          "@type": "HowToTool",
+          "name": "Extensão LessonScriptor para Chrome"
+        }
+      ],
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Instale a extensão",
+          "text": "Instale o LessonScriptor pela Chrome Web Store. O modo gratuito não pede cadastro."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Abra a aula",
+          "text": "Abra a videoaula no Chrome: AVA em Moodle, Google Classroom, Canvas, Panopto, YouTube ou uma gravação do Zoom em nuvem."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Abra o painel lateral",
+          "text": "Clique no ícone do LessonScriptor para abrir o painel lateral e escolha o idioma da aula."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Dê play",
+          "text": "Dê play. No modo gratuito, aumente o volume das caixas de som e tire os fones. No modo IA, o texto chega em blocos de 10 ou 30 segundos."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Edite enquanto assiste",
+          "text": "Destaque as frases importantes, coloque termos em negrito, adicione títulos e capture prints dos slides importantes."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Exporte",
+          "text": "Exporte em .md ou .txt, ou copie a transcrição para a área de transferência."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Como transcrever um vídeo de graça?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para transcrever um vídeo de graça, use o painel Mostrar transcrição do YouTube se a videoaula estiver no YouTube, as legendas CC da plataforma se a sua universidade as ativou, ou o modo gratuito do LessonScriptor, que transcreve qualquer vídeo tocando no Chrome pelo microfone, sem criar conta."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para transcrever uma aula do Moodle ou do Google Classroom sem baixar o vídeo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O LessonScriptor transcreve o que toca na aba do Chrome, então você não precisa do arquivo. Isso vale para o AVA em Moodle, o e-Disciplinas da USP, o Google Classroom, o Canvas e o Panopto. Alguns players também mostram legendas próprias no botão CC, se o professor as publicou."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor grava o áudio da aula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O LessonScriptor salva uma transcrição em texto, não uma gravação de áudio ou vídeo, e não aceita o envio de arquivos MP3 ou MP4. Ele só transcreve o que está tocando na aba."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Dá para transcrever a gravação de uma aula no Zoom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. Abra a gravação em nuvem do Zoom no Chrome e use o LessonScriptor, ou use a transcrição de áudio do próprio Zoom, se o anfitrião a ativou. Se você tem só um arquivo MP4 no computador, uma ferramenta de upload como o TurboScribe ou o Notta é o caminho mais direto."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "A transcrição de aulas funciona em português e em outros idiomas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. O LessonScriptor suporta 14 idiomas, entre eles português, inglês, espanhol, francês, alemão, chinês, árabe e hindi. Escolha o idioma da aula antes de dar play, o que também ajuda quando a disciplina usa vídeos em inglês."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Preciso de autorização para gravar uma aula?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Normalmente, sim. Peça ao professor e confira o regulamento da sua universidade. Estudantes com deficiência ou TDAH podem solicitar adaptações, como gravações ou transcrições, pelo núcleo de acessibilidade da instituição, com base na Lei Brasileira de Inclusão (Lei 13.146/2015). Isso não é aconselhamento jurídico."
+          }
+        }
+      ]
     }
-  ],
-  "schemas": []
+  ]
 }

@@ -1,0 +1,573 @@
+{
+  "slug": "best-note-taking-apps-for-students",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Meilleure application de prise de notes pour étudiant en 2026 : le comparatif évalué en cours",
+  "reading_time_min": 12,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Meilleure application prise de notes étudiant (2026)",
+    "description": "La meilleure application de prise de notes pour étudiant en 2026, classée selon votre façon de suivre un cours : clavier, stylet ou transcription. Prix, TDAH.",
+    "keywords": [
+      "meilleure application prise de notes étudiant",
+      "application prise de notes étudiant",
+      "application prise de notes gratuite",
+      "logiciel prise de notes cours",
+      "prise de notes en amphi"
+    ],
+    "canonical": "https://lessonscriptor.com/fr/blog/best-note-taking-apps-for-students",
+    "og_title": "Meilleure application de prise de notes pour étudiant en 2026",
+    "og_description": "OneNote, Notion, Obsidian, Google Docs, Goodnotes, Notability, LessonScriptor, Otter et Notion AI Meeting Notes, évalués sur une seule tâche : suivre un cours de 90 minutes.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription de cours en direct, depuis le sud de la France. Victoria étudie l'anthropologie à distance et a un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "L'essentiel",
+    "lead": "La meilleure application de prise de notes dépend de la façon dont le cours vous parvient : au clavier, au stylet ou par transcription. La plupart des étudiants finissent avec deux applications : une pour capturer, une pour organiser.",
+    "bullets": [
+      "Meilleure appli gratuite au clavier : **Microsoft OneNote**. Gratuite, disponible partout, et souvent déjà incluse dans le Microsoft 365 fourni par votre université via l'ENT.",
+      "Meilleure pour organiser un semestre : **Notion**. Son offre Plus est gratuite avec une adresse e-mail universitaire.",
+      "Meilleures applis au stylet : **Goodnotes** pour annoter les diapos, **Notability** pour une écriture synchronisée avec l'audio en amphi.",
+      "Meilleure pour les cours en ligne et enregistrés : **LessonScriptor**. Elle transcrit tout ce qui joue dans un onglet Chrome (Moodle, Panopto, YouTube, Zoom dans le navigateur) en texte modifiable.",
+      "Meilleure pour l'amphi avec un simple téléphone : **Otter**. Mais l'offre gratuite coupe chaque enregistrement à 30 minutes."
+    ]
+  },
+  "stats": [
+    {
+      "number": "9",
+      "label": "applications comparées : clavier, stylet et transcription automatique"
+    },
+    {
+      "number": "30 min",
+      "label": "durée maximale par enregistrement sur l'offre gratuite d'Otter"
+    },
+    {
+      "number": "0 $",
+      "label": "prix de OneNote, Obsidian et Google Docs pour prendre des notes"
+    }
+  ],
+  "intro": "La meilleure application de prise de notes pour étudiant est celle qui correspond à la façon dont vous suivez vos cours. Microsoft OneNote est la meilleure appli gratuite au clavier. Notion est la meilleure pour organiser tout un semestre. Goodnotes et Notability dominent la prise de notes manuscrite sur iPad. LessonScriptor est la meilleure option pour les cours en ligne et les vidéos enregistrées, parce qu'elle transforme n'importe quel cours qui joue dans Chrome en transcription en direct, modifiable.\n\nLa plupart des comparatifs, y compris la liste de 15 applis gratuites publiée par Goodnotes, jugent ces outils de façon générale. Ce guide évalue neuf applications sur une seule tâche : transformer un cours magistral de 60 à 90 minutes, en amphi ou sur le Moodle de la Sorbonne ou de l'Université de Lyon, en notes que l'on peut vraiment réviser. Cette tâche se découpe en trois méthodes de capture (clavier, stylet, transcription automatique), et la bonne appli change selon la méthode.",
+  "sections": [
+    {
+      "id": "best-app-overall",
+      "heading": "Quelle est la meilleure application de prise de notes pour étudiant en 2026 ?",
+      "body": "La meilleure application de prise de notes pour étudiant en 2026 n'est pas une appli unique. C'est un duo : une appli de capture et une appli d'organisation. Aucun outil de cette liste ne fait bien les deux pendant un cours en direct. Notion organise parfaitement mais vous ralentit en pleine phrase. Goodnotes capture l'écriture manuscrite très vite mais fait une mauvaise base de données de semestre.\n\nLes réponses courtes, selon votre situation :\n\n**Vous tapez en cours et voulez du gratuit :** Microsoft OneNote. Il fonctionne sur Windows, Mac, iOS, Android et le web, et beaucoup d'universités françaises fournissent Microsoft 365 à leurs étudiants via l'ENT.\n\n**Vous voulez un tableau de bord pour toutes vos UE :** Notion. Son offre Plus est gratuite pour les étudiants et enseignants avec une adresse e-mail universitaire.\n\n**Vous écrivez à la main sur iPad :** Goodnotes pour annoter les diapos, Notability si vous voulez l'audio synchronisé avec vos notes.\n\n**Vos cours sont en ligne ou enregistrés (Moodle, CNED, Panopto, YouTube) :** LessonScriptor capture le cours en transcription en direct dans Chrome, pour que vous écoutiez au lieu de courir après le prof.\n\n**Vos cours sont en amphi et vous n'avez qu'un téléphone :** Otter enregistre et transcrit la salle. Prévoyez l'offre Pro si le cours dure plus de 30 minutes."
+    },
+    {
+      "id": "how-we-rated",
+      "heading": "Comment avons-nous évalué ces applications pour les cours ?",
+      "body": "Nous avons noté chaque application sur cinq critères qui comptent en amphi ou devant une vidéo Moodle, plutôt que sur le nombre de fonctionnalités.\n\n**1. Vitesse de capture.** Pouvez-vous suivre le débit d'un enseignant, autour de 120 à 150 mots par minute ? Les applis clavier gagnent pour ceux qui tapent vite. L'écriture manuscrite est plus lente. La transcription règle le problème de vitesse à votre place.\n\n**2. Type de cours.** L'appli fonctionne-t-elle en amphi, en cours Zoom ou Teams en direct, et sur une vidéo Panopto ou YouTube enregistrée ? Peu d'applis gèrent les trois.\n\n**3. Limites gratuites qui bloquent en plein semestre.** Une offre gratuite limitée à 3 fichiers (Goodnotes) ou 5 notes (Notability) est épuisée dès la première semaine. Une limite de 30 minutes par enregistrement (Otter Basic) coupe un cours de 90 minutes en trois morceaux.\n\n**4. Plateformes.** Notability n'est arrivé sur Android qu'en août 2026. LessonScriptor ne fonctionne que dans Chrome sur ordinateur. L'appli doit vivre là où vous travaillez.\n\n**5. Compatibilité TDAH.** Nous avons noté chaque appli sur 10 selon la friction, le risque de distraction et l'aide à la révision. Victoria, qui étudie l'anthropologie à distance et a un TDAH, a pesé sur ce critère."
+    },
+    {
+      "id": "typing-apps",
+      "heading": "Quelles applications choisir pour prendre ses notes de cours au clavier ?",
+      "body": "Les applis clavier sont le meilleur choix pour les étudiants qui tapent plus vite qu'ils n'écrivent et dont les cours suivent un diaporama ou un plan clair. Les quatre applis ci-dessous sont gratuites au départ, et trois restent gratuites pour un usage étudiant normal."
+    },
+    {
+      "type": "app_card",
+      "rank": 1,
+      "app_name": "Microsoft OneNote",
+      "tagline": "Le classeur numérique gratuit, souvent déjà payé par votre université",
+      "url": "https://www.onenote.com",
+      "platform": "Windows, Mac, iOS, Android, web",
+      "free_tier": "Gratuit avec un compte Microsoft (5 Go OneDrive)",
+      "price": "0 $ ; inclus dans Microsoft 365 Éducation avec une adresse universitaire",
+      "best_for": "Les étudiants dont l'université fournit déjà Microsoft 365 via l'ENT",
+      "adhd_fit": 7,
+      "why_it_wins": "**Adéquation au cours :** élevée. Les pages libres de OneNote permettent de taper n'importe où, d'insérer une diapo et de passer à l'écriture au stylet sur un ordinateur tactile ou un iPad sans changer d'appli. La structure bloc-notes, section, page correspond naturellement à UE, semaine et séance.\n\n**Compatibilité TDAH :** bonne. Tout est dans un seul classeur, et l'interface Office familière ne demande presque aucun réglage, ce qui évite le piège de la procrastination par la configuration.",
+      "key_features": [
+        "Hiérarchie bloc-notes, section, page calquée sur un semestre",
+        "Texte tapé, écriture au stylet et images sur la même page",
+        "Microsoft 365 Éducation gratuit pour les étudiants éligibles avec une adresse universitaire valide"
+      ],
+      "limitations": "Les pages libres deviennent vite désordonnées sans structure. Les fonctionnalités varient entre les versions Windows, Mac et web."
+    },
+    {
+      "type": "app_card",
+      "rank": 2,
+      "app_name": "Notion",
+      "tagline": "Le QG du semestre : UE, échéances et notes au même endroit",
+      "url": "https://www.notion.com",
+      "platform": "Web, Windows, Mac, iOS, Android",
+      "free_tier": "Offre gratuite ; offre Plus gratuite avec une adresse e-mail universitaire",
+      "price": "Plus environ 10 $/mois (gratuit pour les étudiants) ; Business environ 20 $/mois",
+      "best_for": "Organiser tout un semestre : pages par UE, bibliographies, échéances de partiels",
+      "adhd_fit": 6,
+      "why_it_wins": "**Adéquation au cours :** moyenne. Les raccourcis Markdown et les blocs dépliables rendent la frappe rapide, mais les blocs Notion poussent à mettre en forme pendant le cours au lieu d'écouter. Notion brille après le cours, quand vous transformez vos notes brutes en fiche par UE.\n\n**Compatibilité TDAH :** mitigée. Une fois configuré, Notion est un excellent cerveau externe. La configuration elle-même est un piège de procrastination bien connu : partez d'un modèle étudiant tout prêt.",
+      "key_features": [
+        "Offre Plus gratuite pour étudiants et enseignants avec adresse universitaire",
+        "Bases de données pour les échéances, lectures et dates de partiels",
+        "Des milliers de modèles étudiants gratuits, dont beaucoup en français"
+      ],
+      "limitations": "Pas de vraie écriture manuscrite. AI Meeting Notes exige l'offre Business. Les grosses pages peuvent ralentir."
+    },
+    {
+      "type": "app_card",
+      "rank": 3,
+      "app_name": "Obsidian",
+      "tagline": "Des notes Markdown locales qui relient les idées entre les UE",
+      "url": "https://obsidian.md",
+      "platform": "Windows, Mac, Linux, iOS, Android",
+      "free_tier": "Application complète gratuite, sans inscription",
+      "price": "0 $ ; Sync en option dès 4 $/mois (réduction étudiante de 40 %)",
+      "best_for": "Ceux qui tapent vite et veulent relier les notions d'un module à l'autre, hors ligne",
+      "adhd_fit": 5,
+      "why_it_wins": "**Adéquation au cours :** élevée pour ceux qui tapent vite. Obsidian s'ouvre instantanément, fonctionne hors ligne et enregistre chaque note en fichier Markdown sur votre disque. Les liens retour relient une notion vue en semaine 2 au sujet du partiel en semaine 10.\n\n**Compatibilité TDAH :** faible à moyenne. Les plugins sont un terrier sans fond et le coffre vide n'impose aucune structure. Obsidian convient à ceux qui aiment construire leur propre système.",
+      "key_features": [
+        "Fichiers Markdown qui vous appartiennent, lisibles par n'importe quel éditeur",
+        "Liens retour et vue graphe entre tous vos cours",
+        "40 % de réduction étudiante sur Sync et Publish"
+      ],
+      "limitations": "La synchronisation entre appareils est payante ou demande votre propre solution. Pas d'écriture manuscrite ni de capture audio intégrées."
+    },
+    {
+      "type": "app_card",
+      "rank": 4,
+      "app_name": "Google Docs",
+      "tagline": "L'option la plus simple pour les notes partagées",
+      "url": "https://docs.google.com",
+      "platform": "Web, iOS, Android",
+      "free_tier": "Gratuit avec un compte Google (15 Go partagés)",
+      "price": "0 $",
+      "best_for": "Travaux de groupe et notes partagées entre camarades de TD",
+      "adhd_fit": 6,
+      "why_it_wins": "**Adéquation au cours :** bonne. Docs, c'est une page blanche sans apprentissage, et plusieurs étudiants peuvent rédiger les mêmes notes en direct. La saisie vocale dans Chrome utilise votre micro pour la dictée : elle capte bien votre propre voix, mais pas un enseignant diffusé par les haut-parleurs.\n\n**Compatibilité TDAH :** moyenne. On démarre sans friction, mais un long document par matière devient difficile à réviser avant les partiels.",
+      "key_features": [
+        "Coédition en temps réel avec les camarades",
+        "Commentaires et suggestions pour la relecture",
+        "Fonctionne dans n'importe quel navigateur, sans installation"
+      ],
+      "limitations": "Un document linéaire organise mal un semestre entier. Le mode hors ligne doit être activé à l'avance."
+    },
+    {
+      "id": "handwriting-apps",
+      "heading": "Quelles applications choisir pour prendre ses notes de cours à la main ?",
+      "body": "Les applis manuscrites sont le meilleur choix pour les étudiants en sciences qui doivent écrire des équations et des schémas, et pour tous ceux qui retiennent mieux en écrivant. Écrire à la main est plus lent que taper, ce qui oblige à reformuler : un compromis que les méthodes de prise de notes expliquent en détail. Les deux applis ci-dessous donnent le meilleur d'elles-mêmes sur iPad avec un Apple Pencil."
+    },
+    {
+      "type": "app_card",
+      "rank": 5,
+      "app_name": "Goodnotes",
+      "tagline": "Écrire directement sur les diapos du cours",
+      "url": "https://www.goodnotes.com",
+      "platform": "iPad, iPhone, Mac, Android, Windows, web",
+      "free_tier": "Jusqu'à 3 fichiers et 20 minutes d'enregistrement audio",
+      "price": "Essential 11,99 $/an, Pro 35,99 $/an ; Special Edition en achat unique sur Apple dans certains pays",
+      "best_for": "Annoter les PDF de diapos pendant un cours en amphi",
+      "adhd_fit": 7,
+      "why_it_wins": "**Adéquation au cours :** élevée pour les cours avec diaporama. Importez le PDF déposé sur Moodle avant le cours, puis écrivez sur les diapos au fur et à mesure. La recherche dans l'écriture manuscrite retrouve vos anciennes notes.\n\n**Compatibilité TDAH :** bonne. Écrire sur la diapo ancre l'attention sur ce qui est à l'écran, et l'enregistrement audio de l'offre gratuite permet de réécouter un passage manqué.",
+      "key_features": [
+        "Import et annotation de PDF pour les diapos",
+        "Enregistrement audio à côté des notes (20 minutes en offre gratuite)",
+        "Disponible sur Apple, Android et Windows"
+      ],
+      "limitations": "La limite gratuite de 3 fichiers est atteinte dès la première semaine. L'expérience est pensée pour une tablette et un stylet."
+    },
+    {
+      "type": "app_card",
+      "rank": 6,
+      "app_name": "Notability",
+      "tagline": "L'écriture manuscrite synchronisée avec l'audio du cours",
+      "url": "https://notability.com",
+      "platform": "iPad, iPhone, Mac, Android (depuis août 2026), web",
+      "free_tier": "Offre Starter avec 5 notes",
+      "price": "Lite 11,99 $/an, Plus 15,99 $/an (transcription limitée), Pro 79,99 $/an (transcription illimitée)",
+      "best_for": "Les cours en amphi où vous voulez des notes manuscrites et un enregistrement",
+      "adhd_fit": 8,
+      "why_it_wins": "**Adéquation au cours :** élevée en amphi. Notability enregistre l'audio pendant que vous écrivez, et toucher un mot de vos notes rejoue ce que disait l'enseignant à ce moment-là. Les trous dans vos notes deviennent rattrapables au lieu d'être définitifs.\n\n**Compatibilité TDAH :** forte. La synchronisation audio sert de filet de sécurité quand l'attention décroche, ce qui réduit l'angoisse de rater quelque chose.",
+      "key_features": [
+        "Enregistrement audio synchronisé avec l'écriture",
+        "Transcription audio en direct sur les offres payantes (limitée en Plus, illimitée en Pro)",
+        "Application Android lancée en août 2026"
+      ],
+      "limitations": "Seulement 5 notes en gratuit. Pas d'application Windows. La transcription illimitée exige l'offre Pro à 79,99 $/an."
+    },
+    {
+      "id": "auto-transcript-apps",
+      "heading": "Quelles applications transcrivent un cours automatiquement ?",
+      "body": "Les applis de transcription automatique sont le meilleur choix quand vous n'arrivez pas à suivre le débit, quand l'enseignant parle vite ou avec un accent marqué, ou quand le TDAH rend difficile d'écouter et d'écrire en même temps. La transcription devient votre matière première, et vous révisez à partir d'une version retravaillée.\n\nLes trois options ci-dessous capturent le cours de façons différentes : depuis un onglet Chrome, depuis le micro d'un téléphone, ou depuis l'audio système de l'ordinateur. Nous gardons cette section courte exprès : notre comparatif complet des preneurs de notes IA, avec Fireflies et Notta, détaille précision, langues et prix.",
+      "internal_links": [
+        {
+          "text": "Comparer les preneurs de notes IA pour les cours",
+          "url": "/blog/ai-note-taker-for-lectures"
+        }
+      ]
+    },
+    {
+      "type": "app_card",
+      "rank": 7,
+      "app_name": "LessonScriptor",
+      "tagline": "La transcription en direct de tout cours qui joue dans Chrome",
+      "url": "https://lessonscriptor.com",
+      "platform": "Extension Chrome sur ordinateur (Chrome/Chromium uniquement)",
+      "free_tier": "Mode gratuit à vie, sans compte ; essai gratuit de 30 minutes du mode IA",
+      "price": "Packs IA en achat unique : 5 h 5 $, 15 h 12 $, 30 h 21 $ ; crédits sans expiration",
+      "best_for": "Cours en ligne et enregistrés : Moodle, Panopto, CNED, YouTube, Coursera, Zoom ou Teams dans le navigateur",
+      "adhd_fit": 9,
+      "why_it_wins": "**Adéquation au cours :** élevée pour les cours en ligne et enregistrés, nulle en amphi. LessonScriptor écrit une transcription en direct dans le panneau latéral de Chrome pendant la vidéo. Vous surlignez en 5 couleurs, ajoutez des titres, capturez une diapo en capture d'écran dans la transcription, puis exportez en .md ou .txt.\n\n**Compatibilité TDAH :** forte. Vous écoutez au lieu de courir après le prof, et la transcription est déjà modifiable : la révision part de notes complètes, pas de fragments.",
+      "key_features": [
+        "Le mode gratuit utilise la reconnaissance vocale intégrée de Chrome via le micro : sans compte, mais avec les haut-parleurs (pas de casque)",
+        "Le mode IA capte directement l'audio de l'onglet, fonctionne avec un casque et gère mieux les accents et le jargon",
+        "14 langues dont le français ; historique des sessions enregistré automatiquement sur votre ordinateur"
+      ],
+      "limitations": "Chrome sur ordinateur uniquement : pas d'amphi, pas d'application mobile. Pas de résumés IA ni d'enregistrement audio : elle garde le texte, pas le son."
+    },
+    {
+      "type": "app_card",
+      "rank": 8,
+      "app_name": "Otter",
+      "tagline": "La transcription sur téléphone pour les cours en présentiel",
+      "url": "https://otter.ai",
+      "platform": "Web, iOS, Android",
+      "free_tier": "300 minutes/mois, 30 minutes par enregistrement, 3 imports de fichiers à vie",
+      "price": "Pro 16,99 $/mois ou 8,33 $/mois en annuel ; 20 % de réduction étudiante avec une adresse .edu",
+      "best_for": "Les cours en amphi enregistrés sur téléphone",
+      "adhd_fit": 7,
+      "why_it_wins": "**Adéquation au cours :** bonne en présentiel, plus faible en ligne. Posez le téléphone sur la table et Otter transcrit la salle. La limite de 30 minutes de l'offre gratuite coupe un cours de 90 minutes en trois enregistrements ; l'offre Pro monte à 90 minutes.\n\n**Compatibilité TDAH :** bonne. L'enregistrement se lance d'un geste et les transcriptions sont consultables par recherche.",
+      "key_features": [
+        "Enregistre et transcrit depuis le micro du téléphone",
+        "Rejoint les appels Zoom, Meet et Teams comme assistant de réunion",
+        "Recherche dans toutes les transcriptions"
+      ],
+      "limitations": "Abonnement mensuel. Pensé d'abord pour les réunions : les vidéos de cours enregistrées passent par l'import de fichiers, plafonné en gratuit comme en Pro. La réduction étudiante vise les adresses .edu, rares en France."
+    },
+    {
+      "type": "app_card",
+      "rank": 9,
+      "app_name": "Notion AI Meeting Notes",
+      "tagline": "Des transcriptions dans votre espace Notion, sans bot",
+      "url": "https://www.notion.com",
+      "platform": "Application de bureau Notion pour Mac et Windows (audio système) ; web et mobile utilisent seulement le micro",
+      "free_tier": "Essai limité sur les offres Free et Plus, y compris le Plus étudiant gratuit",
+      "price": "Exige l'offre Business, environ 20 $/membre/mois en annuel",
+      "best_for": "Les étudiants qui vivent déjà dans Notion et ont accès à Business",
+      "adhd_fit": 6,
+      "why_it_wins": "**Adéquation au cours :** moyenne. L'application de bureau Notion enregistre votre micro et l'audio système sans faire entrer de bot dans l'appel : elle peut donc capter un cours en ligne. Transcription et résumé arrivent directement dans une page Notion, à côté de vos autres notes de cours.\n\n**Compatibilité TDAH :** moyenne. Tout centraliser aide, mais l'offre étudiante gratuite n'inclut qu'un essai, et la fonction complète coûte plus que ce que paient la plupart des étudiants.",
+      "key_features": [
+        "Aucun bot dans l'appel : capture de l'audio système sur l'application de bureau",
+        "Transcription et résumé enregistrés dans une page Notion",
+        "Import de fichiers audio (AAC, M4A, MP3, WAV) sur les offres compatibles"
+      ],
+      "limitations": "Conçu pour les réunions, tarifé pour les équipes. Les versions web et mobile ne captent pas l'audio d'une autre appli sur le même appareil."
+    },
+    {
+      "id": "comparison-table",
+      "heading": "Comment se comparent les meilleures applications de prise de notes pour étudiant ?",
+      "body": "Ce tableau compare les neuf applis sur ce qui compte pour un cours : méthode de capture, offre gratuite, prix d'entrée, plateformes et adéquation. Les prix sont en dollars US, tels qu'affichés sur la page tarifs de chaque éditeur en octobre 2026. Pour LessonScriptor, le paiement passe par Stripe, qui affiche une estimation en euros.",
+      "table": {
+        "headers": [
+          "Appli",
+          "Capture",
+          "Offre gratuite",
+          "Payant dès",
+          "Plateformes",
+          "Adéquation au cours",
+          "TDAH"
+        ],
+        "rows": [
+          [
+            "OneNote",
+            "Clavier + stylet",
+            "Appli complète gratuite",
+            "0 $ (Microsoft 365 Éducation)",
+            "Toutes + web",
+            "Élevée",
+            "7/10"
+          ],
+          [
+            "Notion",
+            "Clavier",
+            "Gratuit ; Plus gratuit pour étudiants",
+            "~10 $/mois",
+            "Toutes + web",
+            "Moyenne",
+            "6/10"
+          ],
+          [
+            "Obsidian",
+            "Clavier",
+            "Appli complète gratuite",
+            "Sync 4 $/mois",
+            "Ordinateur + mobile",
+            "Élevée (frappe rapide)",
+            "5/10"
+          ],
+          [
+            "Google Docs",
+            "Clavier",
+            "Gratuit, 15 Go",
+            "0 $",
+            "Web + mobile",
+            "Bonne",
+            "6/10"
+          ],
+          [
+            "Goodnotes",
+            "Stylet",
+            "3 fichiers, 20 min d'audio",
+            "11,99 $/an",
+            "Apple, Android, Windows, web",
+            "Élevée (diapos)",
+            "7/10"
+          ],
+          [
+            "Notability",
+            "Stylet + audio",
+            "5 notes",
+            "11,99 $/an",
+            "Apple, Android, web",
+            "Élevée (amphi)",
+            "8/10"
+          ],
+          [
+            "LessonScriptor",
+            "Transcription (onglet Chrome)",
+            "Mode gratuit, sans plafond",
+            "5 $ une fois (5 h IA)",
+            "Chrome sur ordinateur",
+            "Élevée (en ligne/enregistré)",
+            "9/10"
+          ],
+          [
+            "Otter",
+            "Transcription (micro du téléphone)",
+            "300 min/mois, 30 min chacune",
+            "8,33 $/mois en annuel",
+            "Web, iOS, Android",
+            "Bonne (amphi)",
+            "7/10"
+          ],
+          [
+            "Notion AI Meeting Notes",
+            "Transcription (audio système)",
+            "Essai limité",
+            "~20 $/mois (Business)",
+            "Appli de bureau Notion",
+            "Moyenne",
+            "6/10"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "best-free-app",
+      "heading": "Quelle est la meilleure application de prise de notes gratuite pour étudiant ?",
+      "body": "La meilleure application de prise de notes gratuite pour étudiant est Microsoft OneNote, parce que sa version gratuite n'a pas de limite de notes et fonctionne sur toutes les plateformes. Obsidian est la meilleure option gratuite pour qui veut des fichiers locaux et la rapidité hors ligne. Google Docs est la meilleure option gratuite pour les notes de groupe.\n\nLes offres gratuites à surveiller sont celles des applis manuscrites. Goodnotes limite les comptes gratuits à 3 fichiers et Notability à 5 notes : assez pour tester, pas pour un semestre. Côté transcription, le mode gratuit de LessonScriptor n'a pas de plafond mensuel. L'offre gratuite d'Otter donne 300 minutes par mois, soit environ trois cours de 90 minutes, découpés chacun en enregistrements de 30 minutes."
+    },
+    {
+      "id": "best-stack",
+      "heading": "Quel duo d'applications fonctionne le mieux pour les cours ?",
+      "body": "La configuration la plus efficace se fait en deux temps : capturer avec une appli, organiser avec une autre. Vouloir capturer et organiser dans la même appli pendant un cours en direct, c'est là que la plupart des étudiants décrochent. Choisissez le duo selon l'endroit où se déroulent vos cours."
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "Duo 1 : cours en ligne et enregistrés (Moodle, Panopto, CNED, YouTube, Zoom dans le navigateur)",
+      "layers": [
+        {
+          "layer": "Capturer",
+          "app": "LessonScriptor",
+          "why": "Transcription en direct dans le panneau latéral de Chrome pendant le cours. Capturez les diapos clés dans la transcription.",
+          "effort": "2 minutes d'installation"
+        },
+        {
+          "layer": "Condenser",
+          "app": "OneNote ou Notion",
+          "why": "Collez la transcription exportée en .md, gardez les passages surlignés et reformulez-les dans une mise en page Cornell.",
+          "effort": "15-20 minutes par séance"
+        },
+        {
+          "layer": "Organiser",
+          "app": "Notion (Plus étudiant gratuit) ou Obsidian",
+          "why": "Une page par UE, reliée aux échéances et aux lectures.",
+          "effort": "1 heure une fois par semestre"
+        }
+      ],
+      "total_cost": "0 $, ou 5 à 21 $ en achat unique pour la précision du mode IA",
+      "time_setup": "Environ 1 heure"
+    },
+    {
+      "type": "stack_recommendation",
+      "title": "Duo 2 : cours en amphi",
+      "layers": [
+        {
+          "layer": "Capturer",
+          "app": "Notability ou Goodnotes sur iPad",
+          "why": "Écrivez sur les diapos. Notability synchronise l'audio avec vos notes.",
+          "effort": "5 minutes avant chaque cours pour importer les diapos"
+        },
+        {
+          "layer": "Filet de sécurité",
+          "app": "Otter sur votre téléphone",
+          "why": "Une transcription consultable de la salle, si l'enseignant autorise l'enregistrement.",
+          "effort": "Un geste"
+        },
+        {
+          "layer": "Organiser",
+          "app": "OneNote ou Notion",
+          "why": "Exportez vos pages manuscrites en PDF dans un bloc-notes par UE.",
+          "effort": "10 minutes par semaine"
+        }
+      ],
+      "total_cost": "0 à 36 $ par an, plus Otter Pro si les cours dépassent 30 minutes",
+      "time_setup": "Environ 30 minutes"
+    },
+    {
+      "id": "adhd-students",
+      "heading": "Quelle application de prise de notes choisir quand on a un TDAH ?",
+      "body": "La meilleure configuration pour un étudiant avec un TDAH sépare l'écoute de l'écriture. Les applis qui enregistrent ou transcrivent le cours, comme LessonScriptor pour les cours en ligne et Notability ou Otter en amphi, évitent de garder une phrase en mémoire de travail pendant qu'on écrit la précédente. Si vous bénéficiez d'aménagements via le service handicap de votre université, ces outils s'y intègrent bien.\n\nL'appli d'organisation compte moins que sa friction. OneNote et Goodnotes obtiennent de bonnes notes parce qu'elles marchent dès l'installation. Notion et Obsidian ont des notes plus basses, non parce qu'elles sont moins bonnes, mais parce que leur flexibilité invite à passer des heures à configurer plutôt qu'à réviser. Notre guide des preneurs de notes IA pour le TDAH détaille les outils de transcription.",
+      "internal_links": [
+        {
+          "text": "Meilleur preneur de notes IA pour étudiants TDAH",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
+      ]
+    },
+    {
+      "id": "method-vs-app",
+      "heading": "La méthode de prise de notes compte-t-elle plus que l'application ?",
+      "body": "La méthode de prise de notes compte plus que l'application. Le même cours capturé dans OneNote ou Goodnotes donne des notes aussi faibles si vous recopiez mot à mot sans jamais relire. Les méthodes Cornell, le plan structuré ou la carte mentale obligent à traiter l'information, et elles fonctionnent dans toutes les applis de cette liste.\n\nUne règle pratique : choisissez l'appli selon la façon dont le cours vous parvient, puis la méthode selon la matière. Cornell convient aux matières riches en concepts, comme l'histoire ou la biologie. Le plan convient aux cours magistraux structurés qui suivent un diaporama. Si vous avez une transcription complète, traitez-la comme matière première et condensez-la en fiche Cornell dans les 24 heures.",
+      "internal_links": [
+        {
+          "text": "Les méthodes de prise de notes comparées",
+          "url": "/blog/note-taking-methods"
+        },
+        {
+          "text": "Modèle de prise de notes Cornell gratuit",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En résumé : les meilleures applications de prise de notes pour étudiant",
+    "body": "Au clavier, OneNote est la meilleure appli gratuite et Notion le meilleur QG de semestre. Au stylet, Goodnotes domine sur les diapos et Notability sur la synchronisation audio. Pour les cours en ligne et enregistrés, LessonScriptor transforme tout ce qui joue dans Chrome en transcription modifiable, tandis qu'Otter couvre l'amphi depuis un téléphone. Capturez avec une appli, organisez avec une autre, et condensez vos notes avec une méthode éprouvée.",
+    "internal_links": [
+      {
+        "text": "Voir comment fonctionne la transcription de cours",
+        "url": "/lecture-transcription"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Quelle est la meilleure application de prise de notes pour un étudiant à la fac ?",
+        "answer": "La meilleure application de prise de notes pour un étudiant à la fac est Microsoft OneNote pour les notes au clavier, parce qu'elle est gratuite et souvent incluse dans le Microsoft 365 de l'université. Goodnotes ou Notability sont meilleurs si vous écrivez à la main sur iPad, et LessonScriptor est le meilleur choix pour les cours en ligne et enregistrés dans Chrome."
+      },
+      {
+        "question": "Quelle est la meilleure application de prise de notes gratuite pour étudiant ?",
+        "answer": "Microsoft OneNote est la meilleure application de prise de notes gratuite pour étudiant, sans limite de notes et disponible sur Windows, Mac, iOS, Android et le web. Obsidian est une bonne alternative gratuite pour des notes locales hors ligne, et l'offre Plus de Notion est gratuite avec une adresse universitaire."
+      },
+      {
+        "question": "Notion ou OneNote : lequel choisir pour les notes de cours ?",
+        "answer": "OneNote est meilleur pour prendre des notes pendant le cours, grâce à ses pages libres rapides et au stylet. Notion est meilleur pour organiser le semestre ensuite, avec des bases de données pour les UE, lectures et échéances. Beaucoup d'étudiants capturent dans OneNote et organisent dans Notion."
+      },
+      {
+        "question": "Goodnotes ou Notability : lequel est le meilleur pour les étudiants ?",
+        "answer": "Goodnotes est meilleur pour annoter les diapos et fonctionne sur plus de plateformes, dont Windows. Notability est meilleur en amphi, parce qu'il synchronise un enregistrement audio avec votre écriture. Les deux offres gratuites sont limitées : 3 fichiers pour Goodnotes, 5 notes pour Notability."
+      },
+      {
+        "question": "Quelle application transcrit automatiquement un cours ?",
+        "answer": "LessonScriptor transcrit les cours en ligne et enregistrés qui jouent dans Chrome, avec un mode gratuit et des packs IA en achat unique. Otter transcrit les cours en amphi depuis un téléphone, avec 30 minutes maximum par enregistrement en gratuit. Notability Pro et Notion AI Meeting Notes (offre Business) transcrivent aussi."
+      },
+      {
+        "question": "Quelle application de prise de notes choisir avec un TDAH ?",
+        "answer": "Avec un TDAH, la meilleure application de prise de notes est celle qui capture le cours à votre place, pour que vous puissiez écouter au lieu d'écrire. LessonScriptor convient aux cours en ligne, Notability ou Otter aux cours en amphi. Associez-la à un organiseur simple comme OneNote."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Meilleure application de prise de notes pour étudiant en 2026 : le comparatif évalué en cours",
+      "description": "La meilleure application de prise de notes pour étudiant en 2026, classée selon votre façon de suivre un cours : clavier, stylet ou transcription. Prix, TDAH.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/best-note-taking-apps-for-students",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle est la meilleure application de prise de notes pour un étudiant à la fac ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La meilleure application de prise de notes pour un étudiant à la fac est Microsoft OneNote pour les notes au clavier, parce qu'elle est gratuite et souvent incluse dans le Microsoft 365 de l'université. Goodnotes ou Notability sont meilleurs si vous écrivez à la main sur iPad, et LessonScriptor est le meilleur choix pour les cours en ligne et enregistrés dans Chrome."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle est la meilleure application de prise de notes gratuite pour étudiant ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Microsoft OneNote est la meilleure application de prise de notes gratuite pour étudiant, sans limite de notes et disponible sur Windows, Mac, iOS, Android et le web. Obsidian est une bonne alternative gratuite pour des notes locales hors ligne, et l'offre Plus de Notion est gratuite avec une adresse universitaire."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Notion ou OneNote : lequel choisir pour les notes de cours ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "OneNote est meilleur pour prendre des notes pendant le cours, grâce à ses pages libres rapides et au stylet. Notion est meilleur pour organiser le semestre ensuite, avec des bases de données pour les UE, lectures et échéances. Beaucoup d'étudiants capturent dans OneNote et organisent dans Notion."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Goodnotes ou Notability : lequel est le meilleur pour les étudiants ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Goodnotes est meilleur pour annoter les diapos et fonctionne sur plus de plateformes, dont Windows. Notability est meilleur en amphi, parce qu'il synchronise un enregistrement audio avec votre écriture. Les deux offres gratuites sont limitées : 3 fichiers pour Goodnotes, 5 notes pour Notability."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle application transcrit automatiquement un cours ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor transcrit les cours en ligne et enregistrés qui jouent dans Chrome, avec un mode gratuit et des packs IA en achat unique. Otter transcrit les cours en amphi depuis un téléphone, avec 30 minutes maximum par enregistrement en gratuit. Notability Pro et Notion AI Meeting Notes (offre Business) transcrivent aussi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelle application de prise de notes choisir avec un TDAH ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Avec un TDAH, la meilleure application de prise de notes est celle qui capture le cours à votre place, pour que vous puissiez écouter au lieu d'écrire. LessonScriptor convient aux cours en ligne, Notability ou Otter aux cours en amphi. Associez-la à un organiseur simple comme OneNote."
+          }
+        }
+      ]
+    }
+  ]
+}

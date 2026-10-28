@@ -1,0 +1,321 @@
+{
+  "slug": "live-captions-zoom-recordings-chrome",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Untertitel für Zoom-, BigBlueButton- und Webex-Aufzeichnungen in Chrome (2026)",
+  "reading_time_min": 7,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Untertitel für Zoom-, BBB- und Webex-Aufzeichnungen",
+    "description": "Untertitel für Zoom-, BigBlueButton- oder Webex-Aufzeichnungen in Chrome, auch ohne Transkript, plus eine bearbeitbare Mitschrift Ihrer Vorlesung.",
+    "og_image": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "og_title": "Untertitel für Zoom-, BigBlueButton- und Webex-Aufzeichnungen in Chrome",
+    "og_description": "Untertitel für aufgezeichnete Vorlesungen in Chrome, auch wenn die Lehrperson kein Transkript aktiviert hat.",
+    "twitter_card": "summary_large_image"
+  },
+  "hero_image": {
+    "src": "/images/blog/live-captions-zoom-recordings-chrome-hero.png",
+    "alt": "Chrome-Browser mit einer aufgezeichneten Vorlesung und geöffnetem LessonScriptor-Transkriptbereich",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria und Pierre entwickeln LessonScriptor, eine Chrome-Erweiterung zur Live-Transkription von Videos. Victoria studiert Anthropologie im Fernstudium und hat ADHS. Pierre kümmert sich um Entwicklung und SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Das Wichtigste",
+    "lead": "LessonScriptor erstellt eine bearbeitbare Mitschrift für jede Vorlesungsaufzeichnung, die in Chrome läuft: Zoom, BigBlueButton (oft in ILIAS, Stud.IP oder Moodle eingebunden) oder Webex. Das funktioniert auch, wenn die Lehrperson kein Transkript aktiviert hat. Chromes Automatische Untertitel laufen ebenfalls auf diesen Videos, aber der Text verschwindet.",
+    "bullets": [
+      "Eine Zoom-, BigBlueButton- oder Webex-Aufzeichnung, die in einem Chrome-Tab läuft, funktioniert mit Chromes Automatischen Untertiteln und mit LessonScriptor.",
+      "Das eingebaute Transkript von Zoom oder Webex hängt vom Host ab: Ist es nicht aktiviert, gibt es keins. Bei aufgezeichneten Vorlesungen ist das häufig.",
+      "LessonScriptor funktioniert auch in Videos, die in ILIAS, Stud.IP oder Moodle eingebettet sind, etwa über Opencast, nicht nur auf zoom.us.",
+      "Eine heruntergeladene MP4-Datei lässt sich in Chrome öffnen und während der Wiedergabe transkribieren.",
+      "Die LessonScriptor-Mitschrift lässt sich korrigieren, markieren und exportieren (.txt, .md); Chromes Untertitel werden nicht gespeichert."
+    ]
+  },
+  "intro": "LessonScriptor untertitelt Vorlesungsaufzeichnungen in Chrome, indem es den Ton während der Wiedergabe transkribiert, in einem Seitenbereich, in dem der Text bearbeitbar bleibt. An deutschen Hochschulen kommen solche Aufzeichnungen meist aus drei Quellen: Zoom, BigBlueButton (das Webkonferenz-Tool, das viele Hochschulen in ILIAS, Stud.IP oder Moodle einbinden) und Webex, dazu Opencast-Videos in ILIAS. Ob die Lehrperson ein Transkript aktiviert hat oder nicht, LessonScriptor transkribiert, was abgespielt wird, ohne auf eine vorab erzeugte Datei angewiesen zu sein. Chromes Automatische Untertitel (chrome://settings/accessibility) untertiteln diese Videos ebenfalls in einem Tab, zeigen aber nur zwei Zeilen, die wieder verschwinden. Dieser Leitfaden erklärt, wann welche Option passt, und behandelt die Sonderfälle: eingebettete Videos in ILIAS, heruntergeladene MP4-Dateien und Aufzeichnungen ohne Transkript.",
+  "sections": [
+    {
+      "id": "do-chrome-captions-work-on-zoom",
+      "h2": "Funktionieren Chromes Untertitel bei Zoom- oder BigBlueButton-Aufzeichnungen?",
+      "body": "Ja, solange die Aufzeichnung in einem Chrome-Tab läuft. Chromes Automatische Untertitel erfassen jeden Ton im Browser: eine Zoom-Aufzeichnung auf zoom.us, die Wiedergabe einer BigBlueButton-Sitzung aus ILIAS oder Stud.IP, eine Webex-Aufzeichnung im Browser oder ein Opencast-Video.\n\nIn Desktop-Apps funktionieren sie nicht. Öffnet der Link die Zoom- oder Webex-App auf Ihrem Rechner, greifen Chromes Untertitel nicht. Öffnen Sie die Aufzeichnung stattdessen im Browser.\n\nLessonScriptor funktioniert bei jedem Video in einem Chrome-Tab. Dazu gehören zoom.us, BigBlueButton-Wiedergaben, Webex im Browser, Videos in ILIAS, Stud.IP oder Moodle und MP4-Dateien, die in Chrome geöffnet sind.",
+      "internal_links": [
+        {
+          "text": "Live-Untertitel in Chrome: der komplette Leitfaden",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "zoom-transcript-vs-chrome-captions",
+      "h2": "Was ist der Unterschied zwischen dem Zoom-Transkript und Chromes Untertiteln?",
+      "body": "Das Transkript von Zoom oder Webex ist eine Textdatei, die die Plattform nach dem Meeting erzeugt. Der Host muss die Funktion aktiviert haben, bei Zoom etwa das Audio-Transkript für Cloud-Aufzeichnungen. Sonst gibt es nichts. Welche Sprachen verfügbar sind, hängt außerdem vom Konto und von der Konfiguration der Hochschule ab.\n\nChromes Untertitel und LessonScriptor transkribieren in Echtzeit während der Wiedergabe. Sie arbeiten mit dem tatsächlichen Ton der Aufzeichnung, unabhängig davon, ob die Plattform ein Transkript erzeugt hat.\n\n**Zoom- oder Webex-Transkript:** gibt es nur, wenn der Host es aktiviert hat. Es erscheint in der Plattform, lässt sich herunterladen (bei Zoom als VTT oder TXT) und zeigt, wer spricht.\n\n**Chromes Automatische Untertitel:** eine schreibgeschützte Untertitelblase während des Videos. Sie verschwindet danach und lässt sich nicht exportieren. Sie deckt Chromes 19 Sprachen ab, darunter Deutsch.\n\n**LessonScriptor:** eine Echtzeit-Mitschrift im Seitenbereich. Sie lässt sich korrigieren, in fünf Farben markieren und als .txt oder .md exportieren, in 14 Sprachvarianten einschließlich Deutsch, egal ob die Plattform ein Transkript erzeugt hat. LessonScriptor erkennt keine Sprecher."
+    },
+    {
+      "id": "how-to-transcribe-zoom-recording-chrome",
+      "h2": "Wie bekomme ich in Chrome ein Transkript einer Zoom-, BigBlueButton- oder Webex-Aufzeichnung?",
+      "body": "So transkribieren Sie eine aufgezeichnete Vorlesung mit LessonScriptor:",
+      "steps": [
+        "Installieren Sie LessonScriptor aus dem Chrome Web Store. Kostenlos, ohne Konto.",
+        "Öffnen Sie die Aufzeichnung in Chrome. Das kann der zoom.us-Link sein, die BigBlueButton-Wiedergabe in ILIAS, Stud.IP oder Moodle, die Webex-Aufzeichnung im Browser, ein Opencast-Video oder eine MP4-Datei, die Sie in einen Tab ziehen.",
+        "Klicken Sie auf das LessonScriptor-Symbol in der Chrome-Symbolleiste, um den Seitenbereich zu öffnen, und wählen Sie die Videosprache (Deutsch).",
+        "Wählen Sie den Modus. **Mic** ist der kostenlose Modus: Er hört über das Mikrofon mit und braucht daher Lautsprecher (Lautstärke 80 % oder mehr), keine Kopfhörer. **Normal** oder **Optimal** ist der KI-Modus: Er erfasst den Tab-Ton und funktioniert mit Kopfhörern. Optimal ist für Aufzeichnungen am genauesten.",
+        "Starten Sie die Wiedergabe. Die Mitschrift erscheint im Seitenbereich, im KI-Modus mit einigen Sekunden Verzögerung.",
+        "Korrigieren Sie die Mitschrift nebenbei: Namen von Dozierenden, Fachbegriffe, lange Komposita, falsch verstandene Wörter. Markieren Sie Wichtiges.",
+        "Exportieren Sie am Ende als .txt oder .md oder kopieren Sie den Text in die Zwischenablage."
+      ],
+      "internal_links": [
+        {
+          "text": "Chrome-Untertitel mit Kopfhörern",
+          "url": "/blog/chrome-live-captions-headphones"
+        }
+      ]
+    },
+    {
+      "id": "canvas-zoom-recordings",
+      "h2": "Funktionieren Untertitel bei Aufzeichnungen in ILIAS, Stud.IP oder Moodle?",
+      "body": "Ja. An vielen deutschen Hochschulen liegen aufgezeichnete Vorlesungen im Lernmanagementsystem: als BigBlueButton-Aufzeichnung (etwa über das Meetings-Modul in Stud.IP oder das BigBlueButton-Objekt in ILIAS), als Opencast-Video in ILIAS oder als eingebettetes Zoom- oder Webex-Video. In allen Fällen läuft das Video in der Webseite, oft in einem eingebetteten Rahmen (iframe). LessonScriptor erfasst den Ton auf Tab-Ebene, die Einbettung spielt also keine Rolle. Der kostenlose Modus hört einfach, was aus den Lautsprechern kommt.\n\n**BigBlueButton:** Die Wiedergabe von Aufzeichnungen funktioniert in Chrome. Waren während der Sitzung automatische Untertitel aktiviert, können sie über die CC-Schaltfläche des Players erscheinen. Wenn nicht, fehlen sie, und LessonScriptor oder Chromes Untertitel springen ein.\n\n**Webex:** Aufzeichnungen lassen sich im Browser abspielen. Ein Webex-Transkript gibt es nur, wenn die Funktion für die Sitzung verfügbar und aktiviert war.\n\n**FernUniversität in Hagen und andere Fernstudien:** Lehrvideos im Moodle-Kurs funktionieren nach demselben Prinzip.\n\nHat ein eingebettetes Video gar keinen Ton, prüfen Sie, ob Chrome den Ton für die Domain Ihres ILIAS oder Stud.IP blockiert.",
+      "internal_links": [
+        {
+          "text": "Zoom- und Google-Meet-Transkripte für Studierende",
+          "url": "/blog/zoom-google-meet-transcript-for-students"
+        }
+      ]
+    },
+    {
+      "id": "downloaded-zoom-mp4",
+      "h2": "Kann ich eine heruntergeladene Zoom-MP4 in Chrome untertiteln?",
+      "body": "Ja. Haben Sie eine Zoom-, Webex- oder BigBlueButton-Aufzeichnung als MP4 auf dem Rechner, können Sie sie in Chrome abspielen und mit LessonScriptor während der Wiedergabe transkribieren. LessonScriptor nimmt keine Datei-Uploads an: Transkribiert wird die Wiedergabe im Tab.\n\n**So geht's:**\n1. Ziehen Sie die MP4-Datei in einen neuen Chrome-Tab oder tippen Sie **file:///** in die Adressleiste und navigieren Sie zur Datei.\n2. Chrome spielt die Datei im eingebauten Player ab.\n3. Öffnen Sie den LessonScriptor-Seitenbereich und starten Sie die Transkription.\n\nIm kostenlosen Modus (Mic) hört LessonScriptor über das Mikrofon mit, also Ton auf die Lautsprecher legen. Mit Kopfhörern nutzen Sie den KI-Modus (Normal oder Optimal), der den Tab-Ton direkt erfasst. Ein kostenloser 30-Minuten-Test ist inklusive."
+    },
+    {
+      "id": "zoom-captions-vs-lessonscriptor",
+      "h2": "Soll ich das Zoom-Transkript oder LessonScriptor nutzen?",
+      "body": "Nutzen Sie das eingebaute Transkript von Zoom oder Webex, wenn es vorhanden ist und ein reiner Text reicht. Es zeigt, wer spricht, was bei Meetings mit mehreren Stimmen hilft; LessonScriptor kann das nicht.\n\nNutzen Sie LessonScriptor, wenn es kein Transkript gibt, was bei aufgezeichneten Vorlesungen und BigBlueButton-Sitzungen häufig ist. Es lohnt sich auch, wenn Sie beim Ansehen korrigieren und markieren wollen oder das Video in ILIAS oder Stud.IP liegt.\n\nFürs Studium ist Mitschreiben beim Ansehen oft nützlicher als ein Rohtranskript, besonders mit ADHS: Sie arbeiten den Stoff während der Vorlesung durch, statt auf eine Datei zu warten. Kostenloser Modus oder KI-Pakete ab 5 USD für 5 Stunden (Stripe rechnet in Euro um), ohne Abo.",
+      "internal_links": [
+        {
+          "text": "Die besten Chrome-Erweiterungen für Untertitel",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        },
+        {
+          "text": "Chrome-Untertitel vs. LessonScriptor",
+          "url": "/blog/chrome-live-captions-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Untertitel für Ihre Vorlesungsaufzeichnungen in Chrome — kostenlos",
+    "body": "LessonScriptor funktioniert mit Zoom-, BigBlueButton- und Webex-Aufzeichnungen sowie mit jedem Video in ILIAS, Stud.IP oder Moodle. Korrigieren, markieren, exportieren.",
+    "button_label": "LessonScriptor zu Chrome hinzufügen — kostenlos",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Häufige Fragen",
+    "questions": [
+      {
+        "question": "Funktionieren Chromes automatische Untertitel bei einer Zoom-Aufzeichnung?",
+        "answer": "Ja, wenn die Aufzeichnung in einem Chrome-Tab läuft (zoom.us oder ein eingebettetes Video in ILIAS, Stud.IP oder Moodle). Die Automatischen Untertitel zeigen eine schreibgeschützte Blase, die verschwindet. LessonScriptor erstellt eine bearbeitbare, exportierbare Mitschrift."
+      },
+      {
+        "question": "Warum hat meine Zoom-Aufzeichnung kein Transkript?",
+        "answer": "Zoom erstellt ein Audio-Transkript für Cloud-Aufzeichnungen nur, wenn der Host die Funktion aktiviert hat. Hat Ihre Lehrperson das nicht getan, gibt es keins. LessonScriptor transkribiert die Aufzeichnung, während Sie sie in Chrome abspielen."
+      },
+      {
+        "question": "Wie bekomme ich Untertitel für eine BigBlueButton-Aufzeichnung in ILIAS oder Stud.IP?",
+        "answer": "Öffnen Sie die Wiedergabe der Aufzeichnung aus ILIAS oder Stud.IP in Chrome. Waren in der Sitzung keine Untertitel aktiviert, nutzen Sie Chromes Automatische Untertitel für eine schnelle Anzeige oder LessonScriptor für eine deutsche Mitschrift, die Sie korrigieren und exportieren können."
+      },
+      {
+        "question": "Funktioniert LessonScriptor mit Webex-Aufzeichnungen?",
+        "answer": "Ja, wenn die Webex-Aufzeichnung im Browser in Chrome abgespielt wird. In der Webex-Desktop-App funktioniert es nicht. Gibt es kein Webex-Transkript, ersetzt LessonScriptor es durch eine eigene Mitschrift."
+      },
+      {
+        "question": "Kann ich das Transkript einer Zoom-Aufzeichnung aus Chrome exportieren?",
+        "answer": "LessonScriptor exportiert die Mitschrift als .txt oder .md oder kopiert sie in die Zwischenablage, zum Einfügen in Notion, Google Docs, Obsidian oder Ihre Mitschrift-Vorlage. Chromes eingebaute Untertitel lassen sich nicht exportieren."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Untertitel für Zoom-, BigBlueButton- und Webex-Aufzeichnungen: kurz gesagt",
+    "body": "LessonScriptor und Chromes Automatische Untertitel funktionieren beide mit Aufzeichnungen in einem Chrome-Tab: Zoom auf zoom.us, BigBlueButton aus ILIAS, Stud.IP oder Moodle, Webex im Browser, Opencast-Videos und MP4-Dateien. Chromes Untertitel sind schreibgeschützt und flüchtig. LessonScriptor erstellt eine bearbeitbare, exportierbare Mitschrift, auch wenn die Plattform nie ein Transkript erzeugt hat. Für Studierende, deren Vorlesungsaufzeichnungen kein Transkript haben, ist das der verlässlichste Weg, den Stoff schriftlich festzuhalten."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Untertitel für Zoom-, BigBlueButton- und Webex-Aufzeichnungen in Chrome (2026)",
+      "description": "Untertitel für Zoom-, BigBlueButton- oder Webex-Aufzeichnungen in Chrome, auch ohne Transkript, plus eine bearbeitbare Mitschrift Ihrer Vorlesung.",
+      "inLanguage": "de",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/de/blog/live-untertitel-zoom-aufnahmen-chrome",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropologie-Studentin mit ADHS",
+          "url": "https://lessonscriptor.com"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Entwickler & SEO",
+          "url": "https://lessonscriptor.com"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "Wie bekomme ich in Chrome ein Transkript einer Zoom-, BigBlueButton- oder Webex-Aufzeichnung?",
+      "inLanguage": "de",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "Installieren Sie LessonScriptor aus dem Chrome Web Store. Kostenlos, ohne Konto."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Öffnen Sie die Aufzeichnung in Chrome. Das kann der zoom.us-Link sein, die BigBlueButton-Wiedergabe in ILIAS, Stud.IP oder Moodle, die Webex-Aufzeichnung im Browser, ein Opencast-Video oder eine MP4-Datei, die Sie in einen Tab ziehen."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Klicken Sie auf das LessonScriptor-Symbol in der Chrome-Symbolleiste, um den Seitenbereich zu öffnen, und wählen Sie die Videosprache (Deutsch)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Wählen Sie den Modus. Mic ist der kostenlose Modus: Er hört über das Mikrofon mit und braucht daher Lautsprecher (Lautstärke 80 % oder mehr), keine Kopfhörer. Normal oder Optimal ist der KI-Modus: Er erfasst den Tab-Ton und funktioniert mit Kopfhörern. Optimal ist für Aufzeichnungen am genauesten."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Starten Sie die Wiedergabe. Die Mitschrift erscheint im Seitenbereich, im KI-Modus mit einigen Sekunden Verzögerung."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Korrigieren Sie die Mitschrift nebenbei: Namen von Dozierenden, Fachbegriffe, lange Komposita, falsch verstandene Wörter. Markieren Sie Wichtiges."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Exportieren Sie am Ende als .txt oder .md oder kopieren Sie den Text in die Zwischenablage."
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "de",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Funktionieren Chromes automatische Untertitel bei einer Zoom-Aufzeichnung?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, wenn die Aufzeichnung in einem Chrome-Tab läuft (zoom.us oder ein eingebettetes Video in ILIAS, Stud.IP oder Moodle). Die Automatischen Untertitel zeigen eine schreibgeschützte Blase, die verschwindet. LessonScriptor erstellt eine bearbeitbare, exportierbare Mitschrift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Warum hat meine Zoom-Aufzeichnung kein Transkript?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zoom erstellt ein Audio-Transkript für Cloud-Aufzeichnungen nur, wenn der Host die Funktion aktiviert hat. Hat Ihre Lehrperson das nicht getan, gibt es keins. LessonScriptor transkribiert die Aufzeichnung, während Sie sie in Chrome abspielen."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Wie bekomme ich Untertitel für eine BigBlueButton-Aufzeichnung in ILIAS oder Stud.IP?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Öffnen Sie die Wiedergabe der Aufzeichnung aus ILIAS oder Stud.IP in Chrome. Waren in der Sitzung keine Untertitel aktiviert, nutzen Sie Chromes Automatische Untertitel für eine schnelle Anzeige oder LessonScriptor für eine deutsche Mitschrift, die Sie korrigieren und exportieren können."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Funktioniert LessonScriptor mit Webex-Aufzeichnungen?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Ja, wenn die Webex-Aufzeichnung im Browser in Chrome abgespielt wird. In der Webex-Desktop-App funktioniert es nicht. Gibt es kein Webex-Transkript, ersetzt LessonScriptor es durch eine eigene Mitschrift."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kann ich das Transkript einer Zoom-Aufzeichnung aus Chrome exportieren?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "LessonScriptor exportiert die Mitschrift als .txt oder .md oder kopiert sie in die Zwischenablage, zum Einfügen in Notion, Google Docs, Obsidian oder Ihre Mitschrift-Vorlage. Chromes eingebaute Untertitel lassen sich nicht exportieren."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Startseite",
+          "item": "https://lessonscriptor.com/de"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/de/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Untertitel für Zoom-, BBB- und Webex-Aufzeichnungen",
+          "item": "https://lessonscriptor.com/de/blog/live-untertitel-zoom-aufnahmen-chrome"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Zoom-Support — Audio-Transkript für Cloud-Aufzeichnungen",
+      "href": "https://support.zoom.com/hc/de/article?id=zm_kb&sysparm_article=KB0059762",
+      "external": true
+    },
+    {
+      "text": "BigBlueButton — Untertitel (Dokumentation)",
+      "href": "https://bigbluebutton.com/docs/help/user-guide/view-closed-captions",
+      "external": true
+    },
+    {
+      "text": "Google Chrome-Hilfe — Automatische Untertitel",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=de",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-headphones",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-vs-lessonscriptor",
+      "/blog/zoom-google-meet-transcript-for-students"
+    ]
+  }
+}

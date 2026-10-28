@@ -1,0 +1,460 @@
+{
+  "slug": "active-recall-lecture-transcript",
+  "page_type": "blog_post",
+  "category_tag": "ADHD & Studying",
+  "h1": "Recuerdo activo: cómo estudiar a partir de tus apuntes de clase (paso a paso)",
+  "reading_time_min": 11,
+  "published_at": "2026-10-28",
+  "updated_at": "2026-10-28",
+  "meta": {
+    "title": "Recuerdo activo: cómo estudiar con tus apuntes de clase",
+    "description": "El recuerdo activo es ponerte a prueba en vez de releer. Mira la evidencia y convierte la transcripción de una clase en preguntas, autoexámenes y repasos.",
+    "keywords": [
+      "recuerdo activo",
+      "active recall",
+      "técnica de recuerdo activo",
+      "práctica de recuperación",
+      "cómo estudiar para exámenes",
+      "estudiar con TDAH"
+    ],
+    "og_image": null,
+    "canonical": "https://lessonscriptor.com/es/blog/recuerdo-activo-transcripcion-clases",
+    "og_title": "Recuerdo activo: cómo estudiar a partir de tus apuntes de clase (paso a paso)",
+    "og_description": "Qué demuestra la investigación sobre el recuerdo activo y un método paso a paso desde la transcripción de clase hasta el repaso espaciado.",
+    "twitter_card": "summary_large_image"
+  },
+  "author": {
+    "name": "Victoria & Pierre",
+    "url": "https://lessonscriptor.com/en"
+  },
+  "tldr": {
+    "label": "Lo esencial",
+    "lead": "El recuerdo activo (active recall) es estudiar sacando la información de la memoria, normalmente respondiendo preguntas con los apuntes cerrados, en vez de volver a meterla releyendo.",
+    "bullets": [
+      "En el estudio de Roediger y Karpicke (2006), los estudiantes que se pusieron a prueba tres veces recordaban el 61 % de un texto una semana después; los que lo estudiaron en cuatro sesiones de relectura, el 40 %.",
+      "La revisión de Dunlosky y sus colegas (2013) sobre 10 técnicas de estudio solo dio utilidad alta a dos: la práctica con exámenes y la práctica espaciada. Releer y subrayar obtuvieron utilidad baja.",
+      "El método: capturar la clase como transcripción, convertirla en una lista de preguntas, autoexaminarte con los apuntes cerrados y programar repasos espaciados en Anki, RemNote o Quizlet.",
+      "LessonScriptor captura y estructura la transcripción. No genera preguntas ni tarjetas: las escribes tú o pegas la exportación en ChatGPT o NotebookLM para obtener un borrador.",
+      "La investigación con estudiantes con TDAH es más escasa y mixta, pero la mayoría de los estudios encuentra que se benefician casi igual que el resto."
+    ]
+  },
+  "stats": [
+    {
+      "number": "61 % vs 40 %",
+      "label": "de recuerdo tras una semana: autoexamen frente a relectura (Roediger y Karpicke, 2006)"
+    },
+    {
+      "number": "2 de 10",
+      "label": "técnicas de estudio con utilidad alta según Dunlosky et al. (2013): autoexamen y práctica espaciada"
+    },
+    {
+      "number": "317",
+      "label": "experimentos en el metaanálisis de Cepeda et al. (2006) sobre práctica espaciada"
+    }
+  ],
+  "intro": "El recuerdo activo es una técnica de estudio en la que recuperas información de la memoria, por ejemplo respondiendo preguntas con los apuntes cerrados, en lugar de releer o subrayar. Es el método de estudio con más respaldo de la psicología cognitiva: en un experimento de 2006 de Henry Roediger y Jeffrey Karpicke, de la Universidad de Washington en San Luis, los estudiantes que se pusieron a prueba recordaban una semana después aproximadamente la mitad más que quienes releyeron el mismo texto. El problema es que el recuerdo activo necesita algo de lo que recordar. En una clase, eso significa un registro fiable de lo que se dijo, difícil de conseguir si la atención se va, como les pasa a muchos estudiantes con TDAH. Esta guía explica qué muestra la evidencia y da un método paso a paso para preparar los exámenes finales, las oposiciones o la PAU: transcripción de la clase, lista de preguntas, autoexamen y repaso espaciado en Anki, RemNote o Quizlet.",
+  "sections": [
+    {
+      "id": "what-is-active-recall",
+      "heading": "¿Qué es el recuerdo activo?",
+      "body": "El recuerdo activo es traer información de vuelta desde la memoria sin mirarla. Los investigadores lo llaman práctica de recuperación (retrieval practice), y a la mejora que produce, efecto de testeo. Responder una tarjeta, explicar un concepto en voz alta, escribir en una hoja en blanco todo lo que recuerdas o hacer exámenes de convocatorias anteriores son formas de recuerdo activo.\n\nLo contrario es el repaso pasivo: releer apuntes, volver a ver la clase grabada, subrayar el manual. Da sensación de avanzar porque el contenido resulta familiar, pero la familiaridad es reconocimiento, no recuerdo. En el examen tienes que producir la respuesta, así que lo que conviene entrenar es producirla.\n\nLa clave para un estudiante: el recuerdo activo no sirve solo para comprobar lo que sabes. El acto de recordar cambia la propia huella de memoria y hace que sea más fácil recuperarla la próxima vez."
+    },
+    {
+      "id": "does-active-recall-work",
+      "heading": "¿Funciona de verdad el recuerdo activo? Lo que dice la investigación",
+      "body": "El recuerdo activo se apoya en décadas de experimentos, y conviene conocer tres fuentes por su nombre.\n\n**Roediger y Karpicke (2006), Psychological Science.** Estudiantes universitarios leían textos breves. Unos los releían; otros hacían pruebas de recuerdo libre sin corrección. En el segundo experimento, un grupo estudió el texto en cuatro sesiones de 5 minutos (unas 14 lecturas en total), otro lo estudió en tres sesiones y se examinó una vez, y otro lo estudió en una sola sesión y se examinó tres veces (unas 3 lecturas en total). A los cinco minutos ganaba la relectura: 83 % de recuerdo en el grupo que solo releía frente a 71 % en el grupo examinado tres veces. Una semana después, el resultado se invertía: 61 % para el grupo examinado tres veces, 56 % para el examinado una vez y 40 % para el que solo releyó. Y el grupo que solo releía era el que creía que iba a recordar más.\n\n**Dunlosky, Rawson, Marsh, Nathan y Willingham (2013), Psychological Science in the Public Interest.** Esta revisión evaluó 10 técnicas de estudio habituales según lo bien que funcionan con distintas edades, materias y tipos de examen. Solo la práctica con exámenes y la práctica espaciada recibieron utilidad alta. Subrayar, releer y resumir recibieron utilidad baja, y son justo las técnicas que usa la mayoría de los estudiantes.\n\n**Karpicke y Blunt (2011), Science.** Los estudiantes que practicaron la recuperación recordaron más en una prueba posterior que los que hicieron mapas conceptuales del mismo material, incluso en preguntas que pedían hacer inferencias.",
+      "callout": {
+        "type": "insight",
+        "label": "Qué significa esto para tu forma de estudiar",
+        "body": "El resultado a los 5 minutos explica por qué la relectura es tan persistente: a corto plazo, de verdad parece funcionar mejor. El resultado a la semana es lo que mide tu examen. Si solo tienes tiempo para una técnica, elige ponerte a prueba antes que releer."
+      },
+      "internal_links": [
+        {
+          "text": "7 métodos para tomar apuntes comparados (y cuáles funcionan con TDAH)",
+          "url": "/blog/note-taking-methods"
+        }
+      ]
+    },
+    {
+      "id": "active-recall-vs-spaced-repetition",
+      "heading": "¿Qué diferencia hay entre recuerdo activo y repetición espaciada?",
+      "body": "El recuerdo activo es cómo repasas: recuperando en vez de releyendo. La repetición espaciada es cuándo repasas: en sesiones repartidas a lo largo de días y semanas en vez de concentradas en la noche antes del examen. Son técnicas distintas y funcionan mejor juntas.\n\nLa evidencia a favor de espaciar es tan sólida como la de ponerse a prueba. El metaanálisis de Cepeda, Pashler, Vul, Wixted y Rohrer, publicado en 2006 en Psychological Bulletin, reunió 317 experimentos y concluyó que repartir las sesiones mejora la retención a largo plazo. También encontró que el intervalo ideal crece con el tiempo que necesitas recordar: para un examen la semana que viene, repasa al cabo de un día más o menos; para la convocatoria de junio o unas oposiciones dentro de meses, los intervalos deben alargarse a semanas.\n\nLas apps de tarjetas como Anki, RemNote y Quizlet combinan las dos técnicas: cada tarjeta es una pregunta de recuerdo y el algoritmo decide cuándo vuelves a verla."
+    },
+    {
+      "id": "why-rereading-feels-effective",
+      "heading": "¿Por qué releer parece funcionar si no funciona?",
+      "body": "Releer parece eficaz por la fluidez: la segunda vez que lees una página se lee con más facilidad, y el cerebro confunde esa facilidad con saberse el tema. En el estudio de Roediger y Karpicke, los estudiantes que solo releyeron eran los más seguros de recordar el texto una semana después, y fueron los que menos recordaron.\n\nEl recuerdo activo se siente peor porque recuperar cuesta esfuerzo y notas cada hueco. Esa incomodidad es información útil: una pregunta que no sabes responder te dice exactamente qué estudiar, algo que la relectura nunca hace."
+    },
+    {
+      "id": "how-to-steps",
+      "heading": "¿Cómo uso el recuerdo activo con la transcripción de una clase?",
+      "body": "Este método convierte una sola clase en un conjunto de preguntas con las que te pones a prueba durante las semanas siguientes. Calcula entre 30 y 45 minutos por clase, repartidos en varias sesiones cortas.",
+      "steps": [
+        {
+          "strategy": "Captura la clase como transcripción",
+          "detail": "Usa una herramienta de transcripción para no depender de apuntes a mano. LessonScriptor, una extensión de Chrome, transcribe lo que suena en una pestaña: el Campus Virtual de tu universidad, las grabaciones de la UNED, las clases de la UNAM por Zoom en el navegador, YouTube o Panopto. Añade un encabezado cuando cambie el tema y haz capturas de las diapositivas importantes. El modo gratuito escucha por el micrófono, así que pon el audio por altavoces al 80 % o más; el modo IA captura el audio de la pestaña y funciona con auriculares."
+        },
+        {
+          "strategy": "Limpia y marca la transcripción",
+          "detail": "En las 24 horas siguientes, relee la transcripción una vez, rápido. Borra las digresiones y resalta definiciones, causas, ejemplos y todo lo que el profesor dijo que entraría en el examen. Es la única relectura del método, y sirve para encontrar preguntas, no para aprender."
+        },
+        {
+          "strategy": "Escribe una lista de preguntas",
+          "detail": "Convierte cada punto resaltado en una pregunta. Apunta a 10 a 20 por clase. Una pregunta por línea; la respuesta queda en la transcripción, para que tengas que recuperarla."
+        },
+        {
+          "strategy": "Opcional: pide un borrador de preguntas a un chatbot",
+          "detail": "Si escribir preguntas es lo que te bloquea, exporta la transcripción en .txt o .md y pégala tú en ChatGPT o NotebookLM pidiendo preguntas que se ciñan al texto. Comprueba cada pregunta con la transcripción antes de quedártela."
+        },
+        {
+          "strategy": "Ponte a prueba con los apuntes cerrados",
+          "detail": "Responde cada pregunta en voz alta o en papel sin mirar. Luego compara con la transcripción y marca cada pregunta como bien, a medias o mal. Las que fallaste son tu lista de estudio."
+        },
+        {
+          "strategy": "Programa repasos espaciados",
+          "detail": "Pasa las preguntas a Anki, RemNote o Quizlet como tarjetas, o lleva una lista con fechas. Repasa al cabo de 1 día, 3 días, 1 semana y 2 a 3 semanas, y una vez más la semana anterior al examen."
+        }
+      ],
+      "callout": {
+        "type": "note",
+        "label": "Lo que LessonScriptor hace y no hace",
+        "body": "LessonScriptor captura la transcripción en directo y te deja añadir encabezados, resaltados en 5 colores y capturas de diapositivas, y exportar a .txt o .md. No genera tarjetas, cuestionarios ni resúmenes. Escribir las preguntas, o pedir a un chatbot que las proponga a partir de tu transcripción exportada, es un paso que haces tú."
+      },
+      "internal_links": [
+        {
+          "text": "Plantilla Cornell: la columna de preguntas es una lista ya hecha",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
+    },
+    {
+      "id": "how-to-write-questions",
+      "heading": "¿Cómo escribo buenas preguntas de recuerdo activo?",
+      "body": "Una buena pregunta de recuerdo pide una sola cosa, se responde de memoria en menos de un minuto y combina datos simples con explicaciones. «¿Qué dijo el profe sobre las mitocondrias?» es demasiado vaga para ponerte a prueba; «¿Por qué los pliegues de la membrana interna aumentan la producción de ATP?» sí funciona.",
+      "table": {
+        "headers": [
+          "Tipo de pregunta",
+          "Ejemplo",
+          "Ideal para"
+        ],
+        "rows": [
+          [
+            "Definición",
+            "¿Qué es el coste de oportunidad?",
+            "Conceptos clave, primer repaso"
+          ],
+          [
+            "Causa y efecto",
+            "¿Por qué la invasión napoleónica de 1808 aceleró la independencia de México?",
+            "Historia, Economía, Biología"
+          ],
+          [
+            "Comparación",
+            "¿En qué se diferencian los betabloqueantes de los IECA?",
+            "Farmacología, teorías, periodos"
+          ],
+          [
+            "Aplicación",
+            "Se fija un precio máximo por debajo del equilibrio. ¿Qué pasa con la oferta?",
+            "Exámenes de problemas"
+          ],
+          [
+            "Explícaselo a un amigo",
+            "Explica el ciclo de Calvin en tres frases.",
+            "Desarrollo y exámenes orales"
+          ],
+          [
+            "Hoja en blanco",
+            "Escribe todo lo que recuerdes del tema 6.",
+            "Repaso semanal, temario de oposiciones"
+          ]
+        ]
+      },
+      "callout": {
+        "type": "tip",
+        "label": "Aprovecha la columna Cornell",
+        "body": "Si ya tomas apuntes con el método Cornell, la columna de preguntas es tu lista. Tapa la columna de apuntes y responde cada pregunta de memoria."
+      }
+    },
+    {
+      "id": "chatgpt-notebooklm-questions",
+      "heading": "¿Pueden ChatGPT o NotebookLM crear preguntas de recuerdo activo a partir de mi transcripción?",
+      "body": "ChatGPT y NotebookLM pueden proponer preguntas a partir de una transcripción pegada, y es un atajo razonable cuando el bloqueo de la hoja en blanco no te deja empezar. NotebookLM de Google es útil aquí porque responde a partir de las fuentes que subes y muestra de dónde sale cada respuesta.\n\nTres reglas para que sea honesto. Primero, pide preguntas solo del texto, por ejemplo: escribe 15 preguntas de respuesta corta usando únicamente esta transcripción de clase y cita la frase de la que sale cada respuesta. Segundo, comprueba cada pregunta con la transcripción, porque los chatbots pueden inventar detalles. Tercero, escribe al menos algunas preguntas tú: decidir qué importa es parte del aprendizaje.\n\nEsto es un flujo de trabajo tuyo, no una función de LessonScriptor. El papel de LessonScriptor es darte una transcripción fiel y estructurada para pegar."
+    },
+    {
+      "id": "spaced-review-schedule",
+      "heading": "¿Cada cuánto debo repasar con recuerdo activo?",
+      "body": "Un calendario sencillo basta para la mayoría de las asignaturas. Cada repaso es corto, porque solo respondes preguntas y no relees la clase.",
+      "table": {
+        "headers": [
+          "Cuándo",
+          "Qué haces",
+          "Tiempo"
+        ],
+        "rows": [
+          [
+            "Día 0 (día de clase)",
+            "Capturar la transcripción, poner encabezados y capturas",
+            "Durante la clase"
+          ],
+          [
+            "Día 1",
+            "Limpiar la transcripción, escribir preguntas, primer autoexamen",
+            "20 a 30 min"
+          ],
+          [
+            "Día 3",
+            "Responder todas las preguntas; marcar los fallos",
+            "10 min"
+          ],
+          [
+            "Día 7",
+            "Los fallos más una mitad al azar del resto",
+            "10 min"
+          ],
+          [
+            "Día 14 a 21",
+            "Recuerdo en hoja en blanco de toda la clase, luego comprobar",
+            "15 min"
+          ],
+          [
+            "Semana de exámenes",
+            "Todas las preguntas, mezcladas con otras clases",
+            "Variable"
+          ]
+        ]
+      },
+      "subsections": [
+        {
+          "h3": "Anki",
+          "body": "Anki es gratis en ordenador y de código abierto. Programa las tarjetas automáticamente y tiene una gran comunidad de mazos compartidos, muy usada en Medicina (también para preparar el MIR) y en idiomas. La interfaz es sobria, lo que a algunos les tranquiliza y a otros les echa para atrás."
+        },
+        {
+          "h3": "RemNote",
+          "body": "RemNote une apuntes y tarjetas en una misma app: una línea de tus apuntes puede convertirse en tarjeta. Va bien si quieres tener las preguntas junto a los apuntes."
+        },
+        {
+          "h3": "Quizlet",
+          "body": "Quizlet es el más fácil para empezar y tiene modos de estudio tipo juego. Es práctico para vocabulario y definiciones; Anki y RemNote dan más control sobre los intervalos."
+        }
+      ]
+    },
+    {
+      "id": "active-recall-adhd",
+      "heading": "¿Funciona el recuerdo activo con TDAH y cómo adaptarlo?",
+      "body": "El recuerdo activo funciona para la mayoría de los estudiantes con TDAH, aunque la investigación todavía es escasa. Un estudio de 2023 en Frontiers in Psychology contó solo tres trabajos previos con universitarios con TDAH: dos de Knouse y sus colegas (2016 y 2020) encontraron que se beneficiaban de la práctica de recuperación tanto como el resto, y uno de Dudukovic y sus colegas (2015) no encontró beneficio. El propio estudio de 2023 halló que la práctica de recuperación ayudaba a los estudiantes con TDAH, pero no compensaba un aprendizaje inicial más débil en quienes no tomaban medicación. La consecuencia práctica es que la captura importa: no puedes recordar lo que nunca llegaste a registrar, y por eso una transcripción completa es útil.\n\nAdemás, la técnica tiene que adaptarse a cómo funciona la atención con TDAH.",
+      "steps": [
+        {
+          "strategy": "Haz sesiones pequeñas",
+          "detail": "Diez preguntas con un temporizador de 10 minutos valen más que una sesión de 2 horas que nunca empiezas. Para cuando todavía te resulte fácil volver mañana."
+        },
+        {
+          "strategy": "Limita las tarjetas nuevas",
+          "detail": "En Anki, baja el número de tarjetas nuevas por día. Una cola de 400 tarjetas pendientes es un motivo clásico por el que los estudiantes con TDAH abandonan la repetición espaciada."
+        },
+        {
+          "strategy": "Responde en voz alta o en movimiento",
+          "detail": "Decir las respuestas en voz alta, caminar mientras recuerdas o explicárselo a alguien mantiene la activación alta y hace más difícil desconectar."
+        },
+        {
+          "strategy": "Empieza con una victoria fácil",
+          "detail": "Abre cada sesión con una pregunta que sabes responder. Con TDAH, arrancar suele ser lo más difícil, y un acierto temprano baja la barrera."
+        },
+        {
+          "strategy": "Usa el body doubling",
+          "detail": "Estudia con alguien en la misma habitación o por videollamada, cada uno con lo suyo. A muchos estudiantes con TDAH les resulta más fácil mantenerse en la tarea con otra persona presente."
+        },
+        {
+          "strategy": "Arregla primero la captura",
+          "detail": "Si pierdes el hilo durante las clases, trabaja eso antes que nada. Nuestra guía para concentrarte en clases online con TDAH lo explica en detalle."
+        }
+      ],
+      "internal_links": [
+        {
+          "text": "Cómo concentrarte en clases online con TDAH",
+          "url": "/blog/how-to-focus-online-lectures-adhd"
+        },
+        {
+          "text": "Cómo tomar apuntes con TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "heading": "En resumen",
+    "body": "El recuerdo activo consiste en ponerte a prueba en vez de releer, y la evidencia de Roediger y Karpicke (2006), Dunlosky et al. (2013) y Cepeda et al. (2006) muestra que funciona mejor combinado con repaso espaciado. Para las clases, el método más fiable es: transcripción, lista de preguntas, autoexamen con los apuntes cerrados y repaso espaciado en Anki, RemNote o Quizlet. Con TDAH, mantén sesiones cortas y asegura primero una buena captura.",
+    "internal_links": [
+      {
+        "text": "Herramientas y estrategias para estudiantes con TDAH",
+        "url": "/for-adhd-students"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "questions": [
+      {
+        "question": "¿Qué es el recuerdo activo en pocas palabras?",
+        "answer": "El recuerdo activo es ponerte a prueba en vez de releer. Cierras los apuntes e intentas responder preguntas, explicar un concepto o escribir todo lo que recuerdas, y luego compruebas en qué fallaste."
+      },
+      {
+        "question": "¿Es mejor el recuerdo activo que releer?",
+        "answer": "Sí, para recordar a largo plazo. En el estudio de Roediger y Karpicke (2006), quienes se pusieron a prueba recordaban el 61 % de un texto tras una semana, frente al 40 % de quienes lo releyeron. Releer solo ganaba en una prueba hecha 5 minutos después."
+      },
+      {
+        "question": "¿Cómo hago recuerdo activo con mis apuntes de clase?",
+        "answer": "Convierte cada punto clave de tus apuntes o de la transcripción en una pregunta corta, oculta las respuestas, ponte a prueba, compara con los apuntes y repasa las preguntas falladas al cabo de 1 día, 3 días y 1 semana."
+      },
+      {
+        "question": "¿El recuerdo activo es lo mismo que la repetición espaciada?",
+        "answer": "No. El recuerdo activo es cómo repasas (recuperando de memoria); la repetición espaciada es cuándo repasas (repartido en el tiempo). Las apps de tarjetas como Anki combinan las dos."
+      },
+      {
+        "question": "¿Puede ChatGPT crear tarjetas a partir de mi clase?",
+        "answer": "ChatGPT o NotebookLM pueden proponer preguntas si les pegas la transcripción de una clase, pero comprueba cada una con la fuente porque pueden inventar detalles. LessonScriptor no genera tarjetas; te da la transcripción de la que partir."
+      },
+      {
+        "question": "¿Funciona el recuerdo activo con TDAH?",
+        "answer": "La mayoría de los estudios con universitarios con TDAH encuentra que la práctica de recuperación les ayuda casi tanto como al resto, aunque un estudio no halló beneficio y la investigación es escasa. Sesiones cortas, un límite de tarjetas nuevas y una buena captura de la clase ayudan a mantener el hábito."
+      }
+    ]
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Recuerdo activo: cómo estudiar a partir de tus apuntes de clase (paso a paso)",
+      "description": "El recuerdo activo es ponerte a prueba en vez de releer. Mira la evidencia y convierte la transcripción de una clase en preguntas, autoexámenes y repasos.",
+      "inLanguage": "es",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://lessonscriptor.com/es/blog/recuerdo-activo-transcripcion-clases"
+      },
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Anthropology student with ADHD, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Developer and SEO, co-founder of LessonScriptor",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "es",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué es el recuerdo activo en pocas palabras?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El recuerdo activo es ponerte a prueba en vez de releer. Cierras los apuntes e intentas responder preguntas, explicar un concepto o escribir todo lo que recuerdas, y luego compruebas en qué fallaste."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Es mejor el recuerdo activo que releer?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí, para recordar a largo plazo. En el estudio de Roediger y Karpicke (2006), quienes se pusieron a prueba recordaban el 61 % de un texto tras una semana, frente al 40 % de quienes lo releyeron. Releer solo ganaba en una prueba hecha 5 minutos después."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cómo hago recuerdo activo con mis apuntes de clase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Convierte cada punto clave de tus apuntes o de la transcripción en una pregunta corta, oculta las respuestas, ponte a prueba, compara con los apuntes y repasa las preguntas falladas al cabo de 1 día, 3 días y 1 semana."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿El recuerdo activo es lo mismo que la repetición espaciada?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. El recuerdo activo es cómo repasas (recuperando de memoria); la repetición espaciada es cuándo repasas (repartido en el tiempo). Las apps de tarjetas como Anki combinan las dos."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede ChatGPT crear tarjetas a partir de mi clase?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "ChatGPT o NotebookLM pueden proponer preguntas si les pegas la transcripción de una clase, pero comprueba cada una con la fuente porque pueden inventar detalles. LessonScriptor no genera tarjetas; te da la transcripción de la que partir."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Funciona el recuerdo activo con TDAH?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La mayoría de los estudios con universitarios con TDAH encuentra que la práctica de recuperación les ayuda casi tanto como al resto, aunque un estudio no halló beneficio y la investigación es escasa. Sesiones cortas, un límite de tarjetas nuevas y una buena captura de la clase ayudan a mantener el hábito."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "¿Cómo uso el recuerdo activo con la transcripción de una clase?",
+      "inLanguage": "es",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Captura la clase como transcripción",
+          "text": "Usa una herramienta de transcripción para no depender de apuntes a mano. LessonScriptor, una extensión de Chrome, transcribe lo que suena en una pestaña: el Campus Virtual de tu universidad, las grabaciones de la UNED, las clases de la UNAM por Zoom en el navegador, YouTube o Panopto. Añade un encabezado cuando cambie el tema y haz capturas de las diapositivas importantes. El modo gratuito escucha por el micrófono, así que pon el audio por altavoces al 80 % o más; el modo IA captura el audio de la pestaña y funciona con auriculares."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Limpia y marca la transcripción",
+          "text": "En las 24 horas siguientes, relee la transcripción una vez, rápido. Borra las digresiones y resalta definiciones, causas, ejemplos y todo lo que el profesor dijo que entraría en el examen. Es la única relectura del método, y sirve para encontrar preguntas, no para aprender."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "name": "Escribe una lista de preguntas",
+          "text": "Convierte cada punto resaltado en una pregunta. Apunta a 10 a 20 por clase. Una pregunta por línea; la respuesta queda en la transcripción, para que tengas que recuperarla."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "name": "Opcional: pide un borrador de preguntas a un chatbot",
+          "text": "Si escribir preguntas es lo que te bloquea, exporta la transcripción en .txt o .md y pégala tú en ChatGPT o NotebookLM pidiendo preguntas que se ciñan al texto. Comprueba cada pregunta con la transcripción antes de quedártela."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "name": "Ponte a prueba con los apuntes cerrados",
+          "text": "Responde cada pregunta en voz alta o en papel sin mirar. Luego compara con la transcripción y marca cada pregunta como bien, a medias o mal. Las que fallaste son tu lista de estudio."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "name": "Programa repasos espaciados",
+          "text": "Pasa las preguntas a Anki, RemNote o Quizlet como tarjetas, o lleva una lista con fechas. Repasa al cabo de 1 día, 3 días, 1 semana y 2 a 3 semanas, y una vez más la semana anterior al examen."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "slug": "chrome-live-captions-vs-lessonscriptor",
+  "page_type": "blog_post",
+  "category_tag": "Transcription & Tools",
+  "h1": "Sous-titres instantanés de Chrome ou LessonScriptor : le comparatif complet",
+  "reading_time_min": 8,
+  "published_at": "2026-04-28",
+  "updated_at": "2026-04-28",
+  "meta": {
+    "title": "Sous-titres instantanés Chrome vs LessonScriptor",
+    "description": "Sous-titres instantanés de Chrome ou LessonScriptor ? Précision, édition, export, casque et langues comparés pour savoir lequel utiliser pour vos cours.",
+    "og_image": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "canonical": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-vs-lessonscriptor",
+    "og_title": "Sous-titres instantanés Chrome vs LessonScriptor : le comparatif",
+    "og_description": "Pour réviser ses cours, que choisir : les sous-titres intégrés à Chrome ou LessonScriptor ?",
+    "twitter_card": "summary_large_image",
+    "keywords": [
+      "sous-titres instantanés chrome",
+      "extension sous-titres chrome",
+      "sous-titres chrome vs lessonscriptor",
+      "transcription cours chrome"
+    ]
+  },
+  "hero_image": {
+    "src": "/images/blog/chrome-live-captions-vs-lessonscriptor-hero.png",
+    "alt": "Comparaison entre la bulle de sous-titres instantanés de Chrome et le panneau latéral modifiable de LessonScriptor",
+    "width": 1200,
+    "height": 630,
+    "caption": null
+  },
+  "author": {
+    "name": "Victoria & Pierre, LessonScriptor",
+    "bio": "Victoria et Pierre développent LessonScriptor, une extension Chrome de transcription vidéo en direct. Victoria étudie l'anthropologie à distance et vit avec un TDAH. Pierre s'occupe du développement et du SEO.",
+    "url": "/transcribe-video-to-text"
+  },
+  "tldr": {
+    "label": "Points clés",
+    "lead": "Les Sous-titres instantanés de Chrome et LessonScriptor ne répondent pas au même besoin. Les sous-titres de Chrome sont immédiats et éphémères. LessonScriptor est un outil de prise de notes bâti sur la transcription en direct : il ajoute l'édition, l'export et l'annotation.",
+    "bullets": [
+      "Sous-titres instantanés de Chrome : gratuits, sans installation, lecture seule, 19 langues, aucun export, deux lignes qui disparaissent.",
+      "LessonScriptor : mode gratuit via le micro (volume à 80 %+, pas de casque) et mode IA via l'audio de l'onglet (casque OK), transcription modifiable, export .txt/.md, 14 langues.",
+      "Le mode IA de LessonScriptor se paie en packs sans abonnement (5 h = 5 $, 15 h = 12 $, 30 h = 21 $), après 30 minutes d'essai gratuit.",
+      "Pour réviser un cours vidéo sur Moodle, Panopto ou YouTube, LessonScriptor est le meilleur choix. Pour des sous-titres d'accessibilité ponctuels, la fonction de Chrome est plus simple.",
+      "La vraie différence n'est pas gratuit contre payant, mais lecture seule contre texte modifiable."
+    ]
+  },
+  "intro": "Les Sous-titres instantanés de Chrome sont une fonction d'accessibilité en lecture seule qui affiche une bulle de sous-titres pour tout audio lu dans le navigateur. LessonScriptor est une extension Chrome qui transcrit l'audio d'une vidéo dans un panneau latéral persistant, modifiable et exportable. Les deux produisent des sous-titres en direct ; la différence tient à ce que vous pouvez en faire ensuite. Les sous-titres de Chrome disparaissent au fil de la lecture. La transcription de LessonScriptor reste, se surligne et s'exporte en .txt ou .md vers Notion, Obsidian ou Google Docs. Ce comparatif passe en revue toutes les différences utiles pour un étudiant.",
+  "stats": [
+    {
+      "number": "0",
+      "label": "mot modifiable ou enregistrable dans les Sous-titres instantanés de Chrome"
+    },
+    {
+      "number": "100 %",
+      "label": "de la transcription LessonScriptor modifiable, surlignable et exportable"
+    },
+    {
+      "number": "30 min",
+      "label": "d'essai gratuit du mode IA de LessonScriptor"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-chrome-live-caption",
+      "h2": "Que sont les Sous-titres instantanés de Chrome ?",
+      "body": "Les Sous-titres instantanés de Chrome sont une fonction d'accessibilité qui génère des sous-titres en temps réel pour tout audio lu dans Chrome. Selon l'aide Google, l'audio et les sous-titres sont traités localement, ne sont pas enregistrés et ne quittent pas l'appareil.\n\nPour les activer : **Plus > Paramètres > Accessibilité > Sous-titres instantanés**, ou tapez chrome://settings/accessibility dans la barre d'adresse.\n\nUne bulle flottante apparaît en bas de la fenêtre et affiche deux lignes de texte qui défilent puis disparaissent. Impossible de remonter, de modifier, de copier, d'enregistrer ou d'exporter le texte : il n'existe que sur le moment.\n\nLes Sous-titres instantanés prennent en charge 19 langues, dont le français, l'anglais, l'espagnol, l'allemand, le portugais et le chinois, et fonctionnent sur toute source audio dans Chrome : YouTube, podcasts, streaming, visios dans le navigateur."
+    },
+    {
+      "id": "what-is-lessonscriptor",
+      "h2": "Qu'est-ce que LessonScriptor ?",
+      "body": "LessonScriptor est une extension Chrome qui transcrit l'audio d'une vidéo dans un panneau latéral modifiable. Elle est pensée pour les étudiants qui suivent des cours en vidéo et veulent une transcription structurée pour réviser.\n\nUne fois installée, l'icône LessonScriptor ouvre un panneau à côté de tout ce qui joue dans Chrome : Moodle (Sorbonne, Université de Lyon), Panopto, Canvas, YouTube, Coursera, Udemy, classes virtuelles du CNED, Zoom ou Teams dans le navigateur. Le panneau se remplit au fil de la lecture.\n\nLa transcription est un vrai éditeur : surlignage en 5 couleurs, gras, titres, listes, suppression de passages et captures d'écran de la diapositive. À la fin, exportez en .txt ou .md ou copiez dans le presse-papiers.\n\nLessonScriptor a deux modes. Le **mode gratuit** utilise la reconnaissance vocale intégrée au navigateur via le **micro** : il faut des haut-parleurs à 80 % ou plus, il ne fonctionne pas au casque et il transcrit aussi votre voix ; aucun audio n'est envoyé aux serveurs de LessonScriptor. Le **mode IA** capte l'**audio de l'onglet** et le transcrit avec des modèles cloud de type Whisper, par blocs de 10 secondes (Normal) ou 30 secondes (Optimal).",
+      "internal_links": [
+        {
+          "text": "Sous-titres en direct dans Chrome avec LessonScriptor",
+          "url": "/live-captions-chrome"
+        }
+      ]
+    },
+    {
+      "id": "comparison-table",
+      "h2": "Sous-titres instantanés de Chrome vs LessonScriptor : le tableau complet",
+      "body": "Ce tableau compare toutes les différences utiles entre la fonction intégrée de Chrome et LessonScriptor.",
+      "table": {
+        "headers": [
+          "Critère",
+          "Sous-titres instantanés de Chrome",
+          "LessonScriptor"
+        ],
+        "rows": [
+          [
+            "Installation",
+            "Non (intégré à Chrome)",
+            "Oui (Chrome Web Store)"
+          ],
+          [
+            "Compte",
+            "Non",
+            "Non en mode gratuit (clé de licence par e-mail pour le mode IA)"
+          ],
+          [
+            "Transcription modifiable",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Export",
+            "Non",
+            "Oui : .txt, .md, presse-papiers"
+          ],
+          [
+            "Surlignage et annotation",
+            "Non",
+            "Oui : 5 couleurs, gras, titres, listes, captures"
+          ],
+          [
+            "Historique des sessions",
+            "Non",
+            "Oui, enregistré localement"
+          ],
+          [
+            "Avec un casque",
+            "Oui (sous-titre l'audio de Chrome, pas le micro)",
+            "Oui en mode IA (audio de l'onglet), non en mode gratuit (micro)"
+          ],
+          [
+            "Langues",
+            "19",
+            "14"
+          ],
+          [
+            "Précision (parole courante)",
+            "Bonne",
+            "Bonne (gratuit) / excellente (IA)"
+          ],
+          [
+            "Précision (vocabulaire de cours, accents)",
+            "Moyenne",
+            "Élevée (mode IA)"
+          ],
+          [
+            "YouTube, Moodle, enregistrements Zoom",
+            "Oui",
+            "Oui"
+          ],
+          [
+            "Prix",
+            "Gratuit",
+            "Gratuit + packs IA dès 5 $ (USD, sans abonnement)"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "accuracy-comparison",
+      "h2": "Lequel est le plus précis, Chrome ou LessonScriptor ?",
+      "body": "Pour de la parole courante et bien articulée, comme un journal ou un podcast, les Sous-titres instantanés de Chrome et le mode gratuit de LessonScriptor donnent une précision comparable. Le mode gratuit dépend en plus de la qualité du son capté par le micro : un volume trop bas ou une pièce bruyante dégradent le résultat.\n\nPour un cours, l'écart se creuse avec le mode IA de LessonScriptor. Les modèles de type Whisper qu'il utilise ont été entraînés sur de très grands volumes de parole multilingue et gèrent mieux les accents, le jargon et le bruit de fond que le modèle local de Chrome, optimisé pour tourner sur un ordinateur grand public.\n\nConcrètement : sur un cours magistral clair, Chrome et le mode gratuit se valent. Sur un cours de chimie organique, de droit ou d'anthropologie riche en noms propres et en termes techniques, le mode IA fait nettement moins d'erreurs. Le mode Optimal (blocs de 30 secondes) est le plus précis, au prix d'un délai d'affichage un peu plus long."
+    },
+    {
+      "id": "when-to-use-chrome-captions",
+      "h2": "Quand utiliser les Sous-titres instantanés de Chrome plutôt que LessonScriptor ?",
+      "body": "Les Sous-titres instantanés de Chrome sont le meilleur choix dans trois cas.\n\n**Sous-titres rapides et jetables :** en bibliothèque universitaire sans écouteurs, dans le train ou pendant un appel, ils offrent une accessibilité immédiate, sans extension à installer ni panneau à ouvrir.\n\n**Langues que LessonScriptor ne couvre pas :** Chrome propose 19 langues, dont le japonais, le coréen, l'italien, le néerlandais, le polonais et le turc. Vérifiez la liste de LessonScriptor (14 langues) avant un cours dans une langue moins courante.\n\n**Ordinateurs verrouillés :** certains établissements bloquent l'installation d'extensions sur les postes gérés. Dans ce cas, la fonction intégrée de Chrome est la seule option."
+    },
+    {
+      "id": "when-to-use-lessonscriptor",
+      "h2": "Quand utiliser LessonScriptor plutôt que les sous-titres de Chrome ?",
+      "body": "LessonScriptor est le meilleur choix dès que vous voulez garder, réviser ou citer ce qui a été dit.\n\n**Révisions :** après un cours en amphi filmé ou une vidéo sur Moodle, les sous-titres de Chrome ne laissent rien. LessonScriptor produit une transcription annotée et enregistrée dans l'historique. C'est particulièrement utile avec un TDAH, quand écrire en écoutant est épuisant.\n\n**Casque et texte conservé :** les sous-titres de Chrome fonctionnent au casque, mais disparaissent. Le mode IA de LessonScriptor capte l'audio de l'onglet, fonctionne avec n'importe quel casque et garde le texte. Le mode gratuit, lui, passe par le micro et exige des haut-parleurs.\n\n**Contenus techniques :** le mode IA est plus précis sur le vocabulaire disciplinaire, les noms d'auteurs et les sigles.\n\n**Plusieurs vidéos à la fois :** en mode IA, chaque onglet est indépendant.\n\n**Apprentissage des langues :** surlignez le vocabulaire inconnu, exportez votre liste, puis collez la transcription dans ChatGPT ou NotebookLM pour la résumer si vous le souhaitez.",
+      "internal_links": [
+        {
+          "text": "Sous-titres Chrome et casque audio",
+          "url": "/blog/chrome-live-captions-headphones"
+        },
+        {
+          "text": "Comment prendre des notes avec un TDAH",
+          "url": "/blog/how-to-take-notes-with-adhd"
+        },
+        {
+          "text": "Sous-titres en direct dans d'autres langues sur Chrome",
+          "url": "/blog/live-captions-other-languages-chrome"
+        }
+      ]
+    },
+    {
+      "id": "can-use-both",
+      "h2": "Peut-on utiliser les Sous-titres instantanés de Chrome et LessonScriptor en même temps ?",
+      "body": "Oui, mais c'est rarement utile. Les deux sous-titrent le même audio, donc vous obtenez le même texte deux fois, et la bulle de Chrome encombre l'écran quand le panneau LessonScriptor est ouvert.\n\nLe plus simple est de choisir selon la séance : les sous-titres de Chrome pour un sous-titrage jetable, LessonScriptor dès que vous voulez garder la transcription.",
+      "internal_links": [
+        {
+          "text": "Les meilleures extensions Chrome de sous-titres en direct",
+          "url": "/blog/best-chrome-extensions-live-captions"
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "heading": "Essayez LessonScriptor gratuitement, sans compte",
+    "body": "Installez LessonScriptor en un clic. Des sous-titres en direct modifiables et exportables pour toute vidéo dans Chrome. Le mode gratuit fonctionne tout de suite.",
+    "button_label": "Ajouter LessonScriptor à Chrome, gratuit",
+    "button_href": "https://chromewebstore.google.com/detail/lessonscriptor/apofgfejefeeepabfbaabdijnokbpcgp"
+  },
+  "faq": {
+    "heading": "Questions fréquentes",
+    "questions": [
+      {
+        "question": "Quelle différence entre les Sous-titres instantanés de Chrome et LessonScriptor ?",
+        "answer": "Les Sous-titres instantanés de Chrome sont en lecture seule : deux lignes dans une bulle qui disparaissent au fil de la lecture. LessonScriptor crée une transcription persistante dans un panneau latéral, que vous pouvez surligner, structurer et exporter en .txt ou .md."
+      },
+      {
+        "question": "LessonScriptor est-il meilleur que les sous-titres intégrés à Chrome ?",
+        "answer": "Pour garder et réviser ses cours, oui : LessonScriptor ajoute l'édition, l'export, l'annotation et, en mode IA, une meilleure précision. Pour des sous-titres ponctuels sans rien installer, la fonction de Chrome est plus simple."
+      },
+      {
+        "question": "LessonScriptor est-il gratuit comme les sous-titres de Chrome ?",
+        "answer": "Oui, le mode gratuit de LessonScriptor ne demande ni compte ni paiement. Il écoute par le micro, donc il faut des haut-parleurs assez forts et pas de casque. Le mode IA, après 30 minutes d'essai, se paie en packs sans abonnement : 5 h = 5 $, 15 h = 12 $, 30 h = 21 $ (prix en USD, Stripe affiche une estimation en euros)."
+      },
+      {
+        "question": "Comment activer les Sous-titres instantanés de Chrome ?",
+        "answer": "Cliquez sur Plus (les trois points) > Paramètres > Accessibilité, puis activez Sous-titres instantanés. Vous pouvez aussi ouvrir chrome://settings/accessibility. Choisissez ensuite la langue des sous-titres, par exemple le français."
+      },
+      {
+        "question": "LessonScriptor peut-il remplacer les sous-titres de Chrome ?",
+        "answer": "Pour les vidéos et cours en ligne, oui : LessonScriptor fonctionne sur tout ce qui joue dans un onglet Chrome et produit un texte réutilisable. Il ne remplace pas les sous-titres de Chrome pour un usage d'accessibilité ponctuel ou sur un poste où les extensions sont bloquées."
+      }
+    ]
+  },
+  "summary": {
+    "heading": "Sous-titres instantanés de Chrome ou LessonScriptor : lequel choisir ?",
+    "body": "Les Sous-titres instantanés de Chrome sont parfaits pour des sous-titres immédiats que vous n'avez pas besoin de garder. LessonScriptor est le bon outil quand vous voulez une transcription à modifier, annoter et exporter, notamment pour des cours sur Moodle, Panopto, YouTube ou des enregistrements Zoom. Les deux ont une option gratuite : la différence n'est pas le prix, mais ce que vous pouvez faire du texte après la vidéo. Si vous vous êtes déjà dit « j'aurais voulu garder ce que les sous-titres viennent d'afficher », LessonScriptor est fait pour vous."
+  },
+  "schemas": [
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Sous-titres instantanés de Chrome ou LessonScriptor : le comparatif complet",
+      "description": "Sous-titres instantanés de Chrome ou LessonScriptor ? Précision, édition, export, casque et langues comparés pour savoir lequel utiliser pour vos cours.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-04-28",
+      "dateModified": "2026-04-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-vs-lessonscriptor",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Étudiante en anthropologie, TDAH",
+          "url": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Développeur et SEO",
+          "url": "https://lessonscriptor.com/fr"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png",
+          "width": 600,
+          "height": 60
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "inLanguage": "fr-FR",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Quelle différence entre les Sous-titres instantanés de Chrome et LessonScriptor ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les Sous-titres instantanés de Chrome sont en lecture seule : deux lignes dans une bulle qui disparaissent au fil de la lecture. LessonScriptor crée une transcription persistante dans un panneau latéral, que vous pouvez surligner, structurer et exporter en .txt ou .md."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor est-il meilleur que les sous-titres intégrés à Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pour garder et réviser ses cours, oui : LessonScriptor ajoute l'édition, l'export, l'annotation et, en mode IA, une meilleure précision. Pour des sous-titres ponctuels sans rien installer, la fonction de Chrome est plus simple."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor est-il gratuit comme les sous-titres de Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Oui, le mode gratuit de LessonScriptor ne demande ni compte ni paiement. Il écoute par le micro, donc il faut des haut-parleurs assez forts et pas de casque. Le mode IA, après 30 minutes d'essai, se paie en packs sans abonnement : 5 h = 5 $, 15 h = 12 $, 30 h = 21 $ (prix en USD, Stripe affiche une estimation en euros)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment activer les Sous-titres instantanés de Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cliquez sur Plus (les trois points) > Paramètres > Accessibilité, puis activez Sous-titres instantanés. Vous pouvez aussi ouvrir chrome://settings/accessibility. Choisissez ensuite la langue des sous-titres, par exemple le français."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "LessonScriptor peut-il remplacer les sous-titres de Chrome ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Pour les vidéos et cours en ligne, oui : LessonScriptor fonctionne sur tout ce qui joue dans un onglet Chrome et produit un texte réutilisable. Il ne remplace pas les sous-titres de Chrome pour un usage d'accessibilité ponctuel ou sur un poste où les extensions sont bloquées."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Accueil",
+          "item": "https://lessonscriptor.com/fr"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://lessonscriptor.com/fr/blog"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sous-titres instantanés Chrome vs LessonScriptor",
+          "item": "https://lessonscriptor.com/fr/blog/sous-titres-chrome-vs-lessonscriptor"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "text": "Aide Google Chrome : Sous-titres instantanés",
+      "href": "https://support.google.com/chrome/answer/10538231?hl=fr",
+      "external": true
+    },
+    {
+      "text": "OpenAI : Whisper",
+      "href": "https://openai.com/research/whisper",
+      "external": true
+    }
+  ],
+  "internal_links_map": {
+    "pillar": "/live-captions-chrome",
+    "related_posts": [
+      "/blog/chrome-live-captions-not-working",
+      "/blog/best-chrome-extensions-live-captions",
+      "/blog/chrome-live-captions-headphones",
+      "/blog/live-captions-zoom-recordings-chrome",
+      "/blog/live-captions-other-languages-chrome",
+      "/blog/how-to-take-notes-with-adhd"
+    ]
+  }
+}

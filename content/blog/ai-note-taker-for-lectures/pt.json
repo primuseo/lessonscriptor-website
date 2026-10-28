@@ -2,169 +2,375 @@
   "slug": "ai-note-taker-for-lectures",
   "page_type": "blog_post",
   "category_tag": "Transcription & Tools",
-  "h1": "O Melhor Anotador com IA para Aulas (Grátis, no Chrome)",
-  "reading_time_min": 8,
+  "h1": "Anotador com IA para aulas: gravador ou transcrição ao vivo?",
+  "reading_time_min": 10,
   "published_at": "2026-09-09",
-  "updated_at": "2026-09-09",
+  "updated_at": "2026-10-28",
   "meta": {
-    "title": "O Melhor Anotador com IA para Aulas (Grátis, no Chrome)",
-    "description": "Compare o LessonScriptor, Otter.ai, Fireflies e Notta como anotadores com IA. Veja qual deles realmente funciona em aulas gravadas, não só em reuniões ao vivo.",
-    "keywords": ["anotador com ia para estudantes", "melhor anotador com ia para estudantes", "app de anotações com ia para estudantes grátis", "anotador com ia para estudantes universitários"],
-    "og_image": null,
-    "canonical": "https://lessonscriptor.com/pt/blog/melhor-anotador-ia-aulas",
-    "og_title": "O Melhor Anotador com IA para Aulas (Grátis, no Chrome)",
-    "og_description": "Compare o LessonScriptor, Otter.ai, Fireflies e Notta como anotadores com IA para aulas.",
+    "title": "Anotador com IA para aulas: gravador ou transcrição?",
+    "description": "Anotador com IA para aulas: compare gravadores (Gravador, Otter, Notta, Notability) e a transcrição ao vivo no Chrome para aula presencial e EAD.",
+    "keywords": [
+      "anotador com ia para aulas",
+      "gravador de aulas",
+      "app para gravar aulas",
+      "anotador com ia para estudantes",
+      "melhor anotador com ia",
+      "transcrição de aulas"
+    ],
+    "og_title": "Anotador com IA para aulas: gravador ou transcrição ao vivo?",
+    "og_description": "Gravador ou transcrição ao vivo: qual anotador com IA serve para aula presencial, aula gravada no AVA e aulas pelo Zoom ou Google Meet.",
     "twitter_card": "summary_large_image"
   },
   "author": {
     "name": "Victoria & Pierre, LessonScriptor",
-    "bio": "Victoria e Pierre criam o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
-    "url": "/transcribe-video-to-text"
+    "bio": "Victoria e Pierre desenvolvem o LessonScriptor, uma extensão do Chrome para transcrição de vídeo ao vivo. Victoria estuda Antropologia a distância e tem TDAH. Pierre cuida do desenvolvimento e do SEO.",
+    "url": "https://lessonscriptor.com/en"
   },
   "tldr": {
     "label": "Principais pontos",
-    "lead": "A maioria dos anotadores com IA é feita para reuniões ao vivo, não para aulas gravadas. O LessonScriptor serve para os dois casos: ele transcreve qualquer coisa tocando em uma aba do Chrome, ao vivo ou gravada.",
+    "lead": "Um anotador com IA para aulas é uma ferramenta que transforma o que o professor fala em texto para estudar. O certo para você depende de onde a aula acontece: numa sala ou numa aba do navegador.",
     "bullets": [
-      "Anotadores do tipo bot de reunião (Otter.ai, Fireflies) entram na chamada como participantes. Eles não ajudam com uma aula gravada, um vídeo do YouTube ou um vídeo em uma plataforma universitária.",
-      "O LessonScriptor transcreve qualquer áudio tocando em uma aba do Chrome: Zoom ou Meet ao vivo, uma aula gravada no Panopto ou Canvas, um vídeo do YouTube.",
-      "O modo grátis não pede conta e não tem limite mensal. O modo IA é um pacote de créditos pré-pago para mais precisão em sotaques e vocabulário técnico, não uma assinatura.",
-      "A transcrição é um editor de verdade enquanto se forma, não uma exportação estática: destaque, negrito, adicione cabeçalhos, depois exporte como .md ou .txt."
+      "**Aulas presenciais:** use um gravador. O Gravador do iPhone, o Gravador do Pixel, a sincronização de áudio do Notability ou o app do Otter.ai captam a sala, e você transcreve o áudio depois ou durante a gravação.",
+      "**Aulas online e gravadas:** normalmente você não precisa gravar nada. O LessonScriptor transcreve o que toca numa aba do Chrome (AVA em Moodle, Google Classroom, Canvas, YouTube, Zoom) numa transcrição editável.",
+      "**Bots de reunião** (Otter.ai, Fireflies) entram numa chamada ao vivo do Zoom ou do Meet. Ajudam em seminários ao vivo, não numa aula gravada do AVA.",
+      "**O LessonScriptor não salva áudio** e não faz resumos com IA. Ele salva texto, com destaques e prints dos slides, exportável em .md ou .txt.",
+      "O modo gratuito não pede conta e não tem limite mensal. O modo IA é um pacote de créditos pago uma vez, a partir de US$ 5, sem assinatura."
     ]
   },
   "stats": [
-    { "number": "0", "label": "limite mensal no modo grátis do LessonScriptor" },
-    { "number": "14", "label": "idiomas suportados, incluindo francês, espanhol, árabe e hindi" },
-    { "number": "2", "label": "formatos de exportação (.txt e .md), além de copiar para a área de transferência" }
+    {
+      "number": "0",
+      "label": "limite mensal no modo gratuito do LessonScriptor"
+    },
+    {
+      "number": "14",
+      "label": "idiomas suportados, incluindo português, inglês, espanhol e francês"
+    },
+    {
+      "number": "30 min",
+      "label": "de teste grátis do modo IA, sem assinatura"
+    }
   ],
-  "intro": "O melhor anotador com IA para aulas é o LessonScriptor, uma extensão gratuita do Chrome que transcreve qualquer vídeo tocando em uma aba do navegador, ao vivo ou gravado, e transforma isso em uma transcrição editável. A maioria dos anotadores com IA conhecidos, Otter.ai e Fireflies entre eles, é feita para entrar em uma reunião ao vivo como um bot. Isso é uma tarefa diferente de transcrever uma aula gravada, um tutorial do YouTube ou um vídeo em uma plataforma universitária, que é o que a maioria dos estudantes realmente precisa. Este guia compara as principais opções no que importa para anotações de aula: funciona em uma gravação, não só em uma chamada ao vivo.",
+  "intro": "O melhor anotador com IA para aulas depende de onde a aula está. Para a aula presencial, um app de gravação como o Gravador do celular, o Otter.ai ou o Notability é a ferramenta certa. Para aulas online, EAD e aulas gravadas, o LessonScriptor é uma extensão gratuita do Chrome que transforma o que toca numa aba do navegador em uma transcrição editável, sem nada para gravar ou enviar. Muitos estudantes procuram um “app para gravar aulas” quando, na verdade, querem o texto. A gravação é só o primeiro passo: uma hora de áudio ainda precisa ser ouvida de novo ou transcrita antes de virar material de estudo. Este guia compara apps de gravação, bots de reunião e transcrição ao vivo, e mostra qual serve para cada tipo de aula.",
   "sections": [
     {
       "id": "what-is-ai-note-taker",
-      "h2": "O que é um anotador com IA, e qual tipo os estudantes precisam?",
-      "body": "Os anotadores com IA se dividem em duas categorias. A primeira são os bots de reunião, ferramentas como Otter.ai e Fireflies que entram em uma chamada do Zoom ou Google Meet como participantes e gravam o que é dito. Eles são feitos para reuniões ao vivo e funcionam bem nisso, mas não conseguem entrar em uma aula que já foi gravada, nem transcrever um vídeo do YouTube.\n\nA segunda categoria é a transcrição pelo navegador, ferramentas como o LessonScriptor que captam o áudio de qualquer coisa tocando em uma aba do Chrome, seja uma chamada ao vivo ou um vídeo gravado. Para aulas especificamente, a maioria delas gravadas, no Panopto, Canvas, YouTube ou na plataforma própria da universidade, essa é a categoria que realmente ajuda."
+      "h2": "O que é um anotador com IA para aulas?",
+      "body": "Um anotador com IA para aulas é um software que usa reconhecimento de fala para transformar as palavras do professor em texto, às vezes acrescentando resumos gerados por IA. Existem três tipos, e cada um resolve um problema diferente.\n\n**Apps de gravação** (Gravador do iPhone, Gravador do Pixel, Notability, o app do Otter.ai, Knowt) captam o áudio da sala pelo microfone do celular ou do tablet. Alguns transcrevem, outros só guardam o arquivo.\n\n**Bots de reunião** (o OtterPilot do Otter.ai, Fireflies.ai) entram numa chamada ao vivo do Zoom, do Google Meet ou do Teams como participante e transcrevem a conversa.\n\n**Transcrição ao vivo da aba** (LessonScriptor) transcreve o áudio do que toca numa aba do Chrome, ao vivo ou gravado, sem entrar em nada e sem criar arquivo. Para quem tem as aulas no AVA, no Google Classroom ou num curso EAD, esse é o tipo que cobre a maior parte da semana."
+    },
+    {
+      "id": "lecture-recorder-vs-transcription",
+      "h2": "Preciso de um gravador de aulas ou de uma transcrição?",
+      "body": "Um gravador de aulas salva áudio; uma transcrição salva texto. A diferença aparece na hora de revisar. Uma gravação de 90 minutos são 90 minutos ouvindo de novo, a menos que algo a transcreva. Uma transcrição você lê na diagonal em cinco minutos, pesquisa um termo e cola num documento de estudo.\n\nGravar faz sentido quando nada mais registra a aula, o que quase sempre quer dizer a aula presencial que a universidade não filma. Nas aulas online, a universidade normalmente já gravou o vídeo, seja no AVA, no Google Drive da disciplina ou no Zoom. Fazer a sua própria cópia em áudio só acrescenta um arquivo para organizar e continua deixando a transcrição por fazer. Nesse caso, transcrever direto do player pula o gravador.",
+      "callout": {
+        "type": "note",
+        "label": "Nota honesta",
+        "body": "O LessonScriptor não é um gravador. Ele não salva áudio nem vídeo, e você não pode enviar uma gravação para ele. Se você precisa do áudio em si, use um app de gravação."
+      }
+    },
+    {
+      "id": "recorder-apps",
+      "h2": "Quais são os melhores apps para gravar aulas?",
+      "body": "Estes são os apps de gravação que estudantes mais usam, e no que cada um é bom.",
+      "subsections": [
+        {
+          "h3": "Gravador do celular (iPhone e Android)",
+          "body": "O Gravador do iPhone e o Gravador do Android são gratuitos, já vêm instalados e são confiáveis numa sala de aula se você sentar perto da frente. O Gravador do Google Pixel transcreve no próprio aparelho enquanto grava, nos idiomas suportados. Versões recentes do iOS também mostram a transcrição de uma gravação, em idiomas suportados. O áudio de um celular no fundo da sala tem muito ruído, e a qualidade da transcrição cai com a distância."
+        },
+        {
+          "h3": "Sincronização de áudio do Notability",
+          "body": "O Notability no iPad grava o áudio enquanto você escreve e liga cada traço ao momento em que foi escrito. Toque numa anotação durante a reprodução e ele vai para o que o professor estava dizendo. É excelente para anotações à mão numa aula presencial, mas o resultado é uma gravação mais as suas anotações, não uma transcrição completa."
+        },
+        {
+          "h3": "Otter.ai e Notta",
+          "body": "O Otter.ai grava e transcreve áudio presencial no celular, importa arquivos e pode mandar um bot para reuniões ao vivo. É um bom generalista para quem precisa de identificação de quem fala e de resumos com IA, mas confira o suporte ao português antes de assinar, porque por muito tempo ele só trabalhou com inglês, espanhol e francês. O Notta funciona de forma parecida e aceita português. Os limites dos dois: assinatura depois do plano gratuito e nenhum jeito de transcrever um vídeo do AVA que você não consegue baixar."
+        },
+        {
+          "h3": "Knowt e outros apps de gravação para anotações",
+          "body": "O anotador de aulas com IA do Knowt e apps parecidos recebem uma gravação ou um arquivo e geram anotações e cartões de estudo a partir dele. Servem para quem quer material de estudo gerado automaticamente e não se importa de gravar primeiro."
+        }
+      ]
     },
     {
       "id": "comparison-table",
-      "h2": "Anotadores com IA comparados para uso em aulas",
-      "body": "Veja como as principais opções se comparam no que importa especificamente para anotações de aula.",
+      "h2": "Como os anotadores com IA para aulas se comparam?",
+      "body": "A tabela compara como cada ferramenta funciona, porque é isso que decide quais aulas ela consegue cobrir, e não a quantidade de recursos. Onde os detalhes de um concorrente mudam com frequência, a célula descreve o modelo, não um preço.",
       "table": {
-        "headers": ["", "LessonScriptor", "Otter.ai", "Fireflies.ai", "Notta"],
+        "headers": [
+          "",
+          "LessonScriptor",
+          "Otter.ai",
+          "Notta",
+          "Gravador do celular",
+          "Notability"
+        ],
         "rows": [
-          ["Funciona em aulas gravadas", "Sim, qualquer vídeo no Chrome", "Não, só reuniões ao vivo", "Não, só reuniões ao vivo", "Limitado"],
-          ["Funciona no YouTube", "Sim", "Não", "Não", "Não"],
-          ["Preço", "Grátis, modo IA a partir de $5 pagamento único", "Cerca de $17/mês", "Cerca de $10/mês", "Cerca de $8-9/mês"],
-          ["Transcrição editável", "Sim, ao vivo no painel", "Sim", "Sim", "Sim"],
-          ["Precisa de conta", "Não, no modo grátis", "Sim", "Sim", "Sim"],
-          ["Idiomas", "14", "Principalmente inglês", "Principalmente inglês", "50+"]
+          [
+            "Como funciona",
+            "Transcreve o que toca numa aba do Chrome",
+            "Bot de reunião, gravador no celular, importação de arquivos",
+            "Upload de arquivos, bot de reunião, apps",
+            "Grava o áudio da sala",
+            "Grava áudio sincronizado com anotações à mão"
+          ],
+          [
+            "Aula presencial",
+            "Não foi feito para isso",
+            "Sim, pelo app",
+            "Sim, pelo app",
+            "Sim",
+            "Sim"
+          ],
+          [
+            "Vídeo que não pode ser baixado (AVA, Canvas, Panopto)",
+            "Sim",
+            "Não",
+            "Limitado",
+            "Não",
+            "Não"
+          ],
+          [
+            "Precisa de arquivo para enviar",
+            "Não",
+            "Para gravações, sim",
+            "Para gravações, sim",
+            "Cria o arquivo",
+            "Cria o arquivo"
+          ],
+          [
+            "Salva áudio",
+            "Não, só texto",
+            "Sim",
+            "Sim",
+            "Sim",
+            "Sim"
+          ],
+          [
+            "Transcrição completa",
+            "Sim, editável ao vivo",
+            "Sim",
+            "Sim",
+            "Depende do celular",
+            "Não"
+          ],
+          [
+            "Resumos com IA",
+            "Não (exporte para o ChatGPT ou o NotebookLM)",
+            "Sim",
+            "Sim",
+            "Não",
+            "Confira os planos atuais"
+          ],
+          [
+            "Modelo de preço",
+            "Modo gratuito, pacotes IA a partir de US$ 5 pagos uma vez",
+            "Plano gratuito, depois assinatura",
+            "Plano gratuito, depois assinatura",
+            "Grátis",
+            "Plano gratuito, depois assinatura"
+          ],
+          [
+            "Exige conta",
+            "Não, no modo gratuito",
+            "Sim",
+            "Sim",
+            "Não",
+            "Sim"
+          ]
         ]
       }
     },
     {
+      "id": "in-person-vs-online",
+      "h2": "Anotador com IA na aula presencial e na aula online: o que muda?",
+      "body": "O formato decide a ferramenta, porque o áudio chega até você de jeitos diferentes.",
+      "subsections": [
+        {
+          "h3": "Aulas presenciais",
+          "body": "Numa sala ou num auditório, a única fonte de áudio é o ambiente, então você precisa de um microfone perto de quem fala. Use o gravador do celular ou o app do Otter.ai na carteira mais próxima da mesa do professor, ou o Notability se você faz anotações à mão no iPad. Peça permissão ao professor antes. Se a universidade também filma a aula e publica no AVA, pule o gravador e transcreva a aula gravada depois no Chrome, com um áudio muito mais limpo do que o de um celular no fundo da sala."
+        },
+        {
+          "h3": "Aulas online, EAD e aulas gravadas",
+          "body": "Quando a aula toca no seu navegador, o áudio limpo já está no computador. O modo IA do LessonScriptor captura o áudio da aba diretamente, então funciona com fones e é preciso com sotaques e vocabulário técnico. O modo gratuito escuta pelo microfone, o que quer dizer caixas de som em cerca de 80% e sem fones. Funciona no AVA em Moodle, no Google Classroom, no Canvas, no Blackboard, no YouTube, no Coursera, na Udemy e no Zoom, Meet ou Teams pelo navegador, útil para cursos EAD da UNIVESP ou de faculdades particulares. Cada aba é independente, então dá para transcrever dois vídeos ao mesmo tempo."
+        },
+        {
+          "h3": "Aulas e seminários ao vivo",
+          "body": "Num seminário ao vivo pelo Zoom ou pelo Google Meet, um bot de reunião como o Otter.ai ou o Fireflies grava e identifica quem fala, mas o anfitrião vê o bot entrar. O LessonScriptor roda na sua própria aba e transcreve a aula sem nenhum participante extra. Ele não identifica quem fala."
+        }
+      ]
+    },
+    {
       "id": "why-lessonscriptor-for-lectures",
-      "h2": "Por que o LessonScriptor funciona melhor para anotações de aula",
-      "body": "O problema das ferramentas do tipo bot de reunião não é precisão, é cobertura. A semana de um estudante é feita majoritariamente de conteúdo gravado: a captura de um professor no Panopto, um vídeo explicativo do YouTube passado como tarefa, um vídeo do Coursera. Uma ferramenta feita para entrar em chamadas ao vivo simplesmente não roda em nada disso.\n\nO LessonScriptor transcreve o que estiver tocando na aba, aula ao vivo ou vídeo gravado, com o mesmo modo grátis e sem limite mensal. A transcrição é editável enquanto se forma, então boa parte da organização, destacar a linha principal, deixar um termo em negrito, adicionar um cabeçalho, acontece antes mesmo do vídeo terminar."
+      "h2": "Por que usar o LessonScriptor para anotações de aulas online?",
+      "body": "A vantagem do LessonScriptor nas aulas online é cobertura mais edição. Cobertura quer dizer que ele roda em qualquer aula que toque no Chrome, gravada ou ao vivo, incluindo vídeos sem botão de download. Edição quer dizer que a transcrição é um documento de trabalho enquanto se forma. Você destaca uma frase em uma de cinco cores, põe um termo em negrito, adiciona um título a cada mudança de assunto, apaga uma digressão e captura um print do slide na tela. Quase toda a arrumação fica pronta antes de o vídeo acabar.\n\nOs limites, com honestidade: não salva áudio, não faz resumos nem cartões de estudo com IA, não identifica quem fala, não tem app para celular e só roda no Chrome. Para resumos, exporte o arquivo .md e cole no ChatGPT ou no NotebookLM por conta própria. O preço: modo gratuito sem limite, ou pacotes do modo IA de 5h por US$ 5, 15h por US$ 12 ou 30h por US$ 21. Os créditos não expiram, há 30 minutos de teste grátis, e os preços em dólar são convertidos para reais pelo Stripe.",
+      "internal_links": [
+        {
+          "text": "Transcrição de aulas no Chrome",
+          "url": "/lecture-transcription"
+        },
+        {
+          "text": "Como transcrever videoaulas: 5 métodos comparados",
+          "url": "/blog/how-to-transcribe-lecture-videos"
+        }
+      ]
+    },
+    {
+      "id": "workflow",
+      "h2": "Como fazer anotações de aula com um anotador com IA?",
+      "body": "Este fluxo funciona para uma aula online ou gravada no Chrome.",
+      "steps": [
+        "Abra a aula no Chrome (AVA em Moodle, Google Classroom, Canvas, YouTube ou uma gravação do Zoom) e abra o painel lateral do LessonScriptor.",
+        "Escolha o idioma da aula e o modo: gratuito (caixas de som ligadas, sem fones) ou IA (áudio da aba, fones liberados).",
+        "Dê play e deixe a transcrição se formar. Não tente digitar tudo, só escute.",
+        "Quando o professor reforçar um ponto, destaque. Quando um slide importar, capture um print na transcrição.",
+        "Depois da aula, adicione títulos a cada mudança de assunto e apague os comentários paralelos.",
+        "Exporte em .md para o Notion ou o Obsidian, ou cole num modelo Cornell ou num chat de IA para gerar perguntas de revisão."
+      ],
+      "internal_links": [
+        {
+          "text": "Modelo de anotações Cornell",
+          "url": "/blog/cornell-notes-template"
+        }
+      ]
     },
     {
       "id": "adhd-bridge",
-      "h2": "Anotações com IA e TDAH",
-      "body": "Escrever e escutar ao mesmo tempo divide a atenção de um jeito que é especialmente difícil com TDAH. Deixar a escrita por conta de uma transcrição que se forma sozinha elimina essa divisão por completo, deixando a memória de trabalho livre para só acompanhar a aula.",
+      "h2": "Um anotador com IA ajuda estudantes com TDAH?",
+      "body": "Um anotador com IA ajuda especialmente quem tem TDAH, porque escrever e escutar ao mesmo tempo divide a memória de trabalho. Uma transcrição que se forma sozinha acaba com essa divisão, e os destaques transformam a escuta passiva em pequenas decisões ativas. Falamos das escolhas de ferramentas específicas para TDAH num guia separado.",
       "internal_links": [
-        { "text": "Melhor anotador com IA para estudantes com TDAH", "url": "/blog/best-ai-note-taker-adhd" },
-        { "text": "O modelo de anotações para TDAH", "url": "/blog/adhd-note-taking-template" }
+        {
+          "text": "Melhor anotador com IA para estudantes com TDAH",
+          "url": "/blog/best-ai-note-taker-adhd"
+        }
       ]
     }
   ],
-  "faq": {
-    "section_title": "Perguntas frequentes",
-    "items": [
+  "summary": {
+    "heading": "Qual anotador com IA você deve usar?",
+    "body": "Grave as aulas presenciais com o gravador do celular, o Notability ou o app do Otter.ai. Para tudo que toca no navegador, seja AVA em Moodle, Google Classroom, Canvas, YouTube ou Zoom, pule o gravador e use o LessonScriptor para ter uma transcrição editável direto, de graça ou a partir de US$ 5 em pagamento único.",
+    "internal_links": [
       {
-        "q": "Qual é o melhor anotador com IA grátis para estudantes?",
-        "a": "O modo grátis do LessonScriptor não exige conta e não tem limite mensal, e funciona tanto em aulas ao vivo quanto em vídeos de aula gravados. Ferramentas do tipo bot de reunião como Otter.ai e Fireflies também têm planos grátis, mas são feitas só para reuniões ao vivo."
-      },
-      {
-        "q": "Um anotador com IA funciona em aulas gravadas, não só em chamadas ao vivo?",
-        "a": "Depende da ferramenta. Bots de reunião (Otter.ai, Fireflies) entram em chamadas ao vivo como participantes e não conseguem transcrever algo que já foi gravado. O LessonScriptor transcreve qualquer vídeo tocando em uma aba do Chrome, ao vivo ou gravado."
-      },
-      {
-        "q": "Preciso de uma conta para usar o LessonScriptor?",
-        "a": "Não. O modo grátis não exige cadastro nenhum. Se você comprar um pacote de créditos do modo IA para mais precisão, você recebe uma chave de licença por email, sem conta ou login."
-      },
-      {
-        "q": "O áudio do estudante ou da aula é enviado para algum lugar?",
-        "a": "No modo grátis, nada sai do seu computador, a transcrição roda localmente pelo motor de fala do navegador. No modo IA, o áudio é enviado para um modelo de transcrição na nuvem em pequenos trechos e não fica armazenado."
-      },
-      {
-        "q": "Qual anotador com IA suporta mais idiomas?",
-        "a": "O Notta cobre a faixa mais ampla, com mais de 50 idiomas. O LessonScriptor suporta 14, incluindo francês, espanhol, português, alemão, árabe e hindi, o que cobre a maioria dos idiomas usados em aulas universitárias."
+        "text": "Veja a transcrição de aulas no Chrome",
+        "url": "/lecture-transcription"
       }
     ]
   },
-  "summary": {
-    "heading": "O anotador com IA que também funciona em gravações",
-    "body": "Se a maioria das suas aulas é gravada em vez de ao vivo, o LessonScriptor foi feito para isso: ele transcreve o que estiver tocando na sua aba do Chrome, aula ou gravação, com uma transcrição editável e sem limite mensal no modo grátis.",
-    "internal_links": [
-      { "text": "Veja o fluxo completo de transcrição", "url": "/transcribe-video-to-text" }
+  "faq": {
+    "heading": "Perguntas frequentes",
+    "questions": [
+      {
+        "question": "Qual é o melhor app para gravar aulas?",
+        "answer": "Para aulas presenciais, o melhor gravador de aulas é o que já está no seu celular (o Gravador do iPhone ou o Gravador do Android e do Pixel), ou o Notability se você escreve à mão no iPad. O Otter.ai e o Notta acrescentam transcrição e resumos. Para aulas online você normalmente não precisa de gravador: o LessonScriptor transcreve o vídeo direto no Chrome."
+      },
+      {
+        "question": "O LessonScriptor grava as aulas?",
+        "answer": "Não. O LessonScriptor salva uma transcrição em texto, não áudio nem vídeo, e não aceita envio de arquivos. Ele transcreve o que toca numa aba do Chrome, ao vivo ou gravado."
+      },
+      {
+        "question": "Um anotador com IA funciona numa aula presencial?",
+        "answer": "Sim, apps de gravação como o Otter.ai, o Notta, o Gravador do Pixel ou o Gravador do iPhone captam o áudio da sala para transcrição. O LessonScriptor não foi feito para a sala de aula presencial. Use-o na aula gravada, se a sua universidade filma a aula."
+      },
+      {
+        "question": "Qual é o melhor anotador com IA gratuito para estudantes?",
+        "answer": "Para aulas online, o modo gratuito do LessonScriptor não pede conta, não tem limite mensal e funciona com qualquer vídeo no Chrome. Para aulas presenciais, o gravador do celular é grátis. Otter.ai e Notta têm planos gratuitos com limites."
+      },
+      {
+        "question": "Anotadores com IA funcionam com aulas gravadas, não só com chamadas ao vivo?",
+        "answer": "Depende da ferramenta. Bots de reunião como o OtterPilot do Otter.ai e o Fireflies entram em chamadas ao vivo. Otter e Notta transcrevem uma gravação se você tiver o arquivo. O LessonScriptor transcreve aulas gravadas direto do player, sem precisar de arquivo."
+      },
+      {
+        "question": "O áudio da aula é enviado para algum lugar?",
+        "answer": "No modo gratuito do LessonScriptor, é usado o reconhecimento de fala embutido do Chrome e nenhum áudio é enviado para os servidores do LessonScriptor. No modo IA, o áudio da aba é enviado em blocos de 10 ou 30 segundos para um modelo de transcrição na nuvem."
+      }
     ]
   },
   "schemas": [
     {
-      "type": "Article",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "Article",
-        "headline": "O Melhor Anotador com IA para Aulas (Grátis, no Chrome)",
-        "description": "Compare o LessonScriptor, Otter.ai, Fireflies e Notta como anotadores com IA. Veja qual deles funciona em aulas gravadas, não só em reuniões ao vivo.",
-        "datePublished": "2026-09-09",
-        "dateModified": "2026-09-09",
-        "author": [
-          { "@type": "Person", "name": "Victoria", "description": "Estudante de Antropologia com TDAH", "url": "https://lessonscriptor.com" },
-          { "@type": "Person", "name": "Pierre Girardot", "description": "Desenvolvedor e SEO", "url": "https://lessonscriptor.com" }
-        ],
-        "publisher": {
-          "@type": "Organization",
-          "name": "LessonScriptor",
-          "logo": { "@type": "ImageObject", "url": "https://lessonscriptor.com/logo.png", "width": 600, "height": 60 }
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "Anotador com IA para aulas: gravador ou transcrição ao vivo?",
+      "description": "Anotador com IA para aulas: compare gravadores (Gravador, Otter, Notta, Notability) e a transcrição ao vivo no Chrome para aula presencial e EAD.",
+      "inLanguage": "pt-BR",
+      "datePublished": "2026-09-09",
+      "dateModified": "2026-10-28",
+      "mainEntityOfPage": "https://lessonscriptor.com/pt/blog/melhor-anotador-ia-aulas",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Victoria",
+          "description": "Estudante de Antropologia com TDAH",
+          "url": "https://lessonscriptor.com/en"
+        },
+        {
+          "@type": "Person",
+          "name": "Pierre Girardot",
+          "description": "Desenvolvedor e SEO",
+          "url": "https://lessonscriptor.com/en"
+        }
+      ],
+      "publisher": {
+        "@type": "Organization",
+        "name": "LessonScriptor",
+        "url": "https://lessonscriptor.com",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://lessonscriptor.com/logo.png"
         }
       }
     },
     {
-      "type": "FAQPage",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Qual é o melhor anotador com IA grátis para estudantes?",
-            "acceptedAnswer": { "@type": "Answer", "text": "O modo grátis do LessonScriptor não exige conta e não tem limite mensal, e funciona tanto em aulas ao vivo quanto em vídeos de aula gravados." }
-          },
-          {
-            "@type": "Question",
-            "name": "Um anotador com IA funciona em aulas gravadas, não só em chamadas ao vivo?",
-            "acceptedAnswer": { "@type": "Answer", "text": "Depende da ferramenta. Bots de reunião como Otter.ai e Fireflies entram em chamadas ao vivo como participantes e não conseguem transcrever algo que já foi gravado. O LessonScriptor transcreve qualquer vídeo tocando em uma aba do Chrome, ao vivo ou gravado." }
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qual é o melhor app para gravar aulas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para aulas presenciais, o melhor gravador de aulas é o que já está no seu celular (o Gravador do iPhone ou o Gravador do Android e do Pixel), ou o Notability se você escreve à mão no iPad. O Otter.ai e o Notta acrescentam transcrição e resumos. Para aulas online você normalmente não precisa de gravador: o LessonScriptor transcreve o vídeo direto no Chrome."
           }
-        ]
-      }
-    },
-    {
-      "type": "BreadcrumbList",
-      "content": {
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://lessonscriptor.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://lessonscriptor.com/blog" },
-          { "@type": "ListItem", "position": 3, "name": "O Melhor Anotador com IA para Aulas", "item": "https://lessonscriptor.com/blog/ai-note-taker-for-lectures" }
-        ]
-      }
+        },
+        {
+          "@type": "Question",
+          "name": "O LessonScriptor grava as aulas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Não. O LessonScriptor salva uma transcrição em texto, não áudio nem vídeo, e não aceita envio de arquivos. Ele transcreve o que toca numa aba do Chrome, ao vivo ou gravado."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Um anotador com IA funciona numa aula presencial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim, apps de gravação como o Otter.ai, o Notta, o Gravador do Pixel ou o Gravador do iPhone captam o áudio da sala para transcrição. O LessonScriptor não foi feito para a sala de aula presencial. Use-o na aula gravada, se a sua universidade filma a aula."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Qual é o melhor anotador com IA gratuito para estudantes?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Para aulas online, o modo gratuito do LessonScriptor não pede conta, não tem limite mensal e funciona com qualquer vídeo no Chrome. Para aulas presenciais, o gravador do celular é grátis. Otter.ai e Notta têm planos gratuitos com limites."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Anotadores com IA funcionam com aulas gravadas, não só com chamadas ao vivo?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Depende da ferramenta. Bots de reunião como o OtterPilot do Otter.ai e o Fireflies entram em chamadas ao vivo. Otter e Notta transcrevem uma gravação se você tiver o arquivo. O LessonScriptor transcreve aulas gravadas direto do player, sem precisar de arquivo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "O áudio da aula é enviado para algum lugar?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No modo gratuito do LessonScriptor, é usado o reconhecimento de fala embutido do Chrome e nenhum áudio é enviado para os servidores do LessonScriptor. No modo IA, o áudio da aba é enviado em blocos de 10 ou 30 segundos para um modelo de transcrição na nuvem."
+          }
+        }
+      ]
     }
-  ],
-  "internal_links_map": {
-    "pillar": "/transcribe-video-to-text",
-    "related_posts": [
-      "/blog/best-ai-note-taker-adhd",
-      "/blog/otter-ai-alternative-for-students",
-      "/blog/neurodivergent-study-tools"
-    ]
-  }
+  ]
 }
