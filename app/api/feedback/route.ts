@@ -9,6 +9,8 @@ export async function OPTIONS(request: NextRequest) {
 }
 
 export async function POST(request: NextRequest) {
+  // The IP is only a rate-limit key; it is not stored with the feedback
+  // (the privacy policy promises this).
   const ip = getClientIp(request);
   const rl = await checkRateLimit('feedback', { requests: 5, window: '3600 s' }, ip);
   if (!rl.success) {
@@ -50,13 +52,12 @@ export async function POST(request: NextRequest) {
 
   try {
     await sql`
-      INSERT INTO feedback (text, extension_version, lang, source, ip, email, reason_code, event_type, variant)
+      INSERT INTO feedback (text, extension_version, lang, source, email, reason_code, event_type, variant)
       VALUES (
         ${sanitized},
         ${(version || '').slice(0, 20)},
         ${(lang || '').slice(0, 10)},
         ${(source || 'unknown').slice(0, 30)},
-        ${ip},
         ${sanitizedEmail || null},
         ${sanitizedReasonCode},
         ${sanitizedEventType},
