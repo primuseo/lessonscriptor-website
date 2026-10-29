@@ -174,9 +174,9 @@
         },
         {
           "title": "Privacy first",
-          "desc": "Everything stays local by default — no account, no cloud processing in free mode. Your audio, your data.",
+          "desc": "No account, no recordings kept. In free mode, Chrome's own speech recognition does the work and nothing reaches our servers. Your transcripts stay in your browser.",
           "chips": [
-            "Local by default",
+            "Transcripts stay in your browser",
             "No signup"
           ]
         },
@@ -219,12 +219,12 @@
       "title_line2": "for what you transcribe.",
       "subtitle": "Start for free with your microphone. Top up when you need AI-powered transcription — no subscription, no expiry.",
       "whyPay": "Why does AI mode cost money?",
-      "whyPayDesc": "Free mode uses your browser's built-in speech recognition — local, instant, free. AI mode sends your audio to a state-of-the-art cloud AI model. That processing has a real cost. We pass it on transparently: credits are consumed second-by-second from your pack, they never expire, and you choose how fast you burn them based on the transcription mode you use.",
+      "whyPayDesc": "Free mode uses your browser's built-in speech recognition, which Google provides to Chrome at no cost to us, so it's instant and free. AI mode sends your audio to a state-of-the-art cloud AI model. That processing has a real cost. We pass it on transparently: credits are consumed second-by-second from your pack, they never expire, and you choose how fast you burn them based on the transcription mode you use.",
       "freeLabel": "Free",
       "freeEngine": "Browser speech recognition",
       "freePrice": "$0",
       "freePriceSuffix": "forever",
-      "freeDesc": "Uses your browser's built-in speech engine and your microphone. Fully local — no audio sent anywhere.",
+      "freeDesc": "Uses your browser's built-in speech engine and your microphone. Nothing is sent to LessonScriptor's servers.",
       "freeFeatures": [
         "Transcription via microphone",
         "Full editing — highlights, bold, headers, bullets",
@@ -664,7 +664,7 @@
         },
         {
           "q": "Are Chrome live captions private?",
-          "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode also uses on-device speech recognition. The Premium mode sends audio to a cloud API for better accuracy, but no data is stored after transcription."
+          "a": "Chrome's built-in live captions process audio on-device — nothing leaves your computer. LessonScriptor's free mode is different: it uses Chrome's speech recognition service, which sends audio to Google. AI mode sends audio to a cloud transcription model for better accuracy, and no audio is stored after transcription."
         },
         {
           "q": "Why isn't Free mode picking up sound from my video?",
@@ -680,7 +680,7 @@
   "transcribeVideo": {
     "h1": "Transcribe Video to Text — Free, Live in Chrome",
     "subtitle": "Turn any video into text as it plays: YouTube, lecture recordings, Coursera, Zoom calls. No file upload, no account, no subscription. Works directly in Chrome.",
-    "answer": "The fastest way to transcribe a video to text is LessonScriptor — a free Chrome extension that converts any video playing in your browser into text in real-time. No file upload, no account, no subscription. It also works on Coursera, Udemy, Zoom recordings, and university portals like Moodle and Canvas. The free mode uses the Web Speech API (on-device, private); the Premium mode uses OpenAI Whisper for higher accuracy on accents, technical vocabulary, and 14+ languages.",
+    "answer": "The fastest way to transcribe a video to text is LessonScriptor — a free Chrome extension that converts any video playing in your browser into text in real-time. No file upload, no account, no subscription. It also works on Coursera, Udemy, Zoom recordings, and university portals like Moodle and Canvas. Free mode uses Chrome's built-in speech recognition; AI mode uses Whisper-class cloud models for higher accuracy on accents and technical vocabulary, in 14 languages.",
     "useCases": {
       "title": "What types of videos can you transcribe to text?",
       "items": [
@@ -747,7 +747,7 @@
         },
         {
           "q": "Does LessonScriptor work offline?",
-          "a": "The Free mode works offline — it uses your browser's built-in Web Speech API, which runs locally on your device. The Premium AI mode requires an internet connection to send audio to the cloud transcription engine."
+          "a": "No. Both modes need an internet connection. Free mode uses Chrome's built-in speech recognition, which runs on Google's servers, and AI mode sends audio to a cloud transcription model. Your saved transcripts and history are stored in your browser, so you can open and export them offline."
         },
         {
           "q": "What video platforms does LessonScriptor work on?",
@@ -786,8 +786,8 @@
           "desc": "Batch transcription tools require you to download the video, wait for processing (sometimes minutes), then import the text. LessonScriptor transcribes directly in the browser, no intermediary needed."
         },
         {
-          "title": "Privacy: on-device processing",
-          "desc": "Free mode uses Chrome's Web Speech API — audio processing happens on your device, nothing sent to an external server. Ideal for confidential course content."
+          "title": "Privacy: no recordings, no account",
+          "desc": "LessonScriptor never saves audio or video files, and free mode needs no account. Free mode uses Chrome's built-in speech recognition (a Google service), and your transcripts stay in your browser."
         },
         {
           "title": "Works with locked university platforms",
@@ -931,7 +931,7 @@
           "Sent to Otter servers",
           "Sent to Notta servers",
           "Sent to Tactiq servers",
-          "Local (free) or cloud AI (premium)"
+          "Free: Chrome speech recognition (Google). AI mode: cloud AI, not stored"
         ]
       ]
     },
@@ -943,7 +943,7 @@
         },
         {
           "q": "Is there a completely free Otter.ai alternative with no limits?",
-          "a": "Yes. LessonScriptor's free mode has no monthly minute cap — unlike Otter.ai's free tier, which is capped at 300 minutes per month. LessonScriptor uses your device's microphone and the Web Speech API, which runs locally with no usage limits."
+          "a": "Yes. LessonScriptor's free mode has no monthly minute cap — unlike Otter.ai's free tier, which is capped at 300 minutes per month. LessonScriptor's free mode uses your microphone and Chrome's built-in speech recognition, which has no usage limits."
         },
         {
           "q": "Is there an Otter.ai alternative that works on YouTube?",
@@ -1003,8 +1003,8 @@
     "whoWeAreBody": "LessonScriptor is a Chrome extension developed and operated by Pierre Girardot. We are committed to protecting your privacy and respecting the European General Data Protection Regulation (GDPR) and other applicable privacy laws. For any privacy-related questions, contact us at contact@lessonscriptor.com.",
     "whatWeCollect": "What Data We Collect",
     "whatWeCollectBody1": "LessonScriptor is designed with privacy by default. We do not collect personal data about you. We do not create accounts for you, and we never ask for your email address. There is no sign-up — ever.",
-    "whatWeCollectMic": "Microphone Mode: All audio processing happens locally on your device using the Web Speech API. Audio never leaves your device and is never sent to any server. Transcripts are stored only in your browser's local storage. We have no access to this data.",
-    "whatWeCollectTab": "Tab Audio Mode: When you use Tab Audio mode, audio chunks from the browser tab are sent to Groq (api.groq.com) for transcription using their Whisper model. Groq does not retain audio data beyond the transcription request. Transcripts are saved locally in your browser only and are never transmitted to LessonScriptor's servers. We do not retain any personal data.",
+    "whatWeCollectMic": "Microphone Mode (free): transcription uses your browser's built-in speech recognition (the Web Speech API). In Google Chrome this is provided by Google, so the audio your microphone picks up is sent to Google's speech service to be converted into text, under Google's privacy policy. No audio is sent to or stored on LessonScriptor's servers. Transcripts are stored only in your browser's local storage, and we have no access to them.",
+    "whatWeCollectTab": "Tab Audio Mode (AI mode): audio from the browser tab is sent in short chunks through LessonScriptor's server to Groq (api.groq.com) for transcription with a Whisper model. If Groq is temporarily unavailable, the chunk is sent to OpenAI (api.openai.com) instead. Our server relays the audio and the resulting text but does not store either. If the live preview is on (it is by default), the same tab audio is also sent to your browser's speech recognition service (Google, in Chrome) to show instant draft text. Transcripts are saved in your browser only.",
     "whatWeCollectNoTracking": "We do not use cookies. We do not use analytics tools. We do not track your browsing, behavior, or usage patterns. We do not sell data.",
     "localStorage": "Local Storage",
     "localStorageBody": "Your transcripts and extension settings are stored exclusively in your browser's local storage. This data lives on your device only. LessonScriptor has no server-side storage of transcripts, settings, or user information. If you clear your browser data, your local transcripts will be deleted. We cannot access or recover this data for you.",
@@ -1012,7 +1012,7 @@
     "paymentsBody1": "Tab Audio credits are purchased through Stripe, a third-party payment processor. Stripe handles your payment details — your card number and billing address are processed entirely by Stripe and never reach LessonScriptor's servers.",
     "paymentsBody2": "Upon purchase, LessonScriptor generates a license key linked to the email address you provide at checkout, so we can apply your credits and help you if you contact support. Please review Stripe's privacy policy for details on how they handle your payment data.",
     "thirdParty": "Third-Party Services",
-    "thirdPartyGroq": "Groq (api.groq.com): Tab Audio mode uses Groq's Whisper model for high-accuracy transcription. Audio chunks are sent to Groq, processed, and not retained beyond the request. Please review Groq's privacy policy for details.",
+    "thirdPartyGroq": "Speech processors: Groq (api.groq.com) transcribes AI-mode audio with a Whisper model; OpenAI (api.openai.com) is used as a fallback when Groq is unavailable. Neither retains audio beyond the request under their API terms. Free mode and the AI-mode live preview use your browser's built-in speech recognition, which in Chrome is a Google service. Please review the privacy policies of Groq, OpenAI and Google for details.",
     "thirdPartyStripe": "Stripe: Handles all payment processing for Tab Audio credit purchases. See the Payments section above.",
     "thirdPartyGSC": "Google Search Console: We use Google Search Console to monitor aggregate search performance of our website (lessonscriptor.com). This is limited to non-personally-identifiable search metrics and does not track individual users.",
     "thirdPartyNoShare": "We do not share your data with any other third parties.",
@@ -1459,7 +1459,7 @@
         },
         {
           "q": "Is student audio recorded or stored?",
-          "a": "In free mode, nothing leaves your computer — transcription runs locally through Chrome’s speech engine. In AI mode, tab audio is sent to a cloud transcription model in short chunks and is not stored. Follow your school’s policy on recording before capturing student voices, as with any recording."
+          "a": "LessonScriptor never records or stores audio. In free mode, transcription uses Chrome’s built-in speech recognition, which sends audio to Google’s speech service. In AI mode, tab audio is sent in short chunks to a cloud transcription model and is not stored. Follow your school’s policy on recording before capturing student voices, as with any recording."
         },
         {
           "q": "Does it work with Zoom and Google Meet in a browser tab?",

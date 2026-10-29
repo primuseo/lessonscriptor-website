@@ -174,9 +174,9 @@
         },
         {
           "title": "隐私优先",
-          "desc": "默认一切在本地处理——无需账户，免费模式无需云端处理。你的音频，你的数据。",
+          "desc": "无需账号，不保存任何录音。免费模式由 Chrome 自带的语音识别完成，不会有数据到达我们的服务器。转录内容保存在您的浏览器中。",
           "chips": [
-            "默认本地处理",
+            "转录保存在浏览器中",
             "无需注册"
           ]
         },
@@ -219,12 +219,12 @@
       "title_line2": "转录内容付费。",
       "subtitle": "免费开始使用麦克风模式。需要 AI 驱动的转录时再充值——无订阅，无有效期。",
       "whyPay": "为什么 AI 模式需要付费？",
-      "whyPayDesc": "免费模式使用浏览器内置的语音识别——本地处理、即时响应、完全免费。AI 模式将你的音频发送到先进的云端 AI 模型进行处理，这有实际成本。我们透明地传递这一成本：积分按秒消耗，永不过期，你可以根据使用的转录模式自行控制消耗速度。",
+      "whyPayDesc": "免费模式使用浏览器内置的语音识别，由 Google 免费提供给 Chrome，我们无需承担费用，所以即时又免费。AI 模式会将您的音频发送到先进的云端 AI 模型，这部分处理有真实成本。我们透明地按成本收费：额度从您的套餐中按秒扣除，永不过期，您可以根据所用的转录模式自行决定消耗速度。",
       "freeLabel": "免费",
       "freeEngine": "浏览器语音识别",
       "freePrice": "$0",
       "freePriceSuffix": "永久",
-      "freeDesc": "使用浏览器内置的语音引擎和麦克风。完全在本地处理——不会将音频发送到任何地方。",
+      "freeDesc": "使用浏览器内置的语音引擎和您的麦克风。不会向 LessonScriptor 的服务器发送任何内容。",
       "freeFeatures": [
         "通过麦克风转录",
         "完整编辑功能——高亮、加粗、标题、列表项",
@@ -680,7 +680,7 @@
         },
         {
           "q": "Chrome 实时字幕是私密的吗？",
-          "a": "Chrome 内置实时字幕在设备本地处理音频——任何数据都不会离开您的电脑。LessonScriptor 免费模式同样使用本地语音识别。高级版将音频发送至云端 API 以提高准确性，但转录完成后不会存储任何数据。"
+          "a": "Chrome 内置实时字幕在设备本地处理音频——任何数据都不会离开您的电脑。LessonScriptor 的免费模式则不同：它使用 Chrome 的语音识别服务，会将音频发送给 Google。AI 模式将音频发送到云端转录模型以提高准确性，转录完成后不会存储任何音频。"
         },
         {
           "q": "为什么免费模式无法接收视频的声音？",
@@ -696,7 +696,7 @@
   "transcribeVideo": {
     "h1": "视频转文字——免费，Chrome 实时转录",
     "subtitle": "实时将任意YouTube视频、课程录像或Zoom通话转为文字。无需上传、无需账号、无需订阅。直接在Chrome中使用。",
-    "answer": "最快的视频转文字方法是使用LessonScriptor——一款免费的Chrome扩展程序，在视频播放时实时生成文字转录。适用于YouTube、Coursera、Udemy、Zoom以及超星学习通、雨课堂等高校学习平台。免费模式使用Web Speech API（本地处理，保护隐私）；高级模式使用OpenAI Whisper，在口音、专业词汇和14+种语言方面精度更高。",
+    "answer": "最快的视频转文字方法是使用LessonScriptor——一款免费的Chrome扩展程序，在视频播放时实时生成文字转录。适用于YouTube、Coursera、Udemy、Zoom以及超星学习通、雨课堂等高校学习平台。免费模式使用Chrome内置的语音识别；AI模式使用Whisper级云端模型，在口音和专业词汇方面精度更高，支持14种语言。",
     "useCases": {
       "title": "您可以将哪些类型的视频转录为文字？",
       "items": [
@@ -763,7 +763,7 @@
         },
         {
           "q": "LessonScriptor可以离线使用吗？",
-          "a": "免费模式可离线使用——它使用浏览器内置的Web Speech API，在您的设备本地运行。高级AI模式需要网络连接，以将音频发送至云端转录引擎。"
+          "a": "不能。两种模式都需要联网。免费模式使用 Chrome 内置的语音识别，在 Google 的服务器上运行；AI 模式会把音频发送到云端转录模型。已保存的转录和历史记录存储在浏览器中，因此离线时也可以打开和导出。"
         },
         {
           "q": "LessonScriptor支持哪些视频平台？",
@@ -802,8 +802,8 @@
           "desc": "批量转录工具需要下载视频、等待处理并导入文字。LessonScriptor直接在浏览器中转录，无需任何中间步骤。"
         },
         {
-          "title": "隐私：本地处理",
-          "desc": "免费模式使用Chrome的Web Speech API——音频在您的设备上处理，不向外部服务器发送任何内容。"
+          "title": "隐私：不录音，无需账号",
+          "desc": "LessonScriptor 从不保存音频或视频文件，免费模式也无需注册账号。免费模式使用 Chrome 内置的语音识别（Google 提供的服务），转录内容保存在您的浏览器中。"
         },
         {
           "title": "兼容受保护的大学平台",
@@ -947,7 +947,7 @@
           "发送至 Otter 服务器",
           "发送至 Notta 服务器",
           "发送至 Tactiq 服务器",
-          "本地处理（免费）或云端 AI（高级）"
+          "免费：Chrome 语音识别（Google）；AI 模式：云端 AI，不存储"
         ]
       ]
     },
@@ -1015,8 +1015,8 @@
     "whoWeAreBody": "LessonScriptor 是由 Pierre Girardot 开发和运营的 Chrome 扩展程序。我们致力于保护您的隐私，遵守《通用数据保护条例》（GDPR）及其他适用的隐私法律。如有任何隐私相关问题，请通过 contact@lessonscriptor.com 联系我们。",
     "whatWeCollect": "我们收集的数据",
     "whatWeCollectBody1": "LessonScriptor 采用隐私优先设计。我们不收集您的任何个人数据，不为您创建账户，也从不索取您的电子邮件地址。无需注册——永远不需要。",
-    "whatWeCollectMic": "麦克风模式：所有音频处理均通过 Web Speech API 在您的设备本地进行。音频永远不会离开您的设备，也不会发送到任何服务器。转录内容仅存储在浏览器本地存储中，我们无法访问这些数据。",
-    "whatWeCollectTab": "标签页音频模式：使用此模式时，浏览器标签页的音频片段会被发送至 Groq（api.groq.com），使用其 Whisper 模型进行转录。Groq 不会在请求结束后保留音频数据。转录内容仅保存在您的浏览器本地，永远不会传输至 LessonScriptor 的服务器。我们不保留任何个人数据。",
+    "whatWeCollectMic": "麦克风模式（免费）：转录使用浏览器内置的语音识别（Web Speech API）。在 Google Chrome 中，该服务由 Google 提供，因此麦克风采集到的音频会发送到 Google 的语音服务转换为文字，并受 Google 隐私政策约束。不会有任何音频发送到或存储在 LessonScriptor 的服务器上。转录内容仅保存在您浏览器的本地存储中，我们无法访问。",
+    "whatWeCollectTab": "标签页音频模式（AI 模式）：标签页音频会被切成短片段，经由 LessonScriptor 的服务器发送至 Groq（api.groq.com），由 Whisper 模型转录。如果 Groq 暂时不可用，该片段会改为发送至 OpenAI（api.openai.com）。我们的服务器只负责转发音频和转录结果，不会存储其中任何一项。如果开启了实时预览（默认开启），同一段标签页音频还会发送到浏览器的语音识别服务（在 Chrome 中为 Google），用于即时显示草稿文字。转录内容仅保存在您的浏览器中。",
     "whatWeCollectNoTracking": "我们不使用 Cookie，不使用分析工具，不跟踪您的浏览行为或使用模式，不出售数据。",
     "localStorage": "本地存储",
     "localStorageBody": "您的转录内容和扩展设置仅存储在浏览器的本地存储中，这些数据只存在于您的设备上。LessonScriptor 在服务器端不存储任何转录、设置或用户信息。如果您清除浏览器数据，本地转录将被删除。我们无法为您访问或恢复这些数据。",
@@ -1024,7 +1024,7 @@
     "paymentsBody1": "标签页音频积分通过第三方支付处理商 Stripe 购买。Stripe 处理您的支付信息——您的卡号和账单地址完全由 Stripe 处理，永远不会到达 LessonScriptor 的服务器。",
     "paymentsBody2": "购买后，LessonScriptor 会生成一个许可证密钥，并与您在结账时提供的电子邮件地址关联，以便我们发放您的额度，并在您联系支持时提供帮助。有关 Stripe 如何处理您的支付数据，请查阅 Stripe 的隐私政策。",
     "thirdParty": "第三方服务",
-    "thirdPartyGroq": "Groq（api.groq.com）：标签页音频模式使用 Groq 的 Whisper 模型进行高精度转录。音频片段发送至 Groq 后被处理，不会在请求结束后保留。详情请参阅 Groq 的隐私政策。",
+    "thirdPartyGroq": "语音处理服务商：Groq（api.groq.com）使用 Whisper 模型转录 AI 模式的音频；当 Groq 不可用时，改用 OpenAI（api.openai.com）作为备用。根据其 API 条款，两者都不会在请求结束后保留音频。免费模式和 AI 模式的实时预览使用浏览器内置的语音识别，在 Chrome 中这是 Google 的服务。详情请查阅 Groq、OpenAI 和 Google 的隐私政策。",
     "thirdPartyStripe": "Stripe：处理所有标签页音频积分的支付。见上方付款部分。",
     "thirdPartyGSC": "Google Search Console：我们使用 Google Search Console 监测网站（lessonscriptor.com）的汇总搜索表现，仅限于不可识别个人身份的搜索指标，不跟踪个人用户。",
     "thirdPartyNoShare": "我们不与任何其他第三方共享您的数据。",
@@ -1471,7 +1471,7 @@
         },
         {
           "q": "学生的声音会被录制或保存吗？",
-          "a": "免费模式下，任何数据都不会离开您的电脑，转录完全通过 Chrome 自带的语音引擎在本地完成。AI 模式下，标签页音频会以短片段的形式发送给云端转录模型，且不会被保存。在录制学生声音之前，请遵循学校关于录音的规定，就像对待任何一次录音一样。"
+          "a": "LessonScriptor 从不录制或存储音频。免费模式下，转录通过 Chrome 内置的语音识别完成，音频会发送到 Google 的语音服务。AI 模式下，标签页音频会以短片段的形式发送给云端转录模型，且不会被保存。在录制学生声音之前，请遵循学校关于录音的规定，就像对待任何一次录音一样。"
         },
         {
           "q": "它能在浏览器标签页里配合 Zoom 和 Google Meet 使用吗？",

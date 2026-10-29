@@ -174,9 +174,9 @@
         },
         {
           "title": "Privacidade em primeiro lugar",
-          "desc": "Tudo fica local por padrão — sem conta, sem processamento na nuvem no modo gratuito. Seu áudio, seus dados.",
+          "desc": "Sem conta e sem gravações guardadas. No modo gratuito, quem trabalha é o reconhecimento de fala do Chrome, e nada chega aos nossos servidores. Suas transcrições ficam no seu navegador.",
           "chips": [
-            "Local por padrão",
+            "Transcrições no seu navegador",
             "Sem cadastro"
           ]
         },
@@ -219,12 +219,12 @@
       "title_line2": "pelo que transcrever.",
       "subtitle": "Comece grátis com seu microfone. Recarregue quando precisar de transcrição com IA — sem assinatura, sem validade.",
       "whyPay": "Por que o modo IA custa dinheiro?",
-      "whyPayDesc": "O modo gratuito usa o reconhecimento de fala do seu navegador — local, instantâneo, gratuito. O modo IA envia seu áudio para um modelo de IA na nuvem de última geração. Esse processamento tem um custo real. Repassamos de forma transparente: os créditos são consumidos segundo a segundo do seu pacote, nunca expiram, e você escolhe a velocidade de consumo com base no modo de transcrição que usar.",
+      "whyPayDesc": "O modo gratuito usa o reconhecimento de fala integrado ao seu navegador, que o Google oferece ao Chrome sem custo para nós, por isso é instantâneo e grátis. O modo IA envia seu áudio para um modelo de IA na nuvem de última geração. Esse processamento tem um custo real. Repassamos esse custo com transparência: os créditos são consumidos segundo a segundo do seu pacote, nunca expiram, e você escolhe o ritmo de consumo conforme o modo de transcrição que usa.",
       "freeLabel": "Grátis",
       "freeEngine": "Reconhecimento de fala do navegador",
       "freePrice": "$0",
       "freePriceSuffix": "para sempre",
-      "freeDesc": "Usa o motor de fala integrado do seu navegador e o microfone. Totalmente local — nenhum áudio é enviado a lugar nenhum.",
+      "freeDesc": "Usa o mecanismo de fala integrado ao seu navegador e o seu microfone. Nada é enviado aos servidores do LessonScriptor.",
       "freeFeatures": [
         "Transcrição via microfone",
         "Edição completa — destaques, negrito, títulos, marcadores",
@@ -680,7 +680,7 @@
         },
         {
           "q": "As legendas ao vivo do Chrome são privadas?",
-          "a": "As legendas ao vivo integradas do Chrome processam o áudio no dispositivo — nada sai do seu computador. O modo gratuito do LessonScriptor também usa reconhecimento de fala no dispositivo. O modo Premium envia o áudio para uma API na nuvem para maior precisão, mas nenhum dado é armazenado após a transcrição."
+          "a": "As legendas ao vivo integradas do Chrome processam o áudio no dispositivo — nada sai do seu computador. O modo gratuito do LessonScriptor é diferente: usa o serviço de reconhecimento de fala do Chrome, que envia o áudio ao Google. O modo IA envia o áudio para um modelo de transcrição na nuvem para maior precisão, e nenhum áudio é armazenado após a transcrição."
         },
         {
           "q": "Por que o modo gratuito não capta o som do meu vídeo?",
@@ -696,7 +696,7 @@
   "transcribeVideo": {
     "h1": "Transcrever Vídeo em Texto — Grátis, no Chrome",
     "subtitle": "Transcreva qualquer vídeo do YouTube, gravação de aula ou chamada Zoom em texto em tempo real. Sem upload, sem conta, sem assinatura. Direto no Chrome.",
-    "answer": "A forma mais rápida de transcrever vídeo em texto é o LessonScriptor — uma extensão Chrome gratuita que gera uma transcrição em tempo real enquanto o vídeo toca. Funciona no YouTube, Coursera, Udemy, Zoom e portais universitários como Moodle, Sigaa e AVA. O modo gratuito usa o Web Speech API (no dispositivo, privado); o modo Premium usa OpenAI Whisper para maior precisão com sotaques, vocabulário técnico e 14+ idiomas.",
+    "answer": "A forma mais rápida de transcrever vídeo em texto é o LessonScriptor — uma extensão Chrome gratuita que gera uma transcrição em tempo real enquanto o vídeo toca. Funciona no YouTube, Coursera, Udemy, Zoom e portais universitários como Moodle, Sigaa e AVA. O modo gratuito usa o reconhecimento de fala integrado ao Chrome; o modo IA usa modelos na nuvem do tipo Whisper para maior precisão com sotaques e vocabulário técnico, em 14 idiomas.",
     "useCases": {
       "title": "Que tipos de vídeos você pode transcrever para texto?",
       "items": [
@@ -763,7 +763,7 @@
         },
         {
           "q": "O LessonScriptor funciona offline?",
-          "a": "O modo gratuito funciona offline — ele usa a API Web Speech integrada ao navegador, que roda localmente no seu dispositivo. O modo Premium IA requer conexão à internet para enviar o áudio ao mecanismo de transcrição na nuvem."
+          "a": "Não. Os dois modos precisam de conexão com a internet. O modo gratuito usa o reconhecimento de fala integrado ao Chrome, que roda nos servidores do Google, e o modo IA envia o áudio para um modelo de transcrição na nuvem. Suas transcrições salvas e seu histórico ficam no navegador, então você pode abri-los e exportá-los offline."
         },
         {
           "q": "Em quais plataformas de vídeo o LessonScriptor funciona?",
@@ -802,8 +802,8 @@
           "desc": "Ferramentas de transcrição em lote exigem baixar o vídeo, aguardar o processamento e importar o texto. O LessonScriptor transcreve diretamente no navegador."
         },
         {
-          "title": "Privacidade: processamento local",
-          "desc": "O modo gratuito usa a API Web Speech do Chrome — o processamento de áudio acontece no seu dispositivo, sem enviar nada para servidores externos."
+          "title": "Privacidade: sem gravações, sem conta",
+          "desc": "O LessonScriptor nunca salva arquivos de áudio ou vídeo, e o modo gratuito não exige conta. O modo gratuito usa o reconhecimento de fala integrado ao Chrome (um serviço do Google), e suas transcrições ficam no seu navegador."
         },
         {
           "title": "Compatível com plataformas universitárias protegidas",
@@ -947,7 +947,7 @@
           "Enviado para servidores do Otter",
           "Enviado para servidores da Notta",
           "Enviado para servidores do Tactiq",
-          "Local (gratuito) ou IA na nuvem (premium)"
+          "Grátis: reconhecimento de fala do Chrome (Google). Modo IA: IA na nuvem, sem armazenar"
         ]
       ]
     },
@@ -1015,8 +1015,8 @@
     "whoWeAreBody": "LessonScriptor é uma extensão do Chrome desenvolvida e operada por Pierre Girardot. Comprometemo-nos a proteger a sua privacidade e respeitar o Regulamento Geral de Proteção de Dados (RGPD) e outras leis aplicáveis. Para qualquer dúvida sobre privacidade, contacte-nos em contact@lessonscriptor.com.",
     "whatWeCollect": "Dados que recolhemos",
     "whatWeCollectBody1": "LessonScriptor é projetado com privacidade por padrão. Não recolhemos dados pessoais sobre si. Não criamos contas para si e nunca pedimos o seu endereço de e-mail. Sem registo — jamais.",
-    "whatWeCollectMic": "Modo Microfone: todo o processamento de áudio acontece localmente no seu dispositivo usando a Web Speech API. O áudio nunca sai do seu dispositivo e nunca é enviado a qualquer servidor. As transcrições são armazenadas apenas no armazenamento local do seu navegador. Não temos acesso a esses dados.",
-    "whatWeCollectTab": "Modo Áudio de Aba: ao usar este modo, fragmentos de áudio da aba do navegador são enviados ao Groq (api.groq.com) para transcrição usando o modelo Whisper. O Groq não retém dados de áudio além da solicitação. As transcrições são guardadas localmente no seu navegador apenas e nunca são transmitidas aos servidores do LessonScriptor. Não retemos quaisquer dados pessoais.",
+    "whatWeCollectMic": "Modo Microfone (gratuito): a transcrição usa o reconhecimento de fala integrado ao seu navegador (a API Web Speech). No Google Chrome esse serviço é fornecido pelo Google, então o áudio captado pelo seu microfone é enviado ao serviço de fala do Google para ser convertido em texto, conforme a política de privacidade do Google. Nenhum áudio é enviado ou armazenado nos servidores do LessonScriptor. As transcrições ficam apenas no armazenamento local do seu navegador, e não temos acesso a elas.",
+    "whatWeCollectTab": "Modo Áudio da aba (modo IA): o áudio da aba é enviado em pequenos trechos, pelo servidor do LessonScriptor, ao Groq (api.groq.com) para transcrição com um modelo Whisper. Se o Groq estiver temporariamente indisponível, o trecho é enviado à OpenAI (api.openai.com). Nosso servidor repassa o áudio e o texto resultante sem armazenar nenhum dos dois. Se a pré-visualização ao vivo estiver ativada (ela vem ativada por padrão), o mesmo áudio também é enviado ao serviço de reconhecimento de fala do navegador (Google, no Chrome) para mostrar um rascunho instantâneo. As transcrições são salvas apenas no seu navegador.",
     "whatWeCollectNoTracking": "Não usamos cookies. Não usamos ferramentas de análise. Não rastreamos a sua navegação, comportamento ou padrões de uso. Não vendemos dados.",
     "localStorage": "Armazenamento local",
     "localStorageBody": "As suas transcrições e configurações da extensão são armazenadas exclusivamente no armazenamento local do seu navegador. Estes dados residem apenas no seu dispositivo. LessonScriptor não tem armazenamento no servidor para transcrições, configurações ou informações do utilizador. Se limpar os dados do navegador, as suas transcrições locais serão eliminadas. Não podemos aceder nem recuperar esses dados para si.",
@@ -1024,7 +1024,7 @@
     "paymentsBody1": "Os créditos de Áudio de Aba são adquiridos através da Stripe, um processador de pagamentos terceiro. A Stripe trata os seus dados de pagamento — o número do seu cartão e a morada de faturação são processados inteiramente pela Stripe e nunca chegam aos servidores do LessonScriptor.",
     "paymentsBody2": "Ao efetuar a compra, o LessonScriptor gera uma chave de licença associada ao endereço de e-mail fornecido no checkout, para que possamos aplicar os seus créditos e ajudá-lo caso contacte o suporte. Consulte a política de privacidade da Stripe para mais detalhes sobre como tratam os seus dados de pagamento.",
     "thirdParty": "Serviços de terceiros",
-    "thirdPartyGroq": "Groq (api.groq.com): o modo Áudio de Aba usa o modelo Whisper do Groq para transcrição de alta precisão. Os fragmentos de áudio são enviados ao Groq, processados e não retidos além da solicitação. Consulte a política de privacidade do Groq para mais detalhes.",
+    "thirdPartyGroq": "Serviços de processamento de fala: o Groq (api.groq.com) transcreve o áudio do modo IA com um modelo Whisper; a OpenAI (api.openai.com) é usada como alternativa quando o Groq está indisponível. Pelos termos de API, nenhum dos dois retém o áudio além da solicitação. O modo gratuito e a pré-visualização ao vivo do modo IA usam o reconhecimento de fala integrado ao navegador, que no Chrome é um serviço do Google. Consulte as políticas de privacidade do Groq, da OpenAI e do Google para mais detalhes.",
     "thirdPartyStripe": "Stripe: trata todos os pagamentos de créditos de Áudio de Aba. Ver a secção Pagamentos acima.",
     "thirdPartyGSC": "Google Search Console: usamos o Google Search Console para monitorizar o desempenho de pesquisa agregado do nosso site (lessonscriptor.com). Limita-se a métricas não identificáveis pessoalmente e não rastreia utilizadores individuais.",
     "thirdPartyNoShare": "Não partilhamos os seus dados com terceiros.",
@@ -1207,7 +1207,7 @@
         },
         {
           "q": "O áudio dos alunos é gravado ou armazenado?",
-          "a": "No modo gratuito, nada sai do seu computador, a transcrição roda localmente pelo mecanismo de fala do Chrome. No modo IA, o áudio da aba é enviado em pequenos trechos para um modelo de transcrição na nuvem e não é armazenado. Siga a política da sua escola sobre gravações antes de captar a voz dos alunos, como faria com qualquer gravação."
+          "a": "O LessonScriptor nunca grava nem armazena áudio. No modo gratuito, a transcrição usa o reconhecimento de fala integrado ao Chrome, que envia o áudio ao serviço de fala do Google. No modo IA, o áudio da aba é enviado em pequenos trechos para um modelo de transcrição na nuvem e não é armazenado. Siga a política da sua escola sobre gravações antes de captar a voz dos alunos, como faria com qualquer gravação."
         },
         {
           "q": "Funciona com Zoom e Google Meet em uma aba do navegador?",

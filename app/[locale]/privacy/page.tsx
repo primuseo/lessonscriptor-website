@@ -32,7 +32,7 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
           {t('h1')}
         </h1>
         <p className="text-foreground/60 italic">
-          {t('lastUpdated')}: April 29, 2026
+          {t('lastUpdated')}: October 29, 2026
         </p>
       </header>
 
@@ -48,8 +48,8 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">{t('whatWeCollect')}</h2>
           <p><strong>{t('whatWeCollectBody1')}</strong></p>
-          <p><strong>Microphone Mode:</strong> {t('whatWeCollectMic')}</p>
-          <p><strong>Tab Audio Mode:</strong> {t('whatWeCollectTab')}</p>
+          <p>{t('whatWeCollectMic')}</p>
+          <p>{t('whatWeCollectTab')}</p>
           <p>{t('whatWeCollectNoTracking')}</p>
         </section>
 
@@ -68,7 +68,14 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
 
         <section>
           <h2 className="text-2xl font-bold text-foreground mb-4">{t('thirdParty')}</h2>
-          <p><strong>Groq:</strong> {t('thirdPartyGroq')} <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Groq</a>.</p>
+          <p>
+            {t('thirdPartyGroq')}{' '}
+            <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Groq</a>
+            {' · '}
+            <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">OpenAI</a>
+            {' · '}
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Google</a>
+          </p>
           <p><strong>Stripe:</strong> {t('thirdPartyStripe')}</p>
           <p><strong>Google Search Console:</strong> {t('thirdPartyGSC')}</p>
           <p>{t('thirdPartyNoShare')}</p>

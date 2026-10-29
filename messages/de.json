@@ -174,9 +174,9 @@
         },
         {
           "title": "Datenschutz zuerst",
-          "desc": "Alles bleibt standardmäßig lokal — kein Konto, keine Cloud-Verarbeitung im kostenlosen Modus. Ihr Audio, Ihre Daten.",
+          "desc": "Kein Konto, keine gespeicherten Aufnahmen. Im kostenlosen Modus arbeitet die Spracherkennung von Chrome, und nichts landet auf unseren Servern. Deine Transkripte bleiben in deinem Browser.",
           "chips": [
-            "Standardmäßig lokal",
+            "Transkripte bleiben im Browser",
             "Keine Anmeldung"
           ]
         },
@@ -219,12 +219,12 @@
       "title_line2": "für das, was Sie transkribieren.",
       "subtitle": "Starten Sie kostenlos mit Ihrem Mikrofon. Laden Sie auf, wenn Sie KI-gestützte Transkription brauchen — kein Abo, kein Ablaufdatum.",
       "whyPay": "Warum kostet der KI-Modus Geld?",
-      "whyPayDesc": "Der kostenlose Modus nutzt die integrierte Spracherkennung Ihres Browsers — lokal, sofort, kostenlos. Der KI-Modus sendet Ihr Audio an ein hochmodernes Cloud-KI-Modell. Diese Verarbeitung verursacht reale Kosten. Wir geben sie transparent weiter: Guthaben wird sekundengenau aus Ihrem Paket verbraucht, verfällt nie, und Sie bestimmen, wie schnell Sie es nutzen — je nach gewähltem Transkriptionsmodus.",
+      "whyPayDesc": "Der kostenlose Modus nutzt die integrierte Spracherkennung deines Browsers, die Google für Chrome bereitstellt, ohne dass uns Kosten entstehen: deshalb ist er sofort verfügbar und kostenlos. Der KI-Modus sendet dein Audio an ein modernes Cloud-KI-Modell. Diese Verarbeitung kostet echtes Geld. Wir geben die Kosten transparent weiter: Credits werden sekundengenau von deinem Paket abgezogen, verfallen nie, und du bestimmst über den gewählten Transkriptionsmodus, wie schnell du sie verbrauchst.",
       "freeLabel": "Kostenlos",
       "freeEngine": "Browser-Spracherkennung",
       "freePrice": "0 €",
       "freePriceSuffix": "für immer",
-      "freeDesc": "Nutzt die integrierte Sprach-Engine Ihres Browsers und Ihr Mikrofon. Vollständig lokal — kein Audio wird irgendwohin gesendet.",
+      "freeDesc": "Nutzt die integrierte Sprach-Engine deines Browsers und dein Mikrofon. Es wird nichts an die Server von LessonScriptor gesendet.",
       "freeFeatures": [
         "Transkription per Mikrofon",
         "Vollständige Bearbeitung — Markierungen, fett, Überschriften, Aufzählungen",
@@ -680,7 +680,7 @@
         },
         {
           "q": "Sind Chrome Live-Untertitel privat?",
-          "a": "Chromes integrierte Live-Untertitel verarbeiten Audio auf dem Gerät — nichts verlässt deinen Computer. LessonScriptors kostenloser Modus nutzt ebenfalls geräteseitige Spracherkennung. Der Premium-Modus sendet Audio zur besseren Genauigkeit an eine Cloud-API, aber nach der Transkription werden keine Daten gespeichert."
+          "a": "Chromes integrierte Live-Untertitel verarbeiten Audio auf dem Gerät — nichts verlässt deinen Computer. LessonScriptors kostenloser Modus funktioniert anders: Er nutzt den Spracherkennungsdienst von Chrome, der das Audio an Google sendet. Der KI-Modus sendet Audio für höhere Genauigkeit an ein Cloud-Transkriptionsmodell, und nach der Transkription wird kein Audio gespeichert."
         },
         {
           "q": "Warum erfasst der kostenlose Modus den Ton meines Videos nicht?",
@@ -696,7 +696,7 @@
   "transcribeVideo": {
     "h1": "Video in Text Umwandeln — Kostenlos, in Chrome",
     "subtitle": "Wandeln Sie jedes YouTube-Video, jede Vorlesungsaufnahme oder jeden Zoom-Anruf in Echtzeit in Text um. Kein Upload, kein Konto, kein Abo. Direkt in Chrome.",
-    "answer": "Der schnellste Weg, ein Video in Text umzuwandeln, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die in Echtzeit ein Transkript erzeugt, während das Video abgespielt wird. Funktioniert auf YouTube, Coursera, Udemy, Zoom und Hochschulportalen wie Moodle, ILIAS und Stud.IP. Der kostenlose Modus nutzt die Web Speech API (auf dem Gerät, privat); der Premium-Modus nutzt OpenAI Whisper für höhere Genauigkeit bei Akzenten, Fachvokabular und 14+ Sprachen.",
+    "answer": "Der schnellste Weg, ein Video in Text umzuwandeln, ist LessonScriptor — eine kostenlose Chrome-Erweiterung, die in Echtzeit ein Transkript erzeugt, während das Video abgespielt wird. Funktioniert auf YouTube, Coursera, Udemy, Zoom und Hochschulportalen wie Moodle, ILIAS und Stud.IP. Der kostenlose Modus nutzt die integrierte Spracherkennung von Chrome; der KI-Modus nutzt Cloud-Modelle der Whisper-Klasse für höhere Genauigkeit bei Akzenten und Fachvokabular, in 14 Sprachen.",
     "useCases": {
       "title": "Welche Videotypen können Sie in Text transkribieren?",
       "items": [
@@ -763,7 +763,7 @@
         },
         {
           "q": "Funktioniert LessonScriptor offline?",
-          "a": "Der kostenlose Modus funktioniert offline — er nutzt die im Browser integrierte Web Speech API, die lokal auf Ihrem Gerät läuft. Der Premium-KI-Modus benötigt eine Internetverbindung, um das Audio an die Cloud-Transkriptions-Engine zu senden."
+          "a": "Nein. Beide Modi brauchen eine Internetverbindung. Der kostenlose Modus nutzt die integrierte Spracherkennung von Chrome, die auf Servern von Google läuft, und der KI-Modus sendet Audio an ein Cloud-Transkriptionsmodell. Gespeicherte Transkripte und der Verlauf liegen im Browser, du kannst sie also offline öffnen und exportieren."
         },
         {
           "q": "Auf welchen Videoplattformen funktioniert LessonScriptor?",
@@ -802,8 +802,8 @@
           "desc": "Stapeltranskriptions-Tools erfordern den Download des Videos, Wartezeit und Import des Textes. LessonScriptor transkribiert direkt im Browser."
         },
         {
-          "title": "Datenschutz: lokale Verarbeitung",
-          "desc": "Der kostenlose Modus nutzt die Web Speech API von Chrome — die Audioverarbeitung erfolgt auf deinem Gerät, nichts wird an externe Server gesendet."
+          "title": "Datenschutz: keine Aufnahmen, kein Konto",
+          "desc": "LessonScriptor speichert nie Audio- oder Videodateien, und der kostenlose Modus braucht kein Konto. Er nutzt die integrierte Spracherkennung von Chrome (ein Dienst von Google), und deine Transkripte bleiben in deinem Browser."
         },
         {
           "title": "Kompatibel mit geschützten Uni-Plattformen",
@@ -947,7 +947,7 @@
           "An Otter-Server gesendet",
           "An Notta-Server gesendet",
           "An Tactiq-Server gesendet",
-          "Lokal (kostenlos) oder Cloud-KI (Premium)"
+          "Kostenlos: Chrome-Spracherkennung (Google). KI-Modus: Cloud-KI, nicht gespeichert"
         ]
       ]
     },
@@ -1015,8 +1015,8 @@
     "whoWeAreBody": "LessonScriptor ist eine Chrome-Erweiterung, die von Pierre Girardot entwickelt und betrieben wird. Wir verpflichten uns, Ihre Privatsphäre zu schützen und die Datenschutz-Grundverordnung (DSGVO) sowie andere anwendbare Datenschutzgesetze einzuhalten. Bei datenschutzbezogenen Fragen erreichen Sie uns unter contact@lessonscriptor.com.",
     "whatWeCollect": "Welche Daten wir erheben",
     "whatWeCollectBody1": "LessonScriptor wurde mit Datenschutz als Standard entwickelt. Wir erheben keine personenbezogenen Daten über Sie. Wir erstellen keine Konten für Sie und fragen niemals nach Ihrer E-Mail-Adresse. Keine Registrierung — niemals.",
-    "whatWeCollectMic": "Mikrofon-Modus: Die gesamte Audioverarbeitung erfolgt lokal auf Ihrem Gerät über die Web Speech API. Audio verlässt Ihr Gerät nie und wird nie an einen Server gesendet. Transkripte werden ausschließlich im lokalen Speicher Ihres Browsers gespeichert. Wir haben keinen Zugriff auf diese Daten.",
-    "whatWeCollectTab": "Tab-Audio-Modus: Bei Verwendung dieses Modus werden Audio-Fragmente des Browser-Tabs zur Transkription an Groq (api.groq.com) gesendet, unter Verwendung des Whisper-Modells. Groq speichert Audio-Daten nicht über die Anfrage hinaus. Transkripte werden ausschließlich lokal in Ihrem Browser gespeichert und nie an LessonScriptors Server übertragen. Wir speichern keine personenbezogenen Daten.",
+    "whatWeCollectMic": "Mikrofonmodus (kostenlos): Die Transkription nutzt die integrierte Spracherkennung deines Browsers (die Web Speech API). In Google Chrome stellt Google diesen Dienst bereit, daher wird das Audio, das dein Mikrofon aufnimmt, zur Umwandlung in Text an den Sprachdienst von Google gesendet; es gilt die Datenschutzerklärung von Google. Es wird kein Audio an die Server von LessonScriptor gesendet oder dort gespeichert. Transkripte werden nur im lokalen Speicher deines Browsers abgelegt, und wir haben keinen Zugriff darauf.",
+    "whatWeCollectTab": "Tab-Audio-Modus (KI-Modus): Das Audio des Browser-Tabs wird in kurzen Abschnitten über den Server von LessonScriptor an Groq (api.groq.com) gesendet und mit einem Whisper-Modell transkribiert. Ist Groq vorübergehend nicht erreichbar, geht der Abschnitt stattdessen an OpenAI (api.openai.com). Unser Server leitet Audio und erzeugten Text nur weiter und speichert beides nicht. Ist die Live-Vorschau aktiv (Standardeinstellung), wird dasselbe Tab-Audio zusätzlich an die Spracherkennung des Browsers (in Chrome: Google) gesendet, um sofort einen Entwurfstext anzuzeigen. Transkripte werden nur in deinem Browser gespeichert.",
     "whatWeCollectNoTracking": "Wir verwenden keine Cookies. Wir verwenden keine Analysetools. Wir verfolgen weder Ihr Browsing noch Ihr Verhalten oder Nutzungsmuster. Wir verkaufen keine Daten.",
     "localStorage": "Lokaler Speicher",
     "localStorageBody": "Ihre Transkripte und Erweiterungseinstellungen werden ausschließlich im lokalen Speicher Ihres Browsers gespeichert. Diese Daten befinden sich nur auf Ihrem Gerät. LessonScriptor hat keinen serverseitigen Speicher für Transkripte, Einstellungen oder Benutzerinformationen. Wenn Sie Ihre Browserdaten löschen, werden Ihre lokalen Transkripte gelöscht. Wir können nicht auf diese Daten zugreifen oder sie für Sie wiederherstellen.",
@@ -1024,7 +1024,7 @@
     "paymentsBody1": "Tab-Audio-Credits werden über Stripe erworben, einen Drittanbieter für Zahlungsabwicklung. Stripe verarbeitet Ihre Zahlungsdaten — Ihre Kartennummer und Rechnungsadresse werden vollständig von Stripe verarbeitet und erreichen niemals die Server von LessonScriptor.",
     "paymentsBody2": "Beim Kauf erstellt LessonScriptor einen Lizenzschlüssel, der mit der beim Bezahlen angegebenen E-Mail-Adresse verknüpft wird, damit wir Ihre Credits zuordnen und Ihnen bei Supportanfragen helfen können. Bitte beachten Sie die Datenschutzrichtlinie von Stripe für Details zur Verarbeitung Ihrer Zahlungsdaten.",
     "thirdParty": "Drittanbieterdienste",
-    "thirdPartyGroq": "Groq (api.groq.com): Der Tab-Audio-Modus verwendet Groqs Whisper-Modell für hochpräzise Transkription. Audio-Fragmente werden an Groq gesendet, verarbeitet und nicht über die Anfrage hinaus gespeichert. Bitte beachten Sie Groqs Datenschutzrichtlinie für Details.",
+    "thirdPartyGroq": "Sprachverarbeitung: Groq (api.groq.com) transkribiert Audio im KI-Modus mit einem Whisper-Modell; OpenAI (api.openai.com) dient als Ausweichlösung, wenn Groq nicht erreichbar ist. Laut ihren API-Bedingungen speichert keiner der beiden das Audio über die Anfrage hinaus. Der kostenlose Modus und die Live-Vorschau im KI-Modus nutzen die integrierte Spracherkennung des Browsers, in Chrome ein Dienst von Google. Details findest du in den Datenschutzerklärungen von Groq, OpenAI und Google.",
     "thirdPartyStripe": "Stripe: Verwaltet alle Zahlungen für Tab-Audio-Credits. Siehe Abschnitt Zahlungen oben.",
     "thirdPartyGSC": "Google Search Console: Wir nutzen Google Search Console zur Überwachung der aggregierten Suchleistung unserer Website (lessonscriptor.com). Dies beschränkt sich auf nicht personenbezogene Suchmetriken und verfolgt keine einzelnen Nutzer.",
     "thirdPartyNoShare": "Wir teilen Ihre Daten nicht mit anderen Dritten.",
@@ -1471,7 +1471,7 @@
         },
         {
           "q": "Wird die Stimme von Studierenden aufgezeichnet oder gespeichert?",
-          "a": "Im kostenlosen Modus verlässt nichts Ihren Computer, die Transkription läuft lokal über die Spracherkennung von Chrome. Im KI-Modus wird das Tab-Audio in kurzen Abschnitten an ein Cloud-Transkriptionsmodell gesendet und nicht gespeichert. Halten Sie sich vor dem Erfassen von Studierendenstimmen an die Regeln Ihrer Schule zu Aufzeichnungen, wie bei jeder Aufnahme."
+          "a": "LessonScriptor nimmt nie Audio auf und speichert es nicht. Im kostenlosen Modus läuft die Transkription über die integrierte Spracherkennung von Chrome, die das Audio an den Sprachdienst von Google sendet. Im KI-Modus wird das Tab-Audio in kurzen Abschnitten an ein Cloud-Transkriptionsmodell gesendet und nicht gespeichert. Halten Sie sich vor dem Erfassen von Studierendenstimmen an die Regeln Ihrer Schule zu Aufzeichnungen, wie bei jeder Aufnahme."
         },
         {
           "q": "Funktioniert es mit Zoom und Google Meet in einem Browser-Tab?",
