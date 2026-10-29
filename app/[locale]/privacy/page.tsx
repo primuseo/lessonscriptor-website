@@ -50,6 +50,9 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
           <p><strong>{t('whatWeCollectBody1')}</strong></p>
           <p>{t('whatWeCollectMic')}</p>
           <p>{t('whatWeCollectTab')}</p>
+          <p>{t('whatWeCollectPurchase')}</p>
+          <p>{t('whatWeCollectTrial')}</p>
+          <p>{t('whatWeCollectFeedback')}</p>
           <p>{t('whatWeCollectNoTracking')}</p>
         </section>
 
@@ -77,6 +80,8 @@ export default async function PrivacyPage({ params: { locale } }: { params: { lo
             <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Google</a>
           </p>
           <p><strong>Stripe:</strong> {t('thirdPartyStripe')}</p>
+          <p><strong>Resend:</strong> {t('thirdPartyResend')}</p>
+          <p><strong>Cloudflare:</strong> {t('thirdPartyHosting')}</p>
           <p><strong>Google Search Console:</strong> {t('thirdPartyGSC')}</p>
           <p>{t('thirdPartyNoShare')}</p>
         </section>

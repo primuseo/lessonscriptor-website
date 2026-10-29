@@ -5,6 +5,9 @@ export const routing = defineRouting({
   locales: ['en', 'fr', 'es', 'pt', 'de', 'zh'],
   defaultLocale: 'en',
   localePrefix: 'always',
+  // Every URL carries its locale, so the NEXT_LOCALE cookie adds nothing;
+  // the privacy policy promises the site sets no cookies.
+  localeCookie: false,
   pathnames: {
     '/': '/',
     '/transcribe-youtube-video': {
