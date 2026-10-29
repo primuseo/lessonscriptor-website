@@ -41,7 +41,7 @@ async function handleWeeklyReport(request: NextRequest): Promise<NextResponse> {
       sql`SELECT count(*) AS c FROM users`,
       sql`SELECT count(*) AS c FROM users WHERE is_trial`,
       sql`SELECT count(*) AS c FROM users WHERE total_seconds_purchased > 0`,
-      sql`SELECT count(*) AS c FROM users WHERE is_trial AND total_seconds_purchased > 0`,
+      sql`SELECT count(*) FILTER (WHERE converted_from_trial_at > NOW() - INTERVAL '7 days') AS w, count(*) AS c FROM users WHERE converted_from_trial_email IS NOT NULL`,
       sql`SELECT is_trial, count(*) AS c FROM users WHERE created_at > NOW() - INTERVAL '7 days' GROUP BY is_trial`,
       sql`SELECT count(*) AS c, coalesce(sum(seconds),0) AS s FROM credit_transactions WHERE type='purchase' AND created_at > NOW() - INTERVAL '7 days'`,
       sql`SELECT count(*) AS c, coalesce(sum(seconds),0) AS s FROM credit_transactions WHERE type='purchase'`,
@@ -82,7 +82,7 @@ New this week — trial: ${fmt(newTrial)}, non-trial: ${fmt(newNonTrial)}
 
 TRIALS & CONVERSION
 Total trial users ever: ${fmt(totalTrialUsers[0]?.c)}
-Trial users who ever converted to paid: ${fmt(trialConverted[0]?.c)}
+Buyers who activated their key over a trial: ${fmt(trialConverted[0]?.w)} this week, ${fmt(trialConverted[0]?.c)} all-time (tracked since 2026-10-29; lower bound: activations on another browser aren't linked)
 
 PURCHASES
 This week: ${fmt(purchasesWeek[0]?.c)} purchases, ${fmt(purchasesWeek[0]?.s)} seconds sold
