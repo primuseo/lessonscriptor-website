@@ -135,8 +135,29 @@ export default async function BlogPostPage({
   const post = getPost(canonical, locale)
   if (!post) notFound()
 
-  const schemas = (post.schemas || []).map(toJsonLd).filter(Boolean) as Record<string, unknown>[]
   const baseUrl = `https://lessonscriptor.com/${locale}`
+  // Content breadcrumbs mix relative paths, the old vercel.app domain and unprefixed
+  // URLs (GSC: invalid URL in itemListElement.item), so build the trail from the route.
+  const breadcrumb = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'LessonScriptor', item: baseUrl },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: `${baseUrl}/blog` },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: post.meta.title,
+        item: `${baseUrl}/blog/${getLocalizedSlug(canonical, locale)}`,
+      },
+    ],
+  }
+  const schemas = [
+    ...((post.schemas || []).map(toJsonLd).filter(
+      (s) => s && s['@type'] !== 'BreadcrumbList'
+    ) as Record<string, unknown>[]),
+    breadcrumb,
+  ]
 
   return (
     <>
