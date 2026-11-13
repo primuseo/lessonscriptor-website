@@ -16,11 +16,16 @@ const groqClient = process.env.GROQ_API_KEY
   ? new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: 'https://api.groq.com/openai/v1', timeout: 45_000, maxRetries: 0 })
   : null;
 
-// Groq retires models often; fall through on "model not found" or rate limits.
+// Groq retires models often and an org can block some (403), so fall through
+// the chain on model errors and rate limits. The log line names the model used.
 const MODEL_CHAIN = [
   process.env.MAGIC_MODEL,
   'llama-3.3-70b-versatile',
   'openai/gpt-oss-120b',
+  'meta-llama/llama-4-maverick-17b-128e-instruct',
+  'meta-llama/llama-4-scout-17b-16e-instruct',
+  'qwen/qwen3-32b',
+  'openai/gpt-oss-20b',
   'llama-3.1-8b-instant',
 ].filter((m, i, all): m is string => !!m && all.indexOf(m) === i);
 
@@ -38,7 +43,7 @@ async function isPayer(email: string): Promise<boolean> {
   return rows.length > 0 && (rows[0].is_unlimited === true || rows[0].paid === true);
 }
 
-async function complete(messages: ReturnType<typeof buildMessages>, inputChars: number): Promise<unknown> {
+async function complete(messages: ReturnType<typeof buildMessages>, inputChars: number): Promise<{ raw: unknown; model: string }> {
   let lastError: unknown;
   for (const model of MODEL_CHAIN) {
     try {
@@ -51,11 +56,11 @@ async function complete(messages: ReturnType<typeof buildMessages>, inputChars: 
         max_tokens: Math.min(8000, Math.ceil(inputChars / 2) + 600),
       });
       const content = res.choices[0]?.message?.content || '';
-      return JSON.parse(content);
+      return { raw: JSON.parse(content), model };
     } catch (err: unknown) {
       lastError = err;
       const status = (err as { status?: number })?.status;
-      const retryable = status === 429 || status === 404 || status === 400 || status === 503 || err instanceof SyntaxError;
+      const retryable = [400, 403, 404, 413, 429, 503].includes(status ?? 0) || err instanceof SyntaxError;
       console.warn(`[Magic] ${model} failed (${status ?? (err as Error)?.name})${retryable ? ', trying next model' : ''}`);
       if (!retryable) break;
     }
@@ -107,21 +112,23 @@ export async function POST(request: NextRequest) {
   const inputChars = messages[1].content.length;
   const started = Date.now();
 
+  // 500, not 502: Cloudflare replaces 502 bodies with its own HTML page.
   let raw: unknown;
+  let model: string;
   try {
-    raw = await complete(messages, inputChars);
+    ({ raw, model } = await complete(messages, inputChars));
   } catch {
-    return jsonResponse({ error: 'Magic is temporarily unavailable. Please try again.', code: 'upstream' }, 502, request);
+    return jsonResponse({ error: 'Magic is temporarily unavailable. Please try again.', code: 'upstream' }, 500, request);
   }
 
   if (parsed.mode === 'notes' || parsed.mode === 'notes_merge') {
     const notes = validateNotes(raw);
-    console.log(`[Magic] ${parsed.mode} chars=${inputChars} ok=${!!notes} ms=${Date.now() - started}`);
-    if (!notes) return jsonResponse({ error: 'Could not build notes. Please try again.', code: 'invalid_output' }, 502, request);
+    console.log(`[Magic] ${parsed.mode} model=${model} chars=${inputChars} ok=${!!notes} ms=${Date.now() - started}`);
+    if (!notes) return jsonResponse({ error: 'Could not build notes. Please try again.', code: 'invalid_output' }, 500, request);
     return jsonResponse({ notes }, 200, request);
   }
 
   const items = validateLineResults(parsed.mode, parsed.lines, raw);
-  console.log(`[Magic] ${parsed.mode} lines=${parsed.lines.length} applied=${items.length} chars=${inputChars} ms=${Date.now() - started}`);
+  console.log(`[Magic] ${parsed.mode} model=${model} lines=${parsed.lines.length} applied=${items.length} chars=${inputChars} ms=${Date.now() - started}`);
   return jsonResponse({ items }, 200, request);
 }
