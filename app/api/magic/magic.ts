@@ -33,8 +33,10 @@ const RATIO: Record<'format' | 'cleanup' | 'organize', [number, number]> = {
 }
 
 // Letters and digits in any script. Word counts break on CJK (no spaces).
+// Built with the constructor: tsconfig targets ES5, which rejects the u flag in literals.
+const LETTER = new RegExp('[\\p{L}\\p{N}]', 'gu')
 export function letterCount(s: string): number {
-  return (s.match(/[\p{L}\p{N}]/gu) || []).length
+  return (s.match(LETTER) || []).length
 }
 
 const isString = (v: unknown): v is string => typeof v === 'string'
