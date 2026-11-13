@@ -49,11 +49,9 @@ describe('validateLineResults', () => {
     expect(validateLineResults('cleanup', lines, raw)).toHaveLength(1)
   })
 
-  it('accepts a short organize heading and drops a long one', () => {
+  it('accepts a short organize heading', () => {
     const ok = { items: [{ id: 'l2', heading: 'Energy in the cell', paragraphs: ['Mitochondria make energy for the cell.'] }] }
     expect(validateLineResults('organize', lines, ok)[0].heading).toBe('Energy in the cell')
-    const long = { items: [{ id: 'l2', heading: 'one two three four five six seven eight nine ten eleven twelve', paragraphs: ['Mitochondria make energy for the cell.'] }] }
-    expect(validateLineResults('organize', lines, long)).toEqual([])
   })
 
   it('ignores a heading outside organize mode', () => {
@@ -139,5 +137,57 @@ describe('buildMessages', () => {
   it('asks organize for headings and notes for a summary', () => {
     expect(buildMessages('organize', { lines })[0].content).toMatch(/heading/i)
     expect(buildMessages('notes', { lines })[0].content).toMatch(/summary/i)
+  })
+})
+
+describe('review fixes: wording must be kept', () => {
+  const fr = [{ id: 'f1', text: "bon alors aujourd'hui on va parler de la révolution française qui commence en 1789 avec la convocation des états généraux" }]
+
+  it('drops a French line translated to English even if its length is similar', () => {
+    const raw = { items: [{ id: 'f1', paragraphs: ['So today we are going to talk about the French Revolution, which begins in 1789 with the summoning of the Estates General.'] }] }
+    expect(validateLineResults('format', fr, raw)).toEqual([])
+    expect(validateLineResults('cleanup', fr, raw)).toEqual([])
+  })
+
+  it('keeps a correctly formatted French line', () => {
+    const raw = { items: [{ id: 'f1', paragraphs: ["Bon, alors aujourd'hui, on va parler de la Révolution française, qui commence en 1789 avec la convocation des États généraux."] }] }
+    expect(validateLineResults('format', fr, raw)).toHaveLength(1)
+  })
+
+  it('drops a cleanup that keeps only ~55% of the text', () => {
+    const long = [{ id: 'c', text: 'the cell cycle is the series of events that a cell goes through as it grows and divides and there are two main phases interphase and the mitotic phase' }]
+    const raw = { items: [{ id: 'c', paragraphs: ['The cell cycle is the series of events a cell goes through as it grows.'] }] }
+    expect(validateLineResults('cleanup', long, raw)).toEqual([])
+  })
+
+  it('checks CJK text with character pairs', () => {
+    const cjk = [{ id: 'c1', text: '细胞是生命的基本单位线粒体为细胞提供能量' }]
+    const english = { items: [{ id: 'c1', paragraphs: ['The cell is the basic unit of life and mitochondria provide energy.'] }] }
+    expect(validateLineResults('format', cjk, english)).toEqual([])
+  })
+
+  it('keeps the paragraphs when only the organize heading is bad', () => {
+    const raw = { items: [{ id: 'l2', heading: 'one two three four five six seven eight nine ten eleven twelve', paragraphs: ['Mitochondria make energy for the cell.'] }] }
+    expect(validateLineResults('organize', lines, raw)).toEqual([{ id: 'l2', paragraphs: ['Mitochondria make energy for the cell.'] }])
+  })
+})
+
+describe('review fixes: notes merge size', () => {
+  it('accepts up to 40 partials and 40,000 characters', () => {
+    const partial = { summary: 'x'.repeat(800), key_points: ['a'.repeat(100)], terms: [] }
+    expect(validateRequest({ mode: 'notes_merge', partials: Array(30).fill(partial) }).ok).toBe(true)
+    expect(validateRequest({ mode: 'notes_merge', partials: Array(41).fill({ summary: 's', key_points: [], terms: [] }) }).ok).toBe(false)
+  })
+})
+
+describe('outputTokenBudget', () => {
+  it('gives token-heavy scripts more room than Latin text of the same length', async () => {
+    const { outputTokenBudget } = await import('./magic')
+    const latin = outputTokenBudget('word '.repeat(1000))
+    const cjk = outputTokenBudget('细胞是生命的基本单位'.repeat(500))
+    expect(cjk).toBeGreaterThan(5000)
+    expect(latin).toBeGreaterThan(1500)
+    expect(cjk).toBeGreaterThan(latin)
+    expect(outputTokenBudget('x'.repeat(100000))).toBe(8000)
   })
 })

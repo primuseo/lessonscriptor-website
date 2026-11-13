@@ -5,7 +5,7 @@ import { requireAuth, isAuthError } from '@/lib/auth';
 import { handlePreflight, jsonResponse } from '@/lib/cors';
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit';
 import { takeDailySlot } from './daily-cap';
-import { buildMessages, validateLineResults, validateNotes, validateRequest } from './magic';
+import { buildMessages, outputTokenBudget, validateLineResults, validateNotes, validateRequest } from './magic';
 
 // "Magic" transcript tools for the extension (Format, Clean up, Organize, Notes).
 // Payers only, no hours deducted. Transcript text is never logged.
@@ -13,7 +13,7 @@ import { buildMessages, validateLineResults, validateNotes, validateRequest } fr
 export const maxDuration = 60;
 
 const groqClient = process.env.GROQ_API_KEY
-  ? new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: 'https://api.groq.com/openai/v1', timeout: 45_000, maxRetries: 0 })
+  ? new OpenAI({ apiKey: process.env.GROQ_API_KEY, baseURL: 'https://api.groq.com/openai/v1', maxRetries: 0 })
   : null;
 
 // Groq retires models often and an org can block some (403), so fall through
@@ -43,26 +43,38 @@ async function isPayer(email: string): Promise<boolean> {
   return rows.length > 0 && (rows[0].is_unlimited === true || rows[0].paid === true);
 }
 
-async function complete(messages: ReturnType<typeof buildMessages>, inputChars: number): Promise<{ raw: unknown; model: string }> {
-  let lastError: unknown;
+// Cloudflare drops the connection at 100 s; keep the whole chain well under it.
+const CHAIN_BUDGET_MS = 50_000;
+// Only "this model is unavailable to us" and rate limits move on to the next
+// model. A cut-off or invalid answer would fail the same way on the next one.
+const NEXT_MODEL_STATUSES = new Set([403, 404, 429, 503]);
+
+async function complete(messages: ReturnType<typeof buildMessages>, maxTokens: number): Promise<{ raw: unknown; model: string }> {
+  const deadline = Date.now() + CHAIN_BUDGET_MS;
+  let lastError: unknown = new Error('No model available');
   for (const model of MODEL_CHAIN) {
+    const remaining = deadline - Date.now();
+    if (remaining < 3_000) break;
     try {
       const res = await groqClient!.chat.completions.create({
         model,
         messages,
         temperature: 0.2,
         response_format: { type: 'json_object' },
-        // Output is about the size of the input; tokens ≈ chars / 3 for safety on non-Latin scripts.
-        max_tokens: Math.min(8000, Math.ceil(inputChars / 2) + 600),
-      });
-      const content = res.choices[0]?.message?.content || '';
-      return { raw: JSON.parse(content), model };
+        max_tokens: maxTokens,
+      }, { timeout: remaining });
+      const choice = res.choices[0];
+      if (choice?.finish_reason === 'length') {
+        console.warn(`[Magic] ${model} hit max_tokens=${maxTokens}`);
+        throw new Error('Output cut off');
+      }
+      return { raw: JSON.parse(choice?.message?.content || ''), model };
     } catch (err: unknown) {
       lastError = err;
       const status = (err as { status?: number })?.status;
-      const retryable = [400, 403, 404, 413, 429, 503].includes(status ?? 0) || err instanceof SyntaxError;
-      console.warn(`[Magic] ${model} failed (${status ?? (err as Error)?.name})${retryable ? ', trying next model' : ''}`);
-      if (!retryable) break;
+      const next = NEXT_MODEL_STATUSES.has(status ?? 0);
+      console.warn(`[Magic] ${model} failed (${status ?? (err as Error)?.message})${next ? ', trying next model' : ''}`);
+      if (!next) break;
     }
   }
   throw lastError;
@@ -116,7 +128,7 @@ export async function POST(request: NextRequest) {
   let raw: unknown;
   let model: string;
   try {
-    ({ raw, model } = await complete(messages, inputChars));
+    ({ raw, model } = await complete(messages, outputTokenBudget(messages[1].content)));
   } catch {
     return jsonResponse({ error: 'Magic is temporarily unavailable. Please try again.', code: 'upstream' }, 500, request);
   }

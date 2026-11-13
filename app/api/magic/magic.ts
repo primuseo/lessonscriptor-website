@@ -15,7 +15,8 @@ export type ChatMessage = { role: 'system' | 'user'; content: string }
 
 export const MAX_LINES = 80
 export const MAX_CHARS = 12_000
-const MAX_PARTIALS = 20
+const MAX_PARTIALS = 40
+const MAX_MERGE_CHARS = 40_000
 const MAX_LIST = 12
 const MAX_HEADING_WORDS = 10
 const MAX_HEADING_CHARS = 80
@@ -28,7 +29,7 @@ const LINE_MODES = new Set<MagicMode>(['format', 'cleanup', 'organize'])
 // every word; Clean up may drop fillers and repeats but not whole sentences.
 const RATIO: Record<'format' | 'cleanup' | 'organize', [number, number]> = {
   format: [0.9, 1.1],
-  cleanup: [0.5, 1.05],
+  cleanup: [0.75, 1.05],
   organize: [0.9, 1.1],
 }
 
@@ -58,7 +59,7 @@ export function validateRequest(body: unknown): ValidRequest | InvalidRequest {
     }
     const valid = partials.map(validateNotes)
     if (valid.some(n => n === null)) return { ok: false, error: 'Invalid partials' }
-    if (JSON.stringify(valid).length > MAX_CHARS) return { ok: false, error: 'Too much text' }
+    if (JSON.stringify(valid).length > MAX_MERGE_CHARS) return { ok: false, error: 'Too much text' }
     return { ok: true, mode, partials: valid as Notes[], language: lang }
   }
 
@@ -157,6 +158,36 @@ function ratioOk(mode: 'format' | 'cleanup' | 'organize', input: string, output:
   return b / a >= min && b / a <= max
 }
 
+// Word tokens, or character pairs for scripts written without spaces (CJK, Thai),
+// so translations and rewording show up as a low overlap with the source.
+const WORD = new RegExp('[\\p{L}\\p{N}]+', 'gu')
+const LETTERS_ONLY = new RegExp('[^\\p{L}\\p{N}]', 'gu')
+const NO_SPACE_SCRIPT = new RegExp('[\\p{Script=Han}\\p{Script=Hiragana}\\p{Script=Katakana}\\p{Script=Thai}\\p{Script=Lao}\\p{Script=Khmer}\\p{Script=Myanmar}]', 'u')
+function tokens(s: string, pairs: boolean): string[] {
+  if (!pairs) return s.toLowerCase().match(WORD) || []
+  const chars = s.toLowerCase().replace(LETTERS_ONLY, '')
+  const out: string[] = []
+  for (let i = 0; i < chars.length - 1; i++) out.push(chars.slice(i, i + 2))
+  return out
+}
+
+// Share of `from` tokens that also appear in `to`.
+function coverage(from: string[], to: string[]): number {
+  if (from.length === 0) return 1
+  const set = new Set(to)
+  return from.filter(t => set.has(t)).length / from.length
+}
+
+// Format/Organize keep the speaker's words: most input tokens must survive.
+// Clean up only removes: nearly every output token must come from the input.
+function wordingOk(mode: 'format' | 'cleanup' | 'organize', input: string, output: string): boolean {
+  const pairs = NO_SPACE_SCRIPT.test(input)
+  const a = tokens(input, pairs)
+  const b = tokens(output, pairs)
+  if (a.length < 6) return true
+  return mode === 'cleanup' ? coverage(b, a) >= 0.9 : coverage(a, b) >= 0.85
+}
+
 // Returns only the items that are safe to apply. Anything else is dropped, so
 // the extension keeps that line's original text.
 export function validateLineResults(mode: MagicMode, lines: MagicLine[], raw: unknown): LineResult[] {
@@ -178,13 +209,13 @@ export function validateLineResults(mode: MagicMode, lines: MagicLine[], raw: un
     if (!Array.isArray(paragraphs) || paragraphs.length === 0 || !paragraphs.every(isString)) continue
     const cleaned = paragraphs.map(p => p.trim()).filter(Boolean)
     if (cleaned.length === 0) continue
-    if (!ratioOk(mode as 'format' | 'cleanup' | 'organize', byId.get(id)!, cleaned.join(' '))) continue
+    const lineMode = mode as 'format' | 'cleanup' | 'organize'
+    const output = cleaned.join(' ')
+    if (!ratioOk(lineMode, byId.get(id)!, output) || !wordingOk(lineMode, byId.get(id)!, output)) continue
 
     const result: LineResult = { id, paragraphs: cleaned }
-    if (mode === 'organize' && heading !== undefined && heading !== null && heading !== '') {
-      if (!isString(heading) || !headingOk(heading)) continue
-      result.heading = heading.trim()
-    }
+    // A bad heading is dropped on its own; the formatted text is still good.
+    if (mode === 'organize' && isString(heading) && headingOk(heading)) result.heading = heading.trim()
     results.push(result)
   }
   return results
@@ -207,4 +238,13 @@ export function validateNotes(raw: unknown): Notes | null {
     key_points: points.slice(0, MAX_LIST),
     terms: cleanTerms.slice(0, MAX_LIST),
   }
+}
+
+// Ceiling for the model's answer (not what is billed). Latin text runs about
+// 4 letters per token; CJK, Devanagari, Arabic etc. can need a token per letter.
+const LATIN_LETTER = new RegExp('[\\p{Script=Latin}\\p{N}]', 'gu')
+export function outputTokenBudget(text: string): number {
+  const letters = letterCount(text)
+  const latin = (text.match(LATIN_LETTER) || []).length
+  return Math.min(8000, Math.ceil(600 + latin * 0.4 + (letters - latin) * 1.3))
 }
