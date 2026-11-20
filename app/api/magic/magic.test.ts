@@ -138,6 +138,14 @@ describe('buildMessages', () => {
     expect(buildMessages('organize', { lines })[0].content).toMatch(/heading/i)
     expect(buildMessages('notes', { lines })[0].content).toMatch(/summary/i)
   })
+
+  it('tells notes and notes_merge not to add facts the lecturer did not say, and not to pad', () => {
+    for (const mode of ['notes', 'notes_merge'] as const) {
+      const system = buildMessages(mode, mode === 'notes' ? { lines } : { partials: [] })[0].content
+      expect(system).toMatch(/background knowledge/i)
+      expect(system).toMatch(/never pad/i)
+    }
+  })
 })
 
 describe('review fixes: wording must be kept', () => {

@@ -96,6 +96,15 @@ const LINE_FORMAT = [
   'Split long text into paragraphs of 2-5 sentences at natural topic shifts.',
 ].join('\n')
 
+// Students revise from these notes, so they must be able to trust that every
+// point came from the lecture. The model otherwise "helps" with textbook facts.
+const NOTES_FAITHFUL = [
+  'Write only what the lecturer actually said. Do not add background knowledge, mechanisms, examples,',
+  'consequences or conclusions that are not in the input, even if they are true.',
+  'Short lectures get short notes: never pad to reach a number of points or sentences.',
+  'If the lecture does not explain a term, keep the definition to what the lecture implies, or leave the term out.',
+].join('\n')
+
 const MODE_RULES: Record<MagicMode, string> = {
   format: [
     LINE_FORMAT,
@@ -117,16 +126,17 @@ const MODE_RULES: Record<MagicMode, string> = {
   ].join('\n'),
   notes: [
     'Input: {"lines":[{"id","text"}]}, consecutive parts of one lecture.',
-    'Output: {"summary":"3-5 sentences","key_points":["..."],"terms":[{"term":"...","definition":"..."}]}.',
-    'Task: write study notes. key_points: up to 10 short, self-contained points in lecture order.',
-    'terms: up to 8 key terms or names that the lecture defines or relies on, with one-sentence definitions.',
-    'Only use information from the transcript.',
+    'Output: {"summary":"1-5 sentences","key_points":["..."],"terms":[{"term":"...","definition":"..."}]}.',
+    'Task: write study notes. key_points: one short, self-contained point per idea the lecturer states, in lecture order, at most 10.',
+    'terms: at most 8 key terms or names the lecture uses. Define each using what the lecturer said about it.',
+    NOTES_FAITHFUL,
   ].join('\n'),
   notes_merge: [
     'Input: {"partials":[{"summary","key_points","terms"}]}, notes on consecutive parts of one lecture.',
-    'Output: {"summary":"3-6 sentences","key_points":["..."],"terms":[{"term":"...","definition":"..."}]}.',
+    'Output: {"summary":"1-6 sentences","key_points":["..."],"terms":[{"term":"...","definition":"..."}]}.',
     'Task: merge them into one set of study notes for the whole lecture. Remove duplicates.',
-    'key_points: up to 12, in lecture order. terms: up to 12. Only use information from the input.',
+    'key_points: at most 12, in lecture order. terms: at most 12.',
+    NOTES_FAITHFUL,
   ].join('\n'),
 }
 
