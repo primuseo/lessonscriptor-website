@@ -20,13 +20,10 @@ const groqClient = process.env.GROQ_API_KEY
 // the chain on model errors and rate limits. The log line names the model used.
 const MODEL_CHAIN = [
   process.env.MAGIC_MODEL,
-  'llama-3.3-70b-versatile',
   'openai/gpt-oss-120b',
-  'meta-llama/llama-4-maverick-17b-128e-instruct',
-  'meta-llama/llama-4-scout-17b-16e-instruct',
-  'qwen/qwen3-32b',
+  'qwen/qwen3.8-27b',
+  'qwen/qwen3.6-27b',
   'openai/gpt-oss-20b',
-  'llama-3.1-8b-instant',
 ].filter((m, i, all): m is string => !!m && all.indexOf(m) === i);
 
 export async function OPTIONS(request: NextRequest) {
