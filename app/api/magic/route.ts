@@ -46,6 +46,11 @@ const CHAIN_BUDGET_MS = 50_000;
 // model. A cut-off or invalid answer would fail the same way on the next one.
 const NEXT_MODEL_STATUSES = new Set([403, 404, 429, 503]);
 
+// gpt-oss and qwen3 think before answering, and that thinking counts against
+// max_tokens. Keep gpt-oss thinking short and leave room for it on every model.
+const REASONING_HEADROOM = 2_000;
+const isGptOss = (model: string) => model.startsWith('openai/gpt-oss');
+
 async function complete(messages: ReturnType<typeof buildMessages>, maxTokens: number): Promise<{ raw: unknown; model: string }> {
   const deadline = Date.now() + CHAIN_BUDGET_MS;
   let lastError: unknown = new Error('No model available');
@@ -58,11 +63,12 @@ async function complete(messages: ReturnType<typeof buildMessages>, maxTokens: n
         messages,
         temperature: 0.2,
         response_format: { type: 'json_object' },
-        max_tokens: maxTokens,
+        max_tokens: maxTokens + REASONING_HEADROOM,
+        ...(isGptOss(model) ? { reasoning_effort: 'low' as const } : {}),
       }, { timeout: remaining });
       const choice = res.choices[0];
       if (choice?.finish_reason === 'length') {
-        console.warn(`[Magic] ${model} hit max_tokens=${maxTokens}`);
+        console.warn(`[Magic] ${model} hit max_tokens=${maxTokens + REASONING_HEADROOM} (used ${res.usage?.completion_tokens ?? '?'})`);
         throw new Error('Output cut off');
       }
       return { raw: JSON.parse(choice?.message?.content || ''), model };
