@@ -6,6 +6,8 @@
 export type MagicMode = 'format' | 'cleanup' | 'organize' | 'notes' | 'notes_merge'
 export type MagicLine = { id: string; text: string }
 export type LineResult = { id: string; heading?: string; paragraphs: string[] }
+// Why a line was not applied. Ids and numbers only, never transcript text.
+export type Rejection = { id: string; reason: string }
 export type Notes = {
   summary: string
   key_points: string[]
@@ -200,10 +202,18 @@ function wordingOk(mode: 'format' | 'cleanup' | 'organize', input: string, outpu
 
 // Returns only the items that are safe to apply. Anything else is dropped, so
 // the extension keeps that line's original text.
-export function validateLineResults(mode: MagicMode, lines: MagicLine[], raw: unknown): LineResult[] {
+export function validateLineResults(
+  mode: MagicMode,
+  lines: MagicLine[],
+  raw: unknown,
+  rejected: Rejection[] = []
+): LineResult[] {
   if (!LINE_MODES.has(mode)) return []
   const items = (raw as { items?: unknown } | null)?.items
-  if (!Array.isArray(items)) return []
+  if (!Array.isArray(items)) {
+    rejected.push({ id: '*', reason: 'no_items' })
+    return []
+  }
 
   const byId = new Map(lines.map(l => [l.id, l.text]))
   const seen = new Map<string, number>()
@@ -215,19 +225,30 @@ export function validateLineResults(mode: MagicMode, lines: MagicLine[], raw: un
   const results: LineResult[] = []
   for (const item of items) {
     const { id, heading, paragraphs } = (item || {}) as Record<string, unknown>
-    if (!isString(id) || !byId.has(id) || seen.get(id) !== 1) continue
-    if (!Array.isArray(paragraphs) || paragraphs.length === 0 || !paragraphs.every(isString)) continue
+    if (!isString(id) || !byId.has(id)) continue
+    if (seen.get(id) !== 1) { rejected.push({ id, reason: 'duplicate' }); continue }
+    if (!Array.isArray(paragraphs) || paragraphs.length === 0 || !paragraphs.every(isString)) {
+      rejected.push({ id, reason: 'no_paragraphs' })
+      continue
+    }
     const cleaned = paragraphs.map(p => p.trim()).filter(Boolean)
-    if (cleaned.length === 0) continue
+    if (cleaned.length === 0) { rejected.push({ id, reason: 'no_paragraphs' }); continue }
     const lineMode = mode as 'format' | 'cleanup' | 'organize'
+    const input = byId.get(id)!
     const output = cleaned.join(' ')
-    if (!ratioOk(lineMode, byId.get(id)!, output) || !wordingOk(lineMode, byId.get(id)!, output)) continue
+    if (!ratioOk(lineMode, input, output)) {
+      rejected.push({ id, reason: `ratio ${(letterCount(output) / Math.max(1, letterCount(input))).toFixed(2)}` })
+      continue
+    }
+    if (!wordingOk(lineMode, input, output)) { rejected.push({ id, reason: 'wording' }); continue }
 
     const result: LineResult = { id, paragraphs: cleaned }
     // A bad heading is dropped on its own; the formatted text is still good.
     if (mode === 'organize' && isString(heading) && headingOk(heading)) result.heading = heading.trim()
     results.push(result)
   }
+  const returned = new Set(results.map(r => r.id).concat(rejected.map(r => r.id)))
+  for (const line of lines) if (!returned.has(line.id)) rejected.push({ id: line.id, reason: 'missing' })
   return results
 }
 

@@ -5,7 +5,7 @@ import { requireAuth, isAuthError } from '@/lib/auth';
 import { handlePreflight, jsonResponse } from '@/lib/cors';
 import { checkRateLimit, getClientIp } from '@/lib/rate-limit';
 import { takeDailySlot } from './daily-cap';
-import { buildMessages, outputTokenBudget, validateLineResults, validateNotes, validateRequest } from './magic';
+import { buildMessages, outputTokenBudget, validateLineResults, validateNotes, validateRequest, type Rejection } from './magic';
 
 // "Magic" transcript tools for the extension (Format, Clean up, Organize, Notes).
 // Payers only, no hours deducted. Transcript text is never logged.
@@ -143,7 +143,9 @@ export async function POST(request: NextRequest) {
     return jsonResponse({ notes }, 200, request);
   }
 
-  const items = validateLineResults(parsed.mode, parsed.lines, raw);
-  console.log(`[Magic] ${parsed.mode} model=${model} lines=${parsed.lines.length} applied=${items.length} chars=${inputChars} ms=${Date.now() - started}`);
-  return jsonResponse({ items }, 200, request);
+  const rejected: Rejection[] = [];
+  const items = validateLineResults(parsed.mode, parsed.lines, raw, rejected);
+  const reasons = rejected.map(r => r.reason.split(' ')[0]).join(',');
+  console.log(`[Magic] ${parsed.mode} model=${model} lines=${parsed.lines.length} applied=${items.length} chars=${inputChars} ms=${Date.now() - started}${reasons ? ` rejected=${reasons}` : ''}`);
+  return jsonResponse({ items, rejected }, 200, request);
 }

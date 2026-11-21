@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import {
+  type Rejection,
   buildMessages,
   letterCount,
   validateLineResults,
@@ -197,5 +198,33 @@ describe('outputTokenBudget', () => {
     expect(latin).toBeGreaterThan(1500)
     expect(cjk).toBeGreaterThan(latin)
     expect(outputTokenBudget('x'.repeat(100000))).toBe(8000)
+  })
+})
+
+describe('rejection reasons', () => {
+  it('reports why each line was not applied, without its text', () => {
+    const lines = [
+      { id: 'a', text: 'one two three four five six seven eight' },
+      { id: 'b', text: 'nine ten eleven twelve thirteen fourteen fifteen' },
+      { id: 'c', text: 'sixteen seventeen' },
+    ]
+    const rejected: Rejection[] = []
+    const items = validateLineResults('format', lines, {
+      items: [
+        { id: 'a', paragraphs: ['One two three four five six seven eight.'] },
+        { id: 'b', paragraphs: ['Nine.'] },
+      ],
+    }, rejected)
+    expect(items.map(i => i.id)).toEqual(['a'])
+    expect(rejected).toEqual([
+      { id: 'b', reason: expect.stringMatching(/^ratio 0\.\d\d$/) },
+      { id: 'c', reason: 'missing' },
+    ])
+  })
+
+  it('reports a reply without items', () => {
+    const rejected: Rejection[] = []
+    validateLineResults('format', [{ id: 'a', text: 'x' }], { lines: [] }, rejected)
+    expect(rejected).toEqual([{ id: '*', reason: 'no_items' }])
   })
 })
